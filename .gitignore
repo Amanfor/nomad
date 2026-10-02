@@ -44,9 +44,6 @@ src/data/context/.obsidian/
 *.temp
 
 # large generated files
-*.mp3
-*.wav
-*.webp
 *.png
 *.jpg
 *.jpeg
