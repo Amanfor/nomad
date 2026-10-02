@@ -33,6 +33,17 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: List dist contents
+        run: |
+          echo "=== dist folder size ==="
+          du -sh dist
+          echo "=== dist contents ==="
+          ls -la dist/
+          echo "=== media folder ==="
+          ls -la dist/media/ | head -20
+          echo "=== audio files ==="
+          ls -la dist/*.mp3 dist/*.wav 2>/dev/null
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
