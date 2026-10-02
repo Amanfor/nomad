@@ -4,6 +4,10 @@ import Fuse from 'fuse.js';
 import katex from 'katex';
 import { marked } from 'marked';
 
+/* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
+const BASE_URL = (import.meta as any).env?.BASE_URL || '/';
+const asset = (path: string) => `${BASE_URL}${path.replace(/^\//, '')}`;
+
 export interface Concept {
   id: string;
   title: string;
@@ -3654,9 +3658,9 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
       try {
         const parsed = rawBuzz ? JSON.parse(rawBuzz) : {};
         if (parsed.enableBuzz !== false) {
-          const audio = new Audio('/buzz_wrong.wav');
+          const audio = new Audio(asset('buzz_wrong.wav'));
           audio.play().catch(() => {});
-          const audio2 = new Audio('/buzz_wrong.wav');
+          const audio2 = new Audio(asset('buzz_wrong.wav'));
           setTimeout(() => audio2.play().catch(() => {}), 50);
         }
       } catch (e) {}
@@ -4414,7 +4418,7 @@ export default function NomadApp() {
       // Stage 0 → 1: eye finishes opening, then the title appears.
       if (!await advance(1, 2600, 800)) return;
       gaze('nomad-title', 'title');
-      await playVoice('/welcome_to_nomad.mp3', 2600);
+      await playVoice(asset('welcome_to_nomad.mp3'), 2600);
       if (cancelled) return;
       releaseGaze();
 
@@ -4423,28 +4427,28 @@ export default function NomadApp() {
       if (!await advance(2, 400, 120)) return;
       inputControls.start({ opacity: 1, y: 0, transition: { duration: 0.6 } });
       gaze('nomad-search-input', 'search');
-      await playVoice('/intro_search.mp3', 4200);
+      await playVoice(asset('intro_search.mp3'), 4200);
       if (cancelled) return;
       releaseGaze();
 
       // Stage 3: practice button.
       if (!await advance(3, 400, 500)) return;
       gaze('nomad-practice-btn', 'practice');
-      await playVoice('/intro_practice.mp3', 3100);
+      await playVoice(asset('intro_practice.mp3'), 3100);
       if (cancelled) return;
       releaseGaze();
 
       // Stage 4: stats button.
       if (!await advance(4, 400, 500)) return;
       gaze('nomad-stats-btn', 'stats');
-      await playVoice('/intro_stats.mp3', 3300);
+      await playVoice(asset('intro_stats.mp3'), 3300);
       if (cancelled) return;
       releaseGaze();
 
       // Stage 5: database / concepts footer.
       if (!await advance(5, 400, 500)) return;
       gaze('nomad-concepts', 'concepts');
-      await playVoice('/intro_database.mp3', 3300);
+      await playVoice(asset('intro_database.mp3'), 3300);
       if (cancelled) return;
       releaseGaze();
 
@@ -4452,7 +4456,7 @@ export default function NomadApp() {
       if (!await advance(6, 500, 600)) return;
       paranoiaStartedAtRef.current = Date.now();
       setIsMultiEye(true);
-      await playVoice('/intro_reminder.mp3', 4100);
+      await playVoice(asset('intro_reminder.mp3'), 4100);
       if (cancelled) return;
       closeParanoia();
       try { localStorage.setItem('nomad-intro-done', '1'); } catch (e) {}
@@ -4790,8 +4794,8 @@ export default function NomadApp() {
       <style>{`
         .nomad-light img { filter: invert(1); }
       `}</style>
-      <audio ref={welcomeAudioRef} src="/welcome_to_nomad.mp3" preload="auto" />
-      <audio ref={paranoiaAudioRef} src="/paranoia_activated.mp3" preload="auto" />
+      <audio ref={welcomeAudioRef} src={asset("welcome_to_nomad.mp3")} preload="auto" />
+      <audio ref={paranoiaAudioRef} src={asset("paranoia_activated.mp3")} preload="auto" />
 
       <TodoWidget isMobile={isMobile} alwaysGlow={settings.alwaysGlow} />
       
