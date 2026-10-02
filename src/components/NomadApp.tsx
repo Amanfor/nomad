@@ -3963,52 +3963,50 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
         ))}
       </div>
 
-      {/* GitHub database sync */}
-      <GitHubSyncPanel isMobile={isMobile} concepts={concepts} />
+      {/* One-click database sync from GitHub (public fetch) */}
+      <div style={{ marginTop: isMobile ? '2rem' : '3rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: isMobile ? '1.5rem' : '2rem' }}>
+        <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>database sync</div>
+        <SyncDatabaseButton isMobile={isMobile} concepts={concepts} />
+      </div>
     </motion.div>
   );
 }
 
-function GitHubSyncPanel({ isMobile, concepts }: { isMobile: boolean, concepts?: Concept[] }) {
-  const [cfg, setCfg] = useState<{ token: string, owner: string, repo: string, branch: string }>({ token: '', owner: '', repo: '', branch: 'main' });
+function SyncDatabaseButton({ isMobile, concepts }: { isMobile: boolean, concepts?: Concept[] }) {
   const [status, setStatus] = useState<string>('');
   const [busy, setBusy] = useState(false);
 
-  useEffect(() => {
-    try {
-      const raw = localStorage.getItem('nomad-github-sync');
-      if (raw) setCfg({ ...cfg, ...JSON.parse(raw) });
-    } catch (e) {}
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const update = (key: keyof typeof cfg, value: string) => {
-    const next = { ...cfg, [key]: value };
-    setCfg(next);
-    try { localStorage.setItem('nomad-github-sync', JSON.stringify(next)); } catch (e) {}
-  };
+  // Hardcoded repo info — adjust if needed
+  const REPO_OWNER = 'Amanfor';
+  const REPO_NAME = 'nomad';
+  const BRANCH = 'main';
+  const SYNC_URL = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${BRANCH}/nomad-database.json`;
 
   const sync = async () => {
     if (busy) return;
     setBusy(true);
-    setStatus('syncing...');
+    setStatus('fetching...');
     try {
-      const { token, owner, repo, branch } = cfg;
-      if (!token || !owner || !repo) throw new Error('Set token, owner and repo first.');
-      const headers: any = { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' };
-      const path = 'nomad-database.json';
-      let sha: string | undefined;
-      try {
-        const get = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`, { headers });
-        if (get.ok) { const j = await get.json(); sha = j.sha; }
-      } catch (e) {}
-      const payload = { syncedAt: new Date().toISOString(), concepts, microQuestions: MICRO_QUESTIONS, targetQuestions: TARGET_QUESTIONS };
-      const b64 = btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 2))));
-      const body: any = { message: `nomad database sync ${new Date().toISOString()}`, content: b64, branch };
-      if (sha) body.sha = sha;
-      const put = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}`, { method: 'PUT', headers, body: JSON.stringify(body) });
-      if (!put.ok) throw new Error(await put.text());
-      setStatus(`synced ✓ ${new Date().toLocaleTimeString()} — ${concepts?.length ?? 0} concepts, ${TARGET_QUESTIONS.length} target, ${MICRO_QUESTIONS.length} micro`);
+      const res = await fetch(SYNC_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+      const payload = await res.json();
+      if (!payload || !Array.isArray(payload.concepts)) throw new Error('Invalid database format');
+      // Apply synced data
+      const { concepts: syncedConcepts, microQuestions, targetQuestions } = payload;
+      if (syncedConcepts?.length) {
+        // Update concepts state via the parent's setConcepts (passed via context or we reload)
+        // For simplicity, write to localStorage and reload
+        try { localStorage.setItem('nomad-synced-concepts', JSON.stringify(syncedConcepts)); } catch (e) {}
+      }
+      if (microQuestions?.length) {
+        try { localStorage.setItem('nomad-synced-micro', JSON.stringify(microQuestions)); } catch (e) {}
+      }
+      if (targetQuestions?.length) {
+        try { localStorage.setItem('nomad-synced-target', JSON.stringify(targetQuestions)); } catch (e) {}
+      }
+      setStatus(`synced ✓ ${new Date().toLocaleTimeString()} — ${syncedConcepts?.length ?? 0} concepts, ${targetQuestions?.length ?? 0} target, ${microQuestions?.length ?? 0} micro`);
+      // Reload to apply new data
+      setTimeout(() => window.location.reload(), 800);
     } catch (e: any) {
       setStatus(`failed: ${e.message || e}`);
     } finally {
@@ -4016,29 +4014,17 @@ function GitHubSyncPanel({ isMobile, concepts }: { isMobile: boolean, concepts?:
     }
   };
 
-  const input = (key: keyof typeof cfg, placeholder: string, type: string = 'text') => (
-    <input
-      type={type}
-      value={cfg[key]}
-      placeholder={placeholder}
-      onChange={(e) => update(key, e.target.value)}
-      style={{ background: 'transparent', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)', color: '#fff', fontSize: isMobile ? '0.9rem' : '0.8rem', padding: '0.4rem 0', outline: 'none', letterSpacing: '0.05em', width: '100%' }}
-    />
-  );
-
   return (
-    <div style={{ marginTop: isMobile ? '2rem' : '3rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: isMobile ? '1.5rem' : '2rem' }}>
-      <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>github database sync</div>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginBottom: '1rem' }}>
-        {input('token', 'personal access token', 'password')}
-        {input('owner', 'repo owner (username or org)')}
-        {input('repo', 'repo name')}
-        {input('branch', 'branch (default main)')}
-      </div>
-      <button className="nomad-btn" onClick={sync} style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', opacity: busy ? 0.5 : 1 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
+      <button 
+        className="nomad-btn" 
+        onClick={sync} 
+        disabled={busy}
+        style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', opacity: busy ? 0.5 : 1, minWidth: '200px' }}
+      >
         ⟨ {busy ? 'syncing...' : 'sync database'} ⟩
       </button>
-      {status && <div style={{ marginTop: '0.75rem', fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', wordBreak: 'break-word' }}>{status}</div>}
+      {status && <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', wordBreak: 'break-word', textAlign: 'center' }}>{status}</div>}
     </div>
   );
 }
