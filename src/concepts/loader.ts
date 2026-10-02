@@ -1,0 +1,61 @@
+import type { Concept } from './types';
+
+/* Base URL helper — Astro base is '/nomad' on GitHub Pages, '/' locally. */
+const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
+
+/**
+ * Single shared loader for the concept database.
+ * - Fetches from `${BASE_URL}all-concepts.json` (works on Pages AND locally).
+ * - Module-level cache: every consumer shares one request.
+ * - Never throws — returns { concepts: [] } on failure so the UI stays alive.
+ */
+export interface LoadResult {
+  concepts: Concept[];
+  error: string | null;
+}
+
+let cached: Concept[] | null = null;
+let inflight: Promise<LoadResult> | null = null;
+const listeners = new Set<(r: LoadResult) => void>();
+
+function emit(r: LoadResult) {
+  listeners.forEach(fn => { try { fn(r); } catch { /* noop */ } });
+}
+
+export function loadConcepts(force = false): Promise<LoadResult> {
+  if (cached && !force) return Promise.resolve({ concepts: cached, error: null });
+  if (inflight && !force) return inflight;
+
+  inflight = (async () => {
+    try {
+      const res = await fetch(`${BASE_URL}all-concepts.json`, { cache: 'force-cache' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      if (!Array.isArray(data)) throw new Error('invalid shape');
+      cached = data as Concept[];
+      emit({ concepts: cached, error: null });
+      return { concepts: cached, error: null };
+    } catch (e: any) {
+      inflight = null;
+      const err = String(e?.message || e);
+      emit({ concepts: cached || [], error: err });
+      return { concepts: cached || [], error: err };
+    } finally {
+      inflight = null;
+    }
+  })();
+
+  return inflight;
+}
+
+/** Synchronous snapshot — [] until the first load resolves. */
+export function peekConcepts(): Concept[] {
+  return cached || [];
+}
+
+/** Subscribe to load completion (returns unsubscribe). */
+export function onConceptsLoaded(fn: (r: LoadResult) => void): () => void {
+  if (cached) { fn({ concepts: cached, error: null }); return () => {}; }
+  listeners.add(fn);
+  return () => listeners.delete(fn);
+}

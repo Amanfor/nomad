@@ -3,6 +3,7 @@ import { motion, AnimatePresence, useAnimation, useSpring, type MotionValue } fr
 import Fuse from 'fuse.js';
 import katex from 'katex';
 import { marked } from 'marked';
+import { ConceptBrowser, loadConcepts } from '../concepts';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
@@ -4205,8 +4206,6 @@ export default function NomadApp() {
   };
 
   const [concepts, setConcepts] = useState<Concept[]>([]);
-  const [conceptsLoaded, setConceptsLoaded] = useState(false);
-  const [forceUpdate, setForceUpdate] = useState(0);
   const [fuse, setFuse] = useState<Fuse<Concept> | null>(null);
 
   const [query, setQuery] = useState('');
@@ -4215,9 +4214,7 @@ export default function NomadApp() {
   const [isBrowsingConcepts, setIsBrowsingConcepts] = useState(false);
   const [isBrowsingQuestions, setIsBrowsingQuestions] = useState(false);
   const [targetBrowseResults, setTargetBrowseResults] = useState<any[]>([]);
-  const [browseLimit, setBrowseLimit] = useState(24);
   const [questionLimit, setQuestionLimit] = useState(24);
-  const browseContainerRef = useRef<HTMLDivElement | null>(null);
   
   const [eyeShape, setEyeShape] = useState<EyeState>('closed');
   const [isBlinking, setIsBlinking] = useState(false);
@@ -4347,16 +4344,15 @@ export default function NomadApp() {
   // Boot & Fetch
   useEffect(() => {
     async function boot() {
-      // Fetch concepts
-      const res = await fetch('/all-concepts.json');
-      const data = await res.json();
+      // Fetch concepts (base-URL aware, shared cache, never throws)
+      const { concepts: data } = await loadConcepts();
       setConcepts(data);
-      setConceptsLoaded(true);
-      setForceUpdate(f => f + 1);
-      setFuse(new Fuse(data, {
-        keys: [ { name: 'title', weight: 2.0 }, { name: 'section', weight: 1.0 }, { name: 'content', weight: 0.5 } ],
-        threshold: 0.35, ignoreLocation: true,
-      }));
+      if (data.length) {
+        setFuse(new Fuse(data, {
+          keys: [ { name: 'title', weight: 2.0 }, { name: 'section', weight: 1.0 }, { name: 'content', weight: 0.5 } ],
+          threshold: 0.35, ignoreLocation: true,
+        }));
+      }
 
       await new Promise(r => setTimeout(r, 600));
       setEyeShape('open');
@@ -4373,13 +4369,6 @@ export default function NomadApp() {
     contentControls.set({ opacity: 0, y: 40 });
     boot();
   }, [containerControls, inputControls, contentControls]);
-
-  // Force re-render when concepts load
-  useEffect(() => {
-    if (conceptsLoaded) {
-      // This will trigger a re-render when concepts load
-    }
-  }, [conceptsLoaded]);
 
   // ── First-boot guided intro (runs exactly once) ──────────────
   // Stage 0 eye only → 1 title/welcome → 2 search → 3 practice →
@@ -4804,7 +4793,7 @@ export default function NomadApp() {
   };
 
   return (
-    <div key={`root-${forceUpdate}`} style={{ ...S.root, filter: settings.lightMode ? 'invert(1)' : 'none' }} className={settings.lightMode ? 'nomad-light' : ''}>
+    <div style={{ ...S.root, filter: settings.lightMode ? 'invert(1)' : 'none' }} className={settings.lightMode ? 'nomad-light' : ''}>
       <style>{`
         .nomad-light img { filter: invert(1); }
       `}</style>
@@ -4870,21 +4859,7 @@ export default function NomadApp() {
         </button>
       )}
 
-      {/* Exit Browse Concepts Button */}
-      {isBrowsingConcepts && (
-        <button
-          onClick={() => setIsBrowsingConcepts(false)}
-          className="nomad-btn"
-          style={{
-            position: 'fixed',
-            top: '1.5rem',
-            left: '1.5rem',
-            zIndex: 100,
-          }}
-        >
-          ⟨ exit ⟩
-        </button>
-      )}
+      {/* Exit Browse Concepts handled inside ConceptBrowser's sticky header */}
 
       <AnimatePresence>
         {isPractice && <PracticeOverlay onClose={() => setIsPractice(false)} />}
@@ -5024,41 +4999,17 @@ export default function NomadApp() {
               )}
             </motion.div>
           ) : isBrowsingConcepts ? (
-            <motion.div 
-              key={`browse-${concepts.length}`}
-              ref={browseContainerRef}
-              onScroll={(e) => {
-                const el = e.currentTarget;
-                if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200) {
-                  setBrowseLimit(prev => Math.min(prev + 24, concepts.length));
-                }
-              }}
-              className="nomad-browse-container"
+            <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
-              style={{ width: '100%', marginTop: isMobile ? '-1rem' : '2rem', maxHeight: '65vh', overflowY: 'auto', paddingRight: '0.5rem', paddingBottom: '4rem', scrollbarWidth: 'thin' as any, scrollbarColor: 'rgba(255,255,255,0.25) transparent' }}
+              style={{ width: '100%' }}
             >
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
-                {concepts.slice(0, browseLimit).map((c, i) => (
-                  <div 
-                    key={c.id || i}
-                    onClick={() => handleSelect(c)}
-                    style={{
-                      padding: '1rem',
-                      border: '1px solid rgba(255,255,255,0.08)',
-                      borderRadius: '8px',
-                      cursor: 'pointer',
-                      transition: 'background 0.2s',
-                    }}
-                    onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.05)'}
-                    onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
-                  >
-                    <div style={{ fontSize: '0.9rem', color: '#fff', marginBottom: '0.5rem', lineHeight: 1.3 }} dangerouslySetInnerHTML={{ __html: renderInlineLatex(c.title) }} />
-                    <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>{c.section}</div>
-                  </div>
-                ))}
-              </div>
+              <ConceptBrowser
+                isMobile={isMobile}
+                onExit={() => setIsBrowsingConcepts(false)}
+                onSelect={(c) => handleSelect(c)}
+              />
             </motion.div>
           ) : isBrowsingQuestions ? (
             <motion.div 
