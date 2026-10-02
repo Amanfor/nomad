@@ -5,7 +5,7 @@ import katex from 'katex';
 import { marked } from 'marked';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
-const BASE_URL = (import.meta as any).env?.BASE_URL || '/';
+const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
 const asset = (path: string) => `${BASE_URL}${path.replace(/^\//, '')}`;
 
 export interface Concept {
