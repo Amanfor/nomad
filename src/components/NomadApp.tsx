@@ -4348,7 +4348,7 @@ export default function NomadApp() {
       // Fetch concepts
       const res = await fetch('/all-concepts.json');
       const data = await res.json();
-      console.log("BOOT: concepts loaded", data.length); setConcepts(data);
+      setConcepts(data);
       setFuse(new Fuse(data, {
         keys: [ { name: 'title', weight: 2.0 }, { name: 'section', weight: 1.0 }, { name: 'content', weight: 0.5 } ],
         threshold: 0.35, ignoreLocation: true,
@@ -5014,6 +5014,7 @@ export default function NomadApp() {
             </motion.div>
           ) : isBrowsingConcepts ? (
             <motion.div 
+              key={`browse-${concepts.length}`}
               ref={browseContainerRef}
               onScroll={(e) => {
                 const el = e.currentTarget;
@@ -5028,7 +5029,7 @@ export default function NomadApp() {
               style={{ width: '100%', marginTop: isMobile ? '-1rem' : '2rem', maxHeight: '65vh', overflowY: 'auto', paddingRight: '0.5rem', paddingBottom: '4rem', scrollbarWidth: 'thin' as any, scrollbarColor: 'rgba(255,255,255,0.25) transparent' }}
             >
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
-                console.log("RENDER: concepts.length", concepts.length); {concepts.slice(0, browseLimit).map((c, i) => (
+                {concepts.slice(0, browseLimit).map((c, i) => (
                   <div 
                     key={c.id || i}
                     onClick={() => handleSelect(c)}
