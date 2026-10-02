@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Thermodynamic Systems, Surroundings & Boundaries
 - **Thermodynamic System:** The specified portion of the universe under experimental or theoretical investigation.
 - **Surroundings:** The remainder of the universe outside the system boundary capable of exchanging energy or matter with the system.
@@ -48,7 +47,6 @@
 
 ---
 
-
 ### 2.1 Statement & Sign Conventions
 - **First Law of Thermodynamics:** Energy can neither be created nor destroyed; the total energy of the universe remains constant:
   $$\mathbf{FLOT:}\quad \Delta U = q + w$$
@@ -93,7 +91,6 @@ $$w = -\int_{V_1}^{V_2} P_{\text{ext}}\,dV$$
 *Description: Two-panel comparative thermodynamic graphic: (A) Reversible versus irreversible isothermal expansion on a $P$-$V$ indicator diagram, displaying the smooth integral area under the isotherm $|w_{\mathrm{rev}}| = nRT\ln(V_2/V_1)$ contrasting against the smaller single-step rectangular area $|w_{\mathrm{irr}}| = P_2(V_2 - V_1)$, illustrating the lost work capacity; (B) Schematic analysis of free expansion into vacuum ($P_{\mathrm{ext}} = 0 \implies w = 0, \Delta U = 0, \Delta T = 0$) and cyclic process state function annihilation invariants.*
 
 ---
-
 
 ### 3.1 Enthalpy ($H$) & First Law Partitioning
 - **Definition of Enthalpy:**
@@ -157,7 +154,6 @@ $$w = -\int_{V_1}^{V_2} P_{\text{ext}}\,dV$$
 
 ---
 
-
 ### 4.1 Concept & Mathematical Definition
 - **Entropy ($S$):** A state function representing the quantitative measure of microscopic randomness, disorder, or multiplicity of microstates in a thermodynamic system.
 - **Clausius Definition of Differential Entropy:**
@@ -203,7 +199,6 @@ During an isothermal-isobaric reversible phase transformation at its transition 
   $$\Delta S_{\text{vap}} \approx 88\text{ J/(mol}\cdot\text{K)} \approx 10.5\,R$$
 
 ---
-
 
 ### 5.1 Third Law of Thermodynamics (TLOT)
 - **Nernst Heat Theorem / Planck Statement:** The entropy of a perfectly pure, crystalline substance approaches zero as the absolute temperature approaches absolute zero ($0\text{ K}$):
@@ -260,7 +255,6 @@ During an isothermal-isobaric reversible phase transformation at its transition 
    $$\mathbf{\ln\left(\frac{K_2}{K_1}\right) = \frac{\Delta H^\circ}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)}$$
 
 ---
-
 
 ### Archetype 1: Irreversible Adiabatic Expansion Final Temperature
 - **Problem:** 1 mole of an ideal monoatomic gas ($C_v = \frac{3}{2}R$) initially at $P_1 = 10\text{ atm}$ and $T_1 = 300\text{ K}$ expands adiabatically against a constant external pressure $P_{\text{ext}} = 1\text{ atm}$ to a final pressure of $1\text{ atm}$. Find the final temperature $T_2$ and work done $w$.

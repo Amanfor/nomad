@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Rutherford's $\alpha$-Particle Scattering Experiment
 Rutherford bombarded a thin gold foil ($\approx 400\text{ nm}$ thick) with high-energy $\alpha$-particles ($^4_2\text{He}^{2+}$, $m \approx 4\text{ amu}$, $q = 2e$, kinetic energy $\approx 5.5\text{ MeV}$):
 - **Key Observations:**
@@ -14,7 +13,6 @@ Rutherford bombarded a thin gold foil ($\approx 400\text{ nm}$ thick) with high-
   $$\mathbf{N(\theta) \propto \frac{1}{\sin^4(\theta/2)} \implies \frac{N(\theta_1)}{N(\theta_2)} = \frac{\sin^4(\theta_2/2)}{\sin^4(\theta_1/2)}}$$
 
 ---
-
 
 #### 1.2.1 Distance of Closest Approach ($r_0$)
 For a head-on collision ($\theta = 180^\circ$), the incoming $\alpha$-particle approaches the heavy gold nucleus ($Z$) until its entire initial kinetic energy is converted into electrostatic potential energy at the turning point:
@@ -38,13 +36,12 @@ where $R_0 \approx 1.2 \times 10^{-15}\text{ m} = 1.2\text{ fm}$.
 
 ---
 
-### 1.3 Breakdown of Classical Electrodynamics (Maxwell's Dilemma)
+### 1.2 Breakdown of Classical Electrodynamics (Maxwell's Dilemma)
 According to classical electromagnetic theory, an accelerating electric charge continuously radiates electromagnetic energy at a rate given by Larmor's formula:
 $$P = \frac{e^2 a^2}{6\pi \varepsilon_0 c^3}$$
 Since an electron orbiting a nucleus experiences continuous centripetal acceleration ($a = v^2/r$), it must continuously radiate energy, lose orbital radius, and spiral into the nucleus within $\approx 10^{-10}\text{ seconds}$! Furthermore, the radiation emitted would form a continuous spectrum, completely contradicting the observed stability of matter and sharp discrete atomic line spectra.
 
 ---
-
 
 ### 2.1 Planck's Radiation Law
 Energy is emitted or absorbed by atoms not in a continuous stream, but in discrete, indivisible packets called **quanta** (or **photons** for light):
@@ -68,7 +65,6 @@ where:
 
 ---
 
-
 #### 2.3.1 Stopping Potential vs. Frequency
 $$\mathbf{V_s = \left(\frac{h}{e}\right)\nu - \frac{W_0}{e}}$$
 - **Slope:** $\frac{h}{e} \approx 4.14 \times 10^{-15}\text{ V}\cdot\text{s}$ is a **universal constant**, identical for ALL metals!
@@ -81,7 +77,6 @@ $$\mathbf{KE_{\max} = h\nu - W_0}$$
 - **Intensity Invariance:** Increasing the intensity of incident light increases the number of emitted photoelectrons (saturation current), but has **ZERO effect on $KE_{\max}$ or stopping potential $V_s$**.
 
 ---
-
 
 ### 3.1 Fundamental Postulates (Applicable to $\text{H}, \text{He}^+, \text{Li}^{2+}, \text{Be}^{3+}$)
 1. **Centripetal Balance:**
@@ -103,7 +98,6 @@ $$\mathbf{KE_{\max} = h\nu - W_0}$$
 *Description: Two-panel comprehensive physical chemistry infographic: (A) Bohr model stationary energy level ladder ($E_n = -13.6 Z^2/n^2\text{ eV}$) converging toward the ionization continuum ($E_\infty = 0$), displaying transition arrows for the Lyman, Balmer, Paschen, and Brackett spectral series alongside the fundamental orbital scaling laws ($r \propto n^2/Z, v \propto Z/n, T \propto n^3/Z^2$) and the Virial Theorem ($E = -KE = PE/2$); (B) Rydberg wavenumber formula, detailed boundary limits ($\lambda_{\max}$ and $\lambda_{\min}$) for each spectral series, the four visible Balmer lines ($H_\alpha$ red $656.3\text{ nm}, H_\beta$ cyan $486.1\text{ nm}, H_\gamma$ blue $434.0\text{ nm}, H_\delta$ violet $410.2\text{ nm}$), and the linear momentum conservation equation governing atomic recoil.*
 
 ---
-
 
 #### 3.3.1 Orbital Radius ($r_n$)
 From angular momentum quantization: $v_n = \frac{n h}{2\pi m r_n}$. Substituting into the centripetal balance equation:
@@ -131,7 +125,7 @@ $$\mathbf{v_n = \frac{n h}{2\pi m r_n} = \frac{2\pi k Z e^2}{n h} = v_1 \frac{Z}
 
 ---
 
-### 3.4 Kinematic & Electromagnetic Scaling Summary
+### 3.3 Kinematic & Electromagnetic Scaling Summary
 
 | Physical Parameter | Dependence on $n$ and $Z$ | Ratio ($n_1 \to n_2$) |
 | :---: | :---: | :---: |
@@ -145,7 +139,7 @@ $$\mathbf{v_n = \frac{n h}{2\pi m r_n} = \frac{2\pi k Z e^2}{n h} = v_1 \frac{Z}
 
 ---
 
-### 3.5 Generalized Non-Coulombic Potential Wells (JEE Advanced Archetype)
+### 3.4 Generalized Non-Coulombic Potential Wells (JEE Advanced Archetype)
 If a hypothetical particle of mass $m$ moves under a generalized potential energy $U(r) = K r^p$ (where $p$ is an integer), find the scaling of $r_n$ and $E_n$ with principal quantum number $n$:
 4. Force: $F = -\frac{dU}{dr} = -p K r^{p-1}$.
 5. Centripetal balance: $\frac{m v^2}{r} = |F| = p K r^{p-1} \implies m v^2 = p K r^p$.
@@ -161,7 +155,6 @@ If a hypothetical particle of mass $m$ moves under a generalized potential energ
   $r \propto n^{\frac{2}{4}} = n^{1/2}$; $E \propto n^{\frac{4}{4}} = n^1$ (Equispaced energy levels!).
 
 ---
-
 
 ### 4.1 The Rydberg Formula
 When an electron jumps from higher orbit $n_2$ to lower orbit $n_1$, the wavenumber ($\bar{\nu}$) of the emitted photon is:
@@ -211,7 +204,6 @@ When an isolated, stationary hydrogen atom of mass $M$ emits a photon during a t
    Because $M c^2 \approx 938\text{ MeV} \gg \Delta E \approx 10\text{ eV}$, the recoil correction is $\approx 10^{-9}\text{ eV}$ (tiny, but physically significant in precision Mössbauer spectroscopy!).
 
 ---
-
 
 ### 5.1 The de Broglie Hypothesis
 
@@ -266,7 +258,6 @@ $$\mathbf{\Delta x \cdot (m \Delta v_x) \ge \frac{\hbar}{2} \implies \Delta x \c
 - **Conclusion:** **Free electrons cannot exist permanently inside an atomic nucleus** (emitted $\beta$-particles are created at the instant of decay via neutron-to-proton conversion: $n \to p + e^- + \bar{\nu}_e$).
 
 ---
-
 
 ### 6.1 The Time-Independent Schrödinger Wave Equation (3D)
 
@@ -341,7 +332,6 @@ A node is a region or surface where the probability density $|\psi|^2$ falls to 
 
 ---
 
-
 #### 1. Principal Quantum Number ($n \in \{1, 2, 3, \dots\}$)
 - Identifies the principal electron shell ($K, L, M, N, \dots$).
 - Governs orbital size: $r \propto \frac{n^2}{Z}$.
@@ -377,7 +367,6 @@ A node is a region or surface where the probability density $|\psi|^2$ falls to 
 
 ---
 
-
 #### 7.2.1 $p$-Orbitals ($l = 1$, Dumbbell Shaped)
 - $p_x$: Electron density concentrated along $x$-axis. **Nodal plane is the $yz$-plane ($x=0$)**.
 - $p_y$: Electron density concentrated along $y$-axis. **Nodal plane is the $xz$-plane ($y=0$)**.
@@ -395,8 +384,7 @@ A node is a region or surface where the probability density $|\psi|^2$ falls to 
 
 ---
 
-
-### 8.1 The Aufbau Principle & The $(n + l)$ Rule
+### 7.1 The Aufbau Principle & The $(n + l)$ Rule
 Electrons occupy atomic orbitals in order of increasing orbital energy:
 26. An orbital with a **lower value of $(n + l)$** has lower energy and is filled first.
 27. If two orbitals possess the **identical value of $(n + l)$**, the orbital with the **lower value of $n$** has lower energy and fills first.
@@ -409,13 +397,13 @@ Electrons occupy atomic orbitals in order of increasing orbital energy:
 
 ---
 
-### 8.2 Pauli's Exclusion Principle
+### 8.1 Pauli's Exclusion Principle
 "No two electrons in an isolated atom can have the identical set of all four quantum numbers ($n, l, m_l, m_s$)."
 - Consequence: An individual orbital can accommodate a **maximum of two electrons**, and they must possess **antiparallel spins** ($\uparrow\downarrow$, $m_s = +1/2$ and $-1/2$).
 
 ---
 
-### 8.3 Hund's Rule of Maximum Multiplicity & Exchange Energy
+### 8.2 Hund's Rule of Maximum Multiplicity & Exchange Energy
 "Electron pairing in degenerate orbitals belonging to the same subshell does not take place until each orbital is singly occupied with parallel spins."
 - **Spin Multiplicity:** $2S + 1$, where $S = \sum m_s = \frac{n}{2}$ ($n$ is the number of unpaired electrons). Parallel spins maximize $S$ and minimize electrostatic repulsion.
 - **Exchange Energy ($K$):**
@@ -436,7 +424,6 @@ Electrons occupy atomic orbitals in order of increasing orbital energy:
 
 ---
 
-
 ### 9.1 Master Formula & Constant Sheet
 
 | Physical Parameter | Formula | Canonical Values |
@@ -452,7 +439,6 @@ Electrons occupy atomic orbitals in order of increasing orbital energy:
 | **Angular Nodes** | $N_a = l$ | $N_a(s) = 0, N_a(p) = 1, N_a(d) = 2$ |
 
 ---
-
 
 #### Trap 1: Orbital Energy Degeneracy in Hydrogen vs. Multi-Electron Atoms
 - In **Hydrogen ($\text{H}$) and hydrogen-like ions ($\text{He}^+, \text{Li}^{2+}$)**, the Hamiltonian depends purely on $r$. Therefore, energy depends **ONLY on $n$**:

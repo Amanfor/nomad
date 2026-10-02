@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Definition of a Rigid Body & Distance Constraint
 A rigid body is an idealized continuum system of particles in which the distance between any arbitrary pair of constituent particles remains strictly constant over time:
 $$\mathbf{|\vec{r}_i(t) - \vec{r}_j(t)| = \text{Constant} \quad (\forall \, i, j)}$$
@@ -32,7 +31,6 @@ $$\mathbf{\omega^2 = \omega_0^2 + 2\alpha \theta}$$
 $$\mathbf{\theta_n = \omega_0 + \frac{\alpha}{2}(2n - 1) \quad (\text{Angular displacement in } n\text{-th second})}$$
 
 ---
-
 
 ### 2.1 Definition & Radius of Gyration ($k$)
 The Moment of Inertia ($I$) measures the rotational inertia of a rigid body—its resistance to changes in rotational velocity about a given axis:
@@ -117,7 +115,6 @@ $$\mathbf{I_{\text{rem}} = I_{\text{orig}} - I_{\text{cavity}}}$$
 
 ---
 
-
 ### 3.1 Torque ($\vec{\tau}$) Formulations
 - **Torque about a Point $O$:**
   $$\mathbf{\vec{\tau}_O = \vec{r} \times \vec{F} = r F \sin\phi \, \hat{n} = F \cdot r_\perp}$$
@@ -147,7 +144,6 @@ $$\mathbf{I_{\text{rem}} = I_{\text{orig}} - I_{\text{cavity}}}$$
   $$\mathbf{P = \vec{\tau} \cdot \vec{\omega} = \tau \omega}$$
 
 ---
-
 
 ### 4.1 Angular Momentum Formulations
 3. **Single Particle about Point $O$:**
@@ -195,7 +191,6 @@ A cue strikes a stationary billiard ball (uniform solid sphere of mass $M$, radi
 
 ---
 
-
 ### 5.1 Total Kinetic Energy in CRTM (König's Theorem)
 The total kinetic energy of a body of mass $M$, radius $R$, and radius of gyration $k$ undergoing combined translation and rotation:
 $$K_{\text{total}} = K_{\text{trans}} + K_{\text{rot}} = \frac{1}{2} M v_{\text{cm}}^2 + \frac{1}{2} I_{\text{cm}} \omega^2$$
@@ -236,7 +231,6 @@ The Instantaneous Center of Rotation (ICOR) is the unique point in the plane of 
   The two formulations are perfectly equivalent!
 
 ---
-
 
 ### 6.1 Derivation of Incline Dynamics
 
@@ -288,7 +282,6 @@ Because acceleration $a \propto \frac{1}{1 + k^2/R^2}$, the body with the **SMAL
 
 ---
 
-
 ### 7.1 Mechanics of Normal Reaction Migration
 Consider a uniform rectangular block of mass $M$, base width $b$, and height $h$ resting on a rough horizontal floor with static friction coefficient $\mu$.
 A horizontal force $F$ is applied at height $y$ above the floor:
@@ -331,7 +324,6 @@ When the incline angle $\theta$ is slowly increased:
 
 ---
 
-
 ### 8.1 Master Rigid Body Dynamics Formula Table
 
 | Physical Law / Principle | Master Equation | High-Yield Application |
@@ -354,7 +346,6 @@ When the incline angle $\theta$ is slowly increased:
 | **Incline Toppling Angle** | $\tan\theta_{\text{topple}} = \frac{b}{h}$ | Topples if $\mu > b/h$; Slides if $\mu < b/h$ |
 
 ---
-
 
 #### Trap 1: The Direction of Friction in Pure Rolling
 - On an **inclined plane**, gravity acts down the slope through the Center of Mass producing zero torque about COM. Static friction must act **UP the incline** to provide the necessary counter-clockwise torque $\tau = f_s R$ to spin the body!

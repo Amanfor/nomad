@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 State Functions vs. Path Functions in Reaction Energetics
 - **State Functions:** Thermodynamic properties whose values depend solely on the current equilibrium state of the system, completely independent of the path taken:
   $$\text{Internal Energy } (U), \text{Enthalpy } (H), \text{Entropy } (S), \text{Gibbs Free Energy } (G), \text{Temperature } (T), \text{Pressure } (P), \text{Volume } (V)$$
@@ -68,7 +67,6 @@ where:
 
 ---
 
-
 ### 2.1 Standard State Conventions (IUPAC)
 - Pressure: Standard pressure is strictly **$P^\circ = 1\text{ bar} = 10^5\text{ Pa} = 0.987\text{ atm}$**.
 - Temperature: Usually $298.15\text{ K}$ ($25^\circ\text{C}$), but standard states can be defined at any specified temperature.
@@ -114,7 +112,6 @@ $$\mathbf{\Delta_r H^\circ = [ c \Delta_f H^\circ(\text{C}) + d \Delta_f H^\circ
 
 ---
 
-
 ### 3.1 Definition of Standard Enthalpy of Combustion
 The standard enthalpy of combustion ($\Delta_c H^\circ$) is the enthalpy change accompanying the **complete oxidation of EXACTLY ONE MOLE** of a substance in excess pure oxygen gas at standard conditions:
 $$\mathbf{\Delta_c H^\circ \text{ is ALWAYS NEGATIVE (Strictly Exothermic!)}}$$
@@ -144,7 +141,6 @@ A bomb calorimeter measures heat released during combustion at **strictly consta
 
 ---
 
-
 ### 4.1 Principle & State Invariance
 "The total enthalpy change for a chemical reaction is identical whether the reaction takes place in one single step or in a series of multiple intermediate steps."
 - Mathematical basis: Enthalpy $H$ is a thermodynamic state function.
@@ -159,7 +155,6 @@ A bomb calorimeter measures heat released during combustion at **strictly consta
 - If reactions are summed: $\Delta H_{\text{net}} = \sum \Delta H_i$.
 
 ---
-
 
 ### 5.1 Bond Dissociation Energy ($BDE$) vs. Mean Bond Enthalpy
 
@@ -211,7 +206,6 @@ Resonance energy is the extra thermodynamic stability possessed by a conjugated 
 
 ---
 
-
 ### 6.1 Strong Acid + Strong Base Neutralization
 The enthalpy of neutralization is the enthalpy change accompanying the complete neutralization of **ONE GRAM EQUIVALENT** of an acid by **ONE GRAM EQUIVALENT** of a base in dilute aqueous solution:
 $$\mathbf{\text{H}^+(aq) + \text{OH}^-(aq) \to \text{H}_2\text{O}(l) \quad \Delta_{\text{neut}} H^\circ = -57.3\text{ kJ/equivalent} = -13.7\text{ kcal/equivalent}}$$
@@ -246,7 +240,6 @@ $$|\Delta_{\text{neut}} H^\circ| < 57.3\text{ kJ/equivalent}$$
   4. The colossal exothermic hydration energy released by $\text{F}^-$ overwhelmingly overcompensates for the small endothermic energy needed to ionize the $\text{H}-\text{F}$ bond, making the net enthalpy of neutralization exceed $-57.3\text{ kJ/eq}$!
 
 ---
-
 
 ### 7.1 Definition of Lattice Enthalpy ($\Delta_{\text{lattice}} H^\circ$)
 
@@ -294,7 +287,6 @@ where:
 
 ---
 
-
 ### 8.1 Enthalpy Temperature Dependence (Constant Pressure)
 Kirchhoff's equation relates the change in reaction enthalpy with temperature to the change in heat capacities between products and reactants:
 $$\mathbf{\left(\frac{\partial \Delta_r H^\circ}{\partial T}\right)_P = \Delta C_p^\circ}$$
@@ -328,7 +320,6 @@ $$\mathbf{\Delta C_v^\circ = \sum \nu_p C_{v, \text{products}}^\circ - \sum \nu_
 
 ---
 
-
 ### 9.1 Master Thermochemistry Formula Sheet
 
 | Thermodynamic Quantity | Fundamental Equation | High-Yield Application |
@@ -347,7 +338,6 @@ $$\mathbf{\Delta C_v^\circ = \sum \nu_p C_{v, \text{products}}^\circ - \sum \nu_
 | **Kirchhoff's Entropy Law** | $\Delta_r S_{T_2}^\circ = \Delta_r S_{T_1}^\circ + \Delta C_p^\circ \ln(T_2 / T_1)$ | Temperature dependence of reaction entropy |
 
 ---
-
 
 #### Trap 1: Calculating $\Delta n_g$ with Condensed Phases
 - In reactions involving solids or liquids (e.g., combustion of ethanol):

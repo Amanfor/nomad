@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Heat of Reaction: Constant Pressure vs. Constant Volume
 - **Heat of Reaction (Enthalpy of Reaction, $\Delta H_r$):** The quantity of heat evolved or absorbed when molar quantities of reactants as indicated by the balanced chemical equation react completely to form products.
   - Expressed in $\text{kJ/mol}$ or $\text{kcal/mol}$, where "per mole" denotes **per mole of stoichiometric reaction extent**.
@@ -38,7 +37,6 @@ $$\Delta n_g = \sum n_{g, \text{products}} - \sum n_{g, \text{reactants}}$$
 
 ---
 
-
 ### 2.1 Factors Determining $\Delta H_r$
 1. **Physical State of Reactants and Products:**
    The enthalpy of a reaction varies substantially depending on whether species are in solid, liquid, or gas phase due to latent heats:
@@ -64,7 +62,6 @@ Similarly, at constant volume:
 $$\mathbf{\Delta U_{T_2} - \Delta U_{T_1} = \int_{T_1}^{T_2} \Delta C_v\,dT = \Delta C_v(T_2 - T_1)}$$
 
 ---
-
 
 ### 3.1 Definition & IUPAC Reference States
 - **Standard Enthalpy of Formation ($\Delta H_f^\circ$):** The enthalpy change accompanying the formation of **exactly 1 mole of a pure substance** from its constituent chemical elements in their standard reference physical states at $1\text{ bar}$ pressure and specified temperature ($298.15\text{ K} = 25^\circ\text{C}$).
@@ -92,7 +89,6 @@ $$\Delta H_r^\circ = [c\Delta H_f^\circ(\text{C}) + d\Delta H_f^\circ(\text{D})]
 
 ---
 
-
 ### 4.1 Definition & Complete Oxidation Standards
 - **Standard Enthalpy of Combustion ($\Delta H_c^\circ$):** The enthalpy change when **1 mole of a substance** undergoes complete oxidation in excess dioxygen gas ($O_2(g)$) at standard conditions ($1\text{ bar}, 298.15\text{ K}$).
   - Combustion is **strictly exothermic** for all common fuels: $\Delta H_c^\circ < 0$.
@@ -117,7 +113,6 @@ $$\mathbf{\Delta H_r^\circ = \sum \nu_{\text{reactants}} \Delta H_c^\circ(\text{
 
 ---
 
-
 ### 5.1 Principle of Path Independence
 - **Hess's Law:** If a chemical reaction can be carried out in a single step or in a sequence of several intermediate stages, the **total enthalpy change is identical**, regardless of the intermediate pathway taken.
   $$\mathbf{\Delta H_{\text{total}} = \Delta H_1 + \Delta H_2 + \Delta H_3 + \dots}$$
@@ -131,7 +126,6 @@ $$\mathbf{\Delta H_r^\circ = \sum \nu_{\text{reactants}} \Delta H_c^\circ(\text{
 *Description: Two-panel thermochemical mechanism graphic: (A) Hess's Law additivity diagram contrasting a direct reaction pathway $\mathrm{A}+\mathrm{B} \to \mathrm{P}+\mathrm{Q}$ ($\Delta H_{\mathrm{direct}}$) against an indirect multi-step route via intermediates $\mathrm{X}$ and $\mathrm{Y}$ ($\Delta H_1 + \Delta H_2 + \Delta H_3$), verified with the oxidation of carbon to carbon dioxide; (B) Enthalpy reaction coordinate profiles for exothermic vs endothermic transformations displaying activation energy barriers and the enthalpy difference $\Delta H = E_{a,f} - E_{a,b}$.*
 
 ---
-
 
 ### 6.1 Bond Dissociation Energy (BDE) vs. Average Bond Energy
 - **Bond Dissociation Enthalpy (BDE):** The energy required to break **1 mole of a specific bond** in an isolated gaseous molecule into gaseous radical fragments.
@@ -147,7 +141,6 @@ $$\mathbf{\Delta H_r = \sum (\text{Bond Energies})_{\text{reactants}} - \sum (\t
   $$\Delta H_r = \Delta H_{\text{phase changes}} + \sum \text{BE}(\text{reactants}) - \sum \text{BE}(\text{products})$$
 
 ---
-
 
 ### 7.1 Lattice Enthalpy Definition
 - **Lattice Enthalpy ($\Delta H_{\text{lattice}}$):** The enthalpy change accompanying the complete separation of **1 mole of an ionic crystalline solid** into its constituent isolated gaseous ions:
@@ -173,7 +166,6 @@ $$\mathbf{\Delta H_r = \sum (\text{Bond Energies})_{\text{reactants}} - \sum (\t
    $$\mathbf{\Delta H_f^\circ(\text{CaCl}_2) = \Delta H_{\text{sub}}(\text{Ca}) + [\text{IE}_1 + \text{IE}_2] + \Delta H_{\text{diss}}(\text{Cl}_2) + 2\Delta H_{\text{eg}}(\text{Cl}) - \Delta H_{\text{lattice}}(\text{CaCl}_2)}$$
 
 ---
-
 
 ### 8.1 Enthalpy of Hydration & Enthalpy of Solution
 - **Enthalpy of Hydration ($\Delta H_{\text{hyd}}$):** The enthalpy change when 1 mole of isolated gaseous ions interacts with excess water molecules to form hydrated ions:
@@ -213,7 +205,6 @@ $$\mathbf{\Delta H_r = \sum (\text{Bond Energies})_{\text{reactants}} - \sum (\t
 
 ---
 
-
 ### 9.1 Conceptual Definition
 - **Resonance Energy:** The extra thermodynamic stabilization gained by a planar conjugated molecule due to the delocalization of $\pi$-electrons, quantified as the difference between the enthalpy of the actual resonance hybrid and the calculated enthalpy of the most stable theoretical canonical structure:
   $$\mathbf{\text{Resonance Energy} = \Delta H_f^\circ(\text{Actual Hybrid}) - \Delta H_f^\circ(\text{Most Stable Canonical Structure}) < 0}$$
@@ -230,7 +221,6 @@ $$\mathbf{\Delta H_r = \sum (\text{Bond Energies})_{\text{reactants}} - \sum (\t
   Benzene is **$150.0\text{ kJ/mol}$ ($36.0\text{ kcal/mol}$) more stable** than the hypothetical non-resonating cyclohexatriene model.
 
 ---
-
 
 ### Archetype 1: Bomb Calorimeter $\Delta U$ to $\Delta H$ Calculation
 - **Problem:** Combustion of $0.16\text{ g}$ of methane ($\text{CH}_4$) in a bomb calorimeter produces a temperature rise of $0.5^\circ\text{C}$. The total heat capacity of the calorimeter and water is $17.7\text{ kJ/K}$. Calculate $\Delta U_c^\circ$ and $\Delta H_c^\circ$ per mole of methane at $298\text{ K}$ ($R = 8.314\text{ J/(mol}\cdot\text{K)}$).

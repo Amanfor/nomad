@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Physical Model & Geometrical Derivation
 - Consider two transparent, isotropic optical media of absolute refractive indices $\mu_1$ and $\mu_2$, separated by a spherical boundary of radius of curvature $R$.
 - Let the principal axis be the line joining the pole $P$ (vertex of the spherical cap) and the center of curvature $C$.
@@ -74,7 +73,6 @@ A single spherical surface possesses two distinct principal focal points:
 
 ---
 
-
 ### 2.1 Optical Geometry & Structural Types
 - **Thin Lens Definition:** A transparent optical medium bounded by two refracting surfaces (at least one of which is spherical), where the axial thickness of the lens is negligible compared to the radii of curvature ($t \ll R_1, R_2$).
 - **Convex (Converging in Air):** Thicker at the center than at the peripheral edges.
@@ -88,7 +86,6 @@ A single spherical surface possesses two distinct principal focal points:
 - **Optical Centre ($P$ or $O$):** The point on the principal axis through which rays pass with zero net angular deviation and negligible lateral displacement.
 
 ---
-
 
 ### 3.1 Derivation via Two Successive Refractions
 - Consider a thin lens of refractive index $\mu_2$ surrounded by a medium of refractive index $\mu_1$. Radii of curvature of the first and second surfaces are $R_1$ and $R_2$.
@@ -123,7 +120,6 @@ $$\frac{f_{\text{med}}}{f_{\text{air}}} = \frac{\mu_g - 1}{\frac{\mu_g}{\mu_m} -
 
 ---
 
-
 ### 4.1 Transverse and Longitudinal Magnifications
 - **Transverse (Lateral) Magnification ($m$):**
   $$m = \frac{h_i}{h_o} = \frac{v}{u} = \frac{f}{f + u} = \frac{f - v}{f}$$
@@ -142,7 +138,6 @@ $$\frac{f_{\text{med}}}{f_{\text{air}}} = \frac{\mu_g - 1}{\frac{\mu_g}{\mu_m} -
   $$m = -\frac{f}{x_1} = -\frac{x_2}{f} = -\sqrt{\frac{x_2}{x_1}}$$
 
 ---
-
 
 ### 5.1 Formulation & Conjugate Positions
 - When the distance $D$ between a real object and a fixed screen exceeds $4f$ ($D > 4f$), there exist **two distinct positions of a convex lens** that cast sharp real images on the screen.
@@ -177,7 +172,6 @@ $$\frac{f_{\text{med}}}{f_{\text{air}}} = \frac{\mu_g - 1}{\frac{\mu_g}{\mu_m} -
 
 ---
 
-
 ### 6.1 Power Definitions & Units
 - **Optical Power ($P$):** The measure of a lens's ability to converge or diverge incident light, defined as the tangent of the angle of deviation produced on a ray incident at unit distance from the optical axis:
   $$P = \frac{1}{f\text{ (in meters)}} \quad [\text{Unit: Dioptre (D)} = \text{m}^{-1}]$$
@@ -189,7 +183,6 @@ $$\frac{f_{\text{med}}}{f_{\text{air}}} = \frac{\mu_g - 1}{\frac{\mu_g}{\mu_m} -
     $$P_{\text{surface}} = \frac{\mu_2 - \mu_1}{R}$$
 
 ---
-
 
 ### 7.1 Thin Lenses in Direct Contact
 - When $N$ thin lenses of focal lengths $f_1, f_2, \dots, f_N$ are placed in direct coaxial contact:
@@ -211,7 +204,6 @@ $$\frac{f_{\text{med}}}{f_{\text{air}}} = \frac{\mu_g - 1}{\frac{\mu_g}{\mu_m} -
   $$\Delta = \frac{d F_{\text{eq}}}{f_1}$$
 
 ---
-
 
 ### 8.1 Cutting of Lenses
 8. **Transverse Cut (Perpendicular to Principal Axis):**
@@ -248,7 +240,6 @@ Let an object move with velocity $\vec{v}_O$ relative to a lens:
 
 ---
 
-
 ### 9.1 Mechanism & Effective Power Formulation
 - When the rear surface of a lens is silvered (coated with reflective material), incoming light refracts through the front surface, reflects at the silvered rear surface, and refracts back out through the front surface.
 - The system is optically equivalent to a **curved mirror**.
@@ -278,7 +269,6 @@ Let an object move with velocity $\vec{v}_O$ relative to a lens:
 *Description: Three-panel structural schematic of optical systems: (1) Cutting of lenses contrasting transverse cuts ($f' = 2f, P' = P/2$) against longitudinal cuts ($f' = f$, intensity $I/2$); (2) Two separated coaxial thin lenses ($f_1, f_2$) at distance $d$, detailing net angular deviation $\delta = \delta_1 + \delta_2$, equivalent focal length $\frac{1}{F} = \frac{1}{f_1} + \frac{1}{f_2} - \frac{d}{f_1 f_2}$, and equivalent lens position $\Delta = \frac{d F}{f_1}$; (3) Silvered lens acting as an equivalent concave mirror via double refraction and single reflection, demonstrating the master power relation $P_{\mathrm{eq}} = 2P_L + P_M$ and $F_{\mathrm{eq}} = -1/P_{\mathrm{eq}}$.*
 
 ---
-
 
 ### Archetype 1: Minimum Distance Between Real Object and Real Image
 - **Problem:** What is the minimum distance between a real object and its real image formed by a thin convex lens of focal length $f$?

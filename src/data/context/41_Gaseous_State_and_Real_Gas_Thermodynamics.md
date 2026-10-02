@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 The Master Equation of State & The Gas Constant ($R$)
 An ideal gas is a theoretical construct obeying the equation of state:
 $$\mathbf{P V = n R T = \frac{w}{M} R T \iff P M = \rho R T}$$
@@ -22,7 +21,6 @@ where:
   - **SATP ($25^\circ\text{C} = 298.15\text{ K}$, $1\text{ bar}$):** $V_m = \mathbf{24.79\text{ L/mol}}$.
 
 ---
-
 
 #### 1.2.1 Boyle's Law (Isothermal: $T, n = \text{Constant}$)
 $$\mathbf{P \propto \frac{1}{V} \iff P V = \text{Constant} \iff P_1 V_1 = P_2 V_2}$$
@@ -53,7 +51,7 @@ $$\mathbf{P \propto T \iff \frac{P}{T} = \text{Constant} \iff \frac{P_1}{T_1} = 
 
 ---
 
-### 1.3 Open & Closed Vessel Thermal Heating Calculations
+### 1.2 Open & Closed Vessel Thermal Heating Calculations
 - **In an Open Vessel:** The mouth is open to the atmosphere, meaning the pressure remains constant ($P = P_{\text{atm}}$), and the vessel volume is fixed ($V = \text{constant}$).
   $$P V = n_1 R T_1 = n_2 R T_2 \implies \mathbf{n_1 T_1 = n_2 T_2}$$
   - Number of moles remaining in the vessel: $n_2 = n_1 \left(\frac{T_1}{T_2}\right)$.
@@ -66,7 +64,7 @@ $$\mathbf{P \propto T \iff \frac{P}{T} = \text{Constant} \iff \frac{P_1}{T_1} = 
 
 ---
 
-### 1.4 Barometer Mechanics & Faulty Column Physics
+### 1.3 Barometer Mechanics & Faulty Column Physics
 In a standard Torricellian barometer, atmospheric pressure supports a vertical column of mercury of height $h_0 = 76\text{ cm Hg}$:
 $$P_{\text{atm}} = \rho_{\text{Hg}} g h_0$$
 - **Faulty Barometer (Trapped Air Bubble):**
@@ -81,7 +79,6 @@ $$P_{\text{atm}} = \rho_{\text{Hg}} g h_0$$
   $$\mathbf{l = \frac{h}{\cos\theta}}$$
 
 ---
-
 
 ### 2.1 Dalton's Formulation for Non-Reacting Gases
 For a mixture of $k$ chemically non-reacting gases confined in a container of volume $V$ at temperature $T$:
@@ -110,7 +107,6 @@ where **Aqueous Tension** is the equilibrium vapor pressure of water at the expe
   $$\mathbf{\text{RH} = \frac{\text{Partial Pressure of Water Vapor Present}}{\text{Saturated Vapor Pressure of Water (Aqueous Tension) at same } T} \times 100\%}$$
 
 ---
-
 
 ### 3.1 Fundamental Formulation
 - **Diffusion:** Spontaneous intermingling of two or more gases into one another irrespective of gravity.
@@ -159,7 +155,6 @@ $$\text{NH}_3(g) + \text{HCl}(g) \to \text{NH}_4\text{Cl}(s)\quad (\text{Dense W
 
 ---
 
-
 ### 4.1 Postulates of KTG
 6. Gases consist of extremely small particles called molecules, which are identical hard elastic spheres.
 7. The actual volume occupied by the gas molecules is negligible compared to the total volume of the container ($V_{\text{actual}} \ll V_{\text{container}}$).
@@ -186,7 +181,6 @@ where $M = m N_A$ is the molar mass and $E_k$ is the total translational kinetic
 
 ---
 
-
 #### 4.3.1 Most Probable Speed ($u_{\text{mp}}$)
 The speed possessed by the maximum fraction of molecules at a given temperature:
 $$\mathbf{u_{\text{mp}} = \sqrt{\frac{2 R T}{M}} = \sqrt{\frac{2 k_B T}{m}} \approx 1.414 \sqrt{\frac{R T}{M}}}$$
@@ -201,7 +195,7 @@ $$\mathbf{u_{\text{rms}} = \sqrt{\langle u^2 \rangle} = \sqrt{\frac{3 R T}{M}} =
 
 ---
 
-### 4.4 The Canonical Speed Ratio & Speed Rankings
+### 4.3 The Canonical Speed Ratio & Speed Rankings
 $$\mathbf{u_{\text{mp}} < u_{\text{avg}} < u_{\text{rms}}}$$
 $$\mathbf{u_{\text{mp}} : u_{\text{avg}} : u_{\text{rms}} = \sqrt{2} : \sqrt{\frac{8}{\pi}} : \sqrt{3} \approx 1.000 : 1.128 : 1.224 = 1 : 1.13 : 1.22 \approx 7 : 8 : 9}$$
 - **Mathematical Invariants:**
@@ -209,7 +203,6 @@ $$\mathbf{u_{\text{mp}} : u_{\text{avg}} : u_{\text{rms}} = \sqrt{2} : \sqrt{\fr
   - $u_{\text{mp}} \approx 0.816 \cdot u_{\text{rms}}$
 
 ---
-
 
 ### 5.1 The Mathematical Distribution Function
 The fraction of molecules having speeds between $u$ and $u + du$ is given by:
@@ -245,7 +238,6 @@ $$\mathbf{\frac{1}{N}\frac{dN_u}{du} = 4\pi \left(\frac{m}{2\pi k_B T}\right)^{3
 
 ---
 
-
 ### 6.1 Collision Geometry & Number Density
 - Let $\sigma$ be the **collision diameter** (distance between centers of two molecules at the instant of collision; $\sigma = 2r$).
 - **Number Density ($N^*$):** Number of molecules per unit volume:
@@ -279,7 +271,6 @@ $$\mathbf{\lambda = \frac{\text{Distance traveled per second}}{\text{Collisions 
 
 ---
 
-
 ### 7.1 The Compressibility Factor ($Z$)
 
 ![Real Gases, Compressibility Factor, and Van der Waals Regimes](/media/real_gases_compressibility_factor_and_van_der_waals_regimes.webp)
@@ -306,7 +297,6 @@ Johannes Diderik van der Waals modified the ideal gas equation by introducing tw
 $$\mathbf{\left( P + \frac{a n^2}{V^2} \right) (V - n b) = n R T \iff \left( P + \frac{a}{V_m^2} \right) (V_m - b) = R T}$$
 
 ---
-
 
 #### 7.3.1 The Pressure Correction Parameter ($a$)
 - A molecule in the interior of a gas experiences isotropic (symmetric) intermolecular attractions from all directions $\implies$ net force $= 0$.
@@ -338,7 +328,6 @@ $$\mathbf{\left( P + \frac{a n^2}{V^2} \right) (V - n b) = n R T \iff \left( P +
 
 ---
 
-
 #### 1. Low Pressure Regime ($V_m \gg b$)
 At low pressures, molar volume $V_m$ is large compared to co-volume $b$, so $V_m - b \approx V_m$:
 $$\left(P + \frac{a}{V_m^2}\right)V_m = R T \implies P V_m + \frac{a}{V_m} = R T$$
@@ -360,7 +349,6 @@ Because their electron clouds are exceptionally small, $a \approx 0$:
 $$\mathbf{Z = 1 + \frac{P b}{R T} > 1 \quad \text{at all pressures!}}$$
 
 ---
-
 
 ### 8.1 The General Virial Expansion
 Heike Kamerlingh Onnes proposed expanding the compressibility factor $Z$ as an infinite power series in terms of molar density ($1/V_m$) or pressure ($P$):
@@ -396,7 +384,6 @@ The **Boyle Temperature ($T_B$)** is the precise temperature at which a real gas
   - **At $T > T_B$:** $B(T) > 0 \implies$ initial slope is positive ($Z > 1$).
 
 ---
-
 
 ### 9.1 Andrew's Isotherms of Carbon Dioxide ($\text{CO}_2$)
 
@@ -477,7 +464,6 @@ When a gas at high pressure expands adiabatically through a porous plug or throt
 
 ---
 
-
 ### 10.1 Master Thermodynamics Formula Sheet
 
 | Thermodynamic Quantity | Formula / Canonical Form | High-Yield JEE Insight |
@@ -496,7 +482,6 @@ When a gas at high pressure expands adiabatically through a porous plug or throt
 | **Inversion Temperature** | $T_i = \frac{2a}{Rb} = 2 T_B = 6.75 T_c$ | $\mu_{\text{JT}} = 0$; gas cools below $T_i$, heats above $T_i$ |
 
 ---
-
 
 #### Trap 1: Mean Free Path Temperature Dependence at Constant Pressure vs. Constant Volume
 - **At Constant Pressure ($P = \text{const}$):** $\lambda = \frac{k_B T}{\sqrt{2}\pi \sigma^2 P} \propto T$. Heating causes expansion, spacing out molecules $\implies \lambda$ increases.

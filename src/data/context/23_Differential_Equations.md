@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Definitions and Fundamental Distinctions
 - **Differential Equation (DE):** An equation involving independent variables, dependent variables, and one or more differential coefficients (derivatives) of dependent variables with respect to independent variables.
 - **Ordinary Differential Equation (ODE):** An equation where dependent variable(s) depend upon exactly **one** independent variable:
@@ -71,7 +70,6 @@ Let $P(x, y)$ be any point on the curve $y = f(x)$ where the derivative $y' = \f
 
 ---
 
-
 ### 3.1 Variable Separable Form
 $$\frac{dy}{dx} = f(x) g(y) \implies \frac{dy}{g(y)} = f(x) dx \implies \int \frac{dy}{g(y)} = \int f(x) dx + C$$
 
@@ -117,7 +115,6 @@ $$\frac{dy}{dx} = \frac{a_1 x + b_1 y + c_1}{a_2 x + b_2 y + c_2}$$
 
 ---
 
-
 ### 4.1 First Order Linear in $y$ (Standard LDE)
 $$\frac{dy}{dx} + P(x) y = Q(x)$$
 where $P(x)$ and $Q(x)$ are continuous functions of $x$ alone.
@@ -161,7 +158,6 @@ Substitute $z = f(y) \implies \frac{dz}{dx} = f'(y) \frac{dy}{dx}$, which immedi
 $$\frac{dz}{dx} + P(x) z = Q(x)$$
 
 ---
-
 
 ### 5.1 Exactness Condition
 A first-order differential expression $M(x, y) dx + N(x, y) dy = 0$ is an **exact differential** if and only if:
@@ -275,7 +271,6 @@ This is a first-order linear differential equation solved via integrating factor
 
 ---
 
-
 ### Exercise 1: Integro-Differential Equation
 **Problem:** A differentiable function $y(x)$ satisfies the integro-differential equation:
 $$y'(x) = y(x) + \int_0^1 y(x) dx, \quad \text{with } y(0) = 1$$
@@ -378,7 +373,6 @@ $$(3\tan x + 4\cot y - 7)\sin^2 y dx - (4\tan x + 7\cot y - 5)\cos^2 x dy = 0$$
    $$\mathbf{\frac{3}{2} \tan^2 x + 4\tan x \cot y - 7\tan x + \frac{7}{2} \cot^2 y - 5\cot y = C}$$
 
 ---
-
 
 ### PYQ 1 (JEE Advanced): First Order LDE with Exponential Integrating Factor
 **Question:** Let $y(x)$ be the solution of the differential equation $(1 + e^x) y' + y e^x = 1$, with initial condition $y(0) = 2$. Evaluate $\lim_{x \to \infty} y(x)$ and find the value of $y(1)$.
@@ -497,7 +491,6 @@ Find the value of $\int_{-\sqrt{3}/2}^{\sqrt{3}/2} y(x) dx$.
 | **Orthogonal Trajectory Sign** | Replacing $y'$ with $\frac{1}{y'}$ instead of $-\frac{1}{y'}$. | Orthogonal tangents obey $m_1 m_2 = -1$. The substitution must be $y' \to -\frac{1}{y'}$. In polar, $\frac{dr}{d\theta} \to -r^2 \frac{d\theta}{dr}$. |
 
 ---
-
 
 ### Master Reference Table of Differential Equation Types
 

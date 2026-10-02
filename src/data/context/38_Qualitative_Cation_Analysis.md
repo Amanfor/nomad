@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 The Master Analytical Group Classification Scheme
 In qualitative inorganic analysis, basic radicals (cations) are classified into seven analytical groups (Group 0 to Group VI) based on the systematic differences in the solubility products ($K_{\text{sp}}$) of their insoluble chlorides, sulfides, hydroxides, carbonates, and phosphates:
 
@@ -25,7 +24,6 @@ In qualitative inorganic analysis, basic radicals (cations) are classified into 
 *Description: Two-panel comprehensive inorganic analytical infographic: (A) Complete systematic group separation flowsheet tracing the sequential separation of cations from Group 0 through Group VI indicating specific group reagents, precipitate formulas, and characteristic precipitate colors; (B) Physical chemistry principles underlying selective precipitation: the Common Ion Effect governing sulfide precipitation in Group II vs. Group IV, hydroxide ion suppression in Group III via $\text{NH}_4\text{Cl}/\text{NH}_4\text{OH}$ buffer, and carbonate concentration control preventing premature precipitation of magnesium carbonate in Group V.*
 
 ---
-
 
 #### 1.3.1 Precipitation Condition: Ionic Product vs. Solubility Product
 Precipitation of an electrolyte $\text{A}_x\text{B}_y \rightleftharpoons x\text{A}^{y+} + y\text{B}^{x-}$ occurs if and only if its ionic product ($Q_{\text{sp}}$) exceeds its thermodynamic solubility product ($K_{\text{sp}}$):
@@ -88,7 +86,6 @@ $$\mathbf{K_a = K_{a1} \cdot K_{a2} = \frac{[\text{H}^+]^2 [\text{S}^{2-}]}{[\te
 
 ---
 
-
 ### 2.1 Principle & Gaseous Evolution Tests
 Because all ammonium salts are highly soluble in water, $\text{NH}_4^+$ cannot be precipitated by any common group reagent and is analyzed in the **original salt mixture** (zero-group analysis):
 1. **Action of Strong Bases ($\text{NaOH}$ or $\text{Ca(OH)}_2$):**
@@ -127,7 +124,6 @@ $$\mathbf{3\text{NH}_4^+ + [\text{Co(NO}_2)_6]^{3-} \to (\text{NH}_4)_3[\text{Co
 *(Note: $\text{K}^+$ ions also give an identical yellow precipitate of $\text{K}_3[\text{Co(NO}_2)_6]$; hence $\text{K}^+$ must be absent).*
 
 ---
-
 
 ### 3.1 Initial Precipitation & Separation Strategy
 Addition of cold dilute $\text{HCl}$ precipitates:
@@ -188,7 +184,6 @@ Adding warm aqueous ammonia ($\text{NH}_4\text{OH}$) to the residue containing $
     $$\text{Hg}_2\text{Cl}_2 + \text{SnCl}_2 \to \mathbf{2\text{Hg}\downarrow (\text{Grey/Black})} + \text{SnCl}_4$$
 
 ---
-
 
 ### 4.1 Separation of Subgroups IIA and IIB using Yellow Ammonium Sulfide (YAS)
 The Group II sulfide precipitate is treated with warm **Yellow Ammonium Sulfide** (YAS, $(\text{NH}_4)_2\text{S}_x$, containing polysulfide ions $\text{S}_2^{2-}$):
@@ -253,7 +248,6 @@ The ammoniacal filtrate contains $[\text{Cu(NH}_3)_4]^{2+}$ (intense azure blue)
 
 ---
 
-
 ### 5.1 Separation of Group III Hydroxides
 The Group III hydroxide precipitate ($\text{Fe(OH)}_3$ reddish-brown, $\text{Al(OH)}_3$ gelatinous white, $\text{Cr(OH)}_3$ green) is treated with **excess $\text{NaOH}$ and $3\%\ \text{H}_2\text{O}_2$ (or sodium peroxide $\text{Na}_2\text{O}_2$)**, followed by boiling:
 - **$\text{Fe(OH)}_3$ is basic:** It does NOT dissolve in $\text{NaOH}$ and remains as a reddish-brown residue.
@@ -314,7 +308,6 @@ Dissolve the reddish-brown $\text{Fe(OH)}_3$ residue in dilute $\text{HCl}$ to o
 
 ---
 
-
 ### 6.1 Nickel ($\text{Ni}^{2+}$) Confirmatory Chemistry
 Dissolve the black $\text{NiS}$ precipitate in aqua regia, neutralize with $\text{NH}_4\text{OH}$, and perform:
 - **The Dimethylglyoxime (DMG) Test:**
@@ -363,7 +356,6 @@ Dissolve the flesh/buff-colored $\text{MnS}$ precipitate in dilute $\text{HCl}$ 
 
 ---
 
-
 ### 7.1 Separation Cascade in Acetic Acid Medium
 The white carbonate precipitate ($\text{BaCO}_3, \text{SrCO}_3, \text{CaCO}_3$) is dissolved in minimum hot dilute **acetic acid ($\text{CH}_3\text{COOH}$)**:
 21. **Barium ($\text{Ba}^{2+}$) Precipitation:**
@@ -385,7 +377,6 @@ The white carbonate precipitate ($\text{BaCO}_3, \text{SrCO}_3, \text{CaCO}_3$) 
 
 ---
 
-
 ### 8.1 Disodium Hydrogen Phosphate Test
 To the filtrate from Group V, add disodium hydrogen phosphate ($\text{Na}_2\text{HPO}_4$) in the presence of $\text{NH}_4\text{Cl}$ and concentrated $\text{NH}_4\text{OH}$, and scratch the inner wall of the test tube with a glass rod:
 $$\mathbf{\text{Mg}^{2+} + \text{Na}_2\text{HPO}_4 + \text{NH}_4\text{OH} \to \text{Mg(NH}_4)\text{PO}_4 \cdot 6\text{H}_2\text{O}\downarrow (\text{White Crystalline}) + 2\text{Na}^+ + \text{H}_2\text{O}}$$
@@ -405,7 +396,6 @@ Add a few drops of **Magneson I** (4-(4-nitrophenylazo)resorcinol) or Magneson I
 Heating magnesium salts with cobalt nitrate on a charcoal cavity gives a **pale pink / flesh-colored non-fusible mass ($\text{CoO} \cdot \text{MgO}$)**.
 
 ---
-
 
 ### 9.1 Master Cation Confirmatory Color Matrix
 
@@ -440,7 +430,6 @@ Heating magnesium salts with cobalt nitrate on a charcoal cavity gives a **pale 
 | $\text{Mg}^{2+}$ | Magneson reagent $+ \text{NaOH}$ | $\text{Mg(OH)}_2$ lake | **Sky-blue precipitate / lake** |
 
 ---
-
 
 #### Trap 1: Interference of Phosphate ($\text{PO}_4^{3-}$) and Interfering Acid Radicals
 - Phosphates, borates, oxalates, and fluorides of alkaline earth metals and Group IV metals are insoluble in neutral or alkaline media, but soluble in acidic media.

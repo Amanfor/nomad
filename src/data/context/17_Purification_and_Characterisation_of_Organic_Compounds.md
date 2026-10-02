@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Crystallisation
 - **Simple Crystallisation:**
   - Most ubiquitous method for purifying solid organic substances.
@@ -19,7 +18,6 @@
 - **Key Sublimable Compounds for JEE:** Camphor, Naphthalene, Anthracene, Benzoic Acid, Salicylic Acid, Phthalic Anhydride, Iodine, and Ammonium Chloride ($\text{NH}_4\text{Cl}$).
 
 ---
-
 
 #### A. Simple Distillation
 - **Governing Principle:** Vaporization of a liquid followed by condensation of its vapors.
@@ -60,14 +58,14 @@
 
 ---
 
-### 1.4 Visual Preservation: Fractional vs. Steam Distillation Principles
+### 1.3 Visual Preservation: Fractional vs. Steam Distillation Principles
 
 ![Fractional vs Steam Distillation](/media/fractional_vs_steam_distillation_apparatus.webp)
 *Description: Comparative technical diagram illustrating the structural and thermodynamic divergence between fractional distillation (utilizing packed fractionating columns to achieve multi-plate liquid-vapor equilibrium for miscible liquids with $\Delta T_{b.p.} < 25^\circ\text{C}$) and steam distillation (governed by Dalton's law of partial pressures $P_{total} = p_{organic} + p_{H_2O} = P_{atm}$, enabling water-insoluble, steam-volatile organic liquids to boil below $100^\circ\text{C}$).*
 
 ---
 
-### 1.5 Differential Extraction & Distribution Law
+### 1.4 Differential Extraction & Distribution Law
 - **Governing Principle (Nernst Distribution Law):** When an organic compound distributed between two immiscible liquid phases (typically water and an organic solvent such as ether or chloroform) is agitated in a separating funnel, it distributes such that the ratio of equilibrium concentrations is constant at fixed temperature:
   $$K_D = \frac{C_{\text{organic}}}{C_{\text{aqueous}}}$$
 - **Mathematical Invariant for Multiple Extractions:**
@@ -78,7 +76,7 @@
 
 ---
 
-### 1.6 Chromatographic Separation Techniques
+### 1.5 Chromatographic Separation Techniques
 
 | Type of Chromatography | Mobile Phase | Stationary Phase | Mechanism | Primary Analytical & Preparative Uses |
 | :--- | :--- | :--- | :--- | :--- |
@@ -95,13 +93,12 @@
 
 ---
 
-### 1.7 Visual Preservation: Thin Layer Chromatography & Retardation Factor ($R_f$)
+### 1.6 Visual Preservation: Thin Layer Chromatography & Retardation Factor ($R_f$)
 
 ![TLC Retardation Factor Schematic](/media/chromatography_and_retardation_factor.webp)
 *Description: Detailed schematic of a Thin-Layer Chromatography (TLC) developing chamber showing the solvent reservoir, baseline origin, solvent front line, component spot migration distances ($d_A, d_B$), and the algebraic derivation of the dimensionless Retardation Factor ($R_f = d_x / d_{solvent}$) illustrating differential adsorption selectivity.*
 
 ---
-
 
 ### 2.1 Detection of Carbon and Hydrogen (Copper Oxide Test)
 - **Reagent:** Pure dry Cupric Oxide ($\text{CuO}$).
@@ -181,7 +178,6 @@
 
 ---
 
-
 ### 3.1 Estimation of Carbon and Hydrogen (Liebig's Combustion Method)
 - **Apparatus:** Combustion tube packed with oxidized copper gauze and copper oxide, connected in series to an anhydrous Calcium Chloride U-tube (absorbs $\text{H}_2\text{O}$) followed by concentrated Potassium Hydroxide bulb (absorbs $\text{CO}_2$).
 - **Calculation Formulae:**
@@ -189,7 +185,6 @@
   $$\%\text{H} = \frac{2.016}{18.016} \times \frac{\text{Mass of } \text{H}_2\text{O} \text{ produced } (m_{\text{H}_2\text{O}})}{\text{Mass of organic compound } (m)} \times 100$$
 
 ---
-
 
 #### A. Dumas Method
 - **Principle:** Organic compound heated with cupric oxide in a carbon dioxide atmosphere; all nitrogen is converted to elemental nitrogen gas ($\text{N}_2$), while traces of nitrogen oxides are reduced back to $\text{N}_2$ by passing over heated copper gauze.
@@ -220,7 +215,7 @@
 
 ---
 
-### 3.3 Estimation of Halogens (Carius Method)
+### 3.2 Estimation of Halogens (Carius Method)
 - A known mass ($m$) of organic compound is heated with fuming Nitric Acid ($\text{HNO}_3$) in the presence of Silver Nitrate ($\text{AgNO}_3$) inside a thick-walled sealed glass Carius tube at $150-200^\circ\text{C}$.
 - Carbon and Hydrogen are oxidized to $\text{CO}_2$ and $\text{H}_2\text{O}$, while Halogen is precipitated quantitatively as Silver Halide ($\text{AgX}$). The precipitate is filtered, washed, dried, and weighed ($m_{\text{AgX}}$).
 - **Percentage Calculation:**
@@ -231,7 +226,7 @@
 
 ---
 
-### 3.4 Estimation of Sulphur (Carius Method)
+### 3.3 Estimation of Sulphur (Carius Method)
 - Organic compound is heated with fuming $\text{HNO}_3$ (or sodium peroxide $\text{Na}_2\text{O}_2$) in a Carius tube.
 - Sulphur is oxidized entirely to Sulphuric Acid:
   $$\text{S} + 2\text{HNO}_3 \to \text{H}_2\text{SO}_4 + 2\text{NO}\uparrow$$
@@ -242,7 +237,7 @@
 
 ---
 
-### 3.5 Estimation of Phosphorus
+### 3.4 Estimation of Phosphorus
 - Compound heated with fuming $\text{HNO}_3$ oxidizes Phosphorus to Phosphoric Acid ($\text{H}_3\text{PO}_4$).
 - **Two Analytical Pathways:**
   1. Precipitated with Ammonium Molybdate as Ammonium Phosphomolybdate $(\text{NH}_4)_3[\text{PMo}_{12}\text{O}_{40}]$ (Molar mass = $1877\text{ g/mol}$):
@@ -253,7 +248,7 @@
 
 ---
 
-### 3.6 Estimation of Oxygen
+### 3.5 Estimation of Oxygen
 - **Indirect Method (By Difference):**
   $$\%\text{O} = 100 - \sum (\%\text{C} + \%\text{H} + \%\text{N} + \%\text{Halogens} + \%\text{S} + \%\text{P})$$
 - **Direct Method (Aluise's Method):**
@@ -264,7 +259,6 @@
   - $\%\text{O} = \frac{32}{88} \times \frac{m_{\text{CO}_2}}{m} \times 100$.
 
 ---
-
 
 ### 4.1 Fundamental Definitions
 - **Empirical Formula:** Represents the simplest whole-number molar ratio of different atoms present in a single molecule of the compound.
@@ -290,7 +284,6 @@
   $$\text{Molar Mass of base } B = \frac{1}{2} \left( \frac{w_{\text{salt}}}{w_{\text{Pt residue}}} \times 195 - 410 \right)$$
 
 ---
-
 
 ### Archetype 1: Kjeldahl's Method with Back-Titration
 - **Problem:** $0.50\text{ g}$ of an organic compound was digested under Kjeldahl's conditions and evolved ammonia was passed into $50\text{ mL}$ of $0.1\text{ M } \text{H}_2\text{SO}_4$. The excess acid required $30\text{ mL}$ of $0.1\text{ M } \text{NaOH}$ for complete neutralization. Calculate the percentage of nitrogen.

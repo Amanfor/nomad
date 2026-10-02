@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Fundamental Definition of Alternating Current (AC)
 - **Alternating Current (AC):** An electric current whose magnitude changes continuously with time and whose polarity/direction reverses periodically.
 - **Sinusoidal Waveform Representation:**
@@ -27,7 +26,6 @@
 - **Current Extrema in a Cycle:** During one complete cycle ($0 \le t \le T$), current crosses zero twice (at $t = 0, T/2, T$) and reaches equal magnitude peaks in opposite directions twice (at $t = T/4$ and $t = 3T/4$).
 
 ---
-
 
 ### 2.1 Average Value ($V_{\text{av}}$ and $I_{\text{av}}$)
 - **Full-Cycle Average:** For any symmetrical alternating waveform with equal positive and negative half-cycles, the algebraic mean value over a complete period $T$ is identically zero:
@@ -65,7 +63,6 @@
 
 ---
 
-
 ### 3.1 Purely Resistive Circuit ($R$)
 - **Circuit Equation:** Connected to source $v(t) = V_0 \sin(\omega t)$:
   $$v(t) - i(t) R = 0 \implies i(t) = \frac{V_0}{R} \sin(\omega t) = I_0 \sin(\omega t)$$
@@ -102,7 +99,6 @@
 
 ---
 
-
 ### 4.1 Series $R\text{-}L$ Circuit
 - **Vector Sum of Voltages:** $V_R$ is in phase with current $i(t)$, while $V_L$ leads by $90^\circ$:
   $$V_0 = \sqrt{V_R^2 + V_L^2} = \sqrt{(I_0 R)^2 + (I_0 X_L)^2} = I_0 \sqrt{R^2 + (\omega L)^2}$$
@@ -130,7 +126,6 @@
 - **Zero Impedance Condition ($X_L = X_C$):** At $\omega = \frac{1}{\sqrt{LC}}$, $Z = 0$, permitting maximum current without applied potential across the combination (free undamped oscillation).
 
 ---
-
 
 ### 5.1 Loop Equation & Steady-State Solution
 - **Kirchhoff's Voltage Law:**
@@ -165,7 +160,6 @@
 *Description: Three-panel diagram illustrating the complete electromagnetic architecture of a series LCR network: (Left) Circuit schematic showing AC source $\mathcal{E} = V_0 \sin(\omega t)$ in series with resistor $R$, inductor $L$, and capacitor $C$; (Middle) Voltage phasor diagram for $X_L > X_C$, showing $V_R = I_0 R$ along the horizontal real axis, $V_L$ pointing upward along $+y$, $V_C$ downward along $-y$, the net reactive vector $(V_L - V_C)$, and the resultant source voltage vector $V_0 = \sqrt{V_R^2 + (V_L - V_C)^2}$ inclined at phase angle $\phi$; and (Right) Right-angled Impedance Triangle displaying resistance $R$ as the adjacent base, net reactance $(X_L - X_C)$ as the opposite side, total impedance $Z = \sqrt{R^2 + (X_L - X_C)^2}$ as the hypotenuse, and power factor formula $\cos \phi = R/Z$.*
 
 ---
-
 
 ### 6.1 Condition of Series Resonance
 - **Resonance Phenomenon:** When the angular frequency of the applied AC source matches the natural oscillation frequency of the $L-C$ network, inductive and capacitive reactances cancel exactly:
@@ -212,7 +206,6 @@
 
 ---
 
-
 ### 7.1 Instantaneous & Average Power Derivations
 - **Instantaneous Power:**
   $$p(t) = v(t) \cdot i(t) = [V_0 \sin(\omega t)] \cdot [I_0 \sin(\omega t - \phi)]$$
@@ -254,7 +247,6 @@
 
 ---
 
-
 ### 8.1 Electromagnetic Energy Exchange
 - When a fully charged capacitor (initial charge $q_0$, electrostatic energy $U_E = \frac{q_0^2}{2C}$) is connected across an ideal inductor ($L$, $R = 0$):
   1. The capacitor discharges through $L$, establishing an increasing magnetic field ($U_B = \frac{1}{2}L i^2$).
@@ -285,7 +277,6 @@
 | Natural Frequency $\omega_0 = \frac{1}{\sqrt{LC}}$ | Natural Frequency $\omega_0 = \sqrt{\frac{k}{m}}$ |
 
 ---
-
 
 ### 9.1 Construction & Principle
 - **Principle:** Operates on the basis of **mutual induction** between two magnetically coupled coils wound on a common high-permeability, laminated soft-iron core.
@@ -319,7 +310,6 @@
 | **Magnetostriction (Humming Loss)** | Mechanical deformation of ferromagnetic domains in the core creating acoustic noise | Secure clamping of laminations |
 
 ---
-
 
 ### Archetype 1: Combined DC and AC Signals in Hot-Wire Instruments
 - **Problem:** A current is given by $i(t) = I_{\text{dc}} + I_0 \sin(\omega t)$. What is the reading on a hot-wire ammeter?

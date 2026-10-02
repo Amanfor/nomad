@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 The Three Fundamental Laws
 1. **Newton's First Law (Law of Inertia):**
    Every body continues in its state of rest or of uniform motion in a straight line unless compelled to change that state by an unbalanced external force:
@@ -62,7 +61,6 @@ The scale reading is the **Normal Contact Reaction ($N$)** exerted by the scale 
 
 ---
 
-
 ### 2.1 String Constraints & The Virtual Work Method
 For ideal (massless, inextensible) strings passing over smooth (frictionless, massless) pulleys:
 9. **Constant Length Formulation:**
@@ -109,7 +107,6 @@ Two masses $m_1$ and $m_2$ ($m_1 > m_2$) connected by a light string over a fixe
 
 ---
 
-
 ### 3.1 Hooke's Law & Spring Stiffness
 The restoring force exerted by an ideal massless spring displaced by $x$ from its natural length:
 $$\mathbf{\vec{F}_s = -k \vec{x}}$$
@@ -140,7 +137,6 @@ When a connecting string or spring in an equilibrium system is suddenly severed:
    - **Step 3:** Draw individual FBDs with the updated forces and apply $\vec{a} = \frac{\sum \vec{F}_{\text{net}}}{m}$ to find instantaneous accelerations.
 
 ---
-
 
 ### 4.1 Nature & Regimes of Friction
 
@@ -195,7 +191,7 @@ $$\frac{dD}{d\theta} = -\sin\theta + \mu\cos\theta = 0 \implies \tan\theta = \mu
 
 ---
 
-## 20. Multi-Block Friction Dynamics (Two-Block Systems)
+## 1. Multi-Block Friction Dynamics (Two-Block Systems)
 
 Consider block $A$ of mass $m_1$ placed on top of block $B$ of mass $m_2$. The coefficient of friction between $A$ and $B$ is $\mu_s = \mu_k = \mu$, and the floor under $B$ is smooth ($f_{\text{floor}} = 0$):
 - Maximum friction force available between blocks $A$ and $B$:
@@ -232,7 +228,6 @@ Consider block $A$ of mass $m_1$ placed on top of block $B$ of mass $m_2$. The c
 
 ---
 
-
 ### 6.1 Master NLM & Friction Formula Table
 
 | Physical Quantity / Phenomenon | Master Equation | High-Yield Application |
@@ -258,7 +253,6 @@ Consider block $A$ of mass $m_1$ placed on top of block $B$ of mass $m_2$. The c
 | **Two-Block Bottom Pull Threshold** | $F_{\text{th}} = \mu_s (m_1 + m_2) g$ | Force on $m_2$, max $a_A = \mu g$ |
 
 ---
-
 
 #### Trap 1: Action-Reaction Cancellation Fallacy
 - **The Error:** Assuming that because action and reaction are equal and opposite, they cancel out to produce equilibrium ($F - F = 0$).

@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Fundamental Law & Point Masses
 Every particle in the universe attracts every other particle with a mutually collinear force directly proportional to the product of their masses and inversely proportional to the square of the distance between them:
 $$\mathbf{\vec{F}_{12} = -\frac{G m_1 m_2}{r^2} \hat{r}_{12} = -\frac{G m_1 m_2}{r^3} \vec{r}_{12}}$$
@@ -28,7 +27,6 @@ Consider a thin uniform rod of mass $M$ and length $L$ lying along the $x$-axis 
   - **CRITICAL TRAP:** The force is **NOT** $\frac{GMm}{(d + L/2)^2}$! A continuous rod cannot be replaced by a point mass at its center of mass for gravitational force calculations!
 
 ---
-
 
 ### 2.1 Definition & Relationship to Potential
 The gravitational field intensity $\vec{E}_g$ at any point in space is defined as the gravitational force experienced per unit test mass placed at that point:
@@ -105,7 +103,6 @@ $$\mathbf{g_\lambda = g - \omega^2 R \cos^2\lambda}$$
 
 ---
 
-
 ### 4.1 Potential Energy of Point Mass Configurations
 The gravitational potential energy of two point masses $m_1$ and $m_2$ separated by distance $r$:
 $$\mathbf{U(r) = -\frac{G m_1 m_2}{r}}$$
@@ -128,7 +125,6 @@ The work done by external forces in assembling a body by bringing infinitesimal 
   $$\mathbf{E_{\text{bind}} = -U_{\text{self}} = +\frac{3}{5}\frac{G M^2}{R}}$$
 
 ---
-
 
 ### 5.1 Escape Speed from Planetary Surface
 
@@ -164,7 +160,6 @@ $$\mathbf{v_e = \sqrt{\frac{2 G M}{R}} = \sqrt{2 g R} = R \sqrt{\frac{8\pi G \rh
 
 ---
 
-
 ### 6.1 First Law: The Law of Orbits
 Every planet revolves around the Sun in an **elliptical orbit**, with the Sun situated at one of the two foci:
 - **Geometry of Elliptical Orbit:**
@@ -195,7 +190,6 @@ $$\mathbf{T^2 = \left(\frac{4\pi^2}{G M_S}\right) a^3 \implies T^2 \propto a^3}$
 - The proportionality constant depends **exclusively on the central mass $M_S$**, completely independent of the mass $m$ of the orbiting planet!
 
 ---
-
 
 ### 7.1 Circular Satellite Orbits: Velocity, Period, & Energy
 
@@ -258,7 +252,6 @@ Two isolated stars of masses $m_1$ and $m_2$ separated by distance $d$ revolve i
 
 ---
 
-
 ### 8.1 Master Gravitation Formula Table
 
 | Physical Quantity / Law | Master Equation | High-Yield Application |
@@ -284,7 +277,6 @@ Two isolated stars of masses $m_1$ and $m_2$ separated by distance $d$ revolve i
 | **Binary Star Frequency** | $\omega = \sqrt{\frac{G(m_1 + m_2)}{d^3}}$ | Co-orbit mutual Center of Mass |
 
 ---
-
 
 #### Trap 1: The Linear Altitude Approximation Misuse
 - **The Error:** Using $g_h = g(1 - 2h/R)$ when $h = R$ or $h = 2R$.

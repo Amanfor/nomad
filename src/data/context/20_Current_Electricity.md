@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Definition & Nature of Electric Current
 - Electric current through a cross-sectional area is the net rate of flow of electric charge:
   $$I = \frac{\Delta Q}{\Delta t}, \quad I = \lim_{\Delta t \to 0} \frac{\Delta Q}{\Delta t} = \frac{dQ}{dt}$$
@@ -29,7 +28,6 @@
 
 ---
 
-
 ### 2.1 Macroscopic Ohm’s Law
 $$V = I R \implies R = \frac{\rho L}{A}$$
 - **Conductance ($G$):** $G = \frac{1}{R} = \frac{\sigma A}{L}$ (measured in Siemens or $\Omega^{-1}$).
@@ -53,7 +51,6 @@ $$V = I R \implies R = \frac{\rho L}{A}$$
 
 ---
 
-
 ### 3.1 Series and Parallel Configurations
 - **Series Combination:** Current $I$ is constant through all elements:
   $$R_{\text{eq}} = \sum_{i=1}^n R_i, \quad V_{\text{total}} = \sum_{i=1}^n V_i$$
@@ -71,7 +68,6 @@ For bridge circuits that resist standard series-parallel reduction:
 
 ---
 
-
 ### 4.1 Kirchhoff’s Current Law (KCL — Point Rule)
 - **Statement:** The algebraic sum of currents meeting at any electrical node is identically zero:
   $$\sum I_{\text{junction}} = 0 \implies \sum I_{\text{in}} = \sum I_{\text{out}}$$
@@ -88,7 +84,6 @@ For bridge circuits that resist standard series-parallel reduction:
   4. Traversing a battery from positive to negative terminal: $\Delta V = - \mathcal{E}$.
 
 ---
-
 
 ### 5.1 Balanced Wheatstone Bridge
 - In a diamond configuration of four resistors $P, Q, R, S$ with a galvanometer connected across opposite nodes $A$ and $C$:
@@ -112,8 +107,7 @@ For bridge circuits that resist standard series-parallel reduction:
 
 ---
 
-
-### 7.1 Single Real Cell Characteristics
+### 6.1 Single Real Cell Characteristics
 - Terminal voltage $V$ across a cell of EMF $\mathcal{E}$ and internal resistance $r$:
   - **Discharging (delivering current $I$ to load $R$):**
     $$V = \mathcal{E} - I r = \frac{\mathcal{E} R}{R + r}$$
@@ -122,7 +116,7 @@ For bridge circuits that resist standard series-parallel reduction:
   - **Open Circuit ($I = 0$):** $V = \mathcal{E}$.
   - **Short Circuit ($R = 0$):** $V = 0, \quad I_{\text{sc}} = \frac{\mathcal{E}}{r}$.
 
-### 7.2 Grouping Configurations
+### 7.1 Grouping Configurations
 2. **Series Grouping ($n$ identical cells):**
    $$\mathcal{E}_{\text{net}} = n \mathcal{E}, \quad r_{\text{net}} = n r \implies I = \frac{n \mathcal{E}}{R + n r}$$
    *(Reversed Cell Trap: If $m$ cells out of $n$ are reversed in polarity, net EMF becomes $(n - 2m)\mathcal{E}$, while internal resistance remains $nr$).*
@@ -137,7 +131,6 @@ For bridge circuits that resist standard series-parallel reduction:
      *(Current is maximized when the external load equals the total equivalent internal resistance of the battery bank).*
 
 ---
-
 
 ### 8.1 Joule’s Law of Heating
 $$H = I^2 R t = V I t = \frac{V^2}{R} t \quad (\text{Joules})$$
@@ -158,7 +151,6 @@ $$P = V I = I^2 R = \frac{V^2}{R} \quad (\text{Watts})$$
   *(Crucial JEE Invariant: Current capacity of a fuse wire depends strictly on radius $r$ and is completely independent of wire length $L$).*
 
 ---
-
 
 ### 9.1 Working Principle & Potential Gradient
 - An ideal voltmeter has infinite internal resistance ($R_V = \infty$). A potentiometer acts as an **ideal voltmeter** because it draws zero current from the test source at the balance point.
@@ -182,8 +174,7 @@ $$P = V I = I^2 R = \frac{V^2}{R} \quad (\text{Watts})$$
 
 ---
 
-
-### 11.1 Charging of a Capacitor
+### 10.1 Charging of a Capacitor
 Consider a capacitor $C$ in series with resistor $R$ connected to a DC source of EMF $\mathcal{E}$:
 $$\mathcal{E} - i R - \frac{q}{C} = 0 \implies R \frac{dq}{dt} + \frac{q}{C} = \mathcal{E}$$
 Solving with initial condition $q(0) = 0$:
@@ -199,7 +190,7 @@ where $\tau = R C$ is the capacitive time constant.
   - Energy stored in capacitor: $U_C = \frac{1}{2} C \mathcal{E}^2$.
   - Heat dissipated in resistor: $H = W_{\text{batt}} - U_C = \frac{1}{2} C \mathcal{E}^2$ ($50\%$ independent of $R$).
 
-### 11.2 Discharging of a Capacitor
+### 11.1 Discharging of a Capacitor
 Discharging an initially charged capacitor $Q_0$ through resistor $R$:
 $$q(t) = Q_0 e^{-t/RC} = Q_0 e^{-t/\tau}$$
 $$i(t) = -\frac{Q_0}{RC} e^{-t/RC} = -I_0 e^{-t/\tau}$$
@@ -214,7 +205,6 @@ $$i(t) = -\frac{Q_0}{RC} e^{-t/RC} = -I_0 e^{-t/\tau}$$
 *Description: Mathematical response curves comparing the time-evolution of normalized charge $q/Q_0$ and loop current $i/I_0$ as a function of dimensionless time $t/\tau$: (Left) Charging cycle showcasing asymptotic saturation with the landmark $63.2\%$ charge level at $t = \tau$, and (Right) Discharging curve demonstrating exponential decay with the $36.8\%$ residual charge landmark at $t = \tau$.*
 
 ---
-
 
 ### Archetype 1: Equivalent Resistance of a Cube of Resistors
 - **Problem:** Twelve identical resistors, each of resistance $R$, form the edges of a cube. Find the equivalent resistance across:

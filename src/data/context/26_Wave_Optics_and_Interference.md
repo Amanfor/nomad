@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Physical Nature of Wavefronts
 - **Wavefront Definition:** The continuous locus of all medium particles or points in space that oscillate in the exact same phase ($\phi = \text{constant}$).
 - **Rays as Wavefront Normals:** In isotropic media, light rays are straight lines drawn perpendicular (normal) to the wavefront at every point, indicating the direction of radiant energy propagation.
@@ -67,7 +66,6 @@ When a plane wavefront strikes an optical element, differential phase delays occ
 
 ---
 
-
 ### 2.1 Principle of Linear Superposition
 - When two or more light waves propagate through the same spatial region, the resultant electric field vector $\vec{E}$ at any point is the vector sum of individual electric field vectors:
   $$\vec{E}(\vec{r}, t) = \vec{E}_1(\vec{r}, t) + \vec{E}_2(\vec{r}, t) + \dots + \vec{E}_n(\vec{r}, t)$$
@@ -118,7 +116,6 @@ When a plane wavefront strikes an optical element, differential phase delays occ
   The average intensity across the entire screen equals the simple sum of individual beam intensities.
 
 ---
-
 
 ### 3.1 Experimental Architecture & Coordinate Setup
 - A monochromatic point or slit source $S$ of wavelength $\lambda$ illuminates two parallel narrow slits $S_1$ and $S_2$ separated by a distance $d$.
@@ -177,7 +174,6 @@ When a plane wavefront strikes an optical element, differential phase delays occ
 
 ---
 
-
 ### 4.1 Concept of Optical Path Length ($\Delta x_{\text{opt}}$)
 - In a medium of refractive index $\mu$, the speed of light slows to $v = c/\mu$.
 - The time $\Delta t$ taken to traverse physical distance $t$ in the medium is:
@@ -214,7 +210,6 @@ When a plane wavefront strikes an optical element, differential phase delays occ
 
 ---
 
-
 ### 5.1 Fresnel's Biprism
 - A thin prism with two very small refracting base angles $\alpha \approx 20' \text{ to } 30'$ (a fraction of a degree) and an obtuse apex angle $\approx 179^\circ$.
 - A single slit $S$ at distance $a$ behind the biprism produces two virtual coherent images $S_1$ and $S_2$ via symmetric refraction:
@@ -237,7 +232,6 @@ When a plane wavefront strikes an optical element, differential phase delays occ
   *(The fringe conditions are exactly inverted relative to standard YDSE).*
 
 ---
-
 
 ### 6.1 Stokes' Phase Reversal Relations
 - When a light wave in medium 1 strikes the interface of medium 2:
@@ -271,7 +265,6 @@ Consider a thin transparent film of thickness $d$ and index $\mu$ bounded by air
 
 ---
 
-
 ### 7.1 Diffraction Mechanism & Secondary Wavelet Splitting
 - **Diffraction:** The bending or spreading of wave energy into the geometrical shadow region when encountering an obstacle or aperture whose dimensions are comparable to the wavelength ($a \sim \lambda$).
 - In Fraunhofer diffraction, both the incident and diffracted wavefronts are planar (achieved using collimating and focusing convex lenses).
@@ -299,7 +292,6 @@ Consider a thin transparent film of thickness $d$ and index $\mu$ bounded by air
      $$I_0 : I_1 : I_2 : I_3 \approx 1 : \frac{4}{9\pi^2} : \frac{4}{25\pi^2} : \frac{4}{49\pi^2} \approx 1 : 0.045 : 0.016 : 0.008$$
 
 ---
-
 
 ### 8.1 Rayleigh's Criterion for Resolution
 Two point sources are considered **just resolved** by an optical aperture when the principal diffraction maximum of the first source coincides exactly with the first diffraction minimum of the second source.
@@ -329,7 +321,6 @@ Two point sources are considered **just resolved** by an optical aperture when t
     $$I_{\text{trans}} = \frac{I_0}{2}$$
 
 ---
-
 
 ### Archetype 1: Number of Fringes Shifted Across Crosswires
 - **Problem:** In a YDSE setup with $\lambda = 6000\text{ \AA}$, when a thin glass plate of refractive index $\mu = 1.5$ is introduced in front of one slit, the central maximum shifts to the position previously occupied by the 6th bright fringe. Find the thickness $t$ of the plate.

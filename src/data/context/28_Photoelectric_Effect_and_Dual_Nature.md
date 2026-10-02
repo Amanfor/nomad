@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Planck's Quantum Hypothesis & The Photon
 - **Quantum Hypothesis:** Electromagnetic radiation is emitted, propagated, and absorbed not as continuous waves, but in discrete, localized packets or bundles of energy called **quanta** or **photons**.
 - **Photon Energy ($E$):**
@@ -36,7 +35,6 @@
   $$n = \frac{dN}{dt} = \Phi A = \frac{P}{h\nu} = \frac{P\lambda}{hc}$$
 
 ---
-
 
 ### 2.1 Phenomenon & Basic Terminology
 - **Photoelectric Effect:** The emission of electrons (termed *photoelectrons*) from a metallic surface when exposed to electromagnetic radiation of sufficiently high frequency.
@@ -81,7 +79,6 @@
 
 ---
 
-
 ### 3.1 Experimental Laws of Photoelectric Emission
 7. **Threshold Law:** For every photosensitive material, there exists a definite threshold frequency $\nu_0$ below which no photoelectrons are emitted, no matter how intense the light beam.
 8. **Current-Intensity Proportionality:** For a given frequency $\nu > \nu_0$, the saturation photoelectric current ($i_{\text{sat}}$) is directly proportional to the incident light intensity ($i_{\text{sat}} \propto I$).
@@ -114,7 +111,7 @@
 
 ---
 
-## 11. Radiation Force & Radiation Pressure Formulations
+## 1. Radiation Force & Radiation Pressure Formulations
 
 When electromagnetic radiation impinges on a surface, the photons transfer linear momentum, exerting a mechanical force and radiation pressure.
 
@@ -178,7 +175,6 @@ Consider radiation of intensity $I$ incident over a surface of area $A$ at angle
 
 ---
 
-
 ### 5.1 De Broglie Hypothesis
 - In 1924, Louis de Broglie proposed that nature displays symmetry: since radiation exhibits dual (wave-particle) properties, material particles (electrons, protons, neutrons, atoms) must also possess wave-like attributes.
 - **De Broglie Wavelength ($\lambda$):**
@@ -225,7 +221,6 @@ $$K = q V \implies \lambda = \frac{h}{\sqrt{2m q V}}$$
 
 ---
 
-
 ### 6.1 Production of X-Rays in a Coolidge Tube
 - Highly energetic electrons accelerated through an anode potential $V$ (typically $20 - 100\text{ kV}$) strike a heavy metal target (such as Tungsten or Molybdenum) of high melting point and high atomic number $Z$.
 - Only about $1\%$ of electron kinetic energy is converted into X-radiation; the remaining $99\%$ is dissipated as heat, requiring water-cooling circuits.
@@ -262,7 +257,6 @@ $$K = q V \implies \lambda = \frac{h}{\sqrt{2m q V}}$$
 - **Moseley's Breakthrough:** Proved that **atomic number ($Z$)**, rather than atomic mass, is the fundamental physical property determining an element's position in the periodic table.
 
 ---
-
 
 ### Archetype 1: Polychromatic Incident Beam
 - **Problem:** A metallic plate of work function $\phi_0 = 2.4\text{ eV}$ is illuminated by light containing three wavelengths: $\lambda_1 = 3000\text{ \AA}$, $\lambda_2 = 5000\text{ \AA}$, and $\lambda_3 = 6000\text{ \AA}$. Which wavelengths cause photoelectric emission, and what is the maximum kinetic energy and stopping potential?

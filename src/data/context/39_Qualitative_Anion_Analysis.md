@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 The Master Three-Tier Analytical Classification of Anions
 Unlike basic radicals (cations) which are separated sequentially in a rigid cascade, acidic radicals (anions) are classified into three major analytical divisions based on their response to mineral acids and specific precipitation/redox reagents:
 
@@ -37,7 +36,6 @@ When an unknown inorganic salt mixture contains water-insoluble salts (e.g., hea
 *Description: Two-panel comprehensive inorganic qualitative graphic: (A) Master analytical classification of acid radicals (anions) dividing them into Class A (dilute acid decomposable), Class B (concentrated acid decomposable), and Class C (special precipitation group), detailing the chemical metathesis and fundamental limitation of Sodium Carbonate Extract (Soda Extract); (B) Preliminary dry testing phenomena: residue thermochromism transitions ($\text{ZnO}$ yellow hot / white cold, $\text{PbO}$ reddish-brown hot / yellow cold), platinum wire borax bead metaborate chemistry across oxidizing and reducing flames, and charcoal cavity cobalt nitrate bead reactions yielding Rinmann's green ($\text{CoO} \cdot \text{ZnO}$), Thenard's blue ($\text{CoO} \cdot \text{Al}_2\text{O}_3$), and pink magnesium mass ($\text{CoO} \cdot \text{MgO}$).*
 
 ---
-
 
 #### 1.4.1 Dry Heating Phenomena & Residue Thermochromism
 Heating a small pinch of the dry salt in a clean, dry ignition tube yields high-yield diagnostic clues:
@@ -98,7 +96,6 @@ Performed on a clean platinum wire loop with borax ($\text{Na}_2\text{B}_4\text{
   $$\mathbf{\text{SnO}_2 + 2\text{CoO} \to 2\text{CoO} \cdot \text{SnO}_2\quad (\text{Bluish-Green Mass})}$$
 
 ---
-
 
 ### 2.1 Carbonate ($\text{CO}_3^{2-}$) & Bicarbonate ($\text{HCO}_3^-$)
 
@@ -214,7 +211,6 @@ Performed on a clean platinum wire loop with borax ($\text{Na}_2\text{B}_4\text{
 
 ---
 
-
 ### 3.1 Chloride ($\text{Cl}^-$)
 24. **Action of Concentrated $\text{H}_2\text{SO}_4$:**
    Pungent, colorless fumes of $\text{HCl}$ that fume in moist air and produce **dense white fumes of $\text{NH}_4\text{Cl}$** when contacted with a glass rod dipped in aqueous ammonia:
@@ -319,7 +315,6 @@ Performed on a clean platinum wire loop with borax ($\text{Na}_2\text{B}_4\text{
 
 ---
 
-
 ### 4.1 Sulfate ($\text{SO}_4^{2-}$)
 35. **The Insoluble Barium Chloride Test:**
    Adding $\text{BaCl}_2$ solution to an acidified soda extract yields a heavy, **white precipitate of barium sulfate**:
@@ -366,7 +361,6 @@ Performed on a clean platinum wire loop with borax ($\text{Na}_2\text{B}_4\text{
 
 ---
 
-
 ### 5.1 Master Anion Confirmatory Table
 
 | Anion | Principal Confirmatory Reagent | Observed Physical Phenomenon | Formed Chemical Species |
@@ -388,7 +382,6 @@ Performed on a clean platinum wire loop with borax ($\text{Na}_2\text{B}_4\text{
 | $\text{BO}_3^{3-}$ | Ethanol $+ \text{conc. H}_2\text{SO}_4 \to$ Ignition | **Luminous green-edged flame** | $(\text{C}_2\text{H}_5)_3\text{BO}_3$ |
 
 ---
-
 
 #### Trap 1: Nitrate vs. Nitrite in the Brown Ring Test
 - **Nitrite ($\text{NO}_2^-$):** Forms $[\text{Fe(H}_2\text{O})_5(\text{NO})]^{2+}$ with dilute $\text{H}_2\text{SO}_4$ in the cold, producing dark brown color throughout the solution.

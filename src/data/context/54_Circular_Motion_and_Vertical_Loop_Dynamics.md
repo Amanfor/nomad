@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Angular Variables & The Commutativity Principle
 1. **Angular Position ($\theta$):** The angle made by the position vector $\vec{r}$ of a particle with a chosen reference axis (measured in radians).
 2. **Angular Displacement ($\Delta\theta$):**
@@ -57,7 +56,6 @@ where $v_{B/A, \perp}$ is the component of relative velocity perpendicular to th
 
 ---
 
-
 ### 2.1 Centripetal Force vs. Centrifugal Pseudo Force
 - **Centripetal Force ($F_c$):**
   To maintain circular motion, the net real physical force along the inward normal must equal $m a_c$:
@@ -85,7 +83,6 @@ A small bob of mass $m$ attached to a light string of length $L$ rotating in a h
   $$\mathbf{T = \frac{mg}{\cos\theta} = mg \sec\theta > mg}$$
 
 ---
-
 
 ### 3.1 Turning on Flat vs. Frictionless Banked Roads
 
@@ -137,7 +134,6 @@ When friction coefficient $\mu_s > 0$ exists on a road banked at angle $\theta$:
    $$\mu_s (m \omega^2 R) \ge mg \implies \mathbf{\omega_{\min} = \sqrt{\frac{g}{\mu_s R}} \iff v_{\min} = \sqrt{\frac{g R}{\mu_s}}}$$
 
 ---
-
 
 ### 4.1 Inextensible String Vertical Loop Mechanics
 
@@ -220,7 +216,6 @@ Consider a particle placed at the apex of a smooth spherical surface of radius $
 
 ---
 
-
 ### 5.1 Master Circular Motion Formula Table
 
 | Physical Quantity / Phenomenon | Master Equation | High-Yield Application |
@@ -245,7 +240,6 @@ Consider a particle placed at the apex of a smooth spherical surface of radius $
 | **Sphere Detachment Angle** | $\cos\theta = \frac{2}{3} \implies h = \frac{R}{3}$ | Normal reaction $N = 0$ |
 
 ---
-
 
 #### Trap 1: The Centripetal Force "Additional Force" Fallacy
 - **The Error:** Drawing centripetal force as an extra independent vector in a Free Body Diagram alongside gravity, tension, or friction.

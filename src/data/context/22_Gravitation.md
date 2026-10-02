@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Statement & Fundamental Invariants
 - **Universal Law of Gravitation:** Every particle of mass in the universe attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them:
   $$F = G \frac{m_1 m_2}{r^2}$$
@@ -25,7 +24,6 @@
 
 ---
 
-
 ### 2.1 Definition & Vector Expression
 - **Gravitational Field Intensity ($\vec{E}$):** The gravitational force experienced per unit test mass placed at that point in space, in the limit where the test mass $m_0$ is infinitesimal ($m_0 \to 0$) so as not to disturb the source mass distribution:
   $$\vec{E} = \lim_{m_0 \to 0} \frac{\vec{F}}{m_0} = -\frac{G M}{r^2} \hat{r} = -\frac{G M}{r^3} \vec{r}$$
@@ -42,7 +40,6 @@
   - For equal planetary densities ($\rho_A = \rho_B$): $\frac{E_A}{E_B} = \frac{R_A}{R_B}$.
 
 ---
-
 
 ### 3.1 Definition of Gravitational Potential
 - **Gravitational Potential ($V$):** The work done by an external agent in bringing a unit test mass from infinity to that point slowly (with zero change in kinetic energy):
@@ -62,7 +59,6 @@
   - The gravitational field points along the direction of steepest decrease of gravitational potential.
 
 ---
-
 
 ### 4.1 Uniform Circular Ring (Mass $M$, Radius $R$)
 - **Axial Point at Distance $x$ from Center:**
@@ -117,7 +113,6 @@
 
 ---
 
-
 ### 5.1 Two-Body Gravitational Potential Energy
 - The gravitational potential energy $U(r)$ of two point masses $M$ and $m$ separated by distance $r$:
   $$U(r) = -G \frac{M m}{r}$$
@@ -144,11 +139,9 @@
 
 ---
 
-
 ### 6.1 Standard Surface Formula
 - A particle of mass $m$ on Earth's surface experiences gravitational force $F = \frac{G M_e m}{R_e^2} = m g$:
   $$g = \frac{G M_e}{R_e^2} = \frac{4}{3}\pi G \rho R_e \approx 9.81 \text{ m/s}^2$$
-
 
 #### A. Effect of Altitude (Height $h$ Above Surface)
 - At height $h$ ($r = R_e + h$):
@@ -185,13 +178,12 @@
 
 ---
 
-### 6.3 Visual Preservation: Systematic Gravity Variations
+### 6.2 Visual Preservation: Systematic Gravity Variations
 
 ![Variation of g with Altitude, Depth, and Latitude](/media/gravity_variation_altitude_depth_latitude.webp)
 *Description: Dual analytical plots detailing the variation of acceleration due to gravity: (Left) Plot of effective gravity $g/g_0$ versus radial distance $r/R$ from the center of the Earth, depicting linear growth $g(r) \propto r$ from zero at the center to $g_0$ at the surface, followed by an inverse-square decline $g_h = g_0 (R/r)^2$ at altitudes above the surface; and (Right) Latitudinal profile plotting effective gravity $g(\theta) = g_{\mathrm{pole}} - \omega^2 R \cos^2\theta$ from equator ($\theta = 0^\circ$, $g \approx 9.798\ \mathrm{m/s^2}$) to poles ($\theta = 90^\circ$, $g \approx 9.832\ \mathrm{m/s^2}$), highlighting the rotational differential $\Delta g \approx 0.034\ \mathrm{m/s^2}$.*
 
 ---
-
 
 ### 7.1 Derivation from Mechanical Energy Conservation
 - **Escape Velocity ($v_e$):** The minimum projection speed required for an unpowered object launched from a celestial body's surface to completely overcome its gravitational field and reach infinity with non-negative kinetic energy ($E \ge 0$):
@@ -207,7 +199,6 @@
      $$R_s = \frac{2 G M}{c^2}$$
 
 ---
-
 
 ### 8.1 Kepler's First Law (Law of Orbits)
 - Every planet moves in an elliptical orbit around the Sun, with the Sun situated at one of the two foci of the ellipse.
@@ -238,7 +229,6 @@
 
 ---
 
-
 ### 9.1 Orbital Speed ($v_0$)
 - For a satellite of mass $m$ orbiting Earth at altitude $h$ ($r = R_e + h$):
   $$\frac{m v_0^2}{r} = \frac{G M_e m}{r^2} \implies v_0 = \sqrt{\frac{G M_e}{r}} = \sqrt{\frac{G M_e}{R_e + h}} = R_e \sqrt{\frac{g}{R_e + h}}$$
@@ -264,7 +254,6 @@
 - **Energy Proportions:**
   $$E = -K = \frac{1}{2} U \quad \text{and} \quad |U| = 2K = 2|E|$$
 
-
 #### A. Geostationary (Geosynchronous) Satellites
 - **Criteria:**
   1. Period of revolution matches Earth's diurnal rotation: $T = 24 \text{ hours} = 86400 \text{ s}$.
@@ -281,7 +270,7 @@
 - **Altitude:** $h \approx 500 - 800 \text{ km}$; Period $T \approx 100 \text{ minutes}$.
 - **Applications:** High-resolution Earth observation, geographic mapping, meteorology, environmental monitoring.
 
-### 9.5 Trajectory Classification by Projection Speed ($v$)
+### 9.4 Trajectory Classification by Projection Speed ($v$)
 
 | Projection Speed ($v$) | Total Energy ($E$) | Orbit Eccentricity ($e$) | Trajectory Shape & Behavior |
 | :--- | :--- | :--- | :--- |
@@ -293,13 +282,12 @@
 
 ---
 
-### 9.6 Visual Preservation: Keplerian Orbits & Launch Trajectories
+### 9.5 Visual Preservation: Keplerian Orbits & Launch Trajectories
 
 ![Keplerian Orbits and Launch Trajectories](/media/kepler_orbits_and_satellite_trajectories.webp)
 *Description: Two-panel orbital mechanics visualization: (Left) Kepler's elliptical planetary orbit showing the Sun at focus $F_1$, aphelion $r_a = a(1+e)$, perihelion $r_p = a(1-e)$, equal swept area sectors demonstrating the Law of Areas ($dA/dt = L/2m = \text{const}$), and a summary box of Kepler's three laws; (Right) Geometric flight paths of a satellite launched horizontally from height $h$ above Earth, categorized by launch speed $v$: ballistic return ($v < v_0$), circular orbit ($v = v_0$), elongated ellipse ($v_0 < v < v_e$), parabolic escape ($v = v_e$), and hyperbolic path ($v > v_e$).*
 
 ---
-
 
 ### 10.1 Center of Mass Dynamics
 - Two stars of masses $m_1$ and $m_2$ separated by fixed distance $d$ revolve under mutual gravitational attraction about their common center of mass $C$:
@@ -318,7 +306,6 @@
   $$\frac{K_1}{K_2} = \frac{\frac{1}{2} I_1 \omega^2}{\frac{1}{2} I_2 \omega^2} = \frac{L_1}{L_2} = \frac{m_2}{m_1}$$
 
 ---
-
 
 ### Archetype 1: Spherical Cavity in a Solid Celestial Body
 - **Problem:** A spherical cavity of radius $R/2$ is carved inside a uniform solid sphere of mass $M$ and radius $R$, touching the surface and passing through the center. Find the gravitational force on an external mass $m$ at distance $r$ from the sphere center along the line of centers.

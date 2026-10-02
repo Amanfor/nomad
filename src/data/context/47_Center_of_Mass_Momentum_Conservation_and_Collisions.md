@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Definition & Coordinate Representation
 The Center of Mass (COM) of a system of particles is a unique geometrical point where the entire mass of the system can be treated as concentrated for translational motion under external forces:
 $$\mathbf{\vec{r}_{\text{cm}} = \frac{\sum_{i=1}^n m_i \vec{r}_i}{\sum_{i=1}^n m_i} = \frac{1}{M} \sum_{i=1}^n m_i \vec{r}_i}$$
@@ -37,7 +36,6 @@ Consider two particles of masses $m_1$ and $m_2$ separated by distance $d$:
      Therefore, the **Center of Gravity lies SLIGHTLY BELOW the Center of Mass**!
 
 ---
-
 
 ### 2.1 General Integral Formulation
 For a continuous mass distribution:
@@ -74,14 +72,12 @@ $$\mathbf{\vec{r}_{\text{cm}} = \frac{\int \vec{r} dm}{\int dm} = \frac{1}{M} \i
 
 ---
 
-
 ### 3.1 Superposition Principle with Negative Mass
 When a portion of mass is excavated or removed from a symmetric rigid body:
 The remaining body is treated as a linear superposition of the **complete original body (mass $+M_{\text{orig}}$)** centered at $\vec{r}_{\text{orig}}$ and a **negative mass ($-m_{\text{cavity}}$)** occupying the excavated cavity centered at $\vec{r}_{\text{cavity}}$:
 $$\mathbf{\vec{r}_{\text{rem}} = \frac{M_{\text{orig}}\vec{r}_{\text{orig}} - m_{\text{cavity}}\vec{r}_{\text{cavity}}}{M_{\text{orig}} - m_{\text{cavity}}}}$$
 
 ---
-
 
 #### 1. Uniform Circular Disc with Tangent Circular Hole
 A uniform disc of radius $R$ centered at origin $(0, 0)$ has a circular hole of radius $r = R/2$ cut out such that the hole touches the outer rim (center of hole at $x = +R/2, y = 0$):
@@ -104,7 +100,6 @@ A solid uniform sphere of radius $R$ centered at origin $(0, 0, 0)$ has a spheri
   - In 3D, the COM shifts away from the cavity by **$R/14$**!
 
 ---
-
 
 ### 4.1 System Momentum & Newton's Second Law for Systems
 Differentiating the center of mass position vector $\vec{r}_{\text{cm}} = \frac{1}{M}\sum m_i \vec{r}_i$ with respect to time:
@@ -139,7 +134,6 @@ A projectile of mass $M$ launched with velocity $u$ at angle $\theta$ explodes m
 
 ---
 
-
 ### 5.1 Conservation of Linear Momentum
 If the net external force acting on a system is zero:
 $$\mathbf{\vec{F}_{\text{net, ext}} = 0 \implies \vec{P}_{\text{sys}} = \text{Constant} \iff \vec{v}_{\text{cm}} = \text{Constant}}$$
@@ -171,7 +165,6 @@ When the block advances horizontal distance $d$ relative to the wedge:
   $$\mathbf{\Delta x_{\text{wedge}} = \left(\frac{m}{M + m}\right) d}$$
 
 ---
-
 
 ### 6.1 Properties of the Center of Mass Reference Frame
 The Center of Mass Frame (also called the **C-Frame** or **Zero-Momentum Frame**) is a reference frame whose origin is translated at velocity $\vec{v}_{\text{cm}}$:
@@ -212,7 +205,6 @@ $$\mathbf{K_{\text{lab}} = \frac{1}{2} M v_{\text{cm}}^2 + \frac{1}{2} \mu v_{\t
   2. **$\frac{1}{2} \mu v_{\text{rel}}^2$ (Internal Kinetic Energy):** The only energy available for deformation, heat generation, or inelastic loss during a collision!
 
 ---
-
 
 ### 7.1 Impulse-Momentum Theorem
 The impulse $\vec{J}$ of a force $\vec{F}$ acting over a time interval $[t_1, t_2]$:
@@ -310,7 +302,6 @@ In a two-dimensional collision between two smooth spherical bodies:
 
 ---
 
-
 ### 8.1 The Generalized Newton-Euler Variable Mass Equation
 Consider a body of instantaneous mass $m$ moving with velocity $\vec{v}$ that is ejecting or absorbing mass at rate $\frac{dm}{dt}$.
 Let the incoming or escaping mass have velocity $\vec{u}$ in the laboratory frame:
@@ -359,7 +350,6 @@ Sand is dropped vertically from a hopper at rate $\frac{dm}{dt}$ onto a horizont
 
 ---
 
-
 ### 9.1 Master Center of Mass & Collisions Formula Table
 
 | Physical Quantity / Phenomenon | Master Equation | High-Yield Application |
@@ -386,7 +376,6 @@ Sand is dropped vertically from a hopper at rate $\frac{dm}{dt}$ onto a horizont
 | **Conveyor Belt Dissipation** | $P_{\text{motor}} = v^2 \frac{dm}{dt} = 2 \frac{dK}{dt}$ | Exactly 50% power dissipated as friction heat |
 
 ---
-
 
 #### Trap 1: Internal Explosions and Center of Mass Velocity
 - A shell is moving in a parabolic trajectory under gravity and suddenly bursts into multiple fragments:

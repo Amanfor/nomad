@@ -7,7 +7,6 @@
 
 ---
 
-
 ### 1.1 Coordination Entity & Central Metal Atom/Ion
 
 - **Coordination Entity:** A coordination entity constitutes a central metal atom or ion bonded to a fixed number of ions or neutral molecules (ligands) arranged in a definite spatial geometry.
@@ -115,7 +114,6 @@ Possess three or more donor atoms per ligand molecule:
 
 ---
 
-
 ### 2.1 Werner's Fundamental Postulates
 
 Alfred Werner (Nobel Prize 1893) established the structural foundation of coordination chemistry:
@@ -146,7 +144,6 @@ Werner investigated the series $\text{CoCl}_3\cdot n\text{NH}_3$ ($n = 6, 5, 4, 
 - **Critical Insight on Dual Character:** Chloride ions residing inside the coordination sphere satisfy both primary valency (contributing to $+3$ oxidation state) and secondary valency (occupying coordination positions). Coordinated chloride ions cannot be precipitated by $\text{AgNO}_3$ at room temperature.
 
 ---
-
 
 ### 3.1 Sidgwick's Electronic Model & Formula
 
@@ -180,7 +177,6 @@ where:
 
 ---
 
-
 ### 4.1 Principles & Postulates
 
 Proposed by Linus Pauling, VBT accounts for bonding, geometry, and magnetic behaviour via atomic orbital hybridization:
@@ -188,7 +184,6 @@ Proposed by Linus Pauling, VBT accounts for bonding, geometry, and magnetic beha
 9. The central metal ion provides vacant hybrid orbitals equal to its coordination number.
 10. Under the influence of strong field ligands, electrons in the $(n-1)d$ subshell may be forced to pair up against Hund's rule, vacating inner $d$-orbitals.
 11. Ligands donate lone pairs into these vacant hybrid orbitals to establish directional coordinate bonds.
-
 
 #### $sp^3$ Hybridization (Tetrahedral)
 Occurs when inner $d$-orbitals are unavailable for bonding (e.g., $d^{10}$ systems or weak field ligands unable to pair $d^8$ electrons).
@@ -214,7 +209,6 @@ Occurs when strong field ligands force pairing in $d^8$ configurations, vacating
 
 - **The $[\text{Cu}(\text{NH}_3)_4]^{2+}$ Case:** $\text{Cu}^{2+} (3d^9)$. Has 1 unpaired electron ($n = 1, \mu \approx 1.73\text{ BM}$). Exhibits square planar geometry ($dsp^2$) through Jahn-Teller tetragonal distortion or promotion of the odd electron to $4p_z$.
 
-
 #### Inner Orbital Octahedral Complexes ($d^2sp^3$)
 Involve $(n-1)d$, $ns$, and $np$ orbitals. Termed low-spin, spin-paired, or covalent complexes.
 
@@ -233,7 +227,7 @@ Involve $ns$, $np$, and outer $nd$ orbitals. Termed high-spin, spin-free, or ion
 
 - **Example: Hexafluoroferrate(III), $[\text{FeF}_6]^{3-}$:** $\text{Fe}^{3+} (3d^5)$, high spin, $sp^3d^2$, $n = 5$ unpaired electrons ($\mu = \sqrt{35} \approx 5.92\text{ BM}$).
 
-### 4.4 Spin-Only Magnetic Moment Formula
+### 4.2 Spin-Only Magnetic Moment Formula
 
 $$\mu_s = \sqrt{n(n + 2)} \quad \text{B.M. (Bohr Magnetons)}$$
 
@@ -246,7 +240,6 @@ where $n$ is the number of unpaired electrons:
 - $n = 5 \implies \mu_s = \sqrt{35} \approx 5.92\text{ BM}$
 
 ---
-
 
 ### 5.1 Physical Model & Orbital Splitting
 
@@ -301,7 +294,6 @@ $$\text{I}^- < \text{Br}^- < \text{S}^{2-} < \text{SCN}^- < \text{Cl}^- < \text{
 | $d^9$ | $t_{2g}^6 e_g^3$ | $-0.6\Delta_o$ | $t_{2g}^6 e_g^3$ | $-0.6\Delta_o$ |
 | $d^{10}$ | $t_{2g}^6 e_g^4$ | $0.0\Delta_o$ | $t_{2g}^6 e_g^4$ | $0.0\Delta_o$ |
 
-
 #### Mechanism 1: $d-d$ Transitions
 - When visible light shines on a transition metal complex with partially filled $d$-orbitals, an electron absorbs energy equal to $\Delta_o$ and transitions from $t_{2g}$ to $e_g$. The observed colour of the complex is the complementary colour of the absorbed wavelength.
 - **Absence of Colour:** Complexes with $d^0$ (e.g., $\text{Sc}^{3+}, \text{Ti}^{4+}$) or $d^{10}$ (e.g., $\text{Zn}^{2+}, \text{Cu}^+, \text{Cd}^{2+}$) configurations cannot undergo $d-d$ transitions and are invariably white or colourless in absence of charge transfer.
@@ -316,7 +308,7 @@ $$\text{I}^- < \text{Br}^- < \text{S}^{2-} < \text{SCN}^- < \text{Cl}^- < \text{
   - **Mercuric iodide, $\text{HgI}_2$:** Brilliant scarlet red colour.
   - **Ferric thiocyanate, $[\text{Fe}(\text{H}_2\text{O})_5(\text{SCN})]^{2+}$:** Intense blood-red colour.
 
-### 5.7 Jahn-Teller Distortion
+### 5.6 Jahn-Teller Distortion
 
 - **Theorem:** Any non-linear molecular system in a degenerate electronic state is unstable and will undergo geometrical distortion that lowers its symmetry and removes the electronic degeneracy.
 - **Strongly Active Cases:** Asymmetrical filling of the $e_g$ set (which points directly at ligands).
@@ -326,7 +318,6 @@ $$\text{I}^- < \text{Br}^- < \text{S}^{2-} < \text{SCN}^- < \text{Cl}^- < \text{
 - **Tetragonal Elongation in $[\text{Cu}(\text{H}_22\text{O})6]^{2+}$:** The $d{z^2}$ orbital holds two electrons while $d{x^2-y^2}$ holds one. The greater screening along the $z$-axis causes the two axial $\text{Cu}-\text{O}$ bonds to elongate significantly compared to the four shorter equatorial bonds.
 
 ---
-
 
 ### 6.1 Classification Tree
 
@@ -343,7 +334,6 @@ Isomerism in coordination compounds divides into:
 13. **Stereoisomerism:** Identical bond connectivity, distinct spatial orientation.
    - Geometrical Isomerism (cis/trans, fac/mer)
    - Optical Isomerism (Chiral enantiomers, d/l pairs)
-
 
 #### 4. Ionisation Isomerism
 - Arises from the mutual exchange of a coordinated ligand with an ionisable counter ion outside the sphere.
@@ -370,7 +360,6 @@ Isomerism in coordination compounds divides into:
 
 #### 9. Polymerisation Isomerism
 - Not true isomerism; compounds possess identical empirical formula but differ in formula weight by integer multiples (e.g., $[\text{Pt}(\text{NH}_3)_2\text{Cl}_2]$ and $[\text{Pt}(\text{NH}_3)_4][\text{PtCl}_4]$).
-
 
 #### 10. Geometrical Isomerism in Square Planar Complexes ($CN = 4$)
 - **$[\text{M}a_2b_2]$:** Forms 2 geometrical isomers (cis and trans).
@@ -411,7 +400,6 @@ Isomerism in coordination compounds divides into:
   - $\text{trans}-[\text{Co}(\text{en})_2\text{Cl}_2]^+$ possesses a horizontal plane of symmetry and a center of inversion; it is superimposable on its mirror image $\implies$ STRICTLY OPTICALLY INACTIVE (achiral).
 
 ---
-
 
 ### 7.1 Classification of Organometallic Compounds
 
@@ -474,7 +462,6 @@ The bond between transition metal and carbon monoxide possesses unique dual char
 
 ---
 
-
 ### 8.1 Stepwise vs. Overall Formation Constants
 
 Complex formation in aqueous solution proceeds by stepwise equilibria:
@@ -505,7 +492,6 @@ $$\text{ML}{n-1} + \text{L} \rightleftharpoons \text{ML}_n \quad K_n = \frac{[\t
    - The anomalous peak at $\text{Cu}^{2+}$ ($d^9$) is directly caused by Jahn-Teller tetragonal distortion, which provides extra crystal field stabilization energy.
 
 ---
-
 
 ### 9.1 Qualitative & Quantitative Analytical Chemistry
 
@@ -562,7 +548,7 @@ $$\text{ML}{n-1} + \text{L} \rightleftharpoons \text{ML}_n \quad K_n = \frac{[\t
 
 ---
 
-## 13. High-Yield JEE Exam Traps & Problem Archetypes
+## 1. High-Yield JEE Exam Traps & Problem Archetypes
 
 - **Trap 1: Coordination Number vs. Oxidation State Discrepancy**
   - Coordination number depends strictly on donor atoms bonded, not charge. In $[\text{Fe}(\text{ox})_3]^{3-}$, $\text{C.N.} = 3 \times 2 = 6$, while $\text{O.S.} = +3$.

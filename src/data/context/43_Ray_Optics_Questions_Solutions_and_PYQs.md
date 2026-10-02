@@ -25,7 +25,6 @@ This revision context acts as the companion question, solution, and PYQ workbook
 
 ---
 
-
 ### Problem 1.1: Minimum Mirror Height for Full Human Visibility
 **Question:**
 A man of height $H = 6\text{ ft}$ stands vertically in front of a vertical plane mirror. Find the minimum vertical length of the plane mirror required for him to view his entire image, and describe its required spatial placement relative to his eye level.
@@ -94,7 +93,6 @@ Decompose velocities into perpendicular ($\,\perp$, along $\hat{i}$) and paralle
    $$\vec{v}_{I/O} = \vec{v}_I - \vec{v}_O = (-7\hat{i} + 4\hat{j}) - (3\hat{i} + 4\hat{j}) = \mathbf{-10\hat{i}\text{ m/s}}$$
 
 ---
-
 
 ### Problem 2.1: Paraxial Image Formation & Magnification
 **Question:**
@@ -177,7 +175,6 @@ A point object is placed on the principal axis at $u = -60\text{ cm}$ in front o
 
 ---
 
-
 ### Problem 3.1: Normal Shift in Multi-Layer Composite Liquid Slabs
 **Question:**
 A glass beaker contains water ($\mu_1 = 4/3$) up to a height of $d_1 = 12\text{ cm}$, above which floats an immiscible oil layer ($\mu_2 = 1.5$) of thickness $d_2 = 9\text{ cm}$. A scratch is made on the bottom of the beaker.
@@ -248,7 +245,6 @@ An optical fiber has a cylindrical core of refractive index $n_1 = 1.5$ and a cl
 
 ---
 
-
 ### Problem 4.1: Master Prism Equation & Minimum Deviation
 **Question:**
 A glass prism with an apex angle of $A = 60^\circ$ produces a minimum deviation of $\delta_{\min} = 30^\circ$. Find:
@@ -294,7 +290,6 @@ Two thin prisms of crown glass ($\mu_V = 1.52$, $\mu_R = 1.48$, $\mu_Y = 1.50$) 
 *(The combination produces an overall deviation of $1.4^\circ$ towards the base of the flint prism).*
 
 ---
-
 
 ### Problem 5.1: Lens Maker's Formula in Multiple Media
 **Question:**
@@ -362,7 +357,6 @@ $$\frac{1}{f_L} = (\mu - 1)\left(\frac{1}{R}\right) = (1.5 - 1)\left(\frac{1}{30
 
 ---
 
-
 ### Problem 6.1: Vision Defect Correction (Myopia & Hypermetropia)
 **Question:**
 74. A myopic student cannot see objects clearly beyond a distance of $d_{\text{far}} = 1.5\text{ m}$. Calculate the focal length and power of the corrective lens required to view distant stars.
@@ -424,7 +418,6 @@ An astronomical refracting telescope has an objective of focal length $f_o = 100
    $$d\theta = \frac{1.22 \times 6 \times 10^{-7}}{0.10} = \mathbf{7.32 \times 10^{-6}\text{ rad}}$$
 
 ---
-
 
 ### PYQ 7.1: Grazing Emergence from a Cylindrical Rod [AIEEE 2009]
 **Question:**
@@ -533,7 +526,6 @@ A thin convex lens $L$ (refractive index $\mu = 1.5$) is placed on a horizontal 
 **Correct Option: (1)**
 
 ---
-
 
 ### PYQ 8.1: Minimum Deviation in a 60° Prism for Two Wavelengths [IIT-JEE 2008]
 **Question:**

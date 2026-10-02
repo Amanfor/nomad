@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Electronic Configurations & Atomic/Ionic Radii
 - **General Electronic Configuration:** $[ \text{Noble Gas} ] ns^1$.
 - The solitary valence $s$-electron is shielded effectively by inner electron shells, resulting in low effective nuclear charge ($Z_{\text{eff}}$), largest atomic and ionic radii in their respective periods, and minimal first ionization enthalpies ($IE_1$).
@@ -65,7 +64,6 @@ $$\Delta H_{\text{hyd}} \propto \frac{z^2}{r}$$
 
 ---
 
-
 ### 2.1 Reactivity with Atmospheric Gases: Oxide Combustion Hierarchy
 When ignited in air or excess oxygen, alkali metals exhibit a sharp divergence in oxidation products:
 
@@ -118,7 +116,6 @@ When ignited in air or excess oxygen, alkali metals exhibit a sharp divergence i
 
 ---
 
-
 ### 3.1 Carbonates & Bicarbonates
 - **Thermal Stability of Carbonates:**
   All alkali metal carbonates are thermally stable and do not decompose below $1000^\circ\text{C}$, **except $\text{Li}_2\text{CO}_3$**:
@@ -144,7 +141,6 @@ Alkali metal nitrates decompose differently upon heating:
   $$\mathbf{4\text{LiNO}_3(s) \xrightarrow{\Delta} 2\text{Li}_2\text{O}(s) + 4\text{NO}_2(g)\uparrow + \text{O}_2(g)\uparrow}$$
 
 ---
-
 
 ### 4.1 Sodium Hydroxide ($\text{NaOH}$, Caustic Soda)
 Manufactured commercially by the electrolysis of aqueous brine ($\text{NaCl}$) in the **Castner-Kellner Cell**:
@@ -195,7 +191,6 @@ Manufactured via the **Solvay (Ammonia-Soda) Process**:
 
 ---
 
-
 ### 5.1 Physical & Periodic Trends
 - **General Electronic Configuration:** $[ \text{Noble Gas} ] ns^2$.
 - Compared to Group 1, Group 2 elements have smaller atomic radii, higher nuclear charge, higher melting and boiling points, higher densities, and greater hardness due to two valence electrons participating in metallic bonding.
@@ -233,7 +228,6 @@ Manufactured via the **Solvay (Ammonia-Soda) Process**:
 
 ---
 
-
 ### 6.1 Solubility Trajectories (Lattice vs. Hydration Enthalpy Competition)
 Solubility in water depends on the relative magnitudes of lattice enthalpy ($U$) and hydration enthalpy ($\Delta H_{\text{hyd}}$):
 $$\Delta H_{\text{sol}} = U - |\Delta H_{\text{hyd}}|$$
@@ -257,7 +251,6 @@ $$\mathbf{\text{Thermal Stability:}\quad \text{BeCO}_3 < \text{MgCO}_3 < \text{C
   $$\text{BaCO}_3 \xrightarrow{\Delta} \text{BaO} + \text{CO}_2\uparrow \quad (T_{\text{decomp}} \approx 1630\text{ K})$$
 
 ---
-
 
 ### 7.1 Visual Preservation: Diagonal Relationships & Calcium Cycle
 
@@ -290,7 +283,6 @@ Due to virtually identical charge/radius ratios ($\text{Be}^{2+} \approx 0.31 / 
    Both contain the methanide ion $\text{C}^{4-}$ and yield pure methane gas upon contact with water.
 
 ---
-
 
 ### 8.1 Quicklime ($\text{CaO}$) & Slaked Lime ($\text{Ca(OH)}_2$)
 18. **Quicklime ($\text{CaO}$):**
@@ -331,7 +323,7 @@ Due to virtually identical charge/radius ratios ($\text{Be}^{2+} \approx 0.31 / 
 
 ---
 
-## 20. Biological Roles of s-Block Cations
+## 1. Biological Roles of s-Block Cations
 
 | Metal Ion | Bodily Fluid Compartment | Biological Concentration | Vital Physiological Functions |
 | :--- | :--- | :--- | :--- |
@@ -343,8 +335,7 @@ Due to virtually identical charge/radius ratios ($\text{Be}^{2+} \approx 0.31 / 
 
 ---
 
-
-### 10.1 Archetype 1: Action of Heat on Nitrates, Carbonates, & Oxalates
+### 9.1 Archetype 1: Action of Heat on Nitrates, Carbonates, & Oxalates
 - **Nitrate Trap:**
   - Heating $\text{NaNO}_3 \to \text{NaNO}_2 + \frac{1}{2}\text{O}_2$ (No colored gas evolved).
   - Heating $\text{LiNO}_3 \to \text{Li}_2\text{O} + 2\mathbf{\text{NO}_2\uparrow}\ (\text{Brown gas}) + \frac{1}{2}\text{O}_2$.
@@ -353,7 +344,7 @@ Due to virtually identical charge/radius ratios ($\text{Be}^{2+} \approx 0.31 / 
   - Only $\text{Li}_2\text{CO}_3$ decomposes on heating to $\text{Li}_2\text{O} + \text{CO}_2$.
   - $\text{Na}_2\text{CO}_3$ and $\text{K}_2\text{CO}_3$ do NOT decompose under ordinary Bunsen flame heating!
 
-### 10.2 Archetype 2: Carbide Classification & Hydrolysis Products
+### 10.1 Archetype 2: Carbide Classification & Hydrolysis Products
 - **Methanides (contain $\text{C}^{4-}$):**
   $$\text{Be}_2\text{C} + 4\text{H}_2\text{O} \to 2\text{Be(OH)}_2 + \mathbf{\text{CH}_4\uparrow}$$
   $$\text{Al}_4\text{C}_3 + 12\text{H}_2\text{O} \to 4\text{Al(OH)}_3 + 3\mathbf{\text{CH}_4\uparrow}$$
@@ -363,7 +354,7 @@ Due to virtually identical charge/radius ratios ($\text{Be}^{2+} \approx 0.31 / 
 - **Allylides (contain $\text{C}_3^{4-}$):**
   $$\text{Mg}_2\text{C}_3 + 4\text{H}_2\text{O} \to 2\text{Mg(OH)}_2 + \mathbf{\text{CH}_3-\text{C}\equiv\text{CH}\uparrow}\quad (\text{Propyne / Allylene})$$
 
-### 10.3 Archetype 3: Disproportionation with $\text{NaOH}$
+### 10.2 Archetype 3: Disproportionation with $\text{NaOH}$
 - $\text{P}_4 + 3\text{NaOH} + 3\text{H}_2\text{O} \to \text{PH}_3\uparrow + 3\text{NaH}_2\text{PO}_2$. Phosphorus oxidizes from $0 \to +1$ (in $\text{H}_2\text{PO}_2^-$) and reduces from $0 \to -3$ (in $\text{PH}_3$).
 - $\text{Cl}_2 + 2\text{NaOH}\ (\text{cold}) \to \text{NaCl} + \text{NaOCl} + \text{H}_2\text{O}$ (Chlorine $0 \to -1$ and $0 \to +1$).
 - $3\text{Cl}_2 + 6\text{NaOH}\ (\text{hot}) \to 5\text{NaCl} + \text{NaClO}_3 + 3\text{H}_2\text{O}$ (Chlorine $0 \to -1$ and $0 \to +5$).

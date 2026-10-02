@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Magnetic Flux ($\Phi_B$)
 - **Definition:** The surface integral of the normal component of magnetic field $\vec{B}$ passing through an oriented surface of area $\vec{A}$:
   $$\Phi_B = \int_S \vec{B} \cdot d\vec{A}$$
@@ -38,7 +37,6 @@
   - If the induced polarity attracted the magnet, the magnet would self-accelerate without external work, generating infinite free electrical energy and violating the First Law of Thermodynamics.
 
 ---
-
 
 ### 2.1 Translational Motional EMF
 - **Physical Origin:** When a conducting rod of length $\vec{l}$ moves with velocity $\vec{v}$ through a magnetic field $\vec{B}$, free conduction electrons experience a magnetic Lorentz force:
@@ -90,7 +88,6 @@ When a conductor rotates in a magnetic field, different segments move at differe
 
 ---
 
-
 ### 3.1 Field-Theoretic Maxwell-Faraday Formulation
 - A time-varying magnetic field produces an electric field in space, even in vacuum without any physical conducting loops:
   $$\mathbf{Maxwell\text{-}Faraday\ Equation:}\quad \oint_C \vec{E}_{\text{ind}} \cdot d\vec{l} = -\frac{d\Phi_B}{dt} = -\int_S \frac{\partial \vec{B}}{\partial t} \cdot d\vec{A}$$
@@ -122,7 +119,6 @@ Consider a cylindrical region of radius $R$ containing a uniform magnetic field 
 *Description: Two-panel field-theoretic graphic: (A) Cross-section of a cylindrical magnetic region of radius $R$ with time-varying field $dB/dt > 0$, depicting concentric circular electric field streamlines circulating tangentially; (B) Spatial profile of induced electric field intensity $E_{\mathrm{ind}}$ versus radial distance $r$, demonstrating linear growth $E \propto r$ for $r \leq R$ peaking at $E_{\mathrm{max}} = \frac{R}{2}|\frac{dB}{dt}|$ followed by hyperbolic decay $E \propto 1/r$ for $r > R$.*
 
 ---
-
 
 ### 4.1 Rod Accelerated by a Constant Force ($F_{\text{ext}}$)
 - A conducting rod of mass $m$, length $l$, and resistance $r$ rests on two smooth parallel horizontal conducting rails connected by a load resistor $R$. A uniform magnetic field $\vec{B}$ is directed perpendicular into the plane.
@@ -161,7 +157,6 @@ Consider a cylindrical region of radius $R$ containing a uniform magnetic field 
 
 ---
 
-
 ### 5.1 Self-Inductance ($L$)
 - **Definition:** The property of an electrical circuit by virtue of which it opposes any change in the current flowing through it by inducing a counter-electromotive force (back-EMF):
   $$N\Phi_B = L i \implies \mathcal{E} = -L \frac{di}{dt}$$
@@ -198,7 +193,6 @@ Consider a cylindrical region of radius $R$ containing a uniform magnetic field 
   $$u_B = \frac{U_B}{A l} = \frac{\frac{1}{2}(\mu_0 n^2 A l)i^2}{A l} = \frac{1}{2}\mu_0 n^2 i^2 = \frac{(\mu_0 n i)^2}{2\mu_0} = \frac{B^2}{2\mu_0} \quad (\text{J/m}^3)$$
 
 ---
-
 
 ### 6.1 Growth of Current in a Series $R$-$L$ Circuit
 Consider an inductor $L$ and resistor $R$ connected in series across a battery of constant EMF $E$ via a switch closed at $t = 0$.
@@ -243,7 +237,6 @@ $$\mathbf{Current\ Decay:}\quad i(t) = I_0 e^{-t / \tau_L}$$
 *Description: Two-panel circuit analytics graphic: (A) Transients in a series $R$-$L$ circuit showing current growth $i(t) = I_0(1 - e^{-t/\tau_L})$ and decay $i(t) = I_0 e^{-t/\tau_L}$ with benchmark levels $0.632\,I_0$ and $0.368\,I_0$ marked at $t = \tau_L = L/R$; (B) Harmonic $L$-$C$ oscillation energy exchange cycles displaying the continuous transformation between electrostatic capacitive energy $U_E = \frac{q^2}{2C}$ and magnetic inductive energy $U_B = \frac{1}{2}Li^2$ while maintaining total energy $U_{\mathrm{total}} = \text{constant}$.*
 
 ---
-
 
 ### Archetype 1: Ring Falling Through a Non-Uniform Magnetic Field
 - **Problem:** A metallic horizontal ring of mass $m$ and radius $R$ is released from rest in a region where the vertical magnetic field has a radial gradient: $B_z(z) = B_0 (1 + \alpha z)$. Find its terminal velocity.

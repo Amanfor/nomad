@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Fundamental Definitions
 - **Differential Equation:** An equation involving an independent variable ($x$), a dependent variable ($y$), and one or more differential coefficients of the dependent variable with respect to the independent variable ($\frac{dy}{dx}, \frac{d^2y}{dx^2}, \dots, \frac{d^n y}{dx^n}$).
 - **Ordinary vs. Partial Differential Equations:**
@@ -66,14 +65,12 @@
 
 ---
 
-
 ### 3.1 Systematic Elimination Protocol
 To construct the differential equation of an $n$-parameter family of curves $f(x, y, c_1, c_2, \dots, c_n) = 0$:
 6. Differentiate the given equation with respect to $x$ successively $n$ times to obtain $n$ derivative relations:
    $$\frac{df}{dx} = 0, \quad \frac{d^2f}{dx^2} = 0, \quad \dots, \quad \frac{d^n f}{dx^n} = 0$$
 7. Using the original equation and the $n$ differentiated equations, eliminate the $n$ arbitrary constants $c_1, c_2, \dots, c_n$.
 8. The resulting eliminant equation involves only $x, y, y', y'', \dots, y^{(n)}$ and is of order $n$.
-
 
 #### (a) Family of All Non-Vertical Straight Lines in a Plane ($y = mx + c$)
 - Differentiating once: $y' = m$.
@@ -103,7 +100,6 @@ To construct the differential equation of an $n$-parameter family of curves $f(x
 - *Self-Orthogonal Invariant:* Replacing $\frac{dy}{dx} \to -\frac{dx}{dy}$ reproduces the exact same differential equation!
 
 ---
-
 
 ### 4.1 Type I: Variable Separable Form
 $$\mathbf{f(x)\,dx + g(y)\,dy = 0 \implies \int f(x)\,dx + \int g(y)\,dy = C}$$
@@ -219,7 +215,6 @@ $$\mathbf{\int_{y = \text{constant}} M\,dx + \int (\text{terms of } N \text{ ind
 
 ---
 
-
 ### 5.1 The Master Leibniz Form
 $$\mathbf{\frac{dy}{dx} + P(x)\,y = Q(x)}$$
 where $P(x)$ and $Q(x)$ are continuous functions of $x$ alone (or constants).
@@ -271,7 +266,6 @@ $$\mathbf{f'(y)\frac{dy}{dx} + P(x)\,f(y) = Q(x)}$$
 
 ---
 
-
 ### 6.1 Clairaut's Form
 $$\mathbf{y = x\,p + f(p), \quad \text{where } p = \frac{dy}{dx}}$$
 
@@ -307,7 +301,6 @@ Solve $y = x\frac{dy}{dx} + \frac{a}{dy/dx}$:
 
 ### 7.1 Definition and Invariants
 - An **orthogonal trajectory** of a family of curves is a curve that intersects every member of the given family at right angles ($90^\circ$).
-
 
 #### (a) In Cartesian Coordinates:
 21. Let the family of curves be $F(x, y, c) = 0$, where $c$ is an arbitrary constant.
@@ -387,7 +380,6 @@ Let $P(x, y)$ be a point on the curve $y = f(x)$, where $m = \frac{dy}{dx} \ne 0
     where $\tau = \frac{L}{R}$ is the inductive time constant. At $t = \tau$, $i(\tau) = (1 - e^{-1})I_{\max} \approx 63.2\% I_{\max}$.
 
 ---
-
 
 ### Archetype 1: Inversion to Linear in $x$
 **Problem:** Solve the differential equation:
@@ -474,7 +466,6 @@ $$(x^3 + x y^2 + y) dx + (y^3 + x^2 y + x) dy = 0$$
 56. **Conclusion:** The family of curves is the family of **rectangular hyperbolas** whose asymptotes are the coordinate axes!
 
 ---
-
 
 ### PYQ 1: JEE Main 2020 (Differential Equation of a Family of Parabolas)
 **Problem:** The differential equation of the family of curves $x^2 = 4b(y + b)$, where $b \in \mathbb{R}$ is an arbitrary parameter, is:

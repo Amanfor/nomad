@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Crystalline vs. Amorphous Solids
 
 Solids represent the condensed state of matter characterized by definite mass, shape, and volume, high density, low compressibility, and strong intermolecular forces holding constituent particles at fixed equilibrium positions.
@@ -29,7 +28,6 @@ Solids represent the condensed state of matter characterized by definite mass, s
 | **Covalent / Network Solids** | Non-metal atoms linked in continuous 3D networks | Directional, localized, strong covalent bonds | Extremely hard, rigid, brittle, ultra-high melting points | **Electrical insulators** (except Graphite which has delocalized $\pi$ electrons in 2D hexagonal sheets) | • **Diamond:** $sp^3$ hybridized, 3D network, hardest natural substance, insulator.• **Graphite:** $sp^2$ hybridized, 2D layers held by weak van der Waals forces, soft, solid lubricant, conductor.• **Carborundum ($\text{SiC}$):** Abrasive, ultra-hard.• **Silica ($\text{SiO}_2$ Quartz), Boron nitride ($\text{BN}$), $\text{AlN}$**. |
 
 ---
-
 
 ### 2.1 Space Lattice, Basis, and Unit Cell
 - **Space Lattice:** An infinite, periodic 3D array of mathematical points in space in which every lattice point possesses an identical spatial environment.
@@ -69,7 +67,6 @@ A 3D unit cell is completely defined by 6 crystallographic parameters: 3 edge le
   - **Most Unsymmetrical System:** **Triclinic** ($a \ne b \ne c$ and $\alpha \ne \beta \ne \gamma \ne 90^\circ$).
 
 ---
-
 
 ### 3.1 Visual Preservation: Cubic Unit Cells & Contact Planes
 
@@ -164,7 +161,6 @@ where:
 
 ---
 
-
 ### 4.1 Visual Preservation: Voids & Radius Ratio Rules
 
 ![Tetrahedral and Octahedral Voids in FCC and HCP](/media/tetrahedral_and_octahedral_voids_in_fcc_and_hcp.webp)
@@ -186,7 +182,6 @@ $$R.R. = \frac{r_{\text{cation}}}{r_{\text{anion}}} = \frac{r_+}{r_-}$$
 | $\frac{r_+}{r_-} = 1.000$ | **12** | Close-Packed (FCC / HCP) | Pure elemental metals ($\text{Cu, Au, Ag}$) |
 
 ---
-
 
 #### 1. Triangular Planar Void ($\text{CN} = 3$)
 - Three spheres of radius $R$ touch in an equilateral triangle of side $2R$. A small void sphere of radius $r$ sits at the centroid.
@@ -213,7 +208,7 @@ $$R.R. = \frac{r_{\text{cation}}}{r_{\text{anion}}} = \frac{r_+}{r_-}$$
 
 ---
 
-### 4.4 Spatial Distribution & Counts of Voids in FCC and HCP
+### 4.3 Spatial Distribution & Counts of Voids in FCC and HCP
 For any close-packed assembly of $N$ spheres:
 $$\mathbf{\text{Number of Octahedral Voids (OVs)} = N}$$
 $$\mathbf{\text{Number of Tetrahedral Voids (TVs)} = 2N}$$
@@ -237,7 +232,6 @@ $$\mathbf{\text{Number of Tetrahedral Voids (TVs)} = 2N}$$
 - **Tetrahedral Voids ($2N = 12$):** 6 lie entirely within the cell, and 12 lie on the edges/faces contributing an effective total of 6, yielding $12$ effective TVs.
 
 ---
-
 
 ### 5.1 Visual Preservation: Ionic Crystals & Crystal Imperfections
 
@@ -288,7 +282,6 @@ $$\mathbf{\text{Number of Tetrahedral Voids (TVs)} = 2N}$$
 
 ---
 
-
 ### 6.1 Bragg's Law of X-Ray Diffraction
 When a monochromatic X-ray beam of wavelength $\lambda$ is incident upon parallel crystal planes separated by interplanar distance $d$ at glancing angle $\theta$:
 - The path difference between waves reflected from consecutive lattice planes is $\Delta x = 2d \sin\theta$.
@@ -312,7 +305,6 @@ When a monochromatic X-ray beam of wavelength $\lambda$ is incident upon paralle
 
 ---
 
-
 ### 7.1 Classification of Crystal Defects
 Real crystals deviate from ideal structural periodicity at temperatures above $0\text{ K}$ due to entropy considerations ($\Delta G = \Delta H - T\Delta S$). Imperfections are classified by geometric dimensionality:
 12. **Point Defects (0D):** Irregularities or deviations around a single atom or lattice point.
@@ -321,7 +313,6 @@ Real crystals deviate from ideal structural periodicity at temperatures above $0
 15. **Volume Defects (3D):** Voids, cracks, or macroscopic inclusions.
 
 ---
-
 
 #### 5. Schottky Defect (Vacancy Defect in Ionic Solids)
 - **Mechanism:** Equal numbers of cations and anions leave their regular lattice positions, creating stoichiometric cation-anion pairs of vacancies.
@@ -349,7 +340,6 @@ Real crystals deviate from ideal structural periodicity at temperatures above $0
 - **High-Yield JEE Critical Fact:** $\mathbf{AgBr}$ exhibits **BOTH Schottky and Frenkel defects**.
 
 ---
-
 
 #### 7. Metal Excess Defect Due to Anionic Vacancies ($F$-Centres)
 - **Mechanism:** When alkali halide crystals are heated in the vapor of their constituent alkali metal (e.g., $\text{NaCl}$ in $\text{Na}$ vapor):
@@ -384,7 +374,7 @@ Real crystals deviate from ideal structural periodicity at temperatures above $0
 
 ---
 
-### 7.4 Impurity Defects
+### 7.2 Impurity Defects
 16. **Substitutional Impurity Defect:**
    - When molten $\text{NaCl}$ containing a trace amount of strontium chloride ($\text{SrCl}_2$) is crystallized:
    - Each divalent $\text{Sr}^{2+}$ ion replaces **two** univalent $\text{Na}^+$ ions to maintain electrical neutrality.
@@ -396,7 +386,6 @@ Real crystals deviate from ideal structural periodicity at temperatures above $0
    - Small non-metallic atoms ($\text{H, B, C, N}$) occupy interstitial voids within transition metal lattices (e.g., carbon in iron forming carbon steel, drastically enhancing tensile strength and hardness).
 
 ---
-
 
 ### 8.1 Electrical Properties & Band Theory
 Solids exhibit electrical conductivities spanning 27 orders of magnitude ($10^{-20}$ to $10^7\ \Omega^{-1}\text{m}^{-1}$):
@@ -436,7 +425,6 @@ Every electron possesses an intrinsic magnetic dipole moment arising from two ty
 | **5. Ferrimagnetic** | Magnetic domains align in parallel and antiparallel directions in **unequal magnitudes** ($\uparrow\uparrow\downarrow\uparrow\uparrow\downarrow$). | Small net spontaneous magnetic moment. | Moderately attracted; transforms into paramagnetic substance at elevated temperatures. | $\text{Magnetite (Fe}_3\text{O}_4\text{)}, \text{Ferrites: } \text{MgFe}_2\text{O}_4, \text{ZnFe}_2\text{O}_4$. |
 
 ---
-
 
 ### 9.1 Archetype 1: Removal of Atoms Along Crystallographic Axes & Planes
 - **Problem Formula:** If a crystal of formula $\text{A}_x\text{B}_y\text{C}_z$ has atoms removed along specified geometric features, calculate the revised stoichiometric formula:

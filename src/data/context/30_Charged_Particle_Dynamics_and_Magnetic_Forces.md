@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 The General Lorentz Force Equation
 - **Lorentz Force Law:** The total electromagnetic force experienced by a test particle carrying electric charge $q$ moving with instantaneous velocity $\vec{v}$ through a region with electric field $\vec{E}$ and magnetic field $\vec{B}$ is:
   $$\vec{F} = \vec{F}_e + \vec{F}_m = q\vec{E} + q(\vec{v} \times \vec{B})$$
@@ -28,7 +27,6 @@
    - **Core Physical Law:** A static magnetic field **can never alter the kinetic energy or speed of a charged particle**; it can **only alter the direction of motion**.
 
 ---
-
 
 ### 2.1 Perpendicular Launch ($\vec{v} \perp \vec{B}$): Uniform Circular Motion
 When a charged particle of mass $m$ and charge $q$ is projected with speed $v$ in a plane perpendicular to a uniform magnetic field $\vec{B}$ ($\theta = 90^\circ$):
@@ -70,7 +68,7 @@ When velocity $\vec{v}$ forms an arbitrary angle $\theta$ ($0^\circ < \theta < 9
 
 ---
 
-## 4. Motion in Bounded Magnetic Fields
+## 1. Motion in Bounded Magnetic Fields
 
 In JEE Advanced, magnetic fields are frequently restricted to geometric boundaries (slabs, half-spaces, cylindrical cavities).
 
@@ -116,7 +114,6 @@ A magnetic field $\vec{B} = -B\hat{k}$ is confined between parallel planar bound
 
 ---
 
-
 ### 4.1 Collinear Fields ($\vec{E} \parallel \vec{B}$)
 - Let both $\vec{E}$ and $\vec{B}$ point along the $+x$ axis. A charged particle is launched at angle $\theta$ to the $x$-axis.
 - Transverse motion ($\perp x$): Pure circular motion of constant radius $R = \frac{m v\sin\theta}{q B}$ and period $T = \frac{2\pi m}{q B}$.
@@ -145,7 +142,6 @@ A magnetic field $\vec{B} = -B\hat{k}$ is confined between parallel planar bound
   The cyclotron period $T = \frac{2\pi m}{q B}$ increases, causing the particle to fall out of resonance with the fixed-frequency electric oscillator. (Electrons cannot be accelerated in cyclotrons due to their tiny mass causing rapid relativistic onset; betatrons or synchrotrons are used instead).
 
 ---
-
 
 ### 5.1 Microscopic Derivation
 - Consider a conducting wire carrying steady current $I$. Within an elemental length $d\vec{l}$, free conduction electrons of charge $-e$ drift with speed $\vec{v}_d$:
@@ -178,7 +174,6 @@ A magnetic field $\vec{B} = -B\hat{k}$ is confined between parallel planar bound
 *Description: Two-panel diagnostic electrodynamic illustration: (A) Vector effective length theorem demonstrating that an arbitrary curved conductor carrying current $I$ experiences net magnetic force $\vec{F}_{\mathrm{net}} = I(\vec{L}_{\mathrm{eff}} \times \vec{B})$ identical to a straight vector displacement wire $\vec{L}_{\mathrm{eff}} = \vec{r}_B - \vec{r}_A$, alongside the zero net force invariant for closed loops; (B) Magnetic torque on planar current loops ($\vec{\tau} = \vec{M} \times \vec{B}$) and radial field architecture of the Moving Coil Galvanometer (MCG).*
 
 ---
-
 
 ### 6.1 Magnetic Dipole Moment & Torque
 - **Magnetic Dipole Moment ($\vec{M}$):** A planar loop of $N$ turns carrying current $I$ and enclosing area $A$:
@@ -214,7 +209,6 @@ A magnetic field $\vec{B} = -B\hat{k}$ is confined between parallel planar bound
    $$V = I_g (R_g + R) \implies \mathbf{Series\ Resistance:}\quad R = \frac{V}{I_g} - R_g$$
 
 ---
-
 
 ### Archetype 1: Specific Charge Comparison in Circular Trajectory
 - **Problem:** An electron ($e^-$), proton ($p^+$), deuteron ($d^+$), and alpha particle ($\alpha^{2+}$) are accelerated through the same potential difference $V$ and projected into a uniform perpendicular magnetic field $B$. Compare their orbit radii.

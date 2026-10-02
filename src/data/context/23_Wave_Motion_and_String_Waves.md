@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Physical Nature of Wave Motion
 - **Definition:** A wave is an oscillatory disturbance propagating through a continuous medium or space that transports **energy and momentum** from one location to another **without any net transport of matter**.
 - **Medium Prerequisites for Mechanical Waves:**
@@ -27,7 +26,6 @@
 
 ---
 
-
 ### 2.1 The General Wave Function
 - Consider an arbitrary transverse pulse generated at the left boundary ($x = 0$) of a stretched horizontal string:
   $$y(0, t) = f(t)$$
@@ -50,7 +48,6 @@
 
 ---
 
-
 ### 3.1 Standard Mathematical Formulations
 - When the wave source executes simple harmonic motion (SHM) of amplitude $A$ and angular frequency $\omega$:
   $$y(x, t) = A \sin(\omega t - k x + \phi) \quad \text{or} \quad y(x, t) = A \sin(k x - \omega t + \phi)$$
@@ -72,7 +69,6 @@
        $$\Delta \Phi = \omega \Delta t = \frac{2\pi}{T} \Delta t$$
 
 ---
-
 
 ### 4.1 Particle Velocity & Transverse Acceleration
 - Medium particles do **not** travel along the string; they oscillate purely along the transverse $y$-direction about their fixed equilibrium coordinates $x$.
@@ -98,7 +94,6 @@
 
 ---
 
-
 ### 5.1 Dynamic Derivation from Newton's Second Law
 - Consider a small string element of length $\Delta l$, mass $\Delta m = \mu \Delta l$, forming an arc of radius $R$ subtending angle $\Delta \theta$ at its center of curvature, under tension $T$.
 - In a reference frame moving rightward with wave speed $v$, the string element flows backward with tangential velocity $v$.
@@ -121,7 +116,6 @@
   $$T = Y A \alpha \Delta T \implies v = \sqrt{\frac{Y A \alpha \Delta T}{\rho A}} = \sqrt{\frac{Y \alpha \Delta T}{\rho}}$$
 
 ---
-
 
 ### 6.1 Kinetic & Potential Energy Densities
 - Consider an infinitesimal element of mass $dm = \mu\,dx$:
@@ -157,7 +151,6 @@
 
 ---
 
-
 ### 7.1 Principle of Linear Superposition
 - When two or more waves propagate simultaneously through the same elastic medium, the net resultant displacement of any medium particle at any instant is the vector (algebraic) sum of the displacements that each wave would produce individually:
   $$y(x, t) = y_1(x, t) + y_2(x, t) + \dots + y_n(x, t)$$
@@ -179,7 +172,6 @@
     *(If $A_1 = A_2 = A_0$: $A_{\text{min}} = 0$, $I_{\text{min}} = 0$).*
 
 ---
-
 
 ### 8.1 Boundary Conditions & Amplitude Relations
 - When a wave propagating in string 1 ($v_1, \mu_1$) strikes a junction with string 2 ($v_2, \mu_2$) under constant tension $T$:
@@ -206,7 +198,6 @@
 
 ---
 
-
 ### 9.1 Mathematical Superposition of Oppositely Directed Waves
 - When two identical harmonic waves of equal amplitude $A$ and frequency $\omega$ travel in opposite directions along a taut string:
   $$y_1 = A \sin(k x - \omega t) \quad \text{and} \quad y_2 = A \sin(k x + \omega t)$$
@@ -229,7 +220,6 @@
   6. **Zero Net Energy Propagation:** Since nodes remain permanently stationary, no energy can flow across them. Energy remains trapped within each inter-nodal loop, oscillating cyclically between kinetic energy (when the string is flat through $y=0$) and potential energy (at maximum deflection $y = \pm A_s$).
 
 ---
-
 
 ### 10.1 Stretched String Fixed at Both Ends
 - Boundary conditions: Fixed clamps require nodes at both boundaries: $y(0, t) = 0$ and $y(L, t) = 0$.
@@ -264,7 +254,6 @@
 
 ---
 
-
 ### 11.1 The Sonometer Governing Equation
 - The fundamental frequency of a wire stretched across sonometer bridges with vibrating length $L$, tension $T$, and linear density $\mu$ is:
   $$f = \frac{1}{2L}\sqrt{\frac{T}{\mu}} = \frac{1}{2L}\sqrt{\frac{M g}{\pi r^2 \rho}} = \frac{1}{2 L r}\sqrt{\frac{T}{\pi \rho}}$$
@@ -278,7 +267,6 @@
    $$f \propto \frac{1}{\sqrt{\mu}} \propto \frac{1}{r\sqrt{\rho}}$$
 
 ---
-
 
 ### Archetype 1: Vertically Hanging Heavy Rope Under Gravity
 - **Problem:** A uniform heavy rope of mass $M$ and length $L$ hangs vertically from a ceiling. A pulse is initiated at the bottom end.

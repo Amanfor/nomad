@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Continuum Postulate & Pressure Invariants
 A fluid is a state of matter that deforms continuously under the application of shear stress, no matter how infinitesimal:
 - **Density ($\rho$) & Specific Gravity ($SG$):**
@@ -87,7 +86,6 @@ A cylindrical container of radius $R$ containing liquid of density $\rho$ rotate
 
 ---
 
-
 ### 2.1 Archimedes' Principle & The Buoyant Force ($F_B$)
 "When a body is wholly or partially immersed in a fluid at rest, it experiences an upward buoyant force (upthrust) equal to the weight of the fluid displaced by the body."
 $$\mathbf{F_B = V_{\text{submerged}} \cdot \rho_{\text{liquid}} \cdot g}$$
@@ -140,7 +138,6 @@ $$\mathbf{\vec{F}_B = -V_{\text{sub}} \cdot \rho_L \cdot (\vec{g} - \vec{a}) = V
 
 ---
 
-
 ### 3.1 Ideal Fluid Flow Characteristics
 1. **Steady / Streamline Flow:** The velocity of fluid particles at any fixed point in space is invariant with time: $\left(\frac{\partial \vec{v}}{\partial t}\right) = 0$.
 2. **Incompressible Flow:** Density remains constant along streamlines: $\rho = \text{Constant}$.
@@ -178,7 +175,6 @@ $$\mathbf{P + \frac{1}{2}\rho v^2 + \rho g y = \text{Constant}}$$
 
 ---
 
-
 #### 1. The Venturimeter (Flow Rate Measurement)
 Consists of a wide pipe section ($A_1$) tapering to a narrow constriction called the throat ($A_2 < A_1$):
 - By continuity: $v_2 = v_1 \left(\frac{A_1}{A_2}\right) > v_1$.
@@ -201,7 +197,7 @@ $$\mathbf{v = \sqrt{\frac{2(P_{\text{stag}} - P_{\text{static}})}{\rho}} = \sqrt
 
 ---
 
-### 3.5 Torricelli's Law of Efflux & Projectile Dynamics
+### 3.4 Torricelli's Law of Efflux & Projectile Dynamics
 A tank of large cross-sectional area $A$ filled with liquid of density $\rho$ to depth $H$ has a small orifice of area $a$ ($a \ll A$) at depth $h$ below the free surface:
 5. **Speed of Efflux ($v$):**
    Applying Bernoulli's equation between top free surface (1) and orifice (2):
@@ -237,7 +233,6 @@ A tank of large cross-sectional area $A$ filled with liquid of density $\rho$ to
    - **$t_2 > t_1$** (Emptying the lower half takes over twice as long as the upper half!).
 
 ---
-
 
 ### 4.1 Newton's Law of Viscosity
 
@@ -310,7 +305,6 @@ where $D$ is the tube diameter.
 
 ---
 
-
 ### 5.1 Molecular Theory & Surface Energy
 Molecules in the bulk of a liquid experience isotropic cohesive attractions in all directions (net force $= 0$).
 Molecules at the free surface experience an inward cohesive pull toward the bulk and zero attraction from air above.
@@ -323,7 +317,6 @@ Work must be performed against this inward cohesive pull to bring molecules from
   $$\mathbf{dW = T \cdot dA \implies U_s = T \cdot A \quad [\text{J/m}^2 = \text{N/m}]}$$
 
 ---
-
 
 #### 4. Blowing a Liquid Drop vs. Soap Bubble
 - For a liquid drop (1 free liquid-air interface):
@@ -349,7 +342,7 @@ A single drop of radius $R$ is pulverized into $n$ identical droplets of radius 
 
 ---
 
-### 5.3 The Young-Laplace Equation & Excess Pressure ($\Delta P$)
+### 5.2 The Young-Laplace Equation & Excess Pressure ($\Delta P$)
 Because of surface tension, a curved liquid surface contracts, exerting compressive pressure toward the center of curvature.
 **The concave side of any curved liquid interface is ALWAYS at higher pressure than the convex side:**
 $$\mathbf{P_{\text{concave}} - P_{\text{convex}} = \Delta P}$$
@@ -365,7 +358,7 @@ $$\mathbf{P_{\text{concave}} - P_{\text{convex}} = \Delta P}$$
 
 ---
 
-### 5.4 Angle of Contact ($\theta$) & Young's Equation
+### 5.3 Angle of Contact ($\theta$) & Young's Equation
 The angle subtended inside the liquid between the solid wall and the tangent to the liquid meniscus at the three-phase contact line:
 - **Young's Relation for Three Interfacial Tensions:**
   $$\mathbf{T_{sa} = T_{sl} + T_{la} \cos\theta \implies \cos\theta = \frac{T_{sa} - T_{sl}}{T_{la}}}$$
@@ -377,7 +370,7 @@ The angle subtended inside the liquid between the solid wall and the tangent to 
 
 ---
 
-### 5.5 Capillary Rise & Jurin's Law
+### 5.4 Capillary Rise & Jurin's Law
 Consider a vertical glass capillary tube of internal radius $r$ dipped into a wetting liquid of density $\rho$ and surface tension $T$:
 - **Equilibrium Force Balance:**
   The upward vertical component of surface tension around the circular perimeter balances the weight of the elevated liquid column:
@@ -391,7 +384,7 @@ Consider a vertical glass capillary tube of internal radius $r$ dipped into a we
 
 ---
 
-### 5.6 Tube of Insufficient Length ($L < h_{\text{req}}$)
+### 5.5 Tube of Insufficient Length ($L < h_{\text{req}}$)
 If a capillary tube has vertical length $L$ smaller than the equilibrium Jurin height $h$:
 - **CRITICAL JEE TRAP:** **THE LIQUID DOES NOT OVERFLOW!**
 - **Self-Regulating Mechanism:**
@@ -401,7 +394,7 @@ If a capillary tube has vertical length $L$ smaller than the equilibrium Jurin h
 
 ---
 
-### 5.7 Common Interface of Two Coalescing Soap Bubbles
+### 5.6 Common Interface of Two Coalescing Soap Bubbles
 Two soap bubbles of radii $r_1$ and $r_2$ ($r_2 > r_1$) come into contact and coalesce along a common spherical interface of radius $R_{\text{int}}$:
 - Excess pressure in bubble 1: $P_1 - P_0 = \frac{4T}{r_1}$.
 - Excess pressure in bubble 2: $P_2 - P_0 = \frac{4T}{r_2}$.
@@ -413,7 +406,6 @@ Two soap bubbles of radii $r_1$ and $r_2$ ($r_2 > r_1$) come into contact and co
 - **Interface Curvature Direction:** The common interface is **concave toward the smaller bubble** (because smaller bubble has higher internal pressure!).
 
 ---
-
 
 ### 6.1 Master Fluid Mechanics Formula Sheet
 
@@ -436,7 +428,6 @@ Two soap bubbles of radii $r_1$ and $r_2$ ($r_2 > r_1$) come into contact and co
 | **Bubble Coalescence** | $R_{\text{int}} = \frac{r_1 r_2}{r_2 - r_1}$ | Common interface concave toward smaller bubble |
 
 ---
-
 
 #### Trap 1: The Weight of an Accelerating or Falling Container on a Scale
 - A beaker filled with liquid rests on a spring scale. A block of mass $m$ is lowered into the water suspended by a string from an external support:

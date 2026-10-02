@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Periodic vs. Oscillatory Motion & The Restoring Force Law
 - **Periodic Motion:** Any motion that repeats itself identically at regular intervals of time $T$ (e.g., planetary orbits, uniform circular motion).
 - **Oscillatory (Vibratory) Motion:** Periodic to-and-fro motion about a stable equilibrium (mean) position along a definite trajectory:
@@ -67,7 +66,6 @@ $$\mathbf{\frac{x^2}{A^2} + \frac{v^2}{(A\omega)^2} = 1}$$
 
 ---
 
-
 ### 2.1 The Reference Circle Mapping
 
 <!-- image missing: media/shm_kinematics_phasor_circle_and_energy_profiles.webp -->
@@ -99,7 +97,6 @@ $$\mathbf{t = \frac{\Delta \theta}{\omega} = \left(\frac{\Delta \theta}{2\pi}\ri
      $$\Delta\theta = 30^\circ + 30^\circ = 60^\circ = \frac{\pi}{3} \implies \mathbf{t = \frac{T}{6}}$$
 
 ---
-
 
 ### 3.1 Kinetic, Potential, and Total Mechanical Energy
 In an ideal, undamped simple harmonic oscillator:
@@ -152,7 +149,6 @@ $$U(t) = \frac{1}{2} k A^2 \sin^2(\omega t) = \frac{1}{4} k A^2 [1 - \cos(2\omeg
   - *Physical Explanation:* The particle travels fastest near $x = 0$ and slowest near $x = \pm A$. Consequently, it spends very little time near the center and lingers near the extremes. A spatial average weights high-velocity central regions equally per unit length, resulting in a higher average kinetic energy ($\frac{2}{3}E$) than the time-weighted average ($\frac{1}{2}E$).
 
 ---
-
 
 ### 4.1 The Spring Cutting Law
 
@@ -218,7 +214,6 @@ If the spring itself has a non-negligible mass $M_s$:
   - Exactly **one-third of the spring's mass** acts as effective inertial mass!
 
 ---
-
 
 ### 5.1 The Simple Pendulum
 A point mass $m$ suspended by a light, inextensible string of length $L$:
@@ -293,7 +288,6 @@ A rigid body of moment of inertia $I$ suspended by a vertical wire of length $L$
 
 ---
 
-
 ### 6.1 Superposition of Two Collinear SHMs of Identical Frequency
 
 <!-- image missing: media/superposition_lissajous_and_damped_forced_oscillations.webp -->
@@ -327,7 +321,6 @@ $$x(t) = A_1 \sin(\omega t), \quad y(t) = A_2 \sin(\omega t + \delta)$$
      - If $A_1 = A_2 = A$: $\mathbf{x^2 + y^2 = A^2}$ (A pure **CIRCLE** of radius $A$!).
 
 ---
-
 
 ### 7.1 Damped Harmonic Motion
 When a real oscillator experiences a viscous dissipative medium, it is opposed by a damping force directly proportional to velocity:
@@ -373,7 +366,6 @@ $$m \frac{d^2x}{dt^2} + b \frac{dx}{dt} + k x = F_0 \cos(\omega_d t)$$
 
 ---
 
-
 ### 8.1 Master Simple Harmonic Motion Formula Table
 
 | Physical Quantity / Phenomenon | Master Equation | High-Yield Application |
@@ -402,7 +394,6 @@ $$m \frac{d^2x}{dt^2} + b \frac{dx}{dt} + k x = F_0 \cos(\omega_d t)$$
 | **Resonance Quality Factor** | $Q = \frac{\omega_0 m}{b}$ | Sharpness of resonance peak |
 
 ---
-
 
 #### Trap 1: The Energy Average Paradox ($\langle K \rangle_t$ vs. $\langle K \rangle_x$)
 - **The Error:** Assuming $\langle K \rangle = \frac{1}{2} E$ in all contexts.

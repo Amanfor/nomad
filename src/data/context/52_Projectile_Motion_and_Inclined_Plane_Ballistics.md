@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Vector Decomposition & Independence of Motion
 A projectile is any object thrown into space with an initial velocity obliquely, influenced solely by the uniform downward gravitational acceleration $\vec{g}$:
 - **Initial Velocity Vector:**
@@ -64,7 +63,6 @@ A projectile is any object thrown into space with an initial velocity obliquely,
 
 ---
 
-
 ### 2.1 The Complementary Angles Theorem: $\theta$ and $(90^\circ - \theta)$
 Because $\sin[2(90^\circ - \theta)] = \sin(180^\circ - 2\theta) = \sin 2\theta$:
 **Two projectiles launched at the same initial speed $u$ at complementary angles $\theta$ and $(90^\circ - \theta)$ have IDENTICAL horizontal ranges**:
@@ -96,7 +94,6 @@ $$y = u \sin\theta \left(\frac{x}{u \cos\theta}\right) - \frac{1}{2} g \left(\fr
    - **High-Yield Application:** Given any obstacle/wall of height $y$ at distance $x$ from launch, or when finding whether a projectile clears a target, the factorized form provides instantaneous solutions without calculating intermediate time or velocity components!
 
 ---
-
 
 ### 3.1 Projections from a Tower of Height $h$
 
@@ -146,7 +143,6 @@ where $v$ is the instantaneous speed, and $a_\perp$ is the normal component of a
    $$\mathbf{\rho(\alpha) = \frac{v^2}{a_\perp} = \frac{\left(\frac{u \cos\theta}{\cos\alpha}\right)^2}{g \cos\alpha} = \frac{u^2 \cos^2\theta}{g \cos^3\alpha}}$$
 
 ---
-
 
 ### 4.1 Coordinate Decomposition on an Incline
 
@@ -202,7 +198,6 @@ $$\mathbf{\cot\alpha = 2 \tan\beta \iff \tan\alpha = \frac{1}{2} \cot\beta}$$
 
 ---
 
-
 ### 5.1 Master Projectile Motion Formula Table
 
 | Physical Quantity / Case | Master Equation | High-Yield Application |
@@ -226,7 +221,6 @@ $$\mathbf{\cot\alpha = 2 \tan\beta \iff \tan\alpha = \frac{1}{2} \cot\beta}$$
 | **Perpendicular Incline Landing** | $\tan\alpha = \frac{1}{2} \cot\beta$ | $v_x = 0$ along the incline |
 
 ---
-
 
 #### Trap 1: The Angle of Projection on an Incline Confusion
 - **The Error:** Confusing angle of projection relative to the incline ($\alpha$) with angle relative to the horizontal ($\theta$).

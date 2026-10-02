@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Solution Classification & Concentration Terminology
 A solution is a homogeneous mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits.
 - **Solvent:** The component present in the largest proportion or in the same physical state as the resulting solution.
@@ -28,7 +27,6 @@ A solution is a homogeneous mixture of two or more chemically non-reacting subst
    where $M_1$ is the molar mass of the solvent in $\text{g/mol}$.
 
 ---
-
 
 ### 2.1 Dynamic Vapor-Liquid Equilibrium & Clausius-Clapeyron Law
 - **Vapor Pressure:** The pressure exerted by the vapor in thermodynamic dynamic equilibrium with its liquid phase at a specified temperature in a closed container:
@@ -80,7 +78,6 @@ For a binary mixture of two mutually miscible volatile liquids $A$ and $B$:
 
 ---
 
-
 ### 3.1 Comprehensive Comparison Matrix
 
 | Property | Ideal Solution | Non-Ideal (+ve Deviation) | Non-Ideal (-ve Deviation) |
@@ -109,7 +106,6 @@ For a binary mixture of two mutually miscible volatile liquids $A$ and $B$:
    - *Classic Example:* Nitric acid (B.P. $86^\circ\text{C}$) + Water (B.P. $100^\circ\text{C}$) forms an azeotrope at 68% $\text{HNO}_3$ by mass with B.P. $= 120.5^\circ\text{C}$; Hydrochloric acid (20.2% $\text{HCl}$, B.P. $108.6^\circ\text{C}$).
 
 ---
-
 
 ### 4.1 Factors Influencing Gas Solubility
 5. **Nature of Gas and Solvent:**
@@ -146,7 +142,7 @@ where $p$ is the partial pressure of the gas, $x$ is the mole fraction of dissol
 
 ---
 
-## 8. Colligative Properties of Dilute Solutions
+## 1. Colligative Properties of Dilute Solutions
 
 Colligative properties are thermodynamic properties of dilute solutions containing non-volatile solutes that **depend strictly on the number of solute particles (concentration/molality)** and are completely independent of the chemical identity or size of the solute particles.
 The four fundamental colligative properties are:
@@ -199,7 +195,6 @@ where $P^\circ$ is pure solvent vapor pressure, $P_s$ is solution vapor pressure
 
 ---
 
-
 ### 6.1 Osmosis vs. Osmotic Pressure
 - **Osmosis:** The spontaneous net flow of solvent molecules from a region of lower solute concentration (pure solvent) to higher solute concentration across a **semi-permeable membrane (SPM)**.
   - SPM allows passage of solvent molecules but blocks larger solute particles (e.g., cellophane, parchment paper, synthetic copper ferrocyanide $\text{Cu}_2[\text{Fe}(\text{CN})_6]$).
@@ -233,7 +228,6 @@ Osmotic pressure measurement is preferred over $\Delta T_b, \Delta T_f$, and RLV
 14. Even at extremely dilute concentrations ($10^{-3}\text{ to } 10^{-4}\text{ M}$), osmotic pressure produces substantial, readily measurable liquid column heights ($h = \pi/\rho g$), whereas $\Delta T_f$ and $\Delta T_b$ are negligibly small ($10^{-3\,\circ}\text{C}$).
 
 ---
-
 
 ### 7.1 Concept of Van 't Hoff Factor
 When a solute undergoes dissociation (electrolytes) or association (hydrogen-bonded species) in solution, the number of particles differs from the moles of substance dissolved:
@@ -276,7 +270,6 @@ $$\mathbf{i = 1 - \left(1 - \frac{1}{n}\right)\beta \iff \beta = \frac{1 - i}{1 
    $$\mathbf{\pi = i \cdot C R T}$$
 
 ---
-
 
 ### Archetype 1: Fractional Distillation & Successive Vaporization
 - **Problem:** An equimolar ideal liquid mixture of $A$ ($P_A^\circ = 80\text{ torr}$) and $B$ ($P_B^\circ = 40\text{ torr}$) is subjected to distillation. The initial vapors are completely condensed to form a distillate liquid. Find the vapor pressure of this distillate liquid and the composition of its equilibrium vapors at the same temperature.

@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Microscopic Origin: Interatomic Potential Energy Curve
 Solids maintain a definite equilibrium shape and size because of balanced electromagnetic interatomic forces:
 - **Interatomic Potential Energy $U(r)$:**
@@ -49,7 +48,6 @@ Strain is the fractional geometrical deformation produced in a body by an applie
    $$\mathbf{\epsilon_{\text{lateral}} = -\frac{\Delta r}{r} = -\frac{\Delta d}{d}}$$
 
 ---
-
 
 ### 2.1 Hooke's Law
 "Within the limit of proportionality, stress is directly proportional to strain for small deformations:"
@@ -108,7 +106,6 @@ When an elastomeric material (such as vulcanized rubber) is cyclically loaded an
 - **Engineering Application:** Materials with large hysteresis loops (vulcanized rubber) convert mechanical vibration and shock into thermal energy, making them superior for **automobile tires, engine mounts, and seismic isolators**!
 
 ---
-
 
 ### 3.1 Young's Modulus ($Y$)
 The ratio of longitudinal stress to longitudinal strain within the proportional limit:
@@ -170,7 +167,6 @@ $$\mathbf{\frac{9}{Y} = \frac{1}{B} + \frac{3}{\eta} \iff Y = \frac{9B\eta}{3B +
 $$\mathbf{\sigma = \frac{3B - 2\eta}{6B + 2\eta}}$$
 
 ---
-
 
 ### 4.1 Uniform Wire under External Tensile Load
 For a wire of length $L$, uniform cross-sectional area $A$, and Young's modulus $Y$ subjected to tensile load $F$:
@@ -262,7 +258,6 @@ A thin circular ring of radius $R$, cross-sectional area $A$, and density $\rho$
 
 ---
 
-
 ### 5.1 Elastic Potential Energy Density ($u$)
 
 <!-- image missing: media/elastic_energy_thermal_stress_and_bending_torsion.webp -->
@@ -318,7 +313,6 @@ Two rods of materials $(L_1, A_1, Y_1, \alpha_1)$ and $(L_2, A_2, Y_2, \alpha_2)
 
 ---
 
-
 ### 6.1 Flexural Bending of Beams
 A uniform horizontal beam of length $L$ supported at both ends on knife-edges carries a central concentrated load $W = M g$:
 - The upper longitudinal filaments are compressed while the lower filaments are stretched. The central filament layer experiences zero stress and forms the **Neutral Axis**.
@@ -370,7 +364,6 @@ $$\mathbf{C_{\text{hollow}} = \frac{\pi \eta (r_2^4 - r_1^4)}{2 L}}$$
 
 ---
 
-
 ### 7.1 Master Elasticity Formula Table
 
 | Mechanical Quantity | Master Equation | High-Yield Application |
@@ -394,7 +387,6 @@ $$\mathbf{C_{\text{hollow}} = \frac{\pi \eta (r_2^4 - r_1^4)}{2 L}}$$
 | **Torsional Shaft Rigidity** | $\tau = C \theta = \frac{\pi \eta r^4}{2 L} \theta$ | Hollow shaft has higher torsional strength |
 
 ---
-
 
 #### Trap 1: The Effective Mass of a Heavy Spring
 - When a mass $m$ oscillates vertically on a light spring of mass $M_{\text{spring}} = 0$, time period is $T = 2\pi\sqrt{m/k}$.

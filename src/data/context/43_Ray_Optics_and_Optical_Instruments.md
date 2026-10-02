@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Nature of Light & Geometrical Optics Postulates
 Geometrical optics is the limiting approximation of wave optics when the wavelength of light approaches zero ($\lambda \to 0$ compared to macroscopic aperture dimensions $a$).
 - **Fermat's Principle of Least Time:** Light traversing between two points follows the path that takes the least (or stationary) optical path length ($OPL = \int n(s) ds$).
@@ -53,7 +52,6 @@ $$\mathbf{v_{I, \parallel} = v_{O, \parallel}}$$
 
 ---
 
-
 ### 2.1 Coordinate Sign Convention & Paraxial Approximations
 - **New Cartesian Sign Convention:**
   1. All distances are measured from the **Pole ($P$)** of the mirror taken as origin.
@@ -71,7 +69,6 @@ $$\mathbf{v_{I, \parallel} = v_{O, \parallel}}$$
 
 ---
 
-
 #### 2.3.1 Paraxial Ray Mirror Formula (Small Aperture: $\theta \to 0$)
 $$\mathbf{\frac{1}{v} + \frac{1}{u} = \frac{1}{f} = \frac{2}{R}}$$
 - Focal length for paraxial rays:
@@ -83,7 +80,6 @@ $$\mathbf{f_{\text{marginal}} = R - \frac{R}{2\cos\theta} < \frac{R}{2}}$$
 - Marginal rays converge **closer to the pole** than paraxial rays. This non-coincidence of focal points creates **Spherical Aberration**, which is eliminated in telescopes by using **Parabolic Mirrors**.
 
 ---
-
 
 #### 1. Transverse / Lateral Magnification ($m$)
 $$\mathbf{m = \frac{h_i}{h_o} = -\frac{v}{u} = \frac{f}{f - u} = \frac{f - v}{f}}$$
@@ -103,7 +99,7 @@ $$\mathbf{m_A = \frac{A_i}{A_o} = m^2 = \left(\frac{f}{f - u}\right)^2}$$
 
 ---
 
-### 2.5 Dynamic Kinematics of Images in Spherical Mirrors
+### 2.3 Dynamic Kinematics of Images in Spherical Mirrors
 Differentiating the mirror formula with respect to time $t$:
 $$\frac{d}{dt}\left(\frac{1}{v}\right) + \frac{d}{dt}\left(\frac{1}{u}\right) = 0 \implies -\frac{1}{v^2}\frac{dv}{dt} - \frac{1}{u^2}\frac{du}{dt} = 0$$
 $$\mathbf{\vec{v}_{I, \parallel} = -\left(\frac{v}{u}\right)^2 \vec{v}_{O, \parallel} = -m^2 \vec{v}_{O, \parallel}}$$
@@ -112,7 +108,7 @@ $$\mathbf{\vec{v}_{I, \parallel} = -\left(\frac{v}{u}\right)^2 \vec{v}_{O, \para
 
 ---
 
-### 2.6 Newton's Formula for Spherical Mirrors
+### 2.4 Newton's Formula for Spherical Mirrors
 If the object distance $x_1$ and image distance $x_2$ are measured **from the focus ($F$)** instead of the pole:
 $$u = f + x_1, \quad v = f + x_2$$
 Substituting into $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$:
@@ -120,7 +116,6 @@ $$\mathbf{x_1 \cdot x_2 = f^2}$$
 $$\mathbf{m = -\frac{f}{x_1} = -\frac{x_2}{f}}$$
 
 ---
-
 
 ### 3.1 Snell's Law & Refractive Index
 When a ray travels from medium 1 ($n_1$) to medium 2 ($n_2$):
@@ -190,7 +185,6 @@ An optical fiber consists of a cylindrical core ($n_1$) surrounded by a cladding
 
 ---
 
-
 ### 4.1 Prism Geometry & Angle of Deviation ($\delta$)
 
 ![Prism Dispersion and Spherical Lens Refraction](/media/prism_dispersion_and_spherical_lens_refraction.webp)
@@ -252,7 +246,6 @@ Therefore, violet light deviates the most and red light deviates the least: $\de
 
 ---
 
-
 #### 4. Deviation Without Dispersion (Achromatic Prism)
 Two prisms of angles $A$ and $A'$ made of different glasses are placed in inverted opposition.
 Condition for zero net angular dispersion:
@@ -269,7 +262,6 @@ $$\mathbf{\frac{A'}{A} = -\frac{\mu_Y - 1}{\mu_Y' - 1}}$$
   $$\mathbf{\theta_{\text{net}} = \theta + \theta' = (\mu_V - \mu_R)A + (\mu_V' - \mu_R')A' = \theta \left(1 - \frac{\omega'}{\omega}\right)}$$
 
 ---
-
 
 ### 5.1 Refraction at a Single Spherical Surface
 For a ray incident from medium $\mu_1$ onto a spherical interface of radius of curvature $R$ entering medium $\mu_2$:
@@ -364,7 +356,6 @@ $$\mathbf{\frac{1}{F_{\text{eq}}} = -\left( \frac{2}{f_L} + \frac{1}{f_M} \right
 
 ---
 
-
 ### 6.1 The Human Eye & Refractive Vision Defects
 
 ![Optical Instruments Microscopes Telescopes and Defects](/media/optical_instruments_microscopes_telescopes_and_defects.webp)
@@ -447,7 +438,6 @@ Designed to view distant celestial objects subtending small angles at infinity:
 
 ---
 
-
 ### 7.1 Master Geometrical Optics Formula Table
 
 | Optical Phenomenon | Master Equation | Critical Conditions / Notes |
@@ -466,7 +456,6 @@ Designed to view distant celestial objects subtending small angles at infinity:
 | **Astronomical Telescope** | $M = -f_o/f_e$ | Normal adjustment tube length: $L = f_o + f_e$ |
 
 ---
-
 
 #### Trap 1: Longitudinal Magnification Sign in Mirrors vs. Lenses
 - **In Spherical Mirrors:** Differentiating $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ gives $\frac{dv}{du} = -\frac{v^2}{u^2} = \mathbf{-m^2}$.

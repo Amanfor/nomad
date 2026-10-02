@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Distance vs. Displacement
 - **Distance ($s$):** The total actual path length traversed by a particle during a time interval $\Delta t$. It is a scalar quantity, intrinsically non-negative ($s \ge 0$), and strictly non-decreasing over time ($ds/dt \ge 0$).
 - **Displacement ($\Delta \vec{r}$):** The shortest straight-line directed vector connecting the initial position $\vec{r}_i$ to the final position $\vec{r}_f$:
@@ -40,7 +39,6 @@ $$\mathbf{\vec{a} = \frac{d\vec{v}}{dt} = \frac{d^2\vec{r}}{dt^2}}$$
   *(The spatial form $a = v \frac{dv}{dx}$ is derived using the chain rule: $\frac{dv}{dt} = \frac{dv}{dx}\frac{dx}{dt} = v \frac{dv}{dx}$).*
 
 ---
-
 
 ### 2.1 The Master Equations of Motion ($a = \text{Constant}$)
 When acceleration $a$ is strictly independent of time, position, and velocity:
@@ -99,7 +97,6 @@ Taking upward as positive and downward as negative:
 
 ---
 
-
 ### 3.1 Slopes, Areas, and Mathematical Operations
 
 | Kinematic Graph | Tangent Slope at Any Point | Area Under the Curve (Between $t_1$ and $t_2$) |
@@ -118,7 +115,6 @@ Taking upward as positive and downward as negative:
 - **Inflection Point ($\frac{d^2x}{dt^2} = 0$):** Slope $v$ is stationary $\implies$ Acceleration is **zero** ($a = 0$).
 
 ---
-
 
 ### 4.1 Frame of Reference Transformations
 Let $A$ and $B$ be two objects observed from an inertial laboratory frame:
@@ -163,7 +159,6 @@ $$\mathbf{v_{\text{app}} = -\frac{dr}{dt} = -(\vec{v}_B - \vec{v}_A) \cdot \hat{
 
 ---
 
-
 ### 5.1 General Cyclic Pursuit Law
 Consider $N$ identical particles initially situated at the vertices of a regular $N$-sided polygon of side length $d$. Each particle moves with constant speed $v$ directed toward its adjacent cyclic neighbor:
 - Due to rotational symmetry, the particles always maintain a regular $N$-gon geometry of continuously shrinking side length $d(t)$, spiraling toward the geometric center.
@@ -191,7 +186,6 @@ Consider $N$ identical particles initially situated at the vertices of a regular
 | **Regular Hexagon** | $N = 6$ | $60^\circ$ ($\cos 60^\circ = +1/2$) | $\mathbf{\frac{1}{2} v}$ | $\mathbf{\frac{2 d}{v}}$ | $2 d$ |
 
 ---
-
 
 ### 6.1 River-Boat & Swimmer Crossing Mechanics
 
@@ -258,7 +252,6 @@ where $\vec{v}_{p/a}$ is the True Airspeed (TAS) directed along the aircraft's h
 
 ---
 
-
 ### 7.1 Master Kinematics Formula Table
 
 | Physical Quantity / Law | Master Equation | High-Yield Application |
@@ -285,7 +278,6 @@ where $\vec{v}_{p/a}$ is the True Airspeed (TAS) directed along the aircraft's h
 | **Rain-Man Umbrella Tilt** | $\tan\theta = \frac{|v_{rx} + v_m|}{v_{ry}}$ | Tilt angle from vertical |
 
 ---
-
 
 #### Trap 1: Confusing Average Speed with Magnitude of Average Velocity
 - **The Error:** Writing $|\vec{v}_{\text{avg}}| = v_{\text{avg}}$.

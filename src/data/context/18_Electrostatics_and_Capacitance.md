@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Invariant Properties of Electric Charge
 - **Quantization of Charge:** Electric charge exists strictly in discrete integral multiples of the elementary electronic charge ($e = 1.602 \times 10^{-19}\text{ C}$):
   $$q = \pm n e \quad (n = 1, 2, 3, \dots)$$
@@ -22,12 +21,10 @@
 
 ---
 
-
 ### 2.1 Electric Field Strength ($\vec{E}$)
 - Force per unit positive infinitesimal test charge placed at field point $P$:
   $$\vec{E} = \lim_{q_0 \to 0} \frac{\vec{F}}{q_0}$$
 - **Point Charge:** $\vec{E} = \frac{k q}{r^2} \hat{r}$.
-
 
 #### A. Infinitely Long Straight Wire (Linear Charge Density $\lambda$)
 $$\vec{E} = \frac{\lambda}{2\pi\varepsilon_0 r} \hat{r} = \frac{2 k \lambda}{r} \hat{r}$$
@@ -70,7 +67,6 @@ $$E_\parallel = \frac{k \lambda}{r} (\cos\beta - \cos\alpha)$$
 
 ---
 
-
 ### 3.1 Potential Difference & Relationship to Electric Field
 - Potential difference between points $A$ and $B$:
   $$\Delta V = V_B - V_A = -\int_A^B \vec{E} \cdot d\vec{r} = \frac{W_{\text{ext}}}{q_0}$$
@@ -108,8 +104,7 @@ $$E_\parallel = \frac{k \lambda}{r} (\cos\beta - \cos\alpha)$$
 
 ---
 
-
-### 5.1 Dipole Moment & Field Vector Derivation
+### 4.1 Dipole Moment & Field Vector Derivation
 - Two equal and opposite charges $\pm q$ separated by displacement $2\vec{a}$:
   $$\vec{p} = q(2\vec{a}) \quad (\text{directed from } -q \text{ to } +q)$$
 - **Axial Position ($r \gg a$):**
@@ -124,7 +119,7 @@ $$E_\parallel = \frac{k \lambda}{r} (\cos\beta - \cos\alpha)$$
   $$V(r, \theta) = \frac{k p \cos\theta}{r^2} = \frac{\vec{p} \cdot \hat{r}}{4\pi\varepsilon_0 r^2}$$
   *(Notice: $V_{\text{equatorial}} = 0$ everywhere on the equatorial plane $\theta = 90^\circ$).*
 
-### 5.2 Dipole in External Electric Field
+### 5.1 Dipole in External Electric Field
 - **Uniform Field ($\vec{E}$):**
   - Net Force: $\vec{F}_{\text{net}} = \vec{F}_+ + \vec{F}_- = (+q\vec{E}) + (-q\vec{E}) = 0$.
   - Net Restoring Torque:
@@ -151,12 +146,11 @@ $$E_\parallel = \frac{k \lambda}{r} (\cos\beta - \cos\alpha)$$
 
 ---
 
-
-### 7.1 Gauss's Theorem
+### 6.1 Gauss's Theorem
 - Total electric flux emerging through any arbitrary closed Gaussian surface ($S$) equals $\frac{1}{\varepsilon_0}$ times the net charge enclosed ($q_{\text{enc}}$):
   $$\Phi_E = \oint_S \vec{E} \cdot d\vec{A} = \frac{q_{\text{enc}}}{\varepsilon_0}$$
 
-### 7.2 Electrostatic Equilibrium of Conductors
+### 7.1 Electrostatic Equilibrium of Conductors
 8. The electric field is identically zero everywhere inside the bulk of a conductor ($E_{\text{bulk}} = 0$).
 9. Any net excess static charge resides entirely on the exterior boundary of the conductor.
 10. The electric field immediately outside a charged conductor surface is normal to the surface:
@@ -167,7 +161,6 @@ $$E_\parallel = \frac{k \lambda}{r} (\cos\beta - \cos\alpha)$$
 13. **Electrostatic Shielding:** The electric field inside an empty cavity within a conductor is zero, completely shielding the cavity from external electrostatic fields.
 
 ---
-
 
 ### 8.1 Capacitance Definition
 $$C = \frac{Q}{V}$$
@@ -231,7 +224,6 @@ When two capacitors $C_1$ (charged to $V_1$) and $C_2$ (charged to $V_2$) are co
   *(Energy loss is strictly non-negative and is dissipated as Joule heat and electromagnetic radiation).*
 
 ---
-
 
 ### Archetype 1: Oscillations of a Charge along the Axis of a Ring
 - **Problem:** A negative point charge $-q$ of mass $m$ is constrained to move along the axis of a uniformly charged positive ring of radius $R$ and total charge $+Q$. Find the period of small axial oscillations ($x \ll R$).

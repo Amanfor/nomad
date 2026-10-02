@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Galvanic vs. Electrolytic Cells
 - **Galvanic (Voltaic) Cell:** Transforms chemical potential energy of an inherently spontaneous redox reaction ($\Delta G < 0$) directly into electrical energy ($E_{\text{cell}} > 0$).
 - **Electrolytic Cell:** Uses externally supplied electrical energy from a DC power supply to drive an inherently non-spontaneous redox transformation ($\Delta G > 0, E_{\text{cell}} < 0$).
@@ -41,7 +40,6 @@
 
 ---
 
-
 ### 2.1 Free Energy & Electrical Work
 The maximum non-$PV$ electrical work obtainable from a reversible electrochemical cell equals the decrease in Gibbs free energy of the cell reaction:
 $$w_{\text{electrical, max}} = -\Delta G$$
@@ -67,7 +65,6 @@ where $F = 96485\text{ C/mol} \approx 96500\text{ C/mol}$ is the Faraday constan
   (where both $E_{\text{cathode}}^\circ$ and $E_{\text{anode}}^\circ$ are expressed strictly as **Standard Reduction Potentials, SRP**).
 
 ---
-
 
 ### 3.1 Nernst Equation Formulation
 For a general reversible redox process:
@@ -97,7 +94,6 @@ $$\mathbf{E_{\text{H}^+/\text{H}_2} = -0.0591 \cdot \text{pH}}$$
   $$E = -0.0591 \times 7 = -0.4137\text{ V} \approx -0.414\text{ V}$$
 
 ---
-
 
 ### 4.1 Classification of Half-Cells
 1. **Metal-Metal Ion Half-Cell:** Metal strip in solution of its own cation ($M^{n+}/M$, e.g., $\text{Zn}^{2+}/\text{Zn}, \text{Cu}^{2+}/\text{Cu}$).
@@ -133,7 +129,7 @@ Consists of a metal in contact with a sparingly soluble salt of the metal, immer
 
 ---
 
-## 6. Concentration Cells
+## 1. Concentration Cells
 
 A cell where both half-cells are constructed from identical chemical substances, generating a potential difference solely due to a difference in concentrations or partial pressures.
 - **Fundamental Invariant:** The standard cell potential is identically zero:
@@ -157,7 +153,6 @@ $$\text{Zn}(s) \mid \text{Zn}^{2+}(aq, c_1) \parallel \text{Zn}^{2+}(aq, c_2) \m
 
 ---
 
-
 ### 6.1 Faraday's Laws of Electrolysis
 7. **First Law:** The mass ($w$) of any substance deposited or liberated at an electrode is directly proportional to the quantity of electricity ($Q$) passed through the electrolyte:
    $$w \propto Q \implies w = Z \cdot Q = Z \cdot I \cdot t$$
@@ -180,7 +175,6 @@ When multiple competing ionic species are present in an aqueous solution:
   However, the evolution of $O_2$ is **kinetically extremely sluggish** due to high activation energy for breaking four bonds, creating an **overpotential (overvoltage) of $\approx 0.4 - 0.6\text{ V}$**. Consequently, the practical potential required for $O_2$ evolution shifts to $\approx -1.6\text{ to } -1.8\text{ V}$, making **$\text{Cl}_2$ evolution the predominant kinetic product** at the anode during the electrolysis of concentrated $\text{NaCl}$ (brine).
 
 ---
-
 
 ### 7.1 Conductance, Conductivity & Cell Constant
 - **Resistance ($R$) & Conductance ($G$):**
@@ -227,7 +221,6 @@ where $\Lambda_m^\circ$ is the **limiting molar conductivity** at infinite dilut
 
 ---
 
-
 ### 8.1 The Grotthuss Mechanism & Ionic Mobility
 - Under an applied electric field, hydronium ($\text{H}^+$) and hydroxide ($\text{OH}^-$) ions exhibit anomalously high ionic conductivities due to the **Grotthuss proton-jumping mechanism** through hydrogen-bonded water networks:
   $$\lambda^\circ(\text{H}^+) \approx 349.8\text{ S}\cdot\text{cm}^2/\text{mol}, \quad \lambda^\circ(\text{OH}^-) \approx 198.5\text{ S}\cdot\text{cm}^2/\text{mol}$$
@@ -250,7 +243,6 @@ where $\Lambda_m^\circ$ is the **limiting molar conductivity** at infinite dilut
    - Post-equivalence: Stays constant; sharp break marks end-point.
 
 ---
-
 
 ### 9.1 Lead Storage Battery (Secondary Rechargeable Cell)
 - **Anode:** Spongy lead ($\text{Pb}$).
@@ -284,7 +276,6 @@ Corrosion is an electrochemical phenomenon occurring in the presence of water an
 - **Cathodic Protection / Galvanization:** Coating iron with a more active metal ($E_{\text{ox}}^\circ(\text{Zn}) = +0.76\text{ V} > E_{\text{ox}}^\circ(\text{Fe}) = +0.44\text{ V}$). Zinc acts as a sacrificial anode, corroding preferentially even if scratched.
 
 ---
-
 
 ### Archetype 1: Multi-Step Non-Additive Electrode Potentials
 - **Problem:** Given $E_{\text{MnO}_4^-/\text{Mn}^{2+}}^\circ = +1.51\text{ V}$ and $E_{\text{MnO}_4^-/\text{MnO}_2}^\circ = +1.69\text{ V}$. Calculate $E_{\text{MnO}_2/\text{Mn}^{2+}}^\circ$ in acidic medium.

@@ -3990,22 +3990,17 @@ function SyncDatabaseButton({ isMobile, concepts }: { isMobile: boolean, concept
       const res = await fetch(SYNC_URL, { cache: 'no-store' });
       if (!res.ok) throw new Error(`HTTP ${res.status}: ${res.statusText}`);
       const payload = await res.json();
-      if (!payload || !Array.isArray(payload.concepts)) throw new Error('Invalid database format');
-      // Apply synced data
-      const { concepts: syncedConcepts, microQuestions, targetQuestions } = payload;
-      if (syncedConcepts?.length) {
-        // Update concepts state via the parent's setConcepts (passed via context or we reload)
-        // For simplicity, write to localStorage and reload
-        try { localStorage.setItem('nomad-synced-concepts', JSON.stringify(syncedConcepts)); } catch (e) {}
-      }
+      if (!payload || !Array.isArray(payload.targetQuestions)) throw new Error('Invalid database format');
+      // Apply synced data — only questions go to localStorage; concepts are fetched from /all-concepts.json on reload
+      const { microQuestions, targetQuestions } = payload;
       if (microQuestions?.length) {
         try { localStorage.setItem('nomad-synced-micro', JSON.stringify(microQuestions)); } catch (e) {}
       }
       if (targetQuestions?.length) {
         try { localStorage.setItem('nomad-synced-target', JSON.stringify(targetQuestions)); } catch (e) {}
       }
-      setStatus(`synced ✓ ${new Date().toLocaleTimeString()} — ${syncedConcepts?.length ?? 0} concepts, ${targetQuestions?.length ?? 0} target, ${microQuestions?.length ?? 0} micro`);
-      // Reload to apply new data
+      setStatus(`synced ✓ ${new Date().toLocaleTimeString()} — ${targetQuestions?.length ?? 0} target, ${microQuestions?.length ?? 0} micro`);
+      // Reload to apply new questions (concepts come from /all-concepts.json on boot)
       setTimeout(() => window.location.reload(), 800);
     } catch (e: any) {
       setStatus(`failed: ${e.message || e}`);

@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Definition & Center of Gravity Distinction
 - **Center of Mass (COM):** The unique spatial point characteristic of a system of particles (or rigid body) that moves as if the total mass $M = \sum m_i$ were concentrated there and all external forces were applied directly to it.
 - **COM vs. Center of Gravity (COG):**
@@ -25,7 +24,6 @@
   The center of mass divides the line segment joining the two masses internally in the **inverse ratio of their masses** (always located closer to the heavier body).
 
 ---
-
 
 ### 2.1 Integral Definition & Mass Elements
 For continuous media, summation is replaced by integration over elemental mass $dm$:
@@ -59,7 +57,6 @@ $$\vec{r}_{\text{cm}} = \frac{\int \vec{r}\,dm}{\int dm} = \frac{1}{M}\int \vec{
 
 ---
 
-
 ### 3.1 Superposition Principle for Cut / Cavity Bodies
 - When a portion of a uniform body is removed, the remaining body can be analyzed by treating the original complete body as having positive mass ($+M_1$) and the removed cavity as having negative mass ($-m_2$):
   $$\vec{r}_{\text{cm}} = \frac{M_1 \vec{r}_1 - m_2 \vec{r}_2}{M_1 - m_2}$$
@@ -85,7 +82,6 @@ $$\vec{r}_{\text{cm}} = \frac{\int \vec{r}\,dm}{\int dm} = \frac{1}{M}\int \vec{
 *Description: Two-panel structural mechanics illustration: (A) Systematic diagram of 6 standard continuous bodies (semicircular ring $2R/\pi$, semicircular disc $4R/3\pi$, hemispherical shell $R/2$, solid hemisphere $3R/8$, hollow cone $h/3$, and solid cone $h/4$), pinpointing exact center of mass coordinates along symmetry axes; (B) Negative mass cavity formulation for a circular disc of radius $R$ with an excised cavity of radius $R/2$, detailing the coordinate shift of the center of mass to $x_{\mathrm{cm}} = -R/6$.*
 
 ---
-
 
 ### 4.1 Velocity, Acceleration & Cancellation of Internal Forces
 1. **Velocity of Center of Mass ($\vec{v}_{\text{cm}}$):**
@@ -137,7 +133,6 @@ $$\Delta \vec{r}_{\text{cm}} = 0 \implies \sum_{i=1}^N m_i \Delta \vec{r}_i = 0$
 
 ---
 
-
 ### 5.1 Center of Mass Reference Frame ($C$-Frame)
 - The $C$-frame is an inertial (or non-inertial) reference frame attached to and moving with the center of mass velocity $\vec{v}_{\text{cm}}$.
 - **Defining Property of $C$-Frame:** Total linear momentum in the $C$-frame is **identically zero**:
@@ -163,7 +158,6 @@ $$\Delta \vec{r}_{\text{cm}} = 0 \implies \sum_{i=1}^N m_i \Delta \vec{r}_i = 0$
   $$\omega = \sqrt{\frac{k}{\mu}}, \quad T = 2\pi\sqrt{\frac{\mu}{k}} = 2\pi\sqrt{\frac{m_1 m_2}{k(m_1 + m_2)}}$$
 
 ---
-
 
 ### 6.1 Collision Classification & Restitution Coefficient ($e$)
 - **Collision:** An intense physical interaction between two or more bodies occurring over an extremely small time interval $\Delta t \to 0$, during which very large internal impulsive forces dominate all non-impulsive external forces (such as gravity or friction).
@@ -228,7 +222,6 @@ $$\Delta K_{\text{loss}} = K_i - K_f = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2
 
 ---
 
-
 ### 7.1 The Differential Variable Mass Equation
 - Consider a body of instantaneous mass $m$ moving with velocity $\vec{v}$. In time $dt$, it ejects mass $dm = -dm_{\text{ejected}}$ with velocity $\vec{u}$ in the laboratory frame.
 - Velocity of ejected mass relative to the body: $\vec{v}_{\text{rel}} = \vec{u} - \vec{v}$.
@@ -246,7 +239,6 @@ $$\Delta K_{\text{loss}} = K_i - K_f = \frac{1}{2}\left(\frac{m_1 m_2}{m_1 + m_2
   $$v(t) = v_0 + u_{\text{rel}} \ln\left(\frac{m_0}{m}\right)$$
 
 ---
-
 
 ### Archetype 1: Successive Rebounds on a Horizontal Floor
 - **Problem:** A ball is dropped from height $h_0$ onto a fixed horizontal floor with coefficient of restitution $e$. Find the height $h_n$ after $n$ rebounds, total time taken until motion ceases, and total distance traveled.

@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 1.1 Kössel-Lewis Approach & The Octet Rule
 - **Octet Rule:** Atoms combine either by transfer of valence electrons (ionic bonding) or by sharing valence electrons (covalent bonding) in order to attain an octet ($ns^2 np^6$) in their valence shell, resembling the nearest noble gas configuration.
 - **Exceptions to the Octet Rule:**
@@ -24,7 +23,6 @@ where:
 
 ---
 
-
 ### 2.1 Formation Criteria of Ionic Compounds
 An ionic bond forms via complete transfer of one or more valence electrons from an electropositive element to an electronegative element.
 1. **Low Ionization Enthalpy ($\Delta_{\text{i}}H$) of Cation-Forming Metal:** Readily loses electrons ($\text{Cs} < \text{Rb} < \text{K} < \text{Na} < \text{Li}$).
@@ -44,7 +42,6 @@ An ionic bond forms via complete transfer of one or more valence electrons from 
   Both $U$ and $\Delta H_{\text{hyd}} \propto \frac{|z_+ z_-|}{r_+ + r_-}$. If lattice enthalpy drops slower than hydration enthalpy down a group, solubility decreases (e.g., $\text{BaSO}_4$ insoluble, $\text{MgSO}_4$ soluble).
 
 ---
-
 
 ### 3.1 Principles of VBT
 Introduced by Heitler and London (1927) and developed by Pauling (1931):
@@ -69,7 +66,6 @@ Introduced by Heitler and London (1927) and developed by Pauling (1931):
 
 ---
 
-
 ### 4.1 Concept of Hybridization
 Pauling proposed hybridization: the mixing of non-equivalent atomic orbitals of comparable energy belonging to the same isolated atom to produce an equal number of new, completely degenerate hybrid orbitals having identical shapes, directional orientations, and equivalent bonding properties.
 
@@ -93,7 +89,6 @@ Pauling proposed hybridization: the mixing of non-equivalent atomic orbitals of 
 | **7** | $sp^3d^3$ | $s + p_x + p_y + p_z + \mathbf{d_{xy} + d_{x^2-y^2} + d_{z^2}}$ | Pentagonal Bipyramidal (PBP) | $72^\circ\ (\text{eq}),\ 90^\circ\ (\text{ax})$ | $\text{IF}_7, \text{XeF}_5^-, \text{XeF}_6\ (\text{distorted})$ |
 
 ---
-
 
 ### 5.1 Visual Preservation: VSEPR Geometries & Steric Architecture
 
@@ -134,7 +129,6 @@ Pauling proposed hybridization: the mixing of non-equivalent atomic orbitals of 
 
 ---
 
-
 ### 6.1 Bent's Rule & Ligand Site Preferences
 Formulated by Henry Bent:
 > *"More electronegative substituents prefer hybrid orbitals having LESS $s$-character (MORE $p$-character), whereas more electropositive substituents and lone pairs prefer hybrid orbitals having MORE $s$-character."*
@@ -174,7 +168,6 @@ When the central atom satisfies all three conditions:
 
 ---
 
-
 ### 7.1 Dipole Moment Formulation
 Dipole moment ($\vec{\mu}$) is a vector quantity directed from the positive pole to the negative pole (by chemical convention):
 $$\mathbf{\vec{\mu} = q \times \vec{d}}$$
@@ -201,7 +194,6 @@ where $\Delta\chi = |\chi_A - \chi_B|$ is the electronegativity difference betwe
 - When $\Delta\chi = 1.7 \implies \% \text{ Ionic} \approx 50\%$. If $\Delta\chi > 1.7$, bond is predominantly ionic; if $\Delta\chi < 1.7$, bond is predominantly covalent.
 
 ---
-
 
 ### 8.1 Visual Preservation: Fajan's Rules & Hydrogen Bonding
 
@@ -231,7 +223,6 @@ where $\Delta\chi = |\chi_A - \chi_B|$ is the electronegativity difference betwe
 
 ---
 
-
 ### 9.1 Visual Preservation: MOT Energy Diagrams & Diatomic Profiles
 
 ![MOT Energy Level Diagrams and Diatomic Analytics](/media/mot_energy_level_diagrams_and_diatomic_analytics.webp)
@@ -256,7 +247,6 @@ $$\Psi_{\text{antibonding}} = \psi_A - \psi_B \quad (\text{Destructive Interfere
 
 ---
 
-
 #### 1. For Diatomic Molecules with $\le 14$ Electrons ($Z \le 7$: $\text{Li}_2, \text{Be}_2, \text{B}_2, \text{C}_2, \text{N}_2$):
 Small energy gap between $2s$ and $2p$ atomic orbitals allows strong quantum mechanical mixing between $\sigma 2s$ and $\sigma 2p_z$ orbitals, pushing $\sigma 2p_z$ upward in energy above the $\pi 2p$ orbitals:
 $$\mathbf{\sigma 1s < \sigma^* 1s < \sigma 2s < \sigma^* 2s < (\pi 2p_x = \pi 2p_y) < \sigma 2p_z < (\pi^* 2p_x = \pi^* 2p_y) < \sigma^* 2p_z}$$
@@ -267,7 +257,7 @@ $$\mathbf{\sigma 1s < \sigma^* 1s < \sigma 2s < \sigma^* 2s < \sigma 2p_z < (\pi
 
 ---
 
-### 9.4 High-Yield MOT Diatomic Case Studies
+### 9.3 High-Yield MOT Diatomic Case Studies
 15. **Boron Dimer ($\text{B}_2$, $10e^-$):**
    - Configuration: $\sigma 1s^2 \sigma^* 1s^2 \sigma 2s^2 \sigma^* 2s^2 \pi 2p_x^1 \pi 2p_y^1$.
    - $BO = \frac{6 - 4}{2} = \mathbf{1}$.
@@ -300,7 +290,6 @@ $$\mathbf{\sigma 1s < \sigma^* 1s < \sigma 2s < \sigma^* 2s < \sigma 2p_z < (\pi
      $\text{CO}^+$ has a shorter bond length and higher bond dissociation energy than neutral $\text{CO}$.
 
 ---
-
 
 ### 10.1 Types of van der Waals Forces
 20. **Keesom Forces (Dipole-Dipole):** Between polar molecules ($\text{HCl}\cdots\text{HCl}$). Energy $\propto 1/r^3$ (stationary) or $1/r^6$ (rotating).
@@ -341,7 +330,6 @@ An electrostatic dipole attraction between a covalently bound hydrogen atom carr
 - **Critical Trap:** $\text{KHCl}_2$ and $\text{KHBr}_2$ do not exist because $\text{Cl}$ and $\text{Br}$ have lower electronegativities and larger atomic radii, incapable of forming such strong symmetrical bonds.
 
 ---
-
 
 ### 11.1 Archetype 1: Number of Nodal Planes in Molecular Orbitals
 - For $\sigma$ bonding MOs: $0$ nodal planes between nuclei.
