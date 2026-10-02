@@ -4206,6 +4206,7 @@ export default function NomadApp() {
 
   const [concepts, setConcepts] = useState<Concept[]>([]);
   const [conceptsLoaded, setConceptsLoaded] = useState(false);
+  const [forceUpdate, setForceUpdate] = useState(0);
   const [fuse, setFuse] = useState<Fuse<Concept> | null>(null);
 
   const [query, setQuery] = useState('');
@@ -4351,6 +4352,7 @@ export default function NomadApp() {
       const data = await res.json();
       setConcepts(data);
       setConceptsLoaded(true);
+      setForceUpdate(f => f + 1);
       setFuse(new Fuse(data, {
         keys: [ { name: 'title', weight: 2.0 }, { name: 'section', weight: 1.0 }, { name: 'content', weight: 0.5 } ],
         threshold: 0.35, ignoreLocation: true,
@@ -4802,7 +4804,7 @@ export default function NomadApp() {
   };
 
   return (
-    <div style={{ ...S.root, filter: settings.lightMode ? 'invert(1)' : 'none' }} className={settings.lightMode ? 'nomad-light' : ''}>
+    <div key={`root-${forceUpdate}`} style={{ ...S.root, filter: settings.lightMode ? 'invert(1)' : 'none' }} className={settings.lightMode ? 'nomad-light' : ''}>
       <style>{`
         .nomad-light img { filter: invert(1); }
       `}</style>
