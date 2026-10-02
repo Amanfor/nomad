@@ -4254,9 +4254,12 @@ export default function NomadApp() {
   const [gazingAt, setGazingAt] = useState<string | null>(null);
   // First-boot guided intro: 0=eye only, 1=title/welcome, 2=search, 3=practice,
   // 4=stats, 5=database, 6=remember+paranoia, null=intro finished/skipped.
+  // Initialize from localStorage on client; SSR gets 0 (safe), client hydrates correctly.
   const [introStage, setIntroStage] = useState<number | null>(() => {
+    if (typeof window === 'undefined') return 0; // SSR
     try { return localStorage.getItem('nomad-intro-done') ? null : 0; } catch { return 0; }
   });
+  
   const introStageRef = useRef<number | null>(introStage);
   useEffect(() => { introStageRef.current = introStage; }, [introStage]);
   const introActive = introStage !== null;
