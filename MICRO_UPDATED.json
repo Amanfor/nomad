@@ -1,0 +1,282 @@
+[
+  {
+    "id": 100,
+    "question": "What is the relation between velocity and displacement for constant acceleration $a$?",
+    "options": [
+      "v^2 = u^2 + 2ax",
+      "v = u + at",
+      "v = u - at",
+      "v^2 = u^2 - 2ax"
+    ],
+    "correct": 0,
+    "solution": "The third equation of motion is $v^2 = u^2 + 2as$.",
+    "chapter": "Kinematics",
+    "topic": "Equations of Motion"
+  },
+  {
+    "id": 101,
+    "question": "For a perfectly inelastic collision, what is the coefficient of restitution?",
+    "options": [
+      "e = 1",
+      "e = 0.5",
+      "e = 0",
+      "e < 0"
+    ],
+    "correct": 2,
+    "solution": "In a perfectly inelastic collision, the bodies stick together, so the relative velocity of separation is zero, making $e=0$.",
+    "chapter": "Center of Mass and Collisions",
+    "topic": "Coefficient of Restitution"
+  },
+  {
+    "id": 102,
+    "question": "Which conservation law is always applicable during the brief moment of collision?",
+    "options": [
+      "Conservation of Kinetic Energy",
+      "Conservation of Linear Momentum",
+      "Conservation of Mechanical Energy",
+      "None of the above"
+    ],
+    "correct": 1,
+    "solution": "Impulsive forces are internal, so net external impulsive force is zero, conserving linear momentum.",
+    "chapter": "Center of Mass and Collisions",
+    "topic": "Conservation of Momentum"
+  },
+  {
+    "id": 103,
+    "question": "In uniform circular motion, what is the direction of net acceleration?",
+    "options": [
+      "Along the tangent",
+      "Radially inward",
+      "Radially outward",
+      "At an angle to the radius"
+    ],
+    "correct": 1,
+    "solution": "In UCM, tangential acceleration is zero, and net acceleration is purely centripetal (radially inward).",
+    "chapter": "Circular Motion",
+    "topic": "Uniform Circular Motion"
+  },
+  {
+    "id": 104,
+    "question": "What is the formula for centripetal acceleration in terms of angular velocity?",
+    "options": [
+      "a = v/r",
+      "a = w^2 r",
+      "a = w r^2",
+      "a = w/r"
+    ],
+    "correct": 1,
+    "solution": "Centripetal acceleration is $a_c = v^2/r$, and since $v = \\omega r$, $a_c = \\omega^2 r$.",
+    "chapter": "Circular Motion",
+    "topic": "Centripetal Acceleration"
+  },
+  {
+    "id": 105,
+    "question": "According to Newton's Second Law, Force is the rate of change of:",
+    "options": [
+      "Velocity",
+      "Acceleration",
+      "Linear Momentum",
+      "Angular Momentum"
+    ],
+    "correct": 2,
+    "solution": "Newton's second law states $F = \frac{dp}{dt}$, where $p$ is linear momentum.",
+    "chapter": "Newton's Laws of Motion",
+    "topic": "Newton's Second Law"
+  },
+  {
+    "id": 106,
+    "question": "What is the unit of impulse?",
+    "options": [
+      "N/s",
+      "N.s",
+      "kg m/s^2",
+      "J"
+    ],
+    "correct": 1,
+    "solution": "Impulse is force times time, so its unit is Newton-second (N.s), which is equivalent to kg m/s.",
+    "chapter": "Newton's Laws of Motion",
+    "topic": "Impulse"
+  },
+  {
+    "id": 107,
+    "question": "For an object moving in a fluid, the viscous drag force is often proportional to:",
+    "options": [
+      "Velocity",
+      "Displacement",
+      "Acceleration",
+      "Time"
+    ],
+    "correct": 0,
+    "solution": "Viscous drag at low speeds (Stokes' drag) is proportional to velocity: $F_d = -bv$.",
+    "chapter": "Fluid Mechanics",
+    "topic": "Viscous Drag"
+  },
+  {
+    "id": 108,
+    "question": "What is the work done by the normal force when a block moves on a horizontal surface?",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Depends on friction"
+    ],
+    "correct": 2,
+    "solution": "The normal force is perpendicular to the displacement, so work done $W = F \\cdot d \\cos(90^\\circ) = 0$.",
+    "chapter": "Work, Energy and Power",
+    "topic": "Work Done by Normal Force"
+  },
+  {
+    "id": 109,
+    "question": "In a conservative force field, the work done in a closed loop is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Depends on the path"
+    ],
+    "correct": 2,
+    "solution": "For a conservative force, work done depends only on initial and final positions. In a closed loop, it is zero.",
+    "chapter": "Work, Energy and Power",
+    "topic": "Conservative Forces"
+  },
+  {
+    "id": 110,
+    "question": "What is the SI unit of power?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "correct": 1,
+    "solution": "Power is the rate of doing work, measured in Joules per second, which is defined as the Watt (W).",
+    "chapter": "Work, Energy and Power",
+    "topic": "Power"
+  },
+  {
+    "id": 111,
+    "question": "The center of mass of a uniform rod of length L is at:",
+    "options": [
+      "L/4",
+      "L/3",
+      "L/2",
+      "L"
+    ],
+    "correct": 2,
+    "solution": "By symmetry, the center of mass of a uniform rod is at its geometric center, $L/2$ from either end.",
+    "chapter": "Center of Mass and Collisions",
+    "topic": "Center of Mass"
+  },
+  {
+    "id": 112,
+    "question": "In purely rolling motion, the velocity of the lowest point in contact with ground is:",
+    "options": [
+      "v",
+      "v/2",
+      "0",
+      "2v"
+    ],
+    "correct": 2,
+    "solution": "In pure rolling, there is no relative slipping at the point of contact, so its velocity is 0.",
+    "chapter": "Rotational Motion",
+    "topic": "Pure Rolling"
+  },
+  {
+    "id": 113,
+    "question": "What is the moment of inertia of a solid sphere of mass M and radius R about its diameter?",
+    "options": [
+      "MR^2",
+      "2/3 MR^2",
+      "2/5 MR^2",
+      "1/2 MR^2"
+    ],
+    "correct": 2,
+    "solution": "The moment of inertia of a solid sphere about its diameter is $2/5 MR^2$.",
+    "chapter": "Rotational Motion",
+    "topic": "Moment of Inertia"
+  },
+  {
+    "id": 114,
+    "question": "Kepler's Second Law (Law of Areas) is a consequence of conservation of:",
+    "options": [
+      "Linear Momentum",
+      "Angular Momentum",
+      "Energy",
+      "Mass"
+    ],
+    "correct": 1,
+    "solution": "Central forces (like gravity) exert no torque, so angular momentum is conserved, leading to constant areal velocity.",
+    "chapter": "Gravitation",
+    "topic": "Kepler's Laws"
+  },
+  {
+    "id": 115,
+    "question": "The escape velocity from the surface of the Earth is proportional to:",
+    "options": [
+      "R",
+      "\\sqrt{R}",
+      "1/R",
+      "1/\\sqrt{R}"
+    ],
+    "correct": 1,
+    "solution": "Escape velocity $v_e = \\sqrt{2GM/R} = \\sqrt{2gR}$, so it is proportional to $\\sqrt{R}$.",
+    "chapter": "Gravitation",
+    "topic": "Escape Velocity"
+  },
+  {
+    "id": 116,
+    "question": "What is the restoring force in a simple harmonic oscillator?",
+    "options": [
+      "-kx",
+      "kx",
+      "-kv",
+      "kv"
+    ],
+    "correct": 0,
+    "solution": "Hooke's law states that the restoring force is proportional to displacement and opposite in direction: $F = -kx$.",
+    "chapter": "Oscillations",
+    "topic": "Simple Harmonic Motion"
+  },
+  {
+    "id": 117,
+    "question": "In a longitudinal wave, particles of the medium oscillate:",
+    "options": [
+      "Perpendicular to wave propagation",
+      "Parallel to wave propagation",
+      "In circles",
+      "Do not oscillate"
+    ],
+    "correct": 1,
+    "solution": "Longitudinal waves involve compressions and rarefactions where particles oscillate parallel to the wave direction.",
+    "chapter": "Waves",
+    "topic": "Longitudinal Waves"
+  },
+  {
+    "id": 118,
+    "question": "The speed of sound in a gas is given by the Newton-Laplace formula:",
+    "options": [
+      "\\sqrt{P/\rho}",
+      "\\sqrt{\\gamma P/\rho}",
+      "\\sqrt{\rho/P}",
+      "\\sqrt{\\gamma \rho/P}"
+    ],
+    "correct": 1,
+    "solution": "The correct formula is $v = \\sqrt{\\gamma P / \rho}$, incorporating the adiabatic index $\\gamma$.",
+    "chapter": "Waves",
+    "topic": "Speed of Sound"
+  },
+  {
+    "id": 119,
+    "question": "According to the First Law of Thermodynamics, $\\Delta Q$ equals:",
+    "options": [
+      "\\Delta U - \\Delta W",
+      "\\Delta U + \\Delta W",
+      "\\Delta W - \\Delta U",
+      "0"
+    ],
+    "correct": 1,
+    "solution": "The First Law states that heat supplied to a system ($\\Delta Q$) equals the change in internal energy ($\\Delta U$) plus work done by the system ($\\Delta W$).",
+    "chapter": "Thermodynamics",
+    "topic": "First Law of Thermodynamics"
+  }
+]

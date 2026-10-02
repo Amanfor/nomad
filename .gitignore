@@ -1,0 +1,61 @@
+# build artifacts
+dist/
+build/
+*.log
+
+# dependencies
+node_modules/
+.pnpm-store/
+
+# IDE / editor
+.astro/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Android
+android/.gradle/
+android/app/build/
+android/app/captures/
+android/app/externalNativeBuild/
+android/app/.cxx/
+android/local.properties
+*.keystore
+*.jks
+
+# Obsidian vault
+src/data/context/.obsidian/
+
+# caches
+*.tsbuildinfo
+.cache/
+.turbo/
+
+# temporary / generated
+*.backup*
+*.bak
+*.orig
+*.tmp
+*.temp
+
+# large generated files
+*.mp3
+*.wav
+*.webp
+*.png
+*.jpg
+*.jpeg
+
+# environment / secrets
+.env
+*.pem
+*.key
+
+# test / coverage
+coverage/
+.nyc_output/

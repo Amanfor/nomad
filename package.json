@@ -1,0 +1,25 @@
+{
+  "name": "nomad",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^4.2.1",
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "astro": "^5.8.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.5.0",
+    "fuse.js": "^7.5.0",
+    "katex": "^0.16.11",
+    "marked": "^18.0.14",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.7.0"
+  }
+}

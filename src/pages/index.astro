@@ -1,0 +1,7 @@
+---
+import Base from '../layouts/Base.astro'
+import NomadApp from '../components/NomadApp.tsx'
+---
+<Base title="nomad">
+  <NomadApp client:only="react" />
+</Base>
