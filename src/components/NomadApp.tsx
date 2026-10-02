@@ -4348,7 +4348,7 @@ export default function NomadApp() {
       // Fetch concepts
       const res = await fetch('/all-concepts.json');
       const data = await res.json();
-      setConcepts(data);
+      console.log("BOOT: concepts loaded", data.length); setConcepts(data);
       setFuse(new Fuse(data, {
         keys: [ { name: 'title', weight: 2.0 }, { name: 'section', weight: 1.0 }, { name: 'content', weight: 0.5 } ],
         threshold: 0.35, ignoreLocation: true,
