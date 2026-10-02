@@ -4205,6 +4205,7 @@ export default function NomadApp() {
   };
 
   const [concepts, setConcepts] = useState<Concept[]>([]);
+  const [conceptsLoaded, setConceptsLoaded] = useState(false);
   const [fuse, setFuse] = useState<Fuse<Concept> | null>(null);
 
   const [query, setQuery] = useState('');
@@ -4349,6 +4350,7 @@ export default function NomadApp() {
       const res = await fetch('/all-concepts.json');
       const data = await res.json();
       setConcepts(data);
+      setConceptsLoaded(true);
       setFuse(new Fuse(data, {
         keys: [ { name: 'title', weight: 2.0 }, { name: 'section', weight: 1.0 }, { name: 'content', weight: 0.5 } ],
         threshold: 0.35, ignoreLocation: true,
@@ -4369,6 +4371,13 @@ export default function NomadApp() {
     contentControls.set({ opacity: 0, y: 40 });
     boot();
   }, [containerControls, inputControls, contentControls]);
+
+  // Force re-render when concepts load
+  useEffect(() => {
+    if (conceptsLoaded) {
+      // This will trigger a re-render when concepts load
+    }
+  }, [conceptsLoaded]);
 
   // ── First-boot guided intro (runs exactly once) ──────────────
   // Stage 0 eye only → 1 title/welcome → 2 search → 3 practice →
