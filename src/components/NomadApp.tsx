@@ -5028,7 +5028,7 @@ export default function NomadApp() {
               style={{ width: '100%', marginTop: isMobile ? '-1rem' : '2rem', maxHeight: '65vh', overflowY: 'auto', paddingRight: '0.5rem', paddingBottom: '4rem', scrollbarWidth: 'thin' as any, scrollbarColor: 'rgba(255,255,255,0.25) transparent' }}
             >
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
-                {concepts.slice(0, browseLimit).map((c, i) => (
+                console.log("RENDER: concepts.length", concepts.length); {concepts.slice(0, browseLimit).map((c, i) => (
                   <div 
                     key={c.id || i}
                     onClick={() => handleSelect(c)}
