@@ -2032,6 +2032,26 @@ export default function NomadApp() {
         </button>
       )}
 
+      {introShow(6) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
+        <button
+          id="nomad-settings-btn"
+          onClick={() => setIsSettingsOpen(true)}
+          className={`nomad-btn ${isMultiEye || settings.alwaysGlow || gazingAt === 'settings' ? 'active' : ''}`}
+        style={{
+          position: 'fixed',
+          bottom: '3.5rem',
+          left: '1.5rem',
+          zIndex: 50,
+          fontSize: '0.55rem',
+          pointerEvents: introActive ? 'none' : 'auto',
+          color: (isMultiEye || settings.alwaysGlow || gazingAt === 'settings') ? 'rgba(255,255,255,1)' : '',
+          textShadow: (isMultiEye || settings.alwaysGlow || gazingAt === 'settings') ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
+        }}
+      >
+        ⟨ SETTINGS ⟩
+      </button>
+      )}
+
       {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
         <button
           id="nomad-wander-btn"
@@ -2039,7 +2059,7 @@ export default function NomadApp() {
           className={`nomad-btn ${isWanderOpen || settings.alwaysGlow || gazingAt === 'wander' ? 'active' : ''}`}
           style={{
             position: 'fixed',
-            bottom: '3.5rem',
+            bottom: '5.5rem',
             left: '1.5rem',
             zIndex: 50,
             fontSize: '0.55rem',
@@ -2054,32 +2074,12 @@ export default function NomadApp() {
 
       {introShow(6) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
         <button
-          id="nomad-settings-btn"
-          onClick={() => setIsSettingsOpen(true)}
-          className={`nomad-btn ${isMultiEye || settings.alwaysGlow || gazingAt === 'settings' ? 'active' : ''}`}
-        style={{
-          position: 'fixed',
-          bottom: '5.5rem',
-          left: '1.5rem',
-          zIndex: 50,
-          fontSize: '0.55rem',
-          pointerEvents: introActive ? 'none' : 'auto',
-          color: (isMultiEye || settings.alwaysGlow || gazingAt === 'settings') ? 'rgba(255,255,255,1)' : '',
-          textShadow: (isMultiEye || settings.alwaysGlow || gazingAt === 'settings') ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
-        }}
-      >
-        ⟨ SETTINGS ⟩
-      </button>
-      )}
-
-      {introShow(6) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
-        <button
           id="nomad-formulas-btn"
           onClick={() => setIsFormulasOpen(true)}
           className={`nomad-btn ${isFormulasOpen || settings.alwaysGlow || gazingAt === 'formulas' ? 'active' : ''}`}
           style={{
             position: 'fixed',
-            bottom: '7.5rem',
+            bottom: isMobile ? '7.5rem' : '5.5rem',
             left: isMobile ? '1.5rem' : 'auto',
             right: isMobile ? 'auto' : '1.5rem',
             zIndex: 50,
