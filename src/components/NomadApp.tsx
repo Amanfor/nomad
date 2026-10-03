@@ -708,6 +708,216 @@ export const MICRO_QUESTIONS = [
     "chapter": "Quadratic Equations",
     "topic": "Quadratic Equations"
   },
+  {
+    "id": 132,
+    "question": "An alternating voltage v(t) = 220 sin 100$\\pi$t volt is applied to a purely resistance load of 50$\\Omega$ . The time taken for the current to rise from half of the peak value to the peak value is :",
+    "options": [
+      "5 ms",
+      "2.2 ms",
+      "3.3 ms",
+      "7.2 ms"
+    ],
+    "correct": 2,
+    "solution": "**(c)** 3.3 ms",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 133,
+    "question": "An inductance coil has a reactance of 100$\\Omega$. When an AC signal of frequency 1000 Hz is applied to the coil, the applied voltage leads the current by 45<sup>o</sup>. The self-inductance of the coil is",
+    "options": [
+      "6.7$ \\times$ 10<sup>–7</sup> H",
+      "1.1$ \\times$ 10<sup>–1</sup> H",
+      "5.5$ \\times$ 10<sup>–5</sup> H",
+      "1.1$ \\times$ 10<sup>–2</sup> H"
+    ],
+    "correct": 3,
+    "solution": "**(d)** 1.1$ \\times$ 10<sup>–2</sup> H",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 134,
+    "question": "Common name of Benzene - 1,2 - diol is -",
+    "options": [
+      "catechol",
+      "quinol",
+      "o-cresol",
+      "resorcinol"
+    ],
+    "correct": 0,
+    "solution": "**(a)** Benzene-1, 2-diol is also called catechol",
+    "chapter": "Alcohols-Phenols-And-Ethers",
+    "topic": "Alcohols-Phenols-And-Ethers"
+  },
+  {
+    "id": 135,
+    "question": "Which one the following compounds will readily react with dilute$\\mathrm{NaOH}$ ?",
+    "options": [
+      "$\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{CH}_2 \\mathrm{OH}$",
+      "$\\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{OH}$",
+      "$\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{OH}$",
+      "$\\left(\\mathrm{CH}_3\\right)_3 \\mathrm{COH}$"
+    ],
+    "correct": 2,
+    "solution": "**(c)** To determine which of the given compounds will readily react with dilute$\\mathrm{NaOH}$, we need to understand the chemical reactivity of these compounds towards bases like sodium hydroxide ($\\mathrm{NaOH}$). Here's a brief overview of each compound's reactivity towards$\\mathrm{NaOH}$: Option A: $\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{CH}_2 \\mathrm{OH}$ (Benzyl Alcohol) The presence of a benzyl group (a phenyl group attached to a CH2 group) adjacent to the hydroxyl group can somewhat increase the acidity of the hydroxyl hydrogen. However, benzyl alcohol is still not significantly acidic to react vigorously with a weak base like dilute$\\mathrm{NaOH}$. Nonetheless, under certain conditions, it might undergo reactions, but not as readily as an acidic hydrogen-containing compound would. Option B: $\\mathrm{C}_2 \\mathrm{H}_5 \\mathrm{OH}$ (Ethanol) Ethanol is a simple alcohol with no acidic hydrogen atoms that would react with$\\mathrm{NaOH}$. The hydroxyl group in ethanol is not sufficiently acidic to deprotonate in the presence of a base like$\\mathrm{NaOH}$, making it unreactive in this context. Option C: $\\mathrm{C}_6 \\mathrm{H}_5 \\mathrm{OH}$ (Phenol) Phenol contains a hydroxyl group directly attached to an aromatic ring. This structural feature significantly increases the acidity of the hydroxyl hydrogen compared to alcohols. The reason behind this is the stabilization of the phenoxide ion (the conjugate base) through resonance within the aromatic ring. As a result, phenol ca",
+    "chapter": "Alcohols-Phenols-And-Ethers",
+    "topic": "Alcohols-Phenols-And-Ethers"
+  },
+  {
+    "id": 136,
+    "question": "The projections of a vector on the three coordinate axis are$6,-3,2$ respectively. The direction cosines of the vector are :",
+    "options": [
+      "${6 \\over 5},{{ - 3} \\over 5},{2 \\over 5}$",
+      "${6 \\over 7 },{{ - 3} \\over 7},{2 \\over 7}$",
+      "${- 6 \\over 7 },{{ - 3} \\over 7},{2 \\over 7}$",
+      "$6, -3, 2$"
+    ],
+    "correct": 1,
+    "solution": "**(b)** Let$P\\left( {{x\\_1},{y\\_1},{z\\_1}} \\right)$ and$Q\\left( {{x\\_2},{y\\_2},{z\\_2}} \\right)$ be the initial and final points of the vector whose projections on the three coordinates axes are${6, - 3,2}$ then${x\\_2} - {x\\_1}, = 6;  {y\\_2} - {y\\_1} = - 3;  {z\\_2} - {z\\_1} = 2$ So that directions ratios of$\\overrightarrow {PQ}$ are${6, - 3,2} \\therefore$ Direction cosines of$\\overrightarrow {PQ}$ are${6 \\over {\\sqrt {{6\\^2} + {{\\left( { - 3} \\right)}\\^2} + {2\\^2}} }},{{ - 3} \\over {\\sqrt {{6\\^2} + {{\\left( { - 3} \\right)}\\^2} + {2\\^2}} }},          {2 \\over {\\sqrt {{6\\^2} + {{\\left( { - 3} \\right)}\\^2} + {2\\^2}} }} = {6 \\over 7},{{ - 3} \\over 7},{2 \\over 7}$",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 137,
+    "question": "The angle between the lines whose direction cosines satisfy the equations$l+m+n=0$ and${l\\^2} = {m\\^2} + {n\\^2}$ is :",
+    "options": [
+      "${\\pi \\over 6}$",
+      "${\\pi \\over 2}$",
+      "${\\pi \\over 3}$",
+      "${\\pi \\over 4}$"
+    ],
+    "correct": 2,
+    "solution": "**(c)** Given$l + m + n = 0$ and${l\\^2} = {m\\^2} + {n\\^2}$ Now, ${\\left( { - m - n} \\right)\\^2} = {m\\^2} + {n\\^2} \\Rightarrow mn = 0 \\Rightarrow m = 0  $ or$  n = 0$ If$m=0$ then$l=-n$ We know${l\\^2} + {m\\^2} + {n\\^2} = 1 \\Rightarrow n = \\pm {1 \\over {\\sqrt{2} }}$ i.e.$\\left( {{l\\_1},{m\\_1},{n\\_1}} \\right) = \\left( { - {1 \\over {\\sqrt{2} }},0,{1 \\over {\\sqrt{2} }}} \\right)$ If$n=0$ then$l=-m {l\\^2} + {m\\^2} + {n\\^2} = 1    \\Rightarrow 2{m\\^2} = 1 \\Rightarrow m = \\pm {1 \\over {\\sqrt{2} }}$ Let$m = {1 \\over {\\sqrt{2} }} \\Rightarrow l = - {1 \\over {\\sqrt{2} }}$ and$n=0 \\left( {{l\\_2},{m\\_2},{n\\_2}} \\right) = \\left( { - {1 \\over {\\sqrt{2} }},{1 \\over {\\sqrt{2} }},0} \\right) \\therefore \\cos \\theta = {1 \\over 2} \\Rightarrow \\theta = {\\pi \\over 3}$",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 138,
+    "question": "The recoil speed of a hydrogen atom after it emits a photon in going from n = 5 state to n = 1 state will be :",
+    "options": [
+      "4.34 m/s",
+      "2.19 m/s",
+      "3.25 m/s",
+      "4.17 m/s"
+    ],
+    "correct": 3,
+    "solution": "($\\Delta$E) Releases when photon going from n = 5 to n = 1$\\Delta$E = (13.6$-$ 0.54) eV = 13.06 eV.Pi = Pf (By linear momentum conservation)$0 = {h \\over \\lambda } - Mv = {V_{{\\mathop{\\rm Re}\\nolimits} coil}} = {h \\over {\\lambda M}}$ ..... (i)&amp; $\\Delta E = {{hc} \\over \\lambda } = {{hc} \\over {\\lambda M}} \\times M = Mc{V_{{\\mathop{\\rm Re}\\nolimits} coil}} {V_{{\\mathop{\\rm Re}\\nolimits} coil}} = {{\\Delta E} \\over {Mc}} = {{13.06 \\times 1.6 \\times {{10}^{ - 19}}} \\over {1.67 \\times {{10}^{ - 27}} \\times 3 \\times {{10}^8}}}$ = 4.17 m/sec",
+    "chapter": "Dual Nature Of Radiation",
+    "topic": "Dual Nature Of Radiation"
+  },
+  {
+    "id": 139,
+    "question": "The focal length f is related to the radius of curvature r of the spherical convex mirror by :",
+    "options": [
+      "f = r",
+      "f = $-$ r",
+      "f = +${{1 \\over 2}}$ r",
+      "f = $- {{1 \\over 2}}$ r"
+    ],
+    "correct": 2,
+    "solution": "For convex mirror, the focal length (f) and radius of curvature (r) are related as$f =  + {r \\over 2}$.",
+    "chapter": "Reflection Of Light",
+    "topic": "Reflection Of Light"
+  },
+  {
+    "id": 140,
+    "question": "The position vector of a particle related to time$t$ is given by  $\\vec{r}=\\left(10 t \\hat{i}+15 t^{2} \\hat{j}+7 \\hat{k}\\right) m$  The direction of net force experienced by the particle is :",
+    "options": [
+      "Positive$x$ - axis",
+      "Positive$y$ - axis",
+      "Positive$z$ - axis",
+      "In$x$ - $y$ plane"
+    ],
+    "correct": 1,
+    "solution": "To find the direction of the net force experienced by the particle, we need to find the acceleration vector of the particle and then use Newton's second law, which states that the net force on an object is equal to its mass times its acceleration vector.\nThe position vector of the particle is given by:\n$\n\\vec{r} = (10t\\hat{i} + 15t^2\\hat{j} + 7\\hat{k})\\,\\text{m}\n$\nDifferentiating$\\vec{r}$ twice with respect to time$t$, we get the acceleration vector:\n$\n\\vec{a} = \\frac{d^2\\vec{r}}{dt^2} = \\frac{d}{dt}(10\\hat{i} + 30t\\hat{j}) = 30\\hat{j}\\,\\text{m/s}^2\n$\nTherefore, the acceleration vector is$\\vec{a} = 30\\hat{j}\\,\\text{m/s}^2$. \nUsing Newton's second law, the net force on the particle is given by:\n$\n\\vec{F}_{net} = m\\vec{a}\n$\nwhere$m$ is the mass of the particle.\nSince we are only interested in the direction of the net force, we can ignore th",
+    "chapter": "Laws Of Motion",
+    "topic": "Laws Of Motion"
+  },
+  {
+    "id": 141,
+    "question": "Which of the following on thermal decomposition yields a basic as well as an acidic oxide?",
+    "options": [
+      "NaNO3",
+      "KClO3",
+      "CaCO3",
+      "NH4NO3"
+    ],
+    "correct": 2,
+    "solution": "Calcium carbonate on thermal decomposition gives$CaO$ (Basic oxide) and$C{O\\_2}$ (Acidic oxide)$CaC{O\\_3}\\buildrel \\Delta \\over \\longrightarrow \\mathop {\\,\\,\\,\\,\\,CaO\\,\\,\\,\\,\\,}\\limits_{Basic\\,\\,oxide} + \\,\\,\\mathop {\\,\\,\\,\\,C{O\\_2} \\uparrow }\\limits_{Acidic\\,\\,oxide}$",
+    "chapter": "S Block Elements",
+    "topic": "S Block Elements"
+  },
+  {
+    "id": 142,
+    "question": "The correct order of electron affinity is :",
+    "options": [
+      "F &gt; Cl &gt; O",
+      "F &gt; O &gt; Cl",
+      "Cl &gt; F &gt; O",
+      "O &gt; F &gt; Cl"
+    ],
+    "correct": 2,
+    "solution": "Electron affinity means tendency of gaining an electron by an atom.\nIn a period from left ot right the electron affinity increases and in a group it decreases from top to bottom.\nSo according to this theory Fluorine(F) should have most electron affinity. But when an electron is added to the F atom, electron comes to the 2p orbital and for Cl atom electron is added in 3p orbital. As 2p orbital is closer to the nucleus than 3p orbital as 3p orbital is larger in size, so  when a new electron comes to 2p orbital  then it will face a strong repulsion force by the nucleus than if electron comes to 3p orbital.\nSo, F have lesser tendency of gaining electron than Cl.\nNote : In entire periodic table Cl have highest electron affinity.",
+    "chapter": "Periodic Table And Periodicity",
+    "topic": "Periodic Table And Periodicity"
+  },
+  {
+    "id": 143,
+    "question": "Bouveault-Blanc reduction reaction involves :",
+    "options": [
+      "Reduction of an acyl halide with H2/Pd.",
+      "Reduction of an ester with Na/C2H5OH.",
+      "Reduction of a carbonyl compound with Na/Hg and HCl.",
+      "Reduction of an anhydride with LiAlH4."
+    ],
+    "correct": 1,
+    "solution": "BourveaultBlanc reduction involves the reduction of esters to primary alcohols in the presence of sodium and alcohol.",
+    "chapter": "Alcohols Phenols and Ethers",
+    "topic": "Alcohols Phenols and Ethers"
+  },
+  {
+    "id": 144,
+    "question": "A hyperbola passes through the point P$\\left( {\\sqrt 2 ,\\sqrt 3 } \\right)$ and has foci at$\\left( { \\pm 2,0} \\right)$. Then the tangent to this hyperbola at P also passes through the point :",
+    "options": [
+      "$\\left( {2\\sqrt 2 ,3\\sqrt 3 } \\right)$",
+      "$\\left( {\\sqrt 3 ,\\sqrt 2 } \\right)$",
+      "$\\left( { - \\sqrt 2 , - \\sqrt 3 } \\right)$",
+      "$\\left( {3\\sqrt 2 ,2\\sqrt 3 } \\right)$"
+    ],
+    "correct": 0,
+    "solution": "Equation of hyperbola is${{{x^2}} \\over {{a^2}}} - {{{y^2}} \\over {{b^2}}} = 1$\nfoci is (±2, 0) \n$ \\Rightarrow$ ae = 2 \n$ \\Rightarrow$ a2e2 = 4\nSince b2 = a2 (e2 – 1)\nb2 = a2 e2 – a2\n$ \\therefore$ a2 + b2 = 4 .....(1)\nAlso Hyperbola passes through$\\left( {\\sqrt 2 ,\\sqrt 3 } \\right)$\n$ \\therefore  {2 \\over {{a^2}}} - {3 \\over {{b^2}}} = 1$\n$ \\Rightarrow  {2 \\over {4 - {b^2}}} - {3 \\over {{b^2}}} = 1$\n$ \\Rightarrow$ (b2 – 3) (b2 + 4) = 0\n$ \\therefore$ b2 = 3 or b2 = -4\n For b2 = 3\n$ \\Rightarrow$ a2 = 1\n${{{x^2}} \\over 1} - {{{y^2}} \\over 3} = 1$\nEquation of tangent is${{\\sqrt 2 x} \\over 1} - {{\\sqrt 3 y} \\over 3} = 1$\nIt satisfy point$\\left( {2\\sqrt 2 ,3\\sqrt 3 } \\right)$.",
+    "chapter": "Hyperbola",
+    "topic": "Hyperbola"
+  },
+  {
+    "id": 145,
+    "question": "If the normal at an end of a latus rectum of an ellipse passes through an extremity of the minor axis, then the eccentricity e of the ellipse satisfies :",
+    "options": [
+      "e4 + 2e2 – 1 = 0",
+      "e4 + e2 – 1 = 0",
+      "e2 + 2e – 1 = 0",
+      "e2 + e – 1 = 0"
+    ],
+    "correct": 1,
+    "solution": "Equation of normal at$\\left( {ae,{{{b^2}} \\over a}} \\right)$\n${{{a^2}x} \\over {ae}} - {{{b^2}y} \\over {{{{b^2}} \\over a}}} = {a^2} - {b^2}$\nIt passes through (0,–b)\n$ \\therefore  0 - {{{b^2}\\left( { - b} \\right)} \\over {{{{b^2}} \\over a}}} = {a^2} - {b^2}$\n$ \\Rightarrow  a$b = ${a^2} - {b^2}$\n$ \\Rightarrow  a$b = ${a^2}{e^2}$ [as b2 = ${a^2}\\left( {1 - {e^2}} \\right)$]\n$ \\Rightarrow  a$2b2 = ${a^4}{e^4}$\n$ \\Rightarrow  {{{{b^2}} \\over {{a^2}}}}$ = e4\n$ \\Rightarrow  {1 - {e^2}}$ = e4\n$ \\Rightarrow$ e4 + e2 – 1 = 0",
+    "chapter": "Ellipse",
+    "topic": "Ellipse"
+  },
+  {
+    "id": 146,
+    "question": "The values of$\\lambda$ and$\\mu$ for which the system of linear equations x + y + z = 2 x + 2y + 3z = 5 x + 3y + $\\lambda$z = $\\mu$ has infinitely many solutions are, respectively:",
+    "options": [
+      "6 and 8",
+      "5 and 8",
+      "5 and 7",
+      "4 and 9"
+    ],
+    "correct": 1,
+    "solution": "For infinite many solutions\nD = D1 = D2 = D3 = 0\nNow D = $\\left| {\\matrix{\n   1 &amp; 1 &amp; 1  \\cr \n   1 &amp; 2 &amp; 3  \\cr \n   1 &amp; 3 &amp; \\lambda   \\cr \n } } \\right|$ = 0\n$ \\Rightarrow$ 1. (2$\\lambda$ – 9) –1.($\\lambda$ – 3) + 1.(3 – 2) = 0\n$ \\Rightarrow  \\lambda$ = 5\nNow D1 = $\\left| {\\matrix{\n   2 &amp; 1 &amp; 1  \\cr \n   5 &amp; 2 &amp; 3  \\cr \n   \\mu  &amp; 3 &amp; 5  \\cr \n } } \\right|$ = 0\n$ \\Rightarrow$ 2(10 – 9) –1(25 – 3$\\mu$) + 1(15 – 2$\\mu$) = 0\n$ \\Rightarrow  \\mu$ = 8",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants"
+  },
 ];
 
 export const TARGET_QUESTIONS = [
@@ -3544,6 +3754,678 @@ export const TARGET_QUESTIONS = [
     "solution": "(b)\nLet the roots of given equation be$\\alpha$ and$2 \\alpha$ then \n$\\alpha  + 2\\alpha  = 3\\alpha  = {{1 - 3a} \\over {{a^2} - 5a + 3}}$\nand$\\alpha .2\\alpha  = 2{\\alpha ^2} = {2 \\over {{a^2} - 5a + 3}}$\n$ \\Rightarrow \\alpha  = {{1 - 3a} \\over {3\\left( {{a^2} - 5a + 3} \\right)}}$\n$\\therefore 2\\left[ {{1 \\over 9}{{{{\\left( {1 - 3a} \\right)}^2}} \\over {{{\\left( {{a^2} - 5a + 3} \\right)}^2}}}} \\right]$\n$ = {2 \\over {{a^2} - 5a + 3}}$\n${{{{\\left( {1 - 3a} \\right)}^2}} \\over {\\left( {{a^2} - 5a + 3} \\right)}} = 9$\nor$9{a^2} - 6a + 1$\n$ = 9{a^2} - 45a + 27$\nor$39a = 26$ or$a = {2 \\over 3}$",
     "chapter": "Quadratic-Equation-And-Inequalities",
     "topic": "Quadratic-Equation-And-Inequalities"
+  },
+  {
+    "id": 499,
+    "question": "In LC circuit the inductance L= 40 mH and capacitance$C = 100\\mu F$. If a voltage V(t)=10 sin (314 t) is applied to the circuit, the current in the circuit is given as",
+    "options": [
+      "$0.52\\ cos314t$",
+      "$10\\ cos314t$",
+      "$5.2\\ cos314t$",
+      "$0.52\\ sin314t$"
+    ],
+    "correct": 0,
+    "solution": "**(a)** $R = 0$ $z = X_{C} - X_{L}$ $= \\frac{1}{\\omega C} - \\omega L$ $= \\frac{1}{314 \\times 100 \\times 10^{- 6}} - 314 \\times 40 \\times 10^{- 3}$ $= 31.84 - 12.56$ $= 19.28\\Omega$ $X_{C} > X_{L}$",
+    "chapter": "AC",
+    "topic": "AC"
+  },
+  {
+    "id": 500,
+    "question": "The phase difference between the alternating current and$emf$ is${\\pi \\over 2}.$ Which of the following cannot be the constituent of the circuit?",
+    "options": [
+      "$R,L$",
+      "$C$ alone",
+      "$L$ alone",
+      "$L, C$"
+    ],
+    "correct": 0,
+    "solution": "**(a)** <p>The phase difference between the alternating current and emf in an AC circuit depends on the components in the circuit:</p> <ul> <li>In a purely resistive ($R$) circuit, the current and emf are in phase, meaning the phase difference is$0$.</li><br/> <li>In a purely inductive ($L$) circuit, the current lags behind the emf by$\\frac{\\pi}{2}$, meaning the phase difference is$\\frac{\\pi}{2}$.</li><br/> <li>In a purely capacitive ($C$) circuit, the current leads the emf by$\\frac{\\pi}{2}$, again meaning the phase difference is$\\frac{\\pi}{2}$.</li><br/> <li>In an$L$-$R$ or$L$-$C$ circuit, the phase difference depends on the relative values of$L$, $R$, and$C$ and can be anywhere between$0$ and$\\frac{\\pi}{2}$.</li> </ul> <p>Therefore, if the phase difference between the alternating current and emf is$\\frac{\\pi}{2}$, then the circuit cannot contain only a resistor ($R$) since that would give a phase difference of$0$. So, the answer is Option A: $R,L$. The phase difference would not be$\\frac{\\pi}{2}$ if the circuit contains both a resistor and an inductor.</p>",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 501,
+    "question": "In a series resonant$LCR$ circuit, the voltage across$R$ is$100$ volts and$R = 1 k\\Omega$ with$C = 2\\mu F.$ The resonant frequency$\\omega$ is$200 rad/s$. At resonance the voltage across$L$ is",
+    "options": [
+      "$2.5 \\times {10^{ - 2}}V$",
+      "$40$ $V$",
+      "$250$ $V$",
+      "$4 \\times {10^{ - 3}}V$"
+    ],
+    "correct": 2,
+    "solution": "**(c)** Across resistor, $I = {V \\over R} = {{100} \\over {1000}} = 0.1A$ <br><br>At resonance, <br><br>${X_L} = {X_C} = {1 \\over {\\omega C}}$ <br><br>$ = {1 \\over {200 \\times 2 \\times {{10}^{ - 6}}}} = 2500$ <br><br>Voltage across$L$ is <br><br>$I{X_L} = 0.1 \\times 2500 = 250V$",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 502,
+    "question": "In an$a.c.$ circuit the voltage applied is$E = {E_0} \\sin  \\omega t.$ The resulting current in the circuit is$I = {I_0}\\sin \\left( {\\omega t - {\\pi \\over 2}} \\right).$ The power consumption in the circuit is given by",
+    "options": [
+      "$P = \\sqrt{2} {E_0}{I_0}$",
+      "$P = {{{E_0}{I_0}} \\over {\\sqrt{2} }}$",
+      "$P=zero$",
+      "$P = {{{E_0}{I_0}} \\over 2}$"
+    ],
+    "correct": 2,
+    "solution": "**(c)** <b>KEY CONCEPT : </b> We know that power consumed in a.c. circuit is given by, <br><br>$P = {E_{rms}}{I_{rms}}\\cos \\phi$ <br><br>Here, $E = {E_0}\\sin \\omega t$ <br><br>$I = {I_0}\\sin \\left( {\\omega t - {\\pi \\over 2}} \\right)$ <br><br>which implies that the phase difference, $\\phi = {\\pi \\over 2}$ <br><br>$\\therefore P = {E_{rms}}.{I_{rms}}.\\cos {\\pi \\over 2} = 0$ <br><br>$\\left( {  } \\right.$ as$\\left. {  \\cos {\\pi \\over 2} = 0  } \\right)$",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 503,
+    "question": "In a series$LCR$ circuit$R = 200\\Omega$ and the voltage and the frequency of the main supply is$220V$ and$50 Hz$ respectively. On taking out the capacitance from the circuit the current lags behind the voltage by${30^ \\circ }.$ On taking out the inductor from the circuit the current leads the voltage by${30^ \\circ }.$ The power dissipated in the$LCR$ circuit is",
+    "options": [
+      "$305$ $W$",
+      "$210$ $W$",
+      "$zero$ $W$",
+      "$242$ $W$"
+    ],
+    "correct": 3,
+    "solution": "**(d)** When capacitance is taken out, the circular is$LR.$ <br><br>$\\therefore \\tan \\phi = {{\\omega L} \\over R}$ <br><br>$ \\Rightarrow \\omega L = R \\tan \\phi$ <br><br>$ = 200 \\times {1 \\over {\\sqrt{3} }} = {{200} \\over {\\sqrt{3} }}$ <br><br>Again, when inductor is taken out, the circuit is$CR.$ <br><br>$\\therefore \\tan \\phi = {1 \\over {\\omega CR}}$ <br><br>$ \\Rightarrow {1 \\over {\\omega c}} = R\\tan \\phi$ <br><br>$ = 200 \\times {1 \\over {\\sqrt{3} }} = {{200} \\over {\\sqrt{3} }}$ <br><br>Now, $Z = \\sqrt {{R^2} + {{\\left( {{1 \\over {\\omega C}} - \\omega L} \\right)}^2}}$ <br><br>$ = \\sqrt {{{\\left( {200} \\right)}^2} + {{\\left( {{{200} \\over {\\sqrt{3} }} - {{200} \\over {\\sqrt{3} }}} \\right)}^2}} = 200\\Omega$ <br><br>Power dissipated$ = {V_{rms}}{I_{rms}}\\cos \\phi$ <br><br>$ = {V_{rms}}.{{{V_{rms}}} \\over Z}.{R \\over Z}$ <br><br>$\\left( {   } \\right.$ as$\\left. {  \\cos \\phi = {R \\over Z}   } \\right)$ <br><br>$ = {{{V^2}rmsR} \\over {{Z^2}}} = {{{{\\left( {220} \\right)}^2} \\times 200} \\over {{{\\left( {200} \\right)}^2}}}$ <br><br>$ = {{220 \\times 220} \\over {200}} = 242 W$",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 504,
+    "question": "A fully charged capacitor$C$ with initial charge${q_0}$ is connected to a coil of self inductance$L$ at$t=0.$ The time at which the energy is stored equally between the electric and the magnetic fields is :",
+    "options": [
+      "${\\pi \\over 4}\\sqrt {LC}$",
+      "$2\\pi \\sqrt {LC}$",
+      "$\\sqrt {LC}$",
+      "$\\pi \\sqrt {LC}$"
+    ],
+    "correct": 0,
+    "solution": "**(a)** Energy stored in magnetic field$ = {1 \\over 2}L{i^2}$ <br><br>Energy stored in electric field$ = {1 \\over 2}{{{q^2}} \\over C}$ <br><br>$\\therefore {1 \\over 2}L{i^2} = {1 \\over 2}{{{q^2}} \\over C}$ <br><br>Also$q = {q_0} \\cos  \\omega t$ and$\\omega = {1 \\over {\\sqrt {LC} }}$ <br><br>On solving$t = {\\pi \\over 4}\\sqrt {LC}$",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 505,
+    "question": "In an a.c. circuit, the instantaneous e.m.f. and current are given by <br/> e = 100 sin 30 t<br/> i = 20 sin$\\left( {30t - {\\pi \\over 4}} \\right)$<br/> In one cycle of a.c., the average power consumed by the circuit and the wattless current are, respectively",
+    "options": [
+      "50, 0",
+      "50, 10",
+      "${{1000} \\over {\\sqrt{2} }},10$",
+      "${{50} \\over {\\sqrt{2} }}$"
+    ],
+    "correct": 2,
+    "solution": "**(c)** Wattless current, <br><br>here &nbsp;$\\phi$ &nbsp;is the angle between i and e. <br><br>Average power, <br><br>P<sub>av</sub> = V<sub>rms</sub>&nbsp;I<sub>rms</sub>&nbsp;cos$\\phi$ <br><br>= ${{100} \\over {\\sqrt{2} }} \\times {{20} \\over {\\sqrt{2} }}$ cos${\\pi \\over 4}$ <br><br>= ${{1000} \\over {\\sqrt{2} }}$ watt.",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 506,
+    "question": "A circuit connected to an ac source of emf e = e<sub>0</sub>sin(100t) with t in seconds, gives a phase difference of$\\pi$/4 between the emf e and current i. Which of the following circuits will exhibit this ?",
+    "options": [
+      "RC circuit with R = 1 k$\\Omega$ and C = 1μF",
+      "RL circuit with R = 1k$\\Omega$ and L = 1mH",
+      "RC circuit with R = 1k$\\Omega$ and C = 10 μF",
+      "RL circuit with R = 1 k$\\Omega$ and L = 10 mH"
+    ],
+    "correct": 2,
+    "solution": "**(c)** Given phase difference = ${\\pi \\over 4}$ and$\\omega$ = 100 rad/s<br><br> $ \\Rightarrow$ Reactance (X) = Resistance (R) Now by checking option. <br><br> Option (A)<br> R = 1000$\\Omega$ and X<sub>c</sub> = ${1 \\over {{{10}^{ - 6}} \\times 100}} = {10^4}\\Omega$<br><br> Option (B)<br> R = 10<sup>3</sup> $\\Omega$ and X<sub>L</sub> = ${10^{ - 3}} \\times 100 = 10^{-1} \\Omega$<br><br> Option (C)<br> R = 10<sup>3</sup> $\\Omega$ and X<sub>c</sub> = ${1 \\over {{10 \\times {10}^{ - 6}} \\times 100}} = {10^3}\\Omega$<br><br> Option (D)<br> R = 10<sup>3</sup> $\\Omega$ and X<sub>L</sub> = $10 \\times {10^{ - 3}} \\times 100 = 1\\Omega$",
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "topic": "ac-circuits-and-power-in-ac-circuits"
+  },
+  {
+    "id": 507,
+    "question": "Ethanol is prepared industrially by",
+    "options": [
+      "Hydration of ethylene",
+      "Fermentation of sugars",
+      "Both the above",
+      "None of these,FkukWy vkS|ksfxd:i"
+    ],
+    "correct": 2,
+    "solution": "**(c)** Hydration of ethylene,Fkyhu ${CH}_{2} = {CH}_{2} + \\overset{+}{HH}\\overset{-}{{SO}_{4}} \\rightarrow {CH}_{3} - {CH}_{2} - {HSO}_{4}$ ${CH}_{3} - {CH}_{2}{HSO}_{4}\\frac{H_{2}O}{\\ Boil\\ } \\rightarrow {CH}_{3} - {CH}_{2} - OH + H_{2}{SO}_{4}$ Fermentation of sugars \"kdZjk dk fd.ou $C_{12}H_{22}O_{11} + H_{2}O\\overset{Intertaes}{\\rightarrow}\\begin{matrix} C_{6}H_{12}O_{6} \\\\ \\ Glucose\\ \\end{matrix} + \\begin{matrix} C_{6}H_{12}O_{6} \\\\ \\ Fructose\\ \\end{matrix}$ $\\begin{matrix} C_{6}H_{12}O_{6} \\\\ \\ Glucose\\ or\\ Fructose\\ \\end{matrix}\\overset{Zymase}{\\rightarrow}2C_{2}H_{5}OH + 2{CO}_{2}$",
+    "chapter": "Alcohol, Phenol and Ethers",
+    "topic": "Alcohol, Phenol and Ethers"
+  },
+  {
+    "id": 508,
+    "question": "The Bouveault-Balance reduction involves ckWosYV&csysal",
+    "options": [
+      "$C_{2}H_{5}OH/Na$",
+      "${\\ LiAlH}_{4}$",
+      "$C_{2}H_{5}{MgX}^{-}$",
+      "$Zn/HCl$"
+    ],
+    "correct": 0,
+    "solution": "**(a)** $\\begin{matrix} C_{3}H_{7}{COOC}_{2}H_{5} \\\\ \\ Ethylbuty\\ rate\\ \\end{matrix}\\overset{NaC_{2}H_{5}OH}{\\rightarrow}\\begin{matrix} C_{3}H_{7}{CH}_{2}OH \\\\ \\ Butylalcohol\\ \\end{matrix}$",
+    "chapter": "Alcohol, Phenol and Ethers",
+    "topic": "Alcohol, Phenol and Ethers"
+  },
+  {
+    "id": 509,
+    "question": "Acetyl bromide reacts with excess of CH3MgI followed by treatment with a saturated solution of NH4Cl given",
+    "options": [
+      "acetone",
+      "acetyl iodide",
+      "2- methyl -2- propanol",
+      "acetamide"
+    ],
+    "correct": 2,
+    "solution": "**(c)**",
+    "chapter": "Alcohols Phenols and Ethers",
+    "topic": "Alcohols Phenols and Ethers"
+  },
+  {
+    "id": 510,
+    "question": "In the following sequence of reactions, CH3CH2OH$\\buildrel {P + {I\\_2}} \\over \\longrightarrow$ A$\\mathrel{\\mathop{\\kern0pt\\longrightarrow} \\limits_{ether}^{Mg}}$ B$\\buildrel {HCHO} \\over \\longrightarrow$ C$\\buildrel {{H\\_2}O} \\over \\longrightarrow$ D the compound 'D' is",
+    "options": [
+      "butanal",
+      "n-butyl alcohol",
+      "n-propyl alcohol",
+      "propanal"
+    ],
+    "correct": 2,
+    "solution": "**(c)**",
+    "chapter": "Alcohols Phenols and Ethers",
+    "topic": "Alcohols Phenols and Ethers"
+  },
+  {
+    "id": 511,
+    "question": "The gas evolved on heating CH3MgBr in methanol is :",
+    "options": [
+      "HBr",
+      "Methane",
+      "Ethane",
+      "Propane"
+    ],
+    "correct": 1,
+    "solution": "**(b)**",
+    "chapter": "Alcohols Phenols and Ethers",
+    "topic": "Alcohols Phenols and Ethers"
+  },
+  {
+    "id": 512,
+    "question": "In the given reaction 3-Bromo-2, 2-dimethyl butane$\\buildrel {{C\\_2}{H\\_5}OH} \\over \\longrightarrow \\mathop {'A'}\\limits_{(Major \\Pr oduct)}$ Product A is :",
+    "options": [
+      "2-Ethoxy-3, 3-dimethyl butane",
+      "1-Ethoxy-3, 3-dimethyl butane",
+      "2-Ethoxy-2, 3-dimethyl butane",
+      "2-Hydroxy-3, 3-dimethyl butane"
+    ],
+    "correct": 2,
+    "solution": "**(c)**",
+    "chapter": "Alcohols Phenols and Ethers",
+    "topic": "Alcohols Phenols and Ethers"
+  },
+  {
+    "id": 513,
+    "question": "Hex-4-ene-2-ol on treatment with PCC gives 'A'. 'A' on reaction with sodium hypoiodite gives 'B', which on further heating with soda lime gives 'C'. The compound 'C' is :",
+    "options": [
+      "2-pentene",
+      "proponaldehyde",
+      "2-butene",
+      "4-methylpent-2-ene"
+    ],
+    "correct": 2,
+    "solution": "**(c)**",
+    "chapter": "Alcohols-Phenols-And-Ethers",
+    "topic": "Alcohols-Phenols-And-Ethers"
+  },
+  {
+    "id": 514,
+    "question": "Given below are two statements : Statement I : On heating with$\\mathrm{KHSO}_{4}$, glycerol is dehydrated and acrolein is formed. Statement II : Acrolein has fruity odour and can be used to test glycerol's presence. Choose the correct option.",
+    "options": [
+      "Both Statement I and Statement II are correct.",
+      "Both Statement I and Statement II are incorrect.",
+      "Statement I is correct but Statement II is incorrect.",
+      "Statement I is incorrect but Statement II is correct."
+    ],
+    "correct": 2,
+    "solution": "**(c)** Glycerol, on heating with KHSO4, undergoes dehydration to give unsaturated aldehyde called acrolein. So, the statement I is correct. Acrolein has a piercing unpleasant smell. So, statement II is incorrect.",
+    "chapter": "Alcohols-Phenols-And-Ethers",
+    "topic": "Alcohols-Phenols-And-Ethers"
+  },
+  {
+    "id": 515,
+    "question": "A plane which bisects the angle between the two given planes 2x - y + 2z - 4 = 0 and x+2y+2z-2=0, passes through the point",
+    "options": [
+      "(2, -4, 1)",
+      "(1, -4, 1)",
+      "(1, 4, -1)",
+      "(2, 4, 1 )"
+    ],
+    "correct": 0,
+    "solution": "**(a)** Planes bisecting the given planes are $\\frac{2x - y + 2z - 4}{3} = \\pm \\frac{x + 2y + 2z - 2}{3}$ $\\Rightarrow x - 3y = 2\\ or\\ 3x + y + 4z = 6$ out of the given points, only (2,-4,1) lies on the plane 3x+y+4z=",
+    "chapter": "3D",
+    "topic": "3D"
+  },
+  {
+    "id": 516,
+    "question": "The distance of the point ($-$1, 2, $-$2) from the line of intersection of the planes 2x + 3y + 2z = 0 and x $-$ 2y + z = 0 is :",
+    "options": [
+      "${1 \\over {\\sqrt{2} }}$",
+      "${5 \\over 2}$",
+      "${{\\sqrt {42} } \\over 2}$",
+      "${{\\sqrt {34} } \\over 2}$"
+    ],
+    "correct": 3,
+    "solution": "**(d)** P1 : 2x + 3y + 2z = 0 $\\Rightarrow$ ${\\overrightarrow n \\_1} = 2\\widehat i + 3\\widehat j + 2\\widehat k$ P2 : x $-$ 2y + z = 0 $\\Rightarrow$ ${\\overrightarrow n \\_2} = \\widehat i - 2\\widehat j + \\widehat k$ Direction vector of line L which is line of intersection of P1 & P2 $\\overrightarrow r = {\\overrightarrow n \\_1} \\times {\\overrightarrow n \\_2} = 7\\widehat i - 7\\widehat k$ DR's of L are (1, 0, $-$1) $\\Rightarrow$ Equation of L : ${x \\over 1} = {y \\over 0} = {z \\over { - 1}} = \\lambda $ DR's of $\\overrightarrow {PQ} $ = ($\\lambda$ + 1, $-$2, 2 $-$ $\\lambda$) $\\because$ $\\overrightarrow {PQ} \\bot \\overrightarrow r $ $ \\Rightarrow (\\lambda + 1)(1) + ( - 2)(0) + (2 - \\lambda )( - 1) = 0$ $ \\Rightarrow \\lambda = {1 \\over 2} \\Rightarrow Q\\left( {{1 \\over 2},0,{{...",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 517,
+    "question": "The vector equation of the plane passing through the intersection of the planes$\\overrightarrow r .\\left( {\\widehat i + \\widehat j + \\widehat k} \\right) = 1$ and$\\overrightarrow r .\\left( {\\widehat i - 2\\widehat j} \\right) = - 2$, and the point (1, 0, 2) is :",
+    "options": [
+      "$\\overrightarrow r .\\left( {\\widehat i + 7\\widehat j + 3\\widehat k} \\right) = {7 \\over 3}$",
+      "$\\overrightarrow r .\\left( {\\widehat i + 7\\widehat j + 3\\widehat k} \\right) = 7$",
+      "$\\overrightarrow r .\\left( {3\\widehat i + 7\\widehat j + 3\\widehat k} \\right) = 7$",
+      "$\\overrightarrow r .\\left( {\\widehat i - 7\\widehat j + 3\\widehat k} \\right) = {7 \\over 3}$"
+    ],
+    "correct": 1,
+    "solution": "**(b)** Given, point (1, 0, 2) Equation of plane = $\\overrightarrow r . (\\widehat i + \\widehat j + \\widehat k) = 1$ and$\\overrightarrow r . (\\widehat i - 2\\widehat j) = - 2$ Equation of plane passing through the intersection of given planes is$[\\overrightarrow r . (\\widehat i + \\widehat j + \\widehat k) - 1] + \\lambda [\\overrightarrow r . (\\widehat i - 2\\widehat j) + 2] = 0 \\because$ This plane passes through point (1, 0, 2) i.e., vector$(\\widehat i + 2\\widehat k) \\therefore [(\\widehat i + 2\\widehat k) . (\\widehat i + \\widehat j + \\widehat k) - 1] + \\lambda [(\\widehat i + 2\\widehat k) . (\\widehat i - 2\\widehat j) + 2] = 0 \\Rightarrow (3 - 1) + \\lambda (1 + 2) = 0$ $ \\Rightarrow 2 + \\lambda \\times 3 = 0 \\Rightarrow \\lambda = - 2/3$ Hence, equation of re...",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 518,
+    "question": "If the mirror image of the point$P(3,4,9)$ in the line$\\frac{x-1}{3}=\\frac{y+1}{2}=\\frac{z-2}{1}$ is$(\\alpha, \\beta, \\gamma)$, then 14$(\\alpha+\\beta+\\gamma)$ is :",
+    "options": [
+      "102",
+      "138",
+      "132",
+      "108"
+    ],
+    "correct": 3,
+    "solution": "**(d)** $\\begin{aligned} & \\overrightarrow{\\mathrm{PN}}. \\overrightarrow{\\mathrm{b}}=0\\\\\\\\ & 3(3 \\lambda-2)+2(2 \\lambda-5)+(\\lambda-7)=0 \\\\\\\\ & 14 \\lambda=23 \\Rightarrow \\lambda=\\frac{23}{14}\\end{aligned} \\begin{aligned} & \\mathrm{N}\\left(\\frac{83}{14}, \\frac{32}{14}, \\frac{51}{14}\\right) \\\\\\\\ & \\therefore \\frac{\\alpha+3}{2}=\\frac{83}{14} \\Rightarrow \\alpha=\\frac{62}{7}\\end{aligned}$ $\\begin{aligned} & \\frac{\\beta+4}{2}=\\frac{32}{14} \\Rightarrow \\beta=\\frac{4}{7} \\\\\\\\ & \\frac{\\gamma+9}{2}=\\frac{51}{14} \\Rightarrow \\gamma=\\frac{-12}{7}\\end{aligned}$ Now, $14(\\alpha+\\beta+\\gamma)=14\\left(\\frac{62+4-12}{7}\\right)=108$",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 519,
+    "question": "The two lines$x=ay+b,z=cy+d$ and$x = a'y + b',z = c'y + d'$ will be perpendicular, if and only if :",
+    "options": [
+      "$aa' + cc' + 1 = 0$",
+      "$aa' + bb'cc' + 1 = 0$",
+      "$aa' + bb'cc' = 0$",
+      "$\\left( {a + a'} \\right)\\left( {b + b'} \\right) + \\left( {c + c'} \\right) = 0$"
+    ],
+    "correct": 0,
+    "solution": "**(a)** ${{x - b} \\over a} = {y \\over 1} = {{z - d} \\over c}; {{x - b'} \\over {a'}} = {y \\over 1} = {{z - d'} \\over c'}$ For perpenedicularity of lines$aa' + 1 + cc' = 0$",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 520,
+    "question": "A line makes the same angle$\\theta$, with each of the$x$ and$z$ axis. If the angle$\\beta  $, which it makes with y-axis, is such that$ {\\sin \\^2}\\beta = 3{\\sin \\^2}\\theta ,$ then${\\cos \\^2}\\theta$ equals :",
+    "options": [
+      "${2 \\over 5}$",
+      "${1 \\over 5}$",
+      "${3 \\over 5}$",
+      "${2 \\over 3}$"
+    ],
+    "correct": 2,
+    "solution": "**(c)** Concept : If a line makes the angle$\\alpha ,\\beta ,\\gamma$ with x, y, z axis respectively then${\\cos \\^2}\\alpha + {\\cos \\^2}\\beta + {\\cos \\^2}\\gamma = 1$ In this question given that the line makes angle with x and z-axis and with yaxis. $\\therefore\\: cos\\^2\\theta+cos\\^2\\beta+cos\\^2\\theta=1 \\Rightarrow\\:2cos\\^2\\theta=1-cos\\^2\\beta \\Rightarrow 2{\\cos \\^2}\\theta = {\\sin \\^2}\\beta$ But given that$sin\\^2\\beta=3sin\\^2\\theta \\therefore 2{\\cos \\^2}\\theta = 3{\\sin \\^2}\\theta \\Rightarrow 2{\\cos \\^2}\\theta = 3\\left( {1 - {{\\cos }\\^2}\\theta } \\right) \\Rightarrow 2{\\cos \\^2}\\theta = 3 - 3{\\cos \\^2}\\theta \\Rightarrow 5{\\cos \\^2}\\theta = 3 \\Rightarrow {\\cos \\^2}\\theta = {3 \\over 5}$",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 521,
+    "question": "If a line makes an angle of$\\pi /4$ with the positive directions of each of$x$-axis and$y$-axis, then the angle that the line makes with the positive direction of the$z$-axis is :",
+    "options": [
+      "${\\pi \\over 4}$",
+      "${\\pi \\over 2}$",
+      "${\\pi \\over 6}$",
+      "${\\pi \\over 3}$"
+    ],
+    "correct": 1,
+    "solution": "**(b)** Let the angle of line makes with the positive direction of$z$-axis is$\\alpha$ direction cosines of line with the$+ve$ directions of$x$-axis, $y$-axis, and$z$-axis is$l, m, n$ respectively. $\\therefore l = \\cos {\\pi \\over 4},m = \\cos {\\pi \\over 4},  n = cos \\alpha$ as we know that, ${l\\^2} + {m\\^2} + {n\\^2} = 1 \\therefore {\\cos \\^2}{\\pi \\over 4} + {\\cos \\^2}{\\pi \\over 4} + {\\cos \\^2}\\alpha = 1 \\Rightarrow {1 \\over 2} + {1 \\over 2} + {\\cos \\^2}\\alpha = 1 \\Rightarrow {\\cos \\^2}\\alpha = 0 \\Rightarrow \\alpha = {\\pi \\over 2}$ Hence, angle with positive direction of the$z$-axis is${\\pi \\over 2}$",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 522,
+    "question": "Let$L$ be the line of intersection of the planes$2x+3y+z=1$ and$x+3y+2z=2.$ If$L$ makes an angle$\\alpha$ with the positive$x$-axis, then cos$\\alpha$ equals",
+    "options": [
+      "$1$",
+      "${1 \\over {\\sqrt{2} }}$",
+      "${1 \\over {\\sqrt{3} }}$",
+      "${1 \\over 2}$"
+    ],
+    "correct": 2,
+    "solution": "**(c)** Let the direction cosines of line$L$ be$l,m,n,$ then$2l+3m+n=0        ....\\left( i \\right)$ and$l + 3m + 2n = 0          ....\\left( {ii} \\right)$ on solving equation$(i)$ and$(ii),$ we get${l \\over {6 - 3}} = {m \\over {1 - 4}} = {n \\over {6 - 3}}            \\Rightarrow {l \\over 3} = {m \\over { - 3}} = {n \\over 3}$ Now$ \\Rightarrow {l \\over 3} = {m \\over { - 3}} = {n \\over 3} = {{\\sqrt {{l\\^2} + {m\\^2} + {n\\^2}} } \\over {\\sqrt {{3\\^2} + {{\\left( { - 3} \\right)}\\^2} + {3\\^2}} }}$ As${l\\^2} + {m\\^2} + {n\\^2} = 1 \\therefore {l \\over 3} = {m \\over { - 3}} = {n \\over 3} = {1 \\over {\\sqrt {27} }} \\Rightarrow l = {3 \\over {\\sqrt {27} }} = {1 \\over {\\sqrt{3} }},  m = - {1 \\over {\\sqrt{3} }},n = {1 \\over {\\sqrt{3} }}$ Line$L,$ makes...",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 523,
+    "question": "The temperature of equal masses of three different liquids x, y and z are 10$^\\circ$C, 20$^\\circ$C and 30$^\\circ$C respectively. The temperature of mixture when x is mixed with y is 16$^\\circ$C and that when y is mixed with z is 26$^\\circ$C. The temperature of mixture when x and z are mixed will be :",
+    "options": [
+      "28.32$^\\circ$C",
+      "25.62$^\\circ$C",
+      "23.84$^\\circ$C",
+      "20.28$^\\circ$C"
+    ],
+    "correct": 2,
+    "solution": "when x and y are mixed, Tf1 = 16$^\\circ$Cm1s1T + m2s2T2 = (m1s1 + m2s2)Tf1s1$\\times$ 10 + s2$\\times$ 20 = (s1 + s2)$\\times$ 16s1 = ${2 \\over 3}$s2 .... (i)when y and z are mixed, Tf2 = 26$^\\circ$Cm2s2T + m3s3T3 = (m3s3 + m3s3)Tf2s2$\\times$ 20 + s3$\\times$ 30 = (s2 + s3)$\\times$ 26s3 = ${3 \\over 2}$s2 ..... (ii)when x and z are mixed m1s1T1 + m3s3T3 = (m1s1 + m3s3)Tf${2 \\over 3}$s2$\\times$ 10 + ${2 \\over 3}$s2$\\times$ 20 = $\\left( {{2 \\over 3}{s_2} + {3 \\over 2}{s_2}} \\right){T_f}$Tf = 23.84$^\\circ$C",
+    "chapter": "Heat And Thermodynamics",
+    "topic": "Heat And Thermodynamics"
+  },
+  {
+    "id": 524,
+    "question": "The region between y = 0 and y = d contains a magnetic field$\\overrightarrow B  = B\\widehat z$.  A particle of mass m and charge q enters the region with a velocity$\\overrightarrow v  = v\\widehat i.$ If d$= {{mv} \\over {2qB}},$ the acceleration of the charged particle at the point of its emergence at the other side is :",
+    "options": [
+      "${{qvB} \\over m}\\left( -{{{\\sqrt 3 } \\over 2}\\widehat i - {1 \\over 2}\\widehat j} \\right)$",
+      "${{qvB} \\over m}\\left( {{1 \\over 2}\\widehat i - {{\\sqrt 3 } \\over 2}\\widehat j} \\right)$",
+      "${{qvB} \\over m}\\left( {{{ - \\widehat j + \\widehat i} \\over {\\sqrt 2 }}} \\right)$",
+      "${{qvB} \\over m}\\left( {{{\\widehat j + \\widehat i} \\over {\\sqrt 2 }}} \\right)$"
+    ],
+    "correct": 0,
+    "solution": "Here R = ${{mv} \\over {qB}}$ = 2d\ncos$\\theta$ = ${{{R \\over 2}} \\over R}$ = ${1 \\over 2}$\n$ \\Rightarrow  \\theta$ = 60o\nAcceleration of the charged particle at the point of its emergence,\n$\\overrightarrow {{a_c}}  = {a_{{c_x}}}\\left( { - \\widehat i} \\right) + {a_{{c_y}}}\\left( { - \\widehat j} \\right)$\n= ${a_c}\\cos 30^\\circ \\left( { - \\widehat i} \\right) + {a_c}\\sin 30^\\circ \\left( { - \\widehat j} \\right)$\n= ${a_c}\\left( {{{\\sqrt 3 } \\over 2}\\left( { - \\widehat i} \\right) + {1 \\over 2}\\left( { - \\widehat j} \\right)} \\right)$\n= ${{qvB} \\over m}\\left( { - {{\\sqrt 3 } \\over 2}\\widehat i - {1 \\over 2}\\widehat j} \\right)$",
+    "chapter": "Magnetics",
+    "topic": "Magnetics"
+  },
+  {
+    "id": 525,
+    "question": "In a communication system operating at wavelength 800 nm, only one percent of source frequency is available as signal bandwith. The number of channels accomodated for transmitting TV signals of band width 6 MHz are (Take velocity of light c = 3$ \\times$ 108m/s, h = 6.6$ \\times$ 10$-$34 J-s)",
+    "options": [
+      "3.75$ \\times$ 106",
+      "3.86$ \\times$ 106",
+      "6.25$ \\times$ 105",
+      "4.87$ \\times$ 105"
+    ],
+    "correct": 2,
+    "solution": "Given, $\\lambda$ = 800 nm$ \\therefore$ f = ${{3 \\times {{10}\\^8}} \\over {800 \\times {{10}^{ - 9}}}}$ = 3.75$ \\times$ 1014 Hz Available frequency for signal bandwith = 1% of F = 3.75$ \\times$ 1014$ \\times  {1 \\over {100}}$ = 3.75$ \\times$ 1012 Hz One TV signal needs = 6 MHz band width$ \\therefore$ Total number of channel possible = ${{3.75 \\times {{10}^{12}}} \\over {6 \\times {{10}\\^6}}}$ = 6.25$ \\times$ 105",
+    "chapter": "Communication Systems",
+    "topic": "Communication Systems"
+  },
+  {
+    "id": 526,
+    "question": "A cylinder of fixed capacity of 44.8 litres contains helium gas at standard temperature and pressure. The amount of heat needed to raise the temperature of gas in the cylinder by 20.0$^\\circ$C will be : (Given gas constant R = 8.3 JK$-$1-mol$-$1)",
+    "options": [
+      "249 J",
+      "415 J",
+      "498 J",
+      "830 J"
+    ],
+    "correct": 2,
+    "solution": "$\\Delta Q = n{C_v}\\Delta T$ (Isochoric process)\n$ = 2 \\times {{3R} \\over 2} \\times 20$\n$ = 498$ J",
+    "chapter": "Heat And Thermodynamics",
+    "topic": "Heat And Thermodynamics"
+  },
+  {
+    "id": 527,
+    "question": "If the root mean square velocity of hydrogen molecule at a given temperature and pressure is$2 \\mathrm{~km} / \\mathrm{s}$, the root mean square velocity of oxygen at the same condition in$\\mathrm{km} / \\mathrm{s}$ is :",
+    "options": [
+      "1.0",
+      "1.5",
+      "2.0",
+      "0.5"
+    ],
+    "correct": 3,
+    "solution": "Here is your text with LaTeX notation and paragraph tags converted as requested:\nTo calculate the root mean square (rms) velocity of gas molecules, we can use the formula:\n$ v_{\\text{rms}} = \\sqrt{\\frac{3kT}{m}}$\nwhere:\n$ v_{\\text{rms}}$ is the root mean square velocity of the gas molecules,\n$ k$ is the Boltzmann constant,\n$ T$ is the absolute temperature in Kelvin, and\n$ m$ is the mass of one molecule of the gas.\nSince the temperature and pressure are the same for hydrogen and oxygen, we can ignore the constant and temperature parts of the equation because they will cancel out in the comparison between the two gases. \nNow, we need to compare the mass of one molecule of hydrogen to that of one molecule of oxygen. The molecular mass of hydrogen (H₂) is approximately 2 g/mol, while the molecular mass of oxygen (O₂) is approximately 32 g/mol.\nWe know the rms speed",
+    "chapter": "Heat And Thermodynamics",
+    "topic": "Heat And Thermodynamics"
+  },
+  {
+    "id": 528,
+    "question": "A simple pendulum of length$1 \\mathrm{~m}$ has a wooden bob of mass$1 \\mathrm{~kg}$. It is struck by a bullet of mass$10^{-2} \\mathrm{~kg}$ moving with a speed of$2 \\times 10^2 \\mathrm{~ms}^{-1}$. The bullet gets embedded into the bob. The height to which the bob rises before swinging back is. (use$\\mathrm{g}=10 \\mathrm{~m} / \\mathrm{s}^2$ )",
+    "options": [
+      "$0.20 \\mathrm{~m}$",
+      "$0.40 \\mathrm{~m}$",
+      "$0.30 \\mathrm{~m}$",
+      "$0.35 \\mathrm{~m}$"
+    ],
+    "correct": 0,
+    "solution": "The initial momentum of the system (bullet + bob) is the momentum of the bullet because the bob is initially at rest. The momentum of the bullet is given by its mass times its velocity :\n$ p_{\\text{initial}} = m_{\\text{bullet}} \\times v_{\\text{bullet}}$\nAfter the collision, the bullet and the bob move together with a common velocity. Let's denote this common velocity as$ v' $. The final momentum$ p_{\\text{final}}$ is the combined mass of the bullet and bob times the common velocity :\n$ p_{\\text{final}} = (m_{\\text{bullet}} + m_{\\text{bob}}) \\times v' $\nAccording to the principle of conservation of linear momentum,\n$ p_{\\text{initial}} = p_{\\text{final}}$\n$ m_{\\text{bullet}} \\times v_{\\text{bullet}} = (m_{\\text{bullet}} + m_{\\text{bob}}) \\times v' $\nPlugging in the values :\n$ (10^{-2} \\text{ kg}) \\times (2 \\times 10^2 \\text{ m/s}) = (10^{-2} \\text{ kg} +",
+    "chapter": "Simple Harmonic Motion",
+    "topic": "Simple Harmonic Motion"
+  },
+  {
+    "id": 529,
+    "question": "Two long current carrying conductors are placed to each other at a distance of 8 cm between them. The magnitude of magnetic field produced at mid-point between the two conductors due to current flowing in them is 300$\\mu$T. The equal current flowing in the two conductors is :",
+    "options": [
+      "30A in the same direction.",
+      "30A in the opposite direction.",
+      "60A in the opposite direction.",
+      "300A in the opposite direction."
+    ],
+    "correct": 1,
+    "solution": "As Bnet$\\ne$ 0 that is the wires are carrying current in opposite direction.\n${{{\\mu _0}I \\times 2} \\over {2\\pi (4 \\times {{10}^{ - 2}})}} = 30 \\times {10^{ - 6}}$ T\n$ \\Rightarrow I = {{30 \\times {{10}^{ - 6}}} \\over {{{10}^{ - 6}}}}$ A = 30 A in opposite direction.",
+    "chapter": "Magnetics",
+    "topic": "Magnetics"
+  },
+  {
+    "id": 530,
+    "question": "A parallel plate capacitor with area 200 cm2 and separation between the plates 1.5 cm,  is connected across a battery of emf V. If the force of attraction between the plates is$25 \\times {10^{ - 6}}N,$ the value of V is approximately : $\\left( {{ \\in _o} = 8.85 \\times {{10}^{ - 12}}{{{C^2}} \\over {N.{m^2}}}} \\right)$",
+    "options": [
+      "250 V",
+      "100 V",
+      "300 V",
+      "150 V"
+    ],
+    "correct": 0,
+    "solution": "Given area of Parallel plate capacitor, A = 200 cm2\nSeparation between the plates, d = 1.5 cm\nForce of attraction between the plates, F = 25 $×$ 10–6 N\nF = QE\n$ \\Rightarrow$ F = ${{{Q^2}} \\over {2A{ \\in _0}}}$\n[ As E due to parallel plate = ${\\sigma  \\over {2{ \\in _0}}} = {Q \\over {2A{ \\in _0}}}$]\nAlso we know, Q = CV = ${{{ \\in _0}AV} \\over d}$\n$ \\therefore$ F = ${{{{\\left( {{ \\in _0}AV} \\right)}^2}} \\over {{d^2} \\times 2A{ \\in _0}}}$\n$ \\Rightarrow$ V = d$\\sqrt {{{2F} \\over {{ \\in _0}A}}}$\n$ \\Rightarrow$ V = $1.5 \\times {10^{ - 2}}\\sqrt {{{2 \\times 25 \\times {{10}^{ - 6}}} \\over {8.85 \\times {{10}^{ - 12}} \\times 2 \\times {{10}^{ - 2}}}}}$\n= $1.5 \\times {10^{ - 2}}\\sqrt {{{25} \\over {8.85}}}$ = 250 V",
+    "chapter": "Capacitor",
+    "topic": "Capacitor"
+  },
+  {
+    "id": 531,
+    "question": "Which one of the following alkenes when treated with HCl yields majorly an anti Markovnikov product?",
+    "options": [
+      "Cl CH = CH2",
+      "F3C CH = CH2",
+      "CH3O CH = CH2",
+      "H2N CH = CH2"
+    ],
+    "correct": 1,
+    "solution": "Markovnikov rule says negative part of the reagent attacks on the carbon of the double bond which have less number of hydrogen atom. So in Anti-Markovnikov rule negative part of the reagent attacks on the carbon of the double bond which have more number of hydrogen atom.",
+    "chapter": "Haloalkanes and Haloarenes",
+    "topic": "Haloalkanes and Haloarenes"
+  },
+  {
+    "id": 532,
+    "question": "Match the refining methods (Column I) with metals (Column II).  .tg  {border-collapse:collapse;border-spacing:0;} .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg .tg-s6z2{text-align:center}    Column I(Refining Methods) Column II(Metals)   (I) Liquation (a) Zr   (II) Zone Refining (b) Ni   (III) Mond Process (c) Sn   (IV) Van Arkel Method (d) Ga",
+    "options": [
+      "(I)-(c) ; (II)-(a) ; (III)-(b) ; (IV)-(d)",
+      "(I)-(c) ; (II)-(d) ; (III)-(b) ; (IV)-(a)",
+      "(I)-(b) ; (II)-(d) ; (III)-(a) ; (IV)-(c)",
+      "(I)-(b) ; (II)-(c) ; (III)-(d) ; (IV)-(a)"
+    ],
+    "correct": 1,
+    "solution": "Liquation is used\nfor Sn.\nZone refining is used for Ga.\nVan\nArkel method is used for Zr.\nMond’s process is used for refining of Ni.",
+    "chapter": "Isolation Of Elements",
+    "topic": "Isolation Of Elements"
+  },
+  {
+    "id": 533,
+    "question": "In the cell  Pt$\\left| {\\left( s \\right)} \\right|$H2(g,  1 bar)$\\left| {HCl\\left( {aq} \\right)} \\right|$AgCl$\\left| {\\left( s \\right)} \\right|$Ag(s)|Pt(s)  the cell potential is 0.92 V when a 10–6 molal HCl solution is used. The standard electrode potential of (AgCl/ AgCl– ) electrode is :  $\\left\\{ {} \\right.$Given,  ${{2.303RT} \\over F} = 0.06V$  at  $\\left. {298} \\right\\}$",
+    "options": [
+      "0.94 V",
+      "0.40 V",
+      "0.76 V",
+      "0.20 V"
+    ],
+    "correct": 3,
+    "solution": "Anode : H2(g)$ \\to$ 2H+(aq) + 2e-\nCathode : AgCl(s) + e- $ \\to$ Ag(s) + Cl-(aq)\n---------------------------------------------------------------\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H2(g) + 2AgCl(s)$ \\to$ 2Ag(s) + 2H+(aq) + 2Cl-(aq)\nFrom Nernst equation we know,\nEcell = E0cell - ${{0.06} \\over n}\\log Q$\nHere,\nEcell = E0cell - ${{0.06} \\over 2}\\log {{{{\\left[ {{H^ + }} \\right]}^2}{{\\left[ {C{l^ - }} \\right]}^2}} \\over {{P_{{H_2}}}}}$\n$ \\Rightarrow$ 0.92 = E0AgCl/AgCl - - $0.03\\log {{{{\\left[ {{{10}^{ - 6}}} \\right]}^2}{{\\left[ {{{10}^{ - 6}}} \\right]}^2}} \\over 1}$\n$ \\Rightarrow$ E0AgCl/AgCl = 0.92 - 0.72 = 0.2 V",
+    "chapter": "Electrochemistry",
+    "topic": "Electrochemistry"
+  },
+  {
+    "id": 534,
+    "question": "Low oxidation state of metals in their complexes are common when ligands :",
+    "options": [
+      "have good$\\pi$-accepting character",
+      "have good$\\sigma$-donor character",
+      "are having good$\\pi$-donating ability",
+      "are having poor$\\sigma$-donating ability"
+    ],
+    "correct": 0,
+    "solution": "Ligands like : CO, are sigma donor and$\\pi$-acceptor and they make stronger bond with lower oxidation state metal ion, in this case back bonding is more effective",
+    "chapter": "Coordination Compounds",
+    "topic": "Coordination Compounds"
+  },
+  {
+    "id": 535,
+    "question": "The de Broglie wavelength ($\\lambda$) associated with a photoelectron varies with the frequency (v) of the incident radiation as, [v0 is threshold frequency] :",
+    "options": [
+      "$\\lambda \\,\\infty \\,{1 \\over {{{\\left( {v - {v_0}} \\right)}^{{3 \\over 2}}}}}$",
+      "$\\lambda \\,\\infty \\,{1 \\over {{{\\left( {v - {v_0}} \\right)}^{{1 \\over 4}}}}}$",
+      "$\\lambda \\,\\infty \\,{1 \\over {\\left( {v - {v_0}} \\right)}}$",
+      "$\\lambda \\,\\infty \\,{1 \\over {{{\\left( {v - {v_0}} \\right)}^{{1 \\over 2}}}}}$"
+    ],
+    "correct": 3,
+    "solution": "By photoelectric effect\nKE = h$\\gamma$ - h$\\gamma$o ....(1)\nde broglie wavelength,\n$\\lambda$ = ${h \\over {mv}}$ = ${h \\over {\\sqrt {2m \\times K.E} }}$ ...(2)\nUsing equation (1) and (2), we get\n$\\lambda$ = ${h \\over {\\sqrt {2m \\times \\left( {h\\nu  - h{\\nu _0}} \\right)} }}$\n$ \\therefore  \\lambda \\,\\propto \\,{1 \\over {{{\\left( {v - {v_0}} \\right)}^{{1 \\over 2}}}}}$",
+    "chapter": "Structure Of Atom",
+    "topic": "Structure Of Atom"
+  },
+  {
+    "id": 536,
+    "question": "Given below are two statements : Statement (I) : The$\\mathrm{NH}_2$ group in Aniline is ortho and para directing and a powerful activating group.  Statement (II) : Aniline does not undergo Friedel-Craft's reaction (alkylation and acylation). In the light of the above statements, choose the most appropriate answer from the options given below :",
+    "options": [
+      "Both Statement I and Statement II are correct",
+      "Both Statement I and Statement II are incorrect",
+      "Statement I is correct but Statement II is incorrect",
+      "Statement I is incorrect but Statement II is correct"
+    ],
+    "correct": 0,
+    "solution": "The given statements pertain to aniline, a primary amine where the amino group ($\\mathrm{NH}_2$) is directly attached to a benzene ring. Let's analyze the statements:\nStatement (I): The$\\mathrm{NH}_2$ group in Aniline is ortho and para directing and a powerful activating group.\nThis statement is correct. The amino group ($\\mathrm{NH}_2$) in aniline is an electron-donating group due to the lone pair of electrons on the nitrogen atom. It increases the electron density on the benzene ring, particularly at the ortho and para positions. This in turn makes the ortho and para positions more reactive toward electrophilic aromatic substitution reactions. Therefore, the amino group is considered to be an ortho and para director and is one of the most powerful activating groups in the context of electrophilic aromatic substitution reactions.\nStatement (II): Aniline does not undergo Fr",
+    "chapter": "Compounds Containing Nitrogen",
+    "topic": "Compounds Containing Nitrogen"
+  },
+  {
+    "id": 537,
+    "question": "$\\Delta$fGo at 500 K for substance 'S' in liquid state and gaseous state are +100.7 kcl mol-1 and +103 kcal mol-1, respectively. Vapour pressure of liquid 'S' at 500 K is approximately equal to : ( R = 2 cal K-1 mol-1 )",
+    "options": [
+      "0.1 atm",
+      "1 atm",
+      "10 atm",
+      "100 atm"
+    ],
+    "correct": 0,
+    "solution": "S($l$)$\\buildrel \\, \\over \\longrightarrow$ S(g)$\\Delta$Go = $\\Delta$fGo (Vapour)$- \\Delta$f Go (liquid) = 103$-$ 100.7 = 2.3 kcal / mol = 2.3$ \\times$ 103 cal/mol. $\\Delta$Go = $-$ RT$l$nk$ \\Rightarrow$\\,\\,\\,$ 2.3$ \\times$ 103 = $-$ 2.303$ \\times$ 2$ \\times$ 500 log K$ \\Rightarrow$\\,\\,\\,$ log K = $-$ 1$ \\Rightarrow  \\,\\,\\,$ K = 0.1 atm",
+    "chapter": "Thermodynamics",
+    "topic": "Thermodynamics"
+  },
+  {
+    "id": 538,
+    "question": "What weight of glucose must be dissolved in$100 \\mathrm{~g}$ of water to lower the vapour pressure by$0.20 \\mathrm{~mm} ~\\mathrm{Hg}$ ? (Assume dilute solution is being formed) Given : Vapour pressure of pure water is$54.2 \\mathrm{~mm} ~\\mathrm{Hg}$ at room temperature. Molar mass of glucose is$180 \\mathrm{~g} \\mathrm{~mol}^{-1}$",
+    "options": [
+      "3.69 g",
+      "2.59 g",
+      "3.59 g",
+      "4.69 g"
+    ],
+    "correct": 0,
+    "solution": "The lowering of vapor pressure of a solvent by a nonvolatile solute is given by Raoult's law:\n$\\Delta P = x_{\\text{solute}} \\cdot P_0$\nwhere$\\Delta P$ is the change in vapor pressure, $x_{\\text{solute}}$ is the mole fraction of the solute, and$P_0$ is the vapor pressure of the pure solvent.\nRearranging the formula for$x_{\\text{solute}}$, we have:\n$x_{\\text{solute}} = \\frac{\\Delta P}{P_0}$\nSubstituting the given values, we get :\n$x_{\\text{solute}} = \\frac{0.20 \\, \\text{mm Hg}}{54.2 \\, \\text{mm Hg}} = 0.003689$\nSince the mole fraction of the solute is also equal to the number of moles of solute divided by the total number of moles, we can express$x_{\\text{solute}}$ as:\n$x_{\\text{solute}} = \\frac{\\text{moles}_{\\text{solute}}}{\\text{moles}_{\\text{solute}} + \\text{moles}_{\\text{water}}}$\nAssuming that the solution is dilute, the number of moles of water w",
+    "chapter": "Solutions",
+    "topic": "Solutions"
+  },
+  {
+    "id": 539,
+    "question": "Let ƒ : [–1,3] $ \\to$ R be defined as $f(x) = \\left\\{ {\\matrix{    {\\left| x \\right| + \\left[ x \\right]} &amp; , &amp; { - 1 \\le x &lt; 1}  \\cr     {x + \\left| x \\right|} &amp; , &amp; {1 \\le x &lt; 2}  \\cr     {x + \\left[ x \\right]} &amp; , &amp; {2 \\le x \\le 3}  \\cr    } } \\right.$ where [t] denotes the greatest integer less than or equal to t. Then, ƒ is discontinuous at:",
+    "options": [
+      "only three points",
+      "four or more points",
+      "only two points",
+      "only one point"
+    ],
+    "correct": 0,
+    "solution": "$f(x) = \\left\\{ {\\matrix{\n   {\\left| x \\right| + \\left[ x \\right]} &amp; , &amp; { - 1 \\le x &lt; 1}  \\cr \n   {x + \\left| x \\right|} &amp; , &amp; {1 \\le x &lt; 2}  \\cr \n   {x + \\left[ x \\right]} &amp; , &amp; {2 \\le x \\le 3}  \\cr \n } } \\right.$\n= $ = \\left\\{ {\\matrix{\n   { - x - 1,} &amp; { - 1 \\le x &lt; 0}  \\cr \n   {x,} &amp; {0 \\le x &lt; 1}  \\cr \n   {2x,} &amp; {1 \\le x &lt; 2}  \\cr \n   {x + 2,} &amp; {2 \\le x &lt; 3}  \\cr \n   {6,} &amp; {x = 3}  \\cr \n } } \\right.$\nf(-1) = $\\mathop {\\lim }\\limits_{x \\to  - 1} \\left( { - x - 1} \\right)$ =  -( -1) - 1 = 0\nf(-1+) = $\\mathop {\\lim }\\limits_{x \\to  - {1^ + }} \\left( { - x - 1} \\right)$ = 0\n$ \\therefore$ f(x) is continuous at x = - 1\nf(0-) =$\\mathop {\\lim }\\limits_{x \\to {0^ - }} \\left( { - x - 1} \\right)$\n =  -(0) - 1 = - 1\nf(0) = $\\mathop {\\lim }\\limits_{x \\to 0} \\left( x \\right)$ = 0\nf(0+) =",
+    "chapter": "Limits Continuity And Differentiability",
+    "topic": "Limits Continuity And Differentiability"
+  },
+  {
+    "id": 540,
+    "question": "If C is arbitrary constant then $\\int\\frac{a^{x}}{\\sqrt{1 - a^{2x}}}dx =$",
+    "options": [
+      "$\\frac{1}{\\log_{e}a}\\sin^{- 1}\\left( a^{x} \\right) + C$",
+      "$\\log_{e}a\\sin^{- 1}\\left( a^{x} \\right) + C$",
+      "$- \\frac{1}{\\log_{e}a}\\sin^{- 1}\\left( a^{x} \\right) + C$",
+      "$\\frac{1}{\\log_{e}a}\\cos^{- 1}\\left( a^{x} \\right) + C$"
+    ],
+    "correct": 0,
+    "solution": "Let \n$I = \\int\\frac{a^{x}}{\\sqrt{1 - a^{2x}}}dx.$ Put $a^{x} = t$\n So that$a^{x}\\log_{e}adx = dt$ or$dx = dt/(a^{x}\\log_{e}a)$\n$\\therefore\\$\n$I = \\frac{1}{\\log_{e}a}\\int\\frac{dt}{\\sqrt{1^{2} - t^{2}}}$\n$= \\frac{1}{\\log_{e}a} \\cdot \\sin^{- 1}(t) + C = \\frac{1}{\\log_{e}a}\\sin^{- 1}\\left( a^{x} \\right) + C$",
+    "chapter": "Indefinite integration",
+    "topic": "Indefinite integration"
+  },
+  {
+    "id": 541,
+    "question": "The normal to the curve y(x – 2)(x – 3) = x + 6 at the point where the curve intersects the y-axis passes through the point :",
+    "options": [
+      "$\\left( {{1 \\over 2},{1 \\over 2}} \\right)$",
+      "$\\left( {{1 \\over 2}, - {1 \\over 3}} \\right)$",
+      "$\\left( {{1 \\over 2},{1 \\over 3}} \\right)$",
+      "$\\left( { - {1 \\over 2}, - {1 \\over 3}} \\right)$"
+    ],
+    "correct": 0,
+    "solution": "Given$y = {{x + 6} \\over {\\left( {x - 2} \\right)\\left( {x - 2} \\right)}}$\nAt y-axis, x = 0$ \\Rightarrow$ y = 1\nOn differentiating, we get\n${{dy} \\over {dx}} = {{\\left( {{x^2} - 5x + 6} \\right)\\left( 1 \\right) - \\left( {x + 6} \\right)\\left( {2x - 5} \\right)} \\over {{{\\left( {{x^2} - 5x + 6} \\right)}^2}}}$\n${{dy} \\over {dx}} = 1$ at point (0, 1)\n$ \\therefore$ Slope of normal = – 1\nNow equation of normal is y – 1 = –1 (x – 0)\n$ \\Rightarrow$ y – 1 = – x\nx + y = 1 ......(1)\nBy checking each option you can see point$\\left( {{1 \\over 2},{1 \\over 2}} \\right)$ satisfy equation (1).",
+    "chapter": "Application Of Derivatives",
+    "topic": "Application Of Derivatives"
+  },
+  {
+    "id": 542,
+    "question": "If the function$f(x)=\\frac{\\sin 3 x+\\alpha \\sin x-\\beta \\cos 3 x}{x^3}, x \\in \\mathbf{R}$, is continuous at$x=0$, then$f(0)$ is equal to :",
+    "options": [
+      "4",
+      "$-$2",
+      "$-$4",
+      "2"
+    ],
+    "correct": 2,
+    "solution": "$\\begin{aligned}\n& \\lim _\\limits{x \\rightarrow 0} f(x)=f(0) \\quad \\text { (continuous at } x=0) \\\\\n& \\lim _{x \\rightarrow 0} \\frac{\\sin 3 x+\\alpha \\sin x-\\beta \\cos 3 x}{x^3}\n\\end{aligned}$\nFor limit to exist$\\beta=0$\n$\\begin{aligned}\n& \\Rightarrow \\lim _{x \\rightarrow 0} \\frac{\\sin 3 x+\\alpha \\sin x}{x^3} \\\\\n& \\Rightarrow \\lim _{x \\rightarrow 0} \\frac{(3+\\alpha) \\sin x-4 \\sin ^3 x}{x^3}\n\\end{aligned}$\nFor limit to exist$\\alpha+3=0 \\Rightarrow \\alpha=-3$\n$\\Rightarrow \\lim _\\limits{x \\rightarrow 0} \\frac{-4 \\sin ^3 x}{x^3}=-4=f(0)$",
+    "chapter": "Limits Continuity And Differentiability",
+    "topic": "Limits Continuity And Differentiability"
+  },
+  {
+    "id": 543,
+    "question": "If the plane$P$ passes through the intersection of two mutually perpendicular planes$2 x+k y-5 z=1$ and$3 k x-k y+z=5, k&lt;3$ and intercepts a unit length on positive$x$-axis, then the intercept made by the plane$P$ on the$y$-axis is :",
+    "options": [
+      "$\\frac{1}{11}$",
+      "$\\frac{5}{11}$",
+      "6",
+      "7"
+    ],
+    "correct": 3,
+    "solution": "${P_1}:2x + ky - 5z = 1$\n${P_2}:3kx - ky + z = 5$\n$\\because {P_1}\\, \\bot \\,{P_2} \\Rightarrow 6k - {k^2} + 5 = 0$\n$ \\Rightarrow k = 1,5$\n$\\because k < 3$\n$\\therefore k = 1$\n${P_1}:2x + y - 5z = 1$\n${P_2}:3x - y + z = 5$\n$P:(2x + y - 5z - 1) + \\lambda (3x - y + z - 5) = 0$\nPositive x-axis intercept = 1\n$ \\Rightarrow {{1 + 5\\lambda } \\over {2 + 3\\lambda }} = 1$\n$ \\Rightarrow \\lambda  = {1 \\over 2}$\n$\\therefore P:7x + y - 4z = 7$\ny intercept = 7.",
+    "chapter": "3D Geometry",
+    "topic": "3D Geometry"
+  },
+  {
+    "id": 544,
+    "question": "The system of equations  $\\matrix{    {\\alpha \\,x + y + z = \\alpha  - 1}  \\cr     {x + \\alpha y + z = \\alpha  - 1}  \\cr     {x + y + \\alpha \\,z = \\alpha  - 1}  \\cr    }$ has no solutions, if$\\alpha$ is :",
+    "options": [
+      "$-2$",
+      "either $-2$ or $1$",
+      "not $-2$",
+      "$1$"
+    ],
+    "correct": 0,
+    "solution": "$ax + y + z = \\alpha  - 1$\n$x + \\alpha \\,y + z = \\alpha  - 1;$\n$x + y + z\\alpha  = \\alpha  - 1$\n$\\Delta  = \\left| {\\matrix{\n   \\alpha  &amp; 1 &amp; 1  \\cr \n   1 &amp; \\alpha  &amp; 1  \\cr \n   1 &amp; 1 &amp; \\alpha   \\cr \n } } \\right|$\n$ = \\alpha \\left( {{\\alpha ^2} - 1} \\right) - 1\\left( {\\alpha  - 1} \\right) + 1\\left( {1 - \\alpha } \\right)$\n$ = \\alpha \\left( {\\alpha  - 1} \\right)\\left( {\\alpha  + 1} \\right) - 1\\left( {\\alpha  - 1} \\right) - 1\\left( {\\alpha  - 1} \\right)$\nFor infinite solutions, $\\Delta  = 0$\n$ \\Rightarrow \\left( {\\alpha  - 1} \\right)\\left[ {{\\alpha ^2} + \\alpha  - 1 - 1} \\right] = 0$\n$ \\Rightarrow \\left( {\\alpha  - 1} \\right)\\left[ {{\\alpha ^2} + \\alpha  - 2} \\right] = 0$ \n$ \\Rightarrow \\alpha  =  - 2,1;$\nBut$\\alpha  \\ne 1.\\,\\,\\, \\therefore \\,\\,\\alpha  =  - 2$",
+    "chapter": "Matrices And Determinants",
+    "topic": "Matrices And Determinants"
+  },
+  {
+    "id": 545,
+    "question": "$\\int_\\limits0^{\\pi / 4} \\frac{\\cos ^2 x \\sin ^2 x}{\\left(\\cos ^3 x+\\sin ^3 x\\right)^2} d x \\text { is equal to }$",
+    "options": [
+      "1/9",
+      "1/6",
+      "1/3",
+      "1/12"
+    ],
+    "correct": 1,
+    "solution": "$\\begin{aligned}\n& \\int_\\limits0^{\\pi / 4} \\frac{\\cos ^2 x \\cdot \\sin ^2 x}{\\left(\\cos ^3 x+\\sin ^3 x\\right)^2} d x \\\\\n& =\\int_\\limits0^{\\pi / 4} \\frac{\\tan ^2 x \\cdot \\sec ^2 x}{\\left(1+\\tan ^3 x\\right)^2} d x\n\\end{aligned}$\nLet$\\tan x=t$\n$\\int_\\limits0^1 \\frac{t^2 d t}{\\left(1+t^3\\right)^2}$\nLet$1+t^3=\\mathrm{z}$\n$\\begin{gathered}\n3 t^2 d t=d z \\\\\n\\frac{1}{3} \\int_\\limits1^2 \\frac{d z}{z^2}=\\left.\\frac{1}{3}\\left(-\\frac{1}{z}\\right)\\right|_1 ^2 \\\\\n=-\\frac{1}{3}\\left(\\frac{1}{2}-1\\right)=\\frac{1}{6}\\end{gathered}$",
+    "chapter": "Definite Integration",
+    "topic": "Definite Integration"
+  },
+  {
+    "id": 546,
+    "question": "If ${e^{\\left( {{{\\cos }^2}x + {{\\cos }^4}x + {{\\cos }^6}x + ...\\infty } \\right){{\\log }_e}2}}$ satisfies the equation t2 - 9t + 8 = 0, then the value of ${{2\\sin x} \\over {\\sin x + \\sqrt 3 \\cos x}}\\left( {0 &lt; x &lt; {\\pi  \\over 2}} \\right)$ is :",
+    "options": [
+      "$\\sqrt 3 $",
+      "${3 \\over 2}$",
+      "2$\\sqrt 3 $",
+      "${1 \\over 2}$"
+    ],
+    "correct": 3,
+    "solution": "${e^{({{\\cos }^2}x + {{\\cos }^4}x + ...........\\infty )\\ln 2}} = {2^{{{\\cos }^2}x + {{\\cos }^4}x + ...........\\infty }}$\n= ${2^{{{{{\\cos }^2}x} \\over {1 - {{\\cos }^2}x}}}}$\n$ = {2^{{{\\cot }^2}x}}$Given, ${t^2} - 9t + 8 = 0 \\Rightarrow t = 1,8  \\Rightarrow {2^{{{\\cot }^2}x}} = 1,8 \\Rightarrow co{t^2}x = 0,3 0 &lt; x &lt; {\\pi  \\over 2} \\Rightarrow \\cot x = \\sqrt 3   \\therefore    {{2\\sin x} \\over {\\sin x + \\sqrt 3 \\cos x}} = {2 \\over {1 + \\sqrt 3 \\cot x}} = {2 \\over 4} = {1 \\over 2}$",
+    "chapter": "Trigonometric Ratio And Identites",
+    "topic": "Trigonometric Ratio And Identites"
   },
 ];
 
