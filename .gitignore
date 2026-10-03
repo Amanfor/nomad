@@ -20,6 +20,8 @@ Thumbs.db
 
 # Android
 android/.gradle/
+# Tauri
+src-tauri/target/
 android/app/build/
 android/app/captures/
 android/app/externalNativeBuild/

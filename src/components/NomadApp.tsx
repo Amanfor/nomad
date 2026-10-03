@@ -7,6 +7,7 @@ import { MICRO_QUESTIONS, TARGET_QUESTIONS } from '../data/questions';
 import { loadPyqQuestions, loadTargetQuestions } from '../data/pyq';
 import { loadFormulaSheets } from '../data/formulas';
 import { ConceptBrowser, loadConcepts } from '../concepts';
+import { Capacitor, registerPlugin } from '@capacitor/core';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
@@ -895,7 +896,26 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
           >
             ⟨ download apk ⟩
           </a>
+          <AndroidUpdateButton />
           <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>free · installs offline</div>
+        </div>
+      </div>
+
+      {/* Desktop app: macOS / Windows / Linux (GitHub release) */}
+      <div style={{ marginTop: isMobile ? '2rem' : '3rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: isMobile ? '1.5rem' : '2rem' }}>
+        <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>desktop app</div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
+          <a
+            href="https://github.com/Amanfor/nomad/releases/latest"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="nomad-btn"
+            style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', minWidth: '200px', textAlign: 'center', textDecoration: 'none' }}
+          >
+            ⟨ macos · windows · linux ⟩
+          </a>
+          <DesktopUpdateButton />
+          <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>free · dmg · exe · appimage</div>
         </div>
       </div>
     </motion.div>
@@ -950,6 +970,114 @@ function SyncDatabaseButton({ isMobile, concepts }: { isMobile: boolean, concept
         ⟨ {busy ? 'syncing...' : 'sync database'} ⟩
       </button>
       {status && <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', wordBreak: 'break-word', textAlign: 'center' }}>{status}</div>}
+    </div>
+  );
+}
+
+const LATEST_JSON_URL = 'https://github.com/Amanfor/nomad/releases/latest/download/latest.json';
+
+const cmpVersions = (a: string, b: string) => {
+  const pa = a.split('.').map(Number), pb = b.split('.').map(Number);
+  for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+    const d = (pa[i] || 0) - (pb[i] || 0);
+    if (d !== 0) return d;
+  }
+  return 0;
+};
+
+const isTauri = () => typeof window !== 'undefined' && '__TAURI_INTERNALS__' in window;
+
+// ── Android self-update (sideloaded APK via native AppUpdater plugin) ──────
+const AppUpdater = registerPlugin<{
+  download(opts: { url: string }): Promise<{ downloadId: number }>;
+  canRequestInstalls(): Promise<{ allowed: boolean }>;
+  openInstallSettings(): Promise<{ opened: boolean }>;
+  addListener(event: 'updateEvent', cb: (info: { state: string }) => void): Promise<{ remove: () => void }>;
+}>('AppUpdater');
+
+function AndroidUpdateButton() {
+  const [status, setStatus] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [needsGrant, setNeedsGrant] = useState(false);
+  if (!Capacitor.isNativePlatform()) return null;
+
+  const check = async () => {
+    if (busy) return;
+    setBusy(true); setNeedsGrant(false); setStatus('checking...');
+    try {
+      const { App } = await import('@capacitor/app');
+      const info = await App.getInfo();
+      const res = await fetch(LATEST_JSON_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const latest = await res.json();
+      if (!latest?.version) throw new Error('bad update manifest');
+      if (cmpVersions(latest.version, info.version) <= 0) {
+        setStatus(`up to date · v${info.version}`);
+        return;
+      }
+      const { allowed } = await AppUpdater.canRequestInstalls();
+      if (!allowed) {
+        setStatus(`v${latest.version} available · permission needed`);
+        setNeedsGrant(true);
+        setBusy(false);
+        return;
+      }
+      setStatus(`downloading v${latest.version}...`);
+      await AppUpdater.addListener('updateEvent', (e) => {
+        if (e.state === 'ready') setStatus('download done · confirm install');
+        else if (e.state === 'failed') { setStatus('download failed'); setBusy(false); }
+      });
+      await AppUpdater.download({ url: 'https://github.com/Amanfor/nomad/releases/latest/download/nomad.apk' });
+    } catch (e: any) {
+      setStatus(`failed: ${e.message || e}`);
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', alignItems: 'center' }}>
+      <button className="nomad-btn"
+        onClick={needsGrant ? (async () => { await AppUpdater.openInstallSettings(); setNeedsGrant(false); setStatus('enabled? tap check again'); }) : check}
+        disabled={busy}
+        style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', minWidth: '200px', opacity: busy ? 0.5 : 1 }}>
+        ⟨ {needsGrant ? 'allow installs' : 'check for update'} ⟩
+      </button>
+      {status && <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>{status}</div>}
+    </div>
+  );
+}
+
+// ── Desktop self-update (Tauri updater, signed bundles) ────────────────────
+function DesktopUpdateButton() {
+  const [status, setStatus] = useState('');
+  const [busy, setBusy] = useState(false);
+  if (!isTauri()) return null;
+
+  const check = async () => {
+    if (busy) return;
+    setBusy(true); setStatus('checking...');
+    try {
+      const { check } = await import('@tauri-apps/plugin-updater');
+      const update = await check();
+      if (!update) { setStatus('up to date'); return; }
+      setStatus(`downloading v${update.version}...`);
+      await update.downloadAndInstall();
+      setStatus('restarting...');
+      const { relaunch } = await import('@tauri-apps/plugin-process');
+      await relaunch();
+    } catch (e: any) {
+      setStatus(`failed: ${e.message || e}`);
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', alignItems: 'center' }}>
+      <button className="nomad-btn" onClick={check} disabled={busy}
+        style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', minWidth: '200px', opacity: busy ? 0.5 : 1 }}>
+        ⟨ check for update ⟩
+      </button>
+      {status && <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>{status}</div>}
     </div>
   );
 }
