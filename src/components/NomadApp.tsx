@@ -333,6 +333,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const [direction, setDirection] = useState(1);
   const [isHoverPrev, setIsHoverPrev] = useState(false);
   const [isHoverNext, setIsHoverNext] = useState(false);
+  const [showSolutionNote, setShowSolutionNote] = useState(false);
 
   const currentQRef = useRef(currentQ);
   const selectedAnswerRef = useRef(selectedAnswer);
@@ -341,7 +342,13 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const onCloseRef = useRef(onClose);
 
   useEffect(() => { currentQRef.current = currentQ; }, [currentQ]);
-  useEffect(() => { selectedAnswerRef.current = selectedAnswer; }, [selectedAnswer]);
+  useEffect(() => {
+    setShowSolutionNote(false);
+  }, [currentQ, questions]);
+
+  useEffect(() => {
+    selectedAnswerRef.current = selectedAnswer;
+  }, [selectedAnswer]);
   useEffect(() => { answersRef.current = answers; }, [answers]);
   useEffect(() => { showResultsRef.current = showResults; }, [showResults]);
   useEffect(() => { onCloseRef.current = onClose; }, [onClose]);
@@ -799,6 +806,23 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
                     );
                   })}
                 </div>
+                {q && selectedAnswer !== null && (q as any).solution && (q as any).solution.trim().length > 0 && (
+                  <div style={{ marginTop: '1.75rem', width: '100%', maxWidth: '400px', textAlign: 'center' }}>
+                    <button
+                      onClick={() => setShowSolutionNote(prev => !prev)}
+                      className="nomad-btn"
+                      style={{ border: '1px solid rgba(255,255,255,0.2)', borderRadius: 4, padding: '0.6rem 1.2rem', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '0.12em' }}
+                    >
+                      ⟨ {showSolutionNote ? 'conceal solution' : 'see solution'} ⟩
+                    </button>
+                    {showSolutionNote && (
+                      <div
+                        style={{ marginTop: '1.5rem', textAlign: 'left', fontSize: '0.85rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.7, fontWeight: 300 }}
+                        dangerouslySetInnerHTML={{ __html: renderInlineLatex((q as any).solution) }}
+                      />
+                    )}
+                  </div>
+                )}
               </motion.div>
             )}
           </AnimatePresence>
