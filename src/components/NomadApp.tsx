@@ -573,29 +573,29 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   if (phase === 'browse') {
     return (
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: "'Inter', sans-serif", color: '#fff' }}>
-        <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <button onClick={onClose} className="nomad-btn">⟨ exit ⟩</button>
-          <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>chapter select</div>
-          <button onClick={() => setPhase('menu')} className="nomad-btn">⟨ back ⟩</button>
+        <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.75rem' }}>
+          <button onClick={onClose} className="nomad-btn" style={{ flexShrink: 0 }}>⟨ exit ⟩</button>
+          <div style={{ flex: 1, minWidth: 0, textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>chapter select</div>
+          <button onClick={() => setPhase('menu')} className="nomad-btn" style={{ flexShrink: 0 }}>⟨ back ⟩</button>
         </div>
-        <div className="nomad-practice-scroll" style={{ marginTop: '4.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 6rem' }}>
+        <div className="nomad-practice-scroll" style={{ marginTop: '4.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 7rem', boxSizing: 'border-box' }}>
           {chapterGroups.map(g => {
             const active = selectedChapters.has(g.key);
             return (
               <div key={g.key} style={{ width: '100%', marginBottom: '1.25rem' }}>
                 <button
                   onClick={() => toggleChapter(g.key)}
-                  style={{ width: '100%', background: 'none', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.06)', padding: '0.9rem 0', color: active ? '#fff' : 'rgba(255,255,255,0.4)', fontSize: '0.95rem', fontWeight: 300, letterSpacing: '0.04em', display: 'flex', justifyContent: 'space-between', cursor: 'pointer', textAlign: 'left', transition: 'color 0.2s' }}
+                  style={{ width: '100%', background: 'none', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.06)', padding: '0.9rem 0', color: active ? '#fff' : 'rgba(255,255,255,0.4)', fontSize: '0.95rem', fontWeight: 300, letterSpacing: '0.04em', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', cursor: 'pointer', textAlign: 'left', transition: 'color 0.2s' }}
                 >
-                  <span>{active ? '[ x ]' : '[   ]'} {pretty(g.label)}</span>
-                  <span style={{ opacity: 0.4, fontSize: '0.75rem' }}>{g.count}</span>
+                  <span style={{ flex: 1, minWidth: 0, lineHeight: 1.5, overflowWrap: 'break-word' as any }}>{active ? '[ x ]' : '[   ]'} {pretty(g.label)}</span>
+                  <span style={{ flexShrink: 0, marginTop: '0.15rem', opacity: 0.4, fontSize: '0.75rem' }}>{g.count}</span>
                 </button>
               </div>
             );
           })}
         </div>
-        <div style={{ position: 'absolute', bottom: '1.5rem', left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
-          <button onClick={startCustom} disabled={matchedCount === 0} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.3)', padding: '0.8rem 1.75rem', borderRadius: 4, opacity: matchedCount === 0 ? 0.3 : 1 }}>
+        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, display: 'flex', justifyContent: 'center', padding: '2.5rem 1.5rem calc(1.5rem + env(safe-area-inset-bottom))', background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 45%)', pointerEvents: 'none' }}>
+          <button onClick={startCustom} disabled={matchedCount === 0} className="nomad-btn" style={{ pointerEvents: 'auto', border: '1px solid rgba(255,255,255,0.3)', background: '#000', padding: '0.8rem 1.75rem', borderRadius: 4, opacity: matchedCount === 0 ? 0.3 : 1, whiteSpace: 'nowrap' }}>
             ⟨ start practice · {matchedCount} ⟩
           </button>
         </div>
@@ -2079,9 +2079,8 @@ export default function NomadApp() {
           className={`nomad-btn ${isFormulasOpen || settings.alwaysGlow || gazingAt === 'formulas' ? 'active' : ''}`}
           style={{
             position: 'fixed',
-            bottom: isMobile ? '7.5rem' : '5.5rem',
-            left: isMobile ? '1.5rem' : 'auto',
-            right: isMobile ? 'auto' : '1.5rem',
+            bottom: '5.5rem',
+            right: '1.5rem',
             zIndex: 50,
             fontSize: '0.55rem',
             pointerEvents: introActive ? 'none' : 'auto',
