@@ -2057,7 +2057,8 @@ export default function NomadApp() {
           style={{
             position: 'fixed',
             bottom: '5.5rem',
-            left: '1.5rem',
+            left: isMobile ? '1.5rem' : 'auto',
+            right: isMobile ? 'auto' : '1.5rem',
             zIndex: 50,
             fontSize: '0.55rem',
             pointerEvents: introActive ? 'none' : 'auto',
