@@ -16,7 +16,11 @@ export function loadPyqQuestions(): Promise<any[]> {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const arr = await res.json();
       if (!Array.isArray(arr) || arr.length === 0) throw new Error('empty database');
-      return arr;
+      return arr.map((q: any) => ({
+        ...q,
+        chapter: typeof q.chapter === 'string' && q.chapter ? q.chapter : 'general',
+        topic: typeof q.topic === 'string' && q.topic ? q.topic : 'general',
+      }));
     } catch {
       return TARGET_QUESTIONS as any[];
     }

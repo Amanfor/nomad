@@ -935,6 +935,13 @@ function SyncDatabaseButton({ isMobile, concepts }: { isMobile: boolean, concept
   );
 }
 
+class OverlayErrorBoundary extends React.Component<{ children: any }, { err: string | null }> {
+  constructor(props: any) { super(props); this.state = { err: null }; }
+  static getDerivedStateFromError(err: any) { return { err: String(err?.message || err) }; }
+  componentDidCatch(err: any, info: any) { console.error('[OverlayErrorBoundary]', err?.message, info?.componentStack); }
+  render() { return this.state.err ? <div style={{ color: '#f00', padding: '2rem', width: '80vw', maxWidth: 900 }}>{this.state.err}</div> : this.props.children; }
+}
+
 function FormulaSheetsOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: boolean }) {
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [selectedChapter, setSelectedChapter] = useState<string | null>(null);
@@ -1980,7 +1987,7 @@ export default function NomadApp() {
       {/* Exit Browse Concepts handled inside ConceptBrowser's sticky header */}
 
       <AnimatePresence>
-        {isPractice && <PracticeOverlay onClose={() => setIsPractice(false)} />}
+        {isPractice && <OverlayErrorBoundary><PracticeOverlay onClose={() => setIsPractice(false)} /></OverlayErrorBoundary>}
       </AnimatePresence>
 
       <AnimatePresence>
