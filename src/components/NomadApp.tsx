@@ -1093,6 +1093,7 @@ export default function NomadApp() {
   const readingStartRef = useRef<number | null>(null);
   const currentNoteRef = useRef<string | null>(null);
 
+  const [settingsLoaded, setSettingsLoaded] = useState(false);
   useEffect(() => {
     try {
       const saved = localStorage.getItem('nomad-settings');
@@ -1103,6 +1104,7 @@ export default function NomadApp() {
     } catch (e) {
       console.error('Failed to parse nomad-settings:', e);
     }
+    setSettingsLoaded(true);
   }, []);
 
   const setSettings = (newSettings: Settings) => {
@@ -1189,8 +1191,13 @@ export default function NomadApp() {
   const pendingLineRef = useRef<HTMLAudioElement | null>(null);
   const unlockAudio = useCallback(() => {
     const el = pendingLineRef.current;
-    pendingLineRef.current = null;
-    if (el) el.play().catch(() => {});
+    if (!el) return;
+    // Only clear the parked line once playback actually starts; a failed
+    // attempt (e.g. synthesized, untrusted event) must not consume it,
+    // otherwise the line is silently lost.
+    el.play()
+      .then(() => { if (pendingLineRef.current === el) pendingLineRef.current = null; })
+      .catch(() => {});
   }, []);
   useEffect(() => {
     window.addEventListener('pointerdown', unlockAudio);
@@ -1207,23 +1214,32 @@ export default function NomadApp() {
   // During the first-boot intro the sequencer owns the welcome line instead.
   useEffect(() => {
     if (introStageRef.current !== null) { hasPlayedWelcomeRef.current = true; return; }
-    if (!settings.enableVoice || !welcomeAudioRef.current || hasPlayedWelcomeRef.current) return;
+    if (!settingsLoaded || !settings.enableVoice || !welcomeAudioRef.current || hasPlayedWelcomeRef.current) return;
     hasPlayedWelcomeRef.current = true;
     welcomeAudioRef.current.play().catch((err) => {
       if (err && err.name === 'NotAllowedError') pendingLineRef.current = welcomeAudioRef.current;
     });
-  }, [settings.enableVoice]);
+  }, [settings.enableVoice, settingsLoaded]);
 
   // Play paranoia voice whenever multi-eye mode triggers (intro stage 6 plays
   // its own reminder line instead, so it is suppressed there).
   useEffect(() => {
     if (introStageRef.current !== null) return;
-    if (!settings.enableVoice || !paranoiaAudioRef.current || !isMultiEye) return;
+    if (!settingsLoaded || !settings.enableVoice || !paranoiaAudioRef.current || !isMultiEye) return;
     paranoiaAudioRef.current.currentTime = 0;
     paranoiaAudioRef.current.play().catch((err) => {
       if (err && err.name === 'NotAllowedError') pendingLineRef.current = paranoiaAudioRef.current;
     });
-  }, [settings.enableVoice, isMultiEye]);
+  }, [settings.enableVoice, isMultiEye, settingsLoaded]);
+
+  // Immediately stop any playing voice line when the user disables voices.
+  useEffect(() => {
+    if (!settings.enableVoice) {
+      welcomeAudioRef.current?.pause();
+      paranoiaAudioRef.current?.pause();
+      pendingLineRef.current = null;
+    }
+  }, [settings.enableVoice]);
   // Comprehensive, solution-ready target bank (curated TARGET + deduped
   // solution-ready PYQs from public/pyq-database.json).
   const [targetDb, setTargetDb] = useState<any[] | null>(null);
