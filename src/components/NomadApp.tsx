@@ -1410,8 +1410,7 @@ export const TARGET_QUESTIONS = [
     "solution": "Let the capacitance of each capacitor be $C$.\nIn series, equivalent capacitance $C_s = \\frac{C}{2}$.\nIn parallel, equivalent capacitance $C_p = 2C$.\nRatio $C_s : C_p = \\frac{C}{2} : 2C = 1:4$.",
     "chapter": "Electrostatics",
     "topic": "Capacitance"
-  }
-,
+  },
   {
   "id": 306,
   "chapter": "Heat and Thermodynamics",
@@ -2303,7 +2302,6 @@ export const TARGET_QUESTIONS = [
     "chapter": "Work, Power and Energy",
     "topic": "Work-Power-And-Energy"
   },
-,
   {
     "id": 380,
     "question": "A body of mass 'm' dropped from a height 'h' reaches the ground with a speed of 0.8$\\sqrt {gh}$. The value of workdone by the air-friction is :",
