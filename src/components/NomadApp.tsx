@@ -862,7 +862,7 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
           { key: 'enableBlinking' as keyof Settings, label: 'Random Blinking' },
           { key: 'enableGaze' as keyof Settings, label: 'UI Gazing (Eye looks at buttons)' },
           { key: 'disableEye' as keyof Settings, label: 'Disable Eye Graphic' },
-          { key: 'enableVoice' as keyof Settings, label: 'Enable Voices (Welcome / Paranoia)' },
+          { key: 'enableVoice' as keyof Settings, label: 'Enable Voices (Welcome)' },
           { key: 'enableBuzz' as keyof Settings, label: 'Enable Buzz Sound (Practice)' },
         ].map(({ key, label }) => (
           <div key={key} style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'flex-start' : 'center', borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: isMobile ? '0.5rem' : '1rem', gap: isMobile ? '0.5rem' : '0' }}>
@@ -1293,7 +1293,6 @@ export default function NomadApp() {
   const introShow = (min: number) => !introActive || (introStage as number) >= min;
   const searching = query.trim().length > 0;
   const welcomeAudioRef = useRef<HTMLAudioElement | null>(null);
-  const paranoiaAudioRef = useRef<HTMLAudioElement | null>(null);
   const hasPlayedWelcomeRef = useRef(false);
 
   // ── Autoplay guard ─────────────────────────────────────────
@@ -1334,22 +1333,10 @@ export default function NomadApp() {
     });
   }, [settings.enableVoice, settingsLoaded]);
 
-  // Play paranoia voice whenever multi-eye mode triggers (intro stage 6 plays
-  // its own reminder line instead, so it is suppressed there).
-  useEffect(() => {
-    if (introStageRef.current !== null) return;
-    if (!settingsLoaded || !settings.enableVoice || !paranoiaAudioRef.current || !isMultiEye) return;
-    paranoiaAudioRef.current.currentTime = 0;
-    paranoiaAudioRef.current.play().catch((err) => {
-      if (err && err.name === 'NotAllowedError') pendingLineRef.current = paranoiaAudioRef.current;
-    });
-  }, [settings.enableVoice, isMultiEye, settingsLoaded]);
-
   // Immediately stop any playing voice line when the user disables voices.
   useEffect(() => {
     if (!settings.enableVoice) {
       welcomeAudioRef.current?.pause();
-      paranoiaAudioRef.current?.pause();
       pendingLineRef.current = null;
     }
   }, [settings.enableVoice]);
@@ -1915,7 +1902,6 @@ export default function NomadApp() {
         @keyframes nomad-tip-pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 0.2; } }
       `}</style>
       <audio ref={welcomeAudioRef} src={asset("welcome_to_nomad.mp3")} preload="auto" />
-      <audio ref={paranoiaAudioRef} src={asset("paranoia_activated.mp3")} preload="auto" />
 
       {/* First-boot hint: shown only until the first tap/key. */}
       {introWaitingForGesture && (
