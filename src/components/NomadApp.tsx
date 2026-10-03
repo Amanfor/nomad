@@ -905,15 +905,7 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
       <div style={{ marginTop: isMobile ? '2rem' : '3rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: isMobile ? '1.5rem' : '2rem' }}>
         <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>desktop app</div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
-          <a
-            href="https://github.com/Amanfor/nomad/releases/latest"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nomad-btn"
-            style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', minWidth: '200px', textAlign: 'center', textDecoration: 'none' }}
-          >
-            ⟨ macos · windows · linux ⟩
-          </a>
+          <DesktopDownloads />
           <DesktopUpdateButton />
           <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>free · dmg · exe · appimage</div>
         </div>
@@ -1079,6 +1071,33 @@ function DesktopUpdateButton() {
       </button>
       {status && <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>{status}</div>}
     </div>
+  );
+}
+
+// ── Desktop downloads: per-OS buttons built from latest.json (never rot) ────
+function DesktopDownloads() {
+  const [version, setVersion] = useState<string | null>(null);
+  useEffect(() => {
+    fetch(LATEST_JSON_URL, { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : null)
+      .then(j => { if (j?.version) setVersion(j.version); })
+      .catch(() => {});
+  }, []);
+  const btn = { border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', minWidth: '200px', textAlign: 'center' as const, textDecoration: 'none' };
+  if (!version) {
+    return (
+      <a href="https://github.com/Amanfor/nomad/releases/latest" target="_blank" rel="noopener noreferrer" className="nomad-btn" style={btn}>
+        ⟨ macos · windows · linux ⟩
+      </a>
+    );
+  }
+  const dl = (file: string) => `https://github.com/Amanfor/nomad/releases/latest/download/${file}`;
+  return (
+    <>
+      <a href={dl(`nomad_${version}_universal.dmg`)} className="nomad-btn" style={btn}>⟨ macos · dmg ⟩</a>
+      <a href={dl(`nomad_${version}_x64-setup.exe`)} className="nomad-btn" style={btn}>⟨ windows · exe ⟩</a>
+      <a href={dl(`nomad_${version}_amd64.AppImage`)} className="nomad-btn" style={btn}>⟨ linux · appimage ⟩</a>
+    </>
   );
 }
 
