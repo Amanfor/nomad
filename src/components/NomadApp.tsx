@@ -852,7 +852,7 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
   };
   
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', overflowY: 'auto', padding: '4.5rem 1rem 3rem', boxSizing: 'border-box' }}>
       <button onClick={onClose} className="nomad-btn" style={{ position: 'absolute', top: '1.5rem', left: '1.5rem' }}>⟨ exit ⟩</button>
       
       <div style={{ ...S.headerTitle, fontSize: isMobile ? '0.75rem' : '0.85rem', marginBottom: isMobile ? '2rem' : '3rem' }}>SETTINGS</div>
@@ -882,6 +882,21 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
       <div style={{ marginTop: isMobile ? '2rem' : '3rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: isMobile ? '1.5rem' : '2rem' }}>
         <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>database sync</div>
         <SyncDatabaseButton isMobile={isMobile} concepts={concepts} />
+      </div>
+
+      {/* Android app download (GitHub release) */}
+      <div style={{ marginTop: isMobile ? '2rem' : '3rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: isMobile ? '1.5rem' : '2rem' }}>
+        <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>android app</div>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', alignItems: 'center' }}>
+          <a
+            href="https://github.com/Amanfor/nomad/releases/latest/download/nomad.apk"
+            className="nomad-btn"
+            style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.5rem 1.5rem', borderRadius: '4px', minWidth: '200px', textAlign: 'center', textDecoration: 'none' }}
+          >
+            ⟨ download apk ⟩
+          </a>
+          <div style={{ fontSize: '0.7rem', color: 'rgba(255,255,255,0.45)', textAlign: 'center' }}>free · installs offline</div>
+        </div>
       </div>
     </motion.div>
   );
