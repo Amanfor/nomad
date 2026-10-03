@@ -781,6 +781,36 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   );
 }
 
+function WanderOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: boolean }) {
+  const links = [
+    { label: 'Coordination Compounds', url: 'https://amanfor.github.io/coordination-compounds' },
+    { label: 'Differential Equations', url: 'https://amanfor.github.io/differential-equations' },
+    { label: 'Ray Optics', url: 'https://amanfor.github.io/ray-optics' },
+  ];
+  return (
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <button onClick={onClose} className="nomad-btn" style={{ position: 'absolute', top: '1.5rem', left: '1.5rem' }}>⟨ exit ⟩</button>
+      <div style={{ ...S.headerTitle, fontSize: isMobile ? '0.75rem' : '0.85rem', marginBottom: isMobile ? '2rem' : '3rem' }}>WANDER</div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: isMobile ? '1rem' : '1.5rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', textAlign: 'center' }}>
+        {links.map((link) => (
+          <a
+            key={link.url}
+            href={link.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'rgba(255,255,255,0.85)', fontSize: isMobile ? '1rem' : '1.1rem', fontWeight: 300, letterSpacing: '0.08em', textDecoration: 'none', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.75rem', transition: 'color 0.2s' }}
+            onMouseEnter={(e) => (e.currentTarget.style.color = '#fff')}
+            onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.85)')}
+          >
+            ⟨ {link.label} ⟩
+          </a>
+        ))}
+      </div>
+    </motion.div>
+  );
+}
+
+
 type Settings = {
   enableAnimations: boolean;
   enableParanoia: boolean;
@@ -1184,6 +1214,7 @@ export default function NomadApp() {
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [isFormulasOpen, setIsFormulasOpen] = useState(false);
+  const [isWanderOpen, setIsWanderOpen] = useState(false);
   const readingStartRef = useRef<number | null>(null);
   const currentNoteRef = useRef<string | null>(null);
 
@@ -1804,6 +1835,7 @@ export default function NomadApp() {
         setIsSettingsOpen(false);
         setIsStatsOpen(false);
         setIsFormulasOpen(false);
+        setIsWanderOpen(false);
         setIsPractice(false);
         setIsTargetMode(false);
         setQuery('');
@@ -1976,6 +2008,10 @@ export default function NomadApp() {
         {isFormulasOpen && <FormulaSheetsOverlay onClose={() => setIsFormulasOpen(false)} isMobile={isMobile} />}
       </AnimatePresence>
 
+      <AnimatePresence>
+        {isWanderOpen && <WanderOverlay onClose={() => setIsWanderOpen(false)} isMobile={isMobile} />}
+      </AnimatePresence>
+
       {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
         <button
           id="nomad-stats-btn"
@@ -1996,6 +2032,26 @@ export default function NomadApp() {
         </button>
       )}
 
+      {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
+        <button
+          id="nomad-wander-btn"
+          onClick={() => setIsWanderOpen(true)}
+          className={`nomad-btn ${isWanderOpen || settings.alwaysGlow || gazingAt === 'wander' ? 'active' : ''}`}
+          style={{
+            position: 'fixed',
+            bottom: '3.5rem',
+            left: '1.5rem',
+            zIndex: 50,
+            fontSize: '0.55rem',
+            pointerEvents: introActive ? 'none' : 'auto',
+            color: (isWanderOpen || settings.alwaysGlow || gazingAt === 'wander') ? 'rgba(255,255,255,1)' : '',
+            textShadow: (isWanderOpen || settings.alwaysGlow || gazingAt === 'wander') ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
+          }}
+        >
+          ⟨ WANDER ⟩
+        </button>
+      )}
+
       {introShow(6) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
         <button
           id="nomad-settings-btn"
@@ -2003,7 +2059,7 @@ export default function NomadApp() {
           className={`nomad-btn ${isMultiEye || settings.alwaysGlow || gazingAt === 'settings' ? 'active' : ''}`}
         style={{
           position: 'fixed',
-          bottom: '3.5rem',
+          bottom: '5.5rem',
           left: '1.5rem',
           zIndex: 50,
           fontSize: '0.55rem',
@@ -2023,7 +2079,7 @@ export default function NomadApp() {
           className={`nomad-btn ${isFormulasOpen || settings.alwaysGlow || gazingAt === 'formulas' ? 'active' : ''}`}
           style={{
             position: 'fixed',
-            bottom: '5.5rem',
+            bottom: '7.5rem',
             left: isMobile ? '1.5rem' : 'auto',
             right: isMobile ? 'auto' : '1.5rem',
             zIndex: 50,
