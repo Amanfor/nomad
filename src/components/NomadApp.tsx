@@ -5,6 +5,7 @@ import katex from 'katex';
 import { marked } from 'marked';
 import { MICRO_QUESTIONS, TARGET_QUESTIONS } from '../data/questions';
 import { loadPyqQuestions, loadTargetQuestions } from '../data/pyq';
+import { loadFormulaSheets } from '../data/formulas';
 import { ConceptBrowser, loadConcepts } from '../concepts';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
@@ -938,10 +939,17 @@ function FormulaSheetsOverlay({ onClose, isMobile }: { onClose: () => void; isMo
   const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [selectedChapter, setSelectedChapter] = useState<string | null>(null);
   const [sheetDb, setSheetDb] = useState<any[] | null>(null);
+  const [formulaSheets, setFormulaSheets] = useState<any[] | null>(null);
 
   useEffect(() => {
     let alive = true;
     loadTargetQuestions().then(r => { if (alive) setSheetDb(r); });
+    return () => { alive = false; };
+  }, []);
+
+  useEffect(() => {
+    let alive = true;
+    loadFormulaSheets().then(r => { if (alive) setFormulaSheets(r); });
     return () => { alive = false; };
   }, []);
 
@@ -952,6 +960,17 @@ function FormulaSheetsOverlay({ onClose, isMobile }: { onClose: () => void; isMo
   }, [onClose]);
 
   const grouped = useMemo(() => {
+    if (formulaSheets && formulaSheets.length) {
+      const m = new Map<string, Set<string>>();
+      for (const f of formulaSheets) {
+        const subj = (f.subject || 'general').toString().trim();
+        if (!m.has(subj)) m.set(subj, new Set());
+        m.get(subj)!.add(f.title);
+      }
+      return Array.from(m.entries())
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([s, cs]) => [s, Array.from(cs).sort()] as const);
+    }
     const list: any[] = sheetDb ?? [...MICRO_QUESTIONS, ...TARGET_QUESTIONS];
     const m = new Map<string, Set<string>>();
     for (const q of list) {
@@ -962,7 +981,7 @@ function FormulaSheetsOverlay({ onClose, isMobile }: { onClose: () => void; isMo
     return Array.from(m.entries())
       .sort(([a], [b]) => a.localeCompare(b))
       .map(([s, cs]) => [s, Array.from(cs).sort()] as const);
-  }, [sheetDb]);
+  }, [sheetDb, formulaSheets]);
 
   const pretty = (s: string) => s.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
@@ -972,18 +991,37 @@ function FormulaSheetsOverlay({ onClose, isMobile }: { onClose: () => void; isMo
       <div style={{ ...S.headerTitle, fontSize: isMobile ? '0.75rem' : '0.85rem', marginBottom: isMobile ? '1rem' : '2rem', marginTop: '1.5rem' }}>FORMULA SHEETS</div>
 
       <div className="nomad-practice-scroll" style={{ flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 3rem', boxSizing: 'border-box' }}>
-        {selectedChapter ? (
-          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'stretch' }}>
-            <button onClick={() => setSelectedChapter(null)} className="nomad-btn" style={{ alignSelf: 'flex-start', marginBottom: '0.5rem' }}>⟨ back ⟩</button>
-            <div style={{ fontSize: '1.25rem', fontWeight: 300, letterSpacing: '0.06em', color: '#fff' }}>{pretty(selectedChapter)}</div>
-            <div style={{ fontSize: '0.7rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase' }}>all formulas · coming soon</div>
-            <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1rem', color: 'rgba(255,255,255,0.65)', fontSize: '0.85rem', lineHeight: 1.7 }}>
-              <p>— key formula · {pretty(selectedChapter)} 1 (placeholder)</p>
-              <p>— key formula · {pretty(selectedChapter)} 2 (placeholder)</p>
-              <p>— derivations &amp; shortcuts (placeholder)</p>
-            </div>
-          </motion.div>
-        ) : selectedSubject ? (
+        {selectedChapter ? (() => {
+          const sheet = formulaSheets?.find((f: any) => f.title === selectedChapter);
+          const groups: Array<[string, string[] | undefined]> = [
+            ['# most important', sheet?.mostImportant],
+            ['# important', sheet?.important],
+            ['# others', sheet?.others],
+          ];
+          return (
+            <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'stretch' }}>
+              <button onClick={() => setSelectedChapter(null)} className="nomad-btn" style={{ alignSelf: 'flex-start', marginBottom: '0.5rem' }}>⟨ back ⟩</button>
+              <div style={{ fontSize: '1.25rem', fontWeight: 300, letterSpacing: '0.06em', color: '#fff' }}>{pretty(selectedChapter)}</div>
+              <div style={{ fontSize: '0.7rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase' }}>{sheet?.subject ? sheet.subject + ' · ' : ''}{sheet ? (sheet.mostImportant?.length ?? 0) + (sheet.important?.length ?? 0) + (sheet.others?.length ?? 0) + ' formulas' : 'sheet pending'}</div>
+              {sheet ? (
+                groups.map(([label, items]) => (items && items.length > 0 ? (
+                  <section key={label} style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1rem' }}>
+                    <div style={{ fontSize: '0.85rem', letterSpacing: '0.18em', color: 'rgba(255,255,255,0.55)', textTransform: 'uppercase', marginBottom: '0.75rem' }}>{label}</div>
+                    {items.map((tex: string, i: number) => (
+                      <div key={i} style={{ marginBottom: '0.75rem', color: 'rgba(255,255,255,0.85)', fontSize: '0.95rem', lineHeight: 1.5 }} dangerouslySetInnerHTML={{ __html: renderInlineLatex(tex) }} />
+                    ))}
+                  </section>
+                ) : null))
+              ) : (
+                <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1rem', color: 'rgba(255,255,255,0.65)', fontSize: '0.85rem', lineHeight: 1.7 }}>
+                  <p>— key formula · {pretty(selectedChapter)} 1 (placeholder)</p>
+                  <p>— key formula · {pretty(selectedChapter)} 2 (placeholder)</p>
+                  <p>— derivations &amp; shortcuts (placeholder)</p>
+                </div>
+              )}
+            </motion.div>
+          );
+        })() : selectedSubject ? (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
             <button onClick={() => setSelectedSubject(null)} className="nomad-btn" style={{ marginBottom: '1rem' }}>⟨ back ⟩</button>
             <div style={{ fontSize: '1.1rem', letterSpacing: '0.08em', color: 'rgba(255,255,255,0.6)', marginBottom: '1rem' }}>{pretty(selectedSubject)}</div>
