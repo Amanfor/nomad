@@ -9,6 +9,7 @@ import com.getcapacitor.BridgeActivity;
 public class MainActivity extends BridgeActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        registerPlugin(AppUpdaterPlugin.class);
         super.onCreate(savedInstanceState);
         // Allow intro voice lines and buzzer to play without a tap.
         new Handler(Looper.getMainLooper()).post(() -> {
