@@ -23,3 +23,28 @@ export function loadPyqQuestions(): Promise<any[]> {
   })();
   return cache;
 }
+
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '');
+/** Solution-ready check: a real explanation, not empty / marker residue. */
+const isSolutionReady = (q: any) =>
+  typeof q.solution === 'string' && q.solution.trim().length >= 40 &&
+  !q.solution.startsWith('[!success');
+
+let targetCache: Promise<any[]> | null = null;
+
+/** Target-mode bank: existing curated TARGET questions + all
+ *  solution-ready comprehensive entries from the PYQ database. */
+export function loadTargetQuestions(): Promise<any[]> {
+  if (targetCache) return targetCache;
+  targetCache = (async () => {
+    try {
+      const pyq = await loadPyqQuestions();
+      const seen = new Set(TARGET_QUESTIONS.map(q => norm(q.question).slice(0, 160)));
+      const extra = pyq.filter((q: any) => isSolutionReady(q) && !seen.has(norm(q.question).slice(0, 160)));
+      return [...TARGET_QUESTIONS, ...extra] as any[];
+    } catch {
+      return TARGET_QUESTIONS as any[];
+    }
+  })();
+  return targetCache;
+}

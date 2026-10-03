@@ -4,7 +4,7 @@ import Fuse from 'fuse.js';
 import katex from 'katex';
 import { marked } from 'marked';
 import { MICRO_QUESTIONS, TARGET_QUESTIONS } from '../data/questions';
-import { loadPyqQuestions } from '../data/pyq';
+import { loadPyqQuestions, loadTargetQuestions } from '../data/pyq';
 import { ConceptBrowser, loadConcepts } from '../concepts';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
@@ -276,7 +276,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const [loadingPyq, setLoadingPyq] = useState(true);
 
   const allQuestions = useMemo(
-    () => [...MICRO_QUESTIONS, ...TARGET_QUESTIONS, ...(pyqDb ?? [])],
+    () => [...MICRO_QUESTIONS, ...(pyqDb ?? TARGET_QUESTIONS)],
     [pyqDb]
   );
 
@@ -1224,9 +1224,18 @@ export default function NomadApp() {
       if (err && err.name === 'NotAllowedError') pendingLineRef.current = paranoiaAudioRef.current;
     });
   }, [settings.enableVoice, isMultiEye]);
+  // Comprehensive, solution-ready target bank (curated TARGET + deduped
+  // solution-ready PYQs from public/pyq-database.json).
+  const [targetDb, setTargetDb] = useState<any[] | null>(null);
+  useEffect(() => {
+    let alive = true;
+    loadTargetQuestions().then(r => { if (alive) setTargetDb(r); });
+    return () => { alive = false; };
+  }, []);
+
   const questionFuse = useMemo(() => {
     if (!isTargetMode) return null;
-    return new Fuse(TARGET_QUESTIONS, {
+    return new Fuse(targetDb ?? TARGET_QUESTIONS, {
       keys: [
       { name: 'chapter', weight: 3 },
       { name: 'topic', weight: 2 },
@@ -1235,7 +1244,7 @@ export default function NomadApp() {
       threshold: 0.4,
       ignoreLocation: true,
     });
-  }, [isTargetMode]);
+  }, [isTargetMode, targetDb]);
   
   const containerControls = useAnimation(); 
   const inputControls = useAnimation(); 
@@ -1909,7 +1918,7 @@ export default function NomadApp() {
       {introShow(6) && !selected && !selectedQuestion && !isBrowsingConcepts && <JEECountdown isMobile={isMobile} gazingAt={gazingAt} isMultiEye={isMultiEye} alwaysGlow={settings.alwaysGlow} />}
 
       {/* Pinned DATABASE footer only on mobile; desktop shows it below the search bar */}
-      {isMobile && introShow(5) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isBrowsingQuestions && <Footer alwaysGlow={settings.alwaysGlow} isMultiEye={isMultiEye} count={isTargetMode ? TARGET_QUESTIONS.length : concepts.length} unit={isTargetMode ? 'QUESTIONS' : undefined} isMobile={isMobile} gazingAt={gazingAt} onConceptClick={() => { if (introActive) return; if (isTargetMode) { setTargetBrowseResults(TARGET_QUESTIONS); setQuestionLimit(24); setIsBrowsingQuestions(true); setIsBrowsingConcepts(false); setSelectedQuestion(null); setSelected(null); } else { setIsBrowsingConcepts(true); setSelectedQuestion(null); setSelected(null); } }} />}
+      {isMobile && introShow(5) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isBrowsingQuestions && <Footer alwaysGlow={settings.alwaysGlow} isMultiEye={isMultiEye} count={isTargetMode ? (targetDb ? targetDb.length : TARGET_QUESTIONS.length) : concepts.length} unit={isTargetMode ? 'QUESTIONS' : undefined} isMobile={isMobile} gazingAt={gazingAt} onConceptClick={() => { if (introActive) return; if (isTargetMode) { setTargetBrowseResults(targetDb ?? TARGET_QUESTIONS); setQuestionLimit(24); setIsBrowsingQuestions(true); setIsBrowsingConcepts(false); setSelectedQuestion(null); setSelected(null); } else { setIsBrowsingConcepts(true); setSelectedQuestion(null); setSelected(null); } }} />}
 
       {/* Background Paranoia Event */}
       {isMultiEye && !selected && !selectedQuestion && !isBrowsingConcepts && !settings.disableEye && MINI_EYES.map(m => (
@@ -1988,7 +1997,7 @@ export default function NomadApp() {
 
               {/* DATABASE entry — sits directly below the search bar on desktop web */}
               {!isMobile && introShow(5) && !searching && (
-                <Footer alwaysGlow={settings.alwaysGlow} isMultiEye={isMultiEye} count={isTargetMode ? TARGET_QUESTIONS.length : concepts.length} unit={isTargetMode ? 'QUESTIONS' : undefined} isMobile={isMobile} gazingAt={gazingAt} inline onConceptClick={() => { if (introActive) return; if (isTargetMode) { setTargetBrowseResults(TARGET_QUESTIONS); setQuestionLimit(24); setIsBrowsingQuestions(true); setIsBrowsingConcepts(false); setSelectedQuestion(null); setSelected(null); } else { setIsBrowsingConcepts(true); setSelectedQuestion(null); setSelected(null); } }} />
+                <Footer alwaysGlow={settings.alwaysGlow} isMultiEye={isMultiEye} count={isTargetMode ? (targetDb ? targetDb.length : TARGET_QUESTIONS.length) : concepts.length} unit={isTargetMode ? 'QUESTIONS' : undefined} isMobile={isMobile} gazingAt={gazingAt} inline onConceptClick={() => { if (introActive) return; if (isTargetMode) { setTargetBrowseResults(targetDb ?? TARGET_QUESTIONS); setQuestionLimit(24); setIsBrowsingQuestions(true); setIsBrowsingConcepts(false); setSelectedQuestion(null); setSelected(null); } else { setIsBrowsingConcepts(true); setSelectedQuestion(null); setSelected(null); } }} />
               )}
             </motion.div>
           ) : isBrowsingConcepts ? (
