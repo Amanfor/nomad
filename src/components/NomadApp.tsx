@@ -5143,6 +5143,12 @@ export default function NomadApp() {
   useEffect(() => { introStageRef.current = introStage; }, [introStage]);
   const introActive = introStage !== null;
   const introRunRef = useRef(false);
+  // Hold the intro at stage 0 until the user touches the page. If the page
+  // is never interacted with, the tour (and its audio) never starts.
+  const [introWaitingForGesture, setIntroWaitingForGesture] = useState(() => {
+    if (typeof window === 'undefined') return false;
+    try { return !localStorage.getItem('nomad-intro-done'); } catch { return true; }
+  });
   // True once a given intro stage (or normal mode) has been reached.
   const introShow = (min: number) => !introActive || (introStage as number) >= min;
   const searching = query.trim().length > 0;
@@ -5279,8 +5285,22 @@ export default function NomadApp() {
   // ── First-boot guided intro (runs exactly once) ──────────────
   // Stage 0 eye only → 1 title/welcome → 2 search → 3 practice →
   // 4 stats → 5 database → 6 reminder + paranoia, then done.
+  // The tour only starts after the first user gesture.
   useEffect(() => {
-    if (introStageRef.current === null || introRunRef.current) return;
+    if (!introWaitingForGesture) return;
+    const start = () => setIntroWaitingForGesture(false);
+    window.addEventListener('pointerdown', start, { once: true });
+    window.addEventListener('touchstart', start, { once: true });
+    window.addEventListener('keydown', start, { once: true });
+    return () => {
+      window.removeEventListener('pointerdown', start);
+      window.removeEventListener('touchstart', start);
+      window.removeEventListener('keydown', start);
+    };
+  }, [introWaitingForGesture]);
+
+  useEffect(() => {
+    if (introStageRef.current === null || introRunRef.current || introWaitingForGesture) return;
     introRunRef.current = true;
     let cancelled = false;
     const wait = (ms: number) => new Promise<void>(r => setTimeout(r, ms));
@@ -5399,7 +5419,7 @@ export default function NomadApp() {
     })();
 
     return () => { cancelled = true; };
-  }, [inputControls, gazeAtElement, pupilX, pupilY]);
+  }, [inputControls, gazeAtElement, pupilX, pupilY, introWaitingForGesture]);
 
   // Organic Idle Loop (Blinking, Staring, Multi-Eye Event)
   useEffect(() => {
@@ -5728,9 +5748,25 @@ export default function NomadApp() {
     <div style={{ ...S.root, filter: settings.lightMode ? 'invert(1)' : 'none' }} className={settings.lightMode ? 'nomad-light' : ''}>
       <style>{`
         .nomad-light img { filter: invert(1); }
+        @keyframes nomad-tip-pulse { 0%,100% { opacity: 0.55; } 50% { opacity: 0.2; } }
       `}</style>
       <audio ref={welcomeAudioRef} src={asset("welcome_to_nomad.mp3")} preload="auto" />
       <audio ref={paranoiaAudioRef} src={asset("paranoia_activated.mp3")} preload="auto" />
+
+      {/* First-boot hint: shown only until the first tap/key. */}
+      {introWaitingForGesture && (
+        <div
+          style={{
+            position: 'fixed', bottom: '12%', left: 0, right: 0, zIndex: 60,
+            textAlign: 'center', pointerEvents: 'none',
+            color: 'rgba(255,255,255,0.6)', fontSize: '0.8rem', fontWeight: 300,
+            letterSpacing: '0.25em', textTransform: 'lowercase',
+            animation: 'nomad-tip-pulse 2.4s ease-in-out infinite',
+          }}
+        >
+          click anywhere to begin
+        </div>
+      )}
 
       <TodoWidget isMobile={isMobile} alwaysGlow={settings.alwaysGlow} />
       
