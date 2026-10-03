@@ -4,6 +4,7 @@ import Fuse from 'fuse.js';
 import katex from 'katex';
 import { marked } from 'marked';
 import { MICRO_QUESTIONS, TARGET_QUESTIONS } from '../data/questions';
+import { loadPyqQuestions } from '../data/pyq';
 import { ConceptBrowser, loadConcepts } from '../concepts';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
@@ -270,7 +271,14 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const [selectedSubjects, setSelectedSubjects] = useState<Set<string>>(new Set());
   const [selectedTopics, setSelectedTopics] = useState<Set<string>>(new Set());
 
-  const allQuestions = useMemo(() => [...MICRO_QUESTIONS, ...TARGET_QUESTIONS], []);
+  // Comprehensive PYQ database (public/pyq-database.json), bundled fallback.
+  const [pyqDb, setPyqDb] = useState<any[] | null>(null);
+  const [loadingPyq, setLoadingPyq] = useState(true);
+
+  const allQuestions = useMemo(
+    () => [...MICRO_QUESTIONS, ...TARGET_QUESTIONS, ...(pyqDb ?? [])],
+    [pyqDb]
+  );
 
   const allSubjects = useMemo(() => Array.from(new Set(allQuestions.map(q => q.chapter))).sort(), [allQuestions]);
   const topicsBySubject = useMemo(() => {
@@ -434,6 +442,13 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     setPhase('quiz');
   };
 
+  // ── Load the comprehensive PYQ database once per mount ────────
+  useEffect(() => {
+    let alive = true;
+    loadPyqQuestions().then(r => { if (alive) { setPyqDb(r); setLoadingPyq(false); } });
+    return () => { alive = false; };
+  }, []);
+
   // Quick practice: 10 random questions across both banks.
   const startQuick = () => {
     const pool = [...allQuestions];
@@ -445,7 +460,10 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     setSessionLabel('quick practice');
   };
   // PYQ mode: dedicated full-length JEE Mains previous-year questions.
-  const startPyq = () => { startSession(TARGET_QUESTIONS.slice()); setSessionLabel('pyq · full length'); };
+  const startPyq = () => {
+    startSession(pyqDb && pyqDb.length ? pyqDb : TARGET_QUESTIONS.slice());
+    setSessionLabel('pyq · full length');
+  };
   const startCustom = () => {
     const qs = allQuestions.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic));
     if (qs.length > 0) { startSession(qs); setSessionLabel('custom practice'); }
@@ -553,7 +571,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
           <button onClick={startQuick} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.35)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ quick practice · 10 random questions ⟩</button>
           <button onClick={startPyq} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.25)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ pyq mode · full-length mains ⟩</button>
           <button onClick={() => setPhase('browse')} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ custom practice ⟩</button>
-          <div style={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem', letterSpacing: '0.1em', marginTop: '0.5rem' }}>pyq embeds figures where they exist</div>
+          <div style={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem', letterSpacing: '0.1em', marginTop: '0.5rem' }}>{loadingPyq ? 'loading pyq database…' : (pyqDb && pyqDb.length ? `${pyqDb.length} pyqs loaded` : 'bundle questions')}</div>
         </div>
       </motion.div>
     );
