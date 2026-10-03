@@ -45,10 +45,17 @@ src/data/context/.obsidian/
 *.tmp
 *.temp
 
-# large generated files
+# large generated files (logo/icons below are intentional exceptions)
 *.png
 *.jpg
 *.jpeg
+!logo.png
+!public/favicon.png
+!public/apple-touch-icon.png
+!public/icon-192.png
+!public/icon-512.png
+!icons/*.png
+!src-tauri/icons/*.png
 
 # environment / secrets
 .env
