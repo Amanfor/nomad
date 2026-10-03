@@ -5277,6 +5277,24 @@ export default function NomadApp() {
         a.play().catch(() => wait(fallbackMs).then(finish));
         setTimeout(finish, fallbackMs + 8000); // safety net
       });
+    // Buffer every voice line before the tour starts. Without this the first
+    // line races the network and the intro either stalls or speaks late.
+    const INTRO_VOICES = [
+      'welcome_to_nomad.mp3',
+      'intro_search.mp3',
+      'intro_practice.mp3',
+      'intro_stats.mp3',
+      'intro_database.mp3',
+      'intro_reminder.mp3',
+    ];
+    const preloadVoices = () =>
+      Promise.all(
+        INTRO_VOICES.map(f =>
+          fetch(asset(f), { cache: 'force-cache' })
+            .then(r => (r.ok ? r.arrayBuffer() : undefined))
+            .catch(() => undefined)
+        )
+      );
     const gaze = (id: string, key: string) => {
       const el = document.getElementById(id);
       if (!el) return;
@@ -5298,8 +5316,12 @@ export default function NomadApp() {
     };
 
     (async () => {
-      // Stage 0 → 1: eye finishes opening, then the title appears.
+      // Stage 0 → 1: eye finishes opening while the voice lines buffer,
+      // then the title appears only once they are ready to play.
+      const buffering = preloadVoices();
       if (!await advance(1, 2600, 800)) return;
+      await Promise.race([buffering, wait(5000)]); // slight load hold, never a hang
+      if (cancelled) return;
       gaze('nomad-title', 'title');
       await playVoice(asset('welcome_to_nomad.mp3'), 2600);
       if (cancelled) return;
