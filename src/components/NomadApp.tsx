@@ -263,14 +263,27 @@ const S = {
 
 
 function PracticeOverlay({ onClose }: { onClose: () => void }) {
-  const questions = useMemo(() => {
-    const shuffled = [...MICRO_QUESTIONS];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  // Quiz session state
+  const [questions, setQuestions] = useState<any[]>([]);
+  const [phase, setPhase] = useState<'menu' | 'browse' | 'quiz'>('menu');
+  const [selectedSubjects, setSelectedSubjects] = useState<Set<string>>(new Set());
+  const [selectedTopics, setSelectedTopics] = useState<Set<string>>(new Set());
+
+  const allSubjects = useMemo(() => Array.from(new Set(MICRO_QUESTIONS.map(q => q.chapter))).sort(), []);
+  const topicsBySubject = useMemo(() => {
+    const m: Record<string, string[]> = {};
+    for (const q of MICRO_QUESTIONS) {
+      if (!m[q.chapter]) m[q.chapter] = [];
+      if (!m[q.chapter].includes(q.topic)) m[q.chapter].push(q.topic);
     }
-    return shuffled;
+    for (const s of Object.keys(m)) m[s].sort();
+    return m;
   }, []);
+
+  const matchedCount = useMemo(
+    () => MICRO_QUESTIONS.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic)).length,
+    [selectedSubjects, selectedTopics]
+  );
 
   const [currentQ, setCurrentQ] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
@@ -396,6 +409,74 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     setIsHoverNext(false);
   };
 
+  const startSession = (qs: any[]) => {
+    // Shuffle a copy so the source bank order is never mutated.
+    const shuffled = [...qs];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    currentQRef.current = 0;
+    selectedAnswerRef.current = null;
+    answersRef.current = [];
+    showResultsRef.current = false;
+    setCurrentQ(0);
+    setSelectedAnswer(null);
+    setAnswers([]);
+    setShowResults(false);
+    setDirection(1);
+    setIsHoverPrev(false);
+    setIsHoverNext(false);
+    setQuestions(shuffled);
+    setPhase('quiz');
+  };
+
+  // Quick practice: 10 random questions from the full bank.
+  const startQuick = () => {
+    const pool = [...MICRO_QUESTIONS];
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    startSession(pool.slice(0, 10));
+  };
+  const startCustom = () => {
+    const qs = MICRO_QUESTIONS.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic));
+    if (qs.length > 0) startSession(qs);
+  };
+  const pretty = (s: string) => s.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+  const toggleSubject = (subject: string) => {
+    setSelectedSubjects(prev => {
+      const next = new Set(prev);
+      const topics = topicsBySubject[subject] || [];
+      if (next.has(subject)) {
+        next.delete(subject);
+        setSelectedTopics(tprev => {
+          const tnext = new Set(tprev);
+          for (const t of topics) tnext.delete(t);
+          return tnext;
+        });
+      } else {
+        next.add(subject);
+        setSelectedTopics(tprev => {
+          const tnext = new Set(tprev);
+          for (const t of topics) tnext.add(t);
+          return tnext;
+        });
+      }
+      return next;
+    });
+  };
+
+  const toggleTopic = (topic: string) => {
+    setSelectedTopics(prev => {
+      const next = new Set(prev);
+      if (next.has(topic)) next.delete(topic); else next.add(topic);
+      return next;
+    });
+  };
+
   // Keyboard navigation
   useEffect(() => {
     // Blur any active element to ensure keyboard events are not stolen
@@ -453,6 +534,75 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const canGoPrev = !showResults && currentQ > 0;
   const canGoNext = !showResults && selectedAnswer !== null;
 
+  // ── Phase: menu ──────────────────────────────────────────────
+  if (phase === 'menu') {
+    return (
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: "'Inter', sans-serif", color: '#fff' }}>
+        <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <button onClick={onClose} className="nomad-btn">⟨ exit ⟩</button>
+          <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>practice mode</div>
+          <div style={{ width: '3rem' }} />
+        </div>
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1.25rem', padding: '0 2rem', textAlign: 'center' }}>
+          <button onClick={startQuick} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.35)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ quick practice · 10 random questions ⟩</button>
+          <button onClick={() => setPhase('browse')} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ custom practice ⟩</button>
+          <div style={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem', letterSpacing: '0.1em', marginTop: '0.5rem' }}>custom lets you pick subjects &amp; chapters</div>
+        </div>
+      </motion.div>
+    );
+  }
+
+  // ── Phase: browse (pick subjects/chapters) ───────────────────
+  if (phase === 'browse') {
+    return (
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: "'Inter', sans-serif", color: '#fff' }}>
+        <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <button onClick={onClose} className="nomad-btn">⟨ exit ⟩</button>
+          <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>subject select</div>
+          <button onClick={() => setPhase('menu')} className="nomad-btn">⟨ back ⟩</button>
+        </div>
+        <div className="nomad-practice-scroll" style={{ marginTop: '4.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 6rem' }}>
+          {allSubjects.map(subject => {
+            const active = selectedSubjects.has(subject);
+            const count = MICRO_QUESTIONS.filter(q => q.chapter === subject).length;
+            return (
+              <div key={subject} style={{ width: '100%', marginBottom: '1.25rem' }}>
+                <button
+                  onClick={() => toggleSubject(subject)}
+                  style={{ width: '100%', background: 'none', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.06)', padding: '0.9rem 0', color: active ? '#fff' : 'rgba(255,255,255,0.4)', fontSize: '0.95rem', fontWeight: 300, letterSpacing: '0.04em', display: 'flex', justifyContent: 'space-between', cursor: 'pointer', textAlign: 'left', transition: 'color 0.2s' }}
+                >
+                  <span>{active ? '[ x ] ' : '[   ] '}{pretty(subject)}</span>
+                  <span style={{ opacity: 0.4, fontSize: '0.75rem' }}>{count}</span>
+                </button>
+                {active && (
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.75rem', paddingLeft: '0.5rem' }}>
+                    {(topicsBySubject[subject] || []).map(topic => {
+                      const on = selectedTopics.has(topic);
+                      return (
+                        <button
+                          key={topic}
+                          onClick={() => toggleTopic(topic)}
+                          style={{ background: 'none', border: `1px solid ${on ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.12)'}`, borderRadius: 4, padding: '0.45rem 0.8rem', color: on ? '#fff' : 'rgba(255,255,255,0.35)', fontSize: '0.75rem', letterSpacing: '0.03em', cursor: 'pointer', transition: 'border-color 0.2s, color 0.2s' }}
+                        >
+                          {pretty(topic)}
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+        <div style={{ position: 'absolute', bottom: '1.5rem', left: 0, right: 0, display: 'flex', justifyContent: 'center' }}>
+          <button onClick={startCustom} disabled={matchedCount === 0} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.3)', padding: '0.8rem 1.75rem', borderRadius: 4, opacity: matchedCount === 0 ? 0.3 : 1 }}>
+            ⟨ start practice · {matchedCount} ⟩
+          </button>
+        </div>
+      </motion.div>
+    );
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -468,7 +618,10 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     >
       {/* Header */}
       <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <button onClick={onClose} className="nomad-btn">⟨ exit ⟩</button>
+        <div style={{ display: 'flex', gap: '0.75rem' }}>
+          <button onClick={onClose} className="nomad-btn">⟨ exit ⟩</button>
+          <button onClick={() => setPhase('menu')} className="nomad-btn">⟨ menu ⟩</button>
+        </div>
         <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>practice mode</div>
         <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em' }}>{score} / {questions.length}</div>
       </div>
@@ -545,7 +698,10 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
         {showResults ? (
           <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ textAlign: 'center' }}>
             <div style={{ fontSize: '3rem', fontWeight: 300, marginBottom: '2rem' }}>{score} / {questions.length} correct</div>
-            <button onClick={handleRestart} className="nomad-btn active" style={{ border: '1px solid rgba(255,255,255,0.3)', padding: '0.75rem 1.5rem', borderRadius: 4 }}>⟨ begin again ⟩</button>
+            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
+              <button onClick={handleRestart} className="nomad-btn active" style={{ border: '1px solid rgba(255,255,255,0.3)', padding: '0.75rem 1.5rem', borderRadius: 4 }}>⟨ begin again ⟩</button>
+              <button onClick={() => setPhase('menu')} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.75rem 1.5rem', borderRadius: 4 }}>⟨ menu ⟩</button>
+            </div>
           </motion.div>
         ) : (
           <AnimatePresence mode="wait">
