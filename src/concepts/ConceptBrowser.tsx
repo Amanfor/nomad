@@ -25,6 +25,7 @@ export default function ConceptBrowser({
   );
   const [limit, setLimit] = useState(PAGE);
   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const [kindFilter, setKindFilter] = useState<'all' | 'full' | 'concept'>('all');
 
   useEffect(() => {
     let alive = true;
@@ -50,9 +51,19 @@ export default function ConceptBrowser({
     if (el.scrollTop + el.clientHeight >= el.scrollHeight - 200) {
       setLimit(prev => Math.min(prev + PAGE, concepts.length));
     }
-  }, [concepts.length]);
+  }, [concepts.length, kindFilter]);
 
-  const shown = concepts.slice(0, limit);
+  const visible = kindFilter === 'full'
+    ? concepts.filter(c => c.isFullChapter)
+    : kindFilter === 'concept'
+      ? concepts.filter(c => !c.isFullChapter)
+      : concepts;
+  const counts = {
+    all: concepts.length,
+    full: concepts.filter(c => c.isFullChapter).length,
+    concept: concepts.filter(c => !c.isFullChapter).length,
+  };
+  const shown = visible.slice(0, limit);
 
   return (
     <div
@@ -79,8 +90,32 @@ export default function ConceptBrowser({
       }}>
         <button className="nomad-btn" onClick={onExit}>⟨ exit ⟩</button>
         <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', letterSpacing: '0.15em', textTransform: 'uppercase' }}>
-          {status === 'loading' ? 'loading…' : status === 'error' ? 'failed' : `${Math.min(limit, concepts.length)} / ${concepts.length} concepts`}
+          {status === 'loading' ? 'loading…' : status === 'error' ? 'failed' : `${Math.min(limit, visible.length)} / ${visible.length} concepts`}
         </div>
+      </div>
+
+      {/* Kind chips: browse both atomic concepts and full chapter notes */}
+      <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem', flexWrap: 'wrap' }}>
+        {(['all', 'full', 'concept'] as const).map(k => (
+          <button
+            key={k}
+            onClick={() => { setKindFilter(k); setLimit(PAGE); }}
+            style={{
+              background: 'none',
+              border: `1px solid ${kindFilter === k ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.12)'}`,
+              borderRadius: 4,
+              padding: '0.35rem 0.9rem',
+              color: kindFilter === k ? '#fff' : 'rgba(255,255,255,0.4)',
+              fontSize: '0.7rem',
+              letterSpacing: '0.1em',
+              cursor: 'pointer',
+              textTransform: 'uppercase',
+              transition: 'border-color 0.2s, color 0.2s',
+            }}
+          >
+            {k}{' '}{counts[k]}
+          </button>
+        ))}
       </div>
 
       {status === 'loading' && (
@@ -118,8 +153,9 @@ export default function ConceptBrowser({
                 style={{ fontSize: '0.9rem', color: '#fff', marginBottom: '0.5rem', lineHeight: 1.3 }}
                 dangerouslySetInnerHTML={{ __html: renderLabelLatex(c.title) }}
               />
-              <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-                {c.section}
+              <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase', letterSpacing: '0.1em', display: 'flex', justifyContent: 'space-between' }}>
+                <span>{c.section || 'general'}</span>
+                <span style={{ color: c.isFullChapter ? 'rgba(160,255,160,0.7)' : 'rgba(160,200,255,0.7)' }}>{c.isFullChapter ? 'chapter' : 'concept'}</span>
               </div>
             </div>
           ))}

@@ -2143,7 +2143,7 @@ export default function NomadApp() {
                             dangerouslySetInnerHTML={{ __html: renderInlineLatex(isTargetMode ? ((r.question || '').length > 60 ? (r.question || '').substring(0, 60) + '...' : (r.question || '')) : r.title) }} 
                       />
                       <span style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.6rem', letterSpacing: '0.1em', textTransform: 'uppercase', display: 'block', marginTop: '0.2rem' }}>
-                        {isTargetMode ? `${r.chapter.toUpperCase()} · ${r.topic.toUpperCase()}` : (r as any).isFullChapter ? `${r.section} · FULL CHAPTER` : r.section}
+                        {isTargetMode ? `${r.chapter.toUpperCase()} · ${r.topic.toUpperCase()}` : ((r as any).isFullChapter ? 'chapter · full note' : 'concept · atom')}
                       </span>
                     </div>
                   )) : <div style={{ padding: '1.5rem', color: 'rgba(255,255,255,0.4)', textAlign: 'center' }}>{isTargetMode ? "no questions found" : "no concepts found"}</div>}
