@@ -817,8 +817,9 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
                     </button>
                     {showSolutionNote && (
                       <div
+                        className="nomad-prose"
                         style={{ marginTop: '1.5rem', textAlign: 'left', fontSize: '0.85rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.7, fontWeight: 300 }}
-                        dangerouslySetInnerHTML={{ __html: renderInlineLatex((q as any).solution) }}
+                        dangerouslySetInnerHTML={{ __html: renderContent((q as any).solution) }}
                       />
                     )}
                   </div>
@@ -2527,7 +2528,7 @@ export default function NomadApp() {
                   />
                   <div 
                     style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.85rem', lineHeight: 1.7 }}
-                    dangerouslySetInnerHTML={{ __html: renderInlineLatex((selectedQuestion as any).solution || '') }}
+                    dangerouslySetInnerHTML={{ __html: renderContent((selectedQuestion as any).solution || '') }}
                   />
                 </motion.div>
               )}
