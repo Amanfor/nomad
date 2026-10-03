@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:desktop": "cross-env TAURI_DESKTOP=1 astro build",
     "preview": "astro preview",
     "tauri": "tauri"
   },
@@ -28,6 +29,7 @@
     "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^2.12.1"
+    "@tauri-apps/cli": "^2.12.1",
+    "cross-env": "^10.1.0"
   }
 }
