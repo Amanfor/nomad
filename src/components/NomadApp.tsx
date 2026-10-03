@@ -269,8 +269,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const [questions, setQuestions] = useState<any[]>([]);
   const [sessionLabel, setSessionLabel] = useState('practice mode');
   const [phase, setPhase] = useState<'menu' | 'browse' | 'quiz'>('menu');
-  const [selectedSubjects, setSelectedSubjects] = useState<Set<string>>(new Set());
-  const [selectedTopics, setSelectedTopics] = useState<Set<string>>(new Set());
+  const [selectedChapters, setSelectedChapters] = useState<Set<string>>(new Set());
 
   // Comprehensive PYQ database (public/pyq-database.json), bundled fallback.
   const [pyqDb, setPyqDb] = useState<any[] | null>(null);
@@ -289,16 +288,16 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
       .replace(/[^a-z0-9\s]/g, ' ')
       .split(/\s+/)
       .filter(w => !!w && w !== 'and' && w !== 'the' && w !== 'of' && w !== 'in')
+      .map(w => w.replace(/s$/, '')) // simple plural → singular
       .sort()
       .join('');
   const chapterGroups = useMemo(() => {
-    const m = new Map<string, { key: string; label: string; count: number; topics: Set<string> }>();
+    const m = new Map<string, { key: string; label: string; count: number }>();
     for (const q of allQuestions) {
       const key = normChapter(q.chapter || '');
-      if (!m.has(key)) m.set(key, { key, label: q.chapter, count: 0, topics: new Set() });
+      if (!m.has(key)) m.set(key, { key, label: q.chapter, count: 0 });
       const g = m.get(key)!;
       g.count += 1;
-      if (q.topic) g.topics.add(q.topic);
       // Prefer the most readable label: one without dashes/underscores.
       if ((g.label.includes('_') || g.label.includes('-')) &&
           !(q.chapter || '').includes('_') && !(q.chapter || '').includes('-')) g.label = q.chapter;
@@ -307,8 +306,8 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   }, [allQuestions]);
 
   const matchedCount = useMemo(
-    () => allQuestions.filter(q => selectedSubjects.has(normChapter(q.chapter || '')) && selectedTopics.has(q.topic)).length,
-    [selectedSubjects, selectedTopics, allQuestions]
+    () => allQuestions.filter(q => selectedChapters.has(normChapter(q.chapter || ''))).length,
+    [selectedChapters, allQuestions]
   );
 
   const [currentQ, setCurrentQ] = useState(0);
@@ -480,39 +479,16 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     setSessionLabel('pyq · full length');
   };
   const startCustom = () => {
-    const qs = allQuestions.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic));
+    const qs = allQuestions.filter(q => selectedChapters.has(normChapter(q.chapter || '')));
     if (qs.length > 0) { startSession(qs); setSessionLabel('custom practice'); }
   };
   const pretty = (s: string) => s.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
-  const toggleSubject = (chapterKey: string) => {
-    setSelectedSubjects(prev => {
+  const toggleChapter = (chapterKey: string) => {
+    setSelectedChapters(prev => {
       const next = new Set(prev);
-      const group = chapterGroups.find(g => g.key === chapterKey);
-      const topics = group ? Array.from(group.topics) : [];
-      if (next.has(chapterKey)) {
-        next.delete(chapterKey);
-        setSelectedTopics(tprev => {
-          const tnext = new Set(tprev);
-          for (const t of topics) tnext.delete(t);
-          return tnext;
-        });
-      } else {
-        next.add(chapterKey);
-        setSelectedTopics(tprev => {
-          const tnext = new Set(tprev);
-          for (const t of topics) tnext.add(t);
-          return tnext;
-        });
-      }
-      return next;
-    });
-  };
-
-  const toggleTopic = (topic: string) => {
-    setSelectedTopics(prev => {
-      const next = new Set(prev);
-      if (next.has(topic)) next.delete(topic); else next.add(topic);
+      if (next.has(chapterKey)) next.delete(chapterKey);
+      else next.add(chapterKey);
       return next;
     });
   };
@@ -593,44 +569,27 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     );
   }
 
-  // ── Phase: browse (pick subjects/chapters) ───────────────────
+  // ── Phase: browse (pick chapters) ───────────────────
   if (phase === 'browse') {
     return (
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: "'Inter', sans-serif", color: '#fff' }}>
         <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <button onClick={onClose} className="nomad-btn">⟨ exit ⟩</button>
-          <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>subject select</div>
+          <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>chapter select</div>
           <button onClick={() => setPhase('menu')} className="nomad-btn">⟨ back ⟩</button>
         </div>
         <div className="nomad-practice-scroll" style={{ marginTop: '4.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 6rem' }}>
           {chapterGroups.map(g => {
-            const active = selectedSubjects.has(g.key);
-            const topicsOnlySame = g.topics.size === 1 && Array.from(g.topics)[0] === g.label;
+            const active = selectedChapters.has(g.key);
             return (
               <div key={g.key} style={{ width: '100%', marginBottom: '1.25rem' }}>
                 <button
-                  onClick={() => toggleSubject(g.key)}
+                  onClick={() => toggleChapter(g.key)}
                   style={{ width: '100%', background: 'none', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.06)', padding: '0.9rem 0', color: active ? '#fff' : 'rgba(255,255,255,0.4)', fontSize: '0.95rem', fontWeight: 300, letterSpacing: '0.04em', display: 'flex', justifyContent: 'space-between', cursor: 'pointer', textAlign: 'left', transition: 'color 0.2s' }}
                 >
                   <span>{active ? '[ x ]' : '[   ]'} {pretty(g.label)}</span>
                   <span style={{ opacity: 0.4, fontSize: '0.75rem' }}>{g.count}</span>
                 </button>
-                {active && g.topics.size > 0 && !topicsOnlySame && (
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.75rem', paddingLeft: '0.5rem' }}>
-                    {Array.from(g.topics).sort().map(topic => {
-                      const on = selectedTopics.has(topic);
-                      return (
-                        <button
-                          key={topic}
-                          onClick={() => toggleTopic(topic)}
-                          style={{ background: 'none', border: `1px solid ${on ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.12)'}`, borderRadius: 4, padding: '0.45rem 0.8rem', color: on ? '#fff' : 'rgba(255,255,255,0.35)', fontSize: '0.75rem', letterSpacing: '0.03em', cursor: 'pointer', transition: 'border-color 0.2s, color 0.2s' }}
-                        >
-                          {pretty(topic)}
-                        </button>
-                      );
-                    })}
-                  </div>
-                )}
               </div>
             );
           })}
@@ -816,7 +775,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
             )}
           </AnimatePresence>
         )}
-        </div>
+      </div>
       </div>
     </motion.div>
   );
