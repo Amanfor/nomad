@@ -5150,13 +5150,37 @@ export default function NomadApp() {
   const paranoiaAudioRef = useRef<HTMLAudioElement | null>(null);
   const hasPlayedWelcomeRef = useRef(false);
 
+  // ── Autoplay guard ─────────────────────────────────────────
+  // Android Chrome / iOS Safari refuse audio that did not follow a
+  // user gesture. We cannot force it, so when playback is blocked we
+  // park the exact element and retry it on the user's first touch or
+  // key. After that one gesture all audio is allowed (sticky).
+  const pendingLineRef = useRef<HTMLAudioElement | null>(null);
+  const unlockAudio = useCallback(() => {
+    const el = pendingLineRef.current;
+    pendingLineRef.current = null;
+    if (el) el.play().catch(() => {});
+  }, []);
+  useEffect(() => {
+    window.addEventListener('pointerdown', unlockAudio);
+    window.addEventListener('touchstart', unlockAudio);
+    window.addEventListener('keydown', unlockAudio);
+    return () => {
+      window.removeEventListener('pointerdown', unlockAudio);
+      window.removeEventListener('touchstart', unlockAudio);
+      window.removeEventListener('keydown', unlockAudio);
+    };
+  }, [unlockAudio]);
+
   // Play welcome voice after user interaction once settings are known.
   // During the first-boot intro the sequencer owns the welcome line instead.
   useEffect(() => {
     if (introStageRef.current !== null) { hasPlayedWelcomeRef.current = true; return; }
     if (!settings.enableVoice || !welcomeAudioRef.current || hasPlayedWelcomeRef.current) return;
     hasPlayedWelcomeRef.current = true;
-    welcomeAudioRef.current.play().catch(() => {});
+    welcomeAudioRef.current.play().catch((err) => {
+      if (err && err.name === 'NotAllowedError') pendingLineRef.current = welcomeAudioRef.current;
+    });
   }, [settings.enableVoice]);
 
   // Play paranoia voice whenever multi-eye mode triggers (intro stage 6 plays
@@ -5165,7 +5189,9 @@ export default function NomadApp() {
     if (introStageRef.current !== null) return;
     if (!settings.enableVoice || !paranoiaAudioRef.current || !isMultiEye) return;
     paranoiaAudioRef.current.currentTime = 0;
-    paranoiaAudioRef.current.play().catch(() => {});
+    paranoiaAudioRef.current.play().catch((err) => {
+      if (err && err.name === 'NotAllowedError') pendingLineRef.current = paranoiaAudioRef.current;
+    });
   }, [settings.enableVoice, isMultiEye]);
   const questionFuse = useMemo(() => {
     if (!isTargetMode) return null;
@@ -5274,7 +5300,11 @@ export default function NomadApp() {
         const finish = () => { if (!settled) { settled = true; resolve(); } };
         a.onended = finish;
         a.onerror = () => wait(fallbackMs).then(finish);
-        a.play().catch(() => wait(fallbackMs).then(finish));
+        a.play().catch((err) => {
+          // Browser refused autoplay: retry this exact line on first tap.
+          if (err && err.name === 'NotAllowedError') pendingLineRef.current = a;
+          wait(fallbackMs).then(finish);
+        });
         setTimeout(finish, fallbackMs + 8000); // safety net
       });
     // Buffer every voice line before the tour starts. Without this the first

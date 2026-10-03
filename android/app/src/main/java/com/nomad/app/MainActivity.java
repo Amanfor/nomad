@@ -1,6 +1,8 @@
 package com.nomad.app;
 
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.view.KeyEvent;
 import com.getcapacitor.BridgeActivity;
 
@@ -8,6 +10,12 @@ public class MainActivity extends BridgeActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        // Allow intro voice lines and buzzer to play without a tap.
+        new Handler(Looper.getMainLooper()).post(() -> {
+            if (bridge != null && bridge.getWebView() != null) {
+                bridge.getWebView().getSettings().setMediaPlaybackRequiresUserGesture(false);
+            }
+        });
     }
 
     @Override
