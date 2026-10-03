@@ -271,6 +271,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const [sessionLabel, setSessionLabel] = useState('practice mode');
   const [phase, setPhase] = useState<'menu' | 'browse' | 'quiz'>('menu');
   const [selectedChapters, setSelectedChapters] = useState<Set<string>>(new Set());
+  const [pickerMode, setPickerMode] = useState<'custom' | 'pyq'>('custom');
 
   // Comprehensive PYQ database (public/pyq-database.json), bundled fallback.
   const [pyqDb, setPyqDb] = useState<any[] | null>(null);
@@ -306,10 +307,24 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     return Array.from(m.values()).sort((a, b) => a.label.localeCompare(b.label));
   }, [allQuestions]);
 
-  const matchedCount = useMemo(
-    () => allQuestions.filter(q => selectedChapters.has(normChapter(q.chapter || ''))).length,
-    [selectedChapters, allQuestions]
-  );
+  const matchedCount = useMemo(() => {
+    const pool = pickerMode === 'pyq' ? (pyqDb && pyqDb.length ? pyqDb : TARGET_QUESTIONS.slice()) : allQuestions;
+    return pool.filter(q => selectedChapters.has(normChapter(q.chapter || ''))).length;
+  }, [selectedChapters, allQuestions, pyqDb, pickerMode]);
+
+  const chapterGroupsActive = useMemo(() => {
+    const pool = pickerMode === 'pyq' ? (pyqDb && pyqDb.length ? pyqDb : TARGET_QUESTIONS.slice()) : allQuestions;
+    const m = new Map<string, { key: string; label: string; count: number }>();
+    for (const q of pool) {
+      const key = normChapter(q.chapter || '');
+      if (!key) continue;
+      if (!m.has(key)) m.set(key, { key, label: q.chapter, count: 0 });
+      const g = m.get(key)!;
+      g.count += 1;
+      if ((g.label.includes('_') || g.label.includes('-')) && !(q.chapter || '').includes('_') && !(q.chapter || '').includes('-')) g.label = q.chapter;
+    }
+    return Array.from(m.values()).sort((a, b) => a.label.localeCompare(b.label));
+  }, [allQuestions, pyqDb, pickerMode]);
 
   const [currentQ, setCurrentQ] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
@@ -475,9 +490,18 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     setSessionLabel('quick practice');
   };
   // PYQ mode: dedicated full-length JEE Mains previous-year questions.
-  const startPyq = () => {
-    startSession(pyqDb && pyqDb.length ? pyqDb : TARGET_QUESTIONS.slice());
-    setSessionLabel('pyq · full length');
+  const startBrowse = (mode: 'custom' | 'pyq') => {
+    setPickerMode(mode);
+    setSelectedChapters(new Set());
+    setPhase('browse');
+  };
+  const startPyqPicked = () => {
+    const pool = (pyqDb && pyqDb.length ? pyqDb : TARGET_QUESTIONS.slice());
+    const qs = pool.filter(q => selectedChapters.has(normChapter(q.chapter || '')));
+    if (qs.length > 0) {
+      startSession(qs);
+      setSessionLabel('pyq · chapter pick');
+    }
   };
   const startCustom = () => {
     const qs = allQuestions.filter(q => selectedChapters.has(normChapter(q.chapter || '')));
@@ -562,8 +586,8 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
         </div>
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1.25rem', padding: '0 2rem', textAlign: 'center' }}>
           <button onClick={startQuick} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.35)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ quick practice · 10 random questions ⟩</button>
-          <button onClick={startPyq} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.25)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ pyq mode · full-length mains ⟩</button>
-          <button onClick={() => setPhase('browse')} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ custom practice ⟩</button>
+          <button onClick={() => startBrowse('pyq')} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.25)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ pyq mode · full-length mains ⟩</button>
+          <button onClick={() => startBrowse('custom')} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ custom practice ⟩</button>
           <div style={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem', letterSpacing: '0.1em', marginTop: '0.5rem' }}>{loadingPyq ? 'loading pyq database…' : (pyqDb && pyqDb.length ? `${pyqDb.length} pyqs loaded` : 'bundle questions')}</div>
         </div>
       </motion.div>
@@ -576,11 +600,14 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', fontFamily: "'Inter', sans-serif", color: '#fff' }}>
         <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', right: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.75rem' }}>
           <button onClick={onClose} className="nomad-btn" style={{ flexShrink: 0 }}>⟨ exit ⟩</button>
-          <div style={{ flex: 1, minWidth: 0, textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>chapter select</div>
+          <div style={{ flex: 1, minWidth: 0, textAlign: 'center', color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{pickerMode === 'pyq' ? 'pyq · chapter select' : 'chapter select'}</div>
           <button onClick={() => setPhase('menu')} className="nomad-btn" style={{ flexShrink: 0 }}>⟨ back ⟩</button>
         </div>
-        <div className="nomad-practice-scroll" style={{ marginTop: '4.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 7rem', boxSizing: 'border-box' }}>
-          {chapterGroups.map(g => {
+        <div style={{ marginTop: '4.5rem', width: '100%', maxWidth: '640px', display: 'flex', justifyContent: 'flex-end', padding: '0 1.5rem', boxSizing: 'border-box' }}>
+          <button onClick={() => setSelectedChapters(new Set(chapterGroupsActive.map(g => g.key)))} className="nomad-btn" style={{ fontSize: '0.5rem', opacity: 0.5 }}>⟨ select all ⟩</button>
+        </div>
+        <div className="nomad-practice-scroll" style={{ marginTop: '0.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 7rem', boxSizing: 'border-box' }}>
+          {chapterGroupsActive.map(g => {
             const active = selectedChapters.has(g.key);
             return (
               <div key={g.key} style={{ width: '100%', marginBottom: '1.25rem' }}>
@@ -596,7 +623,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
           })}
         </div>
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, display: 'flex', justifyContent: 'center', padding: '2.5rem 1.5rem calc(1.5rem + env(safe-area-inset-bottom))', background: 'linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 45%)', pointerEvents: 'none' }}>
-          <button onClick={startCustom} disabled={matchedCount === 0} className="nomad-btn" style={{ pointerEvents: 'auto', border: '1px solid rgba(255,255,255,0.3)', background: '#000', padding: '0.8rem 1.75rem', borderRadius: 4, opacity: matchedCount === 0 ? 0.3 : 1, whiteSpace: 'nowrap' }}>
+          <button onClick={pickerMode === 'pyq' ? startPyqPicked : startCustom} disabled={matchedCount === 0} className="nomad-btn" style={{ pointerEvents: 'auto', border: '1px solid rgba(255,255,255,0.3)', background: '#000', padding: '0.8rem 1.75rem', borderRadius: 4, opacity: matchedCount === 0 ? 0.3 : 1, whiteSpace: 'nowrap' }}>
             ⟨ start practice · {matchedCount} ⟩
           </button>
         </div>
