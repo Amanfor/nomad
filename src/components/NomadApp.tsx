@@ -934,6 +934,80 @@ function SyncDatabaseButton({ isMobile, concepts }: { isMobile: boolean, concept
   );
 }
 
+function FormulaSheetsOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: boolean }) {
+  const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
+  const [selectedChapter, setSelectedChapter] = useState<string | null>(null);
+  const [sheetDb, setSheetDb] = useState<any[] | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    loadTargetQuestions().then(r => { if (alive) setSheetDb(r); });
+    return () => { alive = false; };
+  }, []);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+
+  const grouped = useMemo(() => {
+    const list: any[] = sheetDb ?? [...MICRO_QUESTIONS, ...TARGET_QUESTIONS];
+    const m = new Map<string, Set<string>>();
+    for (const q of list) {
+      const subj = (q.subject || 'general').toString().trim();
+      if (!m.has(subj)) m.set(subj, new Set());
+      m.get(subj)!.add(q.chapter || 'misc');
+    }
+    return Array.from(m.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([s, cs]) => [s, Array.from(cs).sort()] as const);
+  }, [sheetDb]);
+
+  const pretty = (s: string) => s.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+
+  return (
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <button onClick={onClose} className="nomad-btn" style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', zIndex: 2 }}>⟨ exit ⟩</button>
+      <div style={{ ...S.headerTitle, fontSize: isMobile ? '0.75rem' : '0.85rem', marginBottom: isMobile ? '1rem' : '2rem', marginTop: '1.5rem' }}>FORMULA SHEETS</div>
+
+      <div className="nomad-practice-scroll" style={{ flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 3rem', boxSizing: 'border-box' }}>
+        {selectedChapter ? (
+          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'stretch' }}>
+            <button onClick={() => setSelectedChapter(null)} className="nomad-btn" style={{ alignSelf: 'flex-start', marginBottom: '0.5rem' }}>⟨ back ⟩</button>
+            <div style={{ fontSize: '1.25rem', fontWeight: 300, letterSpacing: '0.06em', color: '#fff' }}>{pretty(selectedChapter)}</div>
+            <div style={{ fontSize: '0.7rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase' }}>all formulas · coming soon</div>
+            <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: '1rem', color: 'rgba(255,255,255,0.65)', fontSize: '0.85rem', lineHeight: 1.7 }}>
+              <p>— key formula · {pretty(selectedChapter)} 1 (placeholder)</p>
+              <p>— key formula · {pretty(selectedChapter)} 2 (placeholder)</p>
+              <p>— derivations &amp; shortcuts (placeholder)</p>
+            </div>
+          </motion.div>
+        ) : selectedSubject ? (
+          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
+            <button onClick={() => setSelectedSubject(null)} className="nomad-btn" style={{ marginBottom: '1rem' }}>⟨ back ⟩</button>
+            <div style={{ fontSize: '1.1rem', letterSpacing: '0.08em', color: 'rgba(255,255,255,0.6)', marginBottom: '1rem' }}>{pretty(selectedSubject)}</div>
+            {(grouped.find(([s]) => s === selectedSubject)?.[1] ?? []).map(chapter => (
+              <div key={chapter} id={`fs-${chapter}`} onClick={() => setSelectedChapter(chapter)} style={{ padding: '1rem 0', borderBottom: '1px solid rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.85)', fontSize: '0.95rem', fontWeight: 300, cursor: 'pointer', letterSpacing: '0.03em' }}>
+                {pretty(chapter)}
+              </div>
+            ))}
+          </motion.div>
+        ) : (
+          <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
+            <div style={{ fontSize: '0.7rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.4)', textTransform: 'uppercase', marginBottom: '1rem' }}>subjects</div>
+            {grouped.map(([subject]) => (
+              <div key={subject} onClick={() => setSelectedSubject(subject)} style={{ padding: '1.1rem 0', borderBottom: '1px solid rgba(255,255,255,0.05)', color: '#fff', fontSize: '1.05rem', fontWeight: 300, letterSpacing: '0.05em', cursor: 'pointer' }}>
+                {pretty(subject)}
+              </div>
+            ))}
+          </motion.div>
+        )}
+      </div>
+    </motion.div>
+  );
+}
+
 function StatsOverlay({ onClose, isMobile }: { onClose: () => void, isMobile: boolean }) {
   let visitedCount = 0;
   let attempted = 0;
@@ -1090,6 +1164,7 @@ export default function NomadApp() {
   const [settings, setSettingsState] = useState<Settings>(DEFAULT_SETTINGS);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isStatsOpen, setIsStatsOpen] = useState(false);
+  const [isFormulasOpen, setIsFormulasOpen] = useState(false);
   const readingStartRef = useRef<number | null>(null);
   const currentNoteRef = useRef<string | null>(null);
 
@@ -1722,6 +1797,7 @@ export default function NomadApp() {
         }
         setIsSettingsOpen(false);
         setIsStatsOpen(false);
+        setIsFormulasOpen(false);
         setIsPractice(false);
         setIsTargetMode(false);
         setQuery('');
@@ -1891,6 +1967,10 @@ export default function NomadApp() {
         {isStatsOpen && <StatsOverlay onClose={() => setIsStatsOpen(false)} isMobile={isMobile} />}
       </AnimatePresence>
 
+      <AnimatePresence>
+        {isFormulasOpen && <FormulaSheetsOverlay onClose={() => setIsFormulasOpen(false)} isMobile={isMobile} />}
+      </AnimatePresence>
+
       {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
         <button
           id="nomad-stats-btn"
@@ -1929,6 +2009,26 @@ export default function NomadApp() {
       >
         ⟨ SETTINGS ⟩
       </button>
+      )}
+
+      {introShow(6) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
+        <button
+          id="nomad-formulas-btn"
+          onClick={() => setIsFormulasOpen(true)}
+          className={`nomad-btn ${isFormulasOpen || settings.alwaysGlow || gazingAt === 'formulas' ? 'active' : ''}`}
+          style={{
+            position: 'fixed',
+            bottom: '5.5rem',
+            left: '1.5rem',
+            zIndex: 50,
+            fontSize: '0.55rem',
+            pointerEvents: introActive ? 'none' : 'auto',
+            color: (isFormulasOpen || settings.alwaysGlow || gazingAt === 'formulas') ? 'rgba(255,255,255,1)' : '',
+            textShadow: (isFormulasOpen || settings.alwaysGlow || gazingAt === 'formulas') ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
+          }}
+       >
+         ⟨ FORMULAS ⟩
+        </button>
       )}
 
       {introShow(6) && !selected && !selectedQuestion && !isBrowsingConcepts && <JEECountdown isMobile={isMobile} gazingAt={gazingAt} isMultiEye={isMultiEye} alwaysGlow={settings.alwaysGlow} />}
