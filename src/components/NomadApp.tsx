@@ -265,24 +265,27 @@ const S = {
 function PracticeOverlay({ onClose }: { onClose: () => void }) {
   // Quiz session state
   const [questions, setQuestions] = useState<any[]>([]);
+  const [sessionLabel, setSessionLabel] = useState('practice mode');
   const [phase, setPhase] = useState<'menu' | 'browse' | 'quiz'>('menu');
   const [selectedSubjects, setSelectedSubjects] = useState<Set<string>>(new Set());
   const [selectedTopics, setSelectedTopics] = useState<Set<string>>(new Set());
 
-  const allSubjects = useMemo(() => Array.from(new Set(MICRO_QUESTIONS.map(q => q.chapter))).sort(), []);
+  const allQuestions = useMemo(() => [...MICRO_QUESTIONS, ...TARGET_QUESTIONS], []);
+
+  const allSubjects = useMemo(() => Array.from(new Set(allQuestions.map(q => q.chapter))).sort(), [allQuestions]);
   const topicsBySubject = useMemo(() => {
     const m: Record<string, string[]> = {};
-    for (const q of MICRO_QUESTIONS) {
+    for (const q of allQuestions) {
       if (!m[q.chapter]) m[q.chapter] = [];
       if (!m[q.chapter].includes(q.topic)) m[q.chapter].push(q.topic);
     }
     for (const s of Object.keys(m)) m[s].sort();
     return m;
-  }, []);
+  }, [allQuestions]);
 
   const matchedCount = useMemo(
-    () => MICRO_QUESTIONS.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic)).length,
-    [selectedSubjects, selectedTopics]
+    () => allQuestions.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic)).length,
+    [selectedSubjects, selectedTopics, allQuestions]
   );
 
   const [currentQ, setCurrentQ] = useState(0);
@@ -431,18 +434,21 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
     setPhase('quiz');
   };
 
-  // Quick practice: 10 random questions from the full bank.
+  // Quick practice: 10 random questions across both banks.
   const startQuick = () => {
-    const pool = [...MICRO_QUESTIONS];
+    const pool = [...allQuestions];
     for (let i = pool.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [pool[i], pool[j]] = [pool[j], pool[i]];
     }
     startSession(pool.slice(0, 10));
+    setSessionLabel('quick practice');
   };
+  // PYQ mode: dedicated full-length JEE Mains previous-year questions.
+  const startPyq = () => { startSession(TARGET_QUESTIONS.slice()); setSessionLabel('pyq · full length'); };
   const startCustom = () => {
-    const qs = MICRO_QUESTIONS.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic));
-    if (qs.length > 0) startSession(qs);
+    const qs = allQuestions.filter(q => selectedSubjects.has(q.chapter) && selectedTopics.has(q.topic));
+    if (qs.length > 0) { startSession(qs); setSessionLabel('custom practice'); }
   };
   const pretty = (s: string) => s.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
 
@@ -545,8 +551,9 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
         </div>
         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1.25rem', padding: '0 2rem', textAlign: 'center' }}>
           <button onClick={startQuick} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.35)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ quick practice · 10 random questions ⟩</button>
+          <button onClick={startPyq} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.25)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ pyq mode · full-length mains ⟩</button>
           <button onClick={() => setPhase('browse')} className="nomad-btn" style={{ border: '1px solid rgba(255,255,255,0.15)', padding: '0.9rem 2rem', borderRadius: 4 }}>⟨ custom practice ⟩</button>
-          <div style={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem', letterSpacing: '0.1em', marginTop: '0.5rem' }}>custom lets you pick subjects &amp; chapters</div>
+          <div style={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.75rem', letterSpacing: '0.1em', marginTop: '0.5rem' }}>pyq embeds figures where they exist</div>
         </div>
       </motion.div>
     );
@@ -564,7 +571,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
         <div className="nomad-practice-scroll" style={{ marginTop: '4.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 6rem' }}>
           {allSubjects.map(subject => {
             const active = selectedSubjects.has(subject);
-            const count = MICRO_QUESTIONS.filter(q => q.chapter === subject).length;
+            const count = allQuestions.filter(q => q.chapter === subject).length;
             return (
               <div key={subject} style={{ width: '100%', marginBottom: '1.25rem' }}>
                 <button
@@ -622,7 +629,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
           <button onClick={onClose} className="nomad-btn">⟨ exit ⟩</button>
           <button onClick={() => setPhase('menu')} className="nomad-btn">⟨ menu ⟩</button>
         </div>
-        <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>practice mode</div>
+        <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em', textTransform: 'uppercase' }}>{sessionLabel}</div>
         <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.12em' }}>{score} / {questions.length}</div>
       </div>
 
@@ -715,6 +722,16 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
                 style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
               >
                 <div style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.65rem', textTransform: 'uppercase', letterSpacing: '0.15em', marginBottom: '1rem', textAlign: 'center' }}>{(q as any).chapter?.toUpperCase()} · {(q as any).topic?.toUpperCase()}</div>
+                {(q as any).figure && (
+                  <div style={{ marginBottom: '1.5rem', display: 'flex', justifyContent: 'center' }}>
+                    <img
+                      src={asset(String((q as any).figure).replace(/^media\//, 'media/'))}
+                      alt="question figure"
+                      loading="lazy"
+                      style={{ maxWidth: '100%', maxHeight: '260px', objectFit: 'contain', borderRadius: 4, border: '1px solid rgba(255,255,255,0.08)' }}
+                    />
+                  </div>
+                )}
                 <div
                   style={{ fontSize: '1.1rem', textAlign: 'center', marginBottom: '2.5rem', lineHeight: 1.5, fontWeight: 300 }}
                   dangerouslySetInnerHTML={{ __html: renderInlineLatex(q.question) }}
