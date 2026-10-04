@@ -1966,7 +1966,16 @@ export default function NomadApp() {
     }
   }, [isTyping, query, eyeShape, isMultiEye, pupilX, pupilY, introStage]);
 
-  const deferredQuery = useDeferredValue(query);
+  // Debounce before hitting Fuse: one query costs 130ms–3.4s of main-thread
+  // time (scans 416 notes / 2.7MB), so only search once typing pauses instead
+  // of on every keystroke. useDeferredValue then keeps input renders ahead of
+  // the scan that follows.
+  const [debouncedQuery, setDebouncedQuery] = useState('');
+  useEffect(() => {
+    const t = setTimeout(() => setDebouncedQuery(query), 200);
+    return () => clearTimeout(t);
+  }, [query]);
+  const deferredQuery = useDeferredValue(debouncedQuery);
 
   const results = useMemo(() => {
     // Ask (wisdom) mode has no dropdown — skip Fuse entirely. Searching here
