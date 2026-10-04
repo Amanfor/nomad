@@ -3,15 +3,17 @@
  * --------------------
  * A tiny Cloudflare Worker that holds GEMINI_API_KEY so the browser never
  * sees it. The Nomad front end POSTs { question, context, history } here;
- * this forwards to the Gemini free tier and returns { text }.
+ * this forwards to Gemini, and on a 429 falls back to Workers AI (the [ai]
+ * binding), then returns { text }.
  *
  * Deploy (free plan is enough):
- *   cd worker && npx wrangler login && npx wrangler deploy
+ *   cd worker && CLOUDFLARE_API_TOKEN=… npx wrangler deploy
  * Then paste the printed https://…workers.dev URL into
  * settings → wisdom · ai endpoint.
  *
  * Secrets:   npx wrangler secret put GEMINI_API_KEY
  * Optional:  npx wrangler secret put GEMINI_MODEL   (default gemini-2.5-flash)
+ * Optional:  npx wrangler secret put CF_MODEL       (default @cf/openai/gpt-oss-120b)
  */
 
 const SYSTEM = `You are "wisdom", the optional AI companion inside Nomad, a focused JEE Main/Advanced study app.
@@ -83,35 +85,67 @@ export default {
     ];
 
     const model = env.GEMINI_MODEL || 'gemini-2.5-flash';
-    let upstream;
-    try {
-      upstream = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(env.GEMINI_API_KEY)}`,
-        {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            systemInstruction: { parts: [{ text: SYSTEM }] },
-            contents,
-            generationConfig: { temperature: 0.4, maxOutputTokens: 1200 },
-          }),
-        },
-      );
-    } catch {
-      return new Response(JSON.stringify({ error: 'upstream unreachable' }), { status: 502, headers: { ...headers, 'Content-Type': 'application/json' } });
+    const userText = `${context ? `${context}\n\n---\n\n` : ''}${question}`;
+
+    let text = '';
+    let geminiThrottled = false;
+
+    if (env.GEMINI_API_KEY) {
+      let upstream;
+      try {
+        upstream = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(env.GEMINI_API_KEY)}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              systemInstruction: { parts: [{ text: SYSTEM }] },
+              contents,
+              generationConfig: { temperature: 0.4, maxOutputTokens: 1200 },
+            }),
+          },
+        );
+      } catch {
+        upstream = null;
+      }
+
+      if (upstream && upstream.ok) {
+        const data = await upstream.json();
+        text = data?.candidates?.[0]?.content?.parts?.map(p => p?.text || '').join('').trim() || '';
+      } else if (upstream && upstream.status === 429) {
+        geminiThrottled = true;
+      } else if (upstream) {
+        const detail = await upstream.text().catch(() => '');
+        return new Response(JSON.stringify({ error: `gemini HTTP ${upstream.status}`, detail: detail.slice(0, 300) }), { status: 502, headers: { ...headers, 'Content-Type': 'application/json' } });
+      }
+      // fetch threw (unreachable) → fall through to Workers AI below.
     }
 
-    if (upstream.status === 429) {
-      return new Response(JSON.stringify({ error: 'provider rate limited' }), { status: 429, headers: { ...headers, 'Content-Type': 'application/json', 'Retry-After': '30' } });
-    }
-    if (!upstream.ok) {
-      const detail = await upstream.text().catch(() => '');
-      return new Response(JSON.stringify({ error: `gemini HTTP ${upstream.status}`, detail: detail.slice(0, 300) }), { status: 502, headers: { ...headers, 'Content-Type': 'application/json' } });
+    // Fallback: Workers AI via the [ai] binding (server-side, no CORS).
+    if (!text && (geminiThrottled || !env.GEMINI_API_KEY) && env.AI) {
+      const cfModel = env.CF_MODEL || '@cf/openai/gpt-oss-120b';
+      try {
+        const out = await env.AI.run(cfModel, {
+          messages: [
+            { role: 'system', content: SYSTEM },
+            ...history
+              .filter(m => m && typeof m.text === 'string' && m.text.trim())
+              .map(m => ({ role: m.role, content: m.text })),
+            { role: 'user', content: userText },
+          ],
+          temperature: 0.4,
+          max_tokens: 1200,
+        });
+        text = out?.choices?.[0]?.message?.content?.trim() || '';
+      } catch {
+        text = '';
+      }
     }
 
-    const data = await upstream.json();
-    const text = data?.candidates?.[0]?.content?.parts?.map(p => p?.text || '').join('') || '';
     if (!text.trim()) {
+      if (geminiThrottled) {
+        return new Response(JSON.stringify({ error: 'provider rate limited' }), { status: 429, headers: { ...headers, 'Content-Type': 'application/json', 'Retry-After': '30' } });
+      }
       return new Response(JSON.stringify({ error: 'empty model response' }), { status: 502, headers: { ...headers, 'Content-Type': 'application/json' } });
     }
 

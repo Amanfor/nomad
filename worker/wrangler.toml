@@ -2,7 +2,14 @@ name = "nomad-wisdom"
 main = "index.js"
 compatibility_date = "2026-10-01"
 
+# Workers AI binding — the server-side fallback when Gemini throttles.
+# Free plan: 10k neurons/day (~2000 short answers).
+[ai]
+binding = "AI"
+
 # Set the Gemini key once (never committed):
 #   npx wrangler secret put GEMINI_API_KEY
 # Optional model override:
 #   npx wrangler secret put GEMINI_MODEL
+# Optional Workers AI model override:
+#   npx wrangler secret put CF_MODEL   (default @cf/openai/gpt-oss-120b)

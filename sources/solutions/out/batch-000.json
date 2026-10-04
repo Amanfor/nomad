@@ -179,6 +179,66 @@
   {
    "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-002",
    "solution": "1. Both $MnO_4^{2-}$ and $MnO_4^-$ have tetrahedral geometry: A is true. 2. Mn is +6 in manganate and +7 in permanganate, the reverse of B, so B is false. 3. Oxidation of $Mn^{2+}$ by peroxodisulphate gives permanganate, not manganate, as the final product: C is false. 4. Manganate is $d^1$ and paramagnetic while permanganate is $d^0$ and diamagnetic: D is true. 5. Permanganate is an oxidant and oxidises oxalate, nitrite and iodide: E is false. Answer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-002",
+   "solution": "1. Group 7 contains Mn, Tc and Re, so the lightest element is manganese. 2. Its oxoanion with the metal in the +6 oxidation state is the manganate ion, $MnO_4^{2-}$. 3. The potassium salt $K_2MnO_4$ is a green crystalline solid. 4. Purple is permanganate (+7), orange is dichromate and yellow is chromate, so the colour asked for is green.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-002",
+   "solution": "1. Cr is $[Ar]3d^54s^1$ and Mn is $[Ar]3d^54s^2$; the single 4s electron leaves Cr more easily, so $IE_1(Cr) < IE_1(Mn)$ and Statement I is true. 2. $Mn^{2+}$ has the stable half-filled $d^5$ configuration while $Cr^{2+}$ is only $d^4$, so stripping further electrons costs more from Mn. 3. Thus $IE_2$ and $IE_3$ of Cr are lower, not higher, and Statement II is false.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-002",
+   "solution": "1. A first-row metal that does not liberate $H_2$ from dilute HCl is copper, lying below hydrogen. 2. Excess KCN sequesters it as a very stable cyano complex, $2Cu^{2+} + 6CN^- \\to 2[Cu(CN)_3]^{2-} + (CN)_2$, so free copper ions become negligible. 3. On passing $H_2S$ the ionic product $Q_{sp} = [Cu^+]^2[S^{2-}]$ never exceeds $K_{sp}$ of the sulphide. 4. No MS precipitate forms, so the amount is 0 mol.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-002",
+   "solution": "1. Acidified $K_2Cr_2O_7$ is a strong oxidant and iodide is oxidised to iodine. 2. The reaction is $Cr_2O_7^{2-} + 14H^+ + 6I^- \\to 2Cr^{3+} + 3I_2 + 7H_2O$. 3. Chromium starts at +6 in dichromate and is itself reduced. 4. The chromium-containing final product is therefore $Cr^{3+}$, whose oxidation state is +3.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-002",
+   "solution": "1. Mn in $MnO_4^{2-}$ is in the intermediate +6 state, so it can disproportionate both upward and downward. 2. In acidic medium: $3MnO_4^{2-} + 4H^+ \\to 2MnO_4^- + MnO_2 + 2H_2O$. 3. It is oxidised to +7 in $MnO_4^-$ and simultaneously reduced to +4 in $MnO_2$. 4. The products are $MnO_4^-$ and $MnO_2$.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-002",
+   "solution": "1. A partially filled d shell is needed for colour: $Sc^{3+}$ ($d^0$), $Zn^{2+}$ ($d^0$) and $Ti^{4+}$ ($d^0$) are colourless, and $Mn^{2+}$ ($d^5$) is essentially colourless because its transitions are spin-forbidden. 2. So no pair has both ions coloured; the count is 0, not 3, and Statement I is false. 3. $Eu^{2+}$ ($4f^7$, readily oxidised to $Eu^{3+}$) is the strongest reducing agent here, not $Th^{4+}$, so Statement II is false. Answer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-003",
+   "solution": "1. Overall reaction: $Ag(s) + Cl^- + Fe^{3+} \\to AgCl(s) + Fe^{2+}$. 2. Nernst gives $E = E^\\circ - 0.059\\log\\frac{[Fe^{2+}]}{[Fe^{3+}][Cl^-]}$, and since $\\Delta G = -nFE_{cell}$ a larger $E_{cell}$ needs a smaller reaction quotient. 3. Lowering $[Fe^{2+}]$ (C), raising $[Fe^{3+}]$ (D) and raising $[Cl^-]$ (E) all shrink that quotient. 4. Changes A and B increase it and lower the potential. Answer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-003",
+   "solution": "1. Oxidation $M \\to M^+ + e^-$ occurs at the anode and reduction $M^+ + e^- \\to M$ at the cathode. 2. With $c_1$ at the cathode the quotient is $Q = c_2/c_1$, so $E = -0.059\\log(c_2/c_1)$. 3. A positive potential needs $\\log(c_2/c_1) < 0$, that is $c_2/c_1 < 1$ or $c_1 > c_2$. 4. Placing $c_1$ at the anode would instead require $c_1 < c_2$.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-004",
+   "solution": "1. A: 2-methylpropene and but-1-ene differ only in the carbon skeleton, so chain isomers (III). 2. B: cis- and trans-but-2-ene differ in spatial arrangement, so stereoisomers (I). 3. C: 2-butanol and diethyl ether share the formula $C_4H_{10}O$ but have different functional groups, so functional group isomers (IV). 4. D: but-1-ene and but-2-ene differ in the position of the double bond, so position isomers (II).\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-005",
+   "solution": "1. Of the four, only sec-butyl chloride, $CH_3CH_2CHClCH_3$, has an asymmetric carbon carrying H, Cl, $CH_3$ and $C_2H_5$, so only it exhibits optical isomerism. 2. Its formula is $C_4H_9Cl$, molar mass $= 4(12) + 9 + 35.5 = 92.5$ g mol$^{-1}$. 3. Percentage of carbon $= \\frac{48}{92.5} \\times 100 \\approx 51.9 \\approx 52$, which is the value obtained from $\\%C = \\frac{12}{44} \\times \\frac{m_{CO_2}}{m} \\times 100$. Answer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-006",
+   "solution": "1. A compound that dissolves in $NaHCO_3$ must liberate $CO_2$, so it must contain a carboxylic acid group; the drawn compound X also carries two chiral carbon atoms, making Statement I true. 2. Statement II accounts for four carbons: two sp carbons of a triple bond, one $sp^2$ carbon of a double bond and one saturated $sp^3$ carbon, a consistent valence pattern. 3. Both descriptions are valid, so both statements are true.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-004",
+   "solution": "1. Sublimation separates substances that pass straight from solid to vapour, such as camphor and naphthalene; a low melting point is not the criterion, so Statement I is false. 2. A liquid boils when its vapour pressure equals the external pressure, $P_{total} = p_{organic} + p_{H_2O} = P_{atm}$. 3. Reducing the external pressure lowers the temperature at which this equality holds, so the boiling point falls. 4. Statement II claims the reverse, so it is false too.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-003",
+   "solution": "1. Hyperconjugation in a cyclic carbocation arises from the alpha C-H bonds of the ring carbons adjacent to the $C^+$ centre; their number fixes the number of no-bond resonance structures. 2. Among the given cations, A and C are both secondary centres flanked by the same two $CH_2$ groups, giving four alpha hydrogens each. 3. B and D carry different numbers of alpha hydrogens. 4. Hence A and C show the same hyperconjugation count. Answer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-003",
+   "solution": "1. n-Butane has both staggered and eclipsed conformers: the fully eclipsed form is the least stable and the anti staggered form the most stable, so Statement I is true. 2. Torsional strain originates from eclipsing of C-H bonds, and increasing the dihedral angle from X to Y progressively relieves that eclipsing. 3. Torsional strain therefore decreases as the dihedral angle increases, so Statement II is also true. Answer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-004",
+   "solution": "1. A is correct: resonance structures with more covalent bonds and less charge separation are indeed more stable, and C is also correct about the inductive effect on physical properties. 2. B is not true: an unsaturated system shows the +E effect toward an electrophile and the -E effect toward a nucleophile, the reverse of the statement. 3. D is not true: greater alkyl substitution stabilises the alkene, lowering the heat of hydrogenation. 4. E is correct. Answer: (A)"
   }
  ]
 }

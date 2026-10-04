@@ -1,7 +1,10 @@
 /* ─── Wisdom mode: context gathering + LLM calls ────────────────────────────
  * Two transports, chosen by the endpoint setting:
- *   "direct" (default) — the browser talks straight to the Gemini free tier
- *                        with the key baked in at build time (CORS-approved).
+ *   "direct" (default) — the browser talks straight to the providers
+ *                        (CORS-approved, keys baked in at build time).
+ *                        Fallback chain: Gemini → OpenRouter. Gemini's free
+ *                        tier throttles fast; on 429 the same question is
+ *                        retried through OpenRouter's free-model router.
  *   an https:// URL     — posts { question, context, history } to the tiny
  *                        Cloudflare Worker in /worker, which holds the key
  *                        server-side and rate-limits per IP.
@@ -18,6 +21,18 @@ type MiniConcept = { title?: string; section?: string; content?: string };
 export const GEMINI_API_KEY: string = (import.meta as any).env?.VITE_GEMINI_API_KEY || 'AIzaSyD-knIlTd1KpnreqwkCTABfBQ-s8GycoXg';
 const GEMINI_MODEL = (import.meta as any).env?.VITE_GEMINI_MODEL || 'gemini-2.5-flash';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+
+/** Fallback transport: OpenRouter's free-model router (picks a live :free model). */
+const OPENROUTER_KEY: string = (import.meta as any).env?.VITE_OPENROUTER_API_KEY || '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';
+const OPENROUTER_MODEL: string = (import.meta as any).env?.VITE_OPENROUTER_MODEL || 'openrouter/free';
+const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
+
+/** Last resort: deployed Cloudflare Worker (holds no browser-visible key and
+ *  falls back to Workers AI when Gemini throttles server-side). */
+const WORKER_FALLBACK_URL: string = (import.meta as any).env?.VITE_WISDOM_WORKER || 'https://nomad-wisdom.nomadstudy.workers.dev';
+
+/** Thrown when a provider throttles — askWisdom falls back instead of failing. */
+class RateLimitedError extends Error {}
 
 export const DIRECT_ENDPOINT = 'direct';
 export const DEFAULT_WISDOM_ENDPOINT = DIRECT_ENDPOINT;
@@ -176,7 +191,7 @@ async function askGemini(context: string, history: WisdomMessage[], question: st
     throw new Error('offline — wisdom needs a network connection.');
   }
 
-  if (res.status === 429) throw new Error('rate limited — wait a few seconds and ask again.');
+  if (res.status === 429) throw new RateLimitedError('rate limited — wait a few seconds and ask again.');
   if (res.status === 400 || res.status === 403) throw new Error('gemini rejected the key — check VITE_GEMINI_API_KEY.');
   if (!res.ok) throw new Error(`gemini failed: HTTP ${res.status}`);
 
@@ -189,6 +204,79 @@ async function askGemini(context: string, history: WisdomMessage[], question: st
     if (data?.promptFeedback?.blockReason) throw new Error(`blocked: ${data.promptFeedback.blockReason}`);
     throw new Error('wisdom returned an empty response');
   }
+  return text;
+}
+
+/** OpenAI-compatible call to OpenRouter's free-model router (CORS `*`, key bundled). */
+async function askOpenRouter(context: string, history: WisdomMessage[], question: string, signal?: AbortSignal): Promise<string> {
+  const messages = [
+    { role: 'system', content: SYSTEM },
+    ...(history || []).slice(-6).map(m => ({ role: m.role, content: m.text })),
+    { role: 'user', content: context ? `${context}\n\n---\n\n${question}` : question },
+  ];
+
+  let res: Response;
+  try {
+    res = await fetch(OPENROUTER_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${OPENROUTER_KEY}`,
+        'X-Title': 'nomad',
+      },
+      body: JSON.stringify({
+        model: OPENROUTER_MODEL,
+        messages,
+        temperature: 0.4,
+        max_tokens: 1400,
+        // Free router models are often reasoning variants; cut the thinking so
+        // tokens go to the actual answer.
+        reasoning: { effort: 'none' },
+      }),
+      signal,
+    });
+  } catch (e: any) {
+    if (e?.name === 'AbortError') throw e;
+    throw new Error('offline — wisdom needs a network connection.');
+  }
+
+  if (res.status === 429) throw new RateLimitedError('openrouter is rate limited too — give it a minute and ask again.');
+  if (res.status === 401 || res.status === 403) throw new Error('openrouter rejected the key — check VITE_OPENROUTER_API_KEY.');
+  if (!res.ok) throw new Error(`openrouter failed: HTTP ${res.status}`);
+
+  const data = await res.json();
+  if (data?.error) {
+    const msg = String(data.error.message || '');
+    if (res.ok && /rate|429|throttl/i.test(msg)) throw new RateLimitedError('openrouter is rate limited too — give it a minute and ask again.');
+    throw new Error(`openrouter: ${msg || 'unknown error'}`);
+  }
+  // Reasoning models may exhaust the budget before emitting content.
+  const text = String(data?.choices?.[0]?.message?.content ?? '').trim();
+  if (!text) throw new Error('openrouter returned an empty response');
+  return text;
+}
+
+/** Last-resort POST to the deployed Cloudflare Worker (Gemini → Workers AI inside). */
+async function askWorkerFallback(context: string, history: WisdomMessage[], question: string, signal?: AbortSignal): Promise<string> {
+  let res: Response;
+  try {
+    res = await fetch(WORKER_FALLBACK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question, context, history: (history || []).slice(-6) }),
+      signal,
+    });
+  } catch (e: any) {
+    if (e?.name === 'AbortError') throw e;
+    throw new Error('wisdom endpoint unreachable — all providers failed.');
+  }
+
+  if (res.status === 429) throw new RateLimitedError('worker rate limited too — give it a minute and ask again.');
+  if (!res.ok) throw new Error(`worker failed: HTTP ${res.status}`);
+
+  const data = await res.json();
+  const text = String(data?.text ?? data?.answer ?? data?.error ?? '').trim();
+  if (!text) throw new Error('worker returned an empty response');
   return text;
 }
 
@@ -205,9 +293,29 @@ export async function askWisdom(
   const endpoint = getWisdomEndpoint();
   const context = await buildContext(question, concepts);
 
-  // Direct mode: talk to Gemini from the browser (Google's API sends permissive
-  // CORS headers, so no proxy is required).
-  if (isDirect(endpoint)) return askGemini(context, history || [], question, signal);
+  // Direct mode: browser → providers (each sends permissive CORS, no proxy).
+  // Chain: Gemini → OpenRouter → deployed worker (server-side Workers AI).
+  // A throttled provider falls through; only a real error (bad payload,
+  // offline) stops the chain.
+  if (isDirect(endpoint)) {
+    const attempts: Array<[string, () => Promise<string>]> = [
+      ['gemini', () => askGemini(context, history || [], question, signal)],
+      ['openrouter', () => askOpenRouter(context, history || [], question, signal)],
+      ['worker', () => askWorkerFallback(context, history || [], question, signal)],
+    ];
+    let lastNonRateError: any = null;
+    for (const [, attempt] of attempts) {
+      try {
+        return await attempt();
+      } catch (e: any) {
+        if (e?.name === 'AbortError') throw e;
+        if (e instanceof RateLimitedError) continue; // next link in the chain
+        if (/offline —/.test(String(e?.message))) throw e; // network is down; don't retry
+        lastNonRateError = e;
+      }
+    }
+    throw lastNonRateError || new Error('rate limited everywhere — wait a minute and ask again.');
+  }
 
   let res: Response;
   try {
