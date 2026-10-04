@@ -1,7 +1,10 @@
-/* ─── Wisdom mode: context gathering + proxied LLM calls ───────────────────
- * The browser never sees an API key. It sends { question, context, history }
- * to a tiny Cloudflare Worker (see /worker) which holds GEMINI_API_KEY and
- * forwards to the Gemini free tier.
+/* ─── Wisdom mode: context gathering + LLM calls ────────────────────────────
+ * Two transports, chosen by the endpoint setting:
+ *   "direct" (default) — the browser talks straight to the Gemini free tier
+ *                        with the key baked in at build time (CORS-approved).
+ *   an https:// URL     — posts { question, context, history } to the tiny
+ *                        Cloudflare Worker in /worker, which holds the key
+ *                        server-side and rate-limits per IP.
  */
 
 import { loadFormulaSheets } from '../data/formulas';
@@ -11,13 +14,19 @@ export type WisdomMessage = { role: 'user' | 'assistant'; text: string };
 /** Structural concept shape — avoids importing the NomadApp module (no cycles). */
 type MiniConcept = { title?: string; section?: string; content?: string };
 
-export const DEFAULT_WISDOM_ENDPOINT = 'https://nomad-wisdom.amanfor.workers.dev/';
+/** Build-time overridable; direct mode ships the key so wisdom works out of the box. */
+export const GEMINI_API_KEY: string = (import.meta as any).env?.VITE_GEMINI_API_KEY || 'AIzaSyD-knIlTd1KpnreqwkCTABfBQ-s8GycoXg';
+const GEMINI_MODEL = (import.meta as any).env?.VITE_GEMINI_MODEL || 'gemini-2.5-flash';
+const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
+
+export const DIRECT_ENDPOINT = 'direct';
+export const DEFAULT_WISDOM_ENDPOINT = DIRECT_ENDPOINT;
 const ENDPOINT_KEY = 'nomad-wisdom-endpoint';
 
 export function getWisdomEndpoint(): string {
   try {
     const saved = localStorage.getItem(ENDPOINT_KEY);
-    if (saved && /^https?:\/\//.test(saved)) return saved;
+    if (saved) return saved.trim();
   } catch { /* SSR / private mode */ }
   return DEFAULT_WISDOM_ENDPOINT;
 }
@@ -25,6 +34,17 @@ export function getWisdomEndpoint(): string {
 export function setWisdomEndpoint(url: string): void {
   try { localStorage.setItem(ENDPOINT_KEY, url.trim()); } catch { /* ignore */ }
 }
+
+const isDirect = (endpoint: string) => !/^https?:\/\//i.test(endpoint);
+
+const SYSTEM = `You are "wisdom", the optional AI companion inside Nomad, a focused JEE Main/Advanced study app.
+
+Rules:
+- Answer from the provided context (Nomad notes and formula sheets) whenever it is relevant; lean on the formulas quoted there and show which one you used.
+- If the context does not contain the answer, say so plainly, then answer from your own knowledge and mark it [outside nomad].
+- Short punchy sentences. No walls of text. Use numbered steps for derivations.
+- Write math in LaTeX: $...$ inline, $$...$$ for display lines.
+- Pure study tone: no emoji, no greetings, no filler.`;
 
 /* ─── Context retrieval ─────────────────────────────────────────────────── */
 
@@ -125,11 +145,51 @@ export async function buildContext(question: string, concepts: MiniConcept[]): P
   return parts.join('\n\n');
 }
 
-/* ─── Proxy call ────────────────────────────────────────────────────────── */
+/* ─── Transports ─────────────────────────────────────────────────────────── */
+
+/** Direct Gemini call (free tier, key bundled at build time, CORS-approved). */
+async function askGemini(context: string, history: WisdomMessage[], question: string, signal?: AbortSignal): Promise<string> {
+  const contents = [
+    ...(history || []).slice(-6).map(m => ({ role: m.role === 'assistant' ? 'model' : 'user', parts: [{ text: m.text }] })),
+    { role: 'user', parts: [{ text: context ? `${context}\n\n---\n\n${question}` : question }] },
+  ];
+
+  let res: Response;
+  try {
+    res = await fetch(GEMINI_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'x-goog-api-key': GEMINI_API_KEY },
+      body: JSON.stringify({
+        systemInstruction: { parts: [{ text: SYSTEM }] },
+        contents,
+        generationConfig: { temperature: 0.4, maxOutputTokens: 1200 },
+      }),
+      signal,
+    });
+  } catch (e: any) {
+    if (e?.name === 'AbortError') throw e;
+    throw new Error('offline — wisdom needs a network connection.');
+  }
+
+  if (res.status === 429) throw new Error('rate limited — wait a few seconds and ask again.');
+  if (res.status === 400 || res.status === 403) throw new Error('gemini rejected the key — check VITE_GEMINI_API_KEY.');
+  if (!res.ok) throw new Error(`gemini failed: HTTP ${res.status}`);
+
+  const data = await res.json();
+  const text = (data?.candidates?.[0]?.content?.parts || [])
+    .map((p: any) => p?.text || '')
+    .join('')
+    .trim();
+  if (!text) {
+    if (data?.promptFeedback?.blockReason) throw new Error(`blocked: ${data.promptFeedback.blockReason}`);
+    throw new Error('wisdom returned an empty response');
+  }
+  return text;
+}
 
 /**
  * Ask the model. Returns the assistant text, or throws a readable error
- * (missing endpoint, rate limit, bad payload).
+ * (rate limit, bad payload, unreachable endpoint).
  */
 export async function askWisdom(
   question: string,
@@ -139,6 +199,10 @@ export async function askWisdom(
 ): Promise<string> {
   const endpoint = getWisdomEndpoint();
   const context = await buildContext(question, concepts);
+
+  // Direct mode: talk to Gemini from the browser (Google's API sends permissive
+  // CORS headers, so no proxy is required).
+  if (isDirect(endpoint)) return askGemini(context, history || [], question, signal);
 
   let res: Response;
   try {

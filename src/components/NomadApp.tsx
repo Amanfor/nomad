@@ -941,6 +941,9 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
         <div style={{ marginTop: isMobile ? '1.5rem' : '2rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0' }}>
           <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>wisdom · ai endpoint</div>
           <WisdomEndpointField />
+          <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', marginTop: '0.6rem', lineHeight: 1.5 }}>
+            direct = built-in gemini key · or paste a worker url to proxy it
+          </div>
         </div>
       )}
 
