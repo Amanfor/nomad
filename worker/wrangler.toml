@@ -1,0 +1,8 @@
+name = "nomad-wisdom"
+main = "index.js"
+compatibility_date = "2026-10-01"
+
+# Set the Gemini key once (never committed):
+#   npx wrangler secret put GEMINI_API_KEY
+# Optional model override:
+#   npx wrangler secret put GEMINI_MODEL

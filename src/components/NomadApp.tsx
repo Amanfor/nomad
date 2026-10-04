@@ -8,6 +8,8 @@ import { loadPyqQuestions, loadTargetQuestions } from '../data/pyq';
 import { loadFormulaSheets } from '../data/formulas';
 import { ConceptBrowser, loadConcepts } from '../concepts';
 import { Capacitor, registerPlugin } from '@capacitor/core';
+import WisdomOverlay from './WisdomOverlay';
+import { getWisdomEndpoint, setWisdomEndpoint } from '../lib/wisdom';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
@@ -873,6 +875,7 @@ type Settings = {
   disableEye: boolean;
   enableVoice: boolean;
   enableBuzz: boolean;
+  enableWisdom: boolean;
   alwaysGlow: boolean;
   lightMode: boolean;
 };
@@ -886,6 +889,7 @@ const DEFAULT_SETTINGS: Settings = {
   disableEye: false,
   enableVoice: true,
   enableBuzz: true,
+  enableWisdom: false,
   alwaysGlow: false,
   lightMode: false,
 };
@@ -921,6 +925,7 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
           { key: 'disableEye' as keyof Settings, label: 'Disable Eye Graphic' },
           { key: 'enableVoice' as keyof Settings, label: 'Enable Voices (Welcome)' },
           { key: 'enableBuzz' as keyof Settings, label: 'Enable Buzz Sound (Practice)' },
+          { key: 'enableWisdom' as keyof Settings, label: 'Enable AI (wisdom mode)' },
         ].map(({ key, label }) => (
           <div key={key} style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'flex-start' : 'center', borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: isMobile ? '0.5rem' : '1rem', gap: isMobile ? '0.5rem' : '0' }}>
             <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: isMobile ? '0.95rem' : '0.85rem' }}>{label}</span>
@@ -930,6 +935,14 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
           </div>
         ))}
       </div>
+
+      {/* Wisdom (AI) — opt-in only; endpoint points at the Cloudflare worker */}
+      {settings.enableWisdom && (
+        <div style={{ marginTop: isMobile ? '1.5rem' : '2rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0' }}>
+          <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>wisdom · ai endpoint</div>
+          <WisdomEndpointField />
+        </div>
+      )}
 
       {/* One-click database sync from GitHub (public fetch) */}
       <div style={{ marginTop: isMobile ? '2rem' : '3rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: isMobile ? '1.5rem' : '2rem' }}>
@@ -963,6 +976,27 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
         </div>
       </div>
     </motion.div>
+  );
+}
+
+/** Small saveable input for the wisdom proxy URL (settings only). */
+function WisdomEndpointField() {
+  const [value, setValue] = useState(getWisdomEndpoint());
+  const [saved, setSaved] = useState(false);
+  return (
+    <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+      <input
+        className="nomad-input"
+        value={value}
+        onChange={e => { setValue(e.target.value); setSaved(false); }}
+        onBlur={() => { setWisdomEndpoint(value); setValue(getWisdomEndpoint()); setSaved(true); }}
+        spellCheck={false} autoComplete="off"
+        style={{ flex: 1, fontSize: '0.75rem', padding: '0.5rem 0', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.15)', background: 'transparent', color: '#fff', outline: 'none' }}
+      />
+      <span style={{ fontSize: '0.6rem', letterSpacing: '0.15em', color: saved ? 'rgba(255,255,255,0.85)' : 'rgba(255,255,255,0.3)', textTransform: 'uppercase' }}>
+        {saved ? 'saved' : 'url'}
+      </span>
+    </div>
   );
 }
 
@@ -1429,6 +1463,9 @@ export default function NomadApp() {
   const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [isFormulasOpen, setIsFormulasOpen] = useState(false);
   const [isWanderOpen, setIsWanderOpen] = useState(false);
+  // Wisdom (opt-in AI): ask-bar mode + the open chat session's first question.
+  const [isWisdom, setIsWisdom] = useState(false);
+  const [wisdomQuestion, setWisdomQuestion] = useState<string | null>(null);
   const readingStartRef = useRef<number | null>(null);
   const currentNoteRef = useRef<string | null>(null);
 
@@ -1450,6 +1487,14 @@ export default function NomadApp() {
     setSettingsState(newSettings);
     localStorage.setItem('nomad-settings', JSON.stringify(newSettings));
   };
+
+  // Wisdom is strictly opt-in: turning it off drops ask-bar mode and any open chat.
+  useEffect(() => {
+    if (!settings.enableWisdom) {
+      setIsWisdom(false);
+      setWisdomQuestion(null);
+    }
+  }, [settings.enableWisdom]);
 
   const [concepts, setConcepts] = useState<Concept[]>([]);
   const [fuse, setFuse] = useState<Fuse<Concept> | null>(null);
@@ -2052,6 +2097,7 @@ export default function NomadApp() {
         setIsWanderOpen(false);
         setIsPractice(false);
         setIsTargetMode(false);
+        setWisdomQuestion(null);
         setQuery('');
         
         if (document.activeElement instanceof HTMLElement) {
@@ -2064,6 +2110,14 @@ export default function NomadApp() {
   }, [selected, selectedQuestion, isBrowsingConcepts, handleBack]);
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
+    // Wisdom ask bar: Enter sends the question straight to the chatbot.
+    if (e.key === 'Enter' && isWisdom && query.trim() && !selected && !selectedQuestion) {
+      e.preventDefault();
+      setWisdomQuestion(query.trim());
+      setQuery('');
+      inputRef.current?.blur();
+      return;
+    }
     if (e.key === 'ArrowDown') { e.preventDefault(); setActiveIndex(i => Math.min(i + 1, results.length - 1)); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); setActiveIndex(i => Math.max(i - 1, 0)); }
     else if (e.key === 'Enter' && results.length > 0 && !selected) { e.preventDefault(); handleSelect(results[activeIndex]); }
@@ -2204,6 +2258,26 @@ export default function NomadApp() {
         </button>
       )}
 
+      {/* Wisdom (AI) button — appears only after enabling it in settings */}
+      {settings.enableWisdom && introShow(6) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && !wisdomQuestion && (
+        <button
+          id="nomad-wisdom-btn"
+          onClick={() => setIsWisdom(v => !v)}
+          className={`nomad-btn ${isWisdom || isMultiEye || settings.alwaysGlow || gazingAt === 'wisdom' ? 'active' : ''}`}
+          style={{
+            position: 'fixed',
+            bottom: '7.5rem',
+            right: '1.5rem',
+            zIndex: 50,
+            color: (isWisdom || isMultiEye || settings.alwaysGlow) ? 'rgba(255,255,255,1)' : '',
+            textShadow: (isWisdom || isMultiEye || settings.alwaysGlow) ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
+            transition: 'color 0.4s ease, text-shadow 0.4s ease'
+          }}
+        >
+          {isWisdom ? '⟨ search ⟩' : '⟨ wisdom ⟩'}
+        </button>
+      )}
+
       {/* Exit Browse Concepts handled inside ConceptBrowser's sticky header */}
 
       <AnimatePresence>
@@ -2224,6 +2298,17 @@ export default function NomadApp() {
 
       <AnimatePresence>
         {isWanderOpen && <WanderOverlay onClose={() => setIsWanderOpen(false)} isMobile={isMobile} />}
+      </AnimatePresence>
+
+      <AnimatePresence>
+        {wisdomQuestion && settings.enableWisdom && (
+          <WisdomOverlay
+            question={wisdomQuestion}
+            concepts={concepts}
+            onClose={() => { setWisdomQuestion(null); setQuery(''); }}
+            isMobile={isMobile}
+          />
+        )}
       </AnimatePresence>
 
       {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
@@ -2361,7 +2446,7 @@ export default function NomadApp() {
                   borderBottom: gazingAt === 'search' || settings.alwaysGlow || settings.alwaysGlow ? '1px solid rgba(255,255,255,0.85)' : '1px solid rgba(255,255,255,0.1)',
                   boxShadow: gazingAt === 'search' || settings.alwaysGlow || settings.alwaysGlow ? '0 10px 30px rgba(255,255,255,0.18)' : 'none'
                 }}
-                placeholder={isTargetMode ? "search questions..." : "search concepts..."}
+                placeholder={isWisdom ? "ask anything..." : isTargetMode ? "search questions..." : "search concepts..."}
                 value={query}
                 onChange={e => { setQuery(e.target.value); setActiveIndex(0); }}
                 onFocus={() => setIsTyping(true)}
@@ -2370,7 +2455,7 @@ export default function NomadApp() {
                 autoComplete="off" spellCheck={false}
               />
               
-              {query.trim() && (
+              {query.trim() && !isWisdom && (
                 <div style={{ ...S.dropdown, width: isMobile ? '90vw' : '100%' }}>
                   {results.length > 0 ? results.map((r, i) => (
                     <div key={r.id} style={{ ...S.resultItem, padding: isMobile ? '0.75rem 1rem' : '1rem 1.5rem', ...(i === activeIndex ? S.resultItemActive : {}) }}
