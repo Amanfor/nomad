@@ -17,13 +17,17 @@ export type WisdomMessage = { role: 'user' | 'assistant'; text: string };
 /** Structural concept shape — avoids importing the NomadApp module (no cycles). */
 type MiniConcept = { title?: string; section?: string; content?: string };
 
-/** Build-time overridable; direct mode ships the key so wisdom works out of the box. */
-export const GEMINI_API_KEY: string = (import.meta as any).env?.VITE_GEMINI_API_KEY || 'AIzaSyD-knIlTd1KpnreqwkCTABfBQ-s8GycoXg';
+/** Optional keys, supplied at build time (VITE_GEMINI_API_KEY / VITE_OPENROUTER_API_KEY).
+ *  NOT committed on purpose: keys pushed to this public repo get revoked by the
+ *  provider — both bundled defaults died that way (Gemini: "reported as leaked",
+ *  OpenRouter: 401 "User not found"). When unset, the link is skipped and the
+ *  keyless worker link below carries wisdom on its own. */
+export const GEMINI_API_KEY: string = (import.meta as any).env?.VITE_GEMINI_API_KEY || '';
 const GEMINI_MODEL = (import.meta as any).env?.VITE_GEMINI_MODEL || 'gemini-2.5-flash';
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
-/** Fallback transport: OpenRouter's free-model router (picks a live :free model). */
-const OPENROUTER_KEY: string = (import.meta as any).env?.VITE_OPENROUTER_API_KEY || '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';
+/** Optional fallback: OpenRouter's free-model router (picks a live :free model). */
+const OPENROUTER_KEY: string = (import.meta as any).env?.VITE_OPENROUTER_API_KEY || '';
 const OPENROUTER_MODEL: string = (import.meta as any).env?.VITE_OPENROUTER_MODEL || 'openrouter/free';
 const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
@@ -294,15 +298,17 @@ export async function askWisdom(
   const context = await buildContext(question, concepts);
 
   // Direct mode: browser → providers (each sends permissive CORS, no proxy).
-  // Chain: Gemini → OpenRouter → deployed worker (server-side Workers AI).
+  // Chain: Gemini (if key) → OpenRouter (if key) → deployed worker (keyless,
+  // server-side Workers AI). The worker link is always present, so wisdom
+  // works with no keys at all; keyless links are skipped, not attempted —
+  // a dead key would only burn a round trip and surface a confusing error.
   // A throttled provider falls through; only a real error (bad payload,
   // offline) stops the chain.
   if (isDirect(endpoint)) {
-    const attempts: Array<[string, () => Promise<string>]> = [
-      ['gemini', () => askGemini(context, history || [], question, signal)],
-      ['openrouter', () => askOpenRouter(context, history || [], question, signal)],
-      ['worker', () => askWorkerFallback(context, history || [], question, signal)],
-    ];
+    const attempts: Array<[string, () => Promise<string>]> = [];
+    if (GEMINI_API_KEY) attempts.push(['gemini', () => askGemini(context, history || [], question, signal)]);
+    if (OPENROUTER_KEY) attempts.push(['openrouter', () => askOpenRouter(context, history || [], question, signal)]);
+    attempts.push(['worker', () => askWorkerFallback(context, history || [], question, signal)]);
     let lastNonRateError: any = null;
     for (const [, attempt] of attempts) {
       try {

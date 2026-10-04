@@ -942,7 +942,7 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
           <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>wisdom · ai endpoint</div>
           <WisdomEndpointField />
           <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', marginTop: '0.6rem', lineHeight: 1.5 }}>
-            direct = gemini → openrouter → cloudflare workers ai, auto-fallback on rate limit · or paste a worker url
+            direct = cloudflare workers ai (built-in, no key) → optional gemini/openrouter via build env, auto-fallback on rate limit · or paste a worker url
           </div>
         </div>
       )}

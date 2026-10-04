@@ -6,10 +6,15 @@ import { askWisdom, type WisdomMessage } from '../lib/wisdom';
 
 type MiniConcept = { title?: string; section?: string; content?: string };
 
-/* Same Markdown + KaTeX pipeline the concept view uses, so answers match the site. */
+/* Same Markdown + KaTeX pipeline the concept view uses, so answers match the site.
+   Providers disagree on LaTeX delimiters: gpt-oss emits \(..\) and \[.. ..\],
+   others use $..$ / $$..$$. Normalize to $ / $$ before KaTeX so no raw commands leak. */
 function renderAnswer(text: string): string {
   if (!text) return '';
-  let processed = text.replace(/\$\$([^$]+)\$\$/g, (_, tex) => {
+  let processed = text
+    .replace(/\\\[([\s\S]+?)\\\]/g, (_, tex) => `$$${tex}$$`)
+    .replace(/\\\(([\s\S]+?)\\\)/g, (_, tex) => `$${tex}$`);
+  processed = processed.replace(/\$\$([^$]+)\$\$/g, (_, tex) => {
     try { return katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }); } catch { return `$$${tex}$$`; }
   });
   processed = processed.replace(/\$([^$]+)\$/g, (_, tex) => {
