@@ -2309,6 +2309,7 @@ export default function NomadApp() {
             question={wisdomQuestion}
             concepts={concepts}
             onClose={() => { setWisdomQuestion(null); setQuery(''); }}
+            onOpenNote={(c) => { setWisdomQuestion(null); setQuery(''); handleSelect(c); }}
             isMobile={isMobile}
           />
         )}

@@ -4,7 +4,77 @@ import katex from 'katex';
 import { marked } from 'marked';
 import { askWisdom, type WisdomMessage } from '../lib/wisdom';
 
-type MiniConcept = { title?: string; section?: string; content?: string };
+type MiniConcept = { id?: string; title?: string; section?: string; content?: string };
+
+/* The model ends every answer with a "src: …" line (SYSTEM rule). Split it off:
+   internal sources become buttons, "src: open web" (model's own weights, no
+   retrieval) stays plain text — only database-backed notes get a link. */
+function splitSrc(text: string): { body: string; src: string | null } {
+  const lines = text.replace(/\s+$/, '').split('\n');
+  for (let i = lines.length - 1; i >= 0; i--) {
+    const m = lines[i].match(/(^|\s)[*_]*\s*src[*_]*\s*:\s*/i);
+    if (m) {
+      const at = (m.index || 0) + m[0].length;
+      const src = lines[i].slice(at).replace(/[*_#]+/g, '').trim();
+      const head = lines[i].slice(0, m.index || 0);
+      lines.splice(i, 1);
+      if (head.trim()) lines.splice(i, 0, head);
+      return { body: lines.join('\n').trimEnd(), src: src || null };
+    }
+  }
+  return { body: text, src: null };
+}
+
+const norm = (s: string) => s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+const STOP = new Set(['the', 'and', 'for', 'with', 'from', 'that', 'this', 'are', 'was', 'its', 'into']);
+
+/* Match each "src:" fragment against the local notes. The model usually echoes
+   "Section — Title" or just the title; token-subset matching covers both, and
+   anything unmatched (or "open web") falls back to plain text. */
+function matchNotes(src: string, concepts: MiniConcept[]): { matched: MiniConcept[]; rest: string[] } {
+  const matched: MiniConcept[] = [];
+  const rest: string[] = [];
+  for (const raw of src.split(';')) {
+    const frag = raw.trim();
+    const nf = norm(frag);
+    if (!nf || /open web|outside nomad|own knowledge|own weights|web search/.test(nf)) {
+      if (frag) rest.push(frag);
+      continue;
+    }
+    const fToks = nf.split(' ').filter(t => t.length > 2 && !STOP.has(t));
+    if (!fToks.length) { rest.push(frag); continue; }
+    let best: MiniConcept | null = null;
+    let bestScore = 0, bestDiff = Infinity;
+    for (const c of concepts) {
+      const title = norm(c?.title || '');
+      const cand = norm(`${c?.title || ''} ${c?.section || ''}`);
+      if (!cand) continue;
+      const cToks = cand.split(' ').filter(t => t.length > 2 && !STOP.has(t));
+      if (!cToks.length) continue;
+      const hits = fToks.filter(t => cToks.includes(t)).length;
+      let score = 0;
+      if (hits === fToks.length || (cToks.length && cToks.every(t => fToks.includes(t)))) score = 1;
+      else if (title && (nf.includes(title) || title.includes(nf))) score = 1;
+      else score = hits / fToks.length;
+      if (score >= 0.67) {
+        const diff = Math.abs(cand.length - nf.length);
+        if (score > bestScore || (score === bestScore && diff < bestDiff)) {
+          best = c; bestScore = score; bestDiff = diff;
+        }
+      }
+    }
+    if (best) matched.push(best);
+    else rest.push(frag);
+  }
+  const seen = new Set<string>();
+  const uniq = matched.filter(c => {
+    const k = c.id || c.title || '';
+    if (!k || seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+  return { matched: uniq.slice(0, 4), rest };
+}
 
 /* Same Markdown + KaTeX pipeline the concept view uses, so answers match the site.
    Providers disagree on LaTeX delimiters: gpt-oss emits \(..\) and \[.. ..\],
@@ -23,11 +93,12 @@ function renderAnswer(text: string): string {
   return marked.parse(processed) as string;
 }
 
-export default function WisdomOverlay({ question, concepts, onClose, isMobile }: {
+export default function WisdomOverlay({ question, concepts, onClose, isMobile, onOpenNote }: {
   question: string;
   concepts: MiniConcept[];
   onClose: () => void;
   isMobile: boolean;
+  onOpenNote?: (c: MiniConcept) => void;
 }) {
   const [messages, setMessages] = useState<WisdomMessage[]>([]);
   const [input, setInput] = useState('');
@@ -106,11 +177,47 @@ export default function WisdomOverlay({ question, concepts, onClose, isMobile }:
                   {m.text}
                 </div>
               ) : (
-                <div
-                  className="nomad-prose"
-                  style={{ fontSize: isMobile ? '0.9rem' : '0.95rem', color: 'rgba(255,255,255,0.78)', lineHeight: 1.75, fontWeight: 300, width: '100%' }}
-                  dangerouslySetInnerHTML={{ __html: renderAnswer(m.text) }}
-                />
+                (() => {
+                  const { body, src } = splitSrc(m.text);
+                  const { matched, rest } = src ? matchNotes(src, concepts) : { matched: [], rest: [] };
+                  return (
+                    <>
+                      <div
+                        className="nomad-prose"
+                        style={{ fontSize: isMobile ? '0.9rem' : '0.95rem', color: 'rgba(255,255,255,0.78)', lineHeight: 1.75, fontWeight: 300, width: '100%' }}
+                        dangerouslySetInnerHTML={{ __html: renderAnswer(body) }}
+                      />
+                      {/* internal-database sources → open the note; open web stays plain text */}
+                      {(matched.length > 0 || rest.length > 0) && (
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', alignItems: 'center', marginTop: '0.7rem', width: '100%' }}>
+                          {matched.map((c, j) => (
+                            <button
+                              key={c.id || c.title || j}
+                              className="nomad-btn"
+                              title={c.section ? `${c.title} — ${c.section}` : c.title}
+                              onClick={() => onOpenNote?.(c)}
+                              style={{
+                                fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'lowercase',
+                                border: '1px solid rgba(255,255,255,0.2)', borderRadius: 4,
+                                padding: '0.4rem 0.9rem', color: 'rgba(255,255,255,0.65)',
+                                transition: 'border-color 0.2s, color 0.2s',
+                              }}
+                              onMouseEnter={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.6)'; e.currentTarget.style.color = '#fff'; }}
+                              onMouseLeave={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.2)'; e.currentTarget.style.color = 'rgba(255,255,255,0.65)'; }}
+                            >
+                              ⟨ note ⟩ {String(c.title || '').length > 42 ? `${String(c.title).slice(0, 42)}…` : c.title}
+                            </button>
+                          ))}
+                          {rest.map((r, j) => (
+                            <span key={`src-${j}`} style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', letterSpacing: '0.05em' }}>
+                              src: {r}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </>
+                  );
+                })()
               )}
             </div>
           ))}
