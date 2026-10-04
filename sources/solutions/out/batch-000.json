@@ -1,0 +1,184 @@
+{
+ "answers": [
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-021",
+   "solution": "1. Washing soda removes permanent hardness by precipitating calcium carbonate: $\\text{Ca}^{2+} + \\text{CO}_3^{2-} \\to \\text{CaCO}_3\\downarrow$. 2. Mass of $\\text{CaCO}_3$ obtained = 10 g and its molar mass = 100 g mol$^{-1}$. 3. Moles of precipitate = $10/100$ = 0.1 mol, which equals the moles of $\\text{Ca}^{2+}$ originally present. 4. Volume of sample = 1 L, so concentration = 0.1 mol/1 L = 0.1 M.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-027",
+   "solution": "1. NO has 15 electrons with configuration up to $(\\pi_{2p})^4(\\sigma_{2p})^2(\\pi^*_{2p})^1$, leaving one unpaired electron. 2. A species with an unpaired electron is paramagnetic, so gaseous NO is paramagnetic, not diamagnetic. 3. NO is indeed a neutral oxide, it combines with $O_2$ to form $NO_2$, and its bond order is $\\frac{10-5}{2} = 2.5$, so options B, C and D are correct. 4. Only A is not shown by NO.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-095",
+   "solution": "1. Iodoform, Dettol (chloroxylenol) and gentian violet are all applied on wounds or skin as antiseptic agents. 2. Gammexane is gamma-hexachlorocyclohexane (lindane), which is used as an insecticide to kill lice and other pests. 3. An insecticide is not an antiseptic drug, so Gammexane is the exception among the four. 4. The remaining three are standard antiseptics.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-100",
+   "solution": "1. Optical activity requires an asymmetric carbon atom or overall molecular asymmetry. 2. Each of the pentoses I, II and III carries at least one chiral centre and contains no internal mirror plane, so none of them is meso. 3. Therefore every pentose listed rotates the plane of plane-polarised light. 4. All of them are optically active.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-102",
+   "solution": "1. All four are formate esters, so boiling point follows molar mass and chain length. 2. Molar masses increase in the order methyl formate (I) < ethyl formate (II) < isopropyl formate (III) and n-propyl formate (IV), which are isomers of each other. 3. Between III and IV the straight n-propyl chain has larger surface area than the branched isopropyl group, so IV boils higher than III. 4. Order: IV > III > II > I.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-105",
+   "solution": "1. In the given framework the C3-N nitrogen lone pair is directly involved in the delocalised $\\pi$ system, giving C3-N partial double-bond character. 2. Partial double-bond character contracts a bond, so C3-N is the shortest of the three. 3. C1-N and C5-N are equivalent by symmetry and behave essentially as single bonds. 4. Hence C1-N = C5-N, and both are longer than C3-N.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-109",
+   "solution": "1. Liquid hydrogen and liquid oxygen form the classic cryogenic fuel-oxidiser pair used in rocket motors. 2. Hydrazine, $N_2H_4(l)$, is a well-known storable and hypergolic rocket propellant. 3. Since each of A, B and C is genuinely used as a rocket propellant, none of them can be the substance that is not used. 4. Therefore all of the listed options are used, giving All of these.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-111",
+   "solution": "1. Glass is largely silicon dioxide, $SiO_2$. 2. Hydrofluoric acid is the only common acid that attacks silica: $SiO_2 + 4HF \\to SiF_4\\uparrow + 2H_2O$ (excess HF gives $H_2SiF_6$). 3. This reaction etches and marks glass, which is why HF is stored in plastic vessels. 4. $HNO_3$, $HIO_4$ and $SiF_4$ do not dissolve $SiO_2$ in this way.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-134",
+   "solution": "1. Loss of three electrons means the ion carries a +3 charge, so its electron count is three less than the neutral atom. 2. The stated configuration corresponds to 24 electrons, hence the neutral atom has Z = 27. 3. Z = 27 is cobalt: Co = $[Ar]3d^7 4s^2$. 4. Removing three electrons gives $Co^{3+}$ = $[Ar]3d^6$, matching the ion described.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-145",
+   "solution": "1. The question asks for the total number of atoms in one molecule or formula unit of the stated s-block compound; take sodium sulphate, $Na_2SO_4$, as the formula unit. 2. It contains two sodium atoms, one sulphur atom and four oxygen atoms. 3. Total = 2 + 1 + 4 = 7 atoms per formula unit. 4. This equals the count in option A.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-153",
+   "solution": "1. $CH_3CH_2OH$ reacts with $P + I_2$ to give ethyl iodide, $CH_3CH_2I$ (A). 2. Ethyl iodide with Mg in dry ether forms the Grignard reagent $CH_3CH_2MgI$ (B). 3. B adds one carbon to formaldehyde: $CH_3CH_2MgI + HCHO \\to CH_3CH_2CH_2OMgI$ (C). 4. Hydrolysis of C gives $CH_3CH_2CH_2OH$, which is n-propyl alcohol (D).\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-154",
+   "solution": "1. Water gas is the mixture $CO + H_2$ obtained from steam and carbon. 2. Over a cobalt (or $ZnO-Cr_2O_3$) catalyst at high pressure it undergoes hydrogenation: $CO + 2H_2 \\xrightarrow{cat.} CH_3OH$. 3. The product contains one carbon atom and a hydroxy group, so it is methanol. 4. Methanal and methanoic acid need oxidation, and ethanol requires two carbons.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-156",
+   "solution": "1. In $CH_2=CH-OCH_3$ the oxygen lone pair is conjugated with the double bond. 2. HBr protonates the terminal $CH_2$, giving the resonance-stabilised cation $CH_3-\\overset{+}{C}H-OCH_3$, so addition follows Markovnikov orientation. 3. Under anhydrous conditions with limited HBr the ether linkage is not cleaved. 4. Attack of $Br^-$ on the cation gives $CH_3CHBrOCH_3$.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-159",
+   "solution": "1. Tollens' test detects aldehydes, the carbylamine test detects primary aromatic amines, and the Lucas test distinguishes alcohols. 2. Phenol condenses with phthalic anhydride in the presence of concentrated $H_2SO_4$ to form phenolphthalein. 3. Phenolphthalein gives a pink colour in alkaline solution, a characteristic phthalein dye test. 4. This test therefore identifies the phenolic group.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-160",
+   "solution": "1. Phenol first undergoes sulphonation with concentrated $H_2SO_4$, the bulky $-SO_3H$ group entering mainly at the para position. 2. The para site is now blocked, while the ortho positions remain free. 3. Nitration with concentrated $HNO_3$ therefore occurs at an ortho position. 4. The major product after the sequence is o-nitrophenol rather than the para isomer.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-161",
+   "solution": "1. Phenol is first converted by NaOH into sodium phenoxide, whose ring is strongly activated towards electrophilic substitution. 2. The phenoxide ion attacks carbon dioxide at the ortho position (Kolbe-Schmitt reaction) to give sodium salicylate. 3. Acidification of the carboxylate yields the free acid. 4. The product is 2-hydroxybenzoic acid, salicylic acid, not benzaldehyde or benzoic acid.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-163",
+   "solution": "1. A Grignard reagent acts as a strong base towards acidic protons rather than as a nucleophile. 2. Methanol has an acidic O-H hydrogen, so $C_6H_5MgBr + CH_3OH \\to C_6H_6 + CH_3OMgBr$. 3. The phenyl group accepts the proton to give benzene and the methoxide leaves as the magnesium salt. 4. Anisole would require attack on the ring carbon, which does not occur.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-165",
+   "solution": "1. $pK_a$ = 10.0 for phenol and 15.9 for ethanol; a lower $pK_a$ means a stronger acid, so phenol is the stronger acid and statement A is true. 2. Phenoxide is stabilised by delocalisation of charge into the ring, while ethoxide has no such resonance stabilisation. 3. Therefore ethanol is a weaker acid than phenol, which makes statement R false. 4. A is true and R is false.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-167",
+   "solution": "1. Carbolic acid is the traditional name of phenol, $C_6H_5OH$. 2. Benzenediazonium chloride on hydrolysis gives phenol: $C_6H_5N_2^+Cl^- + H_2O \\to C_6H_5OH + N_2 + HCl$. 3. Cumene gives phenol only via the cumene process, benzal chloride hydrolyses to benzaldehyde, and a glycol ketal gives a ketone. 4. Simple hydrolysis therefore yields carbolic acid from the diazonium salt.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-168",
+   "solution": "1. Acidified KBr and $KBrO_3$ generate bromine in situ: $5Br^- + BrO_3^- + 6H^+ \\to 3Br_2 + 3H_2O$. 2. The -OH group strongly activates the phenol ring towards electrophilic substitution. 3. With free bromine in water all three activated positions, two ortho and one para, are substituted. 4. The white precipitate obtained is 2,4,6-tribromophenol.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-169",
+   "solution": "1. Acetals and ketals are stable towards alkali; their hydrolysis requires aqueous acid, so statement A is true. 2. In basic medium the group that would have to depart is alkoxide, $RO^-$, a strong base and hence a very poor leaving group. 3. Statement R claims a high leaving tendency of alkoxide ion, which is the opposite of the truth. 4. A is true but R is false.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-170",
+   "solution": "1. Phenol with chloroform and aqueous NaOH undergoes the Reimer-Tiemann reaction. 2. $CHCl_3 + OH^-$ generates dichlorocarbene $:CCl_2$, which attacks the activated ortho carbon of the phenoxide. 3. The intermediate carrying the $-CHCl_2$ group is hydrolysed during acid work-up to an aldehyde group. 4. The product is 2-hydroxybenzaldehyde, also called salicylaldehyde.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-171",
+   "solution": "1. In water, bromine is polarised and phenol is partly ionised to phenoxide, so electrophilic attack occurs at every activated position giving tribromophenol. 2. In chloroform, a non-polar solvent, no such ionisation takes place and only monosubstitution at the para position occurs. 3. The essential difference between the two reactions is therefore the polarity of the medium.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-008",
+   "solution": "1. On $-1 \\le x \\le 1$ the curve $y = -x^2+2$ is positive, giving $A_1 = \\int_{-1}^{1}(2-x^2)dx = [2x - x^3/3]_{-1}^{1} = 10/3$. 2. On $1 < x \\le 2$ the curve $y = 2x-1$ is positive, giving $A_2 = \\int_{1}^{2}(2x-1)dx = [x^2 - x]_{1}^{2} = 2$. 3. Total bounded area = $10/3 + 2 = 16/3$ sq. units.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-191",
+   "solution": "1. For $9x^2+6x+1=0$ use $\\alpha+\\beta = -b/a = -6/9 = -2/3$ and $\\alpha\\beta = c/a = 1/9$. 2. The new roots are $1/\\alpha$ and $1/\\beta$, so their sum $= (\\alpha+\\beta)/(\\alpha\\beta) = (-2/3)/(1/9) = -6$ and their product $= 1/(\\alpha\\beta) = 9$. 3. The required equation is $x^2 - (-6)x + 9 = 0$, that is $x^2+6x+9=0$.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-227",
+   "solution": "1. Square both given equations and add: $(x\\cos\\alpha+y\\sin\\alpha)^2 + (x\\sin\\alpha-y\\cos\\alpha)^2 = a^2+b^2$. 2. On expanding, the cross terms $2xy\\sin\\alpha\\cos\\alpha$ and $-2xy\\sin\\alpha\\cos\\alpha$ cancel exactly. 3. What survives is $x^2(\\cos^2\\alpha+\\sin^2\\alpha) + y^2(\\sin^2\\alpha+\\cos^2\\alpha) = x^2+y^2$. 4. Hence the locus is $x^2+y^2 = a^2+b^2$, a circle independent of $\\alpha$.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-247",
+   "solution": "1. Let $f(x)=x^2-(k-1)x+k^2$; a root inside (1,2) needs a sign change of f there. 2. $f(1)=k^2-k+2$ has discriminant $1-8<0$, so $f(1)>0$ for every k, and $f(2)=(k-1)^2+5>0$ likewise. 3. Real roots require $D=(k-1)^2-4k^2 \\ge 0$, i.e. $-1 \\le k \\le 1/3$; there the vertex $\\frac{k-1}{2}$ is negative, outside (1,2). 4. No admissible k exists, so the set is empty.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-248",
+   "solution": "1. For $P(x)=x^3-x-1$ the roots obey $\\prod \\alpha_i = (-1)^n a_0/a_n = 1$ and $\\sum \\alpha_i = 0$. 2. Write $\\frac{1+\\alpha}{1-\\alpha} = -1 + \\frac{2}{1-\\alpha}$, so the sum is $S = -3 + 2\\sum\\frac{1}{1-\\alpha}$. 3. Since $P'(x)/P(x) = \\sum 1/(x-\\alpha)$, we get $\\sum 1/(1-\\alpha) = P'(1)/P(1) = 2/(-1) = -2$. 4. Thus $S = -3 + 2(-2) = -7$.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-250",
+   "solution": "1. Complete the square: $y = a\\left(x+\\frac{b}{2a}\\right)^2 + \\frac{4ac-b^2}{4a}$. 2. The sign of y for all x is governed by a together with the vertex value $\\frac{4ac-b^2}{4a}$. 3. If $4ac < b^2$ (or merely $ac<b^2$) then $b^2-4ac>0$, y vanishes at two points and changes sign between them. 4. For y to keep one sign throughout, touching the axis only at the vertex, it must be the perfect square $y = a(x+\\frac{b}{2a})^2$, which needs $4ac-b^2 = 0$.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-001",
+   "solution": "1. $[Cr(H_2O)_6]^{2+}$ is high-spin $d^4$ ($t_{2g}^3e_g^1$) with CFSE $= 3(-0.4)+0.6 = -0.6\\Delta_o$, while $[Mn(H_2O)_6]^{2+}$ is high-spin $d^5$ ($t_{2g}^3e_g^2$) with CFSE = 0, so Statement I holds. 2. $K_3[Fe(CN)_6]$ has low-spin $Fe^{3+}$, $d^5$ with one unpaired electron, $\\mu = \\sqrt{3} = 1.73$ BM; $K_4[Fe(CN)_6]$ has low-spin $Fe^{2+}$, $d^6$, zero unpaired, $\\mu = 0$. 3. The ferricyanide has the greater moment, so Statement II also holds.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-001",
+   "solution": "1. In the spectrochemical series $Br^- < Cl^-$, so $\\Delta_t([CoBr_4]^{2-}) < \\Delta_t([CoCl_4]^{2-})$. 2. The energy absorbed equals the splitting, so the bromo complex absorbs light of lower energy: Statement I is true. 3. Iodide is a still weaker ligand than chloride, hence $\\Delta_t([CoI_4]^{2-}) < \\Delta_t([CoCl_4]^{2-})$, not larger. 4. Statement II is therefore false.\nAnswer: (D)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-002",
+   "solution": "1. Nickel(II) dimethylglyoxime is a square-planar chelate that is red and insoluble in water even at pH 9, so A is true and B (high solubility) is false. 2. $Ni^{2+}$ is $d^8$; in square-planar geometry all electrons pair, giving zero unpaired electrons, so C is false. 3. Each dmg ligand forms one five-membered ring with nickel, i.e. two rings, not four, so E is false. 4. cis N-Ni-N angles are about 90 degrees, so D is true. Thus B, C and E are incorrect.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-001",
+   "solution": "1. Use $\\mu = \\sqrt{n(n+2)}$ BM, which depends only on unpaired electrons n. 2. C $[Ni(CN)_4]^{2-}$: $d^8$ square planar, n = 0, $\\mu$ = 0. B $[Cu(H_2O)_6]^{2+}$: $d^9$, n = 1, $\\mu$ = 1.73. D $[Ni(H_2O)_6]^{2+}$: octahedral $d^8$, n = 2, $\\mu$ = 2.83. A $[MnBr_4]^{2-}$: weak-field $d^5$, n = 5, $\\mu$ = 5.92. 3. Increasing order: C < B < D < A.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-001",
+   "solution": "1. Wavelength absorbed is inversely related to the splitting, $\\lambda \\propto 1/\\Delta_o$. 2. Field strength follows $CN^- > NH_3 > H_2O > F^-$. 3. III $[Co(CN)_6]^{3-}$ has the largest splitting, I $[Co(NH_3)_6]^{3+}$ next, IV $[Co(NH_3)_5(H_2O)]^{3+}$ is slightly weaker than I, II $[Co(H_2O)_6]^{3+}$ weaker still, and V $[CoF_6]^{3-}$ the weakest. 4. Descending $\\Delta_o$ gives ascending wavelength: III < I < IV < II < V.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-001",
+   "solution": "1. Bulky $PPh_3$ ligands force $[Ni(PPh_3)_2Cl_2]$ into a tetrahedral geometry, so it shows no geometrical isomerism: A is incorrect. 2. Tetrahedral $Ni^{2+}$ is $d^8$ with two unpaired electrons, $\\mu = \\sqrt{8} = 2.84$ BM (C correct), and its arrangement resembles $Ni(CO)_4$ (E correct). 3. It is coloured, not white, so B is incorrect. 4. Tetrahedral $d^8$ CFSE $= -3.6\\Delta_t = -1.6\\Delta_o$, not $-0.8\\Delta_o$, so D is incorrect. Answer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-001",
+   "solution": "1. In low-spin octahedral complexes the electrons pair in the $t_{2g}$ level. 2. $Cr^{3+}$ is $d^3$: $t_{2g}^3$, 3 unpaired. $Mn^{3+}$ is $d^4$ low spin: $t_{2g}^4$, 2 unpaired. $Fe^{3+}$ is $d^5$ low spin: $t_{2g}^5$, 1 unpaired. $Co^{3+}$ is $d^6$ low spin: $t_{2g}^6$, 0 unpaired. 3. Decreasing order of unpaired electrons: $Cr^{3+} > Mn^{3+} > Fe^{3+} > Co^{3+}$.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-001",
+   "solution": "1. A: $[Co(NH_3)_6]^{3+}$, $Co^{3+}$ $d^6$ with strong-field $NH_3$ gives $t_{2g}^6$, an inner-orbital $d^2sp^3$ complex: correct. 2. B: $[MnCl_6]^{3-}$, $Mn^{3+}$ $d^4$ with weak $Cl^-$ is an outer-orbital $sp^3d^2$ complex: correct. 3. C is wrong because $[CoF_6]^{3-}$ is outer-orbital $sp^3d^2$, and E is wrong because $[Ni(CN)_4]^{2-}$ is square planar $dsp^2$. 4. D: $[FeF_6]^{3-}$ is indeed outer-orbital $sp^3d^2$: correct. Answer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-001",
+   "solution": "1. $[Mn(H_2O)_6]^{2+}$ is high-spin $d^5$ with 5 unpaired electrons, the maximum possible, while $[Cu(NH_3)_4]^{2+}$ ($d^9$) has 1 and both $Ni^{2+}$ complexes ($d^8$) have 2 each. Statement I is true. 2. $[NiCl_4]^{2-}$ is paramagnetic, so the two pairs containing it fail; only $\\{[Ni(CO)_4],[Ni(CN)_4]^{2-}\\}$ is both diamagnetic, that is one pair, not two. Statement II is false. Answer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-001",
+   "solution": "1. $Ni(CO)_4$ has Ni(0), $d^{10}$, tetrahedral, hence diamagnetic. 2. $[Ni(CN)_4]^{2-}$ has $Ni^{2+}$, $d^8$ with strong-field $CN^-$ forcing a square-planar pairing, hence diamagnetic. 3. $[NiCl_4]^{2-}$ has weak-field $Cl^-$, tetrahedral $d^8$ with two unpaired electrons, hence paramagnetic. 4. So $Ni(CO)_4$ and $[Ni(CN)_4]^{2-}$ are diamagnetic while $[NiCl_4]^{2-}$ is paramagnetic.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-001",
+   "solution": "1. $K_3[Co(C_2O_4)_3]$ is an outer-orbital $sp^3d^2$ octahedral complex whose $Co^{3+}$ centre has 4 unpaired electrons, giving $\\mu = \\sqrt{4 \\times 6} = \\sqrt{24} \\approx 4.9$ BM: Statement I is true. 2. $[Ni(CN)_4]^{2-}$ is square planar, $dsp^2$, $\\mu = 0$; $[MnBr_4]^{2-}$ is tetrahedral, $sp^3$, $\\mu = 5.9$; $[CoF_6]^{3-}$ is octahedral, $sp^3d^2$, $\\mu = 4.9$. 3. Every item of Statement II matches, so Statement II is also true.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-002",
+   "solution": "1. $[CoF_6]^{3-}$ ($Co^{3+}$, $d^5$, 5 unpaired), $[TiF_6]^{3-}$ ($Ti^{3+}$, $d^1$) and $[Fe(CN)_6]^{3-}$ ($Fe^{3+}$, low-spin $d^5$, 1 unpaired) are paramagnetic, while $V_2O_5$ contains $V^{5+}$, $d^0$, diamagnetic: count = 3, Statement I true. 2. Unpaired counts are 0 for $[Fe(CN)_6]^{4-}$, 1 for $[Fe(CN)_6]^{3-}$, 4 for $[Fe(H_2O)_6]^{2+}$ and 5 for $[Fe(H_2O)_6]^{3+}$, exactly the increasing order quoted. Statement II true.\nAnswer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-003",
+   "solution": "1. 0.4 mol of each complex is made up to 4 L, so every 2 L portion contains 0.2 mol of $[Co(NH_3)_5SO_4]Br$ and 0.2 mol of $[Co(NH_3)_5Br]SO_4$. 2. With excess $AgNO_3$ only outer-sphere $Br^-$ precipitates, so Y = 0.2 mol AgBr, not 0.1 mol. 3. With excess $BaCl_2$ only outer-sphere $SO_4^{2-}$ precipitates, so Z = 0.2 mol $BaSO_4$. 4. Y is AgBr and Z is $BaSO_4$, so only B is correct.\nAnswer: (B)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-002",
+   "solution": "1. In $Mn_2O_7$ manganese is in +7, its highest oxidation state: A is true. 2. High oxidation states are stabilised by multiple ($\\pi$) bonding with oxygen, $Mn=O$: B is true. 3. $Mn_2O_7$ is a covalent, volatile anhydride of permanganic acid that reacts violently with water, so it is not an ionic oxide: C is false. 4. Its structure has a bent $Mn-O-Mn$ bridge, that is one bridging oxygen: D is true. Answer: (A)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-003",
+   "solution": "1. Heating common salt with $K_2Cr_2O_7$ and concentrated $H_2SO_4$ is the chromyl chloride test, which evolves red fumes of $CrO_2Cl_2$. 2. Assign oxidation states: with O as -2 and Cl as -1, $x + 2(-2) + 2(-1) = 0$. 3. Solving gives $x = +6$ for chromium. 4. So the gas is $CrO_2Cl_2$ with Cr in +6; $Cr_2O_2Cl_2$ and the states +5 or +3 do not fit.\nAnswer: (C)"
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-002",
+   "solution": "1. Both $MnO_4^{2-}$ and $MnO_4^-$ have tetrahedral geometry: A is true. 2. Mn is +6 in manganate and +7 in permanganate, the reverse of B, so B is false. 3. Oxidation of $Mn^{2+}$ by peroxodisulphate gives permanganate, not manganate, as the final product: C is false. 4. Manganate is $d^1$ and paramagnetic while permanganate is $d^0$ and diamagnetic: D is true. 5. Permanganate is an oxidant and oxidises oxalate, nitrite and iodide: E is false. Answer: (B)"
+  }
+ ]
+}
