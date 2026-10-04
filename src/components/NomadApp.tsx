@@ -1969,6 +1969,10 @@ export default function NomadApp() {
   const deferredQuery = useDeferredValue(query);
 
   const results = useMemo(() => {
+    // Ask (wisdom) mode has no dropdown — skip Fuse entirely. Searching here
+    // was pure waste: a full scan over 416 notes (~2.7MB of content) on every
+    // keystroke, which is the typing lag seen in wisdom mode.
+    if (isWisdom) return [];
     if (!deferredQuery.trim()) return [];
     if (isTargetMode && questionFuse) {
       const qResults = questionFuse.search(deferredQuery).map(r => r.item);
@@ -1994,7 +1998,7 @@ export default function NomadApp() {
       return sorted.slice(0, 6);
     }
     return [];
-  }, [deferredQuery, fuse, isTargetMode, questionFuse]);
+  }, [deferredQuery, fuse, isTargetMode, questionFuse, isWisdom]);
 
   const handleSelect = async (item: any) => {
     if (item.isBrowseAll) {
@@ -2121,9 +2125,12 @@ export default function NomadApp() {
       inputRef.current?.blur();
       return;
     }
-    if (e.key === 'ArrowDown') { e.preventDefault(); setActiveIndex(i => Math.min(i + 1, results.length - 1)); }
+    // Ask (wisdom) mode has no dropdown — arrows/Enter-select are meaningless
+    // here (and results is []), so stop before they could touch activeIndex.
+    if (isWisdom) return;
+    if (e.key === 'ArrowDown') { e.preventDefault(); if (results.length) setActiveIndex(i => Math.min(i + 1, results.length - 1)); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); setActiveIndex(i => Math.max(i - 1, 0)); }
-    else if (e.key === 'Enter' && results.length > 0 && !selected) { e.preventDefault(); handleSelect(results[activeIndex]); }
+    else if (e.key === 'Enter' && results.length > 0 && !selected) { e.preventDefault(); handleSelect(results[Math.max(0, Math.min(activeIndex, results.length - 1))]); }
   };
 
   let activeShape = eyeShape;
