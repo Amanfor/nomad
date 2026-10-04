@@ -1,0 +1,64 @@
+{
+  "answers": [
+    {
+      "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-004",
+      "solution": "1. In Kjeldahl's method, the evolved ammonia (NH3) neutralizes the acid taken for estimation. 2. Milliequivalents of H2SO4 = milliequivalents of NH3: meq H2SO4 = 15 mL × 1 M × 2 (basicity of H2SO4) = 30 meq. 3. meq of N in the compound = 30 meq. 4. Mass of nitrogen = (30/1000) eq × 14 g eq⁻¹ = 0.42 g. 5. Percentage of nitrogen = (mass of N / mass of sample) × 100 = (0.42 / 1) × 100 = 42%. Answer: (C) 42"
+    },
+    {
+      "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-004",
+      "solution": "1. In Carius method, chlorine in organic compound is converted to AgCl. 2. Molar mass AgCl = 143.5 g mol⁻¹ (Ag = 108.5, Cl = 35.5). 3. %Cl = (atomic mass Cl / molar mass AgCl) × (mass AgCl / mass sample) × 100. 4. %Cl = (35.5 / 143.5) × (0.5253 / 0.2425) × 100 = 0.2474 × 2.166 × 100 = 53.58%. Answer: (D) 53.58%"
+    },
+    {
+      "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-005",
+      "solution": "1. Statement I claims (CH3)3C+ is more stable than CH4 with nine hyperconjugation interactions. 2. In (CH3)3C+, all nine H atoms from three methyl groups participate in hyperconjugation, stabilizing the carbocation. 3. Statement II claims CH4 is less stable with only three hyperconjugation interactions, which is incorrect; CH4 does not exhibit comparable hyperconjugation, and the stability comparison is invalid. 4. Hyperconjugation requires α-H atoms on alkyl groups adjacent to the electron-deficient center; CH4 has no such arrangement. 5. Therefore Statement I is true but Statement II is false. Answer: (B) Statement I is true but Statement II is false"
+    },
+    {
+      "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-003",
+      "solution": "1. In Carius method, sulphur in organic compound is converted to BaSO4. 2. Mass of S in sample = (atomic mass S / molar mass BaSO4) × mass of BaSO4 obtained. 3. Molar mass S = 32 g mol⁻¹, molar mass BaSO4 = 233 g mol⁻¹. 4. %S = (32 / 233) × (1.2 / 0.75) × 100 = 0.1373 × 1.6 × 100 = 21.97%. Answer: (C) 21.97%"
+    },
+    {
+      "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-004",
+      "solution": "1. Propanal (C3H6O, aldehyde) and propanone (C3H6O, ketone) have same molecular formula but different functional groups: they are functional isomers. ✓ A is true. 2. Ethoxyethane (C2H5OC2H5) and methoxypropane (CH3OCH(CH3)2) have same formula C5H12O with different alkyl groups on oxygen: they are metamers. ✓ B is true. 3. But-2-ene shows cis-trans (geometric) isomerism due to restricted rotation, but has no chiral center, so it does not show optical isomerism. ✗ C is false. 4. But-1-ene and but-2-ene are position isomers (both alkenes), not functional isomers. ✗ D is false. 5. Pentane and 2,2-dimethylpropane are chain isomers (different carbon skeletons but same formula C5H12). ✓ E is true. 6. Correct statements: A, B, E only. Answer: (D) A, B and E only"
+    },
+    {
+      "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-003",
+      "solution": "1. Carbanion stability increases with increasing s-character of the orbital bearing the negative charge. 2. sp-hybridized orbitals (50% s) hold the charge most tightly, followed by sp2 (33% s), then sp3 (25% s). 3. CH≡C− (acetylide) is sp-hybridized, CH2=CH− (vinyl) is sp2-hybridized, and CH3CH2− (alkyl) is sp3-hybridized. 4. Therefore stability order: CH≡C− > CH2=CH− > CH3CH2−. 5. This matches option (B). Answer: (B) CH≡C− > CH2=CH− > CH3−CH2−"
+    },
+    {
+      "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-004",
+      "solution": "1. Carbanion stability depends on the electron-withdrawing effect of substituents and resonance stabilization. 2. The carbanion labeled IV likely has the most stabilizing groups (e.g., electron-withdrawing groups or resonance pathways), making it the most stable. 3. Carbanions I, II, V have progressively fewer stabilizing features. 3. The order IV > I > II > V > III follows from inductive and resonance effects on the electron density. 4. Electron-withdrawing groups disperse the negative charge, enhancing stability. Answer: (C) IV > I > II > V > III"
+    },
+    {
+      "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-005",
+      "solution": "1. Alkene stability increases with greater alkyl substitution on the double bond (Saytzeff's rule). 2. More alkyl groups donate electron density via hyperconjugation, stabilizing the π-bond. 3. Alkene I is likely the most substituted (e.g., trisubstituted or tetrasubstituted), followed by III (disubstituted), then II (monosubstituted), with IV (unsubstituted terminal) being least stable. 4. The decreasing order of substitution gives I > III > II > IV. 5. This matches option (D). Answer: (D) I > III > II > IV"
+    },
+    {
+      "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-007",
+      "solution": "1. Nucleophilicity depends on the electron density on the attacking atom and its polarizability. 2. In protic solvents like methanol, nucleophilicity increases down the periodic table: I− > Br− > Cl− > F− due to weaker solvation of larger ions. 3. −OH is a strong nucleophile with high electron density. 4. PhO− (phenoxide) is resonance-stabilized, making it less nucleophilic than −OH but still reactive. 5. CH3COO− (acetate) has the negative charge delocalized over two oxygens, reducing its nucleophilicity further. 6. ClO4− (perchlorate) has the charge spread over four oxygens, making it a very weak nucleophile. 7. Order: −OH > PhO− > CH3COO− > ClO4−. Answer: (C) −OH > PhO− > CH3COO− > ClO4−"
+    },
+    {
+      "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-008",
+      "solution": "1. Reactivity of benzyl halides towards KCN depends on the ease of carbocation formation (SN1) or backside attack (SN2). 2. Electron-donating substituents on the benzyl ring stabilize the carbocation intermediate, increasing SN1 reactivity. 3. Compound b likely has the most favorable carbocation stabilization, making it most reactive. 4. Compound a is next, followed by d and c with decreasing carbocation stability. 5. The order b > a > d > c reflects carbocation stability: more substituted/activated benzyl positions react faster. Answer: (B) b > a > d > c"
+    },
+    {
+      "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-003",
+      "solution": "1. SN1 reaction rate depends on the stability of the carbocation intermediate formed in the rate-determining step. 2. Carbocation stability increases with alkyl substitution: tertiary > secondary > primary > methyl. 3. Given that structures I and II are rigid, ring strain or hybridization effects differentiate their carbocation stabilities. 4. The order II < I < III < IV means IV forms the most stable carbocation (likely most substituted or least strained), while II forms the least stable. 5. This order agrees with the given correct option. Answer: (D) II < I < III < IV"
+    },
+    {
+      "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-004",
+      "solution": "1. In chlorobenzene, the C−Cl bond has partial double bond character due to resonance (lone pair on Cl → aromatic ring). ✓ B is true. 2. This resonance reduces the polarity of the C−Cl bond compared to chlorocyclohexane, where the bond is purely polar single. ✓ C is true. 3. The negative charge magnitude on Cl is not necessarily greater in chlorobenzene; resonance delocalizes the lone pair, potentially reducing charge density on Cl. ✗ A is false. 4. The C−Cl bond in chlorobenzene is shorter than in chlorocyclohexane due to partial double bond character, not longer. ✗ D is false. 5. The C−Cl bond in aryl halides is formed using sp2-hybridized carbon. ✓ E is true. 6. Correct statements: B, C, E only. Answer: (A) B, C and E Only"
+    },
+    {
+      "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-005",
+      "solution": "1. Nucleophile reactivity with CH3Br in methanol follows the trend: stronger nucleophiles and more polarizable species react faster. 2. I− is highly polarizable (large size, easy to distort electron cloud), making it a good nucleophile in protic solvents. 3. C2H5O− (ethoxide) is a strong nucleophile with high electron density on oxygen. 4. C6H5O− (phenoxide) has the negative charge resonance-delocalized over the aromatic ring, reducing its nucleophilicity compared to alkoxides. 5. F− is small and highly solvated in protic methanol, rendering it the weakest nucleophile among the four. 6. The reactivity order: I− > C2H5O− > C6H5O− > F−. Answer: (B) I− > C2H5O− > C6H5O− > F−"
+    },
+    {
+      "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-006",
+      "solution": "1. Statement I compares C−Cl bond strength: vinyl chloride (CH2=CH−Cl) has partial double bond character due to resonance, making the bond shorter and stronger than the purely single C−Cl bond in CH3−CH2−Cl (ethyl chloride). Statement I is true. 2. Statement II claims an optically active molecule, upon hydrolysis, gives a solution that rotates plane-polarized light. 3. Hydrolysis may destroy the chiral center or racemize the product, so the hydrolysis solution does not necessarily retain optical activity. Statement II is not universally true. 4. Therefore Statement I is true but Statement II is false. Answer: (D) Statement I is true but Statement II is false"
+    },
+    {
+      "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-007",
+      "solution": "1. Vinyl chloride (CH2=CH−Cl) has the −Cl group directly attached to the sp2-hybridized alkene carbon. This matches example III (CH2=CHCl). 2. Benzyl chloride (C6H5−CH2−Cl) has the −Cl group on the benzylic carbon, matching example IV (the unlisted benzyl structure). 3. Alkyl chloride (typical C−Cl on sp3 carbon) matches example II (CH3=CH(Cl)CH3, a chloropropene where the carbon bearing Cl is sp3-like in context). 4. Allyl chloride (CH2=CH−CH2−Cl) matches example I. 5. The correct matching is A→III, B→IV, C→II, D→I. Answer: (D) A-III, B-IV, C-II, D-I"
+    }
+  ]
+}

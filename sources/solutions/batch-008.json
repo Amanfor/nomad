@@ -1,0 +1,1309 @@
+{
+ "batch": 8,
+ "items": [
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-014",
+   "hash": "17aead6e78fb2bac",
+   "question": "Given below are two statements: Statement I: A plane wave after passing through prism remains as plane wave but passing through small pin hole may become spherical wave. Statement II: The curvature of a spherical wave emerging from a slit will increase for increasing slit width. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 3,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-013",
+   "hash": "fa890216cb0d6fd5",
+   "question": "An unpolarised light is incident at an interface of two dielectric media having refractive indices of 2 (incident medium) and 2√3 (medium) respectively. To satisfy the condition that reflected and refracted rays are perpendicular to each other, the angle of incidence is ____.",
+   "options": [
+    "45 ∘",
+    "60∘",
+    "10∘",
+    "30 ∘ #PaperPhodnaHai www.mathongo.com Wave Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo #PaperPhodnaHai www.mathongo.com Wave Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-013",
+   "hash": "f8e92d3556af0362",
+   "question": "The energy of an electron in an orbit of the Bohr's atom is −0.04E eV where E is the ground state energy. If L is 0 0 the angular momentum of the electron in this orbit and h is the Planck's constant, then 2πL h is ____ :",
+   "options": [
+    "5",
+    "6",
+    "2",
+    "4"
+   ],
+   "correct": 0,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-013",
+   "hash": "98e11224d0d9c19f",
+   "question": "In hydrogen atom spectrum, (R → Rydberg's constant ) A. the maximum wavelength of the radiation of Lyman series is 4 3R B. the Balmer series lies in the visible region of the spectrum C. the minimum wavelength of the radiation of Paschen series is 9 R D. the minimum wavelength of Lyman series is 5 4R Choose the correct answer from the options given below :",
+   "options": [
+    "B, D Only",
+    "A, B and C Only",
+    "A, B and D Only",
+    "A, B Only"
+   ],
+   "correct": 1,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-010",
+   "hash": "b3a22cbc8724c6e7",
+   "question": "The smallest wavelength of Lyman series is 91 nm. The difference between the largest wavelengths of Paschen and Balmer series is nearly ____ nm .",
+   "options": [
+    "1550",
+    "1217",
+    "1875",
+    "1784"
+   ],
+   "correct": 1,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-012",
+   "hash": "5f71d53b7b73eeec",
+   "question": "If an alpha particle with energy 7.7 MeV is bombarded on a thin gold foil, the closest distance from nucleus it can reach is ____ m. (Atomic number of gold = 79 and 1 4πϵo = 9 × 10 9 in SI units)",
+   "options": [
+    "3.85 × 10 −16",
+    "3.85 × 10 −14",
+    "2.95 × 10 −16",
+    "2.95 × 10 −14"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-014",
+   "hash": "373d4a2bd82143f9",
+   "question": "Two electrons are moving in orbits of two hydrogen like atoms with speeds 3 × 10 m/s and 2.5 × 10 m/s 5 5 respectively. If the radii of these orbits are nearly same then the possible order of energy states are ____ respectively.",
+   "options": [
+    "8 and 10",
+    "9 and 8",
+    "10 and 12",
+    "6 and 5 #PaperPhodnaHai www.mathongo.com Atomic Physics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-014",
+   "hash": "adc18a5ddd1f642a",
+   "question": "The speed of a longitudinal wave in a metallic bar is 400 m/s. If the density and Young's modulus of the bar material are increased by 0.5% and 1%, respectively then the speed of the wave is changed approximately to ____ m/s .",
+   "options": [
+    "398",
+    "401",
+    "399",
+    "402"
+   ],
+   "correct": 1,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-012",
+   "hash": "a0ae0407a4aa0093",
+   "question": "A point source is kept at the center of a spherically enclosed detector. If the volume of the detector increased by 8 times, the intensity will",
+   "options": [
+    "increase by 64 times",
+    "increase by 8 times",
+    "decrease by 4 times",
+    "decrease by 8 times"
+   ],
+   "correct": 2,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-013",
+   "hash": "0607418a06dce45d",
+   "question": "The fifth harmonic of a closed organ pipe is found to be in unison with the first harmonic of an open pipe. The ratio of lengths of closed pipe to that of the open pipe is 5/x. The value of x is ____.",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "2"
+   ],
+   "correct": 3,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-011",
+   "hash": "d03ad3d81bd89331",
+   "question": "In an open organ pipe ν and ν are 3 3 6 rd and 6 th harmonic frequencies, respectively. If ν − ν = 2200 Hz then 6 3 length of the pipe is ____ mm . (Take velocity of sound in air is 330 m/s.)",
+   "options": [
+    "275",
+    "250",
+    "225",
+    "200 #PaperPhodnaHai www.mathongo.com Waves and Sound JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-013",
+   "hash": "87796600dbafe8e0",
+   "question": "Two strings (A, B) having linear densities μ A −4 = 2 × 10 kg/m and, μ B −4 = 4 × 10 kg/m and lengths L A = 2.5 m and L B = 1.5 m respectively are joined. Free ends of A and B are tied to two rigid supports C and D, respectively creating a tension of 500 N in the wire. Two identical pulses, sent from C and D ends, take time t and t , 1 2 respectively, to reach the joint. The ratio t /t is : 1 2",
+   "options": [
+    "1.90",
+    "1.67",
+    "1.08",
+    "1.18 #PaperPhodnaHai www.mathongo.com Waves and Sound JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-014",
+   "hash": "ccc5b69939be5005",
+   "question": "A body of mass 2 kg is moving along x-direction such that its displacement as function of time is given by x(t) = αt 2 + βt + γm , where α = 1 m/s , β = 1 m/s and γ = 1 m. The work done on the body during the time 2 interval t = 2 s to t = 3 s, is ____ J.",
+   "options": [
+    "12",
+    "49",
+    "42",
+    "24"
+   ],
+   "correct": 3,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-014",
+   "hash": "a4869515c9b379aa",
+   "question": "A small bob A of mass m is attached to a massless rigid rod of length 1 m pivoted at point P and kept at an angle of 60 ∘ with vertical as shown in figure. At distance of 1 m below point P , an identical bob B is kept at rest on a smooth horizontal surface that extends to a circular track of radius R as shown in figure. If bob B just manages to complete the circular path of radius R upto a point Q after being hit elastically by bob A, then radius R is ____ m.",
+   "options": [
+    "1 5",
+    "2−√ 3 5",
+    "3 5",
+    "2+√ 3 5"
+   ],
+   "correct": 0,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-014",
+   "hash": "e39b65ad329171ff",
+   "question": "In case of vertical circular motion of a particle by a thread of length r if the tension in the thread is zero at an angle 30 ∘ shown in figure, the velocity at the bottom point (A) of the circular path is (g = gravitational acceleration)",
+   "options": [
+    "√ 7 gr",
+    "√5gr",
+    "√4gr",
+    "√ 5 gr 2 2 #PaperPhodnaHai www.mathongo.com Work Power Energy JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-012",
+   "hash": "72e8fac9c3fd0810",
+   "question": "Given below are two statements : Statement I: An object moves from position r to position r under a conservative force field F→. The work done by 1 2 − → the force is W = − ∫ r2 → F ⋅ dr . r1 Statement II: Any object moving from one location to another location can follow infinite number of paths. Therefore, the amount of work done by the object changes with the path it follows for a conservative force. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 0,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-012",
+   "hash": "d711716a79607122",
+   "question": "A bead P sliding on a frictionless semi-circular string (ACB) and it is at point S at t = 0 and at this instant the horizontal component of its velocity is v. Another bead Q of the same mass as P is ejected from point A at t = 0 along the horizontal string AB, with the speed v, friction between the beads and the respective strings may be neglected in both cases. Let t and t be the respective times taken by beads P and Q to reach the point B, then the P Q relation between t and t is P Q",
+   "options": [
+    "t P <t Q",
+    "t P >t Q",
+    "t P =t Q",
+    "t P > 1.25t Q #PaperPhodnaHai www.mathongo.com Work Power Energy JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-014",
+   "hash": "16900913ca61e22a",
+   "question": "Potential energy (V ) versus distance (x) is given by the graph. Rank various regions as per the magnitudes of the force (F) acting on a particle from high to low.",
+   "options": [
+    "F CD > F AB > F BC > F DE",
+    "F CD > F DE > F AB > F BC",
+    "F BC > F CD > F DE > F AB",
+    "F BC > F AB > F DE > F CD #PaperPhodnaHai www.mathongo.com Work Power Energy JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-015",
+   "hash": "749a074c50261a2a",
+   "question": "The charge stored by the capacitor C in the given circuit in the steady state is ____ μC.",
+   "options": [
+    "5",
+    "12.5",
+    "10",
+    "7.5"
+   ],
+   "correct": 2,
+   "chapter": "Capacitance",
+   "topic": "Capacitance",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-015",
+   "hash": "8ffdfc697d3d37e6",
+   "question": "Identify the correct statements : A. Effective capacitance of a series combination of capacitors is always smaller than the smallest capacitance of the capacitor in the combination. B. When a dielectric medium is placed between the charged plates of a capacitor, displacement of charges cannot occur due to insulation property of dielectric. C. Increasing of area of capacitor plate or decreasing of thickness of dielectric is an alternate method to increase the capacitance. D. For a point charge, concentric spherical shells centered at the location of the charge are equipotential surfaces. Choose the correct answer from the options given below :",
+   "options": [
+    "B and D Only",
+    "A, B and C Only",
+    "C and D Only",
+    "A, C and D Only #PaperPhodnaHai www.mathongo.com Capacitance JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Capacitance",
+   "topic": "Capacitance",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-015",
+   "hash": "4dc4838777086269",
+   "question": "Three parallel plate capacitors each with area A and separation d are filled with two dielectric (k and k ) in the 1 2 following fashion. Which of the following is true? (k > k ) 1 2",
+   "options": [
+    "C C > CA > CB",
+    "C C > CB > CA",
+    "C A > CC > CB",
+    "C B > CC > CA"
+   ],
+   "correct": 2,
+   "chapter": "Capacitance",
+   "topic": "Capacitance",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-013",
+   "hash": "8bfb8d7aef8461e5",
+   "question": "A parallel plate capacitor with plate separation 5 mm is charged by a battery. On introducing a mica sheet of 2 mm and maintaining the connections of the plates with the terminals of the battery, it is found that it draws 25% more charge from the battery. The dielectric constant of mica is ____.",
+   "options": [
+    "1.0",
+    "2.5",
+    "2.0",
+    "1.5"
+   ],
+   "correct": 2,
+   "chapter": "Capacitance",
+   "topic": "Capacitance",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-015",
+   "hash": "57890d5c9d6104af",
+   "question": "A parallel plate capacitor has capacitance C , when there is vacuum within the parallel plates. A sheet having rd thickness ( 1 3 ) of the separation between the plates and relative permittivity K is introduced between the plates. The new capacitance of the system is : 2",
+   "options": [
+    "4KC 3K−1",
+    "3CK (2K+1) 2",
+    "3KC 2K+1",
+    "CK 2+K #PaperPhodnaHai www.mathongo.com Capacitance JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Capacitance",
+   "topic": "Capacitance",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-015",
+   "hash": "21c495aa53600778",
+   "question": "In a perfectly inelastic collision, two spheres made of the same material with masses 15 kg and 25 kg, moving in opposite directions with speeds of 10 m/s and 30 m/s, respectively, strike each other and stick together. The rise in temperature (in C), if all the heat produced during the collision is retained by these spheres, is : (specific heat of ∘ sphere material 31cal/kg. C and 1cal = 4.2 J) ∘",
+   "options": [
+    "1.15",
+    "1.75",
+    "1.44",
+    "1.95"
+   ],
+   "correct": 2,
+   "chapter": "Center-Of-Mass",
+   "topic": "Center-Of-Mass",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-013",
+   "hash": "27d15a78bd466a05",
+   "question": "Given below are two statements : Statement I: For a mechanical system of many particles total kinetic energy is the sum of kinetic energies of all the particles. Statement II: The total kinetic energy can be the sum of kinetic energy of the center of mass w.r.t to the origin and the kinetic energy of all the particles w.r.t. the center of mass as the reference. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 3,
+   "chapter": "Center-Of-Mass",
+   "topic": "Center-Of-Mass",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-014",
+   "hash": "635afca2a4f164d6",
+   "question": "A body of mass 14 kg initially at rest explodes and breaks into three fragments of masses in the ratio 2 : 2 : 3. The two pieces of equal masses fly off perpendicular to each other with a speed of 18 m/s each. The velocity of the heavier fragment is ____ m/s.",
+   "options": [
+    "12",
+    "10√2",
+    "24√2",
+    "12√2 #PaperPhodnaHai www.mathongo.com Center of Mass Momentum and Collision JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Center-Of-Mass",
+   "topic": "Center-Of-Mass",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-016",
+   "hash": "366d207573531039",
+   "question": "Two known resistances of RΩ and 2RΩ and one unknown resistance XΩ are connected in a circuit as shown in the figure. If the equivalent resistance between points A and B in the circuit is XΩ, then the value of X is ____ Ω.",
+   "options": [
+    "(√3 − 1)R",
+    "2(√3 − 1)R",
+    "(√3 + 1)R",
+    "R"
+   ],
+   "correct": 0,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-017",
+   "hash": "bbd41eddc622f593",
+   "question": "The total length of potentiometer wire AB is 50 cm in the arrangement as shown in figure. If P is the point where the galvanometer shows zero reading then the length AP is ____ cm.",
+   "options": [
+    "25",
+    "30",
+    "20",
+    "15"
+   ],
+   "correct": 1,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-018",
+   "hash": "ea25695ff2e1941e",
+   "question": "A battery with EMF E and internal resistance r is connected across a resistance R. The power consumption in R will be maximum when :",
+   "options": [
+    "R = 2r",
+    "R = r/2",
+    "R = r",
+    "R = √2r"
+   ],
+   "correct": 2,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-016",
+   "hash": "43f1ca2824664de4",
+   "question": "A wire of uniform resistance λΩ/m is bent into a circle of radius r and another piece of wire with length 2r is connected between points A and B(AOB) as shown in figure. The equivalent resistance between points A and B is ____ Ω .",
+   "options": [
+    "3πλr 8",
+    "6πλr 3π+16",
+    "2πλr",
+    "(π + 1)2rλ #PaperPhodnaHai www.mathongo.com Current Electricity JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-016",
+   "hash": "c3f1ee7fab46256c",
+   "question": "Which one of the following is not a measurable quantity?",
+   "options": [
+    "Voltage",
+    "Resistance",
+    "Displacement current",
+    "Voltage difference"
+   ],
+   "correct": 0,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-017",
+   "hash": "b572f917618bc6e6",
+   "question": "A Wheatstone bridge is initially at room temperature and all arms of the bridge have same value of resistances (R1 = R2 = R3 = R4) . When R resistance is heated to some temperature, its resistance value has gone up by 10%. 3 The potential difference (V − V ) (after R is heated) is ____ V. a b 3",
+   "options": [
+    "1.05",
+    "0.95",
+    "0",
+    "2"
+   ],
+   "correct": 1,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-016",
+   "hash": "827ba4e0a4f44d46",
+   "question": "The reading of the ammeter (A) in steady state in the following circuit (assuming negligible internal resistance of the ammeter) is ____ A.",
+   "options": [
+    "1",
+    "1/2",
+    "0",
+    "2"
+   ],
+   "correct": 0,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-017",
+   "hash": "02f3e25c45ee6085",
+   "question": "A moving coil galvanometer of resistance 100Ω shows a full scale deflection for a current of 1 mA. The value of resistance required to convert this galvanometer into an ammeter, showing full scale deflection for a current of 5 mA, is ____ Ω",
+   "options": [
+    "0.5",
+    "2.5",
+    "10",
+    "25"
+   ],
+   "correct": 3,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-014",
+   "hash": "4f24e04e06bbb954",
+   "question": "An electric power line having total resistance of 2Ω, delivers 1 kW of power at 250 V. The percentage efficiency of transmission line is ____ .",
+   "options": [
+    "100",
+    "92.5",
+    "96.9",
+    "86.5"
+   ],
+   "correct": 2,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-015",
+   "hash": "b03c8976355aa281",
+   "question": "A meter bridge with two resistances R and R as shown in figure was balanced (null point) at 40 cm from the point 1 2 P . The null point changed to 50 cm from the point P , when 16Ω resistance is connected in parallel to R . The 2 values of resistances R and R are ____. 1 2",
+   "options": [
+    "R = 4Ω, R = 2 1 4 3 Ω",
+    "R = 16Ω, R = 2 1 16 3 Ω",
+    "R = 12Ω, R = 2 1 12 3 Ω",
+    "R = 8Ω, R = 2 1 16 3 Ω"
+   ],
+   "correct": 3,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-015",
+   "hash": "44e4857b5577d06a",
+   "question": "To compare EMF of two cells using potentiometer the balancing lengths obtained are 200 cm and 150 cm. The least count of scale is 1 cm. The percentage error in the ratio of EMFs is ____.",
+   "options": [
+    "1.65",
+    "1.45",
+    "1.75",
+    "1.16 #PaperPhodnaHai www.mathongo.com Current Electricity JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-015",
+   "hash": "c2c62c7b4576e604",
+   "question": "For the two cells having same EMF E and internal resistance r, the current passing through the external resistor 6Ω is same when both the cells are connected either in parallel or in series. The value of internal resistance r is ____ Ω.",
+   "options": [
+    "6",
+    "3",
+    "4",
+    "9"
+   ],
+   "correct": 0,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-016",
+   "hash": "8161ff501e7d01b6",
+   "question": "In the potentiometer, when the cell in the secondary circuit is shunted with 4Ω resistance, the balance is obtained at the length 120 cm of wire. Now when the same cell is shunted with 12Ω resistance, the balance is shifted to a length of 180 cm. The internal resistance of cell is ____ Ω",
+   "options": [
+    "4",
+    "12",
+    "6",
+    "3"
+   ],
+   "correct": 0,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-015",
+   "hash": "fb9bd65c4ae2d463",
+   "question": "Two resistors 2Ω and 3Ω are connected in the gaps of bridge as shown in figure. The null point is obtained with the contact of jockey at some point on wire XY . When an unknown resistor is connected in parallel with 3Ω resistor, the null point is shifted by 22.5 cm toward Y . The resistance of unknown resistor is ____ Ω.",
+   "options": [
+    "2",
+    "1",
+    "4",
+    "3"
+   ],
+   "correct": 0,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-016",
+   "hash": "cebc87e734c2a147",
+   "question": "Two resistors of 100Ω each are connected in series with a 9 V battery. A voltmeter of 400Ω resistance is connected to measure the voltage drop across one of the resistors. The voltmeter reading is ____ V.",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "4.5 #PaperPhodnaHai www.mathongo.com Current Electricity JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-017",
+   "hash": "62d88b6865e79391",
+   "question": "The de Broglie wavelength of an oxygen molecule at 27 C is x × 10 ∘ −12 m . The value of x is (take Planck's constant = 6.63 × 10 −34 J. s , Boltzmann constant = 1.38 × 10 −23 J/K , mass of oxygen molecule = 5.31 × 10 −26 ) kg",
+   "options": [
+    "24",
+    "26",
+    "30",
+    "20"
+   ],
+   "correct": 1,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-018",
+   "hash": "95c859d3cf73ad6e",
+   "question": "Number of photons of equal energy emitted per second by a 6 mW laser source operating at 663 nm is ____. (Given : h = 6.63 × 10 −34 J. s and c = 3 × 10 m/s) 8",
+   "options": [
+    "2 × 1016",
+    "10 × 10 15",
+    "5 × 1015",
+    "5 × 10 16"
+   ],
+   "correct": 0,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-018",
+   "hash": "1e6ebaf5cc58198d",
+   "question": "When a light of a given wavelength falls on a metallic surface the stopping potential for photoelectrons is 3.2 V. If a second light having wavelength twice of first light is used, the stopping potential drops to 0.7 V. The wavelength of first light is ____ m. (h = 6.63 × 10 −34 J. s, e = 1.6 × 10 −19 C, c = 3 × 10 8 m/s)",
+   "options": [
+    "2.5 × 10 −7",
+    "2.2 × 10 −8",
+    "3.1 × 10 −7",
+    "2.9 × 10 −8"
+   ],
+   "correct": 0,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-015",
+   "hash": "a9b91ae4a565d089",
+   "question": "Light is incident on a metallic plate having work function 110 × 10 −20 J. If the produced photoelectrons have zero kinetic energy then the angular frequency of the incident light is ____ rad/s. (h = 6.63 × 10 −34 . J. s)",
+   "options": [
+    "1.04 × 10 13",
+    "1.04 × 10 16",
+    "1.66 × 10 16",
+    "1.66 × 10 15"
+   ],
+   "correct": 1,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-016",
+   "hash": "3f59467c8f02b016",
+   "question": "A light wave described by E = 60 [sin (3 × 10 15 )t + sin (12 × 10 15 )t] (in SI units) falls on a metal surface of work function 2.8 eV. The maximum kinetic energy of ejected photoelectron is (approximately) ____ eV. (h = 6.6 × 10 −34 . s. and e = 1.6 × 10 J −19 C)",
+   "options": [
+    "7.8",
+    "6.0",
+    "5.1",
+    "3.8 #PaperPhodnaHai www.mathongo.com Dual Nature of Matter JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-018",
+   "hash": "77f709af019e52ef",
+   "question": "A 20 m long uniform copper wire held horizontally is allowed to fall under the gravity (g = 10 m/s ) through a 2 uniform horizontal magnetic field of 0.5 Gauss perpendicular to the length of the wire. The induced EMF across the wire when it travells a vertical distance of 200 m is ____ mV.",
+   "options": [
+    "20√10",
+    "0.2√10",
+    "200√10",
+    "2√10"
+   ],
+   "correct": 0,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-016",
+   "hash": "0564651302e23c5f",
+   "question": "Figure shows the circuit that contains three resistances (9Ω each) and two inductors (4 mH each). The reading of ammeter at the moment switch K is turned ON, is ____ A.",
+   "options": [
+    "2",
+    "1",
+    "zero",
+    "3"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-016",
+   "hash": "c13612f43923fe74",
+   "question": "Three identical coils C , C and C are closely placed such that they share a common axis. C is exactly midway. C 1 2 3 2 1 carries current I in anti-clockwise direction while C carries current I in clockwise direction. An induced current 3 flows through C will be in clockwise direction when 2",
+   "options": [
+    "C moves away from C and C moves towards C 1 2 3 2",
+    "C and C move with equal speeds away from C 1 3 2",
+    "C moves towards C and C moves away from C 1 2 3 2",
+    "C and C move with equal speeds towards C 1 3 2 #PaperPhodnaHai www.mathongo.com Electromagnetic Induction JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-017",
+   "hash": "2a77d4d701d78da6",
+   "question": "XP QY is a vertical smooth long loop having a total resistance R where P X is parallel to QY and separation between them is l. A constant magnetic field B perpendicular to the plane of the loop exists in the entire space. A rod CD of length L(L > l) and mass m is made to slide down from rest under the gravity as shown in figure. The terminal speed acquired by the rod is ____ m/s. (g = acceleration due to gravity)",
+   "options": [
+    "8mgR B l 2 2",
+    "2mgR 2 B L 2",
+    "m gR B l 2 2",
+    "2mgR 2 2 B l"
+   ],
+   "correct": 2,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-016",
+   "hash": "dd5a0d8051561b9f",
+   "question": "Suppose a long solenoid of 100 cm length, radius 2 cm having 500 turns per unit length, carries a current I = 10 sin(ωt)A , where ω = 1000rad. /s. A circular conducting loop (B) of radius 1 cm coaxially slided through the solenoid at a speed v = 1 cm/s. The r.m.s. current through the loop when the coil B is inserted 10 cm inside the solenoid is α/√2μ A. The value of α is ____. [Resistance of the loop = 10Ω ]",
+   "options": [
+    "197",
+    "80",
+    "100",
+    "280"
+   ],
+   "correct": 0,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-017",
+   "hash": "3a6373b1e8475a1b",
+   "question": "A circular loop of radius 7 cm is placed in uniform magnetic field of 0.2 T directed perpendicular to plane of loop. The loop is converted into a square loop in 0.5 s. The EMF induced in the loop is ____ mV.",
+   "options": [
+    "13.2",
+    "1.32",
+    "8.25",
+    "6.6"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-017",
+   "hash": "af163ebe8993b457",
+   "question": "A conducting circular loop of area 1.0 m is placed perpendicular to a magnetic field which varies as B = sin(100t) 2 Tesla. If the resistance of the loop is 100Ω, then the average thermal energy dissipated in the loop in one period is ____ J.",
+   "options": [
+    "π 2",
+    "π",
+    "π 2",
+    "2π #PaperPhodnaHai www.mathongo.com Electromagnetic Induction JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-018",
+   "hash": "df136cff7946c08f",
+   "question": "A 1 m long metal rod AB completes the circuit as shown in figure. The area of circuit is perpendicular to the magnetic field of 0.10 T. If the resistance of the total circuit is 2Ω then the force needed to move the rod towards right with constant speed (v) of 1.5 m/s is ____ N.",
+   "options": [
+    "5.7 × 10−2",
+    "7.5 × 10 −2",
+    "7.5 × 10−3",
+    "5.7 × 10 −3 #PaperPhodnaHai www.mathongo.com Electromagnetic Induction JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-019",
+   "hash": "ee530e1a8327ea01",
+   "question": "Match List - I with List - II. List - I List - II Relation Law − → → → A. ∮ E ⋅ dl = − d → ∮ B ⋅ da I. Ampere's circuital law dt → → B. ∮ B ⋅ dl = μ0 (I + ϵ0 dϕE ) II. Faraday's laws of dt electromagnetic induction − → → C. ∮ E ⋅ da = 1 ∫ ρdv III. Ampere - Maxwell law ϵ0 V → → D. ∮ B ⋅ dl = μ0I IV. Gauss's law of electrostatics Choose the correct answer from the options given below :",
+   "options": [
+    "A-II, B-III, C-I, D-IV",
+    "A-II, B-III, C-IV, D-I",
+    "A-I, B-IV, C-III, D-II",
+    "A-IV, B-I, C-II, D-III"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-019",
+   "hash": "35e1217a4b7abe28",
+   "question": "A plane electromagnetic wave is moving in free space with velocity c = 3 × 10 m/s and its electric field is given 8 → = 54 sin(kz − ωt)^j V/m, where ^j is the unit vector along y-axis. The magnetic field vector B as E → of the wave is:",
+   "options": [
+    "+1.8 × 10 −7 ^ sin(kz − ωt)i T",
+    "1.4 × 10 −7 ^ sin(kz − ωt)k T",
+    "−1.8 × 10 −7 ^ sin(kz − ωt)i T",
+    "1.4 × 10 −7 sin(kz − ωt)^ i T #PaperPhodnaHai www.mathongo.com Electromagnetic Waves JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-017",
+   "hash": "b655a7bed2757377",
+   "question": "A laser beam has intensity of 4.0 × 10 14 W/m . The amplitude of magnetic field associated with beam is ____ T. 2 (Take ϵ = 8.85 × 10 o −12 2 C /Nm 2 and c = 3 × 10 m/s) 8",
+   "options": [
+    "18.3",
+    "1.83",
+    "5.5",
+    "2.0"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-018",
+   "hash": "472de280ff2ed110",
+   "question": "The ratio of speeds of electromagnetic waves in vacuum and a medium, having dielectric constant k = 3 and permeability of μ = 2μ , is 0 (μ = permeability of vacuum) 0",
+   "options": [
+    "36 : 1",
+    "3 : 2",
+    "6 : 1",
+    "√6 : 1"
+   ],
+   "correct": 3,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-019",
+   "hash": "2a1a9ebc420960b0",
+   "question": "The electric field in a plane electromagnetic wave is given by : 3 Ey = 69 sin [0.6 × 10 x − 1.8 × 10 11 t]V/m . The expression for magnetic field associated with this electromagnetic wave is ____ T.",
+   "options": [
+    "B = 2.3 × 10 z −7 3 sin [0.6 × 10 x − 1.8 × 10 11 t]",
+    "B = 2.3 × 10 z −7 3 sin [0.6 × 10 x + 1.8 × 10 11 t]",
+    "B = 69 sin [0.6 × 10 x + 1.8 × 10 y 3 11 t]",
+    "B = 2.3 × 10 y −7 3 sin [0.6 × 10 x − 1.8 × 10 11 t]"
+   ],
+   "correct": 0,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-017",
+   "hash": "227fd1c24364c523",
+   "question": "The electric field of an electromagnetic wave travelling through a medium is given by → E(x, t) = 25 sin (2.0 × 10 t − 10 x)n 15 ^ 7 then the refractive index of the medium is ____. (All given measurement are in SI units)",
+   "options": [
+    "1.5",
+    "1.2",
+    "1.7",
+    "2 #PaperPhodnaHai www.mathongo.com Electromagnetic Waves JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  }
+ ]
+}

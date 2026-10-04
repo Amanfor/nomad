@@ -1,0 +1,1413 @@
+{
+ "batch": 19,
+ "items": [
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-101",
+   "hash": "89dee1dc9e1c4d0b",
+   "question": "A coil of area A and N turns is rotating with angular velocity ω in a uniform magnetic field B about an axis perpendicular to B . Magnetic flux φ and induced emf ε across it, at an instant when B is parallel to the plane of coil, are :",
+   "options": [
+    "φ = AB, ε = 0",
+    "φ = 0, ε = 0",
+    "φ = 0, ε = NABω",
+    "φ = AB, ε = NABω"
+   ],
+   "correct": 2,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-102",
+   "hash": "6b1e6f0b4360e745",
+   "question": "Consider I 1 and I 2 are the currents flowing simultaneously in two nearby coils 1 & 2, respectively. If L 1 = ​ ​ ​ self inductance of coil 1, M 12 = mutual inductance of coil 1 with respect to coil 2, then the value of induced ​ emf in coil 1 will be Options dI 2",
+   "options": [
+    "ε 1 = −L 1 ​ ​ dt ​ ​ − M 12 dIdt1 ​ ​ ​",
+    "ε 1 = −L 1 dIdt1 ​ ​ ​ ​ − M 12 dIdt2 ​ ​ ​",
+    "ε 1 = −L 1 dIdt1 − M 12 dIdt1 ​ ​ ​ ​ ​ ​ ​ dI 1",
+    "ε 1 = −L 1 ​ ​ dt ​ ​ + M 12 dIdt2 ​ ​ ​"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic Induction",
+   "topic": "Electromagnetic Induction",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electromagnetic Induction",
+   "formulas": [
+    "$$\\Phi_B = \\int_S \\vec{B} \\cdot d\\vec{A}$$",
+    "$$\\Phi_B = B A \\cos\\theta = \\vec{B} \\cdot \\vec{A}$$",
+    "$$|\\mathcal{E}| = \\frac{d\\Phi_B}{dt}$$",
+    "$$|\\mathcal{E}| = N \\frac{d\\Phi_B}{dt} = \\frac{d(N\\Phi_B)}{dt} = \\frac{d\\lambda_{\\text{flux}}}{dt}$$",
+    "$$Faraday\\text{-}Lenz\\ Law:\\quad \\mathcal{E} = -\\frac{d\\Phi_B}{dt} = -N \\frac{d\\Phi_B}{dt}$$",
+    "$$i(t) = \\frac{\\mathcal{E}}{R} = -\\frac{1}{R}\\frac{d\\Phi_B}{dt}$$",
+    "$$\\Delta q = \\int i(t)\\,dt = \\frac{1}{R}\\int |d\\Phi_B| = \\frac{|\\Delta \\Phi_B|}{R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-103",
+   "hash": "27d94fd1e5e5be63",
+   "question": "A series LCR circuit is connected to an alternating source of emf E. The current amplitude at resonant frequency is I . If the value of resistance R becomes twice of its initial value then amplitude of current at resonance will be 0",
+   "options": [
+    "2I 0",
+    "I 0 I0",
+    "2 I0",
+    "√2"
+   ],
+   "correct": 2,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-104",
+   "hash": "89a29ee4be9ad408",
+   "question": "An alternating current is given by I = I A sin ωt + IB cos ωt . The r.m.s current will be |IA +IB |",
+   "options": [
+    "√2 2 2 I +I",
+    "√ A 2 B",
+    "√I 2 A + I 2 B 2 2 √I +I A B",
+    "2"
+   ],
+   "correct": 1,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-105",
+   "hash": "a59d5c607f74991d",
+   "question": "Given below are two statements : one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : Choke coil is simply a coil having a large inductance but a small resistance. Choke coils are used with fluorescent mercury-tube fittings. If household electric power is directly connected to a mercury tube, the tube will be damaged. Reason (R): By using the choke coil, the voltage across the tube is reduced by a factor (R/ R 2 + ω 2 L 2 ), ​ where ω is frequency of the supply across resistor R and inductor L. If the choke coil were not used, the voltage across the resistor would be the same as the applied voltage. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "(A) is true but (R) is false",
+    "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "(A) is false but (R) is true",
+    "Both (A) and (R) are true but (R) is not the correct explanation of (A)"
+   ],
+   "correct": 1,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-106",
+   "hash": "ffe7d3b1845ff29d",
+   "question": "A concave mirror of focal length f in air is dipped in a liquid of refractive index μ. Its focal length in the liquid will be:",
+   "options": [
+    "μf",
+    "f f",
+    "(μ−1) f",
+    "μ"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-107",
+   "hash": "5b16ae8aad02d378",
+   "question": "A transparent film of refractive index, 2.0 is coated on a glass slab of refractive index, 1.45. What is the minimum thickness of transparent film to be coated for the maximum transmission of Green light of wavelength 550 nm. [Assume that the light is incident nearly perpendicular to the glass surface.]",
+   "options": [
+    "137.5 nm",
+    "275 nm",
+    "94.8 nm",
+    "68.7 nm"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-108",
+   "hash": "7f67bb7401021a0d",
+   "question": "A spherical surface of radius of curvature R, separates air from glass (refractive index = 1.5). The centre of curvature is in the glass medium. A point object ' O ' placed in air on the optic axis of the surface, so that its real image is formed at ' I ' inside glass. The line OI intersects the spherical surface at P and PO = PI. The distance PO equals to",
+   "options": [
+    "5 R",
+    "3 R",
+    "1.5 R",
+    "2 R"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-109",
+   "hash": "73a325e55d4c6f9a",
+   "question": "What is the relative decrease in focal length of a lens for an increase in optical power by 0.1 D from 2.5D ? ['D' stands for dioptre]",
+   "options": [
+    "0.01",
+    "0.04",
+    "0.40",
+    "0.1"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-110",
+   "hash": "b34d4023028e869a",
+   "question": "A hemispherical vessel is completely filled with a liquid of refractive index μ. A small coin is kept at the lowest point (O) of the vessel as shown in figure. The minimum value of the refractive index of the liquid so that a person can see the coin from point E (at the level of the vessel) is",
+   "options": [
+    "√3 √3",
+    "2",
+    "3 2",
+    "√2"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-111",
+   "hash": "f1a6a37ea17ae55b",
+   "question": "A concave mirror produces an image of an object such that the distance between the object and image is 20 cm. If the magnification of the image is ' -3 ', then the magnitude of the radius of curvature of the mirror is :",
+   "options": [
+    "30 cm",
+    "3.75 cm",
+    "15 cm",
+    "7.5 cm"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-112",
+   "hash": "9ec4ba38a85fa5e1",
+   "question": "Two identical symmetric double convex lenses of focal length f are cut into two equal parts L , L by AB plane 1 2 and L , L by XY plane as shown in figure respectively. The ratio of focal lengths of lenses L and L is 3 4 1 3",
+   "options": [
+    "1:1",
+    "1:2",
+    "1:4",
+    "2:1"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-113",
+   "hash": "773e1c8c5ab9adb8",
+   "question": "Two concave refracting surfaces of equal radii of curvature and refractive index 1.5 face each other in air as shown in figure. A point object O is placed midway, between P and B. The separation between the images of O, formed by each refracting surface is :",
+   "options": [
+    "0.214 R",
+    "0.411 R",
+    "0.124 R",
+    "0.114 R"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-114",
+   "hash": "68e3e11cbff19002",
+   "question": "A symmetric thin biconvex lens is cut into four equal parts by two planes AB and CD as shown in figure. If the power of original lens is 4 D then the power of a part of the divided lens is",
+   "options": [
+    "D",
+    "8D",
+    "2D",
+    "4D"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-115",
+   "hash": "61a5b4c36a8fdd41",
+   "question": "A thin plano convex lens made of glass of refractive index 1.5 is immersed in a liquid of refractive index 1.2. When the plane side of the lens is silver coated for complete reflection, the lens immersed in the liquid behaves like a concave mirror of focal length 0.2 m. The radius of curvature of the curved surface of the lens is",
+   "options": [
+    "0.20 m",
+    "0.25 m",
+    "0.15 m",
+    "0.10 m"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-116",
+   "hash": "73d1ce43a890db8c",
+   "question": "A plano-convex lens having radius of curvature of first surface 2 cm exhibits focal length of f in air. Another 1 plano-convex lens with first surface radius of curvature 3 cm has focal length of f when it is immersed in a 2 liquid of refractive index 1.2. If both the lenses are made of same glass of refractive index 1.5, the ratio of f 1 and f will be 2",
+   "options": [
+    "1 : 2",
+    "1 : 3",
+    "3 : 5",
+    "2 : 3"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-117",
+   "hash": "8cc8cdbcbbacc89e",
+   "question": "5 The refractive index of the material of a glass prism is √3. The angle of minimum deviation is equal to the angle of the prism. What is the angle of the prism?",
+   "options": [
+    "60 ∘",
+    "58 ∘",
+    "48 ∘",
+    "50 ∘"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-118",
+   "hash": "0be50536e626eb4a",
+   "question": "A thin prism P with angle 4 made of glass having refractive index 1.54 , is combined with another thin prism 1 ∘ P2 made of glass having refractive index 1.72 to get dispersion without deviation. The angle of the prism P in2 degrees is",
+   "options": [
+    "3",
+    "16/3",
+    "4",
+    "1.5"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-119",
+   "hash": "5fe8eb61978533cf",
+   "question": "What is the lateral shift of a ray refracted through a parallel-sided glass slab of thickness ' h ' in terms of the angle of incidence ' i ' and angle of refraction ' r ', if the glass slab is placed in air medium? h tan(i−r)",
+   "options": [
+    "tan r h sin(i−r)",
+    "cos r",
+    "h h cos(i−r)",
+    "sin r"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-120",
+   "hash": "8a5c0d88ef55604c",
+   "question": "At the interface between two materials having refractive indices n 1 and n 2 , the critical angle for reflection of ​ ​ an em wave is θ 1C . The n 2 material is replaced by another material having refractive index n 3 such that the ​ ​ ​ critical angle at the interface between n 1 and n 3 materials is θ 2C . If n 3 > n 2 > n 1 ; nn 2 = 25 and ​ ​ ​ ​ ​ ​ ​ ​ ​ 3 ​ 1 sin θ 2C − sin θ 1C = 2 , then θ 1C is ​ ​ ​ ​ −1",
+   "options": [
+    "sin ( 16 ) −1",
+    "sin ( 13 ) −1",
+    "sin ( −5 6 ) ​ −1",
+    "sin ( 23 )"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-121",
+   "hash": "677985c7363a4131",
+   "question": "Given a thin convex lens (refractive index μ ), kept in a liquid (refractive index μ , μ < μ ) having radii of 2 1 1 2 curvatures |R | and |R |. Its second surface is silver polished. Where should an object be placed on the optic 1 2 axis so that a real and inverted image is formed at the same place? μ1 |R1 |⋅|R2 |",
+   "options": [
+    "μ2 (|R1 |+|R2 |)−μ1 |R2 | μ1 |R1 |⋅|R2 |",
+    "μ2 (|R1 |+|R2 |)−μ1 |R1 | (μ2 +μ1 )|R1 |",
+    "(μ2 −μ1 ) μ1 |R1 |⋅|R2 |",
+    "μ2 (2|R1 |+|R2 |)−μ1 √|R1 |⋅|R2 |"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-122",
+   "hash": "dc5a10edb96b2b4a",
+   "question": "In a long glass tube, mixture of two liquids A and B with refractive indices 1.3 and 1.4 respectively, forms a convex refractive meniscus towards A. If an object placed at 13 cm from the vertex of the meniscus in A forms an image with a magnification of ' −2 then the radius of curvature of meniscus is : ′",
+   "options": [
+    "1 3 cm",
+    "4 3 cm",
+    "1 cm",
+    "2 3 cm"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-123",
+   "hash": "2b2e7236368dd974",
+   "question": "Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : In Young's double slit experiment, the fringes produced by red light are closer as compared to those produced by blue light. Reason (R): The fringe width is directly proportional to the wavelength of light. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+    "(A) is true but (R) is false",
+    "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "(A) is false but (R) is true"
+   ],
+   "correct": 3,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-124",
+   "hash": "bd78641d63836c2b",
+   "question": "Which of the following phenomena can not be explained by wave theory of light?",
+   "options": [
+    "Compton effect",
+    "Refraction of light",
+    "Reflection of light",
+    "Diffraction of light"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-126",
+   "hash": "b40e236b7e04d7e0",
+   "question": "The Young's double slit interference experiment is performed using light consisting of 480 nm and 600 nm wavelengths to form interference patterns. The least number of the bright fringes of 480 nm light that are required for the first coincidence with the bright fringes formed by 600 nm light is",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "8"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-127",
+   "hash": "b678171046470bb7",
+   "question": "Young's double slit inteference apparatus is immersed in a liquid of refractive index 1.44. It has slit separation of 1.5 mm. The slits are illuminated by a parallel beam of light whose wavelength in air is 690 nm. The fringe-width on a screen placed behind the plane of slits at a distance of 0.72 m , will be :",
+   "options": [
+    "0.23 mm",
+    "0.33 mm",
+    "0.63 mm",
+    "0.46 mm"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-128",
+   "hash": "558486964c442c56",
+   "question": "A sub-atomic particle of mass 10 −30 kg is moving with a velocity 2.21 × 10 m/s. Under the matter wave 6 consideration, the particle will behave closely like _________ (h = 6.63 × 10 −34 J. s)",
+   "options": [
+    "Visible radiation",
+    "Gamma rays",
+    "Infra-red radiation",
+    "X-rays"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-129",
+   "hash": "3e4aaeabd8a93e45",
+   "question": "The energy E and momentum p of a moving body of mass m are related by some equation. Given that c represents the speed of light, identify the correct equation",
+   "options": [
+    "E = pc + m c 2 2 2 2",
+    "E = p c + m c 2 2 2 2 2",
+    "E = pc + m c 2 2 2 4",
+    "E = p c + m c 2 2 2 2 4"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-130",
+   "hash": "d704a6fe0707d4e3",
+   "question": "In photoelectric effect an EM-wave is incident on a metal surface and electrons are ejected from the surface. If the work function of the metal is 2.14 eV and stopping potential is 2 V, what is the wavelength of the EM-wave ? (Given hc = 1242eVnm where h is the Planck's constant and c is the speed of light in vacuum.)",
+   "options": [
+    "300 nm",
+    "400 nm",
+    "600 nm",
+    "200 nm"
+   ],
+   "correct": 0,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-131",
+   "hash": "16842c1e6bc6499f",
+   "question": "Given below are two statements : one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : Emission of electrons in photoelectric effect can be suppressed by applying a sufficiently negative electron potential to the photoemissive substance. Reason (R) : A negative electric potential, which stops the emission of electrons from the surface of a photoemissive substance, varies linearly with frequency of incident radiation. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "(A) is false but (R) is true",
+    "(A) is true but (R) is false",
+    "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "Both (A) and (R) are true but (R) is not the correct explanation of (A)"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-132",
+   "hash": "c4db62c396be3181",
+   "question": "An electron in the ground state of the hydrogen atom has the orbital radius of 5.3 × 10 −11 m while that for the electron in third excited state is 8.48 × 10 −10 m . The ratio of the de Broglie wavelengths of electron in the excited state to that in the ground state is",
+   "options": [
+    "3",
+    "16",
+    "9",
+    "4 →"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-133",
+   "hash": "11f73bcbd82b98b1",
+   "question": "An electron of mass ' m ' with an initial velocity → v = v i (v > 0) enters an electric field E = −E k. If the ^ 0 0 ^ o initial de Broglie wavelength is λ , the value after time t would be 0 λ0",
+   "options": [
+    "2 2 2 e E0 t √1+ m2 v 2 0 2 2 2 e E t",
+    "λ √1 +o 2 2 0 m vo λ0",
+    "e 2 Eo 2 t 2 √1− 2 2 m vo",
+    "λ 0"
+   ],
+   "correct": 0,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-134",
+   "hash": "021490fa34b5138a",
+   "question": "A proton of mass ' m ' has same energy as that of a photon of wavelength ' λ '. If the proton is moving at non- p relativistic speed, then ratio of its de Broglie wavelength to the wavelength of photon is.",
+   "options": [
+    "1 c √ mp E",
+    "1 2E √ c mp",
+    "1 2c √ E mp",
+    "1 c √ 2 mp E"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-135",
+   "hash": "0fca52403c9c6d66",
+   "question": "The work functions of cesium (Cs) and lithium (Li) metals are 1.9 eV and 2.5 eV , respectively. If we incident a light of wavelength 550 nm on these two metal surfaces, then photo-electric effect is possible for the case of",
+   "options": [
+    "Both Cs and Li",
+    "Neither Cs nor Li",
+    "Cs only",
+    "Li only"
+   ],
+   "correct": 2,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-136",
+   "hash": "a78d757751ab779b",
+   "question": "A light source of wavelength λ illuminates a metal surface and electrons are ejected with maximum kinetic energy of 2 eV. If the same surface is illuminated by a light source of wavelength λ 2 , then the maximum kinetic energy of ejected electrons will be (The work function of metal is 1 eV)",
+   "options": [
+    "3 eV",
+    "2 eV",
+    "6 eV",
+    "5 eV"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-137",
+   "hash": "08ffc1917022f9d6",
+   "question": "In an experiment with photoelectric effect, the stopping potential,",
+   "options": [
+    "increases with increase in the intensity of the incident light",
+    "decreases with increase in the intensity of the incident light",
+    "increases with increase in the wavelength of the incident light",
+    "is ( 1 e ) times the maximum kinetic energy of the emitted photoelectrons"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-138",
+   "hash": "ed71b0c1949a39ba",
+   "question": "The frequency of revolution of the electron in Bohr's orbit varies with n, the principal quantum number as",
+   "options": [
+    "1 4 n",
+    "1 2 n",
+    "1 n",
+    "1 3 n"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-139",
+   "hash": "968bc2a9e5935980",
+   "question": "Arrange the following in the ascending order of wavelength (λ) : (A) Microwaves (λ ) 1 (B) Ultraviolet rays (λ ) 2 (C) Infrared rays (λ ) 3 (D) X-rays (λ ) 4 Choose the most appropriate answer from the options given below :",
+   "options": [
+    "λ < λ < λ < λ 4 3 2 1",
+    "λ < λ < λ < λ 3 4 2 1",
+    "λ < λ < λ < λ 4 3 1 2",
+    "λ < λ < λ < λ 4 2 3 1"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-140",
+   "hash": "271dcc20b289d1f6",
+   "question": "The number of spectral lines emitted by atomic hydrogen that is in the 4 th energy level, is",
+   "options": [
+    "3",
+    "1",
+    "6",
+    "0"
+   ],
+   "correct": 2,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-141",
+   "hash": "ebd9fbeba823d4d4",
+   "question": "During the transition of electron from state A to state C of a Bohr atom, the wavelength of emitted radiation is 2000 Å and it becomes 6000Å when the electron jumps from state B to state C. Then the wavelength of the radiation emitted during the transition of electrons from state A to state B is",
+   "options": [
+    "4000Å",
+    "2000Å",
+    "3000Å",
+    "6000Å"
+   ],
+   "correct": 2,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-142",
+   "hash": "0aa48c9f6fbd3e13",
+   "question": "Choose the correct nuclear process from the below options [p: proton, n : neutron, e : electron, e : positron, v : neutrino, v̄ : antineutrino] − +",
+   "options": [
+    "n → p + e + + v̄",
+    "n → p + e + + v",
+    "n → p + e − + v",
+    "n → p + e − + v̄"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-143",
+   "hash": "3430dcd8869fb4f7",
+   "question": "Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : The binding energy per nucleon is found to be practically independent of the atomic number A, for nuclei with mass numbers between 30 and 170. Reason (R): Nuclear force is long range. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "(A) is true but (R) is false",
+    "(A) is false but (R) is true",
+    "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)"
+   ],
+   "correct": 0,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-144",
+   "hash": "f8bacffef5b16021",
+   "question": "A radioactive nucleus n has 3 times the decay constant as compared to the decay constant of another radioactive 2 nucleus n . If initial number of both nuclei are the same, what is the ratio of number of nuclei of n to the number 1 2 of nuclei of n , after one half-life of n ? 1 1",
+   "options": [
+    "1/8",
+    "8",
+    "4",
+    "1/4"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-145",
+   "hash": "692713bd34ab4d44",
+   "question": "A plane electromagnetic wave of frequency 20 MHz travels in free space along the +x direction. At a particular point in space and time, the electric field vector of the wave is E = 9.3Vm . Then, the magnetic field vector of y −1 the wave at that point is",
+   "options": [
+    "B = 6.2 × 10 z −8 T",
+    "B = 3.1 × 10 z −8 T",
+    "B = 1.55 × 10 z −8 T",
+    "B = 9.3 × 10 z −8 T"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-146",
+   "hash": "75f34510cae4af64",
+   "question": "Given below are two statements : one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : Electromagnetic waves carry energy but not momentum. Reason (R): Mass of a photon is zero. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+    "Both (A) and (R) are true but (R) is not the correct explanation of (A)",
+    "(A) is false but (R) is true",
+    "(A) is true but (R) is false"
+   ],
+   "correct": 2,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-147",
+   "hash": "faab3e429968b0af",
+   "question": "A plane electromagnetic wave propagates along the +x direction in free space. The components of the electric field, E→ and magnetic field, B → vectors associated with the wave in Cartesian frame are",
+   "options": [
+    "E , B x y",
+    "E , B y z",
+    "E , B z y",
+    "E , B y x"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-148",
+   "hash": "f006ddc546f1d29c",
+   "question": "Due to presence of an em-wave whose electric component is given by E = 100 sin(ωt − kx)NC , a cylinder of −1 length 200 cm holds certain amount of em-energy inside it. If another cylinder of same length but half diameter than previous one holds same amount of em-energy, the magnitude of the electric field of the corresponding em- wave should be modified as",
+   "options": [
+    "400 sin(ωt − kx)NC −1",
+    "200 sin(ωt − kx)NC −1",
+    "50 sin(ωt − kx)NC −1",
+    "25 sin(ωt − kx)NC −1 →"
+   ],
+   "correct": 1,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-149",
+   "hash": "56bcf310a77a0c0a",
+   "question": "The magnetic field of an E.M. wave is given by B = ( √3 ^ i + 1 ^ j) 30 sin[ω (t − z )] (S.I. Units). 2 2 c The corresponding electric field in S.I. units is : → √3",
+   "options": [
+    "E = ( 1 ^ 2 i − 2 ^ j) 30c sin[ω (t − z c )] →",
+    "E = ( 3 4 ^ i + 1 4 ^ j) 30c cos[ω (t − z c )] → √3",
+    "E = ( 1 2 ^ i + 2 ^ j) 30c sin[ω (t + z c )] → √3",
+    "E = ( 2 ^ i − 1 ^ 2 j) 30c sin[ω (t + z c )]"
+   ],
+   "correct": 0,
+   "chapter": "Electromagnetic-Waves",
+   "topic": "Electromagnetic-Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-150",
+   "hash": "8be604db494e2ae1",
+   "question": "Which of the following circuits represents a forward biased diode? Choose the correct answer from the options given below :",
+   "options": [
+    "(A) and (D) only",
+    "(B), (D) and (E) only",
+    "(C) and (E) only",
+    "(B), (C) and (E) only"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-151",
+   "hash": "b4d1e8154d153f68",
+   "question": "Consider the following statements: A. The junction area of solar cell is made very narrow compared to a photo diode. B. Solar cells are not connected with any external bias. C. LED is made of lightly doped p-n junction. D. Increase of forward current results in continuous increase of LED light intensity. E. LEDs have to be connected in forward bias for emission of light. Choose the correct answer from the options given below:",
+   "options": [
+    "B, E Only",
+    "B, D, E Only",
+    "A, C Only",
+    "A, C, E Only"
+   ],
+   "correct": 0,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-152",
+   "hash": "09ce95a03503ae94",
+   "question": "A B Y 0 0 1 0 1 1 1 0 0 1 1 1 To obtain the given truth table, following logic gate should be placed at G:",
+   "options": [
+    "OR Gate",
+    "AND Gate",
+    "NOR Gate",
+    "NAND Gate"
+   ],
+   "correct": 2,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-153",
+   "hash": "fe70e6410e8ae10e",
+   "question": "The output of the circuit is low (zero) for : (A) X = 0, Y = 0 (B) X = 0, Y = 1 (C) X = 1, Y = 0 (D) X = 1, Y = 1 Choose the correct answer from the options given below :",
+   "options": [
+    "(B), (C) and (D) only",
+    "(A), (B) and (C) only",
+    "(A), (C) and (D) only",
+    "(A), (B) and (D) only"
+   ],
+   "correct": 0,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-154",
+   "hash": "dee44ce91f9cddf0",
+   "question": "For the circuit shown above, equivalent GATE is :",
+   "options": [
+    "OR gate",
+    "NAND gate",
+    "NOT gate",
+    "AND gate"
+   ],
+   "correct": 0,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-PHY-155",
+   "hash": "a82c62f7d14dd714",
+   "question": "Given below are two statements : Statement I : In a vernier callipers, one vernier scale division is always smaller than one main scale division. Statement II : The vernier constant is given by one main scale division multiplied by the number of vernier scale divisions. In the light of the above statements, choose the correct answer from the options given below.",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 0,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-001",
+   "hash": "09412b358a9b83db",
+   "question": "A quantity Q is formulated as X −2 Y + 2 Z and Z are independent parameters which have fractional errors − 5 ⋅ X, Y of 0.1, 0.2 and 0.5 , respectively in measurement. The maximum fractional error of Q is",
+   "options": [
+    "0.1",
+    "0.8",
+    "0.7",
+    "0.6"
+   ],
+   "correct": 2,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-002",
+   "hash": "25980ef02eb3e4a1",
+   "question": "If μ and ε are the permeability and permittivity of free space, respectively, then the dimension of ( 0 0 1 μ0 ε0 ) is :",
+   "options": [
+    "L/T 2",
+    "L /T2 2",
+    "T /L2",
+    "T /L2 2"
+   ],
+   "correct": 1,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-003",
+   "hash": "36665f6d06c10404",
+   "question": "A person measures mass of 3 different particles as 435.42 g, 226.3 g and 0.125 g. According to the rules for arithmetic operations with significant figures, the additions of the masses of 3 particles will be.",
+   "options": [
+    "661.845 g",
+    "662 g",
+    "661.8 g",
+    "661.84 g"
+   ],
+   "correct": 2,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-004",
+   "hash": "96002cc2a3177eda",
+   "question": "If ϵ denotes the permittivity of free space and Φ is the flux of the electric field through the area bounded by the 0 E dϕE closed surface, then dimension of (ϵ 0 dt ) are that of :",
+   "options": [
+    "Electric field",
+    "Electric potential",
+    "Electric charge",
+    "Electric current"
+   ],
+   "correct": 3,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-005",
+   "hash": "02992cda2014859b",
+   "question": "Match List-I with List-II. List-I List-II −1 (A) Heat capacity of body (I) Jkg −1 (B) Specific heat capacity of body (II) JK −1 −1 (C) Latent heat (III) Jkg K −1 −1 −1 (D) Thermal conductivity (IV) Jm K s Choose the correct answer from the options given below :",
+   "options": [
+    "(A)-(III), (B)-(I), (C)-(II), (D)-(IV)",
+    "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+    "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+    "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
+   ],
+   "correct": 3,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-006",
+   "hash": "42a2546b190e23bc",
+   "question": "The equation for real gas is given by (P + a 2 ) (V − b) = RT , where P, V, T and R are the pressure, volume, V temperature and gas constant, respectively. The dimension of ab −2 is equivalent to that of :",
+   "options": [
+    "Planck's constant",
+    "Compressibility",
+    "Strain",
+    "Energy density"
+   ],
+   "correct": 3,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  }
+ ]
+}

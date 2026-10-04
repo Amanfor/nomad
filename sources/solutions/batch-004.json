@@ -1,0 +1,1141 @@
+{
+ "batch": 4,
+ "items": [
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-006",
+   "hash": "53ca235c6f68aa7c",
+   "question": "Let f (x) = ∫ ( 2 ) dx ( 1 ) be such that f (0) = −26 + 24 log",
+   "options": [
+    ". If f",
+    "= a + b log",
+    ", where a, b ∈ Z, then a + b e e x 3 +2x 2 is equal to :",
+    "-26"
+   ],
+   "correct": 1,
+   "chapter": "Indefinite integration",
+   "topic": "Indefinite integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-003",
+   "hash": "86516a7c24922576",
+   "question": "Let I(x) = ∫ 3dx and I(0) = √3 4 + 20 . If I ( 1 2 ) = a√ 2 b + c , where a, b, c ∈ N, gcd(a, b) = 1, then (4x+6)(√ 4x +8x+3) 2 a + b + c is equal to",
+   "options": [
+    "30",
+    "31",
+    "29",
+    "28"
+   ],
+   "correct": 1,
+   "chapter": "Indefinite integration",
+   "topic": "Indefinite integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-003",
+   "hash": "e8e2a1a8dbfa634f",
+   "question": "Let f (t) = ∫ ( . 1−sin(loge t) )dt, t > 1 1−cos(log t) e If f (e π/2 ) = −e π/2 and f (e π/4 ) = αe , then α equals π/4",
+   "options": [
+    "1 + √2",
+    "−1 − √2",
+    "−1 − 2√2",
+    "−1 + √2 #PaperPhodnaHai www.mathongo.com Indefinite Integration JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Indefinite integration",
+   "topic": "Indefinite integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-007",
+   "hash": "73120e423ba1d2e6",
+   "question": "Considering the principal values of inverse trigonometric functions, the value of the expression tan (2 sin −1 ( 2 √ 13 ) − 2 cos −1 ( 3 √ 10 )) is equal to :",
+   "options": [
+    "16 63",
+    "− 33 56",
+    "− 16 63",
+    "33 56"
+   ],
+   "correct": 3,
+   "chapter": "Inverse Trigonometric Functions",
+   "topic": "Inverse Trigonometric Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-004",
+   "hash": "3dbac0231586b5c5",
+   "question": "If the domain of the function f (x) = sin −1 ( 2 1 x −2x−2 ) , is (−∞, α] ∪ [β, γ] ∪ [δ, ∞), then α + β + γ + δ is equal to",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": 2,
+   "chapter": "Inverse Trigonometric Functions",
+   "topic": "Inverse Trigonometric Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-006",
+   "hash": "1895cf11b87224d2",
+   "question": "The number of solutions of tan −1 4x + tan −1 6x = π 6 , where − 1 < x < 1 , is equal to 2√ 6 2√ 6",
+   "options": [
+    "3",
+    "0",
+    "2",
+    "1"
+   ],
+   "correct": 3,
+   "chapter": "Inverse Trigonometric Functions",
+   "topic": "Inverse Trigonometric Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-003",
+   "hash": "7d0dbbe1c2754036",
+   "question": "If the domain of the function f (x) = cos −1 ( 2x−5 11−3x ) + sin −1 (2x 2 − 3x + 1) is the interval [α, β], then α + 2β is equal to :",
+   "options": [
+    "3",
+    "5",
+    "1",
+    "2"
+   ],
+   "correct": 0,
+   "chapter": "Inverse Trigonometric Functions",
+   "topic": "Inverse Trigonometric Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-006",
+   "hash": "b03f80a085936760",
+   "question": "(a−1)x −x If lim x→0 e +2 cos bx+(c−2)e x cos x−log e (1+x) = 2 , then a + b + c is equal to : 2 2 2",
+   "options": [
+    "5",
+    "9",
+    "3",
+    "7"
+   ],
+   "correct": 3,
+   "chapter": "Limits",
+   "topic": "Limits",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-008",
+   "hash": "d57ff11967e5926a",
+   "question": "2 ( ) θ Let f (x) = lim θ→0 ( cos πx−x ( 2 ) sin(x−1) . Consider the following two statements : ), x ∈ R θ 1+x (x−1) (I) f (x) is discontinous at x = 1. (II) f (x) is continous at x = −1. Then,",
+   "options": [
+    "Only (II) is True",
+    "Neither (I) nor (II) is True",
+    "Both (I) and (II) are True",
+    "Only (I) is True #PaperPhodnaHai www.mathongo.com Limits, Continuity and Differentiability JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Limits-Continuity-And-Differentiability",
+   "topic": "Limits-Continuity-And-Differentiability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-007",
+   "hash": "92a622ae191c78a6",
+   "question": "If X = |x + y + z|",
+   "options": [
+    "2 ⎡ ⎣ x y z ⎤ ij ⎦ −4 −1 7x ] 10 2 is equal to : +9x (1+x +2x ) and B be two matrices such that A 8 9 3 1 2 ij −4 −1 and B = [ dx, x > 0, limx→0 f (x) = 0 2",
+    "1",
+    "16",
+    "] Let P = [p ] and Q = [q ] be two square matrices of order 3 such that q = 2 is a solution of the system of equations AX = B, where adj A = 3 2 ∣∣ −29 −13 49 18 ] , if (A"
+   ],
+   "correct": 0,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-004",
+   "hash": "9b8893a1d4fd471a",
+   "question": "Let f : R → R be a twice differentiable function such that f (x) > 0 for all x ∈ R and f (a − 1) = 0, where a is a ′′ ′ real number. Let g(x) = f (tan x − 2 tan x + a), 0 < x < 2 π 2 . Consider the following two statements: (I) g is increasing in (0, π 4 ) (II) g is decreasing in ( π 4 , π 2 ). Then,",
+   "options": [
+    "Neither (I) nor (II) is True",
+    "Only (I) is True",
+    "Both (I) and (II) are True",
+    "Only (II) is True"
+   ],
+   "correct": 0,
+   "chapter": "Application Of Derivatives",
+   "topic": "Application Of Derivatives",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-005",
+   "hash": "97709bcabc91a290",
+   "question": "Consider the following three statements for the function f : (0, ∞) → R defined by f (x) = |log x| − |x − 1| : e (I) f is differentiable at all x > 0. (II) f is increasing in (0, 1). (III) f is decreasing in (1, ∞). Then.",
+   "options": [
+    "All (I), (II) and (III) are TRUE.",
+    "Only (II) and (III) are TRUE.",
+    "Only (I) is TRUE.",
+    "Only (I) and (III) are TRUE."
+   ],
+   "correct": 3,
+   "chapter": "Application Of Derivatives",
+   "topic": "Application Of Derivatives",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-007",
+   "hash": "ef237c93e347d12d",
+   "question": "Let f (x) = x 2025 − x 2000 , x ∈ [0, 1] and the minimum value of the function f (x) in the interval [0, 1] be (80) 80 (n) −81 . Then n is equal to",
+   "options": [
+    "-40",
+    "-41",
+    "-80",
+    "-81"
+   ],
+   "correct": 3,
+   "chapter": "Application Of Derivatives",
+   "topic": "Application Of Derivatives",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-005",
+   "hash": "3f7ecceb4d6efdf9",
+   "question": "Let y = 12x be the parabola with its vertex at O. Let P be a point on the parabola and A be a point on the x-axis 2 such that ∠OPA = 90 . Then the locus of the centroid of such triangles OPA is : ∘",
+   "options": [
+    "y − 2x + 8 = 0 2",
+    "y − 9x + 6 = 0 2",
+    "y − 4x + 8 = 0 2",
+    "y − 6x + 4 = 0 2"
+   ],
+   "correct": 0,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-006",
+   "hash": "242df231f96d3686",
+   "question": "Let one end of a focal chord of the parabola y = 16x be (16, 16). If P(α, β) divides this focal chord internally in 2 the ratio 5 : 2, then the minimum value of α + β is equal to :",
+   "options": [
+    "16",
+    "5",
+    "7",
+    "22"
+   ],
+   "correct": 2,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-009",
+   "hash": "e750714adac84fc4",
+   "question": "Let A be the focus of the parabola y = 8x. Let the line y = mx + c intersect the parabola at two distinct points B 2 and C . If the centroid of the triangle ABC is ( 7 3 , 4 3 ) , then (BC) is equal to : 2",
+   "options": [
+    "80",
+    "41",
+    "89",
+    "32"
+   ],
+   "correct": 0,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-006",
+   "hash": "1a507330aa71646e",
+   "question": "Let the image of parabola x = 4y, in the line x − y = 1 be (y + a) = b(x − c), a, b, c ∈ N. Then a + b + c is 2 2 equal to",
+   "options": [
+    "8",
+    "6",
+    "12",
+    "4"
+   ],
+   "correct": 1,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-008",
+   "hash": "61095532f137072f",
+   "question": "Let the locus of the mid-point of the chord through the origin O of the parabola y = 4x be the curve S. Let P be any 2 point on S. Then the locus of the point, which internally divides OP in the ratio 3 : 1, is :",
+   "options": [
+    "2x = 3y 2",
+    "3y = 2x 2",
+    "2y = 3x 2",
+    "3x = 2y 2"
+   ],
+   "correct": 2,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-008",
+   "hash": "356bb82d694437dd",
+   "question": "If the chord joining the points P (x , y ) and P (x , y ) on the parabola y = 12x subtends a right angle at the 1 1 1 2 2 2 2 vertex of the parabola, then x x − y y is equal to 1 2 1 2",
+   "options": [
+    "284",
+    "280",
+    "288",
+    "292"
+   ],
+   "correct": 2,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-004",
+   "hash": "a9c6364576b7af80",
+   "question": "An equilateral triangle OAB is inscribed in the parabola y = 4x with the vertex O at the vertex of the parabola. 2 Then the minimum distance of the circle having AB as a diameter from the origin is",
+   "options": [
+    "2(8 − 3√3)",
+    "2(3 + √3)",
+    "4(6 + √3)",
+    "4(3 − √3) #PaperPhodnaHai www.mathongo.com Parabola JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-004",
+   "hash": "35debaf9acbbd3b2",
+   "question": "Let O be the vertex of the parabola x = 4y and Q be any point on it. Let the locus of the point P, which divides the 2 line segment OQ internally in the ratio 2 : 3 be the conic C. Then the equation of the chord of C , which is bisected at the point (1, 2), is :",
+   "options": [
+    "5x − 4y + 3 = 0",
+    "5x − y − 3 = 0",
+    "4x − 5y + 6 = 0",
+    "x − 2y + 3 = 0 #PaperPhodnaHai www.mathongo.com Parabola JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Parabola",
+   "topic": "Parabola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-007",
+   "hash": "a9a17f234a2bf3d4",
+   "question": "The largest n ∈ N, for which 7 divides 101!, is : n",
+   "options": [
+    "16",
+    "15",
+    "18",
+    "19"
+   ],
+   "correct": 0,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-007",
+   "hash": "79b023270d5d4e83",
+   "question": "The largest value of n, for which 40 divides 60!, is n",
+   "options": [
+    "11",
+    "12",
+    "14",
+    "13"
+   ],
+   "correct": 2,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-008",
+   "hash": "711a9127e30162fa",
+   "question": "The letters of the word \"UDAYPUR\" are written in all possible ways with or without meaning and these words are arranged as in a dictionary. The rank of the word \"UDAYPUR\" is",
+   "options": [
+    "1579",
+    "1581",
+    "1578",
+    "1580"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-005",
+   "hash": "ec1ae8ba9f98aa77",
+   "question": "The number of ways, in which 16 oranges can be distributed to four children such that each child gets at least one orange, is",
+   "options": [
+    "455",
+    "429",
+    "403",
+    "384 #PaperPhodnaHai www.mathongo.com Permutation Combination JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-005",
+   "hash": "7f9de52a0b6f07fa",
+   "question": "The number of strictly increasing functions f from the set {1, 2, 3, 4, 5, 6} to the set {1, 2, 3, … . , 9} such that f (i) ≠ i for 1 ≤ i ≤ 6, is equal to :",
+   "options": [
+    "27",
+    "22",
+    "21",
+    "28"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-003",
+   "hash": "d91707ca90647726",
+   "question": "Let S = {1, 2, 3, 4, 5, 6, 7, 8, 9}. Let x be the number of 9 -digit numbers formed using the digits of the set S such that only one digit is repeated and it is repeated exactly twice. Let y be the number of 9-digit numbers formed using the digits of the set S such that only two digits are repeated and each of these is repeated exactly twice. Then,",
+   "options": [
+    "56x = 9y",
+    "29x = 5y",
+    "45x = 7y",
+    "21x = 4y"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-008",
+   "hash": "b7ff3679fa784a30",
+   "question": "A random variable X takes values 0, 1, 2, 3 with probabilities 2a+1 30 , 8a−1 30 , 4a+1 30 ,b respectively, where a, b ∈ R. Let μ and σ respectively be the mean and standard deviation of X such that σ + μ = 2. Then 2 2 a b is equal to :",
+   "options": [
+    "12",
+    "30",
+    "60",
+    "3"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-010",
+   "hash": "a098093b0b244e88",
+   "question": "The probability distribution of a random variable X is given below : 30 32 34 36 38 40 X 4k k k k k k k 6k 7 7 7 7 7 7 2 1 2 1 1 2 1 1 P (X) 15 15 15 5 15 15 5 15 If E(X) = 263 15 , then P(X < 20) is equal to :",
+   "options": [
+    "11 15",
+    "3 5",
+    "14 15",
+    "8 15"
+   ],
+   "correct": 0,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-009",
+   "hash": "d40460d8a58d02ba",
+   "question": "If a random variable x has the probability distribution x 0 1 2 3 4 5 6 7 2 2 2 P (x) 0 2k k 3k 2k 2k k + k 7k then P (3 < x ≤ 6) is equal to",
+   "options": [
+    "0.64",
+    "0.22",
+    "0.33",
+    "0.34"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-010",
+   "hash": "8df66c1eb2ff0a42",
+   "question": "Two distinct numbers a and b are selected at random from 1, 2, 3, … , 50. The probability, that their product ab is divisible by 3, is",
+   "options": [
+    "272 1225",
+    "561 1225",
+    "664 1225",
+    "8 25 #PaperPhodnaHai www.mathongo.com Probability JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-006",
+   "hash": "fb79c9be5b5b64eb",
+   "question": "Bag A contains 9 white and 8 black balls, while bag B contains 6 white and 4 black balls. One ball is randomly picked up from the bag B and mixed up with the balls in the bag A. Then a ball is randomly drawn from the bag A. If the probability, that the ball drawn is white, is p q , gcd(p, q) = 1 , then p + q is equal to",
+   "options": [
+    "23",
+    "24",
+    "21",
+    "22"
+   ],
+   "correct": 0,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-004",
+   "hash": "7136dbab5aa568b4",
+   "question": "A bag contains 10 balls out of which k are red and (10 − k) are black, where 0 ≤ k ≤ 10. If three balls are drawn at random without replacement and all of them are found to be black, then the probability that the bag contains 1 red and 9 black balls is:",
+   "options": [
+    "14 55",
+    "7 55",
+    "7 110",
+    "7 11"
+   ],
+   "correct": 0,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-004",
+   "hash": "5dd4c932faea411d",
+   "question": "From a lot containing 10 defective and 90 non-defective bulbs, 8 bulbs are selected one by one with replacement. Then the probability of getting at least 7 defective bulbs is",
+   "options": [
+    "67 8 10",
+    "7 10 7",
+    "81 8 10",
+    "73 10 8 #PaperPhodnaHai www.mathongo.com Probability JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-009",
+   "hash": "063b815cf4144b71",
+   "question": "Let α and β be the roots of the equation x + 2ax + (3a + 10) = 0 such that α < 1 < β. Then the set of all possible 2 values of a is :",
+   "options": [
+    "(−∞, −11 5 )",
+    "(−∞, −2) ∪ (5, ∞)",
+    "(−∞, −3)",
+    "(−∞, −11 5 ) ∪ (5, ∞)"
+   ],
+   "correct": 0,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-005",
+   "hash": "d07380147ebfcbe7",
+   "question": "A building construction work can be completed by two masons A and B together in 22.5 days. Mason A alone can complete the construction work in 24 days less than mason B alone. Then mason A alone will complete the construction work in :",
+   "options": [
+    "30 days",
+    "36 days",
+    "24 days",
+    "42 days"
+   ],
+   "correct": 1,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-006",
+   "hash": "e2ead994759d535d",
+   "question": "If α and β(α < β) are the roots of the equation (−2 + √3)(|√x − 3|) + (x − 6√x) + (9 − 2√3) = 0, x ⩾ 0, then is equal to : β √ + √ αβ α",
+   "options": [
+    "8",
+    "11",
+    "9",
+    "10"
+   ],
+   "correct": 3,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-009",
+   "hash": "065e99cedc9897b7",
+   "question": "The smallest positive integral value of a, for which all the roots of x − ax + 9 = 0 are real and distinct, is equal to 4 2",
+   "options": [
+    "4",
+    "9",
+    "3",
+    "7"
+   ],
+   "correct": 3,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-009",
+   "hash": "5a499b55ed560ccb",
+   "question": "Let α, β be the roots of the quadratic equation 12x − 20x + 3λ = 0, λ ∈ Z. If 2 1 2 ⩽ |β − α| ⩽ 3 2 , then the sum of all possible values of λ is :",
+   "options": [
+    "1",
+    "6",
+    "3",
+    "4"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-007",
+   "hash": "4f856d3d2f78817b",
+   "question": "The sum of all the real solutions of the equation log (x+3) (6x 2 + 28x + 30) = 5 − 2 log (6x+10) 2 (x + 6x + 9) is equal to",
+   "options": [
+    "2",
+    "1",
+    "0",
+    "4"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-006",
+   "hash": "2dc87bc95fa2ffa1",
+   "question": "The sum of all the roots of the equation (x − 1) − 5|x − 1| + 6 = 0, is : 2",
+   "options": [
+    "1",
+    "5",
+    "3",
+    "4 #PaperPhodnaHai www.mathongo.com Quadratic Equation JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-005",
+   "hash": "4b14da22db3a673a",
+   "question": "Let S = {x + ax + bx + c : a, b, c ∈ N and a, b, c ≤ 20} be a set of polynomials. Then the number of 3 2 polynomials in S, which are divisible by x + 2, is 2",
+   "options": [
+    "10",
+    "20",
+    "6",
+    "120"
+   ],
+   "correct": 0,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-006",
+   "hash": "4b34a1bee4eeb4b1",
+   "question": "If α, β, where α < β, are the roots of the equation λx − (λ + 3)x + 3 = 0 such that 2 1 α − 1 β = 1 3 , then the sum of all possible values of λ is",
+   "options": [
+    "8",
+    "6",
+    "2",
+    "4 #PaperPhodnaHai www.mathongo.com Quadratic Equation JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-010",
+   "hash": "1de9553d852bf294",
+   "question": "Let A = {x : x − 10 ≤ 6} and B = {x : |x − 2| > 1}. Then",
+   "options": [
+    "A ∪ B = (−∞, 1] ∪ (2, ∞)",
+    "B − A = (−∞, −4) ∪ (−2, 1) ∪ (4, ∞)",
+    "A − B = [2, 3)",
+    "A ∩ B = [−4, −2] ∪ [3, 4]"
+   ],
+   "correct": 1,
+   "chapter": "Sets-And-Relations",
+   "topic": "Sets-And-Relations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-008",
+   "hash": "2b8c478cb4a82a2f",
+   "question": "Let A = {0, 1, 2, … , 9}. Let R be a relation on A defined by (x, y) ∈ R if and only if |x − y| is a multiple of 3. Given below are two statements: Statement I: n(R) = 36. Statement II: R is an equivalence relation. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is incorrect but Statement II is correct",
+    "Statement I is correct but Statement II is incorrect",
+    "Both Statement I and Statement II are incorrect",
+    "Both Statement I and Statement II are correct"
+   ],
+   "correct": 0,
+   "chapter": "Sets-And-Relations",
+   "topic": "Sets-And-Relations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-007",
+   "hash": "001b061f1c3d0711",
+   "question": "The number of relations, defined on the set {a, b, c, d}, which are both reflexive and symmetric, is equal to:",
+   "options": [
+    "16",
+    "1024",
+    "64",
+    "256"
+   ],
+   "correct": 2,
+   "chapter": "Sets-And-Relations",
+   "topic": "Sets-And-Relations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-005",
+   "hash": "5013bd67be109e96",
+   "question": "Let R be a relation defined on the set {1, 2, 3, 4} × {1, 2, 3, 4} by R = {((a, b), (c, d)) : 2a + 3b = 3c + 4d}. Then the number of elements in R is",
+   "options": [
+    "18",
+    "6",
+    "15",
+    "12 #PaperPhodnaHai www.mathongo.com Sets and Relations JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Sets-And-Relations",
+   "topic": "Sets-And-Relations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-007",
+   "hash": "23406318e7390212",
+   "question": "Let the mean and variance of 8 numbers −10, −7, −1, x, y, 9, 2, 16 be 7 2 and 293 4 , respectively. Then the mean of 4 numbers x, y, x + y + 1, |x − y| is :",
+   "options": [
+    "11",
+    "12",
+    "10",
+    "9"
+   ],
+   "correct": 0,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-010",
+   "hash": "c9adc37aa327c543",
+   "question": "Let X = {x ∈ N : 1 ≤ x ≤ 19} and for some a, b ∈ R, Y = {ax + b : x ∈ X}. If the mean and variance of the elements of Y are 30 and 750, respectively, then the sum of all possible values of b is",
+   "options": [
+    "60",
+    "100",
+    "80",
+    "20"
+   ],
+   "correct": 0,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-010",
+   "hash": "8b7800f101a43c81",
+   "question": "If the mean deviation about the median of the numbers k, 2k, 3k, … . . , 1000k is 500, then k is equal to : 2",
+   "options": [
+    "9",
+    "1",
+    "4",
+    "16"
+   ],
+   "correct": 2,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-009",
+   "hash": "b440fb51a6c831e8",
+   "question": "If the mean and the variance of the data Class 4-8 8-12 12-16 16-20 Frequency 3 λ 4 7 are μ and 19 respectively, then the value of λ + μ is",
+   "options": [
+    "21",
+    "19",
+    "20",
+    "18"
+   ],
+   "correct": 1,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-008",
+   "hash": "a59d2b538432eafa",
+   "question": "Let the mean and variance of 7 observations 2, 4, 10, x, 12, 14, y, x > y, be 8 and 16 respectively. Two numbers are chosen from {1, 2, 3, x − 4, y, 5} one after another without replacement, then the probability, that the smaller number among the two chosen numbers is less than 4, is :",
+   "options": [
+    "3 5",
+    "1 3",
+    "2 5",
+    "4 5"
+   ],
+   "correct": 3,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-007",
+   "hash": "b5512d957e58b84b",
+   "question": "The mean and variance of 10 observations are 9 and 34.2, respectively. If 8 of these observations are , then the mean deviation about the median of all the 10 observations is 2, 3, 5, 10, 11, 13, 15, 21",
+   "options": [
+    "4",
+    "7",
+    "5",
+    "6"
+   ],
+   "correct": 2,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-006",
+   "hash": "079971ed5cfa1a02",
+   "question": "The mean and variance of a data of 10 observations are 10 and 2, respectively. If an observations α in this data is replaced by β, then the mean and variance become 10.1 and 1.99, respectively. Then α + β equals",
+   "options": [
+    "15",
+    "5",
+    "10",
+    "20 #PaperPhodnaHai www.mathongo.com Statistics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-008",
+   "hash": "3cd930cf345e32be",
+   "question": "A rectangle is formed by the lines x = 0, y = 0, x = 3 and y = 4. Let the line L be perpendicular to 3x + y + 6 = 0 and divide the area of the rectangle into two equal parts. Then the distance of the point ( 1 2 , −5) from the line L is equal to :",
+   "options": [
+    "√10",
+    "2√5",
+    "2√10",
+    "3√10"
+   ],
+   "correct": 2,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-011",
+   "hash": "922acbc649946890",
+   "question": "Let the angles made with the positive x-axis by two straight lines drawn from the point P(2, 3) and meeting the line x + y = 6 at a distance √ 2 3 from the point P be θ and θ . Then the value of (θ + θ ) is: 1 2 1 2",
+   "options": [
+    "π 3",
+    "π 6",
+    "π 2",
+    "π 12"
+   ],
+   "correct": 2,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-011",
+   "hash": "f3a11911500860a0",
+   "question": "Among the statements (S1) : If A(5, −1) and B(−2, 3) are two vertices of a triangle, whose orthocentre is (0, 0), then its third vertex is (−4, −7) and (S2) : If positive numbers 2a, b, c are three consecutive terms of an A.P., then the lines ax + by + c = 0 are concurrent at (2, −2),",
+   "options": [
+    "both are incorrect",
+    "only (S2) is correct",
+    "only (S1) is correct",
+    "both are correct"
+   ],
+   "correct": 3,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-010",
+   "hash": "01a0eac63e68defe",
+   "question": "Let A(1, 2) and C(−3, −6) be two diagonally opposite vertices of a rhombus, whose sides AD and BC are parallel to the line 7x − y = 14. If B(α, β) and D(γ, δ) are the other two vertices, then |α + β + γ + δ| is equal to",
+   "options": [
+    "6",
+    "9",
+    "3",
+    "1"
+   ],
+   "correct": 0,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-009",
+   "hash": "190c420da8f3f365",
+   "question": "Let a point A lie between the parallel lines L and L such that its distances from L and L are 6 and 3 units, 1 2 1 2 respectively. Then the area (in sq. units) of the equilateral triangle ABC , where the points B and C lie on the lines L1 and L , respectively, is : 2",
+   "options": [
+    "15√6",
+    "21√3",
+    "12√2",
+    "27"
+   ],
+   "correct": 1,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-008",
+   "hash": "a0373f608507c857",
+   "question": "Let ABC be an equilateral triangle with orthocenter at the origin and the side BC on the line x + 2√2y = 4. If the co-ordinates of the vertex A are (α, β), then the greatest integer less than or equal to |α + √2β| is",
+   "options": [
+    "2",
+    "5",
+    "3",
+    "4 #PaperPhodnaHai www.mathongo.com Straight Lines JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  }
+ ]
+}

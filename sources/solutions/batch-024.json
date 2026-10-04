@@ -1,0 +1,1261 @@
+{
+ "batch": 24,
+ "items": [
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-113",
+   "hash": "0b11e371692d13d1",
+   "question": "Propane molecule on chlorination under photochemical condition gives two di-chloro products, \" x \" and \" y \". Amongst \" x \" and \" y \", \" x \" is an optically active molecule. How many tri-chloro products (consider only structural isomers) will be obtained from \" x \" when it is further treated with chlorine under the photochemical condition?",
+   "options": [
+    "2",
+    "5",
+    "4",
+    "3"
+   ],
+   "correct": 3,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-114",
+   "hash": "8344b0b71568ad10",
+   "question": "Given below are two statements : Statement (I) : Nitrogen, sulphur, halogen and phosphorus present in an organic compound are detected by Lassaigne's Test. Statement (II) : The elements present in the compound are converted from covalent form into ionic form by fusing the compound with Magnesium in Lassaigne's test. In the light of the above statements, choose the correct anower from the options given below :",
+   "options": [
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 3,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-115",
+   "hash": "85c9c7d2e0e3e58e",
+   "question": "The alkane from below having two secondary hydrogens is :",
+   "options": [
+    "4 - Ethyl-3,4-dimethyloctane",
+    "2,2,4,4-Tetramethylhexane",
+    "2, 2, 3, 3-Tetramethylpentane",
+    "2, 2, 4, 5-Tetramethylheptane"
+   ],
+   "correct": 1,
+   "chapter": "Hydrocarbons",
+   "topic": "Hydrocarbons",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-116",
+   "hash": "34fb802269572a4f",
+   "question": "Match the LIST-I with LIST-II Choose the correct answer from the options given below:",
+   "options": [
+    "A-II, B-I, C-III, D-IV",
+    "A-II, B-III, C-I, D-IV",
+    "A-IV, B-I, C-III, D-II",
+    "A-IV, B-III, C-I, D-II"
+   ],
+   "correct": 3,
+   "chapter": "Hydrocarbons",
+   "topic": "Hydrocarbons",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-117",
+   "hash": "4010007463ecdbb0",
+   "question": "Following are the four molecules \"P\", \"Q\", \"R\" and \"S\". Which one among the four molecules will react with H − Br (aq) at the fastest rate?",
+   "options": [
+    "R",
+    "P",
+    "Q",
+    "S"
+   ],
+   "correct": 2,
+   "chapter": "Hydrocarbons",
+   "topic": "Hydrocarbons",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-118",
+   "hash": "a40c5df1e9ce8347",
+   "question": "Given below are two statements : Statement (I) : On nitration of m-xylene with HNO , H SO followed by oxidation, 4-nitrobenzene-1,3- 3 2 4 dicarboxylic acid is obtained as the major product. Statement (II) : −CH group is o/p-directing while −NO group is m-directing group. 3 2 In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 3,
+   "chapter": "Hydrocarbons",
+   "topic": "Hydrocarbons",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-119",
+   "hash": "f842648e09f3b112",
+   "question": "Given below are two statements : Statement I : One mole of propyne reacts with excess of sodium to liberate half a mole of H gas. 2 Statement II : Four g of propyne reacts with NaNH to liberate NH gas which occupies 224 mL at STP. 2 3 In the light of the above statements, choose the most appropriate answer from the options given below:",
+   "options": [
+    "Statement I is incorrect but Statement II is correct",
+    "Both Statement I and Statement II are correct",
+    "Statement I is correct but Statement II is incorrect",
+    "Both Statement I and Statement II are incorrect"
+   ],
+   "correct": 2,
+   "chapter": "Hydrocarbons",
+   "topic": "Hydrocarbons",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-120",
+   "hash": "93c0835ae35c2a6f",
+   "question": "The major product of the following reaction is :",
+   "options": [
+    "2-Phenylhepta-2,5-diene",
+    "6-Phenylhepta-2,4-diene",
+    "6-Phenylhepta-3,5-diene",
+    "2-Phenylhepta-2,4-diene"
+   ],
+   "correct": 3,
+   "chapter": "Hydrocarbons",
+   "topic": "Hydrocarbons",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-121",
+   "hash": "c0270d8da1047da2",
+   "question": "Given below are two statements : Statement I : CH − O − CH − Cl will undergo S 1 reaction though it is a primary halide. 3 2 N Statement II : will not undergo S 2 reaction very easily though it is a primary halide. N In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are incorrect",
+    "Both Statement I and Statement II are correct",
+    "Statement I is incorrect but Statement II is correct",
+    "Statement I is correct but Statement II is incorrect"
+   ],
+   "correct": 1,
+   "chapter": "Haloalkanes and Haloarenes",
+   "topic": "Haloalkanes and Haloarenes",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-122",
+   "hash": "ac0e47132356f2a5",
+   "question": "Given below are two statements: Statement I: The conversion proceeds well in the less polar medium. − HO (−) CH3 − CH2 − CH2 − CH2 − Cl −− −→ CH3 − CH2 − CH2 − CH2 − OH + Cl Statement II: The conversion proceeds well in the more polar medium. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false"
+   ],
+   "correct": 0,
+   "chapter": "Haloalkanes and Haloarenes",
+   "topic": "Haloalkanes and Haloarenes",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-123",
+   "hash": "4a3dfdb9a9d5a2ca",
+   "question": "Given below are two statements: involving lone pair of electrons on nitrogen. In the light of the above statements, choose the most appropriate answer from the options given below",
+   "options": [
+    "Statement I is incorrect but Statement II is correct",
+    "Statement I is correct but Statement II is incorrect",
+    "Both Statement I and Statement II are correct",
+    "Both Statement I and Statement II are incorrect"
+   ],
+   "correct": 2,
+   "chapter": "Haloalkanes and Haloarenes",
+   "topic": "Haloalkanes and Haloarenes",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-124",
+   "hash": "ca9cb4c7bb8f4257",
+   "question": "The ascending order of relative rate of solvolysis of following compounds is :",
+   "options": [
+    "(C) < (B) < (A) < (D)",
+    "(D) < (A) < (B) < (C)",
+    "(D) < (B) < (A) < (C)",
+    "(C) < (D) < (B) < (A)"
+   ],
+   "correct": 1,
+   "chapter": "Haloalkanes and Haloarenes",
+   "topic": "Haloalkanes and Haloarenes",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-125",
+   "hash": "27c9f32c02a8bd35",
+   "question": "The maximum number of RBr producing 2-methylbutane by above sequence of reactions is ________ - (Consider the structural isomers only)",
+   "options": [
+    "5",
+    "4",
+    "3",
+    "1"
+   ],
+   "correct": 1,
+   "chapter": "Haloalkanes and Haloarenes",
+   "topic": "Haloalkanes and Haloarenes",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-126",
+   "hash": "3212330ad2c5901a",
+   "question": "What amount of bromine will be required to convert 2 g of phenol into 2,4,6-tribromophenol? (Given molar mass in gmol −1 of C, H, O, Br are 12, 1, 16, 80 respectively)",
+   "options": [
+    "20.44 g",
+    "4.0 g",
+    "6.0 g",
+    "10.22"
+   ],
+   "correct": 3,
+   "chapter": "Alcohols, Phenols and Ethers",
+   "topic": "Alcohols, Phenols and Ethers",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-127",
+   "hash": "eb4c8d60c16728fa",
+   "question": "Given below are two statements : Statement (I) : The boiling points of alcohols and phenols increase with increase in the number of C-atoms. Statement (II) : The boiling points of alcohols and phenols are higher in comparison to other class of compounds such as ethers, haloalkanes. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 1,
+   "chapter": "Alcohols, Phenols and Ethers",
+   "topic": "Alcohols, Phenols and Ethers",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-128",
+   "hash": "8bf7e50798489879",
+   "question": "Which of the following arrangements with respect to their reactivity in nucleophilic addition reaction is correct?",
+   "options": [
+    "acetophenone < benzaldehyde < p-tolualdehyde < p- nitrobenzaldehyde",
+    "benzaldehyde < acetophenone < p- nitrobenzaldehyde < p-tolualdehyde",
+    "p- nitrobenzaldehyde < benzaldehyde < p-tolualdehyde < acetophenone",
+    "acetophenone < p-tolualdehyde < benzaldehyde < p- nitrobenzaldehyde"
+   ],
+   "correct": 3,
+   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-129",
+   "hash": "efd904196522b6ab",
+   "question": "Choose the correct answer from the options given below :",
+   "options": [
+    "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)",
+    "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+    "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
+    "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
+   ],
+   "correct": 2,
+   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-131",
+   "hash": "d5a2d88314fe35fa",
+   "question": "The compounds which give positive Fehling's test are : (A) (B) (C)HOCH − CO − (CHOH) − CH − OH 2 3 2 (D) (E) Choose the correct answer from the options given below :",
+   "options": [
+    "(A), (D) and (E) Only",
+    "(C), (D) and (E) Only",
+    "(A), (C) and (D) Only",
+    "(A), (B) and (C) Only"
+   ],
+   "correct": 1,
+   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-132",
+   "hash": "5f67d839d6fc2ac3",
+   "question": "The compounds that produce CO with aqueous NaHCO solution are: 2 3 A. B. C. D. E. Choose the correct answer from the options given below:",
+   "options": [
+    "A, C and D Only",
+    "A, B and E Only",
+    "A and C Only",
+    "A and B Only"
+   ],
+   "correct": 0,
+   "chapter": "Aldehydes-Ketones-And-Carboxylic-Acids",
+   "topic": "Aldehydes-Ketones-And-Carboxylic-Acids",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-133",
+   "hash": "bf577b2eb7816025",
+   "question": "The total number of compounds from below when treated with hot KMnO giving benzoic acid is : 4",
+   "options": [
+    "6",
+    "3",
+    "5",
+    "4"
+   ],
+   "correct": 2,
+   "chapter": "Aldehydes-Ketones-And-Carboxylic-Acids",
+   "topic": "Aldehydes-Ketones-And-Carboxylic-Acids",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-134",
+   "hash": "52b259a3d0228c09",
+   "question": "Match the Compounds (List - I) with the appropriate Catalyst/Reagents (List - II) for their reduction into corresponding amines. Choose the correct answer from the options given below :",
+   "options": [
+    "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
+    "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+    "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+    "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+   ],
+   "correct": 3,
+   "chapter": "Amines",
+   "topic": "Amines",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-135",
+   "hash": "1ac4666655f46648",
+   "question": "Which among the following react with Hinsberg's reagent? Choose the correct answer from the options given below:",
+   "options": [
+    "A, B and E Only",
+    "A, C and E Only",
+    "C and D Only",
+    "B and D Only"
+   ],
+   "correct": 1,
+   "chapter": "Amines",
+   "topic": "Amines",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-136",
+   "hash": "3f38d230ee06dfb2",
+   "question": "Identify correct statements : (A) Primary amines do not give diazonium salts when treated with NaNO in acidic condition. 2 (B) Aliphatic and aromatic primary amines on heating with CHCl and ethanolic KOH form carbylamines. 3 (C) Secondary and tertiary amines also give carbylamine test. (D) Benzenesulfonyl chloride is known as Hinsberg's reagent. (E) Tertiary amines reacts with benzenesulfonyl chloride very easily. Choose the correct answer from the options given below :",
+   "options": [
+    "(A) and (B) only",
+    "(D) and (E) only",
+    "(B) and (D) only",
+    "(B) and (C) only"
+   ],
+   "correct": 2,
+   "chapter": "Amines",
+   "topic": "Amines",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-137",
+   "hash": "e4a56ce50e525786",
+   "question": "For reaction The correct order of set of reagents for the above conversion is :",
+   "options": [
+    "Br ∣ FeBr , H O(Δ), NaOH 2 3 2",
+    "H SO , Ac O, Br , H O(Δ), NaOH 2 4 2 2 2",
+    "Ac O, Br , H O(Δ), NaOH 2 2 2",
+    "Ac O, H SO , Br , NaOH 2 2 4 2"
+   ],
+   "correct": 1,
+   "chapter": "Amines",
+   "topic": "Amines",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-138",
+   "hash": "ea6dc9a0e7d58abd",
+   "question": "The α-Helix and β - Pleated sheet structures of protein are associated with its :",
+   "options": [
+    "tertiary structure",
+    "quaternary structure",
+    "secondary structure",
+    "primary structure"
+   ],
+   "correct": 2,
+   "chapter": "Biomolecules",
+   "topic": "Biomolecules",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-139",
+   "hash": "4194487def3747ab",
+   "question": "Which of the following acids is a vitamin?",
+   "options": [
+    "Adipic acid",
+    "Ascorbic acid",
+    "Saccharic acid",
+    "Aspartic acid"
+   ],
+   "correct": 1,
+   "chapter": "Biomolecules",
+   "topic": "Biomolecules",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-140",
+   "hash": "139a2c39f2ddbeb7",
+   "question": "The carbohydrate \"Ribose\" present in DNA, is A. A pentose sugar B. present in pyranose from C. in \"D\" configuration D. a reducing sugar, when free E. in ∝-anomeric form Choose the correct answer from the options given below:",
+   "options": [
+    "A, D and E Only",
+    "A, C and D Only",
+    "A, B and E Only",
+    "B, D and E Only"
+   ],
+   "correct": 1,
+   "chapter": "Biomolecules",
+   "topic": "Biomolecules",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-141",
+   "hash": "351ab9245908868f",
+   "question": "Identify the number of structure/s from the following which can be correlated to D-glyceraldehyde.",
+   "options": [
+    "four",
+    "one",
+    "two",
+    "three"
+   ],
+   "correct": 3,
+   "chapter": "Biomolecules",
+   "topic": "Biomolecules",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-CHM-142",
+   "hash": "a24edd4991e32f92",
+   "question": "Match List - I with List - II. List - I List - II (Carbohydrate) (Linkage Source) (A) Amylose (I) β − C1 − C4 , plant (B) Cellulose (II) α − C1 − C4 , animal (III) α − C1 − C4 , (C) Glycogen α − C1 − C6 , plant (D) Amylopectin (IV) α − C1 − C4 , plant Choose the correct answer from the options given below :",
+   "options": [
+    "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)",
+    "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+    "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+    "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+   ],
+   "correct": 3,
+   "chapter": "Biomolecules",
+   "topic": "Biomolecules",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-001",
+   "hash": "db2336fb231356ba",
+   "question": "Among 10 −9 g (each) of the following elements, which one will have the highest number of atoms? Element : Pb, Po, Pr and Pt",
+   "options": [
+    "Po",
+    "Pr",
+    "Pb",
+    "Pt"
+   ],
+   "correct": 1,
+   "chapter": "Some Basic Concepts Of Chemistry",
+   "topic": "Some Basic Concepts Of Chemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-002",
+   "hash": "b192c0f047f91b7e",
+   "question": "CaCO 3 ( s) + 2HCl(aq) → CaCl 2 (aq) + CO 2 ( g)H 2 O(l) ​ ​ ​ ​ Consider the above reaction, what mass of CaCl 2 will be formed if 250 mL of 0.76 M HCl reacts with 1000 g ​ of CaCO 3 ? ​ −1 (Given : Molar mass of Ca, C, O, H and Cl are 40, 12, 16, 1 and 35.5 g mol , respectively)",
+   "options": [
+    "3.908 g",
+    "2.636 g",
+    "10.545 g",
+    "5.272 g"
+   ],
+   "correct": 2,
+   "chapter": "Some Basic Concepts Of Chemistry",
+   "topic": "Some Basic Concepts Of Chemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-003",
+   "hash": "008f77fde5dd8b8f",
+   "question": "Mass of magnesium required to produce 220 mL of hydrogen gas at STP on reaction with excess of dil. HCl is Given : Molar mass of Mg is 24 g mol . −1",
+   "options": [
+    "235.7 g",
+    "0.24 mg",
+    "236 mg",
+    "2.444 g"
+   ],
+   "correct": 2,
+   "chapter": "Some Basic Concepts Of Chemistry",
+   "topic": "Some Basic Concepts Of Chemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-004",
+   "hash": "f1955442224b0e25",
+   "question": "On combustion 0.210 g of an orgainc compound containing C, H and O gave 0.127 gH O and 0.307 gCO . The 2 2 percentages of hydrogen and oxygen in the given organic compound respectively are:",
+   "options": [
+    "53.41, 39.6",
+    "6.72, 53.41",
+    "7.55, 43.85",
+    "6.72, 39.87"
+   ],
+   "correct": 1,
+   "chapter": "Some Basic Concepts Of Chemistry",
+   "topic": "Some Basic Concepts Of Chemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-005",
+   "hash": "581fe4ae810648d7",
+   "question": "On complete combustion 1.0 g of an organic compound (X) gave 1.46 g of CO 2 and 0.567 g of H 2 O. The ​ ​ empirical formula mass of compound (X) is ________ g. −1 (Given molar mass in gmol C : 12, H : 1, O : 16)",
+   "options": [
+    "30",
+    "45",
+    "60",
+    "15"
+   ],
+   "correct": 0,
+   "chapter": "Some Basic Concepts Of Chemistry",
+   "topic": "Some Basic Concepts Of Chemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-006",
+   "hash": "0626cc8bcc428737",
+   "question": "According to Bohr's model of hydrogen atom, which of the following statement is incorrect?",
+   "options": [
+    "Radius of 3 rd orbit is nine times larger than that of 1 st orbit.",
+    "Radius of 8 th orbit is four times larger than that of 4 th orbit.",
+    "Radius of 6 th orbit is three time larger than that of 4 th orbit.",
+    "Radius of 4 th orbit is four times larger than that of 2 nd orbit."
+   ],
+   "correct": 2,
+   "chapter": "Structure-Of-Atom",
+   "topic": "Structure-Of-Atom",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-007",
+   "hash": "f27ce92dfbecf610",
+   "question": "For electron in ' 2 s ' and ' 2 p ' orbitals, the orbital angular momentum values, respectively are :",
+   "options": [
+    "√2 h 2π and 0",
+    "h 2π and √2 2π h",
+    "0 and √6 h 2π",
+    "0 and √2 h 2π"
+   ],
+   "correct": 3,
+   "chapter": "Structure-Of-Atom",
+   "topic": "Structure-Of-Atom",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-008",
+   "hash": "99b3e73b1c6751d4",
+   "question": "Which of the following postulate of Bohr's model of hydrogen atom in not in agreement with quantum mechanical model of an atom ?",
+   "options": [
+    "An atom in a stationary state does not emit electromagnetic radiation as long as it stays in the same state",
+    "An atom can take only certain distinct energies E , E , E , etc. These allowed states of constant energy are 1 2 3 called the stationary states of atom",
+    "When an electron makes a transition from a higher energy stationary state to a lower energy stationary state, then it emits a photon of light",
+    "The electron in a H atom's stationary state moves in a circle around the nucleus"
+   ],
+   "correct": 3,
+   "chapter": "Structure-Of-Atom",
+   "topic": "Structure-Of-Atom",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-010",
+   "hash": "7617725d69a722bc",
+   "question": "Consider the ground state of chromium atom (Z = 24). How many electrons are with Azimuthal quantum number l = 1 and l = 2 respectively ?",
+   "options": [
+    "12 and 4",
+    "16 and 4",
+    "12 and 5",
+    "16 and 5"
+   ],
+   "correct": 2,
+   "chapter": "Structure-Of-Atom",
+   "topic": "Structure-Of-Atom",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-011",
+   "hash": "4c2c5e20a711440f",
+   "question": "Which of the following statements are correct, if the threshold frequency of caesium is 5.16 × 10 14 Hz ? A. When Cs is placed inside a vacuum chamber with an ammeter connected to it and yellow light is focused on Cs the ammeter shows the presence of current. B. When the brightness of the yellow light is dimmed, the value of the current in the ammeter is reduced. C. When a red light is used instead to the yellow light, the current produced is higher with respect to the yellow light. D. When a blue light is used, the ammeter shows the formation of current. E. When a white light is used, the ammeter shows formation of current. Choose the correct answer from the options given below :",
+   "options": [
+    "A, D and E Only",
+    "B, C and D Only",
+    "A, C, D and E Only",
+    "A, B, D and E Only"
+   ],
+   "correct": 3,
+   "chapter": "Structure-Of-Atom",
+   "topic": "Structure-Of-Atom",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-012",
+   "hash": "de8d6866c05d3a99",
+   "question": "At the sea level, the dry air mass percentage composition is given as nitrogen gas : 70.0, oxygen gas : 27.0 and argon gas : 3.0. If total pressure is 1.15 atm , then calculate the ratio of followings respectively : (i) partial pressure of nitrogen gas to partial pressure of oxygen gas (ii) partial pressure of oxygen gas to partial pressure of argon gas (Given : Molar mass of N, O and Ar are 14, 16, and 40 g mol −1 respectively)",
+   "options": [
+    "4.26, 19.3",
+    "2.59, 11.85",
+    "5.46, 17.8",
+    "2.96, 11.2"
+   ],
+   "correct": 3,
+   "chapter": "States of Matter",
+   "topic": "States of Matter",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-013",
+   "hash": "6d1c2e5e3f538cf9",
+   "question": "Which of the following properties will change when system containing solution 1 will become solution 2?",
+   "options": [
+    "Molar heat capacity",
+    "Density",
+    "Concentration",
+    "Gibbs free energy"
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-014",
+   "hash": "180c33a267a6a8de",
+   "question": "The hydration energies of K and Cl are -x and -y kJ/mol respectively. If lattice energy of KCl is -z kJ/mol, + − then the heat of solution of KCl is :",
+   "options": [
+    "+x − y − z",
+    "x + y + z",
+    "z − (x + y)",
+    "−z − (x + y)"
+   ],
+   "correct": 2,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-015",
+   "hash": "198930466da7f5c9",
+   "question": "Arrange the following in order of magnitude of work done by the system / on the system at constant temperature : (a) |w reversible | for expansion in infinite stage. (b) |w irreversible | for expansion in single stage. (c) |w reversible | for compression in infinite stage. (d) |w irreversible | for compression in single stage. Choose the correct answer from the options given below:",
+   "options": [
+    "a > b > c > d",
+    "d > c = a > b",
+    "c = a > d > b",
+    "a > c > b > d"
+   ],
+   "correct": 1,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-016",
+   "hash": "3c7d6b1e33ad8495",
+   "question": "One mole of an ideal gas expands isothermally and reversibly from 10dm to 20dm at 300 K. ΔU, q and work 3 3 done in the process respectively are : Given : R = 8.3JK −1 and mol −1 In 10 = 2.3 log 2 = 0.30 log 3 = 0.48",
+   "options": [
+    "0, 21.84 kJ, −1.26 kJ",
+    "0, −17.18 kJ, 1.718 J",
+    "0, 21.84 kJ, 21, 84 kJ",
+    "0, 178 kJ, −1.718 kJ"
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-017",
+   "hash": "d8ff0ee114cb1e9b",
+   "question": "Let us consider a reversible reaction at temperature, T. In this reaction, both ΔH and ΔS were observed to have positive values. If the equilibrium temperature is Te , then the reaction becomes spontaneous at :",
+   "options": [
+    "T = Te",
+    "Te > T",
+    "T > Te",
+    "Te = 5 T"
+   ],
+   "correct": 2,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-018",
+   "hash": "02d313349dc74be2",
+   "question": "Given below are two statements : Statement I : When a system containing ice in equilibrium with water (liquid) is heated, heat is absorbed by the system and there is no change in the temperature of the system until whole ice gets melted. Statement II : At melting point of ice, there is absorption of heat in order to overcome intermolecular forces of attraction within the molecules of water in ice and kinetic energy of molecules is not increased at melting point. In the light of the above statements, choose the correct answer from the options given below:",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true"
+   ],
+   "correct": 2,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-019",
+   "hash": "633383802ca318f8",
+   "question": "Consider the given data : (a) HCl(g) + 10H O(l) → HCl.10H O 2 2 −1 ΔH = −69.01 kJ mol (b) HCl(g) + 40H O(l) → HCl.40H O 2 2 −1 ΔH = −72.79 kJ mol Choose the correct statement :",
+   "options": [
+    "Dissolution of gas in water is an endothermic process",
+    "The heat of solution depends on the amount of solvent.",
+    "The heat of dilution for the HCl (HCl ⋅ 10H O to HCl.40H O) is 3.78 kJ mol . 2 2 −1",
+    "The heat of formation of HCl solution is represented by both (a) and (b)"
+   ],
+   "correct": 1,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-020",
+   "hash": "bf448e1d90ebc826",
+   "question": "The correct statement amongst the following is :",
+   "options": [
+    "The term 'standard state' implies that the temperature is 0 C ∘",
+    "The standard state of pure gas is the pure gas at a pressure of 1 bar and temperature 273 K",
+    "Δ H f θ 298 is zero for O(g)",
+    "Δ H f θ 500 is zero for O ( g) 2"
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-021",
+   "hash": "e808728c5917dd22",
+   "question": "Two vessels A and B are connected via stopcock. The vessel A is filled with a gas at a certain pressure. The entire assembly is immersed in water and is allowed to come to thermal equilibrium with water. After opening the stopcock the gas from vessel A expands into vessel B and no change in temperature is observed in the thermometer. Which of the following statement is true?",
+   "options": [
+    "dw̸ = 0 ​",
+    "dq̸ = 0 ​",
+    "dU̸ = 0 ​",
+    "The pressure in the vessel B before opening the stopcock is zero."
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-022",
+   "hash": "b032cc295d5130c3",
+   "question": "Given below are two statements Statement I : A catalyst cannot alter the equilibrium constant (K ) of the reaction, temperature remaining constant c Statement II : A homogenous catalyst can change the equilibrium composition of a system temperature remaining constant In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II is false",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 1,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-023",
+   "hash": "8e5c9b2ba4bb0793",
+   "question": "In the following system, PCl ( g) ⇌ PCl ( g) + Cl ( g) at equilibrium, upon addition of xenon gas at constant 5 3 2 T&p , the concentration of",
+   "options": [
+    "PCl will increase 5",
+    "Cl will decrease 2",
+    "PCl , PCl &Cl remain constant 5 3 2",
+    "PCl will increase 3"
+   ],
+   "correct": 1,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-024",
+   "hash": "ff155fb9ede03e1d",
+   "question": "Consider the following chemical equilibrium of the gas phase reaction at a constant temperature : A( g) ⇌ B( g) + C( g) If p being the total pressure, K is the pressure equilibrium constant and α is the degree of dissociation, then p which of the following is true at equilibrium?",
+   "options": [
+    "If p value is extremely high compared to K , α ≈ 1 p",
+    "When p increases α decreases",
+    "If k value is extremely high compared to p, α becomes much less than unity p",
+    "When p increases α increases"
+   ],
+   "correct": 1,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-025",
+   "hash": "be2bd70fb4c2888e",
+   "question": "An aqueous solution of HCl with pH 1.0 is diluted by adding equal volume of water (ignoring dissociation of water). The pH of HCl solution would (Given log 2 = 0.30)",
+   "options": [
+    "reduce to 0.5",
+    "increase to 1.3",
+    "remain same",
+    "increase to 2"
+   ],
+   "correct": 1,
+   "chapter": "Ionic Equilibrium",
+   "topic": "Ionic Equilibrium",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-026",
+   "hash": "6e2160fe8792171d",
+   "question": "10 mL of 2 M NaOH solution is added to 20 mL of 1 M HCl solution kept in a beaker. Now, 10 mL of this mixture is poured into a volumetric flask of 100 mL containing 2 moles of HCl and made the volume upto the mark with distilled water. The solution in this flask is :",
+   "options": [
+    "0.2 M NaCl solution",
+    "20 M HCl solution",
+    "10 M HCl solution",
+    "Neutral solution"
+   ],
+   "correct": 1,
+   "chapter": "Ionic Equilibrium",
+   "topic": "Ionic Equilibrium",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-027",
+   "hash": "db78a8c9fdf36cde",
+   "question": "Compounds that should not be used as primary standards in titrimetric analysis are : A. Na Cr O 2 2 7 B. Oxalic acid C. NaOH D. FeSO ⋅ 6H O 4 2 E. Sodium tetraborate Choose the most appropriate answer from the options given below:",
+   "options": [
+    "B and D Only",
+    "D and E Only",
+    "C, D and E Only",
+    "A, C and D Only"
+   ],
+   "correct": 3,
+   "chapter": "Redox-Reactions",
+   "topic": "Redox-Reactions",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-028",
+   "hash": "37f17705f0746091",
+   "question": "A solution is made by mixing one mole of volatile liquid A with 3 moles of volatile liquid B . The vapour pressure of pure A is 200 mm Hg and that of the solution is 500 mm Hg. The vapour pressure of pure B and the least volatile component of the solution, respectively, are :",
+   "options": [
+    "1400 mmHg, A",
+    "1400 mmHg, B",
+    "600 mmHg, B",
+    "600 mmHg, A"
+   ],
+   "correct": 3,
+   "chapter": "Solutions",
+   "topic": "Solutions",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formulas": [
+    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
+    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
+    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
+    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
+    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
+    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
+    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-029",
+   "hash": "0d25d51bbc808539",
+   "question": "Liquid A and B form an ideal solution. The vapour pressure of pure liquids A and B are 350 and 750 mm Hg respectively at the same temperature. If x and x are the mole fraction of A and B in solution while y and y A B A B are the mole fraction of A and B in vapour phase then : xA y",
+   "options": [
+    "xB < yB A x y",
+    "xB A = y A B xA yA",
+    "xB > y B",
+    "(x A − y A ) < (xB − y B )"
+   ],
+   "correct": 2,
+   "chapter": "Solutions",
+   "topic": "Solutions",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formulas": [
+    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
+    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
+    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
+    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
+    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
+    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
+    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-030",
+   "hash": "8c682fda119d8940",
+   "question": "Which of the following binary mixture does not show the behaviour of minimum boiling azeotropes?",
+   "options": [
+    "H O + CH COC H 2 3 2 5",
+    "C H OH + C H NH 6 5 6 5 2",
+    "CS + CH COCH 2 3 3",
+    "CH OH + CHCl 3 3"
+   ],
+   "correct": 1,
+   "chapter": "Solutions",
+   "topic": "Solutions",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formulas": [
+    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
+    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
+    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
+    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
+    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
+    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
+    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-031",
+   "hash": "c83be02f740a7b61",
+   "question": "2 moles each of ethylene glycol and glucose are dissolved in 500 g of water. The boiling point of the resulting solution is : (Given : Ebullioscopic constant of water = 0.52 K kg mol −1 )",
+   "options": [
+    "379.2 K",
+    "377.3 K",
+    "375.3 K",
+    "277.3 K"
+   ],
+   "correct": 1,
+   "chapter": "Solutions",
+   "topic": "Solutions",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formulas": [
+    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
+    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
+    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
+    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
+    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
+    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
+    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-032",
+   "hash": "b09cf980d67d55b6",
+   "question": "XY is the membrane / partition between two chambers 1 and 2 containing sugar solutions of concentration c and 1 c2 (c1 > c2 ) molL −1 . For the reverse osmosis to take place identify the correct condition (Here p and p are pressures applied on chamber 1 and 2) 1 2 (A) Membrane/Partition; Cellophane, p > π 1 (B) Membrane/Partition ; Porous. p > π 2 (C) Membrane/Partition ; Parchment paper, p > π 1 (D) Membrane/Partition : Cellophane, p > π 2 Choose the correct answer from the option given below :",
+   "options": [
+    "B and D only",
+    "A and D only",
+    "A and C only",
+    "C only"
+   ],
+   "correct": 2,
+   "chapter": "Solutions",
+   "topic": "Solutions",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formulas": [
+    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
+    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
+    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
+    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
+    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
+    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
+    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+   ]
+  }
+ ]
+}

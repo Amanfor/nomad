@@ -1,0 +1,1085 @@
+{
+ "batch": 5,
+ "items": [
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-007",
+   "hash": "76e8d8b75faff34d",
+   "question": "Let A(1, 0), B(2, −1) and C ( 7 3 , 4 3 ) be three points. If the equation of the bisector of the angle ABC is αx + βy = 5 , then the value of α + β is 2 2",
+   "options": [
+    "13",
+    "10",
+    "5",
+    "8 #PaperPhodnaHai www.mathongo.com Straight Lines JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-011",
+   "hash": "bc014ba0973885ce",
+   "question": "Let the line L pass through the point (−3, 5, 2) and make equal angles with the positive coordinate axes. If the distance of L from the point (−2, r, 1) is √ 14 3 , then the sum of all possible values of r is :",
+   "options": [
+    "10",
+    "6",
+    "12",
+    "16"
+   ],
+   "correct": 0,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-012",
+   "hash": "934b52a67b92418b",
+   "question": "Let the line L be parallel to the vector −3^i + 2^j + 4k 1 ^ and pass through the point (2,6,7), and the line L be parallel 2 to the vector 2^ i +^ ^ j + 3k and pass through the point (4, 3, 5). If the line L is parallel to the vector 3 −3^ i + 5^ ^ j + 16k −→ and intersects the lines L and L at the points C and D, respectively, then |CD| is equal to : 1 2 2",
+   "options": [
+    "89",
+    "312",
+    "171",
+    "290"
+   ],
+   "correct": 3,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-009",
+   "hash": "43ca8fb6292e71ea",
+   "question": "Let the direction cosines of two lines satisfy the equations : 4l + m − n = 0 and 2mn + 10nl + 3lm = 0. Then the cosine of the acute angle between these lines is :",
+   "options": [
+    "20",
+    "10",
+    "10",
+    "10 3√ 38 3√ 38 7√ 38 √ 38"
+   ],
+   "correct": 1,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-010",
+   "hash": "ddafbd3707b6de87",
+   "question": "The vertices B and C of a triangle ABC lie on the line x 1 = 1−y −2 = z−2 3 . The coordinates of A and B are (1, 6, 3) and (4, 9, α) respectively and C is at a distance of 10 units from B. The area (in sq. units) of △ABC is :",
+   "options": [
+    "20√13",
+    "5√13",
+    "15√13",
+    "10√13"
+   ],
+   "correct": 1,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-011",
+   "hash": "867387472038d208",
+   "question": "Let Q(a, b, c) be the image of the point P(3, 2, 1) in the line x−1 1 = y 2 = z−1 1 . Then the distance of Q from the line x−9 3 = y−9 2 = z−5 −2 is",
+   "options": [
+    "8",
+    "5",
+    "7",
+    "6"
+   ],
+   "correct": 2,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-012",
+   "hash": "1096f2b921f2205a",
+   "question": "The sum of all values of α, for which the shortest distance between the lines x+1 α = y−2 −1 = z−4 −α and x α = y−1 2 = z−1 2α is √2, is",
+   "options": [
+    "6",
+    "8",
+    "-8",
+    "-6 #PaperPhodnaHai www.mathongo.com Three Dimensional Geometry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-012",
+   "hash": "ea405060a3f35bf2",
+   "question": "Let L be the line x+1 2 = y+1 3 = z+3 6 and let S be the set of all points (a, b, c) on L, whose distance from the line x+1 2 = y+1 3 = z−9 0 along the line L is 7. Then ∑ (a,b,c)∈S (a + b + c) is equal to :",
+   "options": [
+    "6",
+    "34",
+    "40",
+    "28"
+   ],
+   "correct": 1,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-011",
+   "hash": "3de9c64baa555307",
+   "question": "If the image of the point P(1, 2, a) in the line x−6 3 = y−7 2 = 7−z 2 is Q(5, b, c), then a + b + c is equal to 2 2 2",
+   "options": [
+    "298",
+    "293",
+    "264",
+    "283"
+   ],
+   "correct": 0,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-012",
+   "hash": "2e4092e2762d34cc",
+   "question": "Let P(α, β, γ) be the point on the line x−1 2 = y+1 −3 = z at a distance 4√14 from the point (1, −1, 0) and nearer to the origin. Then the shortest distance, between the lines x−α 1 = y−β 2 = z−γ 3 and x+5 2 = y−10 1 = z−3 1 , is equal to",
+   "options": [
+    "4√ 7",
+    "2√ 7",
+    "7√ 5",
+    "4√ 5 5 4 4 7"
+   ],
+   "correct": 0,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-010",
+   "hash": "87afd003894432a0",
+   "question": "Let (α, β, γ) be the co-ordinates of the foot of the perpendicular drawn from the point (5, 4, 2) on the line → r = (−^ i + 3^ ^ j + k) + λ(2^ i + 3^ ^ j − k) . Then the length of the projection of the vector α^i + β^j + γk ^ on the vector 6^i + 2^j + 3k ^ is :",
+   "options": [
+    "15 7",
+    "4",
+    "18 7",
+    "3"
+   ],
+   "correct": 2,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-009",
+   "hash": "dfbd82bbd8373be1",
+   "question": "If the distances of the point (1, 2, a) from the line x−1 1 = y 2 = z−1 1 along the lines L : 1 x−1 3 = y−2 4 = z−a b and L2 : x−1 1 = y−2 4 = z−a c are equal, then a + b + c is equal to",
+   "options": [
+    "5",
+    "7",
+    "4",
+    "6"
+   ],
+   "correct": 1,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-008",
+   "hash": "d7f9b191512c9210",
+   "question": "Let the lines L : r→ = ^i + 2^j + 3k 1 ^ + λ(2^ → = (4^i + ^j) + μ(5^i + 2^j + k), j + 4k), λ ∈ R and L : r i + 3^ ^ ^ μ ∈ R, intersect 2 −→ at the point R. Let P and Q be the points lying on lines L and L , respectively, such that |PR| = √29 and 1 2 −→ |PQ| = √ 47 3 . If the point P lies in the first octant, then 27(QR) is equal to 2",
+   "options": [
+    "348",
+    "340",
+    "320",
+    "360 #PaperPhodnaHai www.mathongo.com Three Dimensional Geometry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "3D-Geometry",
+   "topic": "3D-Geometry",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-011",
+   "hash": "f35d94f97c079cde",
+   "question": "Number of solutions of √3 cos 2θ + 8 cos θ + 3√3 = 0, θ ∈ [−3π, 2π] is:",
+   "options": [
+    "0",
+    "5",
+    "3",
+    "4"
+   ],
+   "correct": 1,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-013",
+   "hash": "e2192d00eb445b50",
+   "question": "If the area of the region {(x, y) : 1 − 2x ⩽ y ⩽ 4 − x , x ⩾ 0, y ⩾ 0} is 2 α β , α, β ∈ N, gcd(α, β) = 1 , then the value of (α + β) is :",
+   "options": [
+    "67",
+    "91",
+    "73",
+    "85"
+   ],
+   "correct": 2,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-012",
+   "hash": "351da4a769d89b30",
+   "question": "Let P : y = 4x and P : y = x + 27 be two parabolas. If the area of the bounded region enclosed between P and 1 2 2 2 1 P2 is six times the area of the bounded region enclosed between the line y = αx, α > 0 and P , then α is equal to : 1",
+   "options": [
+    "12",
+    "6",
+    "15",
+    "8"
+   ],
+   "correct": 0,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-013",
+   "hash": "f2109e6dd879ef97",
+   "question": "Let f (α) denote the area of the region in the first quadrant bounded by x = 0, x = 1, y = x and 2 y = |αx − 5| − |1 − αx| + αx . Then (f (0) + f",
+   "options": [
+    ") is equal to 2",
+    "12",
+    "14",
+    "7"
+   ],
+   "correct": 2,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-013",
+   "hash": "f459f8a458f87bcd",
+   "question": "The area of the region A = {(x, y) : 4x + y ⩽ 8 and y ⩽ 4x} is: 2 2 2",
+   "options": [
+    "π + 4",
+    "π + 2 3",
+    "π 2 + 2",
+    "π 2 + 1 3"
+   ],
+   "correct": 1,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-013",
+   "hash": "503a2ffd8d009455",
+   "question": "Let the line x = −1 divide the area of the region {(x, y) : 1 + x ≤ y ≤ 3 − x} in the ratio m : n, gcd(m, n) = 1. 2 Then m + n is equal to",
+   "options": [
+    "27",
+    "25",
+    "28",
+    "26"
+   ],
+   "correct": 0,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-011",
+   "hash": "a8caae7ae6bf19fa",
+   "question": "The area of the region enclosed between the circles x + y = 4 and x + (y − 2) = 4 is: 2 2 2 2",
+   "options": [
+    "4 3 (2π − 3√ 3)",
+    "2 3 (2π − 3√ 3)",
+    "2 3 (4π − 3√ 3)",
+    "4 3 (2π − √ 3) #PaperPhodnaHai www.mathongo.com Area Under Curves JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-011",
+   "hash": "78daca464f095773",
+   "question": "The area of the region, inside the ellipse x + 4y = 4 and outside the region bounded by the curves y = |x| − 1 and 2 2 y = 1 − |x| , is :",
+   "options": [
+    "2π − 1",
+    "3(π − 1)",
+    "2π − 1 2",
+    "2(π − 1)"
+   ],
+   "correct": 3,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-010",
+   "hash": "bd89ac27d29399cf",
+   "question": "The area of the region R = {(x, y) : xy ≤ 8, 1 ≤ y ≤ x , x ≥ 0} is 2",
+   "options": [
+    "2 3 (24 log",
+    "− 7) e",
+    "1 3 (40 log",
+    "+ 27) e"
+   ],
+   "correct": 0,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-009",
+   "hash": "2c95624e42340564",
+   "question": "Let A be the bounded area enclosed by the curves y = x + 2, x + y = 8 and y-axis that lies in the first quadrant. 1 2 Let A be the bounded area enclosed by the curves y = x + 2, y = x, x = 2, and y-axis that lies in the first 2 2 2 quadrant. Then A − A is equal to 1 2",
+   "options": [
+    "2 3 (3√ 2 + 1)",
+    "2 3 (2√ 2 + 1)",
+    "2 3 (√ 2 + 1)",
+    "2 3 (4√ 2 + 1) #PaperPhodnaHai www.mathongo.com Area Under Curves JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-012",
+   "hash": "3a82a668c4294ac5",
+   "question": "Let α and β respectively be the maximum and the minimum values of the function f (θ) = 4 (sin 4 ( 7π 2 4 − θ) + sin (11π + θ)) − 2 (sin 6 ( 3π 2 6 − θ) + sin (9π − θ)), θ ∈ R . Then α + 2β is equal to :",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "3"
+   ],
+   "correct": 2,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-012",
+   "hash": "c51f28d6bc603cd5",
+   "question": "The least value of (cos θ − 6 sin θ cos θ + 3 sin θ + 2) is 2 2",
+   "options": [
+    "−1",
+    "1",
+    "4 − √10",
+    "4 + √10"
+   ],
+   "correct": 2,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-013",
+   "hash": "072aed32bb108113",
+   "question": "Let π 2 < θ < π and cot θ = − 1 . Then the value of 2√ 2 15θ 15θ sin ( )(cos 8θ + sin 8θ) + cos ( )(cos 8θ − sin 8θ) 2 2 is equal to",
+   "options": [
+    "− √2",
+    "√ 2−1",
+    "√2",
+    "1−√ 2 √3 √3 √3 √3"
+   ],
+   "correct": 3,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-012",
+   "hash": "cb2aaa2b6a88531f",
+   "question": "The value of cosec 10 − √3 sec 10 is equal to : ∘ ∘",
+   "options": [
+    "8",
+    "6",
+    "2",
+    "4"
+   ],
+   "correct": 3,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-011",
+   "hash": "8fb7c786e4919d6a",
+   "question": "2 If , then tan(A−B) sin C π + 2 = 1, A, B, C ∈ (0, ) tan A sin A 2",
+   "options": [
+    "tan A, tan C, tan B are in A.P.",
+    "tan A, tan B, tan C are in G.P.",
+    "tan A, tan C, tan B are in G.P.",
+    "tan A, tan B, tan C are in A.P. #PaperPhodnaHai www.mathongo.com Trigonometric Ratios and Identities JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-010",
+   "hash": "c715555b047db58e",
+   "question": "If cot x = 5 12 for some x ∈ (π, 3π 2 ) , then sin 7x (cos 13x 2 + sin 13x 2 ) + cos 7x (cos 13x 2 − sin 13x 2 ) is equal to",
+   "options": [
+    "4 √ 26",
+    "√ 26 6",
+    "5 √ 13",
+    "1 √ 13"
+   ],
+   "correct": 3,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-011",
+   "hash": "96094ec89c2b6886",
+   "question": "∘ ∘ The value of √ 3 cosec 20 −sec 20 ∘ cos 20 ∘ cos 40 ∘ cos 60 cos 80 ∘ is equal to",
+   "options": [
+    "16",
+    "32",
+    "64",
+    "12 #PaperPhodnaHai www.mathongo.com Trigonometric Ratios and Identities JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Trigonometric-Functions-And-Equations",
+   "topic": "Trigonometric-Functions-And-Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-014",
+   "hash": "539c71c7b6ac5b9c",
+   "question": "− − − → → → → → → → → p = BC, q = CA r = BA For a triangle ABC, let |p| = 2√ 3, |q| = 2 cos θ = 1 θ and . If and √3 , where is the angle between p→ and q→, then |p→ × (q→ − 3r→)| + 3|r→| is equal to : 2 2",
+   "options": [
+    "410",
+    "340",
+    "200",
+    "220"
+   ],
+   "correct": 2,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-013",
+   "hash": "4f6072d89e06dc8a",
+   "question": "→ → → → − →b) ⋅ d→ is equal to : → → → → → Let a = −^i + ^j + 2^ k, b = ^ j − 3k, c = a × b and d = c × a. Then (a i −^ ^",
+   "options": [
+    "-4",
+    "4",
+    "2",
+    "-2"
+   ],
+   "correct": 3,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-013",
+   "hash": "c3357525cf89c0d4",
+   "question": "− − → → P ^ ^ ^ AB = 3i + j − k ^ Let^ ^ AC = i − j + 3k be a point in the plane of the vectors P and such that is equidistant from −→ the lines AB and AC. If |AP| = √5 2 , then the area of the triangle ABP is:",
+   "options": [
+    "2",
+    "√ 30 4",
+    "3 2",
+    "√ 26 4"
+   ],
+   "correct": 1,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-014",
+   "hash": "3df18d3642d6c004",
+   "question": "^ and → → × c→) + 3(→b × c→) = 0 and (a → − →b) ⋅ c→ = −97, → → = 2^i − 5^j + 5k Let a b =^ i −^ → is a vector such that 2(a ^. If c j + 3k then |c→ × k| ^ is equal to 2",
+   "options": [
+    "233",
+    "218",
+    "193",
+    "205"
+   ],
+   "correct": 1,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-015",
+   "hash": "38237e91f748f725",
+   "question": "^ → → = 2^i − ^j − k, → = 2^i + ^j + 3k → and →b, such Let a b = i + 3j − k and c ^ ^ ^ ^ . Let v→ be the vector in the plane of the vectors a that the length of its projection on the vector c→ is 1 √ 14 . Then |v→| is equal to",
+   "options": [
+    "13",
+    "√ 35 2",
+    "√ 21 2",
+    "7"
+   ],
+   "correct": 1,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-014",
+   "hash": "1bade258d66a771f",
+   "question": "→ = 2^i − ^j + k Let a ^ and →b = λ^j + 2k, ^ → × →b and d→ be a vector of magnitude 2 in yz- →= a λ ∈ Z be two vectors. Let c → → → plane. If |c| = √53, then the maximum possible value of (c ⋅ d) is equal to : 2",
+   "options": [
+    "26",
+    "52",
+    "208",
+    "104"
+   ],
+   "correct": 2,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-014",
+   "hash": "073262069f6844ff",
+   "question": "− −→ → ^ ^ ^ AB = 2i + 4j − 5k ^ Let ^ ^ AD = i + 2j + λk, λ ∈ R ^ ^ ^ v = i + j + k and . Let the projection of the vector → on the −→ diagonal AC of the parallelogram ABCD be of length one unit. If α, β, where α > β, be the roots of the equation 2 λ x 2 − 6λx + 5 = 0 , then 2α − β is equal to",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "6"
+   ],
+   "correct": 0,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-014",
+   "hash": "11f2963d54e62a38",
+   "question": "^ → → = i^ − 2j^ + 3k, Let a ^+ j b = 2i ^ ^ − k, → = λi^ + j^ + k c ^ → × →b. If v→ ⋅ c→ = 11 and the length of the projection of →b and v→ = a on c→ is p, then 9p is equal to 2",
+   "options": [
+    "12",
+    "6",
+    "4",
+    "9"
+   ],
+   "correct": 0,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-015",
+   "hash": "8ec66176c51f7f4c",
+   "question": "→, →b, c→ be three vectors such that a Let a → × →b = 2(a →| = 1, |→b| = 4, |c→| = 2, and the angle between →b and c→ is → × c→). If |a 60 ∘ → ⋅ c→| is equal to , then |a",
+   "options": [
+    "1",
+    "2",
+    "0",
+    "4"
+   ],
+   "correct": 0,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-013",
+   "hash": "1025c53df4211d97",
+   "question": "→ → → → → → Let a = −^i + 2^j + 2^ → ⋅ (^i + ^j + ^ k, b = 8i + 7j − 3k and c be vector such that a × c = b. If c ^ ^ ^ → + c→| is k) = 4, then |a 2 equal to :",
+   "options": [
+    "27",
+    "33",
+    "35",
+    "30"
+   ],
+   "correct": 0,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-012",
+   "hash": "eded9b860d2ec737",
+   "question": "→, →b, c→ satisfying |a For three unit vectors a → − →b| + |→b − c→| + |c→ − a 2 2 → + k→b + kc→| = 3, the positive value →| = 9 and |2a 2 of k is",
+   "options": [
+    "4",
+    "3",
+    "5",
+    "6"
+   ],
+   "correct": 2,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-012",
+   "hash": "e134931800c65741",
+   "question": "^ → → = 2^i + ^j − 2k, →= a→ × →b. Let d→ be a vector such that |d→ − a → = 3 and the angle →| = √11, |c→ × d| Let a b = i + j and c ^ ^ between c→ and d→ is . Then a π 4 → ⋅ d→ is equal to",
+   "options": [
+    "3",
+    "11",
+    "0",
+    "1 #PaperPhodnaHai www.mathongo.com Vector Algebra JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo #PaperPhodnaHai www.mathongo.com Vector Algebra JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Vector-Algebra",
+   "topic": "Vector-Algebra",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-014",
+   "hash": "ab8ab15e41615f37",
+   "question": "100 100 100 The value of 51 C 50 + 52 C 51 + ….+ C 100 101 is : 101 100 101 100",
+   "options": [
+    "2 100",
+    "2 100",
+    "2 101",
+    "2 101"
+   ],
+   "correct": 3,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-015",
+   "hash": "98c591eb9da6de9a",
+   "question": "The sum of all possible values of n ∈ N, so that the coefficients of x, x and x in the expansion of 2 3 , are in arithmetic progression is : 2 2 n (1 + x ) (1 + x)",
+   "options": [
+    "12",
+    "7",
+    "3",
+    "9"
+   ],
+   "correct": 3,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-014",
+   "hash": "c0667e4b05bf737d",
+   "question": "Given below are two statements : Statement I: 25 13 + 20 13 + 8 13 + 3 13 is divisible by 7. Statement II: The integral part of (7 + 4√3) 25 is an odd number. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false"
+   ],
+   "correct": 1,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-015",
+   "hash": "7676017eeb33990f",
+   "question": "The sum of the coefficients of x 499 and x 500 in (1 + x) 1000 + x(1 + x) 999 2 + x (1 + x) 998 + … + x 1000 is :",
+   "options": [
+    "1002 C 500",
+    "1002 C 501",
+    "1001 C 501",
+    "1000 C 501"
+   ],
+   "correct": 0,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-015",
+   "hash": "25c8cf8fb7186520",
+   "question": "Let C denote the coefficient of x in the binomial expansion of (1 + x) , n ∈ N, 0 ≤ r ≤ n. If r r n 2 3 n , then the value of ∑ equals. 2 2 (−2) 25 1 Pn = C0 − C1 + C2 − C3 + … . . + Cn 3 4 n+1 n=1 P 2n",
+   "options": [
+    "650",
+    "675",
+    "525",
+    "580"
+   ],
+   "correct": 1,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-014",
+   "hash": "00c5403e6436b0d2",
+   "question": "If the coefficient of x in the expansion of (ax + bx + c)(1 − 2x) 2 26 is -56 and the coefficients of x and x are 2 3 both zero, then a + b + c is equal to :",
+   "options": [
+    "1500",
+    "1300",
+    "1403",
+    "1483"
+   ],
+   "correct": 2,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-013",
+   "hash": "5204b099637555e3",
+   "question": "k Let S = 1 25! + 1 3!23! + 1 5!21! + … up to 13 terms. If 13 S = 2 n! ,k ∈ N , then n + k is equal to",
+   "options": [
+    "50",
+    "49",
+    "52",
+    "51 #PaperPhodnaHai www.mathongo.com Binomial Theorem JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-016",
+   "hash": "4e5ab3039a9029bf",
+   "question": "Let the circle x + y = 4 intersect x-axis at the points A(a, 0), a > 0 and B(b, 0). Let P(2 cos α, 2 sin α), 2 2 0 < α < π 2 and Q(2 cos β, 2 sin β) be two points such that (α − β) = π 2 . Then the point of intersection of AQ and BP lies on :",
+   "options": [
+    "x + y − 4y − 4 = 0 2 2",
+    "x + y − 4x − 4y = 0 2 2",
+    "x + y − 4x − 4 = 0 2 2",
+    "x + y − 4x − 4y − 4 = 0 2 2"
+   ],
+   "correct": 0,
+   "chapter": "Circle",
+   "topic": "Circle",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-015",
+   "hash": "f77b02d154caf7a6",
+   "question": "Let the set of all values of r, for which the circles (x + 1) + (y + 4) = r and x + y − 4x − 2y − 4 = 0 2 2 2 2 2 intersect at two distinct points be the interval (α, β). Then αβ is equal to",
+   "options": [
+    "21",
+    "24",
+    "20",
+    "25"
+   ],
+   "correct": 3,
+   "chapter": "Circle",
+   "topic": "Circle",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-016",
+   "hash": "9ef131c20bd2c1a7",
+   "question": "If the points of intersection of the ellipses x + 2y − 6x − 12y + 23 = 0 and 4x + 2y − 20x − 12y + 35 = 0 lie 2 2 2 2 on a circle of radius r and centre (a, b), then the value of ab + 18r is 2",
+   "options": [
+    "52",
+    "53",
+    "51",
+    "55"
+   ],
+   "correct": 3,
+   "chapter": "Circle",
+   "topic": "Circle",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-015",
+   "hash": "3467686ae0d93efe",
+   "question": "→ → → → → → Let c and d be vectors such that |c + d| = √29 and c × (2^i + 3^j + 4^ k) = (2^ j + 4k) × d. If λ , λ (λ > λ ) i + 3^ ^ 1 2 1 2 → ⋅ (−7^i + 2^j + 3k) are the possible values of (c→ + d) ^ , then the equation 2 K x 2 + (K 2 − 5 K + λ1)xy + (3 K + λ2 2 )y 2 − 8x + 12y + λ2 = 0 represents a circle, for K equal to :",
+   "options": [
+    "1",
+    "4",
+    "-1",
+    "2 #PaperPhodnaHai www.mathongo.com Circle Questions with Answer Keys"
+   ],
+   "correct": 0,
+   "chapter": "Circle",
+   "topic": "Circle",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-016",
+   "hash": "3b89f9b02aa43990",
+   "question": "Let PQ and MN be two straight lines touching the circle x + y − 4x − 6y − 3 = 0 at the points A and B respectively. Let O be the centre of the circle and ∠AOB = π/3. Then the locus of the point of intersection of the lines PQ and MN is :",
+   "options": [
+    "x + y − 12x − 18y − 25 = 0 2",
+    "x + y − 18x − 12y − 25 = 0 2 2 2 ∣∣ ∣ ∣",
+    "3 (x + y ) − 18x − 12y + 25 = 0 2 2",
+    "3 (x + y ) − 12x − 18y − 25 = 0 2 2"
+   ],
+   "correct": 2,
+   "chapter": "Circle",
+   "topic": "Circle",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-013",
+   "hash": "71486e1734893ce9",
+   "question": "Let z be a complex number such that |z − 6| = 5 and |z + 2 − 6i| = 5. Then the value of z + 3z − 15z + 141 is 3 2 equal to",
+   "options": [
+    "50",
+    "61",
+    "37",
+    "42 #PaperPhodnaHai www.mathongo.com Complex Number JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-016",
+   "hash": "ebd376490e0ef054",
+   "question": "5π The value of the integral ∫ 24 π 3 dx is : 24 1+√ tan 2x",
+   "options": [
+    "π 3",
+    "π 12",
+    "π 18",
+    "π 6"
+   ],
+   "correct": 1,
+   "chapter": "Definite-Integration",
+   "topic": "Definite-Integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-017",
+   "hash": "1f639de6d2545954",
+   "question": "π Let [⋅] denote the greatest integer function. Then ∫ is equal to : 2 12(3+[x]) π ( )dx − 3+[sin x]+[cos x] 2",
+   "options": [
+    "13π + 1",
+    "12π + 5",
+    "11π + 2",
+    "15π + 4"
+   ],
+   "correct": 2,
+   "chapter": "Definite-Integration",
+   "topic": "Definite-Integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-016",
+   "hash": "177300bce5d29896",
+   "question": "Let f (x) = [x] − [x + 3] − 3, x ∈ R, where [] is the greatest integer funtion. Then 2",
+   "options": [
+    "∫ 2 f (x)dx = −6 0",
+    "f (x) < 0 only for x ∈ [−1, 3)",
+    "f (x) > 0 only for x ∈ [4, ∞)",
+    "f (x) = 0 for finitely many values of x"
+   ],
+   "correct": 1,
+   "chapter": "Definite-Integration",
+   "topic": "Definite-Integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-016",
+   "hash": "c9fa989c4071476b",
+   "question": "π The value of ∫ 2 − π ( 1 [x]+4 )dx , where [⋅] denotes the greatest integer function, is 2",
+   "options": [
+    "60 1 (21π − 1)",
+    "7 60 (π − 3)",
+    "60 7 (3π − 1)",
+    "1 60 (π − 7)"
+   ],
+   "correct": 2,
+   "chapter": "Definite-Integration",
+   "topic": "Definite-Integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-017",
+   "hash": "edb3184c3c805d9f",
+   "question": "11 The value of ∫ is equal to: π/6 π+4x ( )dx −π/6 1−sin(|x|+π/6)",
+   "options": [
+    "8π",
+    "6π",
+    "2π",
+    "4π"
+   ],
+   "correct": 3,
+   "chapter": "Definite-Integration",
+   "topic": "Definite-Integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  }
+ ]
+}

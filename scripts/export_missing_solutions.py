@@ -31,6 +31,19 @@ def ready(sol) -> bool:
     return len(s) >= 40 and not s.startswith('[!success')
 
 
+def related(chapter: str, title: str) -> bool:
+    """Reject forced alias matches: a sheet only counts if it shares real
+    vocabulary with the chapter (or the chapter names its subject)."""
+    if not chapter or not title:
+        return False
+    stop = {'and', 'the', 'of', 'in', 'on', 'a', 'an'}
+    ck = {re.sub(r'[^a-z0-9]', '', w) for w in chapter.lower().split() if w not in stop}
+    tk = {re.sub(r'[^a-z0-9]', '', w) for w in title.lower().split() if w not in stop}
+    ck = {w for w in ck if len(w) > 3}
+    tk = {w for w in tk if len(w) > 3}
+    return bool(ck & tk)
+
+
 def main():
     per = 60
     if '--per' in sys.argv:
@@ -52,6 +65,8 @@ def main():
         items = []
         for q in chunk:
             sheet_title = alias.get(norm(q.get('chapter') or ''))
+            if sheet_title and not related(q.get('chapter') or '', sheet_title):
+                sheet_title = None
             sheet = by_title.get(sheet_title) if sheet_title else None
             formulas = []
             if sheet:

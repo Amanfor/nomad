@@ -1,0 +1,1373 @@
+{
+ "batch": 7,
+ "items": [
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-008",
+   "hash": "c2861d0fcf8aef90",
+   "question": "The kinetic energy of a simple harmonic oscillator is oscillating with angular frequency of 176rad/s. The frequency of this simple harmonic oscillator is ____ Hz. [ take π = 22 7 ]",
+   "options": [
+    "14",
+    "28",
+    "176",
+    "88"
+   ],
+   "correct": 0,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-006",
+   "hash": "b3d43f4471219a1e",
+   "question": "Two blocks with masses 100 g and 200 g are attached to the ends of springs A and B as shown in figure. The energy stored in A is E. The energy stored in B, when spring constants k , k of A and B, respectively satisfy the relation A B 4kA = 3kB′ , is :",
+   "options": [
+    "4 3 E",
+    "4E",
+    "3E",
+    "2E"
+   ],
+   "correct": 2,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-007",
+   "hash": "627f18b79fb39665",
+   "question": "A simple pendulum of string length 30 cm performs 20 oscillations in 10 s. The length of the string required for the pendulum to perform 40 oscillations in the same time duration is ____ cm. [Assume that the mass of the pendulum remains same.]",
+   "options": [
+    "7.5",
+    "0.75",
+    "120",
+    "15"
+   ],
+   "correct": 0,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-007",
+   "hash": "22e2055585791f2b",
+   "question": "The time period of a simple harmonic oscillator is T = 2π√ k m . Measured value of mass (m) of the object is 10 g with an accuracy of 10 mg and time for 50 oscillations of the spring is found to be 60 s using a watch of 2 s resolution. Percentage error in determination of spring constant (k) is ____ \\%.",
+   "options": [
+    "7.60",
+    "3.35",
+    "3.43",
+    "6.76"
+   ],
+   "correct": 3,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-008",
+   "hash": "881196885bb242e0",
+   "question": "As shown in the figure, a spring is kept in a stretched position with some extension by holding the masses 1 kg and 0.2 kg with a separation more than spring natural length and are released. Assuming the horizontal surface to be frictionless, the angular frequency (in SI unit) of the system is : k = 150 N/m",
+   "options": [
+    "5",
+    "27",
+    "20",
+    "30 #PaperPhodnaHai www.mathongo.com Oscillations JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-006",
+   "hash": "06fcd2a2454c7eff",
+   "question": "A cylindrical block of mass M and area of cross section A is floating in a liquid of density ρ and with its axis vertical. When depressed a little and released the block starts oscillating. The period of oscillation is ____.",
+   "options": [
+    "π√ 2M",
+    "π√ ρA",
+    "2π√ ρA",
+    "2π√ M ρAg Mg Mg ρAg #PaperPhodnaHai www.mathongo.com Oscillations JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-009",
+   "hash": "24b1179dbae54238",
+   "question": "As shown in the diagram, when the incident ray is parallel to base of the prism, the emergent ray grazes along the second surface. If refractive index of the material of prism is √2, the angle θ of prism is.",
+   "options": [
+    "60 ∘",
+    "45∘",
+    "90 ∘",
+    "75 ∘"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-008",
+   "hash": "39f06c9743cd18a4",
+   "question": "A thin prism with angle 5 of refractive index 1.72 is combined with another prism of refractive index 1.9 to ∘ produce dispersion without deviation. The angle of second prism is ____.",
+   "options": [
+    "6∘",
+    "4.5 ∘",
+    "4∘",
+    "5 ∘"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-009",
+   "hash": "304663dca77a97b2",
+   "question": "Consider light travelling from a medium A to medium B separated by a plane interface. If the light undergoes total internal reflection during its travel from medium A to B and the speed of light in media A and B are 2.4 × 10 m/s 8 and 2.7 × 10 m/s, respectively, then the value of critical angle is : 8",
+   "options": [
+    "cos −1 ( 8 9 )",
+    "sin −1 ( 9 8 )",
+    "cot −1 ( 3 )",
+    "tan −1 ( 8 ) √ 13 √ 17"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-009",
+   "hash": "e149a273d388a916",
+   "question": "A biconvex lens is formed by using two thin planoconvex lenses, as shown in the figure. The refractive index and radius of curved surfaces are also mentioned in figure. When an object is placed on the left side of lens at a distance of 30 cm from the biconvex lens, the magnification of the image will be :",
+   "options": [
+    "-2",
+    "+2.5",
+    "-2.5",
+    "+2"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-010",
+   "hash": "58703c8a644f975d",
+   "question": "For a transparent prism, if the angle of minimum deviation is equal to its refracting angle, the refractive index n of the prism satisfies.",
+   "options": [
+    "1 < n < 2",
+    "√2 < n < 2√2",
+    "√2 < n < 2",
+    "n ⩾ 2 #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-006",
+   "hash": "f1bb05587c3e9431",
+   "question": "Distance between an object and three times magnified real image is 40 cm. The focal length of the mirror used is ____ cm.",
+   "options": [
+    "−15/2",
+    "-15",
+    "-10",
+    "-20"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-007",
+   "hash": "ac9ee34f4a14d80a",
+   "question": "Five persons P , P , P , P and P recorded object distance (u) and image distance (v) using same convex lens 1 2 3 4 5 having power +5 D as (25, 96), (30, 62), (35, 37), (45, 35) and (50, 32) respectively. Identify correct statement",
+   "options": [
+    "Readings recorded by P and P persons are incorrect 3 2",
+    "Readings recorded by P and P persons are incorrect 4 5",
+    "Readings recorded by all persons are correct",
+    "Readings recorded by P person are incorrect 3"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-004",
+   "hash": "2c0e4f6d69bffe25",
+   "question": "In parallax method for the determination of focal length of a concave mirror, the object should always be placed:",
+   "options": [
+    "between the focus (F ) and the centre of curvature (C) of the mirror ONLY",
+    "between the pole(P ) and the focus (F ) of the concave mirror ONLY",
+    "beyond the centre of the curvature (C) of the mirror ONLY",
+    "at any point beyond the focus (F ) of the mirror"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-005",
+   "hash": "35cdf51d84a7c6b2",
+   "question": "The wavelength of light, while it is passing through water is 540 nm. The refractive index of water is 4/3. The wavelength of the same light when it is passing through a transparent medium having refractive index of 3/2 is ____ nm.",
+   "options": [
+    "540",
+    "480",
+    "840",
+    "380"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-009",
+   "hash": "6ba995134148937a",
+   "question": "Consider an equilateral prism (refractive index √2). A ray of light is incident on its one surface at a certain angle i. If the emergent ray is found to graze along the other surface then the angle of refraction at the incident surface is close to ____.",
+   "options": [
+    "20 ∘",
+    "15 ∘",
+    "40 ∘",
+    "30∘"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-010",
+   "hash": "70a4e17c7e3ae7ad",
+   "question": "A thin convex lens of focal length 5 cm and a thin concave lens of focal length 4 cm are combined together (without any gap) and this combination has magnification m when an object is placed 10 cm before the convex lens. 1 Keeping the positions of convex lens and object undisturbed a gap of 1 cm is introduced between the lenses by moving the concave lens away, which lead to a change in magnification of total lens system to m . The value of 2 m1 m2 is ____.",
+   "options": [
+    "5 9",
+    "5 27",
+    "3 2",
+    "None of the above #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-007",
+   "hash": "52870ece4806bf1e",
+   "question": "A prism of angle 75 and refractive index √3 is coated with thin film of refractive index 1.5 only at the back exit ∘ surface. To have total internal reflection at the back exit surface the incident angle must be ____ (sin 15 = 0.25 and sin 25 = 0.43) ∘ ∘",
+   "options": [
+    "15 ∘",
+    "> 25 ∘",
+    "between 15 and 20 ∘ ∘",
+    "Both"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-009",
+   "hash": "735f0743f854e9ab",
+   "question": "The magnitudes of power of a biconvex lens (refractive index 1.5) and that of a plano-concave lens (refractive index = 1.7 ) are same. If the curvature of planoconcave lens exactly matches with the curvature of back surface of the biconvex lens, then ratio of radius of curvature of front and back surface of the biconvex lens is ____.",
+   "options": [
+    "5 : 12",
+    "12 : 5",
+    "5 : 2",
+    "2 : 5 #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-007",
+   "hash": "e93d6f24b7124476",
+   "question": "The exit surface of a prism with refractive index n is coated with a material having refractive index n 2 . When this prism is set for minimum angle of deviation, it exactly meets the condition of critical angle. The prism angle is ____ .",
+   "options": [
+    "30∘",
+    "15 ∘",
+    "45 ∘",
+    "60 ∘"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-008",
+   "hash": "73ea6734c161adb3",
+   "question": "In a microscope of tube length 10 cm two convex lenses are arranged with focal length of 2 cm and 5 cm. Total magnification obtained with this system for normal adjustment is (5) . The value of k is ____. k",
+   "options": [
+    "3.5",
+    "2",
+    "4",
+    "5 #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-010",
+   "hash": "9d0db82fbdfe75e9",
+   "question": "Two cars A and B each of mass 10 kg are moving on parallel tracks separated by a distance of 10 m, in same 3 direction with speeds 72 km/h and 36 km/h. The magnitude of angular momentum of car A with respect to car B is ____ J.s.",
+   "options": [
+    "2 × 10 5",
+    "10 5",
+    "3.6 × 10 5",
+    "3 × 10 5"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-010",
+   "hash": "534781ca47add7c0",
+   "question": "Two small balls with masses m and 2 m are attached to both ends of a rigid rod of length d and negligible mass. If angular momentum of this system is L about an axis (A) passing through its centre of mass and perpendicular to the rod then angular velocity of the system about A is :",
+   "options": [
+    "5md 2L 2",
+    "4 3 md L 2",
+    "3 2 md L 2",
+    "2L md 2"
+   ],
+   "correct": 2,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-011",
+   "hash": "d78423f0afc60fa5",
+   "question": "The moment of inertia of a square loop made of four uniform solid cylinders, each having radius R and length L(R < L) about an axis passing through the mid points of opposite sides, is (Take the mass of the entire loop as M ) :",
+   "options": [
+    "3 4 MR 2 + 7 12 ML 2",
+    "3 8 MR 2 + 1 6 ML 2",
+    "3 4 MR 2 + 1 6 ML 2",
+    "3 8 MR 2 + 7 12 ML 2 #PaperPhodnaHai www.mathongo.com Rotational Motion JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-011",
+   "hash": "5df53ca1e415bfc3",
+   "question": "When the position vector r→ = x^i + y^j + zk ^ changes sign as −r→, which one of the following vector will not flip under sign change ?",
+   "options": [
+    "Angular momentum",
+    "Velocity",
+    "Acceleration",
+    "Linear momentum"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-008",
+   "hash": "cc13d915e45b2221",
+   "question": "A thin uniform rod (X) of mass M and length L is pivoted at a height ( L 3 ) as shown in the figure. The rod is allowed to fall from a vertical position and lie horizontally on the table. The angular velocity of this rod when it hits the table top, is ____. (g = gravitational acceleration)",
+   "options": [
+    "3 √ g",
+    "1 √ g",
+    "√ 3 g",
+    "√ 3g √2 L √2 L 2 L L"
+   ],
+   "correct": 3,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-006",
+   "hash": "46d7ddde2e9d6137",
+   "question": "A uniform bar of length 12 cm and mass 20m lies on a smooth horizontal table. Two point masses m and 2m are moving in opposite directions with same speed of v and in the same plane as the bar, as shown in figure. These masses strike the bar simultaneously and get stuck to it. After collision the entire system is rotating with angular frequency ω. The ratio of v and ω is :",
+   "options": [
+    "66",
+    "33",
+    "32",
+    "2√88"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-011",
+   "hash": "40f6a0f9483ddb1d",
+   "question": "A solid sphere of mass 5 kg and radius 10 cm is kept in contact with another solid sphere of mass 10 kg and radius 20 cm. The moment of inertia of this pair of spheres about the tangent passing through the point of contact is ____ kg. m 2 .",
+   "options": [
+    "0.72",
+    "0.36",
+    "0.18",
+    "0.63"
+   ],
+   "correct": 3,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-006",
+   "hash": "c7804f6b116d9d69",
+   "question": "A uniform rod of mass m and length l suspended by means of two identical inextensible light strings as shown in figure. Tension in one string immediately after the other string is cut, is ____. (g acceleration due to gravity)",
+   "options": [
+    "mg/4",
+    "mg/2",
+    "mg/3",
+    "mg"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-010",
+   "hash": "d413e81f03ece39a",
+   "question": "Two circular discs of radius each 10 cm are joined at their centres by a rod of length 30 cm and mass 600 gm as shown in figure. If the mass of each disc is 600 gm and applied torque between two discs is 43 × 10 dyne. cm, the 5 angular acceleration of the discs about the given axis AB is ____ rad/s . 2",
+   "options": [
+    "11",
+    "22",
+    "100",
+    "27"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-009",
+   "hash": "cf102e0cc5a3a41d",
+   "question": "Two masses 400 g and 350 g are suspended from the ends of a light string passing over a heavy pulley of radius 2 cm. When released from rest the heavier mass is observed to fall 81 cm in 9 s. The rotational inertia of the pulley is ____ kg ⋅ m . (g = 9.8 m/s ) 2 2",
+   "options": [
+    "4.75 × 10 −3",
+    "9.5 × 10−3",
+    "1.86 × 10 −2",
+    "8.3 × 10−3 #PaperPhodnaHai www.mathongo.com Rotational Motion JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-012",
+   "hash": "4e660c27062dc015",
+   "question": "The following diagram shows a Zener diode as a voltage regulator. The Zener diode is rated at V = 5 V and the z desired current in load is 5 mA. The unregulated voltage source can supply upto 25 V. Considering the Zener diode can withstand four times of the load current, the value of resistor R (shown in circuit) should be ____ Ω. S",
+   "options": [
+    "100",
+    "1000",
+    "10",
+    "None of the above"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-012",
+   "hash": "e4c8aba56917e92d",
+   "question": "Two p-n junction diodes D and D are connected as shown in figure. A and B are input signals and C is the output. 1 2 The given circuit will function as a ____.",
+   "options": [
+    "NOR Gate",
+    "NAND Gate",
+    "OR Gate",
+    "AND Gate"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-009",
+   "hash": "dcee6023c97a5bfd",
+   "question": "Identify the correct truth table of the given logic circuit.",
+   "options": [
+    "A B Y",
+    "A B Y",
+    "A B Y",
+    "A B Y 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 0 #PaperPhodnaHai www.mathongo.com Semiconductors JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-007",
+   "hash": "86989e55e63caa79",
+   "question": "The correct truth table for the given input data of the following logic gate is : Inputs",
+   "options": [
+    "A B C D Y",
+    "A B C D Y 1 1 0 1 0 1 1 0 1 0 0 0 1 1 0 0 0 1 1 1 1 0 1 0 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1",
+    "A B C D Y",
+    "A B C D Y 1 1 0 1 1 1 1 0 1 1 0 0 1 1 0 0 0 1 1 0 1 0 1 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0"
+   ],
+   "correct": 2,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-012",
+   "hash": "20e022a16e682603",
+   "question": "Find the correct combination of A, B, C and D inputs which can cause the LED to glow.",
+   "options": [
+    "1101",
+    "0011",
+    "1000",
+    "0100"
+   ],
+   "correct": 0,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-008",
+   "hash": "d46ed832ee841637",
+   "question": "For the given logic gate circuit, which of the following is the correct truth table?",
+   "options": [
+    "n m z",
+    "n m z",
+    "n m z",
+    "n m z 0 0 0 0 0 1 0 0 1 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 1 0 0 1 0 0 1 0 0 #PaperPhodnaHai www.mathongo.com Semiconductors JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-007",
+   "hash": "2307d5d832101dab",
+   "question": "The given circuit works as :",
+   "options": [
+    "AND gate",
+    "NAND gate",
+    "NOR gate",
+    "OR gate"
+   ],
+   "correct": 1,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-011",
+   "hash": "d4e9314c13a2f65b",
+   "question": "Assuming in forward bias condition there is a voltage drop of 0.7 V across a silicon diode, the current through diode D1 in the circuit is ____ mA. (Assume all diodes in the given circuit are identical)",
+   "options": [
+    "17.6",
+    "18.8",
+    "11.7",
+    "20.15"
+   ],
+   "correct": 1,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-013",
+   "hash": "d734d219dfe0ec84",
+   "question": "Rods x and y of equal dimensions but of different materials are joined as shown in figure. Temperatures of end points A and F are maintained at 100 C and 40 C respectively. Given the thermal conductivity of rod x is three ∘ ∘ times of that of rod y, the temperature at junction points B and E are (close to):",
+   "options": [
+    "80 C and 70 C respectively ∘ ∘",
+    "80 C and 60 C respectively ∘ ∘",
+    "60 C and 45 C respectively ∘ ∘",
+    "89 C and 73 C respectively ∘ ∘"
+   ],
+   "correct": 3,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-008",
+   "hash": "ca25f886b795cf59",
+   "question": "An aluminium and steel rods having same lengths and cross-sections are joined to make total length of 120 cm at ∘ 30 C . The coefficient of linear expansion of aluminium and steel are 24 × 10 −6 / C ∘ and 1.2 × 10 −5 ∘ / C , respectively. The length of this composite rod when its temperature is raised to 100 C, is ____ cm. ∘",
+   "options": [
+    "120.20",
+    "120.15",
+    "120.06",
+    "120.03"
+   ],
+   "correct": 1,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-009",
+   "hash": "bb9c191b52fed4a7",
+   "question": "A gas based geyser heats water flowing at the rate of 5.0 litres per minute from 27 C to 87 C. The rate of ∘ ∘ consumption of the gas is ____ g/s. (Take heat of combustion of gas = 5.0 × 10 J/g) specific heat capacity of water = 4200 J/kg ⋅ C 4 ∘",
+   "options": [
+    "0.42",
+    "2.1",
+    "0.21",
+    "4.2"
+   ],
+   "correct": 0,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-012",
+   "hash": "57f3052ede77e760",
+   "question": "10 kg of ice at −10 C is added to 100 kg of water to lower its temperature from 25 C. Consider no heat exchange ∘ ∘ to surroundings. The decrement to the temperature of water is ____ C.∘ (specific heat of ice = 2100 J/Kg. C, specific heat of water = 4200 J/Kg. C, latent heat of fusion of ice ∘ ∘ = 3.36 × 10 5 ) J/Kg",
+   "options": [
+    "6.67",
+    "11.6",
+    "15",
+    "10"
+   ],
+   "correct": 3,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-010",
+   "hash": "142cfbdc3f21c5ce",
+   "question": "A brass wire of length 2 m and radius 1 mm at 27 C is held taut between two rigid supports. Initially it was cooled ∘ to a temperature of −43 C creating a tension T in the wire. The temperature to which the wire has to be cooled in ∘ order to increase the tension in it to 1.4T , is ____ C. ∘",
+   "options": [
+    "-86",
+    "-65",
+    "-71",
+    "-80 #PaperPhodnaHai www.mathongo.com Thermal Properties of Matter JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-010",
+   "hash": "3b1f4724bd2cb7c4",
+   "question": "10 mole of an ideal gas is undergoing the process shown in the figure. The heat involved in the process from P to 1 P2 is α Joule (P = 21.7 Pa and P = 30 Pa, C = 21 J/K. mol, R = 8.3 J/mol. K). The value of α is ____. 1 2 v",
+   "options": [
+    "21",
+    "15",
+    "28",
+    "24"
+   ],
+   "correct": 0,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-009",
+   "hash": "1a7a6ac4a0eeb8a2",
+   "question": "One mole of an ideal diatomic gas expands from volume V to 2 V isothermally at a temperature 27 C and does W∘ joule of work. If the gas undergoes same magnitude of expansion adiabatically from 27 C doing the same amount of ∘ work W , then its final temperature will be (close to) ____ C. ∘ (log 2 = 0.693) e",
+   "options": [
+    "-30",
+    "-189",
+    "-117",
+    "-56"
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-010",
+   "hash": "93c873d1bddf1451",
+   "question": "The internal energy of a monoatomic gas is 3 nRT. One mole of helium is kept in a cylinder having internal cross section area of 17 cm and fitted with a light movable frictionless piston. The gas is heated slowly by suppling 126 J 2 heat. If the temperature rises by 4 C, then the piston will move ____ cm. ∘ (atmospheric pressure = 10 Pa)5",
+   "options": [
+    "1.45",
+    "15.5",
+    "1.55",
+    "14.5"
+   ],
+   "correct": 1,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-013",
+   "hash": "8369d6983e3fc358",
+   "question": "In the following p − V diagram the equation of state along the curved path is given by (V − 2) = 4ap where a is a 2 constant. The total work done in the closed path is",
+   "options": [
+    "+ 1 3a",
+    "− 3a 1",
+    "1 2a",
+    "− 1 a"
+   ],
+   "correct": 1,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-011",
+   "hash": "d1aa62822f0ca35b",
+   "question": "Density of water at 4 C and 20 C are 1000 kg/m and 998 kg/m respectively. The increase in internal energy of 4 ∘ ∘ 3 3 kg of water when it is heated from 4 C to 20 C is ____ J. ∘ ∘ (specific heat capacity of water = 4.2 J/kg. and 1 atmospheric pressure = 10 Pa) 5",
+   "options": [
+    "234699.2",
+    "315826.2",
+    "258700.8",
+    "268799.2 #PaperPhodnaHai www.mathongo.com Thermodynamics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-011",
+   "hash": "1e77126eb88e0998",
+   "question": "Keeping the significant figures in view, the sum of the physical quantities 52.01 m, 153.2 m and 0.123 m is :",
+   "options": [
+    "205.3 m",
+    "205.333 m",
+    "205.33 m",
+    "205 m"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-013",
+   "hash": "3c77ebad2ee551a3",
+   "question": "Match List - I with List - II. List - I List - II −1 −1 A. Coef f icient of viscosity I. [M L T ] 0 −2 B. Surf ace tension II. [M L T ] −1 −2 C. Pressure III. [M L T ] 2 −2 D. Surf ace energy IV . [M L T ] Choose the correct answer from the options given below :",
+   "options": [
+    "A-IV, B-III, C-I, D-II",
+    "A-IV, B-I, C-II, D-III",
+    "A-I, B-II, C-IV, D-III",
+    "A-I, B-III, C-II, D-IV"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-008",
+   "hash": "e0ca7470b2c0d710",
+   "question": "If ϵ, E and t represent the free space permittivity, electric field and time respectively, then the unit of ϵE t will be :",
+   "options": [
+    "Am 2",
+    "Am",
+    "A/m 2",
+    "A/m"
+   ],
+   "correct": 2,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-014",
+   "hash": "5117a55e2b5cb9cd",
+   "question": "Match the LIST-I with LIST-II List-I List-II 2 −2 −1 A. Spring constant I. ML T K 0 −2 B. Thermal conductivity II. ML T 2 −3 −2 C. Boltzmann constant III. ML T A −3 −1 D. Inductive reactance IV . MLT K Choose the correct answer from the options given below:",
+   "options": [
+    "A-II, B-IV, C-I, D-III",
+    "A-I, B-IV, C-II, D-III",
+    "A-II, B-I, C-IV, D-III",
+    "A-III, B-II, C-IV, D-I #PaperPhodnaHai www.mathongo.com Units and Dimensions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-010",
+   "hash": "e300a2df3de5c391",
+   "question": "Consider a modified Bernoulli equation. (P + A 2 Bt ) + ρg(h + Bt) + 1 2 ρV 2 = constant If t has the dimension of time then the dimensions of A and B are ____, ____ respectively.",
+   "options": [
+    "[ML T 0 −2 ] and [M LT 0 −2 ]",
+    "[ML T 0 −2 ] and [M LT 0 −1 ]",
+    "[ML T 0 −1 ] and [M LT] 0",
+    "[ML T 0 −1 ] and [M LT 0 −1 ]"
+   ],
+   "correct": 3,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-012",
+   "hash": "d3b7f1f23c22b424",
+   "question": "Match the LIST-I with LIST-II List-I List-II −2 −2 A. Magnetic induction I. MLT A 2 −2 −2 B. Magnetic f lux II. ML T A 0 −2 −1 C. Magnetic permeability III. ML T A 2 −2 −1 D. Self inductance IV. ML T A Choose the correct answer from the options given below:",
+   "options": [
+    "A-III, B-IV, C-II, D-I",
+    "A-III, B-IV, C-I, D-II",
+    "A-IV, B-III, C-I, D-II",
+    "A-I, B-III, C-IV, D-II #PaperPhodnaHai www.mathongo.com Units and Dimensions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-012",
+   "hash": "ffa813663b03f44b",
+   "question": "Given below are two statements : Statement I : In a Young's double slit experiment, the angular separation of fringes will increase as the screen is moved away from the plane of the slits Statement II: In a Young's double slit experiment, the angular separation of fringes will increase when monochromatic source is replaced by another monochromatic source of higher wavelength. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 1,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-011",
+   "hash": "85b4dd98112598a0",
+   "question": "In the Young's double slit experiment the intensity produced by each one of the individual slits is I . The distance 0 between two slits is 2 mm. The distance of screen from slits is 10 m. The wavelength of light is 6000 A . The ∘ intensity of light on the screen in front of one of the slits is ____.",
+   "options": [
+    "Io 2",
+    "2I o",
+    "4I o",
+    "I o #PaperPhodnaHai www.mathongo.com Wave Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-009",
+   "hash": "b2e5e9f22acfb16a",
+   "question": "Which of the following are true for a single slit diffraction? A. Width of central maxima increases with increase in wavelength keeping slit width constant. B. Width of central maxima increases with decrease in wavelength keeping slit width constant. C. Width of central maxima increases with decrease in slit width at constant wavelength. D. Width of central maxima increases with increase in slit width at constant wavelength. E. Brightness of central maxima increases for decrease in wavelength at constant slit width.",
+   "options": [
+    "A, C, E only",
+    "A, D only",
+    "B, D only",
+    "B, C only"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-011",
+   "hash": "6ad901bab8050949",
+   "question": "When an unpolarized light falls at a particular angle on a glass plate (placed in air), it is observed that the reflected beam is linearly polarized. The angle of refracted beam with respect to the normal is ____. (tan −1 ∘ (1.52) = 57.7 , refractive indices of air and glass are 1.00 and 1.52, respectively.)",
+   "options": [
+    "39.6 ∘",
+    "32.3 ∘",
+    "36.3 ∘",
+    "42.6 ∘"
+   ],
+   "correct": 1,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-011",
+   "hash": "6d1a40d3756b74c2",
+   "question": "In a double slit experiment the distance between the slits is 0.1 cm and the screen is placed at 50 cm from the slits plane. When one slit is covered with a transparent sheet having thickness t and refractive index n(= 1.5), the central fringe shifts by 0.2 cm. The value of t is ____ cm.",
+   "options": [
+    "5.0 × 10 −3",
+    "6.0 × 10 −3",
+    "8 × 10 −4",
+    "5.6 × 10 −4"
+   ],
+   "correct": 2,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  }
+ ]
+}

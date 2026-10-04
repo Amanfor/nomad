@@ -1,0 +1,1245 @@
+{
+ "batch": 29,
+ "items": [
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-072",
+   "hash": "44e69cd6becbdc45",
+   "question": "Let the focal chord P Q of the parabola y 2 = 4x make an angle of 60 with the positive x-axis, where P lies in the ∘ first quadrant. If the circle, whose one diameter is PS, S being the focus of the parabola, touches the y-axis at the point (0, α), then 5α is equal to : 2",
+   "options": [
+    "15",
+    "25",
+    "30",
+    "20"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-073",
+   "hash": "02c9fc4f4e318519",
+   "question": "The radius of the smallest circle which touches the parabolas y = x + 2 and x = y + 2 is 2 2 7√2",
+   "options": [
+    "2 Parabola Chapter-wise Question Bank JEE Main 2025 April MathonGo 7√2",
+    "16 7√2",
+    "4 7√2",
+    "8"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-074",
+   "hash": "cd69195abcb4a6c8",
+   "question": "A line passing through the point P(√5, √5) intersects the ellipse 2 2 y x 36 + 25 = 1 at A and B such that (P A). (P B) is maximum. Then 5 (P A + P B ) is equal to : 2 2",
+   "options": [
+    "218",
+    "377",
+    "290",
+    "338"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-075",
+   "hash": "3555a6fde992eba1",
+   "question": "The centre of a circle C is at the centre of the ellipse E : 2 y . Let C pass through the foci F and x + = 1, a > b 1 2 2 a b F2 of E such that the circle C and the ellipse E intersect at four points. Let P be one of these four points. If the Ellipse Chapter-wise Question Bank JEE Main 2025 April MathonGo area of the triangle PF F is 30 and the length of the major axis of E is 17 , then the distance between the foci of 1 2 E is :",
+   "options": [
+    "26",
+    "13",
+    "12",
+    "13 2"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-076",
+   "hash": "d320a83c0b358320",
+   "question": "Let the ellipse 3x + py = 4 pass through the centre C of the circle x + y − 2x − 4y − 11 = 0 of radius r. Let 2 2 2 2 f1 , f2 be the focal distances of the point C on the ellipse. Then 6f f − r is equal to 1 2",
+   "options": [
+    "74",
+    "68",
+    "70",
+    "78"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-077",
+   "hash": "a482769fc72332f7",
+   "question": "Let e and e be the eccentricities of the ellipse 2 2 2 y 2 y and the hyperbola , respectively. x x 1 2 + = 1 − = 1 2 25 16 2 b b If b < 5 and e e = 1, then the eccentricity of the ellipse having its axes along the coordinate axes and passing 1 2 through all four foci (two of the ellipse and two of the hyperbola) is :",
+   "options": [
+    "4 5",
+    "3 5 √7",
+    "4 √3",
+    "2 Hyperbola Chapter-wise Question Bank JEE Main 2025 April MathonGo 2"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-078",
+   "hash": "7caefcd66af144f1",
+   "question": "Let the sum of the focal distances of the point P(4, 3) on the hyperbola H : 2 y be 8√ . If for H , the x 5 − = 1 2 2 3 a b length of the latus rectum is l and the product of the focal distances of the point P is m , then 9l + 6 m is equal to 2 :-",
+   "options": [
+    "184",
+    "186",
+    "185",
+    "187 2"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-079",
+   "hash": "dc71952d68df6abb",
+   "question": "The number of solutions of the equation 2x + 3 tan x = π, x ∈ [−2π, 2π] − {± π ,± 3π } is 2 2",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "3"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-080",
+   "hash": "0855a83dd6464f30",
+   "question": "If 10 sin θ + 15 cos θ = 6, then the value of 6 6 27 cosec θ+8 sec θ 4 4 8 is: 16 sec θ",
+   "options": [
+    "2 5",
+    "3 4",
+    "3 5 Trigonometric Equations Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+    "1 5"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-081",
+   "hash": "cc3aed18f2584601",
+   "question": "Considering the principal values of the inverse trigonometric functions, √3 sin −1 ( 2 x + 1 2 √1 − x2 ), − 1 2 < x < 1 , is equal to √2",
+   "options": [
+    "π 4 + sin −1 x",
+    "π 6 + sin −1 x",
+    "−5π 6 − sin −1 x",
+    "5π 6 − sin −1 x"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-082",
+   "hash": "371bd63e2d489ebc",
+   "question": "If a ^ ^ i + 2 j − 2k and k are equal, then a ^ ^ ^ → is: unit vector along a",
+   "options": [
+    "1 ^ ^ ^ (−7 i + 9 j + 5k) √155",
+    "1 ^ ^ ^ (−7 i + 9 j − 5k) √155",
+    "1 ^ ^ ^ (7 i + 9 j + 5k) √155",
+    "1 ^ ^ ^ (7 i + 9 j − 5k) √155 Vector Algebra Chapter-wise Question Bank JEE Main 2025 April MathonGo → = 2^i − 3^j + k, →b = 3^i + 2^j + 5k and a vector c→ be such that (→ →"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-083",
+   "hash": "628472f1e304360c",
+   "question": "Let the shortest distance between the lines y−α y+7 z−β and be 3√30. Then the positive x−3 z−3 x+3 = = = = 3 −1 1 −3 2 4 value of 5α + β is",
+   "options": [
+    "42",
+    "46",
+    "48",
+    "40"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-084",
+   "hash": "94dfb9164cefd214",
+   "question": "Let the vertices Q and R of the triangle P QR lie on the line y−1 z+4 x+3 5 = 2 = 3 , QR = 5 and the coordinates of the point P be (0, 2, 3). If the area of the triangle P QR is m n then :",
+   "options": [
+    "m − 5√21n = 0",
+    "2 m − 5√21n = 0",
+    "5 m − 2√21n = 0",
+    "5m − 21√2n = 0"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-085",
+   "hash": "2b35ec7a32422212",
+   "question": "Line L passes through the point (1, 2, 3) and is parallel to Z -axis. Line L passes through the point (λ, 5, 6) and 1 2 is parallel to y-axis. Let for λ = λ , λ , λ < λ , the shortest distance between the two lines be 3 . Then the 1 2 2 1 square of the distance of the point (λ , λ , 7) from the line L is 1 2 1",
+   "options": [
+    "40",
+    "32",
+    "25",
+    "37 Three Dimensional Geometry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-086",
+   "hash": "6e385e52da2e89c5",
+   "question": "Let the line L pass through (1, 1, 1) and intersect the lines y+1 y−4 and . Then, x−1 z−1 x−3 z = = = = 2 3 4 1 2 1 which of the following points lies on the line L ?",
+   "options": [
+    "(4, 22, 7)",
+    "(5, 4, 3)",
+    "(10, −29, −50)",
+    "(7, 15, 13)"
+   ],
+   "correct": 3,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-087",
+   "hash": "df3f05c562b94f31",
+   "question": "Consider the lines L : x − 1 = y − 2 = z and L : x − 2 = y = z − 1. Let the feet of the perpendiculars from 1 2 the point P(5, 1, −3) on the lines L and L be Q and R respectively. If the area of the triangle PQR is A , then 1 2 4 A 2 is equal to :",
+   "options": [
+    "139",
+    "147",
+    "151",
+    "143"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-088",
+   "hash": "1951f13f716d6089",
+   "question": "Let the values of λ for which the shortest distance between the lines y−2 y−4 and x−1 z−3 x−λ z−5 = = = = 2 3 4 3 4 5 is 1 be λ and λ . Then the radius of the circle passing through the points (0, 0), (λ , λ ) and (λ , λ ) is 1 2 1 2 2 1 √6 5√2",
+   "options": [
+    "3",
+    "4 √2",
+    "3",
+    "3"
+   ],
+   "correct": 0,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-089",
+   "hash": "d24044bb13a8e22d",
+   "question": "If the equation of the line passing through the point (0, − 1 , 0) and perpendicular to the lines 2 → ^ ^ ^ r = λ( i + a j + bk) and → ^ ^ ^ ^ ^ ^ r = ( i − j − 6k) + μ(−b i + a j + 5k) y+4 z−c is , then a + b + c + d is equal to : x−1 = = −2 d −4",
+   "options": [
+    "10",
+    "14",
+    "13 Three Dimensional Geometry Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+    "12"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-024",
+   "hash": "c99653343c6ddda8",
+   "question": "Two nucleotides are joined together by a linkage known as :",
+   "options": [
+    "Phosphodiester linkage",
+    "Glycosidic linkage",
+    "Disulphide linkage",
+    "Peptide linkage"
+   ],
+   "correct": 0,
+   "chapter": "Biomolecules",
+   "topic": "Biomolecules",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-036",
+   "hash": "a4416fd616d78738",
+   "question": "The molecule / ion with square pyramidal shape is",
+   "options": [
+    "$\\mathrm{PCl}_5$",
+    "$\\left[\\mathrm{Ni}(\\mathrm{CN})_4\\right]^{2-}$",
+    "$\\mathrm{PF}_5$",
+    "$\\mathrm{BrF}_5$"
+   ],
+   "correct": 3,
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-074",
+   "hash": "121ca91dabc9cbc8",
+   "question": "The coordination geometry around the manganese in decacarbonyldimanganese$(0)$ is",
+   "options": [
+    "Trigonal bipyramidal",
+    "Square pyramidal",
+    "Square planar",
+    "Octahedral"
+   ],
+   "correct": 3,
+   "chapter": "Coordination-Compounds",
+   "topic": "Coordination-Compounds",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": "Coordination_Compounds - Inorganic Chemistry Revision",
+   "formulas": [
+    "$$\\text{C.N.} = \\sum_{i} (\\text{Number of ligands}_i \\times \\text{Denticity}_i)$$",
+    "$$\\text{Charge on Complex} = \\text{O.S. of Metal} + \\sum (\\text{Ligand Charges})$$",
+    "$$\\text{EAN} = Z - (\\text{O.S.}) + 2 \\times (\\text{C.N.})$$",
+    "$$\\text{Fe}(Z = 26), \\text{ O.S.} = +2, \\text{ C.N.} = 6 \\implies \\text{EAN} = 26 - 2 + (2 \\times 6) = 36 \\quad (\\text{Kr configuration, Highly Stable})$$",
+    "$$\\text{Ni}(Z = 28), \\text{ O.S.} = 0, \\text{ C.N.} = 4 \\implies \\text{EAN} = 28 - 0 + (2 \\times 4) = 36 \\quad (\\text{Kr configuration})$$",
+    "$$\\text{Co}(Z = 27), \\text{ O.S.} = +3, \\text{ C.N.} = 6 \\implies \\text{EAN} = 27 - 3 + (2 \\times 6) = 36 \\quad (\\text{Kr configuration})$$",
+    "$$\\text{EAN} = 25 - 0 + 10 + 1 = 36 \\quad (\\text{Kr configuration})$$"
+   ]
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-116",
+   "hash": "03d3879528d7d778",
+   "question": "Alkyl halide is converted into alkyl isocyanide by reaction with",
+   "options": [
+    "$\\mathrm{KCN}$",
+    "$\\mathrm{NH}_4 \\mathrm{CN}$",
+    "$\\mathrm{NaCN}$",
+    "$\\mathrm{AgCN}$"
+   ],
+   "correct": 3,
+   "chapter": "Haloalkanes-And-Haloarenes",
+   "topic": "Haloalkanes-And-Haloarenes",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-140",
+   "hash": "58bc57eb6045493e",
+   "question": "Consider the oxides of group 14 elements\n$\\mathrm{SiO}_2, \\mathrm{GeO}_2, \\mathrm{SnO}_2, \\mathrm{PbO}_2, \\mathrm{CO}$ and$\\mathrm{GeO}$. The amphoteric oxides are",
+   "options": [
+    "$\\mathrm{SnO}_2, \\mathrm{CO}$",
+    "$\\mathrm{SiO}_2, \\mathrm{GeO}_2$",
+    "$\\mathrm{SnO}_2, \\mathrm{PbO}_2$",
+    "$\\mathrm{GeO}, \\mathrm{GeO}_2$"
+   ],
+   "correct": 2,
+   "chapter": "P-Block-Elements",
+   "topic": "P-Block-Elements",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-151",
+   "hash": "2c7b21ca0bdd0799",
+   "question": "Anomalous behavior of oxygen is due to its",
+   "options": [
+    "large size and low electronegativity",
+    "small size and high electronegativity",
+    "small size and low electronegativity",
+    "large size and high electronegativity"
+   ],
+   "correct": 1,
+   "chapter": "Periodic-Table-And-Periodicity",
+   "topic": "Periodic-Table-And-Periodicity",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-169",
+   "hash": "b7055c7b506fd864",
+   "question": "Chromatographic technique/s based on the principle of differential adsorption is / are\nA. Column chromatography\nB. Thin layer chromatography\nC. Paper chromatography\nChoose the most appropriate answer from the options given below:",
+   "options": [
+    "B only",
+    "A only",
+    "A & B only",
+    "C only"
+   ],
+   "correct": 2,
+   "chapter": "Practical-Organic-Chemistry",
+   "topic": "Practical-Organic-Chemistry",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-CHE-175",
+   "hash": "5028d82fa7d3a8e8",
+   "question": "Which of the following statements are correct?\nA. Glycerol is purified by vacuum distillation because it decomposes at its normal boiling point.\nB. Aniline can be purified by steam distillation as aniline is miscible in water.\nC. Ethanol can be separated from ethanol water mixture by azeotropic distillation because it forms azeotrope.\nD. An organic compound is pure, if mixed M.P. is remained same.\nChoose the most appropriate answer from the options given below :",
+   "options": [
+    "A, C, D only",
+    "B, C, D only",
+    "A, B, D only",
+    "A, B, C only"
+   ],
+   "correct": 0,
+   "chapter": "Practical-Organic-Chemistry",
+   "topic": "Practical-Organic-Chemistry",
+   "year": "2024",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-250",
+   "hash": "6a9201de85670e8f",
+   "question": "In series LCR circuit, the capacitance is changed from$C$ to$4 C$. To keep the resonance frequency unchanged, the new inductance should be:",
+   "options": [
+    "increased by$2 \\mathrm{~L}$",
+    "reduced by$\\frac{1}{4} \\mathrm{~L}$",
+    "reduced by$\\frac{3}{4} \\mathrm{~L}$",
+    "increased to$4 \\mathrm{~L}$"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-252",
+   "hash": "fafe6a15987d8c52",
+   "question": "<p>In an a.c. circuit, voltage and current are given by:</p>\n<p>$V=100 \\sin (100 t) V$ and\n$I=100 \\sin \\left(100 t+\\frac{\\pi}{3}\\right) \\mathrm{mA}$ respectively.</p>\n<p>The average power dissipated in one cycle is:</p>",
+   "options": [
+    "5 W",
+    "25 W",
+    "2.5 W",
+    "10 W"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-253",
+   "hash": "2d709c671b520ade",
+   "question": "<p>A series L.R circuit connected with an ac source$E=(25 \\sin 1000 t) V$ has a power factor of$\\frac{1}{\\sqrt{2}}$. If the source of emf is changed to$\\mathrm{E}=(20 \\sin 2000 \\mathrm{t}) \\mathrm{V}$, the new power factor of the circuit will be :</p>",
+   "options": [
+    "$\\frac{1}{\\sqrt{3}}$",
+    "$\\frac{1}{\\sqrt{2}}$",
+    "$\\frac{1}{\\sqrt{5}}$",
+    "$\\frac{1}{\\sqrt{7}}$"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-254",
+   "hash": "25c6ba07b7be0299",
+   "question": "<p>An AC voltage$V=20 \\sin 200 \\pi t$ is applied to a series LCR circuit which drives a current$I=10 \\sin \\left(200 \\pi t+\\frac{\\pi}{3}\\right)$. The average power dissipated is:</p>",
+   "options": [
+    "21.6 W",
+    "200 W",
+    "173.2 W",
+    "50 W"
+   ],
+   "correct": 3,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-255",
+   "hash": "8d19fadf420b0553",
+   "question": "<p>In an ac circuit, the instantaneous current is zero, when the instantaneous voltage is maximum. In this case, the source may be connected to :</p>\n<p>A. pure inductor.</p>\n<p>B. pure capacitor.</p>\n<p>C. pure resistor.</p>\n<p>D. combination of an inductor and capacitor.</p>\n<p>Choose the correct answer from the options given below :</p>",
+   "options": [
+    "A, B and C only",
+    "A and B only",
+    "A, B and D only",
+    "B, C and D only"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-256",
+   "hash": "8d923ad431dc2b8a",
+   "question": "<p>A series LCR circuit is subjected to an ac signal of$200 \\mathrm{~V}, 50 \\mathrm{~Hz}$. If the voltage across the inductor$(\\mathrm{L}=10 \\mathrm{~mH})$ is$31.4 \\mathrm{~V}$, then the current in this circuit is _______.</p>",
+   "options": [
+    "10 A",
+    "10 mA",
+    "68 A",
+    "63 A"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-257",
+   "hash": "0d491a3036126ccd",
+   "question": "<p>An alternating voltage of amplitude$40 \\mathrm{~V}$ and frequency$4 \\mathrm{~kHz}$ is applied directly across the capacitor of$12 \\mu \\mathrm{F}$. The maximum displacement current between the plates of the capacitor is nearly :</p>",
+   "options": [
+    "10 A",
+    "8 A",
+    "13 A",
+    "12 A"
+   ],
+   "correct": 3,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-259",
+   "hash": "c2a6f53a9f6ee27f",
+   "question": "<p>A coil of negligible resistance is connected in series with$90 \\Omega$ resistor across$120 \\mathrm{~V}, 60 \\mathrm{~Hz}$ supply. A voltmeter reads$36 \\mathrm{~V}$ across resistance. Inductance of the coil is :</p>",
+   "options": [
+    "0.91 H",
+    "0.76 H",
+    "2.86 H",
+    "0.286 H"
+   ],
+   "correct": 1,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-260",
+   "hash": "de9ddb579ac067b6",
+   "question": "<p>A LCR circuit is at resonance for a capacitor C, inductance L and resistance R. Now the value of resistance is halved keeping all other parameters same. The current amplitude at resonance will be now:</p>",
+   "options": [
+    "halved",
+    "same",
+    "Zero",
+    "double"
+   ],
+   "correct": 3,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-261",
+   "hash": "893c9fcae014c5d1",
+   "question": "<p>A bulb and a capacitor are connected in series across an ac supply. A dielectric is then placed between the plates of the capacitor. The glow of the bulb :</p>",
+   "options": [
+    "becomes zero",
+    "remains same",
+    "increases",
+    "decreases"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-262",
+   "hash": "ccd78232be91c991",
+   "question": "<p>Primary side of a transformer is connected to$230 \\mathrm{~V}, 50 \\mathrm{~Hz}$ supply. Turns ratio of primary to secondary winding is$10: 1$. Load resistance connected to secondary side is$46 \\Omega$. The power consumed in it is :</p>",
+   "options": [
+    "11.5 W",
+    "12.5 W",
+    "10.0 W",
+    "12.0 W"
+   ],
+   "correct": 0,
+   "chapter": "ac-generator-and-transformer",
+   "topic": "ac-generator-and-transformer",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2024-ONLINE-PHY-264",
+   "hash": "a84cacb9b54085c6",
+   "question": "<p>A capacitor of capacitance$100 \\mu \\mathrm{F}$ is charged to a potential of$12 \\mathrm{~V}$ and connected to a$6.4 \\mathrm{~mH}$ inductor to produce oscillations. The maximum current in the circuit would be :</p>",
+   "options": [
+    "2.0 A",
+    "3.2 A",
+    "1.5 A",
+    "1.2 A"
+   ],
+   "correct": 2,
+   "chapter": "growth-and-decay-of-current",
+   "topic": "growth-and-decay-of-current",
+   "year": "2024",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-CHE-057",
+   "hash": "9a3830ee962be53f",
+   "question": "Chiral complex from the following is :\nHere en = ethylene diamine",
+   "options": [
+    "$\\mathrm{cis-[PtCl_2(en)_2]^{2+}}$",
+    "$\\mathrm{trans-[Co(NH_3)_4Cl_2]^{+}}$",
+    "$\\mathrm{trans-[PtCl_2(en)_2]^{2+}}$",
+    "$\\mathrm{cis-[PtCl_2(NH_3)_2]}$"
+   ],
+   "correct": 0,
+   "chapter": "Coordination-Compounds",
+   "topic": "Coordination-Compounds",
+   "year": "2023",
+   "subject": "Chemistry",
+   "formula_sheet": "Coordination_Compounds - Inorganic Chemistry Revision",
+   "formulas": [
+    "$$\\text{C.N.} = \\sum_{i} (\\text{Number of ligands}_i \\times \\text{Denticity}_i)$$",
+    "$$\\text{Charge on Complex} = \\text{O.S. of Metal} + \\sum (\\text{Ligand Charges})$$",
+    "$$\\text{EAN} = Z - (\\text{O.S.}) + 2 \\times (\\text{C.N.})$$",
+    "$$\\text{Fe}(Z = 26), \\text{ O.S.} = +2, \\text{ C.N.} = 6 \\implies \\text{EAN} = 26 - 2 + (2 \\times 6) = 36 \\quad (\\text{Kr configuration, Highly Stable})$$",
+    "$$\\text{Ni}(Z = 28), \\text{ O.S.} = 0, \\text{ C.N.} = 4 \\implies \\text{EAN} = 28 - 0 + (2 \\times 4) = 36 \\quad (\\text{Kr configuration})$$",
+    "$$\\text{Co}(Z = 27), \\text{ O.S.} = +3, \\text{ C.N.} = 6 \\implies \\text{EAN} = 27 - 3 + (2 \\times 6) = 36 \\quad (\\text{Kr configuration})$$",
+    "$$\\text{EAN} = 25 - 0 + 10 + 1 = 36 \\quad (\\text{Kr configuration})$$"
+   ]
+  },
+  {
+   "id": "JEE-2023-ONLINE-CHE-181",
+   "hash": "b7a2cb1adc989a11",
+   "question": "In the wet tests for identification of various cations by precipitation, which transition element cation doesn't belong to group IV in qualitative inorganic analysis?",
+   "options": [
+    "Co2+",
+    "Ni2+",
+    "Zn2+",
+    "Fe3+"
+   ],
+   "correct": 3,
+   "chapter": "Practical-Organic-Chemistry",
+   "topic": "Practical-Organic-Chemistry",
+   "year": "2023",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-053",
+   "hash": "86114a40d3cea509",
+   "question": "Which of the following frequencies does not belong to FM broadcast ?",
+   "options": [
+    "$106 ~\\mathrm{MHz}$",
+    "$89 ~\\mathrm{MHz}$",
+    "$64 ~\\mathrm{MHz}$",
+    "$99 ~\\mathrm{MHz}$"
+   ],
+   "correct": 2,
+   "chapter": "Communication-Systems",
+   "topic": "Communication-Systems",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-334",
+   "hash": "2fe3e4a18e6588fe",
+   "question": "<p>In an LC oscillator, if values of inductance and capacitance become twice and eight times, respectively, then the resonant frequency of oscillator becomes$x$ times its initial resonant frequency$\\omega_0$. The value of$x$ is :</p>",
+   "options": [
+    "1/4",
+    "1/16",
+    "4",
+    "16"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-335",
+   "hash": "552e81d20d7b72c7",
+   "question": "<p>In a series LR circuit with$\\mathrm{X_L=R}$, power factor P<sub>1</sub>. If a capacitor of capacitance C with$\\mathrm{X_C=X_L}$ is added to the circuit the power factor becomes P<sub>2</sub>. The ratio of P<sub>1</sub> to P<sub>2</sub> will be :</p>",
+   "options": [
+    "1 : $\\sqrt{2}$",
+    "1 : 3",
+    "1 : 2",
+    "1 : 1"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-336",
+   "hash": "8d9b2c959a58bfdb",
+   "question": "An alternating voltage source$\\mathrm{V}=260 \\sin (628 \\mathrm{t}$ ) is connected across a pure inductor of$5 \\mathrm{mH}$ Inductive reactance in the circuit is :",
+   "options": [
+    "$6.28 \\Omega$",
+    "$0.318 \\Omega$",
+    "$0.5 \\Omega$",
+    "$3.14 \\Omega$"
+   ],
+   "correct": 3,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-337",
+   "hash": "0330ec1ef50018ef",
+   "question": "<p>If$\\mathrm{R}, \\mathrm{X}_{\\mathrm{L}}$, and$\\mathrm{X}_{\\mathrm{C}}$ represent resistance, inductive reactance and capacitive reactance. Then which of the following is dimensionless :</p>",
+   "options": [
+    "$\\frac{R}{X_{L} X_{C}}$",
+    "$R X_{L}  X_{C}$",
+    "$\\frac{R}{\\sqrt{X_{L} X_{C}}}$",
+    "$R \\frac{X_{L}}{X_{C}}$"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-338",
+   "hash": "752007dfe579985e",
+   "question": "<p>A capacitor of capacitance$150.0 ~\\mu \\mathrm{F}$ is connected to an alternating source of emf given by$\\mathrm{E}=36 \\sin (120 \\pi \\mathrm{t}) \\mathrm{V}$. The maximum value of current in the circuit is approximately equal to :</p>",
+   "options": [
+    "$\\frac{1}{\\sqrt{2}} A$",
+    "$2 \\sqrt{2} A$",
+    "$\\sqrt{2} A$",
+    "$2 A$"
+   ],
+   "correct": 3,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-339",
+   "hash": "5a8af4f086d61c0b",
+   "question": "<p>Match List - I with List - II :</p>\n<p><style type=\"text/css\">\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n</style>\n<table class=\"tg\" style=\"undefined;table-layout: fixed; width: 532px\">\n<colgroup>\n<col style=\"width: 50px\"/>\n<col style=\"width: 223px\"/>\n<col style=\"width: 45px\"/>\n<col style=\"width: 214px\"/>\n</colgroup>\n<thead>\n<tr>\n<th class=\"tg-amwm\"></th>\n<th class=\"tg-amwm\">List I</th>\n<th class=\"tg-amwm\"></th>\n<th class=\"tg-amwm\">List II</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"tg-0lax\">A.</td>\n<td class=\"tg-0lax\">AC generator</td>\n<td class=\"tg-0lax\">I.</td>\n<td class=\"tg-0lax\">Presence of both L and C</td>\n</tr>\n<tr>\n<td class=\"tg-0lax\">B.</td>\n<td class=\"tg-0lax\">Transformer</td>\n<td class=\"tg-0lax\">II.</td>\n<td class=\"tg-0lax\">Electromagnetic Induction</td>\n</tr>\n<tr>\n<td class=\"tg-0lax\">C.</td>\n<td class=\"tg-0lax\">Resonance phenomenon to occur</td>\n<td class=\"tg-0lax\">III.</td>\n<td class=\"tg-0lax\">Quality factor</td>\n</tr>\n<tr>\n<td class=\"tg-0lax\">D.</td>\n<td class=\"tg-0lax\">Sharpness of resonance</td>\n<td class=\"tg-0lax\">IV.</td>\n<td class=\"tg-0lax\">Mutual Induction</td>\n</tr>\n</tbody>\n</table></p>\n<p>Choose the correct answer from the options given below :</p>",
+   "options": [
+    "A-II, B-I, C-III, D-IV",
+    "A-IV, B-III, C-I, D-II",
+    "A-II, B-IV, C-I, D-III",
+    "A-IV, B-II, C-I, D-III"
+   ],
+   "correct": 2,
+   "chapter": "ac-generator-and-transformer",
+   "topic": "ac-generator-and-transformer",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-340",
+   "hash": "b6d73fe62b72a704",
+   "question": "<p>The energy of$\\mathrm{He}^{+}$ ion in its first excited state is, (The ground state energy for the Hydrogen atom is$-13.6 ~\\mathrm{eV})$ :</p>",
+   "options": [
+    "$-13.6 ~\\mathrm{eV}$",
+    "$-27.2 ~\\mathrm{eV}$",
+    "$-3.4 ~\\mathrm{eV}$",
+    "$-54.4 ~\\mathrm{eV}$"
+   ],
+   "correct": 0,
+   "chapter": "alpha-particle-scattering-and-rutherford-model-of-atom",
+   "topic": "alpha-particle-scattering-and-rutherford-model-of-atom",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2023-ONLINE-PHY-341",
+   "hash": "a4bf80d77e06ccd8",
+   "question": "<p>The waves emitted when a metal target is bombarded with high energy electrons are</p>",
+   "options": [
+    "Infrared rays",
+    "Radio Waves",
+    "Microwaves",
+    "X-rays"
+   ],
+   "correct": 3,
+   "chapter": "alpha-particle-scattering-and-rutherford-model-of-atom",
+   "topic": "alpha-particle-scattering-and-rutherford-model-of-atom",
+   "year": "2023",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-CHE-141",
+   "hash": "a8fd4e603bb171d1",
+   "question": "Which of the following elements is considered as a metalloid?",
+   "options": [
+    "Sc",
+    "Pb",
+    "Bi",
+    "Te"
+   ],
+   "correct": 3,
+   "chapter": "P-Block-Elements",
+   "topic": "P-Block-Elements",
+   "year": "2022",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-CHE-231",
+   "hash": "362abcffa96b8609",
+   "question": "A 42.12% (w/v) solution of NaCl causes precipitation of a certain sol in 10 hours. The coagulating value of NaCl for the sol in 2 hours is :\n[Given : Molar mass : Na = 23.0 g mol$-$1 ; Cl = 35.5 g mol$-$1]",
+   "options": [
+    "36 m mol L$-$1",
+    "36 mol L$-$1",
+    "1440 mol L$-$1",
+    "1440 m mol L$-$1"
+   ],
+   "correct": 3,
+   "chapter": "Surface-Chemistry",
+   "topic": "Surface-Chemistry",
+   "year": "2022",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-064",
+   "hash": "f1920d55a104fd38",
+   "question": "In the case of amplitude modulation to avoid distortion the modulation index$(\\mu)$ should be :",
+   "options": [
+    "$\\mu \\leq 1$",
+    "$\\mu \\geq 1$",
+    "$\\mu = 2$",
+    "$\\mu = 0$"
+   ],
+   "correct": 0,
+   "chapter": "Communication-Systems",
+   "topic": "Communication-Systems",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-339",
+   "hash": "3effb6b6353c9c71",
+   "question": "<p>A resistance of 40$\\Omega$ is connected to a source of alternating current rated 220 V, 50 Hz. Find the time taken by the current to change from its maximum value to the rms value :</p>",
+   "options": [
+    "2.5 ms",
+    "1.25 ms",
+    "2.5 s",
+    "0.25 s"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-340",
+   "hash": "cbbe8cdd02488d09",
+   "question": "<p>When you walk through a metal detector carrying a metal object in your pocket, it raises an alarm. This phenomenon works on :</p>",
+   "options": [
+    "Electromagnetic induction",
+    "Resonance in ac circuits",
+    "Mutual induction in ac circuits",
+    "Interference of electromagnetic waves"
+   ],
+   "correct": 1,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-342",
+   "hash": "1730f3fca6252411",
+   "question": "<p>A sinusoidal voltage V(t) = 210 sin 3000 t volt is applied to a series LCR circuit in which L = 10 mH, C = 25$\\mu$F and R = 100$\\Omega$. The phase difference ($\\Phi$) between the applied voltage and resultant current will be :</p>",
+   "options": [
+    "tan<sup>$-$1</sup>(0.17)",
+    "tan<sup>$-$1</sup>(9.46)",
+    "tan<sup>$-$1</sup>(0.30)",
+    "tan<sup>$-$1</sup>(13.33)"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-343",
+   "hash": "fdd1eb49d29310a8",
+   "question": "<p>If wattless current flows in the AC circuit, then the circuit is :</p>",
+   "options": [
+    "Purely Resistive circuit",
+    "Purely Inductive circuit",
+    "LCR series circuit",
+    "RC series circuit only"
+   ],
+   "correct": 1,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-344",
+   "hash": "f273a1ffa34b695b",
+   "question": "<p>In a series$L R$ circuit$X_{L}=R$ and power factor of the circuit is$P_{1}$. When capacitor with capacitance$C$ such that$X_{L}=X_{C}$ is put in series, the power factor becomes$P_{2}$. The ratio$\\frac{P_{1}}{P_{2}}$ is:</p>",
+   "options": [
+    "$\\frac{1}{2}$",
+    "$\\frac{1}{\\sqrt{2}}$",
+    "$\\frac{\\sqrt{3}}{\\sqrt{2}}$",
+    "2 : 1"
+   ],
+   "correct": 1,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-345",
+   "hash": "ddceb62353c714c2",
+   "question": "<p>A series LCR circuit has$\\mathrm{L}=0.01\\, \\mathrm{H}, \\mathrm{R}=10\\, \\Omega$ and$\\mathrm{C}=1 \\mu \\mathrm{F}$ and it is connected to ac voltage of amplitude$\\left(\\mathrm{V}_{\\mathrm{m}}\\right) 50 \\mathrm{~V}$. At frequency$60 \\%$ lower than resonant frequency, the amplitude of current will be approximately :</p>",
+   "options": [
+    "466 mA",
+    "312 mA",
+    "238 mA",
+    "196 mA"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-346",
+   "hash": "4d25f108662e9dc2",
+   "question": "<p>A direct current of$4 \\mathrm{~A}$ and an alternating current of peak value$4 \\mathrm{~A}$ flow through resistance of$3\\, \\Omega$ and$2\\,\\Omega$ respectively. The ratio of heat produced in the two resistances in same interval of time will be :</p>",
+   "options": [
+    "3 : 2",
+    "3 : 1",
+    "3 : 4",
+    "4 : 3"
+   ],
+   "correct": 1,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2022-ONLINE-PHY-348",
+   "hash": "49b6f67b0636d67f",
+   "question": "<p>A circuit element$\\mathrm{X}$ when connected to an a.c. supply of peak voltage$100 \\mathrm{~V}$ gives a peak current of$5 \\mathrm{~A}$ which is in phase with the voltage. A second element$\\mathrm{Y}$ when connected to the same a.c. supply also gives the same value of peak current which lags behind the voltage by$\\frac{\\pi}{2}$. If$\\mathrm{X}$ and$\\mathrm{Y}$ are connected in series to the same supply, what will be the rms value of the current in ampere?</p>",
+   "options": [
+    "$\\frac{10}{\\sqrt{2}}$",
+    "$\\frac{5}{\\sqrt{2}}$",
+    "$5 \\sqrt{2}$",
+    "$\\frac{5}{2}$"
+   ],
+   "correct": 3,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2022",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  }
+ ]
+}

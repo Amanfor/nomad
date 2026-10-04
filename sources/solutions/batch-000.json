@@ -1,0 +1,1245 @@
+{
+ "batch": 0,
+ "items": [
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-021",
+   "hash": "e1bece0c2497bad7",
+   "question": "What will the concentration of in a sample of 1 liter\nhard water if after treatment with washing soda 10 g insoluble CaCO3 is\nprecipitated.",
+   "options": [
+    "0.2 M",
+    "0.1 M",
+    "0.3 M",
+    "0.4 M"
+   ],
+   "correct": 1,
+   "chapter": "Equivalent Concept",
+   "topic": "Equivalent Concept",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-027",
+   "hash": "0a01c09f95f4423f",
+   "question": "Which of the following properties is not shown by NO ?\nNO dkSu&lk fuEu xq.k iznf'kZr ugha djrk",
+   "options": [
+    "It is dimagnetic in gaseous state",
+    "It is a neutral oxide",
+    "It combines with oxygen to form nitrogen dioxide",
+    "It's bond order is 2.5 NO dkSu&lk fuEu xq.k iznf'kZr ugha djrk"
+   ],
+   "correct": 0,
+   "chapter": "Inorganic Chemistry",
+   "topic": "Inorganic Chemistry",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemistry Revision Context: Chapter 38 — Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis)",
+   "formulas": [
+    "$$\\mathbf{Q_{\\text{sp}} = [\\text{A}^{y+}]^x [\\text{B}^{x-}]^y > K_{\\text{sp}}}$$",
+    "$$\\mathbf{K_a = K_{a1} \\cdot K_{a2} = \\frac{[\\text{H}^+]^2 [\\text{S}^{2-}]}{[\\text{H}_2\\text{S}]} \\approx 1.0 \\times 10^{-21}}$$",
+    "$$[\\text{S}^{2-}] = \\frac{K_a [\\text{H}_2\\text{S}]}{[\\text{H}^+]^2} \\approx \\frac{(10^{-21})(0.1)}{(0.3)^2} \\approx 10^{-22}\\text{ M}$$",
+    "$$\\text{Nessler's Reagent} = \\text{K}_2[\\text{HgI}_4] + \\text{KOH} \\text{ (Alkaline Medium)}$$",
+    "$$\\text{Cr}(=\\text{O})(\\text{O}_2)_2$$",
+    "$$\\mathbf{Q_{\\text{sp}} = [\\text{A}^{y+}]^x [\\text{B}^{x-}]^y > K_{\\text{sp}}}$",
+    "$$\\text{H}_2\\text{S}(aq) \\rightleftharpoons \\text{H}^+ + \\text{HS}^- \\quad (K_{a1} \\approx 10^{-7})$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-095",
+   "hash": "7d7f6bb683720a8c",
+   "question": "Which of the following is not an antiseptic drug",
+   "options": [
+    "Iodoform",
+    "Dettol",
+    "Gammexane",
+    "Genatian violet"
+   ],
+   "correct": 2,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-100",
+   "hash": "b34bbb0227eb55a6",
+   "question": "Which of the following pentoses will be optically active",
+   "options": [
+    "All",
+    "II and III",
+    "I",
+    "II"
+   ],
+   "correct": 0,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-102",
+   "hash": "dab49e844cf62538",
+   "question": "Decreasing order of boiling point of I to IV follow\nMethylformate Ethylformate Iso-propylformate n-propylformate\nI II III IV",
+   "options": [
+    "I > II > III > IV",
+    "III > IV > II > I",
+    "IV > III > II > I",
+    "I > II > IV > III"
+   ],
+   "correct": 2,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-105",
+   "hash": "e62d049d44ad4be0",
+   "question": "Select the correct statement about this compound.",
+   "options": [
+    "All three C-N bond length are same.",
+    "C1-N and C3-N bonds length are same but shorter than C5-N bond length.",
+    "C1-N and C5-N bonds length are same but longer than C3-N bond length.",
+    "C1-N and C3-N bonds length are different but both are longer than C5-N bond length."
+   ],
+   "correct": 2,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-109",
+   "hash": "c2a449c256ba59e8",
+   "question": "Which of the following is not used in rocket propellants",
+   "options": [
+    "$H_{2}(l)$",
+    "$O_{2}(l)$",
+    "$N_{2}H_{4}(l)$",
+    "All of these"
+   ],
+   "correct": 3,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-111",
+   "hash": "06cad62caa99f1e7",
+   "question": "Which can do glass etching?",
+   "options": [
+    "HIO4",
+    "HF",
+    "HNO3",
+    "SiF4"
+   ],
+   "correct": 1,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-134",
+   "hash": "ab2aff9f94c482db",
+   "question": "A atom forms an ion by the loss of three electrons. The ion has\nan electronic configuration The symbol of the ion is",
+   "options": [
+    "Fe^3+",
+    "Ni3^+",
+    "Co^3+",
+    "Mn^+3"
+   ],
+   "correct": 2,
+   "chapter": "Physical Chemistry",
+   "topic": "Physical Chemistry",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-145",
+   "hash": "e2480c34e44ff5b1",
+   "question": "Total number of atom in one molecule or formula unit of \nis?",
+   "options": [
+    "7",
+    "3",
+    "4",
+    "5"
+   ],
+   "correct": 0,
+   "chapter": "S-block",
+   "topic": "S-block",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-153",
+   "hash": "364157f6aa3fb70d",
+   "question": "In the following sequence of reactions, CH3CH2OH$\\buildrel {P + {I_2}} \\over \\longrightarrow$ A$\\mathrel{\\mathop{\\kern0pt\\longrightarrow} \\limits_{ether}^{Mg}}$ B$\\buildrel {HCHO} \\over \\longrightarrow$ C$\\buildrel {{H_2}O} \\over \\longrightarrow$ D the compound D is",
+   "options": [
+    "butanal",
+    "n-butyl alcohol",
+    "n-propyl alcohol",
+    "propanal"
+   ],
+   "correct": 2,
+   "chapter": "properties,-preparation-and-uses-of-alcohols",
+   "topic": "properties,-preparation-and-uses-of-alcohols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-154",
+   "hash": "e453f55f1dbd11c8",
+   "question": "The water gas on reacting with cobalt as a catalyst forms",
+   "options": [
+    "Methanoic acid",
+    "Methanol",
+    "Methanal",
+    "Ethanol"
+   ],
+   "correct": 1,
+   "chapter": "properties,-preparation-and-uses-of-alcohols",
+   "topic": "properties,-preparation-and-uses-of-alcohols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-156",
+   "hash": "84e092734209fad2",
+   "question": "HBr reacts with CH2 = CH OCH3 under anhydrous conditions at room temperature to give",
+   "options": [
+    "CH3CHO and CH3Br",
+    "BrCH2CHO and CH3OH",
+    "BrCH2 CH2 OCH3",
+    "H3C CHBr OCH3"
+   ],
+   "correct": 3,
+   "chapter": "properties,-preparation-and-uses-of-ethers",
+   "topic": "properties,-preparation-and-uses-of-ethers",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-159",
+   "hash": "0099660aad3e6222",
+   "question": "Phenolic group can be identified by a positive:",
+   "options": [
+    "Tollen's test",
+    "Phthalein dye test",
+    "Carbylamine test",
+    "Lucas test"
+   ],
+   "correct": 1,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-160",
+   "hash": "067bf7e9fba7e126",
+   "question": "Phenol, when it first reacts with concentrated sulphuric acid and then with concentrated nitric acid,\ngives",
+   "options": [
+    "2,4,6-trinitrobenzene",
+    "o-nitrophenol",
+    "p-nitrophenol",
+    "nitrobenzene"
+   ],
+   "correct": 1,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-161",
+   "hash": "0ce5bcc38e7f6242",
+   "question": "The major product obtained on interaction of phenol with sodium hydroxide and carbon dioxide is :",
+   "options": [
+    "benzoic acid",
+    "salicylaldehyde",
+    "salicylic acid",
+    "phthalic acid"
+   ],
+   "correct": 2,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-163",
+   "hash": "3cf78de4199449c4",
+   "question": "Phenyl magnesium bromide reacts with methanol to give",
+   "options": [
+    "a mixture of anisole and Mg(OH)Br",
+    "a mixture of benzene and Mg(OMe)Br",
+    "a mixture of toluene and Mg(OH)Br",
+    "a mixture of phenol and Mg(Me)Br"
+   ],
+   "correct": 1,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-165",
+   "hash": "6b545abcfac48181",
+   "question": "Given below are two statements: One is labelled as Assertion A and the other is labelled as Reason R:\nAssertion A: $\\mathrm{pK}_{\\mathrm{a}}$ value of phenol is 10.0 while that of ethanol is 15.9 .\nReason R: Ethanol is stronger acid than phenol.\nIn the light of the above statements, choose the correct answer from the options given below:",
+   "options": [
+    "A is false but R is true.",
+    "Both$A$ and$R$ are true but$R$ is NOT the correct explanation of$A$.",
+    "Both$\\mathrm{A}$ and$\\mathrm{R}$ are true and$\\mathrm{R}$ is the correct explanation of$\\mathrm{A}$.",
+    "$A$ is true but$R$ is false."
+   ],
+   "correct": 3,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-167",
+   "hash": "7bce2cb1a0482f5b",
+   "question": "Hydrolysis of which compound will give carbolic acid?",
+   "options": [
+    "Cumene",
+    "Benzenediazonium chloride",
+    "Benzal chloride",
+    "Ethylene glycol ketal"
+   ],
+   "correct": 1,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-168",
+   "hash": "8d25ef9590dbdbd2",
+   "question": "Phenol is heated with a solution of mixture of KBr and KBrO3. The major product obtained in the above reaction is",
+   "options": [
+    "3-Bromophenol",
+    "4-Bromophenol",
+    "2, 4, 6- Tribromophenol",
+    "2-Bromophenol"
+   ],
+   "correct": 2,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-169",
+   "hash": "a00bb38bf97e3800",
+   "question": "Given below are two statements : one is labelled as Assertion A and the other is labelled as Reason R :\nAssertion A : Acetal / Ketal is stable in basic medium.\nReason R : The high leaving tendency of alkoxide ion gives the stability to acetal/ketal in basic medium.\nIn the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "A is false but R is true.",
+    "Both A and R are true but R is NOT the correct explanation of A",
+    "Both A and R are true and R is the correct explanation of A",
+    "A is true but R is false."
+   ],
+   "correct": 3,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-170",
+   "hash": "c08bcf0767d76113",
+   "question": "Phenol treated with chloroform in presence of sodium hydroxide, which further hydrolyzed in presence of an acid results",
+   "options": [
+    "Salicylic acid",
+    "Benzene-1,2-diol",
+    "2-Hydroxybenzaldehyde",
+    "Benzene-1,3-diol"
+   ],
+   "correct": 2,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-CHE-171",
+   "hash": "ceb297dec069e8d8",
+   "question": "The difference in the reaction of phenol with bromine in chloroform and bromine in water medium is due to :",
+   "options": [
+    "Hyperconjugation in substrate",
+    "Polarity of solvent",
+    "Free radical formation",
+    "Electromeric effect the substrate"
+   ],
+   "correct": 1,
+   "chapter": "properties,-preparation-and-uses-of-phenols",
+   "topic": "properties,-preparation-and-uses-of-phenols",
+   "year": "UNKNOWN",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-008",
+   "hash": "e5ecf2f5db1a0328",
+   "question": "The area of the closed figure bounded by x = - 1, x = 2 and y =\n$\\left\\{ \\begin{matrix}\n - x^{2} + 2, & x \\leq 1 \\\\\n2x - 1, & x > 1\n\\end{matrix} \\right.\\$ and the abscissa axis is",
+   "options": [
+    "16/3 sq. units",
+    "10/3 sq. units",
+    "13/3 sq. units",
+    "7/3 sq. units x = - 1, x = 2 rFkk y = $\\left\\{ \\begin{matrix}  - x^{2} + 2, & x \\leq 1 \\\\ 2x - 1, & x > 1 \\end{matrix} \\right.\\$rFkk Hkqt v{k"
+   ],
+   "correct": 0,
+   "chapter": "Area under curve",
+   "topic": "Area under curve",
+   "year": "UNKNOWN",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-191",
+   "hash": "c9834dc273a1194f",
+   "question": "If$\\alpha,\\beta$ are the roots of$9x^{2} + 6x + 1 = 0$, then\nthe equation with roots$\\frac{1}{\\alpha},\\frac{1}{\\beta}$ is",
+   "options": [
+    "$2x^{2} + 3x + 18 = 0$",
+    "$x^{2} + 6x - 9 = 0$",
+    "$x^{2} + 6x + 9 = 0$",
+    "$x^{2} - 6x + 9 = 0$"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic Equations",
+   "topic": "Quadratic Equations",
+   "year": "UNKNOWN",
+   "subject": "Maths",
+   "formula_sheet": "Theory of Equations and Inequations",
+   "formulas": [
+    "$$P(x) = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_2 x^2 + a_1 x + a_0 \\quad (a_n \\neq 0)$$",
+    "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-b \\pm \\sqrt{D}}{2a}$$",
+    "$$\\alpha = p + iq, \\quad \\beta = p - iq \\quad (p, q \\in \\mathbb{R}, q \\neq 0)$$",
+    "$$\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}$$",
+    "$$\\text{Difference of Roots: } |\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|} = \\frac{\\sqrt{b^2 - 4ac}}{|a|}$$",
+    "$$a S_n + b S_{n-1} + c S_{n-2} = 0 \\quad (\\forall n \\ge 2)$$",
+    "$$\\sum \\alpha_1 = -\\frac{a_{n-1}}{a_n}, \\quad \\sum \\alpha_1 \\alpha_2 = \\frac{a_{n-2}}{a_n}, \\quad \\dots, \\quad \\prod_{i=1}^n \\alpha_i = (-1)^n \\frac{a_0}{a_n}$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-227",
+   "hash": "14e1269e37fc5302",
+   "question": "The locus of the points of intersection of the lines\n$x\\cos\\alpha\\ + \\ y\\ sin\\ \\alpha = a$ and\n${x\\ sin}\\alpha\\ –\\ y\\cos\\alpha = b$ (where$\\alpha$ is a variable) is",
+   "options": [
+    "x^2 + y^2 = a^2 + b^2",
+    "x^2 - y^2 = a^2 + b^2",
+    "x^2 + y^2 = a^2 - b^2",
+    "x^2 - y^2 = a^2 - b^2"
+   ],
+   "correct": 0,
+   "chapter": "Straight Lines",
+   "topic": "Straight Lines",
+   "year": "UNKNOWN",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-247",
+   "hash": "35cf9ecf3a32e735",
+   "question": "Set of real values of k if the equation x^2 - (k-1)x + k^2 =\n0 has at least one root in (1,2) is",
+   "options": [
+    "(2, 4)",
+    "",
+    "",
+    "$\\phi$"
+   ],
+   "correct": 3,
+   "chapter": "Theory of Equations",
+   "topic": "Theory of Equations",
+   "year": "UNKNOWN",
+   "subject": "Maths",
+   "formula_sheet": "Theory of Equations and Inequations",
+   "formulas": [
+    "$$P(x) = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_2 x^2 + a_1 x + a_0 \\quad (a_n \\neq 0)$$",
+    "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-b \\pm \\sqrt{D}}{2a}$$",
+    "$$\\alpha = p + iq, \\quad \\beta = p - iq \\quad (p, q \\in \\mathbb{R}, q \\neq 0)$$",
+    "$$\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}$$",
+    "$$\\text{Difference of Roots: } |\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|} = \\frac{\\sqrt{b^2 - 4ac}}{|a|}$$",
+    "$$a S_n + b S_{n-1} + c S_{n-2} = 0 \\quad (\\forall n \\ge 2)$$",
+    "$$\\sum \\alpha_1 = -\\frac{a_{n-1}}{a_n}, \\quad \\sum \\alpha_1 \\alpha_2 = \\frac{a_{n-2}}{a_n}, \\quad \\dots, \\quad \\prod_{i=1}^n \\alpha_i = (-1)^n \\frac{a_0}{a_n}$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-248",
+   "hash": "57866dce0626a249",
+   "question": "If$\\alpha,\\ \\beta,$ and$\\gamma$ are the roots of the equation\nx^3 - x - 1 = 0 then,\n$\\frac{1 + \\alpha}{1 - \\alpha} + \\frac{1 + \\beta}{1 - \\beta} + \\frac{1 + \\gamma}{1 - \\gamma}$\nhas the value equal to",
+   "options": [
+    "Zero",
+    "-1",
+    "-7",
+    "1"
+   ],
+   "correct": 2,
+   "chapter": "Theory of Equations",
+   "topic": "Theory of Equations",
+   "year": "UNKNOWN",
+   "subject": "Maths",
+   "formula_sheet": "Theory of Equations and Inequations",
+   "formulas": [
+    "$$P(x) = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_2 x^2 + a_1 x + a_0 \\quad (a_n \\neq 0)$$",
+    "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-b \\pm \\sqrt{D}}{2a}$$",
+    "$$\\alpha = p + iq, \\quad \\beta = p - iq \\quad (p, q \\in \\mathbb{R}, q \\neq 0)$$",
+    "$$\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}$$",
+    "$$\\text{Difference of Roots: } |\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|} = \\frac{\\sqrt{b^2 - 4ac}}{|a|}$$",
+    "$$a S_n + b S_{n-1} + c S_{n-2} = 0 \\quad (\\forall n \\ge 2)$$",
+    "$$\\sum \\alpha_1 = -\\frac{a_{n-1}}{a_n}, \\quad \\sum \\alpha_1 \\alpha_2 = \\frac{a_{n-2}}{a_n}, \\quad \\dots, \\quad \\prod_{i=1}^n \\alpha_i = (-1)^n \\frac{a_0}{a_n}$$"
+   ]
+  },
+  {
+   "id": "JEE-UNKNOWN-GENERAL-MAT-250",
+   "hash": "be25ea245345fac4",
+   "question": "The expression y = ax^2 + bx + c has always the same sign as of\n if",
+   "options": [
+    "4ac < b^2",
+    "4ac > b^2",
+    "4ac = b^2",
+    "ac < b^2"
+   ],
+   "correct": 2,
+   "chapter": "Theory of Equations",
+   "topic": "Theory of Equations",
+   "year": "UNKNOWN",
+   "subject": "Maths",
+   "formula_sheet": "Theory of Equations and Inequations",
+   "formulas": [
+    "$$P(x) = a_n x^n + a_{n-1} x^{n-1} + \\dots + a_2 x^2 + a_1 x + a_0 \\quad (a_n \\neq 0)$$",
+    "$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} = \\frac{-b \\pm \\sqrt{D}}{2a}$$",
+    "$$\\alpha = p + iq, \\quad \\beta = p - iq \\quad (p, q \\in \\mathbb{R}, q \\neq 0)$$",
+    "$$\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}$$",
+    "$$\\text{Difference of Roots: } |\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|} = \\frac{\\sqrt{b^2 - 4ac}}{|a|}$$",
+    "$$a S_n + b S_{n-1} + c S_{n-2} = 0 \\quad (\\forall n \\ge 2)$$",
+    "$$\\sum \\alpha_1 = -\\frac{a_{n-1}}{a_n}, \\quad \\sum \\alpha_1 \\alpha_2 = \\frac{a_{n-2}}{a_n}, \\quad \\dots, \\quad \\prod_{i=1}^n \\alpha_i = (-1)^n \\frac{a_0}{a_n}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-001",
+   "hash": "924ee64b41dbd56b",
+   "question": "Given below are two statements : Statement I : Crystal Field Stabilization Energy (CFSE) of [Cr(H O) ] 2 6 2+ is greater than that of [Mn(H O) ] . 2 6 2+ Statement II: Potassium ferricyanide has a greater spin-only magnetic moment than sodium ferrocyanide. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true"
+   ],
+   "correct": 0,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-001",
+   "hash": "f8ba586f198a1888",
+   "question": "Given below are two statements : Statement I: [CoBr4] 2− ion will absorb light of lower energy than [CoCl ] 4 2− ion. Statement II : In [CoI ] 4 2− ion, the energy separation between the two set of d-orbitals is more than [CoCl ] 4 2− ion. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 3,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-002",
+   "hash": "be89372d7bd45267",
+   "question": "The statements that are incorrect about the nickel(II) complex of dimethylglyoxime are : A. It is red in colour. B. It has a high solubility in water at pH = 9. C. The Ni ion has two unpaired d-electrons. D. The N − Ni − N bond angle is almost close to 90 . ∘ E. The complex contains four five-membered metallacycles (metal containing rings). Choose the correct answer from the options given below :",
+   "options": [
+    "C and D Only",
+    "C and E Only",
+    "B, C and E Only",
+    "A, D and B Only #PaperPhodnaHai www.mathongo.com Coordination Compounds JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-001",
+   "hash": "78ad0a7f8e3cc075",
+   "question": "The correct increasing order of spin-only magnetic moment values of the complex ions [MnBr4] 2− (A), [Cu(H2O) ] 6 2+ (B), [Ni(CN)4] 2− (C) and [Ni(H O) ] 2 6 2+ (D) is :",
+   "options": [
+    "C = D < B < A",
+    "C < B < D < A",
+    "A = B < D < C",
+    "A = B < C < D"
+   ],
+   "correct": 1,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-001",
+   "hash": "1ff3fdd40061fdf4",
+   "question": "The wavelength of light absorbed for the following complexes are in the order 3+ 3+ 3− 3+ 3− [Co(NH3) ] ; [Co(H2O) ] ; [Co(CN)6] ; [Co(NH3) (H2O)] ; [CoF6] 6 6 5 (I) (II) (III) (IV) (V)",
+   "options": [
+    "III < I < IV < V < II",
+    "III < I < IV < II < V",
+    "III < I < II < IV < V",
+    "III < IV < I < II < V"
+   ],
+   "correct": 1,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-001",
+   "hash": "1c4cc24b8fe2585d",
+   "question": "[Ni(PPh3) Cl2] 2 is a paramagnetic complex. Identify the INCORRECT statements about this complex. A. The complex exhibits geometrical isomerism. B. The complex is white in colour. C. The calculated spin-only magnetic moment of the complex is 2.84 BM . D. The calculated CFSE (Crystal Field Stabilization Energy) of Ni in this complex is −0.8Δ . o E. The geometrical arrangement of ligands in this complex is similar to that in Ni(CO) . 4 Choose the correct answer from the options given below :",
+   "options": [
+    "C, D and E Only",
+    "C and D Only",
+    "A, B and D Only",
+    "A and B Only"
+   ],
+   "correct": 2,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-001",
+   "hash": "1db3575694fd4b5c",
+   "question": "Consider the transition metal ions Mn 3+ , Cr 3+ , Fe 3+ and Co3+ and all form low spin octahedral complexes. The correct decreasing order of unpaired electrons in their respective d-orbitals of the complexes is",
+   "options": [
+    "Mn 3+ > Fe 3+ > Co 3+ 3+ > Cr",
+    "Cr 3+ > Mn 3+ > Fe 3+ > Co 3+",
+    "Fe 3+ > Co 3+ > Mn 3+ 3+ > Cr",
+    "Cr 3+ > Fe 3+ > Co 3+ > Mn 3+"
+   ],
+   "correct": 1,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-001",
+   "hash": "73c003d9594aea7f",
+   "question": "Identify the CORRECT set of details from the following: A. [Co(NH ) ] 3 6 3+ : Inner orbital complex; d sp hybridized 2 3 B. [MnCl ] 6 3− : Outer orbital complex; sp d hybridized 3 2 C. [CoF ] 6 3− : Outer orbital complex; d sp hybridized 2 3 D. [FeF ] 6 3− : Outer orbital complex; sp d hybridized 3 2 E. [Ni(CN) ] 4 2− : Inner orbital complex; sp hybridized 3 Choose the correct answer from the options given below:",
+   "options": [
+    "A, C & E Only",
+    "A, B & D Only",
+    "C & D Only",
+    "A, B, C, D & E"
+   ],
+   "correct": 1,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-001",
+   "hash": "e770f85f63d794a5",
+   "question": "Given below are two statements : 2+ Statement I : Among [Cu(NH ) ] 3 4 2+ , [Ni(en)3)] , [Ni(NH3) ] 6 2+ and [Mn(H O) ] , [Mn(H O) ] 2 6 2+ 2 6 2+ has the maximum number of unpaired electrons. Statement II : The number of pairs among {[NiCl ] 4 2− , [Ni(CO)4]}, {[NiCl4] 2− , [Ni(CN)4] 2− } and {[Ni(CO)4], [Ni(CN)4] 2− } that contain only diamagnetic species is two. In the light of the above statements, choose the correct answer from the options given below : Statement I is true but Statement II is false Both Statement I and Statement II are false",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true"
+   ],
+   "correct": 0,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-001",
+   "hash": "dc47d41cf2fde46e",
+   "question": "The correct statement among the following is:",
+   "options": [
+    "Ni(CO) and [Ni(CN) ] 4 4 2− are diamagnetic and [NiCl ] 4 2− is paramagnetic.",
+    "Ni(CO) and [NiCl ] 4 4 2− are diamagnetic and [Ni(CN) ] 4 2− is paramagnetic.",
+    "[Ni(CN) ] 4 2− and [NiCl ]4 2− are diamagnetic and Ni(CO) is paramagnetic. 4",
+    "Ni(CO) is diamagnetic and [NiCl ] 4 4 2− and [Ni(CN) ] 4 2− are paramagnetic."
+   ],
+   "correct": 0,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-001",
+   "hash": "eaa26f3bea1c60ce",
+   "question": "Given below are two statements: Statement I: Hybridisation, shape and spin only magnetic moment of K [Co(CO ) ] is sp d , octahedral and 4.9 3 3 3 3 2 BM respectively. Statement II: Geometry, hybridisation and spin only magnetic moment values (BM) of the ions [Ni(CN)4] 2− , [MnBr4] 2− and [CoF ] 6 3− respectively are square planar, tetrahedral, octahedral; dsp , sp , sp d and 2 3 3 2 . 0, 5.9, 4.9 In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true #PaperPhodnaHai www.mathongo.com Coordination Compounds JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-002",
+   "hash": "8004849202a746dc",
+   "question": "Given below are two statements: Statement I: The number of paramagnetic species among [CoF ] 6 3− , [TiF6] 3− , V O and [Fe(CN) ] 2 5 6 3− is 3. Statement II: K [Fe(CN) ] < K [Fe(CN) ] < [Fe(H O) ]SO ⋅ H O < [Fe(H O) ]Cl is the correct order in 4 6 3 6 2 6 4 2 2 6 3 terms of number of unpaired electron(s) present in the complexes. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 0,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-003",
+   "hash": "0d36d95b167dc142",
+   "question": "Consider a mixture ' X ' which is made by dissolving 0.4 mol of [Co(NH ) SO ]Br and 0.4 mol of 3 5 4 [Co(NH3) Br]SO4 5 in water to make 4 L of solution. When 2 L of mixture ' X ' is allowed to react with excess of AgNO , it forms precipitate ' Y '. The rest 2 L of mixture ' X ' reacts with excess BaCl to form precipitate ' Z '. 3 2 Which of the following statements is CORRECT?",
+   "options": [
+    "0.1 mol of ' Y ' is formed.",
+    "0.2 mol of ' Z ' is formed.",
+    "0.4 mol of ' Z ' is formed.",
+    "Y is BaSO and ' Z ' is AgBr. ′ ′ 4 #PaperPhodnaHai www.mathongo.com Coordination Compounds JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-002",
+   "hash": "f5246c64aa6955fa",
+   "question": "Given below are some of the statements about Mn and Mn O . Identify the correct statements. 2 7 A. Mn forms the oxide Mn O , in which Mn is in its highest oxidation state. 2 7 B. Oxygen stabilizes the Mn in higher oxidation states by forming multiple bonds with Mn. C. Mn O is an ionic oxide. 2 7 D. The structure of Mn O consists of one bridged oxygen. 2 7 Choose the correct answer from the options given below :",
+   "options": [
+    "A, B and D Only",
+    "A, B and C Only",
+    "A, B, C and D",
+    "A, C and D Only"
+   ],
+   "correct": 0,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-003",
+   "hash": "9b08c7a1b2b4b2d0",
+   "question": "On heating a mixture of common salt and K Cr O in equal amount along with concentrated H SO in a test tube, 2 2 7 2 4 a gas is evolved. Formula of the gas evolved and oxidation state of the central metal atom in the gas respectively are:",
+   "options": [
+    "Cr O Cl and + 3 2 2 2",
+    "CrO Cl and + 5 2 2",
+    "CrO Cl and + 6 2 2",
+    "Cr O Cl and + 6 2 2 2"
+   ],
+   "correct": 2,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-002",
+   "hash": "812c84126f1ac603",
+   "question": "Consider the following statements about manganate and permanganate ions. Identify the correct statements. A. The geometry of both manganate and permanganate ions is tetrahedral. B. The oxidation states of Mn in manganate and permanganate are +7 and +6, respectively. C. Oxidation of Mn (II) salt by peroxodisulphate gives manganate ion as the final product. D. Manganate ion is paramagnetic and permanganate ions is diamagnetic. E. Acidified permanganate ion reduces oxalate, nitrite and iodide ions. Choose the correct answer from the options given below :",
+   "options": [
+    "A, C and D Only",
+    "A and D Only",
+    "A, D and E Only",
+    "A, B and C Only"
+   ],
+   "correct": 1,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-002",
+   "hash": "c80771b4b8a1c0b0",
+   "question": "\" X \" is an oxoanion of the lightest element of group 7 (in the periodic table). The metal is in +6 oxidation state in \" X \". The color of the potassium salt of X is",
+   "options": [
+    "purple",
+    "orange",
+    "yellow",
+    "green #PaperPhodnaHai www.mathongo.com d and f Block Elements JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-002",
+   "hash": "e07300f1d0165c14",
+   "question": "Given below are two statements : Statement I: The first ionization enthalpy of Cr is lower than that of Mn . Statement II: The second and third ionization enthalpies of Cr are higher than those of Mn. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 3,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-002",
+   "hash": "3cd1b30ffa6a52c3",
+   "question": "A first row transition metal (M) does not liberate H gas from dilute HCl.1 mol of aqueous solution of MSO is 2 4 treated with excess of aqueous KCN and then H S( g) is passed through the solution. The amount of MS (metal 2 sulphide) formed from the above reaction is ____ mol.",
+   "options": [
+    "0",
+    "3",
+    "1",
+    "2"
+   ],
+   "correct": 0,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-002",
+   "hash": "d594a51efe364b39",
+   "question": "The oxidation state of chromium in the final product formed in the reaction between KI and acidified K Cr O 2 2 7 solution is:",
+   "options": [
+    "+6",
+    "+3",
+    "+4",
+    "+2"
+   ],
+   "correct": 1,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-002",
+   "hash": "a2dc97563ee16d6f",
+   "question": "MnO 4 2− , in acidic medium, disproportionates to :",
+   "options": [
+    "MnO 4 − and MnO 2",
+    "Mn O and MnO 2 7 2",
+    "Mn O and MnO 2 7",
+    "MnO 4 − and MnO"
+   ],
+   "correct": 0,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-002",
+   "hash": "eb1b6510b36735f9",
+   "question": "Given below are two statements: Statement I: The number of pairs, from the following, in which both the ions are coloured in aqueous solution is 3. [Sc 3+ , Ti 3+ ], [Mn 2+ , Cr 2+ ], [Cu 2+ , Zn 2+ ] and [Ni 2+ , Ti 4+ ] Statement II: Th 4+ is the strongest reducing agent among Th 4+ , Ce 4+ , Gd 3+ and Eu . 2+ In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false #PaperPhodnaHai www.mathongo.com d and f Block Elements JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "D-And-F-Block-Elements",
+   "topic": "D-And-F-Block-Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-003",
+   "hash": "1f8772321aee93eb",
+   "question": "In the given electrochemical cell, Ag(s)|AgCl(s)|FeCl (aq), FeCl (aq) ∣ Pt(s) at 298 K, the cell potential (E 2 3 cell ) will increase when : A. Concentration of Fe 2+ is increased. B. Concentration of Fe 3+ is decreased. C. Concentration of Fe 2+ is decreased. D. Concentration of Fe 3+ is increased. E. Concentration of Cl is increased. − Choose the correct answer from the options given below :",
+   "options": [
+    "B Only",
+    "A and E Only",
+    "C, D and E Only",
+    "A and B Only #PaperPhodnaHai www.mathongo.com Given: ∣ ∣ ∣∣ ∣ Electrochemistry Questions with Answer Keys"
+   ],
+   "correct": 2,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-003",
+   "hash": "6001d7ee5cb04f32",
+   "question": "Consider the above electrochemical cell where a metal electrode (M) is undergoing redox reaction by forming M + (M → M + + e − . The cation M is present in two different concentrations c and c as shown above. Which of ) + 1 2 the following statement is correct for generating a positive cell potential?",
+   "options": [
+    "If c is present at cathode, then c 1 1 < c2 .",
+    "If c is present at anode, then c 1 1 > c2 .",
+    "If c is present at cathode, then c 1 1 > c2 .",
+    "If c is present at anode, then c 1 1 = c2 ."
+   ],
+   "correct": 2,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-004",
+   "hash": "b32ceb1d1f46761b",
+   "question": "Match List - I with List - II. List - I List - II Pair of Compounds Type of Isomers A. 2-Methylpropene and but-1-ene I. Stereoisomers B. Cis-but-2-ene and trans-but-2-ene II. Position isomers C. 2-Butanol and diethyl ether III. Chain isomers D. But-1-ene and but-2-ene IV. Functional group isomers Choose the correct answer from the options given below :",
+   "options": [
+    "A-II, B-I, C-IV, D-III",
+    "A-III, B-I, C-II, D-IV",
+    "A-I, B-IV, C-III, D-II",
+    "A-III, B-I, C-IV, D-II"
+   ],
+   "correct": 3,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-005",
+   "hash": "76fd2873cf84930f",
+   "question": "Given below are four compounds : (a) n-propyl chloride (b) iso-propyl chloride (c) sec-butyl chloride (d) neo-pentyl chloride Percentage of carbon in the one which exhibits optical isomerism is :",
+   "options": [
+    "56",
+    "40",
+    "52",
+    "46"
+   ],
+   "correct": 2,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-006",
+   "hash": "537a0cf1cbc3f571",
+   "question": "Given below are two statements : Statement I: Compound (X), shown below, dissolves in NaHCO solution and has two chiral carbon atoms 3 Statement II: Compound (Y), shown below, has two carbons with sp hybridization, one carbon with sp and one 3 2 carbon with sp hybridization In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true #PaperPhodnaHai www.mathongo.com General Organic Chemistry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-004",
+   "hash": "9493cc6193de6eb6",
+   "question": "Given below are two statements : Statement I: Sublimation is used for the separation and purification of compounds with low melting point. Statement II: The boiling point of a liquid increases as the external pressure is reduced. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true"
+   ],
+   "correct": 2,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-003",
+   "hash": "64001e7d89b0396b",
+   "question": "The cyclic cations having the same number of hyperconjugation are : Choose the correct answer from the options given below :",
+   "options": [
+    "A, C and D only",
+    "A and B Only",
+    "A and C Only",
+    "B and C Only #PaperPhodnaHai www.mathongo.com General Organic Chemistry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-003",
+   "hash": "e45d647af5d1bf12",
+   "question": "Given below are two statements: Statement I: There are several conformers for n -butane. Out of those conformers, is the least stable and most stable conformer is Statement II: As the dihedral angle increases, torsional strain decreases from (X) to (Y). In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false"
+   ],
+   "correct": 1,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-004",
+   "hash": "8a990b49c6dd52c3",
+   "question": "Find out the statements which are not true. A. Resonating structures with more number of covalent bonds and lesser charge separation are more stable. B. In electromeric effect, an unsaturated system shows +E effect with nucleophile and -E effect with electrophile. C. Inductive effect is responsible for high melting point, boiling point and dipole moment of polar compounds. D. The greater the number of alkyl groups attached to the doubly bonded carbon atoms, higher is the heat of hydrogenation. E. Stability of carbanion increases with the increase in s− character of the carbon carrying the negative charge. Choose the correct answer from the options given below:",
+   "options": [
+    "B & D only",
+    "A, C & D only",
+    "B, D & E only",
+    "A, D & E only"
+   ],
+   "correct": 0,
+   "chapter": "Organic Chemistry",
+   "topic": "Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  }
+ ]
+}

@@ -1,11 +1,12 @@
 {
   "name": "nomad",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "build:desktop": "cross-env TAURI_DESKTOP=1 astro build",
+    "build:android": "cross-env ANDROID_BUILD=1 astro build",
     "preview": "astro preview",
     "tauri": "tauri"
   },

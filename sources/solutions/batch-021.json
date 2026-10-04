@@ -1,0 +1,1437 @@
+{
+ "batch": 21,
+ "items": [
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-068",
+   "hash": "262daa8637b6128a",
+   "question": "A gas is kept in a container having walls which are thermally non-conducting. Initially the gas has a volume of 800 cm 3 and temperature 27 C. The change in temperature when the gas is adiabatically compressed to 200 cm ∘ 3 is : (Take γ = 1.5 : γ is the ratio of specific heats at constant pressure and at constant volume)",
+   "options": [
+    "327 K",
+    "600 K",
+    "522 K",
+    "300 K"
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-069",
+   "hash": "8b5442554173c7d8",
+   "question": "Pressure of an ideal gas, contained in a closed vessel, is increased by 0.4% when heated by 1 C. Its initial ∘ temperature must be :",
+   "options": [
+    "25 C ∘",
+    "2500 K",
+    "250 K",
+    "250 C ∘"
+   ],
+   "correct": 2,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-070",
+   "hash": "4407673d4d8d8612",
+   "question": "Match List-I with List-II. List-I List-II (A) Isothermal (I) ΔW(work done) = 0 (B) Adiabatic (II) ΔQ(supplied heat) = 0 ΔU(change in internal (C) Isobaric (III) energy ≠ 0 (D) Isochoric (IV) ΔU = 0 Choose the correct answer from the options given below :",
+   "options": [
+    "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
+    "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)",
+    "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+    "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)"
+   ],
+   "correct": 2,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-071",
+   "hash": "acd4942fc559f5c1",
+   "question": "An ideal gas exists in a state with pressure P volume V .It is isothermally expanded to 4 times of its initial 0 0 volume (V ), then isobarically compressed to its original volume. Finally the system is heated isochorically to 0 bring it to its initial state. The amount of heat exchanged in this process is :",
+   "options": [
+    "P V (2 ln 2 − 0.75) 0 0",
+    "P V (ln 2 − 0.75) 0 0",
+    "P V (ln 2 − 0.25) 0 0",
+    "P V (2 ln 2 − 0.25) 0 0"
+   ],
+   "correct": 0,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
+   "formulas": [
+    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
+    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
+    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
+    "$$FLOT:\\quad \\Delta U = q + w$$",
+    "$$dU = dq + dw$$",
+    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
+    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-072",
+   "hash": "8f9d2962d685e4f5",
+   "question": "The mean free path and the average speed of oxygen molecules at 300 K and 1 atm are 3 × 10 −7 m and 600 m/s respectively. Find the frequency of its collisions.",
+   "options": [
+    "2 × 10 10 /s",
+    "9 × 10 /s 5",
+    "2 × 10 /s 9",
+    "5 × 10 /s 8"
+   ],
+   "correct": 2,
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-073",
+   "hash": "8a69bb67458a3807",
+   "question": "The helium and argon are put in the flask at the same room temperature ( 300 K). The ratio of average kinetic energies (per molecule) of helium and argon is : (Give : Molar mass of helium = 4 g/mol, Molar mass of argon = 40 g/mol)",
+   "options": [
+    "1 : 10",
+    "10 : 1",
+    "1 : √10",
+    "1 : 1"
+   ],
+   "correct": 3,
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-074",
+   "hash": "8ac15a3b991ac7f6",
+   "question": "Match the List − I with List − II List-I List-II CP 5 A. Triatomic rigid gas I. = CV 3 Diatomic non-rigid CP 7 B. II. = CV 5 gas CP 4 C. Monoatomic gas III. = CV 3 CP 9 D. Diatomic rigid gas IV = CV 7 Choose the correct answer from the options given below :",
+   "options": [
+    "A-III, B-IV, C-I, D-II",
+    "A-III, B-II, C-IV, D-I",
+    "A-II, B-IV, C-I, D-III",
+    "A-IV, B-II, C-III, D-I"
+   ],
+   "correct": 0,
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-075",
+   "hash": "46604dcc83051810",
+   "question": "Two metal spheres of radius R and 3R have same surface charge density σ. If they are brought in contact and then separated, the surface charge density on smaller and bigger sphere becomes σ and σ , respectively. The ratio σ1 1 2 σ2 is.",
+   "options": [
+    "1 9",
+    "9",
+    "1 3",
+    "3"
+   ],
+   "correct": 3,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-076",
+   "hash": "57d5e5a0ddee2abe",
+   "question": "A point charge +q is placed at the origin. A second point charge +9 q is placed at (d, 0, 0) in Cartesian coordinate system. The point in between them where the electric field vanishes is :",
+   "options": [
+    "(4 d/3, 0, 0)",
+    "(d/4, 0, 0)",
+    "(3 d/4, 0, 0)",
+    "(d/3, 0, 0)"
+   ],
+   "correct": 1,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-077",
+   "hash": "3972c17c9464b76d",
+   "question": "The electrostatic potential on the surface of uniformly charged spherical shell of radius R = 10 cm is 120 V. The potential at the centre of shell, at a distance r = 5 cm from centre, and at a distance r = 15 cm from the centre of the shell respectively, are :",
+   "options": [
+    "120 V, 120 V, 80 V",
+    "40 V, 40 V, 80 V",
+    "0 V, 0 V, 80 V",
+    "0 V, 120 V, 40 V"
+   ],
+   "correct": 0,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-078",
+   "hash": "1ea1ca4c2008a5da",
+   "question": "Two small spherical balls of mass 10 g each with charges −2μC and 2μC, are attached to two ends of very light rigid rod of length 20 cm. The arrangement is now placed near an infinite nonconducting charge sheet with uniform charge density of 100μC/m such that length of rod makes an angle of 30 with electric field generated 2 ∘ by charge sheet. Net torque acting on the rod is: (Take ε : 8.85 × 10 0 −12 2 C /Nm 2 )",
+   "options": [
+    "112 Nm",
+    "1.12 Nm",
+    "2.24 Nm",
+    "11.2 Nm"
+   ],
+   "correct": 1,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-080",
+   "hash": "3376e6fe0dbad12a",
+   "question": "A small bob of mass 100 mg and charge +10μC is connected to an insulating string of length 1 m. It is brought near to an infinitely long nonconducting sheet of charge density ' σ ' as shown in figure. If string subtends an angle of 45 with the sheet at equilibrium the charge density of sheet will be : ∘ (Given, ε = 8.85 × 10 0 −12 F m and acceleration due to gravity, g = 10 m/s ) 2",
+   "options": [
+    "0.885nC/m 2",
+    "17.7nC/m 2",
+    "885nC/m 2",
+    "1.77nC/m 2"
+   ],
+   "correct": 3,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-081",
+   "hash": "2519c6390a08fe0a",
+   "question": "Consider two infinitely large plane parallel conducting plates as shown below. The plates are uniformly charged with a surface charge density +σ and −2σ. The force experienced by a point charge +q placed at the mid point between two plates will be : σq",
+   "options": [
+    "4ϵ0 3σq",
+    "2ϵ0 3σq",
+    "4∈0",
+    "σq 2ϵ0"
+   ],
+   "correct": 1,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-082",
+   "hash": "2dbbe906d2b3cb8d",
+   "question": "Two infinite identical charged sheets and a charged spherical body of charge density ' ρ ' are arranged as shown in figure. Then the correct relation between the electrical fields at A, B, C and D points is : → → → →",
+   "options": [
+    "E A = E B; E C = E D → → → →",
+    "E A > E B; E C = E D → → → →",
+    "E C ≠ E D; E A > E B ∣→ ∣ ∣→ ∣ → →",
+    "∣ E A ∣ = ∣ E B∣ ; E C > E D ∣ ∣ ∣ ∣"
+   ],
+   "correct": 2,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-084",
+   "hash": "700eeab78fff6749",
+   "question": "Two large plane parallel conducting plates are kept 10 cm apart as shown in figure. The potential difference between them is V . The potential difference between the points A and B (shown in the figure) is :",
+   "options": [
+    "1 4 V",
+    "2 5 V",
+    "3 4 V",
+    "1 V"
+   ],
+   "correct": 1,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-085",
+   "hash": "5d53460af741ec66",
+   "question": "Two charges q and q are separated by a distance of 30 cm. A third charge q initially at ' C ' as shown in the 1 2 3 figure, is moved along the circular path of radius 40 cm from C to D. If the difference in potential energy due to q K movement of q from C to D is given by 3 4πϵ0 3 , the value of K is :",
+   "options": [
+    "8q 2",
+    "6q 2",
+    "8q 1",
+    "6q 1"
+   ],
+   "correct": 0,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-087",
+   "hash": "308552e46729be9c",
+   "question": "A dipole with two electric charges of 2μC magnitude each, with separation distance 0.5μ m, is placed between the plates of a capacitor such that its axis is parallel to an electric field established between the plates when a potential difference of 5 V is applied. Separation between the plates is 0.5 mm. If the dipole is rotated by 30 ∘ from the axis, it tends to realign in the direction due to a torque. The value of torque is :",
+   "options": [
+    "5 × 10 −9 Nm",
+    "5 × 10 −3 Nm",
+    "2.5 × 10 −12 Nm",
+    "2.5 × 10 −9 Nm"
+   ],
+   "correct": 0,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-088",
+   "hash": "202b5a73b9f0aeb7",
+   "question": "An infinitely long wire has uniform linear charge density λ = 2nC/m. The net flux through a Gaussian cube of side length √3 cm, if the wire passes through any two corners of the cube, that are maximally displaced from each other, would be xNm C , where x is : 2 −1 [Neglect any edge effects and use 1 4πε0 = 9 × 10 9 SI units]",
+   "options": [
+    "0.72π",
+    "1.44π",
+    "6.48π",
+    "2.16π"
+   ],
+   "correct": 3,
+   "chapter": "Electrostatics",
+   "topic": "Electrostatics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-089",
+   "hash": "cd6c018bb2f13d23",
+   "question": "Using a battery, a 100 pF capacitor is charged to 60 V and then the battery is removed. After that, a second uncharged capacitor is connected to the first capacitor in parallel. If the final voltage across the second capacitor is 20 V, its capacitance is : (in pF)",
+   "options": [
+    "600",
+    "200",
+    "400",
+    "100"
+   ],
+   "correct": 1,
+   "chapter": "Capacitance",
+   "topic": "Capacitance",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Electrostatics and Capacitance",
+   "formulas": [
+    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
+    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
+    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
+    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
+    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-090",
+   "hash": "66bcd4ab486c1a0f",
+   "question": "Current passing through a wire as function of time is given as I(t) = 0.02t + 0.01 A. The charge that will flow through the wire from t = 1s to t = 2s is :",
+   "options": [
+    "0.06 C",
+    "0.02 C",
+    "0.07 C",
+    "0.04 C"
+   ],
+   "correct": 3,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-091",
+   "hash": "f8410571804c644b",
+   "question": "A motor operating on 100 V draws a current of 1 A. If the efficiency of the motor is 91.6%, then the loss of power in units of cal/s is",
+   "options": [
+    "4",
+    "8.4",
+    "2",
+    "6.2"
+   ],
+   "correct": 2,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-092",
+   "hash": "55f2bf47a1de67ec",
+   "question": "A wire of length 25 m and cross-sectional area 5 mm having resistivity of 2 × 10 2 −6 Ω m is bent into a complete circle. The resistance between diametrically opposite points will be",
+   "options": [
+    "12.5Ω",
+    "50Ω",
+    "100Ω",
+    "25Ω"
+   ],
+   "correct": 3,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-093",
+   "hash": "dab02b88d23196a3",
+   "question": "The battery of a mobile phone is rated as 4.2 V , 5800 mAh. How much energy is stored in it when fully charged ?",
+   "options": [
+    "43.8 kJ",
+    "48.7 kJ",
+    "87.7 kJ",
+    "24.4 kJ"
+   ],
+   "correct": 2,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-094",
+   "hash": "0f1201be81765f82",
+   "question": "A wire of resistance R is bent into a triangular pyramid as shown in figure with each segment having same length. The resistance between points A and B is R/n. The value of n is :",
+   "options": [
+    "16",
+    "14",
+    "10",
+    "12"
+   ],
+   "correct": 3,
+   "chapter": "Current-Electricity",
+   "topic": "Current-Electricity",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-095",
+   "hash": "fa327e4fc82925ee",
+   "question": "Given below are two statements : one is labelled as Assertion (A) and the other is labelled as Reason(R). Assertion (A) : Magnetic monopoles do not exist. Reason (R) : Magnetic field lines are continuous and form closed loops. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "Both (A) and (R) are correct but (R) is not the correct explanation of (A)",
+    "(A) is correct but (R) is not correct",
+    "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+    "(A) is not correct but ( R) is correct"
+   ],
+   "correct": 2,
+   "chapter": "Magnetic-Properties-Of-Matter",
+   "topic": "Magnetic-Properties-Of-Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-096",
+   "hash": "47f3275fa9bbcc1f",
+   "question": "The relationship between the magnetic susceptibility (χ) and the magnetic permeability (μ) is given by : (μ is the permeability of free space and μ is relative permeability) 0 r μ",
+   "options": [
+    "χ = μ0 − 1",
+    "χ = μr + 1 μ0",
+    "χ = μ + 1 r μ",
+    "χ = 1 − μ0"
+   ],
+   "correct": 0,
+   "chapter": "Magnetic-Properties-Of-Matter",
+   "topic": "Magnetic-Properties-Of-Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-097",
+   "hash": "94f201faef2bec1e",
+   "question": "A solenoid having area A and length ' l ' is filled with a material having relative permeability 2. The magnetic energy stored in the solenoid is : 2",
+   "options": [
+    "B μ0 Al 2",
+    "B 2μ0 Al",
+    "B Al 2 2",
+    "B Al 4μ0"
+   ],
+   "correct": 3,
+   "chapter": "Magnetic-Properties-Of-Matter",
+   "topic": "Magnetic-Properties-Of-Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-098",
+   "hash": "de4721f366bd226a",
+   "question": "The percentage increase in magnetic field (B) when space within a current carrying solenoid is filled with magnesium (magnetic susceptibility χ mg = 1.2 × 10 −5 ) is :",
+   "options": [
+    "6 5 × 10 −3 %",
+    "5 6 × 10 −5 %",
+    "5 6 × 10 −4 %",
+    "5 3 × 10 −5 %"
+   ],
+   "correct": 0,
+   "chapter": "Magnetic-Properties-Of-Matter",
+   "topic": "Magnetic-Properties-Of-Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-099",
+   "hash": "ab4293de1988e17e",
+   "question": "Let B be the magnitude of magnetic field at center of a circular coil of radius R carrying current I . Let B be the 1 2 B2 magnitude of magnetic field at an axial distance ' x ' from the center. For x : R = 3 : 4, B1 is :",
+   "options": [
+    "4 : 5",
+    "16 : 25",
+    "64 : 125",
+    "25 : 16"
+   ],
+   "correct": 2,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-100",
+   "hash": "d3f339120de32aac",
+   "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled asReason R. Assertion A:. If oxygen ion (O −2 ) and Hydrogen ion (H )enter normal to the magnetic field with equal + momentum, then the path of O −2 ion has a smaller curvature than that of H . + Reason R : A proton with same linear momentum as an electron will form a path of smaller radius of curvature on entering a uniform magnetic field perpendicularly. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "A is true but R is false.",
+    "Both A and R are true but R is NOT the correct explanation of A.",
+    "A is false but R is true.",
+    "Both A and R are true and R is the correct explanation of A."
+   ],
+   "correct": 0,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-101",
+   "hash": "437a442ea7b90a5f",
+   "question": "A magnetic dipole experiences a torque of 80√3 N m when placed in uniform magnetic field in such a way that dipole moment makes angle of 60 with magnetic field. The potential energy of the dipole is : ∘",
+   "options": [
+    "80 J",
+    "−40√3 J",
+    "−60 J",
+    "−80 J"
+   ],
+   "correct": 3,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-102",
+   "hash": "5018d6d76a27e6e1",
+   "question": "Figure shows a current carrying square loop ABCD of edge length is ' a ' lying in a plane. If the resistance of the ABC part is r and that of ADC part is 2 r , then the magnitude of the resultant magnetic field at centre of the square loop is 3πμ0 I",
+   "options": [
+    "√2a μ0 I",
+    "2πa √2μ0 I",
+    "3πa 2μ0 I",
+    "3πa"
+   ],
+   "correct": 2,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-103",
+   "hash": "6f2be6ee158fe5fa",
+   "question": "An electric bulb rated as 100 W − 220 V is connected to an ac source of rms voltage 220 V. The peak value of current through the bulb is :",
+   "options": [
+    "0.64 A",
+    "0.45 A",
+    "2.2 A",
+    "0.32 A"
+   ],
+   "correct": 0,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-104",
+   "hash": "67d6293737e2cca5",
+   "question": "An alternating current is represented by the equation, i = 100√2 sin(100πt) ampere. The RMS value of current and the frequency of the given alternating current are",
+   "options": [
+    "100√2 A, 100 Hz",
+    "100 A, 100 Hz √2",
+    "100 A, 50 Hz",
+    "50√2 A, 50 Hz"
+   ],
+   "correct": 2,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-105",
+   "hash": "a8b2047d7ce12a71",
+   "question": "An ac current is represented as π i = 5√2 + 10 cos(650πt + )Amp 6 The r.m.s value of the current is",
+   "options": [
+    "50 Amp",
+    "100 Amp",
+    "10 Amp",
+    "5√2Amp"
+   ],
+   "correct": 2,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-106",
+   "hash": "090c61bc39cc08ae",
+   "question": "The radii of curvature for a thin convex lens are 10 cm and 15 cm respectively. The focal length of the lens is 12 cm. The refractive index of the lens material is",
+   "options": [
+    "1.2",
+    "1.4",
+    "1.5",
+    "1.8"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-107",
+   "hash": "163195f70c05b164",
+   "question": "A slanted object AB is placed on one side of convex lens as shown in the diagram. The image is formed on the opposite side. Angle made by the image with principal axis is:",
+   "options": [
+    "− α 2",
+    "−45 ∘",
+    "+45 ∘",
+    "−α"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-108",
+   "hash": "284a2131503f19df",
+   "question": "When an object is placed 40 cm away from a spherical mirror an image of magnification 1 2 is produced. To obtain an image with magnification of 1 3 , the object is to be moved :",
+   "options": [
+    "40 cm away from the mirror.",
+    "80 cm away from the mirror.",
+    "20 cm towards the mirror.",
+    "20 cm away from the mirror."
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-109",
+   "hash": "7c0d6bbe7c0eb9f2",
+   "question": "A finite size object is placed normal to the principal axis at a distance of 30 cm from a convex mirror of focal length 30 cm. A plane mirror is now placed in such a way that the image produced by both the mirrors coincide with each other. The distance between the two mirrors is :",
+   "options": [
+    "45 cm",
+    "7.5 cm",
+    "22.5 cm",
+    "15 cm"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-110",
+   "hash": "29e778e2c73ea08e",
+   "question": "A mirror is used to produce an image with magnification of 1 4 . If the distance between object and its image is 40 cm , then the focal length of the mirror is ________",
+   "options": [
+    "10 cm",
+    "12.7 cm",
+    "10.7 cm",
+    "15 cm"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-111",
+   "hash": "abadfee89395db93",
+   "question": "Given below are two statements : one is labelled as Assertion (A) and the other is labelled as Reason (R) Assertion (A) : Refractive index of glass is higher than that of air. Reason ( R) : Optical density of a medium is directly proportionate to its mass density which results in a proportionate refractive index. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "(A) is not correct but (R) is correct",
+    "Both (A) and (R) are correct and (R) is the correct explanation of (A)",
+    "(A) is correct but (R) is not correct",
+    "Both (A) and (R) are correct but (R) is not the correct explanation of (A)"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-112",
+   "hash": "b00c4db5a8f49f88",
+   "question": "A spherical surface separates two media of refractive indices 1 and 1.5 as shown in figure. Distance of the image of an object ' O ', is : ( C is the center of curvature of the spherical surface and R is the radius of curvature)",
+   "options": [
+    "0.24 m right to the spherical surface",
+    "0.4 m left to the spherical surface",
+    "0.24 m left to the spherical surface",
+    "0.4 m right to the spherical surface"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-113",
+   "hash": "e7726d6af72dbfee",
+   "question": "A bi-convex lens has radius of curvature of both the surfaces same as 1/6 cm. If this lens is required to be replaced by another convex lens having different radii of curvatures on both sides (R ≠ R ), without any 1 2 change in lens power then possible combination of R and R is : 1 2",
+   "options": [
+    "1 3 cm and 1 3 cm",
+    "1 5 cm and 1 7 cm",
+    "1 3 cm and 1 7 cm",
+    "1 6 cm and 1 9 cm"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-114",
+   "hash": "cf35e827a81e6134",
+   "question": "Two thin convex lenses of focal length 30 cm and 10 cm are placed coaxially, 10 cm apart. The power of this combination is :",
+   "options": [
+    "5 D",
+    "1 D",
+    "20 D",
+    "10 D"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-115",
+   "hash": "bec13fcfefae8833",
+   "question": "A concave-convex lens of refractive index 1.5 and the radii of curvature of its surfaces are 30 cm and 20 cm , respectively. The concave surface is upwards and is filled with a liquid of refractive index 1.3. The focal length of the liquid-glass combination will be",
+   "options": [
+    "500 11 cm",
+    "800 11 cm",
+    "700 11 cm",
+    "600 11 cm"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-116",
+   "hash": "488d15812914cede",
+   "question": "A convex lens of focal length 30 cm is placed in contact with a concave lens of focal length 20 cm. An object is placed at 20 cm to the left of this lens system. The distance of the image from the lens in cm is ________",
+   "options": [
+    "30",
+    "45",
+    "60 7",
+    "15"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-117",
+   "hash": "02fefd5f82a1d8c4",
+   "question": "A monochromatic light of frequency 5 × 10 14 Hz travelling through air, is incident on a medium of refractive index ' 2 '. Wavelength of the refracted light will be :",
+   "options": [
+    "300 nm",
+    "600 nm",
+    "400 nm",
+    "500 nm"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-118",
+   "hash": "fce5a11f8c55543f",
+   "question": "Two monochromatic light beams have intensities in the ratio 1:9. An interference pattern is obtained by these beams. The ratio of the intensities of maximum to minimum is",
+   "options": [
+    "8 : 1",
+    "9 : 1",
+    "3 : 1",
+    "4 : 1"
+   ],
+   "correct": 3,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-119",
+   "hash": "e8c0107dfbe8463b",
+   "question": "In a Young's double slit experiment, the source is white light. One of the slits is covered by red filter and another by a green filter. In this case",
+   "options": [
+    "There shall be an interference pattern for red distinct from that for green.",
+    "There shall be no interference fringes.",
+    "There shall be alternate interference fringes of red and green.",
+    "There shall be an interference pattern, where each fringe's pattern center is green and outer edges is red."
+   ],
+   "correct": 1,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-120",
+   "hash": "e045018eb6aa6a81",
+   "question": "A light wave is propagating with plane wave fronts of the type x + y + z = constant. The angle made by the direction of wave propagation with the x-axis is:",
+   "options": [
+    "cos −1 ( 1 ) √3",
+    "cos −1 ( 2 3 )",
+    "cos −1 ( 1 3 )",
+    "cos −1 2 (√ ) 3"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-121",
+   "hash": "fe4467ef793a949f",
+   "question": "Width of one of the two slits in a Young's double slit interference experiment is half of the other slit. The ratio of the maximum to the minimum intensity in the interference pattern is :",
+   "options": [
+    "(2√2 + 1) : (2√2 − 1)",
+    "(3 + 2√2) : (3 − 2√2)",
+    "9 : 1",
+    "3 : 1"
+   ],
+   "correct": 1,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-122",
+   "hash": "8d07989ef8ed200a",
+   "question": "In a Young's double slit experiment, the slits are separated by 0.2 mm. If the slits separation is increased to 0.4 mm , the percentage change of the fringe width is:",
+   "options": [
+    "0%",
+    "100%",
+    "50%",
+    "25%"
+   ],
+   "correct": 2,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-123",
+   "hash": "46ebbbe85099d3de",
+   "question": "Two polarisers P and P are placed in such a way that the intensity of the transmitted light will be zero. A third 1 2 polariser P is inserted in between P and P , at the particular angle between P and P . The transmitted 3 1 2 2 3 intensity of the light passing the through all three polarisers is maximum. The angle between the polarisers P 2 and P is :3",
+   "options": [
+    "π 4",
+    "π 6",
+    "π 8",
+    "π 3"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-124",
+   "hash": "a294dc14c97e22cf",
+   "question": "An electron with mass ' m ' with an initial velocity → ^ (t = 0) v = v0 i → (v > 0) enters a magnetic field B = B j . 0 ^ 0 If the initial de-Broglie wavelength at t = 0 is λ then its value after time ' t ' would be : 0 λ0",
+   "options": [
+    "2 2 e2 B t √ 0 1− 2 m λ0",
+    "2 2 e2 B t √ 0 1+ m2 2 2 2 e B t",
+    "λ √1 + 0 0 2 m",
+    "λ 0"
+   ],
+   "correct": 3,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-125",
+   "hash": "e3873fadf0fd08da",
+   "question": "A photo-emissive substance is illuminated with a radiation of wavelength λ so that it releases electrons with de- i Broglie wavelength λ . The longest wavelength of radiation that can emit photoelectron is λ . Expression for de- e 0 Broglie wavelength is given by : ( m : mass of the electron, h : Planck's constant and c : speed of light)",
+   "options": [
+    "λ = h e √ 1 1 2mc( − ) λ λ i 0 hλ0",
+    "λ = √ e 2mc",
+    "λ = e h 1 1 √2mc( − ) λ λ i 0 hλi",
+    "λ = √ e 2mc"
+   ],
+   "correct": 0,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-126",
+   "hash": "4969676fa24da21b",
+   "question": "The radiation pressure exerted by a 450 W light source on a perfectly reflecting surface placed at 2 m away from it, is :",
+   "options": [
+    "1.5 × 10 −8 Pascals",
+    "0",
+    "6 × 10 −8 Pascals",
+    "3 × 10 −8 Pascals"
+   ],
+   "correct": 2,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-127",
+   "hash": "e50b92c42b48b9d9",
+   "question": "The work function of a metal is 3 eV. The color of the visible light that is required to cause emission of photoelectrons is",
+   "options": [
+    "Green",
+    "Blue",
+    "Red",
+    "Yellow"
+   ],
+   "correct": 1,
+   "chapter": "Dual Nature of Matter",
+   "topic": "Dual Nature of Matter",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
+   "formulas": [
+    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
+    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
+    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
+    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
+    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-130",
+   "hash": "47da41ef3486c78f",
+   "question": "Considering the Bohr model of hydrogen like atoms, the ratio of the ratio of the radius 5 th orbit of the electron in Li 2+ and He is +",
+   "options": [
+    "3 2",
+    "4 9",
+    "9 4",
+    "2 3"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-131",
+   "hash": "ea2f9a80abaf9d7c",
+   "question": "Considering Bohr's atomic model for hydrogen atom : (A) the energy of H atom in ground state is same as energy of He ion in its first excited state. + (B) the energy of H atom in ground state is same as that for Li ++ ion in its second excited state. (C) the energy of H atom in its ground state is same as that of He ion for its ground state. + (D) the energy of He ion in its first excited state is same as that for Li + ++ ion in its ground state Choose the correct answer from the options given below :",
+   "options": [
+    "(B), (D) only",
+    "(A), (B) only",
+    "(A), (D) only",
+    "(A), (C) only"
+   ],
+   "correct": 1,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-132",
+   "hash": "e8ec3a3fe01c628b",
+   "question": "In a hydrogen like ion, the energy difference between the 2 nd excitation energy state and ground is 108.8 eV. The atomic number of the ion is",
+   "options": [
+    "4",
+    "2",
+    "1",
+    "3"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  }
+ ]
+}

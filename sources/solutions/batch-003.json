@@ -1,0 +1,1421 @@
+{
+ "batch": 3,
+ "items": [
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-013",
+   "hash": "c0bbda3b2c4c9d5d",
+   "question": "Given below are two statements : Statement I : The number of species among SF , NH , [NiCl ] 4 + 4 4 2− , XeF 4 , [PtCl 4 ] 2− , SeF 4 and [Ni(CN) ] , that 4 2− have tetrahedral geometry is 3. Statement II : In the set [NO , BeH , BF , AlCl ], all the molecules have incomplete octet around central atom. 2 2 3 3 In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false"
+   ],
+   "correct": 1,
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-017",
+   "hash": "bff41d75814d7428",
+   "question": "Given below are two statements: Statement I: The number of species among BF 4 − , SiF 4 , XeF 4 and SF , that have unequal E − F bond lengths is 4 two. Here, E is the central atom. Statement II: Among O , O − 2 2 2− , F2 and O 2 + ,O − 2 has the highest bond order. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 0,
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-016",
+   "hash": "a87297a345aba113",
+   "question": "Among the following, the CORRECT combinations are A. IF 3 → T -shaped (sp 3 d) B. IF 5 → Square pyramidal (sp d ) 3 2 C. IF 7 → Pentagonal bipyramidal (sp d ) 3 3 D. ClO 4 − → Square planar (sp d) 2 Choose the correct answer from the options given below:",
+   "options": [
+    "B, C and D Only",
+    "A and B Only",
+    "A, B and C Only",
+    "A, B, C and D #PaperPhodnaHai www.mathongo.com Chemical Bonding and Molecular Structure JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-017",
+   "hash": "ffb940d53a12797e",
+   "question": "Given below are statements about some molecules/ions. Identify the CORRECT statements. A. The dipole moment value of NF is higher than that of NH . 3 3 B. The dipole moment value of BeH is zero. 2 C. The bond order of O 2 2− and F is same. 2 D. The formal charge on the central oxygen atom of ozone is -1. E. In NO , all the three atoms satisfy the octet rule, hence it is very stable. 2 Choose the correct answer from the options given below:",
+   "options": [
+    "A, C & D Only",
+    "B, C & D Only",
+    "B & C Only",
+    "A, B, C, D & E #PaperPhodnaHai www.mathongo.com Chemical Bonding and Molecular Structure JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-017",
+   "hash": "c0e768fcd41d9907",
+   "question": "Consider the general reaction given below at 400 K x A( g) ⇌ y B( g) The values of K and K are studied under the same condition of temperature but variation in x and y. p c (i) K p = 85.87 and K = 2.586 appropriate units c (ii) K p = 0.862 and K = 28.62 appropriate units. c The values of x and y in (i) and (ii) respectively are:",
+   "options": [
+    "(i) (ii)",
+    "(i) (ii) 1, 3 2, 1 4, 1 4, 1",
+    "(i) (ii)",
+    "(i) (ii) 3, 1 3, 1 1, 2 2, 1"
+   ],
+   "correct": 3,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-016",
+   "hash": "90c176befe9cb67e",
+   "question": "Observe the following equilibrium in a 1 L flask. A( g) ⇌ B( g) At T(K), the equilibrium concentrations of A and B are 0.5 M and 0.375 M respectively. 0.1 moles of A is added into the flask and heated to T(K) to establish the equilibrium again. The new equilibrium concentrations (in M) of A and B are respectively",
+   "options": [
+    "0.53, 0.4.",
+    "0.742, 0.557.",
+    "0.557, 0.418.",
+    "0.367, 0.275."
+   ],
+   "correct": 2,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-017",
+   "hash": "6458b46552565059",
+   "question": "Consider the following gaseous equilibrium in a closed container of volume ' V ' at T(K). P 2 ( g) + Q 2 ( g) ⇌ 2PQ(g) 2 moles each of P ( g), Q ( g) and PQ(g) are present at equilibrium. Now one mole each of ' P ' and ' Q ' are 2 2 2 2 added to the equilibrium keeping the temperature at T(K). The number of moles of P , Q and P Q at the new 2 2 equilibrium, respectively, are",
+   "options": [
+    "1.66, 1.66, 1.66",
+    "2.56, 1.62, 2.24",
+    "2.67, 2.67, 2.67",
+    "1.21, 2.24, 1.56 #PaperPhodnaHai www.mathongo.com Chemical Equilibrium JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-014",
+   "hash": "1059f876d033c10c",
+   "question": "For the reaction, N O 2 4 ⇌ 2NO 2 , graph is plotted as shown below. Identify correct statements. A. Standard free energy change for the reaction is −5.40 kJ mol . −1 B. As ΔG in graph is positive, N O will not dissociate into NO at all. ⊖ 2 4 2 C. Reverse reaction will go to completion. D. When 1 mole of N O changes into equilibrium mixture, value of ΔG 2 4 ⊖ = −0.84 kJ mol −1 E. When 2 mole of NO changes into equilibrium mixture, ΔG for equilibrium mixture is −6.24 kJ mol . 2 ⊖ −1 Choose the correct answer from the options given below :",
+   "options": [
+    "D and E only",
+    "A and D only",
+    "B and C only",
+    "C and E only #PaperPhodnaHai www.mathongo.com Chemical Equilibrium JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-018",
+   "hash": "a8170e342d8eae3d",
+   "question": "Decomposition of A is a first order reaction at T(K) and is given by A(g) ⟶ B(g) + C(g). In a closed 1 L vessel, 1 bar A(g) is allowed to decompose at T(K). After 100 minutes, the total pressure was 1.5 bar. What is the rate constant (inmin −1 ) of the reaction ? (log 2 = 0.3)",
+   "options": [
+    "6.9 × 10 −3",
+    "6.9 × 10−4",
+    "6.9 × 10 −1",
+    "6.9 × 10−2"
+   ],
+   "correct": 0,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-016",
+   "hash": "b99a1d867ab3f4a6",
+   "question": "Correct statements regarding Arrhenius equation among the following are : A. Factor e −Ea/RT corresponds to fraction of molecules having kinetic energy less than Ea. B. At a given temperature, lower the Ea, faster is the reaction. C. Increase in temperature by about 10 C doubles the rate of reaction. ∘ D. Plot of log k vs 1 T gives a straight line with slope = − Ea R . Choose the correct answer from the options given below :",
+   "options": [
+    "B and D Only",
+    "A and B Only",
+    "B and C Only",
+    "A and C Only"
+   ],
+   "correct": 2,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-017",
+   "hash": "21db523ed649f2cb",
+   "question": "A → product (First order reaction). Three sets of experiment were performed for a reaction under similar experimental conditions: Run 1 ⇒ 100 mL of 10 M solution of reactant A Run 2 ⇒ 200 mL of 10 M solution of reactant A Run 3 ⇒ 100 mL of 10 M solution of reactant A + 100 mL of H O added. 2 The correct variation of rate of reaction is",
+   "options": [
+    "Run 1 < Run 2 < Run 3",
+    "Run 3 < Run 1 < Run 2",
+    "Run 3 < Run 1 = Run 2",
+    "Run 1 = Run 2 = Run 3"
+   ],
+   "correct": 2,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-015",
+   "hash": "666ceb5d75f62203",
+   "question": "Given above is the concentration vs time plot for a dissociation reaction : A → nB. Based on the data of the initial phase of the reaction (initial 10 min), the value of n is ____.",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "correct": 0,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-016",
+   "hash": "381df2a4bcbb773e",
+   "question": "Observe the following reactions at T(K). I. A → products. II. 5Br (aq) + BrO − 3 − (aq) + 6H + (aq) → 3Br2(aq) + 3H2O(l) − Δ[Br ] Both the reactions are started at 10.00 am. The rates of these reactions at 10.10 am are same. The value of − Δt at 10.10 am is 2 × 10 −4 mol L −1 min −1 . The concentration of A at 10.10 am is 10 −2 mol L −1 . What is the first order rate constant (in min ) of reaction I ? −1",
+   "options": [
+    "10 −2",
+    "10 −3",
+    "2 × 10 −3",
+    "4 × 10 −3"
+   ],
+   "correct": 3,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-018",
+   "hash": "7f9c0c846b3a6c46",
+   "question": "th th An organic compound undergoes first order decomposition. The time taken for decomposition to ( 1 8 ) and ( 1 10 ) t1/8 of its initial concentration are t 1/8 and t 1/10 respectively. What is the value of t × 10 ? (log 2 = 0.3) 1/10",
+   "options": [
+    "3",
+    "9",
+    "0.9",
+    "30"
+   ],
+   "correct": 1,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-018",
+   "hash": "17b739c9d855633d",
+   "question": "At 27 C in presence of a catalyst, activation energy of a reaction is lowered by 10 kJ mol . The logarithm of ratio ∘ −1 of k (catalysed) k (uncatalysed) is.... (Consider that the frequency factor for both the reactions is same)",
+   "options": [
+    "1.741",
+    "17.41",
+    "3.482",
+    "0.1741 #PaperPhodnaHai www.mathongo.com Chemical Kinetics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-019",
+   "hash": "a0eb8478afdb3959",
+   "question": "Given below are two statements : Statement I : The correct order in terms of atomic/ionic radii is Al > Mg > Mg 2+ > Al 3+ . Statement II : The correct order in terms of the magnitude of electron gain enthalpy is Cl > Br > S > O. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 2,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-018",
+   "hash": "6fb328b082ac392d",
+   "question": "The correct trend in the first ionization enthalpies of the elements in the 3 rd period of periodic table is :",
+   "options": [
+    "Si < S < Al < P < Cl",
+    "Al < S < P < Si < Cl",
+    "Al < Si < S < P < Cl",
+    "S < Si < Al < P < Cl"
+   ],
+   "correct": 2,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-017",
+   "hash": "085fd3d2330a6560",
+   "question": "Consider the elements N, P, O, S, Cl and F. The number of valence electrons present in the elements with most and least metallic character from the above list is respectively.",
+   "options": [
+    "7 and 5",
+    "5 and 7",
+    "5 and 6",
+    "6 and 7"
+   ],
+   "correct": 1,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-018",
+   "hash": "61bd2d6a891270f9",
+   "question": "The correct order of C, N, O and F in terms of second ionisation potential is",
+   "options": [
+    "C < N < F < O",
+    "C < O < N < F",
+    "C < F < N < O",
+    "F < N < C < O"
+   ],
+   "correct": 0,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-019",
+   "hash": "10659ed9af86a74a",
+   "question": "Choose the INCORRECT statement",
+   "options": [
+    "CO is the most acidic oxide among the dioxides of group of 14 elements. 2",
+    "Carbon exhibits negative oxidation states along with +4 and +2.",
+    "Carbon cannot exceed its covalency more than four.",
+    "Among the isotopes of carbon, 13 C is a radioactive isotope. #PaperPhodnaHai www.mathongo.com Classification of Elements and Periodicity in Properties JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-017",
+   "hash": "41896090b981d0b5",
+   "question": "Given below are two statements : Statement I: C < O < N < F is the correct order in terms of first ionization enthalpy values. Statement II: S > Se > Te > Po > O is the correct order in terms of the magnitude of electron gain enthalpy values. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-018",
+   "hash": "a2a803d72bf18dc8",
+   "question": "Given below are two statements: Statement I: The halogen that makes longest bond with hydrogen in HX, has the smallest covalent radius in its group. Statement II: A group 15 element's hydride EH has the lowest boiling point among corresponding hydrides of 3 other group 15 elements. The maximum covalency of that element E is 4. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 1,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-017",
+   "hash": "0f6e2e8d25ea37c4",
+   "question": "Elements X and Y belong to Group 15. The difference between the electronegativity values of ' X ' and phosphorus is higher than that of the difference between phosphorus and ' Y '. ' X ' \\& ' Y ' are respectively",
+   "options": [
+    "N & As",
+    "As & Sb",
+    "Bi & N",
+    "As & Bi"
+   ],
+   "correct": 0,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-018",
+   "hash": "7e3d437b7a1c6b65",
+   "question": "Given below are two statements: Statement I: The second ionisation enthalpy of Na is larger than the corresponding ionisation enthalpy of Mg. Statement II: The ionic radius of O 2− is larger than that of F . − In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true #PaperPhodnaHai www.mathongo.com Classification of Elements and Periodicity in Properties JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-015",
+   "hash": "a4f286a876375da4",
+   "question": "Which of the following represents the correct trend for the mentioned property ? A. F > P > S > B - First Ionization Energy B. Cl > F > S > P - Electron Affinity C. K > Al > Mg > B - Metallic character D. K O > Na O > MgO > Al O 2 2 2 3 - Basic character Choose the correct answer from the options given below :",
+   "options": [
+    "B and C only",
+    "A, B and D only",
+    "A and B only",
+    "A, B, C and D"
+   ],
+   "correct": 1,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-019",
+   "hash": "10fb5b63ac4b6f17",
+   "question": "In period 4 of the periodic table, the elements with highest and lowest atomic radii are respectively.",
+   "options": [
+    "Rb & Br",
+    "K & Se",
+    "K & Br",
+    "Na & Cl"
+   ],
+   "correct": 2,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-019",
+   "hash": "819b844cbc00e1c2",
+   "question": "Given below are two statements: Statement I: K > Mg > Al > B is the correct order in terms of metallic character. Statement II: Atomic radius is always greater than the ionic radius for any element. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false #PaperPhodnaHai www.mathongo.com Classification of Elements and Periodicity in Properties JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-001",
+   "hash": "97f4cad731f918af",
+   "question": "Let y = y(x) be the solution of the differential equation sec x dy dx − 2y = 2 + 3 sin x, x ∈ (− π 2 , π 2 , y(0) = − . ) 7 4 Then y ( π 6 ) is equal to :",
+   "options": [
+    "− 5 4",
+    "− 5 2",
+    "−3√ 3 − 7",
+    "−3√2 − 7"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-001",
+   "hash": "dc113b4107685c29",
+   "question": "Let y = y(x) be the solution of the differential equation x dy + (4x y + 2 sin x)dx = 0, x > 0, y ( 4 3 π 2 ) = 0 . Then 4 π y( π 3 ) is equal to :",
+   "options": [
+    "72",
+    "92",
+    "64",
+    "81"
+   ],
+   "correct": 3,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-001",
+   "hash": "c5661888539d4385",
+   "question": "Let y = y(x) be the solution of the differential equation x dy dx − y = x 2 cot x, x ∈ (0, π) . If y ( π 2 ) = π 2 , then 6y ( π 6 ) − 8y ( π 4 ) is equal to :",
+   "options": [
+    "3π",
+    "π",
+    "−π",
+    "−3π"
+   ],
+   "correct": 2,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-001",
+   "hash": "367509f2ecf1beb8",
+   "question": "2 2 Let y = y(x) be a differentiable function in the interval (0, ∞) such that y",
+   "options": [
+    "= 2, and lim t y(x)−x y(t) t→x ( ) = 3 x−t for each x > 0. Then 2y",
+    "is equal to",
+    "23",
+    "27"
+   ],
+   "correct": 0,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-001",
+   "hash": "8b224c0473eb277c",
+   "question": "If y = y(x) satisfies the differential equation 16(√x + 9√x)(4 + √9 + √x) cos y dy = (1 + 2 sin y)dx, x > 0 and y(256) = π 2 , y(49) = α , then 2 sin α is equal to :",
+   "options": [
+    "2(√2 − 1)",
+    "3(√2 − 1)",
+    "2√2 − 1",
+    "√2 − 1"
+   ],
+   "correct": 2,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-001",
+   "hash": "d950f089489c9140",
+   "question": "Let the solution curve of the differential equation xdy − ydx = √x + y dx, x > 0, y",
+   "options": [
+    "= 0, be y = y(x). Then 2 2 y",
+    "is equal to",
+    "1",
+    "4"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-002",
+   "hash": "543e61feb41ff33f",
+   "question": "Let f : [1, ∞) → R be a differentiable function. If 6 ∫ for all x ≥ 1, then the value of x 3 f (t)dt = 3xf (x) + x − 4 1 f",
+   "options": [
+    "− f",
+    "is",
+    "-4",
+    "3"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-001",
+   "hash": "91a92a0730ff7aba",
+   "question": "Let y = y(x) be the solution curve of the differential equation (1 + x )dy + (y − tan 2 −1 x)dx = 0, y(0) = 1 . Then the value of y",
+   "options": [
+    "is :",
+    "e 4 π/4 + π 2 − 1",
+    "e 2 π/4 + π 4 − 1",
+    "e 2 π/4 − π 4 − 1"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-001",
+   "hash": "e89c9c466f2d1ea5",
+   "question": "Let y = y(x) be the solution of the differential equation x dy dx − sin 2y = x 3 3 (2 − x ) cos 2 . If y",
+   "options": [
+    "= 0, y, x ≠ 0 then tan(y",
+    ") is equal to",
+    "− 3 4",
+    "3 4"
+   ],
+   "correct": 3,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-002",
+   "hash": "7ed38ef4e7eea416",
+   "question": "Let f (x) = x + x f",
+   "options": [
+    "+ 2xf",
+    "+ f 3 2 ′ ′′ ′′′ . Then the value of f (5) is:",
+    ", x ∈ R ′",
+    "117 5"
+   ],
+   "correct": 0,
+   "chapter": "Differentiation",
+   "topic": "Differentiation",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-003",
+   "hash": "ccc51af704ef8962",
+   "question": "If the line αx + 4y = √7, where α ∈ R, touches the ellipse 3x + 4y 2 2 = 1 at the point P in the first quadrant, then one of the focal distances of P is :",
+   "options": [
+    "√3 1 + 1",
+    "1 − 1 2√ 7 √3 2√ 5",
+    "√3 1 + 1",
+    "1 − 1 2√ 5 √3 2√ 11"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-002",
+   "hash": "2d35a798a1efc866",
+   "question": "2 2 Let the line y − x = 1 intersect the ellipse x 2 + y 1 = 1 at the points A and B. Then the angle made by the line segment AB at the center of the ellipse is :",
+   "options": [
+    "π 2 + tan −1 ( 1 4 )",
+    "π 2 + 2 tan −1 ( 1 4 )",
+    "π 2 − tan −1 ( 1 4 )",
+    "π − tan −1 ( 1 4 )"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-002",
+   "hash": "e5b3d5de8fcbac75",
+   "question": "An ellipse has its center at (1, −2), one focus at (3, −2) and one vertex at (5, −2). Then the length of its latus rectum is :",
+   "options": [
+    "6",
+    "4√3",
+    "16 √3",
+    "6√3"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-003",
+   "hash": "88e981d7c3df2be0",
+   "question": "2 2 2 2 Let the ellipse E : and the hyperbola H : have the same foci. If e and L respectively x y x y + = 1 − 2 = −1 144 169 16 λ denote the eccentricity and the length of the latus rectum of H, then the value of 24(e + L) is :",
+   "options": [
+    "148",
+    "126",
+    "67",
+    "296"
+   ],
+   "correct": 3,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-002",
+   "hash": "22a33fa3794b8811",
+   "question": "2 2 Let the length of the latus rectum of an ellipse x a 2 + y b 2 = 1, (a > b) , be 30. If its eccentricity is the maximum value of the function f (t) = − 3 4 + 2t − t 2 , then (a + b ) is equal to 2 2",
+   "options": [
+    "276",
+    "256",
+    "516",
+    "496"
+   ],
+   "correct": 3,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-002",
+   "hash": "447f858a90f22f28",
+   "question": "2 2 Let S and S be the foci of the ellipse and P(α, β) be a point on the ellipse in the first quadrant. If ′ x y + = 1 25 9 (SP) 2 ′ + (S P) 2 − SP ⋅ S P = 37 ′ , then α + β is equal to : 2 2",
+   "options": [
+    "15",
+    "11",
+    "17",
+    "13 #PaperPhodnaHai www.mathongo.com Ellipse JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-001",
+   "hash": "a1af3ffe099be3b6",
+   "question": "2 2 2 2 Let each of the two ellipses E and E have eccentricity . Let x y x y 4 1 : 2 + 2 = 1, (a > b) 2 : 2 + 2 = 1, ( A < B) a b A B 5 the lengths of the latus recta of E and E be l and l , respectively, such that 2l 1 2 1 2 2 1 = 9l 2 . If the distance between the foci of E is 8, then the distance between the foci of E is 1 2",
+   "options": [
+    "32 5",
+    "8 5",
+    "16 5",
+    "96 5 #PaperPhodnaHai www.mathongo.com Ellipse JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-004",
+   "hash": "3666547259ce5e21",
+   "question": "Given below are two statements: Statement I: The function f : R → R defined by f (x) = x 1+|x| is one-one. 2 Statement II: The function f : R → R defined by f (x) = x +4x−30 2 x −8x+18 is many-one. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-005",
+   "hash": "bc73805818ebbda5",
+   "question": "The sum of all the elements in the range of f (x) = Sgn(sin x) + Sgn(cos x) + Sgn(tan x) + Sgn(cot x), 1, if t > 0 x ≠ nπ 2 , where Sgn(t) = { ,n ∈ Z , is : −1, if t < 0",
+   "options": [
+    "2",
+    "0",
+    "4",
+    "-2"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-003",
+   "hash": "4c2feaf862d9e978",
+   "question": "Let f be a function such that 3f (x) + 2f ( m 19x ) = 5x, x ≠ 0 , where m = ∑ 9 i=1 (i) 2 . Then f (5) − f",
+   "options": [
+    "is equal to",
+    "18",
+    "36",
+    "9"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-003",
+   "hash": "d8f06a8962380487",
+   "question": "Let the domain of the function f (x) = log log (7 − log (x − 10x + 85)) + sin 3 5 2 2 −1 ( 3x−7 17−x ) be (α, β]. Then α + β is equal to :",
+   "options": [
+    "9",
+    "10",
+    "12",
+    "8"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-004",
+   "hash": "7eae4ed4ac0fbe65",
+   "question": "Let f and g be functions satisfying f (x + y) = f (x)f (y), f",
+   "options": [
+    "= 7 and g(x + y) = g(xy), g",
+    "= 1, for all . If ∑ , then n is equal to: n f (x) x, y ∈ N ( ) = 19607 x=1 g(x)",
+    "7",
+    "6"
+   ],
+   "correct": 3,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-003",
+   "hash": "2bf2d1ff0620e83b",
+   "question": "If the domain of the function f (x) = sin −1 ( 5−x 3+2x ) + 1 log e (10−x) is (−∞, α] ∪ [β, γ) − {δ}, then 6(α + β + γ + δ) is equal to",
+   "options": [
+    "67",
+    "66",
+    "70",
+    "68"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-004",
+   "hash": "698478cbd75fa625",
+   "question": "The number of distinct real solutions of the equation x|x + 4| + 3|x + 2| + 10 = 0 is",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "0 #PaperPhodnaHai www.mathongo.com Functions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-001",
+   "hash": "75810e7531dbaaa2",
+   "question": "Consider two sets A = {x ∈ Z : |(|x − 3| − 3)| ≤ 1} and B = {x ∈ R − {1, 2} : . (x−2)(x−4) log (|x − 2|) = 0} x−1 e Then the number of onto functions f : A → B is equal to",
+   "options": [
+    "32",
+    "79",
+    "62",
+    "81"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-002",
+   "hash": "7c28ce83539454f5",
+   "question": "If g(x) = 3x + 2x − 3, f (0) = −3 and 4g(f (x)) = 3x − 32x + 72, then f (g",
+   "options": [
+    ") is equal to: 2 2",
+    "− 7 2",
+    "− 25 6",
+    "7 2"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-002",
+   "hash": "81a190f568eb21ec",
+   "question": "If the domain of the function f (x) = log 2 (10x −17x+7) (18x 2 − 11x + 1) is (−∞, a) ∪ (b, c) ∪ (d, ∞) − {e}, then 90(a + b + c + d + e) equals:",
+   "options": [
+    "170",
+    "307",
+    "316",
+    "177 #PaperPhodnaHai www.mathongo.com Functions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-003",
+   "hash": "24dca10bb9317ee3",
+   "question": "Let the domain of the function f (x) = log log log (9x − x − 13) be the interval (m, n). Let the hyperbola 3 5 7 2 2 2 have eccentricity and the length of the latus rectum . Then b − a is equal to : x y n 8 m 2 2 2 − 2 = 1 a b 3 3",
+   "options": [
+    "7",
+    "11",
+    "5",
+    "9"
+   ],
+   "correct": 0,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-005",
+   "hash": "6af2f6aab3681e41",
+   "question": "2 Let P(10, 2√15) be a point on the hyperbola , whose foci are S and S . If the length of its latus rectum 2 y x ′ 2 − 2 = 1 a b is 8, then the square of the area of ΔPSS is equal to : ′",
+   "options": [
+    "900",
+    "4200",
+    "1462",
+    "2700"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-005",
+   "hash": "5c298148aeaae527",
+   "question": "If the line αx + 2y = 1, where α ∈ R, does not meet the hyperbola x − 9y 2 2 , then a possible value of α is: = 9",
+   "options": [
+    "0.5",
+    "0.6",
+    "0.7",
+    "0.8"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-002",
+   "hash": "a2a8fbcf591beb6d",
+   "question": "2 2 Let PQ be a chord of the hyperbola x 4 − y b 2 = 1 , perpendicular to the x -axis such that OPQ is an equilateral triangle, O being the centre of the hyperbola. If the eccentricity of the hyperbola is √3, then the area of the triangle OPQ is",
+   "options": [
+    "2√3",
+    "11 5",
+    "9 5",
+    "8√ 3 5"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-002",
+   "hash": "8bf3eb83cfd5c670",
+   "question": "2 2 Let the foci of a hyperbola coincide with the foci of the ellipse x 36 + y 16 = 1. If the eccentricity of the hyperbola is 5, then the length of its latus rectum is :",
+   "options": [
+    "16",
+    "24√5",
+    "12",
+    "96 √5"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-004",
+   "hash": "c11cffbd161b1248",
+   "question": "2 x (2−x )⋅e Let f (x) = ∫ 3/2 dx . If f (0) = 0, then f ( 1 2 ) is equal to: (√ 1+x)(1−x)",
+   "options": [
+    "√3e − 1",
+    "√3e + 1",
+    "√2e + 1",
+    "√2e − 1"
+   ],
+   "correct": 0,
+   "chapter": "Indefinite integration",
+   "topic": "Indefinite integration",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  }
+ ]
+}

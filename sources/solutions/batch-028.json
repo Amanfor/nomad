@@ -1,0 +1,1245 @@
+{
+ "batch": 28,
+ "items": [
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-012",
+   "hash": "e38b4abe79b061fb",
+   "question": "If the locus of z ∈ C, such that z−1 z̄ −1 Re( ) + Re( ) = 2 2z+i 2z̄ −i is a circle of radius r and center (a, b) then 15ab 2 is equal to : r",
+   "options": [
+    "24",
+    "12",
+    "18",
+    "16"
+   ],
+   "correct": 2,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-013",
+   "hash": "ec07b084b466ae48",
+   "question": "Let a , a , a … be in an A.P. such that ∑ 1 2 3 12 k=1 a2k−1 = − 72 5 a1 , a1 ≠ 0 . If ∑ n k=1 ak = 0 , then n is:",
+   "options": [
+    "11",
+    "10",
+    "18",
+    "17"
+   ],
+   "correct": 0,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-014",
+   "hash": "156614f0502482e9",
+   "question": "Let a be the n n th term of an A. P. If S n = a1 + a2 + a3 + … + an = 700, a6 = 7 and S = 7, then a is equal to : 7 n",
+   "options": [
+    "56",
+    "65",
+    "64",
+    "70"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-015",
+   "hash": "9c68660e507b015a",
+   "question": "Let a , a , a , … be a G. P. of increasing positive numbers. If a a = 729 and a + a = 1 2 3 3 5 2 4 111 4 , then 24 (a1 + a2 + a3 ) is equal to",
+   "options": [
+    "131",
+    "130",
+    "129",
+    "128"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-016",
+   "hash": "47a43fc2059691ae",
+   "question": "The sum 1 + 1+3 1+3+5 1+3+5+7 2! + 3! + 4! + … upto ∞ terms, is equal to",
+   "options": [
+    "6e",
+    "4e",
+    "3e",
+    "2e"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-017",
+   "hash": "2e6f73012d953450",
+   "question": "Consider two sets A and B, each containing three numbers in A.P. Let the sum and the product of the elements of A be 36 and p respectively and the sum and the product of the elements of B be 36 and q respectively. Let d and D p+q be the common differences of AP's in A and B respectively such that D = d + 3, d > 0. If p−q = 19 5 , then p − q is equal to",
+   "options": [
+    "600",
+    "450",
+    "630",
+    "540"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-018",
+   "hash": "7e801cd4e8c55845",
+   "question": "Let x , x , x , x be in a geometric progression. 2, 7, 9, 5 are subtracted respectively from x , x , x x then the 1 2 3 4 1 2 3 4 resulting numbers are in an arithmetic progression. Then the value of 1 24 (x1 x2 x3 x4 ) is :",
+   "options": [
+    "72",
+    "18",
+    "36",
+    "216"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-019",
+   "hash": "5ec6d6e1d5d1162a",
+   "question": "If the sum of the second, fourth and sixth terms of a G.P. of positive terms is 21 and the sum of its eighth, tenth and twelfth terms is 15309 , then the sum of its first nine terms is :",
+   "options": [
+    "760",
+    "755",
+    "750",
+    "757"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-020",
+   "hash": "47b3ddde718832f3",
+   "question": "1 + 3 + 5 + 7 + 9 + … upto 40 terms is equal to 2 2",
+   "options": [
+    "43890",
+    "41880",
+    "33980",
+    "40870"
+   ],
+   "correct": 1,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-021",
+   "hash": "a35771241344c183",
+   "question": "If the sum of the first 20 terms of the series 4.1 4.2 4.3 4.4 + + + + … 2 4 2 4 2 4 2 4 4+3.1 +1 4+3.2 +2 4+3.3 +3 4+3.4 +4 is m n , where m and n are coprime, then m + n is equal to :-",
+   "options": [
+    "423",
+    "420",
+    "421",
+    "422"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-022",
+   "hash": "9658694fe080cd22",
+   "question": "Let A = {1, 6, 11, 16, …} and B = {9, 16, 23, 30, …} be the sets consisting of the first 2025 terms of two arithmetic progressions. Then n(A ∪ B) is",
+   "options": [
+    "3814",
+    "4027",
+    "3761",
+    "4003"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-023",
+   "hash": "2843abee4906ee63",
+   "question": "The number of sequences of ten terms, whose terms are either 0 or 1 or 2 , that contain exactly five 1 s and exactly three 2 s , is equal to",
+   "options": [
+    "360",
+    "45",
+    "2520",
+    "1820"
+   ],
+   "correct": 2,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-024",
+   "hash": "c76168c806dabcbf",
+   "question": "Line L of slope 2 and line L of slope 1 2 1 2 intersect at the origin O . In the first quadrant, P , P , … . P 1 2 12 are 12 points on line L and Q , Q , … . . Q are 9 points on line L . Then the total number of triangles, that can be 1 1 2 9 2 formed having vertices at three of the 22 points O, P , P , … P , Q , Q , … . Q , is: 1 2 12 1 2 9",
+   "options": [
+    "1080",
+    "1134",
+    "1026",
+    "1188"
+   ],
+   "correct": 1,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-025",
+   "hash": "5d99aeced2e57679",
+   "question": "From a group of 7 batsmen and 6 bowlers, 10 players are to be chosen for a team, which should include atleast 4 batsmen and atleast 4 bowlers. One batsmen and one bowler who are captain and vice-captain respectively of the team should be included. Then the total number of ways such a selection can be made, is",
+   "options": [
+    "165",
+    "155",
+    "145",
+    "135"
+   ],
+   "correct": 1,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-026",
+   "hash": "1f13f092ea0d8686",
+   "question": "There are 12 points in a plane, no three of which are in the same straight line, except 5 points which are collinear. Then the total number of triangles that can be formed with the vertices at any three of these 12 points is",
+   "options": [
+    "230",
+    "220",
+    "200",
+    "210"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-027",
+   "hash": "9295f70debf331d8",
+   "question": "Let p be the number of all triangles that can be formed by joining the vertices of a regular polygon P of n sides and q be the number of all quadrilaterals that can be formed by joining the vertices of P . If p + q = 126, then the 2 2 y eccentricity of the ellipse is : x + = 1 16 n",
+   "options": [
+    "3 4",
+    "1 2 √7",
+    "4",
+    "1 √2"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-028",
+   "hash": "9185171090ef1d0f",
+   "question": "The largest n ∈ N such that 3 divides 50 ! is: n",
+   "options": [
+    "21",
+    "22",
+    "20",
+    "23"
+   ],
+   "correct": 1,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-029",
+   "hash": "6c5a1dc4ca2718e4",
+   "question": "The number of ways, in which the letters A, B, C, D, E can be placed in the 8 boxes of the figure below so that no row remains empty and at most one letter can be placed in a box, is :",
+   "options": [
+    "5880",
+    "960",
+    "840",
+    "5760"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-030",
+   "hash": "9f018d751ce989c5",
+   "question": "10 (x+1) (x+1) The term independent of x in the expansion of ( 2/3 1/3 − 1/2 ) ,x > 1 is: (x +1−x ) (x−x )",
+   "options": [
+    "210",
+    "150",
+    "240",
+    "120"
+   ],
+   "correct": 0,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-031",
+   "hash": "adaedf7bce983be7",
+   "question": "The remainder when ((64) (64) ) (64) is divided by 7 is equal to",
+   "options": [
+    "4",
+    "1",
+    "3",
+    "6"
+   ],
+   "correct": 1,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-032",
+   "hash": "bf24bfbb67f2fcea",
+   "question": "The sum of all rational terms in the expansion of (2 + √3) is 8",
+   "options": [
+    "16923",
+    "3763",
+    "33845",
+    "18817"
+   ],
+   "correct": 3,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-033",
+   "hash": "6980f24386dfea9b",
+   "question": "For an integer n ≥ 2, if the arithmetic mean of all coefficients in the binomial expansion of (x + y) 2n−3 is 16 , then the distance of the point P (2n − 1, n − 4n) from the line x + y = 8 is: 2",
+   "options": [
+    "√2",
+    "2√2",
+    "5√2",
+    "3√2 n"
+   ],
+   "correct": 3,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-034",
+   "hash": "bdc08341aab97d08",
+   "question": "The number of integral terms in the expansion of (5 1 1 1016 2 + 78 ) is",
+   "options": [
+    "127",
+    "130",
+    "129",
+    "128"
+   ],
+   "correct": 3,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-035",
+   "hash": "87e0595c7423c4b2",
+   "question": "If ∑ r+1 11 11 , then α is equal to : 10 10 −1 11 α −11 ( ) ⋅ Cr+1 = r=0 r 10 10 10",
+   "options": [
+    "15",
+    "11",
+    "24",
+    "20"
+   ],
+   "correct": 3,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-036",
+   "hash": "0991ab15b03fb240",
+   "question": "If ∑ 9 then (α + β) is equal to 9 r+3 9 3 2 ( r ). Cr = α( ) − β, α, β ∈ N, r=1 2 2",
+   "options": [
+    "27",
+    "9",
+    "81",
+    "18"
+   ],
+   "correct": 2,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-037",
+   "hash": "cf691444115485bf",
+   "question": "Let the mean and the standard deviation of the observation 2, 3, 3, 4, 5, 7, a, b be 4 and √2 respectively. Then the mean deviation about the mode of these observations is :",
+   "options": [
+    "1",
+    "3 4",
+    "2",
+    "1 2"
+   ],
+   "correct": 0,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-038",
+   "hash": "86bde5f9f7df422c",
+   "question": "Let the Mean and Variance of five observations x = 1, x = 3, x = a, x = 7 and x = b, a > b, be 5 and 10 1 2 3 4 5 respectively. Then the Variance of the observations n + x , n = 1, 2, … … . .5 is n",
+   "options": [
+    "17",
+    "16.4",
+    "17.4",
+    "16"
+   ],
+   "correct": 3,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-039",
+   "hash": "e0ba1cf346cd2a9a",
+   "question": "The mean and standard deviation of 100 observations are 40 and 5.1 , respectively, By mistake one observation is taken as 50 instead of 40. If the correct mean and the correct standard deviation are μ and σ respectively, then 10(μ + σ) is equal to",
+   "options": [
+    "445",
+    "451",
+    "447",
+    "449"
+   ],
+   "correct": 3,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-040",
+   "hash": "3f42dbc8d02711cf",
+   "question": "If the mean and the variance of 6, 4, a, 8, b, 12, 10, 13 are 9 and 9.25 respectively, then a + b + ab is equal to :",
+   "options": [
+    "105",
+    "103",
+    "100",
+    "106"
+   ],
+   "correct": 1,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-041",
+   "hash": "9a2d4816f15409c2",
+   "question": "Let A = [ α −1 ],α > 0 , such that det(A) = 0 and α + β = 1. If I denotes 2 × 2 identity matrix, then the 6 β matrix (1 + A) is: 8 4 −1",
+   "options": [
+    "[ ] 6 −1 257 −64",
+    "[ ] 514 −127 1025 −511",
+    "[ ] 2024 −1024 766 −255",
+    "[ ] 1530 −509"
+   ],
+   "correct": 3,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-042",
+   "hash": "d31328b507bec7ad",
+   "question": "Let α be a solution of x + x + 1 = 0, and for some a and b in 2 1 16 13 ⎡ ⎤ R, [ 4 a b ] ⎢ −1 −1 2 ⎥ = [0 0 0] . If 4 4 + m α a + n b = 3 , then m + n is equal to α α ⎣ ⎦ −2 −14 −8",
+   "options": [
+    "3",
+    "11",
+    "7",
+    "8"
+   ],
+   "correct": 1,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-043",
+   "hash": "7ab3b574d3406fd4",
+   "question": "Let A be a 3 × 3 real matrix such that A (A − 2I )− 4( A − I) = O, where I and O are the identity and null 2 matrices, respectively. If A = αA + βA + γI , where α, β and γ are real constants, then α + β + γ is equal to: 5 2",
+   "options": [
+    "12",
+    "20",
+    "76",
+    "4"
+   ],
+   "correct": 0,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-044",
+   "hash": "dccf6412e90248af",
+   "question": "⎡ 1 0 0 ⎤ Let the matrix A = ⎢ 1 0 1⎥ satisfy A n = A n−2 + A 2 − I for n ≥ 3. Then the sum of all the elements of A 50 ⎣ ⎦ 0 1 0 is :-",
+   "options": [
+    "53",
+    "52",
+    "39",
+    "44"
+   ],
+   "correct": 0,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-045",
+   "hash": "900778cefc3028f3",
+   "question": "⎡ 1 a 1 ⎤ Let a ∈ R and A be a matrix of order 3 × 3 such that det(A) = −4 and A + I = ⎢ 2 1 0⎥ , where I is the ⎣ ⎦ a 1 2 identity matrix of order 3 × 3. If det((a + 1) adj((a − 1)A)) is 2 3 , m, n ∈ {0, 1, 2, … .20}, then m + n is equal to : m n",
+   "options": [
+    "14",
+    "17",
+    "15",
+    "16"
+   ],
+   "correct": 3,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-046",
+   "hash": "6ac08df53c5bc9d6",
+   "question": "Let A be a matrix of order 3 × 3 and |A| = 5. If |2 adj(3 A adj(2 A))| = 2 α ⋅ 3 β γ ⋅ 5 α, β, γ ∈ N then α + β + γ is equal to",
+   "options": [
+    "25",
+    "26",
+    "27",
+    "28"
+   ],
+   "correct": 2,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-047",
+   "hash": "78449e1eda84db00",
+   "question": "⎡ 2 2 + p 2 + p + q ⎤ Let A = ⎢ 4 6 + 2p 8 + 3p + 2q ⎥ . ⎣ ⎦ 6 12 + 3p 20 + 6p + 3q If det(adj(adj(3 A))) = 2 m n ⋅ 3 , m, n ∈ N , then m + n is equal to",
+   "options": [
+    "22",
+    "24",
+    "26",
+    "20"
+   ],
+   "correct": 1,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-048",
+   "hash": "1fddf680c47058c5",
+   "question": "Let the system of equations x + 5y − z = 1 4x + 3y − 3z = 7 24x + y + λz = μ λ, μ ∈ R , have infinitely many solutions. Then the number of the solutions of this system, If x, y, z are integers and satisfy 7 ≤ x + y + z ≤ 77, is",
+   "options": [
+    "3",
+    "6",
+    "5",
+    "4"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-049",
+   "hash": "8b0ea9f2bb7b3e11",
+   "question": "∣ sin x cos x sin x + cos x + 1 ∣ 2 ∣ ∣ d y If y(x) = ∣ 27 28 27 ∣ ,x ∈ R , then 2 + y is equal to dx ∣ 1 1 1 ∣",
+   "options": [
+    "−1",
+    "28",
+    "27",
+    "1"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-050",
+   "hash": "8fe43cb520145529",
+   "question": "If the system of linear equations 3x + y + βz = 3 2x + αy − z = −3 x + 2y + z = 4 has infinitely many solutions, then the value of 22β − 9α is :",
+   "options": [
+    "49",
+    "31",
+    "43",
+    "37"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-051",
+   "hash": "f9abfbc172decb79",
+   "question": "Let the system of equations : 2x + 3y + 5z = 9 7x + 3y − 2z = 8 12x + 3y − (4 + λ)z = 16 − μ have infinitely many solutions. Then the radius of the circle centred at (λ, μ) and touching the line 4x = 3y is",
+   "options": [
+    "17 5",
+    "7 5",
+    "7",
+    "21 5"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-052",
+   "hash": "a554ea19d0090385",
+   "question": "The probability, of forming a 12 persons committee from 4 engineers, 2 doctors and 10 professors containing at least 3 engineers and at least 1 doctor, is:",
+   "options": [
+    "129 182",
+    "103 182",
+    "17 26",
+    "19 26"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-053",
+   "hash": "a434313136e4ab1c",
+   "question": "Let A be the set of all functions f : Z → Z and R be a relation on A such that R = {(f , g) : f (0) = g",
+   "options": [
+    "and f",
+    "= g(0)} . Then R is:",
+    "Symmetric and transitive but not reflective",
+    "Symmetric but neither reflective nor transitive"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-054",
+   "hash": "8edad6329e82172d",
+   "question": "Let A = {−3, −2, −1, 0, 1, 2, 3} and R be a relation on A defined by xRy if and only if 2x − y ∈ {0, 1}. Let l be the number of elements in R. Let m and n be the minimum number of elements required to be added in R to make it reflexive and symmetric relations, respectively. Then l + mn is equal to :-",
+   "options": [
+    "18",
+    "17",
+    "15",
+    "16"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-055",
+   "hash": "ab57f11589f72663",
+   "question": "If the domain of the function f (x) = 1 + 1 is (a, b), then (1 + a) + b is equal to : 2 2 √10+3x−x2 √x+|x|",
+   "options": [
+    "26",
+    "29",
+    "25",
+    "30"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-056",
+   "hash": "137c05c046f43332",
+   "question": "If the domain of the function f (x) = log (1 − log (x − 9x + 18)) is (α, β) ∪ (γ, δ), then α + β + γ + δ is 7 4 2 equal to Functions Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+   "options": [
+    "18",
+    "16",
+    "15",
+    "17"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-057",
+   "hash": "17ddba3184265a1f",
+   "question": "Consider the sets A = {(x, y) ∈ R × R : x + y = 25}, B = {(x, y) ∈ R × R : x + 9y = 144} , C = {(x, y) 2 2 2 2 ∈ Z × Z : x 2 + y 2 ≤ 4} , and D = A ∩ B. The total number of one-one functions from the set D to the set C is:",
+   "options": [
+    "15120",
+    "19320",
+    "17160",
+    "18290"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-058",
+   "hash": "27387077d1d3f5b7",
+   "question": "tan(5(x) 3 ) log (1+3x ) e 2 lim x→0 + 4 is equal to 2 −1 5(x) 3 (tan 3√x) (e −1)",
+   "options": [
+    "1 15",
+    "1",
+    "1 3",
+    "5 3 2"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-059",
+   "hash": "453812c3e51d16d3",
+   "question": "Given below are two statements : −1 1+x tan x+log √ −2x e Statement I : lim 1−x 2 x→0 ( ) = x 5 5 2 Statement II : lim x→1 (x 1−x ) = e 1 2 In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false Limits Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+    "Both Statement I and Statement II are true 1"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-060",
+   "hash": "0f6a1bb85f4bdb69",
+   "question": "The shortest distance between the curves y 2 = 8x and x + y + 12y + 35 = 0 is : 2 2",
+   "options": [
+    "2√3 − 1",
+    "√2",
+    "3√2 − 1",
+    "2√2 − 1"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-061",
+   "hash": "5ba01093ae0c56a7",
+   "question": "Let the function f (x) = x 3 + 3 x + 3, x ≠ 0 be strictly increasing in (−∞, α ) U (α , ∞) and strictly decreasing in 1 2 (α3 , α4 ) U (α4 , α5 ) . Then ∑ 5 i=1 α 2 i is equal to :-",
+   "options": [
+    "48 Application of Derivatives Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+    "28",
+    "40",
+    "36"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-062",
+   "hash": "4c3a969a458e8e7a",
+   "question": "Let f be a differentiable function on R such that f",
+   "options": [
+    "= 1, f",
+    "= 4. Let lim ′ x→0 (f (2 + x)) 3/x = e α . Then the number of times the curve y = 4x − 4x − 4(α − 7)x − α meets x -axis is :- 3 2",
+    "2",
+    "1"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-063",
+   "hash": "e545b9366e52acd7",
+   "question": "4 ∫ 1 ( 1 ) dx − 3 log (√3) is equal to : 0 e √3+x2 +√1+x2",
+   "options": [
+    "2 + √2 + log (1 + √2) e",
+    "2 − √2 − log (1 + √2) e",
+    "2 + √2 − log (1 + √2) e",
+    "2 − √2 + log (1 + √2) e"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-064",
+   "hash": "bd8c0f2f53a63dd9",
+   "question": "The value of ∫ x −x 1 (1+√|x|−x)e +(√|x|−x)e −1 x e +e −x dx is equal to 2√2",
+   "options": [
+    "3 − 3 2√2",
+    "2 + 3 2√2",
+    "1 − 3 2√2",
+    "1 + 3 3"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-065",
+   "hash": "16466830f989a626",
+   "question": "If the area of the region bounded by the curves y = 4 − x and y = x−4 4 ​ 2 is equal to α, then 6α equals ​",
+   "options": [
+    "250",
+    "210",
+    "240",
+    "220"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-066",
+   "hash": "dea382022eaaa00d",
+   "question": "Let g be a differentiable function such that ∫ and let y = y(x) satisfy the x x g(t)dt = x − ∫ tg(t)dt, x ≥ 0 0 0 dy differential equation dx − y tan x = 2(x + 1) sec xg(x), x ∈ [0, π 2 ) . If y(0) = 0, then y ( π 3 ) is equal to",
+   "options": [
+    "2π 3√3",
+    "4π 3",
+    "2π 3",
+    "4π 3√3"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-067",
+   "hash": "0a098bb676c1543f",
+   "question": "If a curve y = y(x) passes through the point (1, π ) and satisfies the differential equation 2 (7x 4 cot y − e x cosec y) dx dy 5 = x ,x ≥ 1 , then at x = 2, the value of cosy is: 2",
+   "options": [
+    "2e −e 64 2 2e +e",
+    "64 2 2e −e",
+    "128 Differential Equations Chapter-wise Question Bank JEE Main 2025 April MathonGo 2 2e +e",
+    "128"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-068",
+   "hash": "2c5e3e24e369d20e",
+   "question": "Let the equation x(x + 2)(12 − k) = 2 have equal roots. Then the distance of the point (k, k ) from the line 2 3x + 4y + 5 = 0 is",
+   "options": [
+    "15",
+    "5√3",
+    "15√5",
+    "12"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-069",
+   "hash": "6f7a7e09cc0e7548",
+   "question": "Let ABC be the triangle such that the equations of lines AB and AC be 3y − x = 2 and x + y = 2, respectively, and the points B and C lie on x -axis. If P is the orthocentre of the triangle ABC , then the area of the triangle PBC is equal to",
+   "options": [
+    "4",
+    "10",
+    "8 Straight Lines Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+    "6"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-070",
+   "hash": "11ed63f074b8a498",
+   "question": "A line passes through the origin and makes equal angles with the positive coordinate axes. It intersects the lines L1 : 2x + y + 6 = 0 and L : 4x + 2y − p = 0, p > 0, at the points A and B, respectively. If AB = 2 9 and the √2 foot of the perpendicular from the point A on the line L is M , then 2 AM BM is equal to",
+   "options": [
+    "5",
+    "4",
+    "2",
+    "3"
+   ],
+   "correct": 2,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-071",
+   "hash": "11667b7ce44a5d87",
+   "question": "Let C be the circle in the third quadrant of radius 3 , that touches both coordinate axes. Let C be the circle with 1 2 centre (1, 3) that touches C externally at the point (α, β). If (β − α) = 1 2 m n , gcd(m, n) = 1 , then m + n is equal to :",
+   "options": [
+    "9",
+    "13",
+    "22",
+    "31 Parabola Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Probability",
+   "topic": "Probability",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": "Probability and Distributions",
+   "formulas": [
+    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
+    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
+    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
+    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
+    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
+    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
+    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
+   ]
+  }
+ ]
+}
