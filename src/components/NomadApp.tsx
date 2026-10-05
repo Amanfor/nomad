@@ -905,6 +905,59 @@ function WanderOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: b
   );
 }
 
+function GestureConfigOverlay({ onClose, isMobile, settings, setSettings, gestureStatus, gestureError }: { onClose: () => void; isMobile: boolean; settings: Settings; setSettings: (s: Settings) => void; gestureStatus?: string | null; gestureError?: string | null }) {
+  const toggle = (key: keyof Settings) => {
+    setSettings({ ...settings, [key]: !settings[key] });
+  };
+  return (
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} style={{ position: 'fixed', inset: 0, zIndex: 100, background: '#000', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start', overflowY: 'auto', padding: '4.5rem 1rem 3rem', boxSizing: 'border-box' }}>
+      <button onClick={onClose} className="nomad-btn" style={{ position: 'absolute', top: '1.5rem', left: '1.5rem' }}>⟨ exit ⟩</button>
+      <div style={{ ...S.headerTitle, fontSize: isMobile ? '0.75rem' : '0.85rem', marginBottom: isMobile ? '2rem' : '3rem' }}>GESTURES</div>
+
+      <div style={{ display: 'flex', flexDirection: 'column', gap: isMobile ? '1rem' : '1.5rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0' }}>
+        {[
+          { key: 'enableGesture' as keyof Settings, label: 'Gesture Mode (camera access needed)' },
+          { key: 'showGesturePreview' as keyof Settings, label: 'Show Camera Preview' },
+        ].map(({ key, label }) => (
+          <div key={key} style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'flex-start' : 'center', borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: isMobile ? '0.5rem' : '1rem', gap: isMobile ? '0.5rem' : '0' }}>
+            <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: isMobile ? '0.95rem' : '0.85rem' }}>{label}</span>
+            <span onClick={() => toggle(key)} style={{ cursor: 'pointer', fontSize: isMobile ? '0.85rem' : '0.75rem', color: settings[key] ? '#fff' : 'rgba(255,255,255,0.3)', letterSpacing: '0.1em', transition: 'color 0.2s', alignSelf: isMobile ? 'flex-end' : 'auto' }}>
+              [ {settings[key] ? 'ENABLED' : 'DISABLED'} ]
+            </span>
+          </div>
+        ))}
+      </div>
+
+      <div style={{ marginTop: '1rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0' }}>
+        {(settings.enableGesture || gestureError) && (
+          <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', lineHeight: 1.5, marginBottom: '1rem' }}>
+            {gestureError ?? gestureStatus ?? 'runs on your device. nothing is recorded.'}
+          </div>
+        )}
+      </div>
+
+      <div style={{ width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '1.5rem' }}>
+        <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>gestures</div>
+        {[
+          ['pinch + drag', 'white cursor; release to click'],
+          ['1 finger held', 'select option 1'],
+          ['2 fingers held', 'select option 2'],
+          ['3 fingers held', 'select option 3'],
+          ['4 fingers held', 'select option 4'],
+          ['closed fist held', 'conceal solution'],
+          ['thumbs-up held', 'back / home'],
+          ['2 fingers drag', 'scroll page'],
+        ].map(([pose, desc]) => (
+          <div key={pose} style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(255,255,255,0.04)', paddingBottom: '0.5rem', marginBottom: '0.5rem', alignItems: 'baseline' }}>
+            <span style={{ color: 'rgba(255,255,255,0.8)', fontSize: isMobile ? '0.85rem' : '0.8rem' }}>{pose}</span>
+            <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.7rem', textAlign: 'right', maxWidth: '55%' }}>{desc}</span>
+          </div>
+        ))}
+      </div>
+    </motion.div>
+  );
+}
+
 
 type Settings = {
   enableAnimations: boolean;
@@ -1522,6 +1575,7 @@ export default function NomadApp() {
   const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [isFormulasOpen, setIsFormulasOpen] = useState(false);
   const [isWanderOpen, setIsWanderOpen] = useState(false);
+  const [isGestureConfigOpen, setIsGestureConfigOpen] = useState(false);
   // Wisdom (opt-in AI): ask-bar mode + the open chat session's first question.
   const [isWisdom, setIsWisdom] = useState(false);
   const [wisdomQuestion, setWisdomQuestion] = useState<string | null>(null);
@@ -2393,6 +2447,19 @@ export default function NomadApp() {
 
       <AnimatePresence>
         {isWanderOpen && <WanderOverlay onClose={() => setIsWanderOpen(false)} isMobile={isMobile} />}
+
+        <AnimatePresence>
+          {isGestureConfigOpen && (
+            <GestureConfigOverlay
+              onClose={() => setIsGestureConfigOpen(false)}
+              isMobile={isMobile}
+              settings={settings}
+              setSettings={(s) => { if (s.enableGesture) setGestureError(null); setSettings(s); }}
+              gestureStatus={gestureStatus}
+              gestureError={gestureError}
+            />
+          )}
+        </AnimatePresence>
       </AnimatePresence>
 
       <AnimatePresence>
@@ -2445,6 +2512,26 @@ export default function NomadApp() {
       >
         ⟨ SETTINGS ⟩
       </button>
+      )}
+
+      {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
+        <button
+          id="nomad-gestures-btn"
+          onClick={() => setIsGestureConfigOpen(true)}
+          className={`nomad-btn ${isGestureConfigOpen || settings.alwaysGlow || gazingAt === 'gestures' ? 'active' : ''}`}
+          style={{
+            position: 'fixed',
+            bottom: '7.5rem',
+            left: '1.5rem',
+            zIndex: 50,
+            fontSize: '0.55rem',
+            pointerEvents: introActive ? 'none' : 'auto',
+            color: (isGestureConfigOpen || settings.alwaysGlow || gazingAt === 'gestures') ? 'rgba(255,255,255,1)' : '',
+            textShadow: (isGestureConfigOpen || settings.alwaysGlow || gazingAt === 'gestures') ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
+          }}
+        >
+          ⟨ GESTURES ⟩
+        </button>
       )}
 
       {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
