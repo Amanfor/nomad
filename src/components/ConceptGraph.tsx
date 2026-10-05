@@ -16,13 +16,20 @@ const BASE = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
 function renderRich(text: string): string {
   const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   try {
-    return esc(text)
-      .replace(/\$\$([\s\S]+?)\$\$/g, (_, m) => {
-        try { return katex.renderToString(m.trim(), { displayMode: true }); } catch { return _; }
+    // render math on the RAW text (escaping would turn '->' into '-&gt;' and break KaTeX);
+    // only prose between $...$ spans is HTML-escaped
+    const parts = text.split(/(\$\$[\s\S]+?\$\$|\$[^$]+?\$)/g);
+    return parts
+      .map((tok) => {
+        if (tok.startsWith('$$') && tok.endsWith('$$') && tok.length > 4) {
+          try { return katex.renderToString(tok.slice(2, -2).trim(), { displayMode: true }); } catch { return esc(tok); }
+        }
+        if (tok.startsWith('$') && tok.endsWith('$') && tok.length > 2) {
+          try { return katex.renderToString(tok.slice(1, -1).trim(), { displayMode: false }); } catch { return esc(tok); }
+        }
+        return esc(tok);
       })
-      .replace(/\$([^$]+?)\$/g, (_, m) => {
-        try { return katex.renderToString(m.trim(), { displayMode: false }); } catch { return _; }
-      })
+      .join('')
       .replace(/\n/g, '<br/>');
   } catch {
     return esc(text);
@@ -165,6 +172,7 @@ export default function ConceptGraph() {
       cam.x = -((minX + maxX) / 2);
       cam.y = -((minY + maxY) / 2);
     };
+    fit();
 
     const toWorld = (cx: number, cy: number, rect: DOMRect) => ({
       x: (cx - rect.left - W / 2) / cam.k - cam.x,
