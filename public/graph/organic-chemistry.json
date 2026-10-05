@@ -23,7 +23,7 @@
    "label": "Alcohol, Phenol and Ethers",
    "group": "Alcohols, Phenols and Ethers",
    "depth": 2,
-   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R\\'$. General: $$R-OH$$ (5 PYQs)",
+   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R'$. General: $$R-OH$$ (5 PYQs)",
    "from_local": true
   },
   {
@@ -239,7 +239,7 @@
    "label": "Grignard Synthesis of Alcohols",
    "group": "Alcohols, Phenols and Ethers",
    "depth": 3,
-   "note": "$$R-MgX + R\\'-CHO \\xrightarrow{H_3O^+} R-CH(OH)-R\\'$$",
+   "note": "$$R-MgX + R'-CHO \\xrightarrow{H_3O^+} R-CH(OH)-R'$$",
    "from_local": true
   },
   {
@@ -271,7 +271,7 @@
    "label": "Williamson Ether Synthesis",
    "group": "Alcohols, Phenols and Ethers",
    "depth": 3,
-   "note": "$$R-O^-Na^+ + R\\'-X -> R-O-R\\' + NaX$$",
+   "note": "$$R-O^-Na^+ + R'-X -> R-O-R' + NaX$$",
    "from_local": true
   },
   {
@@ -311,7 +311,7 @@
    "label": "Ozonolysis to Carbonyls",
    "group": "Aldehydes, Ketones and Carboxylic Acids",
    "depth": 3,
-   "note": "$$R-CH{=}CH-R\\' \\xrightarrow{O_3} R-CHO + R\\'-CHO$$",
+   "note": "$$R-CH{=}CH-R' \\xrightarrow{O_3} R-CHO + R'-CHO$$",
    "from_local": true
   },
   {
@@ -615,7 +615,7 @@
    "label": "Saytzeff Elimination",
    "group": "Hydrocarbons",
    "depth": 3,
-   "note": "$$R-CH_2-CH(X)-R\\' \\xrightarrow{alc.\\ KOH} R-CH{=}CH-R\\'$$ (more substituted alkene)",
+   "note": "$$R-CH_2-CH(X)-R' \\xrightarrow{alc.\\ KOH} R-CH{=}CH-R'$$ (more substituted alkene)",
    "from_local": true
   },
   {
@@ -719,7 +719,7 @@
    "label": "Peptide Bond Formation",
    "group": "Proteins and Enzymes",
    "depth": 3,
-   "note": "$$H_2N-CHR-COOH + H_2N-CHR\\'-COOH -> H_2N-CHR-CO-NH-CHR\\'-COOH + H_2O$$",
+   "note": "$$H_2N-CHR-COOH + H_2N-CHR'-COOH -> H_2N-CHR-CO-NH-CHR'-COOH + H_2O$$",
    "from_local": true
   },
   {

@@ -165,7 +165,6 @@ export default function ConceptGraph() {
       cam.x = -((minX + maxX) / 2);
       cam.y = -((minY + maxY) / 2);
     };
-    fit();
 
     const toWorld = (cx: number, cy: number, rect: DOMRect) => ({
       x: (cx - rect.left - W / 2) / cam.k - cam.x,

@@ -19,7 +19,7 @@
    "label": "Alcohol, Phenol and Ethers",
    "group": "Alcohols, Phenols and Ethers",
    "depth": 2,
-   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R\\'$. General: $$R-OH$$ (5 PYQs)"
+   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R'$. General: $$R-OH$$ (5 PYQs)"
   },
   {
    "id": "alcohols-phenols-and-ethers--alcohols-phenols-and-ethers",
@@ -33,7 +33,7 @@
    "label": "Alcohols, Phenols and Ethers",
    "group": "Alcohols, Phenols and Ethers",
    "depth": 2,
-   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R\\'$. General: $$R-OH$$ (13 PYQs)"
+   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R'$. General: $$R-OH$$ (13 PYQs)"
   },
   {
    "id": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-alcohols",
@@ -348,7 +348,7 @@
    "label": "Grignard Synthesis of Alcohols",
    "group": "Alcohols, Phenols and Ethers",
    "depth": 3,
-   "note": "$$R-MgX + R\\'-CHO \\xrightarrow{H_3O^+} R-CH(OH)-R\\'$$"
+   "note": "$$R-MgX + R'-CHO \\xrightarrow{H_3O^+} R-CH(OH)-R'$$"
   },
   {
    "id": "alcohols-phenols-and-ethers--reimer-tiemann-reaction",
@@ -376,7 +376,7 @@
    "label": "Williamson Ether Synthesis",
    "group": "Alcohols, Phenols and Ethers",
    "depth": 3,
-   "note": "$$R-O^-Na^+ + R\\'-X -> R-O-R\\' + NaX$$"
+   "note": "$$R-O^-Na^+ + R'-X -> R-O-R' + NaX$$"
   },
   {
    "id": "alcohols-phenols-and-ethers--zeisel-determination",
@@ -411,7 +411,7 @@
    "label": "Ozonolysis to Carbonyls",
    "group": "Aldehydes, Ketones and Carboxylic Acids",
    "depth": 3,
-   "note": "$$R-CH{=}CH-R\\' \\xrightarrow{O_3} R-CHO + R\\'-CHO$$"
+   "note": "$$R-CH{=}CH-R' \\xrightarrow{O_3} R-CHO + R'-CHO$$"
   },
   {
    "id": "aldehydes-ketones-and-carboxylic-acids--tollens-test",
@@ -684,7 +684,7 @@
    "label": "Saytzeff Elimination",
    "group": "Hydrocarbons",
    "depth": 3,
-   "note": "$$R-CH_2-CH(X)-R\\' \\xrightarrow{alc.\\ KOH} R-CH{=}CH-R\\'$$ (more substituted alkene)"
+   "note": "$$R-CH_2-CH(X)-R' \\xrightarrow{alc.\\ KOH} R-CH{=}CH-R'$$ (more substituted alkene)"
   },
   {
    "id": "hydrocarbons--friedel-crafts-alkylation",
@@ -775,7 +775,7 @@
    "label": "Peptide Bond Formation",
    "group": "Proteins and Enzymes",
    "depth": 3,
-   "note": "$$H_2N-CHR-COOH + H_2N-CHR\\'-COOH -> H_2N-CHR-CO-NH-CHR\\'-COOH + H_2O$$"
+   "note": "$$H_2N-CHR-COOH + H_2N-CHR'-COOH -> H_2N-CHR-CO-NH-CHR'-COOH + H_2O$$"
   },
   {
    "id": "proteins-and-enzymes--denaturation",
