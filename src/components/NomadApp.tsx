@@ -849,21 +849,29 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
                     );
                   })}
                 </div>
-                {q && selectedAnswer !== null && (q as any).solution && (q as any).solution.trim().length > 0 && (
+                {q && selectedAnswer !== null && (
                   <div style={{ marginTop: '1.75rem', width: '100%', maxWidth: '400px', textAlign: 'center' }}>
-                    <button
-                      onClick={() => setShowSolutionNote(prev => !prev)}
-                      className="nomad-btn"
-                      style={{ border: '1px solid rgba(255,255,255,0.2)', borderRadius: 4, padding: '0.6rem 1.2rem', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '0.12em' }}
-                    >
-                      ⟨ {showSolutionNote ? 'conceal solution' : 'see solution'} ⟩
-                    </button>
-                    {showSolutionNote && (
-                      <div
-                        className="nomad-prose"
-                        style={{ marginTop: '1.5rem', textAlign: 'left', fontSize: '0.85rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.7, fontWeight: 300 }}
-                        dangerouslySetInnerHTML={{ __html: renderContent((q as any).solution) }}
-                      />
+                    {(q as any).solution && (q as any).solution.trim().length > 0 ? (
+                      <>
+                        <button
+                          onClick={() => setShowSolutionNote(prev => !prev)}
+                          className="nomad-btn"
+                          style={{ border: '1px solid rgba(255,255,255,0.2)', borderRadius: 4, padding: '0.6rem 1.2rem', fontSize: '0.7rem', textTransform: 'uppercase', letterSpacing: '0.12em' }}
+                        >
+                          ⟨ {showSolutionNote ? 'conceal solution' : 'see solution'} ⟩
+                        </button>
+                        {showSolutionNote && (
+                          <div
+                            className="nomad-prose"
+                            style={{ marginTop: '1.5rem', textAlign: 'left', fontSize: '0.85rem', color: 'rgba(255,255,255,0.75)', lineHeight: 1.7, fontWeight: 300 }}
+                            dangerouslySetInnerHTML={{ __html: renderContent((q as any).solution) }}
+                          />
+                        )}
+                      </>
+                    ) : (
+                      <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.3)', letterSpacing: '0.06em', lineHeight: 1.6 }}>
+                        solution pending · tracked in content status
+                      </div>
                     )}
                   </div>
                 )}
@@ -1013,7 +1021,7 @@ const DEFAULT_SETTINGS: Settings = {
   showGesturePreview: true,
 };
 
-function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts, gestureStatus, gestureError }: { settings: Settings, setSettings: (s: Settings) => void, onClose: () => void, isMobile: boolean, concepts?: Concept[], gestureStatus?: string | null, gestureError?: string | null }) {
+function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts, gestureStatus, gestureError, onOpenGestureConfig }: { settings: Settings, setSettings: (s: Settings) => void, onClose: () => void, isMobile: boolean, concepts?: Concept[], gestureStatus?: string | null, gestureError?: string | null, onOpenGestureConfig?: () => void }) {
   const toggle = (key: keyof Settings) => {
     if (key === 'lightMode') {
       const newLightMode = !settings.lightMode;
@@ -1064,6 +1072,16 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts, g
           <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', lineHeight: 1.5 }}>
             {gestureError ?? gestureStatus ?? 'runs on your device. nothing is recorded.'}
           </div>
+        </div>
+      )}
+
+      {/* Gesture map — remap poses/hands. Gestures ship off by default; the
+          config lives here at settings level instead of its own rail button. */}
+      {settings.enableGesture && onOpenGestureConfig && (
+        <div style={{ marginTop: '1.5rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', display: 'flex', justifyContent: 'center' }}>
+          <button className="nomad-btn" onClick={onOpenGestureConfig} style={{ fontSize: isMobile ? '0.8rem' : '0.7rem' }}>
+            ⟨ configure gesture map ⟩
+          </button>
         </div>
       )}
 
@@ -2439,7 +2457,7 @@ export default function NomadApp() {
       </AnimatePresence>
 
       <AnimatePresence>
-        {isSettingsOpen && <SettingsOverlay settings={settings} setSettings={(s) => { if (s.enableGesture) setGestureError(null); setSettings(s); }} onClose={() => setIsSettingsOpen(false)} isMobile={isMobile} concepts={concepts} gestureStatus={gestureStatus} gestureError={gestureError} />}
+        {isSettingsOpen && <SettingsOverlay settings={settings} setSettings={(s) => { if (s.enableGesture) setGestureError(null); setSettings(s); }} onClose={() => setIsSettingsOpen(false)} isMobile={isMobile} concepts={concepts} gestureStatus={gestureStatus} gestureError={gestureError} onOpenGestureConfig={() => { setIsSettingsOpen(false); setIsGestureConfigOpen(true); }} />}
       </AnimatePresence>
 
       <GestureLayer
@@ -2475,7 +2493,7 @@ export default function NomadApp() {
         <AnimatePresence>
           {isGestureConfigOpen && (
             <GestureConfigOverlay
-              onClose={() => setIsGestureConfigOpen(false)}
+              onClose={() => { setIsGestureConfigOpen(false); setIsSettingsOpen(true); }}
               isMobile={isMobile}
               settings={settings}
               setSettings={(s) => { if (s.enableGesture) setGestureError(null); setSettings(s); }}
@@ -2542,26 +2560,6 @@ export default function NomadApp() {
       >
         ⟨ SETTINGS ⟩
       </button>
-      )}
-
-      {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
-        <button
-          id="nomad-gestures-btn"
-          onClick={() => setIsGestureConfigOpen(true)}
-          className={`nomad-btn ${isGestureConfigOpen || settings.alwaysGlow || gazingAt === 'gestures' ? 'active' : ''}`}
-          style={{
-            position: 'fixed',
-            bottom: '7.5rem',
-            left: '1.5rem',
-            zIndex: 50,
-            fontSize: '0.55rem',
-            pointerEvents: introActive ? 'none' : 'auto',
-            color: (isGestureConfigOpen || settings.alwaysGlow || gazingAt === 'gestures') ? 'rgba(255,255,255,1)' : '',
-            textShadow: (isGestureConfigOpen || settings.alwaysGlow || gazingAt === 'gestures') ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
-          }}
-        >
-          ⟨ GESTURES ⟩
-        </button>
       )}
 
       {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
@@ -2824,10 +2822,15 @@ export default function NomadApp() {
                   <div style={{ color: '#fff', fontSize: '1rem', marginBottom: '1rem', fontWeight: 500 }}
                        dangerouslySetInnerHTML={{ __html: renderInlineLatex(`ANSWER: ${['A', 'B', 'C', 'D'][selectedQuestion.correct]}. ${selectedQuestion.options[selectedQuestion.correct]}`) }}
                   />
-                  <div 
+                  <div
                     style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.85rem', lineHeight: 1.7 }}
                     dangerouslySetInnerHTML={{ __html: renderContent((selectedQuestion as any).solution || '') }}
                   />
+                  {(!((selectedQuestion as any).solution) || !(selectedQuestion as any).solution.trim()) && (
+                    <div style={{ color: 'rgba(255,255,255,0.3)', fontSize: '0.7rem', letterSpacing: '0.06em' }}>
+                      solution pending · tracked in content status
+                    </div>
+                  )}
                 </motion.div>
               )}
             </AnimatePresence>
