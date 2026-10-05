@@ -59,6 +59,13 @@
       "note": "$\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C$ for $n \\neq -1$, and $\\int \\frac{1}{x}\\,dx = \\ln|x| + C$. The case $n = -1$ is exactly the gap where the power rule would divide by zero."
     },
     {
+      "id": "int-power-example",
+      "label": "Example: Integrating $x^3$",
+      "group": "Standard Forms",
+      "depth": 3,
+      "note": "$\\int x^3\\,dx = \\frac{x^4}{4} + C$; always raise the power by one and divide by the new power."
+    },
+    {
       "id": "int-standard-table",
       "label": "Standard Integral Table",
       "group": "Standard Forms",
@@ -171,6 +178,13 @@
       "note": "Repeated factors contribute $\\frac{A}{x-a} + \\frac{B}{(x-a)^2} + \\cdots$, and irreducible quadratics contribute $\\frac{Cx + D}{x^2 + px + q}$. Completing the square then reduces them to standard forms."
     },
     {
+      "id": "int-partial-repeated-example",
+      "label": "Example: Repeated Factor",
+      "group": "Partial Fractions",
+      "depth": 3,
+      "note": "$\\frac{1}{(x-1)^2}$ integrates directly: $\\int \\frac{dx}{(x-1)^2} = -\\frac{1}{x-1} + C$. A repeated linear factor is just a power rule in disguise."
+    },
+    {
       "id": "int-trig",
       "label": "Trig Identities in Integrals",
       "group": "Trig Identities in Integrals",
@@ -197,6 +211,13 @@
       "group": "Trig Identities in Integrals",
       "depth": 2,
       "note": "$2\\sin A \\cos B = \\sin(A+B) + \\sin(A-B)$ and similar product-to-sum formulas convert products into sums that integrate term by term."
+    },
+    {
+      "id": "int-trig-product-example",
+      "label": "Example: $sin x cos 3x$",
+      "group": "Trig Identities in Integrals",
+      "depth": 3,
+      "note": "$\\sin x \\cos 3x = \\frac{1}{2}[\\sin 4x + \\sin(-2x)]$, so $\\int \\sin x \\cos 3x\\,dx = -\\frac{\\cos 4x}{8} + \\frac{\\cos 2x}{4} + C$."
     },
     {
       "id": "int-definite",
@@ -239,6 +260,13 @@
       "group": "Definite Integrals and Properties",
       "depth": 2,
       "note": "$\\int_{-a}^{a} f(x)\\,dx = 2\\int_0^a f(x)\\,dx$ for even $f$, and $0$ for odd $f$. Always check symmetry before integrating on a symmetric interval."
+    },
+    {
+      "id": "int-symmetry-example",
+      "label": "Example: Odd Integrand",
+      "group": "Definite Integrals and Properties",
+      "depth": 3,
+      "note": "$\\int_{-1}^{1} x^3\\,dx = 0$ because $x^3$ is odd; no antiderivative computation needed."
     },
     {
       "id": "int-area",
@@ -303,6 +331,11 @@
     {
       "source": "int-standard",
       "target": "int-power",
+      "label": "contains"
+    },
+    {
+      "source": "int-power",
+      "target": "int-power-example",
       "label": "contains"
     },
     {
@@ -386,6 +419,11 @@
       "label": "contains"
     },
     {
+      "source": "int-partial-repeated",
+      "target": "int-partial-repeated-example",
+      "label": "contains"
+    },
+    {
       "source": "integration",
       "target": "int-trig",
       "label": "contains"
@@ -403,6 +441,11 @@
     {
       "source": "int-trig",
       "target": "int-trig-products",
+      "label": "contains"
+    },
+    {
+      "source": "int-trig-products",
+      "target": "int-trig-product-example",
       "label": "contains"
     },
     {
@@ -433,6 +476,11 @@
     {
       "source": "int-definite",
       "target": "int-symmetry",
+      "label": "contains"
+    },
+    {
+      "source": "int-symmetry",
+      "target": "int-symmetry-example",
       "label": "contains"
     },
     {

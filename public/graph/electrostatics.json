@@ -207,7 +207,7 @@
     },
     {
       "id": "es-conductor-rules",
-           "label": "Electrostatic Equilibrium of Conductors",
+      "label": "Electrostatic Equilibrium of Conductors",
       "group": "Gauss's Law and Conductors",
       "depth": 2,
       "note": "Free charges rearrange until the bulk field vanishes and all excess charge lives on the surface. Just outside the surface $$E = \\frac{\\sigma}{\\varepsilon_0}$$, and the whole conductor sits at one potential."
@@ -266,19 +266,19 @@
       "label": "Capacitor Networks",
       "group": "Capacitors",
       "depth": 2,
-      "note": "Series capacitors share charge while parallel capacitors share voltage, inverting the resistor rules. Balanced ladders and infinite grids reduce to these two cases."
+      "note": "Series capacitors share charge while parallel capacitors share voltage, inverting the resistor rules: $$\\frac{1}{C_{series}} = \\sum \\frac{1}{C_i}$$ and $$C_{parallel} = \\sum C_i$$. Balanced ladders and infinite grids reduce to these two cases."
     },
     {
       "id": "es-cap-series",
       "label": "Series Combination",
-      "group": "Capacitor Networks",
+      "group": "Capacitors",
       "depth": 3,
       "note": "In series every capacitor carries the same charge $$Q$$ while voltages split: $$\\frac{1}{C_{eq}} = \\sum_i \\frac{1}{C_i}$$. The equivalent capacitance is always smaller than the smallest member."
     },
     {
       "id": "es-cap-parallel",
       "label": "Parallel Combination",
-      "group": "Capacitor Networks",
+      "group": "Capacitors",
       "depth": 3,
       "note": "In parallel every capacitor sees the same voltage and charges simply add: $$C_{eq} = \\sum_i C_i$$. Charge divides in proportion to capacitance, $$Q_i = C_i V$$."
     },

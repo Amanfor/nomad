@@ -1,0 +1,615 @@
+{
+  "title": "Differentiation",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "differentiation",
+      "label": "Differentiation",
+      "group": "Differentiation",
+      "depth": 0,
+      "note": "Differentiation measures instantaneous rates of change and sits behind 2-3 JEE Main questions every shift. Master the rules first, then the geometry of the curve."
+    },
+    {
+      "id": "diff-definition",
+      "label": "Definition and First Principles",
+      "group": "Definition and First Principles",
+      "depth": 1,
+      "note": "The derivative is born from a limit. Everything else is this limit wearing a shortcut."
+    },
+    {
+      "id": "diff-fp",
+      "label": "First Principle Definition",
+      "group": "Definition and First Principles",
+      "depth": 2,
+      "note": "By definition $f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$. JEE asks this directly only for simple functions like $x^2$ or $\\sin x$, but every shortcut rule is proved from it."
+    },
+    {
+      "id": "diff-fp-example",
+      "label": "Example: Derivative of $x^2$",
+      "group": "Definition and First Principles",
+      "depth": 3,
+      "note": "$\\frac{(x+h)^2 - x^2}{h} = \\frac{2xh + h^2}{h} = 2x + h \\to 2x$ as $h \\to 0$, so $\\frac{d}{dx}(x^2) = 2x$."
+    },
+    {
+      "id": "diff-geometry",
+      "label": "Geometric Meaning",
+      "group": "Definition and First Principles",
+      "depth": 2,
+      "note": "$f'(a)$ is the slope of the tangent to $y = f(x)$ at $x = a$. A positive slope means the curve is rising there, which is the seed of all monotonicity questions."
+    },
+    {
+      "id": "diff-notations",
+      "label": "Notations for the Derivative",
+      "group": "Definition and First Principles",
+      "depth": 2,
+      "note": "The same object appears as $f'(x)$, $\\frac{dy}{dx}$, $y_1$ or $Df(x)$. JEE mixes these on purpose, so treat $dy/dx$ as a single symbol standing for the limit, not a fraction you can split casually."
+    },
+    {
+      "id": "diff-basic-rules",
+      "label": "Basic Differentiation Rules",
+      "group": "Basic Differentiation Rules",
+      "depth": 1,
+      "note": "Sum, product and quotient rules turn a hard derivative into three easy ones. These are the workhorses of the chapter."
+    },
+    {
+      "id": "diff-sum",
+      "label": "Sum and Difference Rule",
+      "group": "Basic Differentiation Rules",
+      "depth": 2,
+      "note": "$\\frac{d}{dx}[f(x) \\pm g(x)] = f'(x) \\pm g'(x)$, and constants can be pulled out: $(cf)' = cf'$. This linearity is what lets you differentiate term by term in a polynomial."
+    },
+    {
+      "id": "diff-sum-example",
+      "label": "Example: Polynomial",
+      "group": "Basic Differentiation Rules",
+      "depth": 3,
+      "note": "For $y = 3x^4 - 5x^2 + 7$, $\\frac{dy}{dx} = 12x^3 - 10x$. Constant terms vanish because $\\frac{d}{dx}(c) = 0$."
+    },
+    {
+      "id": "diff-product",
+      "label": "Product Rule",
+      "group": "Basic Differentiation Rules",
+      "depth": 2,
+      "note": "$(uv)' = u'v + uv'$. Memory aid: differentiate the first, save the second, then swap. JEE loves it embedded inside $e^x \\sin x$ type expressions."
+    },
+    {
+      "id": "diff-product-example",
+      "label": "Example: $x^2 e^x$",
+      "group": "Basic Differentiation Rules",
+      "depth": 3,
+      "note": "$\\frac{d}{dx}(x^2 e^x) = 2x \\cdot e^x + x^2 \\cdot e^x = e^x(x^2 + 2x)$."
+    },
+    {
+      "id": "diff-quotient",
+      "label": "Quotient Rule",
+      "group": "Basic Differentiation Rules",
+      "depth": 2,
+      "note": "$\\left(\\frac{u}{v}\\right)' = \\frac{u'v - uv'}{v^2}$. The numerator keeps the order \"top derivative times bottom minus top times bottom derivative\"; swapping it flips the sign."
+    },
+    {
+      "id": "diff-quotient-example",
+      "label": "Example: $\tan x$",
+      "group": "Basic Differentiation Rules",
+      "depth": 3,
+      "note": "Writing $\\tan x = \\frac{\\sin x}{\\cos x}$, the quotient rule gives $\\frac{\\cos^2 x + \\sin^2 x}{\\cos^2 x} = \\sec^2 x$."
+    },
+    {
+      "id": "diff-standard",
+      "label": "Standard Derivatives",
+      "group": "Standard Derivatives",
+      "depth": 1,
+      "note": "Memorise the standard table once and differentiation becomes vocabulary, not computation."
+    },
+    {
+      "id": "diff-trig",
+      "label": "Trigonometric Results",
+      "group": "Standard Derivatives",
+      "depth": 2,
+      "note": "$\\frac{d}{dx}(\\sin x) = \\cos x$, $\\frac{d}{dx}(\\cos x) = -\\sin x$, $\\frac{d}{dx}(\\tan x) = \\sec^2 x$. The chain continues with $\\cot x, \\sec x, \\csc x$ picking up minus signs on the cofunctions."
+    },
+    {
+      "id": "diff-explog",
+      "label": "Exponential and Logarithmic Results",
+      "group": "Standard Derivatives",
+      "depth": 2,
+      "note": "$\\frac{d}{dx}(e^x) = e^x$, $\\frac{d}{dx}(a^x) = a^x \\ln a$, $\\frac{d}{dx}(\\ln x) = \\frac{1}{x}$, and $\\frac{d}{dx}(\\log_a x) = \\frac{1}{x \\ln a}$. The base of the logarithm explains the extra $\\ln a$ factor."
+    },
+    {
+      "id": "diff-explog-example",
+      "label": "Example: $\frac{d}{dx}(2^x)$",
+      "group": "Standard Derivatives",
+      "depth": 3,
+      "note": "$\\frac{d}{dx}(2^x) = 2^x \\ln 2$, not $x \\cdot 2^{x-1}$; the power rule does not apply when $x$ is the exponent."
+    },
+    {
+      "id": "diff-inverse-trig",
+      "label": "Inverse Trigonometric Results",
+      "group": "Standard Derivatives",
+      "depth": 2,
+      "note": "$\\frac{d}{dx}(\\sin^{-1} x) = \\frac{1}{\\sqrt{1-x^2}}$, $\\frac{d}{dx}(\\tan^{-1} x) = \\frac{1}{1+x^2}$, $\\frac{d}{dx}(\\sec^{-1} x) = \\frac{1}{|x|\\sqrt{x^2-1}}$. These three cover nearly every inverse-trig derivative in JEE Main."
+    },
+    {
+      "id": "diff-chain",
+      "label": "Chain Rule and Special Forms",
+      "group": "Chain Rule and Special Forms",
+      "depth": 1,
+      "note": "When functions sit inside functions, the chain rule peels the layers. Parametric, implicit and inverse derivatives are all chain-rule costumes."
+    },
+    {
+      "id": "diff-chain-rule",
+      "label": "The Chain Rule",
+      "group": "Chain Rule and Special Forms",
+      "depth": 2,
+      "note": "If $y = f(g(x))$ then $\\frac{dy}{dx} = f'(g(x)) \\cdot g'(x)$. Differentiate the outer function, keep the inner one, then multiply by the derivative of the inner."
+    },
+    {
+      "id": "diff-chain-example",
+      "label": "Example: $sin(x^2)$",
+      "group": "Chain Rule and Special Forms",
+      "depth": 3,
+      "note": "$\\frac{d}{dx}\\sin(x^2) = \\cos(x^2) \\cdot 2x = 2x \\cos(x^2)$. Forgetting the $2x$ is the classic error."
+    },
+    {
+      "id": "diff-parametric",
+      "label": "Parametric Differentiation",
+      "group": "Chain Rule and Special Forms",
+      "depth": 2,
+      "note": "When $x = f(t)$ and $y = g(t)$, $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{g'(t)}{f'(t)}$. Eliminate the parameter mentally only when asked for $y$ as a function of $x$; otherwise keep $t$."
+    },
+    {
+      "id": "diff-param-example",
+      "label": "Example: Circle Parametric",
+      "group": "Chain Rule and Special Forms",
+      "depth": 3,
+      "note": "For $x = a\\cos t$, $y = a\\sin t$, $\\frac{dy}{dx} = \\frac{a\\cos t}{-a\\sin t} = -\\cot t$, which equals $-x/y$ as expected on the circle."
+    },
+    {
+      "id": "diff-implicit",
+      "label": "Implicit Differentiation",
+      "group": "Chain Rule and Special Forms",
+      "depth": 2,
+      "note": "Differentiate both sides of $F(x, y) = 0$ treating $y$ as a function of $x$, so every $y$-derivative picks up a factor $\\frac{dy}{dx}$. Solve that linear equation for $\\frac{dy}{dx}$ at the end."
+    },
+    {
+      "id": "diff-implicit-example",
+      "label": "Example: $x^2 + y^2 = 25$",
+      "group": "Chain Rule and Special Forms",
+      "depth": 3,
+      "note": "$2x + 2y \\frac{dy}{dx} = 0 \\Rightarrow \\frac{dy}{dx} = -\\frac{x}{y}$, the negative reciprocal slope of the radius."
+    },
+    {
+      "id": "diff-inverse",
+      "label": "Derivative of Inverse Functions",
+      "group": "Chain Rule and Special Forms",
+      "depth": 2,
+      "note": "If $y = f^{-1}(x)$ then $\\frac{dy}{dx} = \\frac{1}{f'(y)}$, the reciprocal of the forward derivative at the swapped point. Geometrically the tangent slope inverts because the graph reflects in $y = x$."
+    },
+    {
+      "id": "diff-logdiff",
+      "label": "Logarithmic Differentiation",
+      "group": "Chain Rule and Special Forms",
+      "depth": 2,
+      "note": "For $y = u(x)^{v(x)}$, take $\\ln y = v \\ln u$ and differentiate: $\\frac{y'}{y} = v' \\ln u + \\frac{v u'}{u}$. This tames powers where both base and exponent vary."
+    },
+    {
+      "id": "diff-logdiff-example",
+      "label": "Example: $x^x$",
+      "group": "Chain Rule and Special Forms",
+      "depth": 3,
+      "note": "$\\ln y = x \\ln x \\Rightarrow \\frac{y'}{y} = \\ln x + 1 \\Rightarrow \\frac{dy}{dx} = x^x (1 + \\ln x)$."
+    },
+    {
+      "id": "diff-higher",
+      "label": "Higher Order Derivatives",
+      "group": "Higher Order Derivatives",
+      "depth": 1,
+      "note": "Differentiate again and again. The second derivative is curvature; beyond that it is mostly notation practice."
+    },
+    {
+      "id": "diff-second",
+      "label": "Second Derivative",
+      "group": "Higher Order Derivatives",
+      "depth": 2,
+      "note": "$y'' = \\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right)$. Its sign tells concavity: positive means concave up, negative means concave down."
+    },
+    {
+      "id": "diff-second-example",
+      "label": "Example: $x^3$",
+      "group": "Higher Order Derivatives",
+      "depth": 3,
+      "note": "$y = x^3 \\Rightarrow y' = 3x^2 \\Rightarrow y'' = 6x$. The curve changes concavity at $x = 0$, hinting at an inflection point."
+    },
+    {
+      "id": "diff-nth",
+      "label": "Higher Orders and Leibniz Rule",
+      "group": "Higher Order Derivatives",
+      "depth": 2,
+      "note": "The $n$-th derivative $y^{(n)}$ differentiates $n$ times, and $(uv)^{(n)} = \\sum_{r=0}^{n} \\binom{n}{r} u^{(r)} v^{(n-r)}$ (Leibniz). JEE asks mainly for patterns like $\\frac{d^n}{dx^n}(e^{ax}) = a^n e^{ax}$."
+    },
+    {
+      "id": "diff-monotonicity",
+      "label": "Monotonicity and Inflection",
+      "group": "Monotonicity and Inflection",
+      "depth": 1,
+      "note": "The sign of the derivative controls the shape of the graph. This pillar converts derivatives into intervals of increase, decrease and bending."
+    },
+    {
+      "id": "diff-inc-dec",
+      "label": "Increasing and Decreasing",
+      "group": "Monotonicity and Inflection",
+      "depth": 2,
+      "note": "$f$ is increasing on an interval where $f'(x) > 0$ and decreasing where $f'(x) < 0$. Points where $f'(x) = 0$ split the number line into sign intervals to test."
+    },
+    {
+      "id": "diff-inc-example",
+      "label": "Example: $f(x) = x^2$",
+      "group": "Monotonicity and Inflection",
+      "depth": 3,
+      "note": "$f'(x) = 2x$, so $f$ decreases on $(-\\infty, 0)$ and increases on $(0, \\infty)$, with a minimum at $x = 0$."
+    },
+    {
+      "id": "diff-inflection",
+      "label": "Points of Inflection",
+      "group": "Monotonicity and Inflection",
+      "depth": 2,
+      "note": "A point of inflection is where the concavity changes, detected by $f''(x)$ switching sign (typically $f''(x) = 0$ and sign change around it). Merely $f''(x) = 0$ is not enough; check the sign on both sides."
+    },
+    {
+      "id": "diff-inflection-example",
+      "label": "Example: $y = x^3$",
+      "group": "Monotonicity and Inflection",
+      "depth": 3,
+      "note": "$y'' = 6x$ changes sign at $x = 0$, so $(0,0)$ is a point of inflection even though $y'(0) = 0$ too."
+    },
+    {
+      "id": "diff-extrema",
+      "label": "Maxima and Minima",
+      "group": "Maxima and Minima",
+      "depth": 1,
+      "note": "Optimisation in JEE almost always reduces to: differentiate, find critical points, classify. Accuracy in classification earns the mark."
+    },
+    {
+      "id": "diff-critical",
+      "label": "Critical Points and Local Extrema",
+      "group": "Maxima and Minima",
+      "depth": 2,
+      "note": "Local maxima and minima occur at points where $f'(x) = 0$ or $f'$ fails to exist. Not every such point is an extremum; $x^3$ at $0$ is the standard counterexample."
+    },
+    {
+      "id": "diff-first-test",
+      "label": "First Derivative Test",
+      "group": "Maxima and Minima",
+      "depth": 2,
+      "note": "If $f'$ changes from $+$ to $-$ at $x = c$, then $c$ is a local maximum; from $-$ to $+$, a local minimum; no change, no extremum. Sign charts beat memorised rules."
+    },
+    {
+      "id": "diff-second-test",
+      "label": "Second Derivative Test",
+      "group": "Maxima and Minima",
+      "depth": 2,
+      "note": "At a stationary point, $f''(c) > 0$ gives a local minimum and $f''(c) < 0$ a local maximum. If $f''(c) = 0$ the test is inconclusive; fall back to the first derivative test."
+    },
+    {
+      "id": "diff-second-test-example",
+      "label": "Example: $f(x) = x^4$",
+      "group": "Maxima and Minima",
+      "depth": 3,
+      "note": "$f'(0) = 0$ and $f''(0) = 0$, yet $x = 0$ is a minimum since $f'$ changes from $-$ to $+$ there."
+    },
+    {
+      "id": "diff-absolute",
+      "label": "Absolute Extrema on a Closed Interval",
+      "group": "Maxima and Minima",
+      "depth": 2,
+      "note": "On $[a, b]$, the absolute maximum and minimum occur either at critical points inside the interval or at the endpoints. Always evaluate $f$ at all candidates and compare."
+    },
+    {
+      "id": "diff-tangents",
+      "label": "Tangents and Normals",
+      "group": "Tangents and Normals",
+      "depth": 1,
+      "note": "The derivative as a slope turns into line equations. Most questions are one-liners once the slope is known."
+    },
+    {
+      "id": "diff-tangent",
+      "label": "Equation of the Tangent",
+      "group": "Tangents and Normals",
+      "depth": 2,
+      "note": "At $(x_1, y_1)$ on $y = f(x)$, the tangent is $y - y_1 = f'(x_1)(x - x_1)$. The slope is $m = f'(x_1)$, so a horizontal tangent means $f'(x_1) = 0$."
+    },
+    {
+      "id": "diff-tangent-example",
+      "label": "Example: Parabola",
+      "group": "Tangents and Normals",
+      "depth": 3,
+      "note": "For $y = x^2$ at $(1, 1)$, slope $= 2x|_{x=1} = 2$, so the tangent is $y - 1 = 2(x - 1)$, i.e. $y = 2x - 1$."
+    },
+    {
+      "id": "diff-normal",
+      "label": "Equation of the Normal",
+      "group": "Tangents and Normals",
+      "depth": 2,
+      "note": "The normal is perpendicular to the tangent, so its slope is $-\\frac{1}{f'(x_1)}$ (when $f'(x_1) \\neq 0$). If the tangent is horizontal, the normal is the vertical line $x = x_1$."
+    },
+    {
+      "id": "diff-lhopital",
+      "label": "LHopital and Limit Check",
+      "group": "LHopital and Limit Check",
+      "depth": 1,
+      "note": "Before trusting L'Hopital, confirm the indeterminate form. It converts $\\frac{0}{0}$ and $\\frac{\\infty}{\\infty}$ into a fresh derivative ratio."
+    },
+    {
+      "id": "diff-lhopital-rule",
+      "label": "LHopital Rule",
+      "group": "LHopital and Limit Check",
+      "depth": 2,
+      "note": "If $\\lim \\frac{f(x)}{g(x)}$ is of the form $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$, then $\\lim \\frac{f(x)}{g(x)} = \\lim \\frac{f'(x)}{g'(x)}$, provided the latter exists. Differentiate top and bottom separately, never as a quotient."
+    },
+    {
+      "id": "diff-lhopital-example",
+      "label": "Example: $\frac{sin x}{x}$",
+      "group": "LHopital and Limit Check",
+      "depth": 3,
+      "note": "$\\lim_{x \\to 0} \\frac{\\sin x}{x} = \\lim_{x \\to 0} \\frac{\\cos x}{1} = 1$, matching the standard result."
+    },
+    {
+      "id": "diff-lhopital-forms",
+      "label": "Other Indeterminate Forms",
+      "group": "LHopital and Limit Check",
+      "depth": 2,
+      "note": "Forms like $1^{\\infty}$, $0^0$, $\\infty^0$, $0 \\cdot \\infty$ and $\\infty - \\infty$ must first be rewritten (take logarithms or combine fractions) into $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$ before applying L'Hopital."
+    }
+  ],
+  "edges": [
+    {
+      "source": "differentiation",
+      "target": "diff-definition",
+      "label": "contains"
+    },
+    {
+      "source": "diff-definition",
+      "target": "diff-fp",
+      "label": "contains"
+    },
+    {
+      "source": "diff-fp",
+      "target": "diff-fp-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-definition",
+      "target": "diff-geometry",
+      "label": "contains"
+    },
+    {
+      "source": "diff-definition",
+      "target": "diff-notations",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-basic-rules",
+      "label": "contains"
+    },
+    {
+      "source": "diff-basic-rules",
+      "target": "diff-sum",
+      "label": "contains"
+    },
+    {
+      "source": "diff-sum",
+      "target": "diff-sum-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-basic-rules",
+      "target": "diff-product",
+      "label": "contains"
+    },
+    {
+      "source": "diff-product",
+      "target": "diff-product-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-basic-rules",
+      "target": "diff-quotient",
+      "label": "contains"
+    },
+    {
+      "source": "diff-quotient",
+      "target": "diff-quotient-example",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-standard",
+      "label": "contains"
+    },
+    {
+      "source": "diff-standard",
+      "target": "diff-trig",
+      "label": "contains"
+    },
+    {
+      "source": "diff-standard",
+      "target": "diff-explog",
+      "label": "contains"
+    },
+    {
+      "source": "diff-explog",
+      "target": "diff-explog-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-standard",
+      "target": "diff-inverse-trig",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-chain",
+      "label": "contains"
+    },
+    {
+      "source": "diff-chain",
+      "target": "diff-chain-rule",
+      "label": "contains"
+    },
+    {
+      "source": "diff-chain-rule",
+      "target": "diff-chain-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-chain",
+      "target": "diff-parametric",
+      "label": "contains"
+    },
+    {
+      "source": "diff-parametric",
+      "target": "diff-param-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-chain",
+      "target": "diff-implicit",
+      "label": "contains"
+    },
+    {
+      "source": "diff-implicit",
+      "target": "diff-implicit-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-chain",
+      "target": "diff-inverse",
+      "label": "contains"
+    },
+    {
+      "source": "diff-chain",
+      "target": "diff-logdiff",
+      "label": "contains"
+    },
+    {
+      "source": "diff-logdiff",
+      "target": "diff-logdiff-example",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-higher",
+      "label": "contains"
+    },
+    {
+      "source": "diff-higher",
+      "target": "diff-second",
+      "label": "contains"
+    },
+    {
+      "source": "diff-second",
+      "target": "diff-second-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-higher",
+      "target": "diff-nth",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-monotonicity",
+      "label": "contains"
+    },
+    {
+      "source": "diff-monotonicity",
+      "target": "diff-inc-dec",
+      "label": "contains"
+    },
+    {
+      "source": "diff-inc-dec",
+      "target": "diff-inc-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-monotonicity",
+      "target": "diff-inflection",
+      "label": "contains"
+    },
+    {
+      "source": "diff-inflection",
+      "target": "diff-inflection-example",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-extrema",
+      "label": "contains"
+    },
+    {
+      "source": "diff-extrema",
+      "target": "diff-critical",
+      "label": "contains"
+    },
+    {
+      "source": "diff-extrema",
+      "target": "diff-first-test",
+      "label": "contains"
+    },
+    {
+      "source": "diff-extrema",
+      "target": "diff-second-test",
+      "label": "contains"
+    },
+    {
+      "source": "diff-second-test",
+      "target": "diff-second-test-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-extrema",
+      "target": "diff-absolute",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-tangents",
+      "label": "contains"
+    },
+    {
+      "source": "diff-tangents",
+      "target": "diff-tangent",
+      "label": "contains"
+    },
+    {
+      "source": "diff-tangent",
+      "target": "diff-tangent-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-tangents",
+      "target": "diff-normal",
+      "label": "contains"
+    },
+    {
+      "source": "differentiation",
+      "target": "diff-lhopital",
+      "label": "contains"
+    },
+    {
+      "source": "diff-lhopital",
+      "target": "diff-lhopital-rule",
+      "label": "contains"
+    },
+    {
+      "source": "diff-lhopital-rule",
+      "target": "diff-lhopital-example",
+      "label": "contains"
+    },
+    {
+      "source": "diff-lhopital",
+      "target": "diff-lhopital-forms",
+      "label": "contains"
+    }
+  ]
+}

@@ -24,6 +24,27 @@
       "note": "The order is the highest derivative present. $\\frac{d^2y}{dx^2} + 3\\frac{dy}{dx} + y = 0$ has order 2; $\\left(\\frac{dy}{dx}\\right)^3 = x$ has order 1."
     },
     {
+      "id": "de-order-example",
+      "label": "Example: Reading the Order",
+      "group": "Order and Degree",
+      "depth": 3,
+      "note": "$x^2 \\frac{d^2y}{dx^2} + \\left(\\frac{dy}{dx}\\right)^4 = \\sin x$ is second order regardless of the exponent 4 on $\\frac{dy}{dx}$."
+    },
+    {
+      "id": "de-what-is-solution",
+      "label": "What a Solution Is",
+      "group": "Order and Degree",
+      "depth": 2,
+      "note": "A solution is a function which, when substituted into the DE, turns it into an identity. Checking usually means differentiating the candidate and substituting back."
+    },
+    {
+      "id": "de-solution-check-example",
+      "label": "Example: Verifying a Solution",
+      "group": "Order and Degree",
+      "depth": 3,
+      "note": "$y = e^{2x}$ satisfies $\\frac{dy}{dx} = 2y$ since $\\frac{dy}{dx} = 2e^{2x} = 2y$. Substitution confirms it."
+    },
+    {
       "id": "de-degree",
       "label": "Degree of a DE",
       "group": "Order and Degree",
@@ -50,6 +71,27 @@
       "group": "General and Particular Solutions",
       "depth": 2,
       "note": "A general solution of an $n$-th order DE contains $n$ independent arbitrary constants: $y = c_1 e^x + c_2 e^{-x}$ for a second-order equation. The number of constants matches the order."
+    },
+    {
+      "id": "de-general-example",
+      "label": "Example: Counting Constants",
+      "group": "General and Particular Solutions",
+      "depth": 3,
+      "note": "$y = c_1 \\cos x + c_2 \\sin x$ has two constants, so it is the general solution of a second-order equation like $y'' + y = 0$."
+    },
+    {
+      "id": "de-trivial",
+      "label": "Trivial and Singular Solutions",
+      "group": "General and Particular Solutions",
+      "depth": 2,
+      "note": "$y = 0$ is a trivial solution of many equations like $\\frac{dy}{dx} = ky$, and a singular solution is one not recoverable from the general family for any constant value. JEE rarely distinguishes them but tests whether you spot $y = 0$."
+    },
+    {
+      "id": "de-trivial-example",
+      "label": "Example: Trivial Solution",
+      "group": "General and Particular Solutions",
+      "depth": 3,
+      "note": "$\\frac{dy}{dx} = y^2$ has general solution $y = -\\frac{1}{x + C}$, and the separate solution $y = 0$ that no value of $C$ produces."
     },
     {
       "id": "de-particular",
@@ -87,6 +129,20 @@
       "note": "$\\frac{dy}{y} = \\frac{dx}{x} \\Rightarrow \\ln|y| = \\ln|x| + c \\Rightarrow y = Cx$."
     },
     {
+      "id": "de-growth",
+      "label": "Growth and Decay Models",
+      "group": "Separable Equations",
+      "depth": 2,
+      "note": "$\\frac{dy}{dx} = ky$ models exponential growth ($k > 0$) or decay ($k < 0$), with solution $y = Ce^{kx}$. Newton cooling and radioactive decay are dressed-up versions of the same equation."
+    },
+    {
+      "id": "de-growth-example",
+      "label": "Example: Half-Life Setup",
+      "group": "Separable Equations",
+      "depth": 3,
+      "note": "Decay $\\frac{dN}{dt} = -\\lambda N$ gives $N = N_0 e^{-\\lambda t}$, and setting $N = N_0/2$ yields $t_{1/2} = \\frac{\\ln 2}{\\lambda}$."
+    },
+    {
       "id": "de-homogeneous",
       "label": "Homogeneous Equations",
       "group": "Homogeneous Equations",
@@ -106,6 +162,20 @@
       "group": "Homogeneous Equations",
       "depth": 3,
       "note": "$v + x\\frac{dv}{dx} = 1 + v \\Rightarrow x\\frac{dv}{dx} = 1 \\Rightarrow v = \\ln|x| + C \\Rightarrow y = x(\\ln|x| + C)$."
+    },
+    {
+      "id": "de-hom-second",
+      "label": "When Both Sides Are Degree-Matched",
+      "group": "Homogeneous Equations",
+      "depth": 2,
+      "note": "Equations of the form $(ax + by)\\,dx + (cx + dy)\\,dy = 0$ with matching degrees are homogeneous; substitute $y = vx$ directly. The check is that replacing $x, y$ by $\\lambda x, \\lambda y$ leaves the equation unchanged."
+    },
+    {
+      "id": "de-hom-second-example",
+      "label": "Example: Homogeneity Check",
+      "group": "Homogeneous Equations",
+      "depth": 3,
+      "note": "$\\frac{dy}{dx} = \\frac{x^2 + y^2}{xy}$ is homogeneous since numerator and denominator are both degree 2; with $y = vx$ it separates cleanly."
     },
     {
       "id": "de-linear",
@@ -143,6 +213,34 @@
       "note": "Divide by $y^n$ and set $v = y^{1-n}$, so $\\frac{dv}{dx} = (1-n)y^{-n}\\frac{dy}{dx}$. The equation in $v$ becomes linear: $\\frac{dv}{dx} + (1-n)Pv = (1-n)Q$, then solve by integrating factor."
     },
     {
+      "id": "de-bernoulli-example",
+      "label": "Example: $\frac{dy}{dx} + y = -xy^2$",
+      "group": "Bernoulli Equations",
+      "depth": 3,
+      "note": "With $n = 2$, set $v = y^{-1}$: $\\frac{dv}{dx} - v = x$. Then $I.F. = e^{-x}$, so $v e^{-x} = \\int x e^{-x}\\,dx = -(x+1)e^{-x} + C$, giving $\\frac{1}{y} = Ce^{x} - x - 1$."
+    },
+    {
+      "id": "de-exact",
+      "label": "Exact Equations",
+      "group": "Exact Equations",
+      "depth": 1,
+      "note": "Some first-order equations are already perfect differentials. Recognise the pattern and integrate directly."
+    },
+    {
+      "id": "de-exact-method",
+      "label": "Test for Exactness",
+      "group": "Exact Equations",
+      "depth": 2,
+      "note": "$M\\,dx + N\\,dy = 0$ is exact when $\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}$. Then there exists $\\psi$ with $\\psi_x = M$, $\\psi_y = N$, and the solution is $\\psi(x, y) = C$."
+    },
+    {
+      "id": "de-exact-example",
+      "label": "Example: $y,dx + x,dy = 0$",
+      "group": "Exact Equations",
+      "depth": 3,
+      "note": "$\\frac{\\partial M}{\\partial y} = 1 = \\frac{\\partial N}{\\partial x}$, so it is exact. $\\psi = xy$, and the solution family is $xy = C$."
+    },
+    {
       "id": "de-trajectories",
       "label": "Orthogonal Trajectories",
       "group": "Orthogonal Trajectories",
@@ -164,6 +262,13 @@
       "note": "$x^2 + y^2 = a^2$ gives $\\frac{dy}{dx} = -\\frac{x}{y}$; the orthogonal slope is $\\frac{y}{x}$, whose solution $y = Cx$ is the family of lines through the origin."
     },
     {
+      "id": "de-orth-second",
+      "label": "Orthogonal Trajectories of Lines",
+      "group": "Orthogonal Trajectories",
+      "depth": 2,
+      "note": "For a family of lines $y = mx$, the slope field is $\\frac{dy}{dx} = \\frac{y}{x}$; the orthogonal family satisfies $\\frac{dy}{dx} = -\\frac{x}{y}$, giving circles $x^2 + y^2 = C$."
+    },
+    {
       "id": "de-formation",
       "label": "Formation from Arbitrary Constants",
       "group": "Formation from Arbitrary Constants",
@@ -183,6 +288,20 @@
       "group": "Formation from Arbitrary Constants",
       "depth": 3,
       "note": "$y' = Ae^x$, $y'' = Ae^x$, so $y'' = y'$, i.e. $\\frac{d^2y}{dx^2} - \\frac{dy}{dx} = 0$. Two constants give a second-order DE."
+    },
+    {
+      "id": "de-form-second",
+      "label": "Trig Family Example",
+      "group": "Formation from Arbitrary Constants",
+      "depth": 2,
+      "note": "$y = A\\cos x + B\\sin x$ differentiates to $y' = -A\\sin x + B\\cos x$ and $y'' = -A\\cos x - B\\sin x = -y$. Eliminating both constants yields $y'' + y = 0$."
+    },
+    {
+      "id": "de-form-second-example",
+      "label": "Example: Two-Parameter Family",
+      "group": "Formation from Arbitrary Constants",
+      "depth": 3,
+      "note": "$y = A e^x + B e^{-x}$ gives $y'' = Ae^x + Be^{-x} = y$, so the DE is $\\frac{d^2y}{dx^2} - y = 0$."
     }
   ],
   "edges": [
@@ -194,6 +313,21 @@
     {
       "source": "de-basics",
       "target": "de-order",
+      "label": "contains"
+    },
+    {
+      "source": "de-order",
+      "target": "de-order-example",
+      "label": "contains"
+    },
+    {
+      "source": "de-basics",
+      "target": "de-what-is-solution",
+      "label": "contains"
+    },
+    {
+      "source": "de-what-is-solution",
+      "target": "de-solution-check-example",
       "label": "contains"
     },
     {
@@ -214,6 +348,21 @@
     {
       "source": "de-solutions",
       "target": "de-general",
+      "label": "contains"
+    },
+    {
+      "source": "de-general",
+      "target": "de-general-example",
+      "label": "contains"
+    },
+    {
+      "source": "de-solutions",
+      "target": "de-trivial",
+      "label": "contains"
+    },
+    {
+      "source": "de-trivial",
+      "target": "de-trivial-example",
       "label": "contains"
     },
     {
@@ -242,6 +391,16 @@
       "label": "contains"
     },
     {
+      "source": "de-separable",
+      "target": "de-growth",
+      "label": "contains"
+    },
+    {
+      "source": "de-growth",
+      "target": "de-growth-example",
+      "label": "contains"
+    },
+    {
       "source": "differential-equations",
       "target": "de-homogeneous",
       "label": "contains"
@@ -254,6 +413,16 @@
     {
       "source": "de-hom-method",
       "target": "de-hom-example",
+      "label": "contains"
+    },
+    {
+      "source": "de-homogeneous",
+      "target": "de-hom-second",
+      "label": "contains"
+    },
+    {
+      "source": "de-hom-second",
+      "target": "de-hom-second-example",
       "label": "contains"
     },
     {
@@ -282,6 +451,26 @@
       "label": "contains"
     },
     {
+      "source": "de-bernoulli-method",
+      "target": "de-bernoulli-example",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-exact",
+      "label": "contains"
+    },
+    {
+      "source": "de-exact",
+      "target": "de-exact-method",
+      "label": "contains"
+    },
+    {
+      "source": "de-exact-method",
+      "target": "de-exact-example",
+      "label": "contains"
+    },
+    {
       "source": "differential-equations",
       "target": "de-trajectories",
       "label": "contains"
@@ -297,6 +486,11 @@
       "label": "contains"
     },
     {
+      "source": "de-trajectories",
+      "target": "de-orth-second",
+      "label": "contains"
+    },
+    {
       "source": "differential-equations",
       "target": "de-formation",
       "label": "contains"
@@ -309,6 +503,16 @@
     {
       "source": "de-form-method",
       "target": "de-form-example",
+      "label": "contains"
+    },
+    {
+      "source": "de-formation",
+      "target": "de-form-second",
+      "label": "contains"
+    },
+    {
+      "source": "de-form-second",
+      "target": "de-form-second-example",
       "label": "contains"
     }
   ]
