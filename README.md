@@ -42,6 +42,10 @@ The center of the interface features a dynamic, interactive "Eye" that acts as t
 - `node scripts/build-concepts.cjs` — **CRITICAL**: Run this anytime you modify, add, or rename markdown files in `src/data/context/`. It rebuilds the JSON database.
 - `npm run build` — Compiles the Astro static site into `/dist`.
 
+## ✋ Gesture Mode (optional, off by default)
+
+Hand-gesture navigation via Google MediaPipe GestureRecognizer, fully on-device (no cloud calls, frames never recorded or uploaded). Toggle in Settings → `Gesture Mode (camera access needed)`; shows a small mirrored grayscale camera preview (or a 6 px white dot when the preview is off) in the top-left corner. Two-finger (Victory) swipes: left/right = next/previous question, up/down = scroll the open note. Open palm held ~0.7 s reveals a solution, closed fist ~0.7 s conceals it. Desktop (Tauri) app not supported yet — the toggle fails safe there.
+
 ## 🤖 AI Agent Workflow & Skills
 
 If you are an AI agent working on this repository, please note:

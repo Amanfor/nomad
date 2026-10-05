@@ -446,3 +446,78 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 22. **Vault Bank Integration**: The hunter agent imported batches of Physics and Maths PYQs directly from `/home/aman/jee-workspace/vault/sources/scraped/bank/`. 
 23. **Automated Background Scheduling (current)**: The `opencode-scheduler` plugin was tried and **did not work** (its dependencies did not persist; no `crontab` binary exists on this machine). Replaced with a **systemd user timer**: `~/.config/systemd/user/jee-nomad-agent.{service,timer}` firing every **15 min** (`OnUnitActiveSec=15min`, `Persistent=true`). Each run executes `/home/aman/nomad/scripts/jee-nomad-agent.sh` → `opencode run "$(cat scripts/scheduled-agent-prompt.md)"` with a 600 s timeout, appending to `/home/aman/nomad/agent-cron.log`. Prompt covers an expanded NOTE HYGIENE scan/fix of `src/data/context/**` + `public/all-concepts.json` (basic + advanced: unsupported `\( \)`/`\[ \]` delimiters, unbalanced braces, TikZ/figure residue, broken `.webp` media paths, raw HTML entities, stray `<img>/<table>` blobs, CRLF/double-blank/tab cleanup, schema-type validation per concept, broken internal links, orphan notes, chapter numbering glitches), QUESTION BANK GROWTH per `jee-question-hunter` skill, and `npm run build` verification. **Current blocker**: OpenRouter credits error from `opencode run` — add credits/login to a key before agent runs can produce questions; the schedule/pipeline itself is verified working.
 24. **Image Rendering Fix**: `vaults/context/media/` imported to `public/media/` and all 60 `.md` files regex-patched from `.png` to `.webp` ensuring in-note diagrams render beautifully.
+
+---
+
+## 13. Gesture Mode (added 2026-10-05)
+
+Optional, **off by default**, fully on-device hand-gesture navigation. Google
+MediaPipe `@mediapipe/tasks-vision` 1.0.1 (pinned exact) loaded via dynamic
+`import()` only when the setting is on. Model + SIMD wasm self-hosted under
+`public/gesture/` (`gesture_recognizer.task` 8.4 MB, `vision_wasm_internal`
+wasm 11.8 MB; non-SIMD variants intentionally not shipped).
+
+### Files
+
+| Path | Role |
+|---|---|
+| `src/lib/gesture/handShape.ts` | Pure landmark → pose classifier (victory / open_palm / closed_fist / other). No imports. |
+| `src/lib/gesture/swipe.ts` | Pure swipe + hold detector over `{t, x, y, gesture}` samples. No imports, no DOM. |
+| `src/lib/gesture/engine.ts` | Camera + GestureRecognizer lifecycle (start/stop), 15 fps throttle, GPU→CPU fallback, error mapping. |
+| `src/components/GestureLayer.tsx` | Mounted once at app root (outside overlays, so it tracks in practice too). Owns engine, maps actions to keydown/CustomEvent/scroll, renders preview + indicator dot. |
+| `src/components/NomadApp.tsx` | `enableGesture`/`showGesturePreview` settings rows, status line, `nomad:gesture` listener in PracticeOverlay (reveal/conceal only — never selects answers). |
+| `scripts/gesture/swipe.test.ts` | Synthetic-stream unit tests (23 checks), bundled with the Vite-shipped esbuild, no new deps. |
+
+### Gesture map (all require a two-finger "victory" hand shape, ≥70% of
+window frames, except palm/fist holds)
+
+| Gesture | Effect |
+|---|---|
+| Victory swipe left (raw dx > 0) | `ArrowRight` keydown → next question |
+| Victory swipe right (raw dx < 0) | `ArrowLeft` keydown → previous |
+| Victory swipe up | `window.scrollBy(+0.7·vh)` when a note is open |
+| Victory swipe down | `window.scrollBy(-0.7·vh)` when a note is open |
+| Open palm held ~700 ms, still | `nomad:gesture {action:'reveal'}` |
+| Closed fist held ~700 ms, still | `nomad:gesture {action:'conceal'}` |
+
+Tunables (swipe.ts): `SWIPE_MIN_DISTANCE=0.22`, `SWIPE_WINDOW_MS=350`,
+`DOMINANT_AXIS_RATIO=1.6`, `GLOBAL_COOLDOWN_MS=900`, `HOLD_MS=700`,
+`HOLD_STILL_RADIUS=0.05`, `MIN_TRACKED_FRAMES=3`, `MIN_VICTORY_RATIO=0.7`.
+
+### Semantics & guards
+
+- Ignores all gestures while the intro runs, while an input/textarea/
+  contentEditable is focused, and while the document is hidden. Camera is
+  stopped on tab-hide and restarted on return (streams are never left on).
+- One action per gesture: swipes re-arm only after a non-victory frame; held
+  palm/fist fires once per pose presence; 1 s global cooldown.
+- Preview: grayscale, ~96×72, mirrored, low opacity, top-left corner, no
+  border, no icon. With preview off, a ~6 px slowly fading white dot sits in
+  the same corner and the `<video>` stays mounted 1×1 (never `display:none`)
+  so frames keep decoding.
+- Live status lines (settings, wisdom-note style): "runs on your device.
+  nothing is recorded." / lowercase error (`permission denied`,
+  `no camera found`, `camera busy`, `camera not available in this build`,
+  `model failed to load`); any failure flips `enableGesture` back to `false`.
+- Dev-only hook `window.__nomadGesture.inject(action)`
+  (`next|previous|scroll-up|scroll-down|reveal|conceal`), guarded by
+  `import.meta.env.DEV` — confirmed absent from production `dist`.
+
+### Platform status
+
+- **Web (GitHub Pages)**: works (https secure context).
+- **Android (Capacitor)**: `CAMERA` permission + `uses-feature camera
+  required=false` added to the manifest. `BridgeWebChromeClient` already
+  forwards WebView camera permission requests through the Android runtime
+  prompt, and Capacitor serves `https://localhost` (secure context), so no
+  MainActivity change was needed. **Untested on a physical device.**
+- **Desktop (Tauri)**: **not done / fails safe.** No Tauri code touched;
+  the shared web code runs there but if camera acquisition fails the toggle
+  flips off and shows "camera not available in this build". Verify on a real
+  machine before enabling for users.
+
+### Size cost
+
+`public/gesture/` adds ~20.5 MB raw (model 8.4 MB + wasm 11.8 MB + js 0.3 MB);
+the same bytes land inside the APK (debug `app-debug.apk` 177 MB, dominated by
+150 MB of note diagrams in `dist/media`).
