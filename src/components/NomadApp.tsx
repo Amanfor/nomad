@@ -11,6 +11,7 @@ import { Capacitor, registerPlugin } from '@capacitor/core';
 import WisdomOverlay from './WisdomOverlay';
 import GestureLayer from './GestureLayer';
 import { getWisdomEndpoint, setWisdomEndpoint } from '../lib/wisdom';
+import { GestureMap, GestureActionId, POSES, POSE_LABELS, HandSide, loadGestureMap, saveGestureMap } from '../lib/gestureConfig';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
@@ -905,7 +906,7 @@ function WanderOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: b
   );
 }
 
-function GestureConfigOverlay({ onClose, isMobile, settings, setSettings, gestureStatus, gestureError }: { onClose: () => void; isMobile: boolean; settings: Settings; setSettings: (s: Settings) => void; gestureStatus?: string | null; gestureError?: string | null }) {
+function GestureConfigOverlay({ onClose, isMobile, settings, setSettings, gestureStatus, gestureError, gestureMap, onRemap }: { onClose: () => void; isMobile: boolean; settings: Settings; setSettings: (s: Settings) => void; gestureStatus?: string | null; gestureError?: string | null; gestureMap: GestureMap; onRemap: (id: GestureActionId, b: { pose: any; hand: HandSide }) => void }) {
   const toggle = (key: keyof Settings) => {
     setSettings({ ...settings, [key]: !settings[key] });
   };
@@ -937,22 +938,43 @@ function GestureConfigOverlay({ onClose, isMobile, settings, setSettings, gestur
       </div>
 
       <div style={{ width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '1.5rem' }}>
-        <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>gestures</div>
-        {[
-          ['pinch + drag', 'white cursor; release to click'],
-          ['1 finger held', 'select option 1'],
-          ['2 fingers held', 'select option 2'],
-          ['3 fingers held', 'select option 3'],
-          ['4 fingers held', 'select option 4'],
-          ['closed fist held', 'conceal solution'],
-          ['thumbs-up held', 'back / home'],
-          ['2 fingers drag', 'scroll page'],
-        ].map(([pose, desc]) => (
-          <div key={pose} style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid rgba(255,255,255,0.04)', paddingBottom: '0.5rem', marginBottom: '0.5rem', alignItems: 'baseline' }}>
-            <span style={{ color: 'rgba(255,255,255,0.8)', fontSize: isMobile ? '0.85rem' : '0.8rem' }}>{pose}</span>
-            <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '0.7rem', textAlign: 'right', maxWidth: '55%' }}>{desc}</span>
-          </div>
-        ))}
+        <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.35)', marginBottom: '1rem', textTransform: 'uppercase' }}>tap to remap</div>
+        {([
+          ['select1', 'answer 1'],
+          ['select2', 'answer 2'],
+          ['select3', 'answer 3'],
+          ['select4', 'answer 4'],
+          ['conceal', 'conceal solution'],
+          ['back', 'back / home'],
+          ['scroll', 'scroll page'],
+        ] as [GestureActionId, string][]).map(([id, label]) => {
+          const b = gestureMap[id];
+          const poseIdx = POSES.indexOf(b.pose);
+          const nextPose = POSES[(poseIdx + 1) % POSES.length];
+          const nextHand = b.hand === 'any' ? 'left' : b.hand === 'left' ? 'right' : 'any';
+          return (
+            <div key={id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid rgba(255,255,255,0.04)', paddingBottom: '0.5rem', marginBottom: '0.5rem' }}>
+              <span style={{ color: 'rgba(255,255,255,0.8)', fontSize: isMobile ? '0.85rem' : '0.8rem' }}>{label}</span>
+              <span style={{ display: 'flex', gap: '0.4rem' }}>
+                <span
+                  onClick={() => onRemap(id, { pose: nextPose, hand: b.hand })}
+                  style={{ cursor: 'pointer', fontSize: '0.65rem', color: 'rgba(255,255,255,0.6)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 4, padding: '0.15rem 0.5rem' }}
+                >
+                  {POSE_LABELS[b.pose]}
+                </span>
+                <span
+                  onClick={() => onRemap(id, { pose: b.pose, hand: nextHand })}
+                  style={{ cursor: 'pointer', fontSize: '0.65rem', color: 'rgba(255,255,255,0.6)', border: '1px solid rgba(255,255,255,0.12)', borderRadius: 4, padding: '0.15rem 0.5rem' }}
+                >
+                  {b.hand}
+                </span>
+              </span>
+            </div>
+          );
+        })}
+        <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', lineHeight: 1.5, marginTop: '0.5rem' }}>
+          pinch cursor release always clicks · both hands tracked; remap a slot to a hand to extend the map (e.g. scroll on left, fist-conceal on right)
+        </div>
       </div>
     </motion.div>
   );
@@ -1585,6 +1607,7 @@ export default function NomadApp() {
   const [settingsLoaded, setSettingsLoaded] = useState(false);
   const [gestureStatus, setGestureStatus] = useState<string | null>(null);
   const [gestureError, setGestureError] = useState<string | null>(null);
+  const [gestureMap, setGestureMap] = useState<GestureMap>(() => loadGestureMap());
   useEffect(() => {
     try {
       const saved = localStorage.getItem('nomad-settings');
@@ -2425,6 +2448,7 @@ export default function NomadApp() {
         introActive={introActive}
         noteOpen={!!selected}
         practiceOpen={isPractice}
+        gestureMap={gestureMap}
         onStatus={(s) => { setGestureStatus(s); if (s) setGestureError(null); }}
         onFatal={(reason) => {
           setGestureError(reason);
@@ -2457,6 +2481,12 @@ export default function NomadApp() {
               setSettings={(s) => { if (s.enableGesture) setGestureError(null); setSettings(s); }}
               gestureStatus={gestureStatus}
               gestureError={gestureError}
+              gestureMap={gestureMap}
+              onRemap={(id, b) => setGestureMap((prev) => {
+                const next = { ...prev, [id]: { pose: b.pose, hand: b.hand } };
+                saveGestureMap(next);
+                return next;
+              })}
             />
           )}
         </AnimatePresence>

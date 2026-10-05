@@ -26,7 +26,7 @@ function run(det: GestureDetector, pose: string, from: [number, number], to: [nu
 {
   const det = new GestureDetector();
   const a = run(det, 'closed_fist', [0.5, 0.5], [0.5, 0.5], 900);
-  check('held fist → conceal once', a.length === 1 && a[0] === 'conceal');
+  check('held fist → conceal once', a.length === 1 && a[0] === 'closed_fist');
 }
 // Same fist held continuously never repeats.
 {
@@ -37,10 +37,10 @@ function run(det: GestureDetector, pose: string, from: [number, number], to: [nu
 // Finger counts select their options.
 {
   const cases: Array<[string, string]> = [
-    ['count1', 'select-1'],
-    ['count2', 'select-2'],
-    ['count3', 'select-3'],
-    ['count4', 'select-4'],
+    ['count1', 'count1'],
+    ['count2', 'count2'],
+    ['count3', 'count3'],
+    ['count4', 'count4'],
   ];
   for (const [pose, expected] of cases) {
     const det = new GestureDetector();
@@ -64,7 +64,7 @@ function run(det: GestureDetector, pose: string, from: [number, number], to: [nu
 {
   const det = new GestureDetector();
   const a1 = run(det, 'count2', [0.5, 0.5], [0.58, 0.5], 900); // drift 0.08 < 0.12
-  check('count2 with small drift fires', a1.length === 1 && a1[0] === 'select-2');
+  check('count2 with small drift fires', a1.length === 1 && a1[0] === 'count2');
   const det2 = new GestureDetector();
   const a2 = run(det2, 'closed_fist', [0.5, 0.5], [0.58, 0.5], 900); // drift 0.08 > 0.05
   check('fist with same drift ignored', a2.length === 0);
@@ -75,7 +75,7 @@ function run(det: GestureDetector, pose: string, from: [number, number], to: [nu
   const a1 = run(det, 'closed_fist', [0.5, 0.5], [0.5, 0.5], 900);
   const a2 = run(det, 'other', [0.5, 0.5], [0.5, 0.5], 50, 33, 900);
   const a3 = run(det, 'count4', [0.5, 0.5], [0.5, 0.5], 900, 33, 950);
-  check('conceal fires, later count4 also fires', a1.length === 1 && a1[0] === 'conceal' && a2.length === 0 && a3.length === 1 && a3[0] === 'select-4');
+  check('conceal fires, later count4 also fires', a1.length === 1 && a1[0] === 'closed_fist' && a2.length === 0 && a3.length === 1 && a3[0] === 'count4');
 }
 // A pose switch can't fire earlier than 900ms after the previous fire.
 {
@@ -83,9 +83,9 @@ function run(det: GestureDetector, pose: string, from: [number, number], to: [nu
   const a1 = run(det, 'closed_fist', [0.5, 0.5], [0.5, 0.5], 800); // conceal fires ~t=700
   const a2 = run(det, 'other', [0.5, 0.5], [0.5, 0.5], 50, 33, 800);
   const a3 = run(det, 'count4', [0.5, 0.5], [0.5, 0.5], 700, 33, 850);
-  check('cooldown blocks immediate second hold', a1.length === 1 && a1[0] === 'conceal' && a3.length === 0);
+  check('cooldown blocks immediate second hold', a1.length === 1 && a1[0] === 'closed_fist' && a3.length === 0);
   const a4 = run(det, 'count4', [0.5, 0.5], [0.5, 0.5], 900, 33, 1550);
-  check('second hold fires once cooldown expires', a4.filter((a) => a === 'select-4').length === 1);
+  check('second hold fires once cooldown expires', a4.filter((a) => a === 'count4').length === 1);
 }
 
 /* ── Pinch detector ─────────────────────────────────────── */
@@ -200,7 +200,7 @@ check('fingerCountLabel count3', fingerCountLabel(lmFor([true, true, true, false
   for (let t = 0; t <= 900; t += 33) thumbUpPoseFrames.push({ t, x: 0.5, y: 0.5, gesture: 'thumb_up' });
   const out: string[] = [];
   for (const s of thumbUpPoseFrames) { const a = det.push(s); if (a) out.push(a); }
-  check('thumb_up hold fires back once', out.length === 1 && out[0] === 'back');
+  check('thumb_up hold fires back once', out.length === 1 && out[0] === 'thumb_up');
 }
 
 console.log(failures === 0 ? 'ALL PASS' : `${failures} FAILURES`);

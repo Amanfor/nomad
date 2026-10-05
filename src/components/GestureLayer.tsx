@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { GestureEngine } from '../lib/gesture/engine';
-import type { GestureAction } from '../lib/gesture/hold';
 import type { PinchEvent } from '../lib/gesture/pinch';
+import { GestureMap, GestureActionId, POSE_LABELS, handMatches, loadGestureMap } from '../lib/gestureConfig';
 
 interface GestureLayerProps {
   enabled: boolean;
@@ -9,6 +9,7 @@ interface GestureLayerProps {
   introActive: boolean;
   noteOpen: boolean; // kept for API compat (scroll gesture removed)
   practiceOpen: boolean; // when the practice overlay is open, counts answer instead of scrolling
+  gestureMap?: GestureMap; // remapping config
   onStatus: (status: string | null) => void;
   onFatal: (reason: string) => void; // → parent flips enableGesture to false
 }
@@ -25,9 +26,11 @@ function syntheticClick(clientX: number, clientY: number) {
   el.dispatchEvent(new MouseEvent('click', opts));
 }
 
-export default function GestureLayer({ enabled, showPreview, introActive, noteOpen, practiceOpen, onStatus, onFatal }: GestureLayerProps) {
+export default function GestureLayer({ enabled, showPreview, introActive, noteOpen, practiceOpen, gestureMap, onStatus, onFatal }: GestureLayerProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const engineRef = useRef<GestureEngine | null>(null);
+  const gestureMapRef = useRef<GestureMap>(gestureMap || loadGestureMap());
+  useEffect(() => { if (gestureMap) gestureMapRef.current = gestureMap; }, [gestureMap]);
   const cursorRef = useRef<HTMLDivElement | null>(null);
   const debugCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const [streamLive, setStreamLive] = useState(false);
@@ -40,7 +43,7 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
   useEffect(() => { noteOpenRef.current = noteOpen; }, [noteOpen]);
   useEffect(() => { practiceOpenRef.current = practiceOpen; }, [practiceOpen]);
 
-  const dispatchUiAction = useCallback((action: GestureAction) => {
+  const dispatchEffect = useCallback((id: GestureActionId) => {
     // Guards, applied to both real and dev-injected actions.
     if (introActiveRef.current) return;
     if (typeof document !== 'undefined' && document.hidden) return;
@@ -49,20 +52,32 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
       const tag = ae.tagName;
       if (tag === 'INPUT' || tag === 'TEXTAREA' || ae.isContentEditable) return;
     }
-    if (action === 'conceal') {
-      window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action } }));
+    if (id === 'conceal') {
+      window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action: 'conceal' } }));
       return;
     }
-    if (action === 'back') {
+    if (id === 'back') {
       // Same synthetic Escape the Capacitor hardware-back path injects.
       window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true, cancelable: true }));
       return;
     }
-    const m = /^select-(\d)$/.exec(action);
+    const m = /^select(\d)$/.exec(id);
     if (m) {
       window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action: 'select', count: parseInt(m[1], 10) } }));
     }
   }, []);
+
+  /** Fire the effect bound to `pose` from hand `hand`, if any. */
+  const dispatchHoldPose = useCallback((pose: string, hand: 'left' | 'right') => {
+    const m = gestureMapRef.current;
+    for (const id of ['select1', 'select2', 'select3', 'select4', 'conceal', 'back'] as GestureActionId[]) {
+      const b = m[id];
+      if (b.pose === pose && handMatches(b, hand)) {
+        dispatchEffect(id);
+        return;
+      }
+    }
+  }, [dispatchEffect]);
 
   const handlePinch = useCallback((ev: PinchEvent) => {
     // Raw frame is unmirrored; mirror the cursor into the user's frame.
@@ -101,11 +116,16 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     if (!videoRef.current) return;
     onStatus('starting camera…');
     const engine = new GestureEngine({
-      onAction: dispatchUiAction,
+      onHold: (pose, hand) => dispatchHoldPose(pose, hand),
       onPinch: handlePinch,
-      onScroll: (dyPx) => {
-        // In practice the info layer already answers via counts; don't jam the page.
-        if (!practiceOpenRef.current) window.scrollBy({ top: dyPx, behavior: 'auto' });
+      onScrollFrame: (pose, hand, dyPx) => {
+        // Remapping is explicit: only scroll when the configured scroll pose
+        // and hand match. Practice overlay already answers via counts.
+        const m = gestureMapRef.current;
+        if (m.scroll.pose !== pose) return;
+        if (!practiceOpenRef.current && handMatches(m.scroll, hand)) {
+          window.scrollBy({ top: dyPx, behavior: 'auto' });
+        }
       },
     });
     engineRef.current = engine;
@@ -118,7 +138,7 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
       setStreamLive(false);
       onFatal(typeof err === 'string' ? err : 'camera not available in this build');
     }
-  }, [dispatchUiAction, handlePinch, onFatal, onStatus]);
+  }, [dispatchHoldPose, handlePinch, onFatal, onStatus]);
 
   // Lifecycle: on when enabled && intro done && tab visible.
   useEffect(() => {
@@ -204,16 +224,16 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     if (!(import.meta as any).env?.DEV) return;
     const inject = (action: string) => {
       switch (action) {
-        case 'conceal': dispatchUiAction('conceal'); break;
-        case 'select-1': dispatchUiAction('select-1'); break;
-        case 'select-2': dispatchUiAction('select-2'); break;
-        case 'select-3': dispatchUiAction('select-3'); break;
-        case 'select-4': dispatchUiAction('select-4'); break;
+        case 'conceal': dispatchEffect('conceal'); break;
+        case 'select-1': dispatchEffect('select1'); break;
+        case 'select-2': dispatchEffect('select2'); break;
+        case 'select-3': dispatchEffect('select3'); break;
+        case 'select-4': dispatchEffect('select4'); break;
         case 'reveal':
           window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action: 'reveal' } }));
           break;
         case 'back':
-          dispatchUiAction('back');
+          dispatchEffect('back');
           break;
         case 'click-center':
           syntheticClick(window.innerWidth / 2, window.innerHeight / 2);
@@ -225,7 +245,7 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     return () => {
       delete (window as any).__nomadGesture;
     };
-  }, [dispatchUiAction]);
+  }, [dispatchEffect]);
 
   return (
     <>

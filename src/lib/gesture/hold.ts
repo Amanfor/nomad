@@ -17,21 +17,15 @@ export interface GestureSample {
   gesture: string; // 'closed_fist' | 'count1'..'count4' | 'other' | 'none'
 }
 
-export type GestureAction =
-  | 'conceal' // closed fist held ~0.7s
-  | 'back' // thumbs-up held ~0.7s (synthetic Escape: back/close/home)
-  | 'select-1' // one finger (index)
-  | 'select-2' // two fingers
-  | 'select-3' // three fingers
-  | 'select-4'; // four fingers (open hand)
+export type GestureAction = string; // now the raw pose label ('count1' .. 'thumb_up'), mapped by GestureLayer via GestureMap
 
-const HOLD_POSES: Record<string, { action: GestureAction; radius: number }> = {
-  closed_fist: { action: 'conceal', radius: HOLD_STILL_RADIUS },
-  thumb_up: { action: 'back', radius: HOLD_STILL_RADIUS },
-  count1: { action: 'select-1', radius: HOLD_STILL_RADIUS_COUNT },
-  count2: { action: 'select-2', radius: HOLD_STILL_RADIUS_COUNT },
-  count3: { action: 'select-3', radius: HOLD_STILL_RADIUS_COUNT },
-  count4: { action: 'select-4', radius: HOLD_STILL_RADIUS_COUNT },
+const HOLD_POSES: Record<string, { action: string; radius: number }> = {
+  closed_fist: { action: 'closed_fist', radius: HOLD_STILL_RADIUS },
+  thumb_up: { action: 'thumb_up', radius: HOLD_STILL_RADIUS },
+  count1: { action: 'count1', radius: HOLD_STILL_RADIUS_COUNT },
+  count2: { action: 'count2', radius: HOLD_STILL_RADIUS_COUNT },
+  count3: { action: 'count3', radius: HOLD_STILL_RADIUS_COUNT },
+  count4: { action: 'count4', radius: HOLD_STILL_RADIUS_COUNT },
 };
 
 export class GestureDetector {

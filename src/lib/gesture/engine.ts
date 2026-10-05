@@ -2,7 +2,7 @@
 // library only when start() is called so it stays out of the main bundle.
 
 import { fingerCountLabel, isThumbUp } from './handShape';
-import { GestureDetector, GestureAction } from './hold';
+import { GestureDetector } from './hold';
 import { PinchDetector, PinchEvent } from './pinch';
 
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
@@ -12,10 +12,12 @@ const MAX_FPS = 15;
 const FRAME_BUDGET_MS = 1000 / MAX_FPS;
 
 export interface EngineEvents {
-  onAction: (action: GestureAction) => void;
+  /** Fired when a stable pose is held, by pose label and which hand fired it. */
+  onHold?: (pose: string, hand: 'left' | 'right') => void;
   onPinch?: (ev: PinchEvent) => void;
-  /** Continuous 2-finger scroll delta in pixel units (touch-drag feel). */
-  onScroll?: (deltaPx: number) => void;
+  /** Raw per-frame palm dy emitted while a count pose is held; the GestureMap
+   *  decides whether it actually scrolls. */
+  onScrollFrame?: (pose: string, hand: 'left' | 'right', deltaPx: number) => void;
 }
 
 export interface GestureDebugInfo {
@@ -183,16 +185,18 @@ export class GestureEngine {
           ? 'thumb_up'
           : fingerCountLabel(landmarks);
         const action = slot.det.push({ t: now, x, y, gesture: pose });
-        if (action) this.events.onAction(action);
+        if (action) {
+          const hand = result?.handednesses?.[hi]?.[0]?.categoryName === 'Left' ? 'left' : 'right';
+          this.events.onHold?.(action, hand);
+        }
 
-        // Two-finger pose: vertical drag scrolls the page like a touch swipe —
-        // hand moving up scrolls down. Baseline resets whenever fingers change.
-        if (pose === 'count2' && landmarks) {
+        if (pose.startsWith('count') && landmarks) {
           const curY = (landmarks[0].y + landmarks[9].y) / 2;
+          const hand = result?.handednesses?.[hi]?.[0]?.categoryName === 'Left' ? 'left' : 'right';
           if (slot.lastScrollY !== null) {
             const dy = curY - slot.lastScrollY;
             if (Math.abs(dy) > 0.001) {
-              this.events.onScroll?.((dy < 0 ? 1 : -1) * Math.min(Math.abs(dy), 0.12) * window.innerHeight * 2.2);
+              this.events.onScrollFrame?.(pose, hand, (dy < 0 ? 1 : -1) * Math.min(Math.abs(dy), 0.12) * window.innerHeight * 2.2);
             }
           }
           slot.lastScrollY = curY;

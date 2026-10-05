@@ -492,6 +492,19 @@ Tunables: `pinch.ts` — `PINCH_ENTER_DISTANCE=0.06`,
 `HOLD_STILL_RADIUS=0.05` (fist), `HOLD_STILL_RADIUS_COUNT=0.12` (counts),
 `HOLD_MIN_FRAMES=3`, `GLOBAL_COOLDOWN_MS=900`.
 
+### Remapping & dual hands
+
+Each discrete effect maps to a pose (`count1..4`, `closed_fist`, `thumb_up`)
+plus a hand restriction (`any` / `left` / `right`), stored in
+`localStorage['nomad-gesture-map']` (`src/lib/gestureConfig.ts`, defaults in
+`DEFAULT_GESTURE_MAP`). The Gestures overlay (`⟨ GESTURES ⟩` button, above
+WANDER on the left rail) cycles pose/hand per effect on tap. Both hands are
+tracked (`numHands=2`); per-hand hold/pinch/scroll detectors run
+independently, and each binding can target `any`, `left`, or `right` — e.g.
+scroll on the left hand, fist-conceal on the right. The pinch cursor/release
+click is intentionally not remapped. Device-side the debug overlay shows
+hand 0's pose/pitch state; dual-hand debug is first-hand item on device.
+
 ### Debug overlay
 
 While the camera preview is on, a green headless-style canvas overlaying it
