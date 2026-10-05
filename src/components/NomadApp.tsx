@@ -9,6 +9,7 @@ import { loadFormulaSheets } from '../data/formulas';
 import { ConceptBrowser, loadConcepts } from '../concepts';
 import { Capacitor, registerPlugin } from '@capacitor/core';
 import WisdomOverlay from './WisdomOverlay';
+import GestureLayer from './GestureLayer';
 import { getWisdomEndpoint, setWisdomEndpoint } from '../lib/wisdom';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
@@ -357,6 +358,29 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   useEffect(() => { answersRef.current = answers; }, [answers]);
   useEffect(() => { showResultsRef.current = showResults; }, [showResults]);
   useEffect(() => { onCloseRef.current = onClose; }, [onClose]);
+
+  const questionsRef = useRef<any[]>(questions);
+  useEffect(() => { questionsRef.current = questions; }, [questions]);
+
+  // Gesture reveal/conceal — only ever flips solution visibility, never answers.
+  useEffect(() => {
+    const onGesture = (e: Event) => {
+      const action = (e as CustomEvent)?.detail?.action;
+      if (action === 'conceal') {
+        setShowSolutionNote(false);
+        return;
+      }
+      if (action !== 'reveal') return;
+      const idx = currentQRef.current;
+      const q = !showResultsRef.current && idx < questionsRef.current.length ? questionsRef.current[idx] : null;
+      // Only when the see-solution button is currently available; otherwise
+      // do nothing and remember nothing.
+      const available = !!q && selectedAnswerRef.current !== null && typeof (q as any)?.solution === 'string' && (q as any).solution.trim().length > 0;
+      if (available) setShowSolutionNote(true);
+    };
+    window.addEventListener('nomad:gesture', onGesture);
+    return () => window.removeEventListener('nomad:gesture', onGesture);
+  }, []);
 
   const pupilX = useSpring(0, { stiffness: 300, damping: 25 });
   const pupilY = useSpring(0, { stiffness: 300, damping: 25 });
@@ -881,6 +905,8 @@ type Settings = {
   enableWisdom: boolean;
   alwaysGlow: boolean;
   lightMode: boolean;
+  enableGesture: boolean;
+  showGesturePreview: boolean;
 };
 
 const DEFAULT_SETTINGS: Settings = {
@@ -895,9 +921,11 @@ const DEFAULT_SETTINGS: Settings = {
   enableWisdom: false,
   alwaysGlow: false,
   lightMode: false,
+  enableGesture: false,
+  showGesturePreview: true,
 };
 
-function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }: { settings: Settings, setSettings: (s: Settings) => void, onClose: () => void, isMobile: boolean, concepts?: Concept[] }) {
+function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts, gestureStatus, gestureError }: { settings: Settings, setSettings: (s: Settings) => void, onClose: () => void, isMobile: boolean, concepts?: Concept[], gestureStatus?: string | null, gestureError?: string | null }) {
   const toggle = (key: keyof Settings) => {
     if (key === 'lightMode') {
       const newLightMode = !settings.lightMode;
@@ -929,7 +957,10 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
           { key: 'enableVoice' as keyof Settings, label: 'Enable Voices (Welcome)' },
           { key: 'enableBuzz' as keyof Settings, label: 'Enable Buzz Sound (Practice)' },
           { key: 'enableWisdom' as keyof Settings, label: 'Enable AI (wisdom mode)' },
-        ].map(({ key, label }) => (
+          { key: 'enableGesture' as keyof Settings, label: 'Gesture Mode (camera access needed)' },
+          { key: 'showGesturePreview' as keyof Settings, label: 'Show Camera Preview', gestureOnly: true },
+        ].filter((row) => !(row as any).gestureOnly || settings.enableGesture)
+        .map(({ key, label }) => (
           <div key={key} style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'flex-start' : 'center', borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: isMobile ? '0.5rem' : '1rem', gap: isMobile ? '0.5rem' : '0' }}>
             <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: isMobile ? '0.95rem' : '0.85rem' }}>{label}</span>
             <span onClick={() => toggle(key)} style={{ cursor: 'pointer', fontSize: isMobile ? '0.85rem' : '0.75rem', color: settings[key] ? '#fff' : 'rgba(255,255,255,0.3)', letterSpacing: '0.1em', transition: 'color 0.2s', alignSelf: isMobile ? 'flex-end' : 'auto' }}>
@@ -938,6 +969,15 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts }:
           </div>
         ))}
       </div>
+
+      {/* Gesture Mode status, style matches the wisdom note */}
+      {(settings.enableGesture || gestureError) && (
+        <div style={{ marginTop: '1rem', width: '100%', maxWidth: '400px', padding: isMobile ? '0 2rem' : '0' }}>
+          <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', lineHeight: 1.5 }}>
+            {gestureError ?? gestureStatus ?? 'runs on your device. nothing is recorded.'}
+          </div>
+        </div>
+      )}
 
       {/* Wisdom (AI) — opt-in only; endpoint points at the Cloudflare worker */}
       {settings.enableWisdom && (
@@ -1476,6 +1516,8 @@ export default function NomadApp() {
   const currentNoteRef = useRef<string | null>(null);
 
   const [settingsLoaded, setSettingsLoaded] = useState(false);
+  const [gestureStatus, setGestureStatus] = useState<string | null>(null);
+  const [gestureError, setGestureError] = useState<string | null>(null);
   useEffect(() => {
     try {
       const saved = localStorage.getItem('nomad-settings');
@@ -2307,8 +2349,25 @@ export default function NomadApp() {
       </AnimatePresence>
 
       <AnimatePresence>
-        {isSettingsOpen && <SettingsOverlay settings={settings} setSettings={setSettings} onClose={() => setIsSettingsOpen(false)} isMobile={isMobile} concepts={concepts} />}
+        {isSettingsOpen && <SettingsOverlay settings={settings} setSettings={(s) => { if (s.enableGesture) setGestureError(null); setSettings(s); }} onClose={() => setIsSettingsOpen(false)} isMobile={isMobile} concepts={concepts} gestureStatus={gestureStatus} gestureError={gestureError} />}
       </AnimatePresence>
+
+      <GestureLayer
+        enabled={settings.enableGesture}
+        showPreview={settings.showGesturePreview}
+        introActive={introActive}
+        noteOpen={!!selected}
+        onStatus={(s) => { setGestureStatus(s); if (s) setGestureError(null); }}
+        onFatal={(reason) => {
+          setGestureError(reason);
+          setGestureStatus(null);
+          setSettingsState((prev) => {
+            const next = { ...prev, enableGesture: false };
+            try { localStorage.setItem('nomad-settings', JSON.stringify(next)); } catch (e) {}
+            return next;
+          });
+        }}
+      />
 
       <AnimatePresence>
         {isStatsOpen && <StatsOverlay onClose={() => setIsStatsOpen(false)} isMobile={isMobile} />}
