@@ -887,6 +887,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
 
 function WanderOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: boolean }) {
   const links = [
+    { label: 'Concept Graph · Organic Chemistry', url: `${((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/')}graph`, internal: true },
     { label: 'Coordination Compounds', url: 'https://amanfor.github.io/coordination-compounds' },
     { label: 'Differential Equations', url: 'https://amanfor.github.io/differential-equations' },
     { label: 'Ray Optics', url: 'https://amanfor.github.io/ray-optics' },
@@ -900,8 +901,7 @@ function WanderOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: b
           <a
             key={link.url}
             href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
+            {...('internal' in link && (link as any).internal ? {} : { target: '_blank', rel: 'noopener noreferrer' })}
             style={{ color: 'rgba(255,255,255,0.85)', fontSize: isMobile ? '1rem' : '1.1rem', fontWeight: 300, letterSpacing: '0.08em', textDecoration: 'none', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '0.75rem', transition: 'color 0.2s' }}
             onMouseEnter={(e) => (e.currentTarget.style.color = '#fff')}
             onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.85)')}

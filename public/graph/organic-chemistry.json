@@ -1,0 +1,166 @@
+{
+  "title": "organic chemistry",
+  "subject": "chemistry",
+  "nodes": [
+    {
+      "id": "purification-of-organic-compounds",
+      "label": "Purification of Organic Compounds",
+      "group": "Basics of Organic Chemistry",
+      "note": "Covers how organic compounds are isolated and purified: crystallisation, sublimation, simple and fractional distillation, steam distillation (for immiscible, volatile liquids like aniline), reduced-pressure distillation (for thermally unstable compounds like glycerol), differential extraction using the Nernst distribution law, and chromatography (TLC, paper, column). Quantitative analysis uses Liebig combustion, Dumas and Kjeldahl methods for N, Carius method for halogens and S, and Lassaigne's test for qualitative detection of N, S, X and P. JEE angle: match the purification technique to the property difference (e.g. steam distillation for compounds boiling below 100 C without decomposition, Rf values in TLC)."
+    },
+    {
+      "id": "iupac-naming",
+      "label": "IUPAC Naming",
+      "group": "Basics of Organic Chemistry",
+      "note": "The systematic naming scheme for organic compounds: choose the longest carbon chain containing the principal functional group, number it to give the principal group (suffix) the lowest locant, then list prefixes for lower-priority groups alphabetically. Characteristic suffixes appear on page 3 of memory: -ol for alcohols, -al for aldehydes, -one for ketones, -oic acid for carboxylic acids, -amine for amines, -oate for esters, halo- for haloalkanes. JEE angle: correct numbering when a principal group and a substituent compete for lowest locants, and the order of preference (carboxylic acid > ester > amide > nitrile > aldehyde > ketone > alcohol > amine)."
+    },
+    {
+      "id": "isomerism",
+      "label": "Isomerism",
+      "group": "Basics of Organic Chemistry",
+      "note": "Compounds sharing a molecular formula but differing in structure or spatial arrangement. Structural isomers differ in connectivity: chain (n-pentane vs isopentane), position (1-propanol vs 2-propanol), functional (ethanol C2H6O vs dimethyl ether C2H6O), and metamerism (diethyl ether vs methyl propyl ether). Stereoisomers share connectivity but differ in 3D arrangement: geometrical (cis/trans, E/Z in alkenes) and optical (enantiomers rotating plane-polarised light, chiral carbons). JEE angle: counting structural isomers for a formula like C4H10O, and identifying which alkenes show E/Z isomerism (each double-bonded C must carry two different groups)."
+    },
+    {
+      "id": "electron-displacement-effects",
+      "label": "Electronic Displacement Effects",
+      "group": "Basics of Organic Chemistry",
+      "note": "The three ways electron density shifts in a molecule and how that drives reactivity. Inductive effect (+I from alkyl groups, -I from electronegative atoms like halogens and -NO2) dies out within 2-3 bonds. Resonance (mesomeric effect) delocalises pi electrons over conjugated systems, explaining benzene stability and unusual acidity of phenol. Hyperconjugation (no-bond resonance) stabilises carbocations: more alpha-hydrogens means more stability, so tertiary > secondary > primary. JEE angle: ranking carbocation and carbanion stability, and predicting ortho/para vs meta directing power from +M/-M effects."
+    },
+    {
+      "id": "goc-basics",
+      "label": "GOC Basics",
+      "group": "Basics of Organic Chemistry",
+      "note": "General Organic Chemistry underpins all other chapters: hybridisation of carbon (sp3, sp2, sp), bond angles and geometry, types of bonds (sigma, pi), and the concepts of electrophiles (electron-deficient, e.g. H+, carbocations) and nucleophiles (electron-rich, e.g. OH-, CN-, NH3). Intermediates matter: carbocations and carbanions (stability by hyperconjugation and inductive effects), free radicals, and carbenes. JEE angle: identifying electrophilic vs nucleophilic sites in a molecule and classifying a reaction as addition, substitution, elimination or rearrangement."
+    },
+    {
+      "id": "hydrocarbons",
+      "label": "Hydrocarbons",
+      "group": "Hydrocarbons",
+      "note": "Compounds of only C and H, split into alkanes (single bonds, substitution reactions like halogenation via free-radical mechanism), alkenes (C=C, addition reactions: hydrogenation, halogenation, hydrohalogenation following Markovnikov's rule, ozonolysis), alkynes (C#C, acidic terminal H, addition reactions with 1 or 2 equivalents of reagent), and aromatic hydrocarbons like benzene (substitution instead of addition due to aromatic stability: halogenation, nitration, sulphonation, Friedel-Crafts alkylation/acylation). JEE angle: Markovnikov vs anti-Markovnikov addition (peroxide effect in HBr addition) and distinguishing tests like Baeyer's reagent and ammoniacal AgNO3 for terminal alkynes."
+    },
+    {
+      "id": "haloalkanes-haloarenes",
+      "label": "Haloalkanes & Haloarenes",
+      "group": "Haloalkanes & Haloarenes",
+      "note": "Haloalkanes (alkyl halides) undergo nucleophilic substitution: SN2 (single concerted step, inversion of configuration, favoured by primary carbons and strong nucleophiles) and SN1 (two-step via carbocation, racemisation, favoured by tertiary carbons and polar protic solvents). Elimination (E1/E2) competes and gives alkenes; with alcoholic KOH dehydrohalogenation occurs (Saytzeff's rule: the more substituted alkene dominates). Haloarenes are far less reactive toward SN because the C-X bond has partial double-bond character from resonance. JEE angle: predicting major product from conditions (aqueous vs alcoholic KOH, SN vs E), and why aryl halides resist substitution."
+    },
+    {
+      "id": "nucleophilic-substitution",
+      "label": "Nucleophilic Substitution",
+      "group": "Haloalkanes & Haloarenes",
+      "note": "A reaction where a nucleophile replaces a leaving group on an sp3 carbon. SN2 is bimolecular, backside attack, one transition state, rate = k[substrate][Nu], stereochemistry inverts (Walden inversion); it works best with methyl and primary substrates. SN1 is unimolecular, ionisation to a planar carbocation then nucleophile attack, rate = k[substrate], gives racemic mixtures; tertiary substrates and stable carbocations favour it. JEE angle: which mechanism (and hence which stereochemical outcome) applies for a given substrate, solvent and nucleophile — and that AgCN gives isocyanides while KCN gives nitriles as a classic SN ambident-nucleophile question."
+    },
+    {
+      "id": "alcohols-phenols-ethers",
+      "label": "Alcohols, Phenols & Ethers",
+      "group": "Alcohols, Phenols & Ethers",
+      "note": "Alcohols (R-OH) are prepared by hydration of alkenes, hydrolysis of haloalkanes, or reduction of aldehydes/ketones/esters (NaBH4, LiAlH4). Reactions: dehydration to alkenes (acid-catalysed, Saytzeff), oxidation of primary alcohols to aldehydes then acids (PCC stops at aldehyde), secondary to ketones, Lucas test for distinguishing 1/2/3 alcohols by SN1 rate, and H-bonding raises boiling points. Phenols (Ar-OH) are much more acidic than alcohols (phenoxide stabilised by resonance) but less than carboxylic acids. Ethers (R-O-R) are relatively inert, cleaved by HX with bond order giving the more substituted halide. JEE angle: acidity ranking phenol vs alcohol vs carboxylic acid, and distinguishing tests (FeCl3 violet for phenols, Lucas reagent for alcohols)."
+    },
+    {
+      "id": "aldehydes-ketones-carboxylic-acids",
+      "label": "Aldehydes, Ketones & Carboxylic Acids",
+      "group": "Aldehydes, Ketones & Carboxylic Acids",
+      "note": "Three related carbonyl families. Aldehydes and ketones come from oxidation of alcohols, ozonolysis of alkenes, and from Rosenmund reduction or alkyne hydration in specific cases. Both undergo nucleophilic addition: HCN (cyanohydrin), NaHSO3, Grignard reagents (aldehydes give 2 alcohols, ketones give 3), reduction with NaBH4/LiAlH4 or Wolff-Kishner/Clemmensen conditions, Cannizzaro reaction (no alpha-H aldehydes), and iodoform reaction for CH3CO- groups. Carboxylic acids come from strong oxidation of primary alcohols/aldehydes and hydrolysis of nitriles/esters; they undergo esterification (Fischer), decarboxylation with soda lime, and Hell-Volhard-Zelinsky reaction to alpha-halogenate. JEE angle: distinguishing aldehydes from ketones with Tollens (silver mirror) and Fehling's tests, and acidity raised by -I substituents on the acid."
+    },
+    {
+      "id": "carbonyl-chemistry",
+      "label": "Carbonyl Chemistry",
+      "group": "Aldehydes, Ketones & Carboxylic Acids",
+      "note": "The C=O carbonyl group is polarised (C delta+, O delta-), making the carbon electrophilic and the centre of nucleophilic addition. Key transformations: addition of HCN, NaHSO3, Grignards, and alcohols (acetals/ketals protect the carbonyl); redox (reduction to alcohols/alkanes, oxidation of aldehydes to acids); alpha-carbon chemistry via enolates (aldol condensation between aldehydes/ketones with alpha-hydrogens, Claisen condensation for esters, keto-enol tautomerism); and characteristic reactions like iodoform, Cannizzaro, and crossed Cannizzaro. JEE angle: writing crossed aldol and identifying which compounds give positive iodoform tests (CH3CO-, CH3CH(OH)- groups)."
+    },
+    {
+      "id": "aromatic-chemistry",
+      "label": "Aromaticity & EAS",
+      "group": "Hydrocarbons",
+      "note": "Aromatic compounds like benzene are planar, cyclic, fully conjugated and obey Huckel's rule (4n+2 pi electrons in the ring), which makes them unusually stable and resistant to addition. Instead they undergo electrophilic aromatic substitution (EAS): halogenation (FeX3 catalyst), nitration (conc HNO3/H2SO4), sulphonation (fuming H2SO4), and Friedel-Crafts alkylation/acylation (AlCl3). Substituents already on the ring direct the next group: ortho/para directors (-OH, -NH2, -CH3, halogens though deactivating) versus meta directors (-NO2, -CN, -COOH, -SO3H, -CHO). JEE angle: predicting the major product position from directing effects and accounting for steric bias (para often dominates over ortho)."
+    },
+    {
+      "id": "amines",
+      "label": "Amines",
+      "group": "Amines & Nitrogen Compounds",
+      "note": "Amines (R-NH2, R2NH, R3N) are prepared by reduction of nitro compounds, nitriles, amides, or by Gabriel phthalimide synthesis (selective for primary aliphatic amines) and Hoffmann bromamide degradation. They are basic because of the lone pair on N (aliphatic > ammonia > aromatic amines, since aniline's lone pair is tied up in resonance with the ring). Reactions: with nitrous acid (primary aliphatic amines give N2 + alcohol; aniline gives diazonium salt), exhaustive methylation (Hoffmann elimination), Hinsberg test with benzene sulphonyl chloride to distinguish 1/2/3 amines, and coupling reactions. JEE angle: basicity order of amines and distinguishing tests (Hinsberg, nitrous acid), plus conversion chains via diazonium salts to phenols, aryl halides, and nitriles (Sandmeyer reaction)."
+    },
+    {
+      "id": "compounds-containing-nitrogen",
+      "label": "Compounds Containing Nitrogen",
+      "group": "Amines & Nitrogen Compounds",
+      "note": "A broader bucket covering nitro compounds, nitriles, isocyanides, amides, diazonium salts and related nitrogen chemistry. Key JEE transformations: reduction of nitrobenzene to aniline, hydrolysis of nitriles to acids, Sandmeyer reaction on benzenediazonium chloride to ArCl/ArBr/ArCN, conversion to phenol with warm water, and amide formation then Hoffmann bromamide degradation to a primary amine with one fewer carbon. JEE angle: multi-step conversion problems (e.g. benzene to benzoic acid via nitration, reduction, diazotization, nitrile, hydrolysis) and the reactivity of diazonium salts."
+    },
+    {
+      "id": "biomolecules",
+      "label": "Biomolecules",
+      "group": "Biomolecules & Biomolecules",
+      "note": "The chemistry of life: carbohydrates (monosaccharides like glucose and fructose, disaccharides like sucrose and lactose, polysaccharides like starch and cellulose), proteins (alpha-amino acids joined by peptide bonds), enzymes (protein catalysts explained by lock-and-key or induced-fit models), nucleic acids (DNA and RNA: nucleotides with phosphate, sugar and base), and vitamins (fat-soluble A, D, E, K versus water-soluble B-complex and C). JEE angle: which disaccharides are reducing (maltose, lactose have free anomeric carbon), DNA vs RNA differences (deoxyribose vs ribose, thymine vs uracil), and enzyme classification/function."
+    },
+    {
+      "id": "proteins-enzymes",
+      "label": "Proteins & Enzymes",
+      "group": "Biomolecules & Biomolecules",
+      "note": "Proteins are high-molecular-mass peptides of alpha-amino acids linked by peptide (-CO-NH-) bonds, with four levels of structure (primary sequence, secondary alpha-helix/beta-sheet, tertiary 3D folding, quaternary subunits). Denaturation (heat, pH change) unfolds a protein without hydrolysing peptide bonds, destroying activity. Enzymes are biocatalysts that lower activation energy and are highly substrate-specific; the induced-fit model describes active-site binding. JEE angle: tests for proteins (biuret test violet, xanthoproteic test), the difference between denaturation and hydrolysis, and enzyme classification examples."
+    },
+    {
+      "id": "vitamins-nucleic-acids",
+      "label": "Vitamins & Nucleic Acids",
+      "group": "Biomolecules & Biomolecules",
+      "note": "Vitamins are essential dietary micronutrients: vitamin A (retinol, vision), B-complex (B1 thiamine, B2 riboflavin, B3 niacin, B12 cyanocobalamin), C (ascorbic acid, antioxidant, deficiency causes scurvy), D (calciferol, deficiency causes rickets), E (tocopherol) and K (clotting). Nucleic acids are polymers of nucleotides: DNA (2-deoxyribose sugar, bases A/G/C/T, double helix with complementary base pairing, stores genetic info) and RNA (ribose sugar, bases A/G/C/U, usually single strand, protein synthesis via mRNA/tRNA/rRNA). JEE angle: matching vitamins to their deficiency diseases and the sugar/base differences between DNA and RNA."
+    },
+    {
+      "id": "polymers",
+      "label": "Polymers",
+      "group": "Polymers",
+      "note": "Polymers are large macromolecules built from repeating monomer units. Addition (chain-growth) polymers form from unsaturated monomers: polyethylene, polypropylene, polyvinyl chloride (PVC), polytetrafluoroethylene (Teflon), Bakelite from phenol + formaldehyde (condensation). Condensation (step-growth) polymers form with loss of small molecules: nylon-6,6 from hexamethylenediamine and adipic acid, terylene (Dacron) from terephthalic acid and ethylene glycol, nylon-6 from caprolactam, proteins and starch are natural examples. JEE angle: identifying monomers of given polymers, classifying natural (starch, cellulose, natural rubber) vs synthetic, and distinguishing addition vs condensation types."
+    },
+    {
+      "id": "chemistry-in-everyday-life",
+      "label": "Chemistry in Everyday Life",
+      "group": "Chemistry in Everyday Life",
+      "note": "Applies the chemistry of drugs and household chemicals. Drugs are classified as analgesics (aspirin, paracetamol), antihistamines (reduce allergy by blocking histamine), antacids (e.g. aluminium hydroxide, sodium bicarbonate neutralising stomach acid), tranquilisers, and antibiotics (penicillin, tetracycline). Food preservatives (sodium benzoate, SO2) prevent spoilage; artificial sweeteners (saccharin, aspartame, sucralose, alitame) replace sugar. JEE angle: matching drug types to their functions and recognising that aspirin and paracetamol are common analgesics while salvarsan treats syphilis."
+    },
+    {
+      "id": "organic-chemistry-overview",
+      "label": "Organic Chemistry Overview",
+      "group": "Basics of Organic Chemistry",
+      "note": "Organic chemistry is the study of carbon compounds (with H, O, N, S, halogens) and the thread connecting all chapters: functional groups, reaction mechanisms, and synthesising one compound from another. Conversion chains are built by combining standard transformations (oxidation, reduction, nucleophilic substitution, elimination, Grignard additions, diazonium chemistry). JEE often asks for multi-step syntheses and identification of missing reagents. JEE angle: tracing a target molecule back through a conversion chain to pick the correct sequence of reagents, and recognising which named reactions achieve each functional group change."
+    },
+    {
+      "id": "practical-organic-chemistry",
+      "label": "Practical Organic Chemistry",
+      "group": "Basics of Organic Chemistry",
+      "note": "Lab-based organic chemistry: qualitative tests to detect functional groups and elements. Tests include Tollens and Fehling for aldehydes, iodoform for CH3CO- groups, FeCl3 violet for phenols, Lucas for 1/2/3 alcohols, Hinsberg for amines, biuret for proteins, 2,4-DNP for carbonyls, silver nitrate/NaI precipitation for halides after Lassaigne fusion. JEE angle: designing a distinguishing test sequence for a mixture of functional groups and interpreting qualitative analysis flowcharts."
+    },
+    {
+      "id": "grignard-and-alkyne-chemistry",
+      "label": "Grignard Reagents & Alkynes",
+      "group": "Hydrocarbons",
+      "note": "Grignard reagents (RMgX) are strong nucleophiles/base made from haloalkanes and Mg in dry ether. They add to carbonyls to form alcohols (aldehydes give secondary, formaldehyde gives primary, ketones give tertiary alcohols) and react with CO2 to give carboxylic acids. Terminal alkynes are weakly acidic (pKa ~25) because the sp carbon holds the carbanion; they react with NaNH2 to form acetylides (nucleophiles) and give a red precipitate with ammoniacal Cu2Cl2, a yellow precipitate with AgNO3. JEE angle: predicting the alcohol product from a Grignard-carbonyl reaction and recognising reagent conditions that build carbon chains."
+    }
+  ],
+  "edges": [
+    {"source": "purification-of-organic-compounds", "target": "organic-chemistry-overview", "label": "isolates compounds before analysis"},
+    {"source": "iupac-naming", "target": "isomerism", "label": "naming encodes the structural difference"},
+    {"source": "goc-basics", "target": "organic-chemistry-overview", "label": "mechanism language for all chapters"},
+    {"source": "goc-basics", "target": "electron-displacement-effects", "label": "inductive/resonance/hyperconjugation basics"},
+    {"source": "electron-displacement-effects", "target": "haloalkanes-haloarenes", "label": "carbocation stability drives SN1/E1"},
+    {"source": "electron-displacement-effects", "target": "aromatic-chemistry", "label": "+M/-M effects set directing power"},
+    {"source": "hydrocarbons", "target": "haloalkanes-haloarenes", "label": "halogenation of alkanes/alkenes"},
+    {"source": "hydrocarbons", "target": "aromatic-chemistry", "label": "benzene ring reactions"},
+    {"source": "haloalkanes-haloarenes", "target": "nucleophilic-substitution", "label": "SN1/SN2 mechanisms dominate"},
+    {"source": "haloalkanes-haloarenes", "target": "alcohols-phenols-ethers", "label": "nucleophilic substitution gives alcohol"},
+    {"source": "haloalkanes-haloarenes", "target": "amines", "label": "ammonolysis produces amines"},
+    {"source": "alcohols-phenols-ethers", "target": "aldehydes-ketones-carboxylic-acids", "label": "oxidation of alcohols"},
+    {"source": "aldehydes-ketones-carboxylic-acids", "target": "carbonyl-chemistry", "label": "carbonyl group C=O is the core"},
+    {"source": "carbonyl-chemistry", "target": "grignard-and-alkyne-chemistry", "label": "Grignard adds to C=O"},
+    {"source": "grignard-and-alkyne-chemistry", "target": "hydrocarbons", "label": "alkynes come from hydrocarbons"},
+    {"source": "aldehydes-ketones-carboxylic-acids", "target": "compounds-containing-nitrogen", "label": "nitriles hydrolyse to acids"},
+    {"source": "compounds-containing-nitrogen", "target": "amines", "label": "reduction of nitro/nitrile to amine"},
+    {"source": "amines", "target": "chemistry-in-everyday-life", "label": "many drugs are amines"},
+    {"source": "amines", "target": "biomolecules", "label": "amino acids build proteins"},
+    {"source": "biomolecules", "target": "proteins-enzymes", "label": "proteins and enzymes are biomolecules"},
+    {"source": "biomolecules", "target": "vitamins-nucleic-acids", "label": "vitamins and nucleic acids"},
+    {"source": "polymers", "target": "biomolecules", "label": "starch/proteins are natural polymers"},
+    {"source": "practical-organic-chemistry", "target": "iupac-naming", "label": "functional group identification starts naming"},
+    {"source": "practical-organic-chemistry", "target": "aldehydes-ketones-carboxylic-acids", "label": "Tollens/Fehling distinguish carbonyls"},
+    {"source": "isomerism", "target": "aldehydes-ketones-carboxylic-acids", "label": "aldehydes/ketones are functional isomers"},
+    {"source": "organic-chemistry-overview", "target": "goc-basics", "label": "overview built on GOC"}
+  ]
+}
