@@ -1,0 +1,1455 @@
+{
+  "title": "inorganic chemistry",
+  "subject": "chemistry",
+  "nodes": [
+    {
+      "id": "inorganic-chemistry",
+      "label": "Inorganic Chemistry",
+      "group": "Inorganic Chemistry",
+      "depth": 0,
+      "note": "Complete JEE Main inorganic roadmap: periodicity, s/p/d/f blocks, hydrogen, bonding, equilibrium, redox, electrochemistry, coordination compounds, metallurgy, qualitative analysis and environmental chemistry. Nodes group every pillar chapter, its core trends and the named tests/reagents asked in PYQs."
+    },
+    {
+      "id": "periodic-table-and-periodicity",
+      "label": "Periodic Table and Periodicity",
+      "group": "Periodic Table and Periodicity",
+      "depth": 1,
+      "note": "Pillar chapter: Periodic Table and Periodicity. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "electronic-configuration-and-blocks",
+      "label": "Electronic Configuration and Blocks",
+      "group": "Periodic Table and Periodicity",
+      "depth": 2,
+      "note": "Every element's block is fixed by its valence subshell: $$ns^{1-2}$$ is s-block, $$ns^2np^{1-6}$$ is p-block, $$(n-1)d^{1-10}ns^{0-2}$$ is d-block, and $$(n-2)f^{0-14}$$ is f-block. Expect questions on which orbital holds the differentiating electron."
+    },
+    {
+      "id": "atomic-and-ionic-radius",
+      "label": "Atomic and Ionic Radius",
+      "group": "Periodic Table and Periodicity",
+      "depth": 2,
+      "note": "Radius decreases across a period (rising $$Z_{eff}$$) and increases down a group. Cations shrink: $$Na^+ < Na$$; anions expand: $$Cl^- > Cl$$. Isoelectronic size order: $$N^{3-} > O^{2-} > F^- > Na^+ > Mg^{2+} > Al^{3+}$$."
+    },
+    {
+      "id": "ionisation-enthalpy",
+      "label": "Ionisation Enthalpy",
+      "group": "Periodic Table and Periodicity",
+      "depth": 2,
+      "note": "Energy to remove the most loosely held electron: $$M(g) \\rightarrow M^+(g) + e^-$$. IE rises across a period and falls down a group; successive IEs $$IE_1 < IE_2 < IE_3$$ jump when a noble-gas core is broken."
+    },
+    {
+      "id": "ie-exceptions",
+      "label": "IE Exceptions (N>O, Be>B, Mg>Al)",
+      "group": "Periodic Table and Periodicity",
+      "depth": 3,
+      "note": "Half-filled and fully-filled subshells are extra stable, so $$N > O$$ (N has $$2p^3$$) and $$Be > B$$, $$Mg > Al$$. A JEE classic trap: although IE generally increases across a period, these two dips recur every period."
+    },
+    {
+      "id": "electron-gain-enthalpy",
+      "label": "Electron Gain Enthalpy",
+      "group": "Periodic Table and Periodicity",
+      "depth": 2,
+      "note": "Energy change on adding an electron: $$X(g) + e^- \\rightarrow X^-(g)$$. It usually becomes more negative across a period, but Cl has the most negative EGE, not F, because tiny $$F^-$$ suffers lone-pair repulsion."
+    },
+    {
+      "id": "electronegativity",
+      "label": "Electronegativity",
+      "group": "Periodic Table and Periodicity",
+      "depth": 2,
+      "note": "Pauling's scale measures an atom's electron-pulling power; F (4.0) is the maximum and decreases down a group and increases across a period. It predicts bond polarity and whether a hydride is ionic or covalent."
+    },
+    {
+      "id": "metallic-and-nonmetallic-character",
+      "label": "Metallic and Non-metallic Character",
+      "group": "Periodic Table and Periodicity",
+      "depth": 2,
+      "note": "Metallic character (ease of losing electrons) increases down a group and decreases across a period, opposite to non-metallic character. Highest metallic: Fr/Cs; highest non-metallic: F."
+    },
+    {
+      "id": "periodicity-of-oxidation-states",
+      "label": "Periodicity of Oxidation States",
+      "group": "Periodic Table and Periodicity",
+      "depth": 2,
+      "note": "Maximum oxidation state often equals the group number through $$+7$$, then falls after Mn: $$Cr^{+6}$$, $$Mn^{+7}$$ in $$KMnO_4$$, $$Fe^{+6}$$ in $$K_2FeO_4$$. Lower states stabilise down a group (inert pair effect, later)."
+    },
+    {
+      "id": "s-block-elements",
+      "label": "S Block Elements",
+      "group": "S Block Elements",
+      "depth": 1,
+      "note": "Pillar chapter: S Block Elements. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "group-1-alkali-metals",
+      "label": "Group 1: Alkali Metals",
+      "group": "S Block Elements",
+      "depth": 2,
+      "note": "Soft, low-melting metals with configuration $$ns^1$$: Li, Na, K, Rb, Cs, Fr. Very low IE makes them powerful reducing agents; hydration enthalpy of $$Li^+$$ is the largest in the group."
+    },
+    {
+      "id": "alkali-metal-oxides",
+      "label": "Oxides, Peroxides, Superoxides",
+      "group": "S Block Elements",
+      "depth": 3,
+      "note": "Combustion in air gives oxides (Li: $$Li_2O$$), peroxides (Na: $$Na_2O_2$$) and superoxides (K, Rb, Cs: $$KO_2$$). Superoxides like $$KO_2$$ liberate $$O_2$$, used in submarine air supply: $$4KO_2 + 2CO_2 \\rightarrow 2K_2CO_3 + 3O_2$$."
+    },
+    {
+      "id": "alkali-liquid-ammonia",
+      "label": "Solution in Liquid NH3 (Blue)",
+      "group": "S Block Elements",
+      "depth": 3,
+      "note": "Dissolved alkali metals give a deep blue paramagnetic solution from solvated electrons: $$M + (x+y)NH_3 \\rightarrow [M(NH_3)_x]^+ + [e(NH_3)_y]^-$$. On standing it decomposes to $$NaNH_2$$ plus $$H_2$$."
+    },
+    {
+      "id": "group-2-alkaline-earth-metals",
+      "label": "Group 2: Alkaline Earth Metals",
+      "group": "S Block Elements",
+      "depth": 2,
+      "note": "Harder, denser metals $$ns^2$$: Be, Mg, Ca, Sr, Ba, Ra. Solubility of hydroxides rises down the group while solubility of sulfates falls: $$BeSO_4, MgSO_4$$ soluble, $$BaSO_4$$ insoluble."
+    },
+    {
+      "id": "be-mg-anomalies",
+      "label": "Anomalous Be and Mg",
+      "group": "S Block Elements",
+      "depth": 3,
+      "note": "Small Be shows covalent character: $$BeCl_2$$ is polymeric and $$BeCO_3$$ is unstable; Mg forms a nitride $$Mg_3N_2$$ unlike other group members and its carbonate decomposes most easily. These are fixed JEE favourites."
+    },
+    {
+      "id": "diagonal-relationship",
+      "label": "Diagonal Relationship (Li-Mg, Be-Al)",
+      "group": "S Block Elements",
+      "depth": 2,
+      "note": "Li resembles Mg and Be resembles Al: similar polarising power gives amphoteric hydroxides, covalent chlorides and nitride formation. Example: both Li and Mg form nitrides, $$Li_3N$$ and $$Mg_3N_2$$, on heating in air."
+    },
+    {
+      "id": "flame-test-colors",
+      "label": "Flame Test Colors (s-Block)",
+      "group": "S Block Elements",
+      "depth": 2,
+      "note": "Characteristic flame emission: Li crimson red, Na golden yellow, K lilac (violet), Ca brick red, Sr crimson red, Ba apple green. Be and Mg show no characteristic flame since their excitation energies lie in the UV."
+    },
+    {
+      "id": "thermal-stability-of-salts",
+      "label": "Thermal Stability of Carbonates and Nitrates",
+      "group": "S Block Elements",
+      "depth": 2,
+      "note": "Stability of carbonates and nitrates increases down a group because the larger cation polarises the anion less: $$MCO_3 \\rightarrow MO + CO_2$$, $$2MNO_3 \\rightarrow 2MNO_2 + O_2$$. $$Li_2CO_3$$ and $$LiNO_3$$ decompose most easily in Group 1."
+    },
+    {
+      "id": "important-sodium-compounds",
+      "label": "Important Sodium Compounds",
+      "group": "S Block Elements",
+      "depth": 2,
+      "note": "NaOH (caustic soda, Castner-Kellner cell), $$Na_2CO_3$$ (washing soda, Solvay process) and $$NaHCO_3$$ (baking soda, mild) dominate JEE. $$Na_2CO_3$$ on heating does not decompose (unlike $$Li_2CO_3$$)."
+    },
+    {
+      "id": "solvay-process",
+      "label": "Solvay Process for Na2CO3",
+      "group": "S Block Elements",
+      "depth": 3,
+      "note": "Industrial preparation: $$NaCl + NH_3 + CO_2 + H_2O \\rightarrow NaHCO_3 + NH_4Cl$$, then $$2NaHCO_3 \\xrightarrow{\\Delta} Na_2CO_3 + CO_2 + H_2O$$. Note $$K_2CO_3$$ cannot be made this way because $$KHCO_3$$ is too soluble."
+    },
+    {
+      "id": "important-calcium-compounds",
+      "label": "Important Calcium Compounds",
+      "group": "S Block Elements",
+      "depth": 2,
+      "note": "Key substances: quicklime $$CaO$$, slaked lime $$Ca(OH)_2$$, lime water, bleaching powder $$CaOCl_2$$, and plaster of Paris $$CaSO_4 \\cdot \\tfrac{1}{2}H_2O$$. Setting of POP is crystallisation of gypsum: $$CaSO_4 \\cdot \\tfrac{1}{2}H_2O + \\tfrac{3}{2}H_2O \\rightarrow CaSO_4 \\cdot 2H_2O$$."
+    },
+    {
+      "id": "p-block-elements",
+      "label": "P Block Elements",
+      "group": "P Block Elements",
+      "depth": 1,
+      "note": "Pillar chapter: P Block Elements. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "group-13-boron-family",
+      "label": "Group 13: Boron Family",
+      "group": "P Block Elements",
+      "depth": 2,
+      "note": "Boron is a metalloid with electron-deficient $$BCl_3$$; Al is amphoteric: $$Al_2O_3 + 2NaOH \\rightarrow 2NaAlO_2 + H_2O$$. Gallium, indium and thallium show increasing inert-pair stability of the $$+1$$ state down the group."
+    },
+    {
+      "id": "group-14-carbon-family",
+      "label": "Group 14: Carbon Family",
+      "group": "P Block Elements",
+      "depth": 2,
+      "note": "C, Si, Ge, Sn, Pb with states $$+4$$ and $$+2$$; stability of $$+2$$ grows down the group (inert pair effect). $$CO_2$$ is a gas while $$SiO_2$$ is a giant covalent solid; watch oxidation states: $$PbO_2$$ is a strong oxidiser, $$PbCl_4$$ unstable."
+    },
+    {
+      "id": "group-15-nitrogen-family",
+      "label": "Group 15: Nitrogen Family",
+      "group": "P Block Elements",
+      "depth": 2,
+      "note": "N, P, As, Sb, Bi. Nitrogen shows $$p\\pi-p\\pi$$ back-bonding ($$N_2$$, $$N_2O$$, NO) unlike heavier congeners. $$NH_3$$ is basic, $$HNO_3$$ is a strong oxidising acid, and $$PCl_5$$ exists while $$NCl_5$$ does not (no d-orbitals)."
+    },
+    {
+      "id": "haber-process",
+      "label": "Haber Process for Ammonia",
+      "group": "P Block Elements",
+      "depth": 3,
+      "note": "Industrial synthesis: $$N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)$$, exothermic, favoured by high pressure ~200 atm and Fe catalyst with Mo promoter. A high-pressure, moderately heated equilibrium compromise."
+    },
+    {
+      "id": "oxoacids-of-nitrogen",
+      "label": "Oxoacids of Nitrogen",
+      "group": "P Block Elements",
+      "depth": 3,
+      "note": "Key acids: $$HNO_2$$ (nitrous, unstable), $$HNO_3$$ (nitric), $$H_2N_2O_2$$ (hyponitrous). Basicity = number of $$-OH$$ groups; $$H_3PO_2$$ and $$H_3PO_3$$ are reducing, $$HNO_3$$ oxidising."
+    },
+    {
+      "id": "group-16-oxygen-family",
+      "label": "Group 16: Oxygen Family",
+      "group": "P Block Elements",
+      "depth": 2,
+      "note": "O, S, Se, Te, Po. $$O_3$$ (ozone) is a bent triatomic allotrope: $$2O_3 \\rightarrow 3O_2$$. Sulfur's acids dominate: $$H_2SO_4$$ (contact process, strong dehydrating agent) and $$H_2S_2O_8$$ (peroxodisulfuric, has $$-O-O-$$ linkage)."
+    },
+    {
+      "id": "contact-process",
+      "label": "Contact Process for H2SO4",
+      "group": "P Block Elements",
+      "depth": 3,
+      "note": "Sulfur burned to $$SO_2$$, catalytically oxidised: $$2SO_2 + O_2 \\rightleftharpoons[V_2O_5]{} 2SO_3$$, then absorbed in $$H_2SO_4$$ to give oleum $$H_2S_2O_7$$, diluted to $$H_2SO_4$$."
+    },
+    {
+      "id": "ozone-depletion-chemistry",
+      "label": "Ozone Layer Chemistry",
+      "group": "P Block Elements",
+      "depth": 3,
+      "note": "CFCs release Cl radicals that destroy ozone: $$Cl + O_3 \\rightarrow ClO + O_2$$, $$ClO + O \\rightarrow Cl + O_2$$. This radical chain thins the stratospheric ozone layer, increasing harmful UV-B at the surface."
+    },
+    {
+      "id": "group-17-halogens",
+      "label": "Group 17: Halogens",
+      "group": "P Block Elements",
+      "depth": 2,
+      "note": "F, Cl, Br, I with configuration $$ns^2np^5$$. Bond dissociation anomaly: $$F_2$$ has lower bond energy than $$Cl_2$$ due to lone-pair repulsion. All form $$HX$$; $$HF$$ is the weakest acid yet forms $$HF_2^-$$ ($$F^- \\cdots HF$$)."
+    },
+    {
+      "id": "halogen-oxides-acids",
+      "label": "Halogen Oxoacids",
+      "group": "P Block Elements",
+      "depth": 3,
+      "note": "Order of acid strength $$HOCl < HClO_2 < HClO_3 < HClO_4$$; oxidising power decreases down the order. $$HClO_4$$ is the strongest halogen acid; perhalates are powerful oxidisers."
+    },
+    {
+      "id": "group-18-noble-gases",
+      "label": "Group 18: Noble Gases",
+      "group": "P Block Elements",
+      "depth": 2,
+      "note": "He, Ne, Ar, Kr, Xe, Rn with closed shells $$ns^2np^6$$ (He: $$1s^2$$). Only heavier noble gases form compounds: $$XeF_2$$ (linear), $$XeF_4$$ (square planar), $$XeO_3$$ (pyramidal) via VSEPR with lone pairs."
+    },
+    {
+      "id": "xenon-fluorides",
+      "label": "Xenon Fluorides (XeF2, XeF4, XeF6)",
+      "group": "P Block Elements",
+      "depth": 3,
+      "note": "Direct fluorination: $$Xe + F_2 \\xrightarrow{Ni, 673K} XeF_2$$, $$Xe + 2F_2 \\xrightarrow{Ni, 873K} XeF_4$$, $$Xe + 3F_2 \\xrightarrow{Ni, 1173K} XeF_6$$. Hydrolysis of $$XeF_6$$: $$XeF_6 + H_2O \\rightarrow XeOF_4 + 2HF$$."
+    },
+    {
+      "id": "inert-pair-effect",
+      "label": "Inert Pair Effect",
+      "group": "P Block Elements",
+      "depth": 2,
+      "note": "Down groups 13-15 the $$ns^2$$ pair resists bonding, stabilising lower oxidation states: $$Tl^+ > Tl^{3+}$$, $$Pb^{2+} > Pb^{4+}$$, $$Bi^{3+} > Bi^{5+}$$. A direct periodicity consequence examiners love."
+    },
+    {
+      "id": "hydrogen",
+      "label": "Hydrogen",
+      "group": "Hydrogen",
+      "depth": 1,
+      "note": "Pillar chapter: Hydrogen. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "hydrogen-isotopes-and-preparation",
+      "label": "Isotopes and Preparation of H2",
+      "group": "Hydrogen",
+      "depth": 2,
+      "note": "Protium $$^1H$$, deuterium $$^2H$$ (D), radioactive tritium $$^3H$$. Lab preparation: $$Zn + H_2SO_4 \\rightarrow ZnSO_4 + H_2$$; large scale via steam reforming: $$CH_4 + H_2O \\xrightarrow{1273K} CO + 3H_2$$."
+    },
+    {
+      "id": "water-gas-shift",
+      "label": "Water Gas Shift Reaction",
+      "group": "Hydrogen",
+      "depth": 3,
+      "note": "To increase $$H_2$$ yield, CO in water gas is shifted: $$CO + H_2O \\xrightarrow{673K} CO_2 + H_2$$. Iron-chrome or copper-zinc oxide catalysts are used industrially."
+    },
+    {
+      "id": "types-of-hydrides",
+      "label": "Types of Hydrides",
+      "group": "Hydrogen",
+      "depth": 2,
+      "note": "Ionic (saline): $$NaH, CaH_2$$; covalent: $$CH_4, NH_3, H_2O, HF$$; interstitial (metallic): non-stoichiometric, e.g. $$PdH_{0.6}$$, electrically conducting. Trend in boiling points: $$H_2O$$ anomalously high due to H-bonding."
+    },
+    {
+      "id": "hydrogen-peroxide",
+      "label": "Hydrogen Peroxide (H2O2)",
+      "group": "Hydrogen",
+      "depth": 2,
+      "note": "Prepared by anthraquinone process; structure has $$-O-O-$$ bridge: $$H-O-O-H$$ with dihedral angle ~109.8 deg in gas. $$H_2O_2$$ acts as both oxidiser and reducer: $$H_2O_2 + 2KI \\rightarrow 2KOH + I_2$$, $$H_2O_2 + Ag_2O \\rightarrow 2Ag + H_2O + O_2$$."
+    },
+    {
+      "id": "h2o2-structure-bond",
+      "label": "Structure and Bond Angle of H2O2",
+      "group": "Hydrogen",
+      "depth": 3,
+      "note": "Open book (skewed) structure with O-O single bond; gas dihedral 111.5 deg, crystalline altered by H-bonding. Oxidation state of O is $$-1$$, between $$-2$$ (water) and $$0$$ ($$O_2$$)."
+    },
+    {
+      "id": "water-and-heavy-water",
+      "label": "Water and Heavy Water",
+      "group": "Hydrogen",
+      "depth": 2,
+      "note": "$$H_2O$$ is a bent molecule ($$\\angle H-O-H \\approx 104.5^\\circ$$) with strong H-bonding giving high boiling point. Heavy water $$D_2O$$ is used as a moderator in nuclear reactors and in NMR/tracer studies."
+    },
+    {
+      "id": "d-and-f-block-elements",
+      "label": "D and F Block Elements",
+      "group": "D and F Block Elements",
+      "depth": 1,
+      "note": "Pillar chapter: D and F Block Elements. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "d-block-general-properties",
+      "label": "General Properties of d-Block",
+      "group": "D and F Block Elements",
+      "depth": 2,
+      "note": "Transition metals show variable oxidation states, coloured ions, paramagnetism and catalytic activity. Config: $$(n-1)d^{1-10}ns^{1-2}$$ with the exception of $$Cr: [Ar]3d^54s^1$$ and $$Cu: [Ar]3d^{10}4s^1$$."
+    },
+    {
+      "id": "oxidation-states-and-trends",
+      "label": "Oxidation States and Trends",
+      "group": "D and F Block Elements",
+      "depth": 2,
+      "note": "Max oxidation state peaks at group 7: $$Mn^{+7}$$ in $$Mn_2O_7$$; $$Sc^{+3}$$ and $$Zn^{+2}$$ are common. High states are oxidising ($$Cr_2O_7^{2-}$$), low states often reducing ($$V^{2+}$$)."
+    },
+    {
+      "id": "spin-only-formula",
+      "label": "Spin-Only Magnetic Moment",
+      "group": "D and F Block Elements",
+      "depth": 3,
+      "note": "For unpaired electrons n: $$\\mu_{so} = \\sqrt{n(n+2)}$$ BM. Used to count d-electrons, e.g. $$Fe^{3+}$$ (d5): $$\\mu = \\sqrt{5 \\cdot 7} = 5.92$$ BM."
+    },
+    {
+      "id": "lanthanoid-contraction",
+      "label": "Lanthanoid Contraction",
+      "group": "D and F Block Elements",
+      "depth": 2,
+      "note": "Poor shielding by 4f electrons shrinks radii across the lanthanoids: $$La^{3+}$$ (106 pm) to $$Lu^{3+}$$ (85 pm). Consequence: 4d and 5d pairs (Zr/Hf, Nb/Ta, Mo/W) have nearly equal radii and chemistry."
+    },
+    {
+      "id": "important-d-block-compounds",
+      "label": "Important d-Block Compounds",
+      "group": "D and F Block Elements",
+      "depth": 2,
+      "note": "$$KMnO_4$$ (purple, strong oxidiser), $$K_2Cr_2O_7$$ (orange, oxidiser in acid), $$K_2CrO_4$$ (yellow), and $$FeSO_4 \\cdot (NH_4)_2SO_4 \\cdot 6H_2O$$ (Mohr's salt). Colour: $$MnO_4^-$$ purple, $$CrO_4^{2-}$$ yellow, $$Cr_2O_7^{2-}$$ orange."
+    },
+    {
+      "id": "kmno4-redox",
+      "label": "KMnO4 as Oxidant",
+      "group": "D and F Block Elements",
+      "depth": 3,
+      "note": "In acid: $$MnO_4^- + 8H^+ + 5e^- \\rightarrow Mn^{2+} + 4H_2O$$ (purple to colourless). In neutral/alkaline medium it reduces to $$MnO_2$$: $$MnO_4^- + 2H_2O + 3e^- \\rightarrow MnO_2 + 4OH^-$$."
+    },
+    {
+      "id": "dichromate-chromate-equilibrium",
+      "label": "Cr2O7^2- / CrO4^2- Equilibrium",
+      "group": "D and F Block Elements",
+      "depth": 3,
+      "note": "$$Cr_2O_7^{2-} + 2OH^- \\rightleftharpoons 2CrO_4^{2-} + H_2O$$. Orange dichromate in acid, yellow chromate in base - classic Le Chatelier demo."
+    },
+    {
+      "id": "catalysts-in-industry",
+      "label": "Transition Metal Catalysts",
+      "group": "D and F Block Elements",
+      "depth": 2,
+      "note": "Fe (Haber, with Mo promoter), $$V_2O_5$$ (contact), Ni (hydrogenation), Pt/Pd (petroleum reforming). Adsorption of reactants on the surface and availability of d-orbitals explain activity."
+    },
+    {
+      "id": "f-block-elements",
+      "label": "F-Block: Lanthanoids and Actinoids",
+      "group": "D and F Block Elements",
+      "depth": 2,
+      "note": "Lanthanoids (4f) are silvery, with common state $$+3$$; $$Ce^{4+}$$ and $$Eu^{2+}$$ are notable. Actinoids (5f) are radioactive, all show $$+3$$, and heavier ones have low stability; $$U^{6+}$$ in uranyl $$UO_2^{2+}$$."
+    },
+    {
+      "id": "chemical-bonding-and-molecular-structure",
+      "label": "Chemical Bonding and Molecular Structure",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 1,
+      "note": "Pillar chapter: Chemical Bonding and Molecular Structure. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "ionic-bond-and-lattice-enthalpy",
+      "label": "Ionic Bond and Lattice Enthalpy",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "Formed by electron transfer giving a cation-anion lattice; lattice enthalpy is the energy released when gaseous ions form a solid, $$Na^+(g) + Cl^-(g) \\rightarrow NaCl(s)$$. Higher charges and smaller ions give larger lattice enthalpy."
+    },
+    {
+      "id": "born-haber-cycle",
+      "label": "Born-Haber Cycle",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 3,
+      "note": "Hess-law bookkeeping of formation: $$\\Delta H_f = S + \\tfrac{1}{2}D + IE + EA - U$$. Lets you estimate lattice energy or electron affinity that cannot be measured directly."
+    },
+    {
+      "id": "covalent-bonding-and-vbt",
+      "label": "Covalent Bonding and VBT",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "VBT: bonds form by overlap of half-filled orbitals with paired spins ($$\\sigma$$ by head-on, $$\\pi$$ by sideways overlap). $$\\sigma$$ is stronger than $$\\pi$$; $$N_2$$'s triple bond $$N \\equiv N$$ has one $$\\sigma$$ and two $$\\pi$$."
+    },
+    {
+      "id": "vsepr-theory",
+      "label": "VSEPR Theory and Geometries",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "Geometry follows electron-pair repulsion: $$AX_2$$ linear, $$AX_3$$ trigonal planar, $$AX_4$$ tetrahedral, $$AX_2E_2$$ bent ($$H_2O$$, 104.5 deg), $$AX_3E$$ pyramidal ($$NH_3$$, 107 deg). Lone pairs compress bond angles."
+    },
+    {
+      "id": "hybridization",
+      "label": "Hybridization",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "Mixing of orbitals gives directed geometry: $$sp$$ (linear), $$sp^2$$ (trigonal planar), $$sp^3$$ (tetrahedral), $$dsp^2$$ (square planar), $$sp^3d^2$$ (octahedral). Count $$\\sigma$$ bonds + lone pairs to assign."
+    },
+    {
+      "id": "molecular-orbital-theory",
+      "label": "Molecular Orbital Theory",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "MOs form by LCAO; for Z <= 7 the order is $$\\sigma 1s < \\sigma^*1s < \\sigma 2s < \\sigma^*2s < \\pi 2p < \\sigma 2p < \\pi^*2p < \\sigma^*2p$$, and for O, F, Ne the $$\\sigma 2p$$ and $$\\pi 2p$$ swap. Bond order $$BO = \\tfrac{1}{2}(N_b - N_a)$$ sets stability: $$O_2$$ has BO = 2 and is paramagnetic."
+    },
+    {
+      "id": "dipole-moment-and-polarity",
+      "label": "Dipole Moment and Molecular Polarity",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "$$\\mu = q \\cdot d$$. $$CO_2$$ (linear, two opposing dipoles) has $$\\mu = 0$$ though C=O is polar; $$H_2O$$ and $$NH_3$$ are polar. $$NF_3 < NH_3$$ in $$\\mu$$ because lone-pair and bond dipoles oppose in $$NF_3$$."
+    },
+    {
+      "id": "fajan-rules",
+      "label": "Fajan's Rules of Polarization",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "Small highly charged cations and large polarisable anions increase covalent character: $$LiI$$ more covalent than $$LiF$$; $$AlCl_3$$ covalent, $$AlF_3$$ ionic. Explains solubility and colour trends."
+    },
+    {
+      "id": "hydrogen-bonding",
+      "label": "Hydrogen Bonding",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "H covalently bound to F/O/N is attracted to a lone pair on F/O/N: $$O-H \\cdots O$$. Explains high bp of $$H_2O, HF, NH_3$$ and why ice (open cage) floats: max density of water at 4 deg C."
+    },
+    {
+      "id": "ice-open-structure",
+      "label": "Open Cage Structure of Ice",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 3,
+      "note": "Each water in ice H-bonds tetrahedrally to four neighbours, leaving cavities; volume expands on freezing so ice is less dense (0.917 g/cm3) and floats. This is vital for aquatic life in winter."
+    },
+    {
+      "id": "intermolecular-forces",
+      "label": "Intermolecular Forces (vdW)",
+      "group": "Chemical Bonding and Molecular Structure",
+      "depth": 2,
+      "note": "London dispersion (all molecules, rises with size), dipole-dipole, and H-bonding (strongest). Boiling points: $$He < Ar < Kr$$ from rising dispersion; polar $$HCl$$ boils above non-polar $$F_2$$ of similar mass."
+    },
+    {
+      "id": "chemical-and-ionic-equilibrium",
+      "label": "Chemical and Ionic Equilibrium",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 1,
+      "note": "Pillar chapter: Chemical and Ionic Equilibrium. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "law-of-mass-action-and-kc-kp",
+      "label": "Equilibrium Constant Kc and Kp",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 2,
+      "note": "For $$aA + bB \\rightleftharpoons cC + dD$$, $$K_c = \\frac{[C]^c[D]^d}{[A]^a[B]^b}$$ and $$K_p = K_c(RT)^{\\Delta n_g}$$. Solids and pure liquids are omitted. Large K means products dominate at equilibrium."
+    },
+    {
+      "id": "le-chatelier-principle",
+      "label": "Le Chatelier's Principle",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 2,
+      "note": "A system at equilibrium shifts to counter any imposed change. For $$N_2 + 3H_2 \\rightleftharpoons 2NH_3$$ ($$\\Delta H < 0$$), high pressure and low temperature favour $$NH_3$$; a catalyst only speeds attainment of equilibrium."
+    },
+    {
+      "id": "degree-of-dissociation",
+      "label": "Degree of Dissociation",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 2,
+      "note": "Fraction dissociated $$\\alpha$$; for $$N_2O_4 \\rightleftharpoons 2NO_2$$, $$K_p = \\frac{4\\alpha^2 P}{1-\\alpha^2}$$. Higher temperature shifts toward more $$NO_2$$ (browner gas) since dissociation is endothermic."
+    },
+    {
+      "id": "ionic-equilibrium-acids-bases-ph",
+      "label": "Acids, Bases and pH",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 2,
+      "note": "$$pH = -\\log[H^+]$$, $$pOH = 14 - pH$$ at 25 deg C. Strong acid $$HCl$$: $$pH = -\\log C$$; weak acid $$CH_3COOH$$: $$[H^+] = \\sqrt{K_a C}$$. $$K_w = 10^{-14}$$ links $$K_a$$ and $$K_b$$: $$K_w = K_a K_b$$."
+    },
+    {
+      "id": "buffer-solutions",
+      "label": "Buffer Solutions",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 2,
+      "note": "A weak acid plus its conjugate base resists pH change; Henderson-Hasselbalch: $$pH = pK_a + \\log\\frac{[\\text{salt}]}{[\\text{acid}]}$$. Blood ($$H_2CO_3/HCO_3^-$$) is the classic biological buffer."
+    },
+    {
+      "id": "salt-hydrolysis",
+      "label": "Salt Hydrolysis",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 2,
+      "note": "Salts of weak acid + strong base give basic solutions ($$CH_3COONa$$, $$pH > 7$$): $$CH_3COO^- + H_2O \\rightleftharpoons CH_3COOH + OH^-$$. Salt of strong acid + weak base gives $$pH < 7$$ ($$NH_4Cl$$); weak+weak depends on $$K_a$$ vs $$K_b$$."
+    },
+    {
+      "id": "solubility-product-ksp",
+      "label": "Solubility Product Ksp",
+      "group": "Chemical and Ionic Equilibrium",
+      "depth": 2,
+      "note": "For $$MX_2(s) \\rightleftharpoons M^{2+} + 2X^-$$, $$K_{sp} = [M^{2+}][X^-]^2 = 4s^3$$. Precipitation starts when ionic product $$Q > K_{sp}$$; common ion effect suppresses solubility - basis of Group I/II cation separation."
+    },
+    {
+      "id": "redox-reactions",
+      "label": "Redox Reactions",
+      "group": "Redox Reactions",
+      "depth": 1,
+      "note": "Pillar chapter: Redox Reactions. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "oxidation-number-rules",
+      "label": "Oxidation Number Rules",
+      "group": "Redox Reactions",
+      "depth": 2,
+      "note": "Rules: free element 0, $$O$$ is $$-2$$ (except peroxides $$-1$$, $$OF_2$$ $$+2$$), $$H$$ is $$+1$$ (except hydrides $$-1$$), sum equals charge. $$K_2Cr_2O_7$$: Cr is $$+6$$; $$H_2SO_5$$: one peroxy O pair makes S $$+6$$."
+    },
+    {
+      "id": "types-of-redox-and-agents",
+      "label": "Oxidising and Reducing Agents",
+      "group": "Redox Reactions",
+      "depth": 2,
+      "note": "Oxidiser gains electrons (is reduced); reducer loses electrons (is oxidised). $$KMnO_4, K_2Cr_2O_7, HNO_3$$ are common oxidisers; $$Zn, NaBH_4, H_2S$$ are common reducers. Disproportionation: same species oxidised and reduced, e.g. $$Cl_2 + 2NaOH \\rightarrow NaCl + NaClO + H_2O$$."
+    },
+    {
+      "id": "balancing-redox-equations",
+      "label": "Balancing Redox (Ion-Electron)",
+      "group": "Redox Reactions",
+      "depth": 2,
+      "note": "Split into half-reactions, balance atoms (O with $$H_2O$$, H with $$H^+$$ in acid), then electrons, then combine. Example: $$MnO_4^- + 5Fe^{2+} + 8H^+ \\rightarrow Mn^{2+} + 5Fe^{3+} + 4H_2O$$."
+    },
+    {
+      "id": "redox-titrations",
+      "label": "Redox Titrations",
+      "group": "Redox Reactions",
+      "depth": 2,
+      "note": "Self-indicator titrations: $$MnO_4^-$$ (purple) vs oxalate or $$Fe^{2+}$$; endpoint is first permanent pink. Iodometric titration: $$I_2 + 2Na_2S_2O_3 \\rightarrow 2NaI + Na_2S_4O_6$$ with starch blue-black endpoint."
+    },
+    {
+      "id": "electrochemistry",
+      "label": "Electrochemistry",
+      "group": "Electrochemistry",
+      "depth": 1,
+      "note": "Pillar chapter: Electrochemistry. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "galvanic-cell-and-daniell",
+      "label": "Galvanic Cell and Daniell Cell",
+      "group": "Electrochemistry",
+      "depth": 2,
+      "note": "Spontaneous redox drives current: Daniell cell $$Zn|Zn^{2+}||Cu^{2+}|Cu$$, $$E^\\circ_{cell} = 1.10$$ V, $$Zn$$ anode oxidised, $$Cu^{2+}$$ reduced at cathode. Salt bridge maintains electroneutrality."
+    },
+    {
+      "id": "electrode-potential-and-nernst",
+      "label": "Electrode Potential and Nernst Equation",
+      "group": "Electrochemistry",
+      "depth": 2,
+      "note": "Potential vs SHE (0.00 V). Nernst: $$E = E^\\circ - \\frac{0.0591}{n}\\log Q$$ at 298 K. At equilibrium $$E = 0$$ and $$E^\\circ = \\frac{0.0591}{n}\\log K$$. Connects EMF to $$\\Delta G = -nFE$$."
+    },
+    {
+      "id": "electrolytic-cell-and-faraday",
+      "label": "Electrolytic Cell and Faraday's Laws",
+      "group": "Electrochemistry",
+      "depth": 2,
+      "note": "External EMF drives non-spontaneous reaction; products: cathode reduction, anode oxidation. Faraday: $$w = ZIt = \\frac{M}{nF}It$$. Electrolysis of brine gives $$H_2$$, $$Cl_2$$ at cathode/anode; molten $$NaCl$$ gives Na and $$Cl_2$$."
+    },
+    {
+      "id": "conductance-and-kohlrausch",
+      "label": "Conductivity and Kohlrausch's Law",
+      "group": "Electrochemistry",
+      "depth": 2,
+      "note": "Molar conductivity $$\\Lambda_m$$ rises on dilution for weak electrolytes; Debye-Huckel-Onsager: $$\\Lambda_m = \\Lambda_m^\\circ - A\\sqrt{c}$$. Kohlrausch: $$\\Lambda_m^\\circ = \\lambda_+^\\circ + \\lambda_-^\\circ$$; used to find $$K_a$$ of weak acids and $$K_{sp}$$ of sparingly soluble salts."
+    },
+    {
+      "id": "batteries-and-fuel-cells",
+      "label": "Batteries and Fuel Cells",
+      "group": "Electrochemistry",
+      "depth": 2,
+      "note": "Lead-acid (secondary): anode $$Pb + SO_4^{2-} \\rightarrow PbSO_4 + 2e^-$$, cathode $$PbO_2 + SO_4^{2-} + 4H^+ + 2e^- \\rightarrow PbSO_4 + 2H_2O$$, $$E \\approx 2$$ V per cell. Fuel cell: $$2H_2 + O_2 \\rightarrow 2H_2O$$, high efficiency ~75%."
+    },
+    {
+      "id": "corrosion-and-rusting",
+      "label": "Corrosion and Rusting",
+      "group": "Electrochemistry",
+      "depth": 2,
+      "note": "Rusting needs both $$O_2$$ and $$H_2O$$: anode $$Fe \\rightarrow Fe^{2+} + 2e^-$$, cathode $$O_2 + 2H_2O + 4e^- \\rightarrow 4OH^-$$; rust is $$Fe_2O_3 \\cdot xH_2O$$. Prevention: galvanising (Zn), sacrificial Mg/Al, or coating."
+    },
+    {
+      "id": "coordination-compounds",
+      "label": "Coordination Compounds",
+      "group": "Coordination Compounds",
+      "depth": 1,
+      "note": "Pillar chapter: Coordination Compounds. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "ligands-and-denticity",
+      "label": "Ligands and Denticity",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "Ligands donate lone pairs to the metal: unidentate ($$NH_3, H_2O, Cl^-, CO$$), bidentate ($$en, C_2O_4^{2-}$$), polydentate (EDTA, hexadentate). Ambidentate: $$NO_2^-$$ (N or O), $$SCN^-$$ (S or N). Chelates ring the metal and add stability (chelate effect)."
+    },
+    {
+      "id": "coordination-number-oxidation-state",
+      "label": "Coordination Number and Oxidation State",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "In $$[Co(NH_3)_6]Cl_3$$: CN = 6, Co is $$+3$$. EAN = metal electrons + donated electrons, e.g. $$[Fe(CO)_5]$$: $$26 + 10 = 36$$ (Kr). Distinguishes coordination vs ionic sphere: ionisable Cl gives ppt with $$Ag^+$$."
+    },
+    {
+      "id": "iupac-nomenclature",
+      "label": "IUPAC Nomenclature",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "Ligands named alphabetically (anionic end in -o: chloro, ammine for $$NH_3$$, aqua, carbonyl); metal oxidation state in Roman numerals; anionic complex gets -ate: $$K_4[Fe(CN)_6]$$ potassium hexacyanidoferrate(II)."
+    },
+    {
+      "id": "werners-theory",
+      "label": "Werner's Theory",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "Primary valency (ionisable, satisfied by anions outside sphere) and secondary valency (directed in space, inside sphere). $$CoCl_3 \\cdot 6NH_3$$: all Cl inside, only 1 ionisable in $$[Co(NH_3)_5Cl]Cl_2$$-type? Classic series: $$[Co(NH_3)_6]Cl_3$$ (3 ionisable Cl), $$[Co(NH_3)_5Cl]Cl_2$$ (2), $$[Co(NH_3)_4Cl_2]Cl$$ (1)."
+    },
+    {
+      "id": "isomerism-in-complexes",
+      "label": "Isomerism in Complexes",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "Structural: ionisation, hydrate, linkage ($$[Co(NH_3)_5(NO_2)]^{2+}$$ vs $$[Co(NH_3)_5(ONO)]^{2+}$$), coordination. Stereo: geometrical ($$cis/trans$$ in $$[Pt(NH_3)_2Cl_2]$$ - cisplatin is the $$cis$$ isomer) and optical ($$[Co(en)_3]^{3+}$$)."
+    },
+    {
+      "id": "valence-bond-theory-complexes",
+      "label": "VBT for Complexes",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "Geometry from hybridisation: $$[NiCl_4]^{2-}$$ $$sp^3$$ tetrahedral paramagnetic; $$[Ni(CN)_4]^{2-}$$ $$dsp^2$$ square planar diamagnetic. Octahedral: inner-orbital $$d^2sp^3$$ (strong field, e.g. $$[Co(NH_3)_6]^{3+}$$) vs outer-orbital $$sp^3d^2$$ (weak field)."
+    },
+    {
+      "id": "crystal-field-theory-and-cfse",
+      "label": "Crystal Field Theory and CFSE",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "Ligands split d-orbitals: octahedral $$t_{2g}$$ (lower, 3 orbitals) and $$e_g$$ (higher, 2), gap $$\\Delta_o$$; CFSE $$= (-0.4n_{t2g} + 0.6n_{eg})\\Delta_o$$. Strong field gives low-spin (pairing), weak field high-spin."
+    },
+    {
+      "id": "spectrochemical-series",
+      "label": "Spectrochemical Series",
+      "group": "Coordination Compounds",
+      "depth": 3,
+      "note": "Ligand field strength: $$I^- < Br^- < Cl^- < F^- < OH^- < H_2O < NH_3 < en < NO_2^- < CN^- < CO$$. Weak-field halides give high-spin coloured complexes; $$CN^-, CO$$ give low-spin, often colourless diamagnetic ones."
+    },
+    {
+      "id": "jahn-teller-distortion",
+      "label": "Jahn-Teller Distortion",
+      "group": "Coordination Compounds",
+      "depth": 3,
+      "note": "Unequal occupancy of degenerate orbitals (e.g. $$d^9$$ $$Cu^{2+}$$, $$d^4$$ high-spin $$Mn^{3+}$$) distorts octahedron, usually elongating two axial bonds. Common in $$[Cu(H_2O)_6]^{2+}$$."
+    },
+    {
+      "id": "stability-and-edta",
+      "label": "Stability Constants and EDTA",
+      "group": "Coordination Compounds",
+      "depth": 2,
+      "note": "Stepwise stability constants $$K_1 > K_2 > ...$$; overall $$\\beta_n = K_1K_2\\cdots K_n$$. Chelation (EDTA, en) greatly increases stability (chelate effect). EDTA titrates $$Ca^{2+}/Mg^{2+}$$ in water hardness with Eriochrome Black T indicator: $$Ca^{2+} + Y^{4-} \\rightarrow [CaY]^{2-}$$."
+    },
+    {
+      "id": "isolation-of-elements",
+      "label": "Isolation of Elements",
+      "group": "Isolation of Elements",
+      "depth": 1,
+      "note": "Pillar chapter: Isolation of Elements. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "metallurgy-steps",
+      "label": "Principles of Metallurgy",
+      "group": "Isolation of Elements",
+      "depth": 2,
+      "note": "Steps: concentration of ore, conversion to oxide, reduction, refining. Choice of reducing agent from Ellingham diagram ($$\\Delta G$$ vs T): carbon reduces most oxides at high T, $$Al$$ reduces $$Cr_2O_3$$ (thermite)."
+    },
+    {
+      "id": "concentration-of-ores",
+      "label": "Concentration of Ores",
+      "group": "Isolation of Elements",
+      "depth": 2,
+      "note": "Froth flotation for sulfide ores ($$ZnS$$, $$PbS$$) with pine oil; magnetic separation for $$Fe_3O_4/MnO_2$$; leaching: bauxite $$Al_2O_3 \\cdot 2H_2O$$ dissolved in $$NaOH$$ as $$NaAlO_2$$."
+    },
+    {
+      "id": "extraction-of-aluminium",
+      "label": "Extraction of Aluminium (Hall-Heroult)",
+      "group": "Isolation of Elements",
+      "depth": 2,
+      "note": "Electrolysis of $$Al_2O_3$$ in molten cryolite $$Na_3AlF_6$$: cathode $$Al^{3+} + 3e^- \\rightarrow Al$$, anode $$C + O^{2-} \\rightarrow CO + 2e^-$$, overall $$2Al_2O_3 + 3C \\rightarrow 4Al + 3CO_2$$."
+    },
+    {
+      "id": "thermite-reaction",
+      "label": "Thermite Reaction",
+      "group": "Isolation of Elements",
+      "depth": 3,
+      "note": "$$2Al + Fe_2O_3 \\rightarrow Al_2O_3 + 2Fe$$, highly exothermic (~3000 K), used to weld railway rails. $$Mg$$ and $$Ca$$ similarly reduce $$TiCl_4$$ (Kroll process)."
+    },
+    {
+      "id": "extraction-of-iron",
+      "label": "Extraction of Iron (Blast Furnace)",
+      "group": "Isolation of Elements",
+      "depth": 2,
+      "note": "In a blast furnace, coke reduces haematite: $$C + O_2 \\rightarrow CO_2$$, $$CO_2 + C \\rightarrow 2CO$$, then $$Fe_2O_3 + 3CO \\rightarrow 2Fe + 3CO_2$$. Limestone removes gangue: $$CaCO_3 \\rightarrow CaO + CO_2$$, $$CaO + SiO_2 \\rightarrow CaSiO_3$$."
+    },
+    {
+      "id": "refining-of-metals",
+      "label": "Refining of Metals",
+      "group": "Isolation of Elements",
+      "depth": 2,
+      "note": "Electrolytic refining (Cu, Ag, Au): impure anode, pure cathode in metal salt solution. Zone refining (Ge, Si) for semiconductors; Mond process for Ni: $$Ni + 4CO \\xrightarrow{330K} Ni(CO)_4 \\xrightarrow{450K} Ni + 4CO$$."
+    },
+    {
+      "id": "mond-process",
+      "label": "Mond Process for Nickel",
+      "group": "Isolation of Elements",
+      "depth": 3,
+      "note": "Impure Ni heated with CO forms volatile $$Ni(CO)_4$$, which decomposes at 450 K to pure Ni. Basis of high-purity nickel production."
+    },
+    {
+      "id": "qualitative-analysis-salt-analysis",
+      "label": "Qualitative Analysis (Salt Analysis)",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 1,
+      "note": "Pillar chapter: Qualitative Analysis (Salt Analysis). Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "cation-analysis-groups",
+      "label": "Analysis of Cations (Groups 0-VI)",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 2,
+      "note": "Systematic separation by selective precipitation using $$K_{sp}$$: Group 0 $$NH_4^+$$; I $$Ag^+, Pb^{2+}, Hg_2^{2+}$$ (dil HCl); II $$Cu^{2+}, Cd^{2+}, Bi^{3+}, Sn^{2+}, As^{3+}$$ ($$H_2S$$ in dil HCl); III $$Fe^{3+}, Al^{3+}, Cr^{3+}$$ ($$NH_4OH/NH_4Cl$$); IV $$Zn^{2+}, Mn^{2+}, Ni^{2+}, Co^{2+}$$ ($$H_2S$$ in basic); V $$Ba^{2+}, Sr^{2+}, Ca^{2+}$$ ($$(NH_4)_2CO_3$$); VI $$Mg^{2+}$$."
+    },
+    {
+      "id": "group-1-cations",
+      "label": "Group I: Ag+, Pb2+, Hg2^2+",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 3,
+      "note": "Dil HCl precipitates white chlorides: $$AgCl, PbCl_2, Hg_2Cl_2$$. Hot water dissolves $$PbCl_2$$; $$NH_4OH$$ dissolves $$AgCl$$ as $$[Ag(NH_3)_2]^+$$ and blackens $$Hg_2Cl_2$$: $$Hg_2Cl_2 + 2NH_3 \\rightarrow Hg + Hg(NH_2)Cl + NH_4Cl$$."
+    },
+    {
+      "id": "group-3-cations",
+      "label": "Group III: Fe3+, Al3+, Cr3+",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 3,
+      "note": "$$NH_4OH$$ in presence of $$NH_4Cl$$ precipitates hydroxides: $$Fe(OH)_3$$ (red-brown), $$Al(OH)_3$$ (white gelatinous), $$Cr(OH)_3$$ (green). $$Fe^{3+}$$ confirmed by blood-red $$[Fe(SCN)]^{2+}$$ or Prussian blue with $$K_4[Fe(CN)_6]$$."
+    },
+    {
+      "id": "group-4-confirmatory",
+      "label": "Group IV Confirmatory Tests",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 3,
+      "note": "$$Ni^{2+}$$ gives rosy-red $$Ni(DMG)_2$$ with dimethylglyoxime; $$Co^{2+}$$ gives blue $$[Co(SCN)_4]^{2-}$$; $$Zn^{2+}$$ gives white $$ZnS$$/ash test (Rinmann's green $$CoO \\cdot ZnO$$ with cobalt nitrate); $$Mn^{2+}$$ gives pink sulfide and purple $$MnO_4^-$$ with oxidiser."
+    },
+    {
+      "id": "anion-analysis-classes",
+      "label": "Analysis of Anions (Classes A/B/C)",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 2,
+      "note": "Class A (dil acid, gases): $$CO_3^{2-}, SO_3^{2-}, S^{2-}, NO_2^-, S_2O_3^{2-}, CH_3COO^-$$. Class B (conc $$H_2SO_4$$): $$Cl^-, Br^-, I^-, NO_3^-, C_2O_4^{2-}$$. Class C (precipitation): $$SO_4^{2-}, PO_4^{3-}, BO_3^{3-}$$. Soda extract $$Na_2CO_3$$ fusion makes salts water-soluble."
+    },
+    {
+      "id": "brown-ring-test",
+      "label": "Brown Ring Test for Nitrate",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 3,
+      "note": "$$NO_3^- + 3Fe^{2+} + 4H^+ \\rightarrow 3Fe^{3+} + NO + 2H_2O$$; then $$Fe^{2+} + NO + 5H_2O \\rightarrow [Fe(H_2O)_5(NO)]^{2+}$$ (brown ring at acid-water interface). Nitrite also gives a similar ring - destroy $$NO_2^-$$ with urea first."
+    },
+    {
+      "id": "chromyl-chloride-test",
+      "label": "Chromyl Chloride Test for Chloride",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 3,
+      "note": "$$K_2Cr_2O_7 + 4NaCl + 6H_2SO_4 \\rightarrow 2CrO_2Cl_2 + 2KHSO_4 + 4NaHSO_4 + 2H_2O$$; orange-red vapours ($$CrO_2Cl_2$$) turn NaOH yellow ($$Na_2CrO_4$$), and $$Ag^+$$ gives brown $$Ag_2CrO_4$$. Fails for $$AgCl, PbCl_2, HgCl_2$$."
+    },
+    {
+      "id": "borax-bead-test",
+      "label": "Borax Bead Test",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 3,
+      "note": "Heat borax $$Na_2B_4O_7 \\cdot 10H_2O \\rightarrow NaBO_2 + B_2O_3 + 10H_2O$$; the glassy bead dissolves metal oxides to coloured metaborates: Cu blue/green, Co blue, Cr green, Fe yellow/brown, Mn violet. A dry preliminary test for transition-metal cations."
+    },
+    {
+      "id": "thenards-blue",
+      "label": "Thenard's Blue and Rinmann's Green",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 3,
+      "note": "Charcoal cavity + cobalt nitrate: $$Al^{3+}$$ gives Thenard's blue ($$CoO \\cdot Al_2O_3$$), $$Zn^{2+}$$ gives Rinmann's green ($$CoO \\cdot ZnO$$). Classic flame-colour-free dry tests in qualitative analysis."
+    },
+    {
+      "id": "dry-tests-and-flame",
+      "label": "Dry Heating and Flame Tests",
+      "group": "Qualitative Analysis (Salt Analysis)",
+      "depth": 2,
+      "note": "Dry heating clues: blue/green $$Cu^{2+}$$ flame, $$ZnO$$ yellow when hot white when cold, decrepitation of $$Pb(NO_3)_2$$. Flame tests: Ca brick red, Sr crimson, Ba apple green, Na golden yellow, K lilac (viewed through cobalt glass)."
+    },
+    {
+      "id": "environmental-chemistry",
+      "label": "Environmental Chemistry",
+      "group": "Environmental Chemistry",
+      "depth": 1,
+      "note": "Pillar chapter: Environmental Chemistry. Collects its JEE Main subtopics, trends and named tests in one branch."
+    },
+    {
+      "id": "atmospheric-pollution",
+      "label": "Atmospheric Pollution",
+      "group": "Environmental Chemistry",
+      "depth": 2,
+      "note": "Key pollutants: $$CO$$ (carboxyhaemoglobin, reduces $$O_2$$ transport), $$SO_2$$ (acid rain precursor: $$SO_2 + H_2O \\rightarrow H_2SO_3$$, oxidised to $$H_2SO_4$$), $$NO_x$$ (photochemical smog), particulates (PM2.5/PM10). Green chemistry aims to prevent waste at source."
+    },
+    {
+      "id": "acid-rain",
+      "label": "Acid Rain",
+      "group": "Environmental Chemistry",
+      "depth": 3,
+      "note": "Rain with $$pH < 5.6$$ from $$SO_2, NO_x$$ oxidation: $$2SO_2 + O_2 + 2H_2O \\rightarrow 2H_2SO_4$$, $$4NO_2 + O_2 + 2H_2O \\rightarrow 4HNO_3$$. Damages marble ($$CaCO_3 + H_2SO_4$$) and acidifies lakes."
+    },
+    {
+      "id": "greenhouse-gases-global-warming",
+      "label": "Greenhouse Gases and Global Warming",
+      "group": "Environmental Chemistry",
+      "depth": 2,
+      "note": "$$CO_2, CH_4, N_2O, CFCs$$ absorb outgoing IR, raising Earth's mean temperature. Methane is ~25x more potent than $$CO_2$$ over 100 years; rising from fossil fuels, rice paddies and landfills."
+    },
+    {
+      "id": "ozone-layer-and-cfcs",
+      "label": "Ozone Layer and CFC Depletion",
+      "group": "Environmental Chemistry",
+      "depth": 2,
+      "note": "Stratospheric $$O_3$$ absorbs UV ($$O_3 \\xrightarrow{h\\nu} O_2 + O$$). CFCs ($$CFCl_3, CF_2Cl_2$$) photolyse to Cl radicals catalysing $$2O_3 \\rightarrow 3O_2$$; Montreal Protocol phased CFCs out. More UV-B reaches surface, causing skin cancer risk."
+    },
+    {
+      "id": "water-pollution-and-bod",
+      "label": "Water Pollution and BOD",
+      "group": "Environmental Chemistry",
+      "depth": 2,
+      "note": "BOD (biochemical oxygen demand) measures organic load; high BOD depletes dissolved $$O_2$$, killing fish. Eutrophication from phosphates triggers algal blooms. Heavy metals $$Hg, Pb, Cd$$ bioaccumulate; Minamata disease from methyl-Hg."
+    }
+  ],
+  "edges": [
+    {
+      "source": "inorganic-chemistry",
+      "target": "periodic-table-and-periodicity",
+      "label": "contains"
+    },
+    {
+      "source": "periodic-table-and-periodicity",
+      "target": "electronic-configuration-and-blocks",
+      "label": "contains"
+    },
+    {
+      "source": "periodic-table-and-periodicity",
+      "target": "atomic-and-ionic-radius",
+      "label": "contains"
+    },
+    {
+      "source": "periodic-table-and-periodicity",
+      "target": "ionisation-enthalpy",
+      "label": "contains"
+    },
+    {
+      "source": "ionisation-enthalpy",
+      "target": "ie-exceptions",
+      "label": "contains"
+    },
+    {
+      "source": "periodic-table-and-periodicity",
+      "target": "electron-gain-enthalpy",
+      "label": "contains"
+    },
+    {
+      "source": "periodic-table-and-periodicity",
+      "target": "electronegativity",
+      "label": "contains"
+    },
+    {
+      "source": "periodic-table-and-periodicity",
+      "target": "metallic-and-nonmetallic-character",
+      "label": "contains"
+    },
+    {
+      "source": "periodic-table-and-periodicity",
+      "target": "periodicity-of-oxidation-states",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "s-block-elements",
+      "label": "contains"
+    },
+    {
+      "source": "s-block-elements",
+      "target": "group-1-alkali-metals",
+      "label": "contains"
+    },
+    {
+      "source": "group-1-alkali-metals",
+      "target": "alkali-metal-oxides",
+      "label": "contains"
+    },
+    {
+      "source": "group-1-alkali-metals",
+      "target": "alkali-liquid-ammonia",
+      "label": "contains"
+    },
+    {
+      "source": "s-block-elements",
+      "target": "group-2-alkaline-earth-metals",
+      "label": "contains"
+    },
+    {
+      "source": "group-2-alkaline-earth-metals",
+      "target": "be-mg-anomalies",
+      "label": "contains"
+    },
+    {
+      "source": "s-block-elements",
+      "target": "diagonal-relationship",
+      "label": "contains"
+    },
+    {
+      "source": "s-block-elements",
+      "target": "flame-test-colors",
+      "label": "contains"
+    },
+    {
+      "source": "s-block-elements",
+      "target": "thermal-stability-of-salts",
+      "label": "contains"
+    },
+    {
+      "source": "s-block-elements",
+      "target": "important-sodium-compounds",
+      "label": "contains"
+    },
+    {
+      "source": "important-sodium-compounds",
+      "target": "solvay-process",
+      "label": "contains"
+    },
+    {
+      "source": "s-block-elements",
+      "target": "important-calcium-compounds",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "p-block-elements",
+      "label": "contains"
+    },
+    {
+      "source": "p-block-elements",
+      "target": "group-13-boron-family",
+      "label": "contains"
+    },
+    {
+      "source": "p-block-elements",
+      "target": "group-14-carbon-family",
+      "label": "contains"
+    },
+    {
+      "source": "p-block-elements",
+      "target": "group-15-nitrogen-family",
+      "label": "contains"
+    },
+    {
+      "source": "group-15-nitrogen-family",
+      "target": "haber-process",
+      "label": "contains"
+    },
+    {
+      "source": "group-15-nitrogen-family",
+      "target": "oxoacids-of-nitrogen",
+      "label": "contains"
+    },
+    {
+      "source": "p-block-elements",
+      "target": "group-16-oxygen-family",
+      "label": "contains"
+    },
+    {
+      "source": "group-16-oxygen-family",
+      "target": "contact-process",
+      "label": "contains"
+    },
+    {
+      "source": "group-16-oxygen-family",
+      "target": "ozone-depletion-chemistry",
+      "label": "contains"
+    },
+    {
+      "source": "p-block-elements",
+      "target": "group-17-halogens",
+      "label": "contains"
+    },
+    {
+      "source": "group-17-halogens",
+      "target": "halogen-oxides-acids",
+      "label": "contains"
+    },
+    {
+      "source": "p-block-elements",
+      "target": "group-18-noble-gases",
+      "label": "contains"
+    },
+    {
+      "source": "group-18-noble-gases",
+      "target": "xenon-fluorides",
+      "label": "contains"
+    },
+    {
+      "source": "p-block-elements",
+      "target": "inert-pair-effect",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "hydrogen",
+      "label": "contains"
+    },
+    {
+      "source": "hydrogen",
+      "target": "hydrogen-isotopes-and-preparation",
+      "label": "contains"
+    },
+    {
+      "source": "hydrogen-isotopes-and-preparation",
+      "target": "water-gas-shift",
+      "label": "contains"
+    },
+    {
+      "source": "hydrogen",
+      "target": "types-of-hydrides",
+      "label": "contains"
+    },
+    {
+      "source": "hydrogen",
+      "target": "hydrogen-peroxide",
+      "label": "contains"
+    },
+    {
+      "source": "hydrogen-peroxide",
+      "target": "h2o2-structure-bond",
+      "label": "contains"
+    },
+    {
+      "source": "hydrogen",
+      "target": "water-and-heavy-water",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "d-and-f-block-elements",
+      "label": "contains"
+    },
+    {
+      "source": "d-and-f-block-elements",
+      "target": "d-block-general-properties",
+      "label": "contains"
+    },
+    {
+      "source": "d-and-f-block-elements",
+      "target": "oxidation-states-and-trends",
+      "label": "contains"
+    },
+    {
+      "source": "oxidation-states-and-trends",
+      "target": "spin-only-formula",
+      "label": "contains"
+    },
+    {
+      "source": "d-and-f-block-elements",
+      "target": "lanthanoid-contraction",
+      "label": "contains"
+    },
+    {
+      "source": "d-and-f-block-elements",
+      "target": "important-d-block-compounds",
+      "label": "contains"
+    },
+    {
+      "source": "important-d-block-compounds",
+      "target": "kmno4-redox",
+      "label": "contains"
+    },
+    {
+      "source": "important-d-block-compounds",
+      "target": "dichromate-chromate-equilibrium",
+      "label": "contains"
+    },
+    {
+      "source": "d-and-f-block-elements",
+      "target": "catalysts-in-industry",
+      "label": "contains"
+    },
+    {
+      "source": "d-and-f-block-elements",
+      "target": "f-block-elements",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "chemical-bonding-and-molecular-structure",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "ionic-bond-and-lattice-enthalpy",
+      "label": "contains"
+    },
+    {
+      "source": "ionic-bond-and-lattice-enthalpy",
+      "target": "born-haber-cycle",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "covalent-bonding-and-vbt",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "vsepr-theory",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "hybridization",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "molecular-orbital-theory",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "dipole-moment-and-polarity",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "fajan-rules",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "hydrogen-bonding",
+      "label": "contains"
+    },
+    {
+      "source": "hydrogen-bonding",
+      "target": "ice-open-structure",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-bonding-and-molecular-structure",
+      "target": "intermolecular-forces",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "chemical-and-ionic-equilibrium",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-and-ionic-equilibrium",
+      "target": "law-of-mass-action-and-kc-kp",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-and-ionic-equilibrium",
+      "target": "le-chatelier-principle",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-and-ionic-equilibrium",
+      "target": "degree-of-dissociation",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-and-ionic-equilibrium",
+      "target": "ionic-equilibrium-acids-bases-ph",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-and-ionic-equilibrium",
+      "target": "buffer-solutions",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-and-ionic-equilibrium",
+      "target": "salt-hydrolysis",
+      "label": "contains"
+    },
+    {
+      "source": "chemical-and-ionic-equilibrium",
+      "target": "solubility-product-ksp",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "redox-reactions",
+      "label": "contains"
+    },
+    {
+      "source": "redox-reactions",
+      "target": "oxidation-number-rules",
+      "label": "contains"
+    },
+    {
+      "source": "redox-reactions",
+      "target": "types-of-redox-and-agents",
+      "label": "contains"
+    },
+    {
+      "source": "redox-reactions",
+      "target": "balancing-redox-equations",
+      "label": "contains"
+    },
+    {
+      "source": "redox-reactions",
+      "target": "redox-titrations",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "electrochemistry",
+      "label": "contains"
+    },
+    {
+      "source": "electrochemistry",
+      "target": "galvanic-cell-and-daniell",
+      "label": "contains"
+    },
+    {
+      "source": "electrochemistry",
+      "target": "electrode-potential-and-nernst",
+      "label": "contains"
+    },
+    {
+      "source": "electrochemistry",
+      "target": "electrolytic-cell-and-faraday",
+      "label": "contains"
+    },
+    {
+      "source": "electrochemistry",
+      "target": "conductance-and-kohlrausch",
+      "label": "contains"
+    },
+    {
+      "source": "electrochemistry",
+      "target": "batteries-and-fuel-cells",
+      "label": "contains"
+    },
+    {
+      "source": "electrochemistry",
+      "target": "corrosion-and-rusting",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "coordination-compounds",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "ligands-and-denticity",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "coordination-number-oxidation-state",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "iupac-nomenclature",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "werners-theory",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "isomerism-in-complexes",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "valence-bond-theory-complexes",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "crystal-field-theory-and-cfse",
+      "label": "contains"
+    },
+    {
+      "source": "crystal-field-theory-and-cfse",
+      "target": "spectrochemical-series",
+      "label": "contains"
+    },
+    {
+      "source": "crystal-field-theory-and-cfse",
+      "target": "jahn-teller-distortion",
+      "label": "contains"
+    },
+    {
+      "source": "coordination-compounds",
+      "target": "stability-and-edta",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "isolation-of-elements",
+      "label": "contains"
+    },
+    {
+      "source": "isolation-of-elements",
+      "target": "metallurgy-steps",
+      "label": "contains"
+    },
+    {
+      "source": "isolation-of-elements",
+      "target": "concentration-of-ores",
+      "label": "contains"
+    },
+    {
+      "source": "isolation-of-elements",
+      "target": "extraction-of-aluminium",
+      "label": "contains"
+    },
+    {
+      "source": "extraction-of-aluminium",
+      "target": "thermite-reaction",
+      "label": "contains"
+    },
+    {
+      "source": "isolation-of-elements",
+      "target": "extraction-of-iron",
+      "label": "contains"
+    },
+    {
+      "source": "isolation-of-elements",
+      "target": "refining-of-metals",
+      "label": "contains"
+    },
+    {
+      "source": "refining-of-metals",
+      "target": "mond-process",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "qualitative-analysis-salt-analysis",
+      "label": "contains"
+    },
+    {
+      "source": "qualitative-analysis-salt-analysis",
+      "target": "cation-analysis-groups",
+      "label": "contains"
+    },
+    {
+      "source": "cation-analysis-groups",
+      "target": "group-1-cations",
+      "label": "contains"
+    },
+    {
+      "source": "cation-analysis-groups",
+      "target": "group-3-cations",
+      "label": "contains"
+    },
+    {
+      "source": "cation-analysis-groups",
+      "target": "group-4-confirmatory",
+      "label": "contains"
+    },
+    {
+      "source": "qualitative-analysis-salt-analysis",
+      "target": "anion-analysis-classes",
+      "label": "contains"
+    },
+    {
+      "source": "anion-analysis-classes",
+      "target": "brown-ring-test",
+      "label": "contains"
+    },
+    {
+      "source": "anion-analysis-classes",
+      "target": "chromyl-chloride-test",
+      "label": "contains"
+    },
+    {
+      "source": "anion-analysis-classes",
+      "target": "borax-bead-test",
+      "label": "contains"
+    },
+    {
+      "source": "anion-analysis-classes",
+      "target": "thenards-blue",
+      "label": "contains"
+    },
+    {
+      "source": "qualitative-analysis-salt-analysis",
+      "target": "dry-tests-and-flame",
+      "label": "contains"
+    },
+    {
+      "source": "inorganic-chemistry",
+      "target": "environmental-chemistry",
+      "label": "contains"
+    },
+    {
+      "source": "environmental-chemistry",
+      "target": "atmospheric-pollution",
+      "label": "contains"
+    },
+    {
+      "source": "atmospheric-pollution",
+      "target": "acid-rain",
+      "label": "contains"
+    },
+    {
+      "source": "environmental-chemistry",
+      "target": "greenhouse-gases-global-warming",
+      "label": "contains"
+    },
+    {
+      "source": "environmental-chemistry",
+      "target": "ozone-layer-and-cfcs",
+      "label": "contains"
+    },
+    {
+      "source": "environmental-chemistry",
+      "target": "water-pollution-and-bod",
+      "label": "contains"
+    }
+  ]
+}

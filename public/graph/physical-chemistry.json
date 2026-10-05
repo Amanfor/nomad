@@ -1,0 +1,1599 @@
+{
+ "title": "physical chemistry",
+ "subject": "chemistry",
+ "nodes": [
+  {
+   "id": "physical-chemistry",
+   "label": "Physical Chemistry",
+   "group": "Physical Chemistry",
+   "depth": 0,
+   "note": "The matter-energy-rates slice of JEE chemistry: gas behaviour, thermodynamics, equilibria, electrochemistry, solutions, solid state, surfaces, kinetics and radioactivity."
+  },
+  {
+   "id": "some-basic-concepts-of-chemistry",
+   "label": "Some Basic Concepts of Chemistry",
+   "group": "Some Basic Concepts of Chemistry",
+   "depth": 1,
+   "note": "Mole counting, concentration and stoichiometry: the bookkeeping every other physical-chemistry chapter assumes."
+  },
+  {
+   "id": "mole-counting-and-molar-mass",
+   "label": "Mole Counting and Molar Mass",
+   "group": "Some Basic Concepts of Chemistry",
+   "depth": 2,
+   "note": "One mole is a packet of $N_A$ particles; most JEE basics start here."
+  },
+  {
+   "id": "concentration-terms",
+   "label": "Concentration Terms",
+   "group": "Some Basic Concepts of Chemistry",
+   "depth": 2,
+   "note": "JEE mixes molarity, molality, mole fraction and normality; keep their definitions distinct."
+  },
+  {
+   "id": "molarity-molality-mole-fraction",
+   "label": "Molarity, Molality, Mole Fraction",
+   "group": "Some Basic Concepts of Chemistry",
+   "depth": 3,
+   "note": "$$M = n/V_L,\\quad m = n/\\text{kg solvent},\\quad x_A = n_A/(n_A+n_B)$$. Watch solvent vs solution volume in conversions."
+  },
+  {
+   "id": "percentage-composition",
+   "label": "Percentage Composition and Empirical Formula",
+   "group": "Some Basic Concepts of Chemistry",
+   "depth": 2,
+   "note": "From mass percentages to the simplest formula, then to the molecular formula from molar mass."
+  },
+  {
+   "id": "stoichiometry-and-limiting-reagent",
+   "label": "Stoichiometry and Limiting Reagent",
+   "group": "Some Basic Concepts of Chemistry",
+   "depth": 2,
+   "note": "Balancing gives mole ratios; the reagent that runs out first caps the product."
+  },
+  {
+   "id": "atomic-structure",
+   "label": "Atomic Structure",
+   "group": "Atomic Structure",
+   "depth": 1,
+   "note": "Models of the atom from Rutherford to the quantum picture; explains line spectra and reactivity trends used across JEE."
+  },
+  {
+   "id": "rutherford-nuclear-model",
+   "label": "Rutherford Nuclear Model",
+   "group": "Atomic Structure",
+   "depth": 2,
+   "note": "Alpha-scattering showed a tiny dense positive nucleus with most of the atom empty."
+  },
+  {
+   "id": "bohr-model-energy-levels",
+   "label": "Bohr Model and Energy Levels",
+   "group": "Atomic Structure",
+   "depth": 2,
+   "note": "Quantised circular orbits give hydrogen's spectral lines; a heavy JEE favourite."
+  },
+  {
+   "id": "bohr-energy-levels",
+   "label": "Bohr Energy Levels",
+   "group": "Atomic Structure",
+   "depth": 3,
+   "note": "$$E_n = -13.6/n^2\\ \\text{eV}$$ for hydrogen; transitions emit $$\\Delta E = 13.6\\left(1/n_1^2-1/n_2^2\\right)\\ \\text{eV}$$."
+  },
+  {
+   "id": "quantum-numbers",
+   "label": "Quantum Numbers",
+   "group": "Atomic Structure",
+   "depth": 2,
+   "note": "n, l, m_l, m_s uniquely label an electron orbital and fix the periodic table's block structure."
+  },
+  {
+   "id": "orbitals-and-probability",
+   "label": "Orbitals and Probability Density",
+   "group": "Atomic Structure",
+   "depth": 2,
+   "note": "Schrodinger picture: orbitals are 3D probability clouds shaped by l; nodes explain bonding."
+  },
+  {
+   "id": "de-broglie-wavelength",
+   "label": "de Broglie Wavelength",
+   "group": "Atomic Structure",
+   "depth": 3,
+   "note": "$$\\lambda = h/mv = h/p$$. Matter waves set the scale of electron diffraction and orbit stability."
+  },
+  {
+   "id": "chemical-bonding",
+   "label": "Chemical Bonding",
+   "group": "Chemical Bonding",
+   "depth": 1,
+   "note": "Kept thin for the physical-chemistry graph: only bonding ideas that recur in equilibria, gases and solids."
+  },
+  {
+   "id": "lewis-octet-hybridisation",
+   "label": "Lewis Structures, Octet and Hybridisation",
+   "group": "Chemical Bonding",
+   "depth": 2,
+   "note": "Electron bookkeeping predicts geometry and polarity; hybridisation links geometry to sigma/pi bond counts."
+  },
+  {
+   "id": "vsepr-geometry",
+   "label": "VSEPR Geometry",
+   "group": "Chemical Bonding",
+   "depth": 2,
+   "note": "Electron pairs repel to maximise separation; lone pairs compress bond angles."
+  },
+  {
+   "id": "bond-order-mo",
+   "label": "Bond Order from MO Theory",
+   "group": "Chemical Bonding",
+   "depth": 3,
+   "note": "$$BO = (N_b - N_a)/2$$. Predicts bond strength and $O_2$ paramagnetism; JEE asks $O_2, N_2, O_2^+$."
+  },
+  {
+   "id": "redox-reactions",
+   "label": "Redox Reactions",
+   "group": "Redox Reactions",
+   "depth": 1,
+   "note": "Oxidation numbers and balancing; the bookkeeping that feeds electrochemistry potential calculations."
+  },
+  {
+   "id": "oxidation-number-rules",
+   "label": "Oxidation Number Rules",
+   "group": "Redox Reactions",
+   "depth": 2,
+   "note": "Assign O.N. carefully (peroxide, superoxide, metal hydrides) before classifying agents or balancing."
+  },
+  {
+   "id": "oxidation-number-conventions",
+   "label": "Oxidation Number Conventions",
+   "group": "Redox Reactions",
+   "depth": 3,
+   "note": "H = +1 (-1 in metal hydrides), O = -2 (peroxide -1, superoxide -1/2), F = -1, and the O.N. sum equals the species' charge. $$\\sum \\text{O.N.} = \\text{charge on species}$$"
+  },
+  {
+   "id": "balancing-redox-equations",
+   "label": "Balancing Redox Equations",
+   "group": "Redox Reactions",
+   "depth": 2,
+   "note": "Half-reaction or oxidation-number change method; conserve atoms, charge and mass."
+  },
+  {
+   "id": "disproportionation",
+   "label": "Disproportionation",
+   "group": "Redox Reactions",
+   "depth": 2,
+   "note": "One element is both oxidised and reduced in the same reaction, e.g. $Cl_2$ in cold dilute $NaOH$."
+  },
+  {
+   "id": "galvanic-from-redox",
+   "label": "Redox Pair -> Galvanic Cell",
+   "group": "Redox Reactions",
+   "depth": 3,
+   "note": "A spontaneous redox couple sets up a cell: $$\\Delta G = -nFE$$, $$E^0_{cell}=E^0_{cathode}-E^0_{anode}$$."
+  },
+  {
+   "id": "gaseous-state-and-kinetic-theory",
+   "label": "Gaseous State and Kinetic Theory",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 1,
+   "note": "Ideal-gas laws, gas mixtures and molecular speeds; JEE loves numericals on $v_{rms}$, effusion and van der Waals constants."
+  },
+  {
+   "id": "gas-laws",
+   "label": "Gas Laws (Boyle, Charles, Gay-Lussac)",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 2,
+   "note": "Each gas law is one variable held constant between two states of a fixed amount of gas."
+  },
+  {
+   "id": "boyles-law",
+   "label": "Boyle's Law",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 3,
+   "note": "At fixed T, $$PV = const$$. Pressure rises as volume shrinks; basis of lung and piston questions."
+  },
+  {
+   "id": "ideal-gas-equation",
+   "label": "Ideal Gas Equation",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 2,
+   "note": "The combined gas law in one line; underpins almost every gas numerical."
+  },
+  {
+   "id": "ideal-gas-equation-pv-nrt",
+   "label": "Ideal Gas Equation",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 3,
+   "note": "$$PV = nRT$$, with $R = 0.0821\\ L\\ atm\\ K^{-1}\\ mol^{-1}$. State assumptions: point particles, no intermolecular forces."
+  },
+  {
+   "id": "dalton-and-graham",
+   "label": "Dalton's Law and Graham's Law",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 2,
+   "note": "Mixture pressures add; rate of effusion scales inversely with sqrt of molar mass."
+  },
+  {
+   "id": "daltons-law",
+   "label": "Dalton's Law of Partial Pressures",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 3,
+   "note": "$$P_{total} = \\sum p_i,\\quad p_i = x_i P_{total}$$. Each gas behaves as if alone in the volume."
+  },
+  {
+   "id": "grahams-law-effusion",
+   "label": "Graham's Law of Effusion",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 3,
+   "note": "$$r_1/r_2 = \\sqrt{M_2/M_1} = t_2/t_1$$. Diffusion and effusion time problems reduce to square-root-of-mass ratios."
+  },
+  {
+   "id": "kinetic-theory-postulates",
+   "label": "Kinetic Theory Postulates",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 2,
+   "note": "Gas pressure arises from elastic molecular collisions; average kinetic energy tracks temperature."
+  },
+  {
+   "id": "rms-average-most-probable-speeds",
+   "label": "Molecular Speeds and Maxwell-Boltzmann",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 3,
+   "note": "$$v_{rms}=\\sqrt{3RT/M},\\ v_{avg}=\\sqrt{8RT/\\pi M},\\ v_{mp}=\\sqrt{2RT/M}$$. Ratio $v_{rms}:v_{avg}:v_{mp}=\\sqrt3:\\sqrt{8/\\pi}:\\sqrt2$."
+  },
+  {
+   "id": "degree-of-freedom",
+   "label": "Degrees of Freedom",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 2,
+   "note": "Translational, rotational and vibrational modes fix $\\gamma = C_p/C_v$ and gas heat capacities."
+  },
+  {
+   "id": "real-gas-van-der-waals",
+   "label": "Real Gases and van der Waals Equation",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 2,
+   "note": "Finite size (b) and attractions (a) correct the ideal law; $Z$ tracks deviation."
+  },
+  {
+   "id": "van-der-waals-equation",
+   "label": "van der Waals Equation",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 3,
+   "note": "$$\\left(P + a n^2/V^2\\right)(V - nb) = nRT$$. $a$ measures attraction, $b$ excluded volume; $Z = PV/nRT$."
+  },
+  {
+   "id": "critical-constants",
+   "label": "Critical Constants and Liquefaction",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 2,
+   "note": "Above $T_c$ no amount of pressure liquefies a gas; critical constants tie back to $a$ and $b$."
+  },
+  {
+   "id": "critical-constants-formulas",
+   "label": "Critical Constants from a and b",
+   "group": "Gaseous State and Kinetic Theory",
+   "depth": 3,
+   "note": "$$T_c=\\frac{8a}{27Rb},\\ P_c=\\frac{a}{27b^2},\\ V_c=3nb$$. Easily the most-asked real-gas formula cluster."
+  },
+  {
+   "id": "thermodynamics",
+   "label": "Thermodynamics",
+   "group": "Thermodynamics",
+   "depth": 1,
+   "note": "State functions, the two laws and Gibbs energy; frames every equilibrium and emf statement in JEE chemistry."
+  },
+  {
+   "id": "system-surroundings-state-functions",
+   "label": "System, Surroundings and State Functions",
+   "group": "Thermodynamics",
+   "depth": 2,
+   "note": "State functions (U, H, S, G) depend only on endpoints; q and w are path-dependent."
+  },
+  {
+   "id": "first-law-thermodynamics",
+   "label": "First Law of Thermodynamics",
+   "group": "Thermodynamics",
+   "depth": 2,
+   "note": "Energy is conserved: heat added and work done by a system change its internal energy."
+  },
+  {
+   "id": "first-law-delta-u",
+   "label": "First Law Equation",
+   "group": "Thermodynamics",
+   "depth": 3,
+   "note": "$$\\Delta U = q + w$$ (chemistry sign convention, w = work done on gas: $w = -P\\Delta V$). For isothermal ideal gas, $\\Delta U=0$."
+  },
+  {
+   "id": "thermodynamic-processes",
+   "label": "Isothermal, Adiabatic, Isochoric, Isobaric",
+   "group": "Thermodynamics",
+   "depth": 2,
+   "note": "Named conditions simplify first-law bookkeeping into one algebraic constraint each."
+  },
+  {
+   "id": "entropy-and-second-law",
+   "label": "Entropy and Second Law",
+   "group": "Thermodynamics",
+   "depth": 2,
+   "note": "Spontaneous processes increase universe entropy; $\\Delta S$ of a phase or reaction is computable."
+  },
+  {
+   "id": "entropy-second-law",
+   "label": "Entropy and Second Law",
+   "group": "Thermodynamics",
+   "depth": 3,
+   "note": "$$\\Delta S_{surr} = -\\Delta H_{sys}/T,\\quad \\Delta S_{univ} > 0$$ for spontaneous. Reversible: $q_{rev}/T$."
+  },
+  {
+   "id": "gibbs-free-energy-spontaneity",
+   "label": "Gibbs Free Energy and Spontaneity",
+   "group": "Thermodynamics",
+   "depth": 2,
+   "note": "$\\Delta G$ bundles enthalpy and entropy; negative $\\Delta G$ marks a spontaneous process at constant T,P."
+  },
+  {
+   "id": "gibbs-free-energy",
+   "label": "Gibbs Free Energy",
+   "group": "Thermodynamics",
+   "depth": 3,
+   "note": "$$\\Delta G = \\Delta H - T\\Delta S$$; $\\Delta G < 0$ spontaneous, $=0$ equilibrium. Linked to equilibrium: $\\Delta G = -RT\\ln K$."
+  },
+  {
+   "id": "work-expansion",
+   "label": "Expansion Work",
+   "group": "Thermodynamics",
+   "depth": 2,
+   "note": "Every numerical on isothermal/adiabatic change starts from the integral form of w."
+  },
+  {
+   "id": "isothermal-adiabatic-work",
+   "label": "Work Formulas",
+   "group": "Thermodynamics",
+   "depth": 3,
+   "note": "Isothermal ideal gas: $$w = -nRT\\ln(V_2/V_1)$$; reversible adiabatic: $$w = (P_2V_2-P_1V_1)/(1-\\gamma)$$."
+  },
+  {
+   "id": "thermochemistry-and-energetics",
+   "label": "Thermochemistry and Energetics",
+   "group": "Thermochemistry and Energetics",
+   "depth": 1,
+   "note": "Enthalpy changes with Hess's law, bond enthalpy and calorimetry; classic JEE numerical territory."
+  },
+  {
+   "id": "enthalpy-and-heat-of-reaction",
+   "label": "Enthalpy and Heat of Reaction",
+   "group": "Thermochemistry and Energetics",
+   "depth": 2,
+   "note": "At constant pressure $q_p = \\Delta H$; exothermic $\\Delta H<0$, endothermic $\\Delta H>0$."
+  },
+  {
+   "id": "hess-law-cycles",
+   "label": "Hess's Law and Enthalpy Cycles",
+   "group": "Thermochemistry and Energetics",
+   "depth": 2,
+   "note": "Because H is a state function, enthalpy of reaction is path-independent; cycles with heats of formation save time."
+  },
+  {
+   "id": "hess-law",
+   "label": "Hess's Law",
+   "group": "Thermochemistry and Energetics",
+   "depth": 3,
+   "note": "$$\\Delta H_{rxn} = \\sum \\Delta H_{steps}$$. Arrange known formation/combustion data to reach the target reaction."
+  },
+  {
+   "id": "bond-enthalpy-calculation",
+   "label": "Bond Enthalpy Calculations",
+   "group": "Thermochemistry and Energetics",
+   "depth": 2,
+   "note": "Break bonds (energy in), form bonds (energy out); difference is $\\Delta H$."
+  },
+  {
+   "id": "bond-enthalpy-formula",
+   "label": "Bond Enthalpy Formula",
+   "group": "Thermochemistry and Energetics",
+   "depth": 3,
+   "note": "$$\\Delta H = \\sum BE_{\\text{broken}} - \\sum BE_{\\text{formed}}$$. Average bond enthalpies make molecule estimates only."
+  },
+  {
+   "id": "calorimetry-principles",
+   "label": "Calorimetry",
+   "group": "Thermochemistry and Energetics",
+   "depth": 2,
+   "note": "Measure q from temperature change with a calorimeter constant; links heat to mass and heat capacity."
+  },
+  {
+   "id": "calorimetry-q-mcdt",
+   "label": "Calorimetry Equation",
+   "group": "Thermochemistry and Energetics",
+   "depth": 3,
+   "note": "$$q = mc\\Delta T + C_{cal}\\Delta T$$. Sign and calorimeter constant errors are common traps."
+  },
+  {
+   "id": "chemical-equilibrium",
+   "label": "Chemical Equilibrium",
+   "group": "Chemical Equilibrium",
+   "depth": 1,
+   "note": "How far reactions go and how Le Chatelier shifts them; $K_p$–$K_c$ conversions are exam staples."
+  },
+  {
+   "id": "law-of-mass-action",
+   "label": "Law of Mass Action",
+   "group": "Chemical Equilibrium",
+   "depth": 2,
+   "note": "Equilibrium constant expression in concentrations of products over reactants, powers = stoichiometric coefficients."
+  },
+  {
+   "id": "kp-kc-relationship",
+   "label": "Kp, Kc and Degree of Dissociation",
+   "group": "Chemical Equilibrium",
+   "depth": 2,
+   "note": "Gas equilibria can use pressures; the two constants differ by $(RT)^{\\Delta n}$."
+  },
+  {
+   "id": "kp-kc-formula",
+   "label": "Kp = Kc (RT)^delta n",
+   "group": "Chemical Equilibrium",
+   "depth": 3,
+   "note": "$$K_p = K_c(RT)^{\\Delta n_g}$$. $\\Delta n_g$ counts gaseous moles only; $\\Delta n_g=0$ makes them equal."
+  },
+  {
+   "id": "degree-of-dissociation",
+   "label": "Degree of Dissociation",
+   "group": "Chemical Equilibrium",
+   "depth": 2,
+   "note": "Fraction dissociated at equilibrium; connects alpha to K and pressure for dimerisation/dissociation."
+  },
+  {
+   "id": "degree-of-dissociation-alpha",
+   "label": "Degree of Dissociation Relations",
+   "group": "Chemical Equilibrium",
+   "depth": 3,
+   "note": "For $A \\rightleftharpoons 2B$ at pressure P: $$K_p = \\frac{4\\alpha^2 P}{1-\\alpha^2}$$. Solve for $\\alpha$ or P."
+  },
+  {
+   "id": "le-chatelier-principle",
+   "label": "Le Chatelier's Principle",
+   "group": "Chemical Equilibrium",
+   "depth": 2,
+   "note": "Changing concentration, pressure or temperature shifts a system to partially undo the change."
+  },
+  {
+   "id": "le-chatelier-shifts",
+   "label": "Le Chatelier Shift Directions",
+   "group": "Chemical Equilibrium",
+   "depth": 3,
+   "note": "Add reactant -> forward; increase P shifts toward fewer gas moles; raise T for an endothermic reaction -> forward. Catalyst: equilibrium unchanged. $$K_p = K_c(RT)^{\\Delta n}$$ links the gas-phase description."
+  },
+  {
+   "id": "ionic-equilibrium-and-ph",
+   "label": "Ionic Equilibrium, pH and Buffers",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 1,
+   "note": "Weak electrolytes, pH, buffers, hydrolysis and Ksp; the densest formula cluster in physical chemistry."
+  },
+  {
+   "id": "acids-bases-theories",
+   "label": "Acids and Bases: Arrhenius, Bronsted, Lewis",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 2,
+   "note": "Each definition is broader than the last; JEE asks for examples fitting each."
+  },
+  {
+   "id": "bronsted-lewis-conjugate",
+   "label": "Conjugate Acid-Base Pairs",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 3,
+   "note": "Bronsted: proton donor/acceptor, e.g. $NH_3/NH_4^+$. Lewis: electron-pair acceptor/donor; $BF_3$, $AlCl_3$ are Lewis acids. $$NH_3 + H^+ \\rightarrow NH_4^+$$"
+  },
+  {
+   "id": "water-autoionisation-kw",
+   "label": "Water Autoionisation and Kw",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 2,
+   "note": "Water self-ionises slightly; $K_w$ fixes [H+][OH-] at a given temperature."
+  },
+  {
+   "id": "kw-ph-poh",
+   "label": "Kw and pH/pOH",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 3,
+   "note": "$$K_w = [H^+][OH^-] = 10^{-14}\\ (25^\\circ C),\\quad pH + pOH = 14,\\ pH = -\\log[H^+]$$."
+  },
+  {
+   "id": "weak-electrolytes-ka-kb",
+   "label": "Weak Acids/Bases: Ka, Kb",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 2,
+   "note": "Degree of dissociation of a weak acid grows as it is diluted (Ostwald)."
+  },
+  {
+   "id": "buffer-solutions",
+   "label": "Buffer Solutions",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 2,
+   "note": "A weak acid/conjugate base pair resists pH change; Henderson–Hasselbalch gives the pH directly."
+  },
+  {
+   "id": "henderson-hasselbalch",
+   "label": "Henderson-Hasselbalch Equation",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 3,
+   "note": "$$pH = pK_a + \\log\\frac{[\\text{salt}]}{[\\text{acid}]}$$ (acidic buffer). Basic buffer: $pOH = pK_b + \\log([\\text{salt}]/[\\text{base}])$."
+  },
+  {
+   "id": "salt-hydrolysis",
+   "label": "Salt Hydrolysis",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 2,
+   "note": "Salts of weak acid/strong base (or vice versa) hydrolyse, setting solution acidity."
+  },
+  {
+   "id": "solubility-product-ksp",
+   "label": "Solubility Product Ksp",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 2,
+   "note": "Predicts whether a precipitate forms from a mixing; a Q vs Ksp comparison."
+  },
+  {
+   "id": "ksp-and-solubility",
+   "label": "Ksp and Molar Solubility",
+   "group": "Ionic Equilibrium, pH and Buffers",
+   "depth": 3,
+   "note": "For $M_aX_b$, $$K_{sp} = s^{a+b}a^ab^b$$; e.g. AgCl: $K_{sp}=s^2$, $CaF_2$: $K_{sp}=4s^3$. Common-ion effect lowers s."
+  },
+  {
+   "id": "electrochemistry-and-ionic-conduction",
+   "label": "Electrochemistry and Ionic Conduction",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 1,
+   "note": "Conductivity of solutions, Nernst potentials and Faraday's laws; Kohlrausch and Debye-Huckel turn up often."
+  },
+  {
+   "id": "conductance-molar-conductivity",
+   "label": "Conductance and Molar Conductivity",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 2,
+   "note": "Two ways to report how well a solution conducts; dilution changes them differently."
+  },
+  {
+   "id": "molar-conductivity-kappa",
+   "label": "Molar Conductivity",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 3,
+   "note": "$$\\Lambda_m = \\kappa \\frac{1000}{c}\\ \\text{S cm}^2\\ \\text{mol}^{-1}$$. For strong electrolytes $\\Lambda_m$ rises on dilution as inter-ionic drag falls."
+  },
+  {
+   "id": "kohlrausch-law",
+   "label": "Kohlrausch's Law",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 2,
+   "note": "At infinite dilution each ion contributes independently to conductance; lets you get $K_w$ and $\\Lambda^0$ for weak electrolytes."
+  },
+  {
+   "id": "debye-huckel-onsager",
+   "label": "Debye-Huckel-Onsager Theory",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 2,
+   "note": "Explains why strong-electrolyte $\\Lambda_m$ falls as concentration rises; plots are linear in $\\sqrt c$."
+  },
+  {
+   "id": "nernst-equation",
+   "label": "Nernst Equation",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 2,
+   "note": "Electrode potential under non-standard conditions; the link between emf, concentrations and $\\Delta G$."
+  },
+  {
+   "id": "nernst-equation-formula",
+   "label": "Nernst Equation",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 3,
+   "note": "$$E = E^0 - \\frac{RT}{nF}\\ln Q = E^0 - \\frac{0.0591}{n}\\log Q\\ (25^\\circ C)$$. Also $\\Delta G = -nFE$, $\\Delta G^0=-nFE^0$."
+  },
+  {
+   "id": "electrolysis-faraday",
+   "label": "Electrolysis and Faraday's Laws",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 2,
+   "note": "Charge passed deposits a predictable mass; equivalents obey Faraday's constant."
+  },
+  {
+   "id": "faradays-laws-electrolysis",
+   "label": "Faraday's Laws",
+   "group": "Electrochemistry and Ionic Conduction",
+   "depth": 3,
+   "note": "$$m = ZIt/F,\\ m \\propto Q$$. One faraday ($F = 96487\\ C$) deposits one gram-equivalent."
+  },
+  {
+   "id": "solutions-and-colligative-properties",
+   "label": "Solutions and Colligative Properties",
+   "group": "Solutions and Colligative Properties",
+   "depth": 1,
+   "note": "Raoult and Henry laws, vapour-pressure lowering and the four colligative effects with $i$."
+  },
+  {
+   "id": "types-of-solutions",
+   "label": "Types of Solutions and Concentration",
+   "group": "Solutions and Colligative Properties",
+   "depth": 2,
+   "note": "Solid/liquid/gas mixtures, saturated vs unsaturated, and concentration units used in colligative formulas."
+  },
+  {
+   "id": "raoult-law-ideal-solutions",
+   "label": "Raoult's Law and Ideal Solutions",
+   "group": "Solutions and Colligative Properties",
+   "depth": 2,
+   "note": "Each volatile component contributes partial pressure proportional to its mole fraction."
+  },
+  {
+   "id": "raoult-law",
+   "label": "Raoult's Law",
+   "group": "Solutions and Colligative Properties",
+   "depth": 3,
+   "note": "$$P_i = x_i P_i^0,\\quad P^0_{mix} = x_A P_A^0 + x_B P_B^0$$. Ideal solutions obey it throughout; positive deviation if $P > \\sum x_i P_i^0$."
+  },
+  {
+   "id": "relative-lowering-vapour-pressure",
+   "label": "Relative Lowering of Vapour Pressure",
+   "group": "Solutions and Colligative Properties",
+   "depth": 2,
+   "note": "A non-volatile solute lowers the vapour pressure of the solvent; related to solute mole fraction."
+  },
+  {
+   "id": "boiling-freezing-changes",
+   "label": "Elevation of Boiling Point, Depression of Freezing Point",
+   "group": "Solutions and Colligative Properties",
+   "depth": 2,
+   "note": "Dilute solution shifts liquid's boiling/freezing temperatures by amounts proportional to molality."
+  },
+  {
+   "id": "delta-tb-delta-tf",
+   "label": "Delta Tb and Delta Tf",
+   "group": "Solutions and Colligative Properties",
+   "depth": 3,
+   "note": "$$\\Delta T_b = K_b m,\\quad \\Delta T_f = K_f m$$. $K_b, K_f$ depend on the solvent; used to find molar masses."
+  },
+  {
+   "id": "osmotic-pressure",
+   "label": "Osmotic Pressure",
+   "group": "Solutions and Colligative Properties",
+   "depth": 2,
+   "note": "Pressure needed to stop osmosis through a semipermeable membrane; a colligative property like the others."
+  },
+  {
+   "id": "osmotic-pressure-formula",
+   "label": "Osmotic Pressure Equation",
+   "group": "Solutions and Colligative Properties",
+   "depth": 3,
+   "note": "$$\\pi = \\frac{n}{V}RT = cRT$$. For polymers/proteins where boiling/freezing changes are tiny, $\\pi$ is the metric that works."
+  },
+  {
+   "id": "van-t-hoff-factor",
+   "label": "van't Hoff Factor",
+   "group": "Solutions and Colligative Properties",
+   "depth": 2,
+   "note": "Corrects colligative formulas when a solute associates or dissociates in solution."
+  },
+  {
+   "id": "vant-hoff-factor-i",
+   "label": "van't Hoff Factor i",
+   "group": "Solutions and Colligative Properties",
+   "depth": 3,
+   "note": "$$i = \\frac{\\text{observed colligative effect}}{\\text{calculated for no association}};\\ i = 1+(n-1)\\alpha$$. NaCl: $i\\approx2$, acetic acid in benzene: $i\\approx 1/2$."
+  },
+  {
+   "id": "solid-state",
+   "label": "Solid State",
+   "group": "Solid State",
+   "depth": 1,
+   "note": "Crystal lattices, packing efficiencies and defects; density/unit-cell numericals are recurring JEE items."
+  },
+  {
+   "id": "crystalline-vs-amorphous",
+   "label": "Crystalline vs Amorphous Solids",
+   "group": "Solid State",
+   "depth": 2,
+   "note": "Ordered lattice vs short-range order; explains anisotropy, fixed melting points and X-ray diffraction patterns."
+  },
+  {
+   "id": "unit-cells-and-lattices",
+   "label": "Unit Cells and Bravais Lattices",
+   "group": "Solid State",
+   "depth": 2,
+   "note": "The 14 Bravais lattices tile 3D space; unit-cell geometry (simple, bcc, fcc) fixes coordination and density."
+  },
+  {
+   "id": "packing-efficiencies",
+   "label": "Packing Efficiencies",
+   "group": "Solid State",
+   "depth": 3,
+   "note": "Simple cubic: 52.4%, bcc: 68%, fcc/ccp: 74%, hcp: 74%. JEE asks for numbers and spheres-per-cell. $$\\text{packing efficiency} = \\frac{V_{\\text{spheres}}}{V_{\\text{cell}}}$$"
+  },
+  {
+   "id": "fcc-bcc-hcp-geometry",
+   "label": "FCC, BCC and HCP Geometry",
+   "group": "Solid State",
+   "depth": 2,
+   "note": "Atoms touch along body diagonal (bcc) or face diagonal (fcc/hcp); radius relates to edge length."
+  },
+  {
+   "id": "density-of-unit-cell",
+   "label": "Density of Unit Cell",
+   "group": "Solid State",
+   "depth": 2,
+   "note": "Mass of Z atoms in a cube of volume $a^3$ divided by $N_A$ gives crystal density."
+  },
+  {
+   "id": "unit-cell-density-formula",
+   "label": "Unit Cell Density",
+   "group": "Solid State",
+   "depth": 3,
+   "note": "$$\\rho = \\frac{Z M}{a^3 N_A}$$. $Z=1$ (sc), 2 (bcc), 4 (fcc). Watch unit conversions: pm to cm."
+  },
+  {
+   "id": "defects-nonstoichiometry",
+   "label": "Defects in Solids",
+   "group": "Solid State",
+   "depth": 2,
+   "note": "Point defects create colour and non-stoichiometry; Schottky/Frenkel are the classic pair."
+  },
+  {
+   "id": "schottky-frenkel-defects",
+   "label": "Schottky and Frenkel Defects",
+   "group": "Solid State",
+   "depth": 3,
+   "note": "Schottky: equal cation/anion vacancies (NaCl); Frenkel: cation shifts to interstitial site (AgBr). Both change density/conductivity. $$\\text{Schottky: } n_+ = n_-$$"
+  },
+  {
+   "id": "surface-chemistry",
+   "label": "Surface Chemistry",
+   "group": "Surface Chemistry",
+   "depth": 1,
+   "note": "Adsorption, catalysis and colloids; Freundlich and Langmuir isotherms, plus Tyndall/Brownian behaviour."
+  },
+  {
+   "id": "adsorption-types",
+   "label": "Adsorption: Physisorption vs Chemisorption",
+   "group": "Surface Chemistry",
+   "depth": 2,
+   "note": "Surface binding by weak van der Waals or chemical bonds; differ in enthalpy, specificity and reversibility."
+  },
+  {
+   "id": "physisorption-vs-chemisorption",
+   "label": "Physisorption vs Chemisorption",
+   "group": "Surface Chemistry",
+   "depth": 3,
+   "note": "Physisorption: low $\\Delta H$ (20-40 kJ/mol), multilayer, reversible. Chemisorption: higher $\\Delta H$ (40-400), monolayer, specific. $$\\Delta H_{ads}: \\text{phy} < \\text{chem}$$"
+  },
+  {
+   "id": "adsorption-isotherms",
+   "label": "Adsorption Isotherms",
+   "group": "Surface Chemistry",
+   "depth": 2,
+   "note": "Amount adsorbed vs pressure at fixed temperature; Freundlich is empirical, Langmuir assumes a monolayer."
+  },
+  {
+   "id": "freundlich-isotherm",
+   "label": "Freundlich Adsorption Isotherm",
+   "group": "Surface Chemistry",
+   "depth": 3,
+   "note": "$$\\frac{x}{m} = kP^{1/n}\\ (n\\ge1)$$. Linear form: $\\log(x/m) = \\log k + (1/n)\\log P$."
+  },
+  {
+   "id": "langmuir-isotherm",
+   "label": "Langmuir Isotherm",
+   "group": "Surface Chemistry",
+   "depth": 2,
+   "note": "Monolayer adsorption with equivalent sites: $$\\theta = \\frac{bP}{1+bP}$$, approaching saturation at high P."
+  },
+  {
+   "id": "heterogeneous-catalysis",
+   "label": "Heterogeneous Catalysis at Surfaces",
+   "group": "Surface Chemistry",
+   "depth": 3,
+   "note": "Reactants adsorb, react and desorb on the solid surface; finely divided metals maximise area. Rate tracks exposed surface area: $r \\propto A_{surface}$. $$2H_2 + O_2 \\xrightarrow{Pt} 2H_2O$$"
+  },
+  {
+   "id": "colloids-and-tyndall",
+   "label": "Colloids, Tyndall Effect and Emulsions",
+   "group": "Surface Chemistry",
+   "depth": 2,
+   "note": "Dispersed phase in a medium with particle size 1-1000 nm; shows Tyndall scattering and Brownian motion."
+  },
+  {
+   "id": "chemical-kinetics",
+   "label": "Chemical Kinetics",
+   "group": "Chemical Kinetics",
+   "depth": 1,
+   "note": "Rate laws, order vs molecularity, half-lives, Arrhenius temperature dependence and catalysis."
+  },
+  {
+   "id": "rate-of-reaction",
+   "label": "Rate of Reaction",
+   "group": "Chemical Kinetics",
+   "depth": 2,
+   "note": "Change in concentration per time; average vs instantaneous slopes of concentration-time graphs."
+  },
+  {
+   "id": "rate-law-order-molecularity",
+   "label": "Rate Law, Order and Molecularity",
+   "group": "Chemical Kinetics",
+   "depth": 2,
+   "note": "Order is empirical from the rate law; molecularity is theoretical from the rate-determining step."
+  },
+  {
+   "id": "rate-law-expression",
+   "label": "Rate Law Expression",
+   "group": "Chemical Kinetics",
+   "depth": 3,
+   "note": "$$\\text{rate} = k[A]^m[B]^n$$; overall order $= m+n$. Order can be fractional/zero; molecularity is 1 or 2."
+  },
+  {
+   "id": "zero-first-second-order",
+   "label": "Zero, First and Second Order",
+   "group": "Chemical Kinetics",
+   "depth": 2,
+   "note": "Each order has a characteristic integrated rate law and half-life pattern."
+  },
+  {
+   "id": "integrated-rate-laws",
+   "label": "Integrated Rate Laws",
+   "group": "Chemical Kinetics",
+   "depth": 3,
+   "note": "Zero: $[A]=[A]_0-kt$. First: $$\\ln[A]=\\ln[A]_0-kt$$. Second: $1/[A]=1/[A]_0+kt$."
+  },
+  {
+   "id": "half-life-of-reactions",
+   "label": "Half-Life of Reactions",
+   "group": "Chemical Kinetics",
+   "depth": 2,
+   "note": "Time for half the reactant to react; independence of half-life from concentration flags first order."
+  },
+  {
+   "id": "half-life-formulas",
+   "label": "Half-Life Formulas",
+   "group": "Chemical Kinetics",
+   "depth": 3,
+   "note": "Zero: $t_{1/2}=[A]_0/2k$. First: $$t_{1/2}=\\frac{0.693}{k}$$. Second: $t_{1/2}=1/k[A]_0$."
+  },
+  {
+   "id": "arrhenius-temperature-dependence",
+   "label": "Arrhenius Equation",
+   "group": "Chemical Kinetics",
+   "depth": 2,
+   "note": "Rate constant rises exponentially with T; higher activation energy means steeper temperature sensitivity."
+  },
+  {
+   "id": "arrhenius-equation",
+   "label": "Arrhenius Equation",
+   "group": "Chemical Kinetics",
+   "depth": 3,
+   "note": "$$k = A e^{-E_a/RT}$$. Two-temperature form: $$\\ln\\frac{k_2}{k_1} = \\frac{E_a}{R}\\left(\\frac{1}{T_1}-\\frac{1}{T_2}\\right)$$."
+  },
+  {
+   "id": "collision-theory",
+   "label": "Collision Theory",
+   "group": "Chemical Kinetics",
+   "depth": 2,
+   "note": "Reaction needs effective collisions: correct orientation and energy above $E_a$."
+  },
+  {
+   "id": "nuclear-chemistry-and-radioactivity",
+   "label": "Nuclear Chemistry and Radioactivity",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 1,
+   "note": "Decay laws, half-lives and binding energy; pairs with kinetics via exponential decay mathematics."
+  },
+  {
+   "id": "types-of-radioactivity",
+   "label": "Alpha, Beta and Gamma Decay",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 2,
+   "note": "Three emission modes with different penetrating power and mass/atomic number bookkeeping."
+  },
+  {
+   "id": "radioactive-decay-law",
+   "label": "Radioactive Decay Law",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 2,
+   "note": "Undecayed nuclei fall exponentially; a first-order process."
+  },
+  {
+   "id": "decay-law-exponential",
+   "label": "Radioactive Decay Law",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 3,
+   "note": "$$N = N_0 e^{-\\lambda t},\\quad A = \\lambda N$$. Same math as first-order kinetics."
+  },
+  {
+   "id": "half-life-radioactive",
+   "label": "Half-Life of Radioisotopes",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 2,
+   "note": "Constant for a given isotope; used in carbon dating and tracer half-thickness."
+  },
+  {
+   "id": "radioactive-half-life",
+   "label": "Radioactive Half-Life",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 3,
+   "note": "$$t_{1/2} = \\frac{\\ln 2}{\\lambda} = 0.693/\\lambda$$. Viel remnant after n half-lives: $(1/2)^n$."
+  },
+  {
+   "id": "nuclear-fission-fusion-binding",
+   "label": "Fission, Fusion and Binding Energy",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 2,
+   "note": "Mass defect converts to energy; fission of heavy nuclei and fusion of light ones both release binding energy."
+  },
+  {
+   "id": "binding-energy-mass-defect",
+   "label": "Binding Energy and Mass Defect",
+   "group": "Nuclear Chemistry and Radioactivity",
+   "depth": 3,
+   "note": "$$E_b = \\Delta m c^2,\\quad \\Delta m = Z m_p + (A-Z)m_n - M_{nucleus}$$. Per nucleon peaks near Fe-56."
+  }
+ ],
+ "edges": [
+  {
+   "source": "physical-chemistry",
+   "target": "some-basic-concepts-of-chemistry",
+   "label": "contains"
+  },
+  {
+   "source": "some-basic-concepts-of-chemistry",
+   "target": "mole-counting-and-molar-mass",
+   "label": "contains"
+  },
+  {
+   "source": "some-basic-concepts-of-chemistry",
+   "target": "concentration-terms",
+   "label": "contains"
+  },
+  {
+   "source": "concentration-terms",
+   "target": "molarity-molality-mole-fraction",
+   "label": "contains"
+  },
+  {
+   "source": "some-basic-concepts-of-chemistry",
+   "target": "percentage-composition",
+   "label": "contains"
+  },
+  {
+   "source": "some-basic-concepts-of-chemistry",
+   "target": "stoichiometry-and-limiting-reagent",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "atomic-structure",
+   "label": "contains"
+  },
+  {
+   "source": "atomic-structure",
+   "target": "rutherford-nuclear-model",
+   "label": "contains"
+  },
+  {
+   "source": "atomic-structure",
+   "target": "bohr-model-energy-levels",
+   "label": "contains"
+  },
+  {
+   "source": "bohr-model-energy-levels",
+   "target": "bohr-energy-levels",
+   "label": "contains"
+  },
+  {
+   "source": "atomic-structure",
+   "target": "quantum-numbers",
+   "label": "contains"
+  },
+  {
+   "source": "atomic-structure",
+   "target": "orbitals-and-probability",
+   "label": "contains"
+  },
+  {
+   "source": "orbitals-and-probability",
+   "target": "de-broglie-wavelength",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "chemical-bonding",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-bonding",
+   "target": "lewis-octet-hybridisation",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-bonding",
+   "target": "vsepr-geometry",
+   "label": "contains"
+  },
+  {
+   "source": "vsepr-geometry",
+   "target": "bond-order-mo",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "redox-reactions",
+   "label": "contains"
+  },
+  {
+   "source": "redox-reactions",
+   "target": "oxidation-number-rules",
+   "label": "contains"
+  },
+  {
+   "source": "oxidation-number-rules",
+   "target": "oxidation-number-conventions",
+   "label": "contains"
+  },
+  {
+   "source": "redox-reactions",
+   "target": "balancing-redox-equations",
+   "label": "contains"
+  },
+  {
+   "source": "redox-reactions",
+   "target": "disproportionation",
+   "label": "contains"
+  },
+  {
+   "source": "disproportionation",
+   "target": "galvanic-from-redox",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "gaseous-state-and-kinetic-theory",
+   "label": "contains"
+  },
+  {
+   "source": "gaseous-state-and-kinetic-theory",
+   "target": "gas-laws",
+   "label": "contains"
+  },
+  {
+   "source": "gas-laws",
+   "target": "boyles-law",
+   "label": "contains"
+  },
+  {
+   "source": "gaseous-state-and-kinetic-theory",
+   "target": "ideal-gas-equation",
+   "label": "contains"
+  },
+  {
+   "source": "ideal-gas-equation",
+   "target": "ideal-gas-equation-pv-nrt",
+   "label": "contains"
+  },
+  {
+   "source": "gaseous-state-and-kinetic-theory",
+   "target": "dalton-and-graham",
+   "label": "contains"
+  },
+  {
+   "source": "dalton-and-graham",
+   "target": "daltons-law",
+   "label": "contains"
+  },
+  {
+   "source": "dalton-and-graham",
+   "target": "grahams-law-effusion",
+   "label": "contains"
+  },
+  {
+   "source": "gaseous-state-and-kinetic-theory",
+   "target": "kinetic-theory-postulates",
+   "label": "contains"
+  },
+  {
+   "source": "kinetic-theory-postulates",
+   "target": "rms-average-most-probable-speeds",
+   "label": "contains"
+  },
+  {
+   "source": "gaseous-state-and-kinetic-theory",
+   "target": "degree-of-freedom",
+   "label": "contains"
+  },
+  {
+   "source": "gaseous-state-and-kinetic-theory",
+   "target": "real-gas-van-der-waals",
+   "label": "contains"
+  },
+  {
+   "source": "real-gas-van-der-waals",
+   "target": "van-der-waals-equation",
+   "label": "contains"
+  },
+  {
+   "source": "gaseous-state-and-kinetic-theory",
+   "target": "critical-constants",
+   "label": "contains"
+  },
+  {
+   "source": "critical-constants",
+   "target": "critical-constants-formulas",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "thermodynamics",
+   "label": "contains"
+  },
+  {
+   "source": "thermodynamics",
+   "target": "system-surroundings-state-functions",
+   "label": "contains"
+  },
+  {
+   "source": "thermodynamics",
+   "target": "first-law-thermodynamics",
+   "label": "contains"
+  },
+  {
+   "source": "first-law-thermodynamics",
+   "target": "first-law-delta-u",
+   "label": "contains"
+  },
+  {
+   "source": "thermodynamics",
+   "target": "thermodynamic-processes",
+   "label": "contains"
+  },
+  {
+   "source": "thermodynamics",
+   "target": "entropy-and-second-law",
+   "label": "contains"
+  },
+  {
+   "source": "entropy-and-second-law",
+   "target": "entropy-second-law",
+   "label": "contains"
+  },
+  {
+   "source": "thermodynamics",
+   "target": "gibbs-free-energy-spontaneity",
+   "label": "contains"
+  },
+  {
+   "source": "gibbs-free-energy-spontaneity",
+   "target": "gibbs-free-energy",
+   "label": "contains"
+  },
+  {
+   "source": "thermodynamics",
+   "target": "work-expansion",
+   "label": "contains"
+  },
+  {
+   "source": "work-expansion",
+   "target": "isothermal-adiabatic-work",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "thermochemistry-and-energetics",
+   "label": "contains"
+  },
+  {
+   "source": "thermochemistry-and-energetics",
+   "target": "enthalpy-and-heat-of-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "thermochemistry-and-energetics",
+   "target": "hess-law-cycles",
+   "label": "contains"
+  },
+  {
+   "source": "hess-law-cycles",
+   "target": "hess-law",
+   "label": "contains"
+  },
+  {
+   "source": "thermochemistry-and-energetics",
+   "target": "bond-enthalpy-calculation",
+   "label": "contains"
+  },
+  {
+   "source": "bond-enthalpy-calculation",
+   "target": "bond-enthalpy-formula",
+   "label": "contains"
+  },
+  {
+   "source": "thermochemistry-and-energetics",
+   "target": "calorimetry-principles",
+   "label": "contains"
+  },
+  {
+   "source": "calorimetry-principles",
+   "target": "calorimetry-q-mcdt",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "chemical-equilibrium",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-equilibrium",
+   "target": "law-of-mass-action",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-equilibrium",
+   "target": "kp-kc-relationship",
+   "label": "contains"
+  },
+  {
+   "source": "kp-kc-relationship",
+   "target": "kp-kc-formula",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-equilibrium",
+   "target": "degree-of-dissociation",
+   "label": "contains"
+  },
+  {
+   "source": "degree-of-dissociation",
+   "target": "degree-of-dissociation-alpha",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-equilibrium",
+   "target": "le-chatelier-principle",
+   "label": "contains"
+  },
+  {
+   "source": "le-chatelier-principle",
+   "target": "le-chatelier-shifts",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "ionic-equilibrium-and-ph",
+   "label": "contains"
+  },
+  {
+   "source": "ionic-equilibrium-and-ph",
+   "target": "acids-bases-theories",
+   "label": "contains"
+  },
+  {
+   "source": "acids-bases-theories",
+   "target": "bronsted-lewis-conjugate",
+   "label": "contains"
+  },
+  {
+   "source": "ionic-equilibrium-and-ph",
+   "target": "water-autoionisation-kw",
+   "label": "contains"
+  },
+  {
+   "source": "water-autoionisation-kw",
+   "target": "kw-ph-poh",
+   "label": "contains"
+  },
+  {
+   "source": "ionic-equilibrium-and-ph",
+   "target": "weak-electrolytes-ka-kb",
+   "label": "contains"
+  },
+  {
+   "source": "ionic-equilibrium-and-ph",
+   "target": "buffer-solutions",
+   "label": "contains"
+  },
+  {
+   "source": "buffer-solutions",
+   "target": "henderson-hasselbalch",
+   "label": "contains"
+  },
+  {
+   "source": "ionic-equilibrium-and-ph",
+   "target": "salt-hydrolysis",
+   "label": "contains"
+  },
+  {
+   "source": "ionic-equilibrium-and-ph",
+   "target": "solubility-product-ksp",
+   "label": "contains"
+  },
+  {
+   "source": "solubility-product-ksp",
+   "target": "ksp-and-solubility",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "electrochemistry-and-ionic-conduction",
+   "label": "contains"
+  },
+  {
+   "source": "electrochemistry-and-ionic-conduction",
+   "target": "conductance-molar-conductivity",
+   "label": "contains"
+  },
+  {
+   "source": "conductance-molar-conductivity",
+   "target": "molar-conductivity-kappa",
+   "label": "contains"
+  },
+  {
+   "source": "electrochemistry-and-ionic-conduction",
+   "target": "kohlrausch-law",
+   "label": "contains"
+  },
+  {
+   "source": "electrochemistry-and-ionic-conduction",
+   "target": "debye-huckel-onsager",
+   "label": "contains"
+  },
+  {
+   "source": "electrochemistry-and-ionic-conduction",
+   "target": "nernst-equation",
+   "label": "contains"
+  },
+  {
+   "source": "nernst-equation",
+   "target": "nernst-equation-formula",
+   "label": "contains"
+  },
+  {
+   "source": "electrochemistry-and-ionic-conduction",
+   "target": "electrolysis-faraday",
+   "label": "contains"
+  },
+  {
+   "source": "electrolysis-faraday",
+   "target": "faradays-laws-electrolysis",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "solutions-and-colligative-properties",
+   "label": "contains"
+  },
+  {
+   "source": "solutions-and-colligative-properties",
+   "target": "types-of-solutions",
+   "label": "contains"
+  },
+  {
+   "source": "solutions-and-colligative-properties",
+   "target": "raoult-law-ideal-solutions",
+   "label": "contains"
+  },
+  {
+   "source": "raoult-law-ideal-solutions",
+   "target": "raoult-law",
+   "label": "contains"
+  },
+  {
+   "source": "solutions-and-colligative-properties",
+   "target": "relative-lowering-vapour-pressure",
+   "label": "contains"
+  },
+  {
+   "source": "solutions-and-colligative-properties",
+   "target": "boiling-freezing-changes",
+   "label": "contains"
+  },
+  {
+   "source": "boiling-freezing-changes",
+   "target": "delta-tb-delta-tf",
+   "label": "contains"
+  },
+  {
+   "source": "solutions-and-colligative-properties",
+   "target": "osmotic-pressure",
+   "label": "contains"
+  },
+  {
+   "source": "osmotic-pressure",
+   "target": "osmotic-pressure-formula",
+   "label": "contains"
+  },
+  {
+   "source": "solutions-and-colligative-properties",
+   "target": "van-t-hoff-factor",
+   "label": "contains"
+  },
+  {
+   "source": "van-t-hoff-factor",
+   "target": "vant-hoff-factor-i",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "solid-state",
+   "label": "contains"
+  },
+  {
+   "source": "solid-state",
+   "target": "crystalline-vs-amorphous",
+   "label": "contains"
+  },
+  {
+   "source": "solid-state",
+   "target": "unit-cells-and-lattices",
+   "label": "contains"
+  },
+  {
+   "source": "unit-cells-and-lattices",
+   "target": "packing-efficiencies",
+   "label": "contains"
+  },
+  {
+   "source": "solid-state",
+   "target": "fcc-bcc-hcp-geometry",
+   "label": "contains"
+  },
+  {
+   "source": "solid-state",
+   "target": "density-of-unit-cell",
+   "label": "contains"
+  },
+  {
+   "source": "density-of-unit-cell",
+   "target": "unit-cell-density-formula",
+   "label": "contains"
+  },
+  {
+   "source": "solid-state",
+   "target": "defects-nonstoichiometry",
+   "label": "contains"
+  },
+  {
+   "source": "defects-nonstoichiometry",
+   "target": "schottky-frenkel-defects",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "surface-chemistry",
+   "label": "contains"
+  },
+  {
+   "source": "surface-chemistry",
+   "target": "adsorption-types",
+   "label": "contains"
+  },
+  {
+   "source": "adsorption-types",
+   "target": "physisorption-vs-chemisorption",
+   "label": "contains"
+  },
+  {
+   "source": "surface-chemistry",
+   "target": "adsorption-isotherms",
+   "label": "contains"
+  },
+  {
+   "source": "adsorption-isotherms",
+   "target": "freundlich-isotherm",
+   "label": "contains"
+  },
+  {
+   "source": "surface-chemistry",
+   "target": "langmuir-isotherm",
+   "label": "contains"
+  },
+  {
+   "source": "langmuir-isotherm",
+   "target": "heterogeneous-catalysis",
+   "label": "contains"
+  },
+  {
+   "source": "surface-chemistry",
+   "target": "colloids-and-tyndall",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "chemical-kinetics",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-kinetics",
+   "target": "rate-of-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-kinetics",
+   "target": "rate-law-order-molecularity",
+   "label": "contains"
+  },
+  {
+   "source": "rate-law-order-molecularity",
+   "target": "rate-law-expression",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-kinetics",
+   "target": "zero-first-second-order",
+   "label": "contains"
+  },
+  {
+   "source": "zero-first-second-order",
+   "target": "integrated-rate-laws",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-kinetics",
+   "target": "half-life-of-reactions",
+   "label": "contains"
+  },
+  {
+   "source": "half-life-of-reactions",
+   "target": "half-life-formulas",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-kinetics",
+   "target": "arrhenius-temperature-dependence",
+   "label": "contains"
+  },
+  {
+   "source": "arrhenius-temperature-dependence",
+   "target": "arrhenius-equation",
+   "label": "contains"
+  },
+  {
+   "source": "chemical-kinetics",
+   "target": "collision-theory",
+   "label": "contains"
+  },
+  {
+   "source": "physical-chemistry",
+   "target": "nuclear-chemistry-and-radioactivity",
+   "label": "contains"
+  },
+  {
+   "source": "nuclear-chemistry-and-radioactivity",
+   "target": "types-of-radioactivity",
+   "label": "contains"
+  },
+  {
+   "source": "nuclear-chemistry-and-radioactivity",
+   "target": "radioactive-decay-law",
+   "label": "contains"
+  },
+  {
+   "source": "radioactive-decay-law",
+   "target": "decay-law-exponential",
+   "label": "contains"
+  },
+  {
+   "source": "nuclear-chemistry-and-radioactivity",
+   "target": "half-life-radioactive",
+   "label": "contains"
+  },
+  {
+   "source": "half-life-radioactive",
+   "target": "radioactive-half-life",
+   "label": "contains"
+  },
+  {
+   "source": "nuclear-chemistry-and-radioactivity",
+   "target": "nuclear-fission-fusion-binding",
+   "label": "contains"
+  },
+  {
+   "source": "nuclear-fission-fusion-binding",
+   "target": "binding-energy-mass-defect",
+   "label": "contains"
+  }
+ ]
+}

@@ -887,7 +887,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
 
 function WanderOverlay({ onClose, isMobile }: { onClose: () => void; isMobile: boolean }) {
   const links = [
-    { label: 'Concept Graph · Organic Chemistry', url: `${((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/')}graph`, internal: true },
+    { label: 'Concept Graph', url: `${((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/')}graph`, internal: true },
     { label: 'Coordination Compounds', url: 'https://amanfor.github.io/coordination-compounds' },
     { label: 'Differential Equations', url: 'https://amanfor.github.io/differential-equations' },
     { label: 'Ray Optics', url: 'https://amanfor.github.io/ray-optics' },

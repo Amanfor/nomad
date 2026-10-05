@@ -36,7 +36,7 @@ function renderRich(text: string): string {
   }
 }
 
-export default function ConceptGraph() {
+export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: string }) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const wrapRef = useRef<HTMLDivElement | null>(null);
   const [data, setData] = useState<GraphData | null>(null);
@@ -45,11 +45,11 @@ export default function ConceptGraph() {
   const [open, setOpen] = useState<GNode | null>(null);
 
   useEffect(() => {
-    fetch(`${BASE}graph/organic-chemistry.json`, { cache: 'no-cache' })
+    fetch(`${BASE}graph/${topic}.json`, { cache: 'no-cache' })
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
       .then(setData)
       .catch(() => setErr('graph data unavailable'));
-  }, []);
+  }, [topic]);
 
   useEffect(() => {
     // Android back button should close the big note view, not leave the app
@@ -66,6 +66,7 @@ export default function ConceptGraph() {
 
   useEffect(() => {
     if (!data || !canvasRef.current) return;
+
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d')!;
 
@@ -355,7 +356,7 @@ export default function ConceptGraph() {
           hover to preview · drag to pan · scroll to zoom
         </div>
       </div>
-      <a href={`${BASE}`} style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', textDecoration: 'none', color: 'rgba(255,255,255,0.7)', fontSize: '0.75rem', letterSpacing: '0.2em', fontWeight: 300 }}>⟨ exit ⟩</a>
+      <a href={`${BASE}graph`} style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', textDecoration: 'none', color: 'rgba(255,255,255,0.7)', fontSize: '0.75rem', letterSpacing: '0.2em', fontWeight: 300 }}>⟨ exit ⟩</a>
       {data && (
         <div style={{ position: 'absolute', bottom: '1.2rem', left: '1.5rem', fontSize: '0.6rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.25)' }}>
           {data.nodes.length} CONCEPTS · {data.edges.length} LINKS
