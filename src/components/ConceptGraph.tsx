@@ -35,6 +35,7 @@ export default function ConceptGraph() {
   const [data, setData] = useState<GraphData | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [hover, setHover] = useState<{ node: GNode; mx: number; my: number } | null>(null);
+  const [open, setOpen] = useState<GNode | null>(null);
 
   useEffect(() => {
     fetch(`${BASE}graph/organic-chemistry.json`, { cache: 'no-cache' })
@@ -125,6 +126,7 @@ export default function ConceptGraph() {
     let hoverId: string | null = null;
     let raf = 0;
     let W = 0; let H = 0; let dpr = 1;
+    let downX = 0; let downY = 0;
 
     const resize = () => {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -270,6 +272,7 @@ export default function ConceptGraph() {
     };
     const onDown = (e: PointerEvent) => {
       const rect = canvas.getBoundingClientRect();
+      downX = e.clientX; downY = e.clientY;
       // nodes are fixed; any press-and-drag pans the canvas
       drag.panning = true; drag.lastx = e.clientX; drag.lasty = e.clientY; canvas.style.cursor = 'grabbing';
       try { canvas.setPointerCapture(e.pointerId); } catch {}
@@ -277,9 +280,18 @@ export default function ConceptGraph() {
       invalidate();
     };
     const onUp = (e: PointerEvent) => {
+      const wasPan = drag.panning;
       drag.id = null; drag.panning = false;
       canvas.style.cursor = 'grab';
       try { canvas.releasePointerCapture(e.pointerId); } catch {}
+      // click (little movement) on a node opens its note
+      if (wasPan && Math.hypot(e.clientX - downX, e.clientY - downY) < 5) {
+        const rect = canvas.getBoundingClientRect();
+        const w = toWorld(e.clientX, e.clientY, rect);
+        const n = pick(w.x, w.y);
+        if (n) setOpen(n as any);
+      }
+      invalidate();
     };
     const onWheel = (e: WheelEvent) => {
       e.preventDefault();
@@ -330,6 +342,20 @@ export default function ConceptGraph() {
         </div>
       )}
       {err && <div style={{ position: 'absolute', inset: 0, display: 'grid', placeItems: 'center', color: 'rgba(255,255,255,0.5)', fontSize: '0.8rem', letterSpacing: '0.2em' }}>{err}</div>}
+      {open && (
+        <div style={{ position: 'fixed', inset: 0, zIndex: 20, background: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '2rem' }}>
+          <button onClick={() => setOpen(null)} style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', background: 'none', border: 'none', color: 'rgba(255,255,255,0.7)', fontSize: '0.75rem', letterSpacing: '0.2em', fontWeight: 300, cursor: 'pointer', fontFamily: 'inherit' }}>⟨ exit ⟩</button>
+          <div style={{ maxWidth: 640, maxHeight: '80vh', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            <div style={{ fontSize: '0.7rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.4)' }}>{open.group?.toUpperCase()}</div>
+            <div style={{ fontSize: '1.6rem', fontWeight: 300, color: '#fff', letterSpacing: '0.04em' }}>{open.label}</div>
+            <div
+              className="nomad-note"
+              style={{ fontSize: '1rem', lineHeight: 1.8, fontWeight: 300, color: 'rgba(255,255,255,0.85)' }}
+              dangerouslySetInnerHTML={{ __html: renderRich(open.note || '') }}
+            />
+          </div>
+        </div>
+      )}
       {hover && (
         <div style={{
           position: 'absolute', left: Math.min(hover.mx + 18, (wrapRef.current?.clientWidth ?? 800) - 360), top: Math.min(hover.my + 18, (wrapRef.current?.clientHeight ?? 600) - 260),
