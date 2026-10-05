@@ -1,0 +1,1405 @@
+{
+ "nodes": [
+  {
+   "id": "organic-chemistry",
+   "label": "Organic Chemistry",
+   "group": "Organic Chemistry",
+   "depth": 0,
+   "note": "The chemistry of carbon compounds as covered in the Nomad JEE PYQ database: basics, hydrocarbons, functional-group chapters, biomolecules and practical work."
+  },
+  {
+   "id": "alcohols-phenols-and-ethers",
+   "label": "Alcohols, Phenols and Ethers",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 1,
+   "note": "Chapter bucket: Alcohols, Phenols and Ethers. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--alcohol-phenol-and-ethers",
+   "label": "Alcohol, Phenol and Ethers",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 2,
+   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R\\'$. General: $$R-OH$$ (5 PYQs)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--alcohols-phenols-and-ethers",
+   "label": "Alcohols Phenols and Ethers",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 2,
+   "note": "Topic string \"Alcohols Phenols and Ethers\" under Alcohols, Phenols and Ethers in the Nomad database (16 PYQs). (16 PYQs)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--alcohols-phenols-and-ethers-2",
+   "label": "Alcohols, Phenols and Ethers",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 2,
+   "note": "Alcohols carry $-OH$ on saturated carbon, phenols on a benzene ring, ethers have $R-O-R\\'$. General: $$R-OH$$ (13 PYQs)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-alcohols",
+   "label": "Properties, Preparation and Uses of Alcohols",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 2,
+   "note": "Topic string \"Properties, Preparation and Uses of Alcohols\" under Alcohols, Phenols and Ethers in the Nomad database (7 PYQs). (7 PYQs)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-ethers",
+   "label": "Properties, Preparation and Uses of Ethers",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 2,
+   "note": "Topic string \"Properties, Preparation and Uses of Ethers\" under Alcohols, Phenols and Ethers in the Nomad database (4 PYQs). (4 PYQs)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "label": "Properties, Preparation and Uses of Phenols",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 2,
+   "note": "Topic string \"Properties, Preparation and Uses of Phenols\" under Alcohols, Phenols and Ethers in the Nomad database (18 PYQs). (18 PYQs)"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids",
+   "label": "Aldehydes, Ketones and Carboxylic Acids",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 1,
+   "note": "Chapter bucket: Aldehydes, Ketones and Carboxylic Acids. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "label": "Aldehydes Ketones and Carboxylic Acids",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 2,
+   "note": "Topic string \"Aldehydes Ketones and Carboxylic Acids\" under Aldehydes, Ketones and Carboxylic Acids in the Nomad database (25 PYQs). (25 PYQs)"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--preparation-methods-for-both-aldehydes-and-ketones",
+   "label": "Preparation Methods for both Aldehydes and Ketones",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 2,
+   "note": "Topic string \"Preparation Methods for both Aldehydes and Ketones\" under Aldehydes, Ketones and Carboxylic Acids in the Nomad database (15 PYQs). (15 PYQs)"
+  },
+  {
+   "id": "amines",
+   "label": "Amines",
+   "group": "Amines",
+   "depth": 1,
+   "note": "Chapter bucket: Amines. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "amines--amines",
+   "label": "Amines",
+   "group": "Amines",
+   "depth": 2,
+   "note": "Basic nitrogen compounds $R-NH_2$, $R_2NH$, $R_3N$; prepared by Gabriel, Hoffmann, reduction of nitro compounds. $$R-NO_2 + 6[H] \\xrightarrow{Sn/HCl} R-NH_2 + 2H_2O$$ (16 PYQs)"
+  },
+  {
+   "id": "basics-of-organic-chemistry",
+   "label": "Basics of Organic Chemistry",
+   "group": "Basics of Organic Chemistry",
+   "depth": 1,
+   "note": "Chapter bucket: Basics of Organic Chemistry. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "basics-of-organic-chemistry--basics-of-organic-chemistry",
+   "label": "Basics of Organic Chemistry",
+   "group": "Basics of Organic Chemistry",
+   "depth": 2,
+   "note": "Topic string \"Basics of Organic Chemistry\" under Basics of Organic Chemistry in the Nomad database (68 PYQs). (68 PYQs)"
+  },
+  {
+   "id": "biomolecules",
+   "label": "Biomolecules",
+   "group": "Biomolecules",
+   "depth": 1,
+   "note": "Chapter bucket: Biomolecules. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "biomolecules--biomolecules",
+   "label": "Biomolecules",
+   "group": "Biomolecules",
+   "depth": 2,
+   "note": "Carbohydrates, proteins, nucleic acids, lipids and vitamins - the chemistry of life. $$C_6H_{12}O_6$$ (84 PYQs)"
+  },
+  {
+   "id": "carbohydrates",
+   "label": "Carbohydrates",
+   "group": "Carbohydrates",
+   "depth": 1,
+   "note": "Chapter bucket: Carbohydrates. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "carbohydrates--carbohydrates",
+   "label": "Carbohydrates",
+   "group": "Carbohydrates",
+   "depth": 2,
+   "note": "Sugars of formula $C_x(H_2O)_y$; aldoses/ketoses, reducing sugars, glycosidic bonds. $$C_6H_{12}O_6 \\xrightarrow{yeast} 2C_2H_5OH + 2CO_2$$ (3 PYQs)"
+  },
+  {
+   "id": "chemistry-in-everyday-life",
+   "label": "Chemistry in Everyday Life",
+   "group": "Chemistry in Everyday Life",
+   "depth": 1,
+   "note": "Chapter bucket: Chemistry in Everyday Life. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "chemistry-in-everyday-life--chemistry-in-everyday-life",
+   "label": "Chemistry in Everyday Life",
+   "group": "Chemistry in Everyday Life",
+   "depth": 2,
+   "note": "Topic string \"Chemistry in Everyday Life\" under Chemistry in Everyday Life in the Nomad database (6 PYQs). (6 PYQs)"
+  },
+  {
+   "id": "compounds-containing-nitrogen",
+   "label": "Compounds Containing Nitrogen",
+   "group": "Compounds Containing Nitrogen",
+   "depth": 1,
+   "note": "Chapter bucket: Compounds Containing Nitrogen. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "compounds-containing-nitrogen--compounds-containing-nitrogen",
+   "label": "Compounds Containing Nitrogen",
+   "group": "Compounds Containing Nitrogen",
+   "depth": 2,
+   "note": "Nitro, diazonium, amides and amino acid chemistry. $$C_6H_5-N_2^+Cl^- \\xrightarrow{CuCl/HCl} C_6H_5-Cl$$ (33 PYQs)"
+  },
+  {
+   "id": "electron-displacement-effect",
+   "label": "Electron Displacement Effect",
+   "group": "Electron Displacement Effect",
+   "depth": 1,
+   "note": "Chapter bucket: Electron Displacement Effect. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "electron-displacement-effect--electron-displacement-effect",
+   "label": "Electron Displacement Effect",
+   "group": "Electron Displacement Effect",
+   "depth": 2,
+   "note": "Inductive, mesomeric, electromeric and hyperconjugative effects govern reactivity. $$CH_3-CH_2-Cl$$ ($-I$ effect) (6 PYQs)"
+  },
+  {
+   "id": "haloalkanes-and-haloarenes",
+   "label": "Haloalkanes and Haloarenes",
+   "group": "Haloalkanes and Haloarenes",
+   "depth": 1,
+   "note": "Chapter bucket: Haloalkanes and Haloarenes. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "haloalkanes-and-haloarenes--haloalkanes-and-haloarenes",
+   "label": "Haloalkanes and Haloarenes",
+   "group": "Haloalkanes and Haloarenes",
+   "depth": 2,
+   "note": "Alkyl/aryl halides undergo nucleophilic substitution and elimination. $$R-X + OH^- -> R-OH + X^-$$ (38 PYQs)"
+  },
+  {
+   "id": "hydrocarbons",
+   "label": "Hydrocarbons",
+   "group": "Hydrocarbons",
+   "depth": 1,
+   "note": "Chapter bucket: Hydrocarbons. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "hydrocarbons--hydrocarbons",
+   "label": "Hydrocarbons",
+   "group": "Hydrocarbons",
+   "depth": 2,
+   "note": "Alkanes, alkenes, alkynes and arenes; combustion, substitution, addition. $$CH_4 + 2O_2 -> CO_2 + 2H_2O$$ (40 PYQs)"
+  },
+  {
+   "id": "iupac-and-structural-isomerism",
+   "label": "IUPAC and Structural Isomerism",
+   "group": "IUPAC and Structural Isomerism",
+   "depth": 1,
+   "note": "Chapter bucket: IUPAC and Structural Isomerism. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "iupac-and-structural-isomerism--iupac-and-structural-isomerism",
+   "label": "Iupac and Structural Isomerism",
+   "group": "IUPAC and Structural Isomerism",
+   "depth": 2,
+   "note": "Topic string \"Iupac and Structural Isomerism\" under IUPAC and Structural Isomerism in the Nomad database (2 PYQs). (2 PYQs)"
+  },
+  {
+   "id": "isomerism",
+   "label": "Isomerism",
+   "group": "Isomerism",
+   "depth": 1,
+   "note": "Chapter bucket: Isomerism. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "isomerism--isomerism",
+   "label": "Isomerism",
+   "group": "Isomerism",
+   "depth": 2,
+   "note": "Structural and stereoisomer types; optical isomerism and chirality. $$C_2H_5OH$$ vs $$CH_3-O-CH_3$$ (2 PYQs)"
+  },
+  {
+   "id": "organic-chemistry-chapter",
+   "label": "Organic Chemistry",
+   "group": "Organic Chemistry",
+   "depth": 1,
+   "note": "Chapter bucket: Organic Chemistry. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "organic-chemistry--organic-chemistry",
+   "label": "Organic Chemistry",
+   "group": "Organic Chemistry",
+   "depth": 2,
+   "note": "General organic chemistry: structure, bonding, nomenclature, mechanisms. $$CH_3-CH_2-OH$$ (53 PYQs)"
+  },
+  {
+   "id": "polymers-and-macromolecules",
+   "label": "Polymers and Macromolecules",
+   "group": "Polymers and Macromolecules",
+   "depth": 1,
+   "note": "Chapter bucket: Polymers and Macromolecules. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "polymers-and-macromolecules--polymers",
+   "label": "Polymers",
+   "group": "Polymers and Macromolecules",
+   "depth": 2,
+   "note": "Addition and condensation polymers, rubbers, fibres, PDI. $$n\\,CH_2{=}CH_2 \\xrightarrow{cat} [{-}CH_2{-}CH_2{-}]_n$$ (40 PYQs)"
+  },
+  {
+   "id": "practical-organic-chemistry",
+   "label": "Practical Organic Chemistry",
+   "group": "Practical Organic Chemistry",
+   "depth": 1,
+   "note": "Chapter bucket: Practical Organic Chemistry. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "practical-organic-chemistry--practical-organic-chemistry",
+   "label": "Practical Organic Chemistry",
+   "group": "Practical Organic Chemistry",
+   "depth": 2,
+   "note": "Detection/estimation of elements and functional group tests in the lab. $$Na + N + C \\xrightarrow{\\Delta} NaCN$$ (60 PYQs)"
+  },
+  {
+   "id": "proteins-and-enzymes",
+   "label": "Proteins and Enzymes",
+   "group": "Proteins and Enzymes",
+   "depth": 1,
+   "note": "Chapter bucket: Proteins and Enzymes. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "proteins-and-enzymes--proteins-and-enzymes",
+   "label": "Proteins and Enzymes",
+   "group": "Proteins and Enzymes",
+   "depth": 2,
+   "note": "Topic string \"Proteins and Enzymes\" under Proteins and Enzymes in the Nomad database (6 PYQs). (6 PYQs)"
+  },
+  {
+   "id": "purification-of-organic-compounds",
+   "label": "Purification of Organic Compounds",
+   "group": "Purification of Organic Compounds",
+   "depth": 1,
+   "note": "Chapter bucket: Purification of Organic Compounds. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "purification-of-organic-compounds--purification-of-organic-compounds",
+   "label": "Purification of Organic Compounds",
+   "group": "Purification of Organic Compounds",
+   "depth": 2,
+   "note": "Topic string \"Purification of Organic Compounds\" under Purification of Organic Compounds in the Nomad database (6 PYQs). (6 PYQs)"
+  },
+  {
+   "id": "vitamins-and-nucleic-acids",
+   "label": "Vitamins and Nucleic Acids",
+   "group": "Vitamins and Nucleic Acids",
+   "depth": 1,
+   "note": "Chapter bucket: Vitamins and Nucleic Acids. Contains the distinct topic strings recorded for this chapter in the Nomad PYQ database."
+  },
+  {
+   "id": "vitamins-and-nucleic-acids--vitamins-and-nucleic-acids",
+   "label": "Vitamins and Nucleic Acids",
+   "group": "Vitamins and Nucleic Acids",
+   "depth": 2,
+   "note": "Topic string \"Vitamins and Nucleic Acids\" under Vitamins and Nucleic Acids in the Nomad database (2 PYQs). (2 PYQs)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--lucas-test",
+   "label": "Lucas Test",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$R-OH + HCl \\xrightarrow{ZnCl_2} R-Cl + H_2O$$ (3 deg alcohol reacts fastest)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--jones-oxidation",
+   "label": "Jones Oxidation",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$R-CH_2OH \\xrightarrow{CrO_3/H^+} R-COOH$$"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--dehydration-to-alkene",
+   "label": "Dehydration to Alkene",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$R-CH_2-CH_2OH \\xrightarrow{conc.\\ H_2SO_4} R-CH{=}CH_2 + H_2O$$"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--pcc-oxidation",
+   "label": "PCC Oxidation",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$R-CH_2OH \\xrightarrow{PCC} R-CHO$$"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--grignard-synthesis-of-alcohols",
+   "label": "Grignard Synthesis of Alcohols",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$R-MgX + R\\'-CHO \\xrightarrow{H_3O^+} R-CH(OH)-R\\'$$"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--reimer-tiemann-reaction",
+   "label": "Reimer-Tiemann Reaction",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$C_6H_5OH + CHCl_3 + 3NaOH \\xrightarrow{\\Delta} HO-C_6H_4-CHO + 3NaCl + 2H_2O$$"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--kolbe-reaction",
+   "label": "Kolbe Reaction",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$C_6H_5ONa + CO_2 \\xrightarrow{400K,\\ 5-7atm} NaO-C_6H_4-COONa \\xrightarrow{H^+} HO-C_6H_4-COOH$$"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--ferric-chloride-test",
+   "label": "Ferric Chloride Test",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$C_6H_5OH + FeCl_3 -> (C_6H_5O)_6Fe^{3-}$$ (violet)"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--williamson-ether-synthesis",
+   "label": "Williamson Ether Synthesis",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$R-O^-Na^+ + R\\'-X -> R-O-R\\' + NaX$$"
+  },
+  {
+   "id": "alcohols-phenols-and-ethers--zeisel-determination",
+   "label": "Zeisel Determination",
+   "group": "Alcohols, Phenols and Ethers",
+   "depth": 3,
+   "note": "$$R-O-CH_3 + HI -> R-OH + CH_3I$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--rosenmund-reduction",
+   "label": "Rosenmund Reduction",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R-COCl + H_2 \\xrightarrow{Pd/BaSO_4} R-CHO + HCl$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--stephen-reduction",
+   "label": "Stephen Reduction",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R-CN + SnCl_2 + HCl \\xrightarrow{H_3O^+} R-CHO + NH_4Cl$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--etard-reaction",
+   "label": "Etard Reaction",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$C_6H_5-CH_3 \\xrightarrow{CrO_2Cl_2} C_6H_5-CHO$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--ozonolysis-to-carbonyls",
+   "label": "Ozonolysis to Carbonyls",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R-CH{=}CH-R\\' \\xrightarrow{O_3} R-CHO + R\\'-CHO$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--tollens-test",
+   "label": "Tollens Test",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R-CHO + 2[Ag(NH_3)_2]^+ + 3OH^- -> R-COO^- + 2Ag + 4NH_3 + 2H_2O$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--fehling-test",
+   "label": "Fehling Test",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R-CHO + 2Cu^{2+} + 5OH^- -> R-COO^- + Cu_2O + 3H_2O$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--iodoform-test",
+   "label": "Iodoform Test",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$CH_3-CO-R + 3NaOX -> CHI_3 + RCOONa + 2NaOH$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--aldol-condensation",
+   "label": "Aldol Condensation",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$2\\,CH_3-CHO \\xrightarrow{dil.\\ NaOH} CH_3-CH(OH)-CH_2-CHO \\xrightarrow{\\Delta} CH_3-CH{=}CH-CHO$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--cannizzaro-reaction",
+   "label": "Cannizzaro Reaction",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$2\\,HCHO \\xrightarrow{conc.\\ NaOH} CH_3OH + HCOONa$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--benzoin-condensation",
+   "label": "Benzoin Condensation",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$2\\,C_6H_5CHO \\xrightarrow{CN^-} C_6H_5-CH(OH)-CO-C_6H_5$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--clemmensen-reduction",
+   "label": "Clemmensen Reduction",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R_2C{=}O \\xrightarrow{Zn-Hg/HCl} R_2CH_2$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--hvz-reaction",
+   "label": "HVZ Reaction",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R-CH_2-COOH + Br_2 \\xrightarrow{red\\ P} R-CH(Br)-COOH + HBr$$"
+  },
+  {
+   "id": "aldehydes-ketones-and-carboxylic-acids--decarboxylation",
+   "label": "Decarboxylation",
+   "group": "Aldehydes, Ketones and Carboxylic Acids",
+   "depth": 3,
+   "note": "$$R-COONa + NaOH \\xrightarrow{CaO,\\Delta} R-H + Na_2CO_3$$"
+  },
+  {
+   "id": "amines--gabriel-phthalimide-synthesis",
+   "label": "Gabriel Phthalimide Synthesis",
+   "group": "Amines",
+   "depth": 3,
+   "note": "$$phthalimide-K + R-X -> N-alkylphthalimide \\xrightarrow{OH^-} R-NH_2$$"
+  },
+  {
+   "id": "amines--hoffmann-bromamide-degradation",
+   "label": "Hoffmann Bromamide Degradation",
+   "group": "Amines",
+   "depth": 3,
+   "note": "$$R-CONH_2 + Br_2 + 4NaOH -> R-NH_2 + Na_2CO_3 + 2NaBr + 2H_2O$$"
+  },
+  {
+   "id": "amines--sandmeyer-reaction",
+   "label": "Sandmeyer Reaction",
+   "group": "Amines",
+   "depth": 3,
+   "note": "$$C_6H_5-N_2^+Cl^- + CuCl/HCl -> C_6H_5-Cl$$"
+  },
+  {
+   "id": "amines--diazotisation",
+   "label": "Diazotisation",
+   "group": "Amines",
+   "depth": 3,
+   "note": "$$C_6H_5-NH_2 + NaNO_2 + 2HCl \\xrightarrow{273-278K} C_6H_5-N_2^+Cl^-$$"
+  },
+  {
+   "id": "basics-of-organic-chemistry--inductive-effect",
+   "label": "Inductive Effect",
+   "group": "Basics of Organic Chemistry",
+   "depth": 3,
+   "note": "$$CH_3-CH_2-Cl$$ ($-I$ of Cl, $+I$ of ethyl)"
+  },
+  {
+   "id": "basics-of-organic-chemistry--resonance",
+   "label": "Resonance",
+   "group": "Basics of Organic Chemistry",
+   "depth": 3,
+   "note": "$$C_6H_6 \\leftrightarrow C_6H_6$$ (delocalised sextet)"
+  },
+  {
+   "id": "basics-of-organic-chemistry--hyperconjugation",
+   "label": "Hyperconjugation",
+   "group": "Basics of Organic Chemistry",
+   "depth": 3,
+   "note": "$$CH_3-CH_2^+$$ stabilised by neighbouring $C-H$ sigma bonds"
+  },
+  {
+   "id": "biomolecules--molisch-test",
+   "label": "Molisch Test",
+   "group": "Biomolecules",
+   "depth": 3,
+   "note": "$$Carbohydrate + conc.\\ H_2SO_4 -> furfural$$ (purple ring)"
+  },
+  {
+   "id": "biomolecules--benedict-test",
+   "label": "Benedict Test",
+   "group": "Biomolecules",
+   "depth": 3,
+   "note": "$$R-CHO + 2Cu^{2+} + 5OH^- -> R-COO^- + Cu_2O + 3H_2O$$"
+  },
+  {
+   "id": "biomolecules--ninhydrin-test",
+   "label": "Ninhydrin Test",
+   "group": "Biomolecules",
+   "depth": 3,
+   "note": "$$\\alpha-amino\\ acid + ninhydrin ->$$ Ruhemann purple"
+  },
+  {
+   "id": "biomolecules--biuret-test",
+   "label": "Biuret Test",
+   "group": "Biomolecules",
+   "depth": 3,
+   "note": "$$peptide\\ bonds + Cu^{2+}/OH^- ->$$ violet complex"
+  },
+  {
+   "id": "carbohydrates--seliwanoff-test",
+   "label": "Seliwanoff Test",
+   "group": "Carbohydrates",
+   "depth": 3,
+   "note": "$$ketohexose + resorcinol/HCl ->$$ cherry red (aldose slower)"
+  },
+  {
+   "id": "carbohydrates--barfoed-test",
+   "label": "Barfoed Test",
+   "group": "Carbohydrates",
+   "depth": 3,
+   "note": "$$monosaccharide + Cu^{2+}/acetate ->$$ Cu2O (red, faster than disaccharides)"
+  },
+  {
+   "id": "carbohydrates--osazone-formation",
+   "label": "Osazone Formation",
+   "group": "Carbohydrates",
+   "depth": 3,
+   "note": "$$glucose + 3\\,C_6H_5NHNH_2 ->$$ glucosazone + aniline"
+  },
+  {
+   "id": "carbohydrates--mutarotation",
+   "label": "Mutarotation",
+   "group": "Carbohydrates",
+   "depth": 3,
+   "note": "$$\\alpha-D-glucopyranose \\rightleftharpoons \\beta-D-glucopyranose$$"
+  },
+  {
+   "id": "chemistry-in-everyday-life--saponification",
+   "label": "Saponification",
+   "group": "Chemistry in Everyday Life",
+   "depth": 3,
+   "note": "$$CH_3COOC_2H_5 + NaOH -> CH_3COONa + C_2H_5OH$$"
+  },
+  {
+   "id": "chemistry-in-everyday-life--anaesthetic-action",
+   "label": "Anaesthetic Action",
+   "group": "Chemistry in Everyday Life",
+   "depth": 3,
+   "note": "$$diethyl\\ ether / chloroform (trichloromethane, CHCl_3)$$ historically"
+  },
+  {
+   "id": "compounds-containing-nitrogen--nitro-group-reduction",
+   "label": "Nitro Group Reduction",
+   "group": "Compounds Containing Nitrogen",
+   "depth": 3,
+   "note": "$$R-NO_2 \\xrightarrow{Sn/HCl} R-NH_2$$"
+  },
+  {
+   "id": "compounds-containing-nitrogen--sandmeyer-reaction",
+   "label": "Sandmeyer Reaction",
+   "group": "Compounds Containing Nitrogen",
+   "depth": 3,
+   "note": "$$Ar-N_2^+Cl^- \\xrightarrow{CuBr} Ar-Br$$"
+  },
+  {
+   "id": "electron-displacement-effect--mesomeric-effect",
+   "label": "Mesomeric Effect",
+   "group": "Electron Displacement Effect",
+   "depth": 3,
+   "note": "$$C_6H_5-OH \\leftrightarrow$$ donation of O lone pair into ring ($+M$)"
+  },
+  {
+   "id": "electron-displacement-effect--electromeric-effect",
+   "label": "Electromeric Effect",
+   "group": "Electron Displacement Effect",
+   "depth": 3,
+   "note": "$$CH_2{=}CH_2 + H^+ \\to CH_3-CH_2^+$$"
+  },
+  {
+   "id": "haloalkanes-and-haloarenes--wurtz-reaction",
+   "label": "Wurtz Reaction",
+   "group": "Haloalkanes and Haloarenes",
+   "depth": 3,
+   "note": "$$2R-X + 2Na \\xrightarrow{dry\\ ether} R-R + 2NaX$$"
+  },
+  {
+   "id": "haloalkanes-and-haloarenes--finkelstein-reaction",
+   "label": "Finkelstein Reaction",
+   "group": "Haloalkanes and Haloarenes",
+   "depth": 3,
+   "note": "$$R-Cl + NaI \\xrightarrow{acetone} R-I + NaCl$$"
+  },
+  {
+   "id": "haloalkanes-and-haloarenes--sn2-mechanism",
+   "label": "SN2 Mechanism",
+   "group": "Haloalkanes and Haloarenes",
+   "depth": 3,
+   "note": "$$OH^- + CH_3-Br \\to CH_3-OH + Br^-$$ (backside attack)"
+  },
+  {
+   "id": "haloalkanes-and-haloarenes--sn1-mechanism",
+   "label": "SN1 Mechanism",
+   "group": "Haloalkanes and Haloarenes",
+   "depth": 3,
+   "note": "$$R-X \\to R^+ + X^- \\xrightarrow{Nu^-} R-Nu$$"
+  },
+  {
+   "id": "hydrocarbons--markovnikov-rule",
+   "label": "Markovnikov Rule",
+   "group": "Hydrocarbons",
+   "depth": 3,
+   "note": "$$CH_3-CH{=}CH_2 + HBr -> CH_3-CH(Br)-CH_3$$"
+  },
+  {
+   "id": "hydrocarbons--peroxide-effect-kharasch",
+   "label": "Peroxide Effect (Kharasch)",
+   "group": "Hydrocarbons",
+   "depth": 3,
+   "note": "$$CH_3-CH{=}CH_2 + HBr \\xrightarrow{peroxide} CH_3-CH_2-CH_2Br$$"
+  },
+  {
+   "id": "hydrocarbons--kolbe-electrolysis",
+   "label": "Kolbe Electrolysis",
+   "group": "Hydrocarbons",
+   "depth": 3,
+   "note": "$$2CH_3COONa + 2H_2O \\xrightarrow{electrolysis} C_2H_6 + 2CO_2 + H_2 + 2NaOH$$"
+  },
+  {
+   "id": "hydrocarbons--sabatier-reaction",
+   "label": "Sabatier Reaction",
+   "group": "Hydrocarbons",
+   "depth": 3,
+   "note": "$$R-CH{=}CH_2 + H_2 \\xrightarrow{Ni} R-CH_2-CH_3$$"
+  },
+  {
+   "id": "hydrocarbons--saytzeff-elimination",
+   "label": "Saytzeff Elimination",
+   "group": "Hydrocarbons",
+   "depth": 3,
+   "note": "$$R-CH_2-CH(X)-R\\' \\xrightarrow{alc.\\ KOH} R-CH{=}CH-R\\'$$ (more substituted alkene)"
+  },
+  {
+   "id": "hydrocarbons--friedel-crafts-alkylation",
+   "label": "Friedel-Crafts Alkylation",
+   "group": "Hydrocarbons",
+   "depth": 3,
+   "note": "$$C_6H_6 + R-Cl \\xrightarrow{anhyd.\\ AlCl_3} C_6H_5-R + HCl$$"
+  },
+  {
+   "id": "hydrocarbons--catalytic-hydrogenation",
+   "label": "Catalytic Hydrogenation",
+   "group": "Hydrocarbons",
+   "depth": 3,
+   "note": "$$C_nH_{2n} + H_2 \\xrightarrow{Pt} C_nH_{2n+2}$$"
+  },
+  {
+   "id": "isomerism--optical-isomerism",
+   "label": "Optical Isomerism",
+   "group": "Isomerism",
+   "depth": 3,
+   "note": "$$CH_3-CH(OH)-COOH$$ exists as enantiomers"
+  },
+  {
+   "id": "iupac-and-structural-isomerism--chain-isomerism",
+   "label": "Chain Isomerism",
+   "group": "IUPAC and Structural Isomerism",
+   "depth": 3,
+   "note": "$$C_4H_{10}:\\ CH_3(CH_2)_2CH_3 \\text{ vs } (CH_3)_3CH$$"
+  },
+  {
+   "id": "organic-chemistry--carbocation-stability",
+   "label": "Carbocation Stability",
+   "group": "Organic Chemistry",
+   "depth": 3,
+   "note": "$$3^\\circ > 2^\\circ > 1^\\circ \\ carbocations$$"
+  },
+  {
+   "id": "polymers-and-macromolecules--addition-polymerisation-of-ethene",
+   "label": "Addition Polymerisation of Ethene",
+   "group": "Polymers and Macromolecules",
+   "depth": 3,
+   "note": "$$n\\,CH_2{=}CH_2 \\xrightarrow{peroxide} [{-}CH_2{-}CH_2{-}]_n$$"
+  },
+  {
+   "id": "polymers-and-macromolecules--condensation-polymerisation-nylon-6-6",
+   "label": "Condensation Polymerisation (Nylon-6,6)",
+   "group": "Polymers and Macromolecules",
+   "depth": 3,
+   "note": "$$n\\,HOOC-(CH_2)_4-COOH + n\\,H_2N-(CH_2)_6-NH_2 -> [-CO-(CH_2)_4-CO-NH-(CH_2)_6-NH-]_n$$"
+  },
+  {
+   "id": "polymers-and-macromolecules--vulcanisation-of-rubber",
+   "label": "Vulcanisation of Rubber",
+   "group": "Polymers and Macromolecules",
+   "depth": 3,
+   "note": "$${\\text{cis-polyisoprene}} + S \\xrightarrow{\\Delta} {\\text{cross-linked rubber}}$$"
+  },
+  {
+   "id": "practical-organic-chemistry--lassaigne-test",
+   "label": "Lassaigne Test",
+   "group": "Practical Organic Chemistry",
+   "depth": 3,
+   "note": "$$Na + N + C \\xrightarrow{\\Delta} NaCN;\\ NaCN + FeSO_4 \\to Na_4[Fe(CN)_6]$$"
+  },
+  {
+   "id": "practical-organic-chemistry--kjeldahl-method",
+   "label": "Kjeldahl Method",
+   "group": "Practical Organic Chemistry",
+   "depth": 3,
+   "note": "$$organic-N + H_2SO_4 -> (NH_4)_2SO_4 \\xrightarrow{NaOH} NH_3 \\xrightarrow{H_2SO_4} (NH_4)_2SO_4$$"
+  },
+  {
+   "id": "practical-organic-chemistry--carius-method",
+   "label": "Carius Method",
+   "group": "Practical Organic Chemistry",
+   "depth": 3,
+   "note": "$$R-X + Na-peroxide \\xrightarrow{\\Delta} NaX$$"
+  },
+  {
+   "id": "practical-organic-chemistry--estimation-of-c-and-h-liebig",
+   "label": "Estimation of C and H (Liebig)",
+   "group": "Practical Organic Chemistry",
+   "depth": 3,
+   "note": "$$organic\\ compound + O_2 \\xrightarrow{CuO} CO_2 + H_2O$$"
+  },
+  {
+   "id": "proteins-and-enzymes--peptide-bond-formation",
+   "label": "Peptide Bond Formation",
+   "group": "Proteins and Enzymes",
+   "depth": 3,
+   "note": "$$H_2N-CHR-COOH + H_2N-CHR\\'-COOH -> H_2N-CHR-CO-NH-CHR\\'-COOH + H_2O$$"
+  },
+  {
+   "id": "proteins-and-enzymes--denaturation",
+   "label": "Denaturation",
+   "group": "Proteins and Enzymes",
+   "depth": 3,
+   "note": "$${\\text{3D protein unfolds on heating/pH change; primary structure retained}}$$"
+  },
+  {
+   "id": "purification-of-organic-compounds--steam-distillation",
+   "label": "Steam Distillation",
+   "group": "Purification of Organic Compounds",
+   "depth": 3,
+   "note": "$$P_{total} = p_{organic} + p_{H_2O} = P_{atm} \\approx 760\\ mmHg$$"
+  },
+  {
+   "id": "purification-of-organic-compounds--thin-layer-chromatography",
+   "label": "Thin Layer Chromatography",
+   "group": "Purification of Organic Compounds",
+   "depth": 3,
+   "note": "$$R_f = \\frac{distance\\ moved\\ by\\ solute}{distance\\ moved\\ by\\ solvent}$$"
+  },
+  {
+   "id": "purification-of-organic-compounds--fractional-distillation",
+   "label": "Fractional Distillation",
+   "group": "Purification of Organic Compounds",
+   "depth": 3,
+   "note": "$$\\text{components separated by relative volatility with a fractionating column}$$"
+  },
+  {
+   "id": "vitamins-and-nucleic-acids--dna-base-pairing",
+   "label": "DNA Base Pairing",
+   "group": "Vitamins and Nucleic Acids",
+   "depth": 3,
+   "note": "$$A=T\\ (2\\ H-bonds),\\ G\\equiv C\\ (3\\ H-bonds)$$"
+  },
+  {
+   "id": "vitamins-and-nucleic-acids--vitamin-c-structure",
+   "label": "Vitamin C Structure",
+   "group": "Vitamins and Nucleic Acids",
+   "depth": 3,
+   "note": "$$C_6H_8O_6$$ (ascorbic acid, antiscorbutic)"
+  }
+ ],
+ "edges": [
+  {
+   "source": "organic-chemistry",
+   "target": "alcohols-phenols-and-ethers",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers",
+   "target": "alcohols-phenols-and-ethers--alcohol-phenol-and-ethers",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers",
+   "target": "alcohols-phenols-and-ethers--alcohols-phenols-and-ethers",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers",
+   "target": "alcohols-phenols-and-ethers--alcohols-phenols-and-ethers-2",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers",
+   "target": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-alcohols",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers",
+   "target": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-ethers",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers",
+   "target": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "aldehydes-ketones-and-carboxylic-acids",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--preparation-methods-for-both-aldehydes-and-ketones",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "amines",
+   "label": "contains"
+  },
+  {
+   "source": "amines",
+   "target": "amines--amines",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "basics-of-organic-chemistry",
+   "label": "contains"
+  },
+  {
+   "source": "basics-of-organic-chemistry",
+   "target": "basics-of-organic-chemistry--basics-of-organic-chemistry",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "biomolecules",
+   "label": "contains"
+  },
+  {
+   "source": "biomolecules",
+   "target": "biomolecules--biomolecules",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "carbohydrates",
+   "label": "contains"
+  },
+  {
+   "source": "carbohydrates",
+   "target": "carbohydrates--carbohydrates",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "chemistry-in-everyday-life",
+   "label": "contains"
+  },
+  {
+   "source": "chemistry-in-everyday-life",
+   "target": "chemistry-in-everyday-life--chemistry-in-everyday-life",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "compounds-containing-nitrogen",
+   "label": "contains"
+  },
+  {
+   "source": "compounds-containing-nitrogen",
+   "target": "compounds-containing-nitrogen--compounds-containing-nitrogen",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "electron-displacement-effect",
+   "label": "contains"
+  },
+  {
+   "source": "electron-displacement-effect",
+   "target": "electron-displacement-effect--electron-displacement-effect",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "haloalkanes-and-haloarenes",
+   "label": "contains"
+  },
+  {
+   "source": "haloalkanes-and-haloarenes",
+   "target": "haloalkanes-and-haloarenes--haloalkanes-and-haloarenes",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "hydrocarbons",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons",
+   "target": "hydrocarbons--hydrocarbons",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "iupac-and-structural-isomerism",
+   "label": "contains"
+  },
+  {
+   "source": "iupac-and-structural-isomerism",
+   "target": "iupac-and-structural-isomerism--iupac-and-structural-isomerism",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "isomerism",
+   "label": "contains"
+  },
+  {
+   "source": "isomerism",
+   "target": "isomerism--isomerism",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "organic-chemistry-chapter",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry-chapter",
+   "target": "organic-chemistry--organic-chemistry",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "polymers-and-macromolecules",
+   "label": "contains"
+  },
+  {
+   "source": "polymers-and-macromolecules",
+   "target": "polymers-and-macromolecules--polymers",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "practical-organic-chemistry",
+   "label": "contains"
+  },
+  {
+   "source": "practical-organic-chemistry",
+   "target": "practical-organic-chemistry--practical-organic-chemistry",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "proteins-and-enzymes",
+   "label": "contains"
+  },
+  {
+   "source": "proteins-and-enzymes",
+   "target": "proteins-and-enzymes--proteins-and-enzymes",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "purification-of-organic-compounds",
+   "label": "contains"
+  },
+  {
+   "source": "purification-of-organic-compounds",
+   "target": "purification-of-organic-compounds--purification-of-organic-compounds",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry",
+   "target": "vitamins-and-nucleic-acids",
+   "label": "contains"
+  },
+  {
+   "source": "vitamins-and-nucleic-acids",
+   "target": "vitamins-and-nucleic-acids--vitamins-and-nucleic-acids",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--lucas-test",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--jones-oxidation",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--dehydration-to-alkene",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--pcc-oxidation",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--grignard-synthesis-of-alcohols",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--reimer-tiemann-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--kolbe-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--ferric-chloride-test",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--williamson-ether-synthesis",
+   "label": "contains"
+  },
+  {
+   "source": "alcohols-phenols-and-ethers--properties-preparation-and-uses-of-phenols",
+   "target": "alcohols-phenols-and-ethers--zeisel-determination",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--rosenmund-reduction",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--stephen-reduction",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--etard-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--ozonolysis-to-carbonyls",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--tollens-test",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--fehling-test",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--iodoform-test",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--aldol-condensation",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--cannizzaro-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--benzoin-condensation",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--clemmensen-reduction",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--hvz-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "aldehydes-ketones-and-carboxylic-acids--aldehydes-ketones-and-carboxylic-acids",
+   "target": "aldehydes-ketones-and-carboxylic-acids--decarboxylation",
+   "label": "contains"
+  },
+  {
+   "source": "amines--amines",
+   "target": "amines--gabriel-phthalimide-synthesis",
+   "label": "contains"
+  },
+  {
+   "source": "amines--amines",
+   "target": "amines--hoffmann-bromamide-degradation",
+   "label": "contains"
+  },
+  {
+   "source": "amines--amines",
+   "target": "amines--sandmeyer-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "amines--amines",
+   "target": "amines--diazotisation",
+   "label": "contains"
+  },
+  {
+   "source": "basics-of-organic-chemistry--basics-of-organic-chemistry",
+   "target": "basics-of-organic-chemistry--inductive-effect",
+   "label": "contains"
+  },
+  {
+   "source": "basics-of-organic-chemistry--basics-of-organic-chemistry",
+   "target": "basics-of-organic-chemistry--resonance",
+   "label": "contains"
+  },
+  {
+   "source": "basics-of-organic-chemistry--basics-of-organic-chemistry",
+   "target": "basics-of-organic-chemistry--hyperconjugation",
+   "label": "contains"
+  },
+  {
+   "source": "biomolecules--biomolecules",
+   "target": "biomolecules--molisch-test",
+   "label": "contains"
+  },
+  {
+   "source": "biomolecules--biomolecules",
+   "target": "biomolecules--benedict-test",
+   "label": "contains"
+  },
+  {
+   "source": "biomolecules--biomolecules",
+   "target": "biomolecules--ninhydrin-test",
+   "label": "contains"
+  },
+  {
+   "source": "biomolecules--biomolecules",
+   "target": "biomolecules--biuret-test",
+   "label": "contains"
+  },
+  {
+   "source": "carbohydrates--carbohydrates",
+   "target": "carbohydrates--seliwanoff-test",
+   "label": "contains"
+  },
+  {
+   "source": "carbohydrates--carbohydrates",
+   "target": "carbohydrates--barfoed-test",
+   "label": "contains"
+  },
+  {
+   "source": "carbohydrates--carbohydrates",
+   "target": "carbohydrates--osazone-formation",
+   "label": "contains"
+  },
+  {
+   "source": "carbohydrates--carbohydrates",
+   "target": "carbohydrates--mutarotation",
+   "label": "contains"
+  },
+  {
+   "source": "chemistry-in-everyday-life--chemistry-in-everyday-life",
+   "target": "chemistry-in-everyday-life--saponification",
+   "label": "contains"
+  },
+  {
+   "source": "chemistry-in-everyday-life--chemistry-in-everyday-life",
+   "target": "chemistry-in-everyday-life--anaesthetic-action",
+   "label": "contains"
+  },
+  {
+   "source": "compounds-containing-nitrogen--compounds-containing-nitrogen",
+   "target": "compounds-containing-nitrogen--nitro-group-reduction",
+   "label": "contains"
+  },
+  {
+   "source": "compounds-containing-nitrogen--compounds-containing-nitrogen",
+   "target": "compounds-containing-nitrogen--sandmeyer-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "electron-displacement-effect--electron-displacement-effect",
+   "target": "electron-displacement-effect--mesomeric-effect",
+   "label": "contains"
+  },
+  {
+   "source": "electron-displacement-effect--electron-displacement-effect",
+   "target": "electron-displacement-effect--electromeric-effect",
+   "label": "contains"
+  },
+  {
+   "source": "haloalkanes-and-haloarenes--haloalkanes-and-haloarenes",
+   "target": "haloalkanes-and-haloarenes--wurtz-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "haloalkanes-and-haloarenes--haloalkanes-and-haloarenes",
+   "target": "haloalkanes-and-haloarenes--finkelstein-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "haloalkanes-and-haloarenes--haloalkanes-and-haloarenes",
+   "target": "haloalkanes-and-haloarenes--sn2-mechanism",
+   "label": "contains"
+  },
+  {
+   "source": "haloalkanes-and-haloarenes--haloalkanes-and-haloarenes",
+   "target": "haloalkanes-and-haloarenes--sn1-mechanism",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons--hydrocarbons",
+   "target": "hydrocarbons--markovnikov-rule",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons--hydrocarbons",
+   "target": "hydrocarbons--peroxide-effect-kharasch",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons--hydrocarbons",
+   "target": "hydrocarbons--kolbe-electrolysis",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons--hydrocarbons",
+   "target": "hydrocarbons--sabatier-reaction",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons--hydrocarbons",
+   "target": "hydrocarbons--saytzeff-elimination",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons--hydrocarbons",
+   "target": "hydrocarbons--friedel-crafts-alkylation",
+   "label": "contains"
+  },
+  {
+   "source": "hydrocarbons--hydrocarbons",
+   "target": "hydrocarbons--catalytic-hydrogenation",
+   "label": "contains"
+  },
+  {
+   "source": "isomerism--isomerism",
+   "target": "isomerism--optical-isomerism",
+   "label": "contains"
+  },
+  {
+   "source": "iupac-and-structural-isomerism--iupac-and-structural-isomerism",
+   "target": "iupac-and-structural-isomerism--chain-isomerism",
+   "label": "contains"
+  },
+  {
+   "source": "organic-chemistry--organic-chemistry",
+   "target": "organic-chemistry--carbocation-stability",
+   "label": "contains"
+  },
+  {
+   "source": "polymers-and-macromolecules--polymers",
+   "target": "polymers-and-macromolecules--addition-polymerisation-of-ethene",
+   "label": "contains"
+  },
+  {
+   "source": "polymers-and-macromolecules--polymers",
+   "target": "polymers-and-macromolecules--condensation-polymerisation-nylon-6-6",
+   "label": "contains"
+  },
+  {
+   "source": "polymers-and-macromolecules--polymers",
+   "target": "polymers-and-macromolecules--vulcanisation-of-rubber",
+   "label": "contains"
+  },
+  {
+   "source": "practical-organic-chemistry--practical-organic-chemistry",
+   "target": "practical-organic-chemistry--lassaigne-test",
+   "label": "contains"
+  },
+  {
+   "source": "practical-organic-chemistry--practical-organic-chemistry",
+   "target": "practical-organic-chemistry--kjeldahl-method",
+   "label": "contains"
+  },
+  {
+   "source": "practical-organic-chemistry--practical-organic-chemistry",
+   "target": "practical-organic-chemistry--carius-method",
+   "label": "contains"
+  },
+  {
+   "source": "practical-organic-chemistry--practical-organic-chemistry",
+   "target": "practical-organic-chemistry--estimation-of-c-and-h-liebig",
+   "label": "contains"
+  },
+  {
+   "source": "proteins-and-enzymes--proteins-and-enzymes",
+   "target": "proteins-and-enzymes--peptide-bond-formation",
+   "label": "contains"
+  },
+  {
+   "source": "proteins-and-enzymes--proteins-and-enzymes",
+   "target": "proteins-and-enzymes--denaturation",
+   "label": "contains"
+  },
+  {
+   "source": "purification-of-organic-compounds--purification-of-organic-compounds",
+   "target": "purification-of-organic-compounds--steam-distillation",
+   "label": "contains"
+  },
+  {
+   "source": "purification-of-organic-compounds--purification-of-organic-compounds",
+   "target": "purification-of-organic-compounds--thin-layer-chromatography",
+   "label": "contains"
+  },
+  {
+   "source": "purification-of-organic-compounds--purification-of-organic-compounds",
+   "target": "purification-of-organic-compounds--fractional-distillation",
+   "label": "contains"
+  },
+  {
+   "source": "vitamins-and-nucleic-acids--vitamins-and-nucleic-acids",
+   "target": "vitamins-and-nucleic-acids--dna-base-pairing",
+   "label": "contains"
+  },
+  {
+   "source": "vitamins-and-nucleic-acids--vitamins-and-nucleic-acids",
+   "target": "vitamins-and-nucleic-acids--vitamin-c-structure",
+   "label": "contains"
+  }
+ ]
+}
