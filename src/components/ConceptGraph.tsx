@@ -368,7 +368,7 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           <button onClick={() => setOpen(null)} style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', background: 'none', border: 'none', color: 'rgba(255,255,255,0.7)', fontSize: '0.75rem', letterSpacing: '0.2em', fontWeight: 300, cursor: 'pointer', fontFamily: 'inherit' }}>⟨ exit ⟩</button>
           <div style={{ maxWidth: 640, maxHeight: '80vh', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             <div style={{ fontSize: '0.7rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.4)' }}>{open.group?.toUpperCase()}</div>
-            <div style={{ fontSize: '1.6rem', fontWeight: 300, color: '#fff', letterSpacing: '0.04em' }}>{open.label}</div>
+            <div style={{ fontSize: '1.6rem', fontWeight: 300, color: '#fff', letterSpacing: '0.04em' }} dangerouslySetInnerHTML={{ __html: renderRich(open.label || '') }} />
             <div
               className="nomad-note"
               style={{ fontSize: '1rem', lineHeight: 1.8, fontWeight: 300, color: 'rgba(255,255,255,0.85)' }}
@@ -384,7 +384,7 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           pointerEvents: 'none', borderRadius: 2, backdropFilter: 'blur(6px)', maxHeight: 460, overflowY: 'auto',
         }}>
           <div style={{ fontSize: '0.68rem', letterSpacing: '0.18em', color: 'rgba(255,255,255,0.45)', marginBottom: '0.35rem' }}>{hover.node.group?.toUpperCase()}</div>
-          <div style={{ fontSize: '1rem', fontWeight: 400, color: '#fff', marginBottom: '0.5rem' }}>{hover.node.label}</div>
+          <div style={{ fontSize: '1rem', fontWeight: 400, color: '#fff', marginBottom: '0.5rem' }} dangerouslySetInnerHTML={{ __html: renderRich(hover.node.label || '') }} />
           <div
             className="nomad-note"
             style={{ fontSize: '0.78rem', lineHeight: 1.55, fontWeight: 300, color: 'rgba(255,255,255,0.78)' }}
