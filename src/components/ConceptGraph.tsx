@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import katex from 'katex';
+import { motion } from 'framer-motion';
 
 type GNode = {
   id: string;
@@ -43,6 +44,14 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
   const [err, setErr] = useState<string | null>(null);
   const [hover, setHover] = useState<{ node: GNode; mx: number; my: number } | null>(null);
   const [open, setOpen] = useState<GNode | null>(null);
+  const [playIntro] = useState(() => {
+    try {
+      const raw = localStorage.getItem('nomad-settings');
+      const s = raw ? JSON.parse(raw) : {};
+      return s.enableGraphIntro !== false;
+    } catch { return true; }
+  });
+  const [introDone, setIntroDone] = useState(!playIntro);
 
   useEffect(() => {
     fetch(`${BASE}graph/${topic}.json`, { cache: 'no-cache' })
@@ -348,6 +357,31 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
   return (
     <div ref={wrapRef} style={{ position: 'fixed', inset: 0, background: '#000' }}>
       <canvas ref={canvasRef} style={{ display: 'block', touchAction: 'none' }} />
+      {playIntro && !introDone && (
+        <>
+          {/* eye-opening: two black lids scale away vertically */}
+          <motion.div
+            initial={{ scaleY: 1 }}
+            animate={{ scaleY: 0 }}
+            transition={{ duration: 1.15, ease: [0.7, 0, 0.3, 1], delay: 0.15 }}
+            style={{ position: 'fixed', top: 0, left: 0, right: 0, height: '50%', background: '#000', zIndex: 50, transformOrigin: 'top' }}
+          />
+          <motion.div
+            initial={{ scaleY: 1 }}
+            animate={{ scaleY: 0 }}
+            transition={{ duration: 1.15, ease: [0.7, 0, 0.3, 1], delay: 0.15 }}
+            onAnimationComplete={() => setIntroDone(true)}
+            style={{ position: 'fixed', bottom: 0, left: 0, right: 0, height: '50%', background: '#000', zIndex: 50, transformOrigin: 'bottom' }}
+          />
+          {/* dramatic flash that sweeps away as the graph lights up */}
+          <motion.div
+            initial={{ opacity: 0.22 }}
+            animate={{ opacity: 0 }}
+            transition={{ duration: 1.4, ease: 'easeOut', delay: 0.2 }}
+            style={{ position: 'fixed', inset: 0, background: 'radial-gradient(circle at 50% 50%, rgba(255,255,255,0.35) 0%, rgba(0,0,0,0) 60%)', zIndex: 51, pointerEvents: 'none' }}
+          />
+        </>
+      )}
       <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', pointerEvents: 'none' }}>
         <div style={{ fontSize: '0.8rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.85)', fontWeight: 300 }}>
           CONCEPT GRAPH — {data?.title?.toUpperCase() ?? '…'}

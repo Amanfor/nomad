@@ -1003,6 +1003,7 @@ type Settings = {
   lightMode: boolean;
   enableGesture: boolean;
   showGesturePreview: boolean;
+  enableGraphIntro: boolean;
 };
 
 const DEFAULT_SETTINGS: Settings = {
@@ -1019,6 +1020,7 @@ const DEFAULT_SETTINGS: Settings = {
   lightMode: false,
   enableGesture: false,
   showGesturePreview: true,
+  enableGraphIntro: true,
 };
 
 function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts, gestureStatus, gestureError, onOpenGestureConfig }: { settings: Settings, setSettings: (s: Settings) => void, onClose: () => void, isMobile: boolean, concepts?: Concept[], gestureStatus?: string | null, gestureError?: string | null, onOpenGestureConfig?: () => void }) {
@@ -1055,6 +1057,7 @@ function SettingsOverlay({ settings, setSettings, onClose, isMobile, concepts, g
           { key: 'enableWisdom' as keyof Settings, label: 'Enable AI (wisdom mode)' },
           { key: 'enableGesture' as keyof Settings, label: 'Gesture Mode (camera access needed)' },
           { key: 'showGesturePreview' as keyof Settings, label: 'Show Camera Preview', gestureOnly: true },
+          { key: 'enableGraphIntro' as keyof Settings, label: 'Concept Graph intro animation' },
         ].filter((row) => !(row as any).gestureOnly || settings.enableGesture)
         .map(({ key, label }) => (
           <div key={key} style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', justifyContent: isMobile ? 'center' : 'space-between', alignItems: isMobile ? 'flex-start' : 'center', borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: isMobile ? '0.5rem' : '1rem', gap: isMobile ? '0.5rem' : '0' }}>
