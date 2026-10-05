@@ -1,0 +1,591 @@
+{
+  "title": "Matrices and Determinants",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "matrices-determinants",
+      "label": "Matrices and Determinants",
+      "group": "Matrices and Determinants",
+      "depth": 0,
+      "note": "Matrices package linear systems into arrays while determinants attach a scalar to a square matrix, and together they solve linear equations and encode geometric area. The central identity linking them is $$A \\cdot \\operatorname{adj}(A) = |A| I$$."
+    },
+    {
+      "id": "md-matrix-fundamentals",
+      "label": "Matrix Fundamentals",
+      "group": "Matrix Fundamentals",
+      "depth": 1,
+      "note": "A matrix is a rectangular array of order $$m \\times n$$ with entries $$a_{ij}$$, and matrices of the same order are added entrywise. Special types such as diagonal, identity, symmetric, and skew-symmetric matrices govern most JEE manipulations."
+    },
+    {
+      "id": "md-matrix-def",
+      "label": "Definition and Order",
+      "group": "Matrix Fundamentals",
+      "depth": 2,
+      "note": "A matrix with $$m$$ rows and $$n$$ columns has order $$m \\times n$$ and entry $$a_{ij}$$ in row $$i$$, column $$j$$. Two matrices are equal only when they have the same order and $$a_{ij} = b_{ij}$$ for every pair of indices."
+    },
+    {
+      "id": "md-matrix-types",
+      "label": "Types of Matrices",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "A row matrix has one row, a column matrix one column, a square matrix has equal order $$n \\times n$$, and a rectangular matrix does not. A zero matrix has every entry equal to $$0$$ and acts as the additive identity."
+    },
+    {
+      "id": "md-special-matrices",
+      "label": "Diagonal, Scalar, and Identity",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "A diagonal matrix has nonzero entries only on the main diagonal, a scalar matrix is a diagonal with all diagonal entries equal, and the identity matrix $$I$$ has every diagonal entry $$1$$. The identity satisfies $$AI = IA = A$$ for any compatible matrix."
+    },
+    {
+      "id": "md-sym-skew",
+      "label": "Symmetric and Skew-Symmetric",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "A square matrix is symmetric when $$A = A^T$$ and skew-symmetric when $$A = -A^T$$, which forces the diagonal of a skew matrix to be zero. Every square matrix splits uniquely as $$A = \\frac{A + A^T}{2} + \\frac{A - A^T}{2}$$ into symmetric plus skew parts."
+    },
+    {
+      "id": "md-matrix-ops",
+      "label": "Matrix Operations",
+      "group": "Matrix Fundamentals",
+      "depth": 2,
+      "note": "Addition is entrywise and scalar multiplication scales every entry, but the real subtlety is that multiplication is not commutative. The sum $$A + B$$ requires identical order, and $$kA$$ multiplies each element by the scalar $$k$$."
+    },
+    {
+      "id": "md-addition",
+      "label": "Addition and Subtraction",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "Matrices of the same order add entrywise, $$(A + B)_{ij} = a_{ij} + b_{ij}$$, and subtraction is defined analogously. Addition is commutative and associative, and the zero matrix is the identity for it."
+    },
+    {
+      "id": "md-scalar-mult",
+      "label": "Scalar Multiplication",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "Multiplying a matrix by a scalar $$k$$ scales every entry, $$(kA)_{ij} = k a_{ij}$$, and it distributes over addition as $$k(A + B) = kA + kB$$. Combined with the determinant this gives the key scaling rule $$|kA| = k^n |A|$$ for an $$n \\times n$$ matrix."
+    },
+    {
+      "id": "md-matrix-mult",
+      "label": "Matrix Multiplication",
+      "group": "Matrix Fundamentals",
+      "depth": 2,
+      "note": "The product $$AB$$ is defined when the number of columns of $$A$$ equals the number of rows of $$B$$, with $$(AB)_{ij} = \\sum_k a_{ik} b_{kj}$$. In general $$AB \\neq BA$$, so order must be preserved in every manipulation."
+    },
+    {
+      "id": "md-transpose",
+      "label": "Transpose",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "The transpose $$A^T$$ swaps rows and columns, $$(A^T)_{ij} = a_{ji}$$, and satisfies $$(A^T)^T = A$$ and $$(A + B)^T = A^T + B^T$$. The reversal law for products is $$(AB)^T = B^T A^T$$, which extends to any number of factors."
+    },
+    {
+      "id": "md-trace",
+      "label": "Trace of a Square Matrix",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "The trace of a square matrix is the sum of its diagonal entries, written $$\\operatorname{tr}(A) = a_{11} + a_{22} + \\dots + a_{nn}$$. It is invariant under transpose and equals the sum of the eigenvalues, a fact used in the Cayley-Hamilton theorem."
+    },
+    {
+      "id": "md-mult-props",
+      "label": "Multiplication Properties",
+      "group": "Matrix Fundamentals",
+      "depth": 3,
+      "note": "Matrix multiplication is associative and distributes over addition, so $$A(BC) = (AB)C$$ and $$A(B + C) = AB + AC$$. It is not commutative, and $$AB = 0$$ does not imply $$A = 0$$ or $$B = 0$$, which is the classic matrix trap."
+    },
+    {
+      "id": "md-determinants",
+      "label": "Determinant Evaluation",
+      "group": "Determinant Evaluation",
+      "depth": 1,
+      "note": "A determinant assigns a single scalar to a square matrix, computed by expansion along any row or column using minors and cofactors. For order two the value is simply $$|A| = ad - bc$$."
+    },
+    {
+      "id": "md-det-2",
+      "label": "Determinant of Order Two",
+      "group": "Determinant Evaluation",
+      "depth": 2,
+      "note": "For a $$2 \\times 2$$ matrix the determinant is the product of the diagonal minus the product of the anti-diagonal, $$|A| = ad - bc$$. This scalar is the signed area scale factor of the linear map the matrix represents."
+    },
+    {
+      "id": "md-det-3",
+      "label": "Determinant of Order Three",
+      "group": "Determinant Evaluation",
+      "depth": 2,
+      "note": "Expanding along the first row gives $$|A| = a_1(b_2 c_3 - b_3 c_2) - b_1(a_2 c_3 - a_3 c_2) + c_1(a_2 b_3 - a_3 b_2)$$. The value is identical whichever row or column is chosen, so one picks the row with the most zeros."
+    },
+    {
+      "id": "md-sarrus",
+      "label": "Sarrus Rule",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "For a $$3 \\times 3$$ determinant Sarrus rule sums the three down-right diagonal products and subtracts the three down-left products, $$|A| = (a_1 b_2 c_3 + b_1 c_2 a_3 + c_1 a_2 b_3) - (c_1 b_2 a_3 + a_1 c_2 b_3 + b_1 a_2 c_3)$$. It is a shortcut valid only for order three."
+    },
+    {
+      "id": "md-minor-cofactor",
+      "label": "Minors and Cofactors",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "The minor $$M_{ij}$$ is the determinant left after deleting row $$i$$ and column $$j$$, and the cofactor carries the checkerboard sign $$C_{ij} = (-1)^{i+j} M_{ij}$$. Expanding along row $$i$$ gives $$|A| = \\sum_j a_{ij} C_{ij}$$, and the cross-row sum $$\\sum_j a_{ij} C_{kj}$$ is zero for $$i \\neq k$$."
+    },
+    {
+      "id": "md-cofactor-expansion",
+      "label": "Expansion by Cofactors",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "The determinant equals the sum of products of any row or column with its cofactors, $$|A| = a_{i1}C_{i1} + a_{i2}C_{i2} + a_{i3}C_{i3}$$. This is the general Laplace expansion and is the method of choice once a row is cleared of most entries."
+    },
+    {
+      "id": "md-det-props",
+      "label": "Properties of Determinants",
+      "group": "Determinant Evaluation",
+      "depth": 2,
+      "note": "Determinants obey structural rules that simplify evaluation before any expansion, and the transpose equality $$|A^T| = |A|$$ is the first of these. Swapping two rows flips the sign, identical rows give zero, and these properties let one create zeros and factor common terms."
+    },
+    {
+      "id": "md-row-ops",
+      "label": "Row and Column Operations",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "Adding a multiple of one row to another leaves the determinant unchanged, so $$R_i \\to R_i + k R_j$$ is free to use. Multiplying a single row by $$k$$ multiplies the determinant by $$k$$, and interchanging two rows multiplies it by $$-1$$."
+    },
+    {
+      "id": "md-interchange",
+      "label": "Interchange and Identical Rows",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "Interchanging any two rows or columns reverses the sign, $$|A| \\to -|A|$$, and if two rows or columns are identical or proportional the determinant is zero. A zero row or column also forces the determinant to vanish."
+    },
+    {
+      "id": "md-det-product",
+      "label": "Product and Scalar Rules",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "The determinant of a product is the product of the determinants, $$|AB| = |A| \\cdot |B|$$, and scaling an $$n \\times n$$ matrix scales its determinant as $$|kA| = k^n |A|$$. The inverse and adjoint follow the pattern $$|A^{-1}| = \\frac{1}{|A|}$$ and $$|\\operatorname{adj}(A)| = |A|^{n-1}$$."
+    },
+    {
+      "id": "md-std-det",
+      "label": "Standard Determinant Identities",
+      "group": "Determinant Evaluation",
+      "depth": 2,
+      "note": "Certain structured determinants recur in JEE and are best memorized than re-expanded. The Vandermonde determinant $$\\begin{vmatrix} 1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2 \\end{vmatrix} = (a-b)(b-c)(c-a)$$ is the most common of these."
+    },
+    {
+      "id": "md-vandermonde",
+      "label": "Vandermonde Determinant",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "The cyclic Vandermonde determinant evaluates to $$\\begin{vmatrix} 1 & a & a^2 \\\\ 1 & b & b^2 \\\\ 1 & c & c^2 \\end{vmatrix} = (a - b)(b - c)(c - a)$$. It vanishes whenever any two of $$a, b, c$$ are equal, which is why it encodes distinctness."
+    },
+    {
+      "id": "md-cyclic-det",
+      "label": "Cyclic and Symmetric Determinants",
+      "group": "Determinant Evaluation",
+      "depth": 3,
+      "note": "The determinant $$\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix} = -a^3 - b^3 - c^3 + 3abc$$ factors using the identity $$a^3 + b^3 + c^3 - 3abc = (a + b + c)(a^2 + b^2 + c^2 - ab - bc - ca)$$. Such cyclic forms are simplified by the row operation $$R_1 \\to R_1 + R_2 + R_3$$."
+    },
+    {
+      "id": "md-det-zero",
+      "label": "When the Determinant Vanishes",
+      "group": "Determinant Evaluation",
+      "depth": 2,
+      "note": "A zero determinant, $$|A| = 0$$, means the rows are linearly dependent and at least one row is a combination of the others, so the matrix is singular with no inverse. Geometrically the column vectors are coplanar and the volume they span is zero."
+    },
+    {
+      "id": "md-adjoint-inverse",
+      "label": "Adjoint and Inverse",
+      "group": "Adjoint and Inverse",
+      "depth": 1,
+      "note": "The adjoint is the transpose of the cofactor matrix and is the bridge to the inverse, since dividing the adjoint by the determinant yields $$A^{-1}$$. The pivot identity is $$A \\cdot \\operatorname{adj}(A) = |A| I$$."
+    },
+    {
+      "id": "md-adjoint",
+      "label": "Adjoint of a Matrix",
+      "group": "Adjoint and Inverse",
+      "depth": 2,
+      "note": "The adjoint is the transpose of the cofactor matrix, $$\\operatorname{adj}(A) = [C_{ij}]^T$$, and it always satisfies $$A \\cdot \\operatorname{adj}(A) = \\operatorname{adj}(A) \\cdot A = |A| I$$. For a $$2 \\times 2$$ matrix one simply swaps the diagonal and negates the off-diagonal entries."
+    },
+    {
+      "id": "md-adjoint-props",
+      "label": "Adjoint Properties",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "For an $$n \\times n$$ matrix the adjoint satisfies $$|\\operatorname{adj}(A)| = |A|^{n-1}$$ and $$\\operatorname{adj}(\\operatorname{adj}(A)) = |A|^{n-2} A$$. Scaling and reversing also hold: $$\\operatorname{adj}(kA) = k^{n-1} \\operatorname{adj}(A)$$ and $$\\operatorname{adj}(AB) = \\operatorname{adj}(B) \\cdot \\operatorname{adj}(A)$$."
+    },
+    {
+      "id": "md-adjoint-product",
+      "label": "Adjoint of a Product",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "The adjoint reverses the order of a product exactly like the transpose and the inverse: $$\\operatorname{adj}(AB) = \\operatorname{adj}(B) \\cdot \\operatorname{adj}(A)$$. This reversal is the source of many JEE identity questions and extends to $$\\operatorname{adj}(A^m) = (\\operatorname{adj}(A))^m$$."
+    },
+    {
+      "id": "md-adjoint-2x2",
+      "label": "Two by Two Adjoint",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "For $$A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$$ the adjoint is $$\\operatorname{adj}(A) = \\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$$, obtained by swapping the diagonal entries and changing the sign of the off-diagonal ones. Multiplying $$A$$ by this adjoint gives $$(ad - bc) I$$."
+    },
+    {
+      "id": "md-inverse",
+      "label": "Inverse of a Matrix",
+      "group": "Adjoint and Inverse",
+      "depth": 2,
+      "note": "A square matrix is invertible exactly when it is nonsingular, i.e. $$|A| \\neq 0$$, and then $$A^{-1} = \\frac{1}{|A|} \\operatorname{adj}(A)$$. The defining property is $$A A^{-1} = A^{-1} A = I$$."
+    },
+    {
+      "id": "md-inverse-props",
+      "label": "Inverse Properties",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "The useful inverse rules are the reversal law $$(AB)^{-1} = B^{-1} A^{-1}$$, the transpose law $$(A^T)^{-1} = (A^{-1})^T$$, and the involution $$(A^{-1})^{-1} = A$$. The determinant of the inverse is $$|A^{-1}| = \\frac{1}{|A|}$$ and a scalar scales as $$(kA)^{-1} = \\frac{1}{k} A^{-1}$$."
+    },
+    {
+      "id": "md-inverse-2x2",
+      "label": "Two by Two Inverse",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "The inverse of a $$2 \\times 2$$ matrix is $$A^{-1} = \\frac{1}{ad - bc}\\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$$, valid only when $$ad - bc \\neq 0$$. This is the adjoint formula specialized to order two and is the fastest route in JEE one-markers."
+    },
+    {
+      "id": "md-orthogonal",
+      "label": "Orthogonal and Involutory Matrices",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "An orthogonal matrix satisfies $$A^T A = I$$ so its inverse is its transpose, $$A^{-1} = A^T$$, and its determinant is $$\\pm 1$$. An involutory matrix satisfies $$A^2 = I$$ and is its own inverse, $$A^{-1} = A$$."
+    },
+    {
+      "id": "md-inverse-row",
+      "label": "Inverse by Elementary Row Operations",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "Writing $$A = IA$$ and applying row operations to reduce $$A$$ to $$I$$ simultaneously turns $$I$$ into $$A^{-1}$$, giving $$I = A^{-1} A$$. This Gauss-Jordan method avoids cofactors and is the systematic way to invert a $$3 \\times 3$$ matrix."
+    },
+    {
+      "id": "md-singular",
+      "label": "Singular and Non-Singular",
+      "group": "Adjoint and Inverse",
+      "depth": 2,
+      "note": "A matrix with $$|A| = 0$$ is singular and has no inverse, while one with $$|A| \\neq 0$$ is nonsingular and invertible. A singular matrix has linearly dependent rows and its adjoint is also singular."
+    },
+    {
+      "id": "md-rank",
+      "label": "Rank of a Matrix",
+      "group": "Adjoint and Inverse",
+      "depth": 3,
+      "note": "The rank is the largest order of a nonzero minor, equivalently the number of linearly independent rows or columns. A square matrix of order $$n$$ has full rank $$n$$ exactly when $$|A| \\neq 0$$, so rank and invertibility coincide for square matrices."
+    },
+    {
+      "id": "md-applications",
+      "label": "Applications of Determinants",
+      "group": "Applications of Determinants",
+      "depth": 1,
+      "note": "Determinants measure area and volume and decide the solvability of linear systems, which is where matrices and determinants meet in JEE. A system $$AX = B$$ has a unique solution exactly when $$|A| \\neq 0$$, and Cramer rule and the area formula are the two recurring templates."
+    },
+    {
+      "id": "md-area-triangle",
+      "label": "Area of a Triangle",
+      "group": "Applications of Determinants",
+      "depth": 2,
+      "note": "The area of the triangle with vertices $$(x_1, y_1), (x_2, y_2), (x_3, y_3)$$ is $$\\Delta = \\frac{1}{2}\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}$$. The absolute value is taken since the determinant is signed, and it vanishes for collinear points."
+    },
+    {
+      "id": "md-area-parallelogram",
+      "label": "Area of a Parallelogram",
+      "group": "Applications of Determinants",
+      "depth": 2,
+      "note": "When two adjacent sides of a parallelogram are the vectors with components $$(a_1, a_2)$$ and $$(b_1, b_2)$$ its area is the absolute value of $$\\begin{vmatrix} a_1 & a_2 \\\\ b_1 & b_2 \\end{vmatrix} = a_1 b_2 - a_2 b_1$$. This is the two-dimensional case of the scalar triple product volume."
+    },
+    {
+      "id": "md-collinearity",
+      "label": "Collinearity of Three Points",
+      "group": "Applications of Determinants",
+      "depth": 2,
+      "note": "Three points are collinear exactly when the triangle area determinant is zero, $$\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = 0$$. This determinant test is faster than equating two slopes and also handles vertical lines automatically."
+    },
+    {
+      "id": "md-cramers",
+      "label": "Cramer's Rule",
+      "group": "Applications of Determinants",
+      "depth": 2,
+      "note": "For a system whose coefficient determinant $$D \\neq 0$$, each unknown is the ratio of a modified determinant to $$D$$, written $$x_i = \\frac{D_i}{D}$$ where $$D_i$$ replaces the $$i$$-th column by the constants. A unique solution exists precisely when $$D \\neq 0$$."
+    },
+    {
+      "id": "md-cramers-3",
+      "label": "Cramer's Rule for Three Variables",
+      "group": "Applications of Determinants",
+      "depth": 3,
+      "note": "For three equations in $$x, y, z$$ with $$D \\neq 0$$ the solution is $$x = \\frac{D_1}{D}$$, $$y = \\frac{D_2}{D}$$, $$z = \\frac{D_3}{D}$$, where each $$D_i$$ substitutes the constant column into the $$i$$-th position. It is practical only when the coefficient determinant is easy to evaluate."
+    },
+    {
+      "id": "md-consistency",
+      "label": "Consistency of Linear Equations",
+      "group": "Applications of Determinants",
+      "depth": 2,
+      "note": "A system $$AX = B$$ is consistent when it has at least one solution: unique if $$|A| \\neq 0$$, infinite if $$|A| = 0$$ and the equations are dependent, and none if $$|A| = 0$$ with a contradiction. The rank condition $$\\operatorname{rank}(A) = \\operatorname{rank}([A|B])$$ decides it in general."
+    },
+    {
+      "id": "md-homogeneous",
+      "label": "Homogeneous Systems",
+      "group": "Applications of Determinants",
+      "depth": 3,
+      "note": "A homogeneous system $$AX = 0$$ always has the trivial solution $$X = 0$$, and it has a nontrivial solution exactly when $$|A| = 0$$. Thus finding when a homogeneous system has nonzero solutions reduces to solving the determinant equation $$|A| = 0$$ for the parameter."
+    },
+    {
+      "id": "md-cayley-hamilton",
+      "label": "Cayley-Hamilton Theorem",
+      "group": "Applications of Determinants",
+      "depth": 2,
+      "note": "Every square matrix satisfies its own characteristic equation, so for a $$2 \\times 2$$ matrix with trace $$t$$ and determinant $$d$$ one has $$A^2 - (\\operatorname{tr} A) A + (\\det A) I = 0$$. This lets one express any power $$A^n$$ as a linear combination of $$A$$ and $$I$$."
+    },
+    {
+      "id": "md-eigenvalues",
+      "label": "Eigenvalues Introduction",
+      "group": "Applications of Determinants",
+      "depth": 3,
+      "note": "The eigenvalues of $$A$$ are the roots of the characteristic equation $$|A - \\lambda I| = 0$$, and for a $$2 \\times 2$$ matrix they satisfy $$\\lambda^2 - (\\operatorname{tr} A)\\lambda + \\det A = 0$$. The trace is the sum and the determinant is the product of the eigenvalues, linking algebra to the Cayley-Hamilton identity."
+    }
+  ],
+  "edges": [
+    {
+      "source": "matrices-determinants",
+      "target": "md-matrix-fundamentals",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-fundamentals",
+      "target": "md-matrix-def",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-def",
+      "target": "md-matrix-types",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-def",
+      "target": "md-special-matrices",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-def",
+      "target": "md-sym-skew",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-fundamentals",
+      "target": "md-matrix-ops",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-ops",
+      "target": "md-addition",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-ops",
+      "target": "md-scalar-mult",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-fundamentals",
+      "target": "md-matrix-mult",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-mult",
+      "target": "md-transpose",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-mult",
+      "target": "md-trace",
+      "label": "contains"
+    },
+    {
+      "source": "md-matrix-mult",
+      "target": "md-mult-props",
+      "label": "contains"
+    },
+    {
+      "source": "matrices-determinants",
+      "target": "md-determinants",
+      "label": "contains"
+    },
+    {
+      "source": "md-determinants",
+      "target": "md-det-2",
+      "label": "contains"
+    },
+    {
+      "source": "md-determinants",
+      "target": "md-det-3",
+      "label": "contains"
+    },
+    {
+      "source": "md-det-3",
+      "target": "md-sarrus",
+      "label": "contains"
+    },
+    {
+      "source": "md-det-3",
+      "target": "md-minor-cofactor",
+      "label": "contains"
+    },
+    {
+      "source": "md-det-3",
+      "target": "md-cofactor-expansion",
+      "label": "contains"
+    },
+    {
+      "source": "md-determinants",
+      "target": "md-det-props",
+      "label": "contains"
+    },
+    {
+      "source": "md-det-props",
+      "target": "md-row-ops",
+      "label": "contains"
+    },
+    {
+      "source": "md-det-props",
+      "target": "md-interchange",
+      "label": "contains"
+    },
+    {
+      "source": "md-det-props",
+      "target": "md-det-product",
+      "label": "contains"
+    },
+    {
+      "source": "md-determinants",
+      "target": "md-std-det",
+      "label": "contains"
+    },
+    {
+      "source": "md-std-det",
+      "target": "md-vandermonde",
+      "label": "contains"
+    },
+    {
+      "source": "md-std-det",
+      "target": "md-cyclic-det",
+      "label": "contains"
+    },
+    {
+      "source": "md-determinants",
+      "target": "md-det-zero",
+      "label": "contains"
+    },
+    {
+      "source": "matrices-determinants",
+      "target": "md-adjoint-inverse",
+      "label": "contains"
+    },
+    {
+      "source": "md-adjoint-inverse",
+      "target": "md-adjoint",
+      "label": "contains"
+    },
+    {
+      "source": "md-adjoint",
+      "target": "md-adjoint-props",
+      "label": "contains"
+    },
+    {
+      "source": "md-adjoint",
+      "target": "md-adjoint-product",
+      "label": "contains"
+    },
+    {
+      "source": "md-adjoint",
+      "target": "md-adjoint-2x2",
+      "label": "contains"
+    },
+    {
+      "source": "md-adjoint-inverse",
+      "target": "md-inverse",
+      "label": "contains"
+    },
+    {
+      "source": "md-inverse",
+      "target": "md-inverse-props",
+      "label": "contains"
+    },
+    {
+      "source": "md-inverse",
+      "target": "md-inverse-2x2",
+      "label": "contains"
+    },
+    {
+      "source": "md-inverse",
+      "target": "md-orthogonal",
+      "label": "contains"
+    },
+    {
+      "source": "md-inverse",
+      "target": "md-inverse-row",
+      "label": "contains"
+    },
+    {
+      "source": "md-adjoint-inverse",
+      "target": "md-singular",
+      "label": "contains"
+    },
+    {
+      "source": "md-singular",
+      "target": "md-rank",
+      "label": "contains"
+    },
+    {
+      "source": "matrices-determinants",
+      "target": "md-applications",
+      "label": "contains"
+    },
+    {
+      "source": "md-applications",
+      "target": "md-area-triangle",
+      "label": "contains"
+    },
+    {
+      "source": "md-applications",
+      "target": "md-area-parallelogram",
+      "label": "contains"
+    },
+    {
+      "source": "md-applications",
+      "target": "md-collinearity",
+      "label": "contains"
+    },
+    {
+      "source": "md-applications",
+      "target": "md-cramers",
+      "label": "contains"
+    },
+    {
+      "source": "md-cramers",
+      "target": "md-cramers-3",
+      "label": "contains"
+    },
+    {
+      "source": "md-applications",
+      "target": "md-consistency",
+      "label": "contains"
+    },
+    {
+      "source": "md-consistency",
+      "target": "md-homogeneous",
+      "label": "contains"
+    },
+    {
+      "source": "md-applications",
+      "target": "md-cayley-hamilton",
+      "label": "contains"
+    },
+    {
+      "source": "md-cayley-hamilton",
+      "target": "md-eigenvalues",
+      "label": "contains"
+    }
+  ]
+}

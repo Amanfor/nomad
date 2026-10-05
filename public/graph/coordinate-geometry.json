@@ -1,0 +1,843 @@
+{
+  "title": "Coordinate Geometry",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "coordinate-geometry",
+      "label": "Coordinate Geometry",
+      "group": "Coordinate Geometry",
+      "depth": 0,
+      "note": "Two-dimensional analytic geometry unifies straight lines, circles, and conic sections as loci satisfying an equation $$f(x, y) = 0$$. Every JEE problem reduces to forming and manipulating this equation."
+    },
+    {
+      "id": "cg-foundations",
+      "label": "Cartesian Foundations",
+      "group": "Cartesian Foundations",
+      "depth": 1,
+      "note": "Point geometry on the plane: distance, division, triangle centers, and area are the algebraic toolkit behind every curve. The distance formula is $$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$."
+    },
+    {
+      "id": "cg-distance-section",
+      "label": "Distance and Section Formulas",
+      "group": "Cartesian Foundations",
+      "depth": 2,
+      "note": "The section formula for internal division in ratio $$m:n$$ is $$P = \\left( \\frac{mx_2 + nx_1}{m + n}, \\frac{my_2 + ny_1}{m + n} \\right)$$. External division simply flips the signs to $$\\frac{mx_2 - nx_1}{m - n}$$."
+    },
+    {
+      "id": "cg-division",
+      "label": "Internal and External Division",
+      "group": "Cartesian Foundations",
+      "depth": 3,
+      "note": "A positive ratio divides internally and a negative ratio divides externally. External division uses $$P = \\left( \\frac{mx_2 - nx_1}{m - n}, \\frac{my_2 - ny_1}{m - n} \\right)$$, and the midpoint is the special case $$m = n$$."
+    },
+    {
+      "id": "cg-centers",
+      "label": "Triangle Centers",
+      "group": "Cartesian Foundations",
+      "depth": 2,
+      "note": "The centroid is the mean of the vertices, $$G = \\left( \\frac{x_1 + x_2 + x_3}{3}, \\frac{y_1 + y_2 + y_3}{3} \\right)$$. The incenter weights vertices by side lengths, $$I = \\left( \\frac{ax_1 + bx_2 + cx_3}{a + b + c}, \\frac{ay_1 + by_2 + cy_3}{a + b + c} \\right)$$."
+    },
+    {
+      "id": "cg-euler",
+      "label": "Euler Line",
+      "group": "Cartesian Foundations",
+      "depth": 3,
+      "note": "In any non-equilateral triangle the orthocenter $$H$$, centroid $$G$$, and circumcenter $$O$$ are collinear. The centroid divides the segment in the fixed ratio $$\\frac{HG}{GO} = \\frac{2}{1}$$."
+    },
+    {
+      "id": "cg-area",
+      "label": "Area and Collinearity",
+      "group": "Cartesian Foundations",
+      "depth": 2,
+      "note": "The signed area of a triangle is a third-order determinant, $$\\Delta = \\frac{1}{2}\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix}$$. Setting this determinant to zero is the collinearity test."
+    },
+    {
+      "id": "cg-collinearity",
+      "label": "Collinearity Condition",
+      "group": "Cartesian Foundations",
+      "depth": 3,
+      "note": "Three points are collinear exactly when the area determinant vanishes, equivalently when $$\\text{slope}(AB) = \\text{slope}(BC)$$. The compact test is $$\\begin{vmatrix} x_1 & y_1 & 1 \\\\ x_2 & y_2 & 1 \\\\ x_3 & y_3 & 1 \\end{vmatrix} = 0$$."
+    },
+    {
+      "id": "cg-straight-lines",
+      "label": "Straight Lines",
+      "group": "Straight Lines",
+      "depth": 1,
+      "note": "A line is a first-degree equation $$ax + by + c = 0$$ whose slope is $$m = -a/b$$. All standard forms are reparametrizations of this single equation."
+    },
+    {
+      "id": "cg-slope",
+      "label": "Slope and Inclination",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "The slope is the tangent of the inclination $$\\theta$$ measured from the positive $$x$$-axis, $$m = \\tan\\theta = \\frac{y_2 - y_1}{x_2 - x_1}$$. Vertical lines have undefined slope since $$\\theta = \\pi/2$$."
+    },
+    {
+      "id": "cg-line-forms",
+      "label": "Standard Line Forms",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "Point-slope, two-point, slope-intercept, intercept, normal, and parametric forms all describe the same line. The intercept form is $$\\frac{x}{a} + \\frac{y}{b} = 1$$ and the normal form is $$x\\cos\\alpha + y\\sin\\alpha = p$$."
+    },
+    {
+      "id": "cg-intercept-form",
+      "label": "Intercept Form",
+      "group": "Straight Lines",
+      "depth": 3,
+      "note": "The line cutting intercepts $$a$$ and $$b$$ on the axes is $$\\frac{x}{a} + \\frac{y}{b} = 1$$. The area of the triangle it forms with the axes is $$\\frac{1}{2}|ab|$$."
+    },
+    {
+      "id": "cg-parametric-form",
+      "label": "Parametric Distance Form",
+      "group": "Straight Lines",
+      "depth": 3,
+      "note": "A point at signed distance $$r$$ along a line of inclination $$\\theta$$ through $$(x_1, y_1)$$ is $$\\frac{x - x_1}{\\cos\\theta} = \\frac{y - y_1}{\\sin\\theta} = r$$. Substituting into a curve gives a quadratic in $$r$$ whose roots are the distances to the intersection points."
+    },
+    {
+      "id": "cg-angle-lines",
+      "label": "Angle Between Lines",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "For slopes $$m_1$$ and $$m_2$$ the acute angle obeys $$\\tan\\theta = \\left| \\frac{m_1 - m_2}{1 + m_1 m_2} \\right|$$. This ratio is the workhorse for angle-based locus problems."
+    },
+    {
+      "id": "cg-parallel-perp",
+      "label": "Parallel and Perpendicular Criteria",
+      "group": "Straight Lines",
+      "depth": 3,
+      "note": "Two lines are parallel when their slopes match, which in general form is $$a_1 b_2 - a_2 b_1 = 0$$. They are perpendicular when $$a_1 a_2 + b_1 b_2 = 0$$, i.e. the product of slopes is $$-1$$."
+    },
+    {
+      "id": "cg-perp-distance",
+      "label": "Perpendicular Distance",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "The distance from $$(x_1, y_1)$$ to the line $$ax + by + c = 0$$ is $$p = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$$. From the origin this reduces to $$p = \\frac{|c|}{\\sqrt{a^2 + b^2}}$$."
+    },
+    {
+      "id": "cg-dist-parallel",
+      "label": "Distance Between Parallel Lines",
+      "group": "Straight Lines",
+      "depth": 3,
+      "note": "For parallel lines with identical $$x$$ and $$y$$ coefficients the separation is $$d = \\frac{|c_1 - c_2|}{\\sqrt{a^2 + b^2}}$$. The coefficients of $$x$$ and $$y$$ must first be made equal before applying this formula."
+    },
+    {
+      "id": "cg-foot-reflection",
+      "label": "Foot of Perpendicular and Reflection",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "The foot of the perpendicular from $$(x_1, y_1)$$ to $$ax + by + c = 0$$ satisfies $$\\frac{h - x_1}{a} = \\frac{k - y_1}{b} = -\\frac{ax_1 + by_1 + c}{a^2 + b^2}$$. The mirror image doubles this displacement."
+    },
+    {
+      "id": "cg-mirror-image",
+      "label": "Mirror Image of a Point",
+      "group": "Straight Lines",
+      "depth": 3,
+      "note": "The image of $$(x_1, y_1)$$ in the line mirror is given by $$\\frac{h' - x_1}{a} = \\frac{k' - y_1}{b} = -2\\frac{ax_1 + by_1 + c}{a^2 + b^2}$$. The foot is the midpoint of the point and its image."
+    },
+    {
+      "id": "cg-family-concurrency",
+      "label": "Family of Lines and Concurrency",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "The family through the intersection of $$L_1 = 0$$ and $$L_2 = 0$$ is $$L_1 + \\lambda L_2 = 0$$ for any real $$\\lambda$$. Three lines are concurrent only when a determinant vanishes."
+    },
+    {
+      "id": "cg-concurrency",
+      "label": "Concurrency Determinant",
+      "group": "Straight Lines",
+      "depth": 3,
+      "note": "Three lines $$a_i x + b_i y + c_i = 0$$ are concurrent if and only if $$\\begin{vmatrix} a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\\\ a_3 & b_3 & c_3 \\end{vmatrix} = 0$$. This is necessary but not sufficient when two lines are parallel."
+    },
+    {
+      "id": "cg-bisectors",
+      "label": "Angle Bisectors",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "Points equidistant from two lines give the bisectors $$\\frac{a_1 x + b_1 y + c_1}{\\sqrt{a_1^2 + b_1^2}} = \\pm \\frac{a_2 x + b_2 y + c_2}{\\sqrt{a_2^2 + b_2^2}}$$. The two bisectors are always mutually perpendicular."
+    },
+    {
+      "id": "cg-pair-lines",
+      "label": "Pair of Straight Lines",
+      "group": "Straight Lines",
+      "depth": 2,
+      "note": "A homogeneous second-degree equation $$ax^2 + 2hxy + by^2 = 0$$ represents two lines through the origin. The angle between them is $$\\tan\\theta = \\frac{2\\sqrt{h^2 - ab}}{|a + b|}$$ and they are perpendicular when $$a + b = 0$$."
+    },
+    {
+      "id": "cg-homogenization",
+      "label": "Homogenization Technique",
+      "group": "Straight Lines",
+      "depth": 3,
+      "note": "To find lines joining the origin to the intersection of a curve and a secant, write the line as $$\\frac{lx + my}{-n} = 1$$ and multiply each term to make the curve degree-2. The resulting homogeneous equation represents the two rays $$OA$$ and $$OB$$."
+    },
+    {
+      "id": "cg-circles",
+      "label": "Circles",
+      "group": "Circles",
+      "depth": 1,
+      "note": "A circle is the locus of a point at a fixed radius from a center, and its general equation is $$x^2 + y^2 + 2gx + 2fy + c = 0$$. The center is $$(-g, -f)$$ and the radius is $$r = \\sqrt{g^2 + f^2 - c}$$."
+    },
+    {
+      "id": "cg-circle-forms",
+      "label": "Standard and General Forms",
+      "group": "Circles",
+      "depth": 2,
+      "note": "The central form is $$(x - h)^2 + (y - k)^2 = r^2$$, which expands to the general second-degree form. The radius is real, zero, or imaginary as $$g^2 + f^2 - c$$ is positive, zero, or negative."
+    },
+    {
+      "id": "cg-diametric",
+      "label": "Diametric Form",
+      "group": "Circles",
+      "depth": 3,
+      "note": "The circle on the segment joining $$A(x_1, y_1)$$ and $$B(x_2, y_2)$$ as diameter is $$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$$. It is the smallest circle through the two points since the angle in a semicircle is $$90^\\circ$$."
+    },
+    {
+      "id": "cg-circle-parametric",
+      "label": "Parametric Form",
+      "group": "Circles",
+      "depth": 3,
+      "note": "A point on the circle with center $$(h, k)$$ and radius $$r$$ is $$x = h + r\\cos\\theta, y = k + r\\sin\\theta$$. The parameter $$\\theta$$ is the eccentric angle measured from the horizontal through the center."
+    },
+    {
+      "id": "cg-intercepts",
+      "label": "Intercepts on Coordinate Axes",
+      "group": "Circles",
+      "depth": 2,
+      "note": "The general circle cuts the $$x$$-axis in an intercept of length $$2\\sqrt{g^2 - c}$$ and the $$y$$-axis in $$2\\sqrt{f^2 - c}$$. It touches an axis when the corresponding expression under the root is zero, i.e. $$g^2 = c$$ or $$f^2 = c$$."
+    },
+    {
+      "id": "cg-power",
+      "label": "Point Position and Power",
+      "group": "Circles",
+      "depth": 2,
+      "note": "For a point $$P(x_1, y_1)$$ the expression $$S_1 = x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c$$ fixes its position: positive means outside, zero on, negative inside. The power of the point is $$PA \\cdot PB = d^2 - r^2 = S_1$$."
+    },
+    {
+      "id": "cg-tangents",
+      "label": "Tangents to a Circle",
+      "group": "Circles",
+      "depth": 2,
+      "note": "A line $$y = mx + c$$ touches the circle $$x^2 + y^2 = r^2$$ when $$c^2 = r^2(1 + m^2)$$. The tangent at a point $$(x_1, y_1)$$ on the circle is obtained by the $$T = 0$$ substitution."
+    },
+    {
+      "id": "cg-tangent-slope",
+      "label": "Slope Form of Tangent",
+      "group": "Circles",
+      "depth": 3,
+      "note": "The tangent with slope $$m$$ to $$x^2 + y^2 = r^2$$ is $$y = mx \\pm r\\sqrt{1 + m^2}$$, touching at $$\\left( \\mp \\frac{mr}{\\sqrt{1 + m^2}}, \\pm \\frac{r}{\\sqrt{1 + m^2}} \\right)$$. The two signs give the two parallel tangents."
+    },
+    {
+      "id": "cg-tangent-point",
+      "label": "Point Form of Tangent",
+      "group": "Circles",
+      "depth": 3,
+      "note": "For the circle $$x^2 + y^2 = r^2$$ the tangent at $$(x_1, y_1)$$ is $$xx_1 + yy_1 = r^2$$. For the general circle the $$T = 0$$ form is $$xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0$$."
+    },
+    {
+      "id": "cg-pair-tangents",
+      "label": "Pair of Tangents and Chord of Contact",
+      "group": "Circles",
+      "depth": 2,
+      "note": "From an external point the combined equation of the two tangents is $$SS_1 = T^2$$ and the tangent length is $$L = \\sqrt{S_1}$$. The chord joining the contact points is the chord of contact $$T = 0$$."
+    },
+    {
+      "id": "cg-director",
+      "label": "Director Circle",
+      "group": "Circles",
+      "depth": 3,
+      "note": "The locus of the intersection of perpendicular tangents is the director circle $$x^2 + y^2 = 2r^2$$. It is concentric with the original circle and has radius $$\\sqrt{2}\\,r$$."
+    },
+    {
+      "id": "cg-chord-contact",
+      "label": "Chord of Contact",
+      "group": "Circles",
+      "depth": 3,
+      "note": "The chord of contact from an external point $$(x_1, y_1)$$ is $$T = 0$$, namely $$xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0$$. Its length is $$\\frac{2r\\sqrt{S_1}}{\\sqrt{r^2 + S_1}}$$."
+    },
+    {
+      "id": "cg-two-circles",
+      "label": "Two Circles Configurations",
+      "group": "Circles",
+      "depth": 2,
+      "note": "The number of common tangents depends on $$d$$ versus $$r_1 \\pm r_2$$, giving five regimes from four tangents when disjoint down to zero when one circle lies inside the other. The direct and transverse common tangent lengths are $$L_{DCT} = \\sqrt{d^2 - (r_1 - r_2)^2}$$ and $$L_{TCT} = \\sqrt{d^2 - (r_1 + r_2)^2}$$."
+    },
+    {
+      "id": "cg-orthogonality",
+      "label": "Orthogonality of Circles",
+      "group": "Circles",
+      "depth": 2,
+      "note": "Two circles cut orthogonally when the radii at an intersection are perpendicular, so $$d^2 = r_1^2 + r_2^2$$. In general form the algebraic condition is $$2(g_1 g_2 + f_1 f_2) = c_1 + c_2$$, valid only for monic equations."
+    },
+    {
+      "id": "cg-radical-axis",
+      "label": "Radical Axis",
+      "group": "Circles",
+      "depth": 2,
+      "note": "The radical axis is the locus of equal power with respect to two circles, found by subtracting the equations to get $$S_1 - S_2 = 0$$. It is always a straight line perpendicular to the line of centers, even when the circles do not intersect."
+    },
+    {
+      "id": "cg-circle-family",
+      "label": "Family of Circles",
+      "group": "Circles",
+      "depth": 2,
+      "note": "Circles through the intersection of two circles form the family $$S_1 + \\lambda S_2 = 0$$, and circles through a circle-line intersection form $$S + \\lambda L = 0$$. Choosing $$\\lambda$$ to cancel a term pins the member through a desired point."
+    },
+    {
+      "id": "cg-conics",
+      "label": "Conic Sections",
+      "group": "Conic Sections",
+      "depth": 1,
+      "note": "Every conic is the locus of a point whose distance from a fixed focus bears a constant ratio to its distance from a fixed directrix. The defining relation is $$SP = e \\cdot PM$$ where $$e$$ is the eccentricity."
+    },
+    {
+      "id": "cg-conic-def",
+      "label": "Focus-Directrix Definition",
+      "group": "Conic Sections",
+      "depth": 2,
+      "note": "A point $$P$$ lies on a conic when the ratio of its distance from the focus $$S$$ to its perpendicular distance $$PM$$ from the directrix is the constant eccentricity $$e$$, written $$\\frac{SP}{PM} = e$$. Squaring $$SP = e \\cdot PM$$ yields the second-degree equation of the curve."
+    },
+    {
+      "id": "cg-conic-classify",
+      "label": "Classification by Eccentricity",
+      "group": "Conic Sections",
+      "depth": 2,
+      "note": "The value of $$e$$ selects the curve: $$e = 0$$ gives a circle, $$0 < e < 1$$ an ellipse, $$e = 1$$ a parabola, and $$e > 1$$ a hyperbola. This single parameter controls whether the conic is closed, open to one branch, or open to two."
+    },
+    {
+      "id": "cg-parabola",
+      "label": "Parabola",
+      "group": "Parabola",
+      "depth": 1,
+      "note": "The parabola is the conic of eccentricity $$e = 1$$, with standard equation $$y^2 = 4ax$$, focus $$(a, 0)$$, and directrix $$x = -a$$. Its latus rectum has length $$4a$$ and endpoints $$(a, \\pm 2a)$$."
+    },
+    {
+      "id": "cg-parabola-std",
+      "label": "Standard Equation",
+      "group": "Parabola",
+      "depth": 2,
+      "note": "For $$y^2 = 4ax$$ the vertex is the origin, the axis is the $$x$$-axis, and the focus is $$(a, 0)$$. The distance of any point $$(x, y)$$ from the focus equals its distance from the directrix, giving the focal distance $$x + a$$."
+    },
+    {
+      "id": "cg-parabola-elements",
+      "label": "Elements and Latus Rectum",
+      "group": "Parabola",
+      "depth": 3,
+      "note": "The latus rectum is the focal chord perpendicular to the axis, of length $$4a$$ with endpoints $$(a, \\pm 2a)$$. The four standard orientations are $$y^2 = \\pm 4ax$$ and $$x^2 = \\pm 4ay$$, each with the same latus rectum $$4a$$."
+    },
+    {
+      "id": "cg-parabola-param",
+      "label": "Parametric Form",
+      "group": "Parabola",
+      "depth": 3,
+      "note": "Every point on $$y^2 = 4ax$$ can be written as $$(at^2, 2at)$$ where $$t$$ is the parameter. The parameter is convenient because the slope of the tangent at that point is $$\\frac{1}{t}$$ and the tangent is $$ty = x + at^2$$."
+    },
+    {
+      "id": "cg-parabola-tangent",
+      "label": "Tangents to the Parabola",
+      "group": "Parabola",
+      "depth": 2,
+      "note": "The tangent at $$(x_1, y_1)$$ is $$yy_1 = 2a(x + x_1)$$, and in slope form the tangent is $$y = mx + \\frac{a}{m}$$ touching at $$\\left( \\frac{a}{m^2}, \\frac{2a}{m} \\right)$$. From an external point the pair of tangents is $$SS_1 = T^2$$."
+    },
+    {
+      "id": "cg-parabola-tangent-slope",
+      "label": "Slope Form of Tangent",
+      "group": "Parabola",
+      "depth": 3,
+      "note": "A line of slope $$m$$ touches $$y^2 = 4ax$$ when it is written as $$y = mx + \\frac{a}{m}$$, valid for $$m \\neq 0$$. The point of contact is $$\\left( \\frac{a}{m^2}, \\frac{2a}{m} \\right)$$, so each slope gives exactly one tangent."
+    },
+    {
+      "id": "cg-parabola-pair",
+      "label": "Pair of Tangents",
+      "group": "Parabola",
+      "depth": 3,
+      "note": "From an external point $$(x_1, y_1)$$ the combined equation of both tangents is $$SS_1 = T^2$$ where $$S \\equiv y^2 - 4ax$$ and $$T \\equiv yy_1 - 2a(x + x_1)$$. This second-degree equation represents the two straight tangents through the point."
+    },
+    {
+      "id": "cg-parabola-normal",
+      "label": "Normals and Focal Chords",
+      "group": "Parabola",
+      "depth": 2,
+      "note": "The normal at parameter $$t$$ is $$y + tx = 2at + at^3$$, and a chord joining parameters $$t_1$$ and $$t_2$$ has equation $$y(t_1 + t_2) = 2x + 2at_1 t_2$$. A chord through the focus is a focal chord, characterized by $$t_1 t_2 = -1$$."
+    },
+    {
+      "id": "cg-parabola-focal",
+      "label": "Focal Chord Property",
+      "group": "Parabola",
+      "depth": 3,
+      "note": "If the chord joining $$t_1$$ and $$t_2$$ passes through the focus then $$t_1 t_2 = -1$$. Hence when one extremity of a focal chord is $$(at_1^2, 2at_1)$$ the other is $$\\left( \\frac{a}{t_1^2}, -\\frac{2a}{t_1} \\right)$$, and the latus rectum is the special case $$t = \\pm 1$$."
+    },
+    {
+      "id": "cg-parabola-midpoint",
+      "label": "Chord with Given Midpoint",
+      "group": "Parabola",
+      "depth": 3,
+      "note": "The chord of $$y^2 = 4ax$$ whose midpoint is $$(x_1, y_1)$$ is given by $$T = S_1$$, that is $$yy_1 - 2a(x + x_1) = y_1^2 - 4ax_1$$. This mirrors the circle result and is derived by equating the midpoint to the average of the intersection roots."
+    },
+    {
+      "id": "cg-ellipse",
+      "label": "Ellipse",
+      "group": "Ellipse",
+      "depth": 1,
+      "note": "The ellipse is the conic of eccentricity $$0 < e < 1$$ with standard equation $$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$$ where $$b^2 = a^2(1 - e^2)$$. The sum of the focal distances of any point is the constant $$SP + S'P = 2a$$."
+    },
+    {
+      "id": "cg-ellipse-std",
+      "label": "Standard Equation and Eccentricity",
+      "group": "Ellipse",
+      "depth": 2,
+      "note": "For $$\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$$ with $$a > b$$ the foci are $$(\\pm ae, 0)$$ and the eccentricity is $$e = \\sqrt{1 - \\frac{b^2}{a^2}}$$. The major axis has length $$2a$$ and the minor axis $$2b$$."
+    },
+    {
+      "id": "cg-ellipse-ecc",
+      "label": "Eccentricity, Foci, and Latus Rectum",
+      "group": "Ellipse",
+      "depth": 3,
+      "note": "The relation $$b^2 = a^2(1 - e^2)$$ ties the axes to the eccentricity, and the latus rectum has length $$\\frac{2b^2}{a} = 2a(1 - e^2)$$ with endpoints $$(\\pm ae, \\pm b^2/a)$$. The directrices are $$x = \\pm \\frac{a}{e}$$ and the focal radii are $$SP = a - ex$$ and $$S'P = a + ex$$."
+    },
+    {
+      "id": "cg-ellipse-param",
+      "label": "Parametric Form",
+      "group": "Ellipse",
+      "depth": 2,
+      "note": "A point on the ellipse is $$(a\\cos\\theta, b\\sin\\theta)$$ where $$\\theta$$ is the eccentric angle. Substitution verifies the equation instantly since $$\\frac{a^2\\cos^2\\theta}{a^2} + \\frac{b^2\\sin^2\\theta}{b^2} = \\cos^2\\theta + \\sin^2\\theta = 1$$."
+    },
+    {
+      "id": "cg-ellipse-tangent",
+      "label": "Tangents to the Ellipse",
+      "group": "Ellipse",
+      "depth": 2,
+      "note": "The tangent at $$(x_1, y_1)$$ is $$\\frac{xx_1}{a^2} + \\frac{yy_1}{b^2} = 1$$, and the slope form is $$y = mx \\pm \\sqrt{a^2 m^2 + b^2}$$. The tangent at the parametric point is $$\\frac{x\\cos\\theta}{a} + \\frac{y\\sin\\theta}{b} = 1$$."
+    },
+    {
+      "id": "cg-ellipse-tangent-slope",
+      "label": "Slope Form of Tangent",
+      "group": "Ellipse",
+      "depth": 3,
+      "note": "A line $$y = mx + c$$ touches the ellipse when $$c^2 = a^2 m^2 + b^2$$, so the tangents are $$y = mx \\pm \\sqrt{a^2 m^2 + b^2}$$. The condition $$c^2 = a^2 m^2 + b^2$$ is the tangency test and follows from setting the line-curve discriminant to zero."
+    },
+    {
+      "id": "cg-ellipse-normal",
+      "label": "Normal to the Ellipse",
+      "group": "Ellipse",
+      "depth": 3,
+      "note": "The normal at the parametric point $$(a\\cos\\theta, b\\sin\\theta)$$ is $$ax\\sec\\theta - by\\csc\\theta = a^2 - b^2$$. In point form it is $$\\frac{a^2 x}{x_1} - \\frac{b^2 y}{y_1} = a^2 - b^2$$, obtained from the gradient of the curve."
+    },
+    {
+      "id": "cg-ellipse-aux",
+      "label": "Auxiliary and Director Circles",
+      "group": "Ellipse",
+      "depth": 2,
+      "note": "The auxiliary circle on the major axis is $$x^2 + y^2 = a^2$$ and supplies the eccentric angle via the perpendicular from a point on the ellipse. The director circle, the locus of perpendicular tangents, is $$x^2 + y^2 = a^2 + b^2$$ and the area enclosed by the ellipse is $$\\pi ab$$."
+    },
+    {
+      "id": "cg-hyperbola",
+      "label": "Hyperbola",
+      "group": "Hyperbola",
+      "depth": 1,
+      "note": "The hyperbola is the conic of eccentricity $$e > 1$$ with standard equation $$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$$ where $$b^2 = a^2(e^2 - 1)$$. The absolute difference of the focal distances is the constant $$|SP - S'P| = 2a$$."
+    },
+    {
+      "id": "cg-hyperbola-std",
+      "label": "Standard Equation and Eccentricity",
+      "group": "Hyperbola",
+      "depth": 2,
+      "note": "For $$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$$ the foci are $$(\\pm ae, 0)$$ with $$c^2 = a^2 + b^2$$ and the eccentricity is $$e = \\sqrt{1 + \\frac{b^2}{a^2}}$$. The transverse axis has length $$2a$$ and the conjugate axis $$2b$$."
+    },
+    {
+      "id": "cg-hyperbola-ecc",
+      "label": "Eccentricity and Foci",
+      "group": "Hyperbola",
+      "depth": 3,
+      "note": "The identity $$c^2 = a^2 + b^2$$ (note the plus sign, opposite to the ellipse) gives $$e = \\frac{c}{a} > 1$$ and the foci $$(\\pm ae, 0)$$. The directrices are $$x = \\pm \\frac{a}{e}$$ and the latus rectum is $$\\frac{2b^2}{a} = 2a(e^2 - 1)$$."
+    },
+    {
+      "id": "cg-hyperbola-asymp",
+      "label": "Asymptotes",
+      "group": "Hyperbola",
+      "depth": 3,
+      "note": "The asymptotes are $$y = \\pm \\frac{b}{a}x$$ and their combined equation is $$\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 0$$, differing from the hyperbola only in the constant term. The angle between them is $$2\\tan^{-1}(b/a)$$ and the eccentricity satisfies $$e = \\sec\\theta$$ when the angle is $$2\\theta$$."
+    },
+    {
+      "id": "cg-hyperbola-param",
+      "label": "Parametric Form",
+      "group": "Hyperbola",
+      "depth": 2,
+      "note": "A point on the hyperbola is $$(a\\sec\\theta, b\\tan\\theta)$$ since $$\\frac{a^2\\sec^2\\theta}{a^2} - \\frac{b^2\\tan^2\\theta}{b^2} = \\sec^2\\theta - \\tan^2\\theta = 1$$. The parameter $$\\theta$$ is used exactly as the eccentric angle is used for the ellipse."
+    },
+    {
+      "id": "cg-hyperbola-tangent",
+      "label": "Tangents to the Hyperbola",
+      "group": "Hyperbola",
+      "depth": 2,
+      "note": "The tangent at $$(x_1, y_1)$$ is $$\\frac{xx_1}{a^2} - \\frac{yy_1}{b^2} = 1$$ and in slope form $$y = mx \\pm \\sqrt{a^2 m^2 - b^2}$$, which needs $$a^2 m^2 \\ge b^2$$. The parametric tangent is $$\\frac{x\\sec\\theta}{a} - \\frac{y\\tan\\theta}{b} = 1$$."
+    },
+    {
+      "id": "cg-hyperbola-tangent-slope",
+      "label": "Slope Form of Tangent",
+      "group": "Hyperbola",
+      "depth": 3,
+      "note": "A line $$y = mx + c$$ touches the hyperbola when $$c^2 = a^2 m^2 - b^2$$, giving $$y = mx \\pm \\sqrt{a^2 m^2 - b^2}$$. Unlike the ellipse, slopes with $$|m| < b/a$$ yield no real tangent because the line would meet both branches."
+    },
+    {
+      "id": "cg-hyperbola-normal",
+      "label": "Normal to the Hyperbola",
+      "group": "Hyperbola",
+      "depth": 3,
+      "note": "The normal at $$(x_1, y_1)$$ is $$\\frac{a^2 x}{x_1} + \\frac{b^2 y}{y_1} = a^2 + b^2$$, again with a plus sign unlike the ellipse. It is derived from the gradient $$\\left( \\frac{x_1}{a^2}, -\\frac{y_1}{b^2} \\right)$$ and passes through the point of contact."
+    },
+    {
+      "id": "cg-hyperbola-rect",
+      "label": "Conjugate and Rectangular Hyperbola",
+      "group": "Hyperbola",
+      "depth": 2,
+      "note": "The conjugate hyperbola $$\\frac{y^2}{b^2} - \\frac{x^2}{a^2} = 1$$ shares the same asymptotes, and if $$e_1, e_2$$ are the two eccentricities then $$\\frac{1}{e_1^2} + \\frac{1}{e_2^2} = 1$$. A rectangular hyperbola has $$a = b$$, perpendicular asymptotes, eccentricity $$e = \\sqrt{2}$$, and can be written as $$xy = c^2$$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "coordinate-geometry",
+      "target": "cg-foundations",
+      "label": "contains"
+    },
+    {
+      "source": "cg-foundations",
+      "target": "cg-distance-section",
+      "label": "contains"
+    },
+    {
+      "source": "cg-distance-section",
+      "target": "cg-division",
+      "label": "contains"
+    },
+    {
+      "source": "cg-foundations",
+      "target": "cg-centers",
+      "label": "contains"
+    },
+    {
+      "source": "cg-centers",
+      "target": "cg-euler",
+      "label": "contains"
+    },
+    {
+      "source": "cg-foundations",
+      "target": "cg-area",
+      "label": "contains"
+    },
+    {
+      "source": "cg-area",
+      "target": "cg-collinearity",
+      "label": "contains"
+    },
+    {
+      "source": "coordinate-geometry",
+      "target": "cg-straight-lines",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-slope",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-line-forms",
+      "label": "contains"
+    },
+    {
+      "source": "cg-line-forms",
+      "target": "cg-intercept-form",
+      "label": "contains"
+    },
+    {
+      "source": "cg-line-forms",
+      "target": "cg-parametric-form",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-angle-lines",
+      "label": "contains"
+    },
+    {
+      "source": "cg-angle-lines",
+      "target": "cg-parallel-perp",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-perp-distance",
+      "label": "contains"
+    },
+    {
+      "source": "cg-perp-distance",
+      "target": "cg-dist-parallel",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-foot-reflection",
+      "label": "contains"
+    },
+    {
+      "source": "cg-foot-reflection",
+      "target": "cg-mirror-image",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-family-concurrency",
+      "label": "contains"
+    },
+    {
+      "source": "cg-family-concurrency",
+      "target": "cg-concurrency",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-bisectors",
+      "label": "contains"
+    },
+    {
+      "source": "cg-straight-lines",
+      "target": "cg-pair-lines",
+      "label": "contains"
+    },
+    {
+      "source": "cg-pair-lines",
+      "target": "cg-homogenization",
+      "label": "contains"
+    },
+    {
+      "source": "coordinate-geometry",
+      "target": "cg-circles",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-circle-forms",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circle-forms",
+      "target": "cg-diametric",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circle-forms",
+      "target": "cg-circle-parametric",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-intercepts",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-power",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-tangents",
+      "label": "contains"
+    },
+    {
+      "source": "cg-tangents",
+      "target": "cg-tangent-slope",
+      "label": "contains"
+    },
+    {
+      "source": "cg-tangents",
+      "target": "cg-tangent-point",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-pair-tangents",
+      "label": "contains"
+    },
+    {
+      "source": "cg-pair-tangents",
+      "target": "cg-director",
+      "label": "contains"
+    },
+    {
+      "source": "cg-pair-tangents",
+      "target": "cg-chord-contact",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-two-circles",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-orthogonality",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-radical-axis",
+      "label": "contains"
+    },
+    {
+      "source": "cg-circles",
+      "target": "cg-circle-family",
+      "label": "contains"
+    },
+    {
+      "source": "coordinate-geometry",
+      "target": "cg-conics",
+      "label": "contains"
+    },
+    {
+      "source": "cg-conics",
+      "target": "cg-conic-def",
+      "label": "contains"
+    },
+    {
+      "source": "cg-conics",
+      "target": "cg-conic-classify",
+      "label": "contains"
+    },
+    {
+      "source": "coordinate-geometry",
+      "target": "cg-parabola",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola",
+      "target": "cg-parabola-std",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola-std",
+      "target": "cg-parabola-elements",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola-std",
+      "target": "cg-parabola-param",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola",
+      "target": "cg-parabola-tangent",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola-tangent",
+      "target": "cg-parabola-tangent-slope",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola-tangent",
+      "target": "cg-parabola-pair",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola",
+      "target": "cg-parabola-normal",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola-normal",
+      "target": "cg-parabola-focal",
+      "label": "contains"
+    },
+    {
+      "source": "cg-parabola-normal",
+      "target": "cg-parabola-midpoint",
+      "label": "contains"
+    },
+    {
+      "source": "coordinate-geometry",
+      "target": "cg-ellipse",
+      "label": "contains"
+    },
+    {
+      "source": "cg-ellipse",
+      "target": "cg-ellipse-std",
+      "label": "contains"
+    },
+    {
+      "source": "cg-ellipse-std",
+      "target": "cg-ellipse-ecc",
+      "label": "contains"
+    },
+    {
+      "source": "cg-ellipse",
+      "target": "cg-ellipse-param",
+      "label": "contains"
+    },
+    {
+      "source": "cg-ellipse",
+      "target": "cg-ellipse-tangent",
+      "label": "contains"
+    },
+    {
+      "source": "cg-ellipse-tangent",
+      "target": "cg-ellipse-tangent-slope",
+      "label": "contains"
+    },
+    {
+      "source": "cg-ellipse-tangent",
+      "target": "cg-ellipse-normal",
+      "label": "contains"
+    },
+    {
+      "source": "cg-ellipse",
+      "target": "cg-ellipse-aux",
+      "label": "contains"
+    },
+    {
+      "source": "coordinate-geometry",
+      "target": "cg-hyperbola",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola",
+      "target": "cg-hyperbola-std",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola-std",
+      "target": "cg-hyperbola-ecc",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola-std",
+      "target": "cg-hyperbola-asymp",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola",
+      "target": "cg-hyperbola-param",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola",
+      "target": "cg-hyperbola-tangent",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola-tangent",
+      "target": "cg-hyperbola-tangent-slope",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola-tangent",
+      "target": "cg-hyperbola-normal",
+      "label": "contains"
+    },
+    {
+      "source": "cg-hyperbola",
+      "target": "cg-hyperbola-rect",
+      "label": "contains"
+    }
+  ]
+}

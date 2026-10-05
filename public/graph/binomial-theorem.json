@@ -1,0 +1,639 @@
+{
+  "title": "Binomial Theorem",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "binomial-theorem",
+      "label": "Binomial Theorem",
+      "group": "Binomial Theorem",
+      "depth": 0,
+      "note": "The binomial theorem expands a power of a sum into a weighted sum of terms whose coefficients are binomial coefficients. The master formula is $$(a + b)^n = \\sum_{r=0}^{n} \\binom{n}{r} a^{n-r} b^r$$ with general term $$T_{r+1} = \\binom{n}{r} a^{n-r} b^r$$."
+    },
+    {
+      "id": "bt-positive-index",
+      "label": "Expansion for Positive Integral Index",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 1,
+      "note": "For a positive integer $$n$$ the expansion of $$(a + b)^n$$ has exactly $$n + 1$$ terms in which the powers of $$a$$ fall and the powers of $$b$$ rise, always summing to $$n$$. The compact form is $$(a + b)^n = \\sum_{r=0}^{n} \\binom{n}{r} a^{n-r} b^r$$."
+    },
+    {
+      "id": "bt-statement",
+      "label": "Theorem Statement and General Term",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 2,
+      "note": "The theorem states $$(a + b)^n = \\sum_{r=0}^{n} \\binom{n}{r} a^{n-r} b^r$$ and the $$(r+1)$$-th term from the beginning is $$T_{r+1} = \\binom{n}{r} a^{n-r} b^r$$. The subscript $$r$$ is always one less than the term position, a detail that drives most indexing questions."
+    },
+    {
+      "id": "bt-general-term",
+      "label": "General Term",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 3,
+      "note": "The general term is $$T_{r+1} = \\binom{n}{r} a^{n-r} b^r$$, so to find the term containing a particular power one solves for $$r$$ from the exponent of $$a$$ or $$b$$. The coefficient of that term is the binomial coefficient $$\\binom{n}{r}$$ times any numerical factors carried by $$a$$ and $$b$$."
+    },
+    {
+      "id": "bt-number-terms",
+      "label": "Number of Terms and Homogeneity",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 3,
+      "note": "The expansion of $$(a + b)^n$$ has exactly $$n + 1$$ terms, one more than the index, and in every term the exponents of $$a$$ and $$b$$ add up to $$n$$. This homogeneity $$(n - r) + r = n$$ is the quickest check that an expansion has been written correctly."
+    },
+    {
+      "id": "bt-canonical",
+      "label": "Canonical Form with Unity",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 3,
+      "note": "Setting $$a = 1$$ and $$b = x$$ gives the canonical expansion $$(1 + x)^n = \\sum_{r=0}^{n} \\binom{n}{r} x^r = C_0 + C_1 x + C_2 x^2 + \\dots + C_n x^n$$ where $$C_r = \\binom{n}{r}$$. Almost every coefficient-series identity is derived from this single form by substituting values of $$x$$."
+    },
+    {
+      "id": "bt-middle-term",
+      "label": "Middle Term Analytics",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 2,
+      "note": "The location of the middle term depends on the parity of $$n$$: an even index gives one middle term and an odd index gives two. This is because the total number of terms $$n + 1$$ is odd for even $$n$$ and even for odd $$n$$."
+    },
+    {
+      "id": "bt-middle-even",
+      "label": "Middle Term for Even Index",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 3,
+      "note": "When $$n$$ is even there is a unique middle term, the $$\\left(\\frac{n}{2} + 1\\right)$$-th term, equal to $$T_{\\frac{n}{2} + 1} = \\binom{n}{n/2} a^{n/2} b^{n/2}$$. Its coefficient $$\\binom{n}{n/2}$$ is the largest binomial coefficient in the whole expansion."
+    },
+    {
+      "id": "bt-middle-odd",
+      "label": "Middle Terms for Odd Index",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 3,
+      "note": "When $$n$$ is odd there are two middle terms, the $$\\frac{n+1}{2}$$-th and the $$\\frac{n+3}{2}$$-th, given by $$T_{\\frac{n+1}{2}} = \\binom{n}{\\frac{n-1}{2}} a^{\\frac{n+1}{2}} b^{\\frac{n-1}{2}}$$ and $$T_{\\frac{n+3}{2}} = \\binom{n}{\\frac{n+1}{2}} a^{\\frac{n-1}{2}} b^{\\frac{n+1}{2}}$$. The two coefficients $$\\binom{n}{\\frac{n-1}{2}}$$ and $$\\binom{n}{\\frac{n+1}{2}}$$ are equal and are the largest in the expansion."
+    },
+    {
+      "id": "bt-greatest-coeff",
+      "label": "Greatest Binomial Coefficient",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 2,
+      "note": "The binomial coefficients rise to the middle and then fall symmetrically, so the greatest is $$\\binom{n}{\\lfloor n/2 \\rfloor}$$. For even $$n$$ this is the single central coefficient and for odd $$n$$ the two central coefficients are equal and greatest."
+    },
+    {
+      "id": "bt-term-end",
+      "label": "Term from the End",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 2,
+      "note": "The $$r$$-th term from the end of $$(a + b)^n$$ equals the $$r$$-th term from the beginning of $$(b + a)^n$$, that is $$T_r^{\\text{end}} = T_{n-r+2}^{\\text{beg}} = \\binom{n}{r-1} a^{r-1} b^{n-r+1}$$. This reversal identity converts end-counting into the familiar beginning index."
+    },
+    {
+      "id": "bt-sum-difference",
+      "label": "Sum and Difference of Conjugate Expansions",
+      "group": "Expansion for Positive Integral Index",
+      "depth": 2,
+      "note": "Adding and subtracting the conjugate expansions gives $$(a + b)^n + (a - b)^n = 2\\left[\\binom{n}{0} a^n + \\binom{n}{2} a^{n-2} b^2 + \\dots\\right]$$ and $$(a + b)^n - (a - b)^n = 2\\left[\\binom{n}{1} a^{n-1} b + \\binom{n}{3} a^{n-3} b^3 + \\dots\\right]$$. The first isolates even-index terms and the second isolates odd-index terms."
+    },
+    {
+      "id": "bt-ngt",
+      "label": "Numerically Greatest Term",
+      "group": "Numerically Greatest Term",
+      "depth": 1,
+      "note": "The numerically greatest term of $$(a + b)^n$$ for given numerical values of $$a$$ and $$b$$ is found by a ratio test on consecutive terms. It differs from the greatest binomial coefficient because it depends on the actual magnitudes of $$a$$ and $$b$$."
+    },
+    {
+      "id": "bt-ratio-test",
+      "label": "Ratio Test on Consecutive Terms",
+      "group": "Numerically Greatest Term",
+      "depth": 2,
+      "note": "The ratio of consecutive terms is $$\\left| \\frac{T_{r+1}}{T_r} \\right| = \\frac{n - r + 1}{r} \\left| \\frac{b}{a} \\right|$$, and the terms increase while this ratio is at least one. Solving the inequality $$(n - r + 1)|b| \\ge r|a|$$ localizes the peak term."
+    },
+    {
+      "id": "bt-ngt-m",
+      "label": "The NGT Parameter m",
+      "group": "Numerically Greatest Term",
+      "depth": 2,
+      "note": "The critical parameter is $$m = \\frac{(n+1)|b|}{|a| + |b|} = \\frac{n + 1}{1 + \\left| \\frac{a}{b} \\right|}$$, and the terms increase up to $$r = m$$. Whether $$m$$ is an integer decides between two equal greatest terms and a single greatest term."
+    },
+    {
+      "id": "bt-ngt-integer",
+      "label": "Integer m Gives Twin NGTs",
+      "group": "Numerically Greatest Term",
+      "depth": 3,
+      "note": "When $$m$$ is an integer the ratio equals one at $$r = m$$, so $$|T_m| = |T_{m+1}|$$ and there are two numerically greatest terms, $$T_m$$ and $$T_{m+1}$$. The two terms have identical magnitude and both qualify as the NGT."
+    },
+    {
+      "id": "bt-ngt-noninteger",
+      "label": "Non-Integer m Gives a Unique NGT",
+      "group": "Numerically Greatest Term",
+      "depth": 3,
+      "note": "When $$m$$ is not an integer the terms increase strictly up to $$r = \\lfloor m \\rfloor$$ and decrease thereafter, giving a single numerically greatest term $$T_{\\lfloor m \\rfloor + 1}$$. The floor of $$m$$ therefore pins the unique peak term."
+    },
+    {
+      "id": "bt-coeff-vs-ngt",
+      "label": "Greatest Coefficient versus NGT",
+      "group": "Numerically Greatest Term",
+      "depth": 2,
+      "note": "The greatest binomial coefficient depends only on $$n$$ and always sits at the middle term, whereas the numerically greatest term depends on the values of $$a$$ and $$b$$ through $$m = \\frac{(n+1)|b|}{|a| + |b|}$$. Confusing the two is the classic JEE trap: one is purely combinatorial and the other is numerical."
+    },
+    {
+      "id": "bt-coeff-series",
+      "label": "Binomial Coefficient Series",
+      "group": "Binomial Coefficient Series",
+      "depth": 1,
+      "note": "Substituting special values of $$x$$ into $$(1 + x)^n = \\sum C_r x^r$$, and differentiating or integrating it, yields a family of coefficient identities. These are the standard tools for summing series built from $$C_r = \\binom{n}{r}$$."
+    },
+    {
+      "id": "bt-sum-coeffs",
+      "label": "Sum of Coefficients",
+      "group": "Binomial Coefficient Series",
+      "depth": 2,
+      "note": "Setting $$x = 1$$ in the canonical expansion gives $$C_0 + C_1 + C_2 + \\dots + C_n = 2^n$$, and setting $$x = -1$$ gives the alternating sum $$C_0 - C_1 + C_2 - \\dots + (-1)^n C_n = 0$$. Adding and subtracting these two equations separates the even and odd indexed coefficients."
+    },
+    {
+      "id": "bt-even-odd",
+      "label": "Even and Odd Indexed Sums",
+      "group": "Binomial Coefficient Series",
+      "depth": 3,
+      "note": "From the two substitutions one obtains $$C_0 + C_2 + C_4 + \\dots = C_1 + C_3 + C_5 + \\dots = 2^{n-1}$$, so the even-indexed and odd-indexed binomial coefficients each sum to half of $$2^n$$. This equal split is a favourite one-line JEE result."
+    },
+    {
+      "id": "bt-alternating-sum",
+      "label": "Alternating Sum of Coefficients",
+      "group": "Binomial Coefficient Series",
+      "depth": 3,
+      "note": "The alternating sum $$C_0 - C_1 + C_2 - C_3 + \\dots + (-1)^n C_n = 0$$ follows directly from substituting $$x = -1$$ into $$(1 + x)^n$$. It shows the positive and negative binomial coefficients cancel exactly for every positive index $$n$$."
+    },
+    {
+      "id": "bt-differentiation",
+      "label": "Differentiation Method",
+      "group": "Binomial Coefficient Series",
+      "depth": 2,
+      "note": "Differentiating $$(1 + x)^n = \\sum C_r x^r$$ with respect to $$x$$ and then setting $$x = 1$$ gives $$\\sum_{r=1}^{n} r \\binom{n}{r} = n \\cdot 2^{n-1}$$. The method works whenever the coefficient is multiplied by an arithmetic factor like $$r$$ or $$r^2$$."
+    },
+    {
+      "id": "bt-second-deriv",
+      "label": "Second Derivative Identity",
+      "group": "Binomial Coefficient Series",
+      "depth": 3,
+      "note": "Multiplying the first derivative by $$x$$ and differentiating again, then setting $$x = 1$$, gives $$\\sum_{r=1}^{n} r^2 \\binom{n}{r} = n(n+1) \\cdot 2^{n-2}$$. The same double-differentiation trick extends to any polynomial weight in $$r$$."
+    },
+    {
+      "id": "bt-alternating-r-sum",
+      "label": "Alternating Weighted Sum",
+      "group": "Binomial Coefficient Series",
+      "depth": 3,
+      "note": "Setting $$x = -1$$ after the first differentiation gives the alternating weighted sum $$\\sum_{r=1}^{n} (-1)^{r-1} r \\binom{n}{r} = 0$$ for $$n > 1$$. The cancellation reflects the fact that the linear function $$nx(1+x)^{n-1}$$ vanishes at $$x = -1$$."
+    },
+    {
+      "id": "bt-integration",
+      "label": "Integration Method",
+      "group": "Binomial Coefficient Series",
+      "depth": 2,
+      "note": "Integrating $$(1 + x)^n = \\sum C_r x^r$$ from $$0$$ to $$x$$ and setting $$x = 1$$ gives $$\\sum_{r=0}^{n} \\frac{\\binom{n}{r}}{r+1} = \\frac{2^{n+1} - 1}{n+1}$$. Integration is the dual of differentiation and handles coefficients divided by an arithmetic factor."
+    },
+    {
+      "id": "bt-product-coeffs",
+      "label": "Product of Binomial Coefficients",
+      "group": "Binomial Coefficient Series",
+      "depth": 2,
+      "note": "Multiplying $$(1 + x)^n$$ by $$(x + 1)^n$$ and equating the coefficient of $$x^n$$ gives the sum of squares $$C_0^2 + C_1^2 + \\dots + C_n^2 = \\binom{2n}{n} = \\frac{(2n)!}{(n!)^2}$$. Equating other coefficients yields the shifted convolution identities."
+    },
+    {
+      "id": "bt-shifted-conv",
+      "label": "Shifted Convolution Products",
+      "group": "Binomial Coefficient Series",
+      "depth": 3,
+      "note": "Equating the coefficient of $$x^{n-k}$$ in the product $$(1+x)^n (x+1)^n = (1+x)^{2n}$$ gives $$\\sum_{r=0}^{n-k} \\binom{n}{r} \\binom{n}{r+k} = \\binom{2n}{n-k}$$. This convolution identity covers products of coefficients whose indices differ by a fixed shift $$k$$."
+    },
+    {
+      "id": "bt-pascals",
+      "label": "Pascal's Triangle Recursion",
+      "group": "Binomial Coefficient Series",
+      "depth": 2,
+      "note": "Each entry of Pascal's triangle is the sum of the two above it, expressed as $$\\binom{n}{r} + \\binom{n}{r-1} = \\binom{n+1}{r}$$. The symmetry $$\\binom{n}{r} = \\binom{n}{n-r}$$ and the row sum $$\\sum_{r=0}^{n} \\binom{n}{r} = 2^n$$ are the other two structural facts."
+    },
+    {
+      "id": "bt-arithmetic",
+      "label": "Arithmetic Applications",
+      "group": "Arithmetic Applications",
+      "depth": 1,
+      "note": "The binomial theorem converts large powers into a multiple of a modulus plus a small remainder, which is the backbone of divisibility, remainder, and last-digit problems. The trick is to write the base as $$M \\pm 1$$ or $$Mk \\pm R$$ for the modulus $$M$$."
+    },
+    {
+      "id": "bt-divisibility",
+      "label": "Divisibility and Remainders",
+      "group": "Arithmetic Applications",
+      "depth": 2,
+      "note": "To find the remainder of a large power $$A^n$$ on division by $$M$$, one writes $$A$$ (or a power of $$A$$) as $$kM \\pm 1$$ and expands, since $$(M + 1)^n \\equiv 1 \\pmod{M}$$. All terms except the last are multiples of $$M$$ and drop out."
+    },
+    {
+      "id": "bt-remainder-example",
+      "label": "Remainder Example",
+      "group": "Arithmetic Applications",
+      "depth": 3,
+      "note": "To find the remainder when $$7^{103}$$ is divided by $$25$$, note $$7^2 = 49 = 2(25) - 1$$, so $$7^{103} = 7(50 - 1)^{51} = 7(50k - 1) = 350k - 7 = 25(14k - 1) + 18$$. The remainder is therefore $$18$$."
+    },
+    {
+      "id": "bt-divisibility-proof",
+      "label": "Proving Divisibility",
+      "group": "Arithmetic Applications",
+      "depth": 3,
+      "note": "To prove an expression like $$a^n - b^n$$ is divisible by $$a - b$$, one writes $$a = (a - b) + b$$ and expands $$[(a - b) + b]^n$$; every term except $$b^n$$ carries the factor $$(a - b)$$. The binomial expansion thus exhibits the divisor explicitly."
+    },
+    {
+      "id": "bt-last-digits",
+      "label": "Last Digits Determination",
+      "group": "Arithmetic Applications",
+      "depth": 2,
+      "note": "The last digit of a number is its value modulo $$10$$, the last two digits are its value modulo $$100$$, and the last three are modulo $$1000$$. One expands the base as $$(10k \\pm 1)^n$$ and retains only the terms that survive the chosen modulus."
+    },
+    {
+      "id": "bt-int-frac",
+      "label": "Integral and Fractional Parts",
+      "group": "Arithmetic Applications",
+      "depth": 2,
+      "note": "For $$N = (A + \\sqrt{B})^n = I + f$$ with $$A - 1 < \\sqrt{B} < A$$, the conjugate bracket $$f' = (A - \\sqrt{B})^n$$ lies strictly between $$0$$ and $$1$$. Adding the two brackets eliminates the surds and yields an even integer, forcing the fractional parts to sum to one."
+    },
+    {
+      "id": "bt-conjugate",
+      "label": "The Conjugate Bracket",
+      "group": "Arithmetic Applications",
+      "depth": 3,
+      "note": "Defining $$f' = (A - \\sqrt{B})^n$$ gives $$0 < f' < 1$$ because $$0 < |A - \\sqrt{B}| < 1$$, and the sum $$(A + \\sqrt{B})^n + (A - \\sqrt{B})^n$$ is an even integer $$2K$$ since all odd surd powers cancel. As $$I + (f + f') = 2K$$ is an integer and $$0 < f + f' < 2$$, the fractional parts must satisfy $$f + f' = 1$$."
+    },
+    {
+      "id": "bt-integral-parity",
+      "label": "Integral Part Parity and Product",
+      "group": "Arithmetic Applications",
+      "depth": 3,
+      "note": "Because $$f + f' = 1$$ and the total is the even integer $$2K$$, the integral part is $$I = 2K - 1$$, always an odd integer. The product of the number and its conjugate is $$(I + f)(1 - f) = (I + f)f' = (A + \\sqrt{B})^n (A - \\sqrt{B})^n = (A^2 - B)^n$$, a clean rational value."
+    },
+    {
+      "id": "bt-any-index",
+      "label": "Binomial Theorem for Any Index",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 1,
+      "note": "For a rational or negative index $$n$$ the expansion becomes an infinite series that converges only when the first term is unity and $$|x| < 1$$. The general term is $$T_{r+1} = \\frac{n(n-1)(n-2)\\cdots(n-r+1)}{r!} x^r$$ and the series does not terminate."
+    },
+    {
+      "id": "bt-rational-index",
+      "label": "Theorem for Rational Index",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 2,
+      "note": "For any real $$n$$ the series $$(1 + x)^n = 1 + nx + \\frac{n(n-1)}{2!}x^2 + \\frac{n(n-1)(n-2)}{3!}x^3 + \\dots$$ converges if and only if $$|x| < 1$$. The base must first be normalized so that the leading term is exactly $$1$$, since $$(a + x)^n = a^n\\left(1 + \\frac{x}{a}\\right)^n$$ needs $$\\left|\\frac{x}{a}\\right| < 1$$."
+    },
+    {
+      "id": "bt-general-any",
+      "label": "General Term for Any Index",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 3,
+      "note": "The $$(r+1)$$-th term of the infinite series is $$T_{r+1} = \\frac{n(n-1)(n-2)\\cdots(n-r+1)}{r!} x^r$$, a ratio of $$r$$ falling factors of $$n$$ over $$r!$$. Unlike the positive-index case there are infinitely many terms, and convergence requires $$|x| < 1$$."
+    },
+    {
+      "id": "bt-square-root-expansion",
+      "label": "Square Root and Fractional Expansions",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 3,
+      "note": "For a fractional index such as $$n = \\frac{1}{2}$$ the series gives $$\\sqrt{1 + x} = 1 + \\frac{x}{2} - \\frac{x^2}{8} + \\frac{x^3}{16} - \\dots$$ valid for $$|x| < 1$$. Such expansions are the source of many limit and approximation problems in JEE calculus."
+    },
+    {
+      "id": "bt-canonical-infinite",
+      "label": "Canonical Infinite Expansions",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 2,
+      "note": "Four negative-power expansions recur constantly in JEE calculus and limits: $$(1 - x)^{-1}$$, $$(1 + x)^{-1}$$, $$(1 - x)^{-2}$$, and the general $$(1 - x)^{-n}$$. Each is an infinite series valid strictly for $$|x| < 1$$."
+    },
+    {
+      "id": "bt-neg-one",
+      "label": "Expansion of (1 - x) to the -1",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 3,
+      "note": "The geometric series is $$(1 - x)^{-1} = 1 + x + x^2 + x^3 + \\dots = \\sum_{r=0}^{\\infty} x^r$$ for $$|x| < 1$$, and its alternating twin is $$(1 + x)^{-1} = 1 - x + x^2 - x^3 + \\dots = \\sum_{r=0}^{\\infty} (-1)^r x^r$$. Both diverge at $$x = 1$$."
+    },
+    {
+      "id": "bt-neg-two",
+      "label": "Expansion of (1 - x) to the -2",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 3,
+      "note": "Differentiating the geometric series gives $$(1 - x)^{-2} = 1 + 2x + 3x^2 + 4x^3 + \\dots = \\sum_{r=0}^{\\infty} (r+1) x^r$$ for $$|x| < 1$$, with the alternating version $$(1 + x)^{-2} = \\sum_{r=0}^{\\infty} (-1)^r (r+1) x^r$$. The coefficients are the natural numbers in arithmetic progression."
+    },
+    {
+      "id": "bt-neg-n",
+      "label": "General Negative Power",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 3,
+      "note": "The general negative integer power expands as $$(1 - x)^{-n} = \\sum_{r=0}^{\\infty} \\binom{n+r-1}{r} x^r$$ for $$|x| < 1$$, so the coefficients are the diagonal binomial coefficients $$\\binom{n+r-1}{r}$$. This unifies the $$-1$$ and $$-2$$ cases and connects to stars-and-bars counting."
+    },
+    {
+      "id": "bt-approximations",
+      "label": "Approximations for Small Quantities",
+      "group": "Binomial Theorem for Any Index",
+      "depth": 2,
+      "note": "When $$|x|$$ is very small the higher powers are negligible and $$(1 + x)^n \\approx 1 + nx$$, with a second-order correction $$(1 + x)^n \\approx 1 + nx + \\frac{n(n-1)}{2} x^2$$. These linear and quadratic approximations are used throughout JEE for estimation and limits."
+    },
+    {
+      "id": "bt-multinomial",
+      "label": "Multinomial Theorem",
+      "group": "Multinomial Theorem",
+      "depth": 1,
+      "note": "The multinomial theorem generalizes the binomial to a sum of three or more terms raised to a power. The expansion of $$(x_1 + x_2 + \\dots + x_k)^n$$ sums over all non-negative integer partitions of $$n$$ into $$k$$ parts."
+    },
+    {
+      "id": "bt-multinomial-exp",
+      "label": "Multinomial Expansion",
+      "group": "Multinomial Theorem",
+      "depth": 2,
+      "note": "The expansion is $$(x_1 + x_2 + \\dots + x_k)^n = \\sum \\frac{n!}{r_1! r_2! \\cdots r_k!} x_1^{r_1} x_2^{r_2} \\cdots x_k^{r_k}$$ summed over all $$r_1 + r_2 + \\dots + r_k = n$$. Each term is weighted by the multinomial coefficient and the exponents of the variables add up to $$n$$."
+    },
+    {
+      "id": "bt-multinomial-coeff",
+      "label": "Multinomial Coefficient",
+      "group": "Multinomial Theorem",
+      "depth": 3,
+      "note": "The coefficient of the term $$x_1^{r_1} x_2^{r_2} \\cdots x_k^{r_k}$$ is the multinomial coefficient $$\\frac{n!}{r_1! r_2! \\cdots r_k!}$$, which counts the ways to partition $$n$$ objects into groups of sizes $$r_1, r_2, \\dots, r_k$$. For $$k = 2$$ it reduces to the ordinary binomial coefficient $$\\binom{n}{r}$$."
+    },
+    {
+      "id": "bt-multinomial-terms",
+      "label": "Total Number of Terms",
+      "group": "Multinomial Theorem",
+      "depth": 3,
+      "note": "Each distinct term corresponds to a non-negative integer solution of $$r_1 + r_2 + \\dots + r_k = n$$, so by stars and bars the total number of terms is $$\\binom{n+k-1}{k-1}$$. This count depends only on $$n$$ and $$k$$, not on the variables themselves."
+    },
+    {
+      "id": "bt-trinomial",
+      "label": "Trinomial Expansion",
+      "group": "Multinomial Theorem",
+      "depth": 2,
+      "note": "For three terms the number of distinct terms in $$(x + y + z)^n$$ is $$\\binom{n+2}{2} = \\frac{(n+1)(n+2)}{2}$$, obtained by setting $$k = 3$$ in the general count $$\\binom{n+k-1}{k-1}$$. Before applying this one must simplify the base, since a perfect-square base collapses the effective number of terms."
+    },
+    {
+      "id": "bt-greatest-multinomial",
+      "label": "Greatest Multinomial Coefficient",
+      "group": "Multinomial Theorem",
+      "depth": 2,
+      "note": "The multinomial coefficient is maximized when the indices $$r_1, r_2, \\dots, r_k$$ are as nearly equal as possible, i.e. as close to $$n/k$$ as integer partitions allow. Writing $$n = qk + r$$ with $$q = \\lfloor n/k \\rfloor$$, the maximum is $$\\frac{n!}{(q!)^{k-r}\\,[(q+1)!]^r}$$ with $$r$$ indices equal to $$q + 1$$ and the rest equal to $$q$$."
+    },
+    {
+      "id": "bt-multinomial-example",
+      "label": "Term-Counting Caution",
+      "group": "Multinomial Theorem",
+      "depth": 2,
+      "note": "A base that is secretly a perfect power must be condensed first: $$(1 + 2x + x^2)^{20} = [(1 + x)^2]^{20} = (1 + x)^{40}$$ has exactly $$40 + 1 = 41$$ dissimilar terms, not the $$\\binom{22}{2} = 231$$ that a blind trinomial count would give. Always simplify the polynomial base before applying any term-counting formula."
+    }
+  ],
+  "edges": [
+    {
+      "source": "binomial-theorem",
+      "target": "bt-positive-index",
+      "label": "contains"
+    },
+    {
+      "source": "bt-positive-index",
+      "target": "bt-statement",
+      "label": "contains"
+    },
+    {
+      "source": "bt-statement",
+      "target": "bt-general-term",
+      "label": "contains"
+    },
+    {
+      "source": "bt-statement",
+      "target": "bt-number-terms",
+      "label": "contains"
+    },
+    {
+      "source": "bt-statement",
+      "target": "bt-canonical",
+      "label": "contains"
+    },
+    {
+      "source": "bt-positive-index",
+      "target": "bt-middle-term",
+      "label": "contains"
+    },
+    {
+      "source": "bt-middle-term",
+      "target": "bt-middle-even",
+      "label": "contains"
+    },
+    {
+      "source": "bt-middle-term",
+      "target": "bt-middle-odd",
+      "label": "contains"
+    },
+    {
+      "source": "bt-positive-index",
+      "target": "bt-greatest-coeff",
+      "label": "contains"
+    },
+    {
+      "source": "bt-positive-index",
+      "target": "bt-term-end",
+      "label": "contains"
+    },
+    {
+      "source": "bt-positive-index",
+      "target": "bt-sum-difference",
+      "label": "contains"
+    },
+    {
+      "source": "binomial-theorem",
+      "target": "bt-ngt",
+      "label": "contains"
+    },
+    {
+      "source": "bt-ngt",
+      "target": "bt-ratio-test",
+      "label": "contains"
+    },
+    {
+      "source": "bt-ngt",
+      "target": "bt-ngt-m",
+      "label": "contains"
+    },
+    {
+      "source": "bt-ngt-m",
+      "target": "bt-ngt-integer",
+      "label": "contains"
+    },
+    {
+      "source": "bt-ngt-m",
+      "target": "bt-ngt-noninteger",
+      "label": "contains"
+    },
+    {
+      "source": "bt-ngt",
+      "target": "bt-coeff-vs-ngt",
+      "label": "contains"
+    },
+    {
+      "source": "binomial-theorem",
+      "target": "bt-coeff-series",
+      "label": "contains"
+    },
+    {
+      "source": "bt-coeff-series",
+      "target": "bt-sum-coeffs",
+      "label": "contains"
+    },
+    {
+      "source": "bt-sum-coeffs",
+      "target": "bt-even-odd",
+      "label": "contains"
+    },
+    {
+      "source": "bt-sum-coeffs",
+      "target": "bt-alternating-sum",
+      "label": "contains"
+    },
+    {
+      "source": "bt-coeff-series",
+      "target": "bt-differentiation",
+      "label": "contains"
+    },
+    {
+      "source": "bt-differentiation",
+      "target": "bt-second-deriv",
+      "label": "contains"
+    },
+    {
+      "source": "bt-differentiation",
+      "target": "bt-alternating-r-sum",
+      "label": "contains"
+    },
+    {
+      "source": "bt-coeff-series",
+      "target": "bt-integration",
+      "label": "contains"
+    },
+    {
+      "source": "bt-coeff-series",
+      "target": "bt-product-coeffs",
+      "label": "contains"
+    },
+    {
+      "source": "bt-product-coeffs",
+      "target": "bt-shifted-conv",
+      "label": "contains"
+    },
+    {
+      "source": "bt-coeff-series",
+      "target": "bt-pascals",
+      "label": "contains"
+    },
+    {
+      "source": "binomial-theorem",
+      "target": "bt-arithmetic",
+      "label": "contains"
+    },
+    {
+      "source": "bt-arithmetic",
+      "target": "bt-divisibility",
+      "label": "contains"
+    },
+    {
+      "source": "bt-divisibility",
+      "target": "bt-remainder-example",
+      "label": "contains"
+    },
+    {
+      "source": "bt-divisibility",
+      "target": "bt-divisibility-proof",
+      "label": "contains"
+    },
+    {
+      "source": "bt-arithmetic",
+      "target": "bt-last-digits",
+      "label": "contains"
+    },
+    {
+      "source": "bt-arithmetic",
+      "target": "bt-int-frac",
+      "label": "contains"
+    },
+    {
+      "source": "bt-int-frac",
+      "target": "bt-conjugate",
+      "label": "contains"
+    },
+    {
+      "source": "bt-int-frac",
+      "target": "bt-integral-parity",
+      "label": "contains"
+    },
+    {
+      "source": "binomial-theorem",
+      "target": "bt-any-index",
+      "label": "contains"
+    },
+    {
+      "source": "bt-any-index",
+      "target": "bt-rational-index",
+      "label": "contains"
+    },
+    {
+      "source": "bt-rational-index",
+      "target": "bt-general-any",
+      "label": "contains"
+    },
+    {
+      "source": "bt-rational-index",
+      "target": "bt-square-root-expansion",
+      "label": "contains"
+    },
+    {
+      "source": "bt-any-index",
+      "target": "bt-canonical-infinite",
+      "label": "contains"
+    },
+    {
+      "source": "bt-canonical-infinite",
+      "target": "bt-neg-one",
+      "label": "contains"
+    },
+    {
+      "source": "bt-canonical-infinite",
+      "target": "bt-neg-two",
+      "label": "contains"
+    },
+    {
+      "source": "bt-canonical-infinite",
+      "target": "bt-neg-n",
+      "label": "contains"
+    },
+    {
+      "source": "bt-any-index",
+      "target": "bt-approximations",
+      "label": "contains"
+    },
+    {
+      "source": "binomial-theorem",
+      "target": "bt-multinomial",
+      "label": "contains"
+    },
+    {
+      "source": "bt-multinomial",
+      "target": "bt-multinomial-exp",
+      "label": "contains"
+    },
+    {
+      "source": "bt-multinomial-exp",
+      "target": "bt-multinomial-coeff",
+      "label": "contains"
+    },
+    {
+      "source": "bt-multinomial-exp",
+      "target": "bt-multinomial-terms",
+      "label": "contains"
+    },
+    {
+      "source": "bt-multinomial",
+      "target": "bt-trinomial",
+      "label": "contains"
+    },
+    {
+      "source": "bt-multinomial",
+      "target": "bt-greatest-multinomial",
+      "label": "contains"
+    },
+    {
+      "source": "bt-multinomial",
+      "target": "bt-multinomial-example",
+      "label": "contains"
+    }
+  ]
+}

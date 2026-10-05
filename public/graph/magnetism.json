@@ -1,0 +1,367 @@
+{
+  "title": "Magnetic Effects of Current and Magnetism",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "magnetism",
+      "label": "Magnetic Effects of Current and Magnetism",
+      "group": "Magnetic Effects of Current and Magnetism",
+      "depth": 0,
+      "note": "Current creates magnetic fields, fields push moving charge, and matter answers back by magnetizing. The chain runs $$d\\vec{B} = \\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\vec{l} \\times \\hat{r}}{r^2}$$ into forces and then into hysteresis."
+    },
+    {
+      "id": "mg-biot",
+      "label": "Biot-Savart Law and Current Fields",
+      "group": "Biot-Savart Law and Current Fields",
+      "depth": 1,
+      "note": "Every current element contributes a field that falls as $$1/r^2$$ and curls around the wire. Integration over standard shapes gives all the results JEE asks for."
+    },
+    {
+      "id": "mg-biot-statement",
+      "label": "Biot-Savart Law",
+      "group": "Biot-Savart Law and Current Fields",
+      "depth": 2,
+      "note": "A current element sends out a field along the cross product of its direction and the radial vector: $$d\\vec{B} = \\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\vec{l} \\times \\hat{r}}{r^2}$$. The constant is $$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\ \\text{T}\\cdot\\text{m/A}$$."
+    },
+    {
+      "id": "mg-straight-wire",
+      "label": "Straight Current-Carrying Conductors",
+      "group": "Biot-Savart Law and Current Fields",
+      "depth": 2,
+      "note": "A finite wire at perpendicular distance $$d$$ gives $$B = \\frac{\\mu_0 I}{4\\pi d}(\\sin\\alpha_1 + \\sin\\alpha_2)$$ with angles measured from the foot of the perpendicular. Infinite wires double to $$B = \\frac{\\mu_0 I}{2\\pi d}$$, and a semi-infinite wire gives half that."
+    },
+    {
+      "id": "mg-arc-loop",
+      "label": "Circular Arc and Loop Centre Field",
+      "group": "Biot-Savart Law and Current Fields",
+      "depth": 2,
+      "note": "On a circular arc only the perpendicular components survive, giving $$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$ for angle $$\\phi$$. A full loop therefore has $$B = \\frac{\\mu_0 I}{2R}$$ at its centre, or $$\\frac{\\mu_0 N I}{2R}$$ with $$N$$ turns."
+    },
+    {
+      "id": "mg-loop-axis",
+      "label": "Circular Loop on Its Axis",
+      "group": "Biot-Savart Law and Current Fields",
+      "depth": 2,
+      "note": "Off-axis components cancel and only the axial part remains: $$B(x) = \\frac{\\mu_0 N I R^2}{2(R^2 + x^2)^{3/2}}$$. Two coaxial coils a radius $$R$$ apart give a nearly uniform field of $$B = \\frac{8\\mu_0 N I}{5\\sqrt{5}R}$$, the Helmholtz case."
+    },
+    {
+      "id": "mg-solenoid-toroid",
+      "label": "Solenoid and Toroid",
+      "group": "Biot-Savart Law and Current Fields",
+      "depth": 2,
+      "note": "A long solenoid packs turns into a uniform interior field $$B = \\mu_0 n I$$, falling to half at the end. A toroid closes the flux on itself, giving $$B = \\frac{\\mu_0 N I}{2\\pi R}$$ inside and zero outside."
+    },
+    {
+      "id": "mg-ampere",
+      "label": "Ampere's Circuital Law",
+      "group": "Ampere's Circuital Law",
+      "depth": 1,
+      "note": "Ampere's law turns hard integrals into a counting of enclosed current: $$\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I_{enc}$$. It works only where symmetry makes $$B$$ constant on the loop."
+    },
+    {
+      "id": "mg-ampere-statement",
+      "label": "Statement of Ampere's Law",
+      "group": "Ampere's Circuital Law",
+      "depth": 2,
+      "note": "The circulation of $$\\vec{B}$$ around any closed path depends only on current threading it: $$\\oint \\vec{B}\\cdot d\\vec{l} = \\mu_0 I_{enclosed}$$. It is the magnetic counterpart of Gauss's law for charges."
+    },
+    {
+      "id": "mg-thick-wire",
+      "label": "Field Inside and Outside a Thick Conductor",
+      "group": "Ampere's Circuital Law",
+      "depth": 2,
+      "note": "Current spreads uniformly through a wire of radius $$R$$, so only part of it is enclosed at radius $$r < R$$. That gives $$B(r) = \\frac{\\mu_0 I r}{2\\pi R^2}$$ inside and $$B = \\frac{\\mu_0 I}{2\\pi r}$$ outside, peaking at the surface."
+    },
+    {
+      "id": "mg-amperian-loop",
+      "label": "Choosing an Amperian Loop",
+      "group": "Ampere's Circuital Law",
+      "depth": 2,
+      "note": "Pick a loop on which $$B$$ is constant and parallel to $$d\\vec{l}$$, usually a circle centred on the current. Then $$B(2\\pi r) = \\mu_0 I_{enc}$$ solves for $$B$$ in one line."
+    },
+    {
+      "id": "mg-gauss-magnetism",
+      "label": "Gauss's Law for Magnetism",
+      "group": "Ampere's Circuital Law",
+      "depth": 2,
+      "note": "Magnetic field lines have no beginning or end because isolated poles do not exist. Every closed surface therefore collects zero net flux: $$\\oint \\vec{B}\\cdot d\\vec{A} = 0$$."
+    },
+    {
+      "id": "mg-particles",
+      "label": "Motion of Charged Particles",
+      "group": "Motion of Charged Particles",
+      "depth": 1,
+      "note": "A magnetic force perpendicular to velocity bends motion without changing speed, so the trajectory is circular or helical. The radius is always $$r = \\frac{mv}{qB}$$."
+    },
+    {
+      "id": "mg-lorentz",
+      "label": "Lorentz Force and Zero Work",
+      "group": "Motion of Charged Particles",
+      "depth": 2,
+      "note": "The full force law combines both fields: $$\\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B})$$. Since the magnetic part is perpendicular to motion it does no work, $$W_B = 0$$, and kinetic energy stays fixed."
+    },
+    {
+      "id": "mg-circular",
+      "label": "Circular Motion in a Uniform Field",
+      "group": "Motion of Charged Particles",
+      "depth": 2,
+      "note": "Entering perpendicular to $$\\vec{B}$$, the Lorentz force plays the centripetal role, giving $$r = \\frac{mv}{qB}$$. The orbit period $$T = \\frac{2\\pi m}{qB}$$ is independent of speed, which is why cyclotrons work."
+    },
+    {
+      "id": "mg-helix",
+      "label": "Helical Motion at an Angle",
+      "group": "Motion of Charged Particles",
+      "depth": 2,
+      "note": "Only the perpendicular velocity component circles, while the parallel component slides undisturbed. With entry angle $$\\theta$$ the pitch is $$p = v_{\\parallel}T = \\frac{2\\pi mv\\cos\\theta}{qB}$$."
+    },
+    {
+      "id": "mg-field-region",
+      "label": "Time Spent in a Field Region",
+      "group": "Motion of Charged Particles",
+      "depth": 2,
+      "note": "Inside a magnetic strip a particle turns through angle $$\\theta$$ before leaving, and the turn time follows from the period. The time is $$t = \\frac{m\\theta}{qB}$$, independent of speed."
+    },
+    {
+      "id": "mg-velocity-selector",
+      "label": "Velocity Selector",
+      "group": "Motion of Charged Particles",
+      "depth": 2,
+      "note": "Crossed electric and magnetic fields can cancel exactly for one speed, letting undeflected particles through. The selected velocity is $$v = \\frac{E}{B}$$, set only by the field ratio."
+    },
+    {
+      "id": "mg-cyclotron",
+      "label": "Cyclotron",
+      "group": "Motion of Charged Particles",
+      "depth": 2,
+      "note": "An alternating voltage at the resonant frequency kicks the particle each half turn, while $$B$$ keeps it on a spiral. Resonance needs $$f = \\frac{qB}{2\\pi m}$$, and the Dee radius $$R$$ caps energy at $$K = \\frac{q^2B^2R^2}{2m}$$."
+    },
+    {
+      "id": "mg-force",
+      "label": "Force and Torque on Currents",
+      "group": "Force and Torque on Currents",
+      "depth": 1,
+      "note": "Summing the Lorentz force over a wire gives a macroscopic force and, for loops, a torque. The wire result is $$F = ILB\\sin\\theta$$."
+    },
+    {
+      "id": "mg-force-wire",
+      "label": "Force on a Current-Carrying Wire",
+      "group": "Force and Torque on Currents",
+      "depth": 2,
+      "note": "A straight segment in a field feels $$\\vec{F} = I\\vec{L}\\times\\vec{B}$$, so magnitude is $$F = ILB\\sin\\theta$$. The force vanishes when the wire runs parallel to the field."
+    },
+    {
+      "id": "mg-parallel-wires",
+      "label": "Force Between Parallel Currents",
+      "group": "Force and Torque on Currents",
+      "depth": 2,
+      "note": "Each wire sits in the other's field, so force per unit length is $$\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$$. Currents in the same direction attract and opposite directions repel."
+    },
+    {
+      "id": "mg-torque",
+      "label": "Torque on a Current Loop",
+      "group": "Force and Torque on Currents",
+      "depth": 2,
+      "note": "Opposite sides of a loop push opposite ways, so the net force cancels but a couple survives: $$\\vec{\\tau} = \\vec{M} \\times \\vec{B}$$ with $$\\tau = NIAB\\sin\\theta$$. This is exactly what spins a galvanometer coil."
+    },
+    {
+      "id": "mg-moment",
+      "label": "Magnetic Moment and Potential Energy",
+      "group": "Force and Torque on Currents",
+      "depth": 2,
+      "note": "A loop is a dipole with moment $$\\vec{M} = NIA\\hat{n}$$, and it aligns to lower energy: $$U = -\\vec{M}\\cdot\\vec{B} = -MB\\cos\\theta$$. Stable equilibrium is at $$\\theta = 0$$, unstable at $$\\theta = 180^\\circ$$."
+    },
+    {
+      "id": "mg-closed-loop",
+      "label": "Closed Loop in a Uniform Field",
+      "group": "Force and Torque on Currents",
+      "depth": 2,
+      "note": "For any closed current loop in a uniform field the forces around the perimeter cancel exactly: $$\\vec{F}_{net} = 0$$. Only a non-uniform field can translate the loop, which is how magnetic traps and dipoles behave."
+    },
+    {
+      "id": "mg-galvanometer",
+      "label": "Galvanometer and Instruments",
+      "group": "Galvanometer and Instruments",
+      "depth": 1,
+      "note": "A coil in a radial field converts current into deflection against a spring, and shunts or multipliers turn it into meters. Balance reads $$NIAB = C\\theta$$."
+    },
+    {
+      "id": "mg-mcg-principle",
+      "label": "Moving Coil Galvanometer",
+      "group": "Galvanometer and Instruments",
+      "depth": 2,
+      "note": "A cylindrical core makes the field radial, so torque stays at right angles to the plane of the coil. Deflecting torque then balances the restoring torque of the strip: $$NIAB = C\\theta$$, giving $$I = \\frac{C}{NAB}\\theta$$."
+    },
+    {
+      "id": "mg-radial-field",
+      "label": "Why the Field Is Made Radial",
+      "group": "Galvanometer and Instruments",
+      "depth": 2,
+      "note": "With the field always in the plane of the coil, the angle stays at 90 degrees and the scale becomes linear. Torque is then $$\\tau = NIAB$$ at every deflection, independent of $$\\theta$$."
+    },
+    {
+      "id": "mg-sensitivity",
+      "label": "Current and Voltage Sensitivity",
+      "group": "Galvanometer and Instruments",
+      "depth": 2,
+      "note": "Current sensitivity is deflection per ampere, $$S_i = \\frac{NAB}{C}$$, while voltage sensitivity divides by coil resistance, $$S_v = \\frac{S_i}{R_g}$$. Doubling turns doubles both $$S_i$$ and $$R_g$$, leaving $$S_v$$ unchanged."
+    },
+    {
+      "id": "mg-ammeter",
+      "label": "Galvanometer as an Ammeter",
+      "group": "Galvanometer and Instruments",
+      "depth": 2,
+      "note": "A low shunt resistor diverts most current past the delicate coil. For range $$0$$ to $$I$$ the shunt is $$S = \\frac{I_g R_g}{I - I_g}$$, and the finished ammeter has very low resistance."
+    },
+    {
+      "id": "mg-voltmeter",
+      "label": "Galvanometer as a Voltmeter",
+      "group": "Galvanometer and Instruments",
+      "depth": 2,
+      "note": "A high series resistance limits current so the meter reads potential difference across it: $$R = \\frac{V}{I_g} - R_g$$. The ideal voltmeter draws nothing, meaning $$R_V \\to \\infty$$."
+    },
+    {
+      "id": "mg-earth",
+      "label": "Earth's Magnetism",
+      "group": "Earth's Magnetism",
+      "depth": 1,
+      "note": "The Earth behaves like a huge bar magnet whose field is resolved into horizontal and vertical parts. The dip angle ties them as $$\\tan\\delta = \\frac{B_V}{B_H}$$."
+    },
+    {
+      "id": "mg-elements",
+      "label": "Magnetic Elements of the Earth",
+      "group": "Earth's Magnetism",
+      "depth": 2,
+      "note": "Declination gives the angle between geographic and magnetic meridians, and dip gives the tilt of the total field below horizontal. Components follow $$B_H = B_e\\cos\\delta$$ and $$B_V = B_e\\sin\\delta$$."
+    },
+    {
+      "id": "mg-apparent-dip",
+      "label": "True and Apparent Dip",
+      "group": "Earth's Magnetism",
+      "depth": 2,
+      "note": "Dip measured outside the magnetic meridian reads low, so two perpendicular readings recover the true value. They obey $$\\cot^2\\delta = \\cot^2\\delta_1 + \\cot^2\\delta_2$$, with true dip the smallest possible reading."
+    },
+    {
+      "id": "mg-tangent-law",
+      "label": "Tangent Law",
+      "group": "Earth's Magnetism",
+      "depth": 2,
+      "note": "A needle under two perpendicular fields settles where their torques balance, turning angle into a field ratio. The law is $$B = B_H\\tan\\theta$$ for the applied field $$B$$."
+    },
+    {
+      "id": "mg-tangent-galvanometer",
+      "label": "Tangent Galvanometer",
+      "group": "Earth's Magnetism",
+      "depth": 2,
+      "note": "A vertical circular coil in the magnetic meridian adds its own field perpendicular to $$B_H$$. Combining coil field and tangent law gives $$I = \\frac{2RB_H}{\\mu_0 N}\\tan\\theta$$."
+    },
+    {
+      "id": "mg-vibration",
+      "label": "Vibration Magnetometer",
+      "group": "Earth's Magnetism",
+      "depth": 2,
+      "note": "A magnet displaced in the meridian oscillates about equilibrium under the restoring torque of $$B_H$$. The period is $$T = 2\\pi\\sqrt{\\frac{I}{MB_H}}$$, which lets moments be compared by timing."
+    },
+    {
+      "id": "mg-neutral-point",
+      "label": "Neutral Points",
+      "group": "Earth's Magnetism",
+      "depth": 2,
+      "note": "A neutral point is where the magnet's own field exactly cancels the horizontal component of Earth's field. There the net field is zero, $$B_{mag} = B_H$$, and a compass refuses to turn."
+    },
+    {
+      "id": "mg-properties",
+      "label": "Magnetic Properties of Matter",
+      "group": "Magnetic Properties of Matter",
+      "depth": 1,
+      "note": "Matter magnetizes in response to an applied field, and its susceptibility classifies it. The constitutive link is $$B = \\mu_0(H + I)$$."
+    },
+    {
+      "id": "mg-magnetization",
+      "label": "Magnetization and Permeability",
+      "group": "Magnetic Properties of Matter",
+      "depth": 2,
+      "note": "Magnetization is magnetic moment per unit volume, $$I = \\frac{M_{net}}{V}$$, and permeability measures how easily the medium supports flux. They combine as $$B = \\mu_0(1 + \\chi)H$$ with $$\\chi = \\frac{I}{H}$$."
+    },
+    {
+      "id": "mg-classification",
+      "label": "Classification of Magnetic Materials",
+      "group": "Magnetic Properties of Matter",
+      "depth": 2,
+      "note": "Diamagnets have small negative susceptibility, paramagnets small positive susceptibility, and ferromagnets enormous positive susceptibility. The values run $$-1 \\le \\chi < 0$$ for diamagnets, $$0 < \\chi < 10^{-3}$$ for paramagnets, and $$\\chi \\sim 10^2$$ upward for ferromagnets."
+    },
+    {
+      "id": "mg-curie",
+      "label": "Curie's Law",
+      "group": "Magnetic Properties of Matter",
+      "depth": 2,
+      "note": "Heat jostles paramagnetic alignment, so susceptibility falls with absolute temperature: $$\\chi = \\frac{C}{T}$$. Above its Curie temperature a ferromagnet obeys $$\\chi = \\frac{C}{T - T_c}$$ instead."
+    },
+    {
+      "id": "mg-hysteresis",
+      "label": "Hysteresis Loop",
+      "group": "Magnetic Properties of Matter",
+      "depth": 2,
+      "note": "The B versus H curve lags behind the applied field, marking saturation, residual flux, and the coercive field. Retentivity $$B_r$$ is the flux left at $$H = 0$$, and coercivity $$H_c$$ is the reverse field needed to reach $$B = 0$$."
+    },
+    {
+      "id": "mg-hysteresis-loss",
+      "label": "Hysteresis Loss and Material Choice",
+      "group": "Magnetic Properties of Matter",
+      "depth": 2,
+      "note": "Energy lost per cycle per unit volume equals the enclosed loop area: $$W = \\oint B\\,dH$$. Narrow-loop soft iron suits transformer cores at 50 Hz, while broad-loop steel with high coercivity makes permanent magnets."
+    },
+    {
+      "id": "mg-superconductor",
+      "label": "Superconductors and Perfect Diamagnetism",
+      "group": "Magnetic Properties of Matter",
+      "depth": 2,
+      "note": "Below its critical temperature a superconductor expels every field line from its interior. That makes it a perfect diamagnet with $$\\chi = -1$$ and $$\\mu_r = 0$$, so $$B = 0$$ inside."
+    }
+  ],
+  "edges": [
+    { "source": "magnetism", "target": "mg-biot", "label": "contains" },
+    { "source": "mg-biot", "target": "mg-biot-statement", "label": "contains" },
+    { "source": "mg-biot", "target": "mg-straight-wire", "label": "contains" },
+    { "source": "mg-biot", "target": "mg-arc-loop", "label": "contains" },
+    { "source": "mg-biot", "target": "mg-loop-axis", "label": "contains" },
+    { "source": "mg-biot", "target": "mg-solenoid-toroid", "label": "contains" },
+    { "source": "magnetism", "target": "mg-ampere", "label": "contains" },
+    { "source": "mg-ampere", "target": "mg-ampere-statement", "label": "contains" },
+    { "source": "mg-ampere", "target": "mg-thick-wire", "label": "contains" },
+    { "source": "mg-ampere", "target": "mg-amperian-loop", "label": "contains" },
+    { "source": "mg-ampere", "target": "mg-gauss-magnetism", "label": "contains" },
+    { "source": "magnetism", "target": "mg-particles", "label": "contains" },
+    { "source": "mg-particles", "target": "mg-lorentz", "label": "contains" },
+    { "source": "mg-particles", "target": "mg-circular", "label": "contains" },
+    { "source": "mg-particles", "target": "mg-helix", "label": "contains" },
+    { "source": "mg-particles", "target": "mg-field-region", "label": "contains" },
+    { "source": "mg-particles", "target": "mg-velocity-selector", "label": "contains" },
+    { "source": "mg-particles", "target": "mg-cyclotron", "label": "contains" },
+    { "source": "magnetism", "target": "mg-force", "label": "contains" },
+    { "source": "mg-force", "target": "mg-force-wire", "label": "contains" },
+    { "source": "mg-force", "target": "mg-parallel-wires", "label": "contains" },
+    { "source": "mg-force", "target": "mg-torque", "label": "contains" },
+    { "source": "mg-force", "target": "mg-moment", "label": "contains" },
+    { "source": "mg-force", "target": "mg-closed-loop", "label": "contains" },
+    { "source": "magnetism", "target": "mg-galvanometer", "label": "contains" },
+    { "source": "mg-galvanometer", "target": "mg-mcg-principle", "label": "contains" },
+    { "source": "mg-galvanometer", "target": "mg-radial-field", "label": "contains" },
+    { "source": "mg-galvanometer", "target": "mg-sensitivity", "label": "contains" },
+    { "source": "mg-galvanometer", "target": "mg-ammeter", "label": "contains" },
+    { "source": "mg-galvanometer", "target": "mg-voltmeter", "label": "contains" },
+    { "source": "magnetism", "target": "mg-earth", "label": "contains" },
+    { "source": "mg-earth", "target": "mg-elements", "label": "contains" },
+    { "source": "mg-earth", "target": "mg-apparent-dip", "label": "contains" },
+    { "source": "mg-earth", "target": "mg-tangent-law", "label": "contains" },
+    { "source": "mg-earth", "target": "mg-tangent-galvanometer", "label": "contains" },
+    { "source": "mg-earth", "target": "mg-vibration", "label": "contains" },
+    { "source": "mg-earth", "target": "mg-neutral-point", "label": "contains" },
+    { "source": "magnetism", "target": "mg-properties", "label": "contains" },
+    { "source": "mg-properties", "target": "mg-magnetization", "label": "contains" },
+    { "source": "mg-properties", "target": "mg-classification", "label": "contains" },
+    { "source": "mg-properties", "target": "mg-curie", "label": "contains" },
+    { "source": "mg-properties", "target": "mg-hysteresis", "label": "contains" },
+    { "source": "mg-properties", "target": "mg-hysteresis-loss", "label": "contains" },
+    { "source": "mg-properties", "target": "mg-superconductor", "label": "contains" }
+  ]
+}

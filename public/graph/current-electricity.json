@@ -1,0 +1,359 @@
+{
+  "title": "Current Electricity",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "current-electricity",
+      "label": "Current Electricity",
+      "group": "Current Electricity",
+      "depth": 0,
+      "note": "Current electricity moves charge through circuits, so resistance, networks, cells, and measurement are the whole syllabus. Its engine is $$V = IR$$ with Kirchhoff's laws supplying the bookkeeping."
+    },
+    {
+      "id": "ce-current",
+      "label": "Current and Microscopic Transport",
+      "group": "Current and Microscopic Transport",
+      "depth": 1,
+      "note": "Charge in motion is current, and drift velocity explains why a slow electron still delivers steady current. The definitions are $$I = \\frac{dQ}{dt}$$ and $$I = neAv_d$$."
+    },
+    {
+      "id": "ce-current-def",
+      "label": "Definition of Current",
+      "group": "Current and Microscopic Transport",
+      "depth": 2,
+      "note": "Current is the rate of charge crossing a cross-section, positive by convention: $$I = \\frac{dQ}{dt}$$. It is a scalar, and in networks the junction rule keeps it consistent."
+    },
+    {
+      "id": "ce-moving-charge",
+      "label": "Current from a Single Moving Charge",
+      "group": "Current and Microscopic Transport",
+      "depth": 2,
+      "note": "A charge $$q$$ sweeping a length $$d$$ at speed $$v$$ completes a crossing every $$d/v$$ seconds. The average current is therefore $$I = \\frac{qv}{d}$$."
+    },
+    {
+      "id": "ce-drift",
+      "label": "Drift Velocity",
+      "group": "Current and Microscopic Transport",
+      "depth": 2,
+      "note": "Electrons zig-zag between collisions and are nudged only slightly by the field, giving a slow net drift. Its size is $$v_d = \\frac{eE\\tau}{m} = \\frac{eV\\tau}{mL}$$, typically under a millimetre per second."
+    },
+    {
+      "id": "ce-current-density",
+      "label": "Current Density and Mobility",
+      "group": "Current and Microscopic Transport",
+      "depth": 2,
+      "note": "Current density counts amperes per area and links directly to drift: $$I = neAv_d$$. Mobility is drift per field, $$\\mu = \\frac{v_d}{E} = \\frac{e\\tau}{m}$$."
+    },
+    {
+      "id": "ce-conductivity",
+      "label": "Conductivity and Resistivity",
+      "group": "Current and Microscopic Transport",
+      "depth": 2,
+      "note": "Microscopic Ohm's law reads $$\\vec{J} = \\sigma\\vec{E}$$ with conductivity set by carrier density and collision time: $$\\sigma = \\frac{ne^2\\tau}{m}$$. Resistivity is its reciprocal, $$\\rho = \\frac{1}{\\sigma}$$."
+    },
+    {
+      "id": "ce-resistance",
+      "label": "Resistance and Resistivity",
+      "group": "Resistance and Resistivity",
+      "depth": 1,
+      "note": "Resistance scales with length and shrinks with area, while resistivity belongs to the material alone. The master relation is $$R = \\frac{\\rho L}{A}$$."
+    },
+    {
+      "id": "ce-ohm",
+      "label": "Ohm's Law and Resistance",
+      "group": "Resistance and Resistivity",
+      "depth": 2,
+      "note": "For ohmic materials voltage and current stay proportional at fixed temperature: $$V = IR$$. Geometry then gives $$R = \\frac{\\rho L}{A}$$, so shape and material separate cleanly."
+    },
+    {
+      "id": "ce-temperature",
+      "label": "Temperature Dependence of Resistance",
+      "group": "Resistance and Resistivity",
+      "depth": 2,
+      "note": "Metal resistance rises with temperature as lattice vibrations scatter electrons more often: $$R(T) = R_0(1 + \\alpha\\Delta T)$$. Semiconductors have negative $$\\alpha$$ because thermal carriers multiply."
+    },
+    {
+      "id": "ce-stretching",
+      "label": "Stretching and Reducing Wires",
+      "group": "Resistance and Resistivity",
+      "depth": 2,
+      "note": "Stretching a wire keeps its volume, so gaining length means losing area. If length becomes $$n$$ times, then area becomes $$1/n$$ and $$R' = n^2 R$$; a wire of half the radius has four times the resistance."
+    },
+    {
+      "id": "ce-geometry-vs-material",
+      "label": "Geometry Versus Material",
+      "group": "Resistance and Resistivity",
+      "depth": 2,
+      "note": "Resistivity depends only on material and temperature, so it survives any reshaping: $$\\rho = \\frac{m}{ne^2\\tau}$$. Charging the temperature changes $$\\rho$$, but cutting the wire never does."
+    },
+    {
+      "id": "ce-networks",
+      "label": "Resistor Networks",
+      "group": "Resistor Networks",
+      "depth": 1,
+      "note": "Complex circuits collapse once series, parallel, and symmetry are recognised. Series adds resistances while parallel adds reciprocals: $$R_{eq} = \\sum R_i$$."
+    },
+    {
+      "id": "ce-series-parallel",
+      "label": "Series and Parallel Combinations",
+      "group": "Resistor Networks",
+      "depth": 2,
+      "note": "Series resistors share current so voltages add, while parallel resistors share voltage so conductances add. $$R_{eq} = \\sum_i R_i$$ in series and $$\\frac{1}{R_{eq}} = \\sum_i \\frac{1}{R_i}$$ in parallel."
+    },
+    {
+      "id": "ce-divider",
+      "label": "Current and Voltage Division",
+      "group": "Resistor Networks",
+      "depth": 2,
+      "note": "In a parallel pair current takes the inverse-resistance path, so the bigger resistor gets less: $$I_1 = I\\frac{R_2}{R_1 + R_2}$$. In series the voltage splits in proportion, $$V_1 = V\\frac{R_1}{R_1 + R_2}$$."
+    },
+    {
+      "id": "ce-delta-star",
+      "label": "Delta to Star Transformation",
+      "group": "Resistor Networks",
+      "depth": 2,
+      "note": "A triangle of resistors can be replaced by a three-legged star whose arms reproduce terminal behaviour. The arms are $$R_1 = \\frac{R_bR_c}{R_a + R_b + R_c}$$ and its two cyclic partners."
+    },
+    {
+      "id": "ce-cube",
+      "label": "Cube of Resistors",
+      "group": "Resistor Networks",
+      "depth": 2,
+      "note": "Symmetry lets the cube's twelve identical edges be folded into three groups of parallel branches. Across an edge the equivalent resistance is $$R_{eq} = \\frac{7}{12}R$$, and across a face diagonal it is $$\\frac{3}{4}R$$."
+    },
+    {
+      "id": "ce-symmetry",
+      "label": "Symmetry and Equipotential Removal",
+      "group": "Resistor Networks",
+      "depth": 2,
+      "note": "Mirror symmetry can force two nodes to the same potential, so no current flows along a bridge between them. Such a branch is deleted, $$I = 0$$, and the circuit factorises."
+    },
+    {
+      "id": "ce-kirchhoff",
+      "label": "Kirchhoff's Laws",
+      "group": "Kirchhoff's Laws",
+      "depth": 1,
+      "note": "These two laws encode charge and energy conservation for any multi-loop circuit. Together they give $$\\sum I = 0$$ at a junction and $$\\sum IR = \\sum \\mathcal{E}$$ around a loop."
+    },
+    {
+      "id": "ce-kcl",
+      "label": "Kirchhoff's Current Law",
+      "group": "Kirchhoff's Laws",
+      "depth": 2,
+      "note": "Charge cannot pile up at a junction, so whatever enters leaves: $$\\sum I_{in} = \\sum I_{out}$$. It applies to any element, not just ideal wires."
+    },
+    {
+      "id": "ce-kvl",
+      "label": "Kirchhoff's Voltage Law",
+      "group": "Kirchhoff's Laws",
+      "depth": 2,
+      "note": "Going once around a closed loop returns to the same potential, so the total voltage change vanishes: $$\\sum \\Delta V = 0$$. In practice drops $$IR$$ balance the emfs, giving $$\\sum IR = \\sum \\mathcal{E}$$."
+    },
+    {
+      "id": "ce-sign-rules",
+      "label": "Sign Conventions for Loops",
+      "group": "Kirchhoff's Laws",
+      "depth": 2,
+      "note": "Guess a current direction first and keep it fixed; a negative answer then simply reverses the guess. Traversing a resistor against the assumed current adds $$IR$$, while crossing a cell from minus to plus adds $$\\mathcal{E}$$."
+    },
+    {
+      "id": "ce-bridges",
+      "label": "Wheatstone and Metre Bridges",
+      "group": "Wheatstone and Metre Bridges",
+      "depth": 1,
+      "note": "Bridges detect the null state, where a galvanometer reads zero and the arms balance exactly. The balance condition is $$\\frac{P}{Q} = \\frac{R}{S}$$."
+    },
+    {
+      "id": "ce-wheatstone",
+      "label": "Balanced Wheatstone Bridge",
+      "group": "Wheatstone and Metre Bridges",
+      "depth": 2,
+      "note": "When the galvanometer current vanishes, the mid-points are at equal potential and the arms are proportional: $$\\frac{P}{Q} = \\frac{R}{S}$$. Unbalanced bridges need full Kirchhoff analysis or symmetry tricks."
+    },
+    {
+      "id": "ce-metre-bridge",
+      "label": "Metre Bridge",
+      "group": "Wheatstone and Metre Bridges",
+      "depth": 2,
+      "note": "A one-metre wire of uniform resistance acts as two proportional arms with a sliding contact. Balance at $$l$$ cm gives $$\\frac{R}{S} = \\frac{l}{100 - l}$$, which is why readings cluster near 50 cm."
+    },
+    {
+      "id": "ce-null-principle",
+      "label": "Why Null Methods Are Preferred",
+      "group": "Wheatstone and Metre Bridges",
+      "depth": 2,
+      "note": "At balance no current flows through the detector, so neither the source nor the meter affects the reading. Accuracy then depends only on length ratios, $$\\frac{R}{S} = \\frac{l}{100 - l}$$, not on meter calibration."
+    },
+    {
+      "id": "ce-cells",
+      "label": "Cells and Grouping",
+      "group": "Cells and Grouping",
+      "depth": 1,
+      "note": "A real cell has emf $$\\mathcal{E}$$ plus internal resistance $$r$$, so terminal voltage shifts with current. Discharging gives $$V = \\mathcal{E} - Ir$$."
+    },
+    {
+      "id": "ce-terminal",
+      "label": "Terminal Potential Difference",
+      "group": "Cells and Grouping",
+      "depth": 2,
+      "note": "Delivering current makes the terminal voltage sag by the internal drop: $$V = \\mathcal{E} - Ir$$. Charging reverses it to $$V = \\mathcal{E} + Ir$$, and open circuit leaves $$V = \\mathcal{E}$$."
+    },
+    {
+      "id": "ce-short-open",
+      "label": "Short Circuit and Load Matching",
+      "group": "Cells and Grouping",
+      "depth": 2,
+      "note": "Shorting a cell drives current limited only by its own resistance: $$I_{sc} = \\frac{\\mathcal{E}}{r}$$. With a load $$R$$ the delivered current is $$I = \\frac{\\mathcal{E}}{R + r}$$."
+    },
+    {
+      "id": "ce-series-cells",
+      "label": "Series and Parallel Grouping",
+      "group": "Cells and Grouping",
+      "depth": 2,
+      "note": "Series cells add emf and resistance, giving $$I = \\frac{n\\mathcal{E}}{R + nr}$$ for $$n$$ identical cells. Parallel cells keep emf but divide internal resistance, giving $$I = \\frac{m\\mathcal{E}}{mR + r}$$, and a reversed cell reduces the net emf."
+    },
+    {
+      "id": "ce-mixed-grouping",
+      "label": "Mixed Grouping and Maximum Current",
+      "group": "Cells and Grouping",
+      "depth": 2,
+      "note": "With $$n$$ cells in series per row and $$m$$ rows in parallel the current is $$I = \\frac{mn\\mathcal{E}}{mR + nr}$$. Maximising it requires the external load to equal the bank's internal resistance, $$R = \\frac{nr}{m}$$."
+    },
+    {
+      "id": "ce-heating",
+      "label": "Heating, Power and Fuses",
+      "group": "Heating, Power and Fuses",
+      "depth": 1,
+      "note": "Resistive dissipation converts electrical energy to heat, which is both a loss and a design tool. The standard measure is $$H = I^2Rt$$."
+    },
+    {
+      "id": "ce-joule",
+      "label": "Joule's Law of Heating",
+      "group": "Heating, Power and Fuses",
+      "depth": 2,
+      "note": "Heat generated depends on current squared, resistance, and time: $$H = I^2Rt = \\frac{V^2}{R}t$$. This is why thin, high-resistance elements run hot."
+    },
+    {
+      "id": "ce-power",
+      "label": "Electric Power",
+      "group": "Heating, Power and Fuses",
+      "depth": 2,
+      "note": "Power is energy delivered per second in any of the equivalent forms: $$P = VI = I^2R = \\frac{V^2}{R}$$. Rating an appliance fixes which form is convenient."
+    },
+    {
+      "id": "ce-max-power",
+      "label": "Maximum Power Transfer",
+      "group": "Heating, Power and Fuses",
+      "depth": 2,
+      "note": "Power to the load peaks when load resistance equals source internal resistance: $$R = r$$. The peak is $$P_{max} = \\frac{\\mathcal{E}^2}{4r}$$, delivered at only $$50\\%$$ efficiency."
+    },
+    {
+      "id": "ce-fuse",
+      "label": "Fuse Wire",
+      "group": "Heating, Power and Fuses",
+      "depth": 2,
+      "note": "A fuse melts when generation outruns cooling along its surface, so only radius matters for rating. That gives $$I^2 \\propto r^3$$, hence $$I_{rated} \\propto r^{3/2}$$ independent of length."
+    },
+    {
+      "id": "ce-potentiometer",
+      "label": "Potentiometer",
+      "group": "Potentiometer",
+      "depth": 1,
+      "note": "A potentiometer compares potentials by balancing them against a uniform wire drop, drawing no current at balance. Its sensitivity is set by the potential gradient $$k = \\frac{V}{L}$$."
+    },
+    {
+      "id": "ce-pot-principle",
+      "label": "Principle and Potential Gradient",
+      "group": "Potentiometer",
+      "depth": 2,
+      "note": "The wire potential falls linearly with length, so position maps directly to voltage: $$k = \\frac{V_{AB}}{L}$$ in volts per metre. A smaller $$k$$ means finer resolution."
+    },
+    {
+      "id": "ce-pot-emf",
+      "label": "Comparison of EMFs",
+      "group": "Potentiometer",
+      "depth": 2,
+      "note": "At balance the cell emf equals the wire drop over its balance length, with zero current drawn from the cell. Two cells therefore compare as $$\\frac{\\mathcal{E}_1}{\\mathcal{E}_2} = \\frac{l_1}{l_2}$$."
+    },
+    {
+      "id": "ce-pot-internal",
+      "label": "Measurement of Internal Resistance",
+      "group": "Potentiometer",
+      "depth": 2,
+      "note": "Balance length falls from $$l_1$$ to $$l_2$$ when a shunt $$R$$ across the cell draws current. The internal resistance follows as $$r = R\\left(\\frac{l_1}{l_2} - 1\\right)$$."
+    },
+    {
+      "id": "ce-rc",
+      "label": "RC Transients",
+      "group": "RC Transients",
+      "depth": 1,
+      "note": "A capacitor charges and discharges exponentially, with the resistor setting the clock. The governing time constant is $$\\tau = RC$$."
+    },
+    {
+      "id": "ce-rc-charging",
+      "label": "Charging a Capacitor",
+      "group": "RC Transients",
+      "depth": 2,
+      "note": "Charge builds toward its ceiling while current decays from the initial surge: $$q(t) = Q_0\\left(1 - e^{-t/RC}\\right)$$ and $$i(t) = I_0 e^{-t/RC}$$. One time constant reaches $$63.2\\%$$ of full charge."
+    },
+    {
+      "id": "ce-rc-discharging",
+      "label": "Discharging and Half Life",
+      "group": "RC Transients",
+      "depth": 2,
+      "note": "With no source the stored charge drains exponentially: $$q(t) = Q_0 e^{-t/RC}$$. Charge halves every $$t_{1/2} = RC\\ln 2 \\approx 0.693RC$$."
+    },
+    {
+      "id": "ce-rc-energy",
+      "label": "Time Constant and Energy Balance",
+      "group": "RC Transients",
+      "depth": 2,
+      "note": "The time constant sets the response speed, $$\\tau = RC$$, after which the circuit is effectively steady. Charging always wastes half the battery's work as heat, $$H = \\frac{1}{2}C\\mathcal{E}^2$$, whatever $$R$$ is."
+    }
+  ],
+  "edges": [
+    { "source": "current-electricity", "target": "ce-current", "label": "contains" },
+    { "source": "ce-current", "target": "ce-current-def", "label": "contains" },
+    { "source": "ce-current", "target": "ce-moving-charge", "label": "contains" },
+    { "source": "ce-current", "target": "ce-drift", "label": "contains" },
+    { "source": "ce-current", "target": "ce-current-density", "label": "contains" },
+    { "source": "ce-current", "target": "ce-conductivity", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-resistance", "label": "contains" },
+    { "source": "ce-resistance", "target": "ce-ohm", "label": "contains" },
+    { "source": "ce-resistance", "target": "ce-temperature", "label": "contains" },
+    { "source": "ce-resistance", "target": "ce-stretching", "label": "contains" },
+    { "source": "ce-resistance", "target": "ce-geometry-vs-material", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-networks", "label": "contains" },
+    { "source": "ce-networks", "target": "ce-series-parallel", "label": "contains" },
+    { "source": "ce-networks", "target": "ce-divider", "label": "contains" },
+    { "source": "ce-networks", "target": "ce-delta-star", "label": "contains" },
+    { "source": "ce-networks", "target": "ce-cube", "label": "contains" },
+    { "source": "ce-networks", "target": "ce-symmetry", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-kirchhoff", "label": "contains" },
+    { "source": "ce-kirchhoff", "target": "ce-kcl", "label": "contains" },
+    { "source": "ce-kirchhoff", "target": "ce-kvl", "label": "contains" },
+    { "source": "ce-kirchhoff", "target": "ce-sign-rules", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-bridges", "label": "contains" },
+    { "source": "ce-bridges", "target": "ce-wheatstone", "label": "contains" },
+    { "source": "ce-bridges", "target": "ce-metre-bridge", "label": "contains" },
+    { "source": "ce-bridges", "target": "ce-null-principle", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-cells", "label": "contains" },
+    { "source": "ce-cells", "target": "ce-terminal", "label": "contains" },
+    { "source": "ce-cells", "target": "ce-short-open", "label": "contains" },
+    { "source": "ce-cells", "target": "ce-series-cells", "label": "contains" },
+    { "source": "ce-cells", "target": "ce-mixed-grouping", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-heating", "label": "contains" },
+    { "source": "ce-heating", "target": "ce-joule", "label": "contains" },
+    { "source": "ce-heating", "target": "ce-power", "label": "contains" },
+    { "source": "ce-heating", "target": "ce-max-power", "label": "contains" },
+    { "source": "ce-heating", "target": "ce-fuse", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-potentiometer", "label": "contains" },
+    { "source": "ce-potentiometer", "target": "ce-pot-principle", "label": "contains" },
+    { "source": "ce-potentiometer", "target": "ce-pot-emf", "label": "contains" },
+    { "source": "ce-potentiometer", "target": "ce-pot-internal", "label": "contains" },
+    { "source": "current-electricity", "target": "ce-rc", "label": "contains" },
+    { "source": "ce-rc", "target": "ce-rc-charging", "label": "contains" },
+    { "source": "ce-rc", "target": "ce-rc-discharging", "label": "contains" },
+    { "source": "ce-rc", "target": "ce-rc-energy", "label": "contains" }
+  ]
+}

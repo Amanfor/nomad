@@ -1,0 +1,627 @@
+{
+  "title": "Vectors and 3D Geometry",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "vectors-3d-geometry",
+      "label": "Vectors and 3D Geometry",
+      "group": "Vectors and 3D Geometry",
+      "depth": 0,
+      "note": "Vector algebra extends dot and cross products to three dimensions, and 3D geometry uses them to describe lines, planes, angles, and distances in space. The two products that drive everything are $$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos\\theta$$ and $$\\vec{a} \\times \\vec{b} = |\\vec{a}| |\\vec{b}| \\sin\\theta \\, \\hat{n}$$."
+    },
+    {
+      "id": "vg-vector-algebra",
+      "label": "Vector Algebra",
+      "group": "Vector Algebra",
+      "depth": 1,
+      "note": "A vector in space is written $$\\vec{a} = a_1 \\hat{i} + a_2 \\hat{j} + a_3 \\hat{k}$$ with magnitude $$|\\vec{a}| = \\sqrt{a_1^2 + a_2^2 + a_3^2}$$. The dot product returns a scalar while the cross product returns a vector perpendicular to both operands."
+    },
+    {
+      "id": "vg-vector-basics",
+      "label": "Vector Basics and Representation",
+      "group": "Vector Algebra",
+      "depth": 2,
+      "note": "A vector has magnitude and direction, resolved into components along $$\\hat{i}, \\hat{j}, \\hat{k}$$. Its magnitude is $$|\\vec{a}| = \\sqrt{a_1^2 + a_2^2 + a_3^2}$$ and the direction cosines are the cosines of the angles it makes with the three axes."
+    },
+    {
+      "id": "vg-unit-vector",
+      "label": "Unit Vector",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "A unit vector has magnitude one and points along a given direction, computed as $$\\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|}$$. The standard unit vectors $$\\hat{i}, \\hat{j}, \\hat{k}$$ are mutually perpendicular with $$\\hat{i} \\cdot \\hat{i} = 1$$ and $$\\hat{i} \\cdot \\hat{j} = 0$$."
+    },
+    {
+      "id": "vg-position-vector",
+      "label": "Position and Free Vectors",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "The position vector of a point $$P$$ is the vector $$\\overrightarrow{OP}$$ from the origin to $$P$$, fixing its location in space. A free vector is independent of its starting point and is fully described by its components and magnitude."
+    },
+    {
+      "id": "vg-vector-addition",
+      "label": "Addition and Scalar Multiplication",
+      "group": "Vector Algebra",
+      "depth": 2,
+      "note": "Vectors add by the triangle or parallelogram law and scale by multiplying each component, giving $$(a_1 + b_1)\\hat{i} + (a_2 + b_2)\\hat{j} + (a_3 + b_3)\\hat{k}$$. Addition is commutative and the zero vector is the identity."
+    },
+    {
+      "id": "vg-dot-product",
+      "label": "Dot Product",
+      "group": "Vector Algebra",
+      "depth": 2,
+      "note": "The dot product is $$\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos\\theta = a_1 b_1 + a_2 b_2 + a_3 b_3$$, a scalar that is positive for acute and negative for obtuse angles. It also equals $$\\vec{a} \\cdot \\vec{a} = |\\vec{a}|^2$$, which gives magnitudes without square roots."
+    },
+    {
+      "id": "vg-vector-angle",
+      "label": "Angle Between Vectors",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "The angle between two nonzero vectors is $$\\cos\\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| |\\vec{b}|} = \\frac{a_1 b_1 + a_2 b_2 + a_3 b_3}{\\sqrt{a_1^2 + a_2^2 + a_3^2}\\sqrt{b_1^2 + b_2^2 + b_3^2}}$$. The absolute value is taken when only the acute angle is required."
+    },
+    {
+      "id": "vg-projection",
+      "label": "Projection of a Vector",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "The scalar projection of $$\\vec{a}$$ onto $$\\vec{b}$$ is $$\\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|}$$ and the vector projection is $$\\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|^2}\\,\\vec{b}$$. Projection onto a unit vector is simply the dot product with that unit vector."
+    },
+    {
+      "id": "vg-perpendicular",
+      "label": "Perpendicular Vectors",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "Two vectors are perpendicular exactly when their dot product vanishes, $$\\vec{a} \\cdot \\vec{b} = 0$$, since $$\\cos 90^\\circ = 0$$. This is the cleanest test for orthogonality and is used to build vectors normal to a plane."
+    },
+    {
+      "id": "vg-dot-props",
+      "label": "Dot Product Properties",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "The dot product is commutative, $$\\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{a}$$, and distributive, $$\\vec{a} \\cdot (\\vec{b} + \\vec{c}) = \\vec{a} \\cdot \\vec{b} + \\vec{a} \\cdot \\vec{c}$$. It is not associative because the dot product of two vectors is a scalar, not a vector."
+    },
+    {
+      "id": "vg-cross-product",
+      "label": "Cross Product",
+      "group": "Vector Algebra",
+      "depth": 2,
+      "note": "The cross product is $$\\vec{a} \\times \\vec{b} = |\\vec{a}| |\\vec{b}| \\sin\\theta \\, \\hat{n}$$, a vector perpendicular to both $$\\vec{a}$$ and $$\\vec{b}$$ by the right-hand rule. In components it is the determinant $$\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ a_1 & a_2 & a_3 \\\\ b_1 & b_2 & b_3 \\end{vmatrix}$$."
+    },
+    {
+      "id": "vg-cross-props",
+      "label": "Cross Product Properties",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "The cross product is anti-commutative, $$\\vec{a} \\times \\vec{b} = -\\vec{b} \\times \\vec{a}$$, and vanishes for parallel vectors, $$\\vec{a} \\times \\vec{a} = 0$$. It is distributive over addition but not associative in general."
+    },
+    {
+      "id": "vg-perp-unit",
+      "label": "Unit Vector Perpendicular to Two Vectors",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "A unit vector perpendicular to both $$\\vec{a}$$ and $$\\vec{b}$$ is $$\\hat{n} = \\pm \\frac{\\vec{a} \\times \\vec{b}}{|\\vec{a} \\times \\vec{b}|}$$, with the sign choosing the orientation. The magnitude $$|\\vec{a} \\times \\vec{b}|$$ equals the area of the parallelogram spanned by the two vectors."
+    },
+    {
+      "id": "vg-cross-geo",
+      "label": "Geometric Meaning of the Cross Product",
+      "group": "Vector Algebra",
+      "depth": 3,
+      "note": "The magnitude $$|\\vec{a} \\times \\vec{b}| = |\\vec{a}| |\\vec{b}| \\sin\\theta$$ is the area of the parallelogram on $$\\vec{a}$$ and $$\\vec{b}$$, so the triangle on them has area $$\\frac{1}{2}|\\vec{a} \\times \\vec{b}|$$. Its direction is the normal to the plane containing the two vectors."
+    },
+    {
+      "id": "vg-triple-products",
+      "label": "Triple Products",
+      "group": "Triple Products",
+      "depth": 1,
+      "note": "Triple products combine three vectors into a scalar or a vector and carry the geometry of volume and coplanarity. The two of them are the scalar triple product $$[\\vec{a} \\, \\vec{b} \\, \\vec{c}]$$ and the vector triple product $$\\vec{a} \\times (\\vec{b} \\times \\vec{c})$$."
+    },
+    {
+      "id": "vg-scalar-triple",
+      "label": "Scalar Triple Product",
+      "group": "Triple Products",
+      "depth": 2,
+      "note": "The scalar triple product is $$[\\vec{a} \\, \\vec{b} \\, \\vec{c}] = \\vec{a} \\cdot (\\vec{b} \\times \\vec{c})$$, a scalar equal to the determinant of the components. Its absolute value is the volume of the parallelepiped, $$V = |[\\vec{a} \\, \\vec{b} \\, \\vec{c}]|$$."
+    },
+    {
+      "id": "vg-coplanar-vectors",
+      "label": "Coplanarity of Vectors",
+      "group": "Triple Products",
+      "depth": 3,
+      "note": "Three vectors are coplanar exactly when their scalar triple product is zero, $$[\\vec{a} \\, \\vec{b} \\, \\vec{c}] = 0$$, because the parallelepiped they span has zero volume. This is the standard test for whether three vectors, or four points, lie in a common plane."
+    },
+    {
+      "id": "vg-stp-props",
+      "label": "Properties of the Scalar Triple Product",
+      "group": "Triple Products",
+      "depth": 3,
+      "note": "The dot and cross may be interchanged, $$[\\vec{a} \\, \\vec{b} \\, \\vec{c}] = \\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = (\\vec{a} \\times \\vec{b}) \\cdot \\vec{c}$$, and it is cyclic, $$[\\vec{a} \\, \\vec{b} \\, \\vec{c}] = [\\vec{b} \\, \\vec{c} \\, \\vec{a}] = [\\vec{c} \\, \\vec{a} \\, \\vec{b}]$$. Swapping two vectors reverses the sign, so $$[\\vec{a} \\, \\vec{b} \\, \\vec{c}] = -[\\vec{a} \\, \\vec{c} \\, \\vec{b}]$$."
+    },
+    {
+      "id": "vg-volume-tetra",
+      "label": "Volume of a Tetrahedron",
+      "group": "Triple Products",
+      "depth": 3,
+      "note": "The volume of a tetrahedron on three coterminous edges $$\\vec{a}, \\vec{b}, \\vec{c}$$ is one sixth of the parallelepiped volume, $$V_{\\text{tetra}} = \\frac{1}{6}[\\vec{a} \\, \\vec{b} \\, \\vec{c}]$$. It vanishes when the four vertices are coplanar, matching the scalar triple product test."
+    },
+    {
+      "id": "vg-vector-triple",
+      "label": "Vector Triple Product",
+      "group": "Triple Products",
+      "depth": 2,
+      "note": "The vector triple product expands by the BAC-CAB rule, $$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\vec{b}(\\vec{a} \\cdot \\vec{c}) - \\vec{c}(\\vec{a} \\cdot \\vec{b})$$. The result lies in the plane of $$\\vec{b}$$ and $$\\vec{c}$$ and is perpendicular to $$\\vec{a}$$."
+    },
+    {
+      "id": "vg-bac-cab",
+      "label": "The BAC-CAB Identity",
+      "group": "Triple Products",
+      "depth": 3,
+      "note": "The identity $$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = \\vec{b}(\\vec{a} \\cdot \\vec{c}) - \\vec{c}(\\vec{a} \\cdot \\vec{b})$$ is remembered as BAC minus CAB because the outer vector $$\\vec{a}$$ dots with the far vector in each term. It is not associative, so $$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) \\neq (\\vec{a} \\times \\vec{b}) \\times \\vec{c}$$ in general."
+    },
+    {
+      "id": "vg-direction-cosines",
+      "label": "Direction Cosines and Ratios",
+      "group": "Direction Cosines and Ratios",
+      "depth": 1,
+      "note": "Direction cosines $$l, m, n$$ are the cosines of the angles a line makes with the positive $$x, y, z$$ axes and satisfy $$l^2 + m^2 + n^2 = 1$$. Direction ratios are any triple proportional to them and fix the same direction."
+    },
+    {
+      "id": "vg-dc",
+      "label": "Direction Cosines",
+      "group": "Direction Cosines and Ratios",
+      "depth": 2,
+      "note": "For a line making angles $$\\alpha, \\beta, \\gamma$$ with the axes the direction cosines are $$l = \\cos\\alpha, m = \\cos\\beta, n = \\cos\\gamma$$ and always obey $$l^2 + m^2 + n^2 = 1$$. A line has two opposite sets of direction cosines corresponding to its two directions."
+    },
+    {
+      "id": "vg-dc-from-dr",
+      "label": "Direction Cosines from Ratios",
+      "group": "Direction Cosines and Ratios",
+      "depth": 3,
+      "note": "If $$a, b, c$$ are direction ratios then the direction cosines are $$l = \\frac{\\pm a}{\\sqrt{a^2 + b^2 + c^2}}, m = \\frac{\\pm b}{\\sqrt{a^2 + b^2 + c^2}}, n = \\frac{\\pm c}{\\sqrt{a^2 + b^2 + c^2}}$$, with a consistent choice of sign. Any nonzero multiple of a set of direction ratios gives the same direction cosines up to sign."
+    },
+    {
+      "id": "vg-dc-points",
+      "label": "Direction Cosines of a Line Joining Two Points",
+      "group": "Direction Cosines and Ratios",
+      "depth": 3,
+      "note": "For the segment joining $$P(x_1, y_1, z_1)$$ and $$Q(x_2, y_2, z_2)$$ the direction cosines are $$l = \\frac{x_2 - x_1}{PQ}, m = \\frac{y_2 - y_1}{PQ}, n = \\frac{z_2 - z_1}{PQ}$$ where $$PQ = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}$$. These are simply the components of the unit vector along the segment."
+    },
+    {
+      "id": "vg-dc-identity",
+      "label": "Direction Cosine Identities",
+      "group": "Direction Cosines and Ratios",
+      "depth": 3,
+      "note": "From $$l^2 + m^2 + n^2 = 1$$ it follows that $$\\sin^2\\alpha + \\sin^2\\beta + \\sin^2\\gamma = 2$$ and $$\\cos 2\\alpha + \\cos 2\\beta + \\cos 2\\gamma = -1$$. These identities let one direction cosine be found from the other two."
+    },
+    {
+      "id": "vg-dr",
+      "label": "Direction Ratios",
+      "group": "Direction Cosines and Ratios",
+      "depth": 2,
+      "note": "Direction ratios $$a, b, c$$ are any numbers proportional to the direction cosines, so $$a : b : c = l : m : n$$. They are not unique since multiplying by any nonzero constant gives the same direction, which is why one normalizes to get cosines."
+    },
+    {
+      "id": "vg-dr-proportional",
+      "label": "Proportionality of Ratios and Cosines",
+      "group": "Direction Cosines and Ratios",
+      "depth": 3,
+      "note": "If $$a, b, c$$ are direction ratios and $$l, m, n$$ are direction cosines then $$\\frac{l}{a} = \\frac{m}{b} = \\frac{n}{c} = \\frac{1}{\\sqrt{a^2 + b^2 + c^2}}$$ up to sign. This proportionality is the bridge used to convert between the two notations in every 3D problem."
+    },
+    {
+      "id": "vg-angle-lines",
+      "label": "Angle Between Two Lines",
+      "group": "Direction Cosines and Ratios",
+      "depth": 2,
+      "note": "Using direction ratios the acute angle between two lines is $$\\cos\\theta = \\frac{|a_1 a_2 + b_1 b_2 + c_1 c_2|}{\\sqrt{a_1^2 + b_1^2 + c_1^2}\\sqrt{a_2^2 + b_2^2 + c_2^2}}$$, and with direction cosines it is $$\\cos\\theta = |l_1 l_2 + m_1 m_2 + n_1 n_2|$$. The absolute value forces the acute angle."
+    },
+    {
+      "id": "vg-parallel-perp-lines",
+      "label": "Parallel and Perpendicular Lines",
+      "group": "Direction Cosines and Ratios",
+      "depth": 3,
+      "note": "Two lines are parallel when their direction ratios are proportional, $$\\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2}$$, and perpendicular when the dot product of their direction vectors is zero, $$a_1 a_2 + b_1 b_2 + c_1 c_2 = 0$$. In direction cosines the perpendicular test is simply $$l_1 l_2 + m_1 m_2 + n_1 n_2 = 0$$."
+    },
+    {
+      "id": "vg-lines",
+      "label": "Lines in Space",
+      "group": "Lines in Space",
+      "depth": 1,
+      "note": "A line in space is fixed by a point and a direction, giving the vector form $$\\vec{r} = \\vec{a} + \\lambda \\vec{b}$$ and the Cartesian form $$\\frac{x - x_1}{a} = \\frac{y - y_1}{b} = \\frac{z - z_1}{c}$$. Distances and angles between lines follow from their direction vectors."
+    },
+    {
+      "id": "vg-line-eq",
+      "label": "Equation of a Line",
+      "group": "Lines in Space",
+      "depth": 2,
+      "note": "A line through the point with position vector $$\\vec{a}$$ and parallel to $$\\vec{b}$$ is $$\\vec{r} = \\vec{a} + \\lambda \\vec{b}$$, or in Cartesian form $$\\frac{x - x_1}{a} = \\frac{y - y_1}{b} = \\frac{z - z_1}{c}$$ where $$a, b, c$$ are direction ratios. Each value of $$\\lambda$$ gives one point of the line."
+    },
+    {
+      "id": "vg-line-two-points",
+      "label": "Line Through Two Points",
+      "group": "Lines in Space",
+      "depth": 3,
+      "note": "The line through points with position vectors $$\\vec{a}$$ and $$\\vec{b}$$ is $$\\vec{r} = \\vec{a} + \\lambda(\\vec{b} - \\vec{a})$$, since $$\\vec{b} - \\vec{a}$$ is a direction vector. In Cartesian form the direction ratios are just the differences of the coordinates of the two points."
+    },
+    {
+      "id": "vg-line-forms",
+      "label": "Cartesian and Vector Forms",
+      "group": "Lines in Space",
+      "depth": 3,
+      "note": "The Cartesian form $$\\frac{x - x_1}{a} = \\frac{y - y_1}{b} = \\frac{z - z_1}{c} = \\lambda$$ is converted to vector form by reading the point $$(x_1, y_1, z_1)$$ as $$\\vec{a}$$ and the denominators as $$\\vec{b}$$. The two forms are equivalent and one switches between them freely in JEE."
+    },
+    {
+      "id": "vg-line-parametric",
+      "label": "Parametric Coordinates of a Line",
+      "group": "Lines in Space",
+      "depth": 3,
+      "note": "Writing the line as $$x = x_1 + a\\lambda, y = y_1 + b\\lambda, z = z_1 + c\\lambda$$ gives a point for every value of the parameter $$\\lambda$$. Substituting these into a plane equation yields the single $$\\lambda$$ at which the line meets the plane."
+    },
+    {
+      "id": "vg-skew-distance",
+      "label": "Shortest Distance Between Skew Lines",
+      "group": "Lines in Space",
+      "depth": 2,
+      "note": "Skew lines are neither parallel nor intersecting, and the shortest distance between $$\\vec{r} = \\vec{a}_1 + \\lambda \\vec{b}_1$$ and $$\\vec{r} = \\vec{a}_2 + \\mu \\vec{b}_2$$ is $$SD = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2)|}{|\\vec{b}_1 \\times \\vec{b}_2|}$$. The numerator is a scalar triple product and the denominator is the area of the base."
+    },
+    {
+      "id": "vg-parallel-distance",
+      "label": "Distance Between Parallel Lines",
+      "group": "Lines in Space",
+      "depth": 3,
+      "note": "For parallel lines $$\\vec{r} = \\vec{a}_1 + \\lambda \\vec{b}$$ and $$\\vec{r} = \\vec{a}_2 + \\mu \\vec{b}$$ the shortest distance is $$d = \\frac{|(\\vec{a}_2 - \\vec{a}_1) \\times \\vec{b}|}{|\\vec{b}|}$$, the length of the perpendicular between them. This is the projection of the join onto the common perpendicular direction."
+    },
+    {
+      "id": "vg-coplanar-lines",
+      "label": "Coplanarity of Two Lines",
+      "group": "Lines in Space",
+      "depth": 2,
+      "note": "Two lines are coplanar, i.e. lie in a common plane, exactly when $$(\\vec{a}_2 - \\vec{a}_1) \\cdot (\\vec{b}_1 \\times \\vec{b}_2) = 0$$, meaning the join of the points is perpendicular to the common perpendicular. Equivalently the scalar triple product of the join and the two direction vectors vanishes, which is also the condition for the lines to intersect."
+    },
+    {
+      "id": "vg-line-intersection",
+      "label": "Intersection of Two Lines",
+      "group": "Lines in Space",
+      "depth": 2,
+      "note": "Two lines intersect when they are coplanar and not parallel, and the point is found by equating the parametric coordinates $$\\vec{a}_1 + \\lambda \\vec{b}_1 = \\vec{a}_2 + \\mu \\vec{b}_2$$ and solving for $$\\lambda$$ and $$\\mu$$. If the resulting values satisfy all three coordinate equations simultaneously the lines meet at a single point."
+    },
+    {
+      "id": "vg-point-line-distance",
+      "label": "Distance of a Point from a Line",
+      "group": "Lines in Space",
+      "depth": 2,
+      "note": "The perpendicular distance of a point with position vector $$\\vec{c}$$ from the line through $$\\vec{a}$$ with direction $$\\vec{b}$$ is $$d = \\frac{|(\\vec{c} - \\vec{a}) \\times \\vec{b}|}{|\\vec{b}|}$$. It is the height of the parallelogram on $$\\vec{c} - \\vec{a}$$ and $$\\vec{b}$$, giving the shortest gap to the line."
+    },
+    {
+      "id": "vg-planes",
+      "label": "Planes",
+      "group": "Planes",
+      "depth": 1,
+      "note": "A plane is fixed by a point and a normal vector, giving the vector form $$\\vec{r} \\cdot \\hat{n} = d$$ and the Cartesian form $$ax + by + cz + d = 0$$ where $$a, b, c$$ are direction ratios of the normal. Angles and distances involving planes reduce to the normal."
+    },
+    {
+      "id": "vg-plane-eq",
+      "label": "Equation of a Plane",
+      "group": "Planes",
+      "depth": 2,
+      "note": "The plane through the point with position vector $$\\vec{a}$$ and normal $$\\vec{n}$$ is $$\\vec{n} \\cdot (\\vec{r} - \\vec{a}) = 0$$, or $$\\vec{r} \\cdot \\hat{n} = d$$ in unit-normal form, or $$ax + by + cz + d = 0$$ in Cartesian form. The coefficients $$a, b, c$$ are the direction ratios of the normal."
+    },
+    {
+      "id": "vg-plane-three-points",
+      "label": "Plane Through Three Points",
+      "group": "Planes",
+      "depth": 3,
+      "note": "The plane through three non-collinear points with position vectors $$\\vec{a}, \\vec{b}, \\vec{c}$$ has normal $$(\\vec{b} - \\vec{a}) \\times (\\vec{c} - \\vec{a})$$, so its equation is $$(\\vec{r} - \\vec{a}) \\cdot [(\\vec{b} - \\vec{a}) \\times (\\vec{c} - \\vec{a})] = 0$$. The cross product supplies a vector perpendicular to both in-plane edges."
+    },
+    {
+      "id": "vg-plane-line-point",
+      "label": "Plane Through a Line and a Point",
+      "group": "Planes",
+      "depth": 3,
+      "note": "A plane containing the line $$\\vec{r} = \\vec{a} + \\lambda \\vec{b}$$ and an external point $$\\vec{c}$$ has normal $$\\vec{b} \\times (\\vec{c} - \\vec{a})$$ and equation $$(\\vec{r} - \\vec{a}) \\cdot [\\vec{b} \\times (\\vec{c} - \\vec{a})] = 0$$. The normal is perpendicular to both the line direction and the join to the external point."
+    },
+    {
+      "id": "vg-plane-normal",
+      "label": "Normal Form and Distance from Origin",
+      "group": "Planes",
+      "depth": 3,
+      "note": "Dividing $$ax + by + cz + d = 0$$ by $$\\sqrt{a^2 + b^2 + c^2}$$ gives the normal form $$\\vec{r} \\cdot \\hat{n} = p$$ where $$p$$ is the perpendicular distance of the plane from the origin. The unit normal is $$\\hat{n} = \\frac{a\\hat{i} + b\\hat{j} + c\\hat{k}}{\\sqrt{a^2 + b^2 + c^2}}$$."
+    },
+    {
+      "id": "vg-plane-angle",
+      "label": "Angle Between Two Planes",
+      "group": "Planes",
+      "depth": 2,
+      "note": "The angle between two planes equals the angle between their normals, so for $$a_1 x + b_1 y + c_1 z + d_1 = 0$$ and $$a_2 x + b_2 y + c_2 z + d_2 = 0$$ it is $$\\cos\\theta = \\frac{|a_1 a_2 + b_1 b_2 + c_1 c_2|}{\\sqrt{a_1^2 + b_1^2 + c_1^2}\\sqrt{a_2^2 + b_2^2 + c_2^2}}$$. The planes are perpendicular when this dot product is zero."
+    },
+    {
+      "id": "vg-line-plane-angle",
+      "label": "Angle Between a Line and a Plane",
+      "group": "Planes",
+      "depth": 2,
+      "note": "If a line has direction ratios $$l, m, n$$ and the plane has normal $$a, b, c$$, the angle between the line and the plane is $$\\sin\\theta = \\frac{|al + bm + cn|}{\\sqrt{a^2 + b^2 + c^2}\\sqrt{l^2 + m^2 + n^2}}$$. The sine appears because the angle is measured from the plane, i.e. it is the complement of the angle to the normal."
+    },
+    {
+      "id": "vg-line-plane-relations",
+      "label": "Line Parallel and Perpendicular to a Plane",
+      "group": "Planes",
+      "depth": 3,
+      "note": "A line is parallel to a plane when its direction is perpendicular to the normal, $$al + bm + cn = 0$$, and perpendicular to the plane when its direction is parallel to the normal, $$\\frac{l}{a} = \\frac{m}{b} = \\frac{n}{c}$$. A line lies in the plane when it is parallel to it and one of its points satisfies the plane equation."
+    },
+    {
+      "id": "vg-point-plane-distance",
+      "label": "Distance of a Point from a Plane",
+      "group": "Planes",
+      "depth": 2,
+      "note": "The perpendicular distance of the point $$(x_1, y_1, z_1)$$ from the plane $$ax + by + cz + d = 0$$ is $$d = \\frac{|ax_1 + by_1 + cz_1 + d|}{\\sqrt{a^2 + b^2 + c^2}}$$. The sign of the numerator indicates on which side of the plane the point lies."
+    },
+    {
+      "id": "vg-image-plane",
+      "label": "Image of a Point in a Plane",
+      "group": "Planes",
+      "depth": 2,
+      "note": "The image of a point in a plane is found by dropping the perpendicular, doubling it, and stepping to the far side, exactly as for a line mirror in two dimensions. If $$P$$ is at signed distance $$\\delta$$ from the plane along the unit normal, the image is $$P - 2\\delta \\hat{n}$$, and the foot is the midpoint of the point and its image."
+    },
+    {
+      "id": "vg-plane-family",
+      "label": "Family of Planes",
+      "group": "Planes",
+      "depth": 2,
+      "note": "The planes through the intersection of two planes $$P_1 = 0$$ and $$P_2 = 0$$ form the family $$P_1 + \\lambda P_2 = 0$$ for any real $$\\lambda$$. Fixing $$\\lambda$$ by requiring the member to pass through a given point selects the unique plane of the family through that point."
+    }
+  ],
+  "edges": [
+    {
+      "source": "vectors-3d-geometry",
+      "target": "vg-vector-algebra",
+      "label": "contains"
+    },
+    {
+      "source": "vg-vector-algebra",
+      "target": "vg-vector-basics",
+      "label": "contains"
+    },
+    {
+      "source": "vg-vector-basics",
+      "target": "vg-unit-vector",
+      "label": "contains"
+    },
+    {
+      "source": "vg-vector-basics",
+      "target": "vg-position-vector",
+      "label": "contains"
+    },
+    {
+      "source": "vg-vector-algebra",
+      "target": "vg-vector-addition",
+      "label": "contains"
+    },
+    {
+      "source": "vg-vector-algebra",
+      "target": "vg-dot-product",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dot-product",
+      "target": "vg-vector-angle",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dot-product",
+      "target": "vg-projection",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dot-product",
+      "target": "vg-perpendicular",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dot-product",
+      "target": "vg-dot-props",
+      "label": "contains"
+    },
+    {
+      "source": "vg-vector-algebra",
+      "target": "vg-cross-product",
+      "label": "contains"
+    },
+    {
+      "source": "vg-cross-product",
+      "target": "vg-cross-props",
+      "label": "contains"
+    },
+    {
+      "source": "vg-cross-product",
+      "target": "vg-perp-unit",
+      "label": "contains"
+    },
+    {
+      "source": "vg-cross-product",
+      "target": "vg-cross-geo",
+      "label": "contains"
+    },
+    {
+      "source": "vectors-3d-geometry",
+      "target": "vg-triple-products",
+      "label": "contains"
+    },
+    {
+      "source": "vg-triple-products",
+      "target": "vg-scalar-triple",
+      "label": "contains"
+    },
+    {
+      "source": "vg-scalar-triple",
+      "target": "vg-coplanar-vectors",
+      "label": "contains"
+    },
+    {
+      "source": "vg-scalar-triple",
+      "target": "vg-stp-props",
+      "label": "contains"
+    },
+    {
+      "source": "vg-scalar-triple",
+      "target": "vg-volume-tetra",
+      "label": "contains"
+    },
+    {
+      "source": "vg-triple-products",
+      "target": "vg-vector-triple",
+      "label": "contains"
+    },
+    {
+      "source": "vg-vector-triple",
+      "target": "vg-bac-cab",
+      "label": "contains"
+    },
+    {
+      "source": "vectors-3d-geometry",
+      "target": "vg-direction-cosines",
+      "label": "contains"
+    },
+    {
+      "source": "vg-direction-cosines",
+      "target": "vg-dc",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dc",
+      "target": "vg-dc-from-dr",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dc",
+      "target": "vg-dc-points",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dc",
+      "target": "vg-dc-identity",
+      "label": "contains"
+    },
+    {
+      "source": "vg-direction-cosines",
+      "target": "vg-dr",
+      "label": "contains"
+    },
+    {
+      "source": "vg-dr",
+      "target": "vg-dr-proportional",
+      "label": "contains"
+    },
+    {
+      "source": "vg-direction-cosines",
+      "target": "vg-angle-lines",
+      "label": "contains"
+    },
+    {
+      "source": "vg-angle-lines",
+      "target": "vg-parallel-perp-lines",
+      "label": "contains"
+    },
+    {
+      "source": "vectors-3d-geometry",
+      "target": "vg-lines",
+      "label": "contains"
+    },
+    {
+      "source": "vg-lines",
+      "target": "vg-line-eq",
+      "label": "contains"
+    },
+    {
+      "source": "vg-line-eq",
+      "target": "vg-line-two-points",
+      "label": "contains"
+    },
+    {
+      "source": "vg-line-eq",
+      "target": "vg-line-forms",
+      "label": "contains"
+    },
+    {
+      "source": "vg-line-eq",
+      "target": "vg-line-parametric",
+      "label": "contains"
+    },
+    {
+      "source": "vg-lines",
+      "target": "vg-skew-distance",
+      "label": "contains"
+    },
+    {
+      "source": "vg-skew-distance",
+      "target": "vg-parallel-distance",
+      "label": "contains"
+    },
+    {
+      "source": "vg-lines",
+      "target": "vg-coplanar-lines",
+      "label": "contains"
+    },
+    {
+      "source": "vg-lines",
+      "target": "vg-line-intersection",
+      "label": "contains"
+    },
+    {
+      "source": "vg-lines",
+      "target": "vg-point-line-distance",
+      "label": "contains"
+    },
+    {
+      "source": "vectors-3d-geometry",
+      "target": "vg-planes",
+      "label": "contains"
+    },
+    {
+      "source": "vg-planes",
+      "target": "vg-plane-eq",
+      "label": "contains"
+    },
+    {
+      "source": "vg-plane-eq",
+      "target": "vg-plane-three-points",
+      "label": "contains"
+    },
+    {
+      "source": "vg-plane-eq",
+      "target": "vg-plane-line-point",
+      "label": "contains"
+    },
+    {
+      "source": "vg-plane-eq",
+      "target": "vg-plane-normal",
+      "label": "contains"
+    },
+    {
+      "source": "vg-planes",
+      "target": "vg-plane-angle",
+      "label": "contains"
+    },
+    {
+      "source": "vg-planes",
+      "target": "vg-line-plane-angle",
+      "label": "contains"
+    },
+    {
+      "source": "vg-line-plane-angle",
+      "target": "vg-line-plane-relations",
+      "label": "contains"
+    },
+    {
+      "source": "vg-planes",
+      "target": "vg-point-plane-distance",
+      "label": "contains"
+    },
+    {
+      "source": "vg-planes",
+      "target": "vg-image-plane",
+      "label": "contains"
+    },
+    {
+      "source": "vg-planes",
+      "target": "vg-plane-family",
+      "label": "contains"
+    }
+  ]
+}
