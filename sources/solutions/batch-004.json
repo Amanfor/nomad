@@ -2,1140 +2,1404 @@
  "batch": 4,
  "items": [
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-006",
-   "hash": "53ca235c6f68aa7c",
-   "question": "Let f (x) = ∫ ( 2 ) dx ( 1 ) be such that f (0) = −26 + 24 log",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-014",
+   "hash": "b90d6a2e47b9fe75",
+   "question": "Let f be a polynomial function such that f (x + 1) = x + 5x + 2, for all x ∈ R. Then ∫ is equal to 3 2 4 2 f (x)dx 0",
    "options": [
-    ". If f",
-    "= a + b log",
-    ", where a, b ∈ Z, then a + b e e x 3 +2x 2 is equal to :",
-    "-26"
-   ],
-   "correct": 1,
-   "chapter": "Indefinite integration",
-   "topic": "Indefinite integration",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-003",
-   "hash": "86516a7c24922576",
-   "question": "Let I(x) = ∫ 3dx and I(0) = √3 4 + 20 . If I ( 1 2 ) = a√ 2 b + c , where a, b, c ∈ N, gcd(a, b) = 1, then (4x+6)(√ 4x +8x+3) 2 a + b + c is equal to",
-   "options": [
-    "30",
-    "31",
-    "29",
-    "28"
-   ],
-   "correct": 1,
-   "chapter": "Indefinite integration",
-   "topic": "Indefinite integration",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-003",
-   "hash": "e8e2a1a8dbfa634f",
-   "question": "Let f (t) = ∫ ( . 1−sin(loge t) )dt, t > 1 1−cos(log t) e If f (e π/2 ) = −e π/2 and f (e π/4 ) = αe , then α equals π/4",
-   "options": [
-    "1 + √2",
-    "−1 − √2",
-    "−1 − 2√2",
-    "−1 + √2 #PaperPhodnaHai www.mathongo.com Indefinite Integration JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Indefinite integration",
-   "topic": "Indefinite integration",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-007",
-   "hash": "73120e423ba1d2e6",
-   "question": "Considering the principal values of inverse trigonometric functions, the value of the expression tan (2 sin −1 ( 2 √ 13 ) − 2 cos −1 ( 3 √ 10 )) is equal to :",
-   "options": [
-    "16 63",
-    "− 33 56",
-    "− 16 63",
-    "33 56"
+    "5 3",
+    "41 3",
+    "27 2",
+    "33 2"
    ],
    "correct": 3,
-   "chapter": "Inverse Trigonometric Functions",
-   "topic": "Inverse Trigonometric Functions",
+   "chapter": "Definite-Integration",
+   "topic": "Definite-Integration",
    "year": "2026",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-004",
-   "hash": "3dbac0231586b5c5",
-   "question": "If the domain of the function f (x) = sin −1 ( 2 1 x −2x−2 ) , is (−∞, α] ∪ [β, γ] ∪ [δ, ∞), then α + β + γ + δ is equal to",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-015",
+   "hash": "37cb49c35258212f",
+   "question": "2 If ∫ ( 1−5 cos sin 5 x cos x 2 x )dx = f (x) + C , where C is the constant of integration, then f ( π 6 ) − f ( π 4 ) is equal to",
    "options": [
-    "2",
-    "3",
-    "4",
-    "5"
+    "1 √3 (26 + √ 3)",
+    "1 √3 (26 − √ 3)",
+    "4 √3 (8 − √ 6)",
+    "2 √3 (4 + √ 6)"
    ],
    "correct": 2,
-   "chapter": "Inverse Trigonometric Functions",
-   "topic": "Inverse Trigonometric Functions",
+   "chapter": "Definite-Integration",
+   "topic": "Definite-Integration",
    "year": "2026",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-006",
-   "hash": "1895cf11b87224d2",
-   "question": "The number of solutions of tan −1 4x + tan −1 6x = π 6 , where − 1 < x < 1 , is equal to 2√ 6 2√ 6",
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-017",
+   "hash": "01c97d36af35f921",
+   "question": "= has a unique solution is",
    "options": [
-    "3",
-    "0",
-    "2",
-    "1"
+    "unique solution for a = 8 and b = 16",
+    "unique solution for a = 8 and b = 14",
+    "4 cos α cos β",
+    "24 0 x − 2 3x − 3 2x − 1"
    ],
    "correct": 3,
-   "chapter": "Inverse Trigonometric Functions",
-   "topic": "Inverse Trigonometric Functions",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2026",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-003",
-   "hash": "7d0dbbe1c2754036",
-   "question": "If the domain of the function f (x) = cos −1 ( 2x−5 11−3x ) + sin −1 (2x 2 − 3x + 1) is the interval [α, β], then α + 2β is equal to :",
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-001",
+   "hash": "1436821e5ff53f47",
+   "question": "In a screw gauge, the zero of the circular scale lies 3 divisions above the horizontal pitch line when their metallic studs are brought in contact. Using this instrument thickness of a sheet is measured. If pitch scale reading is 1 mm and the circular scale reading is 51 then the correct thickness of the sheet is ____ mm. [Assume least count is 0.01 mm ]",
    "options": [
+    "1.50",
+    "1.48",
+    "1.54",
+    "1.51"
+   ],
+   "correct": 2,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-001",
+   "hash": "8809e10e84b097eb",
+   "question": "In an experiment, a set of reading are obtained as follows - 1.24 mm, 1.25 mm, 1.23 mm, 1.21 mm. The expected least count of the instrument used in recording these readings is ____ mm.",
+   "options": [
+    "0.001",
+    "0.1",
+    "0.01",
+    "0.05"
+   ],
+   "correct": 2,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-001",
+   "hash": "c61ec61e3ffc987d",
+   "question": "In a vernier callipers, 50 vernier scale divisions are equal to 48 main scale divisions. If one main scale division = 0.05 mm , then the least count of the vernier callipers is ____ mm.",
+   "options": [
+    "0.005",
+    "0.05",
+    "0.002",
+    "0.02"
+   ],
+   "correct": 2,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-001",
+   "hash": "e9c179ceadd9c341",
+   "question": "When both jaws of vernier callipers touch each other, zero mark of the vernier scale is right to zero mark of main scale, 4 th mark on vernier scale coincides with certain mark on the main scale. While measuring the length of a cylinder, observer observes 15 divisions on main scale and 5 th division of vernier scale coincides with a main scale division. Measured length of cylinder is ____ mm. (Least count of Vernier calliper = 0.1 mm)",
+   "options": [
+    "15.5",
+    "15.9",
+    "15.1",
+    "15.4 #PaperPhodnaHai www.mathongo.com Experimental Physics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-001",
+   "hash": "74dc00e240a12977",
+   "question": "Given below are two statements: Statement I: A satellite is moving around earth in the orbit very close to the earth surface. The time period of revolution of satellite depends upon the density of earth. Statement II: The time period of revolution of the satellite is T = 2π√ Re g (for satellite very close to the earth surface), where R radius of earth and g acceleration due to gravity. e In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false"
+   ],
+   "correct": 0,
+   "chapter": "Gravitation",
+   "topic": "Gravitation",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Gravitation",
+   "formulas": [
+    "$$F = G \\frac{m_1 m_2}{r^2}$$",
+    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
+    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
+    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
+    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
+    "$$\\vec{g} = \\vec{E}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-001",
+   "hash": "4918a288fc5d6068",
+   "question": "The escape velocity from a spherical planet A is 10 km/s. The escape velocity from another planet B whose density and radius are 10% of those of planet A, is ____ m/s.",
+   "options": [
+    "1000",
+    "1000√2",
+    "200√5",
+    "100√10"
+   ],
+   "correct": 3,
+   "chapter": "Gravitation",
+   "topic": "Gravitation",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Gravitation",
+   "formulas": [
+    "$$F = G \\frac{m_1 m_2}{r^2}$$",
+    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
+    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
+    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
+    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
+    "$$\\vec{g} = \\vec{E}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-002",
+   "hash": "9d70a4f828d027f7",
+   "question": "Net gravitational force at the center of a square is found to be F when four particles having mass M , 2M , 3M and 1 4M are placed at the four corners of the square as shown in figure and it is F when the positions of 3M and 4M 2 are interchanged. The ratio F1 F2 is α √5 . The value of α is ____.",
+   "options": [
+    "2√5",
     "3",
-    "5",
     "1",
     "2"
    ],
-   "correct": 0,
-   "chapter": "Inverse Trigonometric Functions",
-   "topic": "Inverse Trigonometric Functions",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-006",
-   "hash": "b03f80a085936760",
-   "question": "(a−1)x −x If lim x→0 e +2 cos bx+(c−2)e x cos x−log e (1+x) = 2 , then a + b + c is equal to : 2 2 2",
-   "options": [
-    "5",
-    "9",
-    "3",
-    "7"
-   ],
    "correct": 3,
-   "chapter": "Limits",
-   "topic": "Limits",
+   "chapter": "Gravitation",
+   "topic": "Gravitation",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Gravitation",
+   "formulas": [
+    "$$F = G \\frac{m_1 m_2}{r^2}$$",
+    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
+    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
+    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
+    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
+    "$$\\vec{g} = \\vec{E}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-008",
-   "hash": "d57ff11967e5926a",
-   "question": "2 ( ) θ Let f (x) = lim θ→0 ( cos πx−x ( 2 ) sin(x−1) . Consider the following two statements : ), x ∈ R θ 1+x (x−1) (I) f (x) is discontinous at x = 1. (II) f (x) is continous at x = −1. Then,",
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-001",
+   "hash": "be2b475cb8deed66",
+   "question": "Initially a satellite of 100 kg is in a circular orbit of radius 1.5R . This satellite can be moved to a circular orbit of E radius 3R by supplying α × 10 J of energy. The value of α is ____. (Take Radius of Earth R E 6 E = 6 × 10 6 m and g = 10 m/s ) 2",
    "options": [
-    "Only (II) is True",
-    "Neither (I) nor (II) is True",
-    "Both (I) and (II) are True",
-    "Only (I) is True #PaperPhodnaHai www.mathongo.com Limits, Continuity and Differentiability JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "150",
+    "1000",
+    "500",
+    "100 #PaperPhodnaHai www.mathongo.com Gravitation JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
    "correct": 1,
-   "chapter": "Limits-Continuity-And-Differentiability",
-   "topic": "Limits-Continuity-And-Differentiability",
+   "chapter": "Gravitation",
+   "topic": "Gravitation",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Gravitation",
+   "formulas": [
+    "$$F = G \\frac{m_1 m_2}{r^2}$$",
+    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
+    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
+    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
+    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
+    "$$\\vec{g} = \\vec{E}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-007",
-   "hash": "92a622ae191c78a6",
-   "question": "If X = |x + y + z|",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-001",
+   "hash": "a5c4ca5e58541da0",
+   "question": "Three masses 200 kg, 300 kg and 400 kg are placed at the vertices of an equilateral triangle with sides 20 m. They are rearranged on the vertices of a bigger triangle of side 25 m and with the same centre. The work done in this process ____ J. (Gravitational constant G = 6.7 × 10 −11 2 N m /kg 2 )",
    "options": [
-    "2 ⎡ ⎣ x y z ⎤ ij ⎦ −4 −1 7x ] 10 2 is equal to : +9x (1+x +2x ) and B be two matrices such that A 8 9 3 1 2 ij −4 −1 and B = [ dx, x > 0, limx→0 f (x) = 0 2",
-    "1",
-    "16",
-    "] Let P = [p ] and Q = [q ] be two square matrices of order 3 such that q = 2 is a solution of the system of equations AX = B, where adj A = 3 2 ∣∣ −29 −13 49 18 ] , if (A"
-   ],
-   "correct": 0,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-004",
-   "hash": "9b8893a1d4fd471a",
-   "question": "Let f : R → R be a twice differentiable function such that f (x) > 0 for all x ∈ R and f (a − 1) = 0, where a is a ′′ ′ real number. Let g(x) = f (tan x − 2 tan x + a), 0 < x < 2 π 2 . Consider the following two statements: (I) g is increasing in (0, π 4 ) (II) g is decreasing in ( π 4 , π 2 ). Then,",
-   "options": [
-    "Neither (I) nor (II) is True",
-    "Only (I) is True",
-    "Both (I) and (II) are True",
-    "Only (II) is True"
-   ],
-   "correct": 0,
-   "chapter": "Application Of Derivatives",
-   "topic": "Application Of Derivatives",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-005",
-   "hash": "97709bcabc91a290",
-   "question": "Consider the following three statements for the function f : (0, ∞) → R defined by f (x) = |log x| − |x − 1| : e (I) f is differentiable at all x > 0. (II) f is increasing in (0, 1). (III) f is decreasing in (1, ∞). Then.",
-   "options": [
-    "All (I), (II) and (III) are TRUE.",
-    "Only (II) and (III) are TRUE.",
-    "Only (I) is TRUE.",
-    "Only (I) and (III) are TRUE."
-   ],
-   "correct": 3,
-   "chapter": "Application Of Derivatives",
-   "topic": "Application Of Derivatives",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-007",
-   "hash": "ef237c93e347d12d",
-   "question": "Let f (x) = x 2025 − x 2000 , x ∈ [0, 1] and the minimum value of the function f (x) in the interval [0, 1] be (80) 80 (n) −81 . Then n is equal to",
-   "options": [
-    "-40",
-    "-41",
-    "-80",
-    "-81"
-   ],
-   "correct": 3,
-   "chapter": "Application Of Derivatives",
-   "topic": "Application Of Derivatives",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-005",
-   "hash": "3f7ecceb4d6efdf9",
-   "question": "Let y = 12x be the parabola with its vertex at O. Let P be a point on the parabola and A be a point on the x-axis 2 such that ∠OPA = 90 . Then the locus of the centroid of such triangles OPA is : ∘",
-   "options": [
-    "y − 2x + 8 = 0 2",
-    "y − 9x + 6 = 0 2",
-    "y − 4x + 8 = 0 2",
-    "y − 6x + 4 = 0 2"
-   ],
-   "correct": 0,
-   "chapter": "Parabola",
-   "topic": "Parabola",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-006",
-   "hash": "242df231f96d3686",
-   "question": "Let one end of a focal chord of the parabola y = 16x be (16, 16). If P(α, β) divides this focal chord internally in 2 the ratio 5 : 2, then the minimum value of α + β is equal to :",
-   "options": [
-    "16",
-    "5",
-    "7",
-    "22"
+    "2.85 × 10 −7",
+    "4.77 × 10 −7",
+    "1.74 × 10 −7",
+    "9.86 × 10 −6 #PaperPhodnaHai www.mathongo.com Gravitation JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
    "correct": 2,
-   "chapter": "Parabola",
-   "topic": "Parabola",
+   "chapter": "Gravitation",
+   "topic": "Gravitation",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Gravitation",
+   "formulas": [
+    "$$F = G \\frac{m_1 m_2}{r^2}$$",
+    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
+    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
+    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
+    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
+    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
+    "$$\\vec{g} = \\vec{E}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-009",
-   "hash": "e750714adac84fc4",
-   "question": "Let A be the focus of the parabola y = 8x. Let the line y = mx + c intersect the parabola at two distinct points B 2 and C . If the centroid of the triangle ABC is ( 7 3 , 4 3 ) , then (BC) is equal to : 2",
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-001",
+   "hash": "a9bd97487dbddd50",
+   "question": "The r.m.s. speed of oxygen molecules at 47 C is equal to that of the hydrogen molecules kept at ____ C. (Mass of ∘ ∘ oxygen molecule/mass of hydrogen molecule = 32/2)",
    "options": [
-    "80",
-    "41",
-    "89",
-    "32"
-   ],
-   "correct": 0,
-   "chapter": "Parabola",
-   "topic": "Parabola",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-006",
-   "hash": "1a507330aa71646e",
-   "question": "Let the image of parabola x = 4y, in the line x − y = 1 be (y + a) = b(x − c), a, b, c ∈ N. Then a + b + c is 2 2 equal to",
-   "options": [
-    "8",
-    "6",
-    "12",
-    "4"
+    "-235",
+    "-253",
+    "-100",
+    "-20"
    ],
    "correct": 1,
-   "chapter": "Parabola",
-   "topic": "Parabola",
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-008",
-   "hash": "61095532f137072f",
-   "question": "Let the locus of the mid-point of the chord through the origin O of the parabola y = 4x be the curve S. Let P be any 2 point on S. Then the locus of the point, which internally divides OP in the ratio 3 : 1, is :",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-002",
+   "hash": "d9b7d658e6898472",
+   "question": "The mean free path of a molecule of diameter 5 × 10 −10 m at the temperature 41 C and pressure 1.38 × 10 Pa, is ∘ 5 given as ____ m. (Given k B = 1.38 × 10 −23 ). J/K",
    "options": [
-    "2x = 3y 2",
-    "3y = 2x 2",
-    "2y = 3x 2",
-    "3x = 2y 2"
+    "10√2 × 10 −8",
+    "2√2 × 10 −8",
+    "2√2 × 10 −10",
+    "2 × 10 −8"
+   ],
+   "correct": 1,
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-002",
+   "hash": "95ad694c09f05db1",
+   "question": "Consider two boxes containing ideal gases A and B such that their temperatures, pressures and number densities are same. The molecular size of A is half of that of B and mass of molecule A is four times that of B. If the collision frequency in gas B is 32 × 10 18 /s then collision frequency in gas A is ____ /s.",
+   "options": [
+    "2 × 10 8",
+    "8 × 10 8",
+    "4 × 10 8",
+    "32 × 10 8"
    ],
    "correct": 2,
-   "chapter": "Parabola",
-   "topic": "Parabola",
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-003",
+   "hash": "88723f2da2b47b4d",
+   "question": "The volume of an ideal gas increases 8 times and temperature becomes (1/4) th of initial temperature during a reversible change. If there is no exchange of heat in this process (ΔQ = 0) then identify the gas from the following options (Assuming the gases given in the options are ideal gases):",
+   "options": [
+    "O 2",
+    "NH 3",
+    "CO 2",
+    "He"
+   ],
+   "correct": 3,
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-004",
+   "hash": "40bfbf735145138b",
+   "question": "A cylindrical tube AB of length l, closed at both ends contains an ideal gas of 1 mol having molecular weight M . The tube is rotated in a horizontal plane with constant angular velocity ω about an axis perpendicular to AB and passing through the edge at end A, as shown in the figure. If P and P are the pressures at A and B respectively, A B then (Consider the temperature is same at all points in the tube)",
+   "options": [
+    "P B = PA",
+    "P B 2 2 = PA exp (M ω l /3RT )",
+    "P B 2 2 = PA exp (M ω l /RT )",
+    "P B 2 2 = PA exp (M ω l /2RT ) #PaperPhodnaHai www.mathongo.com Kinetic Theory of Gases JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Kinetic Theory of Gases",
+   "topic": "Kinetic Theory of Gases",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases",
+   "formulas": [
+    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
+    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
+    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
+    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
+    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
+    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-002",
+   "hash": "84d0670ba4b621a8",
+   "question": "A large drum having radius R is spinning around its axis with angular velocity ω, as shown in figure. The minimum value of ω so that a body of mass M remains stuck to the inner wall of the drum, taking the coefficient of friction between the drum surface and mass M as μ, is :",
+   "options": [
+    "√ μg",
+    "√ g",
+    "√ 2g",
+    "√ g R 2μR μR μR"
+   ],
+   "correct": 3,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2026",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-008",
-   "hash": "356bb82d694437dd",
-   "question": "If the chord joining the points P (x , y ) and P (x , y ) on the parabola y = 12x subtends a right angle at the 1 1 1 2 2 2 2 vertex of the parabola, then x x − y y is equal to 1 2 1 2",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-003",
+   "hash": "0dc0cef963b76c5d",
+   "question": "A small block of mass m slides down from the top of a frictionless inclined surface, while the inclined plane is moving towards left with constant acceleration a . The angle between the inclined plane and ground is θ and its base 0 length is L. Assuming that initially the small block is at the top of the inclined plane, the time it takes to reach the lowest point of the inclined plane is ____.",
    "options": [
-    "284",
-    "280",
-    "288",
-    "292"
+    "√ 2L",
+    "√ 2 4L g sin θ−a0 cos θ g cos θ−a0 sin θ cos θ",
+    "√ 2L",
+    "√ 4L g sin 2θ−a0(1+cos 2θ) g sin 2θ−a0(1+cos 2θ)"
+   ],
+   "correct": 3,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-002",
+   "hash": "820e3ada74cfa65a",
+   "question": "A flexible chain of mass m hangs between two fixed points at the same level. The inclination of the chain with the horizontal at the two points of support is 30 . Considering the equilibrium of each half of the chain, the tension of ∘ the chain at the lowest point is ____.",
+   "options": [
+    "√3 2 mg",
+    "mg",
+    "1 2 m g",
+    "√3mg #PaperPhodnaHai www.mathongo.com Laws of Motion JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-001",
+   "hash": "18d2ff42c8cf30ca",
+   "question": "A block is sliding down on an inclined plane of slope θ and at an instant t = 0 this block is given an upward momentum so that it starts moving up on the inclined surface with velocity u. The distance (S) travelled by the block before its velocity become zero, is ____. (g = gravitational acceleration) 2 2 2 2",
+   "options": [
+    "2u cos θ",
+    "u 2g sin θ",
+    "u 2g cos θ",
+    "u √ 2g cos θ"
+   ],
+   "correct": 1,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-002",
+   "hash": "4b271611412bfea8",
+   "question": "A 4 kg mass moves under the influence of a force F→ = (4t ^i − 3t^j)N where t is the time in second. If mass starts 3 from origin at t = 0, the velocity and position after t = 2 s will be:",
+   "options": [
+    "v→ = 4^i − 3 2 ^ j → r = 6 5 ^ i −^ j",
+    "v→ = 3^i + 3 ^ 2 j →= r 6 ^ 5 ^ i + j",
+    "v→ = 4^i − 3 2 ^ j → r = 8 5 ^ i −^ j",
+    "v→ = 4^i + 5 ^ 2 j →= r 8 ^ 5 ^ i + 2j"
    ],
    "correct": 2,
-   "chapter": "Parabola",
-   "topic": "Parabola",
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-004",
-   "hash": "a9c6364576b7af80",
-   "question": "An equilateral triangle OAB is inscribed in the parabola y = 4x with the vertex O at the vertex of the parabola. 2 Then the minimum distance of the circle having AB as a diameter from the origin is",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-002",
+   "hash": "1c4d3d8fd183140c",
+   "question": "A block of mass 5 kg is moving on an inclined plane which makes an angle of 30 with the horizontal. Friction ∘ coefficient between the block and inclined plane surface is . The force to be applied on the block so that the √3 2 block will move down without acceleration is ____ N. (g = 10 m/s ) 2 .",
    "options": [
-    "2(8 − 3√3)",
-    "2(3 + √3)",
-    "4(6 + √3)",
-    "4(3 − √3) #PaperPhodnaHai www.mathongo.com Parabola JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Parabola",
-   "topic": "Parabola",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-004",
-   "hash": "35debaf9acbbd3b2",
-   "question": "Let O be the vertex of the parabola x = 4y and Q be any point on it. Let the locus of the point P, which divides the 2 line segment OQ internally in the ratio 2 : 3 be the conic C. Then the equation of the chord of C , which is bisected at the point (1, 2), is :",
-   "options": [
-    "5x − 4y + 3 = 0",
-    "5x − y − 3 = 0",
-    "4x − 5y + 6 = 0",
-    "x − 2y + 3 = 0 #PaperPhodnaHai www.mathongo.com Parabola JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Parabola",
-   "topic": "Parabola",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-007",
-   "hash": "a9a17f234a2bf3d4",
-   "question": "The largest n ∈ N, for which 7 divides 101!, is : n",
-   "options": [
-    "16",
-    "15",
-    "18",
-    "19"
-   ],
-   "correct": 0,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-007",
-   "hash": "79b023270d5d4e83",
-   "question": "The largest value of n, for which 40 divides 60!, is n",
-   "options": [
-    "11",
-    "12",
-    "14",
-    "13"
+    "25",
+    "7.5",
+    "12.5",
+    "15 #PaperPhodnaHai www.mathongo.com Laws of Motion JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
    "correct": 2,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-008",
-   "hash": "711a9127e30162fa",
-   "question": "The letters of the word \"UDAYPUR\" are written in all possible ways with or without meaning and these words are arranged as in a dictionary. The rank of the word \"UDAYPUR\" is",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-002",
+   "hash": "b834602c90b515e3",
+   "question": "A spring of force constant 15 N/m is cut into two pieces. If the ratio of their length is 1 : 3, then the force constant of smaller piece is ____ N/m.",
    "options": [
-    "1579",
-    "1581",
-    "1578",
-    "1580"
-   ],
-   "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-005",
-   "hash": "ec1ae8ba9f98aa77",
-   "question": "The number of ways, in which 16 oranges can be distributed to four children such that each child gets at least one orange, is",
-   "options": [
-    "455",
-    "429",
-    "403",
-    "384 #PaperPhodnaHai www.mathongo.com Permutation Combination JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-005",
-   "hash": "7f9de52a0b6f07fa",
-   "question": "The number of strictly increasing functions f from the set {1, 2, 3, 4, 5, 6} to the set {1, 2, 3, … . , 9} such that f (i) ≠ i for 1 ≤ i ≤ 6, is equal to :",
-   "options": [
-    "27",
-    "22",
-    "21",
-    "28"
-   ],
-   "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-003",
-   "hash": "d91707ca90647726",
-   "question": "Let S = {1, 2, 3, 4, 5, 6, 7, 8, 9}. Let x be the number of 9 -digit numbers formed using the digits of the set S such that only one digit is repeated and it is repeated exactly twice. Let y be the number of 9-digit numbers formed using the digits of the set S such that only two digits are repeated and each of these is repeated exactly twice. Then,",
-   "options": [
-    "56x = 9y",
-    "29x = 5y",
-    "45x = 7y",
-    "21x = 4y"
-   ],
-   "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-008",
-   "hash": "b7ff3679fa784a30",
-   "question": "A random variable X takes values 0, 1, 2, 3 with probabilities 2a+1 30 , 8a−1 30 , 4a+1 30 ,b respectively, where a, b ∈ R. Let μ and σ respectively be the mean and standard deviation of X such that σ + μ = 2. Then 2 2 a b is equal to :",
-   "options": [
-    "12",
-    "30",
     "60",
-    "3"
-   ],
-   "correct": 2,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-010",
-   "hash": "a098093b0b244e88",
-   "question": "The probability distribution of a random variable X is given below : 30 32 34 36 38 40 X 4k k k k k k k 6k 7 7 7 7 7 7 2 1 2 1 1 2 1 1 P (X) 15 15 15 5 15 15 5 15 If E(X) = 263 15 , then P(X < 20) is equal to :",
-   "options": [
-    "11 15",
-    "3 5",
-    "14 15",
-    "8 15"
+    "15",
+    "20",
+    "45"
    ],
    "correct": 0,
-   "chapter": "Probability",
-   "topic": "Probability",
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-009",
-   "hash": "d40460d8a58d02ba",
-   "question": "If a random variable x has the probability distribution x 0 1 2 3 4 5 6 7 2 2 2 P (x) 0 2k k 3k 2k 2k k + k 7k then P (3 < x ≤ 6) is equal to",
-   "options": [
-    "0.64",
-    "0.22",
-    "0.33",
-    "0.34"
-   ],
-   "correct": 2,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-010",
-   "hash": "8df66c1eb2ff0a42",
-   "question": "Two distinct numbers a and b are selected at random from 1, 2, 3, … , 50. The probability, that their product ab is divisible by 3, is",
-   "options": [
-    "272 1225",
-    "561 1225",
-    "664 1225",
-    "8 25 #PaperPhodnaHai www.mathongo.com Probability JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 2,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-006",
-   "hash": "fb79c9be5b5b64eb",
-   "question": "Bag A contains 9 white and 8 black balls, while bag B contains 6 white and 4 black balls. One ball is randomly picked up from the bag B and mixed up with the balls in the bag A. Then a ball is randomly drawn from the bag A. If the probability, that the ball drawn is white, is p q , gcd(p, q) = 1 , then p + q is equal to",
-   "options": [
-    "23",
-    "24",
-    "21",
-    "22"
-   ],
-   "correct": 0,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-004",
-   "hash": "7136dbab5aa568b4",
-   "question": "A bag contains 10 balls out of which k are red and (10 − k) are black, where 0 ≤ k ≤ 10. If three balls are drawn at random without replacement and all of them are found to be black, then the probability that the bag contains 1 red and 9 black balls is:",
-   "options": [
-    "14 55",
-    "7 55",
-    "7 110",
-    "7 11"
-   ],
-   "correct": 0,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-004",
-   "hash": "5dd4c932faea411d",
-   "question": "From a lot containing 10 defective and 90 non-defective bulbs, 8 bulbs are selected one by one with replacement. Then the probability of getting at least 7 defective bulbs is",
-   "options": [
-    "67 8 10",
-    "7 10 7",
-    "81 8 10",
-    "73 10 8 #PaperPhodnaHai www.mathongo.com Probability JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-009",
-   "hash": "063b815cf4144b71",
-   "question": "Let α and β be the roots of the equation x + 2ax + (3a + 10) = 0 such that α < 1 < β. Then the set of all possible 2 values of a is :",
-   "options": [
-    "(−∞, −11 5 )",
-    "(−∞, −2) ∪ (5, ∞)",
-    "(−∞, −3)",
-    "(−∞, −11 5 ) ∪ (5, ∞)"
-   ],
-   "correct": 0,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
-   "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-005",
-   "hash": "d07380147ebfcbe7",
-   "question": "A building construction work can be completed by two masons A and B together in 22.5 days. Mason A alone can complete the construction work in 24 days less than mason B alone. Then mason A alone will complete the construction work in :",
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-003",
+   "hash": "a4afc7e5a511a1e8",
+   "question": "An infinitely long straight wire carrying current I is bent in a planer shape as shown in the diagram. The radius of the circular part is r. The magnetic field at the centre O of the circular loop is :",
    "options": [
-    "30 days",
-    "36 days",
-    "24 days",
-    "42 days"
+    "− μ0 2π I r (π − 1)^ i",
+    "μ0 2π I r (π − 1)^ i",
+    "− μ0 2π I r ^ (π + 1)i",
+    "μ0 2π I r ^ (π + 1)i"
+   ],
+   "correct": 0,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-004",
+   "hash": "a3130c49dd907b8e",
+   "question": "A long cylindrical conductor with large cross section carries an electric current distributed uniformly over its cross- section. Magnetic field due to this current is : A. maximum at either ends of the conductor and minimum at the midpoint B. maximum at the axis of the conductor C. minimum at the surface of the conductor D. minimum at the axis of the conductor E. same at all points in the cross-section of the conductor Choose the correct answer from the options given below :",
+   "options": [
+    "A, D Only",
+    "D Only",
+    "E Only",
+    "B, C Only"
    ],
    "correct": 1,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-006",
-   "hash": "e2ead994759d535d",
-   "question": "If α and β(α < β) are the roots of the equation (−2 + √3)(|√x − 3|) + (x − 6√x) + (9 − 2√3) = 0, x ⩾ 0, then is equal to : β √ + √ αβ α",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-003",
+   "hash": "a40b2d2315a3ddd4",
+   "question": "Two identical circular loops P and Q each of radius r are lying in parallel planes such that they have common axis. The current through P and Q are I and 4I respectively in clockwise direction as seen from O. The net magnetic field at O is:",
    "options": [
-    "8",
-    "11",
-    "9",
-    "10"
+    "towards Q",
+    "towards Q 3μoI μoI 4√ 2r 4√ 2r",
+    "towards P",
+    "towards P 3μ0I μoI 4√ 2r 4√ 2r #PaperPhodnaHai www.mathongo.com Magnetic Effects of Current JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-002",
+   "hash": "a6a851ef81d24ddc",
+   "question": "The current passing through a conducting loop in the form of equilateral triangle of side 4√3 cm is 2 A. The magnetic field at its centroid is α × 10 −5 . The value of α is ____. T (Given : μ = 4π × 10 o −7 SI units)",
+   "options": [
+    "2√3",
+    "√3 2",
+    "3√3",
+    "√3"
+   ],
+   "correct": 2,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-003",
+   "hash": "3b1ed380da408152",
+   "question": "A current carrying solenoid is placed vertically and a particle of mass m with charge Q is released from rest. The particle moves along the axis of solenoid. If g is acceleration due to gravity then the acceleration (a) of the charged particle will satisfy :",
+   "options": [
+    "a > g",
+    "0 < a < g",
+    "a = 0",
+    "a = g"
    ],
    "correct": 3,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-009",
-   "hash": "065e99cedc9897b7",
-   "question": "The smallest positive integral value of a, for which all the roots of x − ax + 9 = 0 are real and distinct, is equal to 4 2",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-003",
+   "hash": "6cec4f688f9cf035",
+   "question": "Three long straight wires carrying current are arranged mutually parallel as shown in the figure. The force experienced by 15 cm length of wire Q is ____. (μ = 4π × 10 o −7 T. m/A )",
+   "options": [
+    "6 × 10 −6 N towards P",
+    "6 × 10 −7 N towards P",
+    "6 × 10 −7 N towards R",
+    "6 × 10 −6 N towards R"
+   ],
+   "correct": 3,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-004",
+   "hash": "17cb51484207118f",
+   "question": "The magnetic field at the centre of a current carrying circular loop of radius R is 16μ T. The magnetic field at a distance x = √3R on its axis from the centre is ____ μT.",
    "options": [
     "4",
-    "9",
-    "3",
-    "7"
+    "2",
+    "2√2",
+    "8"
+   ],
+   "correct": 1,
+   "chapter": "Magnetic effects of current",
+   "topic": "Magnetic effects of current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-003",
+   "hash": "e9eea51fe5ea3861",
+   "question": "Four persons measure the length of a rod as 20.00 cm, 19.75 cm, 17.01 cm and 18.25 cm. The relative error in the measurement of average length of the rod is :",
+   "options": [
+    "0.08",
+    "0.06",
+    "0.18",
+    "0.24"
+   ],
+   "correct": 1,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-004",
+   "hash": "4e1ac8bfdf04ad55",
+   "question": "In an experiment the values of two spring constants were measured as k = (10 ± 0.2)N/m and 1 k2 = (20 ± 0.3)N/m . If these springs are connected in parallel, then the percentage error in equivalent spring constant is :",
+   "options": [
+    "1.33%",
+    "1.67%",
+    "2.67%",
+    "2.33% #PaperPhodnaHai www.mathongo.com Mathematics in Physics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-004",
+   "hash": "94753e5b91f796c6",
+   "question": "A spherical body of radius r and density σ falls freely through a viscous liquid having density ρ and viscosity η and attains a terminal velocity v . Estimated maximum error in the quantity η is : (Ignore errors associated with σ, ρ and 0 g, gravitational acceleration)",
+   "options": [
+    "2Δr r + Δvo vo",
+    "2 Δr r − Δvo vo",
+    "2 [ Δr r − Δvo vo ]",
+    "2 [ Δr r + Δvo vo ]"
+   ],
+   "correct": 0,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-005",
+   "hash": "853300809e69af99",
+   "question": "Surface tension of two liquids (having same densities), T and T , are measured using capillary rise method utilizing 1 2 two tubes with inner radii of r and r where r > r . The measured liquid heights in these tubes are h and h 1 2 1 2 1 2 respectively. [Ignore the weight of the liquid about the lowest point of miniscus]. The heights h and h and surfaces1 2 tensions T and T satisfy the relation: 1 2",
+   "options": [
+    "h > h and T = T 1 2 1 2",
+    "h = h and T = T 1 2 1 2",
+    "h > h and T < T 1 2 1 2",
+    "h < h and T = T 1 2 1 2"
    ],
    "correct": 3,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-009",
-   "hash": "5a499b55ed560ccb",
-   "question": "Let α, β be the roots of the quadratic equation 12x − 20x + 3λ = 0, λ ∈ Z. If 2 1 2 ⩽ |β − α| ⩽ 3 2 , then the sum of all possible values of λ is :",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-004",
+   "hash": "c0322f34afbca9d5",
+   "question": "A cubical block of density ρ = 600 kg/m floats in a liquid of density ρ = 900kg/m . If the height of block is b 3 e 3 H = 8.0 cm then height of the submerged part is ____ cm.",
    "options": [
-    "1",
-    "6",
-    "3",
-    "4"
+    "6.3",
+    "4.3",
+    "5.3",
+    "7.3"
    ],
    "correct": 2,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-007",
-   "hash": "4f856d3d2f78817b",
-   "question": "The sum of all the real solutions of the equation log (x+3) (6x 2 + 28x + 30) = 5 − 2 log (6x+10) 2 (x + 6x + 9) is equal to",
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-003",
+   "hash": "67fd1e9f34927895",
+   "question": "When a part of a straight capillary tube is placed vertically in a liquid, the liquid raises upto certain height h. If the inner radius of the capillary tube, density of the liquid and surface tension of the liquid decrease by 1% each, then the height of the liquid in the tube will change by %.",
+   "options": [
+    "+1",
+    "-3",
+    "+3",
+    "-1 #PaperPhodnaHai www.mathongo.com Mechanical Properties of Fluids JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-005",
+   "hash": "6c78653a1bbc242a",
+   "question": "Given below are two statements: Statement I: Pressure of a fluid is exerted only on a solid surface in contact as the fluid-pressure does not exist everywhere in a still fluid. Statement II: Excess potential energy of the molecules on the surface of a liquid, when compared to interior, results in surface tension. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 0,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-003",
+   "hash": "d47fb71143284606",
+   "question": "A small metallic sphere of diameter 2 mm and density 10.5 g/cm is dropped in glycerine having viscosity 10 Poise 3 and density 1.5 g/cm respectively. The terminal velocity attained by the sphere is ____ cm/s. (π = 3 22 7 and g = 10 m/s 2 )",
+   "options": [
+    "3.0",
+    "1.0",
+    "2.0",
+    "1.5"
+   ],
+   "correct": 2,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-004",
+   "hash": "5997343ca9f21198",
+   "question": "An air bubble of volume 2.9 cm rises from the bottom of a swimming pool of 5 m deep. At the bottom of the pool 3 water temperature is 17 C. The volume of the bubble when it reaches the surface, where the water temperature is ∘ ∘ 27 C , is ____ cm . 3 (g = 10 m/s 2 , density of water = 10 kg/m , and 1 atm pressure is 10 Pa) 3 3 5",
+   "options": [
+    "4.5",
+    "2.0",
+    "4.2",
+    "3.0"
+   ],
+   "correct": 0,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-005",
+   "hash": "6286b7d1f4c2f577",
+   "question": "Water flows through a horizontal tube as shown in the figure. The difference in height between the water columns in vertical tubes is 5 cm and the area of cross-sections at A and B are 6 cm and 3 cm respectively. The rate of flow 2 2 will be ____ cm /s. (take g = 10 m/s ) 3 2",
+   "options": [
+    "200 √3",
+    "200√6",
+    "100√3",
+    "200√3 #PaperPhodnaHai www.mathongo.com Mechanical Properties of Fluids JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-004",
+   "hash": "7c33bacfab965130",
+   "question": "The strain-stress plot for materials A, B, C and D is shown in the figure. Which material has the largest Young's modulus ?",
+   "options": [
+    "D",
+    "B",
+    "C",
+    "A"
+   ],
+   "correct": 2,
+   "chapter": "Mechanical properties of solid",
+   "topic": "Mechanical properties of solid",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-005",
+   "hash": "a2bd57ab7387c6ad",
+   "question": "Two wires A and B made of different materials of lengths 6.0 cm and 5.4 cm, respectively and area of cross sections 3.0 × 10 −5 m 2 and 4.5 × 10 −5 m , respectively are stretched by the same magnitude under a given load. The ratio of 2 the Young's modulus of A to that of B is x : 3. The value of x is ____.",
    "options": [
     "2",
     "1",
-    "0",
-    "4"
-   ],
-   "correct": 2,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-006",
-   "hash": "2dc87bc95fa2ffa1",
-   "question": "The sum of all the roots of the equation (x − 1) − 5|x − 1| + 6 = 0, is : 2",
-   "options": [
-    "1",
-    "5",
-    "3",
-    "4 #PaperPhodnaHai www.mathongo.com Quadratic Equation JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "4",
+    "5 #PaperPhodnaHai www.mathongo.com Mechanical Properties of Solids JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
    "correct": 3,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
+   "chapter": "Mechanical properties of solid",
+   "topic": "Mechanical properties of solid",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-005",
-   "hash": "4b14da22db3a673a",
-   "question": "Let S = {x + ax + bx + c : a, b, c ∈ N and a, b, c ≤ 20} be a set of polynomials. Then the number of 3 2 polynomials in S, which are divisible by x + 2, is 2",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-005",
+   "hash": "26627cba92e94b97",
+   "question": "A particle starts moving from time t = 0 and its coordinate is given as x(t) = 4t − 3t 3 A. The particle returns to its original position (origin) 0.866 units later B. The particle is 1 unit away from origin at its turning point C. Acceleration of the particle is non-negative D. The particle is 0.5 units away from origin at its turning point E. Particle never turns back as acceleration is non-negative Choose the correct answer from the options given below :",
    "options": [
-    "10",
-    "20",
-    "6",
-    "120"
+    "A, B, C Only",
+    "C, E Only",
+    "A, C Only",
+    "A, C, D Only"
    ],
    "correct": 0,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-006",
-   "hash": "4b34a1bee4eeb4b1",
-   "question": "If α, β, where α < β, are the roots of the equation λx − (λ + 3)x + 3 = 0 such that 2 1 α − 1 β = 1 3 , then the sum of all possible values of λ is",
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-005",
+   "hash": "5d91c2bc20a733a4",
+   "question": "A paratrooper jumps from an aeroplane and opens a parachute after 2 s of free fall and starts deaccelerating with 3 m/s 2 . At 10 m height from ground, while descending with the help of parachute, the speed of paratrooper is 5 m/s . The initial height of the airplane is ____ m. 2 (g = 10 m/s )",
+   "options": [
+    "82.5",
+    "20",
+    "62.5",
+    "92.5 #PaperPhodnaHai www.mathongo.com Motion In One Dimension JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-006",
+   "hash": "306268ce09050627",
+   "question": "Water drops fall from a tap on the floor, 5 m below, at regular intervals of time, the first drop strikes the floor when the sixth drop begins to fall. The height at which the fourth drop will be from ground, at the instant when the first drop strikes the ground is ____ m. 2 (g = 10 m/s )",
+   "options": [
+    "4.2",
+    "2.5",
+    "4.0",
+    "3.8 #PaperPhodnaHai www.mathongo.com Motion In One Dimension JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-006",
+   "hash": "956efddfb3a74b53",
+   "question": "A capacitor C is first charged fully with potential difference of V and disconnected from the battery. The charged 0 capacitor is connected across an inductor having inductance L. In t s 25% of the initial energy in the capacitor is transferred to the inductor. The value of t is ____ s.",
+   "options": [
+    "π√ LC 3",
+    "π√ LC 6",
+    "π√ LC 2",
+    "π√ LC 2"
+   ],
+   "correct": 1,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-007",
+   "hash": "763c1db881965dcb",
+   "question": "The electric current in the circuit is given as i = i (t/T ). The r.m.s current for the period t = 0 to t = T is ____. o",
+   "options": [
+    "i o",
+    "io √6",
+    "io √3",
+    "io √2"
+   ],
+   "correct": 2,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-003",
+   "hash": "2f4141d560944b2e",
+   "question": "For the series LCR circuit connected with 220 V, 50 Hz a.c source as shown in the figure, the power factor is α 10 . The value of α is ____.",
+   "options": [
+    "10",
+    "4",
+    "6",
+    "8 #PaperPhodnaHai www.mathongo.com Alternating Current JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Alternating Current",
+   "topic": "Alternating Current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Alternating Current",
+   "formulas": [
+    "$$v(t) = V_0 \\sin(\\omega t + \\theta_0) \\quad \\text{or} \\quad v(t) = V_0 \\cos(\\omega t + \\theta_0)$$",
+    "$$i(t) = I_0 \\sin(\\omega t + \\theta_0 \\pm \\phi)$$",
+    "$$\\Phi(t) = N (\\vec{B} \\cdot \\vec{A}) = N B A \\cos(\\omega t)$$",
+    "$$\\mathcal{E}(t) = -\\frac{d\\Phi}{dt} = -\\frac{d}{dt}[N B A \\cos(\\omega t)] = N B A \\omega \\sin(\\omega t)$$",
+    "$$\\mathcal{E}(t) = \\mathcal{E}_0 \\sin(\\omega t) \\quad \\text{where } \\mathcal{E}_0 = N B A \\omega$$",
+    "$$I_{\\text{av, full cycle}} = \\frac{1}{T} \\int_0^T I_0 \\sin(\\omega t)\\,dt = 0$$",
+    "$$I_{\\text{av}} = \\frac{2}{\\pi} I_0 \\approx 0.637 I_0 \\quad \\text{and} \\quad V_{\\text{av}} = \\frac{2}{\\pi} V_0 \\approx 0.637 V_0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-007",
+   "hash": "71b776b84f8bb067",
+   "question": "A river of width 200 m is flowing from west to east with a speed of 18 km/h. A boat, moving with speed of 36 km/h in still water, is made to travel one-round trip (bank to bank of the river). Minimum time taken by the boat for this journey and also the displacement along the river bank are ____ and ____ respectively.",
+   "options": [
+    "20 s and 100 m",
+    "40 s and 0 m",
+    "40 s and 200 m",
+    "40 s and 100 m"
+   ],
+   "correct": 2,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-005",
+   "hash": "eb1104d5a55945ff",
+   "question": "An object is projected with kinetic energy K from a point A at an angle 60 with the horizontal. The ratio of the ∘ difference in kinetic energies at points B and C to that at point A (see figure), in the absence of air friction is :",
+   "options": [
+    "1 : 4",
+    "2 : 3",
+    "3 : 4",
+    "1 : 2"
+   ],
+   "correct": 2,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-006",
+   "hash": "8cdfe8e8761ae882",
+   "question": "A projectile is thrown upward at an angle 60 with the horizontal. The speed of the projectile is 20 m/s when its ∘ direction of motion is 45 with the horizontal. The initial speed of the projectile is ____ m/s. ∘",
+   "options": [
+    "20√2",
+    "40",
+    "40√2",
+    "20√3"
+   ],
+   "correct": 0,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-004",
+   "hash": "b17af5d913a98439",
+   "question": "A boy throws a ball into air at 45 from the horizontal to land it on a roof of a building of height H . If the ball ∘ attains maximum height in 2 s and lands on the building in 3 s after launch, then value of H is ____ m. 2 (g = 10 m/s )",
+   "options": [
+    "15",
+    "20",
+    "25",
+    "10 #PaperPhodnaHai www.mathongo.com Motion In Two Dimensions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-006",
+   "hash": "687beeba649dd7b4",
+   "question": "A nucleus has mass number α and radius R . Another nucleus has mass number β and radius R . If β = 8α then α β R α /R β is:",
    "options": [
     "8",
-    "6",
+    "0.5",
     "2",
-    "4 #PaperPhodnaHai www.mathongo.com Quadratic Equation JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-010",
-   "hash": "1de9553d852bf294",
-   "question": "Let A = {x : x − 10 ≤ 6} and B = {x : |x − 2| > 1}. Then",
-   "options": [
-    "A ∪ B = (−∞, 1] ∪ (2, ∞)",
-    "B − A = (−∞, −4) ∪ (−2, 1) ∪ (4, ∞)",
-    "A − B = [2, 3)",
-    "A ∩ B = [−4, −2] ∪ [3, 4]"
-   ],
-   "correct": 1,
-   "chapter": "Sets-And-Relations",
-   "topic": "Sets-And-Relations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-008",
-   "hash": "2b8c478cb4a82a2f",
-   "question": "Let A = {0, 1, 2, … , 9}. Let R be a relation on A defined by (x, y) ∈ R if and only if |x − y| is a multiple of 3. Given below are two statements: Statement I: n(R) = 36. Statement II: R is an equivalence relation. In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Statement I is incorrect but Statement II is correct",
-    "Statement I is correct but Statement II is incorrect",
-    "Both Statement I and Statement II are incorrect",
-    "Both Statement I and Statement II are correct"
-   ],
-   "correct": 0,
-   "chapter": "Sets-And-Relations",
-   "topic": "Sets-And-Relations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-007",
-   "hash": "001b061f1c3d0711",
-   "question": "The number of relations, defined on the set {a, b, c, d}, which are both reflexive and symmetric, is equal to:",
-   "options": [
-    "16",
-    "1024",
-    "64",
-    "256"
-   ],
-   "correct": 2,
-   "chapter": "Sets-And-Relations",
-   "topic": "Sets-And-Relations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-005",
-   "hash": "5013bd67be109e96",
-   "question": "Let R be a relation defined on the set {1, 2, 3, 4} × {1, 2, 3, 4} by R = {((a, b), (c, d)) : 2a + 3b = 3c + 4d}. Then the number of elements in R is",
-   "options": [
-    "18",
-    "6",
-    "15",
-    "12 #PaperPhodnaHai www.mathongo.com Sets and Relations JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Sets-And-Relations",
-   "topic": "Sets-And-Relations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-007",
-   "hash": "23406318e7390212",
-   "question": "Let the mean and variance of 8 numbers −10, −7, −1, x, y, 9, 2, 16 be 7 2 and 293 4 , respectively. Then the mean of 4 numbers x, y, x + y + 1, |x − y| is :",
-   "options": [
-    "11",
-    "12",
-    "10",
-    "9"
-   ],
-   "correct": 0,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-010",
-   "hash": "c9adc37aa327c543",
-   "question": "Let X = {x ∈ N : 1 ≤ x ≤ 19} and for some a, b ∈ R, Y = {ax + b : x ∈ X}. If the mean and variance of the elements of Y are 30 and 750, respectively, then the sum of all possible values of b is",
-   "options": [
-    "60",
-    "100",
-    "80",
-    "20"
-   ],
-   "correct": 0,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-010",
-   "hash": "8b7800f101a43c81",
-   "question": "If the mean deviation about the median of the numbers k, 2k, 3k, … . . , 1000k is 500, then k is equal to : 2",
-   "options": [
-    "9",
-    "1",
-    "4",
-    "16"
-   ],
-   "correct": 2,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-009",
-   "hash": "b440fb51a6c831e8",
-   "question": "If the mean and the variance of the data Class 4-8 8-12 12-16 16-20 Frequency 3 λ 4 7 are μ and 19 respectively, then the value of λ + μ is",
-   "options": [
-    "21",
-    "19",
-    "20",
-    "18"
-   ],
-   "correct": 1,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-008",
-   "hash": "a59d2b538432eafa",
-   "question": "Let the mean and variance of 7 observations 2, 4, 10, x, 12, 14, y, x > y, be 8 and 16 respectively. Two numbers are chosen from {1, 2, 3, x − 4, y, 5} one after another without replacement, then the probability, that the smaller number among the two chosen numbers is less than 4, is :",
-   "options": [
-    "3 5",
-    "1 3",
-    "2 5",
-    "4 5"
-   ],
-   "correct": 3,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-007",
-   "hash": "b5512d957e58b84b",
-   "question": "The mean and variance of 10 observations are 9 and 34.2, respectively. If 8 of these observations are , then the mean deviation about the median of all the 10 observations is 2, 3, 5, 10, 11, 13, 15, 21",
-   "options": [
-    "4",
-    "7",
-    "5",
-    "6"
-   ],
-   "correct": 2,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-006",
-   "hash": "079971ed5cfa1a02",
-   "question": "The mean and variance of a data of 10 observations are 10 and 2, respectively. If an observations α in this data is replaced by β, then the mean and variance become 10.1 and 1.99, respectively. Then α + β equals",
-   "options": [
-    "15",
-    "5",
-    "10",
-    "20 #PaperPhodnaHai www.mathongo.com Statistics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-008",
-   "hash": "3cd930cf345e32be",
-   "question": "A rectangle is formed by the lines x = 0, y = 0, x = 3 and y = 4. Let the line L be perpendicular to 3x + y + 6 = 0 and divide the area of the rectangle into two equal parts. Then the distance of the point ( 1 2 , −5) from the line L is equal to :",
-   "options": [
-    "√10",
-    "2√5",
-    "2√10",
-    "3√10"
-   ],
-   "correct": 2,
-   "chapter": "Straight Lines",
-   "topic": "Straight Lines",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-011",
-   "hash": "922acbc649946890",
-   "question": "Let the angles made with the positive x-axis by two straight lines drawn from the point P(2, 3) and meeting the line x + y = 6 at a distance √ 2 3 from the point P be θ and θ . Then the value of (θ + θ ) is: 1 2 1 2",
-   "options": [
-    "π 3",
-    "π 6",
-    "π 2",
-    "π 12"
-   ],
-   "correct": 2,
-   "chapter": "Straight Lines",
-   "topic": "Straight Lines",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-011",
-   "hash": "f3a11911500860a0",
-   "question": "Among the statements (S1) : If A(5, −1) and B(−2, 3) are two vertices of a triangle, whose orthocentre is (0, 0), then its third vertex is (−4, −7) and (S2) : If positive numbers 2a, b, c are three consecutive terms of an A.P., then the lines ax + by + c = 0 are concurrent at (2, −2),",
-   "options": [
-    "both are incorrect",
-    "only (S2) is correct",
-    "only (S1) is correct",
-    "both are correct"
-   ],
-   "correct": 3,
-   "chapter": "Straight Lines",
-   "topic": "Straight Lines",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-010",
-   "hash": "01a0eac63e68defe",
-   "question": "Let A(1, 2) and C(−3, −6) be two diagonally opposite vertices of a rhombus, whose sides AD and BC are parallel to the line 7x − y = 14. If B(α, β) and D(γ, δ) are the other two vertices, then |α + β + γ + δ| is equal to",
-   "options": [
-    "6",
-    "9",
-    "3",
     "1"
    ],
-   "correct": 0,
-   "chapter": "Straight Lines",
-   "topic": "Straight Lines",
+   "correct": 1,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-009",
-   "hash": "190c420da8f3f365",
-   "question": "Let a point A lie between the parallel lines L and L such that its distances from L and L are 6 and 3 units, 1 2 1 2 respectively. Then the area (in sq. units) of the equilateral triangle ABC , where the points B and C lie on the lines L1 and L , respectively, is : 2",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-005",
+   "hash": "1af70f3a5e7ab12d",
+   "question": "The binding energy for the following nuclear reactions are expressed in MeV. 3 1 4 2 He + 0n → 2 He + 20MeV 4 1 5 2 He + 0n → 2 He − 0.9MeV If X , X , X denote the stability of 3 4 5 2 He 3 , 2 He 4 and 2 He 5 , respectively, then the correct order is :",
    "options": [
-    "15√6",
-    "21√3",
-    "12√2",
-    "27"
+    "X 4 < X5 < X3",
+    "X 4 > X5 > X3",
+    "X 4 > X5 < X3",
+    "X 4 = X5 = X3"
    ],
    "correct": 1,
-   "chapter": "Straight Lines",
-   "topic": "Straight Lines",
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-008",
-   "hash": "a0373f608507c857",
-   "question": "Let ABC be an equilateral triangle with orthocenter at the origin and the side BC on the line x + 2√2y = 4. If the co-ordinates of the vertex A are (α, β), then the greatest integer less than or equal to |α + √2β| is",
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-007",
+   "hash": "d60679dfca5dc1f2",
+   "question": "The minimum frequency of photon required to break a particle of mass 15.348 amu into 4α particles is ____ kHz. [mass of He nucleus = 4.002amu, 1amu = 1.66 × 10 −27 kg, h = 6.6 × 10 −34 J. s and c = 3 × 10 m/s ] 8",
    "options": [
-    "2",
-    "5",
-    "3",
-    "4 #PaperPhodnaHai www.mathongo.com Straight Lines JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "14.94 × 10 19",
+    "9 × 10 20",
+    "14.94 × 10 20",
+    "9 × 10 19"
+   ],
+   "correct": 0,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-008",
+   "hash": "d8ed38059e9cad9e",
+   "question": "7.9MeVα -particle scatters from a target material of atomic number 79. From the given data the estimated diameter of nuclei of the target material is (approximately) ____ m. [ 1 4πϵ o = 9 × 10 Nm /C 9 2 2 and electron charge −19 = 1.6 × 10 C]",
+   "options": [
+    "1.44 × 10 −13",
+    "5.76 × 10 −14",
+    "2.88 × 10 −14",
+    "1.69 × 10 −12"
+   ],
+   "correct": 1,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-006",
+   "hash": "c8d341965f6ea4da",
+   "question": "Which of the following pair of nuclei are isobars of the element?",
+   "options": [
+    "3 1 H and 3 2 He",
+    "2 1 H and 3 1 H",
+    "198 80 Hg and 197 79 Au",
+    "236 92 U and 238 92 U"
+   ],
+   "correct": 0,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-008",
+   "hash": "215adbb569fe02d1",
+   "question": "An atom 8 3 X is bombarded by shower of fundamental particles and in 10 s this atom absorbed 10 electrons, 10 protons and 9 neutrons. The percentage growth in the surface area of the nucleons is recorded by:",
+   "options": [
+    "250%",
+    "150%",
+    "900%",
+    "125%"
    ],
    "correct": 3,
-   "chapter": "Straight Lines",
-   "topic": "Straight Lines",
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-005",
+   "hash": "83809c8e4b3cf57b",
+   "question": "Given below are two statements: Statement I: For all elements, greater the mass of the nucleus, greater is the binding energy per nucleon. Statement II: For all elements, nuclei with less binding energy per nucleon transforms to nuclei with greater binding energy per nucleon. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true #PaperPhodnaHai www.mathongo.com Nuclear Physics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Modern physics",
+   "topic": "Modern physics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Modern Physics and Dual Nature",
+   "formulas": [
+    "$$\\phi = h\\nu_0 = \\frac{hc}{\\lambda_0}$$",
+    "$$E_{incident} = \\phi + K_{max} \\implies h\\nu = h\\nu_0 + K_{max}$$",
+    "$$K_{max} = h\\nu - \\phi = hc\\left(\\frac{1}{\\lambda} - \\frac{1}{\\lambda_0}\\right)$$",
+    "$$eV_0 = K_{max} = \\frac{1}{2}m v_{max}^2$$",
+    "$$eV_0 = h\\nu - \\phi \\implies V_0 = \\left(\\frac{h}{e}\\right)\\nu - \\frac{\\phi}{e}$$",
+    "$$\\frac{kZe^2}{r^2} = \\frac{m v^2}{r} \\quad \\text{where } k = \\frac{1}{4\\pi\\varepsilon_0} = 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
+    "$$L = mvr = \\frac{nh}{2\\pi} \\quad (n = 1, 2, 3, \\dots)$$"
+   ]
   }
  ]
 }

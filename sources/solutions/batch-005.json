@@ -2,1082 +2,1370 @@
  "batch": 5,
  "items": [
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-007",
-   "hash": "76e8d8b75faff34d",
-   "question": "Let A(1, 0), B(2, −1) and C ( 7 3 , 4 3 ) be three points. If the equation of the bisector of the angle ABC is αx + βy = 5 , then the value of α + β is 2 2",
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-008",
+   "hash": "c2861d0fcf8aef90",
+   "question": "The kinetic energy of a simple harmonic oscillator is oscillating with angular frequency of 176rad/s. The frequency of this simple harmonic oscillator is ____ Hz. [ take π = 22 7 ]",
    "options": [
-    "13",
-    "10",
-    "5",
-    "8 #PaperPhodnaHai www.mathongo.com Straight Lines JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Straight Lines",
-   "topic": "Straight Lines",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-011",
-   "hash": "bc014ba0973885ce",
-   "question": "Let the line L pass through the point (−3, 5, 2) and make equal angles with the positive coordinate axes. If the distance of L from the point (−2, r, 1) is √ 14 3 , then the sum of all possible values of r is :",
-   "options": [
-    "10",
-    "6",
-    "12",
-    "16"
-   ],
-   "correct": 0,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-012",
-   "hash": "934b52a67b92418b",
-   "question": "Let the line L be parallel to the vector −3^i + 2^j + 4k 1 ^ and pass through the point (2,6,7), and the line L be parallel 2 to the vector 2^ i +^ ^ j + 3k and pass through the point (4, 3, 5). If the line L is parallel to the vector 3 −3^ i + 5^ ^ j + 16k −→ and intersects the lines L and L at the points C and D, respectively, then |CD| is equal to : 1 2 2",
-   "options": [
-    "89",
-    "312",
-    "171",
-    "290"
-   ],
-   "correct": 3,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-009",
-   "hash": "43ca8fb6292e71ea",
-   "question": "Let the direction cosines of two lines satisfy the equations : 4l + m − n = 0 and 2mn + 10nl + 3lm = 0. Then the cosine of the acute angle between these lines is :",
-   "options": [
-    "20",
-    "10",
-    "10",
-    "10 3√ 38 3√ 38 7√ 38 √ 38"
-   ],
-   "correct": 1,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-010",
-   "hash": "ddafbd3707b6de87",
-   "question": "The vertices B and C of a triangle ABC lie on the line x 1 = 1−y −2 = z−2 3 . The coordinates of A and B are (1, 6, 3) and (4, 9, α) respectively and C is at a distance of 10 units from B. The area (in sq. units) of △ABC is :",
-   "options": [
-    "20√13",
-    "5√13",
-    "15√13",
-    "10√13"
-   ],
-   "correct": 1,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-011",
-   "hash": "867387472038d208",
-   "question": "Let Q(a, b, c) be the image of the point P(3, 2, 1) in the line x−1 1 = y 2 = z−1 1 . Then the distance of Q from the line x−9 3 = y−9 2 = z−5 −2 is",
-   "options": [
-    "8",
-    "5",
-    "7",
-    "6"
-   ],
-   "correct": 2,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-012",
-   "hash": "1096f2b921f2205a",
-   "question": "The sum of all values of α, for which the shortest distance between the lines x+1 α = y−2 −1 = z−4 −α and x α = y−1 2 = z−1 2α is √2, is",
-   "options": [
-    "6",
-    "8",
-    "-8",
-    "-6 #PaperPhodnaHai www.mathongo.com Three Dimensional Geometry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-012",
-   "hash": "ea405060a3f35bf2",
-   "question": "Let L be the line x+1 2 = y+1 3 = z+3 6 and let S be the set of all points (a, b, c) on L, whose distance from the line x+1 2 = y+1 3 = z−9 0 along the line L is 7. Then ∑ (a,b,c)∈S (a + b + c) is equal to :",
-   "options": [
-    "6",
-    "34",
-    "40",
-    "28"
-   ],
-   "correct": 1,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-011",
-   "hash": "3de9c64baa555307",
-   "question": "If the image of the point P(1, 2, a) in the line x−6 3 = y−7 2 = 7−z 2 is Q(5, b, c), then a + b + c is equal to 2 2 2",
-   "options": [
-    "298",
-    "293",
-    "264",
-    "283"
-   ],
-   "correct": 0,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-012",
-   "hash": "2e4092e2762d34cc",
-   "question": "Let P(α, β, γ) be the point on the line x−1 2 = y+1 −3 = z at a distance 4√14 from the point (1, −1, 0) and nearer to the origin. Then the shortest distance, between the lines x−α 1 = y−β 2 = z−γ 3 and x+5 2 = y−10 1 = z−3 1 , is equal to",
-   "options": [
-    "4√ 7",
-    "2√ 7",
-    "7√ 5",
-    "4√ 5 5 4 4 7"
-   ],
-   "correct": 0,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-010",
-   "hash": "87afd003894432a0",
-   "question": "Let (α, β, γ) be the co-ordinates of the foot of the perpendicular drawn from the point (5, 4, 2) on the line → r = (−^ i + 3^ ^ j + k) + λ(2^ i + 3^ ^ j − k) . Then the length of the projection of the vector α^i + β^j + γk ^ on the vector 6^i + 2^j + 3k ^ is :",
-   "options": [
-    "15 7",
-    "4",
-    "18 7",
-    "3"
-   ],
-   "correct": 2,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-009",
-   "hash": "dfbd82bbd8373be1",
-   "question": "If the distances of the point (1, 2, a) from the line x−1 1 = y 2 = z−1 1 along the lines L : 1 x−1 3 = y−2 4 = z−a b and L2 : x−1 1 = y−2 4 = z−a c are equal, then a + b + c is equal to",
-   "options": [
-    "5",
-    "7",
-    "4",
-    "6"
-   ],
-   "correct": 1,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-008",
-   "hash": "d7f9b191512c9210",
-   "question": "Let the lines L : r→ = ^i + 2^j + 3k 1 ^ + λ(2^ → = (4^i + ^j) + μ(5^i + 2^j + k), j + 4k), λ ∈ R and L : r i + 3^ ^ ^ μ ∈ R, intersect 2 −→ at the point R. Let P and Q be the points lying on lines L and L , respectively, such that |PR| = √29 and 1 2 −→ |PQ| = √ 47 3 . If the point P lies in the first octant, then 27(QR) is equal to 2",
-   "options": [
-    "348",
-    "340",
-    "320",
-    "360 #PaperPhodnaHai www.mathongo.com Three Dimensional Geometry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "3D-Geometry",
-   "topic": "3D-Geometry",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-011",
-   "hash": "f35d94f97c079cde",
-   "question": "Number of solutions of √3 cos 2θ + 8 cos θ + 3√3 = 0, θ ∈ [−3π, 2π] is:",
-   "options": [
-    "0",
-    "5",
-    "3",
-    "4"
-   ],
-   "correct": 1,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-013",
-   "hash": "e2192d00eb445b50",
-   "question": "If the area of the region {(x, y) : 1 − 2x ⩽ y ⩽ 4 − x , x ⩾ 0, y ⩾ 0} is 2 α β , α, β ∈ N, gcd(α, β) = 1 , then the value of (α + β) is :",
-   "options": [
-    "67",
-    "91",
-    "73",
-    "85"
-   ],
-   "correct": 2,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-012",
-   "hash": "351da4a769d89b30",
-   "question": "Let P : y = 4x and P : y = x + 27 be two parabolas. If the area of the bounded region enclosed between P and 1 2 2 2 1 P2 is six times the area of the bounded region enclosed between the line y = αx, α > 0 and P , then α is equal to : 1",
-   "options": [
-    "12",
-    "6",
-    "15",
-    "8"
-   ],
-   "correct": 0,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-013",
-   "hash": "f2109e6dd879ef97",
-   "question": "Let f (α) denote the area of the region in the first quadrant bounded by x = 0, x = 1, y = x and 2 y = |αx − 5| − |1 − αx| + αx . Then (f (0) + f",
-   "options": [
-    ") is equal to 2",
-    "12",
     "14",
-    "7"
-   ],
-   "correct": 2,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-013",
-   "hash": "f459f8a458f87bcd",
-   "question": "The area of the region A = {(x, y) : 4x + y ⩽ 8 and y ⩽ 4x} is: 2 2 2",
-   "options": [
-    "π + 4",
-    "π + 2 3",
-    "π 2 + 2",
-    "π 2 + 1 3"
-   ],
-   "correct": 1,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-013",
-   "hash": "503a2ffd8d009455",
-   "question": "Let the line x = −1 divide the area of the region {(x, y) : 1 + x ≤ y ≤ 3 − x} in the ratio m : n, gcd(m, n) = 1. 2 Then m + n is equal to",
-   "options": [
-    "27",
-    "25",
     "28",
-    "26"
+    "176",
+    "88"
    ],
    "correct": 0,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-011",
-   "hash": "a8caae7ae6bf19fa",
-   "question": "The area of the region enclosed between the circles x + y = 4 and x + (y − 2) = 4 is: 2 2 2 2",
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-006",
+   "hash": "b3d43f4471219a1e",
+   "question": "Two blocks with masses 100 g and 200 g are attached to the ends of springs A and B as shown in figure. The energy stored in A is E. The energy stored in B, when spring constants k , k of A and B, respectively satisfy the relation A B 4kA = 3kB′ , is :",
    "options": [
-    "4 3 (2π − 3√ 3)",
-    "2 3 (2π − 3√ 3)",
-    "2 3 (4π − 3√ 3)",
-    "4 3 (2π − √ 3) #PaperPhodnaHai www.mathongo.com Area Under Curves JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "4 3 E",
+    "4E",
+    "3E",
+    "2E"
    ],
    "correct": 2,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-011",
-   "hash": "78daca464f095773",
-   "question": "The area of the region, inside the ellipse x + 4y = 4 and outside the region bounded by the curves y = |x| − 1 and 2 2 y = 1 − |x| , is :",
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-007",
+   "hash": "627f18b79fb39665",
+   "question": "A simple pendulum of string length 30 cm performs 20 oscillations in 10 s. The length of the string required for the pendulum to perform 40 oscillations in the same time duration is ____ cm. [Assume that the mass of the pendulum remains same.]",
    "options": [
-    "2π − 1",
-    "3(π − 1)",
-    "2π − 1 2",
-    "2(π − 1)"
-   ],
-   "correct": 3,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-010",
-   "hash": "bd89ac27d29399cf",
-   "question": "The area of the region R = {(x, y) : xy ≤ 8, 1 ≤ y ≤ x , x ≥ 0} is 2",
-   "options": [
-    "2 3 (24 log",
-    "− 7) e",
-    "1 3 (40 log",
-    "+ 27) e"
+    "7.5",
+    "0.75",
+    "120",
+    "15"
    ],
    "correct": 0,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-009",
-   "hash": "2c95624e42340564",
-   "question": "Let A be the bounded area enclosed by the curves y = x + 2, x + y = 8 and y-axis that lies in the first quadrant. 1 2 Let A be the bounded area enclosed by the curves y = x + 2, y = x, x = 2, and y-axis that lies in the first 2 2 2 quadrant. Then A − A is equal to 1 2",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-007",
+   "hash": "22e2055585791f2b",
+   "question": "The time period of a simple harmonic oscillator is T = 2π√ k m . Measured value of mass (m) of the object is 10 g with an accuracy of 10 mg and time for 50 oscillations of the spring is found to be 60 s using a watch of 2 s resolution. Percentage error in determination of spring constant (k) is ____ \\%.",
    "options": [
-    "2 3 (3√ 2 + 1)",
-    "2 3 (2√ 2 + 1)",
-    "2 3 (√ 2 + 1)",
-    "2 3 (4√ 2 + 1) #PaperPhodnaHai www.mathongo.com Area Under Curves JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "7.60",
+    "3.35",
+    "3.43",
+    "6.76"
    ],
-   "correct": 1,
-   "chapter": "Area under curve",
-   "topic": "Area under curve",
+   "correct": 3,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-012",
-   "hash": "3a82a668c4294ac5",
-   "question": "Let α and β respectively be the maximum and the minimum values of the function f (θ) = 4 (sin 4 ( 7π 2 4 − θ) + sin (11π + θ)) − 2 (sin 6 ( 3π 2 6 − θ) + sin (9π − θ)), θ ∈ R . Then α + 2β is equal to :",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-008",
+   "hash": "881196885bb242e0",
+   "question": "As shown in the figure, a spring is kept in a stretched position with some extension by holding the masses 1 kg and 0.2 kg with a separation more than spring natural length and are released. Assuming the horizontal surface to be frictionless, the angular frequency (in SI unit) of the system is : k = 150 N/m",
    "options": [
-    "4",
-    "6",
     "5",
-    "3"
-   ],
-   "correct": 2,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-012",
-   "hash": "c51f28d6bc603cd5",
-   "question": "The least value of (cos θ − 6 sin θ cos θ + 3 sin θ + 2) is 2 2",
-   "options": [
-    "−1",
-    "1",
-    "4 − √10",
-    "4 + √10"
-   ],
-   "correct": 2,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-013",
-   "hash": "072aed32bb108113",
-   "question": "Let π 2 < θ < π and cot θ = − 1 . Then the value of 2√ 2 15θ 15θ sin ( )(cos 8θ + sin 8θ) + cos ( )(cos 8θ − sin 8θ) 2 2 is equal to",
-   "options": [
-    "− √2",
-    "√ 2−1",
-    "√2",
-    "1−√ 2 √3 √3 √3 √3"
-   ],
-   "correct": 3,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-012",
-   "hash": "cb2aaa2b6a88531f",
-   "question": "The value of cosec 10 − √3 sec 10 is equal to : ∘ ∘",
-   "options": [
-    "8",
-    "6",
-    "2",
-    "4"
-   ],
-   "correct": 3,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-011",
-   "hash": "8fb7c786e4919d6a",
-   "question": "2 If , then tan(A−B) sin C π + 2 = 1, A, B, C ∈ (0, ) tan A sin A 2",
-   "options": [
-    "tan A, tan C, tan B are in A.P.",
-    "tan A, tan B, tan C are in G.P.",
-    "tan A, tan C, tan B are in G.P.",
-    "tan A, tan B, tan C are in A.P. #PaperPhodnaHai www.mathongo.com Trigonometric Ratios and Identities JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 2,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-010",
-   "hash": "c715555b047db58e",
-   "question": "If cot x = 5 12 for some x ∈ (π, 3π 2 ) , then sin 7x (cos 13x 2 + sin 13x 2 ) + cos 7x (cos 13x 2 − sin 13x 2 ) is equal to",
-   "options": [
-    "4 √ 26",
-    "√ 26 6",
-    "5 √ 13",
-    "1 √ 13"
-   ],
-   "correct": 3,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-011",
-   "hash": "96094ec89c2b6886",
-   "question": "∘ ∘ The value of √ 3 cosec 20 −sec 20 ∘ cos 20 ∘ cos 40 ∘ cos 60 cos 80 ∘ is equal to",
-   "options": [
-    "16",
-    "32",
-    "64",
-    "12 #PaperPhodnaHai www.mathongo.com Trigonometric Ratios and Identities JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 2,
-   "chapter": "Trigonometric-Functions-And-Equations",
-   "topic": "Trigonometric-Functions-And-Equations",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-014",
-   "hash": "539c71c7b6ac5b9c",
-   "question": "− − − → → → → → → → → p = BC, q = CA r = BA For a triangle ABC, let |p| = 2√ 3, |q| = 2 cos θ = 1 θ and . If and √3 , where is the angle between p→ and q→, then |p→ × (q→ − 3r→)| + 3|r→| is equal to : 2 2",
-   "options": [
-    "410",
-    "340",
-    "200",
-    "220"
-   ],
-   "correct": 2,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-013",
-   "hash": "4f6072d89e06dc8a",
-   "question": "→ → → → − →b) ⋅ d→ is equal to : → → → → → Let a = −^i + ^j + 2^ k, b = ^ j − 3k, c = a × b and d = c × a. Then (a i −^ ^",
-   "options": [
-    "-4",
-    "4",
-    "2",
-    "-2"
-   ],
-   "correct": 3,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-013",
-   "hash": "c3357525cf89c0d4",
-   "question": "− − → → P ^ ^ ^ AB = 3i + j − k ^ Let^ ^ AC = i − j + 3k be a point in the plane of the vectors P and such that is equidistant from −→ the lines AB and AC. If |AP| = √5 2 , then the area of the triangle ABP is:",
-   "options": [
-    "2",
-    "√ 30 4",
-    "3 2",
-    "√ 26 4"
-   ],
-   "correct": 1,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-014",
-   "hash": "3df18d3642d6c004",
-   "question": "^ and → → × c→) + 3(→b × c→) = 0 and (a → − →b) ⋅ c→ = −97, → → = 2^i − 5^j + 5k Let a b =^ i −^ → is a vector such that 2(a ^. If c j + 3k then |c→ × k| ^ is equal to 2",
-   "options": [
-    "233",
-    "218",
-    "193",
-    "205"
-   ],
-   "correct": 1,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-015",
-   "hash": "38237e91f748f725",
-   "question": "^ → → = 2^i − ^j − k, → = 2^i + ^j + 3k → and →b, such Let a b = i + 3j − k and c ^ ^ ^ ^ . Let v→ be the vector in the plane of the vectors a that the length of its projection on the vector c→ is 1 √ 14 . Then |v→| is equal to",
-   "options": [
-    "13",
-    "√ 35 2",
-    "√ 21 2",
-    "7"
-   ],
-   "correct": 1,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-014",
-   "hash": "1bade258d66a771f",
-   "question": "→ = 2^i − ^j + k Let a ^ and →b = λ^j + 2k, ^ → × →b and d→ be a vector of magnitude 2 in yz- →= a λ ∈ Z be two vectors. Let c → → → plane. If |c| = √53, then the maximum possible value of (c ⋅ d) is equal to : 2",
-   "options": [
-    "26",
-    "52",
-    "208",
-    "104"
-   ],
-   "correct": 2,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-014",
-   "hash": "073262069f6844ff",
-   "question": "− −→ → ^ ^ ^ AB = 2i + 4j − 5k ^ Let ^ ^ AD = i + 2j + λk, λ ∈ R ^ ^ ^ v = i + j + k and . Let the projection of the vector → on the −→ diagonal AC of the parallelogram ABCD be of length one unit. If α, β, where α > β, be the roots of the equation 2 λ x 2 − 6λx + 5 = 0 , then 2α − β is equal to",
-   "options": [
-    "3",
-    "4",
-    "1",
-    "6"
-   ],
-   "correct": 0,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-014",
-   "hash": "11f2963d54e62a38",
-   "question": "^ → → = i^ − 2j^ + 3k, Let a ^+ j b = 2i ^ ^ − k, → = λi^ + j^ + k c ^ → × →b. If v→ ⋅ c→ = 11 and the length of the projection of →b and v→ = a on c→ is p, then 9p is equal to 2",
-   "options": [
-    "12",
-    "6",
-    "4",
-    "9"
-   ],
-   "correct": 0,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-015",
-   "hash": "8ec66176c51f7f4c",
-   "question": "→, →b, c→ be three vectors such that a Let a → × →b = 2(a →| = 1, |→b| = 4, |c→| = 2, and the angle between →b and c→ is → × c→). If |a 60 ∘ → ⋅ c→| is equal to , then |a",
-   "options": [
-    "1",
-    "2",
-    "0",
-    "4"
-   ],
-   "correct": 0,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-013",
-   "hash": "1025c53df4211d97",
-   "question": "→ → → → → → Let a = −^i + 2^j + 2^ → ⋅ (^i + ^j + ^ k, b = 8i + 7j − 3k and c be vector such that a × c = b. If c ^ ^ ^ → + c→| is k) = 4, then |a 2 equal to :",
-   "options": [
     "27",
-    "33",
-    "35",
-    "30"
+    "20",
+    "30 #PaperPhodnaHai www.mathongo.com Oscillations JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
-   "correct": 0,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
+   "correct": 3,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-012",
-   "hash": "eded9b860d2ec737",
-   "question": "→, →b, c→ satisfying |a For three unit vectors a → − →b| + |→b − c→| + |c→ − a 2 2 → + k→b + kc→| = 3, the positive value →| = 9 and |2a 2 of k is",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-006",
+   "hash": "06fcd2a2454c7eff",
+   "question": "A cylindrical block of mass M and area of cross section A is floating in a liquid of density ρ and with its axis vertical. When depressed a little and released the block starts oscillating. The period of oscillation is ____.",
    "options": [
+    "π√ 2M",
+    "π√ ρA",
+    "2π√ ρA",
+    "2π√ M ρAg Mg Mg ρAg #PaperPhodnaHai www.mathongo.com Oscillations JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-009",
+   "hash": "24b1179dbae54238",
+   "question": "As shown in the diagram, when the incident ray is parallel to base of the prism, the emergent ray grazes along the second surface. If refractive index of the material of prism is √2, the angle θ of prism is.",
+   "options": [
+    "60 ∘",
+    "45∘",
+    "90 ∘",
+    "75 ∘"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-008",
+   "hash": "39f06c9743cd18a4",
+   "question": "A thin prism with angle 5 of refractive index 1.72 is combined with another prism of refractive index 1.9 to ∘ produce dispersion without deviation. The angle of second prism is ____.",
+   "options": [
+    "6∘",
+    "4.5 ∘",
+    "4∘",
+    "5 ∘"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-009",
+   "hash": "304663dca77a97b2",
+   "question": "Consider light travelling from a medium A to medium B separated by a plane interface. If the light undergoes total internal reflection during its travel from medium A to B and the speed of light in media A and B are 2.4 × 10 m/s 8 and 2.7 × 10 m/s, respectively, then the value of critical angle is : 8",
+   "options": [
+    "cos −1 ( 8 9 )",
+    "sin −1 ( 9 8 )",
+    "cot −1 ( 3 )",
+    "tan −1 ( 8 ) √ 13 √ 17"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-009",
+   "hash": "e149a273d388a916",
+   "question": "A biconvex lens is formed by using two thin planoconvex lenses, as shown in the figure. The refractive index and radius of curved surfaces are also mentioned in figure. When an object is placed on the left side of lens at a distance of 30 cm from the biconvex lens, the magnification of the image will be :",
+   "options": [
+    "-2",
+    "+2.5",
+    "-2.5",
+    "+2"
+   ],
+   "correct": 0,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-010",
+   "hash": "58703c8a644f975d",
+   "question": "For a transparent prism, if the angle of minimum deviation is equal to its refracting angle, the refractive index n of the prism satisfies.",
+   "options": [
+    "1 < n < 2",
+    "√2 < n < 2√2",
+    "√2 < n < 2",
+    "n ⩾ 2 #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-006",
+   "hash": "f1bb05587c3e9431",
+   "question": "Distance between an object and three times magnified real image is 40 cm. The focal length of the mirror used is ____ cm.",
+   "options": [
+    "−15/2",
+    "-15",
+    "-10",
+    "-20"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-007",
+   "hash": "ac9ee34f4a14d80a",
+   "question": "Five persons P , P , P , P and P recorded object distance (u) and image distance (v) using same convex lens 1 2 3 4 5 having power +5 D as (25, 96), (30, 62), (35, 37), (45, 35) and (50, 32) respectively. Identify correct statement",
+   "options": [
+    "Readings recorded by P and P persons are incorrect 3 2",
+    "Readings recorded by P and P persons are incorrect 4 5",
+    "Readings recorded by all persons are correct",
+    "Readings recorded by P person are incorrect 3"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-004",
+   "hash": "2c0e4f6d69bffe25",
+   "question": "In parallax method for the determination of focal length of a concave mirror, the object should always be placed:",
+   "options": [
+    "between the focus (F ) and the centre of curvature (C) of the mirror ONLY",
+    "between the pole(P ) and the focus (F ) of the concave mirror ONLY",
+    "beyond the centre of the curvature (C) of the mirror ONLY",
+    "at any point beyond the focus (F ) of the mirror"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-005",
+   "hash": "35cdf51d84a7c6b2",
+   "question": "The wavelength of light, while it is passing through water is 540 nm. The refractive index of water is 4/3. The wavelength of the same light when it is passing through a transparent medium having refractive index of 3/2 is ____ nm.",
+   "options": [
+    "540",
+    "480",
+    "840",
+    "380"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-009",
+   "hash": "6ba995134148937a",
+   "question": "Consider an equilateral prism (refractive index √2). A ray of light is incident on its one surface at a certain angle i. If the emergent ray is found to graze along the other surface then the angle of refraction at the incident surface is close to ____.",
+   "options": [
+    "20 ∘",
+    "15 ∘",
+    "40 ∘",
+    "30∘"
+   ],
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-010",
+   "hash": "70a4e17c7e3ae7ad",
+   "question": "A thin convex lens of focal length 5 cm and a thin concave lens of focal length 4 cm are combined together (without any gap) and this combination has magnification m when an object is placed 10 cm before the convex lens. 1 Keeping the positions of convex lens and object undisturbed a gap of 1 cm is introduced between the lenses by moving the concave lens away, which lead to a change in magnification of total lens system to m . The value of 2 m1 m2 is ____.",
+   "options": [
+    "5 9",
+    "5 27",
+    "3 2",
+    "None of the above #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-007",
+   "hash": "52870ece4806bf1e",
+   "question": "A prism of angle 75 and refractive index √3 is coated with thin film of refractive index 1.5 only at the back exit ∘ surface. To have total internal reflection at the back exit surface the incident angle must be ____ (sin 15 = 0.25 and sin 25 = 0.43) ∘ ∘",
+   "options": [
+    "15 ∘",
+    "> 25 ∘",
+    "between 15 and 20 ∘ ∘",
+    "Both"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-009",
+   "hash": "735f0743f854e9ab",
+   "question": "The magnitudes of power of a biconvex lens (refractive index 1.5) and that of a plano-concave lens (refractive index = 1.7 ) are same. If the curvature of planoconcave lens exactly matches with the curvature of back surface of the biconvex lens, then ratio of radius of curvature of front and back surface of the biconvex lens is ____.",
+   "options": [
+    "5 : 12",
+    "12 : 5",
+    "5 : 2",
+    "2 : 5 #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-007",
+   "hash": "e93d6f24b7124476",
+   "question": "The exit surface of a prism with refractive index n is coated with a material having refractive index n 2 . When this prism is set for minimum angle of deviation, it exactly meets the condition of critical angle. The prism angle is ____ .",
+   "options": [
+    "30∘",
+    "15 ∘",
+    "45 ∘",
+    "60 ∘"
+   ],
+   "correct": 3,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-008",
+   "hash": "73ea6734c161adb3",
+   "question": "In a microscope of tube length 10 cm two convex lenses are arranged with focal length of 2 cm and 5 cm. Total magnification obtained with this system for normal adjustment is (5) . The value of k is ____. k",
+   "options": [
+    "3.5",
+    "2",
     "4",
-    "3",
-    "5",
-    "6"
+    "5 #PaperPhodnaHai www.mathongo.com Ray Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
-   "correct": 2,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
+   "correct": 1,
+   "chapter": "Ray Optics",
+   "topic": "Ray Optics",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-012",
-   "hash": "e134931800c65741",
-   "question": "^ → → = 2^i + ^j − 2k, →= a→ × →b. Let d→ be a vector such that |d→ − a → = 3 and the angle →| = √11, |c→ × d| Let a b = i + j and c ^ ^ between c→ and d→ is . Then a π 4 → ⋅ d→ is equal to",
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-010",
+   "hash": "9d0db82fbdfe75e9",
+   "question": "Two cars A and B each of mass 10 kg are moving on parallel tracks separated by a distance of 10 m, in same 3 direction with speeds 72 km/h and 36 km/h. The magnitude of angular momentum of car A with respect to car B is ____ J.s.",
    "options": [
-    "3",
+    "2 × 10 5",
+    "10 5",
+    "3.6 × 10 5",
+    "3 × 10 5"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-010",
+   "hash": "534781ca47add7c0",
+   "question": "Two small balls with masses m and 2 m are attached to both ends of a rigid rod of length d and negligible mass. If angular momentum of this system is L about an axis (A) passing through its centre of mass and perpendicular to the rod then angular velocity of the system about A is :",
+   "options": [
+    "5md 2L 2",
+    "4 3 md L 2",
+    "3 2 md L 2",
+    "2L md 2"
+   ],
+   "correct": 2,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-011",
+   "hash": "d78423f0afc60fa5",
+   "question": "The moment of inertia of a square loop made of four uniform solid cylinders, each having radius R and length L(R < L) about an axis passing through the mid points of opposite sides, is (Take the mass of the entire loop as M ) :",
+   "options": [
+    "3 4 MR 2 + 7 12 ML 2",
+    "3 8 MR 2 + 1 6 ML 2",
+    "3 4 MR 2 + 1 6 ML 2",
+    "3 8 MR 2 + 7 12 ML 2 #PaperPhodnaHai www.mathongo.com Rotational Motion JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-011",
+   "hash": "5df53ca1e415bfc3",
+   "question": "When the position vector r→ = x^i + y^j + zk ^ changes sign as −r→, which one of the following vector will not flip under sign change ?",
+   "options": [
+    "Angular momentum",
+    "Velocity",
+    "Acceleration",
+    "Linear momentum"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-008",
+   "hash": "cc13d915e45b2221",
+   "question": "A thin uniform rod (X) of mass M and length L is pivoted at a height ( L 3 ) as shown in the figure. The rod is allowed to fall from a vertical position and lie horizontally on the table. The angular velocity of this rod when it hits the table top, is ____. (g = gravitational acceleration)",
+   "options": [
+    "3 √ g",
+    "1 √ g",
+    "√ 3 g",
+    "√ 3g √2 L √2 L 2 L L"
+   ],
+   "correct": 3,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-006",
+   "hash": "46d7ddde2e9d6137",
+   "question": "A uniform bar of length 12 cm and mass 20m lies on a smooth horizontal table. Two point masses m and 2m are moving in opposite directions with same speed of v and in the same plane as the bar, as shown in figure. These masses strike the bar simultaneously and get stuck to it. After collision the entire system is rotating with angular frequency ω. The ratio of v and ω is :",
+   "options": [
+    "66",
+    "33",
+    "32",
+    "2√88"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-011",
+   "hash": "40f6a0f9483ddb1d",
+   "question": "A solid sphere of mass 5 kg and radius 10 cm is kept in contact with another solid sphere of mass 10 kg and radius 20 cm. The moment of inertia of this pair of spheres about the tangent passing through the point of contact is ____ kg. m 2 .",
+   "options": [
+    "0.72",
+    "0.36",
+    "0.18",
+    "0.63"
+   ],
+   "correct": 3,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-006",
+   "hash": "c7804f6b116d9d69",
+   "question": "A uniform rod of mass m and length l suspended by means of two identical inextensible light strings as shown in figure. Tension in one string immediately after the other string is cut, is ____. (g acceleration due to gravity)",
+   "options": [
+    "mg/4",
+    "mg/2",
+    "mg/3",
+    "mg"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-010",
+   "hash": "d413e81f03ece39a",
+   "question": "Two circular discs of radius each 10 cm are joined at their centres by a rod of length 30 cm and mass 600 gm as shown in figure. If the mass of each disc is 600 gm and applied torque between two discs is 43 × 10 dyne. cm, the 5 angular acceleration of the discs about the given axis AB is ____ rad/s . 2",
+   "options": [
     "11",
-    "0",
-    "1 #PaperPhodnaHai www.mathongo.com Vector Algebra JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo #PaperPhodnaHai www.mathongo.com Vector Algebra JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 2,
-   "chapter": "Vector-Algebra",
-   "topic": "Vector-Algebra",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-014",
-   "hash": "ab8ab15e41615f37",
-   "question": "100 100 100 The value of 51 C 50 + 52 C 51 + ….+ C 100 101 is : 101 100 101 100",
-   "options": [
-    "2 100",
-    "2 100",
-    "2 101",
-    "2 101"
-   ],
-   "correct": 3,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-015",
-   "hash": "98c591eb9da6de9a",
-   "question": "The sum of all possible values of n ∈ N, so that the coefficients of x, x and x in the expansion of 2 3 , are in arithmetic progression is : 2 2 n (1 + x ) (1 + x)",
-   "options": [
-    "12",
-    "7",
-    "3",
-    "9"
-   ],
-   "correct": 3,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-014",
-   "hash": "c0667e4b05bf737d",
-   "question": "Given below are two statements : Statement I: 25 13 + 20 13 + 8 13 + 3 13 is divisible by 7. Statement II: The integral part of (7 + 4√3) 25 is an odd number. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Statement I is false but Statement II is true",
-    "Both Statement I and Statement II are false"
-   ],
-   "correct": 1,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-015",
-   "hash": "7676017eeb33990f",
-   "question": "The sum of the coefficients of x 499 and x 500 in (1 + x) 1000 + x(1 + x) 999 2 + x (1 + x) 998 + … + x 1000 is :",
-   "options": [
-    "1002 C 500",
-    "1002 C 501",
-    "1001 C 501",
-    "1000 C 501"
+    "22",
+    "100",
+    "27"
    ],
    "correct": 0,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-015",
-   "hash": "25c8cf8fb7186520",
-   "question": "Let C denote the coefficient of x in the binomial expansion of (1 + x) , n ∈ N, 0 ≤ r ≤ n. If r r n 2 3 n , then the value of ∑ equals. 2 2 (−2) 25 1 Pn = C0 − C1 + C2 − C3 + … . . + Cn 3 4 n+1 n=1 P 2n",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-009",
+   "hash": "cf102e0cc5a3a41d",
+   "question": "Two masses 400 g and 350 g are suspended from the ends of a light string passing over a heavy pulley of radius 2 cm. When released from rest the heavier mass is observed to fall 81 cm in 9 s. The rotational inertia of the pulley is ____ kg ⋅ m . (g = 9.8 m/s ) 2 2",
    "options": [
-    "650",
-    "675",
-    "525",
-    "580"
+    "4.75 × 10 −3",
+    "9.5 × 10−3",
+    "1.86 × 10 −2",
+    "8.3 × 10−3 #PaperPhodnaHai www.mathongo.com Rotational Motion JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
    "correct": 1,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-012",
+   "hash": "4e660c27062dc015",
+   "question": "The following diagram shows a Zener diode as a voltage regulator. The Zener diode is rated at V = 5 V and the z desired current in load is 5 mA. The unregulated voltage source can supply upto 25 V. Considering the Zener diode can withstand four times of the load current, the value of resistor R (shown in circuit) should be ____ Ω. S",
+   "options": [
+    "100",
+    "1000",
+    "10",
+    "None of the above"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-014",
-   "hash": "00c5403e6436b0d2",
-   "question": "If the coefficient of x in the expansion of (ax + bx + c)(1 − 2x) 2 26 is -56 and the coefficients of x and x are 2 3 both zero, then a + b + c is equal to :",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-012",
+   "hash": "e4c8aba56917e92d",
+   "question": "Two p-n junction diodes D and D are connected as shown in figure. A and B are input signals and C is the output. 1 2 The given circuit will function as a ____.",
    "options": [
-    "1500",
-    "1300",
-    "1403",
-    "1483"
+    "NOR Gate",
+    "NAND Gate",
+    "OR Gate",
+    "AND Gate"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-009",
+   "hash": "dcee6023c97a5bfd",
+   "question": "Identify the correct truth table of the given logic circuit.",
+   "options": [
+    "A B Y",
+    "A B Y",
+    "A B Y",
+    "A B Y 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1 1 0 1 1 1 0 1 1 0 1 1 0 1 1 0 #PaperPhodnaHai www.mathongo.com Semiconductors JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-007",
+   "hash": "86989e55e63caa79",
+   "question": "The correct truth table for the given input data of the following logic gate is : Inputs",
+   "options": [
+    "A B C D Y",
+    "A B C D Y 1 1 0 1 0 1 1 0 1 0 0 0 1 1 0 0 0 1 1 1 1 0 1 0 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1",
+    "A B C D Y",
+    "A B C D Y 1 1 0 1 1 1 1 0 1 1 0 0 1 1 0 0 0 1 1 0 1 0 1 0 0 1 0 1 0 1 1 1 1 1 1 1 1 1 1 0"
    ],
    "correct": 2,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
+   "chapter": "EMI",
+   "topic": "EMI",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-013",
-   "hash": "5204b099637555e3",
-   "question": "k Let S = 1 25! + 1 3!23! + 1 5!21! + … up to 13 terms. If 13 S = 2 n! ,k ∈ N , then n + k is equal to",
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-012",
+   "hash": "20e022a16e682603",
+   "question": "Find the correct combination of A, B, C and D inputs which can cause the LED to glow.",
    "options": [
-    "50",
-    "49",
-    "52",
-    "51 #PaperPhodnaHai www.mathongo.com Binomial Theorem JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-016",
-   "hash": "4e5ab3039a9029bf",
-   "question": "Let the circle x + y = 4 intersect x-axis at the points A(a, 0), a > 0 and B(b, 0). Let P(2 cos α, 2 sin α), 2 2 0 < α < π 2 and Q(2 cos β, 2 sin β) be two points such that (α − β) = π 2 . Then the point of intersection of AQ and BP lies on :",
-   "options": [
-    "x + y − 4y − 4 = 0 2 2",
-    "x + y − 4x − 4y = 0 2 2",
-    "x + y − 4x − 4 = 0 2 2",
-    "x + y − 4x − 4y − 4 = 0 2 2"
+    "1101",
+    "0011",
+    "1000",
+    "0100"
    ],
    "correct": 0,
-   "chapter": "Circle",
-   "topic": "Circle",
+   "chapter": "EMI",
+   "topic": "EMI",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-015",
-   "hash": "f77b02d154caf7a6",
-   "question": "Let the set of all values of r, for which the circles (x + 1) + (y + 4) = r and x + y − 4x − 2y − 4 = 0 2 2 2 2 2 intersect at two distinct points be the interval (α, β). Then αβ is equal to",
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-008",
+   "hash": "d46ed832ee841637",
+   "question": "For the given logic gate circuit, which of the following is the correct truth table?",
+   "options": [
+    "n m z",
+    "n m z",
+    "n m z",
+    "n m z 0 0 0 0 0 1 0 0 1 0 0 1 0 1 1 0 1 0 0 1 0 0 1 1 1 1 0 1 1 1 1 1 0 1 1 0 1 0 1 1 0 0 1 0 0 1 0 0 #PaperPhodnaHai www.mathongo.com Semiconductors JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-007",
+   "hash": "2307d5d832101dab",
+   "question": "The given circuit works as :",
+   "options": [
+    "AND gate",
+    "NAND gate",
+    "NOR gate",
+    "OR gate"
+   ],
+   "correct": 1,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-011",
+   "hash": "d4e9314c13a2f65b",
+   "question": "Assuming in forward bias condition there is a voltage drop of 0.7 V across a silicon diode, the current through diode D1 in the circuit is ____ mA. (Assume all diodes in the given circuit are identical)",
+   "options": [
+    "17.6",
+    "18.8",
+    "11.7",
+    "20.15"
+   ],
+   "correct": 1,
+   "chapter": "EMI",
+   "topic": "EMI",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-013",
+   "hash": "d734d219dfe0ec84",
+   "question": "Rods x and y of equal dimensions but of different materials are joined as shown in figure. Temperatures of end points A and F are maintained at 100 C and 40 C respectively. Given the thermal conductivity of rod x is three ∘ ∘ times of that of rod y, the temperature at junction points B and E are (close to):",
+   "options": [
+    "80 C and 70 C respectively ∘ ∘",
+    "80 C and 60 C respectively ∘ ∘",
+    "60 C and 45 C respectively ∘ ∘",
+    "89 C and 73 C respectively ∘ ∘"
+   ],
+   "correct": 3,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-008",
+   "hash": "ca25f886b795cf59",
+   "question": "An aluminium and steel rods having same lengths and cross-sections are joined to make total length of 120 cm at ∘ 30 C . The coefficient of linear expansion of aluminium and steel are 24 × 10 −6 / C ∘ and 1.2 × 10 −5 ∘ / C , respectively. The length of this composite rod when its temperature is raised to 100 C, is ____ cm. ∘",
+   "options": [
+    "120.20",
+    "120.15",
+    "120.06",
+    "120.03"
+   ],
+   "correct": 1,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-009",
+   "hash": "bb9c191b52fed4a7",
+   "question": "A gas based geyser heats water flowing at the rate of 5.0 litres per minute from 27 C to 87 C. The rate of ∘ ∘ consumption of the gas is ____ g/s. (Take heat of combustion of gas = 5.0 × 10 J/g) specific heat capacity of water = 4200 J/kg ⋅ C 4 ∘",
+   "options": [
+    "0.42",
+    "2.1",
+    "0.21",
+    "4.2"
+   ],
+   "correct": 0,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-012",
+   "hash": "57f3052ede77e760",
+   "question": "10 kg of ice at −10 C is added to 100 kg of water to lower its temperature from 25 C. Consider no heat exchange ∘ ∘ to surroundings. The decrement to the temperature of water is ____ C.∘ (specific heat of ice = 2100 J/Kg. C, specific heat of water = 4200 J/Kg. C, latent heat of fusion of ice ∘ ∘ = 3.36 × 10 5 ) J/Kg",
+   "options": [
+    "6.67",
+    "11.6",
+    "15",
+    "10"
+   ],
+   "correct": 3,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-010",
+   "hash": "142cfbdc3f21c5ce",
+   "question": "A brass wire of length 2 m and radius 1 mm at 27 C is held taut between two rigid supports. Initially it was cooled ∘ to a temperature of −43 C creating a tension T in the wire. The temperature to which the wire has to be cooled in ∘ order to increase the tension in it to 1.4T , is ____ C. ∘",
+   "options": [
+    "-86",
+    "-65",
+    "-71",
+    "-80 #PaperPhodnaHai www.mathongo.com Thermal Properties of Matter JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Properties Of Matter",
+   "topic": "Properties Of Matter",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-010",
+   "hash": "3b1f4724bd2cb7c4",
+   "question": "10 mole of an ideal gas is undergoing the process shown in the figure. The heat involved in the process from P to 1 P2 is α Joule (P = 21.7 Pa and P = 30 Pa, C = 21 J/K. mol, R = 8.3 J/mol. K). The value of α is ____. 1 2 v",
    "options": [
     "21",
-    "24",
-    "20",
-    "25"
-   ],
-   "correct": 3,
-   "chapter": "Circle",
-   "topic": "Circle",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-016",
-   "hash": "9ef131c20bd2c1a7",
-   "question": "If the points of intersection of the ellipses x + 2y − 6x − 12y + 23 = 0 and 4x + 2y − 20x − 12y + 35 = 0 lie 2 2 2 2 on a circle of radius r and centre (a, b), then the value of ab + 18r is 2",
-   "options": [
-    "52",
-    "53",
-    "51",
-    "55"
-   ],
-   "correct": 3,
-   "chapter": "Circle",
-   "topic": "Circle",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-015",
-   "hash": "3467686ae0d93efe",
-   "question": "→ → → → → → Let c and d be vectors such that |c + d| = √29 and c × (2^i + 3^j + 4^ k) = (2^ j + 4k) × d. If λ , λ (λ > λ ) i + 3^ ^ 1 2 1 2 → ⋅ (−7^i + 2^j + 3k) are the possible values of (c→ + d) ^ , then the equation 2 K x 2 + (K 2 − 5 K + λ1)xy + (3 K + λ2 2 )y 2 − 8x + 12y + λ2 = 0 represents a circle, for K equal to :",
-   "options": [
-    "1",
-    "4",
-    "-1",
-    "2 #PaperPhodnaHai www.mathongo.com Circle Questions with Answer Keys"
+    "15",
+    "28",
+    "24"
    ],
    "correct": 0,
-   "chapter": "Circle",
-   "topic": "Circle",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
    "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-016",
-   "hash": "3b89f9b02aa43990",
-   "question": "Let PQ and MN be two straight lines touching the circle x + y − 4x − 6y − 3 = 0 at the points A and B respectively. Let O be the centre of the circle and ∠AOB = π/3. Then the locus of the point of intersection of the lines PQ and MN is :",
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-009",
+   "hash": "1a7a6ac4a0eeb8a2",
+   "question": "One mole of an ideal diatomic gas expands from volume V to 2 V isothermally at a temperature 27 C and does W∘ joule of work. If the gas undergoes same magnitude of expansion adiabatically from 27 C doing the same amount of ∘ work W , then its final temperature will be (close to) ____ C. ∘ (log 2 = 0.693) e",
    "options": [
-    "x + y − 12x − 18y − 25 = 0 2",
-    "x + y − 18x − 12y − 25 = 0 2 2 2 ∣∣ ∣ ∣",
-    "3 (x + y ) − 18x − 12y + 25 = 0 2 2",
-    "3 (x + y ) − 12x − 18y − 25 = 0 2 2"
-   ],
-   "correct": 2,
-   "chapter": "Circle",
-   "topic": "Circle",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-013",
-   "hash": "71486e1734893ce9",
-   "question": "Let z be a complex number such that |z − 6| = 5 and |z + 2 − 6i| = 5. Then the value of z + 3z − 15z + 141 is 3 2 equal to",
-   "options": [
-    "50",
-    "61",
-    "37",
-    "42 #PaperPhodnaHai www.mathongo.com Complex Number JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-016",
-   "hash": "ebd376490e0ef054",
-   "question": "5π The value of the integral ∫ 24 π 3 dx is : 24 1+√ tan 2x",
-   "options": [
-    "π 3",
-    "π 12",
-    "π 18",
-    "π 6"
-   ],
-   "correct": 1,
-   "chapter": "Definite-Integration",
-   "topic": "Definite-Integration",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-017",
-   "hash": "1f639de6d2545954",
-   "question": "π Let [⋅] denote the greatest integer function. Then ∫ is equal to : 2 12(3+[x]) π ( )dx − 3+[sin x]+[cos x] 2",
-   "options": [
-    "13π + 1",
-    "12π + 5",
-    "11π + 2",
-    "15π + 4"
-   ],
-   "correct": 2,
-   "chapter": "Definite-Integration",
-   "topic": "Definite-Integration",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-016",
-   "hash": "177300bce5d29896",
-   "question": "Let f (x) = [x] − [x + 3] − 3, x ∈ R, where [] is the greatest integer funtion. Then 2",
-   "options": [
-    "∫ 2 f (x)dx = −6 0",
-    "f (x) < 0 only for x ∈ [−1, 3)",
-    "f (x) > 0 only for x ∈ [4, ∞)",
-    "f (x) = 0 for finitely many values of x"
-   ],
-   "correct": 1,
-   "chapter": "Definite-Integration",
-   "topic": "Definite-Integration",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-016",
-   "hash": "c9fa989c4071476b",
-   "question": "π The value of ∫ 2 − π ( 1 [x]+4 )dx , where [⋅] denotes the greatest integer function, is 2",
-   "options": [
-    "60 1 (21π − 1)",
-    "7 60 (π − 3)",
-    "60 7 (3π − 1)",
-    "1 60 (π − 7)"
-   ],
-   "correct": 2,
-   "chapter": "Definite-Integration",
-   "topic": "Definite-Integration",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-017",
-   "hash": "edb3184c3c805d9f",
-   "question": "11 The value of ∫ is equal to: π/6 π+4x ( )dx −π/6 1−sin(|x|+π/6)",
-   "options": [
-    "8π",
-    "6π",
-    "2π",
-    "4π"
+    "-30",
+    "-189",
+    "-117",
+    "-56"
    ],
    "correct": 3,
-   "chapter": "Definite-Integration",
-   "topic": "Definite-Integration",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
    "year": "2026",
-   "subject": "Maths",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-010",
+   "hash": "93c873d1bddf1451",
+   "question": "The internal energy of a monoatomic gas is 3 nRT. One mole of helium is kept in a cylinder having internal cross section area of 17 cm and fitted with a light movable frictionless piston. The gas is heated slowly by suppling 126 J 2 heat. If the temperature rises by 4 C, then the piston will move ____ cm. ∘ (atmospheric pressure = 10 Pa)5",
+   "options": [
+    "1.45",
+    "15.5",
+    "1.55",
+    "14.5"
+   ],
+   "correct": 1,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-013",
+   "hash": "8369d6983e3fc358",
+   "question": "In the following p − V diagram the equation of state along the curved path is given by (V − 2) = 4ap where a is a 2 constant. The total work done in the closed path is",
+   "options": [
+    "+ 1 3a",
+    "− 3a 1",
+    "1 2a",
+    "− 1 a"
+   ],
+   "correct": 1,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-011",
+   "hash": "d1aa62822f0ca35b",
+   "question": "Density of water at 4 C and 20 C are 1000 kg/m and 998 kg/m respectively. The increase in internal energy of 4 ∘ ∘ 3 3 kg of water when it is heated from 4 C to 20 C is ____ J. ∘ ∘ (specific heat capacity of water = 4.2 J/kg. and 1 atmospheric pressure = 10 Pa) 5",
+   "options": [
+    "234699.2",
+    "315826.2",
+    "258700.8",
+    "268799.2 #PaperPhodnaHai www.mathongo.com Thermodynamics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-011",
+   "hash": "1e77126eb88e0998",
+   "question": "Keeping the significant figures in view, the sum of the physical quantities 52.01 m, 153.2 m and 0.123 m is :",
+   "options": [
+    "205.3 m",
+    "205.333 m",
+    "205.33 m",
+    "205 m"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-013",
+   "hash": "3c77ebad2ee551a3",
+   "question": "Match List - I with List - II. List - I List - II −1 −1 A. Coef f icient of viscosity I. [M L T ] 0 −2 B. Surf ace tension II. [M L T ] −1 −2 C. Pressure III. [M L T ] 2 −2 D. Surf ace energy IV . [M L T ] Choose the correct answer from the options given below :",
+   "options": [
+    "A-IV, B-III, C-I, D-II",
+    "A-IV, B-I, C-II, D-III",
+    "A-I, B-II, C-IV, D-III",
+    "A-I, B-III, C-II, D-IV"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-008",
+   "hash": "e0ca7470b2c0d710",
+   "question": "If ϵ, E and t represent the free space permittivity, electric field and time respectively, then the unit of ϵE t will be :",
+   "options": [
+    "Am 2",
+    "Am",
+    "A/m 2",
+    "A/m"
+   ],
+   "correct": 2,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-014",
+   "hash": "5117a55e2b5cb9cd",
+   "question": "Match the LIST-I with LIST-II List-I List-II 2 −2 −1 A. Spring constant I. ML T K 0 −2 B. Thermal conductivity II. ML T 2 −3 −2 C. Boltzmann constant III. ML T A −3 −1 D. Inductive reactance IV . MLT K Choose the correct answer from the options given below:",
+   "options": [
+    "A-II, B-IV, C-I, D-III",
+    "A-I, B-IV, C-II, D-III",
+    "A-II, B-I, C-IV, D-III",
+    "A-III, B-II, C-IV, D-I #PaperPhodnaHai www.mathongo.com Units and Dimensions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-010",
+   "hash": "e300a2df3de5c391",
+   "question": "Consider a modified Bernoulli equation. (P + A 2 Bt ) + ρg(h + Bt) + 1 2 ρV 2 = constant If t has the dimension of time then the dimensions of A and B are ____, ____ respectively.",
+   "options": [
+    "[ML T 0 −2 ] and [M LT 0 −2 ]",
+    "[ML T 0 −2 ] and [M LT 0 −1 ]",
+    "[ML T 0 −1 ] and [M LT] 0",
+    "[ML T 0 −1 ] and [M LT 0 −1 ]"
+   ],
+   "correct": 3,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-012",
+   "hash": "d3b7f1f23c22b424",
+   "question": "Match the LIST-I with LIST-II List-I List-II −2 −2 A. Magnetic induction I. MLT A 2 −2 −2 B. Magnetic f lux II. ML T A 0 −2 −1 C. Magnetic permeability III. ML T A 2 −2 −1 D. Self inductance IV. ML T A Choose the correct answer from the options given below:",
+   "options": [
+    "A-III, B-IV, C-II, D-I",
+    "A-III, B-IV, C-I, D-II",
+    "A-IV, B-III, C-I, D-II",
+    "A-I, B-III, C-IV, D-II #PaperPhodnaHai www.mathongo.com Units and Dimensions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-012",
+   "hash": "ffa813663b03f44b",
+   "question": "Given below are two statements : Statement I : In a Young's double slit experiment, the angular separation of fringes will increase as the screen is moved away from the plane of the slits Statement II: In a Young's double slit experiment, the angular separation of fringes will increase when monochromatic source is replaced by another monochromatic source of higher wavelength. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 1,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-011",
+   "hash": "85b4dd98112598a0",
+   "question": "In the Young's double slit experiment the intensity produced by each one of the individual slits is I . The distance 0 between two slits is 2 mm. The distance of screen from slits is 10 m. The wavelength of light is 6000 A . The ∘ intensity of light on the screen in front of one of the slits is ____.",
+   "options": [
+    "Io 2",
+    "2I o",
+    "4I o",
+    "I o #PaperPhodnaHai www.mathongo.com Wave Optics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-009",
+   "hash": "b2e5e9f22acfb16a",
+   "question": "Which of the following are true for a single slit diffraction? A. Width of central maxima increases with increase in wavelength keeping slit width constant. B. Width of central maxima increases with decrease in wavelength keeping slit width constant. C. Width of central maxima increases with decrease in slit width at constant wavelength. D. Width of central maxima increases with increase in slit width at constant wavelength. E. Brightness of central maxima increases for decrease in wavelength at constant slit width.",
+   "options": [
+    "A, C, E only",
+    "A, D only",
+    "B, D only",
+    "B, C only"
+   ],
+   "correct": 0,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-011",
+   "hash": "6ad901bab8050949",
+   "question": "When an unpolarized light falls at a particular angle on a glass plate (placed in air), it is observed that the reflected beam is linearly polarized. The angle of refracted beam with respect to the normal is ____. (tan −1 ∘ (1.52) = 57.7 , refractive indices of air and glass are 1.00 and 1.52, respectively.)",
+   "options": [
+    "39.6 ∘",
+    "32.3 ∘",
+    "36.3 ∘",
+    "42.6 ∘"
+   ],
+   "correct": 1,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-011",
+   "hash": "6d1a40d3756b74c2",
+   "question": "In a double slit experiment the distance between the slits is 0.1 cm and the screen is placed at 50 cm from the slits plane. When one slit is covered with a transparent sheet having thickness t and refractive index n(= 1.5), the central fringe shifts by 0.2 cm. The value of t is ____ cm.",
+   "options": [
+    "5.0 × 10 −3",
+    "6.0 × 10 −3",
+    "8 × 10 −4",
+    "5.6 × 10 −4"
+   ],
+   "correct": 2,
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "year": "2026",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   }

@@ -1601,7 +1601,7 @@ export const TARGET_QUESTIONS = [
   }
   ,{
     "id": 338,
-    "question": "Match the metals (column I) with the coordination compound(s)/enzyme(s) (column II) .tg {border-collapse:collapse;border-spacing:0;width:100%} .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg .tg-x1hj{font-size:22px;border-color:inherit;text-align:left;vertical-align:top} .tg .tg-nhda{font-size:22px;border-color:inherit;text-align:center} .tg .tg-9d8n{font-size:22px;border-color:inherit;text-align:center;vertical-align:top} .tg .tg-c4o0{font-size:22px;border-color:inherit;text-align:left} (Column I) Metals (Column II) Coordination compounds(s) enzyme(s) (A) Co (i) Wilkinson catalyst (B) Zn (ii) Chlorophyl (C) Rh (iii) Vitamin B12 (D) Mg (iv) Carbonic anhydrase",
+    "question": "Match the metals (column I) with the coordination compound(s)/enzyme(s) (column II)  (Column I) Metals (Column II) Coordination compounds(s) enzyme(s) (A) Co (i) Wilkinson catalyst (B) Zn (ii) Chlorophyl (C) Rh (iii) Vitamin B12 (D) Mg (iv) Carbonic anhydrase",
     "options": [
       "(A)-(iii); (B)-(iv); (C)-(i); (D)-(ii)",
       "(A)-(iv); (B)-(iii); (C)-(i); (D)-(ii)",
@@ -1623,7 +1623,7 @@ export const TARGET_QUESTIONS = [
       "2 and 1"
     ],
     "correct": 3,
-    "solution": "",
+    "solution": "In $\\mathrm{Co_2(CO)_8}$ the two cobalt atoms are joined by one Co–Co bond, and two CO ligands bridge the metal centres (the remaining six CO ligands are terminal). Hence: 2 bridging CO ligands and 1 Co–Co bond.",
     "chapter": "Chemistry",
     "topic": "Coordination Compounds"
   }
@@ -3327,7 +3327,7 @@ export const TARGET_QUESTIONS = [
   },
   {
     "id": 487,
-    "question": "Match List-I with List-II\n\n.tg  {border-collapse:collapse;border-spacing:0;}\n.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n\n\nList - I\n\nList - II\n\n\n\n\n(A)\nLyophilic colloid\n(I)\nLiquid-liquid colloid\n\n\n(B)\nEmulsion\n(II)\nProtective colloid\n\n\n(C)\nPositively charged colloid\n(III)\nFeCl$_3$ + NaOH\n\n\n(D)\nNegatively charged colloid\n(IV)\nFeCl$_3$ + hot water\n\n\n\nChoose the correct answer from the options given below :",
+    "question": "Match List-I with List-II\n\n \n \n \n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n\n\nList - I\n\nList - II\n\n\n\n\n(A)\nLyophilic colloid\n(I)\nLiquid-liquid colloid\n\n\n(B)\nEmulsion\n(II)\nProtective colloid\n\n\n(C)\nPositively charged colloid\n(III)\nFeCl$_3$ + NaOH\n\n\n(D)\nNegatively charged colloid\n(IV)\nFeCl$_3$ + hot water\n\n\n\nChoose the correct answer from the options given below :",
     "options": [
       "(A) - (II), (B) - (I), (C) - (IV), (D) - (III)",
       "(A) - (III), (B) - (I), (C) - (IV), (D) - (II)",
@@ -3957,7 +3957,7 @@ export const TARGET_QUESTIONS = [
   },
   {
     "id": 532,
-    "question": "Match the refining methods (Column I) with metals (Column II).  .tg  {border-collapse:collapse;border-spacing:0;} .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;} .tg .tg-s6z2{text-align:center}    Column I(Refining Methods) Column II(Metals)   (I) Liquation (a) Zr   (II) Zone Refining (b) Ni   (III) Mond Process (c) Sn   (IV) Van Arkel Method (d) Ga",
+    "question": "Match the refining methods (Column I) with metals (Column II).   Column I(Refining Methods) Column II(Metals)   (I) Liquation (a) Zr   (II) Zone Refining (b) Ni   (III) Mond Process (c) Sn   (IV) Van Arkel Method (d) Ga",
     "options": [
       "(I)-(c) ; (II)-(a) ; (III)-(b) ; (IV)-(d)",
       "(I)-(c) ; (II)-(d) ; (III)-(b) ; (IV)-(a)",

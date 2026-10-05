@@ -2,1256 +2,1080 @@
  "batch": 25,
  "items": [
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-033",
-   "hash": "74024189e590a0d1",
-   "question": "Match List-I with List-II List-I List-II Solution of Minimum (A) chloroform and (I) boiling acetone azeotrope Solution of ethanol (B) (II) Dimerizes and water Maximum Solution of benzene (C) (III) boiling and toluene azeotrope Solution of acetic (D) (IV) ΔVmix = 0 acid in benzene Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-110",
+   "hash": "1fa87e40783e22c2",
+   "question": "Let a circle C pass through the points (4, 2) and (0, 2), and its centre lie on 3x + 2y + 2 = 0. Then the length of the chord, of the circle C , whose mid-point is (1, 2), is :",
    "options": [
-    "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
-    "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)",
-    "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
-    "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)"
-   ],
-   "correct": 0,
-   "chapter": "Solutions",
-   "topic": "Solutions",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-034",
-   "hash": "8e708d1469c9d8d8",
-   "question": "40 mL of a mixture of CH COOH and HCl (aqueous solution) is titrated against 0.1 M NaOH solution 3 conductometrically. Which of the following statement is correct?",
-   "options": [
-    "The concentration of CH COOH in the original mixture is 0.005 M 3",
-    "The concentration of HCl in the original mixture is 0.005 M",
-    "CH COOH is neutralised first followed by neutralisation of HCl 3",
-    "Point ' C ' indicates the complete neutralisation HCl Chemical Kinetics Chapter-wise Question Bank JEE Main 2025 April MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-035",
-   "hash": "1d6d8b985c323eab",
-   "question": "Consider the following plots of log of rate constant k(log k) vs 1 T for three different reactions. The correct order of activation energies of these reactions is Chemical Kinetics Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-   "options": [
-    "Ea > Ea > Ea 2 1 3",
-    "Ea > Ea > Ea 1 3 2",
-    "Ea > Ea > Ea 1 2 3",
-    "Ea > Ea > Ea 3 2 1"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-036",
-   "hash": "6cd3b02e770194c4",
-   "question": "Given below are the pairs of group 13 element showing their relation in terms of atomic radius. (B < Al), (Al < Ga), (Ga < In) and (In < Tl) Identify the elements present in the incorrect pair and in that pair find out the element (X) that has higher ionic radius (M 3+ ) that the other one. The atomic number of the element (X) is",
-   "options": [
-    "31",
-    "49",
-    "13",
-    "81"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-037",
-   "hash": "818fea72f5c940fc",
-   "question": "Choose the incorrect trend in the atomic radii (r) of the elements :",
-   "options": [
-    "r Br < rK Classification of Elements and Periodicity in Properties Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-    "r Mg < rAl",
-    "r Rb < rCs",
-    "r Rb < rCs Chemical Bonding and Molecular Structure Chapter-wise Question Bank JEE Main 2025 April MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-038",
-   "hash": "e29384c211d24868",
-   "question": "A molecule with the formula AX 4 Y has all it's elements from p-block. Element A is rarest, monoatomic, non- ​ radioactive from its group and has the lowest ionization enthalpy value among A, X and Y. Elements X and Y have first and second highest electronegativity values respectively among all the known elements. The shape of the molecule is :",
-   "options": [
-    "Square pyramidal",
-    "Octahedral",
-    "Pentagonal planar",
-    "Trigonal bipyramidal"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-039",
-   "hash": "f4a6a78c0ef48bdd",
-   "question": "The nature of oxide (TeO ) and hydride (TeH ) formed by Te , respectively are : 2 2",
-   "options": [
-    "Oxidising and acidic",
-    "Reducing and basic",
-    "Reducing and acidic",
-    "Oxidising and basic"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-040",
-   "hash": "22c8128ebde45b96",
-   "question": "Given below are two statements : Statement I : CrO is a stronger oxidizing agent than MoO 3 3 Statement II : Cr(VI) is more stable than Mo(VI) In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Statement I is false but Statement II is true",
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-042",
-   "hash": "b469505d6f6690eb",
-   "question": "Which one of the following complexes will have Δ = 0 and μ = 5.96 B.M.? 0",
-   "options": [
-    "[Fe(CN) ] 6 4 3+",
-    "[CO(NH ) ] 3 6",
-    "[FeF ] 4 6",
-    "[Mn(SCN) ] 4 6"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-043",
-   "hash": "0aaccbf86354626d",
-   "question": "Match the LIST-I with LIST-II LIST-I LIST-II (Complex/ (Shape & magnetic Species) moment) A. [Ni(CO)4 ] I. Tetrahedral, 2.8 BM 2− B. [Ni(CN)4 ] II. Square planar, 0 BM 2− C. [NiCl4 ] III. Tetrahedral, 0 BM 2− D. [MnBr4 ] IV. Tetrahedral, 5.9 BM Choose the correct answer from the options given below :",
-   "options": [
-    "A-III, B-IV, C-II, D-I",
-    "A-I, B-II, C-III, D-IV",
-    "A-III, B-II, C-I, D-IV Coordination Compounds Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-    "A-IV, B-I, C-III, D-II"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-044",
-   "hash": "6d83ecb5a8fd006c",
-   "question": "The correct order of the complexes [Co(NH ) (H O)] 3+ 3 5 2 (A), 3+ [Co(NH3 ) ] 6 (B), 2+ [Co(CN)6 ] 3− (C) and [CoCl(NH ) ] 3 5 (D) in terms wavelength of light absorbed is :",
-   "options": [
-    "D>A>B>C",
-    "C>B>D>A",
-    "D>C>B>A",
-    "C>B>A>D"
-   ],
-   "correct": 1,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-045",
-   "hash": "bad6accc6397429b",
-   "question": "' X ' is the number of electrons in t 3+ 2g orbitals of the most stable complex ion among [Fe(NH3 ) ] 6 , 3− 3+ [Fe (Cl6 )] 3− , [Fe(C2 O4 ) ] 3 and [Fe(H O) ] . The nature of oxide of vanadium of the type V O is: 2 6 2 X",
-   "options": [
-    "Acidic",
-    "Neutral",
-    "Basic",
-    "Amphoteric Practical Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+    "√3",
+    "2√2",
+    "2√3",
+    "4√2"
    ],
    "correct": 3,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-046",
-   "hash": "1be7ede38a5477df",
-   "question": "Choose the correct tests with respective observations. (A) CuSO 4 (acidified with acetic acid) +K 4 [Fe(CN) 6 ] → Chocolate brown precipitate. ​ ​ ​ (B) FeCl 3 + K 4 [Fe(CN) 6 ] → Prussian blue precipitate. ​ ​ ​ (C) ZnCl 2 + K 4 [Fe(CN) 6 ], neutralised with NH 4 OH → White or bluish white precipitate. ​ ​ ​ ​ (D) MgCl 2 + K 4 [Fe(CN) 6 ] → Blue precipitate. ​ ​ ​ (E) BaCl 2 + K 4 [Fe(CN) 6 ], neutralised with NaOH → White precipitate. ​ ​ ​ Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-111",
+   "hash": "dd35bfb4bc09fbef",
+   "question": "A circle C of radius 2 lies in the second quadrant and touches both the coordinate axes. Let r be the radius of a circle that has centre at the point (2, 5) and intersects the circle C at exactly two points. If the set of all possible values of r is the interval (α, β), then 3β − 2α is equal to :",
    "options": [
-    "A, D and E only",
-    "B, D and E only",
-    "A, B and C only",
-    "C, D and E only General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+    "10",
+    "15",
+    "12",
+    "14"
    ],
    "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-047",
-   "hash": "fc66b813ddce230c",
-   "question": "Which of the following is the correct IUPAC name of given organic compound (X) ?",
+   "id": "JEE-2025-ONLINE-JAN-MTH-112",
+   "hash": "ab3c35e3e0e6a70c",
+   "question": "Two parabolas have the same focus (4, 3) and their directrices are the x-axis and the y -axis, respectively. If these parabolas intersects at the points A and B , then (AB) 2 is equal to :",
    "options": [
-    "2-Bromo-2-methylbut-2-ene",
-    "3-Bromo-3-methylprop-2-ene",
-    "1-Bromo-2-methylbut-2-ene",
-    "4-Bromo-3-methylbut-2-ene"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-048",
-   "hash": "296c4375a9e327ee",
-   "question": "Given below are two statements : In the light of the above statements, choose the most appropriate answer from the options given below :",
-   "options": [
-    "Statement I is correct but statement II is incorrect",
-    "Statement I is incorrect but statement II is correct",
-    "Both statement I and statement II are incorrect",
-    "Both statement I and statement II are correct General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-049",
-   "hash": "cba29bc24367c205",
-   "question": "In Dumas' method for estimation of nitrogen, 0.5 gram of an organic compound gave 60 mL of nitrogen collected at 300 K temperature and 715 mm Hg pressure. The percentage composition of nitrogen in the compound (Aqueous tension at 300 K = 15 mmHg) is",
-   "options": [
-    "1.257",
-    "20.87",
-    "18.67",
-    "12.57 General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+    "392",
+    "384",
+    "192",
+    "96"
    ],
    "correct": 3,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-050",
-   "hash": "6b6b197b134a08f6",
-   "question": "In Dumas' method for estimation of nitrogen 0.4 g of an organic compound gave 60 mL of nitrogen collected at 300 K temperature and 715 mm Hg pressure. The percentage composition of nitrogen in the compound is (Given : Aqueous tension at 300 K = 15 mmHg)",
-   "options": [
-    "15.71%",
-    "20.95%",
-    "17.46%",
-    "7.85% General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-051",
-   "hash": "b66b05a6c7f16add",
-   "question": "In which pairs, the first ion is more stable than the second?",
-   "options": [
-    "(B) & (D) only General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-    "(A) & (B) only",
-    "(B) & (C) only",
-    "(A) & (C) only"
-   ],
-   "correct": 1,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-052",
-   "hash": "f15300696524b16b",
-   "question": "The reactions which cannot be applied to prepare an alkene by elimination, are Choose the correct answer from the option given below :",
-   "options": [
-    "B & E Only",
-    "B, C & D Only",
-    "A, C & D Only",
-    "B & D Only Haloalkanes and Haloarenes Chapter-wise Question Bank JEE Main 2025 April MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-053",
-   "hash": "dcab9d0d103e3e8f",
-   "question": "Match the LIST-I with LIST-II LIST-II LIST-I (Functional Group (Reagent) detected) Sodium double A. bicarbonate I. bond/unsaturation solution Neutral ferric B. II. carboxylic acid chloride ceric C. ammonium III. phenolic - OH nitrate alkaline D. IV. alcoholic - OH KMnO Choose the correct answer from the options given below :",
-   "options": [
-    "A-II, B-III, C-IV, D-I",
-    "A-II, B-III, C-I, D-IV",
-    "A-III, B-II, C-IV, D-I",
-    "A-II, B-IV, C-III, D-I"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-054",
-   "hash": "64e35706d0ee9e4d",
-   "question": "The least acidic compund, among the following is :",
-   "options": [
-    "D",
-    "A",
-    "B",
-    "C"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-055",
-   "hash": "c10a7156db0789f0",
-   "question": "Fat soluble vitamins are : A. Vitamin B 1 B. Vitamin C C. Vitamin E D. Vitamin B 12 E. Vitamin K Choose the correct answer from the options given below :",
-   "options": [
-    "C & D Only",
-    "A & B Only",
-    "B & C Only",
-    "C & E Only"
-   ],
-   "correct": 0,
-   "chapter": "Electrochemistry",
-   "topic": "Electrochemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Electrochemistry and Ionic Conduction",
-   "formulas": [
-    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
-    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
-    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
-    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
-    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
-    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
-    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-001",
-   "hash": "d7d1e89b59730025",
-   "question": "The product of all solutions of the equation e 5(log e x) +3 8 = x ,x > 0 , is :",
-   "options": [
-    "e 8/5",
-    "e 6/5",
-    "e 2",
-    "e"
-   ],
-   "correct": 0,
-   "chapter": "Basic of Mathematics",
-   "topic": "Basic of Mathematics",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-MTH-002",
-   "hash": "86fafc2b9a41c71c",
-   "question": "The number of solutions of the equation ( 9 − 9 + 2) ( x2 − 7 + 3) = 0 is: x x x ​ ​ ​ ​ ​ ​",
+   "id": "JEE-2025-ONLINE-JAN-MTH-113",
+   "hash": "15bab8ef557aeb12",
+   "question": "Let the parabola y = x + px − 3, meet the coordinate axes at the points P, Q and R . If the circle C with centre 2 at (−1, −1) passes through the points P , Q and R, then the area of △P QR is :",
    "options": [
-    "2",
-    "3",
-    "1",
-    "4"
-   ],
-   "correct": 3,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-003",
-   "hash": "e6db3cba96b6b009",
-   "question": "The sum, of the squares of all the roots of the equation x + |2x − 3| − 4 = 0, is 2",
-   "options": [
-    "3(3 − √2)",
-    "6(3 − √2)",
-    "6(2 − √2)",
-    "3(2 − √2)"
-   ],
-   "correct": 2,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-004",
-   "hash": "79040962af6736b7",
-   "question": "If the set of all a ∈ R, for which the equation 2x + (a − 5)x + 15 = 3a has no real root, is the interval (α, β), 2 and X = {x ∈ Z : α < x < β}, then ∑ x∈X x 2 is equal to :",
-   "options": [
-    "2109",
-    "2129",
-    "2119",
-    "2139"
-   ],
-   "correct": 3,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-005",
-   "hash": "2858fe02605f52ef",
-   "question": "The product of all the rational roots of the equation (x − 9x + 11) − (x − 4)(x − 5) = 3, is equal to 2 2",
-   "options": [
-    "14",
-    "21",
-    "28",
-    "7"
-   ],
-   "correct": 0,
-   "chapter": "Quadratic-Equation-And-Inequalities",
-   "topic": "Quadratic-Equation-And-Inequalities",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-006",
-   "hash": "7e5e716e450a85d7",
-   "question": "The number of complex numbers z, satisfying |z| = 1 and ∣ ∣ z z̄ + z̄ z ∣ = 1 ∣ , is :",
-   "options": [
+    "7",
     "4",
-    "8",
-    "10",
-    "6"
-   ],
-   "correct": 1,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-007",
-   "hash": "808f611e849e3e92",
-   "question": "Let ∣z 1 − 8 − 2i∣ ≤ 1 and ∣z 2 − 2 + 6i∣ ≤ 2, z 1 , z 2 ∈ C. Then the minimum value of ∣z 1 − z 2 ∣ is ​ ​ ​ ​ ​ ​ :",
-   "options": [
-    "13",
-    "10",
-    "3",
-    "7"
-   ],
-   "correct": 3,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-008",
-   "hash": "2e3cf6339278cf35",
-   "question": "If α + iβ and γ + iδ are the roots of x − (3 − 2i)x − (2i − 2) = 0, i = √−1, then αγ + βδ is equal to : 2",
-   "options": [
-    "−2",
     "6",
-    "−6",
-    "2 −π"
-   ],
-   "correct": 3,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-009",
-   "hash": "bada41aa91d7aa95",
-   "question": "Let z , z and z be three complex numbers on the circle |z| = 1 with arg(z ) = 1 2 3 1 4 , arg(z2 ) = 0 and . If |z z̄ , then the value of α + β is : π 2 2 2 arg(z3 ) = 1 2 + z2 z̄ 3 + z3 z̄ 1 | = α + β√2, α, β ∈ Z 4",
-   "options": [
-    "24",
-    "29",
-    "41",
-    "31"
-   ],
-   "correct": 1,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-010",
-   "hash": "a257a8533e2c2ebd",
-   "question": "Let the curve z(1 + i) + z̄ (1 − i) = 4, z ∈ C, divide the region |z − 3| ≤ 1 into two parts of areas α and β. Then |α − β| equals :",
-   "options": [
-    "1 + π 2",
-    "1 + π 3",
-    "1 + π 6",
-    "1 + π 4"
+    "5"
    ],
    "correct": 0,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-MTH-011",
-   "hash": "b97243fae82c39ac",
-   "question": "Let ∣∣ z̄ −i 2z̄ +i ∣ ∣ = 1 3 ,z ∈ C , be the equation of a circle with center at C . If the area of the triangle, whose vertices are at the points (0, 0), C and (α, 0) is 11 square units, then α equals: 2",
+   "id": "JEE-2025-ONLINE-JAN-MTH-114",
+   "hash": "0d499177b0acd7b4",
+   "question": "If the line 3x − 2y + 12 = 0 intersects the parabola 4y = 3x at the points A and B, then at the vertex of the 2 parabola, the line segment AB subtends an angle equal to",
    "options": [
-    "50",
-    "100",
-    "81 25",
-    "121 25"
-   ],
-   "correct": 1,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-012",
-   "hash": "cb14b3366e82dec0",
-   "question": "If α and β are the roots of the equation 2z − 3z − 2i = 0, where i = √−1, then 2 19 19 11 11 19 19 11 11 α +β +α +β α +β +α +β 16 ⋅ Re( 15 15 ) ⋅ lm( 15 15 ) is equal to α +β α +β",
-   "options": [
-    "441",
-    "398",
-    "312",
-    "409"
+    "tan −1 ( 4 5 )",
+    "tan −1 ( 9 7 )",
+    "tan −1 ( 11 9 )",
+    "π −1 3 − tan ( ) 2 2"
    ],
    "correct": 0,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-MTH-013",
-   "hash": "44eb2ebf0e9c4c99",
-   "question": "If the first term of an A.P. is 3 and the sum of its first four terms is equal to one-fifth of the sum of the next four terms, then the sum of the first 20 terms is equal to",
+   "id": "JEE-2025-ONLINE-JAN-MTH-115",
+   "hash": "0f3c5dc868f61161",
+   "question": "Let ABCD be a trapezium whose vertices lie on the parabola y 2 = 4x . Let the sides AD and BC of the trapezium be parallel to y -axis. If the diagonal AC is of length 25 4 and it passes through the point (1, 0), then the area of ABCD is",
    "options": [
-    "−1080",
-    "−1020",
-    "−1200",
-    "−120"
-   ],
-   "correct": 0,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-014",
-   "hash": "f69598a55025ee5b",
-   "question": "In an arithmetic progression, if S 40 = 1030 and S 12 = 57 , then S 30 − S10 is equal to :",
-   "options": [
-    "525",
-    "510",
-    "515",
-    "505"
-   ],
-   "correct": 2,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-015",
-   "hash": "56976e9c1dec0454",
-   "question": "Consider an A. P. of positive integers, whose sum of the first three terms is 54 and the sum of the first twenty terms lies between 1600 and 1800. Then its 11 th term is :",
-   "options": [
-    "90",
-    "84",
-    "122",
-    "108"
-   ],
-   "correct": 0,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-016",
-   "hash": "8529da972cb70acb",
-   "question": "Let T be the r term of an A.P. If for some m, T , and 20 ∑ , then 5 m ∑ 1 1 25 2 m th r m = , T25 = Tr = 13 Tr 25 20 r=1 r=m is equal to",
-   "options": [
-    "98",
-    "126",
-    "142",
-    "112"
+    "75 4",
+    "25 2",
+    "125 8",
+    "75 8"
    ],
    "correct": 1,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-MTH-017",
-   "hash": "18bb4a53079df191",
-   "question": "Let a , a , a , … be a G.P. of increasing positive terms. If a a = 28 and a + a = 29, then a is equal to: 1 2 3 1 5 2 4 6",
+   "id": "JEE-2025-ONLINE-JAN-MTH-116",
+   "hash": "930d2cd153afa004",
+   "question": "Let P(4, 4√3) be a point on the parabola y 2 = 4ax and PQ be a focal chord of the parabola. If M and N are the foot of perpendiculars drawn from P and Q respectively on the directrix of the parabola, then the area of the quadrilateral PQMN is equal to :",
    "options": [
-    "628",
-    "812",
-    "526",
-    "784"
-   ],
-   "correct": 3,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-018",
-   "hash": "55899da8a729e7dc",
-   "question": "If 7 = 5 + 1 7 (5 + α) + 1 2 (5 + 2α) + 1 3 (5 + 3α)+ ________ ∞, then the value of α is : 7 7",
-   "options": [
-    "6 7",
-    "6",
-    "1 7",
-    "1"
-   ],
-   "correct": 1,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-019",
-   "hash": "e13a980b2f5f8af8",
-   "question": "If ∑ n r=1 Tr = (2n−1)(2n+1)(2n+3)(2n+5) , then lim n→∞ ∑ n r=1 ( 1 ) is equal to : 64 Tr",
-   "options": [
-    "0",
-    "2 3",
-    "1",
-    "1 3"
-   ],
-   "correct": 1,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-020",
-   "hash": "f4a2f23103fe2e34",
-   "question": "For positive integers n, if 4a n = (n 2 + 5n + 6) and S n = ∑ n k=1 ( 1 ) , then the value of 507S 2025 is : ak",
-   "options": [
-    "540",
-    "675",
-    "1350",
-    "135"
-   ],
-   "correct": 1,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-021",
-   "hash": "a927dfffa698a25c",
-   "question": "Suppose that the number of terms in an A.P. is 2k, k ∈ N . If the sum of all odd terms of the A.P. is 40 , the sum of all even terms is 55 and the last term of the A.P. exceeds the first term by 27, then k is equal to :",
-   "options": [
-    "6",
-    "5",
-    "8",
-    "4"
-   ],
-   "correct": 1,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-022",
-   "hash": "4dc40ec32c0323a1",
-   "question": "Let S n = 1 2 + 1 6 + 1 12 + 1 20 + … upto n terms. If the sum of the first six terms of an A.P. with first term -p and common difference p is √2026 S 2025 , then the absolute difference betwen 20 th and 15 th terms of the A.P. is",
-   "options": [
-    "20",
-    "90",
-    "45",
-    "25"
-   ],
-   "correct": 3,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-023",
-   "hash": "3463a0e95d3d1c9d",
-   "question": "Let ⟨a ⟩ be a sequence such that a = 0, a = n 0 1 1 2 and 2a n+2 = 5an+1 − 3an , n = 0, 1, 2, 3, … . Then ∑ 100 k=1 ak is equal to",
-   "options": [
-    "3a 99 − 100",
-    "3a 100 − 100",
-    "3a 99 + 100",
-    "3a 100 + 100"
-   ],
-   "correct": 1,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-024",
-   "hash": "abadfaf837267842",
-   "question": "If all the words with or without meaning made using all the letters of the word \"KANPUR\" are arranged as in a dictionary, then the word at 440 th position in this arrangement, is :",
-   "options": [
-    "PRNAUK",
-    "PRKANU",
-    "PRKAUN",
-    "PRNAKU"
-   ],
-   "correct": 2,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-025",
-   "hash": "d5f58977f95b7a14",
-   "question": "Group A consists of 7 boys and 3 girls, while group B consists of 6 boys and 5 girls. The number of ways, 4 boys and 4 girls can be invited for a picnic if 5 of them must be from group A and the remaining 3 from group B, is equal to :",
-   "options": [
-    "8750",
-    "9100",
-    "8925",
-    "8575"
-   ],
-   "correct": 2,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-026",
-   "hash": "2ef94c5e89d72892",
-   "question": "The number of different 5 digit numbers greater than 50000 that can be formed using the digits 0 , 1, 2, 3, 4, 5, 6, 7 , such that the sum of their first and last digits should not be more than 8 , is",
-   "options": [
-    "4608",
-    "5720",
-    "5719",
-    "4607"
-   ],
-   "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-027",
-   "hash": "7f717402a82560fc",
-   "question": "Let P be the set of seven digit numbers with sum of their digits equal to 11 . If the numbers in P are formed by using the digits 1,2 and 3 only, then the number of elements in the set P is :",
-   "options": [
-    "173",
-    "164",
-    "158",
-    "161"
-   ],
-   "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-028",
-   "hash": "c43d5c396278c3ce",
-   "question": "From all the English alphabets, five letters are chosen and are arranged in alphabetical order. The total number of ways, in which the middle letter is ' M ', is :",
-   "options": [
-    "5148",
-    "6084",
-    "4356",
-    "14950"
-   ],
-   "correct": 0,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-029",
-   "hash": "cf55578f0b97a5d4",
-   "question": "In a group of 3 girls and 4 boys, there are two boys B and B . The number of ways, in which these girls and 1 2 boys can stand in a queue such that all the girls stand together, all the boys stand together, but B and B are not 1 2 adjacent to each other, is :",
-   "options": [
-    "96",
-    "144",
-    "120",
-    "72"
-   ],
-   "correct": 1,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-030",
-   "hash": "4b44e2f70665b8f8",
-   "question": "The number of words, which can be formed using all the letters of the word \"DAUGHTER\", so that all the vowels never come together, is",
-   "options": [
-    "36000",
-    "37000",
-    "34000",
-    "35000"
-   ],
-   "correct": 0,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-031",
-   "hash": "6cf9e0c504eba9e3",
-   "question": "For some n ≠ 10, let the coefficients of the 5 th, 6 th and 7 th terms in the binomial expansion of (1 + x) n+4 be in A.P. Then the largest coefficient in the expansion of (1 + x) n+4 is:",
-   "options": [
-    "20",
-    "10",
-    "35",
-    "70"
-   ],
-   "correct": 2,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-032",
-   "hash": "a2765d9dca06f9bb",
-   "question": "Suppose A and B are the coefficients of 30 th and 12 th terms respectively in the binomial expansion of (1 + x) 2n−1 . If 2 A = 5 B, then n is equal to :",
-   "options": [
-    "22",
-    "20",
-    "21",
-    "19"
-   ],
-   "correct": 2,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-033",
-   "hash": "325b535899d727bf",
-   "question": "Let α, β, γ and δ be the coefficients of x , x , x and x respectively in the expansion of 7 5 3 5 5 (x + √x 3 − 1) + (x − √x 3 − 1) , x > 1 . If u and v satisfy the equations αu + βv = 18 γu + δv = 20 then u + v equals :",
-   "options": [
-    "5",
-    "3",
-    "4",
+    "17√3 263√3",
+    "8 34√3",
+    "3 343√3",
     "8"
    ],
    "correct": 0,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-MTH-034",
-   "hash": "58e4351ca398f307",
-   "question": "If in the expansion of (1 + x) (1 − x) , the coefficients of x and x are 1 and -2 , respectively, then p + q is p q 2 2 2 equal to :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-117",
+   "hash": "79592fd28e65cf76",
+   "question": "Let the product of the focal distances of the point (√3, 2 y on the ellipse , be . Then the 1 x 7 ) + = 1, (a > b) 2 a 2 b 2 4 absolute difference of the eccentricities of two such ellipses is 1−√3",
    "options": [
-    "18",
-    "13",
-    "8",
-    "20"
-   ],
-   "correct": 1,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-035",
-   "hash": "38c1c89185f625c6",
-   "question": "Let the coefficients of three consecutive terms T , T r r+1 and T r+2 in the binomial expansion of (a + b) 12 be in a G.P. and let p be the number of all possible values of r. Let q be the sum of all rational terms in the binomial expansion of (√3 + √4) . Then p + q is equal to : 4 3 12",
-   "options": [
-    "283",
-    "287",
-    "295",
-    "299"
-   ],
-   "correct": 0,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-036",
-   "hash": "5e201ada170ae3ac",
-   "question": "The least value of n for which the number of integral terms in the Binomial expansion of ( 3 7 + 11 ) n is 12 ​ ​ 183, is :",
-   "options": [
-    "2184",
-    "2196",
-    "2148",
-    "2172"
-   ],
-   "correct": 0,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-037",
-   "hash": "2e31169a32f9a564",
-   "question": "The remainder, when 7 103 is divided by 23 , is equal to :",
-   "options": [
-    "6",
-    "17",
-    "9",
-    "14 11"
-   ],
-   "correct": 3,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-MTH-038",
-   "hash": "4e35e69f3f5b44fd",
-   "question": "Marks obtains by all the students of class 12 are presented in a freqency distribution with classes of equal width. Let the median of this grouped data be 14 with median class interval 12-18 and median class frequency 12 . If the number of students whose marks are less than 12 is 18 , then the total number of students is",
-   "options": [
-    "52",
-    "48",
-    "44",
-    "40"
+    "√2 3−2√2",
+    "2√3 3−2√2",
+    "3√2 1−2√2",
+    "√3 2 2 2 2"
    ],
    "correct": 2,
-   "chapter": "Statistics",
-   "topic": "Statistics",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-118",
+   "hash": "a13b6020e12d059b",
+   "question": "The length of the chord of the ellipse 2 y , whose mid-point is (1, , is : x 1 + = 1 ) 4 2 2",
+   "options": [
+    "5 3 √15",
+    "1 3 √15",
+    "2 3 √15",
+    "√15 2"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-119",
+   "hash": "92cb9350671a0956",
+   "question": "The equation of the chord, of the ellipse 2 y , whose mid-point is (3, 1) is : x + = 1 25 16",
+   "options": [
+    "48x + 25y = 169",
+    "5x + 16y = 31",
+    "25x + 101y = 176",
+    "4x + 122y = 134 Ellipse Chapter-wise Question Bank JEE Main 2025 January MathonGo 2"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-120",
+   "hash": "53e6c767c1e8e233",
+   "question": "Let the foci of a hyperbola be (1, 14) and (1, −12). If it passes through the point (1, 6), then the length of its latus-rectum is :",
+   "options": [
+    "24 5",
+    "25 6",
+    "144 5",
+    "288 5 2 2"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-121",
+   "hash": "bf928dbf49f07a49",
+   "question": "If A and B are the points of intersection of the circle x + y − 8x = 0 and the hyperbola 2 y and a 2 2 x − = 1 9 4 point P moves on the line 2x − 3y + 4 = 0, then the centroid of △PAB lies on the line :",
+   "options": [
+    "x + 9y = 36",
+    "4x − 9y = 12",
+    "6x − 9y = 20",
+    "9x − 9y = 32 2 2"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-122",
+   "hash": "ed2023e5bdd62e31",
+   "question": "Let E : 2 y 2 y and H : . Let the distance between the foci of E and the foci of H be x x + = 1, a > b − = 1 2 2 2 2 a b A B 2√ 3 . If a − A = 2, and the ratio of the eccentricities of E and H is 1 3 , then the sum of the lengths of their latus rectums is equal to:",
+   "options": [
+    "10",
+    "9",
+    "8",
+    "7"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-123",
+   "hash": "36a6bd724c37ed9b",
+   "question": "If sin x + sin x = 1, x ∈ (0, 2 π ) , then (cos 12 x + tan 12 x) + 3 (cos 10 x + tan 10 x+ 2 cos 8 x + tan 8 x) + (cos 6 x + tan 6 x) is equal to :",
+   "options": [
+    "4",
+    "1",
+    "3",
+    "2"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-124",
+   "hash": "818f31b0d15cebe7",
+   "question": "If π ≤ x ≤ 3π , then cos −1 ( 12 cos x + 5 sin x) is equal to 2 4 13 13",
+   "options": [
+    "x − tan −1 4 3",
+    "x + tan −1 4 5",
+    "x − tan −1 12 5",
+    "x + tan −1 12 5"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-125",
+   "hash": "9c8db88baad6c498",
+   "question": "If ∑ , then a + b is equal to : 13 1 2 2 { } = a√3 + b, a, b ∈ Z r=1 π π π rπ sin( +(r−1) ) sin( + ) 4 6 4 6",
+   "options": [
+    "10",
+    "4",
+    "2",
+    "8 Trigonometric Equations Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-126",
+   "hash": "7ee8963ecfb79126",
+   "question": "The sum of all values of θ ∈ [0, 2π] satisfying 2 sin θ = cos 2θ and 2 cos θ = 3 sin θ is 2 2",
+   "options": [
+    "4π",
+    "5π 6",
+    "π",
+    "π 2 Inverse Trigonometric Functions Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-127",
+   "hash": "bedfa160fb9c27b0",
+   "question": "Using the principal values of the inverse trigonometric functions, the sum of the maximum and the minimum 2 2 values of 16 ((sec −1 x) + (cosec −1 x) ) is :",
+   "options": [
+    "24π 2",
+    "22π 2",
+    "31π 2",
+    "18π 2"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-128",
+   "hash": "a65ad678a7bc6efb",
+   "question": "If α > β > γ > 0, then the expression cot 2 2 2 (1+β ) (1+γ ) (1+α ) −1 {β + (α−β) } + cot −1 {γ + (β−γ) }+ cot −1 {α + (γ−α) } is equal to :",
+   "options": [
+    "π",
+    "0",
+    "π 2 − (α + β + γ)",
+    "3π"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-129",
+   "hash": "0a4bc4334e404453",
+   "question": "Let → ^ ^ ^ a = 3 i − j + 2k, → ^ ^ b = a × ( i − 2k) and → ^ c = b × k . Then the projection of → ^ c − 2j → is : on a",
+   "options": [
+    "2√14",
+    "√14",
+    "3√7",
+    "2√7 →"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-130",
+   "hash": "a6a2cd3c9970221a",
+   "question": "Let a π 3 → + 2→b and 3a . If λa → − λ→b are perpendicular to each other, then the number of values of λ in [−1, 3] is :",
+   "options": [
+    "2",
+    "1",
+    "0",
+    "3"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-131",
+   "hash": "e6ccf8d0b7184799",
+   "question": "Let the arc AC of a circle subtend a right angle at the centre O. If the point B on the arc AC , divides the arc AC − −→ − −→ − −→ length of arc AB such that length of arc BC = 1 5 , and OC = αOA + βOB, then α + √2(√3 − 1)β is equal to",
+   "options": [
+    "2√3",
+    "2 − √3",
+    "5√3",
+    "2 + √3 ^ → → = ^i + 2^j + 3k,"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-132",
+   "hash": "c79468400ce7924f",
+   "question": "Let the position vectors of three vertices of a triangle be 4p→ + q→ − 3r→, −5p→ + q→ + 2r→ and 2 p − q + 2 r . If the → → → position vectors of the orthocenter and the circumcenter of the triangle are and αp→ + βq→ + γr→ p +q +r 4 respectively, then α + 2β + 5γ is equal to :",
+   "options": [
+    "3",
+    "4",
+    "1",
+    "6 → → →"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-133",
+   "hash": "74cdd94285907e7f",
+   "question": "Let a = 2 ^i − ^j + 3 k^ , b = 3 ^i − 5 ^j + k^ and c be a vector such that a × c = c × b and ​ ​ ( a + c ) ⋅ ( b + c ) = 168. Then the maximum value of ∣ c ∣ 2 is :",
+   "options": [
+    "462",
+    "77",
+    "154 Vector Algebra Chapter-wise Question Bank JEE Main 2025 January MathonGo",
+    "308 →"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-134",
+   "hash": "ca633b7c1a350569",
+   "question": "Let the position vectors of the vertices A, B and C of a tetrahedron ABCD be ^i + 2^j + k, ^ ^ i + 3 j − 2k and ^ ^ ^ ^ ^ 2i + j − k respectively. The altitude from the vertex D to the opposite face ABC meets the median line √110 segment through A of the triangle ABC at the point E. If the length of AD is 3 and the volume of the √805 tetrahedron is , then the position vector of E is 6√2",
+   "options": [
+    "1 12 ^ ^ ^ (7 i + 4 j + 3k)",
+    "1 2 ^ ^ ^ ( i + 4 j + 7k)",
+    "1 6 ^ ^ ^ (12 i + 12 j + k)",
+    "1 6 ^ ^ ^ (7 i + 12 j + k) Three Dimensional Geometry Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-135",
+   "hash": "e8851ef667044483",
+   "question": "If the square of the shortest distance between the lines y−1 y+3 x−2 1 = 2 = z+3 −3 and x+1 2 = 4 = z+5 −5 is m n , where m, n are coprime numbers, then m + n is equal to :",
+   "options": [
+    "21",
+    "9",
+    "14",
+    "6"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-136",
+   "hash": "25091343aa0e67b4",
+   "question": "If the image of the point (4, 4, 3) in the line x−1 = y−2 = z−1 is (α, β, γ), then α + β + γ is equal to 2 1 3",
+   "options": [
+    "9",
+    "12",
+    "7",
+    "8"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-137",
+   "hash": "7cb13b9c5c0be1bc",
+   "question": "Let A(x, y, z) be a point in xy-plane, which is equidistant from three points (0, 3, 2), (2, 0, 3) and ( 0, 0, 1 ). Let B = (1, 4, −1) and C = (2, 0, −2). Then among the statements (S1) : △ABC is an isosceles right angled triangle, and 9√2 (S2) : the area of △ABC is 2 ,",
+   "options": [
+    "both are true",
+    "only (S2) is true",
+    "only (S1) is true",
+    "both are false"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-138",
+   "hash": "38a0313c59d5c10b",
+   "question": "Let L : y−2 y−4 and L : be two lines. Then which of the following points lies on x−1 z−3 x−2 z−5 1 = = 2 = = 2 3 4 3 4 5 the line of the shortest distance between L and L ? 1 2",
+   "options": [
+    "( 14 3 , −3, 22 3 )",
+    "(− 5 3 , −7, 1)",
+    "(2, 3, 1 3 )",
+    "( 8 3 , −1, 1 3 )"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-139",
+   "hash": "d371e288d57366bd",
+   "question": "Let a line pass through two distinct points P (−2, −1, 3) and Q, and be parallel to the vector 3^i + 2^j + 2k ^ . If the distance of the point Q from the point R(1, 3, 3) is 5 , then the square of the area of △P QR is equal to :",
+   "options": [
+    "148",
+    "136",
+    "144",
+    "140 Three Dimensional Geometry Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-140",
+   "hash": "83e3b99feb021ef5",
+   "question": "The perpendicular distance, of the line y+2 x−1 2 = −1 = z+3 2 from the point P(2, −10, 1) , is :",
+   "options": [
+    "6",
+    "5√2",
+    "4√3",
+    "3√5"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-141",
+   "hash": "806249246da9b3f1",
+   "question": "Let P be the foot of the perpendicular from the point Q(10, −3, −1) on the line x−3 y−2 z+1 7 = −1 = −2 . Then the area of the right angled triangle P QR, where R is the point (3, −2, 1), is",
+   "options": [
+    "9√15",
+    "√30",
+    "8√15",
+    "3√30"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-142",
+   "hash": "c35b2aa433f415bc",
+   "question": "Let in a △ABC , the length of the side AC be 6 , the vertex B be (1, 2, 3) and the vertices A, C lie on the line y−7 . Then the area (in sq. units) of △ABC is: x−6 z−7 = = 3 2 −2",
+   "options": [
+    "17",
+    "21",
+    "56",
+    "42"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-143",
+   "hash": "c923082e4eaadb91",
+   "question": "Let the line passing through the points (−1, 2, 1) and parallel to the line x−1 = y+1 = z intersect the line 2 3 4 x+2 y−3 z−4 3 = 2 = 1 at the point P . Then the distance of P from the point Q(4, −5, 1) is",
+   "options": [
+    "5",
+    "5√5",
+    "5√6",
+    "10 Three Dimensional Geometry Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-144",
+   "hash": "6d5770684e9b72d0",
+   "question": "The square of the distance of the point ( 15 , 32 , 7) from the line x+1 = y+3 = z+5 in the direction of the vector 7 7 3 5 7 ^ ^ ^ i + 4 j + 7k is :",
+   "options": [
+    "54",
+    "44",
+    "41",
+    "66"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-145",
+   "hash": "71487a1fae17139a",
+   "question": "Let a = ^i + 2 ^j + k^ and ​ b = 2 ^i + 7 ^j + 3 k^ . Let L 1 : r = (− ^i + 2 ^j + k^ ) + ​ ​ ​ λ a , λ ∈ R and L 2 : r = ( j^ + k^ ) + μ b , μ ∈ R be two lines. If the line L 3 passes through the ​ ​ ​ point of intersection of L 1 and L 2 , and is parallel to a + b , then L 3 passes through the point : ​ ​",
+   "options": [
+    "(5, 17, 4)",
+    "(2, 8, 5)",
+    "(8, 26, 12)",
+    "(−1, −1, 1)"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-146",
+   "hash": "501a45684e9e943e",
+   "question": "Let the point A divide the line segment joining the points P (−1, −1, 2) and Q(5, 5, 10) internally in the ratio − −→ − −→ − −→ − −→ . If O is the origin and (OQ ⋅ OA) − , then the value of r is : 1 2 r : 1(r > 0) |OP × OA| = 10 5",
+   "options": [
+    "√7",
+    "14",
+    "3",
+    "7"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-147",
+   "hash": "a3b0ad30179de0fc",
+   "question": "Let P be the foot of the perpendicular from the point (1, 2, 2) on the line L : x−1 = y+1 = z−2 . Let the line 1 −1 2 → ^ ^ ^ ^ ^ ^ r = (− i + j − 2k) + λ( i − j + k), λ ∈ R , intersect the line L at Q . Then 2(PQ) is equal to : 2",
+   "options": [
+    "25",
+    "19",
+    "29",
+    "27 Three Dimensional Geometry Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-001",
+   "hash": "b2bff1173fc9679c",
+   "question": "Let α and β be the roots of x + √3x − 16 = 0, and γ and δ be the roots of x + 3x − 1 = 0. If P 2 2 n = α n + β n P25 +√3P24 Q −Q and Q n = γ n + δ n , then 2P23 + 25 Q24 23 is equal to",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-002",
+   "hash": "35caabb079491ebf",
+   "question": "Let P n = α n + β n ,n ∈ N . If P 10 = 123, P9 = 76 , P = 47 and P = 1, then the quadratic equation having roots 8 1 1 α and 1 β is :",
+   "options": [
+    "x − x + 1 = 0 2",
+    "x + x − 1 = 0 2",
+    "x − x − 1 = 0 2",
+    "x + x + 1 = 0 2"
+   ],
+   "correct": 1,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-003",
+   "hash": "80859bac578dde91",
+   "question": "Consider the equation x + 4x − n = 0, where n ∈ [20, 100] is a natural number. Then the number of all distinct 2 values of n, for which the given equation has integral roots, is equal to",
+   "options": [
+    "7",
+    "8",
+    "6",
+    "5"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-004",
+   "hash": "1184d5592df21055",
+   "question": "The number of real roots of the equation x|x − 2| + 3|x − 3| + 1 = 0 is :",
+   "options": [
+    "4",
+    "2",
+    "1",
+    "3"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-005",
+   "hash": "22a61714cd484929",
+   "question": "The sum of the squares of the roots of |x + 2| + |x − 2| − 2 = 0 and the squares of the roots of 2 x 2 − 2|x − 3| − 5 = 0 , is",
+   "options": [
+    "26",
+    "36",
+    "30",
+    "24"
+   ],
+   "correct": 1,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-006",
+   "hash": "c81540b75ac94c74",
+   "question": "Let z ∈ C be such that z +3i = 2 + 3i . Then the sum of all possible values of z is 2 z−2+i",
+   "options": [
+    "19 − 2i",
+    "−19 − 2i",
+    "19 + 2i",
+    "−19 + 2i"
+   ],
+   "correct": 1,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-007",
+   "hash": "754011252dd93c53",
+   "question": "Let the product of ω = (8 + i) sin θ + (7 + 4i) cos θ and ω = (1 + 8i) sin θ + (4 + 7i) cos θ be α + iβ, 1 2 i = √−1 . Let p and q be the maximum and the minimum values of α + β respectively.",
+   "options": [
+    "140",
+    "130",
+    "160",
+    "150"
+   ],
+   "correct": 1,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-008",
+   "hash": "817faad8b33d6d1c",
+   "question": "Among the statements (S1) : The set {z ∈ C − {−i} : |z| = 1 and z−i z+i is purely real} contains exactly two elements, and (S2) : The set and is purely imaginary contains infinitely many elements. z−1 {z ∈ C − {−1} : |z| = 1 z+1",
+   "options": [
+    "both are incorrect",
+    "only (S1) is correct",
+    "only (S2) is correct",
+    "both are correct"
+   ],
+   "correct": 2,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-009",
+   "hash": "aa9bd4b5515d4d5a",
+   "question": "Let A = 2 cos θ+i sin θ {θ ∈ [0, 2π] : 1 + 10 Re( ) = 0} . cos θ−3i sin θ Then ∑ θ∈A θ 2 is equal to",
+   "options": [
+    "21 4 π 2",
+    "8π 2",
+    "27 2 π 4",
+    "6π 2"
+   ],
+   "correct": 0,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-010",
+   "hash": "bab60931d8bb7019",
+   "question": "Let z be a complex number such that |z| = 1. If 2+k z = kz, k ∈ R , then the maximum distance of k + ik from 2 ¯ k+ z the circle |z − (1 + 2i)| = 1 is:",
+   "options": [
+    "√5 + 1",
+    "2",
+    "3",
+    "√3 + 1"
+   ],
+   "correct": 0,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-011",
+   "hash": "957306855ca8a24e",
+   "question": "If z , z , z ∈ C are the vertices of an equilateral triangle, whose centroid is z , then ∑ 1 2 3 0 3 k=1 (zk − z0 ) 2 is equal to",
+   "options": [
+    "0",
+    "1",
+    "i",
+    "−i"
+   ],
+   "correct": 0,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-012",
+   "hash": "e38b4abe79b061fb",
+   "question": "If the locus of z ∈ C, such that z−1 z̄ −1 Re( ) + Re( ) = 2 2z+i 2z̄ −i is a circle of radius r and center (a, b) then 15ab 2 is equal to : r",
+   "options": [
+    "24",
+    "12",
+    "18",
+    "16"
+   ],
+   "correct": 2,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-013",
+   "hash": "ec07b084b466ae48",
+   "question": "Let a , a , a … be in an A.P. such that ∑ 1 2 3 12 k=1 a2k−1 = − 72 5 a1 , a1 ≠ 0 . If ∑ n k=1 ak = 0 , then n is:",
+   "options": [
+    "11",
+    "10",
+    "18",
+    "17"
+   ],
+   "correct": 0,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-014",
+   "hash": "156614f0502482e9",
+   "question": "Let a be the n n th term of an A. P. If S n = a1 + a2 + a3 + … + an = 700, a6 = 7 and S = 7, then a is equal to : 7 n",
+   "options": [
+    "56",
+    "65",
+    "64",
+    "70"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-015",
+   "hash": "9c68660e507b015a",
+   "question": "Let a , a , a , … be a G. P. of increasing positive numbers. If a a = 729 and a + a = 1 2 3 3 5 2 4 111 4 , then 24 (a1 + a2 + a3 ) is equal to",
+   "options": [
+    "131",
+    "130",
+    "129",
+    "128"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-016",
+   "hash": "47a43fc2059691ae",
+   "question": "The sum 1 + 1+3 1+3+5 1+3+5+7 2! + 3! + 4! + … upto ∞ terms, is equal to",
+   "options": [
+    "6e",
+    "4e",
+    "3e",
+    "2e"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-017",
+   "hash": "2e6f73012d953450",
+   "question": "Consider two sets A and B, each containing three numbers in A.P. Let the sum and the product of the elements of A be 36 and p respectively and the sum and the product of the elements of B be 36 and q respectively. Let d and D p+q be the common differences of AP's in A and B respectively such that D = d + 3, d > 0. If p−q = 19 5 , then p − q is equal to",
+   "options": [
+    "600",
+    "450",
+    "630",
+    "540"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-018",
+   "hash": "7e801cd4e8c55845",
+   "question": "Let x , x , x , x be in a geometric progression. 2, 7, 9, 5 are subtracted respectively from x , x , x x then the 1 2 3 4 1 2 3 4 resulting numbers are in an arithmetic progression. Then the value of 1 24 (x1 x2 x3 x4 ) is :",
+   "options": [
+    "72",
+    "18",
+    "36",
+    "216"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-019",
+   "hash": "5ec6d6e1d5d1162a",
+   "question": "If the sum of the second, fourth and sixth terms of a G.P. of positive terms is 21 and the sum of its eighth, tenth and twelfth terms is 15309 , then the sum of its first nine terms is :",
+   "options": [
+    "760",
+    "755",
+    "750",
+    "757"
+   ],
+   "correct": 3,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-020",
+   "hash": "47b3ddde718832f3",
+   "question": "1 + 3 + 5 + 7 + 9 + … upto 40 terms is equal to 2 2",
+   "options": [
+    "43890",
+    "41880",
+    "33980",
+    "40870"
+   ],
+   "correct": 1,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-021",
+   "hash": "a35771241344c183",
+   "question": "If the sum of the first 20 terms of the series 4.1 4.2 4.3 4.4 + + + + … 2 4 2 4 2 4 2 4 4+3.1 +1 4+3.2 +2 4+3.3 +3 4+3.4 +4 is m n , where m and n are coprime, then m + n is equal to :-",
+   "options": [
+    "423",
+    "420",
+    "421",
+    "422"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-MTH-022",
+   "hash": "9658694fe080cd22",
+   "question": "Let A = {1, 6, 11, 16, …} and B = {9, 16, 23, 30, …} be the sets consisting of the first 2025 terms of two arithmetic progressions. Then n(A ∪ B) is",
+   "options": [
+    "3814",
+    "4027",
+    "3761",
+    "4003"
+   ],
+   "correct": 2,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
    "subject": "Maths",
    "formula_sheet": null,

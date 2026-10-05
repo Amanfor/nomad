@@ -56,11 +56,22 @@ function processDirectory(dir, subject) {
       
       chapterTitle = chapterTitle.replace(/^[A-Za-z ]*Revision Context:\s*Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^\d+[\s_-]*/, '');
       
-      let section = fm.topic || subject || "Context";
-      if (subject && subject.toLowerCase() !== section.toLowerCase()) {
-         section = subject.charAt(0).toUpperCase() + subject.slice(1) + ' / ' + section;
-      } else if (subject) {
-         section = subject.charAt(0).toUpperCase() + subject.slice(1);
+      // Derive the subject from the first line ("Physics Revision Context: …",
+      // "Mathematics Revision Context: …") so concept browse groups by real
+      // subject instead of every chip reading "Context". Per-file local —
+      // never mutate the `subject` param, it survives across sibling files.
+      let fileSubject = subject;
+      if (!fileSubject) {
+        const sm = body.match(/^\s*(Mathematics|Physics|Chemistry)\b/i)
+          || body.slice(0, 500).match(/\b(Mathematics|Physics|Chemistry)\b/i);
+        if (sm) fileSubject = sm[1].charAt(0).toUpperCase() + sm[1].slice(1).toLowerCase();
+      }
+
+      let section = fm.topic || fileSubject || "Context";
+      if (fileSubject && fileSubject.toLowerCase() !== section.toLowerCase()) {
+         section = fileSubject.charAt(0).toUpperCase() + fileSubject.slice(1) + ' / ' + section;
+      } else if (fileSubject) {
+         section = fileSubject.charAt(0).toUpperCase() + fileSubject.slice(1);
       }
 
       const chunks = body.split(/\n##\s+/);

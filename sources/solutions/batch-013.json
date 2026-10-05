@@ -2,106 +2,42 @@
  "batch": 13,
  "items": [
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-MTH-014",
-   "hash": "ef09687a8d8d4cc9",
-   "question": "∞ log (x) The value of the integral ∫ 2 e dx is: 0 x + 4",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-008",
+   "hash": "fe4209e2c9313bca",
+   "question": "The position of center of mass of three masses 2 kg, 3 kg and 15 kg placed with respect to mid point (p) of normal bisector, as shown in the figure is _______.",
    "options": [
-    "π log",
-    "e",
-    "π log",
-    "e 2 4"
-   ],
-   "correct": 1,
-   "chapter": "Inequalities and absolute value",
-   "topic": "Inequalities and absolute value",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-MTH-015",
-   "hash": "6b55044207ee79cf",
-   "question": "x + y f (x) + f (y) Let f : R → R be a differentiable function such that f ( ) = for all x, y ∈ R, and f (0) = 3. ′ 3 3 Then the minimum value of the function g(x) = 3 + e f (x), is: x",
-   "options": [
-    "3 ( e + 1 )",
-    "3 ( e − 1 ) e e",
-    "3 − e",
-    "3e e"
-   ],
-   "correct": 1,
-   "chapter": "Inequalities and absolute value",
-   "topic": "Inequalities and absolute value",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-MTH-016",
-   "hash": "7b17eeb946597c50",
-   "question": "π/3 2 4 − csc x The value of the integral ∫ ( 4 )dx is: π/6 cos x",
-   "options": [
-    "11",
-    "16",
-    "32",
-    "64 √3 √3 3√ 3 3√ 3"
-   ],
-   "correct": 2,
-   "chapter": "Inequalities and absolute value",
-   "topic": "Inequalities and absolute value",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-001",
-   "hash": "b8d8659f3a9237d2",
-   "question": "In a Vernier calipers, when both jaws touch each other, zero of the Vernier scale is shifted to the right of zero of the main scale and 7 Vernier division coincides with a main scale reading. If the value of 1 main scale division is 1 th mm and there are 10 Vernier scale divisions, then the Vernier caliper has",
-   "options": [
-    "0.07 cm negative zero error",
-    "0.7 cm negative zero error",
-    "0.07 cm positive zero error",
-    "0.7 cm positive zero error"
-   ],
-   "correct": 2,
-   "chapter": null,
-   "topic": null,
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-002",
-   "hash": "2bae5496a8d960dd",
-   "question": "L, C and R represents physical quantities inductance, capacitance and resistance respectively. The dimensional formula M L T 2 −4 A −2 corresponds to __________.",
-   "options": [
-    "R",
-    "R",
-    "C",
-    "1 L √ √ LC LC √ LR R C"
+    "√3",
+    "√3",
+    "(0, 0)",
+    "(1.25, 0) ( , 1.25) ( , 1.0) 4 4"
    ],
    "correct": 0,
-   "chapter": "Resistance And Resistivity",
-   "topic": "Resistance And Resistivity",
+   "chapter": "Center of mass",
+   "topic": "Center of mass",
    "year": "2026",
    "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
+   "formula_sheet": "Center of Mass and Collisions",
+   "formulas": [
+    "$$\\vec{r}_{\\text{cm}} = \\frac{\\sum_{i=1}^N m_i \\vec{r}_i}{\\sum_{i=1}^N m_i} = \\frac{1}{M}\\sum_{i=1}^N m_i \\vec{r}_i$$",
+    "$$x_{\\text{cm}} = \\frac{\\sum m_i x_i}{M}, \\quad y_{\\text{cm}} = \\frac{\\sum m_i y_i}{M}, \\quad z_{\\text{cm}} = \\frac{\\sum m_i z_i}{M}$$",
+    "$$r_1 = x_{\\text{cm}} = \\frac{m_1(0) + m_2(d)}{m_1 + m_2} = \\left(\\frac{m_2}{m_1 + m_2}\\right) d$$",
+    "$$r_2 = d - x_{\\text{cm}} = \\left(\\frac{m_1}{m_1 + m_2}\\right) d$$",
+    "$$m_1 r_1 = m_2 r_2 \\implies \\frac{r_1}{r_2} = \\frac{m_2}{m_1}$$",
+    "$$\\vec{r}_{\\text{cm}} = \\frac{\\int \\vec{r}\\,dm}{\\int dm} = \\frac{1}{M}\\int \\vec{r}\\,dm$$",
+    "$$dm = \\lambda R\\,d\\theta, \\quad y = R \\cos\\theta$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-003",
-   "hash": "cb73e77b0c2a5f83",
-   "question": "When one moves from a point 16 km below the earth's surface to a point 16 km above the earth's surface. The change in g is approximately α %. The value of α is _____. (Take radius of the earth = 6400 km.)",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-009",
+   "hash": "6e927518366bfc4d",
+   "question": "The two wires A and B of equal cross-section but of different materials are joined together. The ratio of Young's modulus of wire A and wire B is 20/11. When the joined wire is kept under certain tension the elongations in the wires A and B are equal. If the length of wire A is 2.2 m, then the length of wire B is _______ m.",
    "options": [
-    "0.12",
-    "0.25",
-    "0.50",
-    "0.75"
+    "1.1",
+    "2.22",
+    "1.21",
+    "4.44"
    ],
-   "correct": 1,
+   "correct": 2,
    "chapter": "Electric Charges And Coulomb'S Law",
    "topic": "Electric Charges And Coulomb'S Law",
    "year": "2026",
@@ -110,32 +46,14 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-004",
-   "hash": "b69784b798178848",
-   "question": "Three masses m 1 = 4 kg, m 2 = 4 kg and m 3 = 6 kg are suspended from a fixed smooth frictionless pulley as shown in the figure below. The value of T /T is _____. 1 2 (take g = 10 m/s ) 2",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-010",
+   "hash": "29bfae3b54487fad",
+   "question": "Two closed vessels of same volume are joined through a narrow tube and both vessels are filled with air of pressure 90 kPa and temperature 400 K. Keeping the temperature of one vessel constant at 400 K the second vessel temperature is raised to 500 K. The final pressure in the vessels is _______ kPa.",
    "options": [
-    "5/3",
-    "2/3",
-    "3/5",
-    "2/5"
-   ],
-   "correct": 0,
-   "chapter": "Electric Charges And Coulomb'S Law",
-   "topic": "Electric Charges And Coulomb'S Law",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-005",
-   "hash": "abed1cec5632239b",
-   "question": "A wedge Y with mass of 10 kg and all frictionless surfaces and the inclined surface making 37° with horizontal. A block X with mass 2 kg is placed at the highest point of the wedge as shown in figure is at rest. At t = 0 wedge (Y ) is pulled toward right with constant force (f ) of 24 N. Taking the block X at rest at t = 0, the time taken by it to slide down 8.8 m on the slope, while Y is on the move, is _____ s. (take tan(37°) = 3/4 and g = 10 m/s ) 2",
-   "options": [
-    "2",
-    "4",
-    "√2",
-    "2√2"
+    "100",
+    "120",
+    "90",
+    "105"
    ],
    "correct": 0,
    "chapter": "Refraction at Curved Surfaces Lenses and Optical Instruments",
@@ -154,134 +72,18 @@
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-006",
-   "hash": "06884e9ca65fb5f6",
-   "question": "The Young's modulus of steel wire of radius r and length L is Y . If the radius r and length L of the wire are doubled then the value of Y",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-011",
+   "hash": "4038bf9729f84e8a",
+   "question": "In interference experiment the path difference between two interfering waves at a point A on the screen is λ/3, where λ is the wavelength of these waves, and at another point B the path difference is λ/6. The ratio of intensities at points A and B is _______.",
    "options": [
-    "increases by two times",
-    "reduces by half",
-    "remains unchanged",
-    "becomes one fourth"
+    "3",
+    "4",
+    "1/3",
+    "1/4"
    ],
    "correct": 2,
-   "chapter": "Electric Charges And Coulomb'S Law",
-   "topic": "Electric Charges And Coulomb'S Law",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-007",
-   "hash": "641ba3c5bae9d8be",
-   "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R Statement I: Change in internal energy of a system containing n mole of ideal gas can be written as nR Cp ΔU = nC v (T f − T i ) = , where γ = (T f − T i ) , T = initial temperature, T i f = final temperature. γ − 1 Cv 2 Statement II: Relation between degree of freedom f and γ(= C /C ) is (γ = 1 + p v ) f Choose the correct answer from the options given below",
-   "options": [
-    "Both A and R are true and R is the correct explanation of A",
-    "Both A and R are true but R is NOT the correct explanation of A",
-    "A is true but R is false",
-    "A is false but R is true"
-   ],
-   "correct": 1,
-   "chapter": "Degree Of Freedom And Law Of Equipartition Of Energy",
-   "topic": "Degree Of Freedom And Law Of Equipartition Of Energy",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-008",
-   "hash": "33199d415ec1278d",
-   "question": "Consider the following statements: A. Zeroth law of thermodynamics gives concept of temperature B. First law of thermodynamics gives concept of internal energy C. In isothermal expansion of ideal gas, ΔQ ≠ ΔW D. Product of intensive and extensive variables is extensive E. The ratio of any extensive variable to mass will be an extensive variable Choose the correct combination of statements from the options given below:",
-   "options": [
-    "C, D and E Only",
-    "A, B and C Only",
-    "A, B and D Only",
-    "B, C and D Only"
-   ],
-   "correct": 2,
-   "chapter": "Degree Of Freedom And Law Of Equipartition Of Energy",
-   "topic": "Degree Of Freedom And Law Of Equipartition Of Energy",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-009",
-   "hash": "882de030251bb195",
-   "question": "Refer to the figure given below. The values of I , I and I are __________. 1 2 3",
-   "options": [
-    "I 1 = 2.5 A, I 2 = 1.875 A, I 3 = 1.875 A",
-    "I 1 = 1.875 A, I 2 = 2.5 A, I 3 = 1.875 A",
-    "I 1 = 1.875 A, I 2 = 1.875 A, I 3 = 2.5 A",
-    "I 1 = 2.5 A, I 2 = 2.5 A, I 3 = 1.875 A"
-   ],
-   "correct": 0,
-   "chapter": null,
-   "topic": null,
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-010",
-   "hash": "a59797ae3f39dd7f",
-   "question": "→ = −2E ^i (E An electron of mass m is moving in an electric field E 0 0 = constant > 0), with an initial velocity → ^ V = v0 i (v 0 = constant > 0). If λ 0 = h , its de Broglie wavelength at time t is __________. 4mv 0 (e = charge of electron)",
-   "options": [
-    "4λ 0",
-    "4λ 0 E0 e t E0 e t [1 − ] [1 + ] 2m v0 2m v0",
-    "4λ 0",
-    "4λ 0 2E 0 e t 2E 0 e t [1 + ] [1 − ] m v0 m v0"
-   ],
-   "correct": 2,
-   "chapter": "Electric Current, Current Density And Drift Velocity",
-   "topic": "Electric Current, Current Density And Drift Velocity",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": "Current Electricity",
-   "formulas": [
-    "$$I = \\frac{\\Delta Q}{\\Delta t}, \\quad I = \\lim_{\\Delta t \\to 0} \\frac{\\Delta Q}{\\Delta t} = \\frac{dQ}{dt}$$",
-    "$$I = \\int \\vec{J} \\cdot d\\vec{A}, \\quad \\vec{J} = n e \\vec{v}_d$$",
-    "$$\\vec{v}_d = -\\frac{e \\vec{E} \\tau}{m}$$",
-    "$$v_d = \\frac{e E \\tau}{m} = \\frac{e V \\tau}{m L}$$",
-    "$$\\mu = \\frac{v_d}{E} = \\frac{e \\tau}{m} \\quad (\\text{m}^2/(\\text{V}\\cdot\\text{s}))$$",
-    "$$I = n e A v_d$$",
-    "$$J = n e v_d = n e \\left( \\frac{e E \\tau}{m} \\right) = \\left( \\frac{n e^2 \\tau}{m} \\right) E$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-011",
-   "hash": "d8e77093dc5994c0",
-   "question": "In the hydrogen atom, the electron makes a transition from the higher orbit (i) to a lower orbit (f ). The ratio of the radius of the orbits in given by r : r i f . The wavelength of photon emitted due to this transition is _____ = 16 : 4 nm. (Given Rydberg constant = 1.0973 × 10 /m) 7",
-   "options": [
-    "121",
-    "242",
-    "486",
-    "974"
-   ],
-   "correct": 2,
-   "chapter": "alpha-particle-scattering-and-rutherford-model-of-atom",
-   "topic": "alpha-particle-scattering-and-rutherford-model-of-atom",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-012",
-   "hash": "3cb5f65114e96b2c",
-   "question": "A displacement current of 4.0 A can be set up in the space between two parallel plates of 6 μF capacitor. The rate of change of potential difference across the plates of the capacitor is nearly α × 10 V/s. The value of α is 6 __________.",
-   "options": [
-    "0.58",
-    "0.67",
-    "0.82",
-    "0.75"
-   ],
-   "correct": 1,
-   "chapter": "Displacement Current And Properties Of Em Waves",
-   "topic": "Displacement Current And Properties Of Em Waves",
+   "chapter": "Electromagnetic Waves",
+   "topic": "Electromagnetic Waves",
    "year": "2026",
    "subject": "Physics",
    "formula_sheet": "Wave Motion and String Waves",
@@ -296,42 +98,42 @@
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-013",
-   "hash": "b2d8b8e0375ec832",
-   "question": "Refer to the figure given below, current between terminals A and B is _____ A.",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-012",
+   "hash": "ff7bb35730b107f4",
+   "question": "A particle is executing simple harmonic motion. Its amplitude is A and time period is 5 sec. The time required by it A to move from x = A to x = is _______ sec. √2",
    "options": [
-    "12.5",
-    "1.25",
-    "7.5",
-    "5"
+    "1/4",
+    "5/4",
+    "5/8",
+    "3/8"
    ],
-   "correct": 1,
-   "chapter": "Electric Current, Current Density And Drift Velocity",
-   "topic": "Electric Current, Current Density And Drift Velocity",
+   "correct": 2,
+   "chapter": "Simple Harmonic Motion",
+   "topic": "Simple Harmonic Motion",
    "year": "2026",
    "subject": "Physics",
-   "formula_sheet": "Current Electricity",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
    "formulas": [
-    "$$I = \\frac{\\Delta Q}{\\Delta t}, \\quad I = \\lim_{\\Delta t \\to 0} \\frac{\\Delta Q}{\\Delta t} = \\frac{dQ}{dt}$$",
-    "$$I = \\int \\vec{J} \\cdot d\\vec{A}, \\quad \\vec{J} = n e \\vec{v}_d$$",
-    "$$\\vec{v}_d = -\\frac{e \\vec{E} \\tau}{m}$$",
-    "$$v_d = \\frac{e E \\tau}{m} = \\frac{e V \\tau}{m L}$$",
-    "$$\\mu = \\frac{v_d}{E} = \\frac{e \\tau}{m} \\quad (\\text{m}^2/(\\text{V}\\cdot\\text{s}))$$",
-    "$$I = n e A v_d$$",
-    "$$J = n e v_d = n e \\left( \\frac{e E \\tau}{m} \\right) = \\left( \\frac{n e^2 \\tau}{m} \\right) E$$"
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-014",
-   "hash": "74ac4e99762b8612",
-   "question": "In Young's double slit experiment, the fringe width of the interference pattern produced on the screen is 2.4 μm. If the experiment is carried out in another medium having refractive index 1.2, the fringe width will be _____ μm.",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-013",
+   "hash": "6b744a00278e5e13",
+   "question": "A thin half ring of radius 35 cm is uniformly charged with a total charge of Q coulomb. If the magnitude of the electric field at centre of the half ring is 100 V/m, then the value of Q is _______ nC. (ϵ o = 8.85 × 10 −12 C /Nm 2 2 and π = 3.14)",
    "options": [
-    "1.2",
-    "2",
-    "2.4",
-    "2.88"
+    "2.14",
+    "2.44",
+    "3.25",
+    "0.7"
    ],
-   "correct": 1,
+   "correct": 0,
    "chapter": "Electric Charges And Coulomb'S Law",
    "topic": "Electric Charges And Coulomb'S Law",
    "year": "2026",
@@ -340,18 +142,18 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-015",
-   "hash": "10901ec65eef1a1d",
-   "question": "A ray of light passing through an equilateral prism is having velocity 2.12 × 10 m/s in the prism material, then the 8 minimum angle of deviation is _________ degrees.",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-014",
+   "hash": "54df53c4c4a56f9e",
+   "question": "The maximum rated power of the LED is 2 mW and it is used in the circuit with input voltage of 5 V as shown in the figure below. The current through resistance R is 0.5 mA. The minimum value of the resistance of R , to S S ensure that the LED is not damaged is _______ kΩ.",
    "options": [
-    "45",
-    "30",
-    "28",
-    "58"
+    "6",
+    "2",
+    "4",
+    "5"
    ],
    "correct": 1,
-   "chapter": "Electric Current, Current Density And Drift Velocity",
-   "topic": "Electric Current, Current Density And Drift Velocity",
+   "chapter": "Electric Power And Heating Effect Of Current",
+   "topic": "Electric Power And Heating Effect Of Current",
    "year": "2026",
    "subject": "Physics",
    "formula_sheet": "Current Electricity",
@@ -366,16 +168,16 @@
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-016",
-   "hash": "c2a5ed83168cbd3c",
-   "question": "Light source having wavelength 331 nm is used to generate photo-electrons whose stopping potential is 0.2 V. The work function of the used metal in the experiment is α × 10 −19 J. The value of α is _____. (h = 6.62 × 10 −34 J s, e = 1.6 × 10 −19 C and c = 3 × 10 m/s) 8",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-015",
+   "hash": "6d4ff966260b4fad",
+   "question": "A point light source emits E.M. waves in free space. A detector, placed at a distance of L m, measures the intensity as I . The detector is now shifted to another location on the same spherical surface ensuring the angle between o original location and new location as 45°. The measured intensity at new location will be _______.",
    "options": [
-    "3.68",
-    "4.68",
-    "5.68",
-    "2.68"
+    "I o",
+    "I o",
+    "Io",
+    "I o 4 √2 2"
    ],
-   "correct": 2,
+   "correct": 1,
    "chapter": "E-M waves",
    "topic": "E-M waves",
    "year": "2026",
@@ -392,60 +194,104 @@
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-017",
-   "hash": "bef6eaa0840a45d6",
-   "question": "A compound microscope is designed with two symmetric biconvex lenses. The objective lens is cut vertically, creating two identical plano-convex lenses. One of them is used in place of original objective lens. To retain same magnification keeping the object distance unchanged, the tube length has to be",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-016",
+   "hash": "50ce9289148a37d9",
+   "question": "A spherical interface lens of radius R separates two media of refractive indices 1 and 1.4 respectively as shown in the figure below. A point source is placed at a distance of 4R in front of spherical interface. The magnitude of the magnification of point source image is _______.",
    "options": [
-    "increased two times",
-    "increased 3 times 2",
-    "decreased two times",
-    "decreased 3 times 2"
+    "1.66",
+    "2.33",
+    "2.66",
+    "1.33"
    ],
    "correct": 0,
-   "chapter": "Lenses",
-   "topic": "Lenses",
+   "chapter": "Reflection Plane and Spherical Mirrors",
+   "topic": "Reflection Plane and Spherical Mirrors",
    "year": "2026",
    "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-018",
-   "hash": "bd22177693071ed1",
-   "question": "Two wires as shown in the figure below, made of steel and have breaking stress of 12 × 10 N/m . Area of cross- 8 2 section of upper wire is 0.008 cm and of lower wire is 0.004 cm . The maximum mass that can be added to pan 2 2 without breaking any wire is _____ kg. (take g = 10 m/s ) 2",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-017",
+   "hash": "5f0d72dd4cc01e0d",
+   "question": "A small cube of side 1 mm is placed at the centre of a circular loop of radius 10 cm carrying a current of 2 A. The magnetic energy stored inside the cube is α × 10 −14 J. The value of α is _______. (μ o = 4π × 10 −7 Tm/A, π = 3.14 )",
    "options": [
-    "56",
-    "38",
-    "96",
-    "5.6"
+    "6.28",
+    "6.28 × 10 −6",
+    "628",
+    "6.28 × 10 −4"
    ],
-   "correct": 1,
-   "chapter": "Center of mass",
-   "topic": "Center of mass",
+   "correct": 0,
+   "chapter": "Magnetic effect of current",
+   "topic": "Magnetic effect of current",
    "year": "2026",
    "subject": "Physics",
-   "formula_sheet": "Center of Mass and Collisions",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
    "formulas": [
-    "$$\\vec{r}_{\\text{cm}} = \\frac{\\sum_{i=1}^N m_i \\vec{r}_i}{\\sum_{i=1}^N m_i} = \\frac{1}{M}\\sum_{i=1}^N m_i \\vec{r}_i$$",
-    "$$x_{\\text{cm}} = \\frac{\\sum m_i x_i}{M}, \\quad y_{\\text{cm}} = \\frac{\\sum m_i y_i}{M}, \\quad z_{\\text{cm}} = \\frac{\\sum m_i z_i}{M}$$",
-    "$$r_1 = x_{\\text{cm}} = \\frac{m_1(0) + m_2(d)}{m_1 + m_2} = \\left(\\frac{m_2}{m_1 + m_2}\\right) d$$",
-    "$$r_2 = d - x_{\\text{cm}} = \\left(\\frac{m_1}{m_1 + m_2}\\right) d$$",
-    "$$m_1 r_1 = m_2 r_2 \\implies \\frac{r_1}{r_2} = \\frac{m_2}{m_1}$$",
-    "$$\\vec{r}_{\\text{cm}} = \\frac{\\int \\vec{r}\\,dm}{\\int dm} = \\frac{1}{M}\\int \\vec{r}\\,dm$$",
-    "$$dm = \\lambda R\\,d\\theta, \\quad y = R \\cos\\theta$$"
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-019",
-   "hash": "d038b50a52e7d477",
-   "question": "An a.c. source of angular frequency ω is connected across a resistor R and a capacitor C in series. The current is observed as I . Now the frequency of the source is changed to ω/4, (keeping the voltage unchanged) the current is found to be I /3. The ratio of resistance to reactance at frequency ω is",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-018",
+   "hash": "88844017be533c8e",
+   "question": "An inductor of inductance 10 mH having resistance of 100 Ω is connected to battery of E.M.F. 1.0 V through a switch as shown in the figure below. After switch is closed, the ratio of instantaneous voltages across the inductor when the current passing through it is 2 mA and 4 mA is _______.",
    "options": [
-    "√ 6",
-    "√ 3",
-    "√ 7",
-    "√ 3 7 5 8 4"
+    "4/3",
+    "3/4",
+    "5/3",
+    "3/5"
    ],
-   "correct": 2,
+   "correct": 0,
+   "chapter": "E-M waves",
+   "topic": "E-M waves",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-019",
+   "hash": "5aba60a80ed4ebc8",
+   "question": "The ratio of momentum of the photons of the 1 and 2 st nd line of Balmer series of Hydrogen atoms is α/β. The possible values of α and β are:-",
+   "options": [
+    "27 and 20",
+    "3 and 16",
+    "5 and 36",
+    "20 and 27"
+   ],
+   "correct": 3,
+   "chapter": "Atoms-And-Nuclei",
+   "topic": "Atoms-And-Nuclei",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-PHY-020",
+   "hash": "0478393b773b57a1",
+   "question": "A LCR series circuit driven with E rms = 90 V at frequency f d = 30 Hz has resistance R = 80 Ω, an inductance with inductive reactance X L = 20.0 Ω and capacitance with capacitive reactance X C . The power factor of = 80.0 Ω the circuit is _______.",
+   "options": [
+    "0.8",
+    "0.64",
+    "0.9",
+    "0.5"
+   ],
+   "correct": 0,
    "chapter": "Resistance And Resistivity",
    "topic": "Resistance And Resistivity",
    "year": "2026",
@@ -454,52 +300,52 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-PHY-020",
-   "hash": "eb9eca2ab4bbb173",
-   "question": "For the given logic circuit, which of the following inputs combination will make both LED−1 and LED−2 to glow?",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-001",
+   "hash": "f3a35e4623c71dba",
+   "question": "An oxide of iron contains 69.9% iron, its empirical formula, is: (Given: Molar mass of Fe and O are 56 and 16 g mol −1 respectively.)",
    "options": [
-    "A = 0, B = 1, C = 1",
-    "A = 1, B = 0, C = 0",
-    "A = 1, B = 0, C = 1",
-    "A = 1, B = 1, C = 0"
-   ],
-   "correct": 2,
-   "chapter": "Rc Circuit",
-   "topic": "Rc Circuit",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-001",
-   "hash": "dabc0a0f6b9ea54a",
-   "question": "How many grams of residue is obtained by heating 2.76 g of silver carbonate? (Given: Molar mass of C, O and Ag are 12, 16 and 108 g mol −1 respectively)",
-   "options": [
-    "1.08 g",
-    "2.16 g",
-    "3.24 g",
-    "4.32 g"
+    "FeO",
+    "Fe O2 3",
+    "Fe O 3 4",
+    "FeO 3"
    ],
    "correct": 1,
-   "chapter": null,
-   "topic": null,
+   "chapter": "general",
+   "topic": "general",
    "year": "2026",
    "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-002",
-   "hash": "d8a544cbcd38a940",
-   "question": "Arrange the following atomic orbitals of multi electron atoms in order of increasing energy. A. n = 3, l = 2, m = +1 B. n = 4, l = 0, m = 0 C. n = 6, l = 1, m = 0 D. n = 5, l = 1, m = +1 E. n = 2, l = 1, m = +1 Choose the correct answer from the options given below:",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-002",
+   "hash": "4abda380d7735577",
+   "question": "Match the LIST-I with LIST-II List-I List-II Orbital Radial nodes and nodal plane A. 2s I. 1 Radial node + two nodal planes B. 3s II. 1 Radial node + one nodal plane C. 3p III. 2 Radial nodes + No nodal plane D. 4d IV. 1 Radial node + No nodal plane Choose the correct answer from the options given below:",
    "options": [
-    "C < D < B < A < E",
-    "B < A < E < C < D",
-    "E < C < D < B < A",
-    "E < B < A < D < C"
+    "A-IV, B-I, C-III, D-II",
+    "A-IV, B-II, C-III, D-I",
+    "A-III, B-I, C-IV, D-II",
+    "A-IV, B-III, C-II, D-I"
    ],
    "correct": 3,
+   "chapter": "S-block",
+   "topic": "S-block",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-003",
+   "hash": "560c5fb81c1622c4",
+   "question": "The pairs among A = [SO 2− 3 , CO 2− 3 , B = [O ] 2− 2 , C = [CN , CO], D = [NH , H O ] and , F2 ] − 3 3 + E = [MnO 2− 4 , CrO 2− 4 ] that do not have similar Lewis dot structure are",
+   "options": [
+    "A, B and E",
+    "A and E",
+    "B, C and D",
+    "C and D"
+   ],
+   "correct": 1,
    "chapter": "D and F Block Elements",
    "topic": "D and F Block Elements",
    "year": "2026",
@@ -516,32 +362,40 @@
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-003",
-   "hash": "6cadc36367445498",
-   "question": "Identify the correct statements from the following: A. Heisenberg uncertainty principle is applicable to electrons. B. The size of 2p orbital is less than the size of 3p orbital. x x C. The energy of 2s orbital of H atom is equal to the energy of 2s orbital of Li. D. The electronic configuration of Cr is [Ar]3d 4s 5 1 Choose the correct answer from the options given below:",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-004",
+   "hash": "3c118645a5384268",
+   "question": "Arrange the following isothermal processes in order of the magnitude of the work (p − V ) involved between states 1 and 2. A. Expansion in single stage w A B. Expansion in multi stages w B C. Compression in single stage w C D. Compression in multi stages w D Choose the correct option.",
    "options": [
-    "A, B and C Only",
-    "A, B and D Only",
-    "B, C and D Only",
-    "A, C and D Only"
+    "|w | > |w | > |w | > |w | B A C D",
+    "|w | > |w | > |w | > |w | C D A B",
+    "|w | > |w | > |w | > |w | C D B A",
+    "|w | > |w | > |w | > |w | B A D C"
    ],
-   "correct": 1,
-   "chapter": "S-block",
-   "topic": "S-block",
+   "correct": 2,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
    "year": "2026",
    "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-004",
-   "hash": "6dfa0f2062185ff8",
-   "question": "What is the mole fraction of water in 10% by weight (w/w) of aqueous urea solution? [Given: Molar mass of H, O, C and N are 1, 16, 12 and 14 g mol −1 respectively.]",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-005",
+   "hash": "3ce3f325fcc047e2",
+   "question": "When 0.25 moles of a non-volatile, non-ionizable solute was dissolved in 1 mole of a solvent the vapor pressure of solution was x% of vapor pressure of pure solvent. What is x%?",
    "options": [
-    "0.825",
-    "0.032",
-    "0.867",
-    "0.967"
+    "50%",
+    "60%",
+    "70%",
+    "80%"
    ],
    "correct": 3,
    "chapter": "Mole concept",
@@ -552,18 +406,18 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-005",
-   "hash": "ca26a9f6a19e2ace",
-   "question": "Arrange the following resultant mixtures in increasing order of their pH values A. 10 mL 0.2 M Ca(OH) + 25 mL 0.1 M HCl 2 B. 10 mL 0.01 M H SO + 10 mL 0.01 M Ca(OH) 2 4 2 C. 10 mL 0.1 M H SO + 10 mL 0.1 M KOH 2 4 Choose the correct answer from the options given below:",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-006",
+   "hash": "417cbb28b3b7fc7d",
+   "question": "One mole each of He and A(g) are taken in a 10 L closed flask and heated to 400 K to establish the following equilibrium. A(g) ⇌ B(g). K for this reaction at 400 K is 4.0. The partial pressures (in atm) of He and B(g) are c respectively (at equilibrium) (Assume He, A(g) and B(g) behave as ideal gases) (Given: R = 0.082 L atm K −1 mol −1 )",
    "options": [
-    "B < C < A",
-    "C < A < B",
-    "C < B < A",
-    "A < C < B"
+    "3.28, 2.624",
+    "2.624, 3.28",
+    "3.28, 0.656",
+    "0.656, 6.56"
    ],
-   "correct": 2,
-   "chapter": "Ionic Equilibrium Acids Bases pH Scale and Buffer Solutions",
-   "topic": "Ionic Equilibrium Acids Bases pH Scale and Buffer Solutions",
+   "correct": 0,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
    "year": "2026",
    "subject": "Chemistry",
    "formula_sheet": "Chemical and Ionic Equilibrium",
@@ -578,35 +432,9 @@
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-006",
-   "hash": "346aca2406781529",
-   "question": "First order gas phase reaction A → B + C pi = initial pressure of gas A, p = total pressure of the reaction mixture at time t t Expression of rate constant (k) is",
-   "options": [
-    "1 ln pi",
-    "1 ln 2p i t 2p i − p t t pi − pt",
-    "1 ln pi",
-    "1 ln 3p i t 3p i − 2p t t 4p i − p t"
-   ],
-   "correct": 0,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-007",
-   "hash": "b564cff99d8827ef",
-   "question": "Given below are two statements: Statement I: The correct order of electronegativity of fluorine, oxygen and nitrogen is F > O > N . Statement II: The oxidation state of oxygen in OF is +2 and in Na O is −2. 2 2 In the light of the above statements, choose the correct answer from the options given below",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-007",
+   "hash": "f9facb00a50eee79",
+   "question": "Given below are two statements: Statement I: Aluminium is more electropositive than thallium as the standard electrode potential value of E ∘ Al 3+ /Al is negative and E ∘ Tl 3+ /Tl is positive. Statement II: The sum of first three ionization enthalpies of boron is very high when compared to that of aluminium. Due to this reason boron forms covalent compounds only and aluminium forms Al 3+ ion. In the light of the above statements, choose the correct answer from the options given below",
    "options": [
     "Both Statement I and Statement II are true",
     "Both Statement I and Statement II are false",
@@ -614,50 +442,6 @@
     "Statement I is false but Statement II is true"
    ],
    "correct": 0,
-   "chapter": "Compounds-Containing-Nitrogen",
-   "topic": "Compounds-Containing-Nitrogen",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-008",
-   "hash": "85245e54d55fc7ab",
-   "question": "Correct statements from the following are: A. Nitrogen in oxidation states from +1 to +4 disproportionates in acid medium. B. Nitrogen has the ability to form dπ − pπ multiple bonds with itself and other elements with small size and high electronegativity. C. N-N single bond is stronger than P-P single bond. D. Nitrogen has highest density in its group due to small size. E. The maximum covalency of nitrogen is four since it has only four valence orbitals for bonding. Choose the correct answer from the options given below:",
-   "options": [
-    "B, C and D Only",
-    "C, D and E Only",
-    "A, C and E Only",
-    "A and E Only"
-   ],
-   "correct": 3,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-009",
-   "hash": "2117f36541a0482b",
-   "question": "Which of the following is NOT a physical or chemical characteristics of interstitial compounds?",
-   "options": [
-    "They have high melting points, higher than those of pure metals.",
-    "They are very soft and ionic in nature.",
-    "They retain metallic conductivity.",
-    "They are chemically inert and usually non-stoichiometric."
-   ],
-   "correct": 1,
    "chapter": "Coordination Compounds",
    "topic": "Coordination Compounds",
    "year": "2026",
@@ -666,68 +450,216 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-010",
-   "hash": "09dc81b5a6dfd463",
-   "question": "The correct statements about metal carbonyls are A. The metal-carbon bonds in metal carbonyls possess both σ and π-character. B. Due to synergic bonding interactions between metal and CO ligand, the metal-carbon bond becomes weak. C. The metal-carbon σ bond is formed by the donation of lone pair of electrons on the carbonyl carbon into a vacant orbital of metal. D. The metal-carbon π bond is formed by the donation of electrons from filled d-orbital of metal into vacant π ∗ orbital of CO. Choose the correct answer from the options given below:",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-008",
+   "hash": "a8387ed4d0150e49",
+   "question": "The correct statements among the following are. A. Basic vanadium oxide is used in the manufacture of H SO . 2 4 B. The spin-only magnetic moment value of the transition metal halide employed in Ziegler-Natta polymerization is 2.84 BM. C. The p-block metal compound employed in Ziegler-Natta polymerization has the metal in +3 oxidation state. D. The number of electrons present in the outer most 'd' orbital of metal halide employed in Wacker process is 8. Choose the correct answer from the options given below:",
    "options": [
     "A and B Only",
     "A, C and D Only",
-    "B and C Only",
-    "A and D Only"
-   ],
-   "correct": 1,
-   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-011",
-   "hash": "9de6144cf31dca57",
-   "question": "Given below are two statements: Statement I: Each electron in e orbitals destabilizes the orbitals by +0.6Δ and each electron in the t g o 2g orbitals stabilizes the orbitals by −0.4Δ in an octahedral field on the basis of crystal field theory. o Statement II: All the d-orbitals of the transition metals have the same energy in their free atomic state but when a complex is formed the ligands destroy the degeneracy of these orbitals on the basis of crystal field theory. In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Both Statement I and Statement II are correct",
-    "Both Statement I and Statement II are incorrect",
-    "Statement I is correct but Statement II is incorrect",
-    "Statement I is incorrect but Statement II is correct"
-   ],
-   "correct": 0,
-   "chapter": "Hybridization-And-Vsepr-Theory",
-   "topic": "Hybridization-And-Vsepr-Theory",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-012",
-   "hash": "2e11ad253a6c9ebc",
-   "question": "Given below are two statements: Statement I: On the basis of inductive effect, the order of stability of alkyl carbanions is CH − 3 > CH -CH 3 − 2 > (CH ) 3 2 CH − > (CH ) C . 3 3 − Statement II: Allyl and benzyl carbanions are more stabilised by inductive effect and not by resonance effect. In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Both Statement I and Statement II are correct",
-    "Both Statement I and Statement II are incorrect",
-    "Statement I is correct but Statement II is incorrect",
-    "Statement I is incorrect but Statement II is correct"
+    "C and D Only",
+    "B, C and D Only"
    ],
    "correct": 2,
-   "chapter": "Electron-Displacement-Effect",
-   "topic": "Electron-Displacement-Effect",
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-009",
+   "hash": "823a1ec34b5c2187",
+   "question": "Match the LIST-I with LIST-II List-I List-II Electronic configuration of tetrahedral metal ion Crystal Field Stabilization Energy (Δ ) t A. d 2 I. −0.6 B. d 4 II. −0.8 C. d 6 III. −1.2 D. d 8 IV. −0.4 Choose the correct answer from the options given below:",
+   "options": [
+    "A-III, B-IV, C-II, D-I",
+    "A-III, B-I, C-IV, D-II",
+    "A-III, B-IV, C-I, D-II",
+    "A-II, B-I, C-IV, D-III"
+   ],
+   "correct": 2,
+   "chapter": "D and F Block Elements",
+   "topic": "D and F Block Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-010",
+   "hash": "4d54586b9e19faa0",
+   "question": "Which of the following are true about the energy of the given d-orbitals of a tetrahedral complex? A. d xy = d xz > d x 2 −y 2 B. d xy = d yz > d z 2 C. d 2 x −y 2 > d z 2 > d xz D. d 2 x −y 2 = d z 2 < d xz Choose the correct answer from the given below:",
+   "options": [
+    "A, B and D only",
+    "A and B only",
+    "B and D only",
+    "B, C and D only"
+   ],
+   "correct": 0,
+   "chapter": "D and F Block Elements",
+   "topic": "D and F Block Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-011",
+   "hash": "3b027af1165a7204",
+   "question": "Rf value for 2-methylpropene in a solvent system (Ethyl acetate + ether) is 0.42. 2-methylpropene is treated with dilute H SO to give major organic product (X). R value for (X) in the same solvent system under identical 2 4 f condition will be:",
+   "options": [
+    "0.42",
+    "0.82",
+    "0.62",
+    "0.12"
+   ],
+   "correct": 3,
+   "chapter": "Basics Of Organic Chemistry",
+   "topic": "Basics Of Organic Chemistry",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Purification and Characterisation of Organic Compounds",
+   "formulas": [
+    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
+    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
+    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
+    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
+    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
+    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
+    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-012",
+   "hash": "2494c3b437ee46fc",
+   "question": "Given below are two statements: Statement I: 2, 6-diethylcyclohexanone and 6-methyl-2-n-propylcyclohexanone are metamers. Statement II: 2, 2, 6, 6-tetramethylcyclohexanone exhibits keto-enol tautomerism. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true"
+   ],
+   "correct": 2,
+   "chapter": "general",
+   "topic": "general",
    "year": "2026",
    "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-013",
-   "hash": "90adc2dd02f0ac70",
-   "question": "For the following Friedel Craft's alkylation reaction, which of the statements are correct? A. Major product is n-propyl benzene. B. iso-propyl carbocation intermediate is also generated. C. Multiple substitution is inevitable. D. Introducing electron-donating substituent on benzene will not produce any alkyl benzene. Choose the correct answer from the options given below:",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-013",
+   "hash": "1e5f8cc84271a90f",
+   "question": "Given below are two statements: Statement I: Methane can be prepared by decarboxylation of sodium ethanoate, Kolbe's electrolysis of sodium acetate and reaction of CH MgBr with water. 3 Statement II: Methane cannot be prepared from unsaturated hydrocarbons and by Wurtz reaction. In the light of the above statements, choose the correct answer from the options given below",
    "options": [
-    "A and D only",
-    "B and C only",
-    "A and C only",
-    "B and D only"
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true"
+   ],
+   "correct": 3,
+   "chapter": "S-block",
+   "topic": "S-block",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-014",
+   "hash": "462cfeb9c2295c6a",
+   "question": "Given below are two statements: Statement I: 3-phenylpropene reacts with HBr and gives secondary alkyl bromide having a chiral carbon atom as the major product. Statement II: Aryl chlorides and aryl cyanides can be prepared by Sandmeyer reaction as well as Gattermann reaction. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true"
+   ],
+   "correct": 2,
+   "chapter": "Structure-Of-Atom",
+   "topic": "Structure-Of-Atom",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-015",
+   "hash": "2e9ef31449721936",
+   "question": "Arrange the following compounds according to increasing order of boiling points. n-C H OH (A), n-C H NH 4 9 4 9 2 (B), n-C H4 10 (C) and C H NHC H (D). 2 5 2 5",
+   "options": [
+    "C < B < A < D",
+    "D < C < B < A",
+    "C < D < B < A",
+    "D < B < A < C"
+   ],
+   "correct": 2,
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-016",
+   "hash": "5fa8892bd80b4060",
+   "question": "Match the LIST-I with LIST-II List-I List-II Deficiency Disease Vitamin A. Scurvy I. Pyridoxine B. Convulsions II. Vitamin A C. Cheilosis III. Ascorbic Acid D. Xerophthalmia IV. Riboflavin Choose the correct answer from the options given below:",
+   "options": [
+    "A-I, B-III, C-II, D-IV",
+    "A-I, B-III, C-IV, D-II",
+    "A-III, B-I, C-IV, D-II",
+    "A-III, B-I, C-II, D-IV"
+   ],
+   "correct": 2,
+   "chapter": "D and F Block Elements",
+   "topic": "D and F Block Elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT1-CHM-017",
+   "hash": "d213018db4362ac4",
+   "question": "Match the LIST-I with LIST-II List-I List-II Amino acid Positive reaction/Test for functional group present in side chain of amino acid A. Glutamine I. Hinsberg's test B. Lysine II. Neutral FeCl test 3 C. Tyrosine III. Ceric ammonium nitrate test D. Serine IV. Hoffman bromamide degradation Choose the correct answer from the options given below:",
+   "options": [
+    "A-IV, B-II, C-I, D-III",
+    "A-IV, B-I, C-II, D-III",
+    "A-III, B-II, C-I, D-IV",
+    "A-IV, B-I, C-III, D-II"
    ],
    "correct": 1,
    "chapter": "S-block",
@@ -738,184 +670,104 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-014",
-   "hash": "664f608c4c869ec5",
-   "question": "Benzyl isocyanide can be obtained from Choose the correct answer from the options given below:",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-001",
+   "hash": "0d74735b3f5af378",
+   "question": "2 2x − 3x + 2 Let f : R → R be defined as f (x) = 2 . Then f is : 3x + x + 3",
    "options": [
-    "A and B Only",
-    "A and C Only",
-    "B and D Only",
-    "D and E Only"
+    "both one-one and onto",
+    "one-one but not onto",
+    "onto but not one-one",
+    "neither one-one nor onto"
+   ],
+   "correct": 3,
+   "chapter": "general",
+   "topic": "general",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-002",
+   "hash": "8d7eef72f739925e",
+   "question": "Consider the quadratic equation (n − 2n + 2)x − 3x + (n − 2n + 2) 2 2 2 2 , n ∈ R. Let α be the minimum value = 0 of the product of its roots and β be the maximum value of the sum of its roots. Then the sum of the first six terms of α the G.P., whose first term is α and the common ratio is , is : β",
+   "options": [
+    "61",
+    "121",
+    "364",
+    "1093 37 81 243 729"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic Equation and Inequalities",
+   "topic": "Quadratic Equation and Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Quadratic Equations and Polynomial Theory",
+   "formulas": [
+    "$$\\mathbf{x = \\frac{-b \\pm \\sqrt{D}}{2a}}$$",
+    "$$\\mathbf{\\alpha + \\beta = -\\frac{b}{a} = -\\frac{\\text{coefficient of } x}{\\text{coefficient of } x^2}}$$",
+    "$$\\mathbf{\\alpha\\beta = \\frac{c}{a} = \\frac{\\text{constant term}}{\\text{coefficient of } x^2}}$$",
+    "$$\\mathbf{a x^2 + b x + c > 0 \\quad \\forall x \\in \\mathbb{R} \\iff a > 0 \\quad \\text{and} \\quad D < 0}$$",
+    "$$\\mathbf{|\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|}}$$",
+    "$$\\mathbf{a S_n + b S_{n-1} + c S_{n-2} = 0}$$",
+    "$$\\mathbf{V = \\left(-\\frac{b}{2a}, -\\frac{D}{4a}\\right)}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-003",
+   "hash": "cf5b46114f1c1c37",
+   "question": "Let S = {z ∈ C : z + √6 iz − 3 = 0}. Then ∑ z is equal to : 2 8 z∈S",
+   "options": [
+    "162",
+    "184",
+    "262",
+    "324"
    ],
    "correct": 0,
-   "chapter": null,
-   "topic": null,
+   "chapter": "general",
+   "topic": "general",
    "year": "2026",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-015",
-   "hash": "cd7e8da14a29dba4",
-   "question": "Consider compounds A, B and C with following structural formulae A = CH - CH - CH - CH - CH - OH 3 2 2 2 2 B = CH 2 = CH - CH - CH - CH 2 2 3 C = HO - CH - CH - CH(OH) - CH 2 2 3 For the conversion of B from A, reagent (D) required is _________ and structural formula of product (E) obtained when C undergoes same reaction using excess reagent (D) is _________.",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-004",
+   "hash": "3f9d4f5348d54404",
+   "question": "The sum of all possible values of θ ∈ [0, 2π], for which the system of equations : x cos 3θ − 8y − 12z = 0 x cos 2θ + 3y + 3z = 0 x + y + 3z = 0 has a non-trivial solution, is equal to :",
    "options": [
-    "D E Conc. H SO 2 4 CH 2 = CH − CH(OH)CH 3",
-    "D E PCC HO − CH 2 − CH 2 − CH = CH 2",
-    "D E PCC CH 2 = CH − CH = CH 2",
-    "D E Conc. H SO or H PO 2 4 3 4 CH 2 = CH − CH = CH 2"
+    "π",
+    "2π",
+    "3π",
+    "4π"
    ],
    "correct": 3,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
    "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-016",
-   "hash": "4d917f7de6ffe206",
-   "question": "Identify the incorrect statements. Choose the correct answer from the options given below:",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-005",
+   "hash": "c4db9ae789c89d2d",
+   "question": "A bag contains 6 blue and 6 green balls. Pairs of balls are drawn without replacement until the bag is empty. The probability that each drawn pair consists of one blue and one green ball is :",
    "options": [
-    "A and D Only",
-    "A and C Only",
-    "B and C Only",
-    "A and B Only"
+    "63",
+    "17",
+    "16",
+    "64 925 231 231 925"
    ],
    "correct": 2,
-   "chapter": null,
-   "topic": null,
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-017",
-   "hash": "3d2e181dc55fab67",
-   "question": "Identify the correct statements. A. Glucose exists in two anomeric forms. B. Anomers of glucose differ in configuration at C−1 in cyclic hemiacetal structure. C. Melting point of α-anomer of glucose is greater than β-anomer. D. Specific rotation of α-anomer is +19° while for β-anomer is +112° E. α and β-anomers of glucose are prepared by crystallization of saturated glucose solution at 303 K and 371 K respectively. Choose the correct answer from the options given below:",
-   "options": [
-    "A and B Only",
-    "B and C Only",
-    "A, B and D Only",
-    "A, B and E Only"
-   ],
-   "correct": 3,
-   "chapter": "Chemical Bonding and Molecular Structure",
-   "topic": "Chemical Bonding and Molecular Structure",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical Bonding and Molecular Structure",
-   "formulas": [
-    "$$\\text{Formal Charge (FC)} = V - L - \\frac{1}{2} S$$",
-    "$$\\text{MX}(s) \\to \\text{M}^+(g) + \\text{X}^-(g) \\quad \\Delta H = U > 0$$",
-    "$$\\Delta H_f^\\circ(\\text{NaCl}) = \\Delta H_{\\text{sub}}(\\text{Na}) + \\frac{1}{2}D(\\text{Cl}_2) + \\Delta_{\\text{i}}H(\\text{Na}) + \\Delta_{\\text{eg}}H(\\text{Cl}) - U$$",
-    "$$\\text{Steric Number (SN)} = \\sigma\\text{-bonds} + \\text{Lone Pairs on Central Atom}$$",
-    "$$\\text{SN} = \\frac{1}{2} \\left[ V + M - C + A \\right]$$",
-    "$$\\cos\\theta = \\frac{s}{s - 1} = \\frac{p - 1}{p}$$",
-    "$$d(\\text{P}-\\text{Cl}_{\\text{axial}}) = 219\\text{ pm} \\quad \\text{vs} \\quad d(\\text{P}-\\text{Cl}_{\\text{equatorial}}) = 204\\text{ pm}$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT1-CHM-018",
-   "hash": "3685cbd6ed35cc9c",
-   "question": "Given below are two statements: Statement I: Sodium dichromate and potassium dichromate are classified as primary standards in titrimetric analysis. Statement II: Phenolphthalein is a weak base, therefore it dissociates in acidic medium. In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false",
-    "Statement I is true but Statement II is false",
-    "Statement I is false but Statement II is true"
-   ],
-   "correct": 1,
-   "chapter": "Salt Analysis",
-   "topic": "Salt Analysis",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 38 — Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis)",
-   "formulas": [
-    "$$\\mathbf{Q_{\\text{sp}} = [\\text{A}^{y+}]^x [\\text{B}^{x-}]^y > K_{\\text{sp}}}$$",
-    "$$\\mathbf{K_a = K_{a1} \\cdot K_{a2} = \\frac{[\\text{H}^+]^2 [\\text{S}^{2-}]}{[\\text{H}_2\\text{S}]} \\approx 1.0 \\times 10^{-21}}$$",
-    "$$[\\text{S}^{2-}] = \\frac{K_a [\\text{H}_2\\text{S}]}{[\\text{H}^+]^2} \\approx \\frac{(10^{-21})(0.1)}{(0.3)^2} \\approx 10^{-22}\\text{ M}$$",
-    "$$\\text{Nessler's Reagent} = \\text{K}_2[\\text{HgI}_4] + \\text{KOH} \\text{ (Alkaline Medium)}$$",
-    "$$\\text{Cr}(=\\text{O})(\\text{O}_2)_2$$",
-    "$$\\mathbf{Q_{\\text{sp}} = [\\text{A}^{y+}]^x [\\text{B}^{x-}]^y > K_{\\text{sp}}}$",
-    "$$\\text{H}_2\\text{S}(aq) \\rightleftharpoons \\text{H}^+ + \\text{HS}^- \\quad (K_{a1} \\approx 10^{-7})$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-001",
-   "hash": "d342f4e1afe9fa89",
-   "question": "1 2 3 4 m If the sum of the first 10 terms of the series 4 + 4 + 4 + 4 + … is , 1 + 1 × 4 1 + 2 × 4 1 + 3 × 4 1 + 4 × 4 n gcd(m, n) = 1 , then m + n is equal to :",
-   "options": [
-    "256",
-    "264",
-    "276",
-    "284"
-   ],
-   "correct": 2,
-   "chapter": "Sequences and Series",
-   "topic": "Sequences and Series",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": "Sequences and Series",
-   "formulas": [
-    "$$S = a_1 + a_2 + a_3 + \\dots + a_n + \\dots = \\sum_{k=1}^\\infty a_k$$",
-    "$$a_n = S_n - S_{n-1} \\quad (n \\ge 2), \\quad a_1 = S_1$$",
-    "$$a_{n+1} - a_n = d \\quad (\\forall n \\in \\mathbb{N})$$",
-    "$$T_n = a_n = a + (n-1)d$$",
-    "$$T'_n = l - (n-1)d$$",
-    "$$T_k + T'_{k} = T_1 + T_n = a + l$$",
-    "$$a_n = \\frac{a_{n-k} + a_{n+k}}{2} \\quad (k < n)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-002",
-   "hash": "161428121df989ea",
-   "question": "Let A , A , A , … , A 1 2 3 39 be 39 arithmetic means between the numbers 59 and 159. Then the mean of A 25 , A 28 , A 31 and A 36 is equal to :",
-   "options": [
-    "129",
-    "136",
-    "131.50",
-    "134"
-   ],
-   "correct": 3,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-003",
-   "hash": "e385dba726397cbe",
-   "question": "10 1 The coefficient of x in the expansion of (2x + 2 2 ) , x ≠ 0, is : x",
-   "options": [
-    "3240",
-    "3360",
-    "3480",
-    "3600"
-   ],
-   "correct": 1,
-   "chapter": null,
-   "topic": null,
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-004",
-   "hash": "2f0282d84928aabd",
-   "question": "The probabilities that players A and B of a team are selected for the captaincy for a tournament are 0.6 and 0.4, respectively. If A is selected the captain, the probability that the team wins the tournament is 0.8 and if B is selected the captain, the probability that the team wins the tournament is 0.7. Then the probability, that the team wins the tournament, is :",
-   "options": [
-    "0.74",
-    "0.76",
-    "0.72",
-    "0.78"
-   ],
-   "correct": 1,
    "chapter": "Probability",
    "topic": "Probability",
    "year": "2026",
@@ -932,122 +784,14 @@
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-005",
-   "hash": "02142d4148901a73",
-   "question": "A box contains 5 blue, 6 yellow and 4 red balls. The number of ways, of drawing 8 balls containing at least two balls of each colour, is :",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-006",
+   "hash": "82b8672e8b4e0597",
+   "question": "Let C be a circle having centre in the first quadrant and touching the x-axis at a distance of 3 units from the origin. If the circle C has an intercept of length 6√3 on y-axis, then the length of the chord of the circle C on the line x − y = 3 is :",
    "options": [
-    "4100",
-    "4140",
-    "4230",
-    "4290"
-   ],
-   "correct": 0,
-   "chapter": null,
-   "topic": null,
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-006",
-   "hash": "b3861237b2331b96",
-   "question": "A variable X takes values 0, 0, 2, 6, 12, 20, … , n(n − 1) with frequencies n C0 , n C1 , n C2 , n C3 , n C4 , n C5 , … , n Cn , respectively. If the mean of this data is 60, then its median is :",
-   "options": [
-    "56",
-    "42",
-    "72",
-    "90"
-   ],
-   "correct": 0,
-   "chapter": "Order Degree Formation and Variable Separable ODEs",
-   "topic": "Order Degree Formation and Variable Separable ODEs",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-007",
-   "hash": "1bfa3d0224943293",
-   "question": "Let the point P be the vertex of the parabola y = x − 6x + 12. If a line passing through the point P intersects the 2 circle x + y − 2x − 4y + 3 = 0 at the points R and S , then the maximum value of (P R + P S) is : 2 2 2",
-   "options": [
-    "10",
-    "20",
-    "25",
-    "5"
-   ],
-   "correct": 1,
-   "chapter": "Inequalities and absolute value",
-   "topic": "Inequalities and absolute value",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-008",
-   "hash": "e7c74020fe3b1d85",
-   "question": "Let the directrix of the parabola P : y 2 , cut x-axis at the point A. Let B(α, β), α > 1, be a point on P such = 8x that the slope of AB is 3/5. If BC is a focal chord of P , then six times the area of △ABC is :",
-   "options": [
-    "80",
-    "160",
-    "174",
-    "192"
-   ],
-   "correct": 1,
-   "chapter": "Area Under The Curves",
-   "topic": "Area Under The Curves",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-009",
-   "hash": "de88935adea22c8f",
-   "question": "Let the eccentricity e of a hyperbola satisfy the equation 6e − 11e + 3 = 0. If the foci of the hyperbola are (3, 5) 2 and (3, −4), then the length of its latus rectum is :",
-   "options": [
-    "11",
-    "17",
-    "15",
-    "17 3 3 2 2"
-   ],
-   "correct": 2,
-   "chapter": "Quadratic Equation and Inequalities",
-   "topic": "Quadratic Equation and Inequalities",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-010",
-   "hash": "4b71a5a51e5d60bc",
-   "question": "x + 3 y − 4 z + 1 Let a triangle P QR be such that P and Q lie on the line = = and are at a distance of 6 units 8 2 2 from R(1, 2, 3). If (α, β, γ) is the centroid of △P QR, then α + β + γ is equal to :",
-   "options": [
-    "4",
-    "5",
+    "8",
     "6",
-    "8"
-   ],
-   "correct": 2,
-   "chapter": "Properties Of Triangle",
-   "topic": "Properties Of Triangle",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-011",
-   "hash": "a0247f236128969f",
-   "question": "x y − 1 z − 2 If the distance of the point (a, 2, 5) from the image of the point (1, 2, 7) in the line = = is 4, then 1 1 2 the sum of all possible values of a is equal to :",
-   "options": [
-    "11",
-    "9",
-    "6",
-    "4"
+    "6√2",
+    "8√2"
    ],
    "correct": 2,
    "chapter": "Height-And-Distance",
@@ -1058,68 +802,50 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-012",
-   "hash": "8f9ebd41abc1ecd1",
-   "question": "→ =a Let O be the origin, OP → = →b. If R is the point on OP → and OQ → such that OP → = 5OR → , and M is the point such → = 5RM that OQ → , then P→M is equal to : → − 4→b)",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-007",
+   "hash": "e5105adbc6c20d3a",
+   "question": "√3 4√ 6 The eccentricity of an ellipse E with centre at the origin O is and its directrices are x = ± . Let 2 3 2 2 x y H : 2 − 2 = 1 be a hyperbola whose eccentricity is equal to the length of semi-major axis of E, and whose a b length of latus rectum is equal to the length of minor axis of E. Then the distance between the foci of H is :",
    "options": [
-    "1 (a",
-    "1 (→b − 4a →) 5 5 → + 4→b)",
-    "1 (−a",
-    "1 (−→b + 4a →) 5 5"
+    "4√2",
+    "4√2",
+    "4",
+    "8 √7 7 √7 7"
    ],
-   "correct": 1,
-   "chapter": null,
-   "topic": null,
+   "correct": 3,
+   "chapter": "Height-And-Distance",
+   "topic": "Height-And-Distance",
    "year": "2026",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-013",
-   "hash": "70036216d6600123",
-   "question": "(1 − cos(xy)) tan(xy) Let f (x) = lim y→0 3 . Then the number of solutions of the equation f (x) = sin x, x ∈ R is : y",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-008",
+   "hash": "6eeb74c6d0487d27",
+   "question": "1 Let x = 9 be a directrix of an ellipse E, whose centre is at the origin and eccentricity is . Let P (α, 0), α > 0, be a 3 focus of E and AB be a chord passing through P . Then the locus of the mid point of AB is :",
    "options": [
-    "0",
+    "9y 2 = 8x(1 − x)",
+    "3y 2 = 4x(1 − x)",
+    "9y 2 = 8x(x − 1)",
+    "3y 2 = 4x(x − 1)"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-009",
+   "hash": "471412054b0f0601",
+   "question": "If sin(tan −1 (x√ 2)) = cot(sin −1 , x ∈ (0, 1), then the value of x is : √1 − x 2 )",
+   "options": [
+    "1",
+    "1",
     "2",
-    "3",
-    "1"
-   ],
-   "correct": 2,
-   "chapter": "Quadratic Equation and Inequalities",
-   "topic": "Quadratic Equation and Inequalities",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-014",
-   "hash": "083a1153214c2b55",
-   "question": "Let (2 1−a + 2 1+a ), f (a), (3 + 3 a −a ) be in A.P. and α be the minimum value of f (a). Then the value of the integral dx ∫ log e (α) log e (α−1) 2x −2x is : (e − e )",
-   "options": [
-    "1 log ( 4 )",
-    "1 log ( 4 ) e e 2 3 4 3",
-    "1 log ( 8 )",
-    "1 log ( 8 ) e e 2 5 4 5"
-   ],
-   "correct": 1,
-   "chapter": "Inequalities and absolute value",
-   "topic": "Inequalities and absolute value",
-   "year": "2026",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-015",
-   "hash": "df5d29cac664e8b4",
-   "question": "Let f : [1, ∞) → R be a differentiable function defined as f (x) = ∫ . Then the x f (t) dt + (1 − x)(log x − 1) + e 1 e value of f (f",
-   "options": [
-    ") is :",
-    "(1 + e ) e",
-    "(1 + e)",
-    "(1 + e + e ) e"
+    "5 2 3 3 8"
    ],
    "correct": 0,
    "chapter": "Inequalities and absolute value",
@@ -1130,76 +856,120 @@
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-MTH-016",
-   "hash": "1304dba43da7f374",
-   "question": "Let f (x) and g(x) be twice differentiable functions satisfying f (x) = g (x) for all x ∈ R, f",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-010",
+   "hash": "4603ec0fa852ae87",
+   "question": "x − 4 y − 3 z − 2 x + 2 y − 6 z − 5 The shortest distance between the lines = = and = = is : 1 2 −3 2 4 −5",
    "options": [
-    "= 2g",
-    "= 4 and ′′ ′′ ′ ′ g",
-    "= 3f",
-    "= 9 . Then f (25) − g(25) is equal to :"
+    "5√6",
+    "2√5",
+    "3√5",
+    "4√5 6"
    ],
-   "correct": 1,
-   "chapter": "Functions",
-   "topic": "Functions",
+   "correct": 2,
+   "chapter": "Height-And-Distance",
+   "topic": "Height-And-Distance",
    "year": "2026",
    "subject": "Maths",
-   "formula_sheet": "Functions and Binary Operations",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-011",
+   "hash": "4362274744d5660f",
+   "question": "→ = 2^i + 3^j + 3k Let a ^ and →b = 6^i + 3^j + 3k ^ . Then the square of the area of the triangle with adjacent sides determined by the vectors (2a → + 3→b) and (a→ − →b) is :",
+   "options": [
+    "450",
+    "900",
+    "1800",
+    "2400"
+   ],
+   "correct": 2,
+   "chapter": "Properties Of Triangle",
+   "topic": "Properties Of Triangle",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-MTH-012",
+   "hash": "b4de190200199133",
+   "question": "2 (tan(x − 2))(rx + (p − 2)x − 2p) Let lim 2 = 5 for some r, p ∈ R. If the set of all possible values of q, such that x→2 (x − 2) the roots of the equation rx − px + q = 0 lie in (0, 2), be the interval (α, β], then 4(α + β) equals : 2",
+   "options": [
+    "11",
+    "13",
+    "17",
+    "21"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic Equation and Inequalities",
+   "topic": "Quadratic Equation and Inequalities",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Quadratic Equations and Polynomial Theory",
    "formulas": [
-    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
-    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
-    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
-    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
-    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
-    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
-    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+    "$$\\mathbf{x = \\frac{-b \\pm \\sqrt{D}}{2a}}$$",
+    "$$\\mathbf{\\alpha + \\beta = -\\frac{b}{a} = -\\frac{\\text{coefficient of } x}{\\text{coefficient of } x^2}}$$",
+    "$$\\mathbf{\\alpha\\beta = \\frac{c}{a} = \\frac{\\text{constant term}}{\\text{coefficient of } x^2}}$$",
+    "$$\\mathbf{a x^2 + b x + c > 0 \\quad \\forall x \\in \\mathbb{R} \\iff a > 0 \\quad \\text{and} \\quad D < 0}$$",
+    "$$\\mathbf{|\\alpha - \\beta| = \\frac{\\sqrt{D}}{|a|}}$$",
+    "$$\\mathbf{a S_n + b S_{n-1} + c S_{n-2} = 0}$$",
+    "$$\\mathbf{V = \\left(-\\frac{b}{2a}, -\\frac{D}{4a}\\right)}$$"
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-PHY-001",
-   "hash": "037471459e2d3d3a",
-   "question": "Match List-I with List-II. List-I List-II hc A. Meter (L) I. √ G Gh B. Second (S) II. √ 5 c 2 2 3 K L c C. Kilogram (M) III. √ Gh Gh D. Kelvin (K) IV. √ 3 c where h (Planck's constant), G (gravitational constant) and c (speed of light in vacuum) as fundamental units. Choose the correct answer from the options given below :",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-001",
+   "hash": "624e2a09ec066448",
+   "question": "The percentage error in the calculated volume of a sphere, if there is 2% error in its diameter measurement, is __________.",
    "options": [
-    "A-II, B-IV, C-I, D-III",
-    "A-IV, B-II, C-I, D-III",
-    "A-IV, B-I, C-II, D-III",
-    "A-III, B-I, C-II, D-IV"
+    "1",
+    "2",
+    "6",
+    "8"
    ],
-   "correct": 1,
+   "correct": 2,
+   "chapter": "Error analysis",
+   "topic": "Error analysis",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-002",
+   "hash": "7aa40d29ac3752e4",
+   "question": "Match List - I with List - II. List - I List - II A. Boltzmann constant I. [M −1 L T 3 −2 ] B. Stefan's constant II. [M L T 2 −1 ] C. Planck's constant III. [M L T 2 −2 K −1 ] D. Gravitational constant IV. [M L T 0 −3 K −4 ] Choose the correct answer from the options given below :",
+   "options": [
+    "A-I, B-II, C-III, D-IV",
+    "A-IV, B-III, C-II, D-I",
+    "A-III, B-IV, C-II, D-I",
+    "A-II, B-I, C-IV, D-III"
+   ],
+   "correct": 2,
    "chapter": "Gravitational Potential And Gravitational Potential Energy",
    "topic": "Gravitational Potential And Gravitational Potential Energy",
    "year": "2026",
    "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
+   "formula_sheet": "Work Power and Energy",
+   "formulas": [
+    "$$\\mathbf{W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta}$$",
+    "$$\\mathbf{W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2}$$",
+    "$$\\mathbf{W_{\\text{NC}} + W_{\\text{ext}} + W_{\\text{pseudo}} = \\Delta K + \\Delta U = \\Delta E_{\\text{mech}}}$$",
+    "$$\\mathbf{P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta}$$",
+    "$$\\mathbf{W = \\int_{x_i}^{x_f} F(x) dx = (\\text{Area above } x\\text{-axis}) - (\\text{Area below } x\\text{-axis})}$$",
+    "$$\\mathbf{W_g = \\int_{y_i}^{y_f} (-mg) dy = -mg(y_f - y_i) = mg(y_i - y_f) = -mg\\Delta y}$$",
+    "$$\\mathbf{\\sum_{\\text{system}} W_{f_k} = -f_k s_{\\text{rel}} < 0}$$"
+   ]
   },
   {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-PHY-002",
-   "hash": "ad608170c2c910fc",
-   "question": "In an experiment to determine the resistance of a given wire using Ohm's law, the voltmeter and ammeter readings are noted as 10 V and 5 A, respectively. The least counts of voltmeter and ammeter are 500 mV and 200 mA, respectively. The estimated error in the resistance measurement is _______ Ω.",
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-003",
+   "hash": "df9922089e2b5b77",
+   "question": "A solid sphere (A) of mass 5m and a spherical shell (B) of mass m, both having same radius, are placed on a rough surface. When a force of same magnitude is applied tangentially at the highest points of A and B, they start rolling without slipping with an acceleration of a and a , respectively. The ratio of a and a is __________. A B A B",
    "options": [
-    "0.25",
-    "2",
-    "2.5",
-    "0.18"
-   ],
-   "correct": 3,
-   "chapter": "Electric Charges And Coulomb'S Law",
-   "topic": "Electric Charges And Coulomb'S Law",
-   "year": "2026",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-5APRILSHIFT2-PHY-003",
-   "hash": "948f1d50afb5f69b",
-   "question": "A mass of 1 kg is kept on an inclined plane with 30° inclination with respect to horizontal plane and it is at rest initially. Then the whole assembly is moved up with constant velocity of 4 m/s. The work done by the frictional force in time 2 s is _______ J. (Take g = 10 m/s ) 2",
-   "options": [
-    "20",
-    "25",
-    "30",
-    "10"
+    "5 : 21",
+    "6 : 10",
+    "21 : 25",
+    "1 : 5"
    ],
    "correct": 0,
    "chapter": "Center of mass",
@@ -1216,6 +986,348 @@
     "$$\\vec{r}_{\\text{cm}} = \\frac{\\int \\vec{r}\\,dm}{\\int dm} = \\frac{1}{M}\\int \\vec{r}\\,dm$$",
     "$$dm = \\lambda R\\,d\\theta, \\quad y = R \\cos\\theta$$"
    ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-004",
+   "hash": "0387b70b53cb0e70",
+   "question": "A body of mass 1 kg moves along a straight line with a velocity v = 2x . The work done by the body during 2 displacement from x = 0 to 5 m is __________ J.",
+   "options": [
+    "0",
+    "250",
+    "1250",
+    "1000"
+   ],
+   "correct": 2,
+   "chapter": "Motion-In-A-Straight-Line",
+   "topic": "Motion-In-A-Straight-Line",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-005",
+   "hash": "d01696859a4ab8eb",
+   "question": "A cylinder with adiabatic walls is closed at both ends and is divided into two compartments by a frictionless adiabatic piston. Ideal gas is filled in both (left and right) the compartments at same P , V , T . Heating is started from 27P left side until pressure changes to . If initial volume of each compartment was 9 litres then the final volume in 8 right-hand side compartment is __________ litres. (for this ideal gas C /C P V ) = 1.5",
+   "options": [
+    "3",
+    "4",
+    "14",
+    "9"
+   ],
+   "correct": 1,
+   "chapter": "Kinetic Theory Of Gases And Gas Laws",
+   "topic": "Kinetic Theory Of Gases And Gas Laws",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-006",
+   "hash": "ead34126e7064c48",
+   "question": "→, E For an electromagnetic wave propagating through vacuum, k → and ω represent propagation vector, electric field and angular frequency, respectively. The magnetic field associated with this wave is represented by : →×k",
+   "options": [
+    "E → →×E",
+    "k → →×→",
+    "ω(E k) →× →",
+    "ω(k E) ω ω"
+   ],
+   "correct": 1,
+   "chapter": "Electric Field And Electric Field Intensity",
+   "topic": "Electric Field And Electric Field Intensity",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-007",
+   "hash": "dbf21a3c9825b06f",
+   "question": "Two identical bodies A and B of equal masses have initial velocities v→ = 4^i m/s and v→ = 4^j m/s respectively. The 1 2 body A has acceleration a→ = 6^i + 6^j m/s while the acceleration of the other body B is zero. The centre of mass of 1 2 the two bodies moves in __________ path.",
+   "options": [
+    "circular",
+    "parabolic",
+    "straight line",
+    "elliptical"
+   ],
+   "correct": 2,
+   "chapter": "Centre of Mass",
+   "topic": "Centre of Mass",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Center of Mass and Collisions",
+   "formulas": [
+    "$$\\vec{r}_{\\text{cm}} = \\frac{\\sum_{i=1}^N m_i \\vec{r}_i}{\\sum_{i=1}^N m_i} = \\frac{1}{M}\\sum_{i=1}^N m_i \\vec{r}_i$$",
+    "$$x_{\\text{cm}} = \\frac{\\sum m_i x_i}{M}, \\quad y_{\\text{cm}} = \\frac{\\sum m_i y_i}{M}, \\quad z_{\\text{cm}} = \\frac{\\sum m_i z_i}{M}$$",
+    "$$r_1 = x_{\\text{cm}} = \\frac{m_1(0) + m_2(d)}{m_1 + m_2} = \\left(\\frac{m_2}{m_1 + m_2}\\right) d$$",
+    "$$r_2 = d - x_{\\text{cm}} = \\left(\\frac{m_1}{m_1 + m_2}\\right) d$$",
+    "$$m_1 r_1 = m_2 r_2 \\implies \\frac{r_1}{r_2} = \\frac{m_2}{m_1}$$",
+    "$$\\vec{r}_{\\text{cm}} = \\frac{\\int \\vec{r}\\,dm}{\\int dm} = \\frac{1}{M}\\int \\vec{r}\\,dm$$",
+    "$$dm = \\lambda R\\,d\\theta, \\quad y = R \\cos\\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-008",
+   "hash": "d0499b03bb6956d9",
+   "question": "Figure represents the extension (Δl) of a wire of length 1 meter, suspended from the ceiling of the room at one end with a load W connected to the other end. If the cross-sectional area of the wire is 10 −5 m then the Young's 2 modulus of the wire is __________ N/m . 2",
+   "options": [
+    "1.0 × 10 11",
+    "2.0 × 10 10",
+    "1.0 × 10 10",
+    "2.0 × 10 11"
+   ],
+   "correct": 2,
+   "chapter": "Electric Charges And Coulomb'S Law",
+   "topic": "Electric Charges And Coulomb'S Law",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-009",
+   "hash": "2f4d72b3ab2819f5",
+   "question": "A cylindrical vessel of 40 cm radius is completely filled with water and its capacity is 528 dm (dm : decimeter). 3 The vessel is placed on a solid block of exactly same height as vessel. If a small hole is made at 70 cm below the top of water level, then horizontal range of water falling on the ground in the beginning is __________ cm.",
+   "options": [
+    "120√2",
+    "140√2",
+    "140√3",
+    "120√3"
+   ],
+   "correct": 1,
+   "chapter": "Specific Heat Capacity, Calorimetry & Change Of State",
+   "topic": "Specific Heat Capacity, Calorimetry & Change Of State",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Calorimetry and Thermal Expansion",
+   "formulas": [
+    "$$\\mathbf{s = \\frac{1}{m} \\frac{dQ}{dT} \\implies \\Delta Q = m \\cdot s \\cdot \\Delta T}$$",
+    "$$\\mathbf{\\sum Q_{\\text{lost by hot bodies}} = \\sum Q_{\\text{gained by cold bodies}}}$$",
+    "$$\\alpha = \\frac{1}{L_0} \\frac{dL}{dT} \\implies \\mathbf{\\Delta L = L_0 \\cdot \\alpha \\cdot \\Delta T}$$",
+    "$$\\gamma = \\frac{1}{V_0} \\frac{dV}{dT} \\implies \\mathbf{\\Delta V = V_0 \\cdot \\gamma \\cdot \\Delta T}$$",
+    "$$\\mathbf{Q = m \\cdot L}$$",
+    "$$T_{\\text{eq}} = \\frac{m_1 s_1 T_1 + m_2 s_2 T_2 + m_3 s_3 T_3}{m_1 s_1 + m_2 s_2 + m_3 s_3}$$",
+    "$$A(T) = L_0^2 (1 + \\alpha \\Delta T)^2 \\approx L_0^2 (1 + 2\\alpha \\Delta T) \\implies \\mathbf{\\beta = 2\\alpha}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-010",
+   "hash": "dfccd942f7a8a629",
+   "question": "If 2 mole of an ideal monoatomic gas at temperature T , is mixed with 6 mole of another ideal monoatomic gas at temperature 2T then the temperature of mixture is :",
+   "options": [
+    "5 T",
+    "5 T",
+    "7 T",
+    "7 T 2 4 2 4"
+   ],
+   "correct": 3,
+   "chapter": "Kinetic Theory Of Gases And Gas Laws",
+   "topic": "Kinetic Theory Of Gases And Gas Laws",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-011",
+   "hash": "ccdd05d2d0064ee3",
+   "question": "A spring stretches by 2 mm when it is loaded with a mass of 200 g. From equilibrium position the mass is further pulled down by 2 mm and released. The frequency associated with the system and maximum energy in the spring are __________ Hz and __________ J, respectively. (Take g = 10 m/s ) 2",
+   "options": [
+    "5√50",
+    "5√50 and 8 × 10 −3 and 8 π π",
+    "10√50 and 2 × 10 −3",
+    "5√50 and 16 × 10 −3 π"
+   ],
+   "correct": 0,
+   "chapter": "Center of mass",
+   "topic": "Center of mass",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Center of Mass and Collisions",
+   "formulas": [
+    "$$\\vec{r}_{\\text{cm}} = \\frac{\\sum_{i=1}^N m_i \\vec{r}_i}{\\sum_{i=1}^N m_i} = \\frac{1}{M}\\sum_{i=1}^N m_i \\vec{r}_i$$",
+    "$$x_{\\text{cm}} = \\frac{\\sum m_i x_i}{M}, \\quad y_{\\text{cm}} = \\frac{\\sum m_i y_i}{M}, \\quad z_{\\text{cm}} = \\frac{\\sum m_i z_i}{M}$$",
+    "$$r_1 = x_{\\text{cm}} = \\frac{m_1(0) + m_2(d)}{m_1 + m_2} = \\left(\\frac{m_2}{m_1 + m_2}\\right) d$$",
+    "$$r_2 = d - x_{\\text{cm}} = \\left(\\frac{m_1}{m_1 + m_2}\\right) d$$",
+    "$$m_1 r_1 = m_2 r_2 \\implies \\frac{r_1}{r_2} = \\frac{m_2}{m_1}$$",
+    "$$\\vec{r}_{\\text{cm}} = \\frac{\\int \\vec{r}\\,dm}{\\int dm} = \\frac{1}{M}\\int \\vec{r}\\,dm$$",
+    "$$dm = \\lambda R\\,d\\theta, \\quad y = R \\cos\\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-012",
+   "hash": "a9555b4900815b13",
+   "question": "The electric potential as a function of x, y is given by V = 5(x − y ) V. The electric field at a point (2, 3) m is 2 2 __________ V/m.",
+   "options": [
+    "(−20^i + 30^j)",
+    "(20^i − 30^j)",
+    "(20^i + 45^j)",
+    "(−4^i + 6^j)"
+   ],
+   "correct": 0,
+   "chapter": "Electric Potential Energy And Electric Potential",
+   "topic": "Electric Potential Energy And Electric Potential",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-013",
+   "hash": "db5fae8de64a82b3",
+   "question": "A current of 30 A each flows in opposite directions in two conducting wires, placed parallel to each other at a distance of 8 cm. The magnetic field at the mid point between the two wires is __________ μT. μ0 2 −7 ( = 10 N/A ) 4π",
+   "options": [
+    "30",
+    "300",
+    "150",
+    "0.0"
+   ],
+   "correct": 1,
+   "chapter": "Magnetic effect of current",
+   "topic": "Magnetic effect of current",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formulas": [
+    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
+    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
+    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
+    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
+    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-014",
+   "hash": "6fe6e1990a8969b1",
+   "question": "A square loop of side 2 cm is placed in a time varying magnetic field with magnitude as B = 0.4 sin(300t) Tesla. The normal to the plane of loop makes an angle of 60° with the field. The maximum induced emf produced in the loop is __________ mV.",
+   "options": [
+    "12",
+    "18",
+    "21",
+    "24"
+   ],
+   "correct": 3,
+   "chapter": "Motion In A Plane",
+   "topic": "Motion In A Plane",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Projectile Motion and Inclined Plane Ballistics",
+   "formulas": [
+    "$$\\vec{u} = u_x \\hat{i} + u_y \\hat{j} = (u \\cos\\theta) \\hat{i} + (u \\sin\\theta) \\hat{j}$$",
+    "$$\\vec{a} = a_x \\hat{i} + a_y \\hat{j} = 0 \\hat{i} - g \\hat{j}$$",
+    "$$v_x(t) = u \\cos\\theta$$",
+    "$$v_y(t) = u \\sin\\theta - g t$$",
+    "$$v(t) = \\sqrt{v_x^2 + v_y^2} = \\sqrt{(u \\cos\\theta)^2 + (u \\sin\\theta - g t)^2} = \\sqrt{u^2 - 2 g y}$$",
+    "$$\\tan\\alpha = \\frac{v_y}{v_x} = \\frac{u \\sin\\theta - g t}{u \\cos\\theta}$$",
+    "$$x(t) = (u \\cos\\theta) t$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-015",
+   "hash": "64c617d45cfeeabd",
+   "question": "A sphere of capacitance 100 pF is charged to a potential of 100 V. Another identical uncharged metal sphere is brought in contact with the charged sphere, then the change in the total energy stored on these spheres, when they touch is α × 10 −7 J. The value of α is __________. (combined capacitance of spheres is 200 pF)",
+   "options": [
+    "5",
+    "5",
+    "7",
+    "9 2 2 2"
+   ],
+   "correct": 1,
+   "chapter": "Gravitational Potential And Gravitational Potential Energy",
+   "topic": "Gravitational Potential And Gravitational Potential Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Work Power and Energy",
+   "formulas": [
+    "$$\\mathbf{W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta}$$",
+    "$$\\mathbf{W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2}$$",
+    "$$\\mathbf{W_{\\text{NC}} + W_{\\text{ext}} + W_{\\text{pseudo}} = \\Delta K + \\Delta U = \\Delta E_{\\text{mech}}}$$",
+    "$$\\mathbf{P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta}$$",
+    "$$\\mathbf{W = \\int_{x_i}^{x_f} F(x) dx = (\\text{Area above } x\\text{-axis}) - (\\text{Area below } x\\text{-axis})}$$",
+    "$$\\mathbf{W_g = \\int_{y_i}^{y_f} (-mg) dy = -mg(y_f - y_i) = mg(y_i - y_f) = -mg\\Delta y}$$",
+    "$$\\mathbf{\\sum_{\\text{system}} W_{f_k} = -f_k s_{\\text{rel}} < 0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-016",
+   "hash": "a776e0b0b4b4fed3",
+   "question": "The energy released if hydrogen atoms are combined to form 4 2 He is __________ MeV. (Take binding energies per nucleon of 2 1 H and 4 2 He as 1.1 MeV and 7.2 MeV, respectively)",
+   "options": [
+    "6.1",
+    "24.4",
+    "26.6",
+    "5"
+   ],
+   "correct": 1,
+   "chapter": "Nuclear Fission And Fusion And Binding Energy",
+   "topic": "Nuclear Fission And Fusion And Binding Energy",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-017",
+   "hash": "3fe59d0ad1c6dff5",
+   "question": "Angle of minimum deviation is equal to the half of the angle of prism in an equilateral prism. The refractive index of the prism is __________.",
+   "options": [
+    "1.5",
+    "√3",
+    "√2",
+    "1.65"
+   ],
+   "correct": 2,
+   "chapter": "Refraction TIR and Prism Optics",
+   "topic": "Refraction TIR and Prism Optics",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": "Ray Optics and Optical Instruments",
+   "formulas": [
+    "$$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$",
+    "$$\\delta = 180^\\circ - 2i = \\pi - 2i$$",
+    "$$h_{\\min} = \\frac{H}{2}$$",
+    "$$\\mathbf{h_{\\min} = \\frac{H_{\\text{wall}}}{3}}$$",
+    "$$n = m - 1$$",
+    "$$n = m$$",
+    "$$v_{I, \\perp} = -v_{O, \\perp} + 2 v_{M, \\perp}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-6APRILSHIFT2-PHY-018",
+   "hash": "7ff800fc43ab02eb",
+   "question": "Refer to the logic circuit given below. For two inputs (A = 1, B = 1) and (A = 0, B = 1), output (Y ) will be __________.",
+   "options": [
+    "1, 0 respectively",
+    "0, 1 respectively",
+    "0, 0 respectively",
+    "1, 1 respectively"
+   ],
+   "correct": 2,
+   "chapter": "Rc Circuit",
+   "topic": "Rc Circuit",
+   "year": "2026",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
   }
  ]
 }

@@ -1,0 +1,4225 @@
+{
+ "generated": "2026-10-05",
+ "questions": {
+  "total": 10152,
+  "solved": 8390,
+  "unresolved": {
+   "empty": 1623,
+   "short": 139,
+   "total": 1762
+  },
+  "by_subject": {
+   "Chemistry": {
+    "total": 2823,
+    "solved": 2336,
+    "unresolved": 487
+   },
+   "Maths": {
+    "total": 3810,
+    "solved": 3264,
+    "unresolved": 546
+   },
+   "Physics": {
+    "total": 3519,
+    "solved": 2790,
+    "unresolved": 729
+   }
+  },
+  "by_chapter": [
+   {
+    "chapter": "Matrix and determinants",
+    "total": 109,
+    "solved": 5,
+    "unresolved": 104
+   },
+   {
+    "chapter": "general",
+    "total": 67,
+    "solved": 0,
+    "unresolved": 67
+   },
+   {
+    "chapter": "Probability",
+    "total": 201,
+    "solved": 150,
+    "unresolved": 51
+   },
+   {
+    "chapter": "Thermodynamics",
+    "total": 134,
+    "solved": 89,
+    "unresolved": 45
+   },
+   {
+    "chapter": "Ray Optics",
+    "total": 55,
+    "solved": 12,
+    "unresolved": 43
+   },
+   {
+    "chapter": "ac-circuits-and-power-in-ac-circuits",
+    "total": 62,
+    "solved": 24,
+    "unresolved": 38
+   },
+   {
+    "chapter": "Modern physics",
+    "total": 37,
+    "solved": 1,
+    "unresolved": 36
+   },
+   {
+    "chapter": "Electrostatics",
+    "total": 132,
+    "solved": 97,
+    "unresolved": 35
+   },
+   {
+    "chapter": "D and F Block Elements",
+    "total": 40,
+    "solved": 7,
+    "unresolved": 33
+   },
+   {
+    "chapter": "Electrochemistry",
+    "total": 127,
+    "solved": 96,
+    "unresolved": 31
+   },
+   {
+    "chapter": "Units and Measurements",
+    "total": 35,
+    "solved": 7,
+    "unresolved": 28
+   },
+   {
+    "chapter": "P-block VA, VIA, VIIA elements",
+    "total": 31,
+    "solved": 3,
+    "unresolved": 28
+   },
+   {
+    "chapter": "Current-Electricity",
+    "total": 145,
+    "solved": 118,
+    "unresolved": 27
+   },
+   {
+    "chapter": "Structure-Of-Atom",
+    "total": 110,
+    "solved": 83,
+    "unresolved": 27
+   },
+   {
+    "chapter": "Chemical-Bonding-And-Molecular-Structure",
+    "total": 130,
+    "solved": 104,
+    "unresolved": 26
+   },
+   {
+    "chapter": "Coordination Compounds",
+    "total": 46,
+    "solved": 21,
+    "unresolved": 25
+   },
+   {
+    "chapter": "Rotational motion",
+    "total": 26,
+    "solved": 1,
+    "unresolved": 25
+   },
+   {
+    "chapter": "Sequences-And-Series",
+    "total": 171,
+    "solved": 150,
+    "unresolved": 21
+   },
+   {
+    "chapter": "Binomial-Theorem",
+    "total": 127,
+    "solved": 106,
+    "unresolved": 21
+   },
+   {
+    "chapter": "Mechanical Properties of Fluids",
+    "total": 30,
+    "solved": 10,
+    "unresolved": 20
+   },
+   {
+    "chapter": "Motion in 1D",
+    "total": 25,
+    "solved": 5,
+    "unresolved": 20
+   },
+   {
+    "chapter": "Pemutation and combination",
+    "total": 23,
+    "solved": 3,
+    "unresolved": 20
+   },
+   {
+    "chapter": "Center of mass",
+    "total": 21,
+    "solved": 1,
+    "unresolved": 20
+   },
+   {
+    "chapter": "Complex-Numbers",
+    "total": 129,
+    "solved": 110,
+    "unresolved": 19
+   },
+   {
+    "chapter": "Inequalities and absolute value",
+    "total": 24,
+    "solved": 5,
+    "unresolved": 19
+   },
+   {
+    "chapter": "Dual Nature of Matter",
+    "total": 20,
+    "solved": 1,
+    "unresolved": 19
+   },
+   {
+    "chapter": "bohr's-model-and-hydrogen-spectrum",
+    "total": 20,
+    "solved": 1,
+    "unresolved": 19
+   },
+   {
+    "chapter": "Quadratic-Equation-And-Inequalities",
+    "total": 126,
+    "solved": 108,
+    "unresolved": 18
+   },
+   {
+    "chapter": "Wave-Optics",
+    "total": 90,
+    "solved": 72,
+    "unresolved": 18
+   },
+   {
+    "chapter": "Work Power & Energy",
+    "total": 35,
+    "solved": 17,
+    "unresolved": 18
+   },
+   {
+    "chapter": "EMI",
+    "total": 20,
+    "solved": 2,
+    "unresolved": 18
+   },
+   {
+    "chapter": "Electric Current, Current Density And Drift Velocity",
+    "total": 19,
+    "solved": 1,
+    "unresolved": 18
+   },
+   {
+    "chapter": "Biomolecules",
+    "total": 84,
+    "solved": 67,
+    "unresolved": 17
+   },
+   {
+    "chapter": "Electric Charges And Coulomb'S Law",
+    "total": 18,
+    "solved": 1,
+    "unresolved": 17
+   },
+   {
+    "chapter": "Waves",
+    "total": 100,
+    "solved": 84,
+    "unresolved": 16
+   },
+   {
+    "chapter": "Some Basic Concepts Of Chemistry",
+    "total": 28,
+    "solved": 12,
+    "unresolved": 16
+   },
+   {
+    "chapter": "Magnetic effects of current",
+    "total": 17,
+    "solved": 1,
+    "unresolved": 16
+   },
+   {
+    "chapter": "Matrices-And-Determinants",
+    "total": 165,
+    "solved": 150,
+    "unresolved": 15
+   },
+   {
+    "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+    "total": 15,
+    "solved": 0,
+    "unresolved": 15
+   },
+   {
+    "chapter": "Vector-Algebra",
+    "total": 178,
+    "solved": 164,
+    "unresolved": 14
+   },
+   {
+    "chapter": "Electromagnetic-Waves",
+    "total": 98,
+    "solved": 84,
+    "unresolved": 14
+   },
+   {
+    "chapter": "Statistics",
+    "total": 98,
+    "solved": 84,
+    "unresolved": 14
+   },
+   {
+    "chapter": "Amines",
+    "total": 16,
+    "solved": 2,
+    "unresolved": 14
+   },
+   {
+    "chapter": "Laws-Of-Motion",
+    "total": 75,
+    "solved": 62,
+    "unresolved": 13
+   },
+   {
+    "chapter": "Differential Equations",
+    "total": 23,
+    "solved": 10,
+    "unresolved": 13
+   },
+   {
+    "chapter": "Quadratic Equation and Inequalities",
+    "total": 21,
+    "solved": 8,
+    "unresolved": 13
+   },
+   {
+    "chapter": "Chemical Kinetics",
+    "total": 16,
+    "solved": 3,
+    "unresolved": 13
+   },
+   {
+    "chapter": "Chemical Equilibrium",
+    "total": 14,
+    "solved": 1,
+    "unresolved": 13
+   },
+   {
+    "chapter": "Gravitational Potential And Gravitational Potential Energy",
+    "total": 14,
+    "solved": 1,
+    "unresolved": 13
+   },
+   {
+    "chapter": "S-block",
+    "total": 14,
+    "solved": 1,
+    "unresolved": 13
+   },
+   {
+    "chapter": "Oscillations",
+    "total": 13,
+    "solved": 0,
+    "unresolved": 13
+   },
+   {
+    "chapter": "3D-Geometry",
+    "total": 162,
+    "solved": 150,
+    "unresolved": 12
+   },
+   {
+    "chapter": "Functions",
+    "total": 130,
+    "solved": 118,
+    "unresolved": 12
+   },
+   {
+    "chapter": "Solutions",
+    "total": 88,
+    "solved": 76,
+    "unresolved": 12
+   },
+   {
+    "chapter": "Height-And-Distance",
+    "total": 35,
+    "solved": 23,
+    "unresolved": 12
+   },
+   {
+    "chapter": "Capacitance",
+    "total": 19,
+    "solved": 7,
+    "unresolved": 12
+   },
+   {
+    "chapter": "D-And-F-Block-Elements",
+    "total": 155,
+    "solved": 144,
+    "unresolved": 11
+   },
+   {
+    "chapter": "Organic Chemistry",
+    "total": 53,
+    "solved": 42,
+    "unresolved": 11
+   },
+   {
+    "chapter": "Straight Lines",
+    "total": 29,
+    "solved": 18,
+    "unresolved": 11
+   },
+   {
+    "chapter": "Properties Of Matter",
+    "total": 18,
+    "solved": 7,
+    "unresolved": 11
+   },
+   {
+    "chapter": "Ellipse",
+    "total": 80,
+    "solved": 70,
+    "unresolved": 10
+   },
+   {
+    "chapter": "Electromagnetic Induction",
+    "total": 16,
+    "solved": 6,
+    "unresolved": 10
+   },
+   {
+    "chapter": "Kinetic Theory of Gases",
+    "total": 14,
+    "solved": 4,
+    "unresolved": 10
+   },
+   {
+    "chapter": "Acceleration Due To Gravity And Its Variation",
+    "total": 15,
+    "solved": 6,
+    "unresolved": 9
+   },
+   {
+    "chapter": "Alternating Current",
+    "total": 15,
+    "solved": 6,
+    "unresolved": 9
+   },
+   {
+    "chapter": "Area under curve",
+    "total": 10,
+    "solved": 1,
+    "unresolved": 9
+   },
+   {
+    "chapter": "Gravitation",
+    "total": 142,
+    "solved": 134,
+    "unresolved": 8
+   },
+   {
+    "chapter": "Parabola",
+    "total": 92,
+    "solved": 84,
+    "unresolved": 8
+   },
+   {
+    "chapter": "Center-Of-Mass",
+    "total": 51,
+    "solved": 43,
+    "unresolved": 8
+   },
+   {
+    "chapter": "Ionic Equilibrium",
+    "total": 17,
+    "solved": 9,
+    "unresolved": 8
+   },
+   {
+    "chapter": "Properties Of Triangle",
+    "total": 12,
+    "solved": 4,
+    "unresolved": 8
+   },
+   {
+    "chapter": "Trigonometric-Functions-And-Equations",
+    "total": 9,
+    "solved": 1,
+    "unresolved": 8
+   },
+   {
+    "chapter": "Definite-Integration",
+    "total": 157,
+    "solved": 150,
+    "unresolved": 7
+   },
+   {
+    "chapter": "Circle",
+    "total": 124,
+    "solved": 117,
+    "unresolved": 7
+   },
+   {
+    "chapter": "Area Under The Curves",
+    "total": 18,
+    "solved": 11,
+    "unresolved": 7
+   },
+   {
+    "chapter": "Redox Reactions",
+    "total": 14,
+    "solved": 7,
+    "unresolved": 7
+   },
+   {
+    "chapter": "E-M waves",
+    "total": 8,
+    "solved": 1,
+    "unresolved": 7
+   },
+   {
+    "chapter": "Hyperbola",
+    "total": 57,
+    "solved": 51,
+    "unresolved": 6
+   },
+   {
+    "chapter": "Resistance And Resistivity",
+    "total": 11,
+    "solved": 5,
+    "unresolved": 6
+   },
+   {
+    "chapter": "Mechanical properties of solid",
+    "total": 8,
+    "solved": 2,
+    "unresolved": 6
+   },
+   {
+    "chapter": "growth-and-decay-of-current",
+    "total": 7,
+    "solved": 1,
+    "unresolved": 6
+   },
+   {
+    "chapter": "Electron-Displacement-Effect",
+    "total": 6,
+    "solved": 0,
+    "unresolved": 6
+   },
+   {
+    "chapter": "Proteins-And-Enzymes",
+    "total": 6,
+    "solved": 0,
+    "unresolved": 6
+   },
+   {
+    "chapter": "Practical-Organic-Chemistry",
+    "total": 50,
+    "solved": 45,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Magnetic-Properties-Of-Matter",
+    "total": 45,
+    "solved": 40,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Hydrocarbons",
+    "total": 40,
+    "solved": 35,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Haloalkanes and Haloarenes",
+    "total": 22,
+    "solved": 17,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Kinetic Theory Of Gases And Gas Laws",
+    "total": 22,
+    "solved": 17,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Semiconductor And P N Junction Diode",
+    "total": 10,
+    "solved": 5,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Magnetic effect of current",
+    "total": 9,
+    "solved": 4,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Mole concept",
+    "total": 6,
+    "solved": 1,
+    "unresolved": 5
+   },
+   {
+    "chapter": "ac-generator-and-transformer",
+    "total": 5,
+    "solved": 0,
+    "unresolved": 5
+   },
+   {
+    "chapter": "Sets-And-Relations",
+    "total": 54,
+    "solved": 50,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Redox-Reactions",
+    "total": 30,
+    "solved": 26,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "total": 16,
+    "solved": 12,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Inverse Trigonometric Functions",
+    "total": 15,
+    "solved": 11,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Indefinite integration",
+    "total": 11,
+    "solved": 7,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Ionic Equilibrium Acids Bases pH Scale and Buffer Solutions",
+    "total": 11,
+    "solved": 7,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Refraction at Curved Surfaces Lenses and Optical Instruments",
+    "total": 10,
+    "solved": 6,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Centre of Mass",
+    "total": 9,
+    "solved": 5,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Algebra",
+    "total": 7,
+    "solved": 3,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Differential Equation",
+    "total": 5,
+    "solved": 1,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Rc Circuit",
+    "total": 5,
+    "solved": 1,
+    "unresolved": 4
+   },
+   {
+    "chapter": "alpha-particle-scattering-and-rutherford-model-of-atom",
+    "total": 5,
+    "solved": 1,
+    "unresolved": 4
+   },
+   {
+    "chapter": "Coordination-Compounds",
+    "total": 150,
+    "solved": 147,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Periodic-Table-And-Periodicity",
+    "total": 91,
+    "solved": 88,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Mathematical-Reasoning",
+    "total": 81,
+    "solved": 78,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Hydrogen",
+    "total": 74,
+    "solved": 71,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Motion-In-A-Straight-Line",
+    "total": 64,
+    "solved": 61,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Trigonometric-Ratio-And-Identites",
+    "total": 38,
+    "solved": 35,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Aldehydes-Ketones-And-Carboxylic-Acids",
+    "total": 16,
+    "solved": 13,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Basics Of Organic Chemistry",
+    "total": 16,
+    "solved": 13,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Ionic Equilibrium Salt Hydrolysis and Solubility Product Ksp",
+    "total": 16,
+    "solved": 13,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Order Degree Formation and Variable Separable ODEs",
+    "total": 11,
+    "solved": 8,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Simple Harmonic Motion",
+    "total": 11,
+    "solved": 8,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Application Of Derivatives",
+    "total": 10,
+    "solved": 7,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Motion In A Plane",
+    "total": 10,
+    "solved": 7,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Electric Field And Electric Field Intensity",
+    "total": 9,
+    "solved": 6,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Electromagnetic Waves",
+    "total": 9,
+    "solved": 6,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Refraction TIR and Prism Optics",
+    "total": 9,
+    "solved": 6,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Nuclear Fission And Fusion And Binding Energy",
+    "total": 7,
+    "solved": 4,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Salt Analysis",
+    "total": 7,
+    "solved": 4,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Purification-Of-Organic-Compounds",
+    "total": 6,
+    "solved": 3,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Reflection Of Light",
+    "total": 6,
+    "solved": 3,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Alcohol, Phenol and Ethers",
+    "total": 5,
+    "solved": 2,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Real Gas",
+    "total": 5,
+    "solved": 2,
+    "unresolved": 3
+   },
+   {
+    "chapter": "Hybridization-And-Vsepr-Theory",
+    "total": 4,
+    "solved": 1,
+    "unresolved": 3
+   },
+   {
+    "chapter": "P-Block-Elements",
+    "total": 68,
+    "solved": 66,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Communication-Systems",
+    "total": 54,
+    "solved": 52,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Electronic-Devices",
+    "total": 51,
+    "solved": 49,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Surface-Chemistry",
+    "total": 42,
+    "solved": 40,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Polymers",
+    "total": 40,
+    "solved": 38,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Gaseous-State",
+    "total": 25,
+    "solved": 23,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Chemical Equilibrium Kp Kc Degree of Dissociation and Le Chatelier",
+    "total": 21,
+    "solved": 19,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Compounds-Containing-Nitrogen",
+    "total": 21,
+    "solved": 19,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Haloalkanes-And-Haloarenes",
+    "total": 16,
+    "solved": 14,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Environmental Chemistry",
+    "total": 15,
+    "solved": 13,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Alcohols, Phenols and Ethers",
+    "total": 13,
+    "solved": 11,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Isolation Of Elements",
+    "total": 10,
+    "solved": 8,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Linear Differential Equations Bernoulli and Orthogonal Trajectories",
+    "total": 9,
+    "solved": 7,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Degree Of Freedom And Law Of Equipartition Of Energy",
+    "total": 7,
+    "solved": 5,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Capacitor In Circuit",
+    "total": 6,
+    "solved": 4,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Error analysis",
+    "total": 5,
+    "solved": 3,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Parallel Plate Capacitor",
+    "total": 5,
+    "solved": 3,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Uniform Circular Motion",
+    "total": 5,
+    "solved": 3,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Carbohydrates",
+    "total": 3,
+    "solved": 1,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Properties,-Preparation-And-Uses-Of-Phenols",
+    "total": 3,
+    "solved": 1,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Vectors",
+    "total": 3,
+    "solved": 1,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Isomerism",
+    "total": 2,
+    "solved": 0,
+    "unresolved": 2
+   },
+   {
+    "chapter": "States of Matter",
+    "total": 2,
+    "solved": 0,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Vitamins-And-Nucleic-Acids",
+    "total": 2,
+    "solved": 0,
+    "unresolved": 2
+   },
+   {
+    "chapter": "Heat-And-Thermodynamics",
+    "total": 151,
+    "solved": 150,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Limits-Continuity-And-Differentiability",
+    "total": 150,
+    "solved": 149,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Atoms-And-Nuclei",
+    "total": 146,
+    "solved": 145,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Permutations-And-Combinations",
+    "total": 79,
+    "solved": 78,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Isolation-Of-Elements",
+    "total": 67,
+    "solved": 66,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Differentiation",
+    "total": 66,
+    "solved": 65,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Work-Power-And-Energy",
+    "total": 64,
+    "solved": 63,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Ionic-Equilibrium",
+    "total": 59,
+    "solved": 58,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Basics-Of-Organic-Chemistry",
+    "total": 52,
+    "solved": 51,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Inverse-Trigonometric-Functions",
+    "total": 49,
+    "solved": 48,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Displacement Current And Properties Of Em Waves",
+    "total": 28,
+    "solved": 27,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Sequences and Series",
+    "total": 22,
+    "solved": 21,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Circles",
+    "total": 18,
+    "solved": 17,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Lenses",
+    "total": 16,
+    "solved": 15,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Rigid Body Dynamics",
+    "total": 14,
+    "solved": 13,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Specific Heat Capacity, Calorimetry & Change Of State",
+    "total": 13,
+    "solved": 12,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Electric Potential Energy And Electric Potential",
+    "total": 11,
+    "solved": 10,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Mathematical Reasoning",
+    "total": 11,
+    "solved": 10,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Aldehydes Ketones and Carboxylic Acids",
+    "total": 9,
+    "solved": 8,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Capacitors With Dielectric",
+    "total": 9,
+    "solved": 8,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Electric Power And Heating Effect Of Current",
+    "total": 9,
+    "solved": 8,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Conic Sections",
+    "total": 8,
+    "solved": 7,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Reflection Plane and Spherical Mirrors",
+    "total": 8,
+    "solved": 7,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Triangles",
+    "total": 8,
+    "solved": 7,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Atomic Structure",
+    "total": 7,
+    "solved": 6,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Kepler'S Law And Universal Law Of Gravitation",
+    "total": 7,
+    "solved": 6,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Limits",
+    "total": 7,
+    "solved": 6,
+    "unresolved": 1
+   },
+   {
+    "chapter": "properties,-preparation-and-uses-of-alcohols",
+    "total": 7,
+    "solved": 6,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Projectile Motion",
+    "total": 6,
+    "solved": 5,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Combination Of Capacitors",
+    "total": 5,
+    "solved": 4,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Electric Dipole",
+    "total": 5,
+    "solved": 4,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Periodic table",
+    "total": 5,
+    "solved": 4,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Relation",
+    "total": 5,
+    "solved": 4,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Sets",
+    "total": 5,
+    "solved": 4,
+    "unresolved": 1
+   },
+   {
+    "chapter": "direction-cosines-and-direction-ratios-of-a-line",
+    "total": 5,
+    "solved": 4,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Electric Flux And Gauss Law",
+    "total": 3,
+    "solved": 2,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Chemistry-In-Everyday-Life",
+    "total": 2,
+    "solved": 1,
+    "unresolved": 1
+   },
+   {
+    "chapter": "IUPAC and Structural Isomerism",
+    "total": 2,
+    "solved": 1,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Ideal Gas",
+    "total": 2,
+    "solved": 1,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Vector",
+    "total": 2,
+    "solved": 1,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Basic of Mathematics",
+    "total": 1,
+    "solved": 0,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Dipole-Moment",
+    "total": 1,
+    "solved": 0,
+    "unresolved": 1
+   },
+   {
+    "chapter": "quality-factor",
+    "total": 1,
+    "solved": 0,
+    "unresolved": 1
+   },
+   {
+    "chapter": "Application-Of-Derivatives",
+    "total": 142,
+    "solved": 142,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Properties-Of-Matter",
+    "total": 136,
+    "solved": 136,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Differential-Equations",
+    "total": 135,
+    "solved": 135,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Units-And-Measurements",
+    "total": 133,
+    "solved": 133,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Dual-Nature-Of-Radiation",
+    "total": 116,
+    "solved": 116,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Magnetics",
+    "total": 111,
+    "solved": 111,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Straight-Lines-And-Pair-Of-Straight-Lines",
+    "total": 108,
+    "solved": 108,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Simple-Harmonic-Motion",
+    "total": 93,
+    "solved": 93,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Some-Basic-Concepts-Of-Chemistry",
+    "total": 75,
+    "solved": 75,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Area-Under-The-Curves",
+    "total": 70,
+    "solved": 70,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Chemical-Kinetics-And-Nuclear-Chemistry",
+    "total": 69,
+    "solved": 69,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Rotational-Motion",
+    "total": 67,
+    "solved": 67,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Environmental-Chemistry",
+    "total": 66,
+    "solved": 66,
+    "unresolved": 0
+   },
+   {
+    "chapter": "S-Block-Elements",
+    "total": 65,
+    "solved": 65,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Physical Chemistry",
+    "total": 64,
+    "solved": 64,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Inorganic Chemistry",
+    "total": 56,
+    "solved": 56,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Indefinite-Integrals",
+    "total": 55,
+    "solved": 55,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Capacitor",
+    "total": 48,
+    "solved": 48,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Chemical-Equilibrium",
+    "total": 47,
+    "solved": 47,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Motion-In-A-Plane",
+    "total": 44,
+    "solved": 44,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Electromagnetic-Induction",
+    "total": 38,
+    "solved": 38,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Circular-Motion",
+    "total": 33,
+    "solved": 33,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Geometrical-Optics",
+    "total": 31,
+    "solved": 31,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Solid-State",
+    "total": 31,
+    "solved": 31,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Definite Integration",
+    "total": 23,
+    "solved": 23,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Binomial Theorem",
+    "total": 18,
+    "solved": 18,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Complex Numbers",
+    "total": 17,
+    "solved": 17,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Alternating-Current",
+    "total": 15,
+    "solved": 15,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Vector Algebra",
+    "total": 15,
+    "solved": 15,
+    "unresolved": 0
+   },
+   {
+    "chapter": "properties,-preparation-and-uses-of-phenols",
+    "total": 15,
+    "solved": 15,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Permutations and Combinations",
+    "total": 14,
+    "solved": 14,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Collision",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Escape Speed And Motion Of Satellites",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Height and Distance",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Matter Waves",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Newton's Laws of Motion",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Nucleus And Radioactivity",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Periodic Table and Periodicity",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Structure Of Atom",
+    "total": 13,
+    "solved": 13,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Compounds Containing Nitrogen",
+    "total": 12,
+    "solved": 12,
+    "unresolved": 0
+   },
+   {
+    "chapter": "P Block Elements",
+    "total": 12,
+    "solved": 12,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Properties-Of-Triangle",
+    "total": 12,
+    "solved": 12,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Theory of Equations",
+    "total": 12,
+    "solved": 12,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Quadratic Equations",
+    "total": 11,
+    "solved": 11,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Surface Chemistry",
+    "total": 11,
+    "solved": 11,
+    "unresolved": 0
+   },
+   {
+    "chapter": "3D Geometry",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Current Electricity",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Galvanometer, Voltmeter And Ammeter",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Kinematics",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Limits Continuity and Differentiability",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "P-block",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Photoelectric Effect",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Practical Organic Chemistry",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Solid State",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Wave Optics",
+    "total": 10,
+    "solved": 10,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Alcohols Phenols and Ethers",
+    "total": 9,
+    "solved": 9,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Homogeneous Exact and Integrating Factor Inspection ODEs",
+    "total": 9,
+    "solved": 9,
+    "unresolved": 0
+   },
+   {
+    "chapter": "S Block Elements",
+    "total": 9,
+    "solved": 9,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Logarithm",
+    "total": 8,
+    "solved": 8,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Matrices and Determinants",
+    "total": 8,
+    "solved": 8,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Refraction, Tir And Prism",
+    "total": 8,
+    "solved": 8,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Alcohols-Phenols-And-Ethers",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Electronic Devices",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Heat and Thermodynamics",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Indefinite Integrals",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Magnetic Properties Of Matter",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Modulation & Demodulation",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Rotational Motion",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Straight Lines and Pair Of Straight Lines",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Trigonometric Ratio and Identites",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "uniform-circular-motion",
+    "total": 7,
+    "solved": 7,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Elements Of Communication System & Propagation Of Em Wave",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Geometrical Optics",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Heat",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Laws Of Motion",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Limits, continuity and derivability",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Optical Instruments",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Series and progressions",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Sets and Relations",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Trigonometric Functions and Equations",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Trigonometry",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Work Power and Energy",
+    "total": 6,
+    "solved": 6,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Atoms and Nuclei",
+    "total": 5,
+    "solved": 5,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Communication Systems",
+    "total": 5,
+    "solved": 5,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Gaseous State",
+    "total": 5,
+    "solved": 5,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Inductance (Self And Mutual)",
+    "total": 5,
+    "solved": 5,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Logarithm and its applications",
+    "total": 5,
+    "solved": 5,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Magnetic Flux, Faraday'S And Lenz'S Laws",
+    "total": 5,
+    "solved": 5,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Properties of triangle",
+    "total": 5,
+    "solved": 5,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Application of derivatives",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Center Of Mass",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Chemical Bonding",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Chemistry In Everyday Life",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Continuity and differentiability",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Differential equation",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Dual Nature Of Radiation",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "EM wave",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Impulse Momentum Theorem",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Integrals",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Magnetism",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Mathematical reasoning",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Mechanical properties of liquid",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Monotonocity",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Thermodynamics Process",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "properties,-preparation-and-uses-of-ethers",
+    "total": 4,
+    "solved": 4,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Continuity and derivability",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Electronic devices",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Equivalent Concept",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Growth And Decay Of Current",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "ITF",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Motion In A Straight Line",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Particle Nature Of Light The Photon",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Properties of Triangle",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Unit and dimension",
+    "total": 3,
+    "solved": 3,
+    "unresolved": 0
+   },
+   {
+    "chapter": "3D",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "AC",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Application of Derivatives",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Circular Motion",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Electric Energy Stored By Capacitor",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Halogen",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Heat Transfer",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Integration",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Mathematical Induction",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Straight Lines and Pair of Straight Lines",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Transistors",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "motion-of-center-of-mass",
+    "total": 2,
+    "solved": 2,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Ac Circuits And Power In Ac Circuits",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Alpha Particle Scattering And Rutherford Model Of Atom",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Application of derivative",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Chemical Kinetics and Nuclear Chemistry",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Circular motion",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Compound angles",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Differcntiation",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Electric current",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Em Spectrum",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Inequalities",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Kinetic theory of gasses",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Limit",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Limits, continuity and differentiability",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Logical reasoning",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Mangetism",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Matrix and determinant",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Mechanical properties of matter",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Mechanics",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Motional Emf And Eddy Current",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Moving charges and",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Potentiometer",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Relative motion",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "Special functions",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   },
+   {
+    "chapter": "non-uniform-circular-motion",
+    "total": 1,
+    "solved": 1,
+    "unresolved": 0
+   }
+  ],
+  "unresolved_ids": [
+   "JEE-2004-AIEEE-CHE-001",
+   "JEE-2010-AIEEE-CHE-004",
+   "JEE-2019-ONLINE-APR12-EVENING-CHE-001",
+   "JEE-2021-ONLINE-CHE-023",
+   "JEE-2024-ONLINE-CHE-024",
+   "JEE-2020-ONLINE-SEPTEMBER04-MORNING-CHE-001",
+   "JEE-2018-ONLINE-APR16-MORNING-CHE-004",
+   "JEE-2021-ONLINE-CHE-030",
+   "JEE-2024-ONLINE-CHE-036",
+   "JEE-2004-AIEEE-CHE-020",
+   "JEE-2023-ONLINE-CHE-057",
+   "JEE-2024-ONLINE-CHE-074",
+   "JEE-2019-ONLINE-JAN10-MORNING-CHE-003",
+   "JEE-2021-ONLINE-FEB25-MORNING-CHE-005",
+   "JEE-2021-ONLINE-CHE-074",
+   "JEE-2021-ONLINE-CHE-075",
+   "JEE-2020-ONLINE-JAN07-MORNING-CHE-005",
+   "JEE-2002-AIEEE-CHE-023",
+   "JEE-2020-ONLINE-JAN09-EVENING-CHE-005",
+   "JEE-2019-ONLINE-APR09-MORNING-CHE-006",
+   "JEE-2020-ONLINE-SEPTEMBER03-MORNING-CHE-006",
+   "JEE-2012-AIEEE-CHE-010",
+   "JEE-2024-ONLINE-CHE-116",
+   "JEE-2019-ONLINE-JAN10-MORNING-CHE-007",
+   "JEE-2019-ONLINE-APR08-EVENING-CHE-014",
+   "JEE-2019-ONLINE-JAN09-EVENING-CHE-008",
+   "JEE-2020-ONLINE-SEPTEMBER06-EVENING-CHE-006",
+   "JEE-2019-ONLINE-APR10-EVENING-CHE-009",
+   "JEE-2020-ONLINE-SEPTEMBER06-MORNING-CHE-007",
+   "JEE-2022-ONLINE-CHE-141",
+   "JEE-2024-ONLINE-CHE-140",
+   "JEE-2019-ONLINE-JAN10-MORNING-CHE-012",
+   "JEE-2020-ONLINE-JAN09-MORNING-CHE-009",
+   "JEE-2024-ONLINE-CHE-151",
+   "JEE-2003-AIEEE-CHE-041",
+   "JEE-2021-ONLINE-CHE-147",
+   "JEE-2023-ONLINE-CHE-181",
+   "JEE-2024-ONLINE-CHE-169",
+   "JEE-2024-ONLINE-CHE-175",
+   "JEE-2020-ONLINE-JAN08-MORNING-CHE-006",
+   "JEE-2019-ONLINE-JAN10-EVENING-CHE-008",
+   "JEE-2019-ONLINE-JAN12-EVENING-CHE-012",
+   "JEE-2019-ONLINE-JAN12-MORNING-CHE-014",
+   "JEE-2019-ONLINE-APR09-EVENING-CHE-012",
+   "JEE-2019-ONLINE-JAN09-MORNING-CHE-015",
+   "JEE-2020-ONLINE-SEPTEMBER05-MORNING-CHE-010",
+   "JEE-2020-ONLINE-SEPTEMBER03-MORNING-CHE-010",
+   "JEE-2020-ONLINE-JAN08-EVENING-CHE-006",
+   "JEE-2020-ONLINE-JAN08-MORNING-CHE-008",
+   "JEE-2021-ONLINE-CHE-160",
+   "JEE-2019-ONLINE-JAN11-MORNING-CHE-015",
+   "JEE-2022-ONLINE-CHE-231",
+   "JEE-2020-ONLINE-SEPTEMBER04-MORNING-CHE-008",
+   "JEE-2019-ONLINE-APR12-MORNING-CHE-019",
+   "JEE-2025-GENERAL-MAT-002",
+   "JEE-2025-GENERAL-MAT-004",
+   "JEE-2025-GENERAL-MAT-005",
+   "JEE-2025-GENERAL-MAT-006",
+   "JEE-2019-ONLINE-JAN12-MORNING-MAT-006",
+   "JEE-2009-AIEEE-MAT-016",
+   "JEE-2019-ONLINE-JAN10-EVENING-MAT-017",
+   "JEE-2020-ONLINE-SEPTEMBER05-EVENING-MAT-011",
+   "JEE-2021-ONLINE-MAT-200",
+   "JEE-2019-ONLINE-JAN12-MORNING-MAT-020",
+   "JEE-2022-ONLINE-PHY-064",
+   "JEE-2023-ONLINE-PHY-053",
+   "JEE-2004-AIEEE-PHY-024",
+   "JEE-2004-AIEEE-PHY-025",
+   "JEE-2007-GENERAL-PHY-012",
+   "JEE-2019-ONLINE-APR08-MORNING-PHY-021",
+   "JEE-2019-ONLINE-JAN09-EVENING-PHY-030",
+   "JEE-2020-ONLINE-SEPTEMBER02-EVENING-PHY-011",
+   "JEE-2020-ONLINE-SEPTEMBER03-MORNING-PHY-018",
+   "JEE-2021-ONLINE-PHY-265",
+   "JEE-2021-ONLINE-PHY-266",
+   "JEE-2021-ONLINE-PHY-267",
+   "JEE-2021-ONLINE-PHY-270",
+   "JEE-2021-ONLINE-PHY-271",
+   "JEE-2021-ONLINE-FEB25-EVENING-PHY-012",
+   "JEE-2021-ONLINE-PHY-272",
+   "JEE-2021-ONLINE-PHY-273",
+   "JEE-2021-ONLINE-PHY-274",
+   "JEE-2021-ONLINE-PHY-276",
+   "JEE-2022-ONLINE-PHY-339",
+   "JEE-2022-ONLINE-PHY-340",
+   "JEE-2022-ONLINE-PHY-342",
+   "JEE-2022-ONLINE-PHY-343",
+   "JEE-2022-ONLINE-PHY-344",
+   "JEE-2022-ONLINE-PHY-345",
+   "JEE-2022-ONLINE-PHY-346",
+   "JEE-2022-ONLINE-PHY-348",
+   "JEE-2022-ONLINE-PHY-349",
+   "JEE-2023-ONLINE-PHY-334",
+   "JEE-2023-ONLINE-PHY-335",
+   "JEE-2023-ONLINE-PHY-336",
+   "JEE-2023-ONLINE-PHY-337",
+   "JEE-2023-ONLINE-PHY-338",
+   "JEE-2024-ONLINE-PHY-250",
+   "JEE-2024-ONLINE-PHY-252",
+   "JEE-2024-ONLINE-PHY-253",
+   "JEE-2024-ONLINE-PHY-254",
+   "JEE-2024-ONLINE-PHY-255",
+   "JEE-2024-ONLINE-PHY-256",
+   "JEE-2024-ONLINE-PHY-257",
+   "JEE-2024-ONLINE-PHY-259",
+   "JEE-2024-ONLINE-PHY-260",
+   "JEE-2024-ONLINE-PHY-261",
+   "JEE-2019-ONLINE-APR10-MORNING-PHY-025",
+   "JEE-2019-ONLINE-JAN09-EVENING-PHY-031",
+   "JEE-2022-ONLINE-PHY-351",
+   "JEE-2023-ONLINE-PHY-339",
+   "JEE-2024-ONLINE-PHY-262",
+   "JEE-2023-ONLINE-PHY-340",
+   "JEE-2023-ONLINE-PHY-341",
+   "JEE-2019-ONLINE-APR10-EVENING-PHY-025",
+   "JEE-2019-ONLINE-JAN11-EVENING-PHY-027",
+   "JEE-2019-ONLINE-JAN11-MORNING-PHY-025",
+   "JEE-2019-ONLINE-APR12-EVENING-PHY-022",
+   "JEE-2019-ONLINE-APR12-EVENING-PHY-023",
+   "JEE-2019-ONLINE-APR12-MORNING-PHY-018",
+   "JEE-2019-ONLINE-APR08-MORNING-PHY-022",
+   "JEE-2019-ONLINE-APR09-EVENING-PHY-030",
+   "JEE-2019-ONLINE-APR09-MORNING-PHY-026",
+   "JEE-2020-ONLINE-SEPTEMBER02-EVENING-PHY-012",
+   "JEE-2020-ONLINE-JAN07-MORNING-PHY-013",
+   "JEE-2020-ONLINE-JAN09-EVENING-PHY-011",
+   "JEE-2021-ONLINE-PHY-277",
+   "JEE-2021-ONLINE-PHY-278",
+   "JEE-2021-ONLINE-PHY-279",
+   "JEE-2021-ONLINE-FEB24-EVENING-PHY-014",
+   "JEE-2021-ONLINE-FEB25-EVENING-PHY-013",
+   "JEE-2021-ONLINE-FEB26-MORNING-PHY-018",
+   "JEE-2019-ONLINE-APR10-EVENING-PHY-026",
+   "JEE-2020-ONLINE-JAN07-EVENING-PHY-016",
+   "JEE-2022-ONLINE-PHY-352",
+   "JEE-2022-ONLINE-PHY-353",
+   "JEE-2022-ONLINE-PHY-354",
+   "JEE-2024-ONLINE-PHY-264",
+   "JEE-2020-ONLINE-SEPTEMBER06-MORNING-PHY-014",
+   "JEE-2025-ONLINE-JAN-PHY-001",
+   "JEE-2025-ONLINE-JAN-PHY-002",
+   "JEE-2025-ONLINE-JAN-PHY-003",
+   "JEE-2025-ONLINE-JAN-PHY-004",
+   "JEE-2025-ONLINE-JAN-PHY-005",
+   "JEE-2025-ONLINE-JAN-PHY-006",
+   "JEE-2025-ONLINE-JAN-PHY-007",
+   "JEE-2025-ONLINE-JAN-PHY-008",
+   "JEE-2025-ONLINE-JAN-PHY-009",
+   "JEE-2025-ONLINE-JAN-PHY-010",
+   "JEE-2025-ONLINE-JAN-PHY-011",
+   "JEE-2025-ONLINE-JAN-PHY-012",
+   "JEE-2025-ONLINE-JAN-PHY-013",
+   "JEE-2025-ONLINE-JAN-PHY-014",
+   "JEE-2025-ONLINE-JAN-PHY-015",
+   "JEE-2025-ONLINE-JAN-PHY-016",
+   "JEE-2025-ONLINE-JAN-PHY-017",
+   "JEE-2025-ONLINE-JAN-PHY-018",
+   "JEE-2025-ONLINE-JAN-PHY-019",
+   "JEE-2025-ONLINE-JAN-PHY-020",
+   "JEE-2025-ONLINE-JAN-PHY-021",
+   "JEE-2025-ONLINE-JAN-PHY-022",
+   "JEE-2025-ONLINE-JAN-PHY-023",
+   "JEE-2025-ONLINE-JAN-PHY-024",
+   "JEE-2025-ONLINE-JAN-PHY-025",
+   "JEE-2025-ONLINE-JAN-PHY-026",
+   "JEE-2025-ONLINE-JAN-PHY-027",
+   "JEE-2025-ONLINE-JAN-PHY-028",
+   "JEE-2025-ONLINE-JAN-PHY-029",
+   "JEE-2025-ONLINE-JAN-PHY-031",
+   "JEE-2025-ONLINE-JAN-PHY-032",
+   "JEE-2025-ONLINE-JAN-PHY-033",
+   "JEE-2025-ONLINE-JAN-PHY-034",
+   "JEE-2025-ONLINE-JAN-PHY-035",
+   "JEE-2025-ONLINE-JAN-PHY-036",
+   "JEE-2025-ONLINE-JAN-PHY-037",
+   "JEE-2025-ONLINE-JAN-PHY-038",
+   "JEE-2025-ONLINE-JAN-PHY-039",
+   "JEE-2025-ONLINE-JAN-PHY-040",
+   "JEE-2025-ONLINE-JAN-PHY-041",
+   "JEE-2025-ONLINE-JAN-PHY-042",
+   "JEE-2025-ONLINE-JAN-PHY-043",
+   "JEE-2025-ONLINE-JAN-PHY-044",
+   "JEE-2025-ONLINE-JAN-PHY-045",
+   "JEE-2025-ONLINE-JAN-PHY-046",
+   "JEE-2025-ONLINE-JAN-PHY-047",
+   "JEE-2025-ONLINE-JAN-PHY-048",
+   "JEE-2025-ONLINE-JAN-PHY-049",
+   "JEE-2025-ONLINE-JAN-PHY-050",
+   "JEE-2025-ONLINE-JAN-PHY-051",
+   "JEE-2025-ONLINE-JAN-PHY-052",
+   "JEE-2025-ONLINE-JAN-PHY-053",
+   "JEE-2025-ONLINE-JAN-PHY-055",
+   "JEE-2025-ONLINE-JAN-PHY-056",
+   "JEE-2025-ONLINE-JAN-PHY-057",
+   "JEE-2025-ONLINE-JAN-PHY-058",
+   "JEE-2025-ONLINE-JAN-PHY-059",
+   "JEE-2025-ONLINE-JAN-PHY-060",
+   "JEE-2025-ONLINE-JAN-PHY-061",
+   "JEE-2025-ONLINE-JAN-PHY-062",
+   "JEE-2025-ONLINE-JAN-PHY-063",
+   "JEE-2025-ONLINE-JAN-PHY-064",
+   "JEE-2025-ONLINE-JAN-PHY-065",
+   "JEE-2025-ONLINE-JAN-PHY-066",
+   "JEE-2025-ONLINE-JAN-PHY-067",
+   "JEE-2025-ONLINE-JAN-PHY-069",
+   "JEE-2025-ONLINE-JAN-PHY-070",
+   "JEE-2025-ONLINE-JAN-PHY-071",
+   "JEE-2025-ONLINE-JAN-PHY-072",
+   "JEE-2025-ONLINE-JAN-PHY-073",
+   "JEE-2025-ONLINE-JAN-PHY-074",
+   "JEE-2025-ONLINE-JAN-PHY-075",
+   "JEE-2025-ONLINE-JAN-PHY-076",
+   "JEE-2025-ONLINE-JAN-PHY-077",
+   "JEE-2025-ONLINE-JAN-PHY-078",
+   "JEE-2025-ONLINE-JAN-PHY-079",
+   "JEE-2025-ONLINE-JAN-PHY-080",
+   "JEE-2025-ONLINE-JAN-PHY-081",
+   "JEE-2025-ONLINE-JAN-PHY-082",
+   "JEE-2025-ONLINE-JAN-PHY-083",
+   "JEE-2025-ONLINE-JAN-PHY-084",
+   "JEE-2025-ONLINE-JAN-PHY-085",
+   "JEE-2025-ONLINE-JAN-PHY-086",
+   "JEE-2025-ONLINE-JAN-PHY-087",
+   "JEE-2025-ONLINE-JAN-PHY-088",
+   "JEE-2025-ONLINE-JAN-PHY-089",
+   "JEE-2025-ONLINE-JAN-PHY-090",
+   "JEE-2025-ONLINE-JAN-PHY-091",
+   "JEE-2025-ONLINE-JAN-PHY-092",
+   "JEE-2025-ONLINE-JAN-PHY-093",
+   "JEE-2025-ONLINE-JAN-PHY-094",
+   "JEE-2025-ONLINE-JAN-PHY-095",
+   "JEE-2025-ONLINE-JAN-PHY-096",
+   "JEE-2025-ONLINE-JAN-PHY-097",
+   "JEE-2025-ONLINE-JAN-PHY-098",
+   "JEE-2025-ONLINE-JAN-PHY-099",
+   "JEE-2025-ONLINE-JAN-PHY-100",
+   "JEE-2025-ONLINE-JAN-PHY-101",
+   "JEE-2025-ONLINE-JAN-PHY-102",
+   "JEE-2025-ONLINE-JAN-PHY-103",
+   "JEE-2025-ONLINE-JAN-PHY-104",
+   "JEE-2025-ONLINE-JAN-PHY-105",
+   "JEE-2025-ONLINE-JAN-PHY-106",
+   "JEE-2025-ONLINE-JAN-PHY-107",
+   "JEE-2025-ONLINE-JAN-PHY-108",
+   "JEE-2025-ONLINE-JAN-PHY-109",
+   "JEE-2025-ONLINE-JAN-PHY-110",
+   "JEE-2025-ONLINE-JAN-PHY-111",
+   "JEE-2025-ONLINE-JAN-PHY-112",
+   "JEE-2025-ONLINE-JAN-PHY-113",
+   "JEE-2025-ONLINE-JAN-PHY-114",
+   "JEE-2025-ONLINE-JAN-PHY-115",
+   "JEE-2025-ONLINE-JAN-PHY-116",
+   "JEE-2025-ONLINE-JAN-PHY-117",
+   "JEE-2025-ONLINE-JAN-PHY-118",
+   "JEE-2025-ONLINE-JAN-PHY-119",
+   "JEE-2025-ONLINE-JAN-PHY-120",
+   "JEE-2025-ONLINE-JAN-PHY-121",
+   "JEE-2025-ONLINE-JAN-PHY-122",
+   "JEE-2025-ONLINE-JAN-PHY-123",
+   "JEE-2025-ONLINE-JAN-PHY-124",
+   "JEE-2025-ONLINE-JAN-PHY-126",
+   "JEE-2025-ONLINE-JAN-PHY-127",
+   "JEE-2025-ONLINE-JAN-PHY-128",
+   "JEE-2025-ONLINE-JAN-PHY-129",
+   "JEE-2025-ONLINE-JAN-PHY-130",
+   "JEE-2025-ONLINE-JAN-PHY-131",
+   "JEE-2025-ONLINE-JAN-PHY-132",
+   "JEE-2025-ONLINE-JAN-PHY-133",
+   "JEE-2025-ONLINE-JAN-PHY-134",
+   "JEE-2025-ONLINE-JAN-PHY-135",
+   "JEE-2025-ONLINE-JAN-PHY-136",
+   "JEE-2025-ONLINE-JAN-PHY-137",
+   "JEE-2025-ONLINE-JAN-PHY-138",
+   "JEE-2025-ONLINE-JAN-PHY-139",
+   "JEE-2025-ONLINE-JAN-PHY-140",
+   "JEE-2025-ONLINE-JAN-PHY-141",
+   "JEE-2025-ONLINE-JAN-PHY-142",
+   "JEE-2025-ONLINE-JAN-PHY-143",
+   "JEE-2025-ONLINE-JAN-PHY-144",
+   "JEE-2025-ONLINE-JAN-PHY-145",
+   "JEE-2025-ONLINE-JAN-PHY-146",
+   "JEE-2025-ONLINE-JAN-PHY-147",
+   "JEE-2025-ONLINE-JAN-PHY-148",
+   "JEE-2025-ONLINE-JAN-PHY-149",
+   "JEE-2025-ONLINE-JAN-PHY-150",
+   "JEE-2025-ONLINE-JAN-PHY-151",
+   "JEE-2025-ONLINE-JAN-PHY-152",
+   "JEE-2025-ONLINE-JAN-PHY-153",
+   "JEE-2025-ONLINE-JAN-PHY-154",
+   "JEE-2025-ONLINE-JAN-PHY-155",
+   "JEE-2025-ONLINE-APR-PHY-001",
+   "JEE-2025-ONLINE-APR-PHY-002",
+   "JEE-2025-ONLINE-APR-PHY-003",
+   "JEE-2025-ONLINE-APR-PHY-004",
+   "JEE-2025-ONLINE-APR-PHY-005",
+   "JEE-2025-ONLINE-APR-PHY-006",
+   "JEE-2025-ONLINE-APR-PHY-007",
+   "JEE-2025-ONLINE-APR-PHY-008",
+   "JEE-2025-ONLINE-APR-PHY-009",
+   "JEE-2025-ONLINE-APR-PHY-010",
+   "JEE-2025-ONLINE-APR-PHY-011",
+   "JEE-2025-ONLINE-APR-PHY-012",
+   "JEE-2025-ONLINE-APR-PHY-013",
+   "JEE-2025-ONLINE-APR-PHY-014",
+   "JEE-2025-ONLINE-APR-PHY-015",
+   "JEE-2025-ONLINE-APR-PHY-016",
+   "JEE-2025-ONLINE-APR-PHY-017",
+   "JEE-2025-ONLINE-APR-PHY-018",
+   "JEE-2025-ONLINE-APR-PHY-019",
+   "JEE-2025-ONLINE-APR-PHY-020",
+   "JEE-2025-ONLINE-APR-PHY-021",
+   "JEE-2025-ONLINE-APR-PHY-022",
+   "JEE-2025-ONLINE-APR-PHY-023",
+   "JEE-2025-ONLINE-APR-PHY-024",
+   "JEE-2025-ONLINE-APR-PHY-025",
+   "JEE-2025-ONLINE-APR-PHY-026",
+   "JEE-2025-ONLINE-APR-PHY-027",
+   "JEE-2025-ONLINE-APR-PHY-028",
+   "JEE-2025-ONLINE-APR-PHY-029",
+   "JEE-2025-ONLINE-APR-PHY-030",
+   "JEE-2025-ONLINE-APR-PHY-031",
+   "JEE-2025-ONLINE-APR-PHY-032",
+   "JEE-2025-ONLINE-APR-PHY-033",
+   "JEE-2025-ONLINE-APR-PHY-034",
+   "JEE-2025-ONLINE-APR-PHY-035",
+   "JEE-2025-ONLINE-APR-PHY-036",
+   "JEE-2025-ONLINE-APR-PHY-037",
+   "JEE-2025-ONLINE-APR-PHY-038",
+   "JEE-2025-ONLINE-APR-PHY-039",
+   "JEE-2025-ONLINE-APR-PHY-040",
+   "JEE-2025-ONLINE-APR-PHY-042",
+   "JEE-2025-ONLINE-APR-PHY-043",
+   "JEE-2025-ONLINE-APR-PHY-044",
+   "JEE-2025-ONLINE-APR-PHY-045",
+   "JEE-2025-ONLINE-APR-PHY-046",
+   "JEE-2025-ONLINE-APR-PHY-047",
+   "JEE-2025-ONLINE-APR-PHY-048",
+   "JEE-2025-ONLINE-APR-PHY-049",
+   "JEE-2025-ONLINE-APR-PHY-050",
+   "JEE-2025-ONLINE-APR-PHY-051",
+   "JEE-2025-ONLINE-APR-PHY-052",
+   "JEE-2025-ONLINE-APR-PHY-053",
+   "JEE-2025-ONLINE-APR-PHY-054",
+   "JEE-2025-ONLINE-APR-PHY-055",
+   "JEE-2025-ONLINE-APR-PHY-056",
+   "JEE-2025-ONLINE-APR-PHY-057",
+   "JEE-2025-ONLINE-APR-PHY-058",
+   "JEE-2025-ONLINE-APR-PHY-059",
+   "JEE-2025-ONLINE-APR-PHY-060",
+   "JEE-2025-ONLINE-APR-PHY-061",
+   "JEE-2025-ONLINE-APR-PHY-062",
+   "JEE-2025-ONLINE-APR-PHY-063",
+   "JEE-2025-ONLINE-APR-PHY-064",
+   "JEE-2025-ONLINE-APR-PHY-065",
+   "JEE-2025-ONLINE-APR-PHY-066",
+   "JEE-2025-ONLINE-APR-PHY-067",
+   "JEE-2025-ONLINE-APR-PHY-068",
+   "JEE-2025-ONLINE-APR-PHY-069",
+   "JEE-2025-ONLINE-APR-PHY-070",
+   "JEE-2025-ONLINE-APR-PHY-071",
+   "JEE-2025-ONLINE-APR-PHY-072",
+   "JEE-2025-ONLINE-APR-PHY-073",
+   "JEE-2025-ONLINE-APR-PHY-074",
+   "JEE-2025-ONLINE-APR-PHY-075",
+   "JEE-2025-ONLINE-APR-PHY-076",
+   "JEE-2025-ONLINE-APR-PHY-077",
+   "JEE-2025-ONLINE-APR-PHY-078",
+   "JEE-2025-ONLINE-APR-PHY-080",
+   "JEE-2025-ONLINE-APR-PHY-081",
+   "JEE-2025-ONLINE-APR-PHY-082",
+   "JEE-2025-ONLINE-APR-PHY-084",
+   "JEE-2025-ONLINE-APR-PHY-085",
+   "JEE-2025-ONLINE-APR-PHY-087",
+   "JEE-2025-ONLINE-APR-PHY-088",
+   "JEE-2025-ONLINE-APR-PHY-089",
+   "JEE-2025-ONLINE-APR-PHY-090",
+   "JEE-2025-ONLINE-APR-PHY-091",
+   "JEE-2025-ONLINE-APR-PHY-092",
+   "JEE-2025-ONLINE-APR-PHY-093",
+   "JEE-2025-ONLINE-APR-PHY-094",
+   "JEE-2025-ONLINE-APR-PHY-095",
+   "JEE-2025-ONLINE-APR-PHY-096",
+   "JEE-2025-ONLINE-APR-PHY-097",
+   "JEE-2025-ONLINE-APR-PHY-098",
+   "JEE-2025-ONLINE-APR-PHY-099",
+   "JEE-2025-ONLINE-APR-PHY-100",
+   "JEE-2025-ONLINE-APR-PHY-101",
+   "JEE-2025-ONLINE-APR-PHY-102",
+   "JEE-2025-ONLINE-APR-PHY-103",
+   "JEE-2025-ONLINE-APR-PHY-104",
+   "JEE-2025-ONLINE-APR-PHY-105",
+   "JEE-2025-ONLINE-APR-PHY-106",
+   "JEE-2025-ONLINE-APR-PHY-107",
+   "JEE-2025-ONLINE-APR-PHY-108",
+   "JEE-2025-ONLINE-APR-PHY-109",
+   "JEE-2025-ONLINE-APR-PHY-110",
+   "JEE-2025-ONLINE-APR-PHY-111",
+   "JEE-2025-ONLINE-APR-PHY-112",
+   "JEE-2025-ONLINE-APR-PHY-113",
+   "JEE-2025-ONLINE-APR-PHY-114",
+   "JEE-2025-ONLINE-APR-PHY-115",
+   "JEE-2025-ONLINE-APR-PHY-116",
+   "JEE-2025-ONLINE-APR-PHY-117",
+   "JEE-2025-ONLINE-APR-PHY-118",
+   "JEE-2025-ONLINE-APR-PHY-119",
+   "JEE-2025-ONLINE-APR-PHY-120",
+   "JEE-2025-ONLINE-APR-PHY-121",
+   "JEE-2025-ONLINE-APR-PHY-122",
+   "JEE-2025-ONLINE-APR-PHY-123",
+   "JEE-2025-ONLINE-APR-PHY-124",
+   "JEE-2025-ONLINE-APR-PHY-125",
+   "JEE-2025-ONLINE-APR-PHY-126",
+   "JEE-2025-ONLINE-APR-PHY-127",
+   "JEE-2025-ONLINE-APR-PHY-130",
+   "JEE-2025-ONLINE-APR-PHY-131",
+   "JEE-2025-ONLINE-APR-PHY-132",
+   "JEE-2025-ONLINE-APR-PHY-133",
+   "JEE-2025-ONLINE-APR-PHY-135",
+   "JEE-2025-ONLINE-APR-PHY-136",
+   "JEE-2025-ONLINE-APR-PHY-137",
+   "JEE-2025-ONLINE-APR-PHY-138",
+   "JEE-2025-ONLINE-APR-PHY-139",
+   "JEE-2025-ONLINE-APR-PHY-140",
+   "JEE-2025-ONLINE-APR-PHY-141",
+   "JEE-2025-ONLINE-APR-PHY-142",
+   "JEE-2025-ONLINE-APR-PHY-143",
+   "JEE-2025-ONLINE-JAN-CHM-001",
+   "JEE-2025-ONLINE-JAN-CHM-002",
+   "JEE-2025-ONLINE-JAN-CHM-003",
+   "JEE-2025-ONLINE-JAN-CHM-004",
+   "JEE-2025-ONLINE-JAN-CHM-005",
+   "JEE-2025-ONLINE-JAN-CHM-006",
+   "JEE-2025-ONLINE-JAN-CHM-008",
+   "JEE-2025-ONLINE-JAN-CHM-009",
+   "JEE-2025-ONLINE-JAN-CHM-010",
+   "JEE-2025-ONLINE-JAN-CHM-011",
+   "JEE-2025-ONLINE-JAN-CHM-012",
+   "JEE-2025-ONLINE-JAN-CHM-013",
+   "JEE-2025-ONLINE-JAN-CHM-014",
+   "JEE-2025-ONLINE-JAN-CHM-015",
+   "JEE-2025-ONLINE-JAN-CHM-016",
+   "JEE-2025-ONLINE-JAN-CHM-017",
+   "JEE-2025-ONLINE-JAN-CHM-018",
+   "JEE-2025-ONLINE-JAN-CHM-020",
+   "JEE-2025-ONLINE-JAN-CHM-021",
+   "JEE-2025-ONLINE-JAN-CHM-022",
+   "JEE-2025-ONLINE-JAN-CHM-023",
+   "JEE-2025-ONLINE-JAN-CHM-024",
+   "JEE-2025-ONLINE-JAN-CHM-025",
+   "JEE-2025-ONLINE-JAN-CHM-026",
+   "JEE-2025-ONLINE-JAN-CHM-027",
+   "JEE-2025-ONLINE-JAN-CHM-028",
+   "JEE-2025-ONLINE-JAN-CHM-029",
+   "JEE-2025-ONLINE-JAN-CHM-030",
+   "JEE-2025-ONLINE-JAN-CHM-031",
+   "JEE-2025-ONLINE-JAN-CHM-033",
+   "JEE-2025-ONLINE-JAN-CHM-034",
+   "JEE-2025-ONLINE-JAN-CHM-035",
+   "JEE-2025-ONLINE-JAN-CHM-036",
+   "JEE-2025-ONLINE-JAN-CHM-037",
+   "JEE-2025-ONLINE-JAN-CHM-038",
+   "JEE-2025-ONLINE-JAN-CHM-039",
+   "JEE-2025-ONLINE-JAN-CHM-040",
+   "JEE-2025-ONLINE-JAN-CHM-041",
+   "JEE-2025-ONLINE-JAN-CHM-042",
+   "JEE-2025-ONLINE-JAN-CHM-043",
+   "JEE-2025-ONLINE-JAN-CHM-044",
+   "JEE-2025-ONLINE-JAN-CHM-045",
+   "JEE-2025-ONLINE-JAN-CHM-046",
+   "JEE-2025-ONLINE-JAN-CHM-047",
+   "JEE-2025-ONLINE-JAN-CHM-048",
+   "JEE-2025-ONLINE-JAN-CHM-050",
+   "JEE-2025-ONLINE-JAN-CHM-051",
+   "JEE-2025-ONLINE-JAN-CHM-052",
+   "JEE-2025-ONLINE-JAN-CHM-053",
+   "JEE-2025-ONLINE-JAN-CHM-054",
+   "JEE-2025-ONLINE-JAN-CHM-055",
+   "JEE-2025-ONLINE-JAN-CHM-056",
+   "JEE-2025-ONLINE-JAN-CHM-057",
+   "JEE-2025-ONLINE-JAN-CHM-058",
+   "JEE-2025-ONLINE-JAN-CHM-059",
+   "JEE-2025-ONLINE-JAN-CHM-060",
+   "JEE-2025-ONLINE-JAN-CHM-061",
+   "JEE-2025-ONLINE-JAN-CHM-062",
+   "JEE-2025-ONLINE-JAN-CHM-064",
+   "JEE-2025-ONLINE-JAN-CHM-065",
+   "JEE-2025-ONLINE-JAN-CHM-066",
+   "JEE-2025-ONLINE-JAN-CHM-067",
+   "JEE-2025-ONLINE-JAN-CHM-068",
+   "JEE-2025-ONLINE-JAN-CHM-070",
+   "JEE-2025-ONLINE-JAN-CHM-071",
+   "JEE-2025-ONLINE-JAN-CHM-072",
+   "JEE-2025-ONLINE-JAN-CHM-073",
+   "JEE-2025-ONLINE-JAN-CHM-074",
+   "JEE-2025-ONLINE-JAN-CHM-075",
+   "JEE-2025-ONLINE-JAN-CHM-077",
+   "JEE-2025-ONLINE-JAN-CHM-078",
+   "JEE-2025-ONLINE-JAN-CHM-079",
+   "JEE-2025-ONLINE-JAN-CHM-080",
+   "JEE-2025-ONLINE-JAN-CHM-081",
+   "JEE-2025-ONLINE-JAN-CHM-082",
+   "JEE-2025-ONLINE-JAN-CHM-083",
+   "JEE-2025-ONLINE-JAN-CHM-084",
+   "JEE-2025-ONLINE-JAN-CHM-085",
+   "JEE-2025-ONLINE-JAN-CHM-086",
+   "JEE-2025-ONLINE-JAN-CHM-087",
+   "JEE-2025-ONLINE-JAN-CHM-088",
+   "JEE-2025-ONLINE-JAN-CHM-089",
+   "JEE-2025-ONLINE-JAN-CHM-090",
+   "JEE-2025-ONLINE-JAN-CHM-091",
+   "JEE-2025-ONLINE-JAN-CHM-092",
+   "JEE-2025-ONLINE-JAN-CHM-095",
+   "JEE-2025-ONLINE-JAN-CHM-096",
+   "JEE-2025-ONLINE-JAN-CHM-097",
+   "JEE-2025-ONLINE-JAN-CHM-098",
+   "JEE-2025-ONLINE-JAN-CHM-099",
+   "JEE-2025-ONLINE-JAN-CHM-100",
+   "JEE-2025-ONLINE-JAN-CHM-101",
+   "JEE-2025-ONLINE-JAN-CHM-102",
+   "JEE-2025-ONLINE-JAN-CHM-103",
+   "JEE-2025-ONLINE-JAN-CHM-104",
+   "JEE-2025-ONLINE-JAN-CHM-105",
+   "JEE-2025-ONLINE-JAN-CHM-106",
+   "JEE-2025-ONLINE-JAN-CHM-108",
+   "JEE-2025-ONLINE-JAN-CHM-109",
+   "JEE-2025-ONLINE-JAN-CHM-110",
+   "JEE-2025-ONLINE-JAN-CHM-111",
+   "JEE-2025-ONLINE-JAN-CHM-112",
+   "JEE-2025-ONLINE-JAN-CHM-113",
+   "JEE-2025-ONLINE-JAN-CHM-114",
+   "JEE-2025-ONLINE-JAN-CHM-115",
+   "JEE-2025-ONLINE-JAN-CHM-117",
+   "JEE-2025-ONLINE-JAN-CHM-118",
+   "JEE-2025-ONLINE-JAN-CHM-119",
+   "JEE-2025-ONLINE-JAN-CHM-120",
+   "JEE-2025-ONLINE-JAN-CHM-121",
+   "JEE-2025-ONLINE-JAN-CHM-122",
+   "JEE-2025-ONLINE-JAN-CHM-123",
+   "JEE-2025-ONLINE-JAN-CHM-124",
+   "JEE-2025-ONLINE-JAN-CHM-125",
+   "JEE-2025-ONLINE-JAN-CHM-126",
+   "JEE-2025-ONLINE-JAN-CHM-127",
+   "JEE-2025-ONLINE-JAN-CHM-128",
+   "JEE-2025-ONLINE-JAN-CHM-129",
+   "JEE-2025-ONLINE-JAN-CHM-131",
+   "JEE-2025-ONLINE-JAN-CHM-132",
+   "JEE-2025-ONLINE-JAN-CHM-133",
+   "JEE-2025-ONLINE-JAN-CHM-134",
+   "JEE-2025-ONLINE-JAN-CHM-135",
+   "JEE-2025-ONLINE-JAN-CHM-136",
+   "JEE-2025-ONLINE-JAN-CHM-137",
+   "JEE-2025-ONLINE-JAN-CHM-138",
+   "JEE-2025-ONLINE-JAN-CHM-139",
+   "JEE-2025-ONLINE-JAN-CHM-140",
+   "JEE-2025-ONLINE-JAN-CHM-141",
+   "JEE-2025-ONLINE-JAN-CHM-142",
+   "JEE-2025-ONLINE-APR-CHM-001",
+   "JEE-2025-ONLINE-APR-CHM-002",
+   "JEE-2025-ONLINE-APR-CHM-003",
+   "JEE-2025-ONLINE-APR-CHM-004",
+   "JEE-2025-ONLINE-APR-CHM-005",
+   "JEE-2025-ONLINE-APR-CHM-006",
+   "JEE-2025-ONLINE-APR-CHM-007",
+   "JEE-2025-ONLINE-APR-CHM-008",
+   "JEE-2025-ONLINE-APR-CHM-010",
+   "JEE-2025-ONLINE-APR-CHM-011",
+   "JEE-2025-ONLINE-APR-CHM-012",
+   "JEE-2025-ONLINE-APR-CHM-013",
+   "JEE-2025-ONLINE-APR-CHM-014",
+   "JEE-2025-ONLINE-APR-CHM-015",
+   "JEE-2025-ONLINE-APR-CHM-016",
+   "JEE-2025-ONLINE-APR-CHM-017",
+   "JEE-2025-ONLINE-APR-CHM-018",
+   "JEE-2025-ONLINE-APR-CHM-019",
+   "JEE-2025-ONLINE-APR-CHM-020",
+   "JEE-2025-ONLINE-APR-CHM-021",
+   "JEE-2025-ONLINE-APR-CHM-022",
+   "JEE-2025-ONLINE-APR-CHM-023",
+   "JEE-2025-ONLINE-APR-CHM-024",
+   "JEE-2025-ONLINE-APR-CHM-025",
+   "JEE-2025-ONLINE-APR-CHM-026",
+   "JEE-2025-ONLINE-APR-CHM-027",
+   "JEE-2025-ONLINE-APR-CHM-028",
+   "JEE-2025-ONLINE-APR-CHM-029",
+   "JEE-2025-ONLINE-APR-CHM-030",
+   "JEE-2025-ONLINE-APR-CHM-031",
+   "JEE-2025-ONLINE-APR-CHM-032",
+   "JEE-2025-ONLINE-APR-CHM-033",
+   "JEE-2025-ONLINE-APR-CHM-034",
+   "JEE-2025-ONLINE-APR-CHM-035",
+   "JEE-2025-ONLINE-APR-CHM-036",
+   "JEE-2025-ONLINE-APR-CHM-037",
+   "JEE-2025-ONLINE-APR-CHM-038",
+   "JEE-2025-ONLINE-APR-CHM-039",
+   "JEE-2025-ONLINE-APR-CHM-040",
+   "JEE-2025-ONLINE-APR-CHM-042",
+   "JEE-2025-ONLINE-APR-CHM-043",
+   "JEE-2025-ONLINE-APR-CHM-044",
+   "JEE-2025-ONLINE-APR-CHM-045",
+   "JEE-2025-ONLINE-APR-CHM-046",
+   "JEE-2025-ONLINE-APR-CHM-047",
+   "JEE-2025-ONLINE-APR-CHM-048",
+   "JEE-2025-ONLINE-APR-CHM-049",
+   "JEE-2025-ONLINE-APR-CHM-050",
+   "JEE-2025-ONLINE-APR-CHM-051",
+   "JEE-2025-ONLINE-APR-CHM-052",
+   "JEE-2025-ONLINE-APR-CHM-053",
+   "JEE-2025-ONLINE-APR-CHM-054",
+   "JEE-2025-ONLINE-APR-CHM-055",
+   "JEE-2025-ONLINE-JAN-MTH-001",
+   "JEE-2025-ONLINE-JAN-MTH-002",
+   "JEE-2025-ONLINE-JAN-MTH-003",
+   "JEE-2025-ONLINE-JAN-MTH-004",
+   "JEE-2025-ONLINE-JAN-MTH-005",
+   "JEE-2025-ONLINE-JAN-MTH-006",
+   "JEE-2025-ONLINE-JAN-MTH-007",
+   "JEE-2025-ONLINE-JAN-MTH-008",
+   "JEE-2025-ONLINE-JAN-MTH-009",
+   "JEE-2025-ONLINE-JAN-MTH-010",
+   "JEE-2025-ONLINE-JAN-MTH-011",
+   "JEE-2025-ONLINE-JAN-MTH-012",
+   "JEE-2025-ONLINE-JAN-MTH-013",
+   "JEE-2025-ONLINE-JAN-MTH-014",
+   "JEE-2025-ONLINE-JAN-MTH-015",
+   "JEE-2025-ONLINE-JAN-MTH-016",
+   "JEE-2025-ONLINE-JAN-MTH-017",
+   "JEE-2025-ONLINE-JAN-MTH-018",
+   "JEE-2025-ONLINE-JAN-MTH-019",
+   "JEE-2025-ONLINE-JAN-MTH-020",
+   "JEE-2025-ONLINE-JAN-MTH-021",
+   "JEE-2025-ONLINE-JAN-MTH-022",
+   "JEE-2025-ONLINE-JAN-MTH-023",
+   "JEE-2025-ONLINE-JAN-MTH-024",
+   "JEE-2025-ONLINE-JAN-MTH-025",
+   "JEE-2025-ONLINE-JAN-MTH-026",
+   "JEE-2025-ONLINE-JAN-MTH-027",
+   "JEE-2025-ONLINE-JAN-MTH-028",
+   "JEE-2025-ONLINE-JAN-MTH-029",
+   "JEE-2025-ONLINE-JAN-MTH-030",
+   "JEE-2025-ONLINE-JAN-MTH-031",
+   "JEE-2025-ONLINE-JAN-MTH-032",
+   "JEE-2025-ONLINE-JAN-MTH-033",
+   "JEE-2025-ONLINE-JAN-MTH-034",
+   "JEE-2025-ONLINE-JAN-MTH-035",
+   "JEE-2025-ONLINE-JAN-MTH-036",
+   "JEE-2025-ONLINE-JAN-MTH-037",
+   "JEE-2025-ONLINE-JAN-MTH-038",
+   "JEE-2025-ONLINE-JAN-MTH-039",
+   "JEE-2025-ONLINE-JAN-MTH-040",
+   "JEE-2025-ONLINE-JAN-MTH-041",
+   "JEE-2025-ONLINE-JAN-MTH-042",
+   "JEE-2025-ONLINE-JAN-MTH-043",
+   "JEE-2025-ONLINE-JAN-MTH-044",
+   "JEE-2025-ONLINE-JAN-MTH-045",
+   "JEE-2025-ONLINE-JAN-MTH-046",
+   "JEE-2025-ONLINE-JAN-MTH-047",
+   "JEE-2025-ONLINE-JAN-MTH-048",
+   "JEE-2025-ONLINE-JAN-MTH-049",
+   "JEE-2025-ONLINE-JAN-MTH-050",
+   "JEE-2025-ONLINE-JAN-MTH-051",
+   "JEE-2025-ONLINE-JAN-MTH-052",
+   "JEE-2025-ONLINE-JAN-MTH-053",
+   "JEE-2025-ONLINE-JAN-MTH-055",
+   "JEE-2025-ONLINE-JAN-MTH-056",
+   "JEE-2025-ONLINE-JAN-MTH-057",
+   "JEE-2025-ONLINE-JAN-MTH-058",
+   "JEE-2025-ONLINE-JAN-MTH-059",
+   "JEE-2025-ONLINE-JAN-MTH-060",
+   "JEE-2025-ONLINE-JAN-MTH-061",
+   "JEE-2025-ONLINE-JAN-MTH-062",
+   "JEE-2025-ONLINE-JAN-MTH-063",
+   "JEE-2025-ONLINE-JAN-MTH-064",
+   "JEE-2025-ONLINE-JAN-MTH-065",
+   "JEE-2025-ONLINE-JAN-MTH-066",
+   "JEE-2025-ONLINE-JAN-MTH-067",
+   "JEE-2025-ONLINE-JAN-MTH-068",
+   "JEE-2025-ONLINE-JAN-MTH-069",
+   "JEE-2025-ONLINE-JAN-MTH-070",
+   "JEE-2025-ONLINE-JAN-MTH-071",
+   "JEE-2025-ONLINE-JAN-MTH-072",
+   "JEE-2025-ONLINE-JAN-MTH-073",
+   "JEE-2025-ONLINE-JAN-MTH-074",
+   "JEE-2025-ONLINE-JAN-MTH-075",
+   "JEE-2025-ONLINE-JAN-MTH-076",
+   "JEE-2025-ONLINE-JAN-MTH-077",
+   "JEE-2025-ONLINE-JAN-MTH-079",
+   "JEE-2025-ONLINE-JAN-MTH-080",
+   "JEE-2025-ONLINE-JAN-MTH-081",
+   "JEE-2025-ONLINE-JAN-MTH-082",
+   "JEE-2025-ONLINE-JAN-MTH-083",
+   "JEE-2025-ONLINE-JAN-MTH-084",
+   "JEE-2025-ONLINE-JAN-MTH-085",
+   "JEE-2025-ONLINE-JAN-MTH-086",
+   "JEE-2025-ONLINE-JAN-MTH-087",
+   "JEE-2025-ONLINE-JAN-MTH-088",
+   "JEE-2025-ONLINE-JAN-MTH-089",
+   "JEE-2025-ONLINE-JAN-MTH-090",
+   "JEE-2025-ONLINE-JAN-MTH-091",
+   "JEE-2025-ONLINE-JAN-MTH-092",
+   "JEE-2025-ONLINE-JAN-MTH-093",
+   "JEE-2025-ONLINE-JAN-MTH-094",
+   "JEE-2025-ONLINE-JAN-MTH-095",
+   "JEE-2025-ONLINE-JAN-MTH-096",
+   "JEE-2025-ONLINE-JAN-MTH-097",
+   "JEE-2025-ONLINE-JAN-MTH-098",
+   "JEE-2025-ONLINE-JAN-MTH-099",
+   "JEE-2025-ONLINE-JAN-MTH-100",
+   "JEE-2025-ONLINE-JAN-MTH-101",
+   "JEE-2025-ONLINE-JAN-MTH-102",
+   "JEE-2025-ONLINE-JAN-MTH-103",
+   "JEE-2025-ONLINE-JAN-MTH-104",
+   "JEE-2025-ONLINE-JAN-MTH-105",
+   "JEE-2025-ONLINE-JAN-MTH-106",
+   "JEE-2025-ONLINE-JAN-MTH-107",
+   "JEE-2025-ONLINE-JAN-MTH-108",
+   "JEE-2025-ONLINE-JAN-MTH-109",
+   "JEE-2025-ONLINE-JAN-MTH-110",
+   "JEE-2025-ONLINE-JAN-MTH-111",
+   "JEE-2025-ONLINE-JAN-MTH-112",
+   "JEE-2025-ONLINE-JAN-MTH-113",
+   "JEE-2025-ONLINE-JAN-MTH-114",
+   "JEE-2025-ONLINE-JAN-MTH-115",
+   "JEE-2025-ONLINE-JAN-MTH-116",
+   "JEE-2025-ONLINE-JAN-MTH-117",
+   "JEE-2025-ONLINE-JAN-MTH-118",
+   "JEE-2025-ONLINE-JAN-MTH-119",
+   "JEE-2025-ONLINE-JAN-MTH-120",
+   "JEE-2025-ONLINE-JAN-MTH-121",
+   "JEE-2025-ONLINE-JAN-MTH-122",
+   "JEE-2025-ONLINE-JAN-MTH-123",
+   "JEE-2025-ONLINE-JAN-MTH-124",
+   "JEE-2025-ONLINE-JAN-MTH-125",
+   "JEE-2025-ONLINE-JAN-MTH-126",
+   "JEE-2025-ONLINE-JAN-MTH-127",
+   "JEE-2025-ONLINE-JAN-MTH-128",
+   "JEE-2025-ONLINE-JAN-MTH-129",
+   "JEE-2025-ONLINE-JAN-MTH-130",
+   "JEE-2025-ONLINE-JAN-MTH-131",
+   "JEE-2025-ONLINE-JAN-MTH-132",
+   "JEE-2025-ONLINE-JAN-MTH-133",
+   "JEE-2025-ONLINE-JAN-MTH-134",
+   "JEE-2025-ONLINE-JAN-MTH-135",
+   "JEE-2025-ONLINE-JAN-MTH-136",
+   "JEE-2025-ONLINE-JAN-MTH-137",
+   "JEE-2025-ONLINE-JAN-MTH-138",
+   "JEE-2025-ONLINE-JAN-MTH-139",
+   "JEE-2025-ONLINE-JAN-MTH-140",
+   "JEE-2025-ONLINE-JAN-MTH-141",
+   "JEE-2025-ONLINE-JAN-MTH-142",
+   "JEE-2025-ONLINE-JAN-MTH-143",
+   "JEE-2025-ONLINE-JAN-MTH-144",
+   "JEE-2025-ONLINE-JAN-MTH-145",
+   "JEE-2025-ONLINE-JAN-MTH-146",
+   "JEE-2025-ONLINE-JAN-MTH-147",
+   "JEE-2025-ONLINE-APR-MTH-001",
+   "JEE-2025-ONLINE-APR-MTH-002",
+   "JEE-2025-ONLINE-APR-MTH-003",
+   "JEE-2025-ONLINE-APR-MTH-004",
+   "JEE-2025-ONLINE-APR-MTH-005",
+   "JEE-2025-ONLINE-APR-MTH-006",
+   "JEE-2025-ONLINE-APR-MTH-007",
+   "JEE-2025-ONLINE-APR-MTH-008",
+   "JEE-2025-ONLINE-APR-MTH-009",
+   "JEE-2025-ONLINE-APR-MTH-010",
+   "JEE-2025-ONLINE-APR-MTH-011",
+   "JEE-2025-ONLINE-APR-MTH-012",
+   "JEE-2025-ONLINE-APR-MTH-013",
+   "JEE-2025-ONLINE-APR-MTH-014",
+   "JEE-2025-ONLINE-APR-MTH-015",
+   "JEE-2025-ONLINE-APR-MTH-016",
+   "JEE-2025-ONLINE-APR-MTH-017",
+   "JEE-2025-ONLINE-APR-MTH-018",
+   "JEE-2025-ONLINE-APR-MTH-019",
+   "JEE-2025-ONLINE-APR-MTH-020",
+   "JEE-2025-ONLINE-APR-MTH-021",
+   "JEE-2025-ONLINE-APR-MTH-022",
+   "JEE-2025-ONLINE-APR-MTH-023",
+   "JEE-2025-ONLINE-APR-MTH-024",
+   "JEE-2025-ONLINE-APR-MTH-025",
+   "JEE-2025-ONLINE-APR-MTH-026",
+   "JEE-2025-ONLINE-APR-MTH-027",
+   "JEE-2025-ONLINE-APR-MTH-028",
+   "JEE-2025-ONLINE-APR-MTH-029",
+   "JEE-2025-ONLINE-APR-MTH-030",
+   "JEE-2025-ONLINE-APR-MTH-031",
+   "JEE-2025-ONLINE-APR-MTH-032",
+   "JEE-2025-ONLINE-APR-MTH-033",
+   "JEE-2025-ONLINE-APR-MTH-034",
+   "JEE-2025-ONLINE-APR-MTH-035",
+   "JEE-2025-ONLINE-APR-MTH-036",
+   "JEE-2025-ONLINE-APR-MTH-037",
+   "JEE-2025-ONLINE-APR-MTH-038",
+   "JEE-2025-ONLINE-APR-MTH-039",
+   "JEE-2025-ONLINE-APR-MTH-040",
+   "JEE-2025-ONLINE-APR-MTH-041",
+   "JEE-2025-ONLINE-APR-MTH-042",
+   "JEE-2025-ONLINE-APR-MTH-043",
+   "JEE-2025-ONLINE-APR-MTH-044",
+   "JEE-2025-ONLINE-APR-MTH-045",
+   "JEE-2025-ONLINE-APR-MTH-046",
+   "JEE-2025-ONLINE-APR-MTH-047",
+   "JEE-2025-ONLINE-APR-MTH-048",
+   "JEE-2025-ONLINE-APR-MTH-049",
+   "JEE-2025-ONLINE-APR-MTH-050",
+   "JEE-2025-ONLINE-APR-MTH-051",
+   "JEE-2025-ONLINE-APR-MTH-052",
+   "JEE-2025-ONLINE-APR-MTH-053",
+   "JEE-2025-ONLINE-APR-MTH-054",
+   "JEE-2025-ONLINE-APR-MTH-055",
+   "JEE-2025-ONLINE-APR-MTH-056",
+   "JEE-2025-ONLINE-APR-MTH-057",
+   "JEE-2025-ONLINE-APR-MTH-058",
+   "JEE-2025-ONLINE-APR-MTH-059",
+   "JEE-2025-ONLINE-APR-MTH-060",
+   "JEE-2025-ONLINE-APR-MTH-061",
+   "JEE-2025-ONLINE-APR-MTH-062",
+   "JEE-2025-ONLINE-APR-MTH-063",
+   "JEE-2025-ONLINE-APR-MTH-064",
+   "JEE-2025-ONLINE-APR-MTH-065",
+   "JEE-2025-ONLINE-APR-MTH-066",
+   "JEE-2025-ONLINE-APR-MTH-067",
+   "JEE-2025-ONLINE-APR-MTH-068",
+   "JEE-2025-ONLINE-APR-MTH-069",
+   "JEE-2025-ONLINE-APR-MTH-070",
+   "JEE-2025-ONLINE-APR-MTH-071",
+   "JEE-2025-ONLINE-APR-MTH-072",
+   "JEE-2025-ONLINE-APR-MTH-073",
+   "JEE-2025-ONLINE-APR-MTH-074",
+   "JEE-2025-ONLINE-APR-MTH-075",
+   "JEE-2025-ONLINE-APR-MTH-076",
+   "JEE-2025-ONLINE-APR-MTH-077",
+   "JEE-2025-ONLINE-APR-MTH-078",
+   "JEE-2025-ONLINE-APR-MTH-079",
+   "JEE-2025-ONLINE-APR-MTH-080",
+   "JEE-2025-ONLINE-APR-MTH-081",
+   "JEE-2025-ONLINE-APR-MTH-082",
+   "JEE-2025-ONLINE-APR-MTH-083",
+   "JEE-2025-ONLINE-APR-MTH-084",
+   "JEE-2025-ONLINE-APR-MTH-085",
+   "JEE-2025-ONLINE-APR-MTH-086",
+   "JEE-2025-ONLINE-APR-MTH-087",
+   "JEE-2025-ONLINE-APR-MTH-088",
+   "JEE-2025-ONLINE-APR-MTH-089",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-010",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-010",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-008",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-009",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-007",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-008",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-010",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-010",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-018",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-018",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-018",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-019",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-018",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-018",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-019",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-018",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-018",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-019",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-019",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-015",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-014",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-016",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-015",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-016",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-015",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-016",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-016",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-017",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-016",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-016",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-017",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-014",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-015",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-017",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-24JANUARYSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-23JANUARYSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-21JANUARYSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-28JANUARYSHIFT2-PHY-020",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-22JANUARYSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-22JANUARYSHIFT1-PHY-020",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-23JANUARYSHIFT2-PHY-020",
+   "JEE-2026-ONLINE-21JANUARYSHIFT1-PHY-020",
+   "JEE-2026-ONLINE-28JANUARYSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-24JANUARYSHIFT1-PHY-020",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-2APRILSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-2APRILSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-001",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-002",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-003",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-004",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-005",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-006",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-007",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-008",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-009",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-010",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-018",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-019",
+   "JEE-2026-ONLINE-2APRILSHIFT1-CHM-020",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-016",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-017",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-018",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-019",
+   "JEE-2026-ONLINE-2APRILSHIFT2-MTH-020",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-2APRILSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-001",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-002",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-003",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-004",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-005",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-006",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-007",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-008",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-009",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-010",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-018",
+   "JEE-2026-ONLINE-2APRILSHIFT2-CHM-019",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-014",
+   "JEE-2026-ONLINE-4APRILSHIFT1-MTH-015",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-4APRILSHIFT1-PHY-020",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-001",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-002",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-003",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-004",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-005",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-006",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-007",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-008",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-009",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-010",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-018",
+   "JEE-2026-ONLINE-4APRILSHIFT1-CHM-019",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-4APRILSHIFT2-MTH-016",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-4APRILSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-001",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-002",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-003",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-004",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-005",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-006",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-007",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-008",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-009",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-010",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-4APRILSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-014",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-015",
+   "JEE-2026-ONLINE-5APRILSHIFT1-MTH-016",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-5APRILSHIFT1-PHY-020",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-001",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-002",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-003",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-004",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-005",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-006",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-007",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-008",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-009",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-010",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-5APRILSHIFT1-CHM-018",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-5APRILSHIFT2-MTH-016",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-5APRILSHIFT2-PHY-020",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-001",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-002",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-003",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-004",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-005",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-006",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-007",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-008",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-009",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-010",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-5APRILSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-001",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-002",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-003",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-004",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-005",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-006",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-007",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-008",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-009",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-010",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-011",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-012",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-013",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-014",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-015",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-016",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-017",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-018",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-019",
+   "JEE-2026-ONLINE-6APRILSHIFT1-MTH-020",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-001",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-002",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-003",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-004",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-005",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-006",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-007",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-008",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-009",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-010",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-011",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-012",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-013",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-014",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-015",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-016",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-017",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-018",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-019",
+   "JEE-2026-ONLINE-6APRILSHIFT1-PHY-020",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-001",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-002",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-003",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-004",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-005",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-006",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-007",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-008",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-009",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-010",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-011",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-012",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-013",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-014",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-015",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-016",
+   "JEE-2026-ONLINE-6APRILSHIFT1-CHM-017",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-6APRILSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-6APRILSHIFT2-PHY-020",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-001",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-002",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-003",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-004",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-005",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-006",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-007",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-008",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-009",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-010",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-018",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-019",
+   "JEE-2026-ONLINE-6APRILSHIFT2-CHM-020",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-001",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-002",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-003",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-004",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-005",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-006",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-007",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-008",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-009",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-010",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-011",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-012",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-013",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-014",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-015",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-016",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-017",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-018",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-019",
+   "JEE-2026-ONLINE-8APRILSHIFT2-MTH-020",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-001",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-002",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-003",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-004",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-005",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-006",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-007",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-008",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-009",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-010",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-011",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-012",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-013",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-014",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-015",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-016",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-017",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-018",
+   "JEE-2026-ONLINE-8APRILSHIFT2-PHY-019",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-001",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-002",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-003",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-004",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-005",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-006",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-007",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-008",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-009",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-010",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-011",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-012",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-013",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-014",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-015",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-016",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-017",
+   "JEE-2026-ONLINE-8APRILSHIFT2-CHM-018"
+  ],
+  "integrity": {
+   "unique_ids": true,
+   "options_not_4": 0,
+   "answer_index_out_of_range": 0,
+   "empty_question_text": 0,
+   "ingest_header_residue": 0,
+   "nullish_chapter_or_topic": 0,
+   "css_style_residue": 0
+  },
+  "garbage_line_suspect_ids": [],
+  "repeated_question_texts": 0,
+  "truncated_solutions": 97,
+  "years": {
+   "2002": 187,
+   "2003": 192,
+   "2004": 200,
+   "2005": 196,
+   "2006": 137,
+   "2007": 112,
+   "2008": 108,
+   "2009": 67,
+   "2010": 81,
+   "2011": 88,
+   "2012": 85,
+   "2013": 81,
+   "2014": 78,
+   "2015": 71,
+   "2016": 207,
+   "2017": 225,
+   "2018": 280,
+   "2019": 1153,
+   "2020": 739,
+   "2021": 1046,
+   "2022": 957,
+   "2023": 939,
+   "2024": 747,
+   "2025": 711,
+   "2026": 1014,
+   "2027": 4,
+   "2028": 4,
+   "UNKNOWN": 443
+  }
+ },
+ "concepts": {
+  "chapter_files": 68,
+  "concepts_total": 574,
+  "full_chapter": 68,
+  "atomic": 506,
+  "empty_content": 0,
+  "sections": {
+   "Mathematics": 124,
+   "Physics": 293,
+   "Chemistry": 157
+  },
+  "files_without_full_concept": [],
+  "orphan_concept_groups": [],
+  "vault_files_not_in_repo": [
+   "10_Coordination_Compounds_Cleaned.md",
+   "10_Coordination_Compounds_Theory_Legacy.md"
+  ],
+  "repo_files_not_in_vault": [],
+  "files": {
+   "01_Sets_and_Relations.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "02_Functions_and_Binary_Operations.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "03_Complex_Numbers.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "04_Theory_of_Equations_and_Inequations.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "05_Sequences_and_Series.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "06_Permutations_and_Combinations.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "07_Height_and_Distance_Trigonometry.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "08_Modern_Physics_and_Dual_Nature.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "09_Laws_of_Motion_and_Friction.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "10_Chemical_Kinetics.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "10_Coordination_Compounds.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "11_Atomic_Structure_and_Quantum_Mechanics.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "12_Kinetic_Theory_of_Gases.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "13_Communication_Systems.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "14_Polymers_and_Macromolecules.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "15_Probability_and_Distributions.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "16_Chemical_and_Ionic_Equilibrium.md": {
+    "full": 1,
+    "atomic": 1
+   },
+   "17_Purification_and_Characterisation_of_Organic_Compounds.md": {
+    "full": 1,
+    "atomic": 6
+   },
+   "18_Electrostatics_and_Capacitance.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "19_Magnetic_Effects_of_Current_and_Magnetism.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "20_Current_Electricity.md": {
+    "full": 1,
+    "atomic": 14
+   },
+   "21_Alternating_Current.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "22_Gravitation.md": {
+    "full": 1,
+    "atomic": 12
+   },
+   "23_Differential_Equations.md": {
+    "full": 1,
+    "atomic": 12
+   },
+   "23_Wave_Motion_and_String_Waves.md": {
+    "full": 1,
+    "atomic": 13
+   },
+   "24_Sound_Waves_and_Acoustics.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "25_Refraction_at_Spherical_Surfaces_and_Lenses.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "26_Wave_Optics_and_Interference.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "27_Center_of_Mass_and_Collisions.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "28_Photoelectric_Effect_and_Dual_Nature.md": {
+    "full": 1,
+    "atomic": 8
+   },
+   "29_Electromagnetic_Induction.md": {
+    "full": 1,
+    "atomic": 8
+   },
+   "30_Charged_Particle_Dynamics_and_Magnetic_Forces.md": {
+    "full": 1,
+    "atomic": 8
+   },
+   "31_Chemical_Thermodynamics_and_Energetics.md": {
+    "full": 1,
+    "atomic": 7
+   },
+   "32_Thermochemistry_and_Reaction_Energetics.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "33_Electrochemistry_and_Ionic_Conduction.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "34_Liquid_Solutions_and_Colligative_Properties.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "35_Solid_State.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "36_Chemical_Bonding_and_Molecular_Structure.md": {
+    "full": 1,
+    "atomic": 12
+   },
+   "37_s_Block_Elements.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "38_Qualitative_Cation_Analysis.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "39_Qualitative_Anion_Analysis.md": {
+    "full": 1,
+    "atomic": 6
+   },
+   "40_Atomic_Structure_and_Quantum_Mechanics.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "41_Gaseous_State_and_Real_Gas_Thermodynamics.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "42_Thermochemistry_and_Reaction_Energetics.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "43_Ray_Optics_and_Optical_Instruments.md": {
+    "full": 1,
+    "atomic": 8
+   },
+   "43_Ray_Optics_Questions_Solutions_and_PYQs.md": {
+    "full": 1,
+    "atomic": 13
+   },
+   "44_Differential_Equations.md": {
+    "full": 1,
+    "atomic": 14
+   },
+   "45_Fluid_Mechanics_Viscosity_and_Surface_Tension.md": {
+    "full": 1,
+    "atomic": 7
+   },
+   "46_Elasticity_and_Solid_Mechanics.md": {
+    "full": 1,
+    "atomic": 8
+   },
+   "47_Center_of_Mass_Momentum_Conservation_and_Collisions.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "48_Rigid_Body_Dynamics_and_Rotational_Mechanics.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "49_Simple_Harmonic_Motion_and_Oscillations.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "50_Gravitation_and_Celestial_Mechanics.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "51_Kinematics_Rectilinear_and_Relative_Motion.md": {
+    "full": 1,
+    "atomic": 8
+   },
+   "52_Projectile_Motion_and_Inclined_Plane_Ballistics.md": {
+    "full": 1,
+    "atomic": 6
+   },
+   "53_Newtons_Laws_of_Motion_and_Friction.md": {
+    "full": 1,
+    "atomic": 7
+   },
+   "54_Circular_Motion_and_Vertical_Loop_Dynamics.md": {
+    "full": 1,
+    "atomic": 6
+   },
+   "55_Work_Power_and_Energy.md": {
+    "full": 1,
+    "atomic": 7
+   },
+   "56_Calorimetry_and_Thermal_Expansion.md": {
+    "full": 1,
+    "atomic": 6
+   },
+   "57_Kinetic_Theory_of_Gases_and_Thermodynamics.md": {
+    "full": 1,
+    "atomic": 9
+   },
+   "58_Quadratic_Equations_and_Polynomial_Theory.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "59_Sequences_Series_and_Progression_Analytics.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "60_Permutations_Combinations_and_Combinatorial_Analytics.md": {
+    "full": 1,
+    "atomic": 12
+   },
+   "61_Binomial_Theorem_and_Multinomial_Expansions.md": {
+    "full": 1,
+    "atomic": 8
+   },
+   "62_Straight_Lines_and_2D_Coordinate_Geometry.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "63_Circles_and_Concyclic_Geometry.md": {
+    "full": 1,
+    "atomic": 11
+   },
+   "64_Trigonometric_Ratios_Functions_and_Analytical_Equations.md": {
+    "full": 1,
+    "atomic": 10
+   },
+   "Physics_Dual_Nature_of_Matter_and_Radiation.md": {
+    "full": 1,
+    "atomic": 1
+   }
+  }
+ },
+ "formula_sheets": {
+  "sheets": 67,
+  "chapters": 68,
+  "missing_chapter_ids": [
+   "43-ray-optics-questions-solutions-and-pyqs-full"
+  ]
+ },
+ "bundled_banks": {
+  "banks": {
+   "MICRO_QUESTIONS": {
+    "questions": 47,
+    "empty_solutions": 0
+   },
+   "TARGET_QUESTIONS": {
+    "questions": 268,
+    "empty_solutions": 0
+   }
+  },
+  "total": 315,
+  "css_residue": 0
+ },
+ "solver_pipeline": {
+  "index_total_missing": 1762,
+  "batches": 30,
+  "out_batches": 2,
+  "out_answers": 120,
+  "stale": false
+ },
+ "not_ingested": {
+  "vault_questions_md": 128
+ }
+}

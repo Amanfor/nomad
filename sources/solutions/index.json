@@ -1,5 +1,5 @@
 {
- "total_missing": 1893,
+ "total_missing": 1762,
  "per": 60,
  "batches": [
   {
@@ -120,15 +120,7 @@
   },
   {
    "file": "batch-029.json",
-   "count": 60
-  },
-  {
-   "file": "batch-030.json",
-   "count": 60
-  },
-  {
-   "file": "batch-031.json",
-   "count": 33
+   "count": 22
   }
  ]
 }

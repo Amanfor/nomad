@@ -552,3 +552,50 @@ line text row per hand (`h0 left count2` / `0.031 PINCH`).
 `public/gesture/` adds ~20.5 MB raw (model 8.4 MB + wasm 11.8 MB + js 0.3 MB);
 the same bytes land inside the APK (debug `app-debug.apk` 177 MB, dominated by
 150 MB of note diagrams in `dist/media`).
+
+## 14. Content database & tracked status record (added 2026-10-05)
+
+**The tracked record of what is present / missing / solved / unresolved lives
+in `CONTENT_STATUS.md` (human) + `sources/content-audit.json` (machine, holds
+the full `questions.unresolved_ids` list).** Regenerate both after any data
+change:
+
+```bash
+python3 scripts/audit_content.py    # writes the record, exits 1 on integrity FAIL
+```
+
+Integrity checks (all currently PASS): unique question ids, 4 options +
+valid answer index everywhere, non-empty question text, no ingest-header
+residue (`Problem N: …`), no null chapter/topic, no CSS/`<style>` paste
+residue, no garbage-line suspects, every chapter file yields a full-chapter
+concept, no orphan concept groups, no empty concept content.
+
+Pipeline scripts:
+
+- `scripts/solidify_db.py [--write]` — idempotent integrity pass over
+  `public/pyq-database.json` (+ raw CSS pass on `src/data/questions.ts`):
+  null chapter/topic → `general`, strips baked-in `Problem N:`/`Type: MCQ`
+  headers, collapses duplicate question text (keeps the copy with the better
+  solution), re-keys colliding ids to their unique `pid`, strips OCR garbage
+  lines and CSS/`<style>` residue. Serialization is byte-identical to the
+  existing style (indent=1, ensure_ascii=False, no trailing newline).
+- `scripts/build-concepts.cjs` — rebuilds `public/all-concepts.json` from
+  `src/data/context/*.md` (68 files → 574 concepts). `section` is derived
+  from the file's first line (Mathematics/Physics/Chemistry) so concept
+  browse groups by real subject; per-file local, never mutates the shared
+  `subject` param (past bug: one file's subject leaked to all siblings).
+- `scripts/export_missing_solutions.py` / `scripts/merge_solutions.py` —
+  solver batches (60/batch) from unresolved ids, merge fills only missing
+  solutions (>=40 chars, never overwrites). After merging, re-run
+  `export_missing_solutions.py` to resync `index.json`, delete `batch-NNN`
+  files not listed in the new index, then regenerate the record.
+
+Numbers as of 2026-10-05: 10,152 questions, 8,390 solved, 1,762 unresolved
+(30 batches exported), 574 concepts across 68 chapter files, 67/68 formula
+sheets (missing: `43-ray-optics-questions-solutions-and-pyqs`), 97 solved-but-
+truncated solutions, 128 vault `questions/*.md` files NOT yet ingested
+(parser work frozen).
+
+UI contract: a question with no solution shows `solution pending · tracked
+in content status` (both the answering view and the browse/reveal view)
+instead of silently hiding the solution block.

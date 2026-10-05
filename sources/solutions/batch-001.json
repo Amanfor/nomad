@@ -2,1234 +2,1418 @@
  "batch": 1,
  "items": [
   {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-004",
-   "hash": "901b57f48f33bd27",
-   "question": "When 1 g of compound (X) is subjected to Kjeldahl's method for estimation of nitrogen, 15 mL 1 M H SO was 2 4 neutralized by ammonia evolved. The percentage of nitrogen in compound (X) is :",
-   "options": [
-    "0.21",
-    "21",
-    "42",
-    "0.42"
-   ],
-   "correct": 2,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-004",
-   "hash": "766f839bf05ba14c",
-   "question": "In Carius method 0.2425 g of an organic compound gave 0.5253 g silver chloride. The percentage of chlorine in the organic compound is",
-   "options": [
-    "34.79%",
-    "37.57%",
-    "87.65%",
-    "53.58%"
-   ],
-   "correct": 3,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-005",
-   "hash": "56860c5d16cf6a91",
-   "question": "Given below are two statements: ⊕ ⊕ ⊕ Statement I: (CH ) 3 3 C is more stable than C H as nine hyperconjugation interactions are possible in (CH ) 3 3 3 C . ⊕ ⊕ ⊕ Statement II: C H is less stable than (CH ) 3 3 3 C as only three hyperconjugation interactions are possible in C H . 3 In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Statement I is false but Statement II is true",
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false #PaperPhodnaHai www.mathongo.com General Organic Chemistry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-003",
-   "hash": "2460c77806544d0e",
-   "question": "In Carius method, 0.75 g of an organic compound gave 1.2 g of barium sulphate, find percentage of sulphur (molar mass 32 g mol ). Molar mass of barium sulphate is 233 g mol . −1 −1",
-   "options": [
-    "10.30%",
-    "16.48%",
-    "21.97%",
-    "4.55%"
-   ],
-   "correct": 2,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-004",
-   "hash": "c924186f08975a40",
-   "question": "Identify correct statements from the following : A. Propanal and propanone are functional isomers. B. Ethoxyethane and methoxypropane are metamers. C. But-2-ene shows optical isomerism. D. But-1-ene and but-2-ene are functional isomers. E. Pentane and 2, 2-dimethyl propane are chain isomers. Choose the correct answer from the options given below :",
-   "options": [
-    "A, B and C only",
-    "B, C and D only",
-    "C, D and E only",
-    "A, B and E only"
-   ],
-   "correct": 3,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-003",
-   "hash": "a196ae9fd953141c",
-   "question": "CORRECT order of stability for the following is CH 2 = CH − , CH 3 − CH − 2 , CH ≡ C −",
-   "options": [
-    "CH 2 = CH − > CH ≡ C − > CH 3 − CH − 2",
-    "CH ≡ C − > CH 2 = CH − > CH 3 − CH − 2",
-    "CH ≡ C − > CH 3 − CH − 2 > CH 2 = CH −",
-    "CH − CH 3 − 2 > CH 2 = CH − > CH ≡ C −"
-   ],
-   "correct": 1,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-004",
-   "hash": "d000d62b242dee76",
-   "question": "Arrange the following carbanions in the decreasing order of stability. Choose the correct answer from the options given below:",
-   "options": [
-    "I > IV > II > V > III",
-    "I > II > IV > V > III",
-    "IV > I > II > V > III",
-    "IV > II > I > III > V"
-   ],
-   "correct": 2,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-005",
-   "hash": "81966a781860bd6d",
-   "question": "Arrange the following alkenes in decreasing order of stability. Choose the correct answer from the options given below:",
-   "options": [
-    "III > II > I > IV",
-    "I > III > IV > II",
-    "III > I > II > IV",
-    "I > III > II > IV"
-   ],
-   "correct": 3,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-007",
-   "hash": "a5de0528974efdaf",
-   "question": "The correct order of the rate of the reaction for the following reaction with respect to nucleophiles is : ⊖ ⊖ CH 3 Br + Nu ⟶ CH 3 Nu + Br",
-   "options": [
-    "PhO − > − OH > CH 3 COO − > ClO − 4",
-    "CH COO 3 − > PhO − > − OH > ClO − 4",
-    "− OH > PhO − > CH 3 COO − > ClO − 4",
-    "ClO − 4 > CH 3 COO − > − OH > PhO −"
-   ],
-   "correct": 2,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-008",
-   "hash": "e21157fa813dbe26",
-   "question": "The correct order of reactivity of the following benzyl halides towards reaction with KCN is :",
-   "options": [
-    "b > a > c > d",
-    "b > a > d > c",
-    "a > b > d > c",
-    "a > b > c > d"
-   ],
-   "correct": 1,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-003",
-   "hash": "86fe37d6a54cdadb",
-   "question": "The correct order of the rate of reaction of the following reactants with nucleophile by SN1 mechanism is: (Given : Structure I and II are rigid)",
-   "options": [
-    "III < I < II < IV",
-    "IV < III < II < I",
-    "I < II < III < IV",
-    "II < I < III < IV #PaperPhodnaHai www.mathongo.com Haloalkanes and Haloarenes JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-004",
-   "hash": "6a7b6ae996259124",
-   "question": "As compared with chlorocyclohexane, which of the following statements correctly apply to chlorobenzene? A. The magnitude of negative charge is more on chlorine atom. B. The C − Cl bond has partial double bond character. C. C − Cl bond is less polar. D. C − Cl bond is longer due to repulsion between delocalised electrons of the aromatic ring and lone pairs of electrons of chlorine. E. The C − Cl bond is formed using sp hybridised orbital of carbon. 2 Choose the correct answer from the options given below:",
-   "options": [
-    "B, C and E Only",
-    "A, C and E Only",
-    "A, D and E Only",
-    "B, C and D Only"
-   ],
-   "correct": 0,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-005",
-   "hash": "c8b6e0ca76723d51",
-   "question": "The correct order of reactivity of CH Br in methanol with the following nucleophiles is F , I , C H O and 3 − − 2 5 − − C6 H5 O",
-   "options": [
-    "I − > C2 H5 O − > F − > C6 H5 O −",
-    "I − > C2 H5 O − > C6 H5 O − > F −",
-    "I − > F − > C6 H5 O − > C2 H5 O −",
-    "I − > C6 H5 O − > F − > C2 H5 O −"
-   ],
-   "correct": 1,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-006",
-   "hash": "daa79543c0990bf5",
-   "question": "Given below are two statements: Statement I: ' C − Cl bond is stronger in CH ′ 2 = CH − Cl than CH − CH − Cl 3 2 Statement II: The given optically active molecule, on hydrolysis gives a solution that can rotate the plane polarized light. In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Statement I is false but Statement II is true",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false",
-    "Statement I is true but Statement II is false #PaperPhodnaHai www.mathongo.com Haloalkanes and Haloarenes JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-007",
-   "hash": "f5b20aa88cd2e4a5",
-   "question": "Match the LIST-I with LIST-II List-I (Chloro derivative) List-II (Example) A. Vinyl Chloride I. CH 2 = CH − CH 2 Cl B. Benzyl chloride II. CH 3 = CH (Cl)CH 3 C. Alkyl chloride III. CH 2 = CH Cl D. Allyl chloride IV. Choose the correct answer from the options given below:",
-   "options": [
-    "A-III, B-IV, C-I, D-II",
-    "A-I, B-II, C-IV, D-III",
-    "A-IV, B-I, C-III, D-II",
-    "A-III, B-IV, C-II, D-I #PaperPhodnaHai www.mathongo.com Haloalkanes and Haloarenes JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-005",
-   "hash": "d35ed6b0de329e30",
-   "question": "Consider the following compounds Arrange these compounds in the increasing order of reactivity with nitrating mixture.",
-   "options": [
-    "c < a < b",
-    "b < a < c",
-    "c < b < a",
-    "b < c < a"
-   ],
-   "correct": 1,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-006",
-   "hash": "87ba8743b69618f7",
-   "question": "But-2-yne and hydrogen (one mole each) are separately treated with (i) Pd/C and (ii) Na/liq. NH to give the 3 products X and Y respectively. Identify the incorrect statements. A. X and Y are stereoisomers. B. Dipole moment of X is zero. C. Boiling point of X is higher than Y . D. X and Y react with O /Zn + H O to give different products. 3 2 Choose the correct answer from the options given below :",
-   "options": [
-    "B and D Only",
-    "A and C Only",
-    "A and B Only",
-    "B and C Only"
-   ],
-   "correct": 0,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-004",
-   "hash": "32235ffab9e6fe3d",
-   "question": "Identify the correct statements : The presence of −NO group in benzene ring 2 A. activates the ring towards electrophilic substitutions. B. deactivates the ring towards electrophilic substitutions. C. activates the ring towards nucleophilic substitutions. D. deactivates the ring towards nucleophilic substitutions. Choose the correct answer from the options given below :",
-   "options": [
-    "C and A Only",
-    "B and C Only",
-    "A and D Only",
-    "B and D Only #PaperPhodnaHai www.mathongo.com Hydrocarbons JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-005",
-   "hash": "7f106d9f36caebaf",
-   "question": "Consider the following reaction : The product Y formed is :",
-   "options": [
-    "5-methylhex-2-yne",
-    "Isopropylbut-1-yne",
-    "2-methylhex-3-yne",
-    "2-methylhex-2-yne"
-   ],
-   "correct": 2,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-006",
-   "hash": "2f780c1829140de5",
-   "question": "Given below are two statements: Statement I: Benzene is nitrated to give nitrobenzene, which on further treatment with CH COCl/AlCl will give 3 3 Statement II: −NO group is a m-directing, and deactivating group. 2 In the light of the above statements, choose the most appropriate answer from the options given below",
-   "options": [
-    "Statement I is incorrect but Statement II is correct",
-    "Both Statement I and Statement II are incorrect",
-    "Both Statement I and Statement II are correct",
-    "Statement I is correct but Statement II is incorrect"
-   ],
-   "correct": 0,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-004",
-   "hash": "b26e58c45fbd6610",
-   "question": "(PhCOO) 2 − Ph − CH = CH 2 → Product HBr Consider the above reaction A. The reaction proceeds through a more stable radical intermediate. B. The role of peroxide is to generate H (Hydrogen radical). ∘ C. During this reaction, benzene is formed as a byproduct. D. 1-Bromo-2-phenylethane is formed as the minor product. E. The same reaction in absence of peroxide proceeds via carbocation intermediate. Identify the correct statements. Choose the correct answer from the options given below:",
-   "options": [
-    "C, D & E Only",
-    "A, B & D Only",
-    "A, C & E Only",
-    "A & E Only"
-   ],
-   "correct": 2,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-005",
-   "hash": "06b16d52a38cf6fe",
-   "question": "Method used for separation of mixture of products (B and C) obtained in the following reaction is",
-   "options": [
-    "steam distillation",
-    "simple distillation",
-    "sublimation",
-    "fractional distillation"
-   ],
-   "correct": 3,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-006",
-   "hash": "160a39b6014f1c2f",
-   "question": "Given below are two statements for the following reaction sequence. Statement I: Compound ' Z ' will give yellow precipitate with NaOI. Statement II: Compound ' Q ' has two different types of ' H ' atoms (aromatic : aliphatic) in the ratio 1:3. In the light of the above statements, choose the correct answer from the options given below:",
-   "options": [
-    "Both Statement I and Statement II are false",
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Statement I is false but Statement II is true #PaperPhodnaHai www.mathongo.com Hydrocarbons JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 2,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-006",
-   "hash": "8213e521910ccd3a",
-   "question": "Which of the following mixture gives a buffer solution with pH = 9.25 ? Given : pK (NH OH) = 4.75 b 4",
-   "options": [
-    "0.2MNH OH(0.5 L) + 0.1MHCl(0.5 L) 4",
-    "0.2MNH OH(0.4 L) + 0.1MHCl(1 L) 4",
-    "0.4 MNH OH(1 L) + 0.1MHCl(1 L) 4",
-    "0.5MNH OH(0.2 L) + 0.2MHCl(0.5 L) 4"
-   ],
-   "correct": 0,
-   "chapter": "Ionic Equilibrium",
-   "topic": "Ionic Equilibrium",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical and Ionic Equilibrium",
-   "formulas": [
-    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
-    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
-    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
-    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
-    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
-    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
-    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-007",
-   "hash": "26c7615393747a81",
-   "question": "Consider a weak base ' B ' of pK = 5.699. ' x ' mL of 0.02 M HCl and ' y ' mL of 0.02 M weak base ' B ' are mixed b to make 100 mL of a buffer of pH 9 at 25 C. The values of ' x ' and ' y ' respectively are: [Given: ∘ log 2 = 0.3010, log 3 = 0.4771, log 5 = 0.699 ]",
-   "options": [
-    "x y",
-    "x y 85.7 14.3 14.3 85.7",
-    "x y",
-    "x y 11.1 88.9 42.7 57.3"
-   ],
-   "correct": 1,
-   "chapter": "Ionic Equilibrium",
-   "topic": "Ionic Equilibrium",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical and Ionic Equilibrium",
-   "formulas": [
-    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
-    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
-    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
-    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
-    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
-    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
-    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-007",
-   "hash": "dcebb3fe4da8e9d6",
-   "question": "The correct statements from the following are : A. Ionic radii of trivalent cations of group 13 elements decreases down the group. B. Electronegativity of group 13 elements decreases down the group. C. Among the group 13 elements, Boron has highest first ionisation enthalpy. D. The trichloride and triiodide of group 13 elements are covalent in nature. Choose the correct answer from the options given below :",
-   "options": [
-    "C and D Only",
-    "A and D Only",
-    "A and C Only",
-    "B and D Only"
-   ],
-   "correct": 0,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-005",
-   "hash": "74fa6bbcb4af20c8",
-   "question": "Consider the following reactions Δ − Na2 B4O7 → 2X + Y Non-Luminous f lame CuSO4 + Y − → Z + SO3 Luminous f lame − 2Z + 2X+ Carbon → 2Q + Na2 B4O7 + CO The oxidation states of Cu in Z and Q, respectively are :",
-   "options": [
-    "+1 and +1",
-    "+2 and +2",
-    "+1 and +2",
-    "+2 and +1"
-   ],
-   "correct": 3,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-007",
-   "hash": "38f8b7b00bd47659",
-   "question": "Given below are two statements : Statement I: Elements ' X ' and ' Y ' are the most and least electronegative elements, respectively among N, As, Sb and P. The nature of the oxides X O and Y O is acidic and amphoteric, respectively. 2 3 2 3 Statement II : BCl3 is covalent in nature and gets hydrolysed in water. It produces [B(OH) ] and [B(H O) ] 4 − 2 6 3+ in aqueous medium. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Both Statement I and Statement II are false",
-    "Both Statement I and Statement II are true",
-    "Statement I is true but Statement II is false",
-    "Statement I is false but Statement II is true"
-   ],
-   "correct": 2,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-006",
-   "hash": "fcbe8d798d4f1a4c",
-   "question": "It is noticed that Pb 2+ is more stable than Pb 4+ but Sn 2+ is less stable than Sn . Observe the following reactions. 4+ ∘ PbO2 + Pb → 2PbO; ΔrG",
-   "options": [
-    "∘ SnO2 + Sn → 2SnO; ΔrG",
-    "Identify the correct set from the following",
-    "Δ G",
-    "< 0; Δ G"
-   ],
-   "correct": 2,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-005",
-   "hash": "bbf2dea0ecab8f26",
-   "question": "Consider the following reactions. PbCl2 + K2CrO4 → A + 2KCl (Hot solution) A + NaOH ⇌ B + Na2CrO4 PbSO4 + 4CH3COONH4 → (NH4) SO4 + X 2 In the above reactions, A, B and X are respectively.",
-   "options": [
-    "Na [ Pb(OH) ], PbCrOO and (NH ) [ Pb(CH COO) ] 2 2 4 4 2 3 4",
-    "Na [ Pb(OH) ], PbCrO and [Pb(NH ) ]SO 2 2 4 3 4 4",
-    "PbCrO , Na [ Pb(OH) ] and (NH ) [ Pb(CH COO) ] 4 2 4 4 2 3 4",
-    "PbCrO , Na [ Pb(OH) ] and [Pb(NH ) ]SO 4 2 4 3 4 4"
-   ],
-   "correct": 2,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-006",
-   "hash": "c6424a451eb97b96",
-   "question": "Given below are two statements : Statement I : The number of pairs among [SiO , CO ], [SnO, SnO ], [PbO, PbO ] and [GeO, GeO ], which contain 2 2 2 2 2 oxides that are both amphoteric is 2. Statement II: BF is an electron deficient molecule, can act as a Lewis acid, forms adduct with NH and has a 3 3 trigonal planar geometry. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false",
-    "Statement I is false but Statement II is true #PaperPhodnaHai www.mathongo.com p Block Elements (Group 13 and 14) JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-006",
-   "hash": "9326aa42ded35265",
-   "question": "Given below are two statements : Statement I : The increasing order of boiling point of hydrogen halides is HCl < HBr < HI < HF. Statement II : The increasing order of melting point of hydrogen halides is HCl < HBr < HF < HI. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false",
-    "Statement I is false but Statement II is true"
-   ],
-   "correct": 1,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-007",
-   "hash": "ff15f104613dd84e",
-   "question": "A ' p '-block element (E) and hydrogen form a binary cation (EH ) , while EH on treatment with K HgI in x + 3 2 4 alkaline medium gives a precipitate of basic mercury(II)amido-iodine. Given below are first ionisation enthalpy values (kJmol −1 ) for first element each from group 13, 14, 15 and 16. Identify the correct first ionisation enthalpy value for element E.",
-   "options": [
-    "1312",
-    "1402",
-    "1086",
-    "801"
-   ],
-   "correct": 1,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-008",
-   "hash": "7e82b05c10f7d587",
-   "question": "Regarding the hydrides of group 15 elements EH (E = N, P, As, Sb), select the correct statement from the 3 following: A. The stability of hydrides decreases down the group. B. The basicity of hydrides decreases down the group. C. The reducing character increases down the group. D. The boiling point increases down the group. Choose the correct answer from the options given below:",
-   "options": [
-    "B & C only",
-    "A, B, C & D",
-    "A & D only",
-    "A, B & C only #PaperPhodnaHai www.mathongo.com p Block Elements (Group 15, 16, 17 and 18) JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "P-block",
-   "topic": "P-block",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-009",
-   "hash": "b4b272684e791b7a",
-   "question": "By usual analysis, 1.00 g of compound (X) gave 1.79 g of magnesium pyrophosphate. The percentage of phosphorus in compound (X) is : (nearest integer) (Given, molar mass in gmol −1 ) : O = 16, Mg = 24, P = 31",
-   "options": [
-    "30",
-    "50",
-    "40",
-    "20"
-   ],
-   "correct": 1,
-   "chapter": "Practical-Organic-Chemistry",
-   "topic": "Practical-Organic-Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-007",
-   "hash": "9b9ad0f3df23c634",
-   "question": "A student has been given 0.314 g of an organic compound and asked to estimate Sulphur. During the experiment, the student has obtained 0.4813 g of barium sulphate. The percentage of sulphur present in the compound is ____. (Given Molar mass in gmol −1 S : 32, BaSO4 : 233 )",
-   "options": [
-    "48.24 %",
-    "63.15 %",
-    "21.05 %",
-    "42.10 %"
-   ],
-   "correct": 2,
-   "chapter": "Practical-Organic-Chemistry",
-   "topic": "Practical-Organic-Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-005",
-   "hash": "d08dd03c38fc6a10",
-   "question": "In the Group analysis of cations, Ba 2+ 2+ & Ca are precipitated respectively as",
-   "options": [
-    "sulphide & sulphide",
-    "chromate & sulphide",
-    "carbonate & carbonate",
-    "hydroxide & carbonate"
-   ],
-   "correct": 2,
-   "chapter": "Practical-Organic-Chemistry",
-   "topic": "Practical-Organic-Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-008",
-   "hash": "3340333e67b3b4b3",
-   "question": "Consider three metal chlorides x, y and z, where x is water soluble at room temperature, y is sparingly soluble in water at room temperature and z is soluble in hot water. x, y and z are respectively",
-   "options": [
-    "CuCl , AgCl and PbCl 2 2",
-    "AlCl , PbCl and BaCl 3 2 2",
-    "MgCl , AgCl and AlCl 2 3",
-    "AgCl, Hg Cl and PbCl 2 2 2 #PaperPhodnaHai www.mathongo.com Practical Chemistry JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Practical-Organic-Chemistry",
-   "topic": "Practical-Organic-Chemistry",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-008",
-   "hash": "ff6aa25ddfc48862",
-   "question": "The correct sequence of reagents for the above conversion of X to Y is :",
-   "options": [
-    "(i) NaOH(aq); (ii) Jones reagent; (iii) H3 O +",
-    "(i) B H /H O ; 2 6 2 2 (ii) NaOEt; (iii) Jones reagent",
-    "(i) Jones reagent; (ii) NaOEt; (iii) HotKMnO /KOH 4",
-    "(i) NaOEt; (ii) B H /H O ; 2 6 2 2 (iii) Jones reagent"
-   ],
-   "correct": 3,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-009",
-   "hash": "0dcb47e49a9268ec",
-   "question": "Match List - I with List - II. List - I List - II Functional group (detection) Change observed during detection A. Unsaturation (Baeyer's test) I. Red colour appears B. Alcoholic group (Ceric ammonium nitrate test) II. Silver mirror appears C. Aldehyde group (Tollen's reagent) III. Violet colour appears D. Phenolic group (FeCl 3 test) IV. Discharge of pink colour Choose the correct answer from the options given below :",
-   "options": [
-    "A-III, B-IV, C-II, D-I",
-    "A-IV, B-I, C-II, D-III",
-    "A-IV, B-III, C-II, D-I",
-    "A-III, B-IV, C-I, D-II"
-   ],
-   "correct": 1,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-008",
-   "hash": "f251ca9f30080c84",
-   "question": "The reactions which produce alcohol as the product are: Mo 2 O 3 A. CH + O − → 4 2 Δ (CH 3 COO) Mn B. 2CH CH + 3O 2 − → 3 3 2 Δ KMnO 4 C. (CH ) CH − → 3 3 Cu/523 K/100 atm. D. 2CH + O − → 4 2 + KMnO 4 /H E. CH − CH = CH − CH − 3 → 3 Choose the correct answer from the options given below :",
-   "options": [
-    "A, C and E Only",
-    "A and D Only",
-    "C and D Only",
-    "B, D and E Only #PaperPhodnaHai www.mathongo.com Alcohols Phenols and Ethers JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 2,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-006",
-   "hash": "06fc8fb06b71eeac",
-   "question": "From the following, how many compounds contain at least one secondary alcohol? Choose the correct answer from the options given below:",
-   "options": [
-    "Three",
-    "Five",
-    "Four",
-    "Two"
-   ],
-   "correct": 0,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-007",
-   "hash": "2166a3411064b2a1",
-   "question": "The unsaturated ether on acidic hydrolysis produces carbonyl compounds as shown below:- CH 3 − CH = CH−O − CH = CH 2 (+) ↓ H3 O CH 3 − CH 2 − CH =O and O = CH − CH 3 Based on this, predict the solution/reagent that will help to distinguish \" P \" and \" Q \" obtained in the following reaction:-",
-   "options": [
-    "Fehling solution",
-    "Lucas reagent",
-    "2, 4 - DNP reagent",
-    "Saturated NaHSO solution 3 #PaperPhodnaHai www.mathongo.com Alcohols Phenols and Ethers JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 0,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-008",
-   "hash": "73c1591b006ed7ef",
-   "question": "3, 3-Dimethyl-2-butanol cannot be prepared by : Choose the correct answer from the options given below :",
-   "options": [
-    "B and C Only",
-    "B and E Only",
-    "B Only",
-    "B, C and E Only"
-   ],
-   "correct": 1,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-008",
-   "hash": "a81aebf71ceb17bf",
-   "question": "Given below are two statements: Statement I: Phenol on treatment with CHCl /aq. KOH under refluxing condition, followed by acidification 3 produces p-hydroxy benzaldehyde as the major product and o-hydroxy benzaldehyde as the minor product. Statement II: The mixture of p-hydroxybenzaldehyde and o hydroxybenzaldehyde can be easily separated through steam distillation. In the light of the above statements, choose the correct answer from the options given below",
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-013",
+   "hash": "c0bbda3b2c4c9d5d",
+   "question": "Given below are two statements : Statement I : The number of species among SF , NH , [NiCl ] 4 + 4 4 2− , XeF 4 , [PtCl 4 ] 2− , SeF 4 and [Ni(CN) ] , that 4 2− have tetrahedral geometry is 3. Statement II : In the set [NO , BeH , BF , AlCl ], all the molecules have incomplete octet around central atom. 2 2 3 3 In the light of the above statements, choose the correct answer from the options given below :",
    "options": [
     "Statement I is true but Statement II is false",
     "Statement I is false but Statement II is true",
     "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false #PaperPhodnaHai www.mathongo.com Alcohols Phenols and Ethers JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "Both Statement I and Statement II are false"
    ],
    "correct": 1,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
    "year": "2026",
    "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-009",
-   "hash": "5fdfd5c90507a108",
-   "question": "Consider the following reaction sequence Compound (y) develops characteristic colour with neutral FeCl solution. Identify the INCORRECT statement 3 from the following for the above sequence.",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-017",
+   "hash": "bff41d75814d7428",
+   "question": "Given below are two statements: Statement I: The number of species among BF 4 − , SiF 4 , XeF 4 and SF , that have unequal E − F bond lengths is 4 two. Here, E is the central atom. Statement II: Among O , O − 2 2 2− , F2 and O 2 + ,O − 2 has the highest bond order. In the light of the above statements, choose the correct answer from the options given below",
    "options": [
-    "Compound y will dissolve in NaHCO and evolve a gas. 3",
-    "Both compounds x and y will dissolve in NaOH.",
-    "Both compounds x and y will burn with sooty flame.",
-    "Compound x is more acidic than compound y."
-   ],
-   "correct": 3,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-009",
-   "hash": "605a79895e08bd0b",
-   "question": "A hydroxy compound (X) with molar mass 122 g mol −1 is acetylated with acetic anhydride, using a large excess of the reagent ensuring complete acetylation of all hydroxyl groups. The product obtained has a molar mass of 290 g mol −1 . The number of hydroxyl groups present in compound (X) is:",
-   "options": [
-    "5",
-    "2",
-    "4",
-    "3"
-   ],
-   "correct": 2,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-010",
-   "hash": "1b2fff2d7876248d",
-   "question": "Consider the following two reactions A and B. Numerical value of [molar mass of x+ molar mass of y] is ____.",
-   "options": [
-    "160",
-    "4",
-    "88",
-    "46 #PaperPhodnaHai www.mathongo.com Alcohols Phenols and Ethers JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo #PaperPhodnaHai www.mathongo.com Alcohols Phenols and Ethers JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 3,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-008",
-   "hash": "3b1efcbba000bcdf",
-   "question": "One mole of Cl ( g) was passed into 2 L of cold 2 M KOH solution. After the reaction, the concentrations of 2 Cl − − , ClO and OH are respectively (assume volume remains constant) −",
-   "options": [
-    "0.5M, 0.5M, 1M",
-    "0.75M, 0.75M, 1M",
-    "0.5M, 0.5M, 0.5M",
-    "1M, 1M, 1M"
-   ],
-   "correct": 0,
-   "chapter": "Redox-Reactions",
-   "topic": "Redox-Reactions",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-009",
-   "hash": "d318ae6db4178a90",
-   "question": "Identify the correct statements : A. Hydrated salts can be used as primary standard. B. Primary standard should not undergo any reaction with air. C. Reactions of primary standard with another substance should be instantaneous and stoichiometric. D. Primary standard should not be soluble in water. E. Primary standard should have low relative molar mass. Choose the correct answer from the options given below :",
-   "options": [
-    "A, B, C and E Only",
-    "A, B and E Only",
-    "A, B and C Only",
-    "D and E Only"
-   ],
-   "correct": 2,
-   "chapter": "Redox-Reactions",
-   "topic": "Redox-Reactions",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-009",
-   "hash": "2a0a91b64a1bc6d8",
-   "question": "Consider the following aqueous solutions. I. 2.2 g Glucose in 125 mL of solution. II. 1.9 g Calcium chloride in 250 mL of solution. III. 9.0 g Urea in 500 mL of solution. IV. 20.5 g Aluminium sulphate in 750 mL of solution. The correct increasing order of boiling point of these solutions will be : [Given : Molar mass in gmol −1 : H = 1, C = 12, N = 14, O = 16, Cl = 35.5, Ca = 40, Al = 27 and S = 32]",
-   "options": [
-    "III < I < II < IV",
-    "I < II < III < IV",
-    "II < III < I < IV",
-    "II < III < IV < I #PaperPhodnaHai www.mathongo.com Solutions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Solutions",
-   "topic": "Solutions",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-009",
-   "hash": "2ece3636aaf3a9f7",
-   "question": "At 298 K, the mole percentage of N ( g) in air is 80%. Water is in equilibrium with air at a pressure of 10 atm. What 2 is the mole fraction of N ( g) in water at 298 K ? (K for N is 6.5 × 10 mmHg) 2 H 2 7",
-   "options": [
-    "1.23 × 10 −7",
-    "1.17 × 10−4",
-    "9.35 × 10 5",
-    "9.35 × 10−5"
-   ],
-   "correct": 3,
-   "chapter": "Solutions",
-   "topic": "Solutions",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-010",
-   "hash": "063526a11bbd3848",
-   "question": "Two liquids A and B form an ideal solution at temperature T K. At T K, the vapour pressures of pure A and B are 55 and 15kNm −2 respectively. What is the mole fraction of A in solution of A and B in equilibrium with a vapour in which the mole fraction of A is 0.8 ?",
-   "options": [
-    "0.340",
-    "0.663",
-    "0.5217",
-    "0.480"
-   ],
-   "correct": 2,
-   "chapter": "Solutions",
-   "topic": "Solutions",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-010",
-   "hash": "f8ffa26cdbbbc6df",
-   "question": "At T(K), 100 g of 98%H SO (w/w) aqueous solution is mixed with 100 g of 49%H SO (w/w) aqueous solution. 2 4 2 4 What is the mole fraction of H SO in the resultant solution? 2 4 (Given : Atomic mass H = 1u; S = 32u; O = 16u). (Assume that temperature after mixing remains constant)",
-   "options": [
-    "0.663",
-    "0.9",
-    "0.337",
-    "0.1"
-   ],
-   "correct": 2,
-   "chapter": "Solutions",
-   "topic": "Solutions",
-   "year": "2026",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
-  },
-  {
-   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-009",
-   "hash": "0398023d0ecd9765",
-   "question": "Given below are two statements: Statement I: The Henry's law constant K is constant with respect to variations in solution's concentration over the H range for which the solution is ideally dilute. Statement II: K does not differ for the same solute in different solvents. H In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Statement I is false but Statement II is true",
     "Both Statement I and Statement II are false",
     "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
     "Both Statement I and Statement II are true"
    ],
-   "correct": 2,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "correct": 0,
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
    "year": "2026",
    "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-007",
-   "hash": "ed614f970d348843",
-   "question": "Elements P and Q form two types of non-volatile, non-ionizable compounds PQ and PQ . When 1 g of PQ is 2 dissolved in 50 g of solvent A , ΔT was 1.176 K while when 1 g of PQ is dissolved in 50 g of solvent A , ΔT ′ ′ b 2 ′ ′ b was 0.689 K. (K of ' A = 5 K kg mol ). The molar masses of elements P and Q (in gmol ) respectively, are : b ′ −1 −1",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-016",
+   "hash": "a87297a345aba113",
+   "question": "Among the following, the CORRECT combinations are A. IF 3 → T -shaped (sp 3 d) B. IF 5 → Square pyramidal (sp d ) 3 2 C. IF 7 → Pentagonal bipyramidal (sp d ) 3 3 D. ClO 4 − → Square planar (sp d) 2 Choose the correct answer from the options given below:",
    "options": [
-    "70, 110",
-    "65, 145",
-    "25, 60",
-    "60, 25"
+    "B, C and D Only",
+    "A and B Only",
+    "A, B and C Only",
+    "A, B, C and D #PaperPhodnaHai www.mathongo.com Chemical Bonding and Molecular Structure JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
    "correct": 2,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
    "year": "2026",
    "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-010",
-   "hash": "b26286a1923fc36d",
-   "question": "At T(K), 2 moles of liquid A and 3 moles of liquid B are mixed. The vapour pressure of ideal solution formed is 320 mm Hg. At this stage, one mole of A and one mole of B are added to the solution. The vapour pressure is now measured as 328.6 mm Hg. The vapour pressure (in mm Hg) of A and B are respectively:",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-017",
+   "hash": "ffb940d53a12797e",
+   "question": "Given below are statements about some molecules/ions. Identify the CORRECT statements. A. The dipole moment value of NF is higher than that of NH . 3 3 B. The dipole moment value of BeH is zero. 2 C. The bond order of O 2 2− and F is same. 2 D. The formal charge on the central oxygen atom of ozone is -1. E. In NO , all the three atoms satisfy the octet rule, hence it is very stable. 2 Choose the correct answer from the options given below:",
    "options": [
-    "400, 300",
-    "600,400",
-    "300,200",
-    "500, 200"
+    "A, C & D Only",
+    "B, C & D Only",
+    "B & C Only",
+    "A, B, C, D & E #PaperPhodnaHai www.mathongo.com Chemical Bonding and Molecular Structure JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Chemical-Bonding-And-Molecular-Structure",
+   "topic": "Chemical-Bonding-And-Molecular-Structure",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-017",
+   "hash": "c0e768fcd41d9907",
+   "question": "Consider the general reaction given below at 400 K x A( g) ⇌ y B( g) The values of K and K are studied under the same condition of temperature but variation in x and y. p c (i) K p = 85.87 and K = 2.586 appropriate units c (ii) K p = 0.862 and K = 28.62 appropriate units. c The values of x and y in (i) and (ii) respectively are:",
+   "options": [
+    "(i) (ii)",
+    "(i) (ii) 1, 3 2, 1 4, 1 4, 1",
+    "(i) (ii)",
+    "(i) (ii) 3, 1 3, 1 1, 2 2, 1"
    ],
    "correct": 3,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
    "year": "2026",
    "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
    "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-011",
-   "hash": "bed12df3750dda2c",
-   "question": "A solution is prepared by dissolving 0.3 g of a non-volatile non-electrolyte solute 'A' of molar mass 60 g mol −1 and 0.9 g of a non-volatile non-electrolyte solute ' B ' of molar mass 180 g mol −1 in 100 mLH O at 27 C. Osmotic 2 ∘ pressure of the solution will be [Given: R = 0.082 L atm K −1 −1 mol ]",
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-016",
+   "hash": "90c176befe9cb67e",
+   "question": "Observe the following equilibrium in a 1 L flask. A( g) ⇌ B( g) At T(K), the equilibrium concentrations of A and B are 0.5 M and 0.375 M respectively. 0.1 moles of A is added into the flask and heated to T(K) to establish the equilibrium again. The new equilibrium concentrations (in M) of A and B are respectively",
    "options": [
-    "0.82 atm",
-    "2.46 atm",
-    "1.23 atm",
-    "1.47 atm #PaperPhodnaHai www.mathongo.com Solutions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "0.53, 0.4.",
+    "0.742, 0.557.",
+    "0.557, 0.418.",
+    "0.367, 0.275."
+   ],
+   "correct": 2,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-017",
+   "hash": "6458b46552565059",
+   "question": "Consider the following gaseous equilibrium in a closed container of volume ' V ' at T(K). P 2 ( g) + Q 2 ( g) ⇌ 2PQ(g) 2 moles each of P ( g), Q ( g) and PQ(g) are present at equilibrium. Now one mole each of ' P ' and ' Q ' are 2 2 2 2 added to the equilibrium keeping the temperature at T(K). The number of moles of P , Q and P Q at the new 2 2 equilibrium, respectively, are",
+   "options": [
+    "1.66, 1.66, 1.66",
+    "2.56, 1.62, 2.24",
+    "2.67, 2.67, 2.67",
+    "1.21, 2.24, 1.56 #PaperPhodnaHai www.mathongo.com Chemical Equilibrium JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-014",
+   "hash": "1059f876d033c10c",
+   "question": "For the reaction, N O 2 4 ⇌ 2NO 2 , graph is plotted as shown below. Identify correct statements. A. Standard free energy change for the reaction is −5.40 kJ mol . −1 B. As ΔG in graph is positive, N O will not dissociate into NO at all. ⊖ 2 4 2 C. Reverse reaction will go to completion. D. When 1 mole of N O changes into equilibrium mixture, value of ΔG 2 4 ⊖ = −0.84 kJ mol −1 E. When 2 mole of NO changes into equilibrium mixture, ΔG for equilibrium mixture is −6.24 kJ mol . 2 ⊖ −1 Choose the correct answer from the options given below :",
+   "options": [
+    "D and E only",
+    "A and D only",
+    "B and C only",
+    "C and E only #PaperPhodnaHai www.mathongo.com Chemical Equilibrium JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Chemical Equilibrium",
+   "topic": "Chemical Equilibrium",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical and Ionic Equilibrium",
+   "formulas": [
+    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
+    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
+    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
+    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
+    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
+    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
+    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-018",
+   "hash": "a8170e342d8eae3d",
+   "question": "Decomposition of A is a first order reaction at T(K) and is given by A(g) ⟶ B(g) + C(g). In a closed 1 L vessel, 1 bar A(g) is allowed to decompose at T(K). After 100 minutes, the total pressure was 1.5 bar. What is the rate constant (inmin −1 ) of the reaction ? (log 2 = 0.3)",
+   "options": [
+    "6.9 × 10 −3",
+    "6.9 × 10−4",
+    "6.9 × 10 −1",
+    "6.9 × 10−2"
+   ],
+   "correct": 0,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-016",
+   "hash": "b99a1d867ab3f4a6",
+   "question": "Correct statements regarding Arrhenius equation among the following are : A. Factor e −Ea/RT corresponds to fraction of molecules having kinetic energy less than Ea. B. At a given temperature, lower the Ea, faster is the reaction. C. Increase in temperature by about 10 C doubles the rate of reaction. ∘ D. Plot of log k vs 1 T gives a straight line with slope = − Ea R . Choose the correct answer from the options given below :",
+   "options": [
+    "B and D Only",
+    "A and B Only",
+    "B and C Only",
+    "A and C Only"
+   ],
+   "correct": 2,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-017",
+   "hash": "21db523ed649f2cb",
+   "question": "A → product (First order reaction). Three sets of experiment were performed for a reaction under similar experimental conditions: Run 1 ⇒ 100 mL of 10 M solution of reactant A Run 2 ⇒ 200 mL of 10 M solution of reactant A Run 3 ⇒ 100 mL of 10 M solution of reactant A + 100 mL of H O added. 2 The correct variation of rate of reaction is",
+   "options": [
+    "Run 1 < Run 2 < Run 3",
+    "Run 3 < Run 1 < Run 2",
+    "Run 3 < Run 1 = Run 2",
+    "Run 1 = Run 2 = Run 3"
+   ],
+   "correct": 2,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-015",
+   "hash": "666ceb5d75f62203",
+   "question": "Given above is the concentration vs time plot for a dissociation reaction : A → nB. Based on the data of the initial phase of the reaction (initial 10 min), the value of n is ____.",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "correct": 0,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-016",
+   "hash": "381df2a4bcbb773e",
+   "question": "Observe the following reactions at T(K). I. A → products. II. 5Br (aq) + BrO − 3 − (aq) + 6H + (aq) → 3Br2(aq) + 3H2O(l) − Δ[Br ] Both the reactions are started at 10.00 am. The rates of these reactions at 10.10 am are same. The value of − Δt at 10.10 am is 2 × 10 −4 mol L −1 min −1 . The concentration of A at 10.10 am is 10 −2 mol L −1 . What is the first order rate constant (in min ) of reaction I ? −1",
+   "options": [
+    "10 −2",
+    "10 −3",
+    "2 × 10 −3",
+    "4 × 10 −3"
+   ],
+   "correct": 3,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "Chemical Kinetics",
+   "formulas": [
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-018",
+   "hash": "7f9c0c846b3a6c46",
+   "question": "th th An organic compound undergoes first order decomposition. The time taken for decomposition to ( 1 8 ) and ( 1 10 ) t1/8 of its initial concentration are t 1/8 and t 1/10 respectively. What is the value of t × 10 ? (log 2 = 0.3) 1/10",
+   "options": [
+    "3",
+    "9",
+    "0.9",
+    "30"
    ],
    "correct": 1,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
    "year": "2026",
    "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formula_sheet": "Chemical Kinetics",
    "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-012",
-   "hash": "eae0f082dd5f075a",
-   "question": "' W ' g of a non-volatile electrolyte solid solute of molar mass ' M ' gmol −1 when dissolved in 100 mL water, decreases vapour pressure of water from 640 mm Hg to 600 mm Hg. If aqueous solution of the electrolyte boils at 375 K and K for water is 0.52 K kg mol , then the mole fraction of the electrolyte solute (x ) in the solution can b −1 2 be expressed as (Given : density of water = 1 g/mL and boiling point of water = 373 K)",
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-018",
+   "hash": "17b739c9d855633d",
+   "question": "At 27 C in presence of a catalyst, activation energy of a reaction is lowered by 10 kJ mol . The logarithm of ratio ∘ −1 of k (catalysed) k (uncatalysed) is.... (Consider that the frequency factor for both the reactions is same)",
    "options": [
-    "2⋅6 16 × M W",
-    "16 2⋅6 × W M",
-    "1.3 8 × M W",
-    "1⋅3 8 × W M #PaperPhodnaHai www.mathongo.com Solutions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+    "1.741",
+    "17.41",
+    "3.482",
+    "0.1741 #PaperPhodnaHai www.mathongo.com Chemical Kinetics JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
    ],
-   "correct": 3,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "correct": 0,
+   "chapter": "Chemical Kinetics",
+   "topic": "Chemical Kinetics",
    "year": "2026",
    "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
+   "formula_sheet": "Chemical Kinetics",
    "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
+    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
+    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
+    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
+    "$$\\text{Rate} = k [A]^x [B]^y$$",
+    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
+    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
+    "$$k = A e^{-\\frac{E_a}{RT}}$$"
    ]
   },
   {
-   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-010",
-   "hash": "69217c6d817a5fa5",
-   "question": "Aqueous HCl reacts with MnO ( s) to form MnCl (aq), Cl ( g) and H O(l). What is the weight (in g) of Cl 2 2 2 2 2 liberated when 8.7 g of MnO ( s) is reacted with excess aqueous HCl solution? 2 (Given Molar mass in gmol −1 Mn = 55, Cl = 35.5, O = 16, H = 1 )",
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-CHM-019",
+   "hash": "a0eb8478afdb3959",
+   "question": "Given below are two statements : Statement I : The correct order in terms of atomic/ionic radii is Al > Mg > Mg 2+ > Al 3+ . Statement II : The correct order in terms of the magnitude of electron gain enthalpy is Cl > Br > S > O. In the light of the above statements, choose the correct answer from the options given below :",
    "options": [
-    "21.3",
-    "71",
-    "14.2",
-    "7.1"
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false"
    ],
-   "correct": 3,
-   "chapter": "Some Basic Concepts Of Chemistry",
-   "topic": "Some Basic Concepts Of Chemistry",
+   "correct": 2,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
    "year": "2026",
    "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-CHM-018",
+   "hash": "6fb328b082ac392d",
+   "question": "The correct trend in the first ionization enthalpies of the elements in the 3 rd period of periodic table is :",
+   "options": [
+    "Si < S < Al < P < Cl",
+    "Al < S < P < Si < Cl",
+    "Al < Si < S < P < Cl",
+    "S < Si < Al < P < Cl"
+   ],
+   "correct": 2,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-CHM-017",
+   "hash": "085fd3d2330a6560",
+   "question": "Consider the elements N, P, O, S, Cl and F. The number of valence electrons present in the elements with most and least metallic character from the above list is respectively.",
+   "options": [
+    "7 and 5",
+    "5 and 7",
+    "5 and 6",
+    "6 and 7"
+   ],
+   "correct": 1,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-018",
+   "hash": "61bd2d6a891270f9",
+   "question": "The correct order of C, N, O and F in terms of second ionisation potential is",
+   "options": [
+    "C < N < F < O",
+    "C < O < N < F",
+    "C < F < N < O",
+    "F < N < C < O"
+   ],
+   "correct": 0,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-CHM-019",
+   "hash": "10659ed9af86a74a",
+   "question": "Choose the INCORRECT statement",
+   "options": [
+    "CO is the most acidic oxide among the dioxides of group of 14 elements. 2",
+    "Carbon exhibits negative oxidation states along with +4 and +2.",
+    "Carbon cannot exceed its covalency more than four.",
+    "Among the isotopes of carbon, 13 C is a radioactive isotope. #PaperPhodnaHai www.mathongo.com Classification of Elements and Periodicity in Properties JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-CHM-017",
+   "hash": "41896090b981d0b5",
+   "question": "Given below are two statements : Statement I: C < O < N < F is the correct order in terms of first ionization enthalpy values. Statement II: S > Se > Te > Po > O is the correct order in terms of the magnitude of electron gain enthalpy values. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false",
+    "Both Statement I and Statement II are true"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-CHM-018",
+   "hash": "a2a803d72bf18dc8",
+   "question": "Given below are two statements: Statement I: The halogen that makes longest bond with hydrogen in HX, has the smallest covalent radius in its group. Statement II: A group 15 element's hydride EH has the lowest boiling point among corresponding hydrides of 3 other group 15 elements. The maximum covalency of that element E is 4. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false"
+   ],
+   "correct": 1,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-017",
+   "hash": "0f6e2e8d25ea37c4",
+   "question": "Elements X and Y belong to Group 15. The difference between the electronegativity values of ' X ' and phosphorus is higher than that of the difference between phosphorus and ' Y '. ' X ' \\& ' Y ' are respectively",
+   "options": [
+    "N & As",
+    "As & Sb",
+    "Bi & N",
+    "As & Bi"
+   ],
+   "correct": 0,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-CHM-018",
+   "hash": "7e3d437b7a1c6b65",
+   "question": "Given below are two statements: Statement I: The second ionisation enthalpy of Na is larger than the corresponding ionisation enthalpy of Mg. Statement II: The ionic radius of O 2− is larger than that of F . − In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
+    "Both Statement I and Statement II are true #PaperPhodnaHai www.mathongo.com Classification of Elements and Periodicity in Properties JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-CHM-015",
+   "hash": "a4f286a876375da4",
+   "question": "Which of the following represents the correct trend for the mentioned property ? A. F > P > S > B - First Ionization Energy B. Cl > F > S > P - Electron Affinity C. K > Al > Mg > B - Metallic character D. K O > Na O > MgO > Al O 2 2 2 3 - Basic character Choose the correct answer from the options given below :",
+   "options": [
+    "B and C only",
+    "A, B and D only",
+    "A and B only",
+    "A, B, C and D"
+   ],
+   "correct": 1,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-CHM-019",
+   "hash": "10fb5b63ac4b6f17",
+   "question": "In period 4 of the periodic table, the elements with highest and lowest atomic radii are respectively.",
+   "options": [
+    "Rb & Br",
+    "K & Se",
+    "K & Br",
+    "Na & Cl"
+   ],
+   "correct": 2,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-CHM-019",
+   "hash": "819b844cbc00e1c2",
+   "question": "Given below are two statements: Statement I: K > Mg > Al > B is the correct order in terms of metallic character. Statement II: Atomic radius is always greater than the ionic radius for any element. In the light of the above statements, choose the correct answer from the options given below",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Both Statement I and Statement II are false",
+    "Statement I is false but Statement II is true",
+    "Statement I is true but Statement II is false #PaperPhodnaHai www.mathongo.com Classification of Elements and Periodicity in Properties JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "P-block VA, VIA, VIIA elements",
+   "topic": "P-block VA, VIA, VIIA elements",
+   "year": "2026",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-001",
+   "hash": "97f4cad731f918af",
+   "question": "Let y = y(x) be the solution of the differential equation sec x dy dx − 2y = 2 + 3 sin x, x ∈ (− π 2 , π 2 , y(0) = − . ) 7 4 Then y ( π 6 ) is equal to :",
+   "options": [
+    "− 5 4",
+    "− 5 2",
+    "−3√ 3 − 7",
+    "−3√2 − 7"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-001",
+   "hash": "dc113b4107685c29",
+   "question": "Let y = y(x) be the solution of the differential equation x dy + (4x y + 2 sin x)dx = 0, x > 0, y ( 4 3 π 2 ) = 0 . Then 4 π y( π 3 ) is equal to :",
+   "options": [
+    "72",
+    "92",
+    "64",
+    "81"
+   ],
+   "correct": 3,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-001",
+   "hash": "c5661888539d4385",
+   "question": "Let y = y(x) be the solution of the differential equation x dy dx − y = x 2 cot x, x ∈ (0, π) . If y ( π 2 ) = π 2 , then 6y ( π 6 ) − 8y ( π 4 ) is equal to :",
+   "options": [
+    "3π",
+    "π",
+    "−π",
+    "−3π"
+   ],
+   "correct": 2,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-001",
+   "hash": "367509f2ecf1beb8",
+   "question": "2 2 Let y = y(x) be a differentiable function in the interval (0, ∞) such that y",
+   "options": [
+    "= 2, and lim t y(x)−x y(t) t→x ( ) = 3 x−t for each x > 0. Then 2y",
+    "is equal to",
+    "23",
+    "27"
+   ],
+   "correct": 0,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-001",
+   "hash": "8b224c0473eb277c",
+   "question": "If y = y(x) satisfies the differential equation 16(√x + 9√x)(4 + √9 + √x) cos y dy = (1 + 2 sin y)dx, x > 0 and y(256) = π 2 , y(49) = α , then 2 sin α is equal to :",
+   "options": [
+    "2(√2 − 1)",
+    "3(√2 − 1)",
+    "2√2 − 1",
+    "√2 − 1"
+   ],
+   "correct": 2,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-001",
+   "hash": "d950f089489c9140",
+   "question": "Let the solution curve of the differential equation xdy − ydx = √x + y dx, x > 0, y",
+   "options": [
+    "= 0, be y = y(x). Then 2 2 y",
+    "is equal to",
+    "1",
+    "4"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-002",
+   "hash": "543e61feb41ff33f",
+   "question": "Let f : [1, ∞) → R be a differentiable function. If 6 ∫ for all x ≥ 1, then the value of x 3 f (t)dt = 3xf (x) + x − 4 1 f",
+   "options": [
+    "− f",
+    "is",
+    "-4",
+    "3"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-001",
+   "hash": "91a92a0730ff7aba",
+   "question": "Let y = y(x) be the solution curve of the differential equation (1 + x )dy + (y − tan 2 −1 x)dx = 0, y(0) = 1 . Then the value of y",
+   "options": [
+    "is :",
+    "e 4 π/4 + π 2 − 1",
+    "e 2 π/4 + π 4 − 1",
+    "e 2 π/4 − π 4 − 1"
+   ],
+   "correct": 1,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-001",
+   "hash": "e89c9c466f2d1ea5",
+   "question": "Let y = y(x) be the solution of the differential equation x dy dx − sin 2y = x 3 3 (2 − x ) cos 2 . If y",
+   "options": [
+    "= 0, y, x ≠ 0 then tan(y",
+    ") is equal to",
+    "− 3 4",
+    "3 4"
+   ],
+   "correct": 3,
+   "chapter": "Differential Equations",
+   "topic": "Differential Equations",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Differential Equations",
+   "formulas": [
+    "$$\\frac{df}{dx} = 0, \\quad \\frac{d^2f}{dx^2} = 0, \\quad \\dots, \\quad \\frac{d^n f}{dx^n} = 0$$",
+    "$$\\frac{y(2x + 2y y') - (x^2 + y^2)y'}{y^2} = 0 \\implies 2xy + 2y^2 y' - x^2 y' - y^2 y' = 0$$",
+    "$$2y' y'' + y'(y'') + (y - k)y''' = 0 \\implies 3y' y'' - \\frac{(y')^2 y'''}{y''} = 0$$",
+    "$$y^2 = 4\\left(\\frac{1}{2}y y'\\right)\\left[x + \\frac{1}{2}y y'\\right] = 2y y' x + (y y')^2$$",
+    "$$f(x)\\,dx + g(y)\\,dy = 0 \\implies \\int f(x)\\,dx + \\int g(y)\\,dy = C$$",
+    "$$\\frac{1 + y}{1 + y^2} dy + \\frac{1 + x}{1 + x^2} dx = 0$$",
+    "$$\\left[\\frac{1}{1 + y^2} + \\frac{1}{2}\\frac{2y}{1 + y^2}\\right] dy + \\left[\\frac{1}{1 + x^2} + \\frac{1}{2}\\frac{2x}{1 + x^2}\\right] dx = 0$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-002",
+   "hash": "7ed38ef4e7eea416",
+   "question": "Let f (x) = x + x f",
+   "options": [
+    "+ 2xf",
+    "+ f 3 2 ′ ′′ ′′′ . Then the value of f (5) is:",
+    ", x ∈ R ′",
+    "117 5"
+   ],
+   "correct": 0,
+   "chapter": "Differentiation",
+   "topic": "Differentiation",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT2-MTH-003",
+   "hash": "ccc51af704ef8962",
+   "question": "If the line αx + 4y = √7, where α ∈ R, touches the ellipse 3x + 4y 2 2 = 1 at the point P in the first quadrant, then one of the focal distances of P is :",
+   "options": [
+    "√3 1 + 1",
+    "1 − 1 2√ 7 √3 2√ 5",
+    "√3 1 + 1",
+    "1 − 1 2√ 5 √3 2√ 11"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-002",
+   "hash": "2d35a798a1efc866",
+   "question": "2 2 Let the line y − x = 1 intersect the ellipse x 2 + y 1 = 1 at the points A and B. Then the angle made by the line segment AB at the center of the ellipse is :",
+   "options": [
+    "π 2 + tan −1 ( 1 4 )",
+    "π 2 + 2 tan −1 ( 1 4 )",
+    "π 2 − tan −1 ( 1 4 )",
+    "π − tan −1 ( 1 4 )"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-002",
+   "hash": "e5b3d5de8fcbac75",
+   "question": "An ellipse has its center at (1, −2), one focus at (3, −2) and one vertex at (5, −2). Then the length of its latus rectum is :",
+   "options": [
+    "6",
+    "4√3",
+    "16 √3",
+    "6√3"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-003",
+   "hash": "88e981d7c3df2be0",
+   "question": "2 2 2 2 Let the ellipse E : and the hyperbola H : have the same foci. If e and L respectively x y x y + = 1 − 2 = −1 144 169 16 λ denote the eccentricity and the length of the latus rectum of H, then the value of 24(e + L) is :",
+   "options": [
+    "148",
+    "126",
+    "67",
+    "296"
+   ],
+   "correct": 3,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-002",
+   "hash": "22a33fa3794b8811",
+   "question": "2 2 Let the length of the latus rectum of an ellipse x a 2 + y b 2 = 1, (a > b) , be 30. If its eccentricity is the maximum value of the function f (t) = − 3 4 + 2t − t 2 , then (a + b ) is equal to 2 2",
+   "options": [
+    "276",
+    "256",
+    "516",
+    "496"
+   ],
+   "correct": 3,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-002",
+   "hash": "447f858a90f22f28",
+   "question": "2 2 Let S and S be the foci of the ellipse and P(α, β) be a point on the ellipse in the first quadrant. If ′ x y + = 1 25 9 (SP) 2 ′ + (S P) 2 − SP ⋅ S P = 37 ′ , then α + β is equal to : 2 2",
+   "options": [
+    "15",
+    "11",
+    "17",
+    "13 #PaperPhodnaHai www.mathongo.com Ellipse JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-001",
+   "hash": "a1af3ffe099be3b6",
+   "question": "2 2 2 2 Let each of the two ellipses E and E have eccentricity . Let x y x y 4 1 : 2 + 2 = 1, (a > b) 2 : 2 + 2 = 1, ( A < B) a b A B 5 the lengths of the latus recta of E and E be l and l , respectively, such that 2l 1 2 1 2 2 1 = 9l 2 . If the distance between the foci of E is 8, then the distance between the foci of E is 1 2",
+   "options": [
+    "32 5",
+    "8 5",
+    "16 5",
+    "96 5 #PaperPhodnaHai www.mathongo.com Ellipse JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-004",
+   "hash": "3666547259ce5e21",
+   "question": "Given below are two statements: Statement I: The function f : R → R defined by f (x) = x 1+|x| is one-one. 2 Statement II: The function f : R → R defined by f (x) = x +4x−30 2 x −8x+18 is many-one. In the light of the above statements, choose the correct answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are true",
+    "Statement I is true but Statement II is false",
+    "Statement I is false but Statement II is true",
+    "Both Statement I and Statement II are false"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT2-MTH-005",
+   "hash": "bc73805818ebbda5",
+   "question": "The sum of all the elements in the range of f (x) = Sgn(sin x) + Sgn(cos x) + Sgn(tan x) + Sgn(cot x), 1, if t > 0 x ≠ nπ 2 , where Sgn(t) = { ,n ∈ Z , is : −1, if t < 0",
+   "options": [
+    "2",
+    "0",
+    "4",
+    "-2"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT2-MTH-003",
+   "hash": "4c2feaf862d9e978",
+   "question": "Let f be a function such that 3f (x) + 2f ( m 19x ) = 5x, x ≠ 0 , where m = ∑ 9 i=1 (i) 2 . Then f (5) − f",
+   "options": [
+    "is equal to",
+    "18",
+    "36",
+    "9"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-003",
+   "hash": "d8f06a8962380487",
+   "question": "Let the domain of the function f (x) = log log (7 − log (x − 10x + 85)) + sin 3 5 2 2 −1 ( 3x−7 17−x ) be (α, β]. Then α + β is equal to :",
+   "options": [
+    "9",
+    "10",
+    "12",
+    "8"
+   ],
+   "correct": 0,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-004",
+   "hash": "7eae4ed4ac0fbe65",
+   "question": "Let f and g be functions satisfying f (x + y) = f (x)f (y), f",
+   "options": [
+    "= 7 and g(x + y) = g(xy), g",
+    "= 1, for all . If ∑ , then n is equal to: n f (x) x, y ∈ N ( ) = 19607 x=1 g(x)",
+    "7",
+    "6"
+   ],
+   "correct": 3,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-003",
+   "hash": "2bf2d1ff0620e83b",
+   "question": "If the domain of the function f (x) = sin −1 ( 5−x 3+2x ) + 1 log e (10−x) is (−∞, α] ∪ [β, γ) − {δ}, then 6(α + β + γ + δ) is equal to",
+   "options": [
+    "67",
+    "66",
+    "70",
+    "68"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-004",
+   "hash": "698478cbd75fa625",
+   "question": "The number of distinct real solutions of the equation x|x + 4| + 3|x + 2| + 10 = 0 is",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "0 #PaperPhodnaHai www.mathongo.com Functions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-001",
+   "hash": "75810e7531dbaaa2",
+   "question": "Consider two sets A = {x ∈ Z : |(|x − 3| − 3)| ≤ 1} and B = {x ∈ R − {1, 2} : . (x−2)(x−4) log (|x − 2|) = 0} x−1 e Then the number of onto functions f : A → B is equal to",
+   "options": [
+    "32",
+    "79",
+    "62",
+    "81"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-28JANUARYSHIFT1-MTH-002",
+   "hash": "7c28ce83539454f5",
+   "question": "If g(x) = 3x + 2x − 3, f (0) = −3 and 4g(f (x)) = 3x − 32x + 72, then f (g",
+   "options": [
+    ") is equal to: 2 2",
+    "− 7 2",
+    "− 25 6",
+    "7 2"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-24JANUARYSHIFT1-MTH-002",
+   "hash": "81a190f568eb21ec",
+   "question": "If the domain of the function f (x) = log 2 (10x −17x+7) (18x 2 − 11x + 1) is (−∞, a) ∪ (b, c) ∪ (d, ∞) − {e}, then 90(a + b + c + d + e) equals:",
+   "options": [
+    "170",
+    "307",
+    "316",
+    "177 #PaperPhodnaHai www.mathongo.com Functions JEE Main 2026 (January) Question Bank Questions with Answer Keys MathonGo"
+   ],
+   "correct": 2,
+   "chapter": "Functions",
+   "topic": "Functions",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": "Functions and Binary Operations",
+   "formulas": [
+    "$$\\text{Domain}(f) = A = {x : (x, y) \\in f}$$",
+    "$$\\text{Range}(f) = {f(x) : x \\in A} \\subseteq B$$",
+    "$$\\text{Equivalently: } f(x_1) = f(x_2) \\implies x_1 = x_2$$",
+    "$$N_{\\text{one-one}} = \\begin{cases} {}^n P_m = \\dfrac{n!}{(n-m)!} = n(n-1)(n-2)\\dots(n-m+1), & \\text{if } n \\ge m \\\\ 0, & \\text{if } n < m \\end{cases}$$",
+    "$$\\exists x_1, x_2 \\in A, \\quad x_1 \\neq x_2 \\quad \\text{such that} \\quad f(x_1) = f(x_2)$$",
+    "$$N_{\\text{many-one}} = \\text{Total Functions} - N_{\\text{one-one}} = \\begin{cases} n^m - {}^n P_m, & \\text{if } n \\ge m \\\\ n^m, & \\text{if } n < m \\end{cases}$$",
+    "$$\\text{Range}(f) = \\text{Codomain}(B)$$"
+   ]
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-003",
+   "hash": "24dca10bb9317ee3",
+   "question": "Let the domain of the function f (x) = log log log (9x − x − 13) be the interval (m, n). Let the hyperbola 3 5 7 2 2 2 have eccentricity and the length of the latus rectum . Then b − a is equal to : x y n 8 m 2 2 2 − 2 = 1 a b 3 3",
+   "options": [
+    "7",
+    "11",
+    "5",
+    "9"
+   ],
+   "correct": 0,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT2-MTH-005",
+   "hash": "6af2f6aab3681e41",
+   "question": "2 Let P(10, 2√15) be a point on the hyperbola , whose foci are S and S . If the length of its latus rectum 2 y x ′ 2 − 2 = 1 a b is 8, then the square of the area of ΔPSS is equal to : ′",
+   "options": [
+    "900",
+    "4200",
+    "1462",
+    "2700"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-22JANUARYSHIFT1-MTH-005",
+   "hash": "5c298148aeaae527",
+   "question": "If the line αx + 2y = 1, where α ∈ R, does not meet the hyperbola x − 9y 2 2 , then a possible value of α is: = 9",
+   "options": [
+    "0.5",
+    "0.6",
+    "0.7",
+    "0.8"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT2-MTH-002",
+   "hash": "a2a8fbcf591beb6d",
+   "question": "2 2 Let PQ be a chord of the hyperbola x 4 − y b 2 = 1 , perpendicular to the x -axis such that OPQ is an equilateral triangle, O being the centre of the hyperbola. If the eccentricity of the hyperbola is √3, then the area of the triangle OPQ is",
+   "options": [
+    "2√3",
+    "11 5",
+    "9 5",
+    "8√ 3 5"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-21JANUARYSHIFT1-MTH-002",
+   "hash": "8bf3eb83cfd5c670",
+   "question": "2 2 Let the foci of a hyperbola coincide with the foci of the ellipse x 36 + y 16 = 1. If the eccentricity of the hyperbola is 5, then the length of its latus rectum is :",
+   "options": [
+    "16",
+    "24√5",
+    "12",
+    "96 √5"
+   ],
+   "correct": 3,
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "year": "2026",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2026-ONLINE-23JANUARYSHIFT1-MTH-004",
+   "hash": "c11cffbd161b1248",
+   "question": "2 x (2−x )⋅e Let f (x) = ∫ 3/2 dx . If f (0) = 0, then f ( 1 2 ) is equal to: (√ 1+x)(1−x)",
+   "options": [
+    "√3e − 1",
+    "√3e + 1",
+    "√2e + 1",
+    "√2e − 1"
+   ],
+   "correct": 0,
+   "chapter": "Indefinite integration",
+   "topic": "Indefinite integration",
+   "year": "2026",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   }

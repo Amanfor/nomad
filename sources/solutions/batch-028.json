@@ -2,1244 +2,1092 @@
  "batch": 28,
  "items": [
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-012",
-   "hash": "e38b4abe79b061fb",
-   "question": "If the locus of z ∈ C, such that z−1 z̄ −1 Re( ) + Re( ) = 2 2z+i 2z̄ −i is a circle of radius r and center (a, b) then 15ab 2 is equal to : r",
+   "id": "JEE-2021-ONLINE-CHE-160",
+   "hash": "2e410d94631f74bb",
+   "question": "Identify the process in which change in the oxidation state is five :",
    "options": [
-    "24",
-    "12",
-    "18",
-    "16"
+    "$C{r_2}O_7^{2 - } \\to 2C{r^{3 + }}$",
+    "$MnO_4^ -  \\to M{n^{2 + }}$",
+    "$CrO_4^{2 - } \\to C{r^{3 + }}$",
+    "${C_2}O_4^{2 - } \\to 2C{O_2}$"
    ],
-   "correct": 2,
-   "chapter": "Complex-Numbers",
-   "topic": "Complex-Numbers",
-   "year": "2025",
+   "correct": 1,
+   "chapter": "Redox-Reactions",
+   "topic": "Redox-Reactions",
+   "year": "2021",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-MAT-200",
+   "hash": "e7b28f85e4bbb925",
+   "question": "The compound statement$(P \\vee Q) \\wedge ( \\sim P) \\Rightarrow Q$ is equivalent to :",
+   "options": [
+    "$P \\vee Q$",
+    "$P \\wedge  \\sim Q$",
+    "$ \\sim (P \\Rightarrow Q)$",
+    "$ \\sim (P \\Rightarrow Q) \\Leftrightarrow P \\wedge  \\sim Q$"
+   ],
+   "correct": 3,
+   "chapter": "Mathematical-Reasoning",
+   "topic": "Mathematical-Reasoning",
+   "year": "2021",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-013",
-   "hash": "ec07b084b466ae48",
-   "question": "Let a , a , a … be in an A.P. such that ∑ 1 2 3 12 k=1 a2k−1 = − 72 5 a1 , a1 ≠ 0 . If ∑ n k=1 ak = 0 , then n is:",
+   "id": "JEE-2021-ONLINE-PHY-265",
+   "hash": "b21357fd81921563",
+   "question": "An AC current is given by I = I<sub>1</sub> sin$\\omega$t + I<sub>2</sub> cos$\\omega$t. A hot wire ammeter will give a reading :",
    "options": [
-    "11",
-    "10",
-    "18",
-    "17"
+    "${{{I_1} + {I_2}} \\over {\\sqrt{2} }}$",
+    "$\\sqrt {{{I_1^2 - I_2^2} \\over 2}}$",
+    "$\\sqrt {{{I_1^2 + I_2^2} \\over 2}}$",
+    "${{{I_1} + {I_2}} \\over {2\\sqrt{2} }}$"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-PHY-266",
+   "hash": "311f34c092dd785f",
+   "question": "In a series LCR circuit, the inductive reactance (X<sub>L</sub>) is 10$\\Omega$ and the capacitive reactance (X<sub>C</sub>) is 4$\\Omega$. The resistance (R) in the circuit is 6$\\Omega$. The power factor of the circuit is :",
+   "options": [
+    "${1 \\over 2}$",
+    "${{\\sqrt{3} } \\over 2}$",
+    "${1 \\over {\\sqrt{2} }}$",
+    "${1 \\over {2\\sqrt{2} }}$"
+   ],
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-PHY-267",
+   "hash": "24628d330917088b",
+   "question": "An AC source rated 220 V, 50 Hz is connected to a resistor. The time taken by the current to change from its maximum to the rms value is :",
+   "options": [
+    "2.5 ms",
+    "25 ms",
+    "2.5 s",
+    "0.25 ms"
    ],
    "correct": 0,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-014",
-   "hash": "156614f0502482e9",
-   "question": "Let a be the n n th term of an A. P. If S n = a1 + a2 + a3 + … + an = 700, a6 = 7 and S = 7, then a is equal to : 7 n",
+   "id": "JEE-2021-ONLINE-PHY-270",
+   "hash": "7f5ec563e2b0b427",
+   "question": "AC voltage V(t) = 20 sin$\\omega$t of frequency 50 Hz is applied to a parallel plate capacitor. The separation between the plates is 2 mm and the area is 1 m<sup>2</sup>. The amplitude of the oscillating displacement current for the applied AC voltage is _________. [Take$\\varepsilon$<sub>0</sub> = 8.85$\\times$ 10<sup>$-$12</sup> F/m]",
    "options": [
-    "56",
-    "65",
-    "64",
-    "70"
+    "55.58$\\mu$A",
+    "21.14$\\mu$A",
+    "27.79$\\mu$A",
+    "83.37$\\mu$A"
    ],
    "correct": 2,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-015",
-   "hash": "9c68660e507b015a",
-   "question": "Let a , a , a , … be a G. P. of increasing positive numbers. If a a = 729 and a + a = 1 2 3 3 5 2 4 111 4 , then 24 (a1 + a2 + a3 ) is equal to",
+   "id": "JEE-2021-ONLINE-PHY-271",
+   "hash": "0d809a3bea8afebe",
+   "question": "Match List - I with List - II<br/><br/><table>\n<thead>\n<tr>\n<th></th>\n<th>List - I</th>\n<th></th>\n<th>List - II</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>(a)</td>\n<td>$\\omega L &gt; {1 \\over {\\omega C}}$</td>\n<td>(i)</td>\n<td>Current is in phase with emf</td>\n</tr>\n<tr>\n<td>(b)</td>\n<td>$\\omega L = {1 \\over {\\omega C}}$</td>\n<td>(ii)</td>\n<td>Current lags behind the applied emf</td>\n</tr>\n<tr>\n<td>(c)</td>\n<td>$\\omega L &lt; {1 \\over {\\omega C}}$</td>\n<td>(iii)</td>\n<td>Maximum current occurs</td>\n</tr>\n<tr>\n<td>(d)</td>\n<td>Resonant frequency</td>\n<td>(iv)</td>\n<td>Current leads the emf</td>\n</tr>\n</tbody>\n</table><br/><br/>Choose the correct answer from the options given below",
    "options": [
-    "131",
-    "130",
-    "129",
-    "128"
+    "a(ii), b(i), c(iv), d(iii)",
+    "a(ii), b(i), c(iii), d(iv)",
+    "a(iii), b(i), c(iv), d(ii)",
+    "a(iv), b(iii), c(ii), d(i)"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-FEB25-EVENING-PHY-012",
+   "hash": "3cf36e4e367bf689",
+   "question": "An LCR circuit contains resistance of 110$\\Omega$ and a supply of 220 V at 300 rad/s angular frequency. If only capacitance is removed from the circuit, current lags behind the voltage by 45$^\\circ$. If on the other hand, only inductor is removed the current leads by 45$^\\circ$ with the applied voltage. The rms current flowing in the circuit will be :",
+   "options": [
+    "1 A",
+    "2.5 A",
+    "2 A",
+    "1.5 A"
    ],
    "correct": 2,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-016",
-   "hash": "47a43fc2059691ae",
-   "question": "The sum 1 + 1+3 1+3+5 1+3+5+7 2! + 3! + 4! + … upto ∞ terms, is equal to",
+   "id": "JEE-2021-ONLINE-PHY-272",
+   "hash": "2b483f59b32605ea",
+   "question": "A 10$\\Omega$ resistance is connected across 220V$-$ 50 Hz AC supply. The time taken by the current to change from its maximum value to the rms value is :",
    "options": [
-    "6e",
-    "4e",
-    "3e",
-    "2e"
+    "2.5 ms",
+    "1.5 ms",
+    "3.0 ms",
+    "4.5 ms"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-PHY-273",
+   "hash": "8737994465a49ad5",
+   "question": "A series LCR circuit driven by 300 V at a frequency of 50 Hz contains a resistance R = 3 k$\\Omega$, an inductor of inductive reactance X<sub>L</sub> = 250$\\pi$\\Omega$ and an unknown capacitor. The value of capacitance to maximize the average power should be : (Take$\\pi$<sup>2</sup> = 10)",
+   "options": [
+    "4$\\mu$F",
+    "25$\\mu$F",
+    "400$\\mu$F",
+    "40$\\mu F"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-PHY-274",
+   "hash": "6831b202f1aade21",
+   "question": "A 100$\\Omega$ resistance, a 0.1$\\mu$F capacitor and an inductor are connected in series across a 250 V supply at variable frequency. Calculate the value of inductance of inductor at which resonance will occur. Given that the resonant frequency is 60 Hz.",
+   "options": [
+    "0.70 H",
+    "70.3 mH",
+    "7.03$\\times$ 10<sup>$-$5</sup> H",
+    "70.3 H"
    ],
    "correct": 3,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-017",
-   "hash": "2e6f73012d953450",
-   "question": "Consider two sets A and B, each containing three numbers in A.P. Let the sum and the product of the elements of A be 36 and p respectively and the sum and the product of the elements of B be 36 and q respectively. Let d and D p+q be the common differences of AP's in A and B respectively such that D = d + 3, d > 0. If p−q = 19 5 , then p − q is equal to",
+   "id": "JEE-2021-ONLINE-PHY-276",
+   "hash": "3c95e4c243b4a7b1",
+   "question": "In an ac circuit, an inductor, a capacitor and a resistor are connected in series with X<sub>L</sub> = R = X<sub>C</sub>. Impedance of this circuit is :",
    "options": [
-    "600",
-    "450",
-    "630",
-    "540"
+    "2R<sup>2</sup>",
+    "Zero",
+    "R",
+    "R$\\sqrt{2}$"
    ],
-   "correct": 3,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
+   "correct": 2,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-018",
-   "hash": "7e801cd4e8c55845",
-   "question": "Let x , x , x , x be in a geometric progression. 2, 7, 9, 5 are subtracted respectively from x , x , x x then the 1 2 3 4 1 2 3 4 resulting numbers are in an arithmetic progression. Then the value of 1 24 (x1 x2 x3 x4 ) is :",
+   "id": "JEE-2021-ONLINE-PHY-277",
+   "hash": "354dd33a47d9c7aa",
+   "question": "The atomic hydrogen emits a line spectrum consisting of various series. Which series of hydrogen atomic spectra is lying in the visible region?",
    "options": [
-    "72",
-    "18",
-    "36",
-    "216"
-   ],
-   "correct": 3,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-019",
-   "hash": "5ec6d6e1d5d1162a",
-   "question": "If the sum of the second, fourth and sixth terms of a G.P. of positive terms is 21 and the sum of its eighth, tenth and twelfth terms is 15309 , then the sum of its first nine terms is :",
-   "options": [
-    "760",
-    "755",
-    "750",
-    "757"
-   ],
-   "correct": 3,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-020",
-   "hash": "47b3ddde718832f3",
-   "question": "1 + 3 + 5 + 7 + 9 + … upto 40 terms is equal to 2 2",
-   "options": [
-    "43890",
-    "41880",
-    "33980",
-    "40870"
+    "Brackett series",
+    "Balmer series",
+    "Paschen series",
+    "Lyman series"
    ],
    "correct": 1,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-021",
-   "hash": "a35771241344c183",
-   "question": "If the sum of the first 20 terms of the series 4.1 4.2 4.3 4.4 + + + + … 2 4 2 4 2 4 2 4 4+3.1 +1 4+3.2 +2 4+3.3 +3 4+3.4 +4 is m n , where m and n are coprime, then m + n is equal to :-",
+   "id": "JEE-2021-ONLINE-PHY-278",
+   "hash": "48d0ed434fd7883a",
+   "question": "If an electron is moving in the n<sup>th</sup> orbit of the hydrogen atom, then its velocity (v<sub>n</sub>) for the n<sup>th</sup> orbit is given as :",
    "options": [
-    "423",
-    "420",
-    "421",
-    "422"
+    "${v_n} \\propto {1 \\over n}$",
+    "v<sub>n</sub> $ \\propto$ n<sup>2</sup>",
+    "v<sub>n</sub> $ \\propto$ n",
+    "${v_n} \\propto {1 \\over {{n^2}}}$"
    ],
-   "correct": 2,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
+   "correct": 0,
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-022",
-   "hash": "9658694fe080cd22",
-   "question": "Let A = {1, 6, 11, 16, …} and B = {9, 16, 23, 30, …} be the sets consisting of the first 2025 terms of two arithmetic progressions. Then n(A ∪ B) is",
+   "id": "JEE-2021-ONLINE-PHY-279",
+   "hash": "bd916a0667861bdf",
+   "question": "Which level of the single ionized carbon has the same energy as the ground state energy of hydrogen atom?",
    "options": [
-    "3814",
-    "4027",
-    "3761",
-    "4003"
-   ],
-   "correct": 2,
-   "chapter": "Sequences-And-Series",
-   "topic": "Sequences-And-Series",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-023",
-   "hash": "2843abee4906ee63",
-   "question": "The number of sequences of ten terms, whose terms are either 0 or 1 or 2 , that contain exactly five 1 s and exactly three 2 s , is equal to",
-   "options": [
-    "360",
-    "45",
-    "2520",
-    "1820"
-   ],
-   "correct": 2,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-024",
-   "hash": "c76168c806dabcbf",
-   "question": "Line L of slope 2 and line L of slope 1 2 1 2 intersect at the origin O . In the first quadrant, P , P , … . P 1 2 12 are 12 points on line L and Q , Q , … . . Q are 9 points on line L . Then the total number of triangles, that can be 1 1 2 9 2 formed having vertices at three of the 22 points O, P , P , … P , Q , Q , … . Q , is: 1 2 12 1 2 9",
-   "options": [
-    "1080",
-    "1134",
-    "1026",
-    "1188"
+    "8",
+    "6",
+    "1",
+    "4"
    ],
    "correct": 1,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2021",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-025",
-   "hash": "5d99aeced2e57679",
-   "question": "From a group of 7 batsmen and 6 bowlers, 10 players are to be chosen for a team, which should include atleast 4 batsmen and atleast 4 bowlers. One batsmen and one bowler who are captain and vice-captain respectively of the team should be included. Then the total number of ways such a selection can be made, is",
+   "id": "JEE-2021-ONLINE-FEB24-EVENING-PHY-014",
+   "hash": "f22bd6d5212fb698",
+   "question": "According to Bohr atomic model, in which of the following transitions will the frequency be maximum?",
    "options": [
-    "165",
-    "155",
-    "145",
-    "135"
+    "n = 2 to n = 1",
+    "n = 3 to n = 2",
+    "n = 4 to n = 3",
+    "n = 5 to n = 4"
+   ],
+   "correct": 0,
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-FEB25-EVENING-PHY-013",
+   "hash": "38c4fea6bd243c1b",
+   "question": "The wavelength of the photon emitted by a hydrogen atom when an electron makes a transition from n = 2 to n = 1 state is :",
+   "options": [
+    "194.8 nm",
+    "490.7 nm",
+    "913.3 nm",
+    "121.8 nm"
+   ],
+   "correct": 3,
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2021-ONLINE-FEB26-MORNING-PHY-018",
+   "hash": "b922e07ec5eb574b",
+   "question": "If$\\lambda$<sub>1</sub> and$\\lambda$<sub>2</sub> are the wavelengths of the third member of Lyman and first member of the Paschen series respectively, then the value of$\\lambda$<sub>1</sub> : $\\lambda$<sub>2</sub> is :",
+   "options": [
+    "7 : 135",
+    "7 : 108",
+    "1 : 9",
+    "1 : 3"
+   ],
+   "correct": 0,
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2021",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER04-MORNING-CHE-001",
+   "hash": "ae325a9d4f3262e8",
+   "question": "What are the functional groups present in the\nstructure of maltose?",
+   "options": [
+    "One acetal and one ketal",
+    "One ketal and one hemiketal",
+    "Two acetals",
+    "One acetal and one hemiacetal"
+   ],
+   "correct": 3,
+   "chapter": "Carbohydrates",
+   "topic": "Carbohydrates",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN07-MORNING-CHE-005",
+   "hash": "9cf5bfa70c85773d",
+   "question": "The dipole of CCl_4_, CHCl_3_ and CH_4_ are in the order :",
+   "options": [
+    "CCl_4_ &lt; CH_4_ &lt; CHCl_3_",
+    "CH_4_ = CCl_4_ &lt; CHCl_3_",
+    "CH_4_ &lt; CCl_4_ &lt; CHCl_3_",
+    "CHCl_3_ &lt; CH_4_= CCl_4_"
    ],
    "correct": 1,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "Dipole-Moment",
+   "topic": "Dipole-Moment",
+   "year": "2020",
+   "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-026",
-   "hash": "1f13f092ea0d8686",
-   "question": "There are 12 points in a plane, no three of which are in the same straight line, except 5 points which are collinear. Then the total number of triangles that can be formed with the vertices at any three of these 12 points is",
+   "id": "JEE-2020-ONLINE-JAN09-EVENING-CHE-005",
+   "hash": "f1a07e7a01df50e8",
+   "question": "Which of the following has the shortest C-Cl bond?",
    "options": [
-    "230",
-    "220",
-    "200",
-    "210"
+    "ClCH=CHCH_3_",
+    "ClCH=CHNO_2_",
+    "ClCH=CHOCH_3_",
+    "ClCH=CH_2_"
+   ],
+   "correct": 1,
+   "chapter": "Electron-Displacement-Effect",
+   "topic": "Electron-Displacement-Effect",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER03-MORNING-CHE-006",
+   "hash": "99153f4c39fed2d4",
+   "question": "Thermal power plants can lead to :",
+   "options": [
+    "Ozone layer depletion",
+    "Blue baby syndrome",
+    "Eutrophication",
+    "Acid rain"
    ],
    "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "Environmental Chemistry",
+   "topic": "Environmental Chemistry",
+   "year": "2020",
+   "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-027",
-   "hash": "9295f70debf331d8",
-   "question": "Let p be the number of all triangles that can be formed by joining the vertices of a regular polygon P of n sides and q be the number of all quadrilaterals that can be formed by joining the vertices of P . If p + q = 126, then the 2 2 y eccentricity of the ellipse is : x + = 1 16 n",
+   "id": "JEE-2020-ONLINE-SEPTEMBER06-EVENING-CHE-006",
+   "hash": "03dbc2e651e204d1",
+   "question": "The element that can be refined by distillation\nis :",
    "options": [
-    "3 4",
-    "1 2 √7",
-    "4",
-    "1 √2"
+    "gallium",
+    "nickel",
+    "zinc",
+    "tin"
+   ],
+   "correct": 2,
+   "chapter": "Isolation-Of-Elements",
+   "topic": "Isolation-Of-Elements",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER06-MORNING-CHE-007",
+   "hash": "db4fd215f27d32e8",
+   "question": "Which of the following compounds shows\ngeometrical isomerism?",
+   "options": [
+    "2-methylpent-1-ene",
+    "4-methylpent-1-ene",
+    "2-methylpent-2-ene",
+    "4-methylpent-2-ene"
    ],
    "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
+   "chapter": "Isomerism",
+   "topic": "Isomerism",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN09-MORNING-CHE-009",
+   "hash": "e6bfbe1ea7d078dc",
+   "question": "The electronic configurations of bivalent\neuropium and trivalent cerium are\n(atomic number : Xe = 54, Ce = 58, Eu = 63)",
+   "options": [
+    "[Xe] 4f7 6s2 and [Xe] 4f2 6s2",
+    "[Xe] 4f2 and [Xe] 4f7",
+    "[Xe] 4f4 and [Xe] 4f9",
+    "[Xe] 4f7 and [Xe] 4f1"
+   ],
+   "correct": 3,
+   "chapter": "Periodic-Table-And-Periodicity",
+   "topic": "Periodic-Table-And-Periodicity",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN08-MORNING-CHE-006",
+   "hash": "d75e0b01817363db",
+   "question": "The predominant intermolecular forces present in ethyl acetate, a liquid, are:",
+   "options": [
+    "Dipole-dipole and hydrogen bonding",
+    "hydrogen bonding and London dispersion",
+    "London dispersion, dipole-dipole and hydrogen bonding",
+    "London dispersion and dipole-dipole"
+   ],
+   "correct": 3,
+   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER05-MORNING-CHE-010",
+   "hash": "c8346d3331652c03",
+   "question": "Which of the following is not an essential\namino acid :",
+   "options": [
+    "Valine",
+    "Leucine",
+    "Lysine",
+    "Tyrosine"
+   ],
+   "correct": 3,
+   "chapter": "Proteins-And-Enzymes",
+   "topic": "Proteins-And-Enzymes",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER03-MORNING-CHE-010",
+   "hash": "f23d4253785e90ea",
+   "question": "Glycerol is separated in soap industries by :",
+   "options": [
+    "Fractional distillation",
+    "Distillation under reduced pressure",
+    "Differential extraction",
+    "Steam distillation"
+   ],
+   "correct": 1,
+   "chapter": "Purification-Of-Organic-Compounds",
+   "topic": "Purification-Of-Organic-Compounds",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN08-EVENING-CHE-006",
+   "hash": "1bb08a29a4b0e0fe",
+   "question": "Kjeldahl's method cannot be used to estimate\nnitrogen for which of the following\ncompounds?",
+   "options": [
+    "C_6_H_5_NH_2_",
+    "${\\rm{N}}{{\\rm{H}}_2} - \\mathop C\\limits^{\\mathop \\parallel \\limits^O }  - {\\rm{N}}{{\\rm{H}}_2}$",
+    "C_6_H_5_NO_2_",
+    "CH_3_CH_2_-C$ \\equiv$ N"
+   ],
+   "correct": 2,
+   "chapter": "Purification-Of-Organic-Compounds",
+   "topic": "Purification-Of-Organic-Compounds",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN08-MORNING-CHE-008",
+   "hash": "dbd11796259ca66a",
+   "question": "A flask contains a mixture of isohexane and 3-methylpentane. One of the liquids boils at 63^o_C while the\nother boils at 60^o_C What is the best way to separate the two liquids and which one will be distilled out first ?",
+   "options": [
+    "fractional distillation, 3-methylpentane",
+    "simple distillation, 3-methylpentane",
+    "fractional distillation, isohexane",
+    "simple distillation, isohexane"
+   ],
+   "correct": 2,
+   "chapter": "Purification-Of-Organic-Compounds",
+   "topic": "Purification-Of-Organic-Compounds",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER04-MORNING-CHE-008",
+   "hash": "212a28784bc4c417",
+   "question": "Which of the following will react with CHCl_3_ +\nalc. KOH?",
+   "options": [
+    "Adenine and thymine",
+    "Thymine and proline",
+    "Adenine and lysine",
+    "Adenine and proline"
+   ],
+   "correct": 2,
+   "chapter": "Vitamins-And-Nucleic-Acids",
+   "topic": "Vitamins-And-Nucleic-Acids",
+   "year": "2020",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER05-EVENING-MAT-011",
+   "hash": "cd358da56dab94a3",
+   "question": "The statement\n$\\left( {p \\to \\left( {q \\to p} \\right)} \\right) \\to \\left( {p \\to \\left( {p \\vee q} \\right)} \\right)$ is :",
+   "options": [
+    "a tautology",
+    "a contradiction",
+    "equivalent to (p $ \\vee $ q) $ \\wedge $ ($ \\sim $ p)",
+    "equivalent to (p $ \\wedge $ q) $ \\vee $ ($ \\sim $ q)"
+   ],
+   "correct": 0,
+   "chapter": "Mathematical-Reasoning",
+   "topic": "Mathematical-Reasoning",
+   "year": "2020",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-028",
-   "hash": "9185171090ef1d0f",
-   "question": "The largest n ∈ N such that 3 divides 50 ! is: n",
+   "id": "JEE-2020-ONLINE-SEPTEMBER02-EVENING-PHY-011",
+   "hash": "21a2c93b68e42c3b",
+   "question": "An inductance coil has a reactance of 100$\\Omega$.\nWhen an AC signal of frequency 1000 Hz is\napplied to the coil, the applied voltage leads\nthe current by 45<sup>o</sup>. The self-inductance of the\ncoil is",
    "options": [
-    "21",
-    "22",
+    "6.7$ \\times$ 10<sup>–7</sup> H",
+    "1.1$ \\times$ 10<sup>–1</sup> H",
+    "5.5$ \\times$ 10<sup>–5</sup> H",
+    "1.1$ \\times$ 10<sup>–2</sup> H"
+   ],
+   "correct": 3,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2020",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER03-MORNING-PHY-018",
+   "hash": "ab3fd9697510d9b2",
+   "question": "A 750 Hz, 20 V (rms) source is connected to a\nresistance of 100$\\Omega$, an inductance of 0.1803 H\nand a capacitance of 10$\\mu$F all in series. The\ntime in which the resistance (heat capacity\n2 J/<sup>o</sup>C) will get heated by 10<sup>o</sup>C. (assume no loss\nof heat to the surroudnings) is close to :",
+   "options": [
+    "348 s",
+    "418 s",
+    "245 s",
+    "365 s"
+   ],
+   "correct": 0,
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2020",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER02-EVENING-PHY-012",
+   "hash": "ee161eb83116a028",
+   "question": "In a hydrogen atom the electron makes a\ntransition from (n + 1)<sup>th</sup> level to the n<sup>th</sup> level.\nIf n &gt;&gt; 1, the frequency of radiation emitted is\nproportional to :",
+   "options": [
+    "${1 \\over n}$",
+    "${1 \\over {{n^2}}}$",
+    "${1 \\over {{n^3}}}$",
+    "${1 \\over {{n^4}}}$"
+   ],
+   "correct": 2,
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2020",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN07-MORNING-PHY-013",
+   "hash": "20c04372ca2806e4",
+   "question": "The time period of revolution of electron in its ground state orbit in a hydrogen atom is 1.6$ \\times$ 10<sup>-16</sup> s. The frequency of revolution of the electron in its first excited state (in s<sup>-1</sup>) is :",
+   "options": [
+    "5.6$ \\times$ 10<sup>12</sup>",
+    "1.6$ \\times$ 10<sup>14</sup>",
+    "7.8$ \\times$ 10<sup>14</sup>",
+    "6.2$ \\times$ 10<sup>15</sup>"
+   ],
+   "correct": 2,
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2020",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN09-EVENING-PHY-011",
+   "hash": "f64142192d64cfad",
+   "question": "The energy required to ionise a hydrogen like\nion in its ground state is 9 Rydbergs. What is\nthe wavelength of the radiation emitted when\nthe electron in this ion jumps from the second\nexcited state to the ground state ?",
+   "options": [
+    "35.8 nm",
+    "11.4 nm",
+    "8.6 nm",
+    "24.2 nm"
+   ],
+   "correct": 1,
+   "chapter": "bohr's-model-and-hydrogen-spectrum",
+   "topic": "bohr's-model-and-hydrogen-spectrum",
+   "year": "2020",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-JAN07-EVENING-PHY-016",
+   "hash": "ba29dff91de51cb3",
+   "question": "An emf of 20 V is applied at time t = 0 to a circuit containing in series 10 mH inductor and 5$\\Omega$\nresistor. The ratio of the currents at time t = $\\infty$ and at t = 40 s is close to : (Take e<sup>2</sup> = 7.389)",
+   "options": [
+    "1.06",
+    "0.84",
+    "1.15",
+    "1.46"
+   ],
+   "correct": 0,
+   "chapter": "growth-and-decay-of-current",
+   "topic": "growth-and-decay-of-current",
+   "year": "2020",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2020-ONLINE-SEPTEMBER06-MORNING-PHY-014",
+   "hash": "146608eceb009b67",
+   "question": "An AC circuit has R= 100$\\Omega$, C = 2$\\mu$F and L = 80 mH, connected in series. The quality factor of the\ncircuit is :",
+   "options": [
     "20",
-    "23"
+    "2",
+    "0.5",
+    "400"
    ],
    "correct": 1,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "quality-factor",
+   "topic": "quality-factor",
+   "year": "2020",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-029",
-   "hash": "6c5a1dc4ca2718e4",
-   "question": "The number of ways, in which the letters A, B, C, D, E can be placed in the 8 boxes of the figure below so that no row remains empty and at most one letter can be placed in a box, is :",
+   "id": "JEE-2019-ONLINE-APR12-EVENING-CHE-001",
+   "hash": "45e2f0cedfcbc5ec",
+   "question": "Which of the given statements is INCORRECT about glycogen?",
    "options": [
-    "5880",
-    "960",
-    "840",
-    "5760"
-   ],
-   "correct": 3,
-   "chapter": "Pemutation and combination",
-   "topic": "Pemutation and combination",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-030",
-   "hash": "9f018d751ce989c5",
-   "question": "10 (x+1) (x+1) The term independent of x in the expansion of ( 2/3 1/3 − 1/2 ) ,x > 1 is: (x +1−x ) (x−x )",
-   "options": [
-    "210",
-    "150",
-    "240",
-    "120"
+    "It is a straight chain polymer similar to amylose",
+    "It is present in animal cells",
+    "It is present in some yeast and fungi",
+    "Only$\\alpha$-linkages are present in the molecule"
    ],
    "correct": 0,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "Biomolecules",
+   "topic": "Biomolecules",
+   "year": "2019",
+   "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-031",
-   "hash": "adaedf7bce983be7",
-   "question": "The remainder when ((64) (64) ) (64) is divided by 7 is equal to",
+   "id": "JEE-2019-ONLINE-JAN10-MORNING-CHE-003",
+   "hash": "5241a8f9ceeb1f20",
+   "question": "Wilkinson catalyst is : (Et = C2H5)",
    "options": [
-    "4",
-    "1",
-    "3",
-    "6"
+    "[(Ph3P)3 RhCl]",
+    "[(Et3P)3RhCl]",
+    "[(Et3P)3IrCl]",
+    "[(Ph3P)3IrCl]"
    ],
-   "correct": 1,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
+   "correct": 0,
+   "chapter": "D and F Block Elements",
+   "topic": "D and F Block Elements",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": "s Block Elements",
+   "formulas": [
+    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
+    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
+    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
+    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
+    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
+    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
+    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
+   ]
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-032",
-   "hash": "bf24bfbb67f2fcea",
-   "question": "The sum of all rational terms in the expansion of (2 + √3) is 8",
+   "id": "JEE-2019-ONLINE-APR09-MORNING-CHE-006",
+   "hash": "9fc3b59245b22b58",
+   "question": "Excessive release of CO2 into the atomosphere results in :",
    "options": [
-    "16923",
-    "3763",
-    "33845",
-    "18817"
-   ],
-   "correct": 3,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-033",
-   "hash": "6980f24386dfea9b",
-   "question": "For an integer n ≥ 2, if the arithmetic mean of all coefficients in the binomial expansion of (x + y) 2n−3 is 16 , then the distance of the point P (2n − 1, n − 4n) from the line x + y = 8 is: 2",
-   "options": [
-    "√2",
-    "2√2",
-    "5√2",
-    "3√2 n"
-   ],
-   "correct": 3,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-034",
-   "hash": "bdc08341aab97d08",
-   "question": "The number of integral terms in the expansion of (5 1 1 1016 2 + 78 ) is",
-   "options": [
-    "127",
-    "130",
-    "129",
-    "128"
-   ],
-   "correct": 3,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-035",
-   "hash": "87e0595c7423c4b2",
-   "question": "If ∑ r+1 11 11 , then α is equal to : 10 10 −1 11 α −11 ( ) ⋅ Cr+1 = r=0 r 10 10 10",
-   "options": [
-    "15",
-    "11",
-    "24",
-    "20"
-   ],
-   "correct": 3,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-036",
-   "hash": "0991ab15b03fb240",
-   "question": "If ∑ 9 then (α + β) is equal to 9 r+3 9 3 2 ( r ). Cr = α( ) − β, α, β ∈ N, r=1 2 2",
-   "options": [
-    "27",
-    "9",
-    "81",
-    "18"
+    "depletion of ozone",
+    "polar vortex",
+    "global warming",
+    "formation of smog"
    ],
    "correct": 2,
-   "chapter": "Binomial-Theorem",
-   "topic": "Binomial-Theorem",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "Environmental Chemistry",
+   "topic": "Environmental Chemistry",
+   "year": "2019",
+   "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-037",
-   "hash": "cf691444115485bf",
-   "question": "Let the mean and the standard deviation of the observation 2, 3, 3, 4, 5, 7, a, b be 4 and √2 respectively. Then the mean deviation about the mode of these observations is :",
+   "id": "JEE-2019-ONLINE-JAN10-MORNING-CHE-007",
+   "hash": "4b1ab068443cb6e0",
+   "question": "The type of hybridisation and number of lone pair (s) of electrons of Xe in XeOF_4_, respectively, are:",
    "options": [
-    "1",
-    "3 4",
-    "2",
-    "1 2"
-   ],
-   "correct": 0,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-038",
-   "hash": "86bde5f9f7df422c",
-   "question": "Let the Mean and Variance of five observations x = 1, x = 3, x = a, x = 7 and x = b, a > b, be 5 and 10 1 2 3 4 5 respectively. Then the Variance of the observations n + x , n = 1, 2, … … . .5 is n",
-   "options": [
-    "17",
-    "16.4",
-    "17.4",
-    "16"
+    "sp^3_d and 2",
+    "sp^3_d^2_ and 2",
+    "sp^3_d and 1",
+    "sp^3_d^2_ and 1"
    ],
    "correct": 3,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "Hybridization-And-Vsepr-Theory",
+   "topic": "Hybridization-And-Vsepr-Theory",
+   "year": "2019",
+   "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-039",
-   "hash": "e0ba1cf346cd2a9a",
-   "question": "The mean and standard deviation of 100 observations are 40 and 5.1 , respectively, By mistake one observation is taken as 50 instead of 40. If the correct mean and the correct standard deviation are μ and σ respectively, then 10(μ + σ) is equal to",
+   "id": "JEE-2019-ONLINE-APR08-EVENING-CHE-014",
+   "hash": "ddf3f77e6934cb0b",
+   "question": "The ion that has sp^3_d^2_ hybridization for the\ncentral atom, is :",
    "options": [
-    "445",
-    "451",
-    "447",
-    "449"
-   ],
-   "correct": 3,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-040",
-   "hash": "3f42dbc8d02711cf",
-   "question": "If the mean and the variance of 6, 4, a, 8, b, 12, 10, 13 are 9 and 9.25 respectively, then a + b + ab is equal to :",
-   "options": [
-    "105",
-    "103",
-    "100",
-    "106"
+    "[ICl_2_]^-_",
+    "[ICl_4_]^-_",
+    "[IF_6_]^-_",
+    "[BrF_2_]^-_"
    ],
    "correct": 1,
-   "chapter": "Statistics",
-   "topic": "Statistics",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "Hybridization-And-Vsepr-Theory",
+   "topic": "Hybridization-And-Vsepr-Theory",
+   "year": "2019",
+   "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-041",
-   "hash": "9a2d4816f15409c2",
-   "question": "Let A = [ α −1 ],α > 0 , such that det(A) = 0 and α + β = 1. If I denotes 2 × 2 identity matrix, then the 6 β matrix (1 + A) is: 8 4 −1",
+   "id": "JEE-2019-ONLINE-JAN09-EVENING-CHE-008",
+   "hash": "c4128d956fe0b91f",
+   "question": "The pH of rain water, is approximately :",
    "options": [
-    "[ ] 6 −1 257 −64",
-    "[ ] 514 −127 1025 −511",
-    "[ ] 2024 −1024 766 −255",
-    "[ ] 1530 −509"
+    "5.6",
+    "7.5",
+    "7.0",
+    "6.5"
+   ],
+   "correct": 0,
+   "chapter": "Ionic-Equilibrium",
+   "topic": "Ionic-Equilibrium",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-APR10-EVENING-CHE-009",
+   "hash": "89479ba9c099f573",
+   "question": "Which of these factors does not govern the stability of a conformation in acyclic compounds?",
+   "options": [
+    "Angle strain",
+    "Torsional strain",
+    "Electrostatic forces of interaction",
+    "Steric interactions"
+   ],
+   "correct": 0,
+   "chapter": "Isomerism",
+   "topic": "Isomerism",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-JAN10-MORNING-CHE-012",
+   "hash": "688bd3d3f57e2e83",
+   "question": "The electronegativity of aluminium is similar to :",
+   "options": [
+    "Beryllium",
+    "Carbon",
+    "Boron",
+    "Lithium"
+   ],
+   "correct": 0,
+   "chapter": "Periodic-Table-And-Periodicity",
+   "topic": "Periodic-Table-And-Periodicity",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-JAN10-EVENING-CHE-008",
+   "hash": "9cc9febd4476114b",
+   "question": "Which of the following tests cannot be used for identifying amino acids?",
+   "options": [
+    "Ninhydrin test",
+    "Barfoed test",
+    "Xanthoproteic test",
+    "Biuret test"
+   ],
+   "correct": 1,
+   "chapter": "Proteins-And-Enzymes",
+   "topic": "Proteins-And-Enzymes",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-JAN12-EVENING-CHE-012",
+   "hash": "30e6b7f18163ba24",
+   "question": "The correct statement (s) among I to III with respect to potassium ions that are abundant within the cell fluid\nis /are \n\nI. They activate many enzymes \n\nII. They participate in the oxidation of glucose to produce ATP \n\nIII. Along with sodium ions they are responsible for the transmission of nerve signals",
+   "options": [
+    "III only",
+    "I and II only",
+    "I and III only",
+    "I, II and III only"
    ],
    "correct": 3,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "Proteins-And-Enzymes",
+   "topic": "Proteins-And-Enzymes",
+   "year": "2019",
+   "subject": "Chemistry",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-042",
-   "hash": "d31328b507bec7ad",
-   "question": "Let α be a solution of x + x + 1 = 0, and for some a and b in 2 1 16 13 ⎡ ⎤ R, [ 4 a b ] ⎢ −1 −1 2 ⎥ = [0 0 0] . If 4 4 + m α a + n b = 3 , then m + n is equal to α α ⎣ ⎦ −2 −14 −8",
+   "id": "JEE-2019-ONLINE-JAN12-MORNING-CHE-014",
+   "hash": "27c832c4cada9d1e",
+   "question": "Among the following compounds most basic amino acid is -",
    "options": [
-    "3",
-    "11",
-    "7",
+    "Lysine",
+    "Asparagine",
+    "Histidine",
+    "Serine"
+   ],
+   "correct": 0,
+   "chapter": "Proteins-And-Enzymes",
+   "topic": "Proteins-And-Enzymes",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-APR09-EVENING-CHE-012",
+   "hash": "a53f7f2bca3d3db0",
+   "question": "The peptide that gives positive ceric\nammonium nitrate and carbylamine tests is :",
+   "options": [
+    "Ser-Lys",
+    "Asp-Gln",
+    "Gln-Asp",
+    "Lys-Asp"
+   ],
+   "correct": 0,
+   "chapter": "Proteins-And-Enzymes",
+   "topic": "Proteins-And-Enzymes",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-JAN09-MORNING-CHE-015",
+   "hash": "413b76d56801d3a7",
+   "question": "The increasing order of pka of the following amino acids in aqueous solution is : \n\n\nGly,  Asp, Lys,  Arg",
+   "options": [
+    "Asp  &lt;  Gly  &lt; Arg  &lt; Lys",
+    "Gly  &lt;  Asp   &lt;  Arg  &lt;  Lys",
+    "Asp  &lt;  Gly  &lt;  Lys  &lt;  Arg",
+    "Arg  &lt;  Lys  &lt; Gly  &lt;  Asp"
+   ],
+   "correct": 2,
+   "chapter": "Proteins-And-Enzymes",
+   "topic": "Proteins-And-Enzymes",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-JAN11-MORNING-CHE-015",
+   "hash": "11c8d2f2d38bc667",
+   "question": "An example of solid sol is :",
+   "options": [
+    "Butter",
+    "Hair cream",
+    "Gem stones",
+    "Paint"
+   ],
+   "correct": 2,
+   "chapter": "Surface-Chemistry",
+   "topic": "Surface-Chemistry",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-APR12-MORNING-CHE-019",
+   "hash": "f821c073558f186c",
+   "question": "n The major product of the following reaction is :",
+   "options": [
+    "",
+    "",
+    "",
+    ""
+   ],
+   "correct": 1,
+   "chapter": "properties,-preparation-and-uses-of-alcohols",
+   "topic": "properties,-preparation-and-uses-of-alcohols",
+   "year": "2019",
+   "subject": "Chemistry",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-JAN12-MORNING-MAT-006",
+   "hash": "c34c1c7348a94038",
+   "question": "Let C1 and C2 be the centres of the circles x2  + y2 – 2x – 2y – 2 = 0 and x2 + y2 – 6x – 6y + 14 = 0 respectively. If P and Q are the points of intersection of these circles, then the area (in sq. units) of the quadrilateral PC1QC2 is :",
+   "options": [
+    "4",
+    "6",
+    "9",
     "8"
    ],
+   "correct": 0,
+   "chapter": "Circle",
+   "topic": "Circle",
+   "year": "2019",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2019-ONLINE-JAN10-EVENING-MAT-017",
+   "hash": "7b100f0d2d5f2cf1",
+   "question": "Consider the following three statements :\nP : 5 is a prime number\nQ : 7 is a factor of 192\nR : L.C.M. of 5 and 7 is 35\nThen the truth value of which one of the following statements is true ?",
+   "options": [
+    "(P $ \\wedge $ Q) $ \\vee $ ($ \\sim $ R)",
+    "P $ \\vee $ ($ \\sim $ Q $ \\wedge $ R)",
+    "(~ P) $ \\wedge $ ($ \\sim $ Q $ \\wedge $ R)",
+    "($ \\sim $ P) $ \\vee $ (Q $ \\wedge $ R)"
+   ],
    "correct": 1,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2025",
+   "chapter": "Mathematical-Reasoning",
+   "topic": "Mathematical-Reasoning",
+   "year": "2019",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-043",
-   "hash": "7ab3b574d3406fd4",
-   "question": "Let A be a 3 × 3 real matrix such that A (A − 2I )− 4( A − I) = O, where I and O are the identity and null 2 matrices, respectively. If A = αA + βA + γI , where α, β and γ are real constants, then α + β + γ is equal to: 5 2",
+   "id": "JEE-2019-ONLINE-JAN12-MORNING-MAT-020",
+   "hash": "49eb7027923a09ba",
+   "question": "Consider three boxes, each containing, 10 balls labelled 1, 2, … , 10. Suppose one ball is randomly drawn from each of the boxes. Denote by ni, the label of the ball drawn from the ith box, (i = 1, 2, 3). Then, the number of ways in which the balls can be chosen such that n1 &lt; n2 &lt; n3 is :",
    "options": [
-    "12",
-    "20",
-    "76",
-    "4"
-   ],
-   "correct": 0,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-044",
-   "hash": "dccf6412e90248af",
-   "question": "⎡ 1 0 0 ⎤ Let the matrix A = ⎢ 1 0 1⎥ satisfy A n = A n−2 + A 2 − I for n ≥ 3. Then the sum of all the elements of A 50 ⎣ ⎦ 0 1 0 is :-",
-   "options": [
-    "53",
-    "52",
-    "39",
-    "44"
-   ],
-   "correct": 0,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-045",
-   "hash": "900778cefc3028f3",
-   "question": "⎡ 1 a 1 ⎤ Let a ∈ R and A be a matrix of order 3 × 3 such that det(A) = −4 and A + I = ⎢ 2 1 0⎥ , where I is the ⎣ ⎦ a 1 2 identity matrix of order 3 × 3. If det((a + 1) adj((a − 1)A)) is 2 3 , m, n ∈ {0, 1, 2, … .20}, then m + n is equal to : m n",
-   "options": [
-    "14",
-    "17",
-    "15",
-    "16"
+    "164",
+    "240",
+    "82",
+    "120"
    ],
    "correct": 3,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2025",
+   "chapter": "Permutations-And-Combinations",
+   "topic": "Permutations-And-Combinations",
+   "year": "2019",
    "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-046",
-   "hash": "6ac08df53c5bc9d6",
-   "question": "Let A be a matrix of order 3 × 3 and |A| = 5. If |2 adj(3 A adj(2 A))| = 2 α ⋅ 3 β γ ⋅ 5 α, β, γ ∈ N then α + β + γ is equal to",
+   "id": "JEE-2019-ONLINE-APR08-MORNING-PHY-021",
+   "hash": "f405b3af48d2c908",
+   "question": "An alternating voltage v(t) = 220 sin 100$\\pi$t volt\nis applied to a purely resistance load of 50$\\Omega$ .\nThe time taken for the current to rise from half\nof the peak value to the peak value is :",
    "options": [
-    "25",
-    "26",
-    "27",
-    "28"
+    "5 ms",
+    "2.2 ms",
+    "3.3 ms",
+    "7.2 ms"
    ],
    "correct": 2,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2025",
-   "subject": "Maths",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2019",
+   "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-047",
-   "hash": "78449e1eda84db00",
-   "question": "⎡ 2 2 + p 2 + p + q ⎤ Let A = ⎢ 4 6 + 2p 8 + 3p + 2q ⎥ . ⎣ ⎦ 6 12 + 3p 20 + 6p + 3q If det(adj(adj(3 A))) = 2 m n ⋅ 3 , m, n ∈ N , then m + n is equal to",
+   "id": "JEE-2019-ONLINE-JAN09-EVENING-PHY-030",
+   "hash": "131b11aca8832d23",
+   "question": "A series AC circuit containing an inductor (20 mH), a capacitor (120$\\mu$F) and a resistor (60$\\Omega$) is driven by an AC source of 24V/50 Hz. The energy dissipated in the circuit in 60 s is :",
    "options": [
-    "22",
-    "24",
-    "26",
-    "20"
-   ],
-   "correct": 1,
-   "chapter": "Matrices-And-Determinants",
-   "topic": "Matrices-And-Determinants",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-048",
-   "hash": "1fddf680c47058c5",
-   "question": "Let the system of equations x + 5y − z = 1 4x + 3y − 3z = 7 24x + y + λz = μ λ, μ ∈ R , have infinitely many solutions. Then the number of the solutions of this system, If x, y, z are integers and satisfy 7 ≤ x + y + z ≤ 77, is",
-   "options": [
-    "3",
-    "6",
-    "5",
-    "4"
-   ],
-   "correct": 0,
-   "chapter": "Matrix and determinants",
-   "topic": "Matrix and determinants",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-049",
-   "hash": "8b0ea9f2bb7b3e11",
-   "question": "∣ sin x cos x sin x + cos x + 1 ∣ 2 ∣ ∣ d y If y(x) = ∣ 27 28 27 ∣ ,x ∈ R , then 2 + y is equal to dx ∣ 1 1 1 ∣",
-   "options": [
-    "−1",
-    "28",
-    "27",
-    "1"
-   ],
-   "correct": 0,
-   "chapter": "Matrix and determinants",
-   "topic": "Matrix and determinants",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-050",
-   "hash": "8fe43cb520145529",
-   "question": "If the system of linear equations 3x + y + βz = 3 2x + αy − z = −3 x + 2y + z = 4 has infinitely many solutions, then the value of 22β − 9α is :",
-   "options": [
-    "49",
-    "31",
-    "43",
-    "37"
-   ],
-   "correct": 1,
-   "chapter": "Matrix and determinants",
-   "topic": "Matrix and determinants",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-051",
-   "hash": "f9abfbc172decb79",
-   "question": "Let the system of equations : 2x + 3y + 5z = 9 7x + 3y − 2z = 8 12x + 3y − (4 + λ)z = 16 − μ have infinitely many solutions. Then the radius of the circle centred at (λ, μ) and touching the line 4x = 3y is",
-   "options": [
-    "17 5",
-    "7 5",
-    "7",
-    "21 5"
-   ],
-   "correct": 1,
-   "chapter": "Matrix and determinants",
-   "topic": "Matrix and determinants",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-052",
-   "hash": "a554ea19d0090385",
-   "question": "The probability, of forming a 12 persons committee from 4 engineers, 2 doctors and 10 professors containing at least 3 engineers and at least 1 doctor, is:",
-   "options": [
-    "129 182",
-    "103 182",
-    "17 26",
-    "19 26"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-053",
-   "hash": "a434313136e4ab1c",
-   "question": "Let A be the set of all functions f : Z → Z and R be a relation on A such that R = {(f , g) : f (0) = g",
-   "options": [
-    "and f",
-    "= g(0)} . Then R is:",
-    "Symmetric and transitive but not reflective",
-    "Symmetric but neither reflective nor transitive"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-054",
-   "hash": "8edad6329e82172d",
-   "question": "Let A = {−3, −2, −1, 0, 1, 2, 3} and R be a relation on A defined by xRy if and only if 2x − y ∈ {0, 1}. Let l be the number of elements in R. Let m and n be the minimum number of elements required to be added in R to make it reflexive and symmetric relations, respectively. Then l + mn is equal to :-",
-   "options": [
-    "18",
-    "17",
-    "15",
-    "16"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-055",
-   "hash": "ab57f11589f72663",
-   "question": "If the domain of the function f (x) = 1 + 1 is (a, b), then (1 + a) + b is equal to : 2 2 √10+3x−x2 √x+|x|",
-   "options": [
-    "26",
-    "29",
-    "25",
-    "30"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-056",
-   "hash": "137c05c046f43332",
-   "question": "If the domain of the function f (x) = log (1 − log (x − 9x + 18)) is (α, β) ∪ (γ, δ), then α + β + γ + δ is 7 4 2 equal to Functions Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-   "options": [
-    "18",
-    "16",
-    "15",
-    "17"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-057",
-   "hash": "17ddba3184265a1f",
-   "question": "Consider the sets A = {(x, y) ∈ R × R : x + y = 25}, B = {(x, y) ∈ R × R : x + 9y = 144} , C = {(x, y) 2 2 2 2 ∈ Z × Z : x 2 + y 2 ≤ 4} , and D = A ∩ B. The total number of one-one functions from the set D to the set C is:",
-   "options": [
-    "15120",
-    "19320",
-    "17160",
-    "18290"
+    "5.65$ \\times$ 10<sup>2</sup>J",
+    "2.26$ \\times$ 10<sup>3</sup>J",
+    "5.17$ \\times$ 10<sup>2</sup> J",
+    "3.39$ \\times$ 10<sup>3</sup> J"
    ],
    "correct": 2,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "year": "2019",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-MTH-058",
-   "hash": "27387077d1d3f5b7",
-   "question": "tan(5(x) 3 ) log (1+3x ) e 2 lim x→0 + 4 is equal to 2 −1 5(x) 3 (tan 3√x) (e −1)",
+   "id": "JEE-2019-ONLINE-APR10-MORNING-PHY-025",
+   "hash": "d7aea417cde1c722",
+   "question": "A transformer consisting of 300 turns in the\nprimary and 150 turns in the secondary gives\noutput power of 2.2 kW. If the current in the\nsecondary coil is 10A, then the input voltage\nand current in the primary coil are :",
    "options": [
-    "1 15",
-    "1",
-    "1 3",
-    "5 3 2"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-059",
-   "hash": "453812c3e51d16d3",
-   "question": "Given below are two statements : −1 1+x tan x+log √ −2x e Statement I : lim 1−x 2 x→0 ( ) = x 5 5 2 Statement II : lim x→1 (x 1−x ) = e 1 2 In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Statement I is false but Statement II is true",
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are false Limits Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-    "Both Statement I and Statement II are true 1"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-060",
-   "hash": "0f6a1bb85f4bdb69",
-   "question": "The shortest distance between the curves y 2 = 8x and x + y + 12y + 35 = 0 is : 2 2",
-   "options": [
-    "2√3 − 1",
-    "√2",
-    "3√2 − 1",
-    "2√2 − 1"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-061",
-   "hash": "5ba01093ae0c56a7",
-   "question": "Let the function f (x) = x 3 + 3 x + 3, x ≠ 0 be strictly increasing in (−∞, α ) U (α , ∞) and strictly decreasing in 1 2 (α3 , α4 ) U (α4 , α5 ) . Then ∑ 5 i=1 α 2 i is equal to :-",
-   "options": [
-    "48 Application of Derivatives Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-    "28",
-    "40",
-    "36"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-062",
-   "hash": "4c3a969a458e8e7a",
-   "question": "Let f be a differentiable function on R such that f",
-   "options": [
-    "= 1, f",
-    "= 4. Let lim ′ x→0 (f (2 + x)) 3/x = e α . Then the number of times the curve y = 4x − 4x − 4(α − 7)x − α meets x -axis is :- 3 2",
-    "2",
-    "1"
+    "220 V and 20 A",
+    "220 V and 10A",
+    "440 V and 5A",
+    "440 V and 20 A"
    ],
    "correct": 2,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-063",
-   "hash": "e545b9366e52acd7",
-   "question": "4 ∫ 1 ( 1 ) dx − 3 log (√3) is equal to : 0 e √3+x2 +√1+x2",
-   "options": [
-    "2 + √2 + log (1 + √2) e",
-    "2 − √2 − log (1 + √2) e",
-    "2 + √2 − log (1 + √2) e",
-    "2 − √2 + log (1 + √2) e"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-064",
-   "hash": "bd8c0f2f53a63dd9",
-   "question": "The value of ∫ x −x 1 (1+√|x|−x)e +(√|x|−x)e −1 x e +e −x dx is equal to 2√2",
-   "options": [
-    "3 − 3 2√2",
-    "2 + 3 2√2",
-    "1 − 3 2√2",
-    "1 + 3 3"
-   ],
-   "correct": 2,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-065",
-   "hash": "16466830f989a626",
-   "question": "If the area of the region bounded by the curves y = 4 − x and y = x−4 4 ​ 2 is equal to α, then 6α equals ​",
-   "options": [
-    "250",
-    "210",
-    "240",
-    "220"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-066",
-   "hash": "dea382022eaaa00d",
-   "question": "Let g be a differentiable function such that ∫ and let y = y(x) satisfy the x x g(t)dt = x − ∫ tg(t)dt, x ≥ 0 0 0 dy differential equation dx − y tan x = 2(x + 1) sec xg(x), x ∈ [0, π 2 ) . If y(0) = 0, then y ( π 3 ) is equal to",
-   "options": [
-    "2π 3√3",
-    "4π 3",
-    "2π 3",
-    "4π 3√3"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-067",
-   "hash": "0a098bb676c1543f",
-   "question": "If a curve y = y(x) passes through the point (1, π ) and satisfies the differential equation 2 (7x 4 cot y − e x cosec y) dx dy 5 = x ,x ≥ 1 , then at x = 2, the value of cosy is: 2",
-   "options": [
-    "2e −e 64 2 2e +e",
-    "64 2 2e −e",
-    "128 Differential Equations Chapter-wise Question Bank JEE Main 2025 April MathonGo 2 2e +e",
-    "128"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-068",
-   "hash": "2c5e3e24e369d20e",
-   "question": "Let the equation x(x + 2)(12 − k) = 2 have equal roots. Then the distance of the point (k, k ) from the line 2 3x + 4y + 5 = 0 is",
-   "options": [
-    "15",
-    "5√3",
-    "15√5",
-    "12"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-069",
-   "hash": "6f7a7e09cc0e7548",
-   "question": "Let ABC be the triangle such that the equations of lines AB and AC be 3y − x = 2 and x + y = 2, respectively, and the points B and C lie on x -axis. If P is the orthocentre of the triangle ABC , then the area of the triangle PBC is equal to",
-   "options": [
-    "4",
-    "10",
-    "8 Straight Lines Chapter-wise Question Bank JEE Main 2025 April MathonGo",
-    "6"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-070",
-   "hash": "11ed63f074b8a498",
-   "question": "A line passes through the origin and makes equal angles with the positive coordinate axes. It intersects the lines L1 : 2x + y + 6 = 0 and L : 4x + 2y − p = 0, p > 0, at the points A and B, respectively. If AB = 2 9 and the √2 foot of the perpendicular from the point A on the line L is M , then 2 AM BM is equal to",
-   "options": [
-    "5",
-    "4",
-    "2",
-    "3"
-   ],
-   "correct": 2,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-MTH-071",
-   "hash": "11667b7ce44a5d87",
-   "question": "Let C be the circle in the third quadrant of radius 3 , that touches both coordinate axes. Let C be the circle with 1 2 centre (1, 3) that touches C externally at the point (α, β). If (β − α) = 1 2 m n , gcd(m, n) = 1 , then m + n is equal to :",
-   "options": [
-    "9",
-    "13",
-    "22",
-    "31 Parabola Chapter-wise Question Bank JEE Main 2025 April MathonGo"
-   ],
-   "correct": 1,
-   "chapter": "Probability",
-   "topic": "Probability",
-   "year": "2025",
-   "subject": "Maths",
-   "formula_sheet": "Probability and Distributions",
-   "formulas": [
-    "$$A \\cap B = \\emptyset \\implies P(A \\cap B) = 0$$",
-    "$$\\bigcup_{i=1}^n E_i = S \\implies P\\left(\\bigcup_{i=1}^n E_i\\right) = 1$$",
-    "$$P(A \\cap B) = P(A) \\cdot P(B)$$",
-    "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$",
-    "$$P(A \\Delta B) = P(A \\setminus B) + P(B \\setminus A) = P(A) + P(B) - 2P(A \\cap B) = P(A \\cup B) - P(A \\cap B)$$",
-    "$$P(A' \\cap B') = P\\big((A \\cup B)'\\big) = 1 - P(A \\cup B)$$",
-    "$$P(A \\cup B \\cup C) = P(A) + P(B) + P(C) - \\big[P(A \\cap B) + P(B \\cap C) + P(C \\cap A)\\big] + P(A \\cap B \\cap C)$$"
-   ]
+   "chapter": "ac-generator-and-transformer",
+   "topic": "ac-generator-and-transformer",
+   "year": "2019",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
   }
  ]
 }

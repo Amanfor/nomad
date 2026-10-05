@@ -2,1284 +2,1188 @@
  "batch": 23,
  "items": [
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-052",
-   "hash": "3592fe8ae2769047",
-   "question": "Which of the following statement is not true for radioactive decay?",
+   "id": "JEE-2025-ONLINE-APR-CHM-043",
+   "hash": "0aaccbf86354626d",
+   "question": "Match the LIST-I with LIST-II LIST-I LIST-II (Complex/ (Shape & magnetic Species) moment) A. [Ni(CO)4 ] I. Tetrahedral, 2.8 BM 2− B. [Ni(CN)4 ] II. Square planar, 0 BM 2− C. [NiCl4 ] III. Tetrahedral, 0 BM 2− D. [MnBr4 ] IV. Tetrahedral, 5.9 BM Choose the correct answer from the options given below :",
    "options": [
-    "Decay constant increases with increase in temperature.",
-    "Amount of radioactive substance remained after three half lives is 1 8 th of original amount.",
-    "Decay constant does not depend upon temperature.",
-    "Half life is ln 2 times of 1 rate constant ."
+    "A-III, B-IV, C-II, D-I",
+    "A-I, B-II, C-III, D-IV",
+    "A-III, B-II, C-I, D-IV Coordination Compounds Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+    "A-IV, B-I, C-III, D-II"
    ],
    "correct": 0,
-   "chapter": "Chemical Kinetics",
-   "topic": "Chemical Kinetics",
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
    "year": "2025",
    "subject": "Chemistry",
-   "formula_sheet": "Chemical Kinetics",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
    "formulas": [
-    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
-    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
-    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
-    "$$\\text{Rate} = k [A]^x [B]^y$$",
-    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
-    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
-    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-053",
-   "hash": "ba73c906c0097b00",
-   "question": "For a given reaction R → P, t 1/2 is related to [A] as given in table. 0 Given: log 2 = 0.30 Which of the following is true? A. The order of the reaction is 1/2. B. If [A] is 1 M , then t 0 1/2 is 200√10 min C. The order of the reaction changes to 1 if the concentration of reactant changes from 0.100 M to 0.500 M. D. t 1/2 is 800 min for [A] = 1.6M 0 Choose the correct answer from the options given below: Options",
+   "id": "JEE-2025-ONLINE-APR-CHM-044",
+   "hash": "6d83ecb5a8fd006c",
+   "question": "The correct order of the complexes [Co(NH ) (H O)] 3+ 3 5 2 (A), 3+ [Co(NH3 ) ] 6 (B), 2+ [Co(CN)6 ] 3− (C) and [CoCl(NH ) ] 3 5 (D) in terms wavelength of light absorbed is :",
    "options": [
-    "A and C Only",
-    "A, B and D Only",
-    "C and D Only",
-    "A and B Only"
+    "D>A>B>C",
+    "C>B>D>A",
+    "D>C>B>A",
+    "C>B>A>D"
    ],
    "correct": 1,
-   "chapter": "Chemical Kinetics",
-   "topic": "Chemical Kinetics",
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
    "year": "2025",
    "subject": "Chemistry",
-   "formula_sheet": "Chemical Kinetics",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
    "formulas": [
-    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
-    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
-    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
-    "$$\\text{Rate} = k [A]^x [B]^y$$",
-    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
-    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
-    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-054",
-   "hash": "ae614890b4943132",
-   "question": "Drug X becomes ineffective after 50% decomposition. The original concentration of drug in a bottle was 16mg/mL which becomes 4mg/mL in 12 months. The expiry time of the drug in months is __________________ Assume that the decomposition of the drug follows first order kinetics.",
+   "id": "JEE-2025-ONLINE-APR-CHM-045",
+   "hash": "bad6accc6397429b",
+   "question": "' X ' is the number of electrons in t 3+ 2g orbitals of the most stable complex ion among [Fe(NH3 ) ] 6 , 3− 3+ [Fe (Cl6 )] 3− , [Fe(C2 O4 ) ] 3 and [Fe(H O) ] . The nature of oxide of vanadium of the type V O is: 2 6 2 X",
    "options": [
-    "2",
-    "6",
-    "12",
-    "3"
+    "Acidic",
+    "Neutral",
+    "Basic",
+    "Amphoteric Practical Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
    ],
-   "correct": 1,
-   "chapter": "Chemical Kinetics",
-   "topic": "Chemical Kinetics",
+   "correct": 3,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
    "year": "2025",
    "subject": "Chemistry",
-   "formula_sheet": "Chemical Kinetics",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
    "formulas": [
-    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
-    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
-    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
-    "$$\\text{Rate} = k [A]^x [B]^y$$",
-    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
-    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
-    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-055",
-   "hash": "96d6e35927262c4f",
-   "question": "Given below are two statements : In the light of the above statements, choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-APR-CHM-046",
+   "hash": "1be7ede38a5477df",
+   "question": "Choose the correct tests with respective observations. (A) CuSO 4 (acidified with acetic acid) +K 4 [Fe(CN) 6 ] → Chocolate brown precipitate. ​ ​ ​ (B) FeCl 3 + K 4 [Fe(CN) 6 ] → Prussian blue precipitate. ​ ​ ​ (C) ZnCl 2 + K 4 [Fe(CN) 6 ], neutralised with NH 4 OH → White or bluish white precipitate. ​ ​ ​ ​ (D) MgCl 2 + K 4 [Fe(CN) 6 ] → Blue precipitate. ​ ​ ​ (E) BaCl 2 + K 4 [Fe(CN) 6 ], neutralised with NaOH → White precipitate. ​ ​ ​ Choose the correct answer from the options given below :",
    "options": [
-    "Both Statement I and Statement II are true",
-    "Statement I is false but Statement II is true",
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are false"
+    "A, D and E only",
+    "B, D and E only",
+    "A, B and C only",
+    "C, D and E only General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
    ],
    "correct": 0,
-   "chapter": "Chemical Kinetics",
-   "topic": "Chemical Kinetics",
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
    "year": "2025",
    "subject": "Chemistry",
-   "formula_sheet": "Chemical Kinetics",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
    "formulas": [
-    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
-    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
-    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
-    "$$\\text{Rate} = k [A]^x [B]^y$$",
-    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
-    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
-    "$$k = A e^{-\\frac{E_a}{RT}}$$"
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-056",
-   "hash": "e7a6b60e1f0c8205",
-   "question": "The reaction A 2 + B 2 → 2AB follows the mechanism ​ ​ k1 A2 − −→ A + A (fast) k−1 k2 A + B2 − → AB + B (slow) A + B → AB (fast) The overall order of the reaction is :",
+   "id": "JEE-2025-ONLINE-APR-CHM-047",
+   "hash": "fc66b813ddce230c",
+   "question": "Which of the following is the correct IUPAC name of given organic compound (X) ?",
+   "options": [
+    "2-Bromo-2-methylbut-2-ene",
+    "3-Bromo-3-methylprop-2-ene",
+    "1-Bromo-2-methylbut-2-ene",
+    "4-Bromo-3-methylbut-2-ene"
+   ],
+   "correct": 0,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-048",
+   "hash": "296c4375a9e327ee",
+   "question": "Given below are two statements : In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "Statement I is correct but statement II is incorrect",
+    "Statement I is incorrect but statement II is correct",
+    "Both statement I and statement II are incorrect",
+    "Both statement I and statement II are correct General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-049",
+   "hash": "cba29bc24367c205",
+   "question": "In Dumas' method for estimation of nitrogen, 0.5 gram of an organic compound gave 60 mL of nitrogen collected at 300 K temperature and 715 mm Hg pressure. The percentage composition of nitrogen in the compound (Aqueous tension at 300 K = 15 mmHg) is",
+   "options": [
+    "1.257",
+    "20.87",
+    "18.67",
+    "12.57 General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-050",
+   "hash": "6b6b197b134a08f6",
+   "question": "In Dumas' method for estimation of nitrogen 0.4 g of an organic compound gave 60 mL of nitrogen collected at 300 K temperature and 715 mm Hg pressure. The percentage composition of nitrogen in the compound is (Given : Aqueous tension at 300 K = 15 mmHg)",
+   "options": [
+    "15.71%",
+    "20.95%",
+    "17.46%",
+    "7.85% General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-051",
+   "hash": "b66b05a6c7f16add",
+   "question": "In which pairs, the first ion is more stable than the second?",
+   "options": [
+    "(B) & (D) only General Organic Chemistry Chapter-wise Question Bank JEE Main 2025 April MathonGo",
+    "(A) & (B) only",
+    "(B) & (C) only",
+    "(A) & (C) only"
+   ],
+   "correct": 1,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-052",
+   "hash": "f15300696524b16b",
+   "question": "The reactions which cannot be applied to prepare an alkene by elimination, are Choose the correct answer from the option given below :",
+   "options": [
+    "B & E Only",
+    "B, C & D Only",
+    "A, C & D Only",
+    "B & D Only Haloalkanes and Haloarenes Chapter-wise Question Bank JEE Main 2025 April MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-053",
+   "hash": "dcab9d0d103e3e8f",
+   "question": "Match the LIST-I with LIST-II LIST-II LIST-I (Functional Group (Reagent) detected) Sodium double A. bicarbonate I. bond/unsaturation solution Neutral ferric B. II. carboxylic acid chloride ceric C. ammonium III. phenolic - OH nitrate alkaline D. IV. alcoholic - OH KMnO Choose the correct answer from the options given below :",
+   "options": [
+    "A-II, B-III, C-IV, D-I",
+    "A-II, B-III, C-I, D-IV",
+    "A-III, B-II, C-IV, D-I",
+    "A-II, B-IV, C-III, D-I"
+   ],
+   "correct": 0,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-054",
+   "hash": "64e35706d0ee9e4d",
+   "question": "The least acidic compund, among the following is :",
+   "options": [
+    "D",
+    "A",
+    "B",
+    "C"
+   ],
+   "correct": 0,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-CHM-055",
+   "hash": "c10a7156db0789f0",
+   "question": "Fat soluble vitamins are : A. Vitamin B 1 B. Vitamin C C. Vitamin E D. Vitamin B 12 E. Vitamin K Choose the correct answer from the options given below :",
+   "options": [
+    "C & D Only",
+    "A & B Only",
+    "B & C Only",
+    "C & E Only"
+   ],
+   "correct": 0,
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "year": "2025",
+   "subject": "Chemistry",
+   "formula_sheet": "Electrochemistry and Ionic Conduction",
+   "formulas": [
+    "$$\\text{Zn}(s) + \\text{Cu}^{2+}(aq) \\to \\text{Zn}^{2+}(aq) + \\text{Cu}(s) \\quad E_{\\text{cell}}^\\circ = +1.10\\text{ V}$$",
+    "$$w_{\\text{electrical, max}} = -\\Delta G$$",
+    "$$\\mathbf{\\Delta G = -n F E_{\\text{cell}}}$$",
+    "$$\\mathbf{\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ}$$",
+    "$$\\Delta G_3^\\circ = \\Delta G_1^\\circ + \\Delta G_2^\\circ \\implies -n_3 F E_3^\\circ = -n_1 F E_1^\\circ - n_2 F E_2^\\circ$$",
+    "$$E_3^\\circ = \\frac{n_1 E_1^\\circ + n_2 E_2^\\circ}{n_3}$$",
+    "$$E_{\\text{Fe}^{3+}/\\text{Fe}}^\\circ = \\frac{1(+0.77) + 2(-0.44)}{3} = \\frac{0.77 - 0.88}{3} = -0.037\\text{ V} \\quad (\\ne 0.77 - 0.44!)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-001",
+   "hash": "d7d1e89b59730025",
+   "question": "The product of all solutions of the equation e 5(log e x) +3 8 = x ,x > 0 , is :",
+   "options": [
+    "e 8/5",
+    "e 6/5",
+    "e 2",
+    "e"
+   ],
+   "correct": 0,
+   "chapter": "Basic of Mathematics",
+   "topic": "Basic of Mathematics",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-002",
+   "hash": "86fafc2b9a41c71c",
+   "question": "The number of solutions of the equation ( 9 − 9 + 2) ( x2 − 7 + 3) = 0 is: x x x ​ ​ ​ ​ ​ ​",
    "options": [
     "2",
-    "2.5",
     "3",
-    "1.5"
+    "1",
+    "4"
    ],
    "correct": 3,
-   "chapter": "Chemical Kinetics",
-   "topic": "Chemical Kinetics",
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical Kinetics",
-   "formulas": [
-    "$$\\text{Rate} = -\\frac{1}{a}\\frac{d[A]}{dt} = -\\frac{1}{b}\\frac{d[B]}{dt} = +\\frac{1}{c}\\frac{d[C]}{dt} = +\\frac{1}{d}\\frac{d[D]}{dt}$$",
-    "$$r_{avg} = -\\frac{\\Delta[A]}{\\Delta t} = \\frac{\\Delta[C]}{\\Delta t}$$",
-    "$$r_{inst} = \\lim_{\\Delta t \\to 0} \\left(-\\frac{\\Delta[A]}{\\Delta t}\\right) = -\\frac{d[A]}{dt}$$",
-    "$$\\text{Rate} = k [A]^x [B]^y$$",
-    "$$\\text{Units of } k = \\left(\\text{mol}\\cdot\\text{L}^{-1}\\right)^{1-n}\\cdot\\text{s}^{-1} = \\text{M}^{1-n}\\cdot\\text{s}^{-1}$$",
-    "$$t_{1/2} = \\frac{\\ln 2}{k} = \\frac{0.693}{k}$$",
-    "$$k = A e^{-\\frac{E_a}{RT}}$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-057",
-   "hash": "585594ecfe5dae1f",
-   "question": "Given below are two statements : Statement (I) : An element in the extreme left of the periodic table forms acidic oxides. Statement (II) : Acid is formed during the reaction between water and oxide of a reactive element present in the extreme right of the periodic table. In the light of the above statements, choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-003",
+   "hash": "e6db3cba96b6b009",
+   "question": "The sum, of the squares of all the roots of the equation x + |2x − 3| − 4 = 0, is 2",
    "options": [
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false",
-    "Statement I is false but Statement II is true"
+    "3(3 − √2)",
+    "6(3 − √2)",
+    "6(2 − √2)",
+    "3(2 − √2)"
+   ],
+   "correct": 2,
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-004",
+   "hash": "79040962af6736b7",
+   "question": "If the set of all a ∈ R, for which the equation 2x + (a − 5)x + 15 = 3a has no real root, is the interval (α, β), 2 and X = {x ∈ Z : α < x < β}, then ∑ x∈X x 2 is equal to :",
+   "options": [
+    "2109",
+    "2129",
+    "2119",
+    "2139"
    ],
    "correct": 3,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-058",
-   "hash": "9480eef04aa4c047",
-   "question": "The incorrect decreasing order of atomic radii is",
+   "id": "JEE-2025-ONLINE-JAN-MTH-005",
+   "hash": "2858fe02605f52ef",
+   "question": "The product of all the rational roots of the equation (x − 9x + 11) − (x − 4)(x − 5) = 3, is equal to 2 2",
    "options": [
-    "Si > P > Cl > F",
-    "Be > Mg > Al > Si",
-    "Al > B > N > F",
-    "Mg > Al > C > O"
-   ],
-   "correct": 1,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-059",
-   "hash": "4c3ab561bfbe1bb7",
-   "question": "Given below are two statements : Statement (I): According to the Law of Octaves, the elements were arranged in the increasing order of their atomic number. Statement (II): Meyer observed a periodically repeated pattern upon plotting physical properties of certain elements against their respective atomic numbers. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Both Statement (I) and Statement (II) are false.",
-    "Both Statement (I) and Statement (II) are true.",
-    "Statement (I) is false but Statement (II) is true.",
-    "Statement (I) is true but Statement (II) is false."
+    "14",
+    "21",
+    "28",
+    "7"
    ],
    "correct": 0,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-060",
-   "hash": "b1d25852d61d4534",
-   "question": "The element that does not belong to the same period of the remaining elements (modern periodic table) is:",
-   "options": [
-    "Iridium",
-    "Platinum",
-    "Osmium",
-    "Palladium"
-   ],
-   "correct": 3,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-061",
-   "hash": "c9ce392d3b70faa6",
-   "question": "Which of the following statements are NOT true about the periodic table? A. The properties of elements are function of atomic weights. B. The properties of elements are function of atomic numbers. C. Elements having similar outer electronic configurations are arranged in same period. D. An element's location reflects the quantum numbers of the last filled orbital. E. The number of elements in a period is same as the number of atomic orbitals available in energy level that is being filled. Choose the correct answer from the options given below:",
-   "options": [
-    "A, C and E Only",
-    "A and E Only",
-    "B, C and E Only",
-    "D and E Only"
-   ],
-   "correct": 0,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-062",
-   "hash": "247d90eb1f7d05e1",
-   "question": "Which of the following electronegativity order is incorrect?",
-   "options": [
-    "Mg < Be < B < N",
-    "S < Cl < O < F",
-    "Al < Si < C < N",
-    "Al < Mg < B < N"
-   ],
-   "correct": 3,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-063",
-   "hash": "78394e0f73dae8fb",
-   "question": "Match List-I with List-II. Choose the correct answer from the options given below :",
-   "options": [
-    "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
-    "(A)-(IV), (B)-(I), (C)- (III), (D)-(II)",
-    "(A)-(III), (B)-(IV), (C)- (II), (D)-(I)",
-    "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
-   ],
-   "correct": 0,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-064",
-   "hash": "7e3ede2367ee3929",
-   "question": "An element ' E ′ has the ionisation enthalpy value of 374 kJ mol −1 . ' E ' reacts with elements A, B, C and −1 D with electron gain enthalpy values of −328, −349, −325 and −295 kJ mol , respectively. The correct order of the products EA, EB, EC and ED in terms of ionic character is :",
-   "options": [
-    "ED > EC > EB > EA",
-    "EA > EB > EC > ED",
-    "EB > EA > EC > ED",
-    "ED > EC > EA > EB"
-   ],
-   "correct": 2,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-065",
-   "hash": "52e2e76aaac9c749",
-   "question": "The type of oxide formed by the element among Li, Na, Be, Mg, B and Al that has the least atomic radius is :",
-   "options": [
-    "A O 2",
-    "A O 2 3",
-    "AO 2",
-    "AO"
-   ],
-   "correct": 1,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-066",
-   "hash": "ee29b4cb175f85cd",
-   "question": "First ionisation enthalpy values of first four group 15 elements are given below. Choose the correct value for the element that is a main component of apatite family :",
-   "options": [
-    "1402 kJ mol −1",
-    "834 kJ mol −1",
-    "1012 kJ mol −1",
-    "947 kJ mol −1"
-   ],
-   "correct": 2,
-   "chapter": "P-block VA, VIA, VIIA elements",
-   "topic": "P-block VA, VIA, VIIA elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "s Block Elements",
-   "formulas": [
-    "$$\\Delta H_{\\text{total}} = \\Delta H_{\\text{sub}} + IE_1 + \\Delta H_{\\text{hyd}}$$",
-    "$$\\Delta H_{\\text{sol}} = U - |\\Delta H_{\\text{hyd}}|$$",
-    "$$\\text{CaO}(s) + \\text{H}_2\\text{O}(l) \\to \\text{Ca(OH)}_2(s) \\quad (\\Delta H = -63\\text{ kJ/mol})$$",
-    "$$\\text{Atomic Radius: } \\text{Li} < \\text{Na} < \\text{K} < \\text{Rb} < \\text{Cs}$$",
-    "$$\\text{Ionic Radius: } \\text{Li}^+ (76\\text{ pm}) < \\text{Na}^+ (102\\text{ pm}) < \\text{K}^+ (138\\text{ pm}) < \\text{Rb}^+ (152\\text{ pm}) < \\text{Cs}^+ (167\\text{ pm})$$",
-    "$$\\text{Density Order:}\\quad \\text{Li}\\ (0.53) < \\text{K}\\ (0.86) < \\text{Na}\\ (0.97) < \\text{Rb}\\ (1.53) < \\text{Cs}\\ (1.90)\\ \\text{g/cm}^3$$",
-    "$$\\Delta H_{\\text{hyd}} \\propto \\frac{z^2}{r}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-067",
-   "hash": "79509f3f09942a9d",
-   "question": "Total number of sigma ( σ) ________ and pi(π) ________ bonds respectively present in hex-1-en-4-yne are :",
-   "options": [
-    "3 and 13",
-    "11 and 3",
-    "13 and 3",
-    "14 and 3"
-   ],
-   "correct": 2,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-068",
-   "hash": "fcb009f99955c883",
-   "question": "In the given structure, number of sp and sp hybridized carbon atoms present respectively are : 2",
-   "options": [
-    "4 and 5",
-    "3 and 5",
-    "3 and 6",
-    "4 and 6"
-   ],
-   "correct": 1,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-069",
-   "hash": "34fb802269572a4f",
-   "question": "Match the LIST-I with LIST-II Choose the correct answer from the options given below:",
-   "options": [
-    "A-IV, B-I, C-III, D-II",
-    "A-IV, B-II, C-I, D-III",
-    "A-II, B-IV, C-III, D-I",
-    "A-III, B-II, C-I, D-IV"
-   ],
-   "correct": 1,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-070",
-   "hash": "313e5ced584595ab",
-   "question": "Given below are two statements : Statement (I) : The first ionization energy of Pb is greater than that of Sn. Statement (II) : The first ionization energy of Ge is greater than that of Si. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Statement I is false but Statement II is true",
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false"
-   ],
-   "correct": 1,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-071",
-   "hash": "f8d39aa6be0d73ed",
-   "question": "Which of the following statement is true with respect to H O, NH and CH ? 2 3 4 A. The central atoms of all the molecules are sp hybridized. 3 B. The H − O − H, H − N − H and H − C − H angles in the above molecules are 104.5 , 107.5 and 109.5 , ∘ ∘ ∘ respectively. C. The increasing order of dipole moment is CH < NH < H O. 4 3 2 D. Both H O and NH are Lewis acids and CH is a Lewis base. 2 3 4 E. A solution of NH in H O is basic. In this solution NH and H O act as Lowry-Bronsted acid and base 3 2 3 2 respectively. Choose the correct answer from the options given below:",
-   "options": [
-    "A, B and C Only",
-    "A, D and E Only",
-    "C, D and E Only",
-    "A, B, C and E Only"
-   ],
-   "correct": 0,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-072",
-   "hash": "c481fde95bbbe3b0",
-   "question": "The molecules having square pyramidal geometry are",
-   "options": [
-    "BrF & PCl 5 5",
-    "SbF & PCl 5 5",
-    "SbF & XeOF 5 4",
-    "BrF & XeOF 5 4"
-   ],
-   "correct": 3,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-073",
-   "hash": "32730f837eea7e7a",
-   "question": "Which of the following linear combination of atomic orbitals will lead to formation of molecular orbitals in homonuclear diatomic molecules [internuclear axis in z-direction] ? A. 2p and 2p z x B. 2 s and 2p x C. 3 d xy and 3 d 2 x −y 2 D. 2 s and 2p z E. 2p and 3d z x 2 − y 2 Choose the correct answer from the options given below:",
-   "options": [
-    "A and B Only",
-    "D Only",
-    "E Only",
-    "C and D Only"
-   ],
-   "correct": 1,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-074",
-   "hash": "70e26131483b238f",
-   "question": "Arrange the following compounds in increasing order of their dipole moment : HBr, H S, NF and CHCl 2 3 3",
-   "options": [
-    "H S < HBr < NF < CHCl 2 3 3",
-    "NF < HBr < H S < CHCl 3 2 3",
-    "HBr < H S < NF < CHCl 2 3 3",
-    "CHCl < NF < HBr < H S 3 3 2"
-   ],
-   "correct": 1,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-075",
-   "hash": "6c2bd40b17c5b42f",
-   "question": "Consider the following elements In, Tl, Al, Pb, Sn and Ge. The most stable oxidation states of elements with highest and lowest first ionisation enthalpies, respectively, are",
-   "options": [
-    "+4 and +1",
-    "+1 and +4",
-    "+4 and +3",
-    "+2 and +3"
-   ],
-   "correct": 2,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-076",
-   "hash": "24b1dc0ef0985c4c",
-   "question": "The incorrect statement among the following is",
-   "options": [
-    "PH shows lower proton affinity than NH . 3 3",
-    "SO can act as an oxidizing agent, but not as a reducing agent. 2",
-    "PF exists but NF does not. 3 5",
-    "NO can dimerise easily. 2"
-   ],
-   "correct": 2,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-077",
-   "hash": "73d782719f460249",
-   "question": "The maximum covalency of a non-metallic group 15 element ' E ' with weakest E − E bond is :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-006",
+   "hash": "7e5e716e450a85d7",
+   "question": "The number of complex numbers z, satisfying |z| = 1 and ∣ ∣ z z̄ + z̄ z ∣ = 1 ∣ , is :",
    "options": [
     "4",
-    "6",
+    "8",
+    "10",
+    "6"
+   ],
+   "correct": 1,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-007",
+   "hash": "808f611e849e3e92",
+   "question": "Let ∣z 1 − 8 − 2i∣ ≤ 1 and ∣z 2 − 2 + 6i∣ ≤ 2, z 1 , z 2 ∈ C. Then the minimum value of ∣z 1 − z 2 ∣ is ​ ​ ​ ​ ​ ​ :",
+   "options": [
+    "13",
+    "10",
     "3",
-    "5"
-   ],
-   "correct": 1,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-078",
-   "hash": "23bc478cc89ec297",
-   "question": "The large difference between the melting and boiling points of oxygen and sulphur may be explained on the basis of",
-   "options": [
-    "Atomicity",
-    "Electron gain enthalpy",
-    "Electronegativity",
-    "Atomic size"
-   ],
-   "correct": 1,
-   "chapter": "Chemical-Bonding-And-Molecular-Structure",
-   "topic": "Chemical-Bonding-And-Molecular-Structure",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-079",
-   "hash": "dcd18cbf67a0963d",
-   "question": "Match List - I with List - II. List − I List − I I (A) Bronze (I ) Cu, Ni (B) Brass (I I ) Fe, Cr, Ni, C (C) UK silver coin (I I I ) Cu, Zn (D) Stainless steel (I V ) Cu, Sn Choose the correct answer from the options given below :",
-   "options": [
-    "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
-    "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
-    "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)",
-    "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)"
-   ],
-   "correct": 1,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-080",
-   "hash": "19a74b364da977ff",
-   "question": "Preparation of potassium permanganate from MnO involves two step process in which the 1st step is a reaction 2 with KOH and KNO to produce 3",
-   "options": [
-    "K MnO 3 4",
-    "K [Mn(OH) ] 4 6",
-    "KMnO 4",
-    "K MnO 2 4"
+    "7"
    ],
    "correct": 3,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-081",
-   "hash": "cceb7928e7e5199c",
-   "question": "The correct set of ions (aqueous solution) with same colour from the following is:",
+   "id": "JEE-2025-ONLINE-JAN-MTH-008",
+   "hash": "2e3cf6339278cf35",
+   "question": "If α + iβ and γ + iδ are the roots of x − (3 − 2i)x − (2i − 2) = 0, i = √−1, then αγ + βδ is equal to : 2",
    "options": [
-    "Sc 3+ , Ti 3+ , Cr 2+",
-    "V 2+ , Cr 3+ , Mn 3+",
-    "Ti 4+ ,V 4+ , Mn 2+",
-    "Zn 2+ ,V 3+ , Fe 3+"
-   ],
-   "correct": 1,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-082",
-   "hash": "7dab0baf6a185a22",
-   "question": "The amphoteric oxide among V O , V O and V O , upon reaction with alkali leads to formation of an oxide 2 3 2 4 2 5 anion. The oxidation state of V in the oxide anion is :",
-   "options": [
-    "+3",
-    "+4",
-    "+7",
-    "+5"
+    "−2",
+    "6",
+    "−6",
+    "2 −π"
    ],
    "correct": 3,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-083",
-   "hash": "6c1be96e64fafda4",
-   "question": "Consider the following reactions KOH H2 SO4 K2 Cr2 O7 −−−→ [A] −−− − → [ B] + K2 SO4 −H2 O −H2 O The products [A] and [B], respectively are :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-009",
+   "hash": "bada41aa91d7aa95",
+   "question": "Let z , z and z be three complex numbers on the circle |z| = 1 with arg(z ) = 1 2 3 1 4 , arg(z2 ) = 0 and . If |z z̄ , then the value of α + β is : π 2 2 2 arg(z3 ) = 1 2 + z2 z̄ 3 + z3 z̄ 1 | = α + β√2, α, β ∈ Z 4",
    "options": [
-    "K CrO and CrO 2 4",
-    "K CrO and Cr O 2 4 2 3",
-    "K CrO and K Cr O 2 4 2 2 7",
-    "K Cr(OH) and Cr O 2 6 2 3"
-   ],
-   "correct": 2,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-084",
-   "hash": "64535dec6c09d60e",
-   "question": "Identify the inorganic sulphides that are yellow in colour : (A) (NH ) S 4 2 (B) Pbs (C) Cus (D) As S 2 3 (E) As S 2 5 Choose the correct answer from the options given below :",
-   "options": [
-    "(A), (D) and (E) only",
-    "(D) and (E) only",
-    "(A) and (B) only",
-    "(A) and (C) only"
+    "24",
+    "29",
+    "41",
+    "31"
    ],
    "correct": 1,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-085",
-   "hash": "3bc087fcd4d636f0",
-   "question": "Lanthanoid ions with 4f configuration are : 7 (A) Eu 2+ (B) Gd 3+ (C) Eu 3+ (D) Tb 3+ (E) Sm 2+ Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-010",
+   "hash": "a257a8533e2c2ebd",
+   "question": "Let the curve z(1 + i) + z̄ (1 − i) = 4, z ∈ C, divide the region |z − 3| ≤ 1 into two parts of areas α and β. Then |α − β| equals :",
    "options": [
-    "(A) and (D) only",
-    "(B) and (C) only",
-    "(A) and (B) only",
-    "(B) and (E) only"
-   ],
-   "correct": 2,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-086",
-   "hash": "a4412366ef26f23e",
-   "question": "Find the compound ' A ' from the following reaction sequences. aqua-regia",
-   "options": [
-    "KNO2 ∣NH4 OH A−−−−−−−→ B−−−−−−−−−−−→ yellow ppt",
-    "AcOH",
-    "CoS",
-    "ZnS"
+    "1 + π 2",
+    "1 + π 3",
+    "1 + π 6",
+    "1 + π 4"
    ],
    "correct": 0,
-   "chapter": "D-And-F-Block-Elements",
-   "topic": "D-And-F-Block-Elements",
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-087",
-   "hash": "010406d7668f2d59",
-   "question": "The calculated spin-only magnetic moments of K [Fe(OH) ] and K [Fe(OH) ] respectively are : 3 6 4 6",
+   "id": "JEE-2025-ONLINE-JAN-MTH-011",
+   "hash": "b97243fae82c39ac",
+   "question": "Let ∣∣ z̄ −i 2z̄ +i ∣ ∣ = 1 3 ,z ∈ C , be the equation of a circle with center at C . If the area of the triangle, whose vertices are at the points (0, 0), C and (α, 0) is 11 square units, then α equals: 2",
    "options": [
-    "3.87 and 4.90 B.M.",
-    "4.90 and 5.92 B.M.",
-    "4.90 and 4.90 B.M.",
-    "5.92 and 4.90 B.M."
-   ],
-   "correct": 3,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-088",
-   "hash": "3694d173637656a4",
-   "question": "Identify the coordination complexes in which the central metal ion has d configuration. 4 Choose the correct answer from the options given below :",
-   "options": [
-    "(B), (C) and (D) only",
-    "(C) and (E) only",
-    "(B) and (D) only",
-    "(A), (B) and (E) only"
-   ],
-   "correct": 2,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-089",
-   "hash": "ed6b9a392efa80aa",
-   "question": "The complex that shows Facial - Meridional isomerism is:",
-   "options": [
-    "+ 1. [Co(en)2 Cl2 ]",
-    "[Co(en) ] 3 3+",
-    "[Co(NH ) Cl ] 3 3 3 +",
-    "[Co(NH ) Cl ] 3 4 2"
-   ],
-   "correct": 2,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-090",
-   "hash": "02d686361c7255d0",
-   "question": "From the magnetic behaviour of [NiCl ] (paramagnetic) and [Ni(CO) ] (diamagnetic), choose the correct 2− 4 4 geometry and oxidation state.",
-   "options": [
-    "[NiCl ] 4 2− : Ni II , tetrahedral [Ni(CO)4 ] : Ni II , square planar",
-    "[NiCl ] 4 2− : Ni , square planar II [Ni(CO)4 ] : Ni(0) , square planar",
-    "[NiCl ] , tetrahedral 2− II 4 : Ni [Ni(CO)4 ] : Ni(0) , tetrahedral",
-    "[NiCl ] , tetrahedral 2− 4 : Ni(0) [Ni(CO)4 ] : Ni(0) , square planar"
-   ],
-   "correct": 2,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-091",
-   "hash": "b1424ecbb5c7320f",
-   "question": "Identify the homoleptic complex(es) that is/are low spin. (A) [Fe(CN) NO] 5 2− (B) [CoF ] 6 3− (C) [Fe(CN) ] 6 4− 3+ (D) [Co(NH ) ] 3 6 2+ (E) [Cr(H O) ] 2 6 Choose the correct answer from the options given below :",
-   "options": [
-    "(C) only",
-    "(C) and (D) only",
-    "(A) and (C) only",
-    "(B) and (E) only"
+    "50",
+    "100",
+    "81 25",
+    "121 25"
    ],
    "correct": 1,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-092",
-   "hash": "d0399505b50c8d64",
-   "question": "One mole of the octahedral complex compound Co(NH ) Cl gives 3 moles of ions on dissolution in water. One 3 5 3 mole of the same complex reacts with excess of AgNO solution to yield two moles of AgCl . The structure of 3 (s) the complex is:",
+   "id": "JEE-2025-ONLINE-JAN-MTH-012",
+   "hash": "cb14b3366e82dec0",
+   "question": "If α and β are the roots of the equation 2z − 3z − 2i = 0, where i = √−1, then 2 19 19 11 11 19 19 11 11 α +β +α +β α +β +α +β 16 ⋅ Re( 15 15 ) ⋅ lm( 15 15 ) is equal to α +β α +β",
    "options": [
-    "[Co(NH ) Cl ] ⋅ Cl ⋅ NH 3 4 2 3",
-    "[Co(NH ) Cl ] ⋅ 2NH 3 3 3 3",
-    "[Co(NH ) Cl] Cl 3 5 2",
-    "[Co(NH ) Cl] ⋅ Cl ⋅ NH 3 4 2 3"
+    "441",
+    "398",
+    "312",
+    "409"
+   ],
+   "correct": 0,
+   "chapter": "Complex-Numbers",
+   "topic": "Complex-Numbers",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-013",
+   "hash": "44eb2ebf0e9c4c99",
+   "question": "If the first term of an A.P. is 3 and the sum of its first four terms is equal to one-fifth of the sum of the next four terms, then the sum of the first 20 terms is equal to",
+   "options": [
+    "−1080",
+    "−1020",
+    "−1200",
+    "−120"
+   ],
+   "correct": 0,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-014",
+   "hash": "f69598a55025ee5b",
+   "question": "In an arithmetic progression, if S 40 = 1030 and S 12 = 57 , then S 30 − S10 is equal to :",
+   "options": [
+    "525",
+    "510",
+    "515",
+    "505"
    ],
    "correct": 2,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-093",
-   "hash": "06389f73179cd33c",
-   "question": "Match List - I with List - II. Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-015",
+   "hash": "56976e9c1dec0454",
+   "question": "Consider an A. P. of positive integers, whose sum of the first three terms is 54 and the sum of the first twenty terms lies between 1600 and 1800. Then its 11 th term is :",
    "options": [
-    "(A) −(III), (B) − (I), (C) − (IV), (D) − (II)",
-    "(A) −(III), (B) − (I), (C) − (II), (D) − (IV)",
-    "(A) −(IV), (B) − (II), (C) − (III), (D) − (I)",
-    "(A) − (II), (B) − (IV), (C) − (I), (D) − (III)"
+    "90",
+    "84",
+    "122",
+    "108"
    ],
    "correct": 0,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-095",
-   "hash": "ce7de5d7d7ef1321",
-   "question": "Match List - I with List - II. List - I List - II (Hybridisation & (Complex) Magnetic characters) 2− 2 3 (A) [MnBr4 ] (I) d sp & diamagnetic 3− 3 2 (B) [FeF6 ] (II) sp d & paramagnetic 3− 3 (C) [Co(C2 O4 ) ] (III) sp & diamagnetic 3 3 (D) [Ni(CO)4 ] (IV) sp & paramagnetic Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-016",
+   "hash": "8529da972cb70acb",
+   "question": "Let T be the r term of an A.P. If for some m, T , and 20 ∑ , then 5 m ∑ 1 1 25 2 m th r m = , T25 = Tr = 13 Tr 25 20 r=1 r=m is equal to",
    "options": [
-    "(A) −(IV), (B) − (II), (C) − (I), (D) − (III)",
-    "(A) − (III), (B) − (I), (C) − (II), (D) − (IV)",
-    "(A) −(IV), (B) − (I), (C) − (II), (D) − (III)",
-    "(A) − (III), (B) − (II), (C) − (I), (D) − (IV)"
-   ],
-   "correct": 0,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-096",
-   "hash": "5b8331d76a967c94",
-   "question": "In which of the following complexes the CFSE, Δ will be equal to zero? o",
-   "options": [
-    "[Fe(en) ] Cl 3 3",
-    "K [Fe(CN) ] 4 6",
-    "[Fe(NH ) ] Br 3 6 2",
-    "K [Fe(SCN) ] 3 6"
-   ],
-   "correct": 3,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-097",
-   "hash": "58196dda7f5e6e38",
-   "question": "The correct order of the following complexes in terms of their crystal field stabilization energies is : 2+ 2+ 3+",
-   "options": [
-    "[Co(NH ) ] 3 4 < [Co(NH3 ) ] 6 < [Co(en)3 ] 3+ < [Co(NH3 ) ] 6 2+ 3+ 2+",
-    "[Co(NH ) ] 3 6 < [Co(NH3 ) ] 6 < [Co(NH3 ) ] 4 < [Co(en)3 ] 3+ 3+ 2+ 2+",
-    "[Co(en) ] 3 3+ < [Co(NH3 ) ] 6 < [Co(NH3 ) ] 6 < [Co(NH3 ) ] 4 2+ 2+ 3+",
-    "[Co(NH ) ] 3 4 < [Co(NH3 ) ] 6 < [Co(NH3 ) ] 6 < [Co(en)3 ] 3+"
-   ],
-   "correct": 3,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-098",
-   "hash": "ad82959901daec74",
-   "question": "The conditions and consequence that favours the t 2 3 3 e g 1 configuration in a metal complex are : ​ ​",
-   "options": [
-    "weak field ligand, low spin complex",
-    "weak field ligand, high spin complex",
-    "strong field ligand, high spin complex",
-    "strong field ligand, low spin complex"
+    "98",
+    "126",
+    "142",
+    "112"
    ],
    "correct": 1,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-099",
-   "hash": "500a37d643507fa1",
-   "question": "The correct increasing order of stability of the complexes based on Δ o value is : ​ 3− I. [Mn(CN) 6 ] ​ 4− II. [Co(CN) 6 ] ​ 4− III. [Fe(CN) 6 ] ​ 3− IV. [Fe(CN) 6 ] ​",
+   "id": "JEE-2025-ONLINE-JAN-MTH-017",
+   "hash": "18bb4a53079df191",
+   "question": "Let a , a , a , … be a G.P. of increasing positive terms. If a a = 28 and a + a = 29, then a is equal to: 1 2 3 1 5 2 4 6",
    "options": [
-    "IV < III < II < I",
-    "I < II < IV < III",
-    "III < II < IV < I",
-    "II < III < I < IV"
-   ],
-   "correct": 1,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-100",
-   "hash": "6e25b3ee08653a57",
-   "question": "CrCl ⋅ xNH can exist as a complex. 0.1 molal aqueous solution of this complex shows a depression in freezing 3 3 point of 0.558 C. Assuming 100% ionisation of this complex and coordination number of Cr is 6 , the complex ∘ will be (Given K = 1.86 K kg mol ) f −1",
-   "options": [
-    "[Cr(NH ) Cl] Cl 3 5 2",
-    "[Cr(NH ) ] Cl 3 6 3",
-    "[Cr(NH ) Cl ] 3 3 3",
-    "[Cr(NH ) Cl ] Cl 3 4 2"
-   ],
-   "correct": 0,
-   "chapter": "Coordination Compounds",
-   "topic": "Coordination Compounds",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-101",
-   "hash": "6ea66f5fb038be0b",
-   "question": "The metal ion whose electronic configuration is not affected by the nature of the ligand and which gives a violet colour in non-luminous flame under hot condition in borax bead test is",
-   "options": [
-    "Mn 2+",
-    "Cr 3+",
-    "Ni 2+",
-    "Ti 3+"
-   ],
-   "correct": 2,
-   "chapter": "Practical-Organic-Chemistry",
-   "topic": "Practical-Organic-Chemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-102",
-   "hash": "3be21c5ad0a2083c",
-   "question": "Identify A, B and C in the given below reaction sequence",
-   "options": [
-    "Ammonium HNO3 H2 SO4 acetate A−−−→ Pb(NO3 ) 2 −−− − → B −−−−−−−−−−→",
-    "Acetic acid",
-    "K2 CrO4",
-    "PbCl , PbSO , PbCrO 2 4 4"
+    "628",
+    "812",
+    "526",
+    "784"
    ],
    "correct": 3,
-   "chapter": "Practical-Organic-Chemistry",
-   "topic": "Practical-Organic-Chemistry",
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-103",
-   "hash": "d254072c34973b78",
-   "question": "The IUPAC name of the following compound is :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-018",
+   "hash": "55899da8a729e7dc",
+   "question": "If 7 = 5 + 1 7 (5 + α) + 1 2 (5 + 2α) + 1 3 (5 + 3α)+ ________ ∞, then the value of α is : 7 7",
    "options": [
-    "Methyl-6-carboxy-2,5-dimethylhexanoate.",
-    "2-Carboxy-5-methoxycarbonylhexane.",
-    "6-Methoxycarbonyl-2,5-dimethylhexanoic acid.",
-    "Methyl-5-carboxy-2-methylhexanoate."
-   ],
-   "correct": 2,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-104",
-   "hash": "0b00ac26464e66a9",
-   "question": "Given below are two statements : Statement (I) : are isomeric compounds.Statement (II) : are functional group isomers.",
-   "options": [
-    "Both Statement (I) and Statement (II) are false.",
-    "Both Statement (I) and Statement (II) are true.",
-    "Statement (I) is false but Statement (II) is true.",
-    "Statement (I) is true but Statement (II) is false."
+    "6 7",
+    "6",
+    "1 7",
+    "1"
    ],
    "correct": 1,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-105",
-   "hash": "6b41da8fcc86a095",
-   "question": "The purification method based on the following physical transformation is :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-019",
+   "hash": "e13a980b2f5f8af8",
+   "question": "If ∑ n r=1 Tr = (2n−1)(2n+1)(2n+3)(2n+5) , then lim n→∞ ∑ n r=1 ( 1 ) is equal to : 64 Tr",
    "options": [
-    "Distillation",
-    "Extraction",
-    "Sublimation",
-    "Crystallization"
+    "0",
+    "2 3",
+    "1",
+    "1 3"
    ],
-   "correct": 2,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "correct": 1,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-106",
-   "hash": "2b507051da115456",
-   "question": "Given below are two statements I and II. Statement I: Dumas method is used for estimation of \"Nitrogen\" in an organic compound. Statement II: Dumas method involves the formation of ammonium sulphate by heating the organic compound with conc H SO . 2 4 In the light of the above statements, choose the correct answer from the options given below",
+   "id": "JEE-2025-ONLINE-JAN-MTH-020",
+   "hash": "f4a2f23103fe2e34",
+   "question": "For positive integers n, if 4a n = (n 2 + 5n + 6) and S n = ∑ n k=1 ( 1 ) , then the value of 507S 2025 is : ak",
    "options": [
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are false",
-    "Statement I is false but Statement II is true",
-    "Both Statement I and Statement II are true"
+    "540",
+    "675",
+    "1350",
+    "135"
    ],
-   "correct": 0,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "correct": 1,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-107",
-   "hash": "06389f73179cd33c",
-   "question": "Match List - I with List - II. Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-021",
+   "hash": "a927dfffa698a25c",
+   "question": "Suppose that the number of terms in an A.P. is 2k, k ∈ N . If the sum of all odd terms of the A.P. is 40 , the sum of all even terms is 55 and the last term of the A.P. exceeds the first term by 27, then k is equal to :",
    "options": [
-    "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)",
-    "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
-    "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
-    "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)"
+    "6",
+    "5",
+    "8",
+    "4"
    ],
-   "correct": 0,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "correct": 1,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-108",
-   "hash": "ea5f00135ba7c9d2",
-   "question": "Identify correct statement/s : (A) −OCH and −NHCOCH are activating group. 3 3 (B) -CN and -OH are meta directing group. (C) -CN and −SO H are meta directing group. 3 (D) Activating groups act as ortho - and para directing groups. (E) Halides are activating groups. Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-022",
+   "hash": "4dc40ec32c0323a1",
+   "question": "Let S n = 1 2 + 1 6 + 1 12 + 1 20 + … upto n terms. If the sum of the first six terms of an A.P. with first term -p and common difference p is √2026 S 2025 , then the absolute difference betwen 20 th and 15 th terms of the A.P. is",
    "options": [
-    "(A) only",
-    "(A), (B) and (E) only",
-    "(A) and (C) only",
-    "(A), (C) and (D) only"
+    "20",
+    "90",
+    "45",
+    "25"
    ],
    "correct": 3,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-109",
-   "hash": "b88c9968d0df8b1e",
-   "question": "The correct stability order of the following species/molecules is:",
+   "id": "JEE-2025-ONLINE-JAN-MTH-023",
+   "hash": "3463a0e95d3d1c9d",
+   "question": "Let ⟨a ⟩ be a sequence such that a = 0, a = n 0 1 1 2 and 2a n+2 = 5an+1 − 3an , n = 0, 1, 2, 3, … . Then ∑ 100 k=1 ak is equal to",
    "options": [
-    "q > r > p",
-    "r > q > p",
-    "q > p > r",
-    "p > q > r"
+    "3a 99 − 100",
+    "3a 100 − 100",
+    "3a 99 + 100",
+    "3a 100 + 100"
+   ],
+   "correct": 1,
+   "chapter": "Sequences-And-Series",
+   "topic": "Sequences-And-Series",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-024",
+   "hash": "abadfaf837267842",
+   "question": "If all the words with or without meaning made using all the letters of the word \"KANPUR\" are arranged as in a dictionary, then the word at 440 th position in this arrangement, is :",
+   "options": [
+    "PRNAUK",
+    "PRKANU",
+    "PRKAUN",
+    "PRNAKU"
+   ],
+   "correct": 2,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-025",
+   "hash": "d5f58977f95b7a14",
+   "question": "Group A consists of 7 boys and 3 girls, while group B consists of 6 boys and 5 girls. The number of ways, 4 boys and 4 girls can be invited for a picnic if 5 of them must be from group A and the remaining 3 from group B, is equal to :",
+   "options": [
+    "8750",
+    "9100",
+    "8925",
+    "8575"
+   ],
+   "correct": 2,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-026",
+   "hash": "2ef94c5e89d72892",
+   "question": "The number of different 5 digit numbers greater than 50000 that can be formed using the digits 0 , 1, 2, 3, 4, 5, 6, 7 , such that the sum of their first and last digits should not be more than 8 , is",
+   "options": [
+    "4608",
+    "5720",
+    "5719",
+    "4607"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-027",
+   "hash": "7f717402a82560fc",
+   "question": "Let P be the set of seven digit numbers with sum of their digits equal to 11 . If the numbers in P are formed by using the digits 1,2 and 3 only, then the number of elements in the set P is :",
+   "options": [
+    "173",
+    "164",
+    "158",
+    "161"
+   ],
+   "correct": 3,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-028",
+   "hash": "c43d5c396278c3ce",
+   "question": "From all the English alphabets, five letters are chosen and are arranged in alphabetical order. The total number of ways, in which the middle letter is ' M ', is :",
+   "options": [
+    "5148",
+    "6084",
+    "4356",
+    "14950"
    ],
    "correct": 0,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-110",
-   "hash": "d1899e9e3379ceb4",
-   "question": "Total number of nucleophiles from the following is : ⊖ NH 3 , PhSH, (H 3 C) 2 S, H 2 C = CH 2 , O H, H 3 O ⊕ , (CH 3 ) 2 CO, >= NCH 3 ​ ​ ​ ​ ​ ​ ​ ​ ​",
+   "id": "JEE-2025-ONLINE-JAN-MTH-029",
+   "hash": "cf55578f0b97a5d4",
+   "question": "In a group of 3 girls and 4 boys, there are two boys B and B . The number of ways, in which these girls and 1 2 boys can stand in a queue such that all the girls stand together, all the boys stand together, but B and B are not 1 2 adjacent to each other, is :",
    "options": [
+    "96",
+    "144",
+    "120",
+    "72"
+   ],
+   "correct": 1,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-030",
+   "hash": "4b44e2f70665b8f8",
+   "question": "The number of words, which can be formed using all the letters of the word \"DAUGHTER\", so that all the vowels never come together, is",
+   "options": [
+    "36000",
+    "37000",
+    "34000",
+    "35000"
+   ],
+   "correct": 0,
+   "chapter": "Pemutation and combination",
+   "topic": "Pemutation and combination",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-031",
+   "hash": "6cf9e0c504eba9e3",
+   "question": "For some n ≠ 10, let the coefficients of the 5 th, 6 th and 7 th terms in the binomial expansion of (1 + x) n+4 be in A.P. Then the largest coefficient in the expansion of (1 + x) n+4 is:",
+   "options": [
+    "20",
+    "10",
+    "35",
+    "70"
+   ],
+   "correct": 2,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-032",
+   "hash": "a2765d9dca06f9bb",
+   "question": "Suppose A and B are the coefficients of 30 th and 12 th terms respectively in the binomial expansion of (1 + x) 2n−1 . If 2 A = 5 B, then n is equal to :",
+   "options": [
+    "22",
+    "20",
+    "21",
+    "19"
+   ],
+   "correct": 2,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-033",
+   "hash": "325b535899d727bf",
+   "question": "Let α, β, γ and δ be the coefficients of x , x , x and x respectively in the expansion of 7 5 3 5 5 (x + √x 3 − 1) + (x − √x 3 − 1) , x > 1 . If u and v satisfy the equations αu + βv = 18 γu + δv = 20 then u + v equals :",
+   "options": [
+    "5",
+    "3",
+    "4",
+    "8"
+   ],
+   "correct": 0,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-034",
+   "hash": "58e4351ca398f307",
+   "question": "If in the expansion of (1 + x) (1 − x) , the coefficients of x and x are 1 and -2 , respectively, then p + q is p q 2 2 2 equal to :",
+   "options": [
+    "18",
+    "13",
+    "8",
+    "20"
+   ],
+   "correct": 1,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-035",
+   "hash": "38c1c89185f625c6",
+   "question": "Let the coefficients of three consecutive terms T , T r r+1 and T r+2 in the binomial expansion of (a + b) 12 be in a G.P. and let p be the number of all possible values of r. Let q be the sum of all rational terms in the binomial expansion of (√3 + √4) . Then p + q is equal to : 4 3 12",
+   "options": [
+    "283",
+    "287",
+    "295",
+    "299"
+   ],
+   "correct": 0,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-036",
+   "hash": "5e201ada170ae3ac",
+   "question": "The least value of n for which the number of integral terms in the Binomial expansion of ( 3 7 + 11 ) n is 12 ​ ​ 183, is :",
+   "options": [
+    "2184",
+    "2196",
+    "2148",
+    "2172"
+   ],
+   "correct": 0,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-037",
+   "hash": "2e31169a32f9a564",
+   "question": "The remainder, when 7 103 is divided by 23 , is equal to :",
+   "options": [
+    "6",
+    "17",
+    "9",
+    "14 11"
+   ],
+   "correct": 3,
+   "chapter": "Binomial-Theorem",
+   "topic": "Binomial-Theorem",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-038",
+   "hash": "4e35e69f3f5b44fd",
+   "question": "Marks obtains by all the students of class 12 are presented in a freqency distribution with classes of equal width. Let the median of this grouped data be 14 with median class interval 12-18 and median class frequency 12 . If the number of students whose marks are less than 12 is 18 , then the total number of students is",
+   "options": [
+    "52",
+    "48",
+    "44",
+    "40"
+   ],
+   "correct": 2,
+   "chapter": "Statistics",
+   "topic": "Statistics",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-039",
+   "hash": "37666137a220905f",
+   "question": "For a statistical data x , x , … , x of 10 values, a student obtained the mean as 5.5 and ∑ . He later 10 2 1 2 10 x = 371 i=1 i found that he had noted two values in the data incorrectly as 4 and 5 , instead of the correct values 6 and 8 , respectively. The variance of the corrected data is",
+   "options": [
+    "9",
+    "5",
     "7",
-    "4",
-    "6",
-    "5"
+    "4"
    ],
-   "correct": 3,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "correct": 2,
+   "chapter": "Statistics",
+   "topic": "Statistics",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-111",
-   "hash": "1eb289041f069fc2",
-   "question": "The incorrect statements regarding geometrical isomerism are : (A) Propene shows geometrical isomerism. (B) Trans isomer has identical atoms/groups on the opposite sides of the double bond. (C) Cis-but-2-ene has higher dipole moment than trans-but-2-ene. (D) 2-methylbut-2-ene shows two geometrical isomers. (E) Trans-isomer has lower melting point than cis isomer. Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-040",
+   "hash": "90354d771845d490",
+   "question": "Let x 1 , x 2 , … , x 10 be ten observations such that ∑ 10 10 − 2) = 30, ∑ i=1 (x i − β ) = 2 ​ ​ ​ i=1 (x i ​ ​ ​ ​ 98, β > 2, and their variance is 45 . If μ and σ 2 are respectively the mean and the variance of 2 (x 1 − 1) + ​ ​ 4β , 2 (x 2 − 1) + 4β, … ., 2 (x 10 − 1) + 4β , then σβμ2 is equal to : ​ ​ ​",
    "options": [
-    "(A) and (E) Only",
-    "(A), (D) and (E) Only",
-    "(B) and (C) Only",
-    "(C), (D) and (E) Only"
+    "100",
+    "120",
+    "110",
+    "90"
    ],
-   "correct": 1,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "correct": 0,
+   "chapter": "Statistics",
+   "topic": "Statistics",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-112",
-   "hash": "37cacda58b67a56b",
-   "question": "How many different stereoisomers are possible for the given molecule?",
+   "id": "JEE-2025-ONLINE-JAN-MTH-041",
+   "hash": "f8ec8a98c686350a",
+   "question": "⎡ 0 ⎤ ⎡ 0 ⎤ ⎡ 4 ⎤ ⎡ 0 ⎤ ⎡ 2 ⎤ ⎡ 1 ⎤ Let A = [a ] be 3 × 3 matrix such that A ⎢ 1 ⎥ = ⎢ 0 ⎥ , A ⎢ 1 ⎥ = ⎢ 1 ⎥ and A ⎢ 1 ⎥ = ⎢ 0 ⎥, then a ij 23 equals : ⎣ ⎦ ⎣ ⎦ ⎣ ⎦ ⎣ ⎦ ⎣ ⎦ ⎣ ⎦ 0 1 3 0 2 0",
    "options": [
+    "-1",
     "2",
     "1",
-    "4",
-    "3"
+    "0"
+   ],
+   "correct": 0,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-042",
+   "hash": "07920f551f08e2f2",
+   "question": "Let A = [a ] be a matrix of order 3 × 3, with a ij ij = (√2) i+j . If the sum of all the elements in the third row of A 2 is α + β√2, α, β ∈ Z, then α + β is equal to :",
+   "options": [
+    "280",
+    "224",
+    "210",
+    "168"
+   ],
+   "correct": 1,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-043",
+   "hash": "1247f9b0755bb5b2",
+   "question": "For a 3 × 3 matrix M , let trace (M ) denote the sum of all the diagonal elements of M . Let A be a 3 × 3 matrix such that |A| = 1 2 and trace (A) = 3. If B = adj(adj(2A)), then the value of |B|+ trace (B) equals :",
+   "options": [
+    "56",
+    "132",
+    "174",
+    "280"
+   ],
+   "correct": 3,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-044",
+   "hash": "14574c9cf1f87bdc",
+   "question": "​ ​ log 5 8 log 4 25 ​ ​ ​ ​ ​ 2 If A ij is the cofactor of a ij , C ij ​ ​ ​ = ∑ k=1 a ik A jk , 1 ≤ i, j ≤ 2, and C = [C ij ], then 8∣C∣ is equal ​ ​ ​ ​ to :",
+   "options": [
+    "288",
+    "222",
+    "242",
+    "262"
    ],
    "correct": 2,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-045",
+   "hash": "77fb15c7ea3eae0d",
+   "question": "If A, B, and (adj(A −1 ) + adj(B −1 )) are non-singular matrices of same order, then the inverse of −1 A(adj(A −1 ) + adj(B −1 )) B , is equal to",
+   "options": [
+    "AB −1 + A −1 B",
+    "adj(B −1 ) + adj(A −1 ) −1 −1",
+    "AB |A| + BA |B|",
+    "1 |AB| (adj(B) + adj(A))"
+   ],
+   "correct": 3,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-046",
+   "hash": "b52102d4e4302270",
+   "question": "1 −2 cos θ − sin θ Let A = [ √2 ] and P = [ ],θ > 0 . If B = PAP , C = P B T T 10 P and the sum of the sin θ cos θ 0 1 diagonal elements of C is , where gcd(m, n) = 1, then m + n is : m n",
+   "options": [
+    "127",
+    "258",
+    "65",
+    "2049"
+   ],
+   "correct": 2,
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-047",
+   "hash": "155e13b7833cfd8f",
+   "question": "Let M and m respectively be the maximum and the minimum values of 2 2 ∣ 1 + sin x cos x 4 sin 4x ∣ ∣ ∣ 2 2 f (x) = ∣ sin x 1 + cos x 4 sin 4x ∣,x ∈ R ∣ ∣ 2 2 ∣ sin x cos x 1 + 4 sin 4x ∣ 4 4 Then M − m is equal to :",
+   "options": [
+    "1280",
+    "1295",
+    "1215",
+    "1040"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   }
  ]
 }

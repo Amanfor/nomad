@@ -2,92 +2,804 @@
  "batch": 18,
  "items": [
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-039",
-   "hash": "c78b6c4211cfaa24",
-   "question": "Earth has mass 8 times and radius 2 times that of a planet. If the escape velocity from the earth is 11.2 km/s, the escape velocity in km/s from the planet will be :",
+   "id": "JEE-2025-ONLINE-APR-PHY-007",
+   "hash": "ae30b9d8e49f2508",
+   "question": "Match List-I with List-II. List-I List-II 0 −3 (A) Coefficient of viscosity (I) [ML T ] −2 −2 (B) Intensity of wave (II) [ML T ] −1 2 (C) Pressure gradient (III) [M LT ] −1 −1 (D) Compressibility (IV) [ML T ] Choose the correct answer from the options given below :",
    "options": [
-    "2.8",
-    "11.2",
-    "5.6",
-    "8.4"
-   ],
-   "correct": 2,
-   "chapter": "Gravitation",
-   "topic": "Gravitation",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Gravitation",
-   "formulas": [
-    "$$F = G \\frac{m_1 m_2}{r^2}$$",
-    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
-    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
-    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
-    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
-    "$$\\vec{g} = \\vec{E}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-040",
-   "hash": "7fd70e71f1bc175c",
-   "question": "A satellite is launched into a circular orbit of radius ' R ' around the earth. A second satellite is launched into an orbit of radius 1.03 R. The time period of revolution of the second satellite is larger than the first one approximately by",
-   "options": [
-    "9%",
-    "3%",
-    "4.5%",
-    "2.5%"
-   ],
-   "correct": 2,
-   "chapter": "Gravitation",
-   "topic": "Gravitation",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Gravitation",
-   "formulas": [
-    "$$F = G \\frac{m_1 m_2}{r^2}$$",
-    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
-    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
-    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
-    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
-    "$$\\vec{g} = \\vec{E}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-041",
-   "hash": "6db0a737ae07d09c",
-   "question": "If a satellite orbiting the Earth is 9 times closer to the Earth than the Moon, what is the time period of rotation of the satellite? Given rotational time period of Moon = 27 days and gravitational attraction between the satellite and the moon is neglected.",
-   "options": [
-    "27 days",
-    "1 day",
-    "81 days",
-    "3 days"
+    "(A) − (I), (B) − (IV), (C) − (III), (D) − (II)",
+    "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)",
+    "(A) − (IV), (B) − (II), (C) − (I), (D) − (III)",
+    "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
    ],
    "correct": 1,
-   "chapter": "Gravitation",
-   "topic": "Gravitation",
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
    "year": "2025",
    "subject": "Physics",
-   "formula_sheet": "Gravitation",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-008",
+   "hash": "5312483966624eb9",
+   "question": "Given a charge q, current I and permeability of vacuum μ . Which of the following quantity has the dimension of 0 momentum?",
+   "options": [
+    "qI/μ 0",
+    "qμ I 0",
+    "q μ I 2 0",
+    "qμ /I0"
+   ],
+   "correct": 1,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-009",
+   "hash": "18d9fb3ba251fcc8",
+   "question": "Match the LIST-I with LIST-II LIST-I LIST-II −2 A. Gravitational constant I. [LT ] Gravitational potential 2 −2 B. II. [L T ] energy 2 −2 C. Gravitational potential III. [ML T ] Acceleration due to −1 3 −2 D. IV. [M L T ] gravity Choose the correct answer from the options given below :",
+   "options": [
+    "A-IV, B-III, C-II, D-I",
+    "A-III, B-II, C-I, D-IV",
+    "A-II, B-IV, C-III, D-I",
+    "A-I, B-III, C-IV, D-II"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-010",
+   "hash": "0549bfe72feb78a1",
+   "question": "Match the LIST-I withLIST-II Choose the correct answer from the options given below :",
+   "options": [
+    "A-III, B-IV, C-I, D-II",
+    "A-II, B-III, C-IV, D-I",
+    "A-III, B-II, C-I, D-IV",
+    "A-III, B-IV, C-II, D-I"
+   ],
+   "correct": 0,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-011",
+   "hash": "15107367fc5e84c4",
+   "question": "Given below are two statements : Statement (I) : The dimensions of Planck's constant and angular momentum are same. Statement (II) : In Bohr's model electron revolve around the nucleus only in those orbits for which angular momentum is integral multiple of Planck's constant. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "options": [
+    "Both Statement I and Statement II are correct",
+    "Statement I is incorrect but Statement II is correct",
+    "Statement I is correct but Statement II is incorrect",
+    "Both Statement I and Statement II are incorrect"
+   ],
+   "correct": 2,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-012",
+   "hash": "4a9a1eb2908aba23",
+   "question": "In an electromagnetic system, a quantity defined as the ratio of electric dipole moment and magnetic dipole moment has dimension of [M P ∘ L T R S A ] . The value of P and Q are :",
+   "options": [
+    "−1, 0",
+    "−1, 1",
+    "1, −1",
+    "0, −1"
+   ],
+   "correct": 3,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-013",
+   "hash": "37a48a9fe4f4ccd3",
+   "question": "The dimension of √ μ0 is equal to that of : ϵ0 ( μ = Vacuum permeability and ϵ = Vacuum permittivity) 0 0",
+   "options": [
+    "Voltage",
+    "Capacitance",
+    "Inductance",
+    "Resistance"
+   ],
+   "correct": 3,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-014",
+   "hash": "03601b1a5f7154c7",
+   "question": "Match List-I with List-II. List-I List-II 2 −3 (A) Mass density (I) [ML T ] −1 (B) Impulse (II) [MLT ] 2 0 (C) Power (III) [ML T ] −3 0 (D) Moment of inertia (IV) [ML T ] Choose the correct answer from the options given below :",
+   "options": [
+    "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
+    "(A)-(I), (B)-(III), (C)-(IV), (D)-(II)",
+    "(A)-(IV), (B)-(II), (C)-(I), (D)-(III)",
+    "(A)-(II), (B)-(III), (C)-(IV), (D)-(I)"
+   ],
+   "correct": 2,
+   "chapter": "Units and Measurements",
+   "topic": "Units and Measurements",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-015",
+   "hash": "e86014bf84462743",
+   "question": "A body of mass 2 kg moving with velocity of ^ ^ v in = 3 i + 4 j ms −1 enters into a constant force field of 6 N directed along positive z -axis. If the body remains in the field for a period of 5 3 seconds, then velocity of the body when it emerges from force field is",
+   "options": [
+    "4 i^ + 3 j^ + 5^ k",
+    "3^i + 4^j + 5k ^",
+    "3^i + 4^j − 5k ^",
+    "3^i + 4^j + √5k ^"
+   ],
+   "correct": 1,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
    "formulas": [
-    "$$F = G \\frac{m_1 m_2}{r^2}$$",
-    "$$G = 6.67430 \\times 10^{-11} \\text{ N}\\cdot\\text{m}^2/\\text{kg}^2 = 6.67430 \\times 10^{-11} \\text{ m}^3/(\\text{kg}\\cdot\\text{s}^2)$$",
-    "$$\\vec{F}_{21} = -G \\frac{m_1 m_2}{r_{12}^2} \\hat{r}_{12} = -G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12}$$",
-    "$$\\vec{F}_{12} = -G \\frac{m_1 m_2}{r_{21}^2} \\hat{r}_{21} = +G \\frac{m_1 m_2}{r_{12}^3} \\vec{r}_{12} = -\\vec{F}_{21}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_{0i} = \\sum_{i=1}^N \\left( -G \\frac{m_0 m_i}{r_{0i}^3} \\vec{r}_{0i} \\right)$$",
-    "$$\\vec{E} = \\lim_{m_0 \\to 0} \\frac{\\vec{F}}{m_0} = -\\frac{G M}{r^2} \\hat{r} = -\\frac{G M}{r^3} \\vec{r}$$",
-    "$$\\vec{g} = \\vec{E}$$"
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-042",
-   "hash": "4eebe0c9963ef62b",
-   "question": "The fractional compression ( ΔV ) of water at the depth of 2.5 km below the sea level is V ​ ______ %. Given, the Bulk modulus of water = 2 × 10 9 N m −2 , density of water = 10 3 kgm −3 , acceleration due to gravity = g = 10 m s −2 .",
+   "id": "JEE-2025-ONLINE-APR-PHY-016",
+   "hash": "58768aacaf4c3392",
+   "question": "A sportsman runs around a circular track of radius r such that he traverses the path ABAB. The distance travelled and displacement, respectively, are",
    "options": [
-    "1.25",
-    "1.0",
-    "1.75",
-    "1.5"
+    "2r, 3πr",
+    "3πr, πr",
+    "πr, 3r",
+    "3πr, 2r"
+   ],
+   "correct": 3,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-017",
+   "hash": "160d276f9812f9a3",
+   "question": "A helicopter flying horizontally with a speed of 360 km/h at an altitude of 2 km , drops an object at an instant. The object hits the ground at a point O , 20 s after it is dropped. Displacement of ' O ' from the position of helicopter where the object was released is : (use acceleration due to gravity g = 10 m/s and neglect air resistance) 2",
+   "options": [
+    "2√5 km",
+    "4 km",
+    "7.2 km",
+    "2√2 km"
+   ],
+   "correct": 3,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-018",
+   "hash": "e68db5f93bcdd02c",
+   "question": "A particle moves along the x-axis and has its displacement x varying with time t according to the equation x = c0 (t 2 − 2) + c(t − 2) 2 where c and c are constants of appropriate dimensions. Then, which of the following 0 statements is correct?",
+   "options": [
+    "the acceleration of the particle is 2c 0",
+    "the acceleration of the particle is 2 c",
+    "the initial velocity of the particle is 4 c",
+    "the acceleration of the particle is 2 (c + c ) 0"
+   ],
+   "correct": 3,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-019",
+   "hash": "360c7720195bbe66",
+   "question": "A particle is projected with velocity u so that its horizontal range is three times the maximum height attained by 2 it. The horizontal range of the projectile is given as , where value of n is : (Given ' g ' is the acceleration due nu 25g to gravity).",
+   "options": [
+    "6",
+    "18",
+    "12",
+    "24"
+   ],
+   "correct": 3,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-020",
+   "hash": "5612ffd5c399e8ee",
+   "question": "Two projectiles are fired from ground with same initial speeds from same point at angles (45 + α) and ∘ (45 ∘ − α) with horizontal direction. The ratio of their times of flights is",
+   "options": [
+    "1",
+    "1−tan α 1+tan α",
+    "1+sin 2α 1−sin 2α",
+    "1+tan α 1−tan α"
+   ],
+   "correct": 3,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-021",
+   "hash": "fd26625945d3c021",
+   "question": "Two balls with same mass and initial velocity, are projected at different angles in such a way that maximum height reached by first ball is 8 times higher than that of the second ball. T and T are the total flying times of 1 2 first and second ball, respectively, then the ratio of T and T is : 1 2",
+   "options": [
+    "2√2 : 1",
+    "2 : 1",
+    "√2 : 1",
+    "4 : 1"
+   ],
+   "correct": 0,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-022",
+   "hash": "d5f8ea05f4a28632",
+   "question": "A river is flowing from west to east direction with speed of 9 km h . If a boat capable of moving at a maximum −1 speed of 27 km h −1 in still water, crosses the river in half a minute, while moving with maximum speed at an angle of 150 to direction of river flow, then the width of the river is : ∘",
+   "options": [
+    "300 m",
+    "112.5 m",
+    "75 m",
+    "112.5 × √3 m"
+   ],
+   "correct": 1,
+   "chapter": "Motion in 1D",
+   "topic": "Motion in 1D",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinematics Rectilinear and Relative Motion",
+   "formulas": [
+    "$$\\Delta \\vec{r} = \\vec{r}_f - \\vec{r}_i = \\Delta x \\hat{i} + \\Delta y \\hat{j} + \\Delta z \\hat{k}$$",
+    "$$\\mathbf{\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}}$$",
+    "$$\\mathbf{\\vec{v} = \\lim_{\\Delta t \\to 0} \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{d\\vec{r}}{dt}}$$",
+    "$$\\mathbf{v_{\\text{avg, scalar}} = \\frac{\\text{Total Distance}}{\\text{Total Time}} = \\frac{s}{\\Delta t}}$$",
+    "$$t_1 = \\frac{d}{v_1}, \\quad t_2 = \\frac{d}{v_2} \\implies v_{\\text{avg}} = \\frac{2d}{t_1 + t_2} = \\frac{2 v_1 v_2}{v_1 + v_2}$$",
+    "$$d_1 = v_1 t, \\quad d_2 = v_2 t \\implies v_{\\text{avg}} = \\frac{d_1 + d_2}{2t} = \\frac{v_1 + v_2}{2}$$",
+    "$$\\mathbf{\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-023",
+   "hash": "baa9b7930f2e5ef3",
+   "question": "An object with mass 500 g moves along x -axis with speed v = 4√x m/s. The force acting on the object is :",
+   "options": [
+    "8 N",
+    "5 N",
+    "6 N",
+    "4 N"
+   ],
+   "correct": 3,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-024",
+   "hash": "bf0b6c1f32e039c8",
+   "question": "A body of mass 1 kg is suspended with the help of two strings making angles as shown in figure. Magnitude of tensions T and T , respectively, are (in N) : 1 2",
+   "options": [
+    "5, 5√3",
+    "5√3, 5",
+    "5√3, 5√3",
+    "5,5"
+   ],
+   "correct": 1,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-025",
+   "hash": "850818cd00f9bb07",
+   "question": "A body of mass m is suspended by two strings making angles θ and θ with the horizontal ceiling with tensions 1 2 T1 and T simultaneously. T and T are related by T = √3T . the angles θ and θ are 2 1 2 1 2 1 2 3mg",
+   "options": [
+    "θ = 30 θ = 60 with T = 1 ∘ 2 ∘ 2 4 mg",
+    "θ = 60 θ = 30 with T = 1 ∘ 2 ∘ 2 2 3mg",
+    "θ = 45 θ = 45 with T = 1 ∘ 2 ∘ 2 4 4mg",
+    "θ = 30 θ = 60 with T = 1 ∘ 2 ∘ 2 5"
+   ],
+   "correct": 1,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-026",
+   "hash": "9fc5b105fc2bc919",
+   "question": "A cubic block of mass m is sliding down on an inclined plane at 60 with an acceleration of ∘ 2 , the value of coefficient of kinetic friction is",
+   "options": [
+    "√3 − 1 √3",
+    "2 √2",
+    "3 √3",
+    "1 − 2"
+   ],
+   "correct": 0,
+   "chapter": "Laws-Of-Motion",
+   "topic": "Laws-Of-Motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-027",
+   "hash": "b3d6dd7d066a704a",
+   "question": "Which one of the following forces cannot be expressed in terms of potential energy?",
+   "options": [
+    "Coulomb's force",
+    "Gravitational force",
+    "Frictional force",
+    "Restoring force"
+   ],
+   "correct": 2,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Work Power and Energy",
+   "formulas": [
+    "$$\\mathbf{W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta}$$",
+    "$$\\mathbf{W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2}$$",
+    "$$\\mathbf{W_{\\text{NC}} + W_{\\text{ext}} + W_{\\text{pseudo}} = \\Delta K + \\Delta U = \\Delta E_{\\text{mech}}}$$",
+    "$$\\mathbf{P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta}$$",
+    "$$\\mathbf{W = \\int_{x_i}^{x_f} F(x) dx = (\\text{Area above } x\\text{-axis}) - (\\text{Area below } x\\text{-axis})}$$",
+    "$$\\mathbf{W_g = \\int_{y_i}^{y_f} (-mg) dy = -mg(y_f - y_i) = mg(y_i - y_f) = -mg\\Delta y}$$",
+    "$$\\mathbf{\\sum_{\\text{system}} W_{f_k} = -f_k s_{\\text{rel}} < 0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-028",
+   "hash": "f4232efbd4d24246",
+   "question": "A particle is released from height S above the surface of the earth. At certain height its kinetic energy is three times its potential energy. The height from the surface of the earth and the speed of the particle at that instant are respectively. 3gS",
+   "options": [
+    "S ,√ 2 2 3gS",
+    "S 2 , 2 3gS",
+    "S 4 , 2 3gS",
+    "S ,√ 4 2"
+   ],
+   "correct": 3,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Work Power and Energy",
+   "formulas": [
+    "$$\\mathbf{W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta}$$",
+    "$$\\mathbf{W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2}$$",
+    "$$\\mathbf{W_{\\text{NC}} + W_{\\text{ext}} + W_{\\text{pseudo}} = \\Delta K + \\Delta U = \\Delta E_{\\text{mech}}}$$",
+    "$$\\mathbf{P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta}$$",
+    "$$\\mathbf{W = \\int_{x_i}^{x_f} F(x) dx = (\\text{Area above } x\\text{-axis}) - (\\text{Area below } x\\text{-axis})}$$",
+    "$$\\mathbf{W_g = \\int_{y_i}^{y_f} (-mg) dy = -mg(y_f - y_i) = mg(y_i - y_f) = -mg\\Delta y}$$",
+    "$$\\mathbf{\\sum_{\\text{system}} W_{f_k} = -f_k s_{\\text{rel}} < 0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-029",
+   "hash": "41f3b1d5fba2b144",
+   "question": "A block of mass 1 kg , moving along x with speed v = 10 m/s enters a rough region ranging from x = 0.1 m to i x = 1.9 m . The retarding force acting on the block in this range is F = −kxN, with k = 10 N/m. Then the final r speed of the block as it crosses rough region is",
+   "options": [
+    "10 m/s",
+    "4 m/s",
+    "6 m/s",
+    "8 m/s"
+   ],
+   "correct": 3,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Work Power and Energy",
+   "formulas": [
+    "$$\\mathbf{W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta}$$",
+    "$$\\mathbf{W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2}$$",
+    "$$\\mathbf{W_{\\text{NC}} + W_{\\text{ext}} + W_{\\text{pseudo}} = \\Delta K + \\Delta U = \\Delta E_{\\text{mech}}}$$",
+    "$$\\mathbf{P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta}$$",
+    "$$\\mathbf{W = \\int_{x_i}^{x_f} F(x) dx = (\\text{Area above } x\\text{-axis}) - (\\text{Area below } x\\text{-axis})}$$",
+    "$$\\mathbf{W_g = \\int_{y_i}^{y_f} (-mg) dy = -mg(y_f - y_i) = mg(y_i - y_f) = -mg\\Delta y}$$",
+    "$$\\mathbf{\\sum_{\\text{system}} W_{f_k} = -f_k s_{\\text{rel}} < 0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-030",
+   "hash": "0be1ba9fec3c48ee",
+   "question": "An object of mass 1000 g experiences a time dependent force F→ = (2t^i + 3t ^j) N . The power generated by the 2 force at time t is :",
+   "options": [
+    "(2t + 3t ) W 2 3",
+    "(2t + 18t ) W 2 3",
+    "(3t + 5t ) W 3 5",
+    "(2t + 3t ) W 3 5"
+   ],
+   "correct": 3,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Work Power and Energy",
+   "formulas": [
+    "$$\\mathbf{W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta}$$",
+    "$$\\mathbf{W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2}$$",
+    "$$\\mathbf{W_{\\text{NC}} + W_{\\text{ext}} + W_{\\text{pseudo}} = \\Delta K + \\Delta U = \\Delta E_{\\text{mech}}}$$",
+    "$$\\mathbf{P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta}$$",
+    "$$\\mathbf{W = \\int_{x_i}^{x_f} F(x) dx = (\\text{Area above } x\\text{-axis}) - (\\text{Area below } x\\text{-axis})}$$",
+    "$$\\mathbf{W_g = \\int_{y_i}^{y_f} (-mg) dy = -mg(y_f - y_i) = mg(y_i - y_f) = -mg\\Delta y}$$",
+    "$$\\mathbf{\\sum_{\\text{system}} W_{f_k} = -f_k s_{\\text{rel}} < 0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-031",
+   "hash": "b1b8d30892014ed5",
+   "question": "A piston of mass M is hung from a massless spring whose restoring force law goes as F = −kx , where k is the 3 spring constant of appropriate dimension. The piston separates the vertical chamber into two parts, where the bottom part is filled with ' n ' moles of an ideal gas. An external work is done on the gas isothermally (at a constant temperature T) with the help of a heating filament (with negligible volume) mounted in lower part of the chamber, so that the piston goes up from a height L to L , the total energy delivered by the filament is (Assume 0 1 spring to be in its natural length before heating)",
+   "options": [
+    "3nRT ln( L1 k 3 3 ) + 2Mg (L1 − L0 ) + (L − L ) L0 3 1 0 2 L Mg",
+    "nRT ln( 1 2 ) + 2 (L1 − L0 ) + k 4 (L 4 1 − L ) 4 0 L 0",
+    "nRT ln( L1 k 4 4 ) + M g (L1 − L0 ) + (L − L ) L0 4 1 0",
+    "nRT ln( L1 3k 4 4 ) + M g (L1 − L0 ) + (L − L ) L0 4 1 0"
+   ],
+   "correct": 2,
+   "chapter": "Work Power & Energy",
+   "topic": "Work Power & Energy",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Work Power and Energy",
+   "formulas": [
+    "$$\\mathbf{W = \\vec{F} \\cdot \\vec{s} = F s \\cos\\theta}$$",
+    "$$\\mathbf{W_{\\text{net}} = \\Delta K = K_f - K_i = \\frac{1}{2} m v_f^2 - \\frac{1}{2} m v_i^2}$$",
+    "$$\\mathbf{W_{\\text{NC}} + W_{\\text{ext}} + W_{\\text{pseudo}} = \\Delta K + \\Delta U = \\Delta E_{\\text{mech}}}$$",
+    "$$\\mathbf{P = \\frac{dW}{dt} = \\frac{\\vec{F} \\cdot d\\vec{r}}{dt} = \\vec{F} \\cdot \\vec{v} = F v \\cos\\theta}$$",
+    "$$\\mathbf{W = \\int_{x_i}^{x_f} F(x) dx = (\\text{Area above } x\\text{-axis}) - (\\text{Area below } x\\text{-axis})}$$",
+    "$$\\mathbf{W_g = \\int_{y_i}^{y_f} (-mg) dy = -mg(y_f - y_i) = mg(y_i - y_f) = -mg\\Delta y}$$",
+    "$$\\mathbf{\\sum_{\\text{system}} W_{f_k} = -f_k s_{\\text{rel}} < 0}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-032",
+   "hash": "617e61d1a476d552",
+   "question": "A rod of length 5 L is bent right angle keeping one side length as 2 L. The position of the centre of mass of the system: (Consider L = 10 cm)",
+   "options": [
+    "2^i + 3^j",
+    "3 i^ + 7 j^",
+    "5 i^ + 8 j^",
+    "4^i + 9^j"
+   ],
+   "correct": 3,
+   "chapter": "Center-Of-Mass",
+   "topic": "Center-Of-Mass",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-033",
+   "hash": "a59b4e66749e3cd9",
+   "question": "Consider two blocks A and B of masses m = 10 kg and m = 5 kg that are placed on a frictionless table. The 1 2 block A moves with a constant speed v = 3 m/s towards the block B kept at rest. A spring with spring constant k = 3000 N/m is attached with the block B as shown in the figure. After the collision, suppose that the blocks A and B, along with the spring in constant compression state, move together, then the compression in the spring is, (Neglect the mass of the spring)",
+   "options": [
+    "0.2 m",
+    "0.4 m",
+    "0.1 m",
+    "0.3 m"
+   ],
+   "correct": 2,
+   "chapter": "Center-Of-Mass",
+   "topic": "Center-Of-Mass",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-034",
+   "hash": "a3887de199b1463f",
+   "question": "The moment of inertia of a circular ring of mass M and diameter r about a tangential axis lying in the plane of the ring is :",
+   "options": [
+    "1 2 Mr 2",
+    "3 8 Mr 2",
+    "3 2 Mr 2",
+    "2Mr 2"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-035",
+   "hash": "4d3fafb11b25c440",
+   "question": "Which of the following are correct expression for torque acting on a body? B. τ→ = d dt → → ( r × p ) → C. τ→ = r × dp dt D. τ→ = Iα → → → E. τ→ = r × F → → ( r = position vector; p = linear momentum; → L = angular momentum; α → = angular acceleration; → I = moment of inertia; F = force; t = time) Choose the correct answer from the options given below :",
+   "options": [
+    "B, D and E Only",
+    "C and D Only",
+    "B, C, D and E Only",
+    "A, B, D and E Only"
+   ],
+   "correct": 2,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-036",
+   "hash": "30eddc7973988c8a",
+   "question": "Moment of inertia of a rod of mass ' M ' and length 'L' about an axis passing through its center and normal to its length is ' α '. Now the rod is cut into two equal parts and these parts are joined symmetrically to form a cross shape. Moment of inertia of cross about an axis passing through its center and normal to plane containing cross is :",
+   "options": [
+    "α",
+    "α/4",
+    "α/8",
+    "α/2"
+   ],
+   "correct": 1,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-037",
+   "hash": "6e491319fd3d6c25",
+   "question": "A square Lamina OABC of length 10 cm is pivoted at 'O'. Forces act at Lamina as shown in figure. If Lamina remains stationary, then the magnitude of F is :",
+   "options": [
+    "20 N",
+    "0 (zero)",
+    "10 N",
+    "10√2 N"
+   ],
+   "correct": 2,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-038",
+   "hash": "b1988e7aa3cc98c1",
+   "question": "A cord of negligible mass is wound around the rim of a wheel supported by spokes with negligible mass. The mass of wheel is 10 kg and radius is 10 cm and it can freely rotate without any friction. Initially the wheel is at rest. If a steady pull of 20 N is applied on the cord, the angular velocity of the wheel, after the cord is unwound by 1 m , would be :",
+   "options": [
+    "20rad/s",
+    "30rad/s",
+    "10rad/s",
+    "0rad/s"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-039",
+   "hash": "2ace72fcd4d5b9b8",
+   "question": "If L and P represent the angular momentum and linear momentum respectively of a particle of mass ' m ' → having position vector r = a(^i cos ωt + ^j sin ωt). The direction of force is",
+   "options": [
+    "Opposite to the direction of r→ →",
+    "Opposite to the direction of L",
+    "Opposite to the direction of P→ → →",
+    "Opposite to the direction of L × P"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-040",
+   "hash": "1d269a7fb6d12a08",
+   "question": "A wheel is rolling on a plane surface. The speed of a particle on the highest point of the rim is 8 m/s. The speed of the particle on the rim of the wheel at the same level as the centre of wheel, will be :",
+   "options": [
+    "4√2 m/s",
+    "8 m/s",
+    "4 m/s",
+    "8√2 m/s"
+   ],
+   "correct": 0,
+   "chapter": "Rotational motion",
+   "topic": "Rotational motion",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Rigid Body Dynamics and Rotational Mechanics",
+   "formulas": [
+    "$$|\\vec{r}_i(t) - \\vec{r}_j(t)| = \\text{Constant} \\quad (\\forall \\, i, j)$$",
+    "$$(\\vec{v}_A - \\vec{v}_B) \\cdot \\hat{r}_{AB} = 0 \\iff v_A \\cos\\theta_A = v_B \\cos\\theta_B$$",
+    "$$\\vec{\\omega}_{B/A} = \\vec{\\omega}_{A/B} = \\vec{\\omega}$$",
+    "$$\\vec{v}_B = \\vec{v}_A + \\vec{\\omega} \\times \\vec{r}_{B/A}$$",
+    "$$\\omega = \\omega_0 + \\alpha t$$",
+    "$$\\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2$$",
+    "$$\\omega^2 = \\omega_0^2 + 2\\alpha \\theta$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-042",
+   "hash": "ab9c33a051aef3d2",
+   "question": "Two wires A and B are made of same material having ratio of lengths LA = 1 and their diameters ratio dA = 2 . LB 3 dB If both the wires are stretched using same force, what would be the ratio of their respective elongations?",
+   "options": [
+    "1 : 6",
+    "1 : 12",
+    "3 : 4",
+    "1 : 3"
+   ],
+   "correct": 1,
+   "chapter": "Mechanical properties of solid",
+   "topic": "Mechanical properties of solid",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-043",
+   "hash": "9da4377064e1b58e",
+   "question": "A 3 m long wire of radius 3 mm shows an extension of 0.1 mm when loaded vertically by a mass of 50 kg in an experiment to determine Young's modulus. The value of Young's modulus of the wire as per this experiment is P × 10 11 Nm −2 , where the value of P is: (Take g = 3π m/s ) 2",
+   "options": [
+    "5",
+    "10",
+    "25",
+    "2.5"
    ],
    "correct": 0,
    "chapter": "Mechanical properties of solid",
@@ -98,104 +810,32 @@
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-043",
-   "hash": "43a6b0bb5569e969",
-   "question": "A tube of length L is shown in the figure. The radius of cross section at the point",
+   "id": "JEE-2025-ONLINE-APR-PHY-044",
+   "hash": "6dd57ebac01a9fa8",
+   "question": "A cylindrical rod of length 1 m and radius 4 cm is mounted vertically. It is subjected to a shear force of 10 N at 5 the top. Considering infinitesimally small displacement in the upper edge, the angular displacement θ of the rod axis from its original position would be : (shear moduli, G = 10 10 2 N/m )",
    "options": [
-    "is 2 cm and at the point",
-    "is 1 cm , respectively. If the velocity of water entering at point",
-    "is 2 m/s, then velocity of water leaving the point",
-    "will be"
-   ],
-   "correct": 3,
-   "chapter": "Mechanical Properties of Fluids",
-   "topic": "Mechanical Properties of Fluids",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-044",
-   "hash": "d4303461061a81fc",
-   "question": "Given below are two statements: Statement I: The hot water flows faster than cold water Statement II: Soap water has higher surface tension as compared to fresh water. In the light above statements, choose the correct answer from the options given below",
-   "options": [
-    "Statement I is true but Statement II is false",
-    "Statement I is false but Statement II is true",
-    "Both Statement I and Statement II are false",
-    "Both Statement I and Statement II are true"
+    "1/160π",
+    "1/4π",
+    "1/40π",
+    "1/2π"
    ],
    "correct": 0,
-   "chapter": "Mechanical Properties of Fluids",
-   "topic": "Mechanical Properties of Fluids",
+   "chapter": "Mechanical properties of solid",
+   "topic": "Mechanical properties of solid",
    "year": "2025",
    "subject": "Physics",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-045",
-   "hash": "ce31fa35b6482540",
-   "question": "Water flows in a horizontal pipe whose one end is closed with a valve. The reading of the pressure gauge attached to the pipe is P . The reading of the pressure gauge falls to P when the valve is opened. The speed of water 1 2 flowing in the pipe is proportional to",
+   "id": "JEE-2025-ONLINE-APR-PHY-045",
+   "hash": "043fde93c5828004",
+   "question": "Two liquids A and B have θ and θ as contact angles in a capillary tube. If K = cos θ / cos θ . then identify the A B A B correct statement:",
    "options": [
-    "P − P 1 2",
-    "(P − P ) 4 1 2",
-    "(P − P ) 1 2 2",
-    "√P − P 1 2"
-   ],
-   "correct": 3,
-   "chapter": "Mechanical Properties of Fluids",
-   "topic": "Mechanical Properties of Fluids",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-046",
-   "hash": "9c2e94e567b744fb",
-   "question": "The amount of work done to break a big water drop of radius ' R ' into 27 small drops of equal radius is 10 J. The work done required to break the same big drop into 64 small drops of equal radius will be",
-   "options": [
-    "15 J",
-    "5 J",
-    "20 J",
-    "10 J"
-   ],
-   "correct": 0,
-   "chapter": "Mechanical Properties of Fluids",
-   "topic": "Mechanical Properties of Fluids",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-047",
-   "hash": "3ecc244320061ecc",
-   "question": "An air bubble of radius 0.1 cm lies at a depth of 20 cm below the free surface of a liquid of density 1000 kg/m . 3 If the pressure inside the bubble is 2100 N/m greater than the atmospheric pressure, then the surface tension of 2 the liquid in SI unit is (use g = 10 m/s ) 2",
-   "options": [
-    "0.1",
-    "0.05",
-    "0.02",
-    "0.25"
-   ],
-   "correct": 1,
-   "chapter": "Mechanical Properties of Fluids",
-   "topic": "Mechanical Properties of Fluids",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-048",
-   "hash": "fb0378be649a2bac",
-   "question": "In the experiment for measurement of viscosity ' η ' of given liquid with a ball having radius R, consider following statements. A. Graph between terminal velocity V and R will be a parabola. B. The terminal velocities of different diameter balls are constant for a given liquid. C. Measurement of terminal velocity is dependent on the temperature. D. This experiment can be utilized to assess the density of a given liquid. E. If balls are dropped with some initial speed, the value of η will change. Choose the correct answer from the options given below:",
-   "options": [
-    "A, B and E Only",
-    "B, D and E Only",
-    "A, C and D Only",
-    "C, D and E Only"
+    "K is negative, then liquid A and liquid B have convex meniscus.",
+    "K is negative, then liquid A and liquid B have concave meniscus.",
+    "K is negative, then liquid A has concave meniscus and liquid B has convex meniscus",
+    "K is zero, then liquid A has convex meniscus and liquid B has concave meniscus."
    ],
    "correct": 2,
    "chapter": "Mechanical Properties of Fluids",
@@ -206,14 +846,50 @@
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-049",
-   "hash": "2c3aee464160b586",
-   "question": "Consider following statements: A. Surface tension arises due to extra energy of the molecules at the interior as compared to the molecules at the surface, of a liquid. B. As the temperature of liquid rises, the coefficient of viscosity increases. C. As the temperature of gas increases, the coefficient of viscosity increases D. The onset of turbulence is determined by Reynold's number. E. In a steady flow two stream lines never intersect. Choose the correct answer from the options given below:",
+   "id": "JEE-2025-ONLINE-APR-PHY-046",
+   "hash": "45cac52e3b1e0e56",
+   "question": "Two cylindrical vessels of equal cross sectional area of 2 m contain water up to height 10 m and 6 m , 2 respectively. If the vessels are connected at their bottom then the work done by the force of gravity is : (Density of water is 10 kg/m and g = 10 m/s ) 3 3 2",
    "options": [
-    "C, D, E Only",
-    "A, D, E Only",
-    "B, C, D Only",
-    "A, B, C Only"
+    "1 × 10 J5",
+    "4 × 10 J4",
+    "6 × 10 J4",
+    "8 × 10 J4"
+   ],
+   "correct": 3,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-047",
+   "hash": "4514c6127f9386f4",
+   "question": "Consider a completely full cylindrical water tank of height 1.6 m and cross-sectional area 0.5 m . It has a small 2 hole in its side at a height 90 cm from the bottom. Assume, the cross-sectional area of the hole to be negligibly small as compared to that of the water tank. If a load 50 kg is applied at the top surface of the water in the tank then the velocity of the water coming out at the instant when the hole is opened is : (g = 10 m/s ) 2",
+   "options": [
+    "3 m/s",
+    "5 m/s",
+    "2 m/s",
+    "4 m/s"
+   ],
+   "correct": 3,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-048",
+   "hash": "6a41c8ca96c461b7",
+   "question": "A capillary tube of radius 0.1 mm is partly dipped in water (surface tension 70dyn/cm and glass water contact angle ≃ 0 ) with 30 inclined with vertical. The length of water risen in the capillary is ________ cm. ∘ ∘ ( Take g = 9.8 m/s ) 2",
+   "options": [
+    "82 5",
+    "57 2",
+    "71 5",
+    "68 5"
    ],
    "correct": 0,
    "chapter": "Mechanical Properties of Fluids",
@@ -224,14 +900,58 @@
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-050",
-   "hash": "2529147614f99a0a",
-   "question": "A particle is executing simple harmonic motion with time period 2 s and amplitude 1 cm. If D and d are the total distance and displacement covered by the particle in 12.5 s , then D d is",
+   "id": "JEE-2025-ONLINE-APR-PHY-049",
+   "hash": "eced02d21511a21a",
+   "question": "A solid steel ball of diameter 3.6 mm acquired terminal velocity 2.45 × 10 −2 m/s while falling under gravity through an oil of density 925 kg m . Take density of steel as 7825 kg m −3 −3 and g as 9.8 m/s . The viscosity of 2 the oil in SI unit is",
    "options": [
-    "16 5",
-    "10",
-    "15 4",
-    "25"
+    "2.18",
+    "2.38",
+    "1.68",
+    "1.99"
+   ],
+   "correct": 3,
+   "chapter": "Mechanical Properties of Fluids",
+   "topic": "Mechanical Properties of Fluids",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-050",
+   "hash": "cbfded7af7da214b",
+   "question": "A particle is subjected two simple harmonic motions as : x1 = √7 sin 5tcm and x = 2√7 sin(5t + 2 π 3 )cm where x is displacement and t is time in seconds. The maximum acceleration of the particle is x × 10 −2 ms −2 . The value of x is :",
+   "options": [
+    "175",
+    "25√7",
+    "5√7",
+    "125"
+   ],
+   "correct": 0,
+   "chapter": "Oscillations",
+   "topic": "Oscillations",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Simple Harmonic Motion and Oscillations",
+   "formulas": [
+    "$$F(x) = -k (x - x_0)^n$$",
+    "$$F = -k x$$",
+    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
+    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
+    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
+    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
+    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-051",
+   "hash": "8539a30a8ac71452",
+   "question": "Two simple pendulums having lengths l and l with negligible string mass undergo angular displacements θ and 1 2 1 θ2 , from their mean positions, respectively. If the angular accelerations of both pendulums are same, then which expression is correct?",
+   "options": [
+    "θ l = θ l 1 2 2 2 2 1",
+    "θ l = θ l 1 1 2 2",
+    "θ l = θ l 1 1 2 2 2 2",
+    "θ l = θ l 1 2 2 1"
    ],
    "correct": 3,
    "chapter": "Oscillations",
@@ -250,40 +970,14 @@
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-051",
-   "hash": "887a3cc337ae519e",
-   "question": "Two bodies A and B of equal mass are suspended from two massless springs of spring constant k and k , 1 2 respectively. If the bodies oscillate vertically such that their amplitudes are equal, the ratio of the maximum velocity of A to the maximum velocity of B is k1",
+   "id": "JEE-2025-ONLINE-APR-PHY-052",
+   "hash": "1128e63feca1b4f2",
+   "question": "The amplitude and phase of a wave that is formed by the superposition of two harmonic travelling waves, y (x, t) = 4 sin(kx − ωt) 1 and y (x, t) = 2 sin(kx − ωt + 2 2π 3 ) , are : (Take the angular frequency of initial waves same as ω)",
    "options": [
-    "k2 k1",
-    "√ k2 k2",
-    "√ k1 k2",
-    "k1"
-   ],
-   "correct": 1,
-   "chapter": "Oscillations",
-   "topic": "Oscillations",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Simple Harmonic Motion and Oscillations",
-   "formulas": [
-    "$$F(x) = -k (x - x_0)^n$$",
-    "$$F = -k x$$",
-    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
-    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
-    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
-    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
-    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-052",
-   "hash": "add4461434315e9f",
-   "question": "Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : A simple pendulum is taken to a planet of mass and radius, 4 times and 2 times, respectively, than the Earth. The time period of the pendulum remains same on earth and the planet. Reason (R): The mass of the pendulum remains unchanged at Earth and the other planet. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "(A) is false but (R) is true",
-    "(A) is true but (R) is false",
-    "Both (A) and (R) are true and (R) is the correct explanation of (A)",
-    "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)"
+    "[6, 2π 3 ]",
+    "[6, π 3 ]",
+    "[√3, π 6 ]",
+    "[2√3, π 6 ]"
    ],
    "correct": 3,
    "chapter": "Oscillations",
@@ -302,40 +996,40 @@
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-053",
-   "hash": "e251a7ae0c8ec5d2",
-   "question": "A light hollow cube of side length 10 cm and mass 10 g , is floating in water. It is pushed down and released to execute simple harmonic oscillations. The time period of oscillations is yπ × 10 −2 s , where the value of y is (Acceleration due to gravity, g = 10 m/s , density of water = 10 kg/m ) 2 3 3",
+   "id": "JEE-2025-ONLINE-APR-PHY-053",
+   "hash": "0b2dd6500173729e",
+   "question": "The equation of a wave travelling on a string is y = sin[20πx + 10πt], where x and t are distance and time in SI units. The minimum distance between two points having the same oscillating speed is :",
    "options": [
-    "6",
+    "5.0 cm",
+    "20 cm",
+    "10 cm",
+    "2.5 cm"
+   ],
+   "correct": 0,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-054",
+   "hash": "1a3f7a978ac29fed",
+   "question": "Two strings with circular cross section and made of same material, are stretched to have same amount of tension. A transverse wave is then made to pass through both the strings. The velocity of the wave in the first string having the radius of cross section R is v , and that in the other string having radius of cross section R/2 is v . 1 2 Then v2 = v1",
+   "options": [
+    "√2",
     "2",
-    "4",
-    "1"
-   ],
-   "correct": 1,
-   "chapter": "Oscillations",
-   "topic": "Oscillations",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Simple Harmonic Motion and Oscillations",
-   "formulas": [
-    "$$F(x) = -k (x - x_0)^n$$",
-    "$$F = -k x$$",
-    "$$m \\frac{d^2 x}{dt^2} = -k x \\implies \\frac{d^2 x}{dt^2} + \\omega^2 x = 0$$",
-    "$$\\mathbf{\\omega = \\sqrt{\\frac{k}{m}} \\quad [\\text{rad/s}]}$$",
-    "$$\\mathbf{T = \\frac{2\\pi}{\\omega} = 2\\pi \\sqrt{\\frac{m}{k}}}$$",
-    "$$\\mathbf{f = \\frac{1}{T} = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}} \\quad [\\text{Hz}]}$$",
-    "$$x(t) = A \\sin(\\omega t + \\phi)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-055",
-   "hash": "74e4aa84aa0f7706",
-   "question": "The equation of a transverse wave travelling along a string is y(x, t) = 4.0 sin[20 × 10 −3 x + 600t]mm , where x is in mm and t is in second. The velocity of the wave is :",
-   "options": [
-    "−60 m/s",
-    "−30 m/s",
-    "+30 m/s",
-    "+60 m/s"
+    "8",
+    "4"
    ],
    "correct": 1,
    "chapter": "Waves",
@@ -354,14 +1048,66 @@
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-056",
-   "hash": "e6f36f1618e67e90",
-   "question": "A closed organ and an open organ tube are filled by two different gases having same bulk modulus but different densities ρ and ρ , respectively. The frequency of 9 1 2 ′ th harmonic of closed tube is identical with 4 th harmonic of open tube. If the length of the closed tube is 10 cm and the density ratio of the gases is ρ : ρ = 1 : 16, then the 1 2 length of the open tube is :",
+   "id": "JEE-2025-ONLINE-APR-PHY-055",
+   "hash": "25cf8bcbffdb4365",
+   "question": "A sinusoidal wave of wavelength 7.5 cm travels a distance of 1.2 cm along the x -direction in 0.3 sec. The crest P is at x = 0 at t = 0sec and maximum displacement of the wave is 2 cm. Which equation correctly represents this wave ?",
    "options": [
-    "15 7 cm",
-    "20 7 cm",
-    "15 9 cm",
-    "20 9 cm"
+    "y = 2 cos(0.83x − 3.35t)cm",
+    "y = 2 sin(0.83x − 3.5t)cm",
+    "y = 2 cos(3.35x − 0.83t)cm",
+    "y = 2 cos(0.13x − 0.5t)cm"
+   ],
+   "correct": 0,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-056",
+   "hash": "e89fe809e3c640a1",
+   "question": "Displacement of a wave is expressed as x(t) = 5 cos(628t + π )m . The wavelength of the wave when its 2 velocity is 300 m/s is :",
+   "options": [
+    "5 m",
+    "3 m",
+    "0.5 m",
+    "0.33 m"
+   ],
+   "correct": 1,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-057",
+   "hash": "2da1154e6ced0911",
+   "question": "In the resonance experiment, two air columns (closed at one end) of 100 cm and 120 cm long, give 15 beats per second when each one is sounding in the respective fundamental modes. The velocity of sound in the air column is :",
+   "options": [
+    "335 m/s",
+    "370 m/s",
+    "340 m/s",
+    "360 m/s"
    ],
    "correct": 3,
    "chapter": "Waves",
@@ -380,16 +1126,16 @@
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-057",
-   "hash": "1b37c6f91ecd9416",
-   "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R Assertion A: A sound wave has higher speed in solids than gases. Reason R: Gases have higher value of Bulk modulus than solids. In the light of the above statements, choose the correct answer from the options given below",
+   "id": "JEE-2025-ONLINE-APR-PHY-058",
+   "hash": "71e25a89ebd0a971",
+   "question": "In an experiment with a closed organ pipe, it is filled with water by ( 1 ) th of its volume. The frequency of the 5 fundamental note will change by",
    "options": [
-    "Both A and R are true but R is NOT the correct explanation of A",
-    "A is true but R is false",
-    "A is false but R is true",
-    "Both A and R are true and R is the correct explanation of A"
+    "25%",
+    "20%",
+    "−20%",
+    "−25%"
    ],
-   "correct": 1,
+   "correct": 0,
    "chapter": "Waves",
    "topic": "Waves",
    "year": "2025",
@@ -406,14 +1152,66 @@
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-058",
-   "hash": "946dff146ae15434",
-   "question": "A gun fires a lead bullet of temperature 300 K into a wooden block. The bullet having melting temperature of 600 K penetrates into the block and melts down. If the total heat required for the process is 625 J, then the mass of the bullet is ________ grams. (Latent heat of fusion of lead = 2.5 × 10 JKg 4 −1 and specific heat capacity of lead = 125JKg −1 K −1 )",
+   "id": "JEE-2025-ONLINE-APR-PHY-059",
+   "hash": "56c14165a00c24a5",
+   "question": "Consider the sound wave travelling in ideal gases of He, CH , and CO . All the gases have the same ratio 4 2 P ρ , where P is the pressure and ρ is the density. The ratio of the speed of sound through the gases v He : vCH 4 : vCO 2 is given by",
    "options": [
-    "10",
-    "20",
-    "5",
-    "15"
+    "√ 7 5 4 : √ : √ 5 3 3",
+    "√ 5 4 7 : √ : √ 3 3 5",
+    "√ 5 4 4 : √ : √ 3 3 3",
+    "√ 4 3 : √ 5 3 : √ 7 5"
+   ],
+   "correct": 2,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-060",
+   "hash": "cf9d8f2301d599c1",
+   "question": "Two harmonic waves moving in the same direction superimpose to form a wave x = a cos(1.5t) cos(50.5t) where t is in seconds. Find the period with which they beat (close to nearest integer)",
+   "options": [
+    "6 s",
+    "4 s",
+    "1 s",
+    "2 s"
+   ],
+   "correct": 3,
+   "chapter": "Waves",
+   "topic": "Waves",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Wave Motion and String Waves",
+   "formulas": [
+    "$$y(0, t) = f(t)$$",
+    "$$y(x, t) = f\\left(t - \\frac{x}{v_w}\\right) = g(x - v_w t)$$",
+    "$$\\frac{\\partial y}{\\partial x} = f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial x^2} = f''(x - v t)$$",
+    "$$\\frac{\\partial y}{\\partial t} = -v f'(x - v t), \\quad \\frac{\\partial^2 y}{\\partial t^2} = v^2 f''(x - v t)$$",
+    "$$\\frac{\\partial^2 y}{\\partial x^2} = \\frac{1}{v^2} \\frac{\\partial^2 y}{\\partial t^2}$$",
+    "$$y(x, t) = A \\sin(\\omega t - k x + \\phi) \\quad \\text{or} \\quad y(x, t) = A \\sin(k x - \\omega t + \\phi)$$",
+    "$$k \\lambda = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-061",
+   "hash": "8a60ce06c725afa9",
+   "question": "Consider a rectangular sheet of solid material of length ℓ = 9 cm and width d = 4 cm. The coefficient of linear expansion is α = 3.1 × 10 −5 K −1 at room temperature and one atmospheric pressure. The mass of sheet m = 0.1 kg and the specific heat capacity C v = 900 J kg −1 K −1 . If the amount of heat supplied to the material is 8.1 × 10 2 J then change in area of the rectangular sheet is :-",
+   "options": [
+    "2.0 × 10 −6 m 2",
+    "3.0 × 10 −7 m 2",
+    "6.0 × 10 −7 m 2",
+    "4.0 × 10 −7 m 2"
    ],
    "correct": 0,
    "chapter": "Properties Of Matter",
@@ -424,32 +1222,14 @@
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-059",
-   "hash": "a3e5a7cc2bcf83d5",
-   "question": "Two spherical bodies of same materials having radii 0.2 m and 0.8 m are placed in same atmosphere. The temperature of the smaller body is 800 K and temperature of the bigger body is 400 K. If the energy radiated from the smaller body is E, the energy radiated from the bigger body is (assume, effect of the surrounding temperature to be negligible),",
+   "id": "JEE-2025-ONLINE-APR-PHY-062",
+   "hash": "eb625c72ba7b6f7f",
+   "question": "Water falls from a height of 200 m into a pool. Calculate the rise in temperature of the water assuming no heat dissipation from the water in the pool. ( Take g = 10 m/s , specific heat of water = 4200 J/(kgK)) 2",
    "options": [
-    "16 E",
-    "E",
-    "64 E",
-    "256 E"
-   ],
-   "correct": 1,
-   "chapter": "Properties Of Matter",
-   "topic": "Properties Of Matter",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-060",
-   "hash": "6697d563f52a7360",
-   "question": "A cup of coffee cools from 90 C to 80 C in t minutes when the room temperature is 20 C. The time taken by the ∘ ∘ ∘ similar cup of coffee to cool from 80 C to 60 C at the same room temperature is : ∘ ∘",
-   "options": [
-    "13 10 t",
-    "10 13 t",
-    "5 13 t",
-    "13 t 5"
+    "0.23 K",
+    "0.36 K",
+    "0.14 K",
+    "0.48 K"
    ],
    "correct": 3,
    "chapter": "Properties Of Matter",
@@ -460,945 +1240,133 @@
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-061",
-   "hash": "0ec112d487504209",
-   "question": "The temperature of a body in air falls from 40 C to 24 C in 4 minutes. The temperature of the air is 16 C. The ∘ ∘ ∘ temperature of the body in the next 4 minutes will be:",
+   "id": "JEE-2025-ONLINE-APR-PHY-063",
+   "hash": "06efdb84538c15a0",
+   "question": "Match List-I with List-II. List - I List - II (A) Isobaric (I) ΔQ = ΔW (B) ​ Isochoric ​ (II) ​ ΔQ = ΔU ​ ​ (C) Adiabatic (III) ΔQ = zero (D) Isothermal (IV) ΔQ = ΔU + P ΔV ΔQ = Heat supplied ΔW = Work done by the system ΔU = Change in internal energy P = Pressure of the system ΔV = Change in volume of the system Choose the correct answer from the options given below:",
    "options": [
-    "14 ∘ 3 C ∘",
-    "42 3 C",
-    "28 ∘ 3 C",
-    "56 ∘ 3 C"
-   ],
-   "correct": 3,
-   "chapter": "Properties Of Matter",
-   "topic": "Properties Of Matter",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-062",
-   "hash": "8afe3b00ae740e81",
-   "question": "Given are statements for certain thermodynamic variables, (A) Internal energy, volume (V) and mass (M) are extensive variables. (B) Pressure (P), temperature (T) and density ( ρ) are intensive variables. (C) Volume (V), temperature (T) and density ( ρ) are intensive variables. (D) Mass (M), temperature (T) and internal energy are extensive variables. Choose the correct answer from the options given below :",
-   "options": [
-    "(B) and (C) Only",
-    "(C) and (D) Only",
-    "(D) and (A) Only",
-    "(A) and (B) Only"
-   ],
-   "correct": 3,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-063",
-   "hash": "633814ad15d09039",
-   "question": "An ideal gas goes from an initial state to final state. During the process, the pressure of gas increases linearly with temperature. A. The work done by gas during the process is zero. B. The heat added to gas is different from change in its internal energy. C. The volume of the gas is increased. D. The internal energy of the gas is increased. E. The process is isochoric (constant volume process) Choose the correct answer from the options given below:",
-   "options": [
-    "E Only",
-    "A, B, C, D Only",
-    "A, D, E Only",
-    "A, C Only"
-   ],
-   "correct": 2,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-064",
-   "hash": "f5478f9a07b876f0",
-   "question": "Given below are two statements. One is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : In an insulated container, a gas is adiabatically shrunk to half of its initial volume. The temperature of the gas decreases. Reason (R): Free expansion of an ideal gas is an irreversible and an adiabatic process. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
-    "(A) is false but (R) is true",
-    "(A) is true but (R) is false",
-    "Both (A) and (R) are true and (R) is the correct explanation of (A)"
-   ],
-   "correct": 1,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-065",
-   "hash": "b526946151095ed7",
-   "question": "For a diatomic gas, if γ = (1 Cp ) for rigid molecules and γ = ( 2 Cp ) for another diatomic molecules, but also Cv Cv having vibrational modes. Then, which one of the following options is correct ? (Cp and Cv are specific heats of the gas at constant pressure and volume)",
-   "options": [
-    "γ = γ 2 1",
-    "2γ = γ2 1",
-    "γ < γ 2 1",
-    "γ > γ 2 1"
-   ],
-   "correct": 2,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-066",
-   "hash": "ed109a336913a646",
-   "question": "Using the given P − V diagram, the work done by an ideal gas along the path ABCD is :",
-   "options": [
-    "3P V 0 0",
-    "−4P V 0 0",
-    "−3P V 0 0",
-    "4P V 0 0"
-   ],
-   "correct": 2,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-067",
-   "hash": "985ed9ad8a400cef",
-   "question": "The workdone in an adiabatic change in an ideal gas depends upon only :",
-   "options": [
-    "change in its temperature",
-    "change in its volume",
-    "change in its pressure",
-    "change in its specific heat"
-   ],
-   "correct": 0,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-069",
-   "hash": "60820ec0d2313c1f",
-   "question": "Water of mass m gram is slowly heated to increase the temperature from T to T The change in entropy of the 1 2 water, given specific heat of water is 1Jkg −1 K −1 , is :",
-   "options": [
-    "m ln( T2 ) T1",
-    "zero T1",
-    "m ln( T2 )",
-    "m (T − T ) 2 1"
-   ],
-   "correct": 0,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-070",
-   "hash": "08578903270eafb1",
-   "question": "A poly-atomic molecule ( C V = 3R, CP = 4R , where R is gas constant) goes from phase space point A (PA = 10 5 Pa, VA = 4 × 10 −6 3 m ) to point B (P B = 5 × 10 4 Pa, VB = 6 × 10 −6 3 m ) to point C (PC = 10 4 Pa, VC = 8 × 10 −6 3 m ) . A to B is an adiabatic path and B to C is an isothermal path. The net heat absorbed per unit mole by the system is :",
-   "options": [
-    "500R(ln 3 + ln 4)",
-    "450R(ln 4 − ln 3)",
-    "500R ln 2",
-    "400R ln 4"
-   ],
-   "correct": 1,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-071",
-   "hash": "7c0d4a2340b57bbf",
-   "question": "The ratio of vapour densities of two gases at the same temperature is 4 25 , then the ratio of r.m.s. velocities will be:",
-   "options": [
-    "25 4",
-    "2 5",
-    "5 2",
-    "4 25"
-   ],
-   "correct": 2,
-   "chapter": "Kinetic Theory of Gases",
-   "topic": "Kinetic Theory of Gases",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Kinetic Theory of Gases",
-   "formulas": [
-    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
-    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
-    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
-    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
-    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
-    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
-    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-072",
-   "hash": "c4a585e22aa6e3e8",
-   "question": "The kinetic energy of translation of the molecules in 50 g of CO gas at 17 C is 2 ∘",
-   "options": [
-    "4205.5 J",
-    "4102.8 J",
-    "3582.7 J",
-    "3986.3 J"
-   ],
-   "correct": 1,
-   "chapter": "Kinetic Theory of Gases",
-   "topic": "Kinetic Theory of Gases",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Kinetic Theory of Gases",
-   "formulas": [
-    "$$\\Delta p_x = (-m v_x) - (m v_x) = -2 m v_x$$",
-    "$$F_x = \\frac{\\Delta p}{\\Delta t} = \\frac{2 m v_x}{2L / v_x} = \\frac{m v_x^2}{L}$$",
-    "$$P = \\frac{\\sum F_x}{L^2} = \\frac{m}{L^3}\\sum v_x^2 = \\frac{m N}{V}\\left(\\frac{1}{3} v_{rms}^2\\right)$$",
-    "$$P = \\frac{1}{3} \\rho v_{rms}^2 = \\frac{1}{3} \\frac{M_{total}}{V} v_{rms}^2$$",
-    "$$P V = \\frac{1}{3} N m v_{rms}^2 = N k_B T \\implies \\frac{1}{2} m v_{rms}^2 = \\frac{3}{2} k_B T$$",
-    "$$\\bar{E}{trans} = \\frac{1}{2} m v{rms}^2 = \\frac{3}{2} k_B T$$",
-    "$$E_{mole} = \\frac{3}{2} N_A k_B T = \\frac{3}{2} R T$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-073",
-   "hash": "1bb16da91e23a8cf",
-   "question": "For a short dipole placed at origin O, the dipole moment P is along x-axis, as shown in the figure. If the electric potential and electric field at A are V and E , respectively, then the correct combination of the electric potential 0 0 and electric field, respectively, at point B on the y-axis is given by E0",
-   "options": [
-    "V and 0 4 E0",
-    "zero and 16 E0",
-    "zero and 8 V0 E0",
-    "2 and 16"
-   ],
-   "correct": 1,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-074",
-   "hash": "22104b0923d5911b",
-   "question": "A point charge causes an electric flux of −2 × 10 Nm C 4 2 −1 to pass through a spherical Gaussian surface of 8.0 cm radius, centred on the charge. The value of the point charge is : (Given ϵ = 8.85 × 10 0 −12 C 2 N −1 m −2 )",
-   "options": [
-    "15.7 × 10 −8 C",
-    "17.7 × 10 −8 C",
-    "−15.7 × 10 −8 C",
-    "−17.7 × 10 −8 C"
-   ],
-   "correct": 3,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-075",
-   "hash": "1f10e1baa327f968",
-   "question": "A small uncharged conducting sphere is placed in contact with an identical sphere but having 4 × 10 −8 C charge and then removed to a distance such that the force of repulsion between them is 9 × 10 −3 N . The distance between them is (Take 1 4πϵo as 9 × 10 in SI units) 9",
-   "options": [
-    "3 cm",
-    "2 cm",
-    "4 cm",
-    "1 cm"
-   ],
-   "correct": 1,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-076",
-   "hash": "9e2b150051593887",
-   "question": "An electron is made to enter symmetrically between two parallel and equally but oppositely charged metal plates, each of 10 cm length. The electron emerges out of the electric field region with a horizontal component of velocity 10 m/s. If the magnitude of the electric field between the plates is 9.1 V/cm, then the vertical 6 component of velocity of electron is (mass of electron = 9.1 × 10 −31 kg and charge of electron = 1.6 × 10 −19 C )",
-   "options": [
-    "0",
-    "1 × 10 m/s 6",
-    "16 × 10 m/s 6",
-    "16 × 10 m/s 4"
-   ],
-   "correct": 2,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-077",
-   "hash": "2367d5c4f11c0cd0",
-   "question": "Match List - I with List - II. List - I List - II Electric field inside (distancer > 0 from center) of a uniformly charged (A) (I) σ/ϵ 0 spherical shell with ​ ​ ​ surface charge density σ, and radius R. Electric field at distancer > 0 from a uniformly (B) (II)σ/2ϵ 0 charged infinite plane ​ ​ sheet with surface charge densityσ. ​ ​ Electric field outside (distance r > 0 from center) of a uniformly charged (C) (III)0 spherical shell with ​ surface charge density σ, and radius R. Electric field between 2oppositely charged 2 (D) infinite plane parallel ​ (IV) ϵσR 0 r 2 ​ sheets with uniform ​ surface charge density σ. Choose the correct answer from the options given below :",
-   "options": [
-    "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
+    "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+    "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)",
     "(A)-(IV), (B)-(II), (C)-(III), (D)-(I)",
-    "(A)-(II), (B)-(I), (C)-(IV), (D)-(III)",
-    "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)"
-   ],
-   "correct": 0,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-078",
-   "hash": "12f2b55b52d1f901",
-   "question": "Two point charges −4μc and 4μc, constituting an electric dipole, are placed at (−9, 0, 0)cm and (9, 0, 0)cm in a uniform electric field of strength 10 NC . The work done on the dipole in rotating it from the equilibrium 4 −1 through 180 is : ∘",
-   "options": [
-    "18.4 mJ",
-    "14.4 mJ",
-    "12.4 mJ",
-    "16.4 mJ"
-   ],
-   "correct": 1,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-079",
-   "hash": "2427b65e66b3e1eb",
-   "question": "An electric dipole of mass m, charge q, and length l is placed in a uniform electric field E = E 0 ^ i . When the ​ dipole is rotated slightly from its equilibrium position and released, the time period of its oscillations will be: 1 ml",
-   "options": [
-    "2π ​ 2qE 0 ​ ​ ​ ml",
-    "2π qE 0 ​ ​ ​ 1 2 ml",
-    "2π ​ qE 0 ​ ​ ​ ml",
-    "2π 2qE 0 ​ ​ ​"
-   ],
-   "correct": 3,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-080",
-   "hash": "61c385f5573b5dc7",
-   "question": "A line charge of length ' a ' 2 is kept at the center of an edge BC of a cube ABCDEF GH having edge length ' a ' as shown in the figure. If the density of line charge is λ C per unit length, then the total electric flux through all the faces of the cube will be ________. (Take, ϵ as the free space permittivity) 0",
-   "options": [
-    "λa 2ϵ0",
-    "λa 4ϵ0",
-    "λa 16ϵ0",
-    "λa 8ϵ0"
-   ],
-   "correct": 3,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-081",
-   "hash": "51c0a623f8d8d7fb",
-   "question": "In the first configuration",
-   "options": [
-    "as shown in the figure, four identical charges (q 0 ) are kept at the corners A, B, C ​ and D of square of side length 'a'. In the second configuration",
-    ", the same charges are shifted to mid points G, E, H and F, of the square, If K = 4πε1 0 , the difference between the potential energies of configuration",
-    "​ ​ and",
-    "is given by : Kq 20"
-   ],
-   "correct": 3,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-082",
-   "hash": "e59dc61f0c3881f6",
-   "question": "Three infinitely long wires with linear charge density λ are placed along the x − axis, y-axis and z− axis respectively. Which of the following denotes an equipotential surface?",
-   "options": [
-    "xyz = constant",
-    "xy + yz + zx = constant",
-    "(x + y ) (y + z ) (z + x ) = constant 2 2 2 2 2 2",
-    "(x + y)(y + z)(z + x) = constant"
+    "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)"
    ],
    "correct": 2,
-   "chapter": "Electrostatics",
-   "topic": "Electrostatics",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
    "year": "2025",
    "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
    "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
    ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-083",
-   "hash": "54babbb1611d258f",
-   "question": "Two capacitors C and C are connected in parallel to a battery. Charge-time graph is shown below for the two 1 2 capacitors. The energy stored with them are U and U , respectively. Which of the given statements is true? 1 2",
+   "id": "JEE-2025-ONLINE-APR-PHY-064",
+   "hash": "c7fa2f60228ecd48",
+   "question": "There are two vessels filled with an ideal gas where volume of one is double the volume of other. The large vessel contains the gas at 8 kPa at 1000 K while the smaller vessel contains the gas at 7 kPa at 500 K. If the vessels are connected to each other by a thin tube allowing the gas to flow and the temperature of both vessels is maintained at 600 K , at steady state the pressure in the vessels will be (in kPa).",
    "options": [
-    "C > C , U < U 2 1 2 1",
-    "C > C , U > U 1 2 1 2",
-    "C > C , U < U 1 2 1 2",
-    "C > C , U > U 2 1 2 1"
-   ],
-   "correct": 3,
-   "chapter": "Capacitance",
-   "topic": "Capacitance",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-084",
-   "hash": "4f2952b0ddbdd064",
-   "question": "A parallel-plate capacitor of capacitance 40μ F is connected to a 100 V power supply. Now the intermediate space between the plates is filled with a dielectric material of dielectric constant K = 2. Due to the introduction of dielectric material, the extra charge and the change in the electrostatic energy in the capacitor, respectively, are",
-   "options": [
-    "4 mC and 0.2 J",
-    "8 mC and 2.0 J",
-    "2 mC and 0.4 J",
-    "2 mC and 0.2 J"
-   ],
-   "correct": 0,
-   "chapter": "Capacitance",
-   "topic": "Capacitance",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-085",
-   "hash": "17aa2513cea65563",
-   "question": "A parallel plate capacitor of capacitance 1μ F is charged to a potential difference of 20 V. The distance between plates is 1μ m. The energy density between plates of capacitor is.",
-   "options": [
-    "2 × 10 −4 J/m 3",
-    "1.8 × 10 J/m 5 3",
-    "1.8 × 10 J/m 3 3",
-    "2 × 10 J/m 2 3"
-   ],
-   "correct": 2,
-   "chapter": "Capacitance",
-   "topic": "Capacitance",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-086",
-   "hash": "ac086649776a0961",
-   "question": "Identify the valid statements relevant to the given circuit at the instant when the key is closed. A. There will be no current through resistor R. B. There will be maximum current in the connecting wires. C. Potential difference between the capacitor plates A and B is minimum. D. Charge on the capacitor plates is minimum. Choose the correct answer from the options given below:",
-   "options": [
-    "A, C Only",
-    "A, B, D Only",
-    "C, D Only",
-    "B, C, D Only"
-   ],
-   "correct": 3,
-   "chapter": "Capacitance",
-   "topic": "Capacitance",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-087",
-   "hash": "c16c43f1c76131da",
-   "question": "A capacitor, C = 6μ F is charged to a potential difference of V = 5 V using a 5 V battery. The battery is 1 0 removed and another capacitor, C = 12μ F is inserted in place of the battery. When the switch 'S' is closed, the 2 charge flows between the capacitors for some time until equilibrium condition is reached. What are the charges (q1 and q ) on the capacitors C and C when equilibrium condition is reached. 2 1 2",
-   "options": [
-    "q = 10μC, q = 20μC 1 2",
-    "q = 30μC, q = 15μC 1 2",
-    "q = 20μC, q = 10μC 1 2",
-    "q = 15μC, q = 30μC 1 2"
-   ],
-   "correct": 0,
-   "chapter": "Capacitance",
-   "topic": "Capacitance",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Electrostatics and Capacitance",
-   "formulas": [
-    "$$q = \\pm n e \\quad (n = 1, 2, 3, \\dots)$$",
-    "$$\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12} = \\frac{k q_1 q_2}{r^3} \\vec{r}_{12}$$",
-    "$$k = \\frac{1}{4\\pi\\varepsilon_0} \\approx 8.98755 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2 \\approx 9 \\times 10^9\\text{ N}\\cdot\\text{m}^2/\\text{C}^2$$",
-    "$$\\varepsilon_0 = 8.854 \\times 10^{-12}\\text{ C}^2/(\\text{N}\\cdot\\text{m}^2) = 8.854 \\times 10^{-12}\\text{ F/m}$$",
-    "$$F_{\\text{medium}} = \\frac{F_{\\text{vacuum}}}{K} = \\frac{1}{4\\pi\\varepsilon_0 K} \\frac{q_1 q_2}{r^2}$$",
-    "$$\\vec{F}_{\\text{net}} = \\sum_{i=1}^N \\vec{F}_i$$",
-    "$$\\vec{E} = \\lim_{q_0 \\to 0} \\frac{\\vec{F}}{q_0}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-088",
-   "hash": "b3fc18e3ef48008c",
-   "question": "The difference of temperature in a material can convert heat energy into electrical energy. To harvest the heat energy, the material should have",
-   "options": [
-    "high thermal conductivity and high electrical conductivity",
-    "low thermal conductivity and low electrical conductivity",
-    "high thermal conductivity and low electrical conductivity",
-    "low thermal conductivity and high electrical conductivity"
-   ],
-   "correct": 3,
-   "chapter": "Current-Electricity",
-   "topic": "Current-Electricity",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-089",
-   "hash": "cc620aebbc30a181",
-   "question": "Find the equivalent resistance between two ends of the following circuit",
-   "options": [
-    "r 9",
-    "r 3",
-    "r",
-    "r 6"
-   ],
-   "correct": 0,
-   "chapter": "Current-Electricity",
-   "topic": "Current-Electricity",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-090",
-   "hash": "37b2a5232d3b37d8",
-   "question": "What is the current through the battery in the circuit shown below",
-   "options": [
-    "1.5 A",
-    "0.5 A",
-    "0.25 A",
-    "1.0 A"
+    "4.4",
+    "6",
+    "24",
+    "18"
    ],
    "correct": 1,
-   "chapter": "Current-Electricity",
-   "topic": "Current-Electricity",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
    "year": "2025",
    "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-091",
-   "hash": "5fb1527b1445e273",
-   "question": "A wire of resistance R is bent into an equilateral triangle and an identical wire is bent into a square. The ratio of resistance between the two end points of an edge of the triangle to that of the square is Options",
+   "id": "JEE-2025-ONLINE-APR-PHY-065",
+   "hash": "f5bd587b16af50d3",
+   "question": "During the melting of a slab of ice at 273 K at atmospheric pressure :",
    "options": [
-    "8/9",
-    "27/32",
-    "32/27",
-    "9/8"
+    "Internal energy of ice-water system remains unchanged.",
+    "Positive work is done by the ice-water system on the atmosphere.",
+    "Internal energy of the ice-water system decreases.",
+    "Positive work is done on the ice-water system by the atmosphere."
+   ],
+   "correct": 3,
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "year": "2025",
+   "subject": "Physics",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
+  },
+  {
+   "id": "JEE-2025-ONLINE-APR-PHY-066",
+   "hash": "eac1ab6c52ea7465",
+   "question": "In an adiabatic process, which of the following statements is true?",
+   "options": [
+    "The molar heat capacity is infinite",
+    "Work done by the gas equals the increase in internal energy",
+    "The molar heat capacity is zero",
+    "The internal energy of the gas decreases as the temperature increases"
    ],
    "correct": 2,
-   "chapter": "Current-Electricity",
-   "topic": "Current-Electricity",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
    "year": "2025",
    "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
+   "formulas": [
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
+   ]
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-PHY-092",
-   "hash": "f6df3567087b1602",
-   "question": "Given below are two statements : Statement-I : The equivalent emf of two nonideal batteries connected in parallel is smaller than either of the two emfs. Statement-II : The equivalent internal resistance of two nonideal batteries connected in parallel is smaller than the internal resistance of either of the two batteries. In the light of the above statements, choose the correct answer from the options given below.",
+   "id": "JEE-2025-ONLINE-APR-PHY-067",
+   "hash": "53b0c0d625345fa7",
+   "question": "Identify the characteristics of an adiabatic process in a monoatomic gas. (A) Internal energy is constant. (B) Work done in the process is equal to the charge in internal energy. (C) The product of temperature and volume is a constant. (D) The product of pressure and volume is a constant. (E) The work done to change the temperature from T to T is proportional to (T − T ) 1 2 2 1 Choose the correct answer from the options given below :",
    "options": [
-    "Both Statement-I and Statement-II are false",
-    "Statement-I is false but Statement-II is true",
-    "Both Statement-I and Statement-II are true",
-    "Statement-I is true but Statement-II is false"
-   ],
-   "correct": 1,
-   "chapter": "Current-Electricity",
-   "topic": "Current-Electricity",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-093",
-   "hash": "224b94bf77186055",
-   "question": "Sliding contact of a potentiometer is in the middle of the potentiometer wire having resistance R = 1Ω as p shown in the figure. An external resistance of R = 2Ω is connected via the sliding contact. The electric current e in the circuit is :",
-   "options": [
-    "0.9 A",
-    "1.35 A",
-    "0.3 A",
-    "1.0 A"
-   ],
-   "correct": 3,
-   "chapter": "Current-Electricity",
-   "topic": "Current-Electricity",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-094",
-   "hash": "1712b1a5a37f21a0",
-   "question": "A galvanometer having a coil of resistance 30Ω need 20 mA of current for full-scale deflection. If a maximum current of 3 A is to be measured using this galvanometer, the resistance of the shunt to be added to the galvanometer should be 30 X Ω , where X is Options",
-   "options": [
-    "596",
-    "149",
-    "298",
-    "447"
-   ],
-   "correct": 1,
-   "chapter": "Current-Electricity",
-   "topic": "Current-Electricity",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-095",
-   "hash": "a9422d634b79e660",
-   "question": "A bar magnet has total length 2l = 20 units and the field point P is at a distance d = 10 units from the centre of the magnet. If the relative uncertainty of length measurement is 1%, then uncertainty of the magnetic field at point P is :",
-   "options": [
-    "4%",
-    "15%",
-    "5%",
-    "10%"
-   ],
-   "correct": 0,
-   "chapter": "Magnetic-Properties-Of-Matter",
-   "topic": "Magnetic-Properties-Of-Matter",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-096",
-   "hash": "50c656a602f9fe9a",
-   "question": "Consider a long straight wire of a circular cross-section (radius a) carrying a steady current I. The current is uniformly distributed across this cross-section. The distances from the centre of the wire's cross-section at which the magnetic field [inside the wire, outside the wire] is half of the maximum possible magnetic field, any where due to the wire, will be",
-   "options": [
-    "[a/4, 3a/2]",
-    "[a/4, 2a]",
-    "[a/2, 2a]",
-    "[a/2, 3a]"
+    "(A), (C), (D) only",
+    "(A), (C), (E) only",
+    "(B), (E) only",
+    "(B), (D) only"
    ],
    "correct": 2,
-   "chapter": "Magnetic effects of current",
-   "topic": "Magnetic effects of current",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
    "year": "2025",
    "subject": "Physics",
-   "formula_sheet": "Magnetic Effects of Current and Magnetism",
+   "formula_sheet": "Kinetic Theory of Gases and Thermodynamics",
    "formulas": [
-    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
-    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
-    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
-    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-097",
-   "hash": "96b6d97c54d8bf5f",
-   "question": "An electron projected perpendicular to a uniform magnetic field B moves in a circle. If Bohr's quantization is applicable, then the radius of the electronic orbit in the first excited state is :",
-   "options": [
-    "√ h πeB",
-    "√ 2h πeB",
-    "√ 2πeB h",
-    "√ 4 h πeB"
-   ],
-   "correct": 0,
-   "chapter": "Magnetic effects of current",
-   "topic": "Magnetic effects of current",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Magnetic Effects of Current and Magnetism",
-   "formulas": [
-    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
-    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
-    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
-    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-098",
-   "hash": "9d583edab62d488d",
-   "question": "Consider a moving coil galvanomenter (MCG): A. The torsional constant in moving coil galvanometer has dimentions [ML T 2 −2 ] B. Increasing the current sensitivity may not necessarily increase the voltage sensitivity. C. If we increase number of turns (N) to its double (2 N), then the voltage sensitivity doubles. D. MCG can be converted into an ammeter by introducing a shunt resistance of large value in parallel with galvanometer. E. Current sensitivity of MCG depends inversely on number of turns of coil. Choose the correct answer from the options given below:",
-   "options": [
-    "A, D Only",
-    "A, B, E Only",
-    "B, D, E Only",
-    "A, B Only"
-   ],
-   "correct": 3,
-   "chapter": "Magnetic effects of current",
-   "topic": "Magnetic effects of current",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Magnetic Effects of Current and Magnetism",
-   "formulas": [
-    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
-    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
-    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
-    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-099",
-   "hash": "ceb0c78791181c40",
-   "question": "N equally spaced charges each of value q , are placed on a circle of radius R. The circle rotates about its axis with an angular velocity ω as shown in the figure. A bigger Amperian loop B encloses the whole circle where as a smaller Amperian loop A encloses a small segment. The difference between enclosed currents, I A − IB , for the given Amperian loops is",
-   "options": [
-    "2π qω N 2",
-    "N 2π qω",
-    "N π qω",
-    "N 2π qω"
-   ],
-   "correct": 3,
-   "chapter": "Magnetic effects of current",
-   "topic": "Magnetic effects of current",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Magnetic Effects of Current and Magnetism",
-   "formulas": [
-    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
-    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
-    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
-    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-PHY-100",
-   "hash": "ff482ebc77f26d11",
-   "question": "Consider a long thin conducting wire carrying a uniform current I. A particle having mass \" M \" and charge \" q \" is released at a distance \" a \" from the wire with a speed v along the direction of current in the wire. The 0 particle gets attracted to the wire due to magnetic force. The particle turns round when it is at distance x from the wire. The value of x is [ μ is vacuum permeability] 0 4πmvo −",
-   "options": [
-    "ae qμo I mvo",
-    "a [1 − 2qμo I ]",
-    "a [1 − mv ] qμo I",
-    "a 2"
-   ],
-   "correct": 0,
-   "chapter": "Magnetic effects of current",
-   "topic": "Magnetic effects of current",
-   "year": "2025",
-   "subject": "Physics",
-   "formula_sheet": "Magnetic Effects of Current and Magnetism",
-   "formulas": [
-    "$$d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\hat{r})}{r^2} = \\frac{\\mu_0}{4\\pi} \\frac{I (d\\vec{l} \\times \\vec{r})}{r^3}$$",
-    "$$\\frac{\\mu_0}{4\\pi} = 10^{-7}\\text{ T}\\cdot\\text{m/A} = 10^{-7}\\text{ Wb}/(\\text{A}\\cdot\\text{m})$$",
-    "$$\\mu_0 = 4\\pi \\times 10^{-7}\\text{ H/m}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d} (\\sin\\alpha_1 + \\sin\\alpha_2)$$",
-    "$$B = \\frac{\\mu_0 I}{2\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I}{4\\pi d}$$",
-    "$$B = \\frac{\\mu_0 I \\phi}{4\\pi R}$$"
+    "$$P V = n R T = N k_B T$$",
+    "$$\\mathbf{dQ = dU + dW \\iff \\Delta Q = \\Delta U + W}$$",
+    "$$\\ln P + \\gamma \\ln V = \\text{const} \\implies \\mathbf{P V^\\gamma = \\text{Constant}}$$",
+    "$$\\mathbf{\\eta_{\\text{Carnot}} = 1 - \\frac{Q_C}{Q_H} = 1 - \\frac{T_C}{T_H} = \\frac{T_H - T_C}{T_H}}$$",
+    "$$\\frac{2}{3}\\left(N \\cdot \\frac{1}{2}m v_{\\text{rms}}^2\\right) = N k_B T \\implies \\mathbf{\\bar{E}_{\\text{trans}} = \\frac{1}{2}m v_{\\text{rms}}^2 = \\frac{3}{2} k_B T}$$",
+    "$$\\mathbf{v_{\\text{rms}} = \\sqrt{\\frac{3 R T}{M}} = \\sqrt{\\frac{3 k_B T}{m}} = \\sqrt{\\frac{3 P}{\\rho}} \\approx 1.732 \\sqrt{\\frac{R T}{M}}}$$",
+    "$$\\mathbf{C_p - C_v = R \\implies C_p = C_v + R = \\left(\\frac{f}{2} + 1\\right) R = \\frac{f + 2}{2} R}$$"
    ]
   }
  ]

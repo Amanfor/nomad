@@ -2,1260 +2,1084 @@
  "batch": 24,
  "items": [
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-113",
-   "hash": "0b11e371692d13d1",
-   "question": "Propane molecule on chlorination under photochemical condition gives two di-chloro products, \" x \" and \" y \". Amongst \" x \" and \" y \", \" x \" is an optically active molecule. How many tri-chloro products (consider only structural isomers) will be obtained from \" x \" when it is further treated with chlorine under the photochemical condition?",
+   "id": "JEE-2025-ONLINE-JAN-MTH-048",
+   "hash": "f584d71dc0d4a631",
+   "question": "sin x ∣a + 1 b ∣ x ∣ ∣ For some a, b, let f (x) = ∣ a 1 + sin x x b ∣ , x ≠ 0, lim x→0 f (x) = λ + μa + νb . Then ∣ ∣ sin x ∣ a 1 b + ∣ x (λ + μ + ν) 2 is equal to :",
    "options": [
-    "2",
-    "5",
-    "4",
-    "3"
+    "16",
+    "25",
+    "9",
+    "36"
    ],
    "correct": 3,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-114",
-   "hash": "8344b0b71568ad10",
-   "question": "Given below are two statements : Statement (I) : Nitrogen, sulphur, halogen and phosphorus present in an organic compound are detected by Lassaigne's Test. Statement (II) : The elements present in the compound are converted from covalent form into ionic form by fusing the compound with Magnesium in Lassaigne's test. In the light of the above statements, choose the correct anower from the options given below :",
-   "options": [
-    "Statement I is false but Statement II is true",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II are false",
-    "Statement I is true but Statement II is false"
-   ],
-   "correct": 3,
-   "chapter": "Organic Chemistry",
-   "topic": "Organic Chemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Purification and Characterisation of Organic Compounds",
-   "formulas": [
-    "$$P_{total} = p_{\\text{organic}} + p_{\\text{H}_2\\text{O}} = P_{atm} \\approx 760\\text{ mm Hg}$$",
-    "$$\\frac{w_{\\text{organic}}}{w_{\\text{H}_2\\text{O}}} = \\frac{p_{\\text{organic}} \\times M_{\\text{organic}}}{p_{\\text{H}_2\\text{O}} \\times M_{\\text{H}_2\\text{O}}}$$",
-    "$$K_D = \\frac{C_{\\text{organic}}}{C_{\\text{aqueous}}}$$",
-    "$$w_n = w \\left( \\frac{V}{K_D V_1 + V} \\right)^n$$",
-    "$$R_f = \\frac{\\text{Distance moved by the substance from origin baseline } (d_x)}{\\text{Distance moved by the solvent front from origin baseline } (d_{\\text{solvent}})}$$",
-    "$$\\text{Na} + \\text{X} \\xrightarrow{\\Delta} \\text{NaX} \\quad (\\text{X} = \\text{Cl, Br, I})$$",
-    "$$\\%\\text{C} = \\frac{12}{44} \\times \\frac{\\text{Mass of } \\text{CO}_2 \\text{ produced } (m_{\\text{CO}_2})}{\\text{Mass of organic compound } (m)} \\times 100$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-115",
-   "hash": "85c9c7d2e0e3e58e",
-   "question": "The alkane from below having two secondary hydrogens is :",
-   "options": [
-    "4 - Ethyl-3,4-dimethyloctane",
-    "2,2,4,4-Tetramethylhexane",
-    "2, 2, 3, 3-Tetramethylpentane",
-    "2, 2, 4, 5-Tetramethylheptane"
-   ],
-   "correct": 1,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-116",
-   "hash": "34fb802269572a4f",
-   "question": "Match the LIST-I with LIST-II Choose the correct answer from the options given below:",
+   "id": "JEE-2025-ONLINE-JAN-MTH-049",
+   "hash": "eb4dbf3440f95ef1",
+   "question": "If the system of equations x + 2y − 3z = 2 2x + λy + 5z = 5 14x + 3y + μz = 33 has infinitely many solutions, then λ + μ is equal to :",
    "options": [
-    "A-II, B-I, C-III, D-IV",
-    "A-II, B-III, C-I, D-IV",
-    "A-IV, B-I, C-III, D-II",
-    "A-IV, B-III, C-I, D-II"
-   ],
-   "correct": 3,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-117",
-   "hash": "4010007463ecdbb0",
-   "question": "Following are the four molecules \"P\", \"Q\", \"R\" and \"S\". Which one among the four molecules will react with H − Br (aq) at the fastest rate?",
-   "options": [
-    "R",
-    "P",
-    "Q",
-    "S"
-   ],
-   "correct": 2,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-118",
-   "hash": "a40c5df1e9ce8347",
-   "question": "Given below are two statements : Statement (I) : On nitration of m-xylene with HNO , H SO followed by oxidation, 4-nitrobenzene-1,3- 3 2 4 dicarboxylic acid is obtained as the major product. Statement (II) : −CH group is o/p-directing while −NO group is m-directing group. 3 2 In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Both Statement I and Statement II are false",
-    "Statement I is false but Statement II is true",
-    "Statement I is true but Statement II is false",
-    "Both Statement I and Statement II are true"
-   ],
-   "correct": 3,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-119",
-   "hash": "f842648e09f3b112",
-   "question": "Given below are two statements : Statement I : One mole of propyne reacts with excess of sodium to liberate half a mole of H gas. 2 Statement II : Four g of propyne reacts with NaNH to liberate NH gas which occupies 224 mL at STP. 2 3 In the light of the above statements, choose the most appropriate answer from the options given below:",
-   "options": [
-    "Statement I is incorrect but Statement II is correct",
-    "Both Statement I and Statement II are correct",
-    "Statement I is correct but Statement II is incorrect",
-    "Both Statement I and Statement II are incorrect"
-   ],
-   "correct": 2,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-120",
-   "hash": "93c0835ae35c2a6f",
-   "question": "The major product of the following reaction is :",
-   "options": [
-    "2-Phenylhepta-2,5-diene",
-    "6-Phenylhepta-2,4-diene",
-    "6-Phenylhepta-3,5-diene",
-    "2-Phenylhepta-2,4-diene"
-   ],
-   "correct": 3,
-   "chapter": "Hydrocarbons",
-   "topic": "Hydrocarbons",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-121",
-   "hash": "c0270d8da1047da2",
-   "question": "Given below are two statements : Statement I : CH − O − CH − Cl will undergo S 1 reaction though it is a primary halide. 3 2 N Statement II : will not undergo S 2 reaction very easily though it is a primary halide. N In the light of the above statements, choose the most appropriate answer from the options given below :",
-   "options": [
-    "Both Statement I and Statement II are incorrect",
-    "Both Statement I and Statement II are correct",
-    "Statement I is incorrect but Statement II is correct",
-    "Statement I is correct but Statement II is incorrect"
-   ],
-   "correct": 1,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-122",
-   "hash": "ac0e47132356f2a5",
-   "question": "Given below are two statements: Statement I: The conversion proceeds well in the less polar medium. − HO (−) CH3 − CH2 − CH2 − CH2 − Cl −− −→ CH3 − CH2 − CH2 − CH2 − OH + Cl Statement II: The conversion proceeds well in the more polar medium. In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Both Statement I and Statement II are true",
-    "Statement I is true but Statement II is false",
-    "Statement I is false but Statement II is true",
-    "Both Statement I and Statement II are false"
+    "13",
+    "10",
+    "12",
+    "11"
    ],
    "correct": 0,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-123",
-   "hash": "4a3dfdb9a9d5a2ca",
-   "question": "Given below are two statements: involving lone pair of electrons on nitrogen. In the light of the above statements, choose the most appropriate answer from the options given below",
+   "id": "JEE-2025-ONLINE-JAN-MTH-050",
+   "hash": "bc5190f7a888ddfc",
+   "question": "Let α, β(α ≠ β) be the values of m , for which the equations x + y + z = 1; x + 2y + 4z = m and x + 4y + 10z = m 2 have infinitely many solutions. Then the value of ∑ 10 n=1 (n α β + n ) is equal to :",
    "options": [
-    "Statement I is incorrect but Statement II is correct",
-    "Statement I is correct but Statement II is incorrect",
-    "Both Statement I and Statement II are correct",
-    "Both Statement I and Statement II are incorrect"
-   ],
-   "correct": 2,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-124",
-   "hash": "ca9cb4c7bb8f4257",
-   "question": "The ascending order of relative rate of solvolysis of following compounds is :",
-   "options": [
-    "(C) < (B) < (A) < (D)",
-    "(D) < (A) < (B) < (C)",
-    "(D) < (B) < (A) < (C)",
-    "(C) < (D) < (B) < (A)"
+    "3080",
+    "560",
+    "3410",
+    "440 Probability Chapter-wise Question Bank JEE Main 2025 January MathonGo"
    ],
    "correct": 1,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-125",
-   "hash": "27c9f32c02a8bd35",
-   "question": "The maximum number of RBr producing 2-methylbutane by above sequence of reactions is ________ - (Consider the structural isomers only)",
+   "id": "JEE-2025-ONLINE-JAN-MTH-051",
+   "hash": "b7be59a8d4dd1ee7",
+   "question": "Let A = [a ] be a square matrix of order 2 with entries either 0 or 1 . Let E be the event that A is an invertible ij matrix. Then the probability P(E) is :",
    "options": [
-    "5",
+    "3 16",
+    "5 8",
+    "3 8",
+    "1 8"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-052",
+   "hash": "cff9076ca3338bc5",
+   "question": "Let S be the set of all the words that can be formed by arranging all the letters of the word GARDEN. From the set S, one word is selected at random. The probability that the selected word will NOT have vowels in alphabetical order is :",
+   "options": [
+    "1 2",
+    "1 4",
+    "2 3",
+    "1 3"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-053",
+   "hash": "42259ea17e5fa67b",
+   "question": "Two balls are selected at random one by one without replacement from a bag containing 4 white and 6 black balls. If the probability that the first selected ball is black, given that the second selected ball is also black, is m n , where gcd(m, n) = 1, then m + n is equal to :",
+   "options": [
     "4",
-    "3",
-    "1"
-   ],
-   "correct": 1,
-   "chapter": "Haloalkanes and Haloarenes",
-   "topic": "Haloalkanes and Haloarenes",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-126",
-   "hash": "3212330ad2c5901a",
-   "question": "What amount of bromine will be required to convert 2 g of phenol into 2,4,6-tribromophenol? (Given molar mass in gmol −1 of C, H, O, Br are 12, 1, 16, 80 respectively)",
-   "options": [
-    "20.44 g",
-    "4.0 g",
-    "6.0 g",
-    "10.22"
-   ],
-   "correct": 3,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-127",
-   "hash": "eb4c8d60c16728fa",
-   "question": "Given below are two statements : Statement (I) : The boiling points of alcohols and phenols increase with increase in the number of C-atoms. Statement (II) : The boiling points of alcohols and phenols are higher in comparison to other class of compounds such as ethers, haloalkanes. In the light of the above statements, choose the correct answer from the options given below :",
-   "options": [
-    "Both Statement I and Statement II are false",
-    "Both Statement I and Statement II are true",
-    "Statement I is false but Statement II is true",
-    "Statement I is true but Statement II is false"
-   ],
-   "correct": 1,
-   "chapter": "Alcohols, Phenols and Ethers",
-   "topic": "Alcohols, Phenols and Ethers",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-128",
-   "hash": "8bf7e50798489879",
-   "question": "Which of the following arrangements with respect to their reactivity in nucleophilic addition reaction is correct?",
-   "options": [
-    "acetophenone < benzaldehyde < p-tolualdehyde < p- nitrobenzaldehyde",
-    "benzaldehyde < acetophenone < p- nitrobenzaldehyde < p-tolualdehyde",
-    "p- nitrobenzaldehyde < benzaldehyde < p-tolualdehyde < acetophenone",
-    "acetophenone < p-tolualdehyde < benzaldehyde < p- nitrobenzaldehyde"
-   ],
-   "correct": 3,
-   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-129",
-   "hash": "efd904196522b6ab",
-   "question": "Choose the correct answer from the options given below :",
-   "options": [
-    "(A)-(I), (B)-(IV), (C)-(III), (D)-(II)",
-    "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
-    "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)",
-    "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)"
-   ],
-   "correct": 2,
-   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-131",
-   "hash": "d5a2d88314fe35fa",
-   "question": "The compounds which give positive Fehling's test are : (A) (B) (C)HOCH − CO − (CHOH) − CH − OH 2 3 2 (D) (E) Choose the correct answer from the options given below :",
-   "options": [
-    "(A), (D) and (E) Only",
-    "(C), (D) and (E) Only",
-    "(A), (C) and (D) Only",
-    "(A), (B) and (C) Only"
-   ],
-   "correct": 1,
-   "chapter": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "topic": "Preparation-Methods-For-Both-Aldehydes-And-Ketones",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-132",
-   "hash": "5f67d839d6fc2ac3",
-   "question": "The compounds that produce CO with aqueous NaHCO solution are: 2 3 A. B. C. D. E. Choose the correct answer from the options given below:",
-   "options": [
-    "A, C and D Only",
-    "A, B and E Only",
-    "A and C Only",
-    "A and B Only"
+    "14",
+    "13",
+    "11 Probability Chapter-wise Question Bank JEE Main 2025 January MathonGo"
    ],
    "correct": 0,
-   "chapter": "Aldehydes-Ketones-And-Carboxylic-Acids",
-   "topic": "Aldehydes-Ketones-And-Carboxylic-Acids",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-133",
-   "hash": "bf577b2eb7816025",
-   "question": "The total number of compounds from below when treated with hot KMnO giving benzoic acid is : 4",
+   "id": "JEE-2025-ONLINE-JAN-MTH-055",
+   "hash": "7c730460f02907d3",
+   "question": "A and B alternately throw a pair of dice. A wins if he throws a sum of 5 before B throws a sum of 8 , and B wins if he throws a sum of 8 before A throws a sum of 5 . The probability, that A wins if A makes the first throw, is",
+   "options": [
+    "8 17",
+    "9 19",
+    "9 17 Probability Chapter-wise Question Bank JEE Main 2025 January MathonGo",
+    "8 19"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-056",
+   "hash": "cca03fe7f3447571",
+   "question": "If A and B are two events such that P (A ∩ B) = 0.1, and P (A ∣ B) and P (B ∣ A) are the roots of the equation ¯ ¯¯¯ ¯ ¯¯¯ P(A∪B) 12x 2 − 7x + 1 = 0 , then the value of ¯ ¯¯¯ ¯ ¯¯¯ is : P(A∩B)",
+   "options": [
+    "4 3",
+    "7 4",
+    "5 3",
+    "9 4"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-057",
+   "hash": "010542e17a4a5e2f",
+   "question": "Bag 1 contains 4 white balls and 5 black balls, and Bag 2 contains n white balls and 3 black balls. One ball is drawn randomly from Bag 1 and transferred to Bag 2. A ball is then drawn randomly from Bag 2. If the probability, that the ball drawn is white, is 29/45, then n is equal to :",
    "options": [
     "6",
     "3",
     "5",
     "4"
    ],
-   "correct": 2,
-   "chapter": "Aldehydes-Ketones-And-Carboxylic-Acids",
-   "topic": "Aldehydes-Ketones-And-Carboxylic-Acids",
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-134",
-   "hash": "52b259a3d0228c09",
-   "question": "Match the Compounds (List - I) with the appropriate Catalyst/Reagents (List - II) for their reduction into corresponding amines. Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-058",
+   "hash": "91794dc364c50dd0",
+   "question": "Let A = [a ] be a 2 × 2 matrix such that a ij ij ∈ {0, 1} for all i and j. Let the random variable X denote the possible values of the determinant of the matrix A. Then, the variance of X is :",
    "options": [
-    "(A)-(II), (B)-(I), (C)-(III), (D)-(IV)",
-    "(A)-(III), (B)-(II), (C)-(IV), (D)-(I)",
-    "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
-    "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+    "3 4",
+    "5 8",
+    "3 8",
+    "1 4 Probability Chapter-wise Question Bank JEE Main 2025 January MathonGo"
    ],
    "correct": 3,
-   "chapter": "Amines",
-   "topic": "Amines",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-135",
-   "hash": "1ac4666655f46648",
-   "question": "Which among the following react with Hinsberg's reagent? Choose the correct answer from the options given below:",
+   "id": "JEE-2025-ONLINE-JAN-MTH-059",
+   "hash": "85e323eba792ed08",
+   "question": "Three defective oranges are accidently mixed with seven good ones and on looking at them, it is not possible to differentiate between them. Two oranges are drawn at random from the lot. If x denote the number of defective oranges, then the variance of x is",
    "options": [
-    "A, B and E Only",
-    "A, C and E Only",
-    "C and D Only",
-    "B and D Only"
+    "28/75",
+    "18/25",
+    "26/75",
+    "14/25 Sets and Relations Chapter-wise Question Bank JEE Main 2025 January MathonGo"
    ],
    "correct": 1,
-   "chapter": "Amines",
-   "topic": "Amines",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-136",
-   "hash": "3f38d230ee06dfb2",
-   "question": "Identify correct statements : (A) Primary amines do not give diazonium salts when treated with NaNO in acidic condition. 2 (B) Aliphatic and aromatic primary amines on heating with CHCl and ethanolic KOH form carbylamines. 3 (C) Secondary and tertiary amines also give carbylamine test. (D) Benzenesulfonyl chloride is known as Hinsberg's reagent. (E) Tertiary amines reacts with benzenesulfonyl chloride very easily. Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-060",
+   "hash": "573c2be9a4fac7d0",
+   "question": "The number of non-empty equivalence relations on the set {1, 2, 3} is :",
    "options": [
-    "(A) and (B) only",
-    "(D) and (E) only",
-    "(B) and (D) only",
-    "(B) and (C) only"
+    "6",
+    "5",
+    "7",
+    "4"
    ],
    "correct": 2,
-   "chapter": "Amines",
-   "topic": "Amines",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-137",
-   "hash": "e4a56ce50e525786",
-   "question": "For reaction The correct order of set of reagents for the above conversion is :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-061",
+   "hash": "38a772df195fd50c",
+   "question": "Define a relation R on the interval [0, π2 ) by xRy if and only if sec 2 x − tan 2 y = 1. Then R is : ​",
    "options": [
-    "Br ∣ FeBr , H O(Δ), NaOH 2 3 2",
-    "H SO , Ac O, Br , H O(Δ), NaOH 2 4 2 2 2",
-    "Ac O, Br , H O(Δ), NaOH 2 2 2",
-    "Ac O, H SO , Br , NaOH 2 2 4 2"
-   ],
-   "correct": 1,
-   "chapter": "Amines",
-   "topic": "Amines",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-138",
-   "hash": "ea6dc9a0e7d58abd",
-   "question": "The α-Helix and β - Pleated sheet structures of protein are associated with its :",
-   "options": [
-    "tertiary structure",
-    "quaternary structure",
-    "secondary structure",
-    "primary structure"
-   ],
-   "correct": 2,
-   "chapter": "Biomolecules",
-   "topic": "Biomolecules",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-139",
-   "hash": "4194487def3747ab",
-   "question": "Which of the following acids is a vitamin?",
-   "options": [
-    "Adipic acid",
-    "Ascorbic acid",
-    "Saccharic acid",
-    "Aspartic acid"
-   ],
-   "correct": 1,
-   "chapter": "Biomolecules",
-   "topic": "Biomolecules",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-140",
-   "hash": "139a2c39f2ddbeb7",
-   "question": "The carbohydrate \"Ribose\" present in DNA, is A. A pentose sugar B. present in pyranose from C. in \"D\" configuration D. a reducing sugar, when free E. in ∝-anomeric form Choose the correct answer from the options given below:",
-   "options": [
-    "A, D and E Only",
-    "A, C and D Only",
-    "A, B and E Only",
-    "B, D and E Only"
-   ],
-   "correct": 1,
-   "chapter": "Biomolecules",
-   "topic": "Biomolecules",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-JAN-CHM-141",
-   "hash": "351ab9245908868f",
-   "question": "Identify the number of structure/s from the following which can be correlated to D-glyceraldehyde.",
-   "options": [
-    "four",
-    "one",
-    "two",
-    "three"
+    "both reflexive and transitive but not symmetric",
+    "an equivalence relation",
+    "reflexive but neither symmetric not transitive",
+    "both reflexive and symmetric but not transitive"
    ],
    "correct": 3,
-   "chapter": "Biomolecules",
-   "topic": "Biomolecules",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-JAN-CHM-142",
-   "hash": "a24edd4991e32f92",
-   "question": "Match List - I with List - II. List - I List - II (Carbohydrate) (Linkage Source) (A) Amylose (I) β − C1 − C4 , plant (B) Cellulose (II) α − C1 − C4 , animal (III) α − C1 − C4 , (C) Glycogen α − C1 − C6 , plant (D) Amylopectin (IV) α − C1 − C4 , plant Choose the correct answer from the options given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-062",
+   "hash": "4a92774671341614",
+   "question": "Let A = {1, 2, 3, … , 10} and B = { m n : m, n ∈ A, m < n and gcd(m, n) = 1}. Then n(B) is equal to :",
    "options": [
-    "(A)-(IV), (B)-(I), (C)-(III), (D)-(II)",
-    "(A)-(III), (B)-(II), (C)-(I), (D)-(IV)",
-    "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
-    "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
-   ],
-   "correct": 3,
-   "chapter": "Biomolecules",
-   "topic": "Biomolecules",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-001",
-   "hash": "db2336fb231356ba",
-   "question": "Among 10 −9 g (each) of the following elements, which one will have the highest number of atoms? Element : Pb, Po, Pr and Pt",
-   "options": [
-    "Po",
-    "Pr",
-    "Pb",
-    "Pt"
-   ],
-   "correct": 1,
-   "chapter": "Some Basic Concepts Of Chemistry",
-   "topic": "Some Basic Concepts Of Chemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-002",
-   "hash": "b192c0f047f91b7e",
-   "question": "CaCO 3 ( s) + 2HCl(aq) → CaCl 2 (aq) + CO 2 ( g)H 2 O(l) ​ ​ ​ ​ Consider the above reaction, what mass of CaCl 2 will be formed if 250 mL of 0.76 M HCl reacts with 1000 g ​ of CaCO 3 ? ​ −1 (Given : Molar mass of Ca, C, O, H and Cl are 40, 12, 16, 1 and 35.5 g mol , respectively)",
-   "options": [
-    "3.908 g",
-    "2.636 g",
-    "10.545 g",
-    "5.272 g"
-   ],
-   "correct": 2,
-   "chapter": "Some Basic Concepts Of Chemistry",
-   "topic": "Some Basic Concepts Of Chemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-003",
-   "hash": "008f77fde5dd8b8f",
-   "question": "Mass of magnesium required to produce 220 mL of hydrogen gas at STP on reaction with excess of dil. HCl is Given : Molar mass of Mg is 24 g mol . −1",
-   "options": [
-    "235.7 g",
-    "0.24 mg",
-    "236 mg",
-    "2.444 g"
-   ],
-   "correct": 2,
-   "chapter": "Some Basic Concepts Of Chemistry",
-   "topic": "Some Basic Concepts Of Chemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-004",
-   "hash": "f1955442224b0e25",
-   "question": "On combustion 0.210 g of an orgainc compound containing C, H and O gave 0.127 gH O and 0.307 gCO . The 2 2 percentages of hydrogen and oxygen in the given organic compound respectively are:",
-   "options": [
-    "53.41, 39.6",
-    "6.72, 53.41",
-    "7.55, 43.85",
-    "6.72, 39.87"
-   ],
-   "correct": 1,
-   "chapter": "Some Basic Concepts Of Chemistry",
-   "topic": "Some Basic Concepts Of Chemistry",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-005",
-   "hash": "581fe4ae810648d7",
-   "question": "On complete combustion 1.0 g of an organic compound (X) gave 1.46 g of CO 2 and 0.567 g of H 2 O. The ​ ​ empirical formula mass of compound (X) is ________ g. −1 (Given molar mass in gmol C : 12, H : 1, O : 16)",
-   "options": [
-    "30",
-    "45",
-    "60",
-    "15"
+    "36",
+    "31",
+    "37",
+    "29"
    ],
    "correct": 0,
-   "chapter": "Some Basic Concepts Of Chemistry",
-   "topic": "Some Basic Concepts Of Chemistry",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-006",
-   "hash": "0626cc8bcc428737",
-   "question": "According to Bohr's model of hydrogen atom, which of the following statement is incorrect?",
+   "id": "JEE-2025-ONLINE-JAN-MTH-063",
+   "hash": "6768ae4e1eaad396",
+   "question": "Let A = {x ∈ (0, π) − { π } : log (2/π) | sin x|+ log (2/π) | cos x| = 2} and 2 B = {x ⩾ 0 : √x(√x − 4) − 3|√x − 2| + 6 = 0} . Then n(A ∪ B) is equal to :",
    "options": [
-    "Radius of 3 rd orbit is nine times larger than that of 1 st orbit.",
-    "Radius of 8 th orbit is four times larger than that of 4 th orbit.",
-    "Radius of 6 th orbit is three time larger than that of 4 th orbit.",
-    "Radius of 4 th orbit is four times larger than that of 2 nd orbit."
+    "4",
+    "8",
+    "6",
+    "2"
    ],
-   "correct": 2,
-   "chapter": "Structure-Of-Atom",
-   "topic": "Structure-Of-Atom",
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-007",
-   "hash": "f27ce92dfbecf610",
-   "question": "For electron in ' 2 s ' and ' 2 p ' orbitals, the orbital angular momentum values, respectively are :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-064",
+   "hash": "40b31117a000b6d8",
+   "question": "Let S = N ∪ {0}. Define a relation R from S to R by : 2 R = {(x, y) : log y = x log ( ), x ∈ S, y ∈ R} e e 5 Then, the sum of all the elements in the range of R is equal to :",
    "options": [
-    "√2 h 2π and 0",
-    "h 2π and √2 2π h",
-    "0 and √6 h 2π",
-    "0 and √2 h 2π"
-   ],
-   "correct": 3,
-   "chapter": "Structure-Of-Atom",
-   "topic": "Structure-Of-Atom",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-008",
-   "hash": "99b3e73b1c6751d4",
-   "question": "Which of the following postulate of Bohr's model of hydrogen atom in not in agreement with quantum mechanical model of an atom ?",
-   "options": [
-    "An atom in a stationary state does not emit electromagnetic radiation as long as it stays in the same state",
-    "An atom can take only certain distinct energies E , E , E , etc. These allowed states of constant energy are 1 2 3 called the stationary states of atom",
-    "When an electron makes a transition from a higher energy stationary state to a lower energy stationary state, then it emits a photon of light",
-    "The electron in a H atom's stationary state moves in a circle around the nucleus"
-   ],
-   "correct": 3,
-   "chapter": "Structure-Of-Atom",
-   "topic": "Structure-Of-Atom",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-010",
-   "hash": "7617725d69a722bc",
-   "question": "Consider the ground state of chromium atom (Z = 24). How many electrons are with Azimuthal quantum number l = 1 and l = 2 respectively ?",
-   "options": [
-    "12 and 4",
-    "16 and 4",
-    "12 and 5",
-    "16 and 5"
-   ],
-   "correct": 2,
-   "chapter": "Structure-Of-Atom",
-   "topic": "Structure-Of-Atom",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-011",
-   "hash": "4c2c5e20a711440f",
-   "question": "Which of the following statements are correct, if the threshold frequency of caesium is 5.16 × 10 14 Hz ? A. When Cs is placed inside a vacuum chamber with an ammeter connected to it and yellow light is focused on Cs the ammeter shows the presence of current. B. When the brightness of the yellow light is dimmed, the value of the current in the ammeter is reduced. C. When a red light is used instead to the yellow light, the current produced is higher with respect to the yellow light. D. When a blue light is used, the ammeter shows the formation of current. E. When a white light is used, the ammeter shows formation of current. Choose the correct answer from the options given below :",
-   "options": [
-    "A, D and E Only",
-    "B, C and D Only",
-    "A, C, D and E Only",
-    "A, B, D and E Only"
-   ],
-   "correct": 3,
-   "chapter": "Structure-Of-Atom",
-   "topic": "Structure-Of-Atom",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": null,
-   "formulas": []
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-012",
-   "hash": "de8d6866c05d3a99",
-   "question": "At the sea level, the dry air mass percentage composition is given as nitrogen gas : 70.0, oxygen gas : 27.0 and argon gas : 3.0. If total pressure is 1.15 atm , then calculate the ratio of followings respectively : (i) partial pressure of nitrogen gas to partial pressure of oxygen gas (ii) partial pressure of oxygen gas to partial pressure of argon gas (Given : Molar mass of N, O and Ar are 14, 16, and 40 g mol −1 respectively)",
-   "options": [
-    "4.26, 19.3",
-    "2.59, 11.85",
-    "5.46, 17.8",
-    "2.96, 11.2"
-   ],
-   "correct": 3,
-   "chapter": "States of Matter",
-   "topic": "States of Matter",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Physics Dual Nature of Matter and Radiation",
-   "formulas": [
-    "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv}$$",
-    "$$\\lambda = \\frac{h}{\\sqrt{2m E_k}}$$",
-    "$$\\lambda = \\frac{h}{\\sqrt{2mqV}}$$",
-    "$$\\lambda_e = \\frac{12.27}{\\sqrt{V}} , \\text{Å} = \\sqrt{\\frac{150}{V}} , \\text{Å} = \\frac{1.227}{\\sqrt{V}} , \\text{nm}$$",
-    "$$\\lambda_p = \\frac{0.286}{\\sqrt{V}} , \\text{Å}$$",
-    "$$\\lambda_d = \\frac{0.202}{\\sqrt{V}} , \\text{Å}$$",
-    "$$\\lambda_\\alpha = \\frac{0.101}{\\sqrt{V}} , \\text{Å}$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-013",
-   "hash": "6d1c2e5e3f538cf9",
-   "question": "Which of the following properties will change when system containing solution 1 will become solution 2?",
-   "options": [
-    "Molar heat capacity",
-    "Density",
-    "Concentration",
-    "Gibbs free energy"
-   ],
-   "correct": 3,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-014",
-   "hash": "180c33a267a6a8de",
-   "question": "The hydration energies of K and Cl are -x and -y kJ/mol respectively. If lattice energy of KCl is -z kJ/mol, + − then the heat of solution of KCl is :",
-   "options": [
-    "+x − y − z",
-    "x + y + z",
-    "z − (x + y)",
-    "−z − (x + y)"
-   ],
-   "correct": 2,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-015",
-   "hash": "198930466da7f5c9",
-   "question": "Arrange the following in order of magnitude of work done by the system / on the system at constant temperature : (a) |w reversible | for expansion in infinite stage. (b) |w irreversible | for expansion in single stage. (c) |w reversible | for compression in infinite stage. (d) |w irreversible | for compression in single stage. Choose the correct answer from the options given below:",
-   "options": [
-    "a > b > c > d",
-    "d > c = a > b",
-    "c = a > d > b",
-    "a > c > b > d"
+    "10 9",
+    "3 2",
+    "5 2",
+    "5 3"
    ],
    "correct": 1,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-016",
-   "hash": "3c7d6b1e33ad8495",
-   "question": "One mole of an ideal gas expands isothermally and reversibly from 10dm to 20dm at 300 K. ΔU, q and work 3 3 done in the process respectively are : Given : R = 8.3JK −1 and mol −1 In 10 = 2.3 log 2 = 0.30 log 3 = 0.48",
+   "id": "JEE-2025-ONLINE-JAN-MTH-065",
+   "hash": "1ed14710a8efa474",
+   "question": "Let X = R × R. Define a relation R on X as : (a1 , b1 ) R (a2 , b2 ) ⇔ b1 = b2 Statement I : R is an equivalence relation. Statement II : For some (a, b) ∈ X, the set S = {(x, y) ∈ X : (x, y)R(a, b)} represents a line parallel to y = x. In the light of the above statements, choose the correct answer from the options given below :",
    "options": [
-    "0, 21.84 kJ, −1.26 kJ",
-    "0, −17.18 kJ, 1.718 J",
-    "0, 21.84 kJ, 21, 84 kJ",
-    "0, 178 kJ, −1.718 kJ"
-   ],
-   "correct": 3,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-017",
-   "hash": "d8ff0ee114cb1e9b",
-   "question": "Let us consider a reversible reaction at temperature, T. In this reaction, both ΔH and ΔS were observed to have positive values. If the equilibrium temperature is Te , then the reaction becomes spontaneous at :",
-   "options": [
-    "T = Te",
-    "Te > T",
-    "T > Te",
-    "Te = 5 T"
-   ],
-   "correct": 2,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-018",
-   "hash": "02d313349dc74be2",
-   "question": "Given below are two statements : Statement I : When a system containing ice in equilibrium with water (liquid) is heated, heat is absorbed by the system and there is no change in the temperature of the system until whole ice gets melted. Statement II : At melting point of ice, there is absorption of heat in order to overcome intermolecular forces of attraction within the molecules of water in ice and kinetic energy of molecules is not increased at melting point. In the light of the above statements, choose the correct answer from the options given below:",
-   "options": [
-    "Statement I is true but Statement II is false",
     "Both Statement I and Statement II are false",
+    "Statement I is true but Statement II is false",
     "Both Statement I and Statement II are true",
-    "Statement I is false but Statement II is true"
-   ],
-   "correct": 2,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-019",
-   "hash": "633383802ca318f8",
-   "question": "Consider the given data : (a) HCl(g) + 10H O(l) → HCl.10H O 2 2 −1 ΔH = −69.01 kJ mol (b) HCl(g) + 40H O(l) → HCl.40H O 2 2 −1 ΔH = −72.79 kJ mol Choose the correct statement :",
-   "options": [
-    "Dissolution of gas in water is an endothermic process",
-    "The heat of solution depends on the amount of solvent.",
-    "The heat of dilution for the HCl (HCl ⋅ 10H O to HCl.40H O) is 3.78 kJ mol . 2 2 −1",
-    "The heat of formation of HCl solution is represented by both (a) and (b)"
-   ],
-   "correct": 1,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-020",
-   "hash": "bf448e1d90ebc826",
-   "question": "The correct statement amongst the following is :",
-   "options": [
-    "The term 'standard state' implies that the temperature is 0 C ∘",
-    "The standard state of pure gas is the pure gas at a pressure of 1 bar and temperature 273 K",
-    "Δ H f θ 298 is zero for O(g)",
-    "Δ H f θ 500 is zero for O ( g) 2"
+    "Statement I is false but Statement II is true Sets and Relations Chapter-wise Question Bank JEE Main 2025 January MathonGo"
    ],
    "correct": 3,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-021",
-   "hash": "e808728c5917dd22",
-   "question": "Two vessels A and B are connected via stopcock. The vessel A is filled with a gas at a certain pressure. The entire assembly is immersed in water and is allowed to come to thermal equilibrium with water. After opening the stopcock the gas from vessel A expands into vessel B and no change in temperature is observed in the thermometer. Which of the following statement is true?",
-   "options": [
-    "dw̸ = 0 ​",
-    "dq̸ = 0 ​",
-    "dU̸ = 0 ​",
-    "The pressure in the vessel B before opening the stopcock is zero."
-   ],
-   "correct": 3,
-   "chapter": "Thermodynamics",
-   "topic": "Thermodynamics",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemistry Revision Context: Chapter 31 — Chemical Thermodynamics and Energetics",
-   "formulas": [
-    "$$\\oint dU = 0, \\quad \\oint dH = 0, \\quad \\oint dS = 0, \\quad \\oint dG = 0$$",
-    "$$\\text{Density} = \\frac{\\text{Mass (Extensive)}}{\\text{Volume (Extensive)}} \\implies \\text{Intensive}$$",
-    "$$\\text{Molar Enthalpy} = \\frac{H}{n} \\implies \\text{Intensive}, \\quad \\text{Molarity} = \\frac{n}{V} \\implies \\text{Intensive}$$",
-    "$$FLOT:\\quad \\Delta U = q + w$$",
-    "$$dU = dq + dw$$",
-    "$$U = f(T) \\implies \\left(\\frac{\\partial U}{\\partial V}\\right)_T = 0 \\quad (\\text{Joule's Law})$$",
-    "$$Internal\\ Energy\\ Change:\\quad \\Delta U = n C_v \\Delta T = n C_v (T_2 - T_1)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-022",
-   "hash": "b032cc295d5130c3",
-   "question": "Given below are two statements Statement I : A catalyst cannot alter the equilibrium constant (K ) of the reaction, temperature remaining constant c Statement II : A homogenous catalyst can change the equilibrium composition of a system temperature remaining constant In the light of the above statements, choose the correct answer from the options given below",
-   "options": [
-    "Statement I is false but Statement II is true",
-    "Both Statement I and Statement II are true",
-    "Both Statement I and Statement II is false",
-    "Statement I is true but Statement II is false"
-   ],
-   "correct": 1,
-   "chapter": "Chemical Equilibrium",
-   "topic": "Chemical Equilibrium",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical and Ionic Equilibrium",
-   "formulas": [
-    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
-    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
-    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
-    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
-    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
-    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
-    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-023",
-   "hash": "8e5c9b2ba4bb0793",
-   "question": "In the following system, PCl ( g) ⇌ PCl ( g) + Cl ( g) at equilibrium, upon addition of xenon gas at constant 5 3 2 T&p , the concentration of",
-   "options": [
-    "PCl will increase 5",
-    "Cl will decrease 2",
-    "PCl , PCl &Cl remain constant 5 3 2",
-    "PCl will increase 3"
-   ],
-   "correct": 1,
-   "chapter": "Chemical Equilibrium",
-   "topic": "Chemical Equilibrium",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical and Ionic Equilibrium",
-   "formulas": [
-    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
-    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
-    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
-    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
-    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
-    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
-    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-024",
-   "hash": "ff155fb9ede03e1d",
-   "question": "Consider the following chemical equilibrium of the gas phase reaction at a constant temperature : A( g) ⇌ B( g) + C( g) If p being the total pressure, K is the pressure equilibrium constant and α is the degree of dissociation, then p which of the following is true at equilibrium?",
-   "options": [
-    "If p value is extremely high compared to K , α ≈ 1 p",
-    "When p increases α decreases",
-    "If k value is extremely high compared to p, α becomes much less than unity p",
-    "When p increases α increases"
-   ],
-   "correct": 1,
-   "chapter": "Chemical Equilibrium",
-   "topic": "Chemical Equilibrium",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical and Ionic Equilibrium",
-   "formulas": [
-    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
-    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
-    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
-    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
-    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
-    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
-    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-025",
-   "hash": "be2bd70fb4c2888e",
-   "question": "An aqueous solution of HCl with pH 1.0 is diluted by adding equal volume of water (ignoring dissociation of water). The pH of HCl solution would (Given log 2 = 0.30)",
-   "options": [
-    "reduce to 0.5",
-    "increase to 1.3",
-    "remain same",
-    "increase to 2"
-   ],
-   "correct": 1,
-   "chapter": "Ionic Equilibrium",
-   "topic": "Ionic Equilibrium",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical and Ionic Equilibrium",
-   "formulas": [
-    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
-    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
-    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
-    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
-    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
-    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
-    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-026",
-   "hash": "6e2160fe8792171d",
-   "question": "10 mL of 2 M NaOH solution is added to 20 mL of 1 M HCl solution kept in a beaker. Now, 10 mL of this mixture is poured into a volumetric flask of 100 mL containing 2 moles of HCl and made the volume upto the mark with distilled water. The solution in this flask is :",
-   "options": [
-    "0.2 M NaCl solution",
-    "20 M HCl solution",
-    "10 M HCl solution",
-    "Neutral solution"
-   ],
-   "correct": 1,
-   "chapter": "Ionic Equilibrium",
-   "topic": "Ionic Equilibrium",
-   "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Chemical and Ionic Equilibrium",
-   "formulas": [
-    "$$K_c = \\frac{[C]^c [D]^d}{[A]^a [B]^b}$$",
-    "$$K_p = \\frac{p_C^c p_D^d}{p_A^a p_B^b}$$",
-    "$$K_p = K_c (RT)^{\\Delta n_g}$$",
-    "$$\\Delta G = \\Delta G^\\circ + 2.303 RT \\log_{10} Q$$",
-    "$$\\Delta G^\\circ = -2.303 RT \\log_{10} K_{eq} \\implies K_{eq} = e^{-\\frac{\\Delta G^\\circ}{RT}}$$",
-    "$$\\log_{10}\\left(\\frac{K_2}{K_1}\\right) = \\frac{\\Delta H^\\circ}{2.303 R}\\left(\\frac{T_2 - T_1}{T_1 T_2}\\right)$$",
-    "$$\\text{N}_2(g) + 3\\text{H}_2(g) \\rightleftharpoons 2\\text{NH}_3(g) \\quad (\\Delta H = -92.4\\text{ kJ/mol}, \\Delta n_g = -2)$$"
-   ]
-  },
-  {
-   "id": "JEE-2025-ONLINE-APR-CHM-027",
-   "hash": "db78a8c9fdf36cde",
-   "question": "Compounds that should not be used as primary standards in titrimetric analysis are : A. Na Cr O 2 2 7 B. Oxalic acid C. NaOH D. FeSO ⋅ 6H O 4 2 E. Sodium tetraborate Choose the most appropriate answer from the options given below:",
-   "options": [
-    "B and D Only",
-    "D and E Only",
-    "C, D and E Only",
-    "A, C and D Only"
-   ],
-   "correct": 3,
-   "chapter": "Redox-Reactions",
-   "topic": "Redox-Reactions",
-   "year": "2025",
-   "subject": "Chemistry",
+   "subject": "Maths",
    "formula_sheet": null,
    "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-028",
-   "hash": "37f17705f0746091",
-   "question": "A solution is made by mixing one mole of volatile liquid A with 3 moles of volatile liquid B . The vapour pressure of pure A is 200 mm Hg and that of the solution is 500 mm Hg. The vapour pressure of pure B and the least volatile component of the solution, respectively, are :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-066",
+   "hash": "238134a37b20b417",
+   "question": "Let f : R − {0} → (−∞, 1) be a polynomial of degree 2, satisfying f (x)f ( 1 ) = f (x) + f ( 1 ) . If x x f (K) = −2K , then the sum of squares of all possible values of K is :",
    "options": [
-    "1400 mmHg, A",
-    "1400 mmHg, B",
-    "600 mmHg, B",
-    "600 mmHg, A"
+    "7",
+    "6",
+    "1",
+    "9"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-067",
+   "hash": "d8e4d4713418626d",
+   "question": "Let [x] denote the greatest integer less than or equal to x. Then the domain of f (x) = sec −1 (2[x] + 1) is :",
+   "options": [
+    "(−∞, −1] ∪ [0, ∞)",
+    "(−∞, −1] ∪ [1, ∞)",
+    "(−∞, ∞)",
+    "(−∞, ∞) − {0} 2"
    ],
    "correct": 3,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-029",
-   "hash": "0d25d51bbc808539",
-   "question": "Liquid A and B form an ideal solution. The vapour pressure of pure liquids A and B are 350 and 750 mm Hg respectively at the same temperature. If x and x are the mole fraction of A and B in solution while y and y A B A B are the mole fraction of A and B in vapour phase then : xA y",
+   "id": "JEE-2025-ONLINE-JAN-MTH-068",
+   "hash": "4e337ad73541f47b",
+   "question": "If the domain of the function log (18x − x − 77) is (α, β) and the domain of the function log 5 2 (x−1) ( 2x +3x−2 2 ) is x −3x−4 (γ, δ) , then α + β + γ is equal to : 2 2 2",
    "options": [
-    "xB < yB A x y",
-    "xB A = y A B xA yA",
-    "xB > y B",
-    "(x A − y A ) < (xB − y B )"
+    "195",
+    "179",
+    "186",
+    "174"
    ],
-   "correct": 2,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-030",
-   "hash": "8c682fda119d8940",
-   "question": "Which of the following binary mixture does not show the behaviour of minimum boiling azeotropes?",
+   "id": "JEE-2025-ONLINE-JAN-MTH-069",
+   "hash": "0e9b78703cca5ac5",
+   "question": "Let A = {1, 2, 3, 4} and B = {1, 4, 9, 16}. Then the number of many-one functions f : A → B such that 1 ∈ f ( A) is equal to :",
    "options": [
-    "H O + CH COC H 2 3 2 5",
-    "C H OH + C H NH 6 5 6 5 2",
-    "CS + CH COCH 2 3 3",
-    "CH OH + CHCl 3 3"
+    "151",
+    "139",
+    "163",
+    "127"
    ],
-   "correct": 1,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-031",
-   "hash": "c83be02f740a7b61",
-   "question": "2 moles each of ethylene glycol and glucose are dissolved in 500 g of water. The boiling point of the resulting solution is : (Given : Ebullioscopic constant of water = 0.52 K kg mol −1 )",
+   "id": "JEE-2025-ONLINE-JAN-MTH-070",
+   "hash": "aa42ea08df41948f",
+   "question": "Let f : [0, 3] → A be defined by f (x) = 2x − 15x + 36x + 7 and g : [0, ∞) → B be defined by g(x) = 2025 . 3 2 x 2025 x +1 If both the functions are onto and S = {x ∈ Z : x ∈ A or x ∈ B}, then n(S) is equal to :",
    "options": [
-    "379.2 K",
-    "377.3 K",
-    "375.3 K",
-    "277.3 K"
+    "29",
+    "30",
+    "31",
+    "36 x+2"
    ],
    "correct": 1,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   },
   {
-   "id": "JEE-2025-ONLINE-APR-CHM-032",
-   "hash": "b09cf980d67d55b6",
-   "question": "XY is the membrane / partition between two chambers 1 and 2 containing sugar solutions of concentration c and 1 c2 (c1 > c2 ) molL −1 . For the reverse osmosis to take place identify the correct condition (Here p and p are pressures applied on chamber 1 and 2) 1 2 (A) Membrane/Partition; Cellophane, p > π 1 (B) Membrane/Partition ; Porous. p > π 2 (C) Membrane/Partition ; Parchment paper, p > π 1 (D) Membrane/Partition : Cellophane, p > π 2 Choose the correct answer from the option given below :",
+   "id": "JEE-2025-ONLINE-JAN-MTH-071",
+   "hash": "b4e35953ef0795a1",
+   "question": "Let f (x) = 2 2x+1 +16 x+4 . Then the value of 8 (f ( 1 ) + f ( 2 ) + … + f ( 59 )) is equal to 2 +2 +32 15 15 15",
    "options": [
-    "B and D only",
-    "A and D only",
-    "A and C only",
-    "C only"
+    "92",
+    "118",
+    "102",
+    "108"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-072",
+   "hash": "68ea83b34a67a351",
+   "question": "The number of real solution(s) of the equation x + 3x + 2 = min{|x − 3|, |x + 2|} is: 2",
+   "options": [
+    "1",
+    "0",
+    "2",
+    "3 Functions Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-073",
+   "hash": "9a6b5f7830694562",
+   "question": "If f (x) = x x 2 ,x ∈ R , then ∑ 81 k=1 f ( k 82 ) is equal to 2 +√2",
+   "options": [
+    "81√2",
+    "41",
+    "82",
+    "81 2 x −x"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-074",
+   "hash": "3d278595fa76b665",
+   "question": "The function f : (−∞, ∞) → (−∞, 1), defined by f (x) = 2 −2 x −x is: 2 +2",
+   "options": [
+    "Neither one-one nor onto",
+    "Onto but not one-one",
+    "Both one-one and onto",
+    "One-one but not onto"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-075",
+   "hash": "ac57b655e8531a13",
+   "question": "Let f : R → R be a function defined by a+2 2 f (x) = (2 + 3a)x + ( ) x + b, a ≠ 1. If a−1 , then the value of 28 ∑ is 2 5 f (x + y) = f (x) + f (y) + 1 − xy |f (i)| 7 i=1",
+   "options": [
+    "545",
+    "715",
+    "735",
+    "675 Limits Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-076",
+   "hash": "1a4f4cf3f60bc6ae",
+   "question": "lim x→0 cosec x (√2 cos 2 x + 3 cos x − √cos 2 x + sin x + 4) is:",
+   "options": [
+    "0",
+    "1 √15",
+    "1 2√5",
+    "− 1 2√5 x"
    ],
    "correct": 2,
-   "chapter": "Solutions",
-   "topic": "Solutions",
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
    "year": "2025",
-   "subject": "Chemistry",
-   "formula_sheet": "Liquid Solutions and Colligative Properties",
-   "formulas": [
-    "$$m = \\frac{1000 \\cdot M}{1000 \\cdot d - M \\cdot M_2}$$",
-    "$$m = \\frac{1000 \\cdot x_2}{(1 - x_2) \\cdot M_1}$$",
-    "$$\\text{Rate of Evaporation} = \\text{Rate of Condensation}$$",
-    "$$P_A = x_A P_A^\\circ, \\quad P_B = x_B P_B^\\circ$$",
-    "$$\\mathbf{P_{\\text{total}} = P_A + P_B = x_A P_A^\\circ + x_B P_B^\\circ = P_A^\\circ + (P_B^\\circ - P_A^\\circ)x_B}$$",
-    "$$P_A = y_A P_{\\text{total}}, \\quad P_B = y_B P_{\\text{total}}$$",
-    "$$y_A = \\frac{x_A P_A^\\circ}{P_{\\text{total}}}, \\quad y_B = \\frac{x_B P_B^\\circ}{P_{\\text{total}}}$$"
-   ]
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-077",
+   "hash": "2568bb9fe89c5c40",
+   "question": "If the function 2 ⎧ {sin(k1 + 1)x + sin(k2 − 1)x} , x < 0 ⎪ ⎪ x ⎪ 4, x = 0 f (x) = ⎨ ⎪ ⎪ 2 2+k1 x ⎪ ⎩ log ( ), x > 0 x e 2+k2 x is continuous at x = 0, then k + k is equal to 2 1 2 2",
+   "options": [
+    "20",
+    "5",
+    "8",
+    "10"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-079",
+   "hash": "dec04abcd69ab398",
+   "question": "A spherical chocolate ball has a layer of ice-cream of uniform thickness around it. When the thickness of the ice- cream layer is 1 cm , the ice-cream melts at the rate of 81 cm /min and the thickness of the ice-cream layer 3 decreases at the rate of 1 4π cm/min . The surface area (in cm ) of the chocolate ball (without the ice-cream layer) 2 is :",
+   "options": [
+    "196π",
+    "256π",
+    "225π",
+    "128π"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-080",
+   "hash": "979b0e0fdf683e58",
+   "question": "The sum of all local minimum values of the function ⎧ 1 − 2x, x < −1 ⎪ ⎪ 1 f (x) = ⎨ (7 + 2|x|), −1 ≤ x ≤ 2 3 ⎪ ⎩ ⎪ 11 (x − 4)(x − 5), x > 2 18 is",
+   "options": [
+    "157 72",
+    "131 72",
+    "171 72",
+    "167 72 Indefinite Integration Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-081",
+   "hash": "3c22bf4225f9e1ae",
+   "question": "Let I(x) = ∫ 11 dx 15 . If I(37) − I(24) = 1 4 ( 1 1 − 1 1 ) , b, c ∈ N , then 3( b + c) is equal to (x−11) 13 (x+15) 13 b 13 c 13",
+   "options": [
+    "22",
+    "39",
+    "40",
+    "26"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-082",
+   "hash": "3fe62fe317874ac5",
+   "question": "If ∫ e ( x x sin −1 x + sin −1 x + x ) dx = g(x) + C , where C is the constant of integration, then g ( 1 ) equals : 3/2 1−x 2 2 √1−x2 (1−x ) 2",
+   "options": [
+    "π 4 √ e 3",
+    "π 6 √ e 3",
+    "π 4 √ e 2",
+    "π 6 √ e 2"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-083",
+   "hash": "4f56783a479b0356",
+   "question": "Let ∫ x sin x dx = g(x) + C , where C is the constant of integration. If 3 8 (g ( π 2 ) + g ( ′ π 2 )) = απ 3 + βπ 2 + γ, α, β, γ ∈ Z , then α + β − γ equals :",
+   "options": [
+    "48",
+    "55",
+    "62",
+    "47"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-084",
+   "hash": "a9db5a96c6d97fc0",
+   "question": "The integral 80 ∫ 4 sin θ+cos θ ) ( 9+16 dθ is equal to : ​ 0 sin 2θ ​ ​",
+   "options": [
+    "3 log e 4 ​",
+    "4 log e 3 ​",
+    "6 log e 4 ​",
+    "2 log e 3 ​"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-085",
+   "hash": "9c8b793fcfe1e700",
+   "question": "Let f (x) = ∫ x 0 t −8t+15 t dt, x ∈ R . Then the numbers of local maximum and local minimum points of f , e respectively, are :",
+   "options": [
+    "2 and 3",
+    "2 and 2",
+    "3 and 2",
+    "1 and 3"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-086",
+   "hash": "84087803e7cd0756",
+   "question": "Let f (x) = ∫ 0 t t (t 2 − 9t + 20) dt, 1 ≤ x ≤ 5 . If the range of f is [α, β], then 4(α + β) equals :",
+   "options": [
+    "253",
+    "154",
+    "125",
+    "157"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-087",
+   "hash": "bf8e5503571b131c",
+   "question": "If I(m, n) = ∫ 1 0 x m−1 (1 − x) n−1 dx, m, n > 0 , then I (9, 14) + I (10, 13) is",
+   "options": [
+    "I(19, 27)",
+    "I(9, 1)",
+    "I (1, 13)",
+    "I(9, 13)"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-088",
+   "hash": "e02eefbc65605da8",
+   "question": "Let for f (x) = 7 tan x + 7 tan x − 3 tan x − 3 tan x, I = ∫ 8 6 4 2 1 0 π/4 f (x)dx and I = ∫ 2 π/4 0 xf (x)dx . Then 7I1 + 12I2 is equal to :",
+   "options": [
+    "2",
+    "1",
+    "2π",
+    "π"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-089",
+   "hash": "fcaa3e7363516204",
+   "question": "The value of 2 −1 ((loge x) +1) 4 e e ∫ 2 1 x ( 2 e −1 2 −1 ) dx is ((loge x) +1) ((6−loge x) +1) e +e",
+   "options": [
+    "2",
+    "log 2 e",
+    "1 Definite Integration Chapter-wise Question Bank JEE Main 2025 January MathonGo",
+    "e 2 3"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-090",
+   "hash": "2bf1636c13582f4e",
+   "question": "If ∫ 2 π 96x 2 cos 2 x dx = π (απ 2 + β) , α, β ∈ Z , then (α + β) equals 2 − x (1+e ) 2",
+   "options": [
+    "64",
+    "196",
+    "144",
+    "100"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-091",
+   "hash": "5c4c10644c9cf205",
+   "question": "The area of the region, inside the circle (x − 2√3) + y2 2 = 12 and outside the parabola y 2 = 2√3x is :",
+   "options": [
+    "3π + 8",
+    "6π − 16",
+    "3π − 8",
+    "6π − 8"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-092",
+   "hash": "c4cf32129dee24d2",
+   "question": "The area (in sq. units) of the region {(x, y) : 0 ≤ y ≤ 2|x| + 1, 0 ≤ y ≤ x 2 + 1, |x| ≤ 3} is",
+   "options": [
+    "80 3",
+    "64 3",
+    "32 3",
+    "17 3"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-093",
+   "hash": "dfef81351dff0d89",
+   "question": "The area of the region bounded by the curves x (1 + y ) = 1 and y 2 2 = 2x is:",
+   "options": [
+    "2 ( π 2 − 1 3 )",
+    "π 2 − 1 3",
+    "π 4 − 1 3",
+    "1 2 ( π 2 − 1 3 )"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-094",
+   "hash": "e59dbd1a7f8d1e4d",
+   "question": "The area of the region {(x, y) : x + 4x + 2 ≤ y ≤ |x + 2|} is equal to 2",
+   "options": [
+    "7",
+    "5",
+    "24/5",
+    "20/3"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-095",
+   "hash": "006e4ed101de3643",
+   "question": "Let the area enclosed between the curves |y| = 1 − x and x + y 2 2 2 = 1 be α. If 9α = βπ + γ; β, γ are integers, then the value of |β − γ| equals.",
+   "options": [
+    "27",
+    "33",
+    "15",
+    "18 2"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-096",
+   "hash": "f430a5024f01475d",
+   "question": "If the area of the region {(x, y) : −1 ≤ x ≤ 1, 0 ≤ y ≤ a + e |x| − e −x , a > 0} is e +8e+1 e , then the value of a is :",
+   "options": [
+    "8",
+    "7",
+    "5",
+    "6"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-097",
+   "hash": "2b9cc32dc8122b16",
+   "question": "Let the area of the region {(x, y) : 2y ≤ x 2 + 3, y + ∣x∣ ≤ 3, y ⩾ ∣x − 1∣} be A. Then 6 A is equal to :",
+   "options": [
+    "16",
+    "12",
+    "14",
+    "18 Area Under Curves Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-098",
+   "hash": "0c409faf999608f0",
+   "question": "Let f : R → R be a twice differentiable function such that f (x + y) = f (x)f (y) for all x, y ∈ R. If f (0) = 4a ′ and f satisfies f (x) − 3af (x) − f (x) = 0, a > 0, then the area of the region ′′ ′ R = {(x, y) ∣ 0 ≤ y ≤ f (ax), 0 ≤ x ≤ 2} is:",
+   "options": [
+    "e − 1 2",
+    "e + 1 2",
+    "e + 1 4",
+    "e − 1 4 Differential Equations Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-099",
+   "hash": "b19637b677931ae1",
+   "question": "Let x = x(y) be the solution of the differential equation y 2 dx + (x − 1 ) dy = 0 . If x",
+   "options": [
+    "= 1, then x ( 1 ) is : y 2",
+    "1 2 + e",
+    "3 + e",
+    "3 − e"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-100",
+   "hash": "61e829940a7b380e",
+   "question": "If x = f (y) is the solution of the differential equation −1 dy 2 tan y π π (1 + y ) + (x − 2e ) = 0, y ∈ (− , ) dx 2 2 with f (0) = 1, then f ( 1 ) is equal to : √3",
+   "options": [
+    "e π/12",
+    "e π/4",
+    "e π/3",
+    "e π/6"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-101",
+   "hash": "66ec2f04a90633d6",
+   "question": "Let f : (0, ∞) → R be a function which is differentiable at all points of its domain and satisfies the condition 2 ′ x f (x) = 2xf (x) + 3 , with f",
+   "options": [
+    "= 4. Then 2f",
+    "is equal to :",
+    "39",
+    "19"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-102",
+   "hash": "30577e88354a837c",
+   "question": "If for the solution curve y = f (x) of the differential equation dy , 2+sec x + (tan x)y = dx 2 (1+2 sec x) −π √3 x ∈ ( 2 , π 2 ),f ( π 3 ) = 10 , then f ( π 4 ) is equal to : √3+1",
+   "options": [
+    "10(4+√3) 5−√3",
+    "2√2 9√3+3",
+    "10(4+√3) 4−√2",
+    "14 Straight Lines Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-103",
+   "hash": "abfefb0bc7647e73",
+   "question": "Let the area of a △P QR with vertices P (5, 4), Q(−2, 4) and R(a, b) be 35 square units. If its orthocenter and centroid are O (2, 14 5 ) and C(c, d) respectively, then c + 2d is equal to",
+   "options": [
+    "8 3",
+    "7 3",
+    "2",
+    "3"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-104",
+   "hash": "5de8df4084f290fa",
+   "question": "Let ABC be a triangle formed by the lines 7x − 6y + 3 = 0, x + 2y − 31 = 0 and 9x − 2y − 19 = 0 . Let the point (h, k) be the image of the centroid of ΔABC in the line 3x + 6y − 53 = 0. Then h 2 + k 2 + hk is equal to:",
+   "options": [
+    "47",
+    "37",
+    "36",
+    "40"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-105",
+   "hash": "98633c99d9a1ce71",
+   "question": "Let the lines 3x − 4y − α = 0, 8x − 11y − 33 = 0, and 2x − 3y + λ = 0 be concurrent. If the image of the point in the line 2x − 3y + λ = 0 is ( , then |αλ| is equal to 57 −40 (1, 2) , ) 13 13",
+   "options": [
+    "84",
+    "113",
+    "91",
+    "101"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-106",
+   "hash": "c23c17c01694bd0f",
+   "question": "Let n Cr−1 = 28, n Cr = 56 and n Cr+1 = 70 . Let A(4 cos t, 4 sin t), B(2 sin t, −2 cos t) and C (3r − n, r − n − 1) 2 be the vertices of a triangle ABC , where t is a parameter. If (3x − 1) + (3y) = α, is the locus of the centroid of 2 2 triangle ABC , then α equals",
+   "options": [
+    "6",
+    "18",
+    "8",
+    "20"
+   ],
+   "correct": 1,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-107",
+   "hash": "9e64a4dfeb98ef5b",
+   "question": "Let the line x + y = 1 meet the axes of x and y at A and B, respectively. A right angled triangle AMN is inscribed in the triangle OAB , where O is the origin and the points M and N lie on the lines OB and AB, respectively. If the area of the triangle AM N is 4 9 of the area of the triangle OAB and AN : NB = λ : 1, then the sum of all possible value(s) of is λ :",
+   "options": [
+    "2",
+    "5 2",
+    "1 2",
+    "13 6 Straight Lines Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 0,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-108",
+   "hash": "d11f01f4d9a03534",
+   "question": "A rod of length eight units moves such that its ends A and B always lie on the lines x − y + 2 = 0 and y + 2 = 0 , respectively. If the locus of the point P , that divides the rod AB internally in the ratio 2 : 1 is 9 (x 2 + αy 2 + βxy + γx + 28y) − 76 = 0 , then α − β − γ is equal to :",
+   "options": [
+    "22",
+    "21",
+    "23",
+    "24 Circle Chapter-wise Question Bank JEE Main 2025 January MathonGo"
+   ],
+   "correct": 3,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
+  },
+  {
+   "id": "JEE-2025-ONLINE-JAN-MTH-109",
+   "hash": "c477664d9c754768",
+   "question": "Let the equation of the circle, which touches x-axis at the point (a, 0), a > 0 and cuts off an intercept of length b on y-axis be x + y − αx + βy + γ = 0. If the circle lies below x-axis, then the ordered pair (2a, b ) is equal to 2 2 2",
+   "options": [
+    "(γ, β − 4α) 2",
+    "(α, β + 4γ) 2",
+    "(γ, β + 4α) 2",
+    "(α, β − 4γ) 2"
+   ],
+   "correct": 2,
+   "chapter": "Matrix and determinants",
+   "topic": "Matrix and determinants",
+   "year": "2025",
+   "subject": "Maths",
+   "formula_sheet": null,
+   "formulas": []
   }
  ]
 }
