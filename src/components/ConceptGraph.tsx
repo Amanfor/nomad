@@ -254,13 +254,6 @@ export default function ConceptGraph() {
     const onMove = (e: PointerEvent) => {
       const rect = canvas.getBoundingClientRect();
       const w = toWorld(e.clientX, e.clientY, rect);
-      if (drag.id) {
-        const n = nodes.find((n) => n.id === drag.id)!;
-        n.dx = w.x - drag.offx - n.x;
-        n.dy = w.y - drag.offy - n.y;
-        invalidate();
-        return;
-      }
       if (drag.panning) {
         cam.x += (e.clientX - drag.lastx) / cam.k;
         cam.y += (e.clientY - drag.lasty) / cam.k;
@@ -277,10 +270,8 @@ export default function ConceptGraph() {
     };
     const onDown = (e: PointerEvent) => {
       const rect = canvas.getBoundingClientRect();
-      const w = toWorld(e.clientX, e.clientY, rect);
-      const n = pick(w.x, w.y);
-      if (n) { drag.id = n.id; drag.offx = w.x - n.x - n.dx; drag.offy = w.y - n.y - n.dy; }
-      else { drag.panning = true; drag.lastx = e.clientX; drag.lasty = e.clientY; canvas.style.cursor = 'grabbing'; }
+      // nodes are fixed; any press-and-drag pans the canvas
+      drag.panning = true; drag.lastx = e.clientX; drag.lasty = e.clientY; canvas.style.cursor = 'grabbing';
       try { canvas.setPointerCapture(e.pointerId); } catch {}
       setHover(null);
       invalidate();
@@ -329,7 +320,7 @@ export default function ConceptGraph() {
           CONCEPT GRAPH — {data?.title?.toUpperCase() ?? '…'}
         </div>
         <div style={{ fontSize: '0.65rem', letterSpacing: '0.12em', color: 'rgba(255,255,255,0.35)', marginTop: '0.4rem' }}>
-          hover to preview · drag node to move · drag space to pan · scroll to zoom
+          hover to preview · drag to pan · scroll to zoom
         </div>
       </div>
       <a href={`${BASE}`} style={{ position: 'absolute', top: '1.5rem', right: '1.5rem', textDecoration: 'none', color: 'rgba(255,255,255,0.7)', fontSize: '0.75rem', letterSpacing: '0.2em', fontWeight: 300 }}>⟨ exit ⟩</a>
