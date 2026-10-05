@@ -44,3 +44,17 @@ export function fingerCountLabel(landmarks: Lm[] | null | undefined): string {
   if (n === 4) return 'count4';
   return `count${n}`; // count1, count2, count3
 }
+
+/** Thumb raised with the four fingers curled — "thumbs up". Robust cue: the
+ *  thumb tip must be strictly above every other fingertip and above the wrist.
+ *  Used for the back/home gesture; the recognizer's own Thumb_Up label is an
+ *  additional confirmation in the engine. */
+export function isThumbUp(landmarks: Lm[] | null | undefined): boolean {
+  if (!landmarks || landmarks.length < 21) return false;
+  for (const [t, p] of FINGERS) if (fingerExtended(landmarks, t, p)) return false;
+  const thumb = landmarks[4];
+  for (const tipIdx of [8, 12, 16, 20]) {
+    if (landmarks[tipIdx].y <= thumb.y) return false; // thumb must be the highest tip
+  }
+  return thumb.y < landmarks[0].y;
+}

@@ -480,6 +480,8 @@ wasm 11.8 MB; non-SIMD variants intentionally not shipped).
 | 2 fingers held ~700 ms | `select 2` → practice option 2 |
 | 1 finger (index) held ~700 ms | `select 1` → practice option 1 |
 | Closed fist held ~700 ms, still | `nomad:gesture {action:'conceal'}` → hides solution |
+| Thumbs up held ~700 ms | synthetic `Escape` → back / close / home |
+| Two fingers (index+middle), drag up/down | Continuous page scroll (touch-style; suspended while practice overlay is open) |
 
 Thumb does **not** count. Victory-hand swipes and palm-hold→reveal are
 **removed** (replaced by the pinch cursor and finger-count selection, 2026-10-05).
@@ -512,7 +514,7 @@ and text (`pose <x>`, `pinch <distance>`, `PINCH ON/off`).
   `no camera found`, `camera busy`, `camera not available in this build`,
   `model failed to load`); any failure flips `enableGesture` back to `false`.
 - Dev-only hook `window.__nomadGesture.inject(action)`
-  (`reveal|conceal|select-1..select-4|click-center`), guarded by
+  (`reveal|conceal|back|select-1..select-4|click-center`), guarded by
   `import.meta.env.DEV` — confirmed absent from production `dist`.
 
 ### Platform status

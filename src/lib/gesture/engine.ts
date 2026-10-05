@@ -1,7 +1,7 @@
 // Camera + GestureRecognizer lifecycle. Dynamic-imports the heavy vision
 // library only when start() is called so it stays out of the main bundle.
 
-import { fingerCountLabel } from './handShape';
+import { fingerCountLabel, isThumbUp } from './handShape';
 import { GestureDetector, GestureAction } from './hold';
 import { PinchDetector, PinchEvent } from './pinch';
 
@@ -14,6 +14,8 @@ const FRAME_BUDGET_MS = 1000 / MAX_FPS;
 export interface EngineEvents {
   onAction: (action: GestureAction) => void;
   onPinch?: (ev: PinchEvent) => void;
+  /** Continuous 2-finger scroll delta in pixel units (touch-drag feel). */
+  onScroll?: (deltaPx: number) => void;
 }
 
 export interface GestureDebugInfo {
@@ -51,6 +53,7 @@ export class GestureEngine {
   private lastFrameAt = 0;
   private stopped = true;
   private epoch = 0; // bumped on every stop/start; stale async starts bail out
+  private lastScrollY: number | null = null;
   private lastDebug: GestureDebugInfo = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
 
   constructor(private events: EngineEvents) {}
@@ -169,9 +172,29 @@ export class GestureEngine {
 
       // While pinching (cursor live), pose holds are suppressed so the same
       // fingers can never double-trigger a selection/conceal.
-      const pose = this.pinch.isPinching() || !landmarks ? 'none' : fingerCountLabel(landmarks);
+      const recognizerThumbsUp = !!result?.gestures?.[0]?.some?.((g: any) => g?.categoryName === 'Thumb_Up');
+      const pose = this.pinch.isPinching() || !landmarks
+        ? 'none'
+        : recognizerThumbsUp || isThumbUp(landmarks)
+        ? 'thumb_up'
+        : fingerCountLabel(landmarks);
       const action = this.detector.push({ t: now, x, y, gesture: pose });
       if (action) this.events.onAction(action);
+
+      // Two-finger pose: vertical drag scrolls the page like a touch swipe —
+      // hand moving up scrolls down. Baseline resets whenever fingers change.
+      if (pose === 'count2' && landmarks) {
+        const curY = (landmarks[0].y + landmarks[9].y) / 2;
+        if (this.lastScrollY !== null) {
+          const dy = curY - this.lastScrollY;
+          if (Math.abs(dy) > 0.001) {
+            this.events.onScroll?.((dy < 0 ? 1 : -1) * Math.min(Math.abs(dy), 0.12) * window.innerHeight * 2.2);
+          }
+        }
+        this.lastScrollY = curY;
+      } else {
+        this.lastScrollY = null;
+      }
 
       this.lastDebug = {
         pose: this.pinch.isPinching() ? 'pinch' : pose,
@@ -204,6 +227,7 @@ export class GestureEngine {
     }
     this.detector.reset();
     this.pinch.reset();
+    this.lastScrollY = null;
     this.lastDebug = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
   }
 }

@@ -19,6 +19,7 @@ export interface GestureSample {
 
 export type GestureAction =
   | 'conceal' // closed fist held ~0.7s
+  | 'back' // thumbs-up held ~0.7s (synthetic Escape: back/close/home)
   | 'select-1' // one finger (index)
   | 'select-2' // two fingers
   | 'select-3' // three fingers
@@ -26,6 +27,7 @@ export type GestureAction =
 
 const HOLD_POSES: Record<string, { action: GestureAction; radius: number }> = {
   closed_fist: { action: 'conceal', radius: HOLD_STILL_RADIUS },
+  thumb_up: { action: 'back', radius: HOLD_STILL_RADIUS },
   count1: { action: 'select-1', radius: HOLD_STILL_RADIUS_COUNT },
   count2: { action: 'select-2', radius: HOLD_STILL_RADIUS_COUNT },
   count3: { action: 'select-3', radius: HOLD_STILL_RADIUS_COUNT },

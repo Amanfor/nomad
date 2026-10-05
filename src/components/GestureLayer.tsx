@@ -8,6 +8,7 @@ interface GestureLayerProps {
   showPreview: boolean;
   introActive: boolean;
   noteOpen: boolean; // kept for API compat (scroll gesture removed)
+  practiceOpen: boolean; // when the practice overlay is open, counts answer instead of scrolling
   onStatus: (status: string | null) => void;
   onFatal: (reason: string) => void; // → parent flips enableGesture to false
 }
@@ -24,7 +25,7 @@ function syntheticClick(clientX: number, clientY: number) {
   el.dispatchEvent(new MouseEvent('click', opts));
 }
 
-export default function GestureLayer({ enabled, showPreview, introActive, noteOpen, onStatus, onFatal }: GestureLayerProps) {
+export default function GestureLayer({ enabled, showPreview, introActive, noteOpen, practiceOpen, onStatus, onFatal }: GestureLayerProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const engineRef = useRef<GestureEngine | null>(null);
   const cursorRef = useRef<HTMLDivElement | null>(null);
@@ -33,9 +34,11 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
   const [cursorOn, setCursorOn] = useState(false);
   const introActiveRef = useRef(introActive);
   const noteOpenRef = useRef(noteOpen);
+  const practiceOpenRef = useRef(practiceOpen);
   const lastPinchClickAtRef = useRef(0);
   useEffect(() => { introActiveRef.current = introActive; }, [introActive]);
   useEffect(() => { noteOpenRef.current = noteOpen; }, [noteOpen]);
+  useEffect(() => { practiceOpenRef.current = practiceOpen; }, [practiceOpen]);
 
   const dispatchUiAction = useCallback((action: GestureAction) => {
     // Guards, applied to both real and dev-injected actions.
@@ -48,6 +51,11 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     }
     if (action === 'conceal') {
       window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action } }));
+      return;
+    }
+    if (action === 'back') {
+      // Same synthetic Escape the Capacitor hardware-back path injects.
+      window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true, cancelable: true }));
       return;
     }
     const m = /^select-(\d)$/.exec(action);
@@ -92,7 +100,14 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     if (engineRef.current) return;
     if (!videoRef.current) return;
     onStatus('starting camera…');
-    const engine = new GestureEngine({ onAction: dispatchUiAction, onPinch: handlePinch });
+    const engine = new GestureEngine({
+      onAction: dispatchUiAction,
+      onPinch: handlePinch,
+      onScroll: (dyPx) => {
+        // In practice the info layer already answers via counts; don't jam the page.
+        if (!practiceOpenRef.current) window.scrollBy({ top: dyPx, behavior: 'auto' });
+      },
+    });
     engineRef.current = engine;
     try {
       await engine.start(videoRef.current);
@@ -196,6 +211,9 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
         case 'select-4': dispatchUiAction('select-4'); break;
         case 'reveal':
           window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action: 'reveal' } }));
+          break;
+        case 'back':
+          dispatchUiAction('back');
           break;
         case 'click-center':
           syntheticClick(window.innerWidth / 2, window.innerHeight / 2);

@@ -2370,6 +2370,7 @@ export default function NomadApp() {
         showPreview={settings.showGesturePreview}
         introActive={introActive}
         noteOpen={!!selected}
+        practiceOpen={isPractice}
         onStatus={(s) => { setGestureStatus(s); if (s) setGestureError(null); }}
         onFatal={(reason) => {
           setGestureError(reason);

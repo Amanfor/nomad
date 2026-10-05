@@ -3,7 +3,7 @@
 //   node /tmp/opencode/gesture_test.mjs
 import { GestureDetector, GestureSample } from '../../src/lib/gesture/hold';
 import { PinchDetector, PinchSample } from '../../src/lib/gesture/pinch';
-import { classifyHandShape, fingerCountLabel } from '../../src/lib/gesture/handShape';
+import { classifyHandShape, fingerCountLabel, isThumbUp } from '../../src/lib/gesture/handShape';
 
 let failures = 0;
 function check(name: string, cond: boolean) {
@@ -183,6 +183,26 @@ check('fingerCountLabel count4', fingerCountLabel(lmFor([true, true, true, true]
 check('fingerCountLabel count1', fingerCountLabel(lmFor([true, false, false, false])) === 'count1');
 check('fingerCountLabel count2', fingerCountLabel(lmFor([true, true, false, false])) === 'count2');
 check('fingerCountLabel count3', fingerCountLabel(lmFor([true, true, true, false])) === 'count3');
+{
+  const thumbUpPts = lmFor([false, false, false, false]);
+  // closed-fist geometry with a normal tucked thumb (pt[4] is not the highest tip) must not trip thumb-up
+  check('tucked thumb in fist is not thumb-up', isThumbUp(thumbUpPts) === false);
+  thumbUpPts[4] = { x: 0.02, y: 0.3 }; // thumb sticking straight up, higher than every curled fingertip
+  check('raised thumb with curled fingers is thumb-up', isThumbUp(thumbUpPts) === true);
+  thumbUpPts[8] = { x: 0, y: 0.2 }; // an extended index higher than the thumb kills it
+  check('extended index higher than thumb is not thumb-up', isThumbUp(thumbUpPts) === false);
+}
+import { classifyHandShape, fingerCountLabel, isThumbUp } from '../../src/lib/gesture/handShape';
+
+// Thumb held high with curled fingers → 'back'.
+{
+  const det = new GestureDetector();
+  const thumbUpPoseFrames: GestureSample[] = [];
+  for (let t = 0; t <= 900; t += 33) thumbUpPoseFrames.push({ t, x: 0.5, y: 0.5, gesture: 'thumb_up' });
+  const out: string[] = [];
+  for (const s of thumbUpPoseFrames) { const a = det.push(s); if (a) out.push(a); }
+  check('thumb_up hold fires back once', out.length === 1 && out[0] === 'back');
+}
 
 console.log(failures === 0 ? 'ALL PASS' : `${failures} FAILURES`);
 process.exit(failures === 0 ? 0 : 1);
