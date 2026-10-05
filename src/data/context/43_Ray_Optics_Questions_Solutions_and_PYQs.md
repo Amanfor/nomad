@@ -1,10 +1,21 @@
-﻿# Physics Revision Context: Chapter 43 — Ray Optics Practice Bank: Questions, Solutions & JEE PYQs
+Physics Revision Context: Chapter 43 — Ray Optics Practice Bank: Questions, Solutions & JEE PYQs
+
+
+**Source:** Coaching Modules & Practice Sheets (`RayOpticsQuestions.pdf`, `RayOpticsSolutions.pdf`, `Geometrical Optics Exercises.pdf`, `Geometrical Optics Exercise Solutions.pdf`, and `4. Essential Sheet Geometrical optics.pdf`)
+**Extracted into:** `JEE/context/`
+**Companion Theory Context:** [Chapter 43 — Ray Optics & Optical Instruments Theory Context](https://docs.google.com/document/d/1Ue3uomwxU7CXLcr3jgWCNCNbrsgsBHgmNSH1gvcSYss/edit?usp=drivesdk)
+**Batch:** Physics Electromagnetism & Optics Core — High-Yield Question Bank, Topic-Wise Analytical Problems, Complete Step-by-Step Solutions, JEE Main / AIEEE PYQs (2008–2024), JEE Advanced / IIT-JEE Multimodal Problems, and Comprehensive Trap Diagnostics.
+**Status:** Verified, LaTeX-Validated, and Formatted with Preserved Visual Diagrams
+
 
 ---
 
+
 ## Executive Overview: Present vs. Absent Knowledge Gap Analysis
 
+
 In accordance with the `drive-to-context` and `multimodal-extractor` frameworks, a systematic audit of the `JEE/context/` directory was conducted prior to extraction:
+
 
 1. **Already Existing Information in `context/`:**
    - The primary file `43_Ray_Optics_and_Optical_Instruments.md` already contains comprehensive theoretical foundations, formal mathematical derivations (e.g. Fermat's Principle, Vector Snell's Law, Master Prism Equation, Lens Maker's Formula, Conjugate Foci Displacement, Silvering Power Equations, Optical Instrument Magnifications, Rayleigh Criterion), master formula reference sheets, and four foundational visual diagrams.
@@ -14,255 +25,313 @@ In accordance with the `drive-to-context` and `multimodal-extractor` frameworks,
    - **Previous Year Questions (PYQs):** Absence of authentic past examination problems from both JEE Main (AIEEE) and JEE Advanced (IIT-JEE) covering the 2008–2024 eras.
    - **Problem-Solving Archetypes & Traps:** Absence of diagnostic guides detailing recurrent calculation pitfalls in lens combinations, inhomogeneous gradient media ($n(z)$), virtual objects, and critical TIR boundaries.
 
+
 This revision context acts as the companion question, solution, and PYQ workbook to the existing theory document.
+
 
 ---
 
+
 ## Problem-Solving Visual Architecture & Archetypes
+
 
 ![Ray Optics Problem Solving Framework and PYQ Archetypes](/media/ray_optics_problem_solving_archetypes.webp)
 *Description: Four-panel comprehensive geometrical optics problem-solving graphic: (A) Ray propagation in continuous inhomogeneous media $n(y)$ showing curved ray trajectories and Snell's law differential invariance; (B) Silvered lens equivalent mirror ray tracing showing power superposition $P_{\text{net}} = 2P_L + P_M$ and re-tracing condition; (C) Prism deviation boundaries illustrating minimum deviation symmetry and condition of no emergence ($A > 2\theta_c$); (D) Composite dielectric slab normal shifts showing intermediate virtual image steps and multi-interface apparent depth calculation.*
 
+
 ---
+
+
+## 1. Plane Mirrors & Vector Kinematics
+
 
 ### Problem 1.1: Minimum Mirror Height for Full Human Visibility
 **Question:**
 A man of height $H = 6\text{ ft}$ stands vertically in front of a vertical plane mirror. Find the minimum vertical length of the plane mirror required for him to view his entire image, and describe its required spatial placement relative to his eye level.
 
+
 **Solution:**
 Let the man's eyes be at point $E$, the top of his head at $H$, and his feet at $F$. Let the distance $HE = h_1$ and $EF = h_2$, so that the total height $H = h_1 + h_2 = 6\text{ ft}$.
-3. To view the top of his head ($H$), a light ray from $H$ must reflect at point $M_1$ on the mirror and enter eye $E$. By the law of reflection, the normal at $M_1$ bisects $HE$. Thus, the upper edge of the mirror must be at a distance $h_1 / 2$ below $H$, which is:
+1. To view the top of his head ($H$), a light ray from $H$ must reflect at point $M_1$ on the mirror and enter eye $E$. By the law of reflection, the normal at $M_1$ bisects $HE$. Thus, the upper edge of the mirror must be at a distance $h_1 / 2$ below $H$, which is:
    $$y_{\text{top}} = H - \frac{h_1}{2} = h_2 + \frac{h_1}{2}$$
-4. To view his feet ($F$), a ray from $F$ reflects at point $M_2$ and enters $E$. The normal at $M_2$ bisects $EF$. Thus, the lower edge of the mirror must be at height:
+2. To view his feet ($F$), a ray from $F$ reflects at point $M_2$ and enters $E$. The normal at $M_2$ bisects $EF$. Thus, the lower edge of the mirror must be at height:
    $$y_{\text{bottom}} = \frac{h_2}{2}$$
-5. The required minimum vertical length of the mirror is:
+3. The required minimum vertical length of the mirror is:
    $$L_{\min} = y_{\text{top}} - y_{\text{bottom}} = \left(h_2 + \frac{h_1}{2}\right) - \frac{h_2}{2} = \frac{h_1 + h_2}{2} = \frac{H}{2}$$
    $$L_{\min} = \frac{6\text{ ft}}{2} = \mathbf{3\text{ ft}}$$
 *Condition:* The mirror must be mounted so that its top edge is midway between the eyes and the top of the head, and its bottom edge is midway between the eyes and the feet.
 
+
 ---
+
 
 ### Problem 1.2: Angular Deviation and Mirror Tilting
 **Question:**
 A ray of light is incident at an angle of $60^\circ$ on a horizontal plane mirror. Through what angle must the mirror be tilted so that the reflected ray becomes strictly horizontal?
 
+
 **Solution:**
-6. Let the horizontal surface lie along the $x$-axis. The initial incident ray makes an angle of incidence $i = 60^\circ$ with the vertical normal $\hat{n}_1$.
-7. The initial angle of reflection is $r = 60^\circ$. The angle made by the reflected ray with the horizontal mirror surface is the glancing angle:
+1. Let the horizontal surface lie along the $x$-axis. The initial incident ray makes an angle of incidence $i = 60^\circ$ with the vertical normal $\hat{n}_1$.
+2. The initial angle of reflection is $r = 60^\circ$. The angle made by the reflected ray with the horizontal mirror surface is the glancing angle:
    $$\theta_{\text{glance}} = 90^\circ - 60^\circ = 30^\circ$$
-8. To make the reflected ray horizontal, the direction of the reflected ray must rotate by an angle $\Delta \theta_{\text{ray}} = 30^\circ$ (or $150^\circ$).
-9. By the **Mirror Rotation Theorem**, when an incident ray is kept fixed and the mirror is rotated by an angle $\alpha$, the reflected ray rotates by $2\alpha$ in the same sense:
+3. To make the reflected ray horizontal, the direction of the reflected ray must rotate by an angle $\Delta \theta_{\text{ray}} = 30^\circ$ (or $150^\circ$).
+4. By the **Mirror Rotation Theorem**, when an incident ray is kept fixed and the mirror is rotated by an angle $\alpha$, the reflected ray rotates by $2\alpha$ in the same sense:
    $$2\alpha = 30^\circ \implies \mathbf{\alpha = 15^\circ}$$
 *(Alternatively, tilting in the opposite direction requires rotating by $(180^\circ - 24^\circ)/2$ or $75^\circ$ depending on the specified sense).*
 
+
 ---
+
 
 ### Problem 1.3: Number of Images in Inclined Plane Mirrors
 **Question:**
 Two plane mirrors are inclined at an angle of $\theta = 60^\circ$. A point object is placed symmetrically between the mirrors on their angle bisector.
-10. Determine the total number of images formed.
-11. If the mirrors are placed parallel to each other ($\theta = 0^\circ$), find the number of images formed.
+1. Determine the total number of images formed.
+2. If the mirrors are placed parallel to each other ($\theta = 0^\circ$), find the number of images formed.
+
 
 **Solution:**
-12. Compute the fundamental ratio $m$:
+1. Compute the fundamental ratio $m$:
    $$m = \frac{360^\circ}{\theta} = \frac{360^\circ}{60^\circ} = 6$$
    Since $m = 6$ is an **even integer**, the number of images is strictly independent of object position:
    $$n = m - 1 = 6 - 1 = \mathbf{5\text{ images}}$$
    *Note:* The 5 images lie on a circle whose center is the line of intersection of the two mirrors.
-13. For parallel mirrors ($\theta = 0^\circ$):
+2. For parallel mirrors ($\theta = 0^\circ$):
    $$m = \lim_{\theta \to 0^\circ} \frac{360^\circ}{\theta} = \infty$$
    Hence, an **infinite** number of images are formed due to successive back-and-forth reflections.
 
+
 ---
+
 
 ### Problem 1.4: Dynamic Image Velocity in Plane Mirrors
 **Question:**
 A point object $O$ moves with velocity $\vec{v}_O = 3\hat{i} + 4\hat{j}\text{ m/s}$ in front of a plane mirror whose surface lies in the $y$-$z$ plane with its normal along the $x$-axis. The mirror moves with velocity $\vec{v}_M = -2\hat{i} + 5\hat{j}\text{ m/s}$. Find the velocity vector of the image $\vec{v}_I$ and the relative velocity $\vec{v}_{I/O}$.
 
+
 **Solution:**
 Decompose velocities into perpendicular ($\,\perp$, along $\hat{i}$) and parallel ($\,\parallel$, along $\hat{j}$) components:
-14. Normal Component:
+1. Normal Component:
    $$v_{I, x} = -v_{O, x} + 2 v_{M, x}$$
    $$v_{I, x} = -(3) + 2(-2) = -3 - 4 = -7\text{ m/s}$$
-15. Parallel Component:
+2. Parallel Component:
    $$v_{I, y} = v_{O, y} = 4\text{ m/s}$$
    *(The mirror's parallel motion $v_{M, y} = 5\hat{j}$ has zero physical influence on the image velocity).*
-16. Velocity vector of the image:
+3. Velocity vector of the image:
    $$\mathbf{\vec{v}_I = -7\hat{i} + 4\hat{j}\text{ m/s}}$$
-17. Relative velocity of image with respect to object:
+4. Relative velocity of image with respect to object:
    $$\vec{v}_{I/O} = \vec{v}_I - \vec{v}_O = (-7\hat{i} + 4\hat{j}) - (3\hat{i} + 4\hat{j}) = \mathbf{-10\hat{i}\text{ m/s}}$$
 
+
 ---
+
+
+## 2. Spherical Mirrors (Concave & Convex Optics)
+
 
 ### Problem 2.1: Paraxial Image Formation & Magnification
 **Question:**
 An object of height $h_o = 2\text{ cm}$ is placed at a distance of $16\text{ cm}$ in front of a concave mirror. It produces a real, inverted image of height $h_i = -3\text{ cm}$. Find:
-18. The position of the image ($v$).
-19. The focal length ($f$) and radius of curvature ($R$) of the mirror.
+1. The position of the image ($v$).
+2. The focal length ($f$) and radius of curvature ($R$) of the mirror.
+
 
 **Solution:**
-20. By the transverse magnification formula for mirrors:
+1. By the transverse magnification formula for mirrors:
    $$m = \frac{h_i}{h_o} = -\frac{v}{u}$$
    Given $u = -16\text{ cm}$, $h_o = +2\text{ cm}$, $h_i = -3\text{ cm}$ (real $\implies$ inverted):
    $$m = \frac{-3}{+2} = -1.5$$
    $$-1.5 = -\frac{v}{-16} \implies v = -1.5 \times 16 = \mathbf{-24\text{ cm}}$$
    The image is formed $24\text{ cm}$ in front of the mirror (real image).
-21. Using the mirror formula:
+2. Using the mirror formula:
    $$\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$$
    $$\frac{1}{f} = \frac{1}{-24} + \frac{1}{-16} = -\frac{2 + 3}{48} = -\frac{5}{48}\text{ cm}^{-1}$$
    $$f = -\frac{48}{5} = \mathbf{-9.6\text{ cm}}$$
    $$R = 2f = 2(-9.6) = \mathbf{-19.2\text{ cm}}$$
 
+
 ---
+
 
 ### Problem 2.2: Longitudinal Magnification of an Extended Rod
 **Question:**
 A thin rod of length $L = 5\text{ cm}$ lies along the principal axis of a concave mirror of focal length $f = -10\text{ cm}$. The end of the rod farther from the pole is located at a distance of $15\text{ cm}$ from the pole. Determine the length of the image of the rod.
 
+
 **Solution:**
 Let the two endpoints of the rod be $A$ (nearer) and $B$ (farther):
 - Farther end $B$: $u_B = -15\text{ cm}$.
 - Nearer end $A$: $u_A = -(15 - 5) = -10\text{ cm}$.
-22. Image of Nearer End $A$:
+1. Image of Nearer End $A$:
    $$u_A = -10\text{ cm} = f$$
    Since end $A$ is situated precisely at the focus of the concave mirror:
    $$\frac{1}{v_A} = \frac{1}{f} - \frac{1}{u_A} = -\frac{1}{10} - \left(-\frac{1}{10}\right) = 0 \implies v_A \to -\infty$$
-23. Image of Farther End $B$:
+2. Image of Farther End $B$:
    $$\frac{1}{v_B} = \frac{1}{f} - \frac{1}{u_B} = -\frac{1}{10} - \left(-\frac{1}{15}\right) = -\frac{1}{10} + \frac{1}{15} = -\frac{1}{30}\text{ cm}^{-1} \implies v_B = -30\text{ cm}$$
-24. Length of the image:
+3. Length of the image:
    $$L_{\text{image}} = |v_A - v_B| = |-\infty - (-30)| = \mathbf{\infty}$$
 *(The image extends from $30\text{ cm}$ in front of the mirror all the way to $-\infty$, yielding infinite longitudinal length).*
 
+
 ---
+
 
 ### Problem 2.3: Coinciding Virtual Images from Plane and Convex Mirrors
 **Question:**
 An object is placed at a distance of $36\text{ cm}$ in front of a convex mirror. A plane mirror is inserted perpendicularly between the object and the convex mirror at a distance of $24\text{ cm}$ from the object. It is observed that the virtual image formed by the plane mirror coincides with the virtual image formed by the convex mirror. Find the radius of curvature $R$ of the convex mirror.
 
+
 **Solution:**
-25. Distance of object from plane mirror: $d_{O, P} = 24\text{ cm}$.
+1. Distance of object from plane mirror: $d_{O, P} = 24\text{ cm}$.
    Image formed by plane mirror lies at an equal distance behind it:
    $$d_{I, P} = 24\text{ cm}$$
-26. Distance of plane mirror from pole of convex mirror:
+2. Distance of plane mirror from pole of convex mirror:
    $$d_{\text{sep}} = 36\text{ cm} - 24\text{ cm} = 12\text{ cm}$$
-27. Position of plane mirror's image relative to the convex mirror:
+3. Position of plane mirror's image relative to the convex mirror:
    Since the image lies $24\text{ cm}$ behind the plane mirror, and the convex mirror is $12\text{ cm}$ behind the plane mirror, the image is located:
    $$v = +(24 - 12) = +12\text{ cm}\text{ (behind the convex mirror)}$$
-28. Apply the mirror formula for the convex mirror ($u = -36\text{ cm}$, $v = +12\text{ cm}$):
+4. Apply the mirror formula for the convex mirror ($u = -36\text{ cm}$, $v = +12\text{ cm}$):
    $$\frac{1}{f} = \frac{1}{v} + \frac{1}{u} = \frac{1}{+12} + \frac{1}{-36} = \frac{3 - 1}{36} = \frac{2}{36} = \frac{1}{18}\text{ cm}^{-1}$$
    $$f = +18\text{ cm}$$
    $$\mathbf{R = 2f = +36\text{ cm}}$$
 
+
 ---
+
 
 ### Problem 2.4: Kinematics of Moving Object in Spherical Mirror
 **Question:**
 A point object is placed on the principal axis at $u = -60\text{ cm}$ in front of a concave mirror of focal length $f = -40\text{ cm}$. If the object moves with speed $v_O = 10\text{ cm/s}$:
-29. Along the principal axis towards the mirror, find the longitudinal image velocity.
-30. Perpendicular to the principal axis, find the transverse image velocity at that instant.
+1. Along the principal axis towards the mirror, find the longitudinal image velocity.
+2. Perpendicular to the principal axis, find the transverse image velocity at that instant.
+
 
 **Solution:**
-31. Position of image:
+1. Position of image:
    $$\frac{1}{v} = \frac{1}{f} - \frac{1}{u} = -\frac{1}{40} - \left(-\frac{1}{60}\right) = -\frac{1}{40} + \frac{1}{60} = \frac{-3 + 2}{120} = -\frac{1}{120}\text{ cm}^{-1}$$
    $$v = -120\text{ cm}$$
    Transverse magnification:
    $$m = -\frac{v}{u} = -\frac{-120}{-60} = -2$$
-32. Motion along principal axis:
+2. Motion along principal axis:
    $$\vec{v}_{I, \parallel} = -m^2 \vec{v}_{O, \parallel} = -(-2)^2 (10\hat{i}) = \mathbf{-40\text{ cm/s}}$$
    *(The image moves at $40\text{ cm/s}$ AWAY from the mirror in the negative direction).*
-33. Motion perpendicular to principal axis ($h_o = 0$ at the axis):
+3. Motion perpendicular to principal axis ($h_o = 0$ at the axis):
    $$\vec{v}_{I, \perp} = m \vec{v}_{O, \perp} = (-2)(10\hat{j}) = \mathbf{-20\text{ cm/s}}$$
 
+
 ---
+
+
+## 3. Refraction at Flat Interfaces, Composite Slabs & Total Internal Reflection (TIR)
+
 
 ### Problem 3.1: Normal Shift in Multi-Layer Composite Liquid Slabs
 **Question:**
 A glass beaker contains water ($\mu_1 = 4/3$) up to a height of $d_1 = 12\text{ cm}$, above which floats an immiscible oil layer ($\mu_2 = 1.5$) of thickness $d_2 = 9\text{ cm}$. A scratch is made on the bottom of the beaker.
-34. What is the total apparent depth of the scratch when viewed vertically from air?
-35. What is the total apparent normal shift $\Delta s$?
+1. What is the total apparent depth of the scratch when viewed vertically from air?
+2. What is the total apparent normal shift $\Delta s$?
+
 
 **Solution:**
-36. For an observer in air ($\mu_0 = 1$), the total apparent depth is the sum of apparent thicknesses of each individual medium:
+1. For an observer in air ($\mu_0 = 1$), the total apparent depth is the sum of apparent thicknesses of each individual medium:
    $$d_{\text{app}} = \sum_{i=1}^k \frac{d_i}{\mu_i} = \frac{d_1}{\mu_1} + \frac{d_2}{\mu_2}$$
    $$d_{\text{app}} = \frac{12}{4/3} + \frac{9}{1.5} = \left(12 \times \frac{3}{4}\right) + \left(\frac{9}{1.5}\right) = 9\text{ cm} + 6\text{ cm} = \mathbf{15\text{ cm}}$$
-37. The actual physical depth is:
+2. The actual physical depth is:
    $$d_{\text{actual}} = d_1 + d_2 = 12 + 9 = 21\text{ cm}$$
-38. Total normal shift:
+3. Total normal shift:
    $$\Delta s = d_{\text{actual}} - d_{\text{app}} = 21 - 15 = \mathbf{6\text{ cm}}$$
    *Verification via direct shift summation:*
    $$\Delta s = d_1\left(1 - \frac{1}{\mu_1}\right) + d_2\left(1 - \frac{1}{\mu_2}\right) = 12\left(1 - \frac{3}{4}\right) + 9\left(1 - \frac{2}{3}\right) = 3 + 3 = 6\text{ cm}$$
 
+
 ---
+
 
 ### Problem 3.2: Lateral Displacement in a Transparent Glass Slab
 **Question:**
 A light ray is incident at an angle $i = 45^\circ$ on a glass slab of thickness $t = 3\text{ cm}$ and refractive index $\mu = 1.5$.
-39. Calculate the angle of emergence $e$.
-40. Determine the lateral displacement $\Delta x$ of the ray upon traversing the slab.
+1. Calculate the angle of emergence $e$.
+2. Determine the lateral displacement $\Delta x$ of the ray upon traversing the slab.
+
 
 **Solution:**
-41. By Snell's Law at the first interface:
+1. By Snell's Law at the first interface:
    $$\sin r = \frac{\sin i}{\mu} = \frac{\sin 45^\circ}{1.5} = \frac{1}{\sqrt{2} \times 1.5} = \frac{\sqrt{2}}{3} \approx 0.4714$$
    At the parallel rear interface, the angle of emergence is strictly equal to the incident angle:
    $$\mathbf{e = 45^\circ}$$
-42. To find lateral displacement:
+2. To find lateral displacement:
    $$\cos r = \sqrt{1 - \sin^2 r} = \sqrt{1 - \frac{2}{9}} = \frac{\sqrt{7}}{3}$$
    $$\sin(i - r) = \sin i \cos r - \cos i \sin r = \frac{1}{\sqrt{2}}\left(\frac{\sqrt{7}}{3}\right) - \frac{1}{\sqrt{2}}\left(\frac{\sqrt{2}}{3}\right) = \frac{\sqrt{7} - \sqrt{2}}{3\sqrt{2}}$$
    $$\Delta x = \frac{t \sin(i - r)}{\cos r} = \frac{3 \cdot \frac{\sqrt{7} - \sqrt{2}}{3\sqrt{2}}}{\frac{\sqrt{7}}{3}} = \frac{3(\sqrt{7} - \sqrt{2})}{\sqrt{14}} = \mathbf{3\left(1 - \frac{1}{\sqrt{7}}\right)\text{ cm} \approx 1.86\text{ cm}}$$
 
+
 ---
+
 
 ### Problem 3.3: Circle of Illuminance (Fish-Eye Window)
 **Question:**
 A point isotropic light source is located at a depth of $h = 2\sqrt{7}\text{ m}$ below the surface of a tranquil lake of refractive index $\mu = 4/3$. Find the radius and area of the circular patch on the surface through which light emerges into the atmosphere.
 
+
 **Solution:**
-43. Light rays striking the water-air interface at an angle exceeding the critical angle $\theta_c$ suffer total internal reflection.
+1. Light rays striking the water-air interface at an angle exceeding the critical angle $\theta_c$ suffer total internal reflection.
    $$\sin\theta_c = \frac{1}{\mu} = \frac{3}{4}$$
    $$\tan\theta_c = \frac{\sin\theta_c}{\sqrt{1 - \sin^2\theta_c}} = \frac{3/4}{\sqrt{1 - 9/16}} = \frac{3/4}{\sqrt{7}/4} = \frac{3}{\sqrt{7}}$$
-44. Radius of the circular illuminated window:
+2. Radius of the circular illuminated window:
    $$r = h \tan\theta_c = (2\sqrt{7}) \times \left(\frac{3}{\sqrt{7}}\right) = \mathbf{6\text{ m}}$$
-45. Area of the illuminated circle:
+3. Area of the illuminated circle:
    $$A = \pi r^2 = \pi (6)^2 = 36\pi\text{ m}^2 \approx \mathbf{113.1\text{ m}^2}$$
 
+
 ---
+
 
 ### Problem 3.4: Optical Fiber Acceptance Angle
 **Question:**
 An optical fiber has a cylindrical core of refractive index $n_1 = 1.5$ and a cladding of index $n_2 = 1.4$. Light is launched from air ($n_0 = 1$) into the flat circular face of the fiber. Find:
-46. The critical angle for the core-cladding boundary.
-47. The maximum acceptance angle $\theta_a$ in air.
-48. The Numerical Aperture ($\text{NA}$).
+1. The critical angle for the core-cladding boundary.
+2. The maximum acceptance angle $\theta_a$ in air.
+3. The Numerical Aperture ($\text{NA}$).
+
 
 **Solution:**
-49. Critical angle at core-cladding boundary:
+1. Critical angle at core-cladding boundary:
    $$\sin\theta_c = \frac{n_2}{n_1} = \frac{1.4}{1.5} = \frac{14}{15} \implies \theta_c = \arcsin(0.9333) \approx \mathbf{68.96^\circ}$$
-50. Numerical Aperture ($\text{NA}$):
+2. Numerical Aperture ($\text{NA}$):
    $$\text{NA} = \sqrt{n_1^2 - n_2^2} = \sqrt{(1.5)^2 - (1.4)^2} = \sqrt{2.25 - 1.96} = \sqrt{0.29} \approx \mathbf{0.5385}$$
-51. Maximum angle of acceptance $\theta_a$:
+3. Maximum angle of acceptance $\theta_a$:
    $$n_0 \sin\theta_a = \text{NA} \implies \sin\theta_a = 0.5385$$
    $$\mathbf{\theta_a = \arcsin(0.5385) \approx 32.58^\circ}$$
 
+
 ---
+
+
+## 4. Prisms, Limiting Geometries & Dispersion
+
 
 ### Problem 4.1: Master Prism Equation & Minimum Deviation
 **Question:**
 A glass prism with an apex angle of $A = 60^\circ$ produces a minimum deviation of $\delta_{\min} = 30^\circ$. Find:
-52. The refractive index $\mu$ of the prism material.
-53. The angle of incidence $i$ and angle of refraction $r$ at minimum deviation.
+1. The refractive index $\mu$ of the prism material.
+2. The angle of incidence $i$ and angle of refraction $r$ at minimum deviation.
+
 
 **Solution:**
-54. At minimum deviation, ray passage is strictly symmetric:
+1. At minimum deviation, ray passage is strictly symmetric:
    $$r_1 = r_2 = r = \frac{A}{2} = \frac{60^\circ}{2} = \mathbf{30^\circ}$$
    $$i = e = \frac{A + \delta_{\min}}{2} = \frac{60^\circ + 30^\circ}{2} = \mathbf{45^\circ}$$
-55. Using the Master Prism Formula:
+2. Using the Master Prism Formula:
    $$\mu = \frac{\sin\left(\frac{A + \delta_{\min}}{2}\right)}{\sin\left(\frac{A}{2}\right)} = \frac{\sin 45^\circ}{\sin 30^\circ} = \frac{1/\sqrt{2}}{1/2} = \mathbf{\sqrt{2} \approx 1.414}$$
 
+
 ---
+
 
 ### Problem 4.2: Small-Angle (Thin) Prism Deviation
 **Question:**
 A thin prism of refracting angle $A = 6^\circ$ produces a net angular deviation of $\delta = 3^\circ$. Find the refractive index $\mu$ of the prism.
+
 
 **Solution:**
 For a small-angle prism ($A \le 10^\circ$):
@@ -270,71 +339,86 @@ $$\delta \approx (\mu - 1)A$$
 $$3^\circ = (\mu - 1) \times 6^\circ$$
 $$\mu - 1 = \frac{3}{6} = 0.5 \implies \mathbf{\mu = 1.5}$$
 
+
 ---
+
 
 ### Problem 4.3: Achromatic Dual-Prism Combination (Deviation Without Dispersion)
 **Question:**
 Two thin prisms of crown glass ($\mu_V = 1.52$, $\mu_R = 1.48$, $\mu_Y = 1.50$) and flint glass ($\mu_V' = 1.66$, $\mu_R' = 1.62$, $\mu_Y' = 1.64$) are combined in reversed opposition to produce deviation without dispersion. If the angle of the crown glass prism is $A = 10^\circ$, determine:
-56. The required angle $A'$ of the flint glass prism.
-57. The net angular deviation $\delta_{\text{net}}$ produced by the achromatic doublet.
+1. The required angle $A'$ of the flint glass prism.
+2. The net angular deviation $\delta_{\text{net}}$ produced by the achromatic doublet.
+
 
 **Solution:**
-58. Condition for zero net dispersion:
+1. Condition for zero net dispersion:
    $$\theta_{\text{net}} = (\mu_V - \mu_R)A + (\mu_V' - \mu_R')A' = 0$$
    $$(1.52 - 1.48)(10^\circ) + (1.66 - 1.62)A' = 0$$
    $$(0.04)(10^\circ) + (0.04)A' = 0 \implies A' = -10^\circ$$
    Thus, the flint prism must have an angle of $\mathbf{10^\circ}$ placed in inverted opposition.
-59. Net deviation for yellow light:
+2. Net deviation for yellow light:
    $$\delta_{\text{net}} = (\mu_Y - 1)A + (\mu_Y' - 1)A'$$
    $$\delta_{\text{net}} = (1.50 - 1)(10^\circ) + (1.64 - 1)(-10^\circ) = (0.50)(10^\circ) - (0.64)(10^\circ) = 5.0^\circ - 6.4^\circ = \mathbf{-1.4^\circ}$$
 *(The combination produces an overall deviation of $1.4^\circ$ towards the base of the flint prism).*
 
+
 ---
+
+
+## 5. Curved Interfaces, Thin Lenses & Silvering Combinations
+
 
 ### Problem 5.1: Lens Maker's Formula in Multiple Media
 **Question:**
 A biconvex crown glass lens ($\mu_g = 1.5$) has radii of curvature $R_1 = 20\text{ cm}$ and $R_2 = -20\text{ cm}$.
-60. Find its focal length in air.
-61. Find its focal length when completely immersed in water ($\mu_w = 4/3$).
-62. Find its focal length and optical behavior when immersed in carbon disulfide ($\mu_s = 1.65$).
+1. Find its focal length in air.
+2. Find its focal length when completely immersed in water ($\mu_w = 4/3$).
+3. Find its focal length and optical behavior when immersed in carbon disulfide ($\mu_s = 1.65$).
+
 
 **Solution:**
-63. In air ($\mu = 1$):
+1. In air ($\mu = 1$):
    $$\frac{1}{f_{\text{air}}} = (\mu_g - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right) = (1.5 - 1)\left(\frac{1}{20} - \left(-\frac{1}{20}\right)\right) = (0.5)\left(\frac{2}{20}\right) = \frac{1}{20}\text{ cm}^{-1}$$
    $$\mathbf{f_{\text{air}} = +20\text{ cm}}$$
-64. In water ($\mu_w = 4/3$):
+2. In water ($\mu_w = 4/3$):
    $$\mu_{\text{rel}} = \frac{\mu_g}{\mu_w} = \frac{1.5}{4/3} = \frac{9}{8} = 1.125$$
    $$\frac{1}{f_{\text{water}}} = \left(\frac{9}{8} - 1\right)\left(\frac{2}{20}\right) = \left(\frac{1}{8}\right)\left(\frac{1}{10}\right) = \frac{1}{80}\text{ cm}^{-1}$$
    $$\mathbf{f_{\text{water}} = +80\text{ cm} = 4 f_{\text{air}}}$$
-65. In carbon disulfide ($\mu_s = 1.65$):
+3. In carbon disulfide ($\mu_s = 1.65$):
    $$\mu_{\text{rel}} = \frac{1.5}{1.65} = \frac{10}{11} < 1$$
    $$\frac{1}{f_s} = \left(\frac{10}{11} - 1\right)\left(\frac{1}{10}\right) = \left(-\frac{1}{11}\right)\left(\frac{1}{10}\right) = -\frac{1}{110}\text{ cm}^{-1}$$
    $$\mathbf{f_s = -110\text{ cm}}$$
    *Physical Insight:* Because $\mu_{\text{medium}} > \mu_{\text{lens}}$, the convex lens **inverts its optical nature** and functions as a **diverging lens**!
 
+
 ---
+
 
 ### Problem 5.2: Thin Lens Optical Power Combinations
 **Question:**
 A concave lens is placed in direct coaxial contact with a convex lens of focal length $f_1 = +20\text{ cm}$. The resulting combination functions as a convex lens of equivalent focal length $F = +50\text{ cm}$. Determine:
-66. The focal length $f_2$ of the concave lens.
-67. The optical power $P_2$ of the concave lens.
+1. The focal length $f_2$ of the concave lens.
+2. The optical power $P_2$ of the concave lens.
+
 
 **Solution:**
-68. Using the thin lens combination formula:
+1. Using the thin lens combination formula:
    $$\frac{1}{F} = \frac{1}{f_1} + \frac{1}{f_2}$$
    $$\frac{1}{f_2} = \frac{1}{F} - \frac{1}{f_1} = \frac{1}{50} - \frac{1}{20} = \frac{2 - 5}{100} = -\frac{3}{100}\text{ cm}^{-1}$$
    $$\mathbf{f_2 = -\frac{100}{3}\text{ cm} \approx -33.33\text{ cm}}$$
-69. Power of the concave lens:
+2. Power of the concave lens:
    $$P_2 = \frac{100}{f_2(\text{cm})} = \frac{100}{-100/3} = \mathbf{-3.0\text{ D}}$$
 
+
 ---
+
 
 ### Problem 5.3: Silvered Plano-Convex Lens as an Equivalent Mirror
 **Question:**
 A plano-convex lens made of glass ($\mu = 1.5$) has a curved surface of radius of curvature $R = 30\text{ cm}$. Determine the equivalent focal length $F_{\text{eq}}$ and nature of the system when:
-70. The plane face is silvered.
-71. The curved face is silvered.
+1. The plane face is silvered.
+2. The curved face is silvered.
+
 
 **Solution:**
 The optical power of the silvered lens system is given by the superposition theorem:
@@ -342,82 +426,102 @@ $$P_{\text{net}} = 2P_L + P_M = \frac{2}{f_L} + \frac{1}{f_M} = -\frac{1}{F_{\te
 For the lens in air:
 $$\frac{1}{f_L} = (\mu - 1)\left(\frac{1}{R}\right) = (1.5 - 1)\left(\frac{1}{30}\right) = \frac{1}{60}\text{ cm}^{-1} \implies f_L = 60\text{ cm}$$
 
-72. **Plane Face Silvered:**
+
+1. **Plane Face Silvered:**
    - The silvered mirror is a plane mirror: $R_M = \infty \implies f_M = \infty \implies P_M = 0$.
    $$P_{\text{net}} = 2P_L + 0 = 2\left(\frac{1}{60}\right) = \frac{1}{30}\text{ cm}^{-1}$$
    $$F_{\text{eq}} = -\frac{1}{P_{\text{net}}} = \mathbf{-30\text{ cm}}$$
    The system behaves as a **concave mirror of focal length $30\text{ cm}$**.
 
-73. **Curved Face Silvered:**
+
+2. **Curved Face Silvered:**
    - The silvered mirror is a concave mirror of radius $R = 30\text{ cm}$:
      $$f_M = \frac{R}{2} = \frac{30}{2} = 15\text{ cm} \implies P_M = \frac{1}{f_M} = \frac{1}{15}\text{ cm}^{-1}$$
    $$P_{\text{net}} = 2P_L + P_M = \frac{2}{60} + \frac{1}{15} = \frac{1}{30} + \frac{2}{30} = \frac{3}{30} = \frac{1}{10}\text{ cm}^{-1}$$
    $$F_{\text{eq}} = -\frac{1}{P_{\text{net}}} = \mathbf{-10\text{ cm}}$$
    The system behaves as a **concave mirror of focal length $10\text{ cm}$**.
 
+
 ---
+
+
+## 6. Optical Instruments & Vision Correction
+
 
 ### Problem 6.1: Vision Defect Correction (Myopia & Hypermetropia)
 **Question:**
-74. A myopic student cannot see objects clearly beyond a distance of $d_{\text{far}} = 1.5\text{ m}$. Calculate the focal length and power of the corrective lens required to view distant stars.
-75. A hypermetropic person has a near point of $d_{\text{near}} = 75\text{ cm}$. Find the power of the convex reading glasses required to read a book held at $D = 25\text{ cm}$.
+1. A myopic student cannot see objects clearly beyond a distance of $d_{\text{far}} = 1.5\text{ m}$. Calculate the focal length and power of the corrective lens required to view distant stars.
+2. A hypermetropic person has a near point of $d_{\text{near}} = 75\text{ cm}$. Find the power of the convex reading glasses required to read a book held at $D = 25\text{ cm}$.
+
 
 **Solution:**
-76. **Myopia Prescription:**
+1. **Myopia Prescription:**
    To view objects at $u = -\infty$, the lens must form a virtual image at the far point $v = -1.5\text{ m}$:
    $$\frac{1}{f} = \frac{1}{v} - \frac{1}{u} = \frac{1}{-1.5} - \frac{1}{-\infty} = -\frac{1}{1.5}\text{ m}^{-1}$$
    $$\mathbf{f = -1.5\text{ m}}, \quad \mathbf{P = \frac{1}{-1.5} = -0.67\text{ D}}$$
    *(A concave lens of power $-0.67\text{ D}$ is required).*
 
-77. **Hypermetropia Prescription:**
+
+2. **Hypermetropia Prescription:**
    An object placed at $u = -25\text{ cm} = -0.25\text{ m}$ must form an image at the near point $v = -75\text{ cm} = -0.75\text{ m}$:
    $$\frac{1}{f} = \frac{1}{v} - \frac{1}{u} = -\frac{1}{0.75} - \left(-\frac{1}{0.25}\right) = -\frac{4}{3} + 4 = +\frac{8}{3}\text{ m}^{-1}$$
    $$\mathbf{P = +\frac{8}{3}\text{ D} \approx +2.67\text{ D}}$$
    *(A convex lens of power $+2.67\text{ D}$ is required).*
 
+
 ---
+
 
 ### Problem 6.2: Compound Microscope Magnification
 **Question:**
 A compound microscope consists of an objective lens of focal length $f_o = 1.0\text{ cm}$ and an eyepiece of focal length $f_e = 5.0\text{ cm}$. An object is placed at a distance of $u_o = -1.1\text{ cm}$ in front of the objective. Find:
-78. The magnification produced for a relaxed eye (normal adjustment, image at $\infty$).
-79. The magnification produced at the near point ($v_e = -25\text{ cm}$) and the corresponding tube length $L$.
+1. The magnification produced for a relaxed eye (normal adjustment, image at $\infty$).
+2. The magnification produced at the near point ($v_e = -25\text{ cm}$) and the corresponding tube length $L$.
+
 
 **Solution:**
-80. Real intermediate image from objective:
+1. Real intermediate image from objective:
    $$\frac{1}{v_o} = \frac{1}{f_o} + \frac{1}{u_o} = \frac{1}{1.0} - \frac{1}{1.1} = 1 - \frac{10}{11} = \frac{1}{11}\text{ cm}^{-1} \implies v_o = +11\text{ cm}$$
    Transverse magnification of objective:
    $$m_o = -\frac{v_o}{|u_o|} = -\frac{11}{1.1} = -10$$
-81. **Normal Adjustment (Image at $\infty$):**
+2. **Normal Adjustment (Image at $\infty$):**
    $$M_e = \frac{D}{f_e} = \frac{25}{5} = 5$$
    $$M = m_o \times M_e = (-10) \times 5 = \mathbf{-50}$$
    Tube length: $L = v_o + f_e = 11 + 5 = \mathbf{16\text{ cm}}$.
-82. **Near Point Adjustment ($v_e = -D = -25\text{ cm}$):**
+3. **Near Point Adjustment ($v_e = -D = -25\text{ cm}$):**
    $$M_e = 1 + \frac{D}{f_e} = 1 + \frac{25}{5} = 6$$
    $$M = m_o \times M_e = (-10) \times 6 = \mathbf{-60}$$
    Eyepiece object distance:
    $$\frac{1}{u_e} = \frac{1}{v_e} - \frac{1}{f_e} = -\frac{1}{25} - \frac{1}{5} = -\frac{6}{25} \implies |u_e| = \frac{25}{6} \approx 4.17\text{ cm}$$
    Tube length: $L = v_o + |u_e| = 11 + 4.17 = \mathbf{15.17\text{ cm}}$.
 
+
 ---
+
 
 ### Problem 6.3: Astronomical Telescope in Normal Adjustment
 **Question:**
 An astronomical refracting telescope has an objective of focal length $f_o = 100\text{ cm}$ and an eyepiece of focal length $f_e = 5\text{ cm}$. The telescope is focused on a distant star in normal adjustment.
-83. Find the magnifying power $M$ and the tube length $L$.
-84. If the objective has an aperture diameter of $a = 10\text{ cm}$ and the wavelength of starlight is $\lambda = 6000\text{ \AA}$, find the angular limit of resolution $d\theta$.
+1. Find the magnifying power $M$ and the tube length $L$.
+2. If the objective has an aperture diameter of $a = 10\text{ cm}$ and the wavelength of starlight is $\lambda = 6000\text{ \AA}$, find the angular limit of resolution $d\theta$.
+
 
 **Solution:**
-85. In normal adjustment:
+1. In normal adjustment:
    $$M = -\frac{f_o}{f_e} = -\frac{100}{5} = \mathbf{-20}$$
    Tube length:
    $$L = f_o + f_e = 100 + 5 = \mathbf{105\text{ cm}}$$
-86. By Rayleigh's Criterion for a circular aperture:
+2. By Rayleigh's Criterion for a circular aperture:
    $$d\theta = \frac{1.22 \lambda}{a}$$
    Given $\lambda = 6000 \times 10^{-10}\text{ m} = 6 \times 10^{-7}\text{ m}$ and $a = 0.10\text{ m}$:
    $$d\theta = \frac{1.22 \times 6 \times 10^{-7}}{0.10} = \mathbf{7.32 \times 10^{-6}\text{ rad}}$$
 
+
 ---
+
+
+## 7. JEE Main / AIEEE Previous Year Questions (PYQs) with Step-by-Step Solutions
+
 
 ### PYQ 7.1: Grazing Emergence from a Cylindrical Rod [AIEEE 2009]
 **Question:**
@@ -427,20 +531,23 @@ A transparent solid cylindrical rod has a refractive index of $\mu = 2/\sqrt{3}$
 (3) $\sin^{-1}\left(\frac{1}{\sqrt{3}}\right)$
 (4) $\sin^{-1}\left(\frac{1}{2}\right)$
 
+
 **Solution:**
-87. Let the incident angle on the flat vertical end face be $\theta$, and the angle of refraction inside the rod be $r$.
+1. Let the incident angle on the flat vertical end face be $\theta$, and the angle of refraction inside the rod be $r$.
    By Snell's law:
    $$1 \cdot \sin\theta = \mu \sin r \implies \sin\theta = \frac{2}{\sqrt{3}} \sin r$$
-88. The ray strikes the cylindrical curved wall at an angle of incidence $\phi = 90^\circ - r$.
+2. The ray strikes the cylindrical curved wall at an angle of incidence $\phi = 90^\circ - r$.
    For grazing emergence along the cylindrical wall, $\phi$ must equal the critical angle $\theta_c$:
    $$\sin\phi = \sin(90^\circ - r) = \cos r = \frac{1}{\mu} = \frac{\sqrt{3}}{2}$$
-89. Since $\cos r = \frac{\sqrt{3}}{2}$, we have $r = 30^\circ$.
-90. Substitute $r = 30^\circ$ back into Snell's law:
+3. Since $\cos r = \frac{\sqrt{3}}{2}$, we have $r = 30^\circ$.
+4. Substitute $r = 30^\circ$ back into Snell's law:
    $$\sin\theta = \frac{2}{\sqrt{3}} \sin 30^\circ = \frac{2}{\sqrt{3}} \times \frac{1}{2} = \frac{1}{\sqrt{3}}$$
    $$\mathbf{\theta = \sin^{-1}\left(\frac{1}{\sqrt{3}}\right)}$$
 **Correct Option: (3)**
 
+
 ---
+
 
 ### PYQ 7.2: Side-View Mirror Dynamic Image Speed [AIEEE 2011]
 **Question:**
@@ -450,16 +557,19 @@ A car is fitted with a convex side-view mirror of focal length $f = +20\text{ cm
 (3) $1/25\text{ m/s}$
 (4) $1/30\text{ m/s}$
 
+
 **Solution:**
-91. Object distance $u = -2.8\text{ m} = -280\text{ cm}$, focal length $f = +20\text{ cm}$.
-92. Transverse magnification:
+1. Object distance $u = -2.8\text{ m} = -280\text{ cm}$, focal length $f = +20\text{ cm}$.
+2. Transverse magnification:
    $$m = \frac{f}{f - u} = \frac{20}{20 - (-280)} = \frac{20}{300} = \frac{1}{15}$$
-93. Differentiating the mirror formula $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ with respect to time:
+3. Differentiating the mirror formula $\frac{1}{v} + \frac{1}{u} = \frac{1}{f}$ with respect to time:
    $$v_I = -\left(\frac{v}{u}\right)^2 v_O = -m^2 v_O$$
    $$|v_I| = m^2 |v_O| = \left(\frac{1}{15}\right)^2 \times 15 = \frac{15}{225} = \mathbf{\frac{1}{15}\text{ m/s}}$$
 **Correct Option: (1)**
 
+
 ---
+
 
 ### PYQ 7.3: Plano-Convex Lens Sagitta & Focal Length [JEE Main 2013]
 **Question:**
@@ -469,19 +579,22 @@ The diameter of the circular aperture of a plano-convex lens is $2r = 6\text{ cm
 (3) $30\text{ cm}$
 (4) $10\text{ cm}$
 
+
 **Solution:**
-94. Refractive index of the lens:
+1. Refractive index of the lens:
    $$\mu = \frac{c}{v} = \frac{3 \times 10^8}{2 \times 10^8} = 1.5$$
-95. Using the circle geometry sagitta relation for a spherical surface of radius $R$:
+2. Using the circle geometry sagitta relation for a spherical surface of radius $R$:
    $$r^2 = t(2R - t) \approx 2Rt \implies R \approx \frac{r^2}{2t}$$
    Given $r = 3\text{ cm}$ and $t = 0.3\text{ cm}$:
    $$R = \frac{(3)^2}{2(0.3)} = \frac{9}{0.6} = 15\text{ cm}$$
-96. By the Lens Maker's Formula for a plano-convex lens ($R_1 = R = 15\text{ cm}, R_2 = \infty$):
+3. By the Lens Maker's Formula for a plano-convex lens ($R_1 = R = 15\text{ cm}, R_2 = \infty$):
    $$\frac{1}{f} = (\mu - 1)\left(\frac{1}{R} - \frac{1}{\infty}\right) = (1.5 - 1)\left(\frac{1}{15}\right) = \frac{0.5}{15} = \frac{1}{30}\text{ cm}^{-1}$$
    $$\mathbf{f = 30\text{ cm}}$$
 **Correct Option: (3)**
 
+
 ---
+
 
 ### PYQ 7.4: Thin Lens Immersion Inversion [JEE Main 2014]
 **Question:**
@@ -491,16 +604,19 @@ A thin convex lens made from crown glass ($\mu = 1.5$) has focal length $f$ in a
 (3) $f_2 > f$ and $f_1$ becomes negative
 (4) Both $f_1$ and $f_2$ become negative
 
+
 **Solution:**
-97. In air: $\frac{1}{f} = (1.5 - 1)K = 0.5 K$, where $K = \left(\frac{1}{R_1} - \frac{1}{R_2}\right) > 0$.
-98. In liquid 1 ($\mu_1 = 4/3$):
+1. In air: $\frac{1}{f} = (1.5 - 1)K = 0.5 K$, where $K = \left(\frac{1}{R_1} - \frac{1}{R_2}\right) > 0$.
+2. In liquid 1 ($\mu_1 = 4/3$):
    $$\frac{1}{f_1} = \left(\frac{1.5}{4/3} - 1\right)K = \left(\frac{9}{8} - 1\right)K = \frac{1}{8}K = \frac{0.5K}{4} = \frac{1}{4f} \implies \mathbf{f_1 = 4f > f}$$
-99. In liquid 2 ($\mu_2 = 5/3$):
+3. In liquid 2 ($\mu_2 = 5/3$):
    $$\frac{1}{f_2} = \left(\frac{1.5}{5/3} - 1\right)K = \left(\frac{9}{10} - 1\right)K = -\frac{1}{10}K < 0 \implies \mathbf{f_2 = -5f < 0}$$
    *(The lens becomes diverging and negative in liquid 2).*
 **Correct Option: (2)**
 
+
 ---
+
 
 ### PYQ 7.5: Liquid Layer on Plane Mirror [JEE Main 2019]
 **Question:**
@@ -510,22 +626,28 @@ A thin convex lens $L$ (refractive index $\mu = 1.5$) is placed on a horizontal 
 (3) $3$
 (4) $3/4$
 
+
 **Solution:**
-100. Without liquid, parallel rays reflecting from the plane mirror retrace their paths, meaning the pin is placed at the focal point of the convex lens:
+1. Without liquid, parallel rays reflecting from the plane mirror retrace their paths, meaning the pin is placed at the focal point of the convex lens:
    $$f_L = 18\text{ cm}$$
-101. Since the lens is equiconvex of $\mu = 1.5$:
+2. Since the lens is equiconvex of $\mu = 1.5$:
    $$\frac{1}{f_L} = (1.5 - 1)\left(\frac{2}{R}\right) = \frac{1}{R} \implies R = f_L = 18\text{ cm}$$
-102. When liquid is poured beneath the lens, it forms a plano-concave liquid lens with bounding radii $R_1 = -R = -18\text{ cm}$ and $R_2 = \infty$.
+3. When liquid is poured beneath the lens, it forms a plano-concave liquid lens with bounding radii $R_1 = -R = -18\text{ cm}$ and $R_2 = \infty$.
    The focal length of this liquid lens is:
    $$\frac{1}{f_{\text{liq}}} = (\mu_l - 1)\left(-\frac{1}{R}\right) = -\frac{\mu_l - 1}{18}$$
-103. The combination of the convex lens and liquid lens has effective focal length $F = 27\text{ cm}$:
+4. The combination of the convex lens and liquid lens has effective focal length $F = 27\text{ cm}$:
    $$\frac{1}{F} = \frac{1}{f_L} + \frac{1}{f_{\text{liq}}}$$
    $$\frac{1}{27} = \frac{1}{18} - \frac{\mu_l - 1}{18}$$
    $$\frac{\mu_l - 1}{18} = \frac{1}{18} - \frac{1}{27} = \frac{3 - 2}{54} = \frac{1}{54}$$
    $$\mu_l - 1 = \frac{18}{54} = \frac{1}{3} \implies \mathbf{\mu_l = 1 + \frac{1}{3} = \frac{4}{3}}$$
 **Correct Option: (1)**
 
+
 ---
+
+
+## 8. JEE Advanced / IIT-JEE Multimodal Problems with Analytical Solutions
+
 
 ### PYQ 8.1: Minimum Deviation in a 60° Prism for Two Wavelengths [IIT-JEE 2008]
 **Question:**
@@ -535,16 +657,19 @@ Two beams of red and violet colors are passed separately through a prism of apex
 (C) greater for red color
 (D) equal but not $30^\circ$ for both colors
 
+
 **Solution:**
-104. At the condition of minimum deviation, the ray traverses symmetrically through the prism:
+1. At the condition of minimum deviation, the ray traverses symmetrically through the prism:
    $$r_1 = r_2 = r$$
-105. Since the prism apex angle is $A = r_1 + r_2 = 2r$:
+2. Since the prism apex angle is $A = r_1 + r_2 = 2r$:
    $$\mathbf{r = \frac{A}{2} = \frac{60^\circ}{2} = 30^\circ}$$
-106. This relation is a purely geometrical identity governed by the condition of minimum deviation ($i = e$), completely independent of the refractive index $\mu$ or the wavelength $\lambda$.
+3. This relation is a purely geometrical identity governed by the condition of minimum deviation ($i = e$), completely independent of the refractive index $\mu$ or the wavelength $\lambda$.
    Thus, $r = 30^\circ$ for **both red and violet light**!
 **Correct Option: (A)**
 
+
 ---
+
 
 ### PYQ 8.2: Successive Refractions in Layered Stack & Boundary Miss [IIT-JEE 2008]
 **Question:**
@@ -554,35 +679,41 @@ A light beam travels from Region I through a stack of media with parallel planar
 (C) $\sin^{-1}(1/4)$
 (D) $\sin^{-1}(1/3)$
 
+
 **Solution:**
-107. For parallel planar interfaces, Snell's law invariant holds across all consecutive layers:
+1. For parallel planar interfaces, Snell's law invariant holds across all consecutive layers:
    $$n_1 \sin\theta_1 = n_2 \sin\theta_2 = n_3 \sin\theta_3 = n_4 \sin\theta_4$$
-108. For the beam to "just miss" entering Region IV, it must suffer Total Internal Reflection at the III–IV interface, which requires grazing emergence along the interface:
+2. For the beam to "just miss" entering Region IV, it must suffer Total Internal Reflection at the III–IV interface, which requires grazing emergence along the interface:
    $$\theta_4 = 90^\circ$$
-109. Equating the invariant between Region I and Region IV:
+3. Equating the invariant between Region I and Region IV:
    $$n_0 \sin\theta = n_{\text{IV}} \sin 90^\circ = \left(\frac{n_0}{8}\right)(1)$$
    $$\sin\theta = \frac{1}{8} \implies \mathbf{\theta = \sin^{-1}\left(\frac{1}{8}\right)}$$
 **Correct Option: (B)**
 
+
 ---
+
 
 ### PYQ 8.3: Apparent Velocity of Falling Body Seen by Underwater Observer [IIT-JEE 2009]
 **Question:**
 A ball is dropped from rest from a height of $H = 20\text{ m}$ above the tranquil surface of a lake (water refractive index $\mu = 4/3$). A stationary fish inside the lake, directly beneath the falling ball, watches the ball. At the instant when the ball is $h = 12.8\text{ m}$ above the water surface, what apparent speed of the ball does the fish observe? ($g = 10\text{ m/s}^2$).
 
+
 **Solution:**
-110. The distance fallen by the ball from release is:
+1. The distance fallen by the ball from release is:
    $$y_{\text{fallen}} = 20 - 12.8 = 7.2\text{ m}$$
-111. The true physical speed of the falling ball at this instant:
+2. The true physical speed of the falling ball at this instant:
    $$v_{\text{actual}} = \sqrt{2 g y_{\text{fallen}}} = \sqrt{2 \times 10 \times 7.2} = \sqrt{144} = 12\text{ m/s}$$
-112. Let the fish be at depth $d$ below the water surface. The apparent height of the ball above the water surface as viewed by the fish is:
+3. Let the fish be at depth $d$ below the water surface. The apparent height of the ball above the water surface as viewed by the fish is:
    $$h_{\text{app}} = \mu h$$
-113. Differentiating with respect to time $t$:
+4. Differentiating with respect to time $t$:
    $$v_{\text{app}} = \frac{d(h_{\text{app}})}{dt} = \mu \frac{dh}{dt} = \mu v_{\text{actual}}$$
    $$v_{\text{app}} = \left(\frac{4}{3}\right) \times 12\text{ m/s} = \mathbf{16\text{ m/s}}$$
 **Correct Option: (C)**
 
+
 ---
+
 
 ### PYQ 8.4: Vector Reflection from a Plane Mirror [JEE Advanced 2013]
 **Question:**
@@ -592,18 +723,21 @@ A ray of light travelling along the unit direction vector $\hat{u}_1 = \frac{1}{
 (C) $60^\circ$
 (D) $75^\circ$
 
+
 **Solution:**
-114. The vector deviation angle $\delta$ between the initial and reflected ray is given by:
+1. The vector deviation angle $\delta$ between the initial and reflected ray is given by:
    $$\cos\delta = \hat{u}_1 \cdot \hat{u}_2$$
    $$\cos\delta = \left(\frac{1}{2}\hat{i} + \frac{\sqrt{3}}{2}\hat{j}\right) \cdot \left(\frac{1}{2}\hat{i} - \frac{\sqrt{3}}{2}\hat{j}\right) = \frac{1}{4} - \frac{3}{4} = -\frac{2}{4} = -\frac{1}{2}$$
-115. Since $\cos\delta = -1/2$, the angle between the two rays is:
+2. Since $\cos\delta = -1/2$, the angle between the two rays is:
    $$\delta = 120^\circ$$
-116. From geometrical optics, the deviation angle upon plane reflection is:
+3. From geometrical optics, the deviation angle upon plane reflection is:
    $$\delta = 180^\circ - 2i$$
    $$120^\circ = 180^\circ - 2i \implies 2i = 60^\circ \implies \mathbf{i = 30^\circ}$$
 **Correct Option: (A)**
 
+
 ---
+
 
 ### PYQ 8.5: Inhomogeneous Variable Refractive Index Slab $n(z)$ [JEE Advanced 2016]
 **Question:**
@@ -613,11 +747,12 @@ A transparent dielectric slab of thickness $d$ has an inhomogeneous refractive i
 (C) $l$ is independent of $n_2$
 (D) $l$ is dependent on the functional form $n(z)$
 
+
 **Solution:**
-117. By generalized Snell's Law across stratified horizontal planar interfaces, the product $n(z)\sin\theta(z)$ is an invariant constant at every depth $z$:
+1. By generalized Snell's Law across stratified horizontal planar interfaces, the product $n(z)\sin\theta(z)$ is an invariant constant at every depth $z$:
    $$n_1 \sin\theta_i = n(z)\sin\theta(z) = n_2 \sin\theta_f$$
    Therefore, statement (A) is **TRUE** and (B) is FALSE.
-118. The lateral displacement $l$ across the slab is obtained by integrating the horizontal differential shift $dx$:
+2. The lateral displacement $l$ across the slab is obtained by integrating the horizontal differential shift $dx$:
    $$\tan\theta(z) = \frac{dx}{dz} \implies dx = \tan\theta(z) dz = \frac{\sin\theta(z)}{\sqrt{1 - \sin^2\theta(z)}} dz$$
    Using $\sin\theta(z) = \frac{n_1 \sin\theta_i}{n(z)}$:
    $$l = \int_0^d \frac{n_1 \sin\theta_i}{\sqrt{[n(z)]^2 - n_1^2 \sin^2\theta_i}} dz$$
@@ -625,7 +760,9 @@ A transparent dielectric slab of thickness $d$ has an inhomogeneous refractive i
    - Furthermore, the upper limit of integration and the integrand do not contain $n_2$; $n_2$ only determines the emergence angle in the third medium, not the shift accumulated inside the slab. Thus, (C) is **TRUE**.
 **Correct Options: (A, C, D)**
 
+
 ---
+
 
 ### PYQ 8.6: Monotonically Decreasing Slab Stack & Grazing Count [JEE Advanced 2017]
 **Question:**
@@ -633,37 +770,44 @@ A monochromatic light ray travels in a medium of refractive index $n = 1.6$. It 
 $$n_m = n - m \Delta n$$
 where $\Delta n = 0.1$. The ray is refracted out parallel to the interface between the $(m - 1)$-th and $m$-th slabs. Determine the integer value of $m$.
 
+
 **Solution:**
-119. Applying the generalized Snell's Law invariant from the incident medium to the $(m-1)$-th / $m$-th interface:
+1. Applying the generalized Snell's Law invariant from the incident medium to the $(m-1)$-th / $m$-th interface:
    $$n \sin\theta = n_m \sin 90^\circ$$
-120. Given $n = 1.6$, $\theta = 30^\circ$, and $\sin 30^\circ = 0.5$:
+2. Given $n = 1.6$, $\theta = 30^\circ$, and $\sin 30^\circ = 0.5$:
    $$1.6 \times 0.5 = n_m \times 1 \implies n_m = 0.8$$
-121. Substituting the formula for $n_m$:
+3. Substituting the formula for $n_m$:
    $$0.8 = 1.6 - m(0.1)$$
    $$0.1 m = 1.6 - 0.8 = 0.8 \implies \mathbf{m = 8}$$
 **Final Answer: $m = 8$**
 
+
 ---
+
 
 ### PYQ 8.7: Solar Energy Concentration and Focused Intensity [JEE Advanced 2018]
 **Question:**
 Sunlight of intensity $I_0 = 1.3\text{ kW/m}^2$ is incident normally on a thin convex lens of focal length $f = 20\text{ cm}$. Neglect energy absorption in the glass. The average intensity of light at a distance of $22\text{ cm}$ behind the lens on the other side is:
 
+
 **Solution:**
-122. Parallel rays from the sun converge to the focal point at $v = f = 20\text{ cm}$, where the beam radius shrinks to zero (under paraxial geometric optics).
-123. Beyond the focal point, rays diverge symmetrically. At distance $x = 22\text{ cm}$, the screen is at a distance $\Delta x = 22 - 20 = 2\text{ cm}$ beyond the focus.
-124. By similar triangles, if the lens has circular aperture radius $R_0$, the beam radius $r$ at distance $22\text{ cm}$ is:
+1. Parallel rays from the sun converge to the focal point at $v = f = 20\text{ cm}$, where the beam radius shrinks to zero (under paraxial geometric optics).
+2. Beyond the focal point, rays diverge symmetrically. At distance $x = 22\text{ cm}$, the screen is at a distance $\Delta x = 22 - 20 = 2\text{ cm}$ beyond the focus.
+3. By similar triangles, if the lens has circular aperture radius $R_0$, the beam radius $r$ at distance $22\text{ cm}$ is:
    $$\frac{r}{\Delta x} = \frac{R_0}{f} \implies r = R_0 \left(\frac{2\text{ cm}}{20\text{ cm}}\right) = \frac{R_0}{10}$$
-125. The cross-sectional area of the beam scales as:
+4. The cross-sectional area of the beam scales as:
    $$A = \pi r^2 = \pi \left(\frac{R_0}{10}\right)^2 = \frac{A_0}{100}$$
-126. By conservation of radiant light flux (zero absorption):
+5. By conservation of radiant light flux (zero absorption):
    $$\Phi = I_0 A_0 = I A \implies I = I_0 \left(\frac{A_0}{A}\right) = I_0 \times 100$$
    $$I = 1.3\text{ kW/m}^2 \times 100 = \mathbf{130\text{ kW/m}^2}$$
 **Final Answer: $130\text{ kW/m}^2$**
 
+
 ---
 
-## 1. Diagnostic Problem-Solving Trap Sheet & Quick Decision Matrix
+
+## 9. Diagnostic Problem-Solving Trap Sheet & Quick Decision Matrix
+
 
 | Problem Type | Standard Master Formula | Common Student Pitfall | Correct Rigorous Rule |
 | :--- | :--- | :--- | :--- |
@@ -675,9 +819,15 @@ Sunlight of intensity $I_0 = 1.3\text{ kW/m}^2$ is incident normally on a thin c
 | **Prism Condition of No Emergence** | $A > 2\theta_c$ | Confusing minimum deviation condition with limiting transmission. | If $A > 2\theta_c$, even grazing incidence ($i = 90^\circ$) suffers TIR at the second face; zero light emerges. |
 | **Telescope Normal Adjustment Length** | $L = f_o + f_e$ | Using $L = f_o - f_e$ or confusing with compound microscope tube length. | In normal adjustment, focus of objective coincides with focus of eyepiece; total separation is $f_o + f_e$. |
 
+
 ---
 
-## 2. Summary of Processed Resources & Continuity Verification
 
-All processed resources for this chapter have been cross-verified for continuity across the collected notes.
+## 10. Summary of Processed Resources & Continuity Verification
 
+
+- **Chapter Processed:** Physics Chapter 43 — Ray Optics & Optical Instruments (Question Bank, Solutions & PYQs).
+- **Core Sources:** `RayOpticsQuestions.pdf`, `RayOpticsSolutions.pdf`, `Geometrical Optics Exercises.pdf`, `Geometrical Optics Exercise Solutions.pdf`.
+- **Companion Theory Context Document:** [Chapter 43 — Ray Optics & Optical Instruments Theory Context](https://docs.google.com/document/d/1Ue3uomwxU7CXLcr3jgWCNCNbrsgsBHgmNSH1gvcSYss/edit?usp=drivesdk)
+- **Visual Diagram Asset:** `media/ray_optics_problem_solving_archetypes.png` preserved in Google Drive `context/media/` subfolder.
+- **LaTeX Quality Assurance:** Full balance of delimiters (inline and display math) and algebraic braces verified.

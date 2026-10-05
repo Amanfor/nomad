@@ -38,7 +38,10 @@ function renderContent(text: string): string {
   });
 
   // 2. Parse Markdown
-  return marked.parse(processed) as string;
+  const html = marked.parse(processed) as string;
+  // 3. Media paths are stored base-agnostic (/media/...) — prefix with
+  //    BASE_URL so images resolve under /nomad/ on GitHub Pages too.
+  return html.replace(/src="\/media\//g, `src="${BASE_URL}media/`);
 }
 
 function renderFormulaBlock(tex: string): string {
@@ -2575,7 +2578,7 @@ export default function NomadApp() {
           
           {selected.image && (
             <div style={{ marginTop: '3rem' }}>
-              <img src={selected.image} alt="" style={{ width: '100%', borderRadius: 12, border: '1px solid rgba(255,255,255,0.1)', filter: 'invert(0.9) hue-rotate(180deg)' }} />
+              <img src={asset(selected.image)} alt="" style={{ width: '100%', borderRadius: 12, border: '1px solid rgba(255,255,255,0.1)', filter: 'invert(0.9) hue-rotate(180deg)' }} />
             </div>
           )}
         </motion.div>

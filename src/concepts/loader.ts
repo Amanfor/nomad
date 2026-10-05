@@ -28,7 +28,10 @@ export function loadConcepts(force = false): Promise<LoadResult> {
 
   inflight = (async () => {
     try {
-      const res = await fetch(`${BASE_URL}all-concepts.json`, { cache: 'force-cache' });
+      // no-cache = revalidate with the server every load (usually a tiny 304).
+      // force-cache was serving a stale all-concepts.json indefinitely, which
+      // silently blocked database updates from reaching returning users.
+      const res = await fetch(`${BASE_URL}all-concepts.json`, { cache: 'no-cache' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       if (!Array.isArray(data)) throw new Error('invalid shape');

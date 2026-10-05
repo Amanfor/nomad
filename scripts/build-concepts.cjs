@@ -41,7 +41,7 @@ function processDirectory(dir, subject) {
          processDirectory(fullPath, subject || file);
       }
     } else if (file.endsWith('.md')) {
-      const rawContent = fs.readFileSync(fullPath, 'utf-8');
+      const rawContent = fs.readFileSync(fullPath, 'utf-8').replace(/^\uFEFF/, '');
       const { fm, body } = parseFrontmatter(rawContent);
       
       const cleanedFileName = file.replace('.md', '').replace(/^\d+_/, '').replace(/_/g, ' ');
@@ -54,7 +54,7 @@ function processDirectory(dir, subject) {
          }
       }
       
-      chapterTitle = chapterTitle.replace(/^Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^\d+[\s_-]*/, '');
+      chapterTitle = chapterTitle.replace(/^[A-Za-z ]*Revision Context:\s*Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^\d+[\s_-]*/, '');
       
       let section = fm.topic || subject || "Context";
       if (subject && subject.toLowerCase() !== section.toLowerCase()) {
