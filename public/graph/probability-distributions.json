@@ -1,0 +1,483 @@
+{
+  "title": "Probability, Distributions and Statistics",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "probability-distributions",
+      "label": "Probability, Distributions and Statistics",
+      "group": "Probability, Distributions and Statistics",
+      "depth": 0,
+      "note": "Axiomatic probability, conditional probability, Bayes, random variables, binomial and related distributions, and descriptive statistics. Each PYQ leans on one definition and one theorem."
+    },
+    {
+      "id": "prob-foundations",
+      "label": "Probability Foundations",
+      "group": "Probability Foundations",
+      "depth": 1,
+      "note": "Sample space, events, and the axioms."
+    },
+    {
+      "id": "prob-sample",
+      "label": "Sample Space and Events",
+      "group": "Probability Foundations",
+      "depth": 2,
+      "note": "The sample space S is all outcomes; an event E is a subset: $$P(E) = \\frac{n(E)}{n(S)}$$ for equally likely outcomes. Sure event $P(S)=1$, impossible event $P(\\emptyset)=0$."
+    },
+    {
+      "id": "prob-event-types",
+      "label": "Mutually Exclusive and Exhaustive Events",
+      "group": "Probability Foundations",
+      "depth": 2,
+      "note": "Disjoint events never co-occur: $$A \\cap B = \\emptyset \\Rightarrow P(A \\cup B) = P(A) + P(B)$$. Exhaustive events cover S, so their probabilities sum to 1."
+    },
+    {
+      "id": "prob-addition",
+      "label": "Addition Theorem for Events",
+      "group": "Probability Foundations",
+      "depth": 2,
+      "note": "$$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$$. Extends to three events with the full inclusion-exclusion pattern."
+    },
+    {
+      "id": "prob-empirical",
+      "label": "Classical vs Empirical Probability",
+      "group": "Probability Foundations",
+      "depth": 2,
+      "note": "Classical probability assumes equally likely outcomes, while empirical probability uses observed frequency: $$P(E) \\approx \\frac{\\text{favourable trials}}{\\text{total trials}}$$. Law of large numbers justifies the approximation."
+    },
+    {
+      "id": "prob-odds",
+      "label": "Odds in Favour and Against",
+      "group": "Probability Foundations",
+      "depth": 2,
+      "note": "Odds convert probabilities: $$\\text{odds in favour} = \\frac{P(E)}{1 - P(E)}$$. A probability $3/7$ corresponds to odds $3 : 4$ in favour."
+    },
+    {
+      "id": "prob-complement",
+      "label": "Complement Rule",
+      "group": "Probability Foundations",
+      "depth": 2,
+      "note": "$$P(\\bar{A}) = 1 - P(A)$$ resolves 'at least one' counts: compute the none-case and subtract."
+    },
+    {
+      "id": "prob-theorems",
+      "label": "Conditional Probability and Bayes",
+      "group": "Conditional Probability and Bayes",
+      "depth": 1,
+      "note": "Dependence, independence, and updating."
+    },
+    {
+      "id": "prob-conditional",
+      "label": "Conditional Probability",
+      "group": "Conditional Probability and Bayes",
+      "depth": 2,
+      "note": "$$P(A \\mid B) = \\frac{P(A \\cap B)}{P(B)}, \\ P(B) > 0$$. It reweights the space to outcomes where B already happened."
+    },
+    {
+      "id": "prob-tree",
+      "label": "Tree Diagrams",
+      "group": "Conditional Probability and Bayes",
+      "depth": 2,
+      "note": "Sequential experiments draw branching trees; probabilities along a branch multiply, and probabilities of distinct branches add. Two-stage draws of balls from an urn are standard tree-diagram items."
+    },
+    {
+      "id": "prob-multiplication",
+      "label": "Multiplication Rule",
+      "group": "Conditional Probability and Bayes",
+      "depth": 2,
+      "note": "Chain of conditional probabilities: $$P(A \\cap B) = P(A)\\,P(B \\mid A)$$. Drawing balls without replacement uses it directly."
+    },
+    {
+      "id": "prob-independence",
+      "label": "Independence of Events",
+      "group": "Conditional Probability and Bayes",
+      "depth": 2,
+      "note": "A and B are independent when $$P(A \\cap B) = P(A)P(B)$$. Independent coin tosses and dice rolls are the canonical examples."
+    },
+    {
+      "id": "prob-total",
+      "label": "Law of Total Probability",
+      "group": "Conditional Probability and Bayes",
+      "depth": 2,
+      "note": "For a partition $\\{E_i\\}$ of S: $$P(A) = \\sum_i P(E_i)\\,P(A \\mid E_i)$$. Bayes problems always start with this expansion in the denominator."
+    },
+    {
+      "id": "prob-bayes-example",
+      "label": "Example: Two Machines",
+      "group": "Conditional Probability and Bayes",
+      "depth": 2,
+      "note": "Machine A makes 60% of parts with 2% defect, B makes 40% with 5% defect. $P(A \\mid \\text{defect}) = \\frac{0.6 \\cdot 0.02}{0.6 \\cdot 0.02 + 0.4 \\cdot 0.05} = \\frac{3}{8}$."
+    },
+    {
+      "id": "prob-bayes",
+      "label": "Bayes' Theorem",
+      "group": "Conditional Probability and Bayes",
+      "depth": 2,
+      "note": "$$P(E_i \\mid A) = \\frac{P(E_i)P(A \\mid E_i)}{\\sum_j P(E_j)P(A \\mid E_j)}$$. Use it to invert cause and effect, e.g. defect rates across two machines."
+    },
+    {
+      "id": "prob-rv",
+      "label": "Random Variables and Expectation",
+      "group": "Random Variables and Expectation",
+      "depth": 1,
+      "note": "From experiments to numeric outcomes."
+    },
+    {
+      "id": "prob-rv-def",
+      "label": "Discrete Random Variable",
+      "group": "Random Variables and Expectation",
+      "depth": 2,
+      "note": "A variable X mapping outcomes to numbers has a probability mass function $p(x) = P(X = x)$ with $\\sum p(x) = 1$. Number of heads in 3 tosses is the standard RV."
+    },
+    {
+      "id": "prob-expectation",
+      "label": "Expectation (Mean)",
+      "group": "Random Variables and Expectation",
+      "depth": 2,
+      "note": "$$E(X) = \\sum_i x_i\\, p(x_i)$$ is the long-run average. Linearity $E(aX + b) = aE(X) + b$ simplifies most JEE items."
+    },
+    {
+      "id": "prob-variance",
+      "label": "Variance and Standard Deviation",
+      "group": "Random Variables and Expectation",
+      "depth": 2,
+      "note": "$$\\text{Var}(X) = E(X^2) - [E(X)]^2 = \\sum (x_i - \\mu)^2 p(x_i)$$. SD is the square root of variance, so variance questions often test the shortcut formula."
+    },
+    {
+      "id": "prob-expectation-example",
+      "label": "Example: Expected Winnings",
+      "group": "Random Variables and Expectation",
+      "depth": 2,
+      "note": "A game pays Rs 100 with probability 0.1 and loses Rs 20 with 0.9: $E = 0.1(100) - 0.9(20) = -8$, so it is unfavourable on average."
+    },
+    {
+      "id": "prob-distribution-table",
+      "label": "Distribution Tables",
+      "group": "Random Variables and Expectation",
+      "depth": 2,
+      "note": "A valid distribution lists all x_i with probabilities summing to 1. Unknown constants in such problems come from $\\sum p(x_i) = 1$."
+    },
+    {
+      "id": "prob-binomial",
+      "label": "Binomial Distribution",
+      "group": "Binomial Distribution",
+      "depth": 1,
+      "note": "Bernoulli trials counted over n repetitions."
+    },
+    {
+      "id": "prob-bernoulli",
+      "label": "Bernoulli and Binomial Trials",
+      "group": "Binomial Distribution",
+      "depth": 2,
+      "note": "Each trial has success probability p and failure q = 1 - p, independent of others. n trials give the binomial setting."
+    },
+    {
+      "id": "prob-binomial-pmf",
+      "label": "Binomial Probability Mass Function",
+      "group": "Binomial Distribution",
+      "depth": 2,
+      "note": "$$P(X = r) = {}^nC_r\\, p^r q^{\\,n-r}$$. The probability of exactly r successes in n trials drives every JEE binomial PYQ."
+    },
+    {
+      "id": "prob-binomial-mean",
+      "label": "Mean and Variance of Binomial",
+      "group": "Binomial Distribution",
+      "depth": 2,
+      "note": "$$E(X) = np, \\quad \\text{Var}(X) = npq$$. Maximum probability occurs at the integer part of $(n+1)p$."
+    },
+    {
+      "id": "prob-atleast",
+      "label": "At Least One Success",
+      "group": "Binomial Distribution",
+      "depth": 2,
+      "note": "$$P(X \\ge 1) = 1 - P(X = 0) = 1 - q^n$$. Use the complement instead of summing the binomial tail."
+    },
+    {
+      "id": "prob-binomial-example",
+      "label": "Example: Coin Tosses",
+      "group": "Binomial Distribution",
+      "depth": 2,
+      "note": "Probability of exactly 3 heads in 5 tosses: ${}^5C_3 (1/2)^3 (1/2)^2 = \\frac{10}{32} = \\frac{5}{16}$."
+    },
+    {
+      "id": "prob-other",
+      "label": "Other Distributions",
+      "group": "Other Distributions",
+      "depth": 1,
+      "note": "Poisson, geometric, and normal appear as named limits or models."
+    },
+    {
+      "id": "prob-poisson",
+      "label": "Poisson Distribution",
+      "group": "Other Distributions",
+      "depth": 2,
+      "note": "$$P(X = r) = \\frac{e^{-\\lambda} \\lambda^r}{r!}$$ models rare events with rate lambda. It arises as the $n \\to \\infty, p \\to 0$ limit of binomial."
+    },
+    {
+      "id": "prob-normal",
+      "label": "Normal Distribution",
+      "group": "Other Distributions",
+      "depth": 2,
+      "note": "A continuous curve with mean mu and SD sigma; about 68% of data lies within one sigma. Standardizing with $z = (x - \\mu)/\\sigma$ converts lookups to the standard normal table."
+    },
+    {
+      "id": "prob-normal-example",
+      "label": "Example: Standardisation",
+      "group": "Other Distributions",
+      "depth": 2,
+      "note": "If marks are $N(60, 10^2)$, then $P(X \\ge 80) = P(Z \\ge 2) \\approx 0.0228$ from the standard normal table."
+    },
+    {
+      "id": "prob-geometric",
+      "label": "Geometric Distribution",
+      "group": "Other Distributions",
+      "depth": 2,
+      "note": "Number of trials until the first success: $$P(X = k) = (1-p)^{k-1} p$$. Its mean $1/p$ measures waiting time for the first success."
+    },
+    {
+      "id": "prob-stats",
+      "label": "Statistics",
+      "group": "Statistics",
+      "depth": 1,
+      "note": "Central tendency, dispersion, and correlation."
+    },
+    {
+      "id": "prob-central",
+      "label": "Mean, Median and Mode",
+      "group": "Statistics",
+      "depth": 2,
+      "note": "Mean $\\bar{x} = \\frac{1}{n}\\sum x_i$, median is the middle ordered value, mode the most frequent. Skewed JEE data questions often distinguish which one misleads."
+    },
+    {
+      "id": "prob-dispersion",
+      "label": "Variance, SD and Range",
+      "group": "Statistics",
+      "depth": 2,
+      "note": "$$\\sigma^2 = \\frac{1}{n} \\sum (x_i - \\bar{x})^2$$ and the computational form $\\sigma^2 = \\overline{x^2} - \\bar{x}^2$. Coefficient of variation $CV = \\frac{\\sigma}{\\bar{x}} \\times 100$ compares data sets."
+    },
+    {
+      "id": "prob-correlation",
+      "label": "Correlation",
+      "group": "Statistics",
+      "depth": 2,
+      "note": "$$r = \\frac{\\sum (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum (x_i - \\bar{x})^2 \\sum (y_i - \\bar{y})^2}}$$ lies in $[-1, 1]$: $r = 1$ perfect positive linear relation, $r = -1$ perfect negative, $r = 0$ no linear relation."
+    },
+    {
+      "id": "prob-weighted",
+      "label": "Weighted Mean",
+      "group": "Statistics",
+      "depth": 2,
+      "note": "Combine group means with weights: $$\\bar{x} = \\frac{\\sum w_i x_i}{\\sum w_i}$$. JEE uses it for combined averages of two sections with different sizes."
+    },
+    {
+      "id": "prob-cv",
+      "label": "Coefficient of Variation",
+      "group": "Statistics",
+      "depth": 2,
+      "note": "$$CV = \\frac{\\sigma}{\\bar{x}} \\times 100$$ compares relative spread of two data sets. The set with higher CV is less consistent."
+    },
+    {
+      "id": "prob-regression",
+      "label": "Regression Lines",
+      "group": "Statistics",
+      "depth": 2,
+      "note": "Least-squares lines of y on x and x on y both pass through $(\\bar{x}, \\bar{y})$: $$y - \\bar{y} = r\\frac{\\sigma_y}{\\sigma_x}(x - \\bar{x})$$. The product of the two slopes is $r^2$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "probability-distributions",
+      "target": "prob-foundations",
+      "label": "contains"
+    },
+    {
+      "source": "prob-foundations",
+      "target": "prob-sample",
+      "label": "contains"
+    },
+    {
+      "source": "prob-foundations",
+      "target": "prob-event-types",
+      "label": "contains"
+    },
+    {
+      "source": "prob-foundations",
+      "target": "prob-addition",
+      "label": "contains"
+    },
+    {
+      "source": "prob-foundations",
+      "target": "prob-empirical",
+      "label": "contains"
+    },
+    {
+      "source": "prob-foundations",
+      "target": "prob-odds",
+      "label": "contains"
+    },
+    {
+      "source": "prob-foundations",
+      "target": "prob-complement",
+      "label": "contains"
+    },
+    {
+      "source": "probability-distributions",
+      "target": "prob-theorems",
+      "label": "contains"
+    },
+    {
+      "source": "prob-theorems",
+      "target": "prob-conditional",
+      "label": "contains"
+    },
+    {
+      "source": "prob-theorems",
+      "target": "prob-tree",
+      "label": "contains"
+    },
+    {
+      "source": "prob-theorems",
+      "target": "prob-multiplication",
+      "label": "contains"
+    },
+    {
+      "source": "prob-theorems",
+      "target": "prob-independence",
+      "label": "contains"
+    },
+    {
+      "source": "prob-theorems",
+      "target": "prob-total",
+      "label": "contains"
+    },
+    {
+      "source": "prob-theorems",
+      "target": "prob-bayes-example",
+      "label": "contains"
+    },
+    {
+      "source": "prob-theorems",
+      "target": "prob-bayes",
+      "label": "contains"
+    },
+    {
+      "source": "probability-distributions",
+      "target": "prob-rv",
+      "label": "contains"
+    },
+    {
+      "source": "prob-rv",
+      "target": "prob-rv-def",
+      "label": "contains"
+    },
+    {
+      "source": "prob-rv",
+      "target": "prob-expectation",
+      "label": "contains"
+    },
+    {
+      "source": "prob-rv",
+      "target": "prob-variance",
+      "label": "contains"
+    },
+    {
+      "source": "prob-rv",
+      "target": "prob-expectation-example",
+      "label": "contains"
+    },
+    {
+      "source": "prob-rv",
+      "target": "prob-distribution-table",
+      "label": "contains"
+    },
+    {
+      "source": "probability-distributions",
+      "target": "prob-binomial",
+      "label": "contains"
+    },
+    {
+      "source": "prob-binomial",
+      "target": "prob-bernoulli",
+      "label": "contains"
+    },
+    {
+      "source": "prob-binomial",
+      "target": "prob-binomial-pmf",
+      "label": "contains"
+    },
+    {
+      "source": "prob-binomial",
+      "target": "prob-binomial-mean",
+      "label": "contains"
+    },
+    {
+      "source": "prob-binomial",
+      "target": "prob-atleast",
+      "label": "contains"
+    },
+    {
+      "source": "prob-binomial",
+      "target": "prob-binomial-example",
+      "label": "contains"
+    },
+    {
+      "source": "probability-distributions",
+      "target": "prob-other",
+      "label": "contains"
+    },
+    {
+      "source": "prob-other",
+      "target": "prob-poisson",
+      "label": "contains"
+    },
+    {
+      "source": "prob-other",
+      "target": "prob-normal",
+      "label": "contains"
+    },
+    {
+      "source": "prob-other",
+      "target": "prob-normal-example",
+      "label": "contains"
+    },
+    {
+      "source": "prob-other",
+      "target": "prob-geometric",
+      "label": "contains"
+    },
+    {
+      "source": "probability-distributions",
+      "target": "prob-stats",
+      "label": "contains"
+    },
+    {
+      "source": "prob-stats",
+      "target": "prob-central",
+      "label": "contains"
+    },
+    {
+      "source": "prob-stats",
+      "target": "prob-dispersion",
+      "label": "contains"
+    },
+    {
+      "source": "prob-stats",
+      "target": "prob-correlation",
+      "label": "contains"
+    },
+    {
+      "source": "prob-stats",
+      "target": "prob-weighted",
+      "label": "contains"
+    },
+    {
+      "source": "prob-stats",
+      "target": "prob-cv",
+      "label": "contains"
+    },
+    {
+      "source": "prob-stats",
+      "target": "prob-regression",
+      "label": "contains"
+    }
+  ]
+}

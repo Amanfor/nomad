@@ -1,0 +1,483 @@
+{
+  "title": "Photoelectric and Modern Physics",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "photoelectric-modern-physics",
+      "label": "Photoelectric and Modern Physics",
+      "group": "Photoelectric and Modern Physics",
+      "depth": 0,
+      "note": "Modern physics began with the failure of classical waves to explain the photoelectric effect. Einstein's photon picture, $$K_{max} = h\\nu - \\phi$$, opened quantum theory."
+    },
+    {
+      "id": "mp-pe",
+      "label": "Photoelectric Effect",
+      "group": "Photoelectric Effect",
+      "depth": 1,
+      "note": "Light ejects electrons only if each photon carries enough energy. The threshold condition is $$h\\nu_0 = \\phi$$, where $\\phi$ is the work function."
+    },
+    {
+      "id": "mp-photon",
+      "label": "Planck Photon Hypothesis",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "Light energy is quantized in packets: $$E = h\\nu = \\frac{hc}{\\lambda}$$, with $h = 6.626 \\times 10^{-34}\\ \\text{J}\\cdot\\text{s}$. Higher frequency means more energetic photons, not brighter light."
+    },
+    {
+      "id": "mp-photon-ex",
+      "label": "Photon Energy Example",
+      "group": "Photoelectric Effect",
+      "depth": 3,
+      "note": "For $\\lambda = 500\\ \\text{nm}$: $$E = \\frac{hc}{\\lambda} \\approx 3.98 \\times 10^{-19}\\ \\text{J} \\approx 2.48\\ \\text{eV}$$."
+    },
+    {
+      "id": "mp-einstein",
+      "label": "Einstein Photoelectric Equation",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "$$K_{max} = h\\nu - \\phi$$ converts photon energy into electron kinetic energy minus escape cost. It explains threshold frequency and instantaneous emission."
+    },
+    {
+      "id": "mp-einstein-ex",
+      "label": "Einstein Equation Example",
+      "group": "Photoelectric Effect",
+      "depth": 3,
+      "note": "Light of $\\lambda = 400\\ \\text{nm}$ hits a metal with $\\phi = 2.0\\ \\text{eV}$: photon energy $E \\approx 3.1\\ \\text{eV}$, so $K_{max} \\approx 1.1\\ \\text{eV}$."
+    },
+    {
+      "id": "mp-stopping",
+      "label": "Stopping Potential",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "The reverse voltage that just stops the fastest electrons measures $K_{max}$: $$eV_s = h\\nu - \\phi$$. A plot of $V_s$ vs $\\nu$ is linear with slope $h/e$."
+    },
+    {
+      "id": "mp-threshold",
+      "label": "Threshold Frequency and Work Function",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "Emission starts only above $$\\nu_0 = \\frac{\\phi}{h}$$. Different metals have different $\\phi$, so their thresholds differ."
+    },
+    {
+      "id": "mp-sat-current",
+      "label": "Saturation Current vs Intensity",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "Saturation photocurrent is proportional to incident intensity (photon flux), while stopping potential is intensity-independent: $$i_{sat} \\propto I, \\ V_s \\text{ independent of } I$$. More photons means more electrons, not faster electrons."
+    },
+    {
+      "id": "mp-rad-pressure",
+      "label": "Radiation Pressure",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "For absorption, pressure is $$P = \\frac{I}{c}$$; for perfect reflection, $$P = \\frac{2I}{c}$$. Momentum transfer per photon is $p = E/c$."
+    },
+    {
+      "id": "mp-classical-fail",
+      "label": "Classical Wave Theory Failures",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "Wave theory predicts emission for any frequency given enough intensity and a time lag, both contradicted experimentally. Photons fix this via $$K_{max} = h\\nu - \\phi$$, independent of intensity."
+    },
+    {
+      "id": "mp-photocell",
+      "label": "Photocell I-V Curves",
+      "group": "Photoelectric Effect",
+      "depth": 2,
+      "note": "In a vacuum photocell, current rises with collector voltage then saturates: $$i_{sat} = \\frac{ne}{t}$$. The stopping voltage intercept gives $h/e$."
+    },
+    {
+      "id": "mp-dual",
+      "label": "Dual Nature of Radiation and Matter",
+      "group": "Dual Nature of Radiation and Matter",
+      "depth": 1,
+      "note": "De Broglie extended wave-particle duality to matter: $$\\lambda = \\frac{h}{p}$$."
+    },
+    {
+      "id": "mp-debroglie",
+      "label": "De Broglie Wavelength",
+      "group": "Dual Nature of Radiation and Matter",
+      "depth": 2,
+      "note": "Every moving particle has an associated wavelength: $$\\lambda = \\frac{h}{mv}$$. Macroscopic momenta give negligibly small $\\lambda$, hiding wave behavior."
+    },
+    {
+      "id": "mp-debroglie-ex",
+      "label": "Electron Wavelength",
+      "group": "Dual Nature of Radiation and Matter",
+      "depth": 3,
+      "note": "An electron at $10^6\\ \\text{m}/\\text{s}$ has $$\\lambda = \\frac{h}{mv} \\approx 0.73\\ \\text{nm}$$, comparable to atomic spacings, hence diffraction."
+    },
+    {
+      "id": "mp-acc-electron",
+      "label": "Electron Accelerated Through V",
+      "group": "Dual Nature of Radiation and Matter",
+      "depth": 2,
+      "note": "After acceleration through potential $V$, $$\\lambda = \\frac{h}{\\sqrt{2meV}} \\approx \\frac{1.227}{\\sqrt{V}}\\ \\text{nm}$$. This sets the resolving scale of electron microscopes."
+    },
+    {
+      "id": "mp-davisson",
+      "label": "Davisson-Germer Experiment",
+      "group": "Dual Nature of Radiation and Matter",
+      "depth": 2,
+      "note": "Electrons scattered off nickel showed diffraction peaks at angles matching Bragg's law: $$2d\\sin\\theta = n\\lambda$$. It confirmed matter waves directly."
+    },
+    {
+      "id": "mp-bohrs-standing",
+      "label": "Matter Waves in Bohr Orbits",
+      "group": "Dual Nature of Radiation and Matter",
+      "depth": 2,
+      "note": "Allowed orbits fit an integer number of de Broglie wavelengths: $$2\\pi r_n = n\\lambda = \\frac{nh}{mv}$$. This recovers Bohr's angular momentum quantization."
+    },
+    {
+      "id": "mp-standing-ex",
+      "label": "Standing Wave Check",
+      "group": "Dual Nature of Radiation and Matter",
+      "depth": 3,
+      "note": "For the $n=2$ orbit of hydrogen, the circumference fits exactly two de Broglie wavelengths: $$2\\pi r_2 = 2\\lambda, \\ \\lambda = \\frac{h}{mv}$$."
+    },
+    {
+      "id": "mp-atomic",
+      "label": "Atomic Structure",
+      "group": "Atomic Structure",
+      "depth": 1,
+      "note": "Rutherford's scattering established the nuclear atom. Bohr quantized its stationary states: $$mvr = \\frac{nh}{2\\pi}$$."
+    },
+    {
+      "id": "mp-rutherford",
+      "label": "Rutherford Scattering",
+      "group": "Atomic Structure",
+      "depth": 2,
+      "note": "Alpha particles deflect off a tiny, dense, positive nucleus. Distance of closest approach is $$r_{min} = \\frac{1}{4\\pi\\epsilon_0}\\frac{2Ze^2}{K}$$."
+    },
+    {
+      "id": "mp-bohr-radius",
+      "label": "Bohr Radius and Orbit Scaling",
+      "group": "Atomic Structure",
+      "depth": 2,
+      "note": "$$r_n = \\frac{n^2}{Z}a_0, \\ a_0 = 0.529\\ \\text{nm}$$. Radii grow as $n^2$, so outer orbits are much larger."
+    },
+    {
+      "id": "mp-energy-levels",
+      "label": "Bohr Energy Levels",
+      "group": "Atomic Structure",
+      "depth": 2,
+      "note": "$$E_n = -\\frac{13.6\\,Z^2}{n^2}\\ \\text{eV}$$. The negative sign means the electron is bound; ionization is the transition to $E = 0$."
+    },
+    {
+      "id": "mp-rydberg",
+      "label": "Rydberg Formula and Spectral Series",
+      "group": "Atomic Structure",
+      "depth": 2,
+      "note": "$$\\frac{1}{\\lambda} = RZ^2\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)$$. Lyman ends at $n=1$ (UV), Balmer at $n=2$ (visible), Paschen at $n=3$ (IR)."
+    },
+    {
+      "id": "mp-balmer-ex",
+      "label": "Balmer H-alpha",
+      "group": "Atomic Structure",
+      "depth": 3,
+      "note": "The H-alpha line is $n=3 \\to n=2$: $$\\frac{1}{\\lambda} = R\\left(\\frac{1}{4} - \\frac{1}{9}\\right) = \\frac{5R}{36}, \\ \\lambda \\approx 656\\ \\text{nm}$$."
+    },
+    {
+      "id": "mp-ionization",
+      "label": "Ionization Energy and Excitation",
+      "group": "Atomic Structure",
+      "depth": 2,
+      "note": "Energy to remove an electron from level $n$ is $$E_{ion} = \\frac{13.6\\,Z^2}{n^2}\\ \\text{eV}$$. Excitation energy to the next level is the difference of level energies."
+    },
+    {
+      "id": "mp-qm",
+      "label": "Quantum Mechanics",
+      "group": "Quantum Mechanics",
+      "depth": 1,
+      "note": "Quantum mechanics replaces trajectories with wavefunctions. The Schrodinger equation $$-\\frac{\\hbar^2}{2m}\\nabla^2\\psi + V\\psi = E\\psi$$ governs it."
+    },
+    {
+      "id": "mp-heisenberg",
+      "label": "Heisenberg Uncertainty Principle",
+      "group": "Quantum Mechanics",
+      "depth": 2,
+      "note": "Position and momentum cannot both be sharp: $$\\Delta x\\,\\Delta p \\ge \\frac{\\hbar}{2}$$. It forbids definite electron orbits inside the atom."
+    },
+    {
+      "id": "mp-heisenberg-ex",
+      "label": "Uncertainty Estimate",
+      "group": "Quantum Mechanics",
+      "depth": 3,
+      "note": "If an electron is confined to a nucleus of size $\\Delta x \\approx 10^{-14}\\ \\text{m}$, then $$\\Delta p \\ge \\frac{\\hbar}{2\\Delta x} \\approx 5.3 \\times 10^{-21}\\ \\text{kg m/s}$$, implying kinetic energies of tens of MeV."
+    },
+    {
+      "id": "mp-born",
+      "label": "Born Probability Interpretation",
+      "group": "Quantum Mechanics",
+      "depth": 2,
+      "note": "$$|\\psi|^2$$ is the probability density: $$P(x) = |\\psi(x)|^2$$. The wavefunction itself is not directly observable."
+    },
+    {
+      "id": "mp-qnumbers",
+      "label": "Four Quantum Numbers",
+      "group": "Quantum Mechanics",
+      "depth": 2,
+      "note": "$n$ sets shell, $l$ sets subshell shape ($0 \\le l \\le n-1$), $m_l$ sets orientation ($-l \\le m_l \\le l$), and $m_s = \\pm\\frac{1}{2}$ sets spin."
+    },
+    {
+      "id": "mp-rules",
+      "label": "Electronic Configuration Rules",
+      "group": "Quantum Mechanics",
+      "depth": 2,
+      "note": "Aufbau fills lowest energy first with the $(n+l)$ rule, Pauli allows at most two electrons per orbital, and Hund maximizes spin multiplicity: $$S = \\frac{1}{2}\\times(\\text{unpaired electrons})$$."
+    },
+    {
+      "id": "mp-rules-ex",
+      "label": "Nitrogen Example",
+      "group": "Quantum Mechanics",
+      "depth": 3,
+      "note": "Nitrogen ($Z = 7$): $1s^2 2s^2 2p^3$. Hund puts all three $2p$ electrons in separate orbitals with parallel spins, giving $S = 3/2$."
+    },
+    {
+      "id": "mp-nuclear",
+      "label": "X-Rays and Nuclear Physics",
+      "group": "X-Rays and Nuclear Physics",
+      "depth": 1,
+      "note": "X-rays probe inner-shell transitions, radioactive decay is statistical, and mass defects power nuclei: $$\\Delta E = \\Delta m\\,c^2$$."
+    },
+    {
+      "id": "mp-moseley",
+      "label": "Moseley's Law",
+      "group": "X-Rays and Nuclear Physics",
+      "depth": 2,
+      "note": "Characteristic X-ray frequency follows $$\\sqrt{\\nu} = a(Z - b)$$. It reorganized the periodic table by atomic number."
+    },
+    {
+      "id": "mp-duane",
+      "label": "Duane-Hunt Cutoff",
+      "group": "X-Rays and Nuclear Physics",
+      "depth": 2,
+      "note": "The shortest bremsstrahlung wavelength from an X-ray tube is $$\\lambda_{min} = \\frac{hc}{eV}$$. Higher tube voltage shifts the cutoff to shorter wavelengths."
+    },
+    {
+      "id": "mp-decay",
+      "label": "Radioactive Decay Law",
+      "group": "X-Rays and Nuclear Physics",
+      "depth": 2,
+      "note": "$$N = N_0 e^{-\\lambda t}, \\ T_{1/2} = \\frac{\\ln 2}{\\lambda}$$. Activity is $A = \\lambda N$."
+    },
+    {
+      "id": "mp-binding",
+      "label": "Binding Energy",
+      "group": "X-Rays and Nuclear Physics",
+      "depth": 2,
+      "note": "$$B = \\left[Zm_p + (A-Z)m_n - M\\right]c^2$$. Peak binding energy per nucleon near iron explains fusion and fission energy release."
+    },
+    {
+      "id": "mp-compton",
+      "label": "Compton Scattering",
+      "group": "X-Rays and Nuclear Physics",
+      "depth": 2,
+      "note": "X-rays scattered off electrons show a wavelength shift: $$\\Delta\\lambda = \\frac{h}{m_ec}(1 - \\cos\\theta)$$. It proved photon momentum $p = h/\\lambda$."
+    },
+    {
+      "id": "mp-decay-ex",
+      "label": "Half-Life Example",
+      "group": "X-Rays and Nuclear Physics",
+      "depth": 2,
+      "note": "A sample with $T_{1/2} = 3$ days drops to $$\\frac{N}{N_0} = \\left(\\frac{1}{2}\\right)^{t/3}$$. After 9 days only $1/8$ remains."
+    }
+  ],
+  "edges": [
+    {
+      "source": "photoelectric-modern-physics",
+      "target": "mp-pe",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-photon",
+      "label": "contains"
+    },
+    {
+      "source": "mp-photon",
+      "target": "mp-photon-ex",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-einstein",
+      "label": "contains"
+    },
+    {
+      "source": "mp-einstein",
+      "target": "mp-einstein-ex",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-stopping",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-threshold",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-sat-current",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-rad-pressure",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-classical-fail",
+      "label": "contains"
+    },
+    {
+      "source": "mp-pe",
+      "target": "mp-photocell",
+      "label": "contains"
+    },
+    {
+      "source": "photoelectric-modern-physics",
+      "target": "mp-dual",
+      "label": "contains"
+    },
+    {
+      "source": "mp-dual",
+      "target": "mp-debroglie",
+      "label": "contains"
+    },
+    {
+      "source": "mp-debroglie",
+      "target": "mp-debroglie-ex",
+      "label": "contains"
+    },
+    {
+      "source": "mp-dual",
+      "target": "mp-acc-electron",
+      "label": "contains"
+    },
+    {
+      "source": "mp-dual",
+      "target": "mp-davisson",
+      "label": "contains"
+    },
+    {
+      "source": "mp-dual",
+      "target": "mp-bohrs-standing",
+      "label": "contains"
+    },
+    {
+      "source": "mp-bohrs-standing",
+      "target": "mp-standing-ex",
+      "label": "contains"
+    },
+    {
+      "source": "photoelectric-modern-physics",
+      "target": "mp-atomic",
+      "label": "contains"
+    },
+    {
+      "source": "mp-atomic",
+      "target": "mp-rutherford",
+      "label": "contains"
+    },
+    {
+      "source": "mp-atomic",
+      "target": "mp-bohr-radius",
+      "label": "contains"
+    },
+    {
+      "source": "mp-atomic",
+      "target": "mp-energy-levels",
+      "label": "contains"
+    },
+    {
+      "source": "mp-atomic",
+      "target": "mp-rydberg",
+      "label": "contains"
+    },
+    {
+      "source": "mp-rydberg",
+      "target": "mp-balmer-ex",
+      "label": "contains"
+    },
+    {
+      "source": "mp-atomic",
+      "target": "mp-ionization",
+      "label": "contains"
+    },
+    {
+      "source": "photoelectric-modern-physics",
+      "target": "mp-qm",
+      "label": "contains"
+    },
+    {
+      "source": "mp-qm",
+      "target": "mp-heisenberg",
+      "label": "contains"
+    },
+    {
+      "source": "mp-heisenberg",
+      "target": "mp-heisenberg-ex",
+      "label": "contains"
+    },
+    {
+      "source": "mp-qm",
+      "target": "mp-born",
+      "label": "contains"
+    },
+    {
+      "source": "mp-qm",
+      "target": "mp-qnumbers",
+      "label": "contains"
+    },
+    {
+      "source": "mp-qm",
+      "target": "mp-rules",
+      "label": "contains"
+    },
+    {
+      "source": "mp-rules",
+      "target": "mp-rules-ex",
+      "label": "contains"
+    },
+    {
+      "source": "photoelectric-modern-physics",
+      "target": "mp-nuclear",
+      "label": "contains"
+    },
+    {
+      "source": "mp-nuclear",
+      "target": "mp-moseley",
+      "label": "contains"
+    },
+    {
+      "source": "mp-nuclear",
+      "target": "mp-duane",
+      "label": "contains"
+    },
+    {
+      "source": "mp-nuclear",
+      "target": "mp-decay",
+      "label": "contains"
+    },
+    {
+      "source": "mp-nuclear",
+      "target": "mp-binding",
+      "label": "contains"
+    },
+    {
+      "source": "mp-nuclear",
+      "target": "mp-compton",
+      "label": "contains"
+    },
+    {
+      "source": "mp-nuclear",
+      "target": "mp-decay-ex",
+      "label": "contains"
+    }
+  ]
+}

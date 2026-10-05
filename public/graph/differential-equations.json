@@ -1,0 +1,315 @@
+{
+  "title": "Differential Equations",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "differential-equations",
+      "label": "Differential Equations",
+      "group": "Differential Equations",
+      "depth": 0,
+      "note": "A differential equation links a function to its derivatives. JEE Main tests classification, standard solvable types, and forming equations from arbitrary constants."
+    },
+    {
+      "id": "de-basics",
+      "label": "Order and Degree",
+      "group": "Order and Degree",
+      "depth": 1,
+      "note": "First classify the equation: how high a derivative appears, and what power it carries. Many JEE one-markers stop right here."
+    },
+    {
+      "id": "de-order",
+      "label": "Order of a DE",
+      "group": "Order and Degree",
+      "depth": 2,
+      "note": "The order is the highest derivative present. $\\frac{d^2y}{dx^2} + 3\\frac{dy}{dx} + y = 0$ has order 2; $\\left(\\frac{dy}{dx}\\right)^3 = x$ has order 1."
+    },
+    {
+      "id": "de-degree",
+      "label": "Degree of a DE",
+      "group": "Order and Degree",
+      "depth": 2,
+      "note": "The degree is the power of the highest-order derivative after the equation is cleared of radicals and fractions. The degree is the power of the highest-order derivative after the equation is cleared of radicals and fractions. Rationalise first, then read off the power of the top derivative."
+    },
+    {
+      "id": "de-degree-example",
+      "label": "Example: Degree Check",
+      "group": "Order and Degree",
+      "depth": 3,
+      "note": "$\\left(\\frac{dy}{dx}\\right)^2 + \\frac{d^2y}{dx^2} = 0$ has order 2 and degree 1, since the highest derivative appears to the first power."
+    },
+    {
+      "id": "de-solutions",
+      "label": "General and Particular Solutions",
+      "group": "General and Particular Solutions",
+      "depth": 1,
+      "note": "Solving a DE means recovering the family of functions and then, if an initial condition is given, one member of it."
+    },
+    {
+      "id": "de-general",
+      "label": "General Solution",
+      "group": "General and Particular Solutions",
+      "depth": 2,
+      "note": "A general solution of an $n$-th order DE contains $n$ independent arbitrary constants: $y = c_1 e^x + c_2 e^{-x}$ for a second-order equation. The number of constants matches the order."
+    },
+    {
+      "id": "de-particular",
+      "label": "Particular Solution",
+      "group": "General and Particular Solutions",
+      "depth": 2,
+      "note": "A particular solution fixes the constants using an initial condition, e.g. $y(0) = 1$, $y'(0) = 0$. This turns the family curve into the single curve through the given point with given slope."
+    },
+    {
+      "id": "de-particular-example",
+      "label": "Example: Fixing Constants",
+      "group": "General and Particular Solutions",
+      "depth": 3,
+      "note": "$\\frac{dy}{dx} = 2x$ gives $y = x^2 + C$; with $y(1) = 3$, $C = 2$, so the particular solution is $y = x^2 + 2$."
+    },
+    {
+      "id": "de-separable",
+      "label": "Separable Equations",
+      "group": "Separable Equations",
+      "depth": 1,
+      "note": "The easiest type: everything about $y$ on one side, everything about $x$ on the other, then integrate both sides."
+    },
+    {
+      "id": "de-sep-method",
+      "label": "Separating Variables",
+      "group": "Separable Equations",
+      "depth": 2,
+      "note": "$\\frac{dy}{dx} = f(x)g(y)$ becomes $\\frac{dy}{g(y)} = f(x)\\,dx$, then integrate: $\\int \\frac{dy}{g(y)} = \\int f(x)\\,dx + C$. Keep the constant on one side only."
+    },
+    {
+      "id": "de-sep-example",
+      "label": "Example: $\frac{dy}{dx} = \frac{y}{x}$",
+      "group": "Separable Equations",
+      "depth": 3,
+      "note": "$\\frac{dy}{y} = \\frac{dx}{x} \\Rightarrow \\ln|y| = \\ln|x| + c \\Rightarrow y = Cx$."
+    },
+    {
+      "id": "de-homogeneous",
+      "label": "Homogeneous Equations",
+      "group": "Homogeneous Equations",
+      "depth": 1,
+      "note": "A first-order DE is homogeneous when $\\frac{dy}{dx} = F(y/x)$. The substitution $v = y/x$ converts it into a separable one."
+    },
+    {
+      "id": "de-hom-method",
+      "label": "The v = y/x Substitution",
+      "group": "Homogeneous Equations",
+      "depth": 2,
+      "note": "Put $y = vx$, so $\\frac{dy}{dx} = v + x\\frac{dv}{dx}$. Substituting gives $x\\frac{dv}{dx} = F(v) - v$, which is separable in $v$ and $x$."
+    },
+    {
+      "id": "de-hom-example",
+      "label": "Example: $\frac{dy}{dx} = \frac{x + y}{x}$",
+      "group": "Homogeneous Equations",
+      "depth": 3,
+      "note": "$v + x\\frac{dv}{dx} = 1 + v \\Rightarrow x\\frac{dv}{dx} = 1 \\Rightarrow v = \\ln|x| + C \\Rightarrow y = x(\\ln|x| + C)$."
+    },
+    {
+      "id": "de-linear",
+      "label": "Linear First-Order Equations",
+      "group": "Linear First-Order Equations",
+      "depth": 1,
+      "note": "The form $\\frac{dy}{dx} + P(x)y = Q(x)$ is conquered by an integrating factor. This is the most frequently examined type in JEE Main."
+    },
+    {
+      "id": "de-linear-if",
+      "label": "Integrating Factor Method",
+      "group": "Linear First-Order Equations",
+      "depth": 2,
+      "note": "The integrating factor is $I.F. = e^{\\int P\\,dx}$. Multiplying through makes the left side a perfect derivative: $\\frac{d}{dx}(y \\cdot I.F.) = Q \\cdot I.F.$, so $y \\cdot I.F. = \\int Q \\cdot I.F.\\,dx + C$."
+    },
+    {
+      "id": "de-linear-example",
+      "label": "Example: $\frac{dy}{dx} + \frac{y}{x} = x$",
+      "group": "Linear First-Order Equations",
+      "depth": 3,
+      "note": "$I.F. = e^{\\int \\frac{dx}{x}} = x$, so $\\frac{d}{dx}(xy) = x^2 \\Rightarrow xy = \\frac{x^3}{3} + C \\Rightarrow y = \\frac{x^2}{3} + \\frac{C}{x}$."
+    },
+    {
+      "id": "de-bernoulli",
+      "label": "Bernoulli Equations",
+      "group": "Bernoulli Equations",
+      "depth": 1,
+      "note": "Bernoulli's equation $\\frac{dy}{dx} + P y = Q y^n$ looks nonlinear but a substitution linearises it. Spot the power $n$ first."
+    },
+    {
+      "id": "de-bernoulli-method",
+      "label": "Reducing to Linear Form",
+      "group": "Bernoulli Equations",
+      "depth": 2,
+      "note": "Divide by $y^n$ and set $v = y^{1-n}$, so $\\frac{dv}{dx} = (1-n)y^{-n}\\frac{dy}{dx}$. The equation in $v$ becomes linear: $\\frac{dv}{dx} + (1-n)Pv = (1-n)Q$, then solve by integrating factor."
+    },
+    {
+      "id": "de-trajectories",
+      "label": "Orthogonal Trajectories",
+      "group": "Orthogonal Trajectories",
+      "depth": 1,
+      "note": "Two curve families are orthogonal when their tangents meet at right angles, so their slopes are negative reciprocals."
+    },
+    {
+      "id": "de-orth-method",
+      "label": "Finding Orthogonal Trajectories",
+      "group": "Orthogonal Trajectories",
+      "depth": 2,
+      "note": "From the given family's DE $\\frac{dy}{dx} = f(x, y)$, replace it by $\\frac{dy}{dx} = -\\frac{1}{f(x, y)}$ and solve the new DE. The solution family is the orthogonal trajectory."
+    },
+    {
+      "id": "de-orth-example",
+      "label": "Example: Circles Centred at Origin",
+      "group": "Orthogonal Trajectories",
+      "depth": 3,
+      "note": "$x^2 + y^2 = a^2$ gives $\\frac{dy}{dx} = -\\frac{x}{y}$; the orthogonal slope is $\\frac{y}{x}$, whose solution $y = Cx$ is the family of lines through the origin."
+    },
+    {
+      "id": "de-formation",
+      "label": "Formation from Arbitrary Constants",
+      "group": "Formation from Arbitrary Constants",
+      "depth": 1,
+      "note": "The reverse problem: given a family with $n$ arbitrary constants, eliminate them to build the DE. Differentiate $n$ times and purge the constants."
+    },
+    {
+      "id": "de-form-method",
+      "label": "Eliminating Constants",
+      "group": "Formation from Arbitrary Constants",
+      "depth": 2,
+      "note": "Differentiate the relation as many times as there are constants, then use the resulting equations to delete every $c_i$. The leftover relation among $x, y$ and derivatives is the required DE, of order $n$."
+    },
+    {
+      "id": "de-form-example",
+      "label": "Example: $y = Ae^x + B$",
+      "group": "Formation from Arbitrary Constants",
+      "depth": 3,
+      "note": "$y' = Ae^x$, $y'' = Ae^x$, so $y'' = y'$, i.e. $\\frac{d^2y}{dx^2} - \\frac{dy}{dx} = 0$. Two constants give a second-order DE."
+    }
+  ],
+  "edges": [
+    {
+      "source": "differential-equations",
+      "target": "de-basics",
+      "label": "contains"
+    },
+    {
+      "source": "de-basics",
+      "target": "de-order",
+      "label": "contains"
+    },
+    {
+      "source": "de-basics",
+      "target": "de-degree",
+      "label": "contains"
+    },
+    {
+      "source": "de-degree",
+      "target": "de-degree-example",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-solutions",
+      "label": "contains"
+    },
+    {
+      "source": "de-solutions",
+      "target": "de-general",
+      "label": "contains"
+    },
+    {
+      "source": "de-solutions",
+      "target": "de-particular",
+      "label": "contains"
+    },
+    {
+      "source": "de-particular",
+      "target": "de-particular-example",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-separable",
+      "label": "contains"
+    },
+    {
+      "source": "de-separable",
+      "target": "de-sep-method",
+      "label": "contains"
+    },
+    {
+      "source": "de-sep-method",
+      "target": "de-sep-example",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-homogeneous",
+      "label": "contains"
+    },
+    {
+      "source": "de-homogeneous",
+      "target": "de-hom-method",
+      "label": "contains"
+    },
+    {
+      "source": "de-hom-method",
+      "target": "de-hom-example",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-linear",
+      "label": "contains"
+    },
+    {
+      "source": "de-linear",
+      "target": "de-linear-if",
+      "label": "contains"
+    },
+    {
+      "source": "de-linear-if",
+      "target": "de-linear-example",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-bernoulli",
+      "label": "contains"
+    },
+    {
+      "source": "de-bernoulli",
+      "target": "de-bernoulli-method",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-trajectories",
+      "label": "contains"
+    },
+    {
+      "source": "de-trajectories",
+      "target": "de-orth-method",
+      "label": "contains"
+    },
+    {
+      "source": "de-orth-method",
+      "target": "de-orth-example",
+      "label": "contains"
+    },
+    {
+      "source": "differential-equations",
+      "target": "de-formation",
+      "label": "contains"
+    },
+    {
+      "source": "de-formation",
+      "target": "de-form-method",
+      "label": "contains"
+    },
+    {
+      "source": "de-form-method",
+      "target": "de-form-example",
+      "label": "contains"
+    }
+  ]
+}

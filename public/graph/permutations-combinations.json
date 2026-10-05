@@ -1,0 +1,507 @@
+{
+  "title": "Permutations, Combinations and Combinatorics",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "permutations-combinations",
+      "label": "Permutations, Combinations and Combinatorics",
+      "group": "Permutations, Combinations and Combinatorics",
+      "depth": 0,
+      "note": "Counting principles, permutations, combinations, distribution, and binomial expansions form the JEE combinatorics backbone. Almost every counting PYQ reduces to one structured case split."
+    },
+    {
+      "id": "perm-counting",
+      "label": "Counting Principles",
+      "group": "Counting Principles",
+      "depth": 1,
+      "note": "The sum and product rules plus complement arguments decide every direct count. Factorials supply the raw material."
+    },
+    {
+      "id": "perm-sum-rule",
+      "label": "Sum Rule",
+      "group": "Counting Principles",
+      "depth": 2,
+      "note": "Mutually exclusive alternatives add: $$N = m + n$$. Use it for case splits like 'numbers divisible by 2 or 5'."
+    },
+    {
+      "id": "perm-product-rule",
+      "label": "Product Rule",
+      "group": "Counting Principles",
+      "depth": 2,
+      "note": "Sequential dependent stages multiply: $$N = m \\times n \\times p$$. Password and license-plate problems are direct applications."
+    },
+    {
+      "id": "perm-complement",
+      "label": "Complement Principle",
+      "group": "Counting Principles",
+      "depth": 2,
+      "note": "Count the unwanted arrangements and subtract: $$N_{wanted} = N_{total} - N_{unwanted}$$. Often the only clean route when 'at least one' appears."
+    },
+    {
+      "id": "perm-bijection",
+      "label": "Bijection Principle",
+      "group": "Counting Principles",
+      "depth": 2,
+      "note": "A one-to-one correspondence transfers a count to a simpler set with the same cardinality. Classic use: mapping subsets to binary strings of length n, giving $2^n$."
+    },
+    {
+      "id": "perm-factorial",
+      "label": "Factorial Notation",
+      "group": "Counting Principles",
+      "depth": 2,
+      "note": "$$n! = n(n-1)(n-2)\\cdots 1, \\ 0! = 1$$. Every arrangement count in this chapter is a quotient of factorials."
+    },
+    {
+      "id": "perm-permutations",
+      "label": "Permutations",
+      "group": "Permutations",
+      "depth": 1,
+      "note": "Ordered selections from distinct or repeated objects."
+    },
+    {
+      "id": "perm-npr",
+      "label": "Permutations of Distinct Objects",
+      "group": "Permutations",
+      "depth": 2,
+      "note": "The number of ordered r-selections from n distinct objects is $${}^nP_r = \\frac{n!}{(n-r)!}$$. Arrangement of 5 students in a row is $5!$."
+    },
+    {
+      "id": "perm-repetition",
+      "label": "Arrangements with Repetition",
+      "group": "Permutations",
+      "depth": 2,
+      "note": "With repetition allowed, each of the r positions has n choices: $$N = n^r$$. This counts strings of length r over an n-letter alphabet."
+    },
+    {
+      "id": "perm-repetition-example",
+      "label": "Example: PIN Codes",
+      "group": "Permutations",
+      "depth": 3,
+      "note": "A 4-digit PIN with digits repeatable has $10^4 = 10000$ possibilities, direct product-rule reasoning."
+    },
+    {
+      "id": "perm-constraints",
+      "label": "Arrangement Constraints",
+      "group": "Arrangement Constraints",
+      "depth": 1,
+      "note": "Block (tie) method, gap method, and dictionary rank handle restricted arrangements."
+    },
+    {
+      "id": "perm-block",
+      "label": "Block Method",
+      "group": "Arrangement Constraints",
+      "depth": 2,
+      "note": "Glue the objects that must stay together into one super-object: $$N = k! \\times (\\text{internal arrangements})$$. For the word MOTHER with vowels together, treat OE as one block."
+    },
+    {
+      "id": "perm-gap",
+      "label": "Gap Method",
+      "group": "Arrangement Constraints",
+      "depth": 2,
+      "note": "Arrange the free objects first, then place restricted ones in the gaps: $$N = (\\text{free})! \\times {}^{g}P_{r}$$. No two vowels together means vowels go into consonant gaps."
+    },
+    {
+      "id": "perm-rank",
+      "label": "Lexicographic Rank",
+      "group": "Arrangement Constraints",
+      "depth": 2,
+      "note": "Rank a word in dictionary order by counting words starting with smaller letters at each position. Rank of a permutation like 'EAMCET' needs a left-to-right factorial count."
+    },
+    {
+      "id": "perm-rank-example",
+      "label": "Example: Rank of a Word",
+      "group": "Arrangement Constraints",
+      "depth": 3,
+      "note": "For words from letters A, B, C with all used, words starting with A come first ($2! = 2$ of them); this prefix-counting logic gives the rank."
+    },
+    {
+      "id": "perm-combinations",
+      "label": "Combinations",
+      "group": "Combinations",
+      "depth": 1,
+      "note": "Unordered selections and the identities that simplify them."
+    },
+    {
+      "id": "perm-ncr",
+      "label": "Combinations of Distinct Objects",
+      "group": "Combinations",
+      "depth": 2,
+      "note": "Selecting r from n without regard to order: $${}^nC_r = \\frac{n!}{r!(n-r)!}$$. Choosing a 3-member team from 10 players is ${}^{10}C_3 = 120$."
+    },
+    {
+      "id": "perm-pascal",
+      "label": "Pascal's Identity",
+      "group": "Combinations",
+      "depth": 2,
+      "note": "$${}^nC_r = {}^{n-1}C_{r-1} + {}^{n-1}C_r$$ underlies Pascal's triangle. It justifies term counts in binomial expansions."
+    },
+    {
+      "id": "perm-multiset",
+      "label": "Multiset Selection",
+      "group": "Combinations",
+      "depth": 2,
+      "note": "Selecting r objects from a set with repetitions allowed: $$N = {}^{n+r-1}C_{r}$$. Choosing 4 fruits from 3 types with repetition allowed gives ${}^{6}C_4 = 15$."
+    },
+    {
+      "id": "perm-symmetry",
+      "label": "Symmetry of nCr",
+      "group": "Combinations",
+      "depth": 2,
+      "note": "$${}^nC_r = {}^nC_{n-r}$$ because choosing r to include equals choosing n - r to exclude. It halves computation when r > n/2."
+    },
+    {
+      "id": "perm-circular",
+      "label": "Circular and Identical Arrangements",
+      "group": "Circular and Identical Arrangements",
+      "depth": 1,
+      "note": "Rotations merge in a circle; alike objects divide out permutations."
+    },
+    {
+      "id": "perm-circular-n",
+      "label": "Circular Permutations",
+      "group": "Circular and Identical Arrangements",
+      "depth": 2,
+      "note": "Fix one object to kill rotational duplicates: $$N = (n-1)!$$. The round-table seating of n people gives $(n-1)!$."
+    },
+    {
+      "id": "perm-garland",
+      "label": "Garland (Necklace) Symmetry",
+      "group": "Circular and Identical Arrangements",
+      "depth": 2,
+      "note": "Flipping a garland also duplicates arrangements, so divide by 2: $$N = \\frac{(n-1)!}{2}$$. Distinguishing garlands from rings is a classic JEE MCQ twist."
+    },
+    {
+      "id": "perm-alike",
+      "label": "Permutations of Multisets",
+      "group": "Circular and Identical Arrangements",
+      "depth": 2,
+      "note": "With n_i alike objects of each type i, divide by the repeats: $$N = \\frac{n!}{n_1!\\, n_2! \\cdots n_k!}$$. Arrangements of MISSISSIPPI follow this template."
+    },
+    {
+      "id": "perm-distribution",
+      "label": "Division and Distribution",
+      "group": "Division and Distribution",
+      "depth": 1,
+      "note": "Splitting distinct or identical objects into groups is stars-and-bars territory."
+    },
+    {
+      "id": "perm-unequal",
+      "label": "Division into Unequal Groups",
+      "group": "Division and Distribution",
+      "depth": 2,
+      "note": "Divide n distinct objects into groups of sizes $p, q, r$: $$N = \\frac{n!}{p!\\,q!\\,r!}$$. Group labels matter only when groups are sized differently and destinations differ."
+    },
+    {
+      "id": "perm-equal",
+      "label": "Division into Equal Groups",
+      "group": "Division and Distribution",
+      "depth": 2,
+      "note": "For k equal groups of size m, divide further by the group orderings: $$N = \\frac{n!}{(m!)^k \\, k!}$$. The extra $k!$ kills the interchange of identical groups."
+    },
+    {
+      "id": "perm-stars-bars",
+      "label": "Stars and Bars",
+      "group": "Division and Distribution",
+      "depth": 2,
+      "note": "Non-negative integer solutions to $x_1 + \\dots + x_k = n$: $$N = {}^{n+k-1}C_{k-1}$$. Distributing identical chocolates to k children maps directly onto this count."
+    },
+    {
+      "id": "perm-positive",
+      "label": "Positive Integer Solutions",
+      "group": "Division and Distribution",
+      "depth": 2,
+      "note": "Strictly positive solutions to $x_1 + \\dots + x_k = n$ need $x_i \\ge 1$: $$N = {}^{n-1}C_{k-1}$$. Substitute $y_i = x_i - 1$ and reuse stars and bars."
+    },
+    {
+      "id": "perm-advanced",
+      "label": "Advanced Combinatorics",
+      "group": "Advanced Combinatorics",
+      "depth": 1,
+      "note": "PIE, derangements, surjections, and prime-exponent in factorials."
+    },
+    {
+      "id": "perm-pie",
+      "label": "Principle of Inclusion-Exclusion",
+      "group": "Advanced Combinatorics",
+      "depth": 2,
+      "note": "Count a union by adding singles, subtracting pairs, adding triples: $$|A \\cup B \\cup C| = \\sum |A_i| - \\sum |A_i \\cap A_j| + |A \\cap B \\cap C|$$. 'At least one' counts for properties use it."
+    },
+    {
+      "id": "perm-derange",
+      "label": "Derangements",
+      "group": "Advanced Combinatorics",
+      "depth": 2,
+      "note": "Permutations with no fixed point: $$D_n = n! \\sum_{k=0}^{n} \\frac{(-1)^k}{k!}$$. The !n notation (subfactorial) counts hat-check disasters and letter swapped envelopes."
+    },
+    {
+      "id": "perm-onto",
+      "label": "Onto Functions (Surjections)",
+      "group": "Advanced Combinatorics",
+      "depth": 2,
+      "note": "Number of onto maps from an m-set to an n-set: $$N = \\sum_{k=0}^{n} (-1)^k {}^nC_k \\, (n-k)^m$$. Applying PIE to 'every element hit' gives this inclusion count."
+    },
+    {
+      "id": "perm-legendre",
+      "label": "Legendre's Formula",
+      "group": "Advanced Combinatorics",
+      "depth": 2,
+      "note": "Exponent of a prime p in n!: $$E_p(n!) = \\left\\lfloor \\frac{n}{p} \\right\\rfloor + \\left\\lfloor \\frac{n}{p^2} \\right\\rfloor + \\cdots$$. It settles trailing-zero and divisibility questions about factorials."
+    },
+    {
+      "id": "perm-divisors",
+      "label": "Divisor Count from Factorization",
+      "group": "Advanced Combinatorics",
+      "depth": 2,
+      "note": "If $N = p_1^{a_1} p_2^{a_2} \\cdots$, then the number of divisors is $$\\tau(N) = (a_1+1)(a_2+1)\\cdots$$. Pairing divisors around $\\sqrt{N}$ relates to product problems."
+    },
+    {
+      "id": "perm-binomial",
+      "label": "Binomial Theorem",
+      "group": "Binomial Theorem",
+      "depth": 1,
+      "note": "Expansions, term analytics, and coefficient series - a guaranteed JEE Main presence."
+    },
+    {
+      "id": "perm-binomial-expansion",
+      "label": "General Expansion",
+      "group": "Binomial Theorem",
+      "depth": 2,
+      "note": "$$(x + a)^n = \\sum_{r=0}^{n} {}^nC_r x^{n-r} a^r$$. The $(r+1)$th term is ${}^nC_r x^{n-r} a^r$ and there are n + 1 terms total."
+    },
+    {
+      "id": "perm-middle",
+      "label": "Middle Term",
+      "group": "Binomial Theorem",
+      "depth": 2,
+      "note": "For even n the middle term index is $r = n/2$: $$T_{n/2 + 1} = {}^nC_{n/2} x^{n/2} a^{n/2}$$. For odd n there are two middle terms, $r = (n-1)/2$ and $(n+1)/2$."
+    },
+    {
+      "id": "perm-ngt",
+      "label": "Numerically Greatest Term",
+      "group": "Binomial Theorem",
+      "depth": 2,
+      "note": "Find r from the ratio test on $|T_{r+1}/T_r|$ and the threshold $r \\le \\frac{(n+1)|a|}{|x| + |a|}$$. JEE traps students who forget the integer-floor boundary."
+    },
+    {
+      "id": "perm-anyindex",
+      "label": "Binomial for Any Index",
+      "group": "Binomial Theorem",
+      "depth": 2,
+      "note": "For any rational alpha with |x| < 1: $$(1+x)^\\alpha = \\sum_{r=0}^{\\infty} \\frac{\\alpha(\\alpha-1)\\cdots(\\alpha-r+1)}{r!} x^r$$. Approximation $(1+x)^n \\approx 1 + nx$ holds when $|x| \\ll 1$."
+    },
+    {
+      "id": "perm-multinomial",
+      "label": "Multinomial Theorem",
+      "group": "Binomial Theorem",
+      "depth": 2,
+      "note": "$$(x_1 + x_2 + \\dots + x_k)^n = \\sum \\frac{n!}{n_1!\\,n_2! \\cdots n_k!} x_1^{n_1} \\cdots x_k^{n_k}$$. The number of distinct terms is ${}^{n+k-1}C_{k-1}$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "permutations-combinations",
+      "target": "perm-counting",
+      "label": "contains"
+    },
+    {
+      "source": "perm-counting",
+      "target": "perm-sum-rule",
+      "label": "contains"
+    },
+    {
+      "source": "perm-counting",
+      "target": "perm-product-rule",
+      "label": "contains"
+    },
+    {
+      "source": "perm-counting",
+      "target": "perm-complement",
+      "label": "contains"
+    },
+    {
+      "source": "perm-counting",
+      "target": "perm-bijection",
+      "label": "contains"
+    },
+    {
+      "source": "perm-counting",
+      "target": "perm-factorial",
+      "label": "contains"
+    },
+    {
+      "source": "permutations-combinations",
+      "target": "perm-permutations",
+      "label": "contains"
+    },
+    {
+      "source": "perm-permutations",
+      "target": "perm-npr",
+      "label": "contains"
+    },
+    {
+      "source": "perm-permutations",
+      "target": "perm-repetition",
+      "label": "contains"
+    },
+    {
+      "source": "perm-repetition",
+      "target": "perm-repetition-example",
+      "label": "contains"
+    },
+    {
+      "source": "permutations-combinations",
+      "target": "perm-constraints",
+      "label": "contains"
+    },
+    {
+      "source": "perm-constraints",
+      "target": "perm-block",
+      "label": "contains"
+    },
+    {
+      "source": "perm-constraints",
+      "target": "perm-gap",
+      "label": "contains"
+    },
+    {
+      "source": "perm-constraints",
+      "target": "perm-rank",
+      "label": "contains"
+    },
+    {
+      "source": "perm-rank",
+      "target": "perm-rank-example",
+      "label": "contains"
+    },
+    {
+      "source": "permutations-combinations",
+      "target": "perm-combinations",
+      "label": "contains"
+    },
+    {
+      "source": "perm-combinations",
+      "target": "perm-ncr",
+      "label": "contains"
+    },
+    {
+      "source": "perm-combinations",
+      "target": "perm-pascal",
+      "label": "contains"
+    },
+    {
+      "source": "perm-combinations",
+      "target": "perm-multiset",
+      "label": "contains"
+    },
+    {
+      "source": "perm-combinations",
+      "target": "perm-symmetry",
+      "label": "contains"
+    },
+    {
+      "source": "permutations-combinations",
+      "target": "perm-circular",
+      "label": "contains"
+    },
+    {
+      "source": "perm-circular",
+      "target": "perm-circular-n",
+      "label": "contains"
+    },
+    {
+      "source": "perm-circular",
+      "target": "perm-garland",
+      "label": "contains"
+    },
+    {
+      "source": "perm-circular",
+      "target": "perm-alike",
+      "label": "contains"
+    },
+    {
+      "source": "permutations-combinations",
+      "target": "perm-distribution",
+      "label": "contains"
+    },
+    {
+      "source": "perm-distribution",
+      "target": "perm-unequal",
+      "label": "contains"
+    },
+    {
+      "source": "perm-distribution",
+      "target": "perm-equal",
+      "label": "contains"
+    },
+    {
+      "source": "perm-distribution",
+      "target": "perm-stars-bars",
+      "label": "contains"
+    },
+    {
+      "source": "perm-distribution",
+      "target": "perm-positive",
+      "label": "contains"
+    },
+    {
+      "source": "permutations-combinations",
+      "target": "perm-advanced",
+      "label": "contains"
+    },
+    {
+      "source": "perm-advanced",
+      "target": "perm-pie",
+      "label": "contains"
+    },
+    {
+      "source": "perm-advanced",
+      "target": "perm-derange",
+      "label": "contains"
+    },
+    {
+      "source": "perm-advanced",
+      "target": "perm-onto",
+      "label": "contains"
+    },
+    {
+      "source": "perm-advanced",
+      "target": "perm-legendre",
+      "label": "contains"
+    },
+    {
+      "source": "perm-advanced",
+      "target": "perm-divisors",
+      "label": "contains"
+    },
+    {
+      "source": "permutations-combinations",
+      "target": "perm-binomial",
+      "label": "contains"
+    },
+    {
+      "source": "perm-binomial",
+      "target": "perm-binomial-expansion",
+      "label": "contains"
+    },
+    {
+      "source": "perm-binomial",
+      "target": "perm-middle",
+      "label": "contains"
+    },
+    {
+      "source": "perm-binomial",
+      "target": "perm-ngt",
+      "label": "contains"
+    },
+    {
+      "source": "perm-binomial",
+      "target": "perm-anyindex",
+      "label": "contains"
+    },
+    {
+      "source": "perm-binomial",
+      "target": "perm-multinomial",
+      "label": "contains"
+    }
+  ]
+}

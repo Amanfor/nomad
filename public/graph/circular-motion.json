@@ -1,0 +1,483 @@
+{
+  "title": "Circular Motion",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "circular-motion",
+      "label": "Circular Motion",
+      "group": "Circular Motion",
+      "depth": 0,
+      "note": "Kinematics and dynamics of circular motion, vehicle turning, vertical loops, and spherical detachment. JEE tests centripetal force, banking, critical speeds, and the string-versus-rod distinction."
+    },
+    {
+      "id": "circular-kinematics",
+      "label": "Circular Kinematics",
+      "group": "Circular Kinematics",
+      "depth": 1,
+      "note": "Angular variables, linear-angular relations, and acceleration decomposition in circular motion."
+    },
+    {
+      "id": "angular-variables",
+      "label": "Angular Variables",
+      "group": "Circular Kinematics",
+      "depth": 2,
+      "note": "Angular velocity is $$\\vec{\\omega} = \\frac{d\\vec{\\theta}}{dt}$$ and angular acceleration is $$\\vec{\\alpha} = \\frac{d\\vec{\\omega}}{dt}$$. Infinitesimal angular displacement is a vector; finite angular displacement is not."
+    },
+    {
+      "id": "linear-angular",
+      "label": "Linear-Angular Relations",
+      "group": "Circular Kinematics",
+      "depth": 2,
+      "note": "Linear velocity is $$\\vec{v} = \\vec{\\omega} \\times \\vec{r}$$ with magnitude $$v = \\omega r$$. The total acceleration is $$\\vec{a} = \\vec{a}_t + \\vec{a}_c$$."
+    },
+    {
+      "id": "centripetal-acceleration",
+      "label": "Centripetal Acceleration",
+      "group": "Circular Kinematics",
+      "depth": 3,
+      "note": "The radial component is $$a_c = \\frac{v^2}{r} = \\omega^2 r = v\\omega$$, directed inward. It changes only the direction of velocity, not the speed."
+    },
+    {
+      "id": "tangential-acceleration",
+      "label": "Tangential Acceleration",
+      "group": "Circular Kinematics",
+      "depth": 3,
+      "note": "The tangential component is $$a_t = \\frac{dv}{dt} = \\alpha r$$. It changes only the speed, not the direction. Net acceleration: $$a_{\\text{net}} = \\sqrt{a_c^2 + a_t^2}$$."
+    },
+    {
+      "id": "relative-angular",
+      "label": "Relative Angular Velocity",
+      "group": "Circular Kinematics",
+      "depth": 2,
+      "note": "The angular velocity of $$B$$ relative to $$A$$ is $$\\omega_{B/A} = \\frac{v_{B/A,\\perp}}{r_{AB}}$$. A particle on a circle has half the angular speed about a point on the circumference compared to the center."
+    },
+    {
+      "id": "ucm",
+      "label": "Uniform Circular Motion",
+      "group": "Circular Kinematics",
+      "depth": 2,
+      "note": "In UCM, speed is constant: $$a_t = 0$$ and $$a_{\\text{net}} = a_c = \\frac{v^2}{r}$$. The acceleration is always perpendicular to velocity."
+    },
+    {
+      "id": "nucm",
+      "label": "Non-Uniform Circular Motion",
+      "group": "Circular Kinematics",
+      "depth": 2,
+      "note": "In NUCM, speed varies: $$a_t \\ne 0$$ and $$a_{\\text{net}} = \\sqrt{a_c^2 + a_t^2}$$. The angle between net acceleration and tangent is $$\\tan\\psi = \\frac{a_c}{a_t}$$."
+    },
+    {
+      "id": "commutativity",
+      "label": "Finite Angular Displacement",
+      "group": "Circular Kinematics",
+      "depth": 3,
+      "note": "Finite angular displacement does not obey the commutative law: $$\\Delta\\theta_1 + \\Delta\\theta_2 \\ne \\Delta\\theta_2 + \\Delta\\theta_1$$. Only infinitesimal angular displacement is a true vector."
+    },
+    {
+      "id": "circular-dynamics",
+      "label": "Dynamics of Circular Motion",
+      "group": "Dynamics of Circular Motion",
+      "depth": 1,
+      "note": "Centripetal force is the net real force along the inward normal. It is not an additional force."
+    },
+    {
+      "id": "centripetal-force",
+      "label": "Centripetal Force",
+      "group": "Dynamics of Circular Motion",
+      "depth": 2,
+      "note": "The required centripetal force is $$F_c = ma_c = \\frac{mv^2}{r} = m\\omega^2 r$$. It must be supplied by real forces: tension, gravity, normal reaction, friction, or electrostatic attraction."
+    },
+    {
+      "id": "centrifugal-force",
+      "label": "Centrifugal Force",
+      "group": "Dynamics of Circular Motion",
+      "depth": 2,
+      "note": "In a rotating frame, the pseudo force is $$\\vec{F}_{\\text{cf}} = m\\omega^2\\vec{r}$$ directed radially outward. It exists only in non-inertial frames and has no reaction partner."
+    },
+    {
+      "id": "conical-pendulum",
+      "label": "Conical Pendulum",
+      "group": "Dynamics of Circular Motion",
+      "depth": 2,
+      "note": "A bob on a string of length $$L$$ rotating at angle $$\\theta$$: $$T\\cos\\theta = mg$$ and $$T\\sin\\theta = m\\omega^2 L\\sin\\theta$$. The angular speed is $$\\omega = \\sqrt{\\frac{g}{L\\cos\\theta}} = \\sqrt{\\frac{g}{h}}$$."
+    },
+    {
+      "id": "conical-period",
+      "label": "Conical Pendulum Period",
+      "group": "Dynamics of Circular Motion",
+      "depth": 3,
+      "note": "The period is $$T_p = 2\\pi\\sqrt{\\frac{L\\cos\\theta}{g}} = 2\\pi\\sqrt{\\frac{h}{g}}$$ where $$h = L\\cos\\theta$$. String tension is $$T = \\frac{mg}{\\cos\\theta}$$."
+    },
+    {
+      "id": "centripetal-misconception",
+      "label": "Centripetal Force Misconception",
+      "group": "Dynamics of Circular Motion",
+      "depth": 2,
+      "note": "Centripetal force is not an extra force in the FBD. It is the name for the net real force along the radial direction: $$\\sum \\vec{F}_{\\text{radial}} = \\frac{mv^2}{r}$$."
+    },
+    {
+      "id": "vehicle-turning",
+      "label": "Vehicle Turning and Banking",
+      "group": "Vehicle Turning and Banking",
+      "depth": 1,
+      "note": "Turning on flat and banked roads, overturning, and rotor mechanics."
+    },
+    {
+      "id": "flat-road",
+      "label": "Unbanked Road",
+      "group": "Vehicle Turning and Banking",
+      "depth": 2,
+      "note": "On a flat curve, friction supplies the centripetal force: $$\\frac{mv^2}{r} \\le \\mu_s mg$$. The maximum speed is $$v_{\\max} = \\sqrt{\\mu_s rg}$$."
+    },
+    {
+      "id": "cyclist-lean",
+      "label": "Cyclist Leaning",
+      "group": "Vehicle Turning and Banking",
+      "depth": 3,
+      "note": "A cyclist leans inward at angle $$\\theta$$ with the vertical: $$\\tan\\theta = \\frac{v^2}{rg} \\le \\mu_s$$."
+    },
+    {
+      "id": "banked-road",
+      "label": "Frictionless Banked Road",
+      "group": "Vehicle Turning and Banking",
+      "depth": 2,
+      "note": "On a banked road at angle $$\\theta$$ with no friction: $$N\\sin\\theta = \\frac{mv_0^2}{r}$$ and $$N\\cos\\theta = mg$$. The rated speed is $$v_0 = \\sqrt{rg\\tan\\theta}$$."
+    },
+    {
+      "id": "rough-banked",
+      "label": "Rough Banked Road",
+      "group": "Vehicle Turning and Banking",
+      "depth": 2,
+      "note": "With friction on a banked road, the safe speed window is $$v_{\\min} = \\sqrt{rg\\tan(\\theta - \\lambda)}$$ to $$v_{\\max} = \\sqrt{rg\\tan(\\theta + \\lambda)}$$ where $$\\lambda = \\tan^{-1}\\mu_s$$."
+    },
+    {
+      "id": "parking-condition",
+      "label": "Parking on Bank",
+      "group": "Vehicle Turning and Banking",
+      "depth": 3,
+      "note": "If $$\\tan\\theta \\le \\mu_s$$, a car can park stationary on the bank without sliding down, so $$v_{\\min} = 0$$."
+    },
+    {
+      "id": "overturning",
+      "label": "Overturning of Vehicles",
+      "group": "Vehicle Turning and Banking",
+      "depth": 2,
+      "note": "For a four-wheeler with track width $$d$$ and COM height $$h$$: the overturning speed is $$v_{\\text{overturn}} = \\sqrt{\\frac{grd}{2h}}$$. Skidding occurs first if $$\\mu_s < \\frac{d}{2h}$$."
+    },
+    {
+      "id": "skidding-condition",
+      "label": "Skidding vs Overturning",
+      "group": "Vehicle Turning and Banking",
+      "depth": 3,
+      "note": "A vehicle skids before overturning if $$\\mu_s < \\frac{d}{2h}$$. It overturns before skidding if $$\\mu_s > \\frac{d}{2h}$$."
+    },
+    {
+      "id": "rotor",
+      "label": "Rotor (Death Well)",
+      "group": "Vehicle Turning and Banking",
+      "depth": 2,
+      "note": "A rider inside a vertical cylinder of radius $$R$$: normal reaction provides centripetal force and friction balances gravity. The minimum angular speed is $$\\omega_{\\min} = \\sqrt{\\frac{g}{\\mu_s R}}$$."
+    },
+    {
+      "id": "rotor-speed",
+      "label": "Rotor Minimum Speed",
+      "group": "Vehicle Turning and Banking",
+      "depth": 3,
+      "note": "The minimum linear speed in a rotor is $$v_{\\min} = \\sqrt{\\frac{gR}{\\mu_s}}$$."
+    },
+    {
+      "id": "banking-angle",
+      "label": "Banking Angle",
+      "group": "Vehicle Turning and Banking",
+      "depth": 2,
+      "note": "The banking angle is designed so that at the rated speed, no lateral friction is needed: $$\\tan\\theta = \\frac{v_0^2}{rg}$$. This prevents tyre wear."
+    },
+    {
+      "id": "vertical-circular",
+      "label": "Vertical Circular Motion",
+      "group": "Vertical Circular Motion",
+      "depth": 1,
+      "note": "String and rod vertical loops, critical speeds, and detachment from spherical surfaces."
+    },
+    {
+      "id": "string-vcm",
+      "label": "String Vertical Loop",
+      "group": "Vertical Circular Motion",
+      "depth": 2,
+      "note": "For a particle on a string of length $$R$$: tension at angle $$\\theta$$ from the bottom is $$T(\\theta) = \\frac{mv^2}{R} + mg\\cos\\theta$$. Energy conservation gives $$v^2 = u^2 - 2gR(1-\\cos\\theta)$$."
+    },
+    {
+      "id": "tension-invariant",
+      "label": "Tension Difference Invariant",
+      "group": "Vertical Circular Motion",
+      "depth": 3,
+      "note": "The tension difference between bottom and top is universal: $$T_L - T_T = 6mg$$, independent of launch speed."
+    },
+    {
+      "id": "critical-triad",
+      "label": "Critical Looping Triad",
+      "group": "Vertical Circular Motion",
+      "depth": 3,
+      "note": "For a string: $$v_L \\ge \\sqrt{5gR}$$ at the bottom, $$v_M \\ge \\sqrt{3gR}$$ at horizontal, $$v_T \\ge \\sqrt{gR}$$ at the top. Critical bottom tension is $$T_L = 6mg$$."
+    },
+    {
+      "id": "motion-regimes",
+      "label": "Three Motion Regimes",
+      "group": "Vertical Circular Motion",
+      "depth": 2,
+      "note": "Based on launch speed $$u$$: oscillation ($$u \\le \\sqrt{2gR}$$), slacking with projectile flight ($$\\sqrt{2gR} < u < \\sqrt{5gR}$$), and complete loop ($$u \\ge \\sqrt{5gR}$$)."
+    },
+    {
+      "id": "oscillation-regime",
+      "label": "Oscillation Regime",
+      "group": "Vertical Circular Motion",
+      "depth": 3,
+      "note": "For $$0 < u \\le \\sqrt{2gR}$$: velocity vanishes at $$\\theta \\le 90^\\circ$$ where $$T = mg\\cos\\theta > 0$$. The body oscillates like a simple pendulum."
+    },
+    {
+      "id": "slacking-regime",
+      "label": "Slacking Regime",
+      "group": "Vertical Circular Motion",
+      "depth": 3,
+      "note": "For $$\\sqrt{2gR} < u < \\sqrt{5gR}$$: tension vanishes in the upper semicircle while velocity is still non-zero. The particle leaves the circle and follows a parabola."
+    },
+    {
+      "id": "complete-loop",
+      "label": "Complete Loop Regime",
+      "group": "Vertical Circular Motion",
+      "depth": 3,
+      "note": "For $$u \\ge \\sqrt{5gR}$$: tension remains strictly positive throughout the entire circle. The body completes full circular revolution."
+    },
+    {
+      "id": "rod-vcm",
+      "label": "Rigid Rod Vertical Loop",
+      "group": "Vertical Circular Motion",
+      "depth": 2,
+      "note": "A rigid rod can support compression, so it cannot slack. The looping condition is only $$v_T \\ge 0$$, giving $$v_L \\ge \\sqrt{4gR} = 2\\sqrt{gR}$$."
+    },
+    {
+      "id": "rod-triad",
+      "label": "Rod Critical Triad",
+      "group": "Vertical Circular Motion",
+      "depth": 3,
+      "note": "For a rigid rod: $$v_L \\ge 2\\sqrt{gR}$$ at the bottom, $$v_M \\ge \\sqrt{2gR}$$ at horizontal, $$v_T \\ge 0$$ at the top."
+    },
+    {
+      "id": "sphere-detachment",
+      "label": "Detachment from Sphere",
+      "group": "Vertical Circular Motion",
+      "depth": 2,
+      "note": "A particle sliding from the top of a smooth sphere of radius $$R$$: $$N = mg(3\\cos\\theta - 2)$$. Detachment occurs at $$\\cos\\theta = \\frac{2}{3}$$, so $$h = \\frac{R}{3}$$ and $$v_{\\text{detach}} = \\sqrt{\\frac{2gR}{3}}$$."
+    },
+    {
+      "id": "string-slacking",
+      "label": "String Slacking",
+      "group": "Vertical Circular Motion",
+      "depth": 2,
+      "note": "When tension reaches zero before velocity, the string slacks and the particle enters parabolic projectile motion. This occurs in the upper semicircle for $$\\sqrt{2gR} < u < \\sqrt{5gR}$$."
+    },
+    {
+      "id": "energy-conservation-vcm",
+      "label": "Energy Conservation in VCM",
+      "group": "Vertical Circular Motion",
+      "depth": 2,
+      "note": "Mechanical energy is conserved in vertical circular motion: $$\\frac{1}{2}mu^2 = \\frac{1}{2}mv^2 + mgR(1-\\cos\\theta)$$. This relates speed at any point to the launch speed."
+    }
+  ],
+  "edges": [
+    {
+      "source": "circular-motion",
+      "target": "circular-kinematics",
+      "label": "contains"
+    },
+    {
+      "source": "circular-motion",
+      "target": "circular-dynamics",
+      "label": "contains"
+    },
+    {
+      "source": "circular-motion",
+      "target": "vehicle-turning",
+      "label": "contains"
+    },
+    {
+      "source": "circular-motion",
+      "target": "vertical-circular",
+      "label": "contains"
+    },
+    {
+      "source": "circular-kinematics",
+      "target": "angular-variables",
+      "label": "contains"
+    },
+    {
+      "source": "circular-kinematics",
+      "target": "linear-angular",
+      "label": "contains"
+    },
+    {
+      "source": "circular-kinematics",
+      "target": "relative-angular",
+      "label": "contains"
+    },
+    {
+      "source": "circular-kinematics",
+      "target": "ucm",
+      "label": "contains"
+    },
+    {
+      "source": "circular-kinematics",
+      "target": "nucm",
+      "label": "contains"
+    },
+    {
+      "source": "linear-angular",
+      "target": "centripetal-acceleration",
+      "label": "contains"
+    },
+    {
+      "source": "linear-angular",
+      "target": "tangential-acceleration",
+      "label": "contains"
+    },
+    {
+      "source": "nucm",
+      "target": "commutativity",
+      "label": "contains"
+    },
+    {
+      "source": "circular-dynamics",
+      "target": "centripetal-force",
+      "label": "contains"
+    },
+    {
+      "source": "circular-dynamics",
+      "target": "centrifugal-force",
+      "label": "contains"
+    },
+    {
+      "source": "circular-dynamics",
+      "target": "conical-pendulum",
+      "label": "contains"
+    },
+    {
+      "source": "circular-dynamics",
+      "target": "centripetal-misconception",
+      "label": "contains"
+    },
+    {
+      "source": "conical-pendulum",
+      "target": "conical-period",
+      "label": "contains"
+    },
+    {
+      "source": "vehicle-turning",
+      "target": "flat-road",
+      "label": "contains"
+    },
+    {
+      "source": "vehicle-turning",
+      "target": "banked-road",
+      "label": "contains"
+    },
+    {
+      "source": "vehicle-turning",
+      "target": "rough-banked",
+      "label": "contains"
+    },
+    {
+      "source": "vehicle-turning",
+      "target": "overturning",
+      "label": "contains"
+    },
+    {
+      "source": "vehicle-turning",
+      "target": "rotor",
+      "label": "contains"
+    },
+    {
+      "source": "vehicle-turning",
+      "target": "banking-angle",
+      "label": "contains"
+    },
+    {
+      "source": "flat-road",
+      "target": "cyclist-lean",
+      "label": "contains"
+    },
+    {
+      "source": "rough-banked",
+      "target": "parking-condition",
+      "label": "contains"
+    },
+    {
+      "source": "overturning",
+      "target": "skidding-condition",
+      "label": "contains"
+    },
+    {
+      "source": "rotor",
+      "target": "rotor-speed",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-circular",
+      "target": "string-vcm",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-circular",
+      "target": "motion-regimes",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-circular",
+      "target": "rod-vcm",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-circular",
+      "target": "sphere-detachment",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-circular",
+      "target": "string-slacking",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-circular",
+      "target": "energy-conservation-vcm",
+      "label": "contains"
+    },
+    {
+      "source": "string-vcm",
+      "target": "tension-invariant",
+      "label": "contains"
+    },
+    {
+      "source": "string-vcm",
+      "target": "critical-triad",
+      "label": "contains"
+    },
+    {
+      "source": "motion-regimes",
+      "target": "oscillation-regime",
+      "label": "contains"
+    },
+    {
+      "source": "motion-regimes",
+      "target": "slacking-regime",
+      "label": "contains"
+    },
+    {
+      "source": "motion-regimes",
+      "target": "complete-loop",
+      "label": "contains"
+    },
+    {
+      "source": "rod-vcm",
+      "target": "rod-triad",
+      "label": "contains"
+    }
+  ]
+}

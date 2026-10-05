@@ -1,0 +1,483 @@
+{
+  "title": "Rotational Motion",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "rotational-motion",
+      "label": "Rotational Motion",
+      "group": "Rotational Motion",
+      "depth": 0,
+      "note": "Rigid body dynamics: inertia, torque, angular momentum, and rolling. Translate every idea from linear mechanics by mapping m to I, F to tau, and v to omega."
+    },
+    {
+      "id": "rigid-kinematics",
+      "label": "Rigid Body Kinematics",
+      "group": "Rigid Body Kinematics",
+      "depth": 1,
+      "note": "Definition of a rigid body, invariance of angular velocity, and the rotational kinematic equations. Geometry of a rotating body, before any force discussion."
+    },
+    {
+      "id": "rigid-def",
+      "label": "Rigid Body Definition",
+      "group": "Rigid Body Kinematics",
+      "depth": 2,
+      "note": "A rigid body keeps fixed inter-particle distances, so its motion is fully described by the translation of one point plus rotation about it. Every point shares the same angular velocity."
+    },
+    {
+      "id": "omega-invariance",
+      "label": "Invariance of Angular Velocity",
+      "group": "Rigid Body Kinematics",
+      "depth": 2,
+      "note": "At any instant every particle has the same $\\omega$ about any fixed axis: $$\\vec{v} = \\vec{\\omega} \\times \\vec{r}$$. Thus $\\omega$ is a property of the body, not of the chosen point."
+    },
+    {
+      "id": "rot-kinematics",
+      "label": "Rotational Kinematic Equations",
+      "group": "Rigid Body Kinematics",
+      "depth": 2,
+      "note": "Under constant angular acceleration the rotational analogues of the translational laws hold: $$\\omega = \\omega_0 + \\alpha t,\\quad \\theta = \\omega_0 t + \\tfrac{1}{2}\\alpha t^2,\\quad \\omega^2 = \\omega_0^2 + 2\\alpha\\theta$$. Use them exactly like the linear equations."
+    },
+    {
+      "id": "ang-displacement",
+      "label": "Angular Displacement",
+      "group": "Rigid Body Kinematics",
+      "depth": 2,
+      "note": "Angle in radians ties arc length to radius: $$\\theta = \\frac{s}{r},\\quad v = r\\omega,\\quad a_t = r\\alpha$$. Every circular quantity is just the linear one divided by r."
+    },
+    {
+      "id": "centripetal",
+      "label": "Centripetal Acceleration",
+      "group": "Rigid Body Kinematics",
+      "depth": 2,
+      "note": "Even steady rotation needs inward acceleration: $$a_c = \\omega^2 r = \\frac{v^2}{r}$$. Total acceleration combines it with the tangential part: $$a = \\sqrt{a_c^2 + a_t^2}$$."
+    },
+    {
+      "id": "linear-rot-analogy",
+      "label": "Linear-Rotational Analogy",
+      "group": "Rigid Body Kinematics",
+      "depth": 2,
+      "note": "Every translational law has a rotational twin: $$s \\leftrightarrow \\theta,\\ v \\leftrightarrow \\omega,\\ m \\leftrightarrow I,\\ F \\leftrightarrow \\tau,\\ p \\leftrightarrow L$$. Translate a familiar result rather than memorising a new one."
+    },
+    {
+      "id": "moi",
+      "label": "Moment of Inertia",
+      "group": "Moment of Inertia",
+      "depth": 1,
+      "note": "Rotational inertia about axes, radius of gyration, axis-shift theorems, and the standard values. The quantity that plays the role of mass in rotation."
+    },
+    {
+      "id": "moi-def",
+      "label": "Definition and Radius of Gyration",
+      "group": "Moment of Inertia",
+      "depth": 2,
+      "note": "Rotational inertia is $$I = \\sum_i m_i r_i^2 = \\int r^2 dm$$, with radius of gyration $$k = \\sqrt{I/M}$$. Mass far from the axis dominates I."
+    },
+    {
+      "id": "parallel-axis",
+      "label": "Parallel Axis Theorem",
+      "group": "Moment of Inertia",
+      "depth": 2,
+      "note": "Shifting from the centre of mass to a parallel axis adds $Md^2$: $$I = I_{cm} + Md^2$$. The CM axis always carries the smallest I."
+    },
+    {
+      "id": "perpendicular-axis",
+      "label": "Perpendicular Axis Theorem",
+      "group": "Moment of Inertia",
+      "depth": 2,
+      "note": "For a planar lamina, the out-of-plane moment equals the sum of the two in-plane moments: $$I_z = I_x + I_y$$. This quickly yields, for a disc, $$I_z = \\tfrac{1}{2}MR^2$$."
+    },
+    {
+      "id": "standard-moi",
+      "label": "Standard Moments of Inertia",
+      "group": "Moment of Inertia",
+      "depth": 2,
+      "note": "Memorise the hierarchy $$I_{ring} = MR^2,\\quad I_{disc} = \\tfrac{1}{2}MR^2,\\quad I_{solid\\ sphere} = \\tfrac{2}{5}MR^2,\\quad I_{rod} = \\tfrac{1}{12}ML^2$$. Smaller $I/MR^2$ means the body rolls faster."
+    },
+    {
+      "id": "cavity-moi",
+      "label": "Cavity by Negative Mass",
+      "group": "Moment of Inertia",
+      "depth": 2,
+      "note": "A body with a cavity is the superposition of the full body minus the removed part: $$I = I_{full} - I_{removed}$$. The cavity piece's own CM offset then uses the parallel-axis theorem."
+    },
+    {
+      "id": "torque",
+      "label": "Torque and Rotational Dynamics",
+      "group": "Torque and Rotational Dynamics",
+      "depth": 1,
+      "note": "Torque as the rotational force, the rotational second law, and rotational work-energy. Dynamics of a body when the line of action misses the centre."
+    },
+    {
+      "id": "torque-def",
+      "label": "Definition of Torque",
+      "group": "Torque and Rotational Dynamics",
+      "depth": 2,
+      "note": "Torque is the moment of force about a point: $$\\vec{\\tau} = \\vec{r} \\times \\vec{F},\\quad \\tau = rF\\sin\\phi$$. Its lever arm is the perpendicular distance from the axis to the line of force."
+    },
+    {
+      "id": "rot-second-law",
+      "label": "Rotational Second Law",
+      "group": "Torque and Rotational Dynamics",
+      "depth": 2,
+      "note": "Net torque produces angular acceleration: $$\\tau_{net} = I\\alpha$$, with the constraint equations of the problem supplying $\\alpha$. It is the direct analogue of $F = ma$."
+    },
+    {
+      "id": "angular-impulse",
+      "label": "Angular Impulse and Work",
+      "group": "Torque and Rotational Dynamics",
+      "depth": 2,
+      "note": "Impulse of torque changes angular momentum, and torque does work through angle: $$\\int \\tau\\, dt = \\Delta L,\\quad W = \\int \\tau\\, d\\theta,\\quad P = \\tau\\omega$$. These are the rotational analogues of impulse and work."
+    },
+    {
+      "id": "rot-ke",
+      "label": "Rotational Kinetic Energy",
+      "group": "Torque and Rotational Dynamics",
+      "depth": 2,
+      "note": "A spinning body stores $$K = \\tfrac{1}{2}I\\omega^2$$. For a rigid body rotating about a fixed axis this replaces $\\tfrac{1}{2}mv^2$; compare energies of differently shaped wheels at equal $\\omega$."
+    },
+    {
+      "id": "couple",
+      "label": "Couple",
+      "group": "Torque and Rotational Dynamics",
+      "depth": 2,
+      "note": "Two equal opposite parallel forces form a pure moment: $$\\tau = F \\times d$$, independent of the pivot chosen. A couple spins a body without translating its CM."
+    },
+    {
+      "id": "yo-yo-unwind",
+      "label": "Unwinding Yo-Yo and Hanging Mass",
+      "group": "Torque and Rotational Dynamics",
+      "depth": 2,
+      "note": "For a hanging mass $m$ on a string wrapped around a disc, Newton plus $\\tau = I\\alpha$ give $$a = \\frac{g}{1 + I/mR^2}$$. The disc's inertia slows the descent."
+    },
+    {
+      "id": "angular-momentum",
+      "label": "Angular Momentum",
+      "group": "Angular Momentum",
+      "depth": 1,
+      "note": "Definition, conservation, and classic applications like the cue-ball strike. Conserved whenever external torque vanishes, exactly like linear momentum."
+    },
+    {
+      "id": "l-def",
+      "label": "Definition of L",
+      "group": "Angular Momentum",
+      "depth": 2,
+      "note": "Angular momentum about a point is $$\\vec{L} = \\vec{r} \\times m\\vec{v}$$, and for a rigid body $$L = I\\omega$$. Its direction follows the right-hand rule about the pivot."
+    },
+    {
+      "id": "l-conservation",
+      "label": "Conservation of L",
+      "group": "Angular Momentum",
+      "depth": 2,
+      "note": "With zero net external torque, angular momentum is conserved: $$\\tau_{ext} = 0 \\Rightarrow L = const,\\quad I_1\\omega_1 = I_2\\omega_2$$. A skater pulling in her arms spins faster because $I$ drops."
+    },
+    {
+      "id": "l-direction",
+      "label": "Direction and Precession Idea",
+      "group": "Angular Momentum",
+      "depth": 2,
+      "note": "Torque changes L along its own direction: $$\\vec{\\tau} = \\frac{d\\vec{L}}{dt}$$. A spinning top precesses because gravity torques its angular momentum sideways, not downward."
+    },
+    {
+      "id": "cue-strike",
+      "label": "Cue Ball Strike Height",
+      "group": "Angular Momentum",
+      "depth": 2,
+      "note": "A horizontal cue strike produces immediate pure rolling when $$h = \\frac{R}{2}\\left(1 + \\frac{k^2}{R^2}\\right)$$ above the centre, i.e. $7R/10$ for a solid sphere. Below this height the ball skids forward; above it, it back-spins."
+    },
+    {
+      "id": "rolling",
+      "label": "Rolling Motion",
+      "group": "Rolling Motion",
+      "depth": 1,
+      "note": "Combined translation and rotation, the rolling constraint, instantaneous centre, incline dynamics, and energy partitioning. The richest rigid-body topic in JEE."
+    },
+    {
+      "id": "koenig-ke",
+      "label": "Konig's Theorem for KE",
+      "group": "Rolling Motion",
+      "depth": 2,
+      "note": "Total kinetic energy splits into CM translation and rotation about the CM: $$K = \\tfrac{1}{2}Mv_{cm}^2 + \\tfrac{1}{2}I_{cm}\\omega^2$$. Each part is computed independently, then added."
+    },
+    {
+      "id": "rolling-constraint",
+      "label": "Pure Rolling Condition",
+      "group": "Rolling Motion",
+      "depth": 2,
+      "note": "Rolling without slipping locks translation to rotation: $$v_{cm} = \\omega R,\\quad a_{cm} = \\alpha R$$. Static friction enforces it and does no net work on the contact point."
+    },
+    {
+      "id": "icor",
+      "label": "Instantaneous Centre of Rotation",
+      "group": "Rolling Motion",
+      "depth": 2,
+      "note": "The contact point is momentarily at rest and acts as the pivot: every point's speed is $v = \\omega d$ where $d$ is its distance from the contact. The top of a rolling wheel moves at $2v_{cm}$."
+    },
+    {
+      "id": "incline-rolling",
+      "label": "Rolling Down an Incline",
+      "group": "Rolling Motion",
+      "depth": 2,
+      "note": "Combining $Mg\\sin\\theta - f = Ma$ with $fR = I\\alpha$ gives $$a = \\frac{g\\sin\\theta}{1 + I/MR^2}$$. The race down the incline ranks ring last and solid sphere first."
+    },
+    {
+      "id": "incline-race",
+      "label": "Great Incline Race",
+      "group": "Rolling Motion",
+      "depth": 3,
+      "note": "Acceleration depends only on shape factor $\\beta = I/MR^2$: smaller $\\beta$ wins. Solid sphere ($2/5$) beats disc ($1/2$), which beats ring ($1$), independent of mass and radius."
+    },
+    {
+      "id": "incline-speed",
+      "label": "Speed at the Base",
+      "group": "Rolling Motion",
+      "depth": 3,
+      "note": "Energy conservation gives $$v = \\sqrt{\\frac{2gh}{1 + I/MR^2}}$$, and travel time follows from $s = \\tfrac{1}{2}at^2$. No slipping means static friction, so mechanical energy is conserved."
+    },
+    {
+      "id": "toppling",
+      "label": "Toppling versus Sliding",
+      "group": "Toppling versus Sliding",
+      "depth": 1,
+      "note": "When a block tips over instead of sliding, set by geometry against friction. Decides the angle at which a block on an incline first gives way."
+    },
+    {
+      "id": "normal-migration",
+      "label": "Normal Reaction Migration",
+      "group": "Toppling versus Sliding",
+      "depth": 2,
+      "note": "As the incline steepens, the normal shifts toward the downhill edge: $$x = \\frac{h}{2}\\tan\\theta$$-style balance of torques. Toppling begins when the normal reaches the lower corner."
+    },
+    {
+      "id": "topple-vs-slide",
+      "label": "Toppling vs Sliding Criterion",
+      "group": "Toppling versus Sliding",
+      "depth": 2,
+      "note": "Sliding starts at $$\\tan\\theta = \\mu_s$$ while toppling starts at $$\\tan\\theta = \\frac{b}{h}$$ (base over height). The smaller of $\\mu_s$ and $b/h$ decides the failure mode."
+    },
+    {
+      "id": "traps",
+      "label": "High-Yield Traps",
+      "group": "High-Yield Traps",
+      "depth": 1,
+      "note": "Frequent exam pitfalls in rotational mechanics, gathered as quick diagnostics. Read after every problem for a one-line self-check."
+    },
+    {
+      "id": "trap-axis",
+      "label": "Axis Choice Trap",
+      "group": "High-Yield Traps",
+      "depth": 2,
+      "note": "Always write $\\tau = I\\alpha$ about an axis fixed in direction; for moving axes add the $M a_{cm} \\times r$ correction. Mixing axes between L and alpha silently breaks conservation arguments."
+    },
+    {
+      "id": "trap-moi-axis",
+      "label": "Moment of Inertia Axis Trap",
+      "group": "High-Yield Traps",
+      "depth": 2,
+      "note": "$I$ is always about a specified axis; quoting a single value without its axis is meaningless. Shift with $$I = I_{cm} + Md^2$$ only between parallel axes through the same orientation."
+    },
+    {
+      "id": "trap-rolling-energy",
+      "label": "Rolling Energy Trap",
+      "group": "High-Yield Traps",
+      "depth": 2,
+      "note": "In pure rolling on a fixed surface, static friction does no work, yet friction is essential to enforce $v = \\omega R$. Do not add a $f \\cdot s$ dissipation term."
+    }
+  ],
+  "edges": [
+    {
+      "source": "rotational-motion",
+      "target": "rigid-kinematics",
+      "label": "contains"
+    },
+    {
+      "source": "rigid-kinematics",
+      "target": "rigid-def",
+      "label": "contains"
+    },
+    {
+      "source": "rigid-kinematics",
+      "target": "omega-invariance",
+      "label": "contains"
+    },
+    {
+      "source": "rigid-kinematics",
+      "target": "rot-kinematics",
+      "label": "contains"
+    },
+    {
+      "source": "rigid-kinematics",
+      "target": "ang-displacement",
+      "label": "contains"
+    },
+    {
+      "source": "rigid-kinematics",
+      "target": "centripetal",
+      "label": "contains"
+    },
+    {
+      "source": "rigid-kinematics",
+      "target": "linear-rot-analogy",
+      "label": "contains"
+    },
+    {
+      "source": "rotational-motion",
+      "target": "moi",
+      "label": "contains"
+    },
+    {
+      "source": "moi",
+      "target": "moi-def",
+      "label": "contains"
+    },
+    {
+      "source": "moi",
+      "target": "parallel-axis",
+      "label": "contains"
+    },
+    {
+      "source": "moi",
+      "target": "perpendicular-axis",
+      "label": "contains"
+    },
+    {
+      "source": "moi",
+      "target": "standard-moi",
+      "label": "contains"
+    },
+    {
+      "source": "moi",
+      "target": "cavity-moi",
+      "label": "contains"
+    },
+    {
+      "source": "rotational-motion",
+      "target": "torque",
+      "label": "contains"
+    },
+    {
+      "source": "torque",
+      "target": "torque-def",
+      "label": "contains"
+    },
+    {
+      "source": "torque",
+      "target": "rot-second-law",
+      "label": "contains"
+    },
+    {
+      "source": "torque",
+      "target": "angular-impulse",
+      "label": "contains"
+    },
+    {
+      "source": "torque",
+      "target": "rot-ke",
+      "label": "contains"
+    },
+    {
+      "source": "torque",
+      "target": "couple",
+      "label": "contains"
+    },
+    {
+      "source": "torque",
+      "target": "yo-yo-unwind",
+      "label": "contains"
+    },
+    {
+      "source": "rotational-motion",
+      "target": "angular-momentum",
+      "label": "contains"
+    },
+    {
+      "source": "angular-momentum",
+      "target": "l-def",
+      "label": "contains"
+    },
+    {
+      "source": "angular-momentum",
+      "target": "l-conservation",
+      "label": "contains"
+    },
+    {
+      "source": "angular-momentum",
+      "target": "l-direction",
+      "label": "contains"
+    },
+    {
+      "source": "angular-momentum",
+      "target": "cue-strike",
+      "label": "contains"
+    },
+    {
+      "source": "rotational-motion",
+      "target": "rolling",
+      "label": "contains"
+    },
+    {
+      "source": "rolling",
+      "target": "koenig-ke",
+      "label": "contains"
+    },
+    {
+      "source": "rolling",
+      "target": "rolling-constraint",
+      "label": "contains"
+    },
+    {
+      "source": "rolling",
+      "target": "icor",
+      "label": "contains"
+    },
+    {
+      "source": "rolling",
+      "target": "incline-rolling",
+      "label": "contains"
+    },
+    {
+      "source": "incline-rolling",
+      "target": "incline-race",
+      "label": "contains"
+    },
+    {
+      "source": "incline-rolling",
+      "target": "incline-speed",
+      "label": "contains"
+    },
+    {
+      "source": "rotational-motion",
+      "target": "toppling",
+      "label": "contains"
+    },
+    {
+      "source": "toppling",
+      "target": "normal-migration",
+      "label": "contains"
+    },
+    {
+      "source": "toppling",
+      "target": "topple-vs-slide",
+      "label": "contains"
+    },
+    {
+      "source": "rotational-motion",
+      "target": "traps",
+      "label": "contains"
+    },
+    {
+      "source": "traps",
+      "target": "trap-axis",
+      "label": "contains"
+    },
+    {
+      "source": "traps",
+      "target": "trap-moi-axis",
+      "label": "contains"
+    },
+    {
+      "source": "traps",
+      "target": "trap-rolling-energy",
+      "label": "contains"
+    }
+  ]
+}

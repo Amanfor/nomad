@@ -1,0 +1,483 @@
+{
+  "title": "Trigonometry",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "trigonometry",
+      "label": "Trigonometry",
+      "group": "Trigonometry",
+      "depth": 0,
+      "note": "Ratios, allied angles, compound and multiple-angle formulas, triangle identities, equations, and height-distance applications. JEE tests formula recall under algebraic manipulation."
+    },
+    {
+      "id": "trig-ratios",
+      "label": "Trigonometric Ratios and Identities",
+      "group": "Trigonometric Ratios and Identities",
+      "depth": 1,
+      "note": "Definitions and the fundamental identities that everything else uses."
+    },
+    {
+      "id": "trig-ratios-def",
+      "label": "Six Ratios",
+      "group": "Trigonometric Ratios and Identities",
+      "depth": 2,
+      "note": "Sine, cosine, tangent and their reciprocals on a right triangle: $$\\sin \\theta = \\frac{opp}{hyp}, \\ \\cos \\theta = \\frac{adj}{hyp}, \\ \\tan \\theta = \\frac{opp}{adj}$$. The reciprocal pairings $csc = 1/sin$, $sec = 1/cos$, $cot = 1/tan$ complete the set."
+    },
+    {
+      "id": "trig-reciprocal",
+      "label": "Reciprocal Relations",
+      "group": "Trigonometric Ratios and Identities",
+      "depth": 2,
+      "note": "Cosecant, secant, and cotangent are reciprocals: $$\\csc \\theta = \\frac{1}{\\sin \\theta}, \\ \\sec \\theta = \\frac{1}{\\cos \\theta}, \\ \\cot \\theta = \\frac{1}{\\tan \\theta}$$. JEE options often hide reciprocal traps among near-identical choices."
+    },
+    {
+      "id": "trig-pythagorean",
+      "label": "Pythagorean Identities",
+      "group": "Trigonometric Ratios and Identities",
+      "depth": 2,
+      "note": "$$\\sin^2 \\theta + \\cos^2 \\theta = 1, \\ 1 + \\tan^2 \\theta = \\sec^2 \\theta, \\ 1 + \\cot^2 \\theta = \\csc^2 \\theta$$. Divide the first identity by $\\cos^2$ or $\\sin^2$ to get the other two."
+    },
+    {
+      "id": "trig-exact",
+      "label": "Standard Exact Values",
+      "group": "Trigonometric Ratios and Identities",
+      "depth": 2,
+      "note": "Key angles: $$\\sin 30^\\circ = \\frac{1}{2}, \\ \\cos 60^\\circ = \\frac{1}{2}, \\ \\tan 45^\\circ = 1$$. A memory table for $0^\\circ, 30^\\circ, 45^\\circ, 60^\\circ, 90^\\circ$ is non-negotiable."
+    },
+    {
+      "id": "trig-identities-use",
+      "label": "Identity Reduction",
+      "group": "Trigonometric Ratios and Identities",
+      "depth": 2,
+      "note": "Simplify compound expressions by rewriting in sine and cosine: e.g. $$\\tan \\theta + \\cot \\theta = \\frac{\\sin^2 \\theta + \\cos^2 \\theta}{\\sin \\theta \\cos \\theta} = \\frac{2}{\\sin 2\\theta}$$. JEE 'prove that' items demand this conversion."
+    },
+    {
+      "id": "trig-identity-example",
+      "label": "Example: Simplification",
+      "group": "Trigonometric Ratios and Identities",
+      "depth": 3,
+      "note": "$\\frac{\\sin \\theta}{1 - \\cos \\theta} = \\cot(\\theta/2)$ follows by multiplying numerator and denominator by $1 + \\cos \\theta$ and using $1 - \\cos^2 = \\sin^2$."
+    },
+    {
+      "id": "trig-allied",
+      "label": "Allied Angles and ASTC",
+      "group": "Allied Angles and ASTC",
+      "depth": 1,
+      "note": "Signs and reductions for angles in all quadrants."
+    },
+    {
+      "id": "trig-astc",
+      "label": "ASTC Rule",
+      "group": "Allied Angles and ASTC",
+      "depth": 2,
+      "note": "Quadrant signs: all positive in I, sine positive in II, tangent positive in III, cosine positive in IV. 'All Snakes Take Coffee' is the memory hook for which ratios are positive in each quadrant."
+    },
+    {
+      "id": "trig-reduction",
+      "label": "Allied Angle Reduction",
+      "group": "Allied Angles and ASTC",
+      "depth": 2,
+      "note": "Reduce any angle to a first-quadrant reference: $$\\sin(90^\\circ \\pm \\theta) = \\cos \\theta, \\ \\sin(180^\\circ \\pm \\theta) = \\mp \\sin \\theta$$. Sign from ASTC, cofunction swap for odd multiples of 90."
+    },
+    {
+      "id": "trig-allied-example",
+      "label": "Mini-Example: Reduction",
+      "group": "Allied Angles and ASTC",
+      "depth": 2,
+      "note": "$\\cos 150^\\circ = \\cos(180^\\circ - 30^\\circ) = -\\cos 30^\\circ = -\\frac{\\sqrt{3}}{2}$. Minutes of error in sign sink most JEE one-markers."
+    },
+    {
+      "id": "trig-compound",
+      "label": "Compound Angles",
+      "group": "Compound Angles",
+      "depth": 1,
+      "note": "Sum and difference formulas plus product-to-sum conversions."
+    },
+    {
+      "id": "trig-add-sub",
+      "label": "Addition and Subtraction",
+      "group": "Compound Angles",
+      "depth": 2,
+      "note": "$$\\sin(A \\pm B) = \\sin A \\cos B \\pm \\cos A \\sin B$$ $$\\cos(A \\pm B) = \\cos A \\cos B \\mp \\sin A \\sin B$$ $$\\tan(A \\pm B) = \\frac{\\tan A \\pm \\tan B}{1 \\mp \\tan A \\tan B}$$. Every compound-angle JEE item starts here."
+    },
+    {
+      "id": "trig-sum-product",
+      "label": "Sum-to-Product (C and D) Formulas",
+      "group": "Compound Angles",
+      "depth": 2,
+      "note": "$$\\sin C + \\sin D = 2 \\sin \\frac{C+D}{2} \\cos \\frac{C-D}{2}$$ and similarly for $\\sin C - \\sin D$, $\\cos C \\pm \\cos D$. Factoring sums is how trig series telescoped in JEE."
+    },
+    {
+      "id": "trig-product-sum",
+      "label": "Product-to-Sum Formulas",
+      "group": "Compound Angles",
+      "depth": 2,
+      "note": "$$2\\sin A \\cos B = \\sin(A+B) + \\sin(A-B)$$ $$2\\cos A \\cos B = \\cos(A+B) + \\cos(A-B)$$. Multiplication terms collapse into sums, easing integration-style algebra."
+    },
+    {
+      "id": "trig-multiple",
+      "label": "Multiple and Sub-Multiple Angles",
+      "group": "Multiple and Sub-Multiple Angles",
+      "depth": 1,
+      "note": "Double, triple, and half-angle relations plus special products."
+    },
+    {
+      "id": "trig-double",
+      "label": "Double Angle Relations",
+      "group": "Multiple and Sub-Multiple Angles",
+      "depth": 2,
+      "note": "$$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta, \\ \\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta, \\ \\tan 2\\theta = \\frac{2\\tan\\theta}{1 - \\tan^2\\theta}$$. Half-angle forms come from reversing them."
+    },
+    {
+      "id": "trig-triple",
+      "label": "Triple Angle Relations",
+      "group": "Multiple and Sub-Multiple Angles",
+      "depth": 2,
+      "note": "$$\\sin 3\\theta = 3\\sin\\theta - 4\\sin^3\\theta, \\ \\cos 3\\theta = 4\\cos^3\\theta - 3\\cos\\theta$$. Factor these as cubics in $\\sin$ or $\\cos$ for equations."
+    },
+    {
+      "id": "trig-triplet",
+      "label": "Symmetrical Triplet Product",
+      "group": "Multiple and Sub-Multiple Angles",
+      "depth": 2,
+      "note": "$$\\cos\\theta \\cos(60^\\circ - \\theta)\\cos(60^\\circ + \\theta) = \\frac{1}{4}\\cos 3\\theta$$. A frequently regurgitated JEE identity for max-min on trig products."
+    },
+    {
+      "id": "trig-substitution",
+      "label": "Half-Angle Substitutions",
+      "group": "Multiple and Sub-Multiple Angles",
+      "depth": 2,
+      "note": "$$\\sin \\theta = \\frac{2t}{1+t^2}, \\ \\cos \\theta = \\frac{1-t^2}{1+t^2}, \\ t = \\tan(\\theta/2)$$. The t-substitution rationalizes trig equations."
+    },
+    {
+      "id": "trig-triangle",
+      "label": "Conditional Identities in a Triangle",
+      "group": "Conditional Identities in a Triangle",
+      "depth": 1,
+      "note": "When $A + B + C = \\pi$, special relations between the angles appear."
+    },
+    {
+      "id": "trig-linear-cond",
+      "label": "Linear Conditional Identity",
+      "group": "Conditional Identities in a Triangle",
+      "depth": 2,
+      "note": "If $A + B + C = \\pi$: $$\\sin A + \\sin B + \\sin C = 4\\cos\\frac{A}{2}\\cos\\frac{B}{2}\\cos\\frac{C}{2}$$. Sum-to-product on two terms starts the proof."
+    },
+    {
+      "id": "trig-tan-cond",
+      "label": "Tangent Conditional Identity",
+      "group": "Conditional Identities in a Triangle",
+      "depth": 2,
+      "note": "In a triangle: $$\\tan A + \\tan B + \\tan C = \\tan A \\tan B \\tan C$$. Also $\\tan\\frac{A}{2}\\tan\\frac{B}{2} + \\tan\\frac{B}{2}\\tan\\frac{C}{2} + \\tan\\frac{C}{2}\\tan\\frac{A}{2} = 1$."
+    },
+    {
+      "id": "trig-half-angle-tri",
+      "label": "Cosine Conditional Identity",
+      "group": "Conditional Identities in a Triangle",
+      "depth": 2,
+      "note": "In a triangle: $$\\cos A + \\cos B + \\cos C = 1 + 4\\sin\\frac{A}{2}\\sin\\frac{B}{2}\\sin\\frac{C}{2}$$. This converts a cosine sum into a product of half-angle sines."
+    },
+    {
+      "id": "trig-equations",
+      "label": "Trigonometric Equations",
+      "group": "Trigonometric Equations",
+      "depth": 1,
+      "note": "General solutions and the linear-equation trick."
+    },
+    {
+      "id": "trig-general",
+      "label": "Standard General Solutions",
+      "group": "Trigonometric Equations",
+      "depth": 2,
+      "note": "$$\\sin \\theta = \\sin \\alpha \\Rightarrow \\theta = n\\pi + (-1)^n \\alpha$$ $$\\cos \\theta = \\cos \\alpha \\Rightarrow \\theta = 2n\\pi \\pm \\alpha$$ $$\\tan \\theta = \\tan \\alpha \\Rightarrow \\theta = n\\pi + \\alpha$$. All n are integers."
+    },
+    {
+      "id": "trig-linear-eq",
+      "label": "Linear Equation a cos + b sin = c",
+      "group": "Trigonometric Equations",
+      "depth": 2,
+      "note": "Divide by $\\sqrt{a^2+b^2}$ and write as $\\cos(\\theta - \\alpha) = c/\\sqrt{a^2+b^2}$ where $\\tan \\alpha = b/a$. Solvability needs $|c| \\le \\sqrt{a^2+b^2}$."
+    },
+    {
+      "id": "trig-cofunction",
+      "label": "Cofunction Identities",
+      "group": "Trigonometric Equations",
+      "depth": 2,
+      "note": "Complementary angles swap sine and cosine: $$\\sin\\left(\\frac{\\pi}{2} - \\theta\\right) = \\cos \\theta, \\ \\tan\\left(\\frac{\\pi}{2} - \\theta\\right) = \\cot \\theta$$. Used when two angles in a problem sum to $\\pi/2$."
+    },
+    {
+      "id": "trig-equation-example",
+      "label": "Example: General Solution",
+      "group": "Trigonometric Equations",
+      "depth": 2,
+      "note": "$\\sin 2\\theta = \\sin \\theta$ gives $2\\theta = n\\pi + (-1)^n \\theta$, splitting into $\\theta = 2n\\pi/3$ or $\\theta = \\pi + 2n\\pi$."
+    },
+    {
+      "id": "trig-height",
+      "label": "Height and Distance",
+      "group": "Height and Distance",
+      "depth": 1,
+      "note": "Angles of elevation and depression with sine and cosine rules."
+    },
+    {
+      "id": "trig-elevation",
+      "label": "Angle of Elevation",
+      "group": "Height and Distance",
+      "depth": 2,
+      "note": "The angle between the horizontal and the line of sight to an object above. With height h and base distance d: $$\\tan \\alpha = \\frac{h}{d}$$. Theodolite problems always start with a right triangle."
+    },
+    {
+      "id": "trig-depression",
+      "label": "Angle of Depression",
+      "group": "Height and Distance",
+      "depth": 2,
+      "note": "The angle between the horizontal and the line of sight to an object below. By alternate interior angles, depression from A to B equals elevation from B to A."
+    },
+    {
+      "id": "trig-height-example",
+      "label": "Example: Tower and Shadow",
+      "group": "Height and Distance",
+      "depth": 3,
+      "note": "A tower casts a shadow of length 20 m at elevation $60^\\circ$: $h = 20 \\tan 60^\\circ = 20\\sqrt{3}$ m."
+    },
+    {
+      "id": "trig-sine-cosine-tri",
+      "label": "Sine and Cosine Rules in Triangulation",
+      "group": "Height and Distance",
+      "depth": 2,
+      "note": "For oblique triangles: $$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R$$ and $$c^2 = a^2 + b^2 - 2ab\\cos C$$. Use when the pole leans or the two stations are not level."
+    },
+    {
+      "id": "trig-maxmin",
+      "label": "Max-Min and Series",
+      "group": "Max-Min and Series",
+      "depth": 1,
+      "note": "Boundedness of trig expressions and arithmetic-angle series."
+    },
+    {
+      "id": "trig-linear-max",
+      "label": "Max of a sin + b cos",
+      "group": "Max-Min and Series",
+      "depth": 2,
+      "note": "$$a\\sin\\theta + b\\cos\\theta \\in [-\\sqrt{a^2+b^2}, \\ \\sqrt{a^2+b^2}]$$. This single bound answers most 'range of expression' questions."
+    },
+    {
+      "id": "trig-quadratic-form",
+      "label": "Quadratic Trig Forms",
+      "group": "Max-Min and Series",
+      "depth": 2,
+      "note": "Rewrite $a\\sin^2\\theta + b\\sin\\theta\\cos\\theta + c\\cos^2\\theta$ using double-angle identities to separate a constant and a single $\\sin 2\\theta / \\cos 2\\theta$ term."
+    },
+    {
+      "id": "trig-maxmin-example",
+      "label": "Example: Range via Bound",
+      "group": "Max-Min and Series",
+      "depth": 2,
+      "note": "The range of $f(\\theta) = 3\\sin\\theta + 4\\cos\\theta$ is $[-5, 5]$ since $\\sqrt{3^2 + 4^2} = 5$, so no solving of the equation is needed."
+    },
+    {
+      "id": "trig-series",
+      "label": "Sine and Cosine Series in AP",
+      "group": "Max-Min and Series",
+      "depth": 2,
+      "note": "$$\\sum_{k=0}^{n-1} \\sin(a + kd) = \\frac{\\sin(nd/2)}{\\sin(d/2)} \\sin\\left(a + \\frac{(n-1)d}{2}\\right)$$. Multiply and divide by $2\\sin(d/2)$ to get a telescoping product-to-sum series."
+    }
+  ],
+  "edges": [
+    {
+      "source": "trigonometry",
+      "target": "trig-ratios",
+      "label": "contains"
+    },
+    {
+      "source": "trig-ratios",
+      "target": "trig-ratios-def",
+      "label": "contains"
+    },
+    {
+      "source": "trig-ratios",
+      "target": "trig-reciprocal",
+      "label": "contains"
+    },
+    {
+      "source": "trig-ratios",
+      "target": "trig-pythagorean",
+      "label": "contains"
+    },
+    {
+      "source": "trig-ratios",
+      "target": "trig-exact",
+      "label": "contains"
+    },
+    {
+      "source": "trig-ratios",
+      "target": "trig-identities-use",
+      "label": "contains"
+    },
+    {
+      "source": "trig-identities-use",
+      "target": "trig-identity-example",
+      "label": "contains"
+    },
+    {
+      "source": "trigonometry",
+      "target": "trig-allied",
+      "label": "contains"
+    },
+    {
+      "source": "trig-allied",
+      "target": "trig-astc",
+      "label": "contains"
+    },
+    {
+      "source": "trig-allied",
+      "target": "trig-reduction",
+      "label": "contains"
+    },
+    {
+      "source": "trig-allied",
+      "target": "trig-allied-example",
+      "label": "contains"
+    },
+    {
+      "source": "trigonometry",
+      "target": "trig-compound",
+      "label": "contains"
+    },
+    {
+      "source": "trig-compound",
+      "target": "trig-add-sub",
+      "label": "contains"
+    },
+    {
+      "source": "trig-compound",
+      "target": "trig-sum-product",
+      "label": "contains"
+    },
+    {
+      "source": "trig-compound",
+      "target": "trig-product-sum",
+      "label": "contains"
+    },
+    {
+      "source": "trigonometry",
+      "target": "trig-multiple",
+      "label": "contains"
+    },
+    {
+      "source": "trig-multiple",
+      "target": "trig-double",
+      "label": "contains"
+    },
+    {
+      "source": "trig-multiple",
+      "target": "trig-triple",
+      "label": "contains"
+    },
+    {
+      "source": "trig-multiple",
+      "target": "trig-triplet",
+      "label": "contains"
+    },
+    {
+      "source": "trig-multiple",
+      "target": "trig-substitution",
+      "label": "contains"
+    },
+    {
+      "source": "trigonometry",
+      "target": "trig-triangle",
+      "label": "contains"
+    },
+    {
+      "source": "trig-triangle",
+      "target": "trig-linear-cond",
+      "label": "contains"
+    },
+    {
+      "source": "trig-triangle",
+      "target": "trig-tan-cond",
+      "label": "contains"
+    },
+    {
+      "source": "trig-triangle",
+      "target": "trig-half-angle-tri",
+      "label": "contains"
+    },
+    {
+      "source": "trigonometry",
+      "target": "trig-equations",
+      "label": "contains"
+    },
+    {
+      "source": "trig-equations",
+      "target": "trig-general",
+      "label": "contains"
+    },
+    {
+      "source": "trig-equations",
+      "target": "trig-linear-eq",
+      "label": "contains"
+    },
+    {
+      "source": "trig-equations",
+      "target": "trig-cofunction",
+      "label": "contains"
+    },
+    {
+      "source": "trig-equations",
+      "target": "trig-equation-example",
+      "label": "contains"
+    },
+    {
+      "source": "trigonometry",
+      "target": "trig-height",
+      "label": "contains"
+    },
+    {
+      "source": "trig-height",
+      "target": "trig-elevation",
+      "label": "contains"
+    },
+    {
+      "source": "trig-height",
+      "target": "trig-depression",
+      "label": "contains"
+    },
+    {
+      "source": "trig-depression",
+      "target": "trig-height-example",
+      "label": "contains"
+    },
+    {
+      "source": "trig-height",
+      "target": "trig-sine-cosine-tri",
+      "label": "contains"
+    },
+    {
+      "source": "trigonometry",
+      "target": "trig-maxmin",
+      "label": "contains"
+    },
+    {
+      "source": "trig-maxmin",
+      "target": "trig-linear-max",
+      "label": "contains"
+    },
+    {
+      "source": "trig-maxmin",
+      "target": "trig-quadratic-form",
+      "label": "contains"
+    },
+    {
+      "source": "trig-maxmin",
+      "target": "trig-maxmin-example",
+      "label": "contains"
+    },
+    {
+      "source": "trig-maxmin",
+      "target": "trig-series",
+      "label": "contains"
+    }
+  ]
+}

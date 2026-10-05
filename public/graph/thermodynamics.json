@@ -1,0 +1,543 @@
+{
+  "title": "Thermodynamics",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "thermodynamics",
+      "label": "Thermodynamics",
+      "group": "Thermodynamics",
+      "depth": 0,
+      "note": "Thermodynamics links heat, work, and internal energy, with calorimetry and change of state as its working tools. The core accounting identity is the first law: $$\\Delta U = Q - W$$."
+    },
+    {
+      "id": "th-heat-cal",
+      "label": "Heat and Calorimetry",
+      "group": "Heat and Calorimetry",
+      "depth": 1,
+      "note": "Heat is energy in transit; calorimetry measures it. The working relation is $$Q = mc\\Delta T$$ for a temperature change without phase change."
+    },
+    {
+      "id": "th-mechanical-equiv",
+      "label": "Mechanical Equivalent of Heat",
+      "group": "Heat and Calorimetry",
+      "depth": 2,
+      "note": "Joule's paddle-wheel experiment fixed the conversion between work and heat: $$W = JQ, \\ J = 4.2\\ \\text{J}/\\text{cal}$$. It unified mechanical and thermal energy."
+    },
+    {
+      "id": "th-specific-heat",
+      "label": "Specific Heat Capacity",
+      "group": "Heat and Calorimetry",
+      "depth": 2,
+      "note": "Heat needed to raise unit mass by one degree: $$Q = mc\\Delta T$$. Water's high specific heat $c = 4186\\ \\text{J}/\\text{kg}\\cdot\\text{K}$ makes it a thermal buffer in nature and exam tricks."
+    },
+    {
+      "id": "th-thermal-capacity",
+      "label": "Thermal Capacity and Molar Heat",
+      "group": "Heat and Calorimetry",
+      "depth": 2,
+      "note": "Thermal capacity of a body is $C = mc$, and molar heat capacity is $$C_m = \\frac{Q}{n\\Delta T}$$. The solid-liquid distinction appears when comparing $C_V$ and $C_P$ for gases."
+    },
+    {
+      "id": "th-calorimetry",
+      "label": "Principle of Calorimetry",
+      "group": "Heat and Calorimetry",
+      "depth": 2,
+      "note": "In an isolated system the heat lost by hot bodies equals heat gained by cold bodies: $$\\sum Q_{\\text{lost}} = \\sum Q_{\\text{gained}}$$. Mixing problems are solved by this single balance equation."
+    },
+    {
+      "id": "th-calorimeter",
+      "label": "Water Equivalent of Calorimeter",
+      "group": "Heat and Calorimetry",
+      "depth": 2,
+      "note": "A calorimeter absorbs heat like an equivalent mass of water: $$(m_1c_1 + W)\\Delta T_1 = m_2c_2\\Delta T_2$$. Omitting water equivalent is the most common JEE calorimetry error."
+    },
+    {
+      "id": "th-mixing",
+      "label": "Calorimetry Mixing Algorithm",
+      "group": "Heat and Calorimetry",
+      "depth": 2,
+      "note": "For a hot body in cold water: $$m_h c_h (T_h - T_f) = m_c c_c (T_f - T_c)$$. Solve iteratively when ice is present by first checking whether all ice melts."
+    },
+    {
+      "id": "th-ice-check",
+      "label": "Ice-Water Mixture Check",
+      "group": "Heat and Calorimetry",
+      "depth": 2,
+      "note": "Before mixing, compare heat needed to melt all ice, $$Q_{melt} = m_{ice}L_f$$, with heat available from cooling water. The comparison decides whether the final state is all-liquid or a mixture at $0^\\circ\\text{C}$."
+    },
+    {
+      "id": "th-state",
+      "label": "Change of State",
+      "group": "Change of State",
+      "depth": 1,
+      "note": "Phase changes absorb latent heat at constant temperature: $$Q = mL$$, where $L$ is the latent heat of fusion or vaporisation."
+    },
+    {
+      "id": "th-latent",
+      "label": "Latent Heat",
+      "group": "Change of State",
+      "depth": 2,
+      "note": "Latent heat of fusion for ice is about $3.34 \\times 10^5\\ \\text{J}/\\text{kg}$: $$Q = mL_f$$. During $L_f$ transfer the temperature stays pinned at $0^\\circ\\text{C}$."
+    },
+    {
+      "id": "th-heating-curve",
+      "label": "Heating Curve Analysis",
+      "group": "Change of State",
+      "depth": 2,
+      "note": "On a temperature vs heat graph, sloped parts follow $Q = mc\\Delta T$ and flat plateaus follow $Q = mL$. The slope inverts between solid, liquid, and gas because the $c$ values differ."
+    },
+    {
+      "id": "th-regelation",
+      "label": "Regelation and Melting Point",
+      "group": "Change of State",
+      "depth": 2,
+      "note": "Pressure lowers the melting point of ice (anomalous), enabling regelation: $$\\frac{dT}{dP} = \\frac{T(V_l - V_s)}{L}$$. The negative sign of $V_l - V_s$ for ice is the entire physics."
+    },
+    {
+      "id": "th-sublimation",
+      "label": "Sublimation",
+      "group": "Change of State",
+      "depth": 2,
+      "note": "Solids passing directly to vapour absorb latent heat of sublimation: $$Q = mL_s, \\ L_s = L_f + L_v$$. Dry ice and camphor are textbook cases."
+    },
+    {
+      "id": "th-triple-point",
+      "label": "Triple Point of Water",
+      "group": "Change of State",
+      "depth": 2,
+      "note": "The unique $(T, P)$ where solid, liquid, and vapour coexist: $$T = 273.16\\ \\text{K}, \\ P = 611.657\\ \\text{Pa}$$. It defines the kelvin."
+    },
+    {
+      "id": "th-exp",
+      "label": "Thermal Expansion",
+      "group": "Thermal Expansion",
+      "depth": 1,
+      "note": "Solids, liquids, and gases expand on heating; linear expansion is $$\\Delta L = L_0 \\alpha \\Delta T$$."
+    },
+    {
+      "id": "th-linear",
+      "label": "Linear Expansion",
+      "group": "Thermal Expansion",
+      "depth": 2,
+      "note": "Fractional length change is linear in temperature: $$\\frac{\\Delta L}{L_0} = \\alpha \\Delta T$$. The coefficient $\\alpha$ differs by material and sets bimetallic behavior."
+    },
+    {
+      "id": "th-volumetric",
+      "label": "Superficial and Volumetric Expansion",
+      "group": "Thermal Expansion",
+      "depth": 2,
+      "note": "For isotropic solids, area and volume coefficients relate as $$\\beta \\approx 2\\alpha, \\ \\gamma \\approx 3\\alpha$$. Liquids are quoted by $\\gamma$ since only volume matters."
+    },
+    {
+      "id": "th-bimetal",
+      "label": "Bimetallic Strip",
+      "group": "Thermal Expansion",
+      "depth": 2,
+      "note": "Two bonded strips bend toward the lower-$\\alpha$ side on heating: $$\\Delta L_{rel} = (\\alpha_2 - \\alpha_1)L_0\\Delta T$$. This differential expansion drives thermostat switches."
+    },
+    {
+      "id": "th-stress",
+      "label": "Thermal Stress in Clamped Rods",
+      "group": "Thermal Expansion",
+      "depth": 2,
+      "note": "A rod prevented from expanding develops compressive stress: $$\\sigma = Y\\alpha\\Delta T$$, with force $F = YA\\alpha\\Delta T$. It is why bridges have expansion joints."
+    },
+    {
+      "id": "th-water-anomaly",
+      "label": "Anomalous Expansion of Water",
+      "group": "Thermal Expansion",
+      "depth": 2,
+      "note": "Water contracts from $0^\\circ\\text{C}$ to $4^\\circ\\text{C}$ and is densest at $4^\\circ\\text{C}$. Density variation follows $$\\rho(T) \\approx \\rho_0[1 - \\gamma (T - 4)]$$ in that window."
+    },
+    {
+      "id": "th-real-apparent",
+      "label": "Real vs Apparent Expansion of Liquids",
+      "group": "Thermal Expansion",
+      "depth": 2,
+      "note": "A liquid in a vessel expands apparently because the vessel expands too: $$\\gamma_{real} = \\gamma_{app} + \\gamma_{vessel}$$. Overflow method problems use exactly this bookkeeping."
+    },
+    {
+      "id": "th-density-temp",
+      "label": "Density Variation with Temperature",
+      "group": "Thermal Expansion",
+      "depth": 2,
+      "note": "$$\\rho_T = \\frac{\\rho_0}{1 + \\gamma \\Delta T} \\approx \\rho_0(1 - \\gamma \\Delta T)$$. Mass is conserved during thermal expansion, so density falls."
+    },
+    {
+      "id": "th-laws",
+      "label": "Laws of Thermodynamics",
+      "group": "Laws of Thermodynamics",
+      "depth": 1,
+      "note": "The laws define temperature, constrain energy conversion, and forbid perfect engines. The first law is an energy ledger: $$\\Delta U = Q - W$$."
+    },
+    {
+      "id": "th-zeroth",
+      "label": "Zeroth Law and Temperature",
+      "group": "Laws of Thermodynamics",
+      "depth": 2,
+      "note": "If A and B are each in thermal equilibrium with C, then A and C are at equal temperature: symmetry and transitivity of equilibrium. Temperature is the only state function this defines."
+    },
+    {
+      "id": "th-first",
+      "label": "First Law of Thermodynamics",
+      "group": "Laws of Thermodynamics",
+      "depth": 2,
+      "note": "$$\\Delta U = Q - W$$, with $W$ the work done by the gas and $\\Delta U$ depending only on endpoints: $$W = \\int P\\,dV$$. Sign conventions flip $W$ in chemistry texts."
+    },
+    {
+      "id": "th-internal",
+      "label": "Internal Energy of an Ideal Gas",
+      "group": "Laws of Thermodynamics",
+      "depth": 2,
+      "note": "Internal energy is kinetic only, hence temperature-only for an ideal gas: $$U = \\frac{f}{2}nRT$$. This is why isothermal ideal-gas processes have $\\Delta U = 0$."
+    },
+    {
+      "id": "th-second",
+      "label": "Second Law Statements",
+      "group": "Laws of Thermodynamics",
+      "depth": 2,
+      "note": "Kelvin-Planck: no engine converts heat from a single reservoir fully into work. Clausius: heat cannot flow spontaneously from cold to hot. Both imply entropy increases: $$\\Delta S_{univ} \\ge 0$$."
+    },
+    {
+      "id": "th-processes",
+      "label": "Thermodynamic Processes",
+      "group": "Thermodynamic Processes",
+      "depth": 1,
+      "note": "Each canonical process pins one variable or constraint, simplifying the first law. For a polytropic change $$PV^x = \\text{constant}$$."
+    },
+    {
+      "id": "th-isochoric",
+      "label": "Isochoric Process",
+      "group": "Thermodynamic Processes",
+      "depth": 2,
+      "note": "Constant volume gives $W = 0$, so all heat changes internal energy: $$Q = \\Delta U = nC_V\\Delta T$$. On a P-V diagram it is a vertical line."
+    },
+    {
+      "id": "th-isobaric",
+      "label": "Isobaric Process",
+      "group": "Thermodynamic Processes",
+      "depth": 2,
+      "note": "At constant pressure, work is $$W = P\\Delta V = nR\\Delta T$$ and heat absorbed is $$Q = nC_P\\Delta T$$. The gap $C_P - C_V = R$ measures expansion work."
+    },
+    {
+      "id": "th-isothermal",
+      "label": "Isothermal Process",
+      "group": "Thermodynamic Processes",
+      "depth": 2,
+      "note": "For an ideal gas at constant $T$, $\\Delta U = 0$ and $$W = nRT\\ln\\frac{V_2}{V_1}$$. The P-V curve is a rectangular hyperbola $PV = $ const."
+    },
+    {
+      "id": "th-adiabatic",
+      "label": "Adiabatic Process",
+      "group": "Thermodynamic Processes",
+      "depth": 2,
+      "note": "With $Q = 0$, the gas obeys $$PV^\\gamma = \\text{constant}, \\ T V^{\\gamma - 1} = \\text{constant}$$ and $W = \\frac{P_1V_1 - P_2V_2}{\\gamma - 1}$. Compression heats the gas rapidly."
+    },
+    {
+      "id": "th-free-expansion",
+      "label": "Free Expansion",
+      "group": "Thermodynamic Processes",
+      "depth": 2,
+      "note": "An ideal gas expanding into vacuum does no work and exchanges no heat, so $$\\Delta U = 0, \\ \\Delta T = 0$$. Entropy still rises: $$\\Delta S = nR\\ln\\frac{V_2}{V_1}$$."
+    },
+    {
+      "id": "th-pv-diagrams",
+      "label": "Work on P-V, V-T, P-T Diagrams",
+      "group": "Thermodynamic Processes",
+      "depth": 2,
+      "note": "Work equals the enclosed area in a cyclic process: $$W_{cycle} = \\oint P\\,dV$$. Clockwise cycles output positive net work."
+    },
+    {
+      "id": "th-gamma-roles",
+      "label": "Role of Gamma in Adiabatics",
+      "group": "Thermodynamic Processes",
+      "depth": 2,
+      "note": "Steeper adiabats on a P-V plot follow $$P \\propto V^{-\\gamma}$$ with $\\gamma > 1$. The isotherm is $PV = \\text{const}$, noticeably flatter."
+    },
+    {
+      "id": "th-engines",
+      "label": "Heat Engines and Entropy",
+      "group": "Heat Engines and Entropy",
+      "depth": 1,
+      "note": "Engines convert heat between reservoirs with bounded efficiency. Carnot sets the ceiling: $$\\eta_{max} = 1 - \\frac{T_2}{T_1}$$."
+    },
+    {
+      "id": "th-efficiency",
+      "label": "Heat Engine Efficiency",
+      "group": "Heat Engines and Entropy",
+      "depth": 2,
+      "note": "Efficiency is work output over heat input: $$\\eta = \\frac{W}{Q_1} = 1 - \\frac{Q_2}{Q_1}$$. Real engines underperform Carnot because of friction and finite-rate heat flow."
+    },
+    {
+      "id": "th-carnot",
+      "label": "Carnot Cycle",
+      "group": "Heat Engines and Entropy",
+      "depth": 2,
+      "note": "Two isotherms and two adiabatics give the reversible benchmark: $$\\eta = 1 - \\frac{T_2}{T_1}$$. Kelvin temperatures must be used, so $T_2 < T_1$ always."
+    },
+    {
+      "id": "th-entropy",
+      "label": "Entropy and Clausius Inequality",
+      "group": "Heat Engines and Entropy",
+      "depth": 2,
+      "note": "Entropy change for a reversible path is $$\\Delta S = \\int \\frac{dQ_{rev}}{T}$$, and for any cycle $$\\oint \\frac{dQ}{T} \\le 0$$. Free expansion of a gas creates entropy with no heat transfer at all."
+    },
+    {
+      "id": "th-fridge",
+      "label": "Refrigerator and Heat Pump",
+      "group": "Heat Engines and Entropy",
+      "depth": 2,
+      "note": "A reversed engine moves heat from cold to hot using work: $$K_{fridge} = \\frac{Q_2}{W} = \\frac{T_2}{T_1 - T_2}$$. Heat pump COP exceeds 1 because it delivers $Q_1 = Q_2 + W$."
+    },
+    {
+      "id": "th-transfer",
+      "label": "Heat Transfer",
+      "group": "Heat Transfer",
+      "depth": 1,
+      "note": "Heat moves by conduction, convection, and radiation. Conduction through a slab follows Fourier's law: $$\\frac{dQ}{dt} = -kA\\frac{dT}{dx}$$."
+    },
+    {
+      "id": "th-conduction",
+      "label": "Conduction and Thermal Resistance",
+      "group": "Heat Transfer",
+      "depth": 2,
+      "note": "In series, resistances add; in parallel, conductances add: $$R_{th} = \\frac{x}{kA}, \\ R_{eq} = R_1 + R_2$$. Composite-wall JEE problems are resistor problems in disguise."
+    },
+    {
+      "id": "th-newton-cooling",
+      "label": "Newton's Law of Cooling",
+      "group": "Heat Transfer",
+      "depth": 2,
+      "note": "Cooling rate is proportional to the excess temperature: $$\\frac{dT}{dt} = -k(T - T_0)$$. Integrating gives exponential approach to ambient."
+    },
+    {
+      "id": "th-radiation",
+      "label": "Stefan-Boltzmann Radiation",
+      "group": "Heat Transfer",
+      "depth": 2,
+      "note": "Radiated power scales as the fourth power of absolute temperature: $$P = \\sigma e A T^4, \\ \\sigma = 5.67 \\times 10^{-8}\\ \\text{W}/\\text{m}^2\\text{K}^4$$. Net exchange uses $T^4 - T_0^4$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "thermodynamics",
+      "target": "th-heat-cal",
+      "label": "contains"
+    },
+    {
+      "source": "th-heat-cal",
+      "target": "th-mechanical-equiv",
+      "label": "contains"
+    },
+    {
+      "source": "th-heat-cal",
+      "target": "th-specific-heat",
+      "label": "contains"
+    },
+    {
+      "source": "th-heat-cal",
+      "target": "th-thermal-capacity",
+      "label": "contains"
+    },
+    {
+      "source": "th-heat-cal",
+      "target": "th-calorimetry",
+      "label": "contains"
+    },
+    {
+      "source": "th-heat-cal",
+      "target": "th-calorimeter",
+      "label": "contains"
+    },
+    {
+      "source": "th-heat-cal",
+      "target": "th-mixing",
+      "label": "contains"
+    },
+    {
+      "source": "th-heat-cal",
+      "target": "th-ice-check",
+      "label": "contains"
+    },
+    {
+      "source": "thermodynamics",
+      "target": "th-state",
+      "label": "contains"
+    },
+    {
+      "source": "th-state",
+      "target": "th-latent",
+      "label": "contains"
+    },
+    {
+      "source": "th-state",
+      "target": "th-heating-curve",
+      "label": "contains"
+    },
+    {
+      "source": "th-state",
+      "target": "th-regelation",
+      "label": "contains"
+    },
+    {
+      "source": "th-state",
+      "target": "th-sublimation",
+      "label": "contains"
+    },
+    {
+      "source": "th-state",
+      "target": "th-triple-point",
+      "label": "contains"
+    },
+    {
+      "source": "thermodynamics",
+      "target": "th-exp",
+      "label": "contains"
+    },
+    {
+      "source": "th-exp",
+      "target": "th-linear",
+      "label": "contains"
+    },
+    {
+      "source": "th-exp",
+      "target": "th-volumetric",
+      "label": "contains"
+    },
+    {
+      "source": "th-exp",
+      "target": "th-bimetal",
+      "label": "contains"
+    },
+    {
+      "source": "th-exp",
+      "target": "th-stress",
+      "label": "contains"
+    },
+    {
+      "source": "th-exp",
+      "target": "th-water-anomaly",
+      "label": "contains"
+    },
+    {
+      "source": "th-exp",
+      "target": "th-real-apparent",
+      "label": "contains"
+    },
+    {
+      "source": "th-exp",
+      "target": "th-density-temp",
+      "label": "contains"
+    },
+    {
+      "source": "thermodynamics",
+      "target": "th-laws",
+      "label": "contains"
+    },
+    {
+      "source": "th-laws",
+      "target": "th-zeroth",
+      "label": "contains"
+    },
+    {
+      "source": "th-laws",
+      "target": "th-first",
+      "label": "contains"
+    },
+    {
+      "source": "th-laws",
+      "target": "th-internal",
+      "label": "contains"
+    },
+    {
+      "source": "th-laws",
+      "target": "th-second",
+      "label": "contains"
+    },
+    {
+      "source": "thermodynamics",
+      "target": "th-processes",
+      "label": "contains"
+    },
+    {
+      "source": "th-processes",
+      "target": "th-isochoric",
+      "label": "contains"
+    },
+    {
+      "source": "th-processes",
+      "target": "th-isobaric",
+      "label": "contains"
+    },
+    {
+      "source": "th-processes",
+      "target": "th-isothermal",
+      "label": "contains"
+    },
+    {
+      "source": "th-processes",
+      "target": "th-adiabatic",
+      "label": "contains"
+    },
+    {
+      "source": "th-processes",
+      "target": "th-free-expansion",
+      "label": "contains"
+    },
+    {
+      "source": "th-processes",
+      "target": "th-pv-diagrams",
+      "label": "contains"
+    },
+    {
+      "source": "th-processes",
+      "target": "th-gamma-roles",
+      "label": "contains"
+    },
+    {
+      "source": "thermodynamics",
+      "target": "th-engines",
+      "label": "contains"
+    },
+    {
+      "source": "th-engines",
+      "target": "th-efficiency",
+      "label": "contains"
+    },
+    {
+      "source": "th-engines",
+      "target": "th-carnot",
+      "label": "contains"
+    },
+    {
+      "source": "th-engines",
+      "target": "th-entropy",
+      "label": "contains"
+    },
+    {
+      "source": "th-engines",
+      "target": "th-fridge",
+      "label": "contains"
+    },
+    {
+      "source": "thermodynamics",
+      "target": "th-transfer",
+      "label": "contains"
+    },
+    {
+      "source": "th-transfer",
+      "target": "th-conduction",
+      "label": "contains"
+    },
+    {
+      "source": "th-transfer",
+      "target": "th-newton-cooling",
+      "label": "contains"
+    },
+    {
+      "source": "th-transfer",
+      "target": "th-radiation",
+      "label": "contains"
+    }
+  ]
+}

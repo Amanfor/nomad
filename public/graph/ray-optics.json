@@ -1,0 +1,359 @@
+{
+  "title": "Ray Optics and Optical Instruments",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "ray-optics",
+      "label": "Ray Optics and Optical Instruments",
+      "group": "Ray Optics and Optical Instruments",
+      "depth": 0,
+      "note": "Ray optics treats light as straight rays that reflect, refract, and bend through apertures, so geometry replaces wave analysis. Every JEE problem here is one sign convention plus one formula such as $$\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f}$$."
+    },
+    {
+      "id": "ro-plane-reflection",
+      "label": "Reflection at Plane Surfaces",
+      "group": "Reflection at Plane Surfaces",
+      "depth": 1,
+      "note": "A plane mirror preserves object size and distance while flipping the perpendicular coordinate. The angle relation is always $$i = r$$."
+    },
+    {
+      "id": "ro-laws",
+      "label": "Laws of Reflection",
+      "group": "Reflection at Plane Surfaces",
+      "depth": 2,
+      "note": "Incident ray, reflected ray, and normal are coplanar with $$i = r$$. In vector form the reflected direction is $$\\hat{r} = \\hat{i} - 2(\\hat{i} \\cdot \\hat{n})\\hat{n}$$."
+    },
+    {
+      "id": "ro-plane-image",
+      "label": "Image Formation by a Plane Mirror",
+      "group": "Reflection at Plane Surfaces",
+      "depth": 2,
+      "note": "The image is virtual, erect, laterally inverted, and the same size as the object. Its distance behind the mirror equals the object distance: $$d_{image} = d_{object}$$."
+    },
+    {
+      "id": "ro-inclined-mirrors",
+      "label": "Multiple Images Between Inclined Mirrors",
+      "group": "Reflection at Plane Surfaces",
+      "depth": 2,
+      "note": "Two mirrors at angle $$\\theta$$ produce a finite ring of images when 360 degrees is an exact multiple of $$\\theta$$. For symmetric object placement the count is $$n = \\frac{360^\\circ}{\\theta} - 1$$."
+    },
+    {
+      "id": "ro-plane-image-velocity",
+      "label": "Image Velocity in a Plane Mirror",
+      "group": "Reflection at Plane Surfaces",
+      "depth": 2,
+      "note": "Velocity components parallel to the mirror are unchanged, while the perpendicular component flips and adds the mirror's own motion. The rule is $$v_{I,\\perp} = -v_{O,\\perp} + 2v_{M,\\perp}$$, with $$v_{I,\\parallel} = v_{O,\\parallel}$$."
+    },
+    {
+      "id": "ro-min-mirror",
+      "label": "Minimum Mirror for Full View",
+      "group": "Reflection at Plane Surfaces",
+      "depth": 2,
+      "note": "To see the full body, the ray must bend from head to foot through the mirror edge, so half the person's height suffices. The result is $$h_{min} = \\frac{H}{2}$$ regardless of distance from the mirror."
+    },
+    {
+      "id": "ro-spherical-mirrors",
+      "label": "Spherical Mirrors",
+      "group": "Spherical Mirrors",
+      "depth": 1,
+      "note": "Concave and convex mirrors focus rays using a spherical reflecting surface, and all their formulas flow from the paraxial approximation. The focal length is set purely by curvature: $$f = \\frac{R}{2}$$."
+    },
+    {
+      "id": "ro-sign-convention",
+      "label": "Sign Convention and Focal Length",
+      "group": "Spherical Mirrors",
+      "depth": 2,
+      "note": "In the Cartesian convention, distances are measured from the pole with light travelling in the positive direction, so a concave mirror has $$f = -\\frac{R}{2}$$ and a convex mirror has $$f = +\\frac{R}{2}$$."
+    },
+    {
+      "id": "ro-mirror-formula",
+      "label": "Mirror Formula and Lateral Magnification",
+      "group": "Spherical Mirrors",
+      "depth": 2,
+      "note": "Object, image, and focal distances are locked together for paraxial rays: $$\\frac{1}{v} + \\frac{1}{u} = \\frac{1}{f} = \\frac{2}{R}$$. Lateral magnification follows as $$m = -\\frac{v}{u}$$."
+    },
+    {
+      "id": "ro-longitudinal-mag",
+      "label": "Longitudinal and Areal Magnification",
+      "group": "Spherical Mirrors",
+      "depth": 2,
+      "note": "Along the axis the magnification is the square of the transverse value, while areas scale by the square: $$m_L = -m^2$$ and $$m_A = m^2$$. The minus sign in $$m_L$$ signals the axial compression direction."
+    },
+    {
+      "id": "ro-newton",
+      "label": "Newton's Formula for Conjugate Foci",
+      "group": "Spherical Mirrors",
+      "depth": 2,
+      "note": "Newton measures object and image distances from the focal points instead of the pole. The invariant is $$x_1 x_2 = f^2$$, with magnification $$m = -\\frac{f}{x_1} = -\\frac{x_2}{f}$$."
+    },
+    {
+      "id": "ro-mirror-image-motion",
+      "label": "Image Velocity in Spherical Mirrors",
+      "group": "Spherical Mirrors",
+      "depth": 2,
+      "note": "Differentiating the mirror formula while the object moves gives an axial image speed scaled by the square of magnification. The result is $$\\vec{v}_{I,\\parallel} = -m^2 \\vec{v}_{O,\\parallel}$$ for motion along the principal axis."
+    },
+    {
+      "id": "ro-aberration",
+      "label": "Spherical Aberration",
+      "group": "Spherical Mirrors",
+      "depth": 2,
+      "note": "Marginal rays strike far from the pole and meet the axis closer than the paraxial focus, so a spherical mirror has no single sharp focus. The marginal focal length is $$f_{marg} = R - \\frac{R}{2\\cos\\theta}$$, always shorter than $$R/2$$."
+    },
+    {
+      "id": "ro-refraction-tir",
+      "label": "Refraction and Total Internal Reflection",
+      "group": "Refraction and Total Internal Reflection",
+      "depth": 1,
+      "note": "A ray crossing a plane interface bends according to optical density and can be totally reflected when it starts in the denser medium. The governing relation is $$n_1 \\sin i = n_2 \\sin r$$."
+    },
+    {
+      "id": "ro-snell",
+      "label": "Snell's Law and Refractive Index",
+      "group": "Refraction and Total Internal Reflection",
+      "depth": 2,
+      "note": "Refraction follows from the constancy of the tangential wave component across the interface: $$n_1 \\sin i = n_2 \\sin r$$. The index also measures speed and wavelength change, $$n = \\frac{c}{v} = \\frac{\\lambda_{air}}{\\lambda_{med}}$$."
+    },
+    {
+      "id": "ro-apparent-depth",
+      "label": "Apparent Depth and Normal Shift",
+      "group": "Refraction and Total Internal Reflection",
+      "depth": 2,
+      "note": "Viewed normally from air, an object at depth $$t$$ in a medium of index $$\\mu$$ appears closer: $$d_{app} = \\frac{t}{\\mu}$$. The upward normal shift is therefore $$\\Delta t = t\\left(1 - \\frac{1}{\\mu}\\right)$$."
+    },
+    {
+      "id": "ro-lateral-shift",
+      "label": "Lateral Displacement Through a Glass Slab",
+      "group": "Refraction and Total Internal Reflection",
+      "depth": 2,
+      "note": "Two parallel refractions leave the emergent ray parallel to the incident one but offset sideways. The offset for slab thickness $$t$$ is $$s = \\frac{t \\sin(i - r)}{\\cos r}$$."
+    },
+    {
+      "id": "ro-tir",
+      "label": "Total Internal Reflection and Critical Angle",
+      "group": "Refraction and Total Internal Reflection",
+      "depth": 2,
+      "note": "Beyond the critical angle the refracted ray vanishes and all energy returns to the denser medium. For a medium of index $$\\mu$$ in air the critical angle obeys $$\\sin i_c = \\frac{1}{\\mu}$$."
+    },
+    {
+      "id": "ro-fibre",
+      "label": "Optical Fibre and Acceptance Angle",
+      "group": "Refraction and Total Internal Reflection",
+      "depth": 2,
+      "note": "A fibre traps light by repeated total internal reflection at the core-cladding boundary. The acceptance cone is fixed by the numerical aperture $$\\text{NA} = \\sin\\theta_a = \\sqrt{n_{core}^2 - n_{clad}^2}$$."
+    },
+    {
+      "id": "ro-apparent-motion",
+      "label": "Apparent Motion Seen Through Refraction",
+      "group": "Refraction and Total Internal Reflection",
+      "depth": 2,
+      "note": "An object seen through a plane interface is displaced toward the surface, since apparent depth is only $$t/\\mu$$. Its apparent vertical speed therefore scales the same way: $$v_{app} = \\frac{v}{\\mu}$$."
+    },
+    {
+      "id": "ro-prisms",
+      "label": "Prisms and Dispersion",
+      "group": "Prisms and Dispersion",
+      "depth": 1,
+      "note": "A prism bends light twice between non-parallel faces and separates colours because index varies with wavelength. Angle bookkeeping is $$A = r_1 + r_2$$ and $$\\delta = i_1 + i_2 - A$$."
+    },
+    {
+      "id": "ro-prism-geometry",
+      "label": "Prism Geometry and Deviation",
+      "group": "Prisms and Dispersion",
+      "depth": 2,
+      "note": "Inside the prism the two refraction angles sum to the prism angle, giving the master relation $$A = r_1 + r_2$$. Total deviation is the entry and exit bends minus the wedge: $$\\delta = i_1 + i_2 - A$$."
+    },
+    {
+      "id": "ro-min-deviation",
+      "label": "Minimum Deviation and Refractive Index",
+      "group": "Prisms and Dispersion",
+      "depth": 2,
+      "note": "The deviation curve bottoms out where the ray passes symmetrically, so $$i_1 = i_2$$ and $$r_1 = r_2 = A/2$$. The prism formula then reads $$n = \\frac{\\sin\\left(\\frac{A + \\delta_m}{2}\\right)}{\\sin\\left(\\frac{A}{2}\\right)}$$."
+    },
+    {
+      "id": "ro-thin-prism",
+      "label": "Thin Prism Approximation",
+      "group": "Prisms and Dispersion",
+      "depth": 2,
+      "note": "For a wedge of small apex angle all sines linearise, making deviation independent of the incident angle. The thin prism rule is $$\\delta = (n - 1)A$$."
+    },
+    {
+      "id": "ro-no-emergence",
+      "label": "Condition of No Emergence",
+      "group": "Prisms and Dispersion",
+      "depth": 2,
+      "note": "If the ray strikes the second face steeper than the critical angle it is totally internally reflected and never leaves. The limit is $$r_2 = 90^\\circ$$, that is $$\\sin r_2 = \\frac{1}{n}$$ with $$r_2 = A - r_1$$."
+    },
+    {
+      "id": "ro-dispersion",
+      "label": "Dispersion and Dispersive Power",
+      "group": "Prisms and Dispersion",
+      "depth": 2,
+      "note": "Violet bends more than red because $$n_v > n_r$$, and the spread is measured by dispersive power. It depends only on the material: $$\\omega = \\frac{n_v - n_r}{n_y - 1} = \\frac{\\delta_v - \\delta_r}{\\delta_y}$$."
+    },
+    {
+      "id": "ro-achromatic",
+      "label": "Achromatic and Direct-Vision Combinations",
+      "group": "Prisms and Dispersion",
+      "depth": 2,
+      "note": "Two prisms can cancel either dispersion or net deviation but not both at once. Achromatism needs $$\\omega_1 \\delta_1 + \\omega_2 \\delta_2 = 0$$, while direct vision needs $$\\delta_1 + \\delta_2 = 0$$."
+    },
+    {
+      "id": "ro-lenses",
+      "label": "Lenses and Curved Refraction",
+      "group": "Lenses and Curved Refraction",
+      "depth": 1,
+      "note": "Thin lenses refract twice at spherical surfaces and are fully described by their focal length and power. The working equation is $$\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$$."
+    },
+    {
+      "id": "ro-spherical-refraction",
+      "label": "Refraction at a Single Spherical Surface",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "A single curved interface relates object and image positions through the two indices and the radius of curvature. The formula is $$\\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R}$$, and chaining two of them gives the thin lens equation."
+    },
+    {
+      "id": "ro-lens-maker",
+      "label": "Lens Maker's Formula",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "Two successive spherical refractions give the focal length from curvature and material alone: $$\\frac{1}{f} = (\\mu - 1)\\left(\\frac{1}{R_1} - \\frac{1}{R_2}\\right)$$. Immersing the lens in another medium replaces $$\\mu - 1$$ by $$\\frac{\\mu}{\\mu_{med}} - 1$$."
+    },
+    {
+      "id": "ro-lens-formula",
+      "label": "Thin Lens Formula and Magnification",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "Signs invert relative to mirrors because light passes through, giving $$\\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f}$$. Transverse magnification is $$m = \\frac{v}{u}$$, so a positive $$m$$ means erect."
+    },
+    {
+      "id": "ro-power",
+      "label": "Optical Power of Lenses",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "Power measures bending strength in dioptres when the focal length is in metres. It is $$P = \\frac{1}{f_{(m)}}$$, and touching lenses add powers: $$P_{eq} = P_1 + P_2$$."
+    },
+    {
+      "id": "ro-lens-image-motion",
+      "label": "Image Velocity in Thin Lenses",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "Differentiating the lens formula with the object moving along the axis gives the same square law as mirrors. Axially the image moves as $$\\vec{v}_{I,\\parallel} = -m^2 \\vec{v}_{O,\\parallel}$$, so it outruns the object when $$|m| > 1$$."
+    },
+    {
+      "id": "ro-displacement-method",
+      "label": "Displacement or Conjugate Method",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "Sliding a lens between two positions that give the same sharp image on a fixed screen brackets the foci. Focal length follows from screen separation $$D$$ and lens travel $$d$$ as $$f = \\frac{D^2 - d^2}{4D}$$, with $$m_1 m_2 = 1$$."
+    },
+    {
+      "id": "ro-cut-lens",
+      "label": "Cutting Thin Lenses",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "An equiconvex lens cut perpendicular to its axis becomes two plano-convex halves that are each weaker: $$f' = 2f$$. Cutting it along the axis instead leaves $$f' = f$$ but halves the aperture and the image intensity."
+    },
+    {
+      "id": "ro-lens-combination",
+      "label": "Combination of Thin Lenses",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "Lenses in contact simply add powers, while a gap $$d$$ between them subtracts a correction. The general result is $$\\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} - \\frac{d}{f_1 f_2}$$."
+    },
+    {
+      "id": "ro-silvered-lens",
+      "label": "Silvering of Lenses",
+      "group": "Lenses and Curved Refraction",
+      "depth": 2,
+      "note": "A silvered lens refracts, reflects, then refracts again, so the lens power counts twice alongside the mirror term. The equivalent power is $$P_{net} = \\frac{2}{f} + \\frac{2}{R}$$, and the device acts as a mirror of focal length $$F_{eq} = -\\frac{1}{P_{net}}$$."
+    },
+    {
+      "id": "ro-instruments",
+      "label": "Optical Instruments",
+      "group": "Optical Instruments",
+      "depth": 1,
+      "note": "Instruments trade field of view for magnifying power by stacking lenses or by enlarging aperture. Angular magnification always compares $$M = \\frac{\\beta}{\\alpha}$$ with the unaided eye at distance $$D$$."
+    },
+    {
+      "id": "ro-eye-defects",
+      "label": "Human Eye and Vision Defects",
+      "group": "Optical Instruments",
+      "depth": 2,
+      "note": "Myopia focuses light in front of the retina and is corrected by a diverging lens with $$f = -d_{far}$$. Hypermetropia needs a converging lens with $$\\frac{1}{f} = \\frac{1}{D} - \\frac{1}{d_{near}}$$."
+    },
+    {
+      "id": "ro-simple-microscope",
+      "label": "Simple Microscope",
+      "group": "Optical Instruments",
+      "depth": 2,
+      "note": "A magnifier forms a virtual image at the near point for maximum magnification, or at infinity for a relaxed eye. Its power is $$M = 1 + \\frac{D}{f}$$ at near point and $$M = \\frac{D}{f}$$ for normal adjustment."
+    },
+    {
+      "id": "ro-compound-microscope",
+      "label": "Compound Microscope",
+      "group": "Optical Instruments",
+      "depth": 2,
+      "note": "A short-focus objective builds a real intermediate image that the eyepiece magnifies. Near-point magnification is $$M = -\\frac{v_o}{u_o}\\left(1 + \\frac{D}{f_e}\\right)$$, with tube length $$L = v_o + f_e$$ at normal adjustment."
+    },
+    {
+      "id": "ro-telescope",
+      "label": "Astronomical Refracting Telescope",
+      "group": "Optical Instruments",
+      "depth": 2,
+      "note": "A large objective collects light from infinity and the eyepiece views its real image. At normal adjustment $$M = -\\frac{f_o}{f_e}$$ and the tube length is $$L = f_o + f_e$$."
+    },
+    {
+      "id": "ro-resolving-power",
+      "label": "Resolving Power of Instruments",
+      "group": "Optical Instruments",
+      "depth": 2,
+      "note": "Diffraction limits how close two point sources can be and still be separated, as Rayleigh's criterion requires the peak to sit on the first minimum. A telescope resolves angles $$d\\theta = \\frac{1.22\\lambda}{D}$$, and a microscope resolves distances $$d_{min} = \\frac{1.22\\lambda}{2\\mu \\sin\\theta}$$."
+    }
+  ],
+  "edges": [
+    { "source": "ray-optics", "target": "ro-plane-reflection", "label": "contains" },
+    { "source": "ro-plane-reflection", "target": "ro-laws", "label": "contains" },
+    { "source": "ro-plane-reflection", "target": "ro-plane-image", "label": "contains" },
+    { "source": "ro-plane-reflection", "target": "ro-inclined-mirrors", "label": "contains" },
+    { "source": "ro-plane-reflection", "target": "ro-plane-image-velocity", "label": "contains" },
+    { "source": "ro-plane-reflection", "target": "ro-min-mirror", "label": "contains" },
+    { "source": "ray-optics", "target": "ro-spherical-mirrors", "label": "contains" },
+    { "source": "ro-spherical-mirrors", "target": "ro-sign-convention", "label": "contains" },
+    { "source": "ro-spherical-mirrors", "target": "ro-mirror-formula", "label": "contains" },
+    { "source": "ro-spherical-mirrors", "target": "ro-longitudinal-mag", "label": "contains" },
+    { "source": "ro-spherical-mirrors", "target": "ro-newton", "label": "contains" },
+    { "source": "ro-spherical-mirrors", "target": "ro-mirror-image-motion", "label": "contains" },
+    { "source": "ro-spherical-mirrors", "target": "ro-aberration", "label": "contains" },
+    { "source": "ray-optics", "target": "ro-refraction-tir", "label": "contains" },
+    { "source": "ro-refraction-tir", "target": "ro-snell", "label": "contains" },
+    { "source": "ro-refraction-tir", "target": "ro-apparent-depth", "label": "contains" },
+    { "source": "ro-refraction-tir", "target": "ro-lateral-shift", "label": "contains" },
+    { "source": "ro-refraction-tir", "target": "ro-tir", "label": "contains" },
+    { "source": "ro-refraction-tir", "target": "ro-fibre", "label": "contains" },
+    { "source": "ro-refraction-tir", "target": "ro-apparent-motion", "label": "contains" },
+    { "source": "ray-optics", "target": "ro-prisms", "label": "contains" },
+    { "source": "ro-prisms", "target": "ro-prism-geometry", "label": "contains" },
+    { "source": "ro-prisms", "target": "ro-min-deviation", "label": "contains" },
+    { "source": "ro-prisms", "target": "ro-thin-prism", "label": "contains" },
+    { "source": "ro-prisms", "target": "ro-no-emergence", "label": "contains" },
+    { "source": "ro-prisms", "target": "ro-dispersion", "label": "contains" },
+    { "source": "ro-prisms", "target": "ro-achromatic", "label": "contains" },
+    { "source": "ray-optics", "target": "ro-lenses", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-spherical-refraction", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-lens-maker", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-lens-formula", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-power", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-lens-image-motion", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-displacement-method", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-cut-lens", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-lens-combination", "label": "contains" },
+    { "source": "ro-lenses", "target": "ro-silvered-lens", "label": "contains" },
+    { "source": "ray-optics", "target": "ro-instruments", "label": "contains" },
+    { "source": "ro-instruments", "target": "ro-eye-defects", "label": "contains" },
+    { "source": "ro-instruments", "target": "ro-simple-microscope", "label": "contains" },
+    { "source": "ro-instruments", "target": "ro-compound-microscope", "label": "contains" },
+    { "source": "ro-instruments", "target": "ro-telescope", "label": "contains" },
+    { "source": "ro-instruments", "target": "ro-resolving-power", "label": "contains" }
+  ]
+}

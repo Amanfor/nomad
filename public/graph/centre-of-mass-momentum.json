@@ -1,0 +1,507 @@
+{
+  "title": "Centre of Mass, Momentum and Collisions",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "centre-of-mass-momentum",
+      "label": "Centre of Mass, Momentum and Collisions",
+      "group": "Centre of Mass, Momentum and Collisions",
+      "depth": 0,
+      "note": "Center of mass, system momentum, conservation laws, the COM frame, and collision dynamics. JEE tests cavity problems, man-boat systems, restitution, and energy loss in collisions."
+    },
+    {
+      "id": "com-fundamentals",
+      "label": "Centre of Mass Fundamentals",
+      "group": "Centre of Mass Fundamentals",
+      "depth": 1,
+      "note": "The center of mass is the point where the entire mass can be treated as concentrated for translational motion."
+    },
+    {
+      "id": "com-definition",
+      "label": "COM Definition",
+      "group": "Centre of Mass Fundamentals",
+      "depth": 2,
+      "note": "For a system of particles: $$\\vec{r}_{\\text{cm}} = \\frac{1}{M}\\sum m_i\\vec{r}_i$$. In Cartesian coordinates: $$x_{\\text{cm}} = \\frac{\\sum m_i x_i}{M}$$."
+    },
+    {
+      "id": "two-body-lever",
+      "label": "Two-Body Lever Rule",
+      "group": "Centre of Mass Fundamentals",
+      "depth": 2,
+      "note": "For two masses $$m_1$$ and $$m_2$$ separated by distance $$d$$: $$m_1 r_1 = m_2 r_2$$, so $$r_1 = \\frac{m_2}{m_1+m_2}d$$. The COM is closer to the heavier mass."
+    },
+    {
+      "id": "com-vs-cog",
+      "label": "COM vs COG",
+      "group": "Centre of Mass Fundamentals",
+      "depth": 2,
+      "note": "In a uniform gravitational field, COM and COG coincide. In a non-uniform field, the center of gravity lies slightly below the center of mass."
+    },
+    {
+      "id": "continuous-bodies",
+      "label": "Continuous Bodies",
+      "group": "Centre of Mass Fundamentals",
+      "depth": 2,
+      "note": "For continuous mass distributions: $$\\vec{r}_{\\text{cm}} = \\frac{1}{M}\\int \\vec{r}\\,dm$$. Use $$dm = \\lambda\\,dl$$ for wires, $$\\sigma\\,dA$$ for laminae, $$\\rho\\,dV$$ for solids."
+    },
+    {
+      "id": "canonical-coordinates",
+      "label": "Canonical COM Coordinates",
+      "group": "Centre of Mass Fundamentals",
+      "depth": 3,
+      "note": "Semicircular wire: $$y_{\\text{cm}} = \\frac{2R}{\\pi}$$. Semicircular disc: $$y_{\\text{cm}} = \\frac{4R}{3\\pi}$$. Solid hemisphere: $$y_{\\text{cm}} = \\frac{3R}{8}$$. Solid cone: $$y_{\\text{cm}} = \\frac{H}{4}$$."
+    },
+    {
+      "id": "com-kinematics",
+      "label": "COM Kinematics",
+      "group": "Centre of Mass Fundamentals",
+      "depth": 2,
+      "note": "Differentiating the COM position: $$\\vec{v}_{\\text{cm}} = \\frac{d\\vec{r}_{\\text{cm}}}{dt}$$ and $$\\vec{a}_{\\text{cm}} = \\frac{d\\vec{v}_{\\text{cm}}}{dt}$$. The COM moves like a single particle of mass $$M$$."
+    },
+    {
+      "id": "negative-mass",
+      "label": "Negative Mass Method",
+      "group": "Negative Mass Method",
+      "depth": 1,
+      "note": "Bodies with cavities can be solved by superposing the complete body and a negative mass at the cavity."
+    },
+    {
+      "id": "superposition",
+      "label": "Superposition Principle",
+      "group": "Negative Mass Method",
+      "depth": 2,
+      "note": "The remaining body is treated as the complete original body plus a negative mass at the cavity: $$\\vec{r}_{\\text{rem}} = \\frac{M_{\\text{orig}}\\vec{r}_{\\text{orig}} - m_{\\text{cavity}}\\vec{r}_{\\text{cavity}}}{M_{\\text{orig}} - m_{\\text{cavity}}}$$."
+    },
+    {
+      "id": "disc-cavity",
+      "label": "Disc with Hole",
+      "group": "Negative Mass Method",
+      "depth": 2,
+      "note": "A disc of radius $$R$$ with a hole of radius $$R/2$$ tangent to the rim: the COM shifts away from the hole by $$x_{\\text{cm}} = -\\frac{R}{6}$$."
+    },
+    {
+      "id": "sphere-cavity",
+      "label": "Sphere with Cavity",
+      "group": "Negative Mass Method",
+      "depth": 2,
+      "note": "A sphere of radius $$R$$ with a spherical cavity of radius $$R/2$$ tangent to the surface: the COM shifts by $$x_{\\text{cm}} = -\\frac{R}{14}$$."
+    },
+    {
+      "id": "cavity-principle",
+      "label": "Cavity Principle",
+      "group": "Negative Mass Method",
+      "depth": 2,
+      "note": "The negative mass method works because gravitational and inertial mass are equivalent. The cavity is treated as a region of negative density."
+    },
+    {
+      "id": "com-dynamics",
+      "label": "COM Dynamics and Momentum",
+      "group": "COM Dynamics and Momentum",
+      "depth": 1,
+      "note": "The center of mass moves as if all mass and external forces were concentrated at that point."
+    },
+    {
+      "id": "system-momentum",
+      "label": "System Momentum",
+      "group": "COM Dynamics and Momentum",
+      "depth": 2,
+      "note": "Total momentum equals total mass times COM velocity: $$\\vec{P}_{\\text{sys}} = \\sum m_i\\vec{v}_i = M\\vec{v}_{\\text{cm}}$$."
+    },
+    {
+      "id": "system-second-law",
+      "label": "Newton's Second Law for Systems",
+      "group": "COM Dynamics and Momentum",
+      "depth": 2,
+      "note": "Internal forces cancel by Newton's third law: $$\\sum \\vec{F}_{\\text{internal}} = 0$$. Thus $$\\vec{F}_{\\text{net,ext}} = M\\vec{a}_{\\text{cm}} = \\frac{d\\vec{P}_{\\text{sys}}}{dt}$$."
+    },
+    {
+      "id": "momentum-conservation",
+      "label": "Conservation of Linear Momentum",
+      "group": "COM Dynamics and Momentum",
+      "depth": 2,
+      "note": "If net external force is zero, total momentum is conserved: $$\\vec{F}_{\\text{net,ext}} = 0 \\implies \\vec{P}_{\\text{sys}} = \\text{constant}$$."
+    },
+    {
+      "id": "directional",
+      "label": "Directional Conservation",
+      "group": "COM Dynamics and Momentum",
+      "depth": 3,
+      "note": "Even with external forces in one direction, momentum is conserved along perpendicular axes. If $$F_{\\text{ext},x} = 0$$, then $$P_{x,\\text{sys}} = \\text{constant}$$."
+    },
+    {
+      "id": "relative-displacement",
+      "label": "Relative Displacement Mechanics",
+      "group": "COM Dynamics and Momentum",
+      "depth": 2,
+      "note": "For a system initially at rest with zero external force, $$\\Delta \\vec{r}_{\\text{cm}} = 0 \\iff \\sum m_i \\Delta\\vec{r}_i = 0$$."
+    },
+    {
+      "id": "man-boat",
+      "label": "Man on Boat",
+      "group": "COM Dynamics and Momentum",
+      "depth": 3,
+      "note": "A man of mass $$m$$ walks distance $$L$$ on a boat of mass $$M$$: the boat shifts back by $$x_{\\text{boat}} = \\frac{m}{M+m}L$$ and the man's ground displacement is $$\\frac{M}{M+m}L$$."
+    },
+    {
+      "id": "explosion-invariance",
+      "label": "Explosion Trajectory Invariance",
+      "group": "COM Dynamics and Momentum",
+      "depth": 2,
+      "note": "A projectile exploding mid-flight: internal forces do not affect the COM. The center of mass continues along the original parabolic trajectory until the first fragment lands."
+    },
+    {
+      "id": "internal-forces",
+      "label": "Internal Force Annihilation",
+      "group": "COM Dynamics and Momentum",
+      "depth": 2,
+      "note": "Internal forces occur in action-reaction pairs that cancel: $$\\sum \\vec{F}_{\\text{internal}} = 0$$. Only external forces affect the COM motion."
+    },
+    {
+      "id": "cm-frame",
+      "label": "Centre of Mass Frame",
+      "group": "Centre of Mass Frame",
+      "depth": 1,
+      "note": "The zero-momentum frame simplifies two-body problems and collision analysis."
+    },
+    {
+      "id": "cframe-properties",
+      "label": "C-Frame Properties",
+      "group": "Centre of Mass Frame",
+      "depth": 2,
+      "note": "In the COM frame, total momentum is identically zero: $$\\sum m_i\\vec{v}_i^* = 0$$. For two bodies, $$\\vec{p}_1^* = -\\vec{p}_2^*$$."
+    },
+    {
+      "id": "reduced-mass",
+      "label": "Reduced Mass",
+      "group": "Centre of Mass Frame",
+      "depth": 2,
+      "note": "The reduced mass is $$\\mu = \\frac{m_1 m_2}{m_1 + m_2}$$. It transforms a two-body problem into an equivalent one-body problem."
+    },
+    {
+      "id": "spring-oscillator",
+      "label": "Coupled Spring Oscillator",
+      "group": "Centre of Mass Frame",
+      "depth": 3,
+      "note": "Two masses connected by a spring of stiffness $$k$$: the relative motion is SHM with $$\\omega = \\sqrt{\\frac{k}{\\mu}}$$ and $$T = 2\\pi\\sqrt{\\frac{\\mu}{k}}$$."
+    },
+    {
+      "id": "max-compression",
+      "label": "Maximum Spring Compression",
+      "group": "Centre of Mass Frame",
+      "depth": 3,
+      "note": "Maximum compression occurs when relative velocity is zero: $$\\frac{1}{2}kx_{\\max}^2 = \\frac{1}{2}\\mu v_{\\text{rel},0}^2$$, so $$x_{\\max} = v_0\\sqrt{\\frac{\\mu}{k}}$$."
+    },
+    {
+      "id": "koenig-theorem",
+      "label": "Konig's Theorem",
+      "group": "Centre of Mass Frame",
+      "depth": 2,
+      "note": "Total kinetic energy decomposes: $$K_{\\text{lab}} = \\frac{1}{2}Mv_{\\text{cm}}^2 + \\frac{1}{2}\\mu v_{\\text{rel}}^2$$. The translational part is frozen when $$\\vec{F}_{\\text{ext}} = 0$$."
+    },
+    {
+      "id": "cframe-collision",
+      "label": "Collisions in C-Frame",
+      "group": "Centre of Mass Frame",
+      "depth": 2,
+      "note": "In the COM frame, the two colliding bodies approach and recede along the same line. The C-frame simplifies restitution analysis."
+    },
+    {
+      "id": "collisions",
+      "label": "Collisions",
+      "group": "Collisions",
+      "depth": 1,
+      "note": "Impulse, coefficient of restitution, head-on collisions, energy loss, and oblique scattering."
+    },
+    {
+      "id": "impulse",
+      "label": "Impulse-Momentum Theorem",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "Impulse equals change in momentum: $$\\vec{J} = \\int \\vec{F}\\,dt = \\Delta\\vec{P}$$. Impulsive forces are large but brief; non-impulsive forces like gravity are negligible during impact."
+    },
+    {
+      "id": "restitution",
+      "label": "Coefficient of Restitution",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "Newton's experimental law: $$e = \\frac{v_{\\text{sep}}}{u_{\\text{app}}}$$ along the line of impact. $$e = 1$$ is elastic; $$e = 0$$ is perfectly inelastic."
+    },
+    {
+      "id": "head-on",
+      "label": "Head-On 1D Collisions",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "For masses $$m_1, m_2$$ with initial velocities $$u_1, u_2$$: $$v_1 = \\frac{m_1 - em_2}{m_1+m_2}u_1 + \\frac{(1+e)m_2}{m_1+m_2}u_2$$ and $$v_2 = \\frac{(1+e)m_1}{m_1+m_2}u_1 + \\frac{m_2 - em_1}{m_1+m_2}u_2$$."
+    },
+    {
+      "id": "equal-mass-elastic",
+      "label": "Equal Mass Elastic",
+      "group": "Collisions",
+      "depth": 3,
+      "note": "For $$m_1 = m_2$$ and $$e = 1$$: the bodies exchange velocities, $$v_1 = u_2$$ and $$v_2 = u_1$$."
+    },
+    {
+      "id": "massive-target",
+      "label": "Massive Stationary Target",
+      "group": "Collisions",
+      "depth": 3,
+      "note": "For $$m_2 \\gg m_1$$ and $$u_2 = 0$$: the light particle rebounds with $$v_1 \\approx -eu_1$$. For a massive striker on a light target: $$v_2 \\approx (1+e)u_1$$."
+    },
+    {
+      "id": "energy-loss",
+      "label": "Kinetic Energy Loss",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "The universal energy loss formula is $$\\Delta K = \\frac{1}{2}\\mu(1-e^2)u_{\\text{rel}}^2$$. Maximum loss occurs for perfectly inelastic collisions ($$e = 0$$)."
+    },
+    {
+      "id": "bouncing-ball",
+      "label": "Bouncing Ball Series",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "A ball dropped from height $$h_0$$ with restitution $$e$$: after $$n$$ bounces, $$h_n = e^{2n}h_0$$. Total distance is $$H_{\\text{total}} = h_0\\frac{1+e^2}{1-e^2}$$."
+    },
+    {
+      "id": "oblique-collisions",
+      "label": "Oblique Collisions",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "In 2D collisions, tangential velocity components are unchanged. Along the line of impact, momentum is conserved and restitution applies."
+    },
+    {
+      "id": "scattering-theorem",
+      "label": "90-Degree Scattering Theorem",
+      "group": "Collisions",
+      "depth": 3,
+      "note": "For equal masses with one stationary and $$e = 1$$: the two particles fly off at right angles, $$\\theta_1 + \\theta_2 = 90^\\circ$$."
+    },
+    {
+      "id": "ballistic-pendulum",
+      "label": "Ballistic Pendulum",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "A bullet embedding in a pendulum bob is perfectly inelastic ($$e = 0$$). Momentum is conserved during impact; mechanical energy is conserved during the swing."
+    },
+    {
+      "id": "variable-mass",
+      "label": "Variable Mass Systems",
+      "group": "Collisions",
+      "depth": 2,
+      "note": "For a body ejecting mass: $$m\\frac{d\\vec{v}}{dt} = \\vec{F}_{\\text{ext}} + \\vec{v}_{\\text{rel}}\\frac{dm}{dt}$$. The thrust force is $$\\vec{F}_{\\text{thrust}} = \\vec{v}_{\\text{rel}}\\frac{dm}{dt}$$."
+    },
+    {
+      "id": "rocket-equation",
+      "label": "Rocket Equation",
+      "group": "Collisions",
+      "depth": 3,
+      "note": "In gravity-free space: $$v(t) = v_0 + u_{\\text{ex}}\\ln\\frac{m_0}{m}$$. In uniform gravity: $$v(t) = v_0 - gt + u_{\\text{ex}}\\ln\\frac{m_0}{m}$$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "centre-of-mass-momentum",
+      "target": "com-fundamentals",
+      "label": "contains"
+    },
+    {
+      "source": "centre-of-mass-momentum",
+      "target": "negative-mass",
+      "label": "contains"
+    },
+    {
+      "source": "centre-of-mass-momentum",
+      "target": "com-dynamics",
+      "label": "contains"
+    },
+    {
+      "source": "centre-of-mass-momentum",
+      "target": "cm-frame",
+      "label": "contains"
+    },
+    {
+      "source": "centre-of-mass-momentum",
+      "target": "collisions",
+      "label": "contains"
+    },
+    {
+      "source": "com-fundamentals",
+      "target": "com-definition",
+      "label": "contains"
+    },
+    {
+      "source": "com-fundamentals",
+      "target": "two-body-lever",
+      "label": "contains"
+    },
+    {
+      "source": "com-fundamentals",
+      "target": "com-vs-cog",
+      "label": "contains"
+    },
+    {
+      "source": "com-fundamentals",
+      "target": "continuous-bodies",
+      "label": "contains"
+    },
+    {
+      "source": "com-fundamentals",
+      "target": "com-kinematics",
+      "label": "contains"
+    },
+    {
+      "source": "continuous-bodies",
+      "target": "canonical-coordinates",
+      "label": "contains"
+    },
+    {
+      "source": "negative-mass",
+      "target": "superposition",
+      "label": "contains"
+    },
+    {
+      "source": "negative-mass",
+      "target": "disc-cavity",
+      "label": "contains"
+    },
+    {
+      "source": "negative-mass",
+      "target": "sphere-cavity",
+      "label": "contains"
+    },
+    {
+      "source": "negative-mass",
+      "target": "cavity-principle",
+      "label": "contains"
+    },
+    {
+      "source": "com-dynamics",
+      "target": "system-momentum",
+      "label": "contains"
+    },
+    {
+      "source": "com-dynamics",
+      "target": "system-second-law",
+      "label": "contains"
+    },
+    {
+      "source": "com-dynamics",
+      "target": "momentum-conservation",
+      "label": "contains"
+    },
+    {
+      "source": "com-dynamics",
+      "target": "relative-displacement",
+      "label": "contains"
+    },
+    {
+      "source": "com-dynamics",
+      "target": "explosion-invariance",
+      "label": "contains"
+    },
+    {
+      "source": "com-dynamics",
+      "target": "internal-forces",
+      "label": "contains"
+    },
+    {
+      "source": "momentum-conservation",
+      "target": "directional",
+      "label": "contains"
+    },
+    {
+      "source": "relative-displacement",
+      "target": "man-boat",
+      "label": "contains"
+    },
+    {
+      "source": "cm-frame",
+      "target": "cframe-properties",
+      "label": "contains"
+    },
+    {
+      "source": "cm-frame",
+      "target": "reduced-mass",
+      "label": "contains"
+    },
+    {
+      "source": "cm-frame",
+      "target": "koenig-theorem",
+      "label": "contains"
+    },
+    {
+      "source": "cm-frame",
+      "target": "cframe-collision",
+      "label": "contains"
+    },
+    {
+      "source": "reduced-mass",
+      "target": "spring-oscillator",
+      "label": "contains"
+    },
+    {
+      "source": "reduced-mass",
+      "target": "max-compression",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "impulse",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "restitution",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "head-on",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "energy-loss",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "bouncing-ball",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "oblique-collisions",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "ballistic-pendulum",
+      "label": "contains"
+    },
+    {
+      "source": "collisions",
+      "target": "variable-mass",
+      "label": "contains"
+    },
+    {
+      "source": "head-on",
+      "target": "equal-mass-elastic",
+      "label": "contains"
+    },
+    {
+      "source": "head-on",
+      "target": "massive-target",
+      "label": "contains"
+    },
+    {
+      "source": "oblique-collisions",
+      "target": "scattering-theorem",
+      "label": "contains"
+    },
+    {
+      "source": "variable-mass",
+      "target": "rocket-equation",
+      "label": "contains"
+    }
+  ]
+}

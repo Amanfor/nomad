@@ -1,0 +1,483 @@
+{
+  "title": "Kinetic Theory of Gases",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "kinetic-theory-gases",
+      "label": "Kinetic Theory of Gases",
+      "group": "Kinetic Theory of Gases",
+      "depth": 0,
+      "note": "Kinetic theory models a gas as point molecules in random motion, turning pressure into a statistical average: $$P = \\frac{1}{3}\\rho \\overline{v^2}$$. Degrees of freedom then fix heat capacities."
+    },
+    {
+      "id": "ktg-laws",
+      "label": "Gas Laws and Equation of State",
+      "group": "Gas Laws and Equation of State",
+      "depth": 1,
+      "note": "Empirical gas laws combine into the ideal gas equation $$PV = nRT$$, with $R = 8.314\\ \\text{J}/\\text{mol}\\cdot\\text{K}$."
+    },
+    {
+      "id": "ktg-boyle",
+      "label": "Boyle's Law",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "At fixed temperature, pressure and volume are inverse: $$P \\propto \\frac{1}{V}, \\ P_1V_1 = P_2V_2$$. The isotherm is a rectangular hyperbola on the P-V plane."
+    },
+    {
+      "id": "ktg-charles",
+      "label": "Charles's and Gay-Lussac's Laws",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "At fixed pressure $V \\propto T$; at fixed volume $P \\propto T$: $$\\frac{V_1}{T_1} = \\frac{V_2}{T_2}, \\ \\frac{P_1}{T_1} = \\frac{P_2}{T_2}$$. Absolute temperature in kelvin is mandatory."
+    },
+    {
+      "id": "ktg-combined",
+      "label": "Combined Gas Law",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "One relation covers all three variables: $$\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}$$. It applies to a fixed mass of ideal gas between two equilibrium states."
+    },
+    {
+      "id": "ktg-dalton",
+      "label": "Dalton's Law of Partial Pressures",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "Total pressure is the sum of partial pressures of non-reacting components: $$P = p_1 + p_2 + p_3 + \\dots, \\ p_i = \\frac{n_i}{n}P$$. Moist gas questions subtract water vapour pressure."
+    },
+    {
+      "id": "ktg-dalton-ex",
+      "label": "Dalton Mixture Example",
+      "group": "Gas Laws and Equation of State",
+      "depth": 3,
+      "note": "A $2\\ \\text{L}$ vessel holds $1\\ \\text{mol}$ N$_2$ and $1\\ \\text{mol}$ O$_2$ at $300\\ \\text{K}$: each partial pressure is $p_i = \\frac{n_iRT}{V} \\approx 12.5\\ \\text{atm}$, so $P \\approx 25\\ \\text{atm}$."
+    },
+    {
+      "id": "ktg-graham",
+      "label": "Graham's Law of Diffusion",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "Effusion rates are inversely proportional to the square root of molar mass: $$\\frac{r_1}{r_2} = \\sqrt{\\frac{M_2}{M_1}}$$. It explains isotopic separation of uranium hexafluoride."
+    },
+    {
+      "id": "ktg-graham-ex",
+      "label": "Graham Ratio Example",
+      "group": "Gas Laws and Equation of State",
+      "depth": 3,
+      "note": "He vs O$_2$: $$\\frac{r_{He}}{r_{O_2}} = \\sqrt{\\frac{32}{4}} = \\sqrt{8} \\approx 2.83$$. Helium effuses nearly three times faster."
+    },
+    {
+      "id": "ktg-avogadro",
+      "label": "Avogadro's Hypothesis and Molar Volume",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "Equal volumes of gases at the same $T$ and $P$ contain equal molecules: at STP one mole occupies $22.4\\ \\text{L}$. Density then scales as $$\\rho = \\frac{PM}{RT}$$."
+    },
+    {
+      "id": "ktg-vessel-heating",
+      "label": "Open Vessel Heating",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "An open vessel at fixed $P$ and $V$ loses molecules on heating: $$\\frac{n_2}{n_1} = \\frac{T_1}{T_2}$$. The fraction expelled is $$1 - \\frac{T_1}{T_2}$$."
+    },
+    {
+      "id": "ktg-moist-gas",
+      "label": "Moist Gas Correction",
+      "group": "Gas Laws and Equation of State",
+      "depth": 2,
+      "note": "Gas collected over water contains water vapour: $$P_{gas} = P_{atm} - P_{water}$$. Vapour pressure of water depends only on temperature."
+    },
+    {
+      "id": "ktg-pressure",
+      "label": "Kinetic Theory Postulates and Pressure",
+      "group": "Kinetic Theory Postulates and Pressure",
+      "depth": 1,
+      "note": "Ideal gas molecules are point masses with elastic collisions and no intermolecular forces. Pressure follows from momentum transfer: $$P = \\frac{1}{3}\\frac{N}{V}m\\overline{v^2}$$."
+    },
+    {
+      "id": "ktg-postulates",
+      "label": "Postulates of KTG",
+      "group": "Kinetic Theory Postulates and Pressure",
+      "depth": 2,
+      "note": "Molecules move randomly, collisions are perfectly elastic, and collision time is negligible. Between collisions the gas obeys Newtonian mechanics with pressure emerging statistically."
+    },
+    {
+      "id": "ktg-temp",
+      "label": "Kinetic Interpretation of Temperature",
+      "group": "Kinetic Theory Postulates and Pressure",
+      "depth": 2,
+      "note": "Average translational kinetic energy is proportional to absolute temperature: $$\\frac{1}{2}m\\overline{v^2} = \\frac{3}{2}k_BT$$. This is why $T = 0\\ \\text{K}$ means zero kinetic energy."
+    },
+    {
+      "id": "ktg-vanderwall",
+      "label": "Why Ideal Model Fails at High Density",
+      "group": "Kinetic Theory Postulates and Pressure",
+      "depth": 2,
+      "note": "At high pressure, finite molecular size and attractions matter. The van der Waals correction is $$\\left(P + \\frac{an^2}{V^2}\\right)(V - nb) = nRT$$."
+    },
+    {
+      "id": "ktg-collision-freq",
+      "label": "Collision Frequency",
+      "group": "Kinetic Theory Postulates and Pressure",
+      "depth": 2,
+      "note": "Molecules of one species collide at rate $$Z_1 = \\sqrt{2}\\pi d^2 n \\bar{v}$$. Total intermolecular collisions per unit volume per second scale as $$Z_{11} = \\frac{1}{\\sqrt{2}}\\pi d^2 n^2 \\bar{v}$$."
+    },
+    {
+      "id": "ktg-speeds",
+      "label": "Molecular Speeds",
+      "group": "Molecular Speeds",
+      "depth": 1,
+      "note": "A Maxwell-Boltzmann ensemble yields three characteristic speeds: most probable, mean, and rms. Their ranking is $$v_{mp} < \\bar{v} < v_{rms}$$."
+    },
+    {
+      "id": "ktg-vrms",
+      "label": "RMS Speed",
+      "group": "Molecular Speeds",
+      "depth": 2,
+      "note": "Root-mean-square speed is $$v_{rms} = \\sqrt{\\frac{3RT}{M}} = \\sqrt{\\frac{3k_BT}{m}}$$. It grows as $\\sqrt{T}$ and falls as $\\sqrt{M}$."
+    },
+    {
+      "id": "ktg-vmean",
+      "label": "Mean and Most Probable Speeds",
+      "group": "Molecular Speeds",
+      "depth": 2,
+      "note": "$$\\bar{v} = \\sqrt{\\frac{8RT}{\\pi M}}, \\ v_{mp} = \\sqrt{\\frac{2RT}{M}}$$. The ratio $v_{mp} : \\bar{v} : v_{rms} = 1 : 1.128 : 1.225$ is a frequent JEE ask."
+    },
+    {
+      "id": "ktg-vratio-ex",
+      "label": "Speed Ratio Example",
+      "group": "Molecular Speeds",
+      "depth": 3,
+      "note": "For O$_2$ at $300\\ \\text{K}$, $v_{rms} = \\sqrt{3RT/M} \\approx 483\\ \\text{m}/\\text{s}$, while $v_{mp} \\approx 395\\ \\text{m}/\\text{s}$."
+    },
+    {
+      "id": "ktg-maxwell",
+      "label": "Maxwell-Boltzmann Distribution",
+      "group": "Molecular Speeds",
+      "depth": 2,
+      "note": "The speed probability density is $$f(v) = 4\\pi\\left(\\frac{m}{2\\pi k_BT}\\right)^{3/2} v^2 e^{-mv^2/2k_BT}$$. Higher $T$ flattens and right-shifts the curve."
+    },
+    {
+      "id": "ktg-mfp",
+      "label": "Mean Free Path",
+      "group": "Molecular Speeds",
+      "depth": 2,
+      "note": "Average distance between collisions is $$\\lambda = \\frac{1}{\\sqrt{2}\\,\\pi d^2 n} = \\frac{k_BT}{\\sqrt{2}\\,\\pi d^2 P}$$. It falls as pressure rises."
+    },
+    {
+      "id": "ktg-speed-shift",
+      "label": "Temperature and Molar Mass Shift",
+      "group": "Molecular Speeds",
+      "depth": 2,
+      "note": "The most probable speed scales as $$v_{mp} = \\sqrt{\\frac{2RT}{M}}$$. Heating shifts the Maxwell peak right; heavier gases shift it left."
+    },
+    {
+      "id": "ktg-dof",
+      "label": "Degrees of Freedom and Equipartition",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 1,
+      "note": "Each quadratic energy term contributes $\\frac{1}{2}k_BT$ per molecule. For $f$ degrees of freedom, $$U = \\frac{f}{2}nRT$$."
+    },
+    {
+      "id": "ktg-f-values",
+      "label": "Degrees of Freedom by Gas Type",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 2,
+      "note": "Monatomic gases have $f = 3$ (translation only), diatomic have $f = 5$ at ordinary temperatures (3 translational + 2 rotational), and polyatomic have $f = 6$ with vibrations active."
+    },
+    {
+      "id": "ktg-equipartition",
+      "label": "Law of Equipartition of Energy",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 2,
+      "note": "Energy is shared equally among all accessible quadratic modes: $$E_{mode} = \\frac{1}{2}k_BT$$ per molecule. This explains why adding rotational modes raises heat capacity."
+    },
+    {
+      "id": "ktg-cvcp",
+      "label": "Heat Capacities and Gamma",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 2,
+      "note": "Molar heats satisfy $$C_P - C_V = R, \\ \\gamma = \\frac{C_P}{C_V} = 1 + \\frac{2}{f}$$. So $\\gamma = 5/3$ for monatomic and $7/5$ for diatomic gases."
+    },
+    {
+      "id": "ktg-mixtures",
+      "label": "Gas Mixtures",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 2,
+      "note": "Internal energy is additive: $$U = \\frac{1}{2}(n_1f_1 + n_2f_2)RT$$. Effective gamma is $$\\gamma_{mix} = \\frac{n_1C_{P1} + n_2C_{P2}}{n_1C_{V1} + n_2C_{V2}}$$."
+    },
+    {
+      "id": "ktg-vib",
+      "label": "Vibrational Modes and High-Temperature Failure",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 2,
+      "note": "Vibrations add 2 degrees of freedom per mode, giving $f = 7$ classically. Quantum freezing of modes explains why measured $C_V$ falls below classical predictions at low $T$."
+    },
+    {
+      "id": "ktg-u-ideal",
+      "label": "Internal Energy of Ideal Gas",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 2,
+      "note": "$$U = \\frac{f}{2}nRT = nC_V T$$. Since $U$ depends only on $T$, any isothermal ideal-gas process has $\\Delta U = 0$."
+    },
+    {
+      "id": "ktg-doppler-speeds",
+      "label": "Speeds in Reaction and Effusion",
+      "group": "Degrees of Freedom and Equipartition",
+      "depth": 2,
+      "note": "Effusion rate through a small hole is $$r = \\frac{P}{\\sqrt{2\\pi m k_B T}}$$ per unit area. It yields Graham's law on integration over the Maxwell distribution."
+    },
+    {
+      "id": "ktg-real",
+      "label": "Real Gases",
+      "group": "Real Gases",
+      "depth": 1,
+      "note": "Real gases deviate from ideality, captured by the compressibility factor $$Z = \\frac{PV}{nRT}$$."
+    },
+    {
+      "id": "ktg-z",
+      "label": "Compressibility Factor Z",
+      "group": "Real Gases",
+      "depth": 2,
+      "note": "$Z = 1$ marks ideality; $Z < 1$ shows attraction dominance; $Z > 1$ shows repulsion/finite size. Z vs P curves at fixed $T$ are classic graph questions."
+    },
+    {
+      "id": "ktg-z-ex",
+      "label": "Z Curve Reading",
+      "group": "Real Gases",
+      "depth": 3,
+      "note": "For H$_2$ and He, $Z > 1$ at all pressures near room temperature because repulsions dominate. For CO$_2$, $Z$ dips below 1 at moderate pressures before rising."
+    },
+    {
+      "id": "ktg-vdw-eq",
+      "label": "Van der Waals Equation",
+      "group": "Real Gases",
+      "depth": 2,
+      "note": "$$\\left(P + \\frac{an^2}{V^2}\\right)(V - nb) = nRT$$ with $a$ correcting attraction and $b$ correcting volume. Both constants are material-specific."
+    },
+    {
+      "id": "ktg-critical",
+      "label": "Critical Constants",
+      "group": "Real Gases",
+      "depth": 2,
+      "note": "At the critical point the isotherm has an inflection: $$P_c = \\frac{a}{27b^2}, \\ V_c = 3b, \\ T_c = \\frac{8a}{27Rb}$$. Above $T_c$ no liquefaction is possible."
+    },
+    {
+      "id": "ktg-boyle-temp",
+      "label": "Boyle Temperature",
+      "group": "Real Gases",
+      "depth": 2,
+      "note": "At $T_B$ a real gas mimics ideal behavior over a wide pressure range: $$T_B = \\frac{a}{Rb}$$. Below $T_B$ attractions dominate at low pressure."
+    },
+    {
+      "id": "ktg-virial",
+      "label": "Virial Equation of State",
+      "group": "Real Gases",
+      "depth": 2,
+      "note": "$$\\frac{PV}{RT} = 1 + \\frac{B(T)}{V} + \\frac{C(T)}{V^2} + \\dots$$. From van der Waals, $B(T) = b - a/(RT)$."
+    },
+    {
+      "id": "ktg-liquefaction",
+      "label": "Liquefaction of Gases",
+      "group": "Real Gases",
+      "depth": 2,
+      "note": "A gas liquefies only below its critical temperature: $$T < T_c = \\frac{8a}{27Rb}$$. Cooling plus compression along the Andrews isotherm produces the liquid phase."
+    }
+  ],
+  "edges": [
+    {
+      "source": "kinetic-theory-gases",
+      "target": "ktg-laws",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-boyle",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-charles",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-combined",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-dalton",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dalton",
+      "target": "ktg-dalton-ex",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-graham",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-graham",
+      "target": "ktg-graham-ex",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-avogadro",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-vessel-heating",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-laws",
+      "target": "ktg-moist-gas",
+      "label": "contains"
+    },
+    {
+      "source": "kinetic-theory-gases",
+      "target": "ktg-pressure",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-pressure",
+      "target": "ktg-postulates",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-pressure",
+      "target": "ktg-temp",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-pressure",
+      "target": "ktg-vanderwall",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-pressure",
+      "target": "ktg-collision-freq",
+      "label": "contains"
+    },
+    {
+      "source": "kinetic-theory-gases",
+      "target": "ktg-speeds",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-speeds",
+      "target": "ktg-vrms",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-speeds",
+      "target": "ktg-vmean",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-vmean",
+      "target": "ktg-vratio-ex",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-speeds",
+      "target": "ktg-maxwell",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-speeds",
+      "target": "ktg-mfp",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-speeds",
+      "target": "ktg-speed-shift",
+      "label": "contains"
+    },
+    {
+      "source": "kinetic-theory-gases",
+      "target": "ktg-dof",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dof",
+      "target": "ktg-f-values",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dof",
+      "target": "ktg-equipartition",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dof",
+      "target": "ktg-cvcp",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dof",
+      "target": "ktg-mixtures",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dof",
+      "target": "ktg-vib",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dof",
+      "target": "ktg-u-ideal",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-dof",
+      "target": "ktg-doppler-speeds",
+      "label": "contains"
+    },
+    {
+      "source": "kinetic-theory-gases",
+      "target": "ktg-real",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-real",
+      "target": "ktg-z",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-z",
+      "target": "ktg-z-ex",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-real",
+      "target": "ktg-vdw-eq",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-real",
+      "target": "ktg-critical",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-real",
+      "target": "ktg-boyle-temp",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-real",
+      "target": "ktg-virial",
+      "label": "contains"
+    },
+    {
+      "source": "ktg-real",
+      "target": "ktg-liquefaction",
+      "label": "contains"
+    }
+  ]
+}

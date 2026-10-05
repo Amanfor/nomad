@@ -1,0 +1,519 @@
+{
+  "title": "Work, Energy and Power",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "work-energy-power",
+      "label": "Work, Energy and Power",
+      "group": "Work, Energy and Power",
+      "depth": 0,
+      "note": "Mechanical work, the work-energy theorem, conservation of energy, potential curves, and power. JEE tests variable forces, friction dissipation, equilibrium stability, and constant power kinematics."
+    },
+    {
+      "id": "work-fundamentals",
+      "label": "Mechanical Work",
+      "group": "Mechanical Work",
+      "depth": 1,
+      "note": "Work is the scalar product of force and displacement. It can be positive, negative, or zero depending on the angle between force and displacement."
+    },
+    {
+      "id": "constant-force-work",
+      "label": "Work by Constant Force",
+      "group": "Mechanical Work",
+      "depth": 2,
+      "note": "For a constant force, $$W = \\vec{F} \\cdot \\vec{s} = Fs\\cos\\theta$$ where $$\\theta$$ is the angle between force and displacement. The SI unit is the joule: $$[W] = [M L^2 T^{-2}]$$."
+    },
+    {
+      "id": "work-units",
+      "label": "Dimensions and Units",
+      "group": "Mechanical Work",
+      "depth": 3,
+      "note": "Work has dimensions $$[M L^2 T^{-2}]$$. $$1\\text{ J} = 10^7\\text{ erg}$$. The CGS unit of work is the erg."
+    },
+    {
+      "id": "variable-force-work",
+      "label": "Work by Variable Force",
+      "group": "Mechanical Work",
+      "depth": 2,
+      "note": "For a variable force along a path $$C$$: $$W = \\int_C \\vec{F} \\cdot d\\vec{r} = \\int F_x\\,dx + \\int F_y\\,dy + \\int F_z\\,dz$$."
+    },
+    {
+      "id": "fx-area",
+      "label": "Area Under F-x Curve",
+      "group": "Mechanical Work",
+      "depth": 3,
+      "note": "The work done by a 1D variable force equals the signed area between the $$F$$-$$x$$ curve and the displacement axis: $$W = \\int_{x_i}^{x_f} F(x)\\,dx$$."
+    },
+    {
+      "id": "work-signs",
+      "label": "Sign of Work",
+      "group": "Mechanical Work",
+      "depth": 2,
+      "note": "Positive work ($$0 \\le \\theta < 90^\\circ$$) transfers energy into the body. Negative work ($$90^\\circ < \\theta \\le 180^\\circ$$) extracts energy. Zero work occurs when $$\\theta = 90^\\circ$$."
+    },
+    {
+      "id": "zero-work-cases",
+      "label": "Zero Work Cases",
+      "group": "Mechanical Work",
+      "depth": 3,
+      "note": "Zero work occurs when force is perpendicular to displacement: centripetal force in circular motion, magnetic Lorentz force $$q(\\vec{v} \\times \\vec{B})$$, and normal reaction on a fixed surface."
+    },
+    {
+      "id": "canonical-work",
+      "label": "Work by Canonical Forces",
+      "group": "Mechanical Work",
+      "depth": 2,
+      "note": "Gravity, spring force, and internal tension have standard work formulas that appear repeatedly in JEE problems."
+    },
+    {
+      "id": "gravity-work",
+      "label": "Gravitational Work",
+      "group": "Mechanical Work",
+      "depth": 3,
+      "note": "Near Earth's surface, $$W_g = -mg\\Delta y = mg(y_i - y_f)$$. Gravitational work depends only on initial and final vertical coordinates, not on the path taken."
+    },
+    {
+      "id": "spring-work",
+      "label": "Spring Work",
+      "group": "Mechanical Work",
+      "depth": 3,
+      "note": "For an ideal spring, $$W_s = \\frac{1}{2}k(x_i^2 - x_f^2) = -\\Delta U_s$$. The work done by a spring equals the negative change in spring potential energy."
+    },
+    {
+      "id": "tension-work",
+      "label": "Internal Tension Work",
+      "group": "Mechanical Work",
+      "depth": 3,
+      "note": "For an ideal string connecting multiple masses, internal tension transfers energy without net work: $$\\sum W_T = \\sum \\vec{T} \\cdot d\\vec{s} = 0$$."
+    },
+    {
+      "id": "friction-energy",
+      "label": "Friction and Energy",
+      "group": "Friction and Energy",
+      "depth": 1,
+      "note": "Static friction does zero net work on a system; kinetic friction always dissipates mechanical energy as heat."
+    },
+    {
+      "id": "static-friction-work",
+      "label": "Static Friction Work",
+      "group": "Friction and Energy",
+      "depth": 2,
+      "note": "Static friction can do positive, negative, or zero work on an individual body. But across the entire interacting system, the net work is identically zero: $$\\sum W_{f_s} = 0$$."
+    },
+    {
+      "id": "static-cases",
+      "label": "Static Friction Work Cases",
+      "group": "Friction and Energy",
+      "depth": 3,
+      "note": "A crate accelerating in a truck bed: static friction does positive work. A person walking: the contact foot has zero displacement, so $$W_{f_s} = 0$$. Static friction never dissipates energy."
+    },
+    {
+      "id": "kinetic-friction-work",
+      "label": "Kinetic Friction Dissipation",
+      "group": "Friction and Energy",
+      "depth": 2,
+      "note": "When two bodies slide with relative displacement $$s_{\\text{rel}}$$, the net work of kinetic friction is strictly negative: $$\\sum W_{f_k} = -f_k s_{\\text{rel}} < 0$$."
+    },
+    {
+      "id": "heat-generation",
+      "label": "Heat Generation",
+      "group": "Friction and Energy",
+      "depth": 3,
+      "note": "The lost mechanical energy becomes thermal energy: $$Q_{\\text{heat}} = f_k s_{\\text{rel}}$$. This dissipation is irreversible and independent of the friction coefficient."
+    },
+    {
+      "id": "frame-dependence",
+      "label": "Frame Dependence of Work",
+      "group": "Friction and Energy",
+      "depth": 2,
+      "note": "Work is frame-dependent because displacement changes: $$W' = \\vec{F} \\cdot \\vec{s}' \\ne W$$. However, the work-energy theorem $$W_{\\text{net}} = \\Delta K$$ holds in every inertial frame."
+    },
+    {
+      "id": "work-energy-theorem",
+      "label": "Work-Energy Theorem",
+      "group": "Work-Energy Theorem",
+      "depth": 1,
+      "note": "The net work done on a particle equals its change in kinetic energy. This is the cornerstone of energy methods in mechanics."
+    },
+    {
+      "id": "wet",
+      "label": "Work-Energy Theorem",
+      "group": "Work-Energy Theorem",
+      "depth": 2,
+      "note": "The net work equals the change in kinetic energy: $$W_{\\text{net}} = \\Delta K = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2$$."
+    },
+    {
+      "id": "wet-derivation",
+      "label": "WET Derivation",
+      "group": "Work-Energy Theorem",
+      "depth": 3,
+      "note": "From $$\\vec{F}_{\\text{net}} = m\\frac{d\\vec{v}}{dt}$$: $$W_{\\text{net}} = \\int m\\frac{d\\vec{v}}{dt} \\cdot \\vec{v}\\,dt = \\int m\\vec{v} \\cdot d\\vec{v} = \\left[\\frac{1}{2}mv^2\\right]_{v_i}^{v_f}$$."
+    },
+    {
+      "id": "force-partition",
+      "label": "Force Partitioning",
+      "group": "Work-Energy Theorem",
+      "depth": 2,
+      "note": "Partitioning work into conservative, non-conservative, and external parts: $$W_C + W_{\\text{NC}} + W_{\\text{ext}} = \\Delta K$$. Since $$W_C = -\\Delta U$$, this gives $$W_{\\text{NC}} + W_{\\text{ext}} = \\Delta E_{\\text{mech}}$$."
+    },
+    {
+      "id": "conservation",
+      "label": "Conservation of Mechanical Energy",
+      "group": "Work-Energy Theorem",
+      "depth": 2,
+      "note": "If only conservative forces do work, mechanical energy is conserved: $$\\Delta E_{\\text{mech}} = 0 \\iff K_i + U_i = K_f + U_f = \\text{constant}$$."
+    },
+    {
+      "id": "conservative-fields",
+      "label": "Conservative Fields",
+      "group": "Work-Energy Theorem",
+      "depth": 2,
+      "note": "A force field is conservative if its work is path-independent or equivalently if it can be derived from a scalar potential."
+    },
+    {
+      "id": "curl-condition",
+      "label": "Curl Condition",
+      "group": "Work-Energy Theorem",
+      "depth": 3,
+      "note": "A force field is conservative if and only if $$\\vec{\\nabla} \\times \\vec{F} = \\vec{0}$$. This is the irrotational condition."
+    },
+    {
+      "id": "potential-relation",
+      "label": "Force from Potential",
+      "group": "Work-Energy Theorem",
+      "depth": 3,
+      "note": "A conservative force is the negative gradient of potential energy: $$\\vec{F} = -\\vec{\\nabla}U = -\\left(\\frac{\\partial U}{\\partial x}\\hat{i} + \\frac{\\partial U}{\\partial y}\\hat{j} + \\frac{\\partial U}{\\partial z}\\hat{k}\\right)$$."
+    },
+    {
+      "id": "potential-curves",
+      "label": "Potential Energy Curves",
+      "group": "Potential Energy Curves",
+      "depth": 1,
+      "note": "The $$U(x)$$ curve reveals force, equilibrium stability, and allowed regions of motion."
+    },
+    {
+      "id": "force-gradient",
+      "label": "Force-Potential Gradient",
+      "group": "Potential Energy Curves",
+      "depth": 2,
+      "note": "In one dimension, $$F(x) = -\\frac{dU}{dx}$$. The force points toward decreasing potential energy."
+    },
+    {
+      "id": "equilibrium-stability",
+      "label": "Equilibrium Stability",
+      "group": "Potential Energy Curves",
+      "depth": 2,
+      "note": "Equilibrium occurs where $$\\frac{dU}{dx} = 0$$. The second derivative determines stability."
+    },
+    {
+      "id": "stable",
+      "label": "Stable Equilibrium",
+      "group": "Potential Energy Curves",
+      "depth": 3,
+      "note": "At a local minimum ($$\\frac{d^2U}{dx^2} > 0$$), the force is restoring. The particle executes SHM with $$\\omega = \\sqrt{\\frac{1}{m}\\frac{d^2U}{dx^2}}$$."
+    },
+    {
+      "id": "unstable",
+      "label": "Unstable Equilibrium",
+      "group": "Potential Energy Curves",
+      "depth": 3,
+      "note": "At a local maximum ($$\\frac{d^2U}{dx^2} < 0$$), the force reinforces displacement. The particle accelerates away from equilibrium."
+    },
+    {
+      "id": "neutral",
+      "label": "Neutral Equilibrium",
+      "group": "Potential Energy Curves",
+      "depth": 3,
+      "note": "On a flat plateau ($$\\frac{d^2U}{dx^2} = 0$$), the force remains zero. The particle stays at rest in its new position."
+    },
+    {
+      "id": "turning-points",
+      "label": "Classical Turning Points",
+      "group": "Potential Energy Curves",
+      "depth": 2,
+      "note": "Since $$K(x) = E - U(x) \\ge 0$$, motion is confined to $$U(x) \\le E$$. Turning points occur where $$U(x_t) = E$$ and the particle reverses direction."
+    },
+    {
+      "id": "allowed-regions",
+      "label": "Allowed and Forbidden Regions",
+      "group": "Potential Energy Curves",
+      "depth": 3,
+      "note": "The allowed region is where $$U(x) \\le E$$. Regions where $$U(x) > E$$ would require negative kinetic energy and are classically forbidden."
+    },
+    {
+      "id": "power-dynamics",
+      "label": "Power",
+      "group": "Power",
+      "depth": 1,
+      "note": "Power is the rate of doing work. Constant power motion has distinctive kinematic scaling laws."
+    },
+    {
+      "id": "instantaneous-power",
+      "label": "Instantaneous Power",
+      "group": "Power",
+      "depth": 2,
+      "note": "Instantaneous power is $$P = \\frac{dW}{dt} = \\vec{F} \\cdot \\vec{v} = Fv\\cos\\theta$$. Net power equals the rate of change of kinetic energy: $$P_{\\text{net}} = \\frac{dK}{dt}$$."
+    },
+    {
+      "id": "average-power",
+      "label": "Average Power",
+      "group": "Power",
+      "depth": 3,
+      "note": "Average power is $$P_{\\text{avg}} = \\frac{\\Delta W}{\\Delta t} = \\frac{W_{\\text{total}}}{\\Delta t}$$."
+    },
+    {
+      "id": "constant-power",
+      "label": "Motion Under Constant Power",
+      "group": "Power",
+      "depth": 2,
+      "note": "An engine delivering constant power $$P$$ to a vehicle of mass $$m$$ from rest produces characteristic scaling laws."
+    },
+    {
+      "id": "velocity-scaling",
+      "label": "Velocity Scaling",
+      "group": "Power",
+      "depth": 3,
+      "note": "From $$P = mv\\frac{dv}{dt}$$: $$v(t) = \\sqrt{\\frac{2P}{m}}\\,t^{1/2} \\propto t^{1/2}$$."
+    },
+    {
+      "id": "displacement-scaling",
+      "label": "Displacement Scaling",
+      "group": "Power",
+      "depth": 3,
+      "note": "Integrating velocity: $$x(t) = \\frac{2}{3}\\sqrt{\\frac{2P}{m}}\\,t^{3/2} \\propto t^{3/2}$$. Acceleration decreases as $$a = \\frac{P}{mv} \\propto t^{-1/2}$$."
+    },
+    {
+      "id": "advanced-applications",
+      "label": "Advanced Applications",
+      "group": "Power",
+      "depth": 2,
+      "note": "Hanging chain work and conveyor belt mechanics involve continuous mass redistribution and energy dissipation."
+    },
+    {
+      "id": "hanging-chain",
+      "label": "Hanging Chain Work",
+      "group": "Power",
+      "depth": 3,
+      "note": "For a uniform chain of mass $$M$$ and length $$L$$ with fraction $$1/n$$ hanging, the work to pull it up is $$W = \\frac{MgL}{2n^2}$$. This uses the center of mass of the hanging segment."
+    },
+    {
+      "id": "conveyor-belt",
+      "label": "Conveyor Belt 50% Law",
+      "group": "Power",
+      "depth": 3,
+      "note": "Sand falling on a conveyor belt moving at speed $$v$$: motor power is $$P_{\\text{motor}} = v^2\\frac{dm}{dt}$$. Exactly 50% becomes kinetic energy; 50% is dissipated as heat."
+    }
+  ],
+  "edges": [
+    {
+      "source": "work-energy-power",
+      "target": "work-fundamentals",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-power",
+      "target": "friction-energy",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-power",
+      "target": "work-energy-theorem",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-power",
+      "target": "potential-curves",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-power",
+      "target": "power-dynamics",
+      "label": "contains"
+    },
+    {
+      "source": "work-fundamentals",
+      "target": "constant-force-work",
+      "label": "contains"
+    },
+    {
+      "source": "work-fundamentals",
+      "target": "variable-force-work",
+      "label": "contains"
+    },
+    {
+      "source": "work-fundamentals",
+      "target": "work-signs",
+      "label": "contains"
+    },
+    {
+      "source": "work-fundamentals",
+      "target": "canonical-work",
+      "label": "contains"
+    },
+    {
+      "source": "constant-force-work",
+      "target": "work-units",
+      "label": "contains"
+    },
+    {
+      "source": "variable-force-work",
+      "target": "fx-area",
+      "label": "contains"
+    },
+    {
+      "source": "work-signs",
+      "target": "zero-work-cases",
+      "label": "contains"
+    },
+    {
+      "source": "canonical-work",
+      "target": "gravity-work",
+      "label": "contains"
+    },
+    {
+      "source": "canonical-work",
+      "target": "spring-work",
+      "label": "contains"
+    },
+    {
+      "source": "canonical-work",
+      "target": "tension-work",
+      "label": "contains"
+    },
+    {
+      "source": "friction-energy",
+      "target": "static-friction-work",
+      "label": "contains"
+    },
+    {
+      "source": "friction-energy",
+      "target": "kinetic-friction-work",
+      "label": "contains"
+    },
+    {
+      "source": "friction-energy",
+      "target": "frame-dependence",
+      "label": "contains"
+    },
+    {
+      "source": "static-friction-work",
+      "target": "static-cases",
+      "label": "contains"
+    },
+    {
+      "source": "kinetic-friction-work",
+      "target": "heat-generation",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-theorem",
+      "target": "wet",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-theorem",
+      "target": "force-partition",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-theorem",
+      "target": "conservation",
+      "label": "contains"
+    },
+    {
+      "source": "work-energy-theorem",
+      "target": "conservative-fields",
+      "label": "contains"
+    },
+    {
+      "source": "wet",
+      "target": "wet-derivation",
+      "label": "contains"
+    },
+    {
+      "source": "conservative-fields",
+      "target": "curl-condition",
+      "label": "contains"
+    },
+    {
+      "source": "conservative-fields",
+      "target": "potential-relation",
+      "label": "contains"
+    },
+    {
+      "source": "potential-curves",
+      "target": "force-gradient",
+      "label": "contains"
+    },
+    {
+      "source": "potential-curves",
+      "target": "equilibrium-stability",
+      "label": "contains"
+    },
+    {
+      "source": "potential-curves",
+      "target": "turning-points",
+      "label": "contains"
+    },
+    {
+      "source": "equilibrium-stability",
+      "target": "stable",
+      "label": "contains"
+    },
+    {
+      "source": "equilibrium-stability",
+      "target": "unstable",
+      "label": "contains"
+    },
+    {
+      "source": "equilibrium-stability",
+      "target": "neutral",
+      "label": "contains"
+    },
+    {
+      "source": "turning-points",
+      "target": "allowed-regions",
+      "label": "contains"
+    },
+    {
+      "source": "power-dynamics",
+      "target": "instantaneous-power",
+      "label": "contains"
+    },
+    {
+      "source": "power-dynamics",
+      "target": "constant-power",
+      "label": "contains"
+    },
+    {
+      "source": "power-dynamics",
+      "target": "advanced-applications",
+      "label": "contains"
+    },
+    {
+      "source": "instantaneous-power",
+      "target": "average-power",
+      "label": "contains"
+    },
+    {
+      "source": "constant-power",
+      "target": "velocity-scaling",
+      "label": "contains"
+    },
+    {
+      "source": "constant-power",
+      "target": "displacement-scaling",
+      "label": "contains"
+    },
+    {
+      "source": "advanced-applications",
+      "target": "hanging-chain",
+      "label": "contains"
+    },
+    {
+      "source": "advanced-applications",
+      "target": "conveyor-belt",
+      "label": "contains"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "title": "Wave Optics and Interference",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "wave-optics",
+      "label": "Wave Optics and Interference",
+      "group": "Wave Optics and Interference",
+      "depth": 0,
+      "note": "Wave optics drops the ray picture and tracks phase, so interference, diffraction, and polarization follow from superposing wavefronts. Every result reduces to one path difference and one condition such as $$\\Delta x = n\\lambda$$."
+    },
+    {
+      "id": "wo-huygens",
+      "label": "Huygens' Principle",
+      "group": "Huygens' Principle",
+      "depth": 1,
+      "note": "Every point on a primary wavefront is a source of secondary wavelets whose envelope forms the next wavefront. The construction rebuilds both laws of optics from geometry alone, starting from $$v = f\\lambda$$."
+    },
+    {
+      "id": "wo-wavefronts",
+      "label": "Wavefronts and Wavelets",
+      "group": "Huygens' Principle",
+      "depth": 2,
+      "note": "A wavefront is the locus of points in the same phase, and the ray is normal to it. Plane waves from a distant source travel at $$v = \\frac{c}{\\mu}$$ in a medium of index $$\\mu$$."
+    },
+    {
+      "id": "wo-huygens-reflection",
+      "label": "Reflection from Huygens' Construction",
+      "group": "Huygens' Principle",
+      "depth": 2,
+      "note": "Comparing equal-time secondary wavelets on both sides of the interface tilts the new wavefront by the same amount the ray turns. This recovers the law of reflection: $$i = r$$."
+    },
+    {
+      "id": "wo-huygens-refraction",
+      "label": "Refraction from Huygens' Construction",
+      "group": "Huygens' Principle",
+      "depth": 2,
+      "note": "Different wave speeds on the two sides rotate the wavefront and bend the ray. The construction gives Snell's law as a speed ratio: $$\\frac{\\sin i}{\\sin r} = \\frac{v_1}{v_2} = \\frac{\\lambda_1}{\\lambda_2}$$."
+    },
+    {
+      "id": "wo-wavefront-shaping",
+      "label": "Wavefront Shaping by Elements",
+      "group": "Huygens' Principle",
+      "depth": 2,
+      "note": "Lenses and mirrors bend wavefronts without changing their frequency, so a plane wavefront emerges as a converging one. A converging wavefront of radius $$R$$ focuses at the centre of curvature, giving $$f = \\frac{R}{2}$$ for a mirror."
+    },
+    {
+      "id": "wo-superposition",
+      "label": "Superposition and Coherence",
+      "group": "Superposition and Coherence",
+      "depth": 1,
+      "note": "Displacements add linearly while the waves overlap, and the constant phase difference between them decides the pattern. The resultant amplitude follows $$R^2 = a_1^2 + a_2^2 + 2a_1a_2\\cos\\phi$$."
+    },
+    {
+      "id": "wo-resultant",
+      "label": "Resultant of Two Harmonic Vibrations",
+      "group": "Superposition and Coherence",
+      "depth": 2,
+      "note": "Two same-frequency oscillations combine into one oscillation of the same frequency. The amplitude is $$R = \\sqrt{a_1^2 + a_2^2 + 2a_1a_2\\cos\\phi}$$, which lies between $$|a_1 - a_2|$$ and $$a_1 + a_2$$."
+    },
+    {
+      "id": "wo-intensity",
+      "label": "Intensity and Phase Difference",
+      "group": "Superposition and Coherence",
+      "depth": 2,
+      "note": "Intensity adds with a cross term set by the phase difference: $$I = I_1 + I_2 + 2\\sqrt{I_1I_2}\\cos\\phi$$. For equal sources this collapses to $$I = 4I_0\\cos^2\\left(\\frac{\\phi}{2}\\right)$$."
+    },
+    {
+      "id": "wo-conditions",
+      "label": "Constructive and Destructive Conditions",
+      "group": "Superposition and Coherence",
+      "depth": 2,
+      "note": "Maxima need whole-wavelength path difference and minima need a half-odd number of them: $$\\Delta x = n\\lambda$$ bright, $$\\Delta x = \\left(n + \\frac{1}{2}\\right)\\lambda$$ dark. In phase language these are $$\\phi = 2n\\pi$$ and $$\\phi = (2n + 1)\\pi$$."
+    },
+    {
+      "id": "wo-coherence",
+      "label": "Coherence and Energy Sharing",
+      "group": "Superposition and Coherence",
+      "depth": 2,
+      "note": "Coherent sources share a fixed phase relation, which only division of a single wavefront or division of amplitude can guarantee. Time-averaging the interference term gives $$\\langle I \\rangle = I_1 + I_2$$, so energy is redistributed, never created."
+    },
+    {
+      "id": "wo-ydse",
+      "label": "Young's Double Slit Experiment",
+      "group": "Young's Double Slit Experiment",
+      "depth": 1,
+      "note": "Two slits fed by one wavefront act as coherent sources separated by $$d$$ and screened at distance $$D$$. Brightness on the screen is decided by $$\\Delta x = \\frac{yd}{D}$$."
+    },
+    {
+      "id": "wo-path-difference",
+      "label": "Path Difference Geometry",
+      "group": "Young's Double Slit Experiment",
+      "depth": 2,
+      "note": "For a distant screen the extra path from one slit is the projection of the slit separation: $$\\Delta x = d\\sin\\theta$$. With $$D \\gg d$$ this becomes $$\\sin\\theta \\approx \\tan\\theta = \\frac{y}{D}$$."
+    },
+    {
+      "id": "wo-fringe-width",
+      "label": "Fringe Positions and Width",
+      "group": "Young's Double Slit Experiment",
+      "depth": 2,
+      "note": "Bright fringes sit at $$y_n = \\frac{n\\lambda D}{d}$$ and dark ones halfway between them. Consecutive fringes are separated by the fringe width $$\\beta = \\frac{\\lambda D}{d}$$."
+    },
+    {
+      "id": "wo-ydse-intensity",
+      "label": "Intensity Pattern on the Screen",
+      "group": "Young's Double Slit Experiment",
+      "depth": 2,
+      "note": "Substituting the path difference into the intensity law gives a smooth cosine-squared profile. $$I = 4I_0\\cos^2\\left(\\frac{\\pi y d}{\\lambda D}\\right)$$, so minima are perfectly dark for equal amplitudes."
+    },
+    {
+      "id": "wo-fringe-count",
+      "label": "Maximum Number of Fringes",
+      "group": "Young's Double Slit Experiment",
+      "depth": 2,
+      "note": "The order cannot exceed the geometric limit $$|\\sin\\theta| \\le 1$$, so $$n_{max} = \\left\\lfloor \\frac{d}{\\lambda} \\right\\rfloor$$. The screen therefore holds about $$N = 2n_{max} + 1$$ bright fringes in total."
+    },
+    {
+      "id": "wo-medium-effect",
+      "label": "YDSE Immersed in a Medium",
+      "group": "Young's Double Slit Experiment",
+      "depth": 2,
+      "note": "Filling the apparatus shortens the wavelength, so the whole pattern contracts toward the centre. $$\\lambda_{med} = \\frac{\\lambda_{air}}{\\mu}$$ implies $$\\beta_{med} = \\frac{\\beta_{air}}{\\mu}$$."
+    },
+    {
+      "id": "wo-white-light",
+      "label": "White Light Fringes",
+      "group": "Young's Double Slit Experiment",
+      "depth": 2,
+      "note": "At the centre every wavelength has zero path difference, so the central fringe stays white. Since $$y_n = \\frac{n\\lambda D}{d}$$ depends on colour, higher orders spread into a spectrum and fade."
+    },
+    {
+      "id": "wo-optical-path",
+      "label": "Optical Path and Slab Shifts",
+      "group": "Optical Path and Slab Shifts",
+      "depth": 1,
+      "note": "Light travels slower in matter, so a slab makes a ray take the time of a longer vacuum path. Optical path is therefore $$L_{opt} = \\mu x$$."
+    },
+    {
+      "id": "wo-optical-path-def",
+      "label": "Optical Path Length",
+      "group": "Optical Path and Slab Shifts",
+      "depth": 2,
+      "note": "A geometric length $$x$$ in index $$\\mu$$ delays light as much as $$\\mu x$$ in vacuum: $$L_{opt} = \\mu x$$. The transit time over that length is $$t = \\frac{\\mu x}{c}$$."
+    },
+    {
+      "id": "wo-slab-shift",
+      "label": "Fringe Shift by a Dielectric Slab",
+      "group": "Optical Path and Slab Shifts",
+      "depth": 2,
+      "note": "A slab of thickness $$t$$ and index $$\\mu$$ in one arm adds optical path $$(\\mu - 1)t$$ and drags the pattern toward that slit. The central fringe moves by $$\\Delta y = \\frac{(\\mu - 1)t D}{d}$$, shifting $$N = \\frac{(\\mu - 1)t}{\\lambda}$$ fringes."
+    },
+    {
+      "id": "wo-slab-both",
+      "label": "Slabs Before Both Slits",
+      "group": "Optical Path and Slab Shifts",
+      "depth": 2,
+      "note": "Equal slabs in both arms add the same delay to each path, so the difference never changes. The pattern stays put: $$\\Delta y = 0$$. Unequal slabs instead give $$\\Delta y = \\frac{[(\\mu_1 - 1)t_1 - (\\mu_2 - 1)t_2]D}{d}$$."
+    },
+    {
+      "id": "wo-shift-count",
+      "label": "Counting Shifted Fringes",
+      "group": "Optical Path and Slab Shifts",
+      "depth": 2,
+      "note": "Fringes shift by one whenever the added optical path reaches a wavelength, so counting shift equals counting extra waves. The count is $$N = \\frac{(\\mu - 1)t}{\\lambda}$$ for one slabbed arm."
+    },
+    {
+      "id": "wo-division-wavefront",
+      "label": "Wavefront Division Experiments",
+      "group": "Wavefront Division Experiments",
+      "depth": 1,
+      "note": "These experiments slice one wavefront into pieces, which guarantees coherence without splitting intensity by amplitude. The screen pattern is always $$\\beta = \\frac{\\lambda D}{d}$$ with an effective source separation $$d$$."
+    },
+    {
+      "id": "wo-biprism",
+      "label": "Fresnel's Biprism",
+      "group": "Wavefront Division Experiments",
+      "depth": 2,
+      "note": "A shallow prism pair creates two interfering virtual images of one narrow source. Their separation is $$d = 2a(\\mu - 1)\\alpha$$, so the fringes follow $$\\beta = \\frac{\\lambda D}{d}$$."
+    },
+    {
+      "id": "wo-lloyds",
+      "label": "Lloyd's Single Mirror",
+      "group": "Wavefront Division Experiments",
+      "depth": 2,
+      "note": "A plane mirror makes a virtual source from the same real source, so the two beams are automatically coherent. Reflection adds a half-wave, giving $$\\Delta x = 2d\\sin\\theta + \\frac{\\lambda}{2}$$ and a dark edge along the mirror."
+    },
+    {
+      "id": "wo-coherent-pair",
+      "label": "Building a Coherent Pair",
+      "group": "Wavefront Division Experiments",
+      "depth": 2,
+      "note": "Splitting one wavefront keeps the two beams locked to the same source phase, unlike two independent lamps. The fringe contrast then reaches its ideal value $$\\frac{I_{max} - I_{min}}{I_{max} + I_{min}} = 1$$."
+    },
+    {
+      "id": "wo-thin-films",
+      "label": "Thin Film Interference",
+      "group": "Thin Film Interference",
+      "depth": 1,
+      "note": "A film splits one ray into a reflected and a refracted pair that later recombine, dividing amplitude rather than wavefront. Path difference comes from the double traverse $$2\\mu d\\cos r$$."
+    },
+    {
+      "id": "wo-stokes",
+      "label": "Stokes' Phase Reversal",
+      "group": "Thin Film Interference",
+      "depth": 2,
+      "note": "Reflection at a denser boundary flips the phase by $$\\pi$$, which counts as an extra $$\\frac{\\lambda}{2}$$ of path. Reflection from a rarer boundary and every transmission suffer no such jump."
+    },
+    {
+      "id": "wo-film-reflected",
+      "label": "Reflected Bright and Dark Conditions",
+      "group": "Thin Film Interference",
+      "depth": 2,
+      "note": "Counting the half-wave from the top reflection flips the usual rule: bright in reflection needs $$2\\mu d\\cos r = \\left(n + \\frac{1}{2}\\right)\\lambda$$. Dark in reflection follows $$2\\mu d\\cos r = n\\lambda$$."
+    },
+    {
+      "id": "wo-film-transmitted",
+      "label": "Transmitted Light and Complementarity",
+      "group": "Thin Film Interference",
+      "depth": 2,
+      "note": "Transmitted rays pick up no boundary phase shift, so their conditions are the exact inverse of the reflected ones: $$2\\mu d\\cos r = n\\lambda$$ is bright. Whatever one beam loses the other gains, keeping energy consistent."
+    },
+    {
+      "id": "wo-film-colours",
+      "label": "Colours of Soap Films",
+      "group": "Thin Film Interference",
+      "depth": 2,
+      "note": "Under white light each thickness and viewing angle selects a different wavelength, painting the film in bands. Selection obeys $$2\\mu d\\cos r = \\left(n + \\frac{1}{2}\\right)\\lambda$$ as $$d$$ and $$r$$ vary across the film."
+    },
+    {
+      "id": "wo-wedge-films",
+      "label": "Wedge Film Fringes",
+      "group": "Thin Film Interference",
+      "depth": 2,
+      "note": "A wedge of small angle $$\\theta$$ has thickness growing linearly along it, so equal-thickness fringes are straight and equally spaced. The spacing is $$\\beta = \\frac{\\lambda}{2\\mu\\theta}$$ for near-normal viewing."
+    },
+    {
+      "id": "wo-diffraction",
+      "label": "Single-Slit Diffraction",
+      "group": "Single-Slit Diffraction",
+      "depth": 1,
+      "note": "An aperture comparable to the wavelength spreads light into the geometric shadow, making the central band the brightest. Edge-to-edge path difference for a slit of width $$a$$ is $$\\Delta x = a\\sin\\theta$$."
+    },
+    {
+      "id": "wo-diff-minima",
+      "label": "Diffraction Minima",
+      "group": "Single-Slit Diffraction",
+      "depth": 2,
+      "note": "The slit splits into pairs of half-wave zones that cancel whenever the edge path difference is a full wavelength. Dark fringes obey $$a\\sin\\theta = n\\lambda$$ for $$n = 1, 2, 3, \\dots$$."
+    },
+    {
+      "id": "wo-diff-maxima",
+      "label": "Secondary Maxima",
+      "group": "Single-Slit Diffraction",
+      "depth": 2,
+      "note": "Between neighbouring minima one uncompensated zone survives and makes a weak bright band. The condition is $$a\\sin\\theta = \\left(n + \\frac{1}{2}\\right)\\lambda$$, and peak intensities fall as $$1 : 0.045 : 0.016 : \\dots$$."
+    },
+    {
+      "id": "wo-diff-central",
+      "label": "Central Maximum Width",
+      "group": "Single-Slit Diffraction",
+      "depth": 2,
+      "note": "The central band is bounded by the first minima on both sides, so it is twice as wide as any other band. Its linear width on a screen at $$D$$ is $$\\beta_0 = \\frac{2\\lambda D}{a}$$."
+    },
+    {
+      "id": "wo-diff-intensity",
+      "label": "Diffraction Intensity Profile",
+      "group": "Single-Slit Diffraction",
+      "depth": 2,
+      "note": "Fraunhofer intensity is the squared sinc of the slit phase parameter: $$I = I_0\\left(\\frac{\\sin\\alpha}{\\alpha}\\right)^2$$. The parameter is $$\\alpha = \\frac{\\pi a\\sin\\theta}{\\lambda}$$, and $$\\alpha = 0$$ gives the central peak."
+    },
+    {
+      "id": "wo-slit-width",
+      "label": "Slit Width Trade-off",
+      "group": "Single-Slit Diffraction",
+      "depth": 2,
+      "note": "Narrowing the slit spreads the pattern because first minima satisfy $$\\sin\\theta = \\frac{\\lambda}{a}$$. Interference fringes stay fixed while diffraction fringes widen, so diffraction sets the visible envelope."
+    },
+    {
+      "id": "wo-resolution",
+      "label": "Resolution and Polarization",
+      "group": "Resolution and Polarization",
+      "depth": 1,
+      "note": "Diffraction blurs point sources and polarization exposes the transverse character of light. Rayleigh's criterion turns blur into a number: $$d\\theta = \\frac{1.22\\lambda}{D}$$."
+    },
+    {
+      "id": "wo-rayleigh",
+      "label": "Rayleigh's Criterion",
+      "group": "Resolution and Polarization",
+      "depth": 2,
+      "note": "Two sources are just resolved when the central maximum of one falls on the first minimum of the other. A circular aperture of diameter $$D$$ then limits angular separation to $$d\\theta = \\frac{1.22\\lambda}{D}$$."
+    },
+    {
+      "id": "wo-microscope-rp",
+      "label": "Microscope Resolving Limit",
+      "group": "Resolution and Polarization",
+      "depth": 2,
+      "note": "A microscope separates points at a minimum distance set by numerical aperture $$NA = \\mu\\sin\\theta$$. The limit is $$\\Delta d = \\frac{1.22\\lambda}{2\\mu\\sin\\theta}$$, so resolving power is $$RP = \\frac{1}{\\Delta d}$$."
+    },
+    {
+      "id": "wo-brewster",
+      "label": "Brewster's Law",
+      "group": "Resolution and Polarization",
+      "depth": 2,
+      "note": "At the polarizing angle the reflected ray is fully plane-polarized and stands perpendicular to the refracted ray. That geometry gives $$\\tan i_p = \\mu$$, so the reflected and refracted beams are 90 degrees apart."
+    },
+    {
+      "id": "wo-malus",
+      "label": "Malus's Law",
+      "group": "Resolution and Polarization",
+      "depth": 2,
+      "note": "Only the analyzer-parallel component of the electric vector gets through, so intensity falls with the squared cosine: $$I = I_0\\cos^2\\theta$$. An ideal polarizer cuts unpolarized light to half: $$I = \\frac{I_0}{2}$$."
+    },
+    {
+      "id": "wo-transverse",
+      "label": "Transverse Nature of Light",
+      "group": "Resolution and Polarization",
+      "depth": 2,
+      "note": "Polarization is impossible for longitudinal waves, so it proves the electric oscillation is transverse to propagation. The wave speed follows from vacuum constants: $$c = \\frac{1}{\\sqrt{\\mu_0\\varepsilon_0}}$$."
+    }
+  ],
+  "edges": [
+    { "source": "wave-optics", "target": "wo-huygens", "label": "contains" },
+    { "source": "wo-huygens", "target": "wo-wavefronts", "label": "contains" },
+    { "source": "wo-huygens", "target": "wo-huygens-reflection", "label": "contains" },
+    { "source": "wo-huygens", "target": "wo-huygens-refraction", "label": "contains" },
+    { "source": "wo-huygens", "target": "wo-wavefront-shaping", "label": "contains" },
+    { "source": "wave-optics", "target": "wo-superposition", "label": "contains" },
+    { "source": "wo-superposition", "target": "wo-resultant", "label": "contains" },
+    { "source": "wo-superposition", "target": "wo-intensity", "label": "contains" },
+    { "source": "wo-superposition", "target": "wo-conditions", "label": "contains" },
+    { "source": "wo-superposition", "target": "wo-coherence", "label": "contains" },
+    { "source": "wave-optics", "target": "wo-ydse", "label": "contains" },
+    { "source": "wo-ydse", "target": "wo-path-difference", "label": "contains" },
+    { "source": "wo-ydse", "target": "wo-fringe-width", "label": "contains" },
+    { "source": "wo-ydse", "target": "wo-ydse-intensity", "label": "contains" },
+    { "source": "wo-ydse", "target": "wo-fringe-count", "label": "contains" },
+    { "source": "wo-ydse", "target": "wo-medium-effect", "label": "contains" },
+    { "source": "wo-ydse", "target": "wo-white-light", "label": "contains" },
+    { "source": "wave-optics", "target": "wo-optical-path", "label": "contains" },
+    { "source": "wo-optical-path", "target": "wo-optical-path-def", "label": "contains" },
+    { "source": "wo-optical-path", "target": "wo-slab-shift", "label": "contains" },
+    { "source": "wo-optical-path", "target": "wo-slab-both", "label": "contains" },
+    { "source": "wo-optical-path", "target": "wo-shift-count", "label": "contains" },
+    { "source": "wave-optics", "target": "wo-division-wavefront", "label": "contains" },
+    { "source": "wo-division-wavefront", "target": "wo-biprism", "label": "contains" },
+    { "source": "wo-division-wavefront", "target": "wo-lloyds", "label": "contains" },
+    { "source": "wo-division-wavefront", "target": "wo-coherent-pair", "label": "contains" },
+    { "source": "wave-optics", "target": "wo-thin-films", "label": "contains" },
+    { "source": "wo-thin-films", "target": "wo-stokes", "label": "contains" },
+    { "source": "wo-thin-films", "target": "wo-film-reflected", "label": "contains" },
+    { "source": "wo-thin-films", "target": "wo-film-transmitted", "label": "contains" },
+    { "source": "wo-thin-films", "target": "wo-film-colours", "label": "contains" },
+    { "source": "wo-thin-films", "target": "wo-wedge-films", "label": "contains" },
+    { "source": "wave-optics", "target": "wo-diffraction", "label": "contains" },
+    { "source": "wo-diffraction", "target": "wo-diff-minima", "label": "contains" },
+    { "source": "wo-diffraction", "target": "wo-diff-maxima", "label": "contains" },
+    { "source": "wo-diffraction", "target": "wo-diff-central", "label": "contains" },
+    { "source": "wo-diffraction", "target": "wo-diff-intensity", "label": "contains" },
+    { "source": "wo-diffraction", "target": "wo-slit-width", "label": "contains" },
+    { "source": "wave-optics", "target": "wo-resolution", "label": "contains" },
+    { "source": "wo-resolution", "target": "wo-rayleigh", "label": "contains" },
+    { "source": "wo-resolution", "target": "wo-microscope-rp", "label": "contains" },
+    { "source": "wo-resolution", "target": "wo-brewster", "label": "contains" },
+    { "source": "wo-resolution", "target": "wo-malus", "label": "contains" },
+    { "source": "wo-resolution", "target": "wo-transverse", "label": "contains" }
+  ]
+}

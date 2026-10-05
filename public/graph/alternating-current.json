@@ -1,0 +1,603 @@
+{
+  "title": "Alternating Current",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "alternating-current",
+      "label": "Alternating Current",
+      "group": "Alternating Current",
+      "depth": 0,
+      "note": "AC circuits force steady-state phasor treatment of $R$, $L$, $C$ elements, impedance, resonance, and power factor. JEE Main tests RMS values, LCR resonance, bandwidth $Q$, and transformer ratios. Sinusoidal quantities use $$I(t) = I_0\\sin(\\omega t + \\phi)$$, $\\omega = 2\\pi f$."
+    },
+    {
+      "id": "ac-principles",
+      "label": "Principles and AC Generation",
+      "group": "Principles and AC Generation",
+      "depth": 1,
+      "note": "AC varies sinusoidally; a rotating coil in a magnetic field is the canonical generator. Angular frequency is $$\\omega = 2\\pi f = 2\\pi/T$$."
+    },
+    {
+      "id": "ac-def",
+      "label": "Definition of AC",
+      "group": "Principles and AC Generation",
+      "depth": 2,
+      "note": "Alternating current reverses direction periodically: $$I(t) = I_0 \\sin(\\omega t + \\phi)$$ with $\\omega = 2\\pi f$. One full reversal takes $T = 1/f = 2\\pi/\\omega$."
+    },
+    {
+      "id": "ac-generator",
+      "label": "Dynamo Principle",
+      "group": "Principles and AC Generation",
+      "depth": 2,
+      "note": "A coil of area $A$, $N$ turns, rotating at $\\omega$ in field $B$ has flux $NAB\\cos\\omega t$, so $$\\varepsilon = NBA\\omega \\sin\\omega t = \\varepsilon_0 \\sin\\omega t$$. Peak EMF scales with $N, B, A, \\omega$."
+    },
+    {
+      "id": "ac-rms",
+      "label": "Average and RMS Values",
+      "group": "Average and RMS Values",
+      "depth": 1,
+      "note": "Average and RMS values connect sinusoidal waveforms to equivalent DC heating effect. RMS of a sine is $$I_{rms} = I_0/\\sqrt{2}$$."
+    },
+    {
+      "id": "ac-average",
+      "label": "Average Value",
+      "group": "Average and RMS Values",
+      "depth": 2,
+      "note": "Over a full half-cycle the mean of $I_0\\sin\\omega t$ is $$I_{av} = \\frac{2 I_0}{\\pi}$$. Full-cycle average is zero because positive and negative halves cancel."
+    },
+    {
+      "id": "ac-rms-value",
+      "label": "RMS Value",
+      "group": "Average and RMS Values",
+      "depth": 2,
+      "note": "RMS is defined by equal heating in a resistor: $$I_{rms} = \\frac{I_0}{\\sqrt{2}}, \\ V_{rms} = \\frac{V_0}{\\sqrt{2}}$$ for pure sinusoids. Mains $230\\text{ V}$ means $V_0 \\approx 325\\text{ V}$."
+    },
+    {
+      "id": "ac-form-factor",
+      "label": "Form Factor and Hot Wire",
+      "group": "Average and RMS Values",
+      "depth": 2,
+      "note": "Form factor $= I_{rms}/I_{av} = (\\pi/2)/\\sqrt{2} \\approx 1.11$ for a sine wave. Hot-wire instruments read RMS because expansion tracks $I^2R$ heating. Form factor $$= \\frac{I_{rms}}{I_{av}} = \\frac{\\pi}{2\\sqrt{2}} \\approx 1.11$$."
+    },
+    {
+      "id": "ac-pure",
+      "label": "Pure Element Response and Phasors",
+      "group": "Pure Element Response and Phasors",
+      "depth": 1,
+      "note": "Each pure element responds with a characteristic phase shift between voltage and current. Reactances: $$X_L = \\omega L, \\ X_C = 1/(\\omega C)$$."
+    },
+    {
+      "id": "ac-resistor",
+      "label": "Pure Resistor",
+      "group": "Pure Element Response and Phasors",
+      "depth": 2,
+      "note": "For $V = V_0\\sin\\omega t$ across $R$, $$I = \\frac{V_0}{R}\\sin\\omega t$$ in phase with voltage. Average power $P = V_{rms}I_{rms}$ is dissipated as heat."
+    },
+    {
+      "id": "ac-inductor",
+      "label": "Pure Inductor",
+      "group": "Pure Element Response and Phasors",
+      "depth": 2,
+      "note": "Inductive reactance $X_L = \\omega L$ gives $$I = \\frac{V_0}{\\omega L}\\sin\\left(\\omega t - \\frac{\\pi}{2}\\right)$$ Current lags voltage by $90^\\circ$."
+    },
+    {
+      "id": "ac-capacitor",
+      "label": "Pure Capacitor",
+      "group": "Pure Element Response and Phasors",
+      "depth": 2,
+      "note": "Capacitive reactance $X_C = 1/(\\omega C)$ gives $$I = \\omega C V_0 \\sin\\left(\\omega t + \\frac{\\pi}{2}\\right)$$ Current leads voltage by $90^\\circ$."
+    },
+    {
+      "id": "ac-phasor",
+      "label": "Phasor Diagrams",
+      "group": "Pure Element Response and Phasors",
+      "depth": 2,
+      "note": "Phasors are rotating vectors of amplitude equal to peak value; phase differences come from angles. Adding voltages uses vector sums, e.g. $V = \\sqrt{V_R^2 + (V_L - V_C)^2}$. Phasor amplitude equals peak value and angle gives phase lag."
+    },
+    {
+      "id": "ac-two-element",
+      "label": "Two-Element Series Circuits",
+      "group": "Two-Element Series Circuits",
+      "depth": 1,
+      "note": "Two-element series circuits combine resistance with reactance in an impedance triangle. Series RL: $$Z = \\sqrt{R^2 + (\\omega L)^2}$$."
+    },
+    {
+      "id": "ac-rl",
+      "label": "Series RL",
+      "group": "Two-Element Series Circuits",
+      "depth": 2,
+      "note": "Impedance $Z = \\sqrt{R^2 + (\\omega L)^2}$ and phase $\\tan\\phi = \\omega L/R$. Current lags voltage: $$I_{rms} = \\frac{V_{rms}}{\\sqrt{R^2 + X_L^2}}$$."
+    },
+    {
+      "id": "ac-rc",
+      "label": "Series RC",
+      "group": "Two-Element Series Circuits",
+      "depth": 2,
+      "note": "Impedance $Z = \\sqrt{R^2 + (1/\\omega C)^2}$ and $$\\tan\\phi = -\\frac{1}{\\omega C R}$$ Current leads voltage. Used as phase-shift networks."
+    },
+    {
+      "id": "ac-lc-series",
+      "label": "Series LC",
+      "group": "Two-Element Series Circuits",
+      "depth": 2,
+      "note": "Pure $L$-$C$ has $Z = |X_L - X_C| = |\\omega L - 1/\\omega C|$, zero at resonance $\\omega = 1/\\sqrt{LC}$. Voltages across $L$ and $C$ can far exceed the source. Series LC impedance: $$Z = \\left|\\omega L - \\frac{1}{\\omega C}\\right|$$."
+    },
+    {
+      "id": "ac-lcr",
+      "label": "Series LCR and Impedance",
+      "group": "Series LCR and Impedance",
+      "depth": 1,
+      "note": "Series LCR generalizes impedance and phase for arbitrary frequency; operating regimes split by $X_L$ versus $X_C$. Series LCR impedance: $$Z = \\sqrt{R^2 + (X_L - X_C)^2}$$."
+    },
+    {
+      "id": "ac-lcr-z",
+      "label": "Impedance Triangle",
+      "group": "Series LCR and Impedance",
+      "depth": 2,
+      "note": "Total impedance combines resistance and net reactance: $$Z = \\sqrt{R^2 + (X_L - X_C)^2}$$ Voltage triangle: $V = \\sqrt{V_R^2 + (V_L - V_C)^2}$."
+    },
+    {
+      "id": "ac-lcr-phase",
+      "label": "Phase Angle",
+      "group": "Series LCR and Impedance",
+      "depth": 2,
+      "note": "The phase of current relative to voltage satisfies $$\\tan\\phi = \\frac{X_L - X_C}{R}$$. Inductive above resonance, capacitive below, zero at resonance."
+    },
+    {
+      "id": "ac-regimes",
+      "label": "Operating Regimes",
+      "group": "Series LCR and Impedance",
+      "depth": 2,
+      "note": "If $\\omega L > 1/\\omega C$ circuit is inductive; if less, capacitive; equality gives unity power factor. JEE graphs ask sign of $\\phi$ versus $\\omega$. Phase sign of $$\\tan\\phi = (X_L - X_C)/R$$ tells the circuit character."
+    },
+    {
+      "id": "ac-resonance",
+      "label": "Resonance and Quality Factor",
+      "group": "Resonance and Quality Factor",
+      "depth": 1,
+      "note": "At resonance the series LCR current is maximum, phase is zero, and the $Q$ factor measures sharpness. Resonance frequency: $$\\omega_0 = 1/\\sqrt{LC}$$."
+    },
+    {
+      "id": "ac-res-cond",
+      "label": "Series Resonance Condition",
+      "group": "Resonance and Quality Factor",
+      "depth": 2,
+      "note": "Resonance occurs when reactances cancel: $$X_L = X_C \\Rightarrow \\omega_0 = \\frac{1}{\\sqrt{LC}}, \\ f_0 = \\frac{1}{2\\pi\\sqrt{LC}}$$. Impedance is minimum and purely resistive."
+    },
+    {
+      "id": "ac-bandwidth",
+      "label": "Half-Power Bandwidth",
+      "group": "Resonance and Quality Factor",
+      "depth": 2,
+      "note": "Current falls to $1/\\sqrt{2}$ of peak at $\\omega_{1,2}$ with $$\\Delta \\omega = \\omega_2 - \\omega_1 = \\frac{R}{L}$$. Narrower bandwidth means sharper tuning."
+    },
+    {
+      "id": "ac-q",
+      "label": "Quality Factor",
+      "group": "Resonance and Quality Factor",
+      "depth": 2,
+      "note": "Quality factor is resonance sharpness and voltage magnification: $$Q = \\frac{\\omega_0 L}{R} = \\frac{1}{R}\\sqrt{\\frac{L}{C}} = \\frac{\\omega_0}{\\Delta \\omega}$$. $V_L = V_C = QV$ at resonance."
+    },
+    {
+      "id": "ac-power",
+      "label": "Power and Power Factor",
+      "group": "Power and Power Factor",
+      "depth": 1,
+      "note": "Average power depends on resistive voltage and current alignment; wattless current and chokes matter for efficiency. Average power: $$P = V_{rms}I_{rms}\\cos\\phi$$."
+    },
+    {
+      "id": "ac-avg-power",
+      "label": "Average Power",
+      "group": "Power and Power Factor",
+      "depth": 2,
+      "note": "For $V = V_0\\sin\\omega t$, $I = I_0\\sin(\\omega t - \\phi)$, average power is $$P = V_{rms} I_{rms} \\cos\\phi = \\frac{V_0 I_0}{2}\\cos\\phi$$ only the resistive part dissipates."
+    },
+    {
+      "id": "ac-power-triangle",
+      "label": "Apparent, Real, Reactive Power",
+      "group": "Power and Power Factor",
+      "depth": 2,
+      "note": "Real power $P = VI\\cos\\phi$ (watt), reactive $Q = VI\\sin\\phi$ (VAR), apparent $S = VI$ (VA). Power factor is $\\cos\\phi = P/S$. Power triangle: $$S^2 = P^2 + Q^2$$ with $S = VI$."
+    },
+    {
+      "id": "ac-wattless",
+      "label": "Wattless Current",
+      "group": "Power and Power Factor",
+      "depth": 2,
+      "note": "Current with $\\phi = \\pi/2$, as in a pure inductor or capacitor, gives zero average power. Energy oscillates between source and element. Wattless current has $$\\phi = \\pi/2 \\Rightarrow \\cos\\phi = 0$$."
+    },
+    {
+      "id": "ac-choke",
+      "label": "Choke Coil",
+      "group": "Power and Power Factor",
+      "depth": 2,
+      "note": "A choke is a high-inductance coil that drops AC voltage with small $R$, limiting AC current without much heating. Ideal choke has $Z = \\omega L$. Ideal choke impedance: $$Z = \\omega L$$."
+    },
+    {
+      "id": "ac-lc-osc",
+      "label": "Free LC Oscillations",
+      "group": "Free LC Oscillations",
+      "depth": 1,
+      "note": "A lossless LC tank exchanges electric and magnetic energy at its natural frequency. Natural frequency: $$\\omega = 1/\\sqrt{LC}$$."
+    },
+    {
+      "id": "ac-energy-swap",
+      "label": "Energy Exchange",
+      "group": "Free LC Oscillations",
+      "depth": 2,
+      "note": "Total energy sloshes between capacitor and inductor: $$U = \\frac{q^2}{2C} + \\frac{1}{2}LI^2 = \\text{constant}$$ At charge maximum all energy is electric; at $q=0$ all is magnetic."
+    },
+    {
+      "id": "ac-natural-freq",
+      "label": "Natural Frequency",
+      "group": "Free LC Oscillations",
+      "depth": 2,
+      "note": "Charge obeys $$\\frac{d^2q}{dt^2} + \\frac{1}{LC}q = 0, \\ \\omega = \\frac{1}{\\sqrt{LC}}$$. Adding resistance damps this like a damped oscillator."
+    },
+    {
+      "id": "ac-electromech",
+      "label": "Electromechanical Analogy",
+      "group": "Free LC Oscillations",
+      "depth": 2,
+      "note": "$L$ plays the role of mass, $1/C$ of spring constant, $R$ of damping: $$m\\frac{d^2x}{dt^2} + b\\frac{dx}{dt} + kx = 0 \\leftrightarrow L\\frac{d^2q}{dt^2} + R\\frac{dq}{dt} + \\frac{q}{C} = 0$$."
+    },
+    {
+      "id": "ac-transformer",
+      "label": "Transformers",
+      "group": "Transformers",
+      "depth": 1,
+      "note": "Transformers step voltage using mutual induction while conserving power up to efficiency losses. Turns ratio: $$\\frac{V_s}{V_p} = \\frac{N_s}{N_p}$$."
+    },
+    {
+      "id": "ac-trans-principle",
+      "label": "Construction and Principle",
+      "group": "Transformers",
+      "depth": 2,
+      "note": "Primary and secondary coils share flux in an iron core; the turns ratio sets $$\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = \\frac{I_p}{I_s}$$ (ideal). Step-up raises voltage, lowers current."
+    },
+    {
+      "id": "ac-step-class",
+      "label": "Step-Up and Step-Down",
+      "group": "Transformers",
+      "depth": 2,
+      "note": "Step-up: $N_s > N_p$, used for transmission at high voltage and low current to cut $I^2R$ loss. Step-down: $N_s < N_p$, used near consumers. Ideal transformer conserves power: $$V_p I_p = V_s I_s$$."
+    },
+    {
+      "id": "ac-efficiency",
+      "label": "Power Conservation and Efficiency",
+      "group": "Transformers",
+      "depth": 2,
+      "note": "Ideal: $V_p I_p = V_s I_s$. Real efficiency $$\\eta = \\frac{V_s I_s \\cos\\phi_s}{V_p I_p \\cos\\phi_p} \\times 100\\%$$ Losses drop as load rises toward rated value."
+    },
+    {
+      "id": "ac-losses",
+      "label": "Energy Losses",
+      "group": "Transformers",
+      "depth": 2,
+      "note": "Copper loss $I^2R$ in windings, eddy currents in the core (reduced by laminations), hysteresis (soft iron core), and flux leakage between coils. Copper loss scales as $$P_{loss} = I^2 R$$."
+    },
+    {
+      "id": "ac-arch",
+      "label": "Problem Archetypes and Shortcuts",
+      "group": "Problem Archetypes and Shortcuts",
+      "depth": 1,
+      "note": "Traps mix DC and AC readings, resonance switching, and hot-wire instruments. Hot-wire reading: $$I_{rms}^2 = I_{DC}^2 + I_0^2/2$$."
+    },
+    {
+      "id": "ac-mixed-signal",
+      "label": "DC and AC on Hot Wire",
+      "group": "Problem Archetypes and Shortcuts",
+      "depth": 2,
+      "note": "A hot-wire meter reads RMS of the total waveform: $$I_{rms}^2 = I_{DC}^2 + \\frac{I_0^2}{2}$$. Superpose mean-square values, not amplitudes."
+    },
+    {
+      "id": "ac-voltmeter-lcr",
+      "label": "Voltmeter Across Series LCR",
+      "group": "Problem Archetypes and Shortcuts",
+      "depth": 2,
+      "note": "Ideal voltmeters read RMS node voltages. Across $L$ and $C$ at resonance, $V_L = V_C = QV$ while the source reads only $V_R$. At resonance $$V_L = V_C = QV_{source}$$."
+    },
+    {
+      "id": "ac-q-dynamic",
+      "label": "Q and Parallel Resonance",
+      "group": "Problem Archetypes and Shortcuts",
+      "depth": 2,
+      "note": "High $Q$ circuits respond sharply. Parallel resonance gives maximum impedance and minimum line current, dual to the series case. Quality factor: $$Q = \\frac{1}{R}\\sqrt{\\frac{L}{C}}$$."
+    },
+    {
+      "id": "ac-wave-params",
+      "label": "Waveform Parameters",
+      "group": "Principles and AC Generation",
+      "depth": 2,
+      "note": "For $I = I_0\\sin(\\omega t + \\phi)$, peak value is $I_0$, frequency $f = \\omega/2\\pi$, and time period $T = 1/f$. Phase constant $\\phi$ shifts the wave along the time axis. Sinusoidal quantities use $$I(t) = I_0\\sin(\\omega t + \\phi)$$, $\\omega = 2\\pi f$."
+    },
+    {
+      "id": "ac-avg-half",
+      "label": "Average over Half Cycle",
+      "group": "Average and RMS Values",
+      "depth": 2,
+      "note": "The mean of a sine over its positive half-cycle is $$I_{av} = \\frac{2I_0}{\\pi}$$. This is why rectified average meters need correction factors for different waveforms."
+    },
+    {
+      "id": "ac-hotwire",
+      "label": "Hot-Wire Instrument",
+      "group": "Average and RMS Values",
+      "depth": 2,
+      "note": "A hot wire heats as $I^2R$, so its expansion responds to the mean square. Its reading is therefore the RMS value $$I_{rms} = \\sqrt{\\langle I^2 \\rangle}$$ regardless of waveform shape."
+    },
+    {
+      "id": "ac-xl-xc",
+      "label": "Reactance Trends",
+      "group": "Pure Element Response and Phasors",
+      "depth": 2,
+      "note": "Inductive reactance $$X_L = \\omega L$$ grows with frequency; capacitive reactance $$X_C = 1/(\\omega C)$$ falls. At DC an inductor acts like a wire and a capacitor like an open circuit."
+    },
+    {
+      "id": "ac-lc-transfer",
+      "label": "Energy Transfer View",
+      "group": "Two-Element Series Circuits",
+      "depth": 3,
+      "note": "At the series LC resonance the inductor and capacitor exchange energy each cycle with no net draw from the source. Source current is limited only by resistance $R$. Sinusoidal quantities use $$I(t) = I_0\\sin(\\omega t + \\phi)$$, $\\omega = 2\\pi f$."
+    },
+    {
+      "id": "ac-power-factor-fix",
+      "label": "Power Factor Correction",
+      "group": "Power and Power Factor",
+      "depth": 2,
+      "note": "Industrial loads are inductive, so a capacitor in parallel supplies the reactive part $$Q_C = V^2 \\omega C$$. This raises $\\cos\\phi$ toward unity and cuts line current."
+    },
+    {
+      "id": "ac-transformer-loss",
+      "label": "Why High-Voltage Transmission",
+      "group": "Transformers",
+      "depth": 2,
+      "note": "For the same power, raising voltage by $k$ cuts current by $k$, so line loss $$P_{loss} = I^2R$$ drops by $k^2$. Transformers make this practical."
+    }
+  ],
+  "edges": [
+    {
+      "source": "alternating-current",
+      "target": "ac-principles",
+      "label": "contains"
+    },
+    {
+      "source": "ac-principles",
+      "target": "ac-def",
+      "label": "contains"
+    },
+    {
+      "source": "ac-principles",
+      "target": "ac-generator",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-rms",
+      "label": "contains"
+    },
+    {
+      "source": "ac-rms",
+      "target": "ac-average",
+      "label": "contains"
+    },
+    {
+      "source": "ac-rms",
+      "target": "ac-rms-value",
+      "label": "contains"
+    },
+    {
+      "source": "ac-rms",
+      "target": "ac-form-factor",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-pure",
+      "label": "contains"
+    },
+    {
+      "source": "ac-pure",
+      "target": "ac-resistor",
+      "label": "contains"
+    },
+    {
+      "source": "ac-pure",
+      "target": "ac-inductor",
+      "label": "contains"
+    },
+    {
+      "source": "ac-pure",
+      "target": "ac-capacitor",
+      "label": "contains"
+    },
+    {
+      "source": "ac-pure",
+      "target": "ac-phasor",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-two-element",
+      "label": "contains"
+    },
+    {
+      "source": "ac-two-element",
+      "target": "ac-rl",
+      "label": "contains"
+    },
+    {
+      "source": "ac-two-element",
+      "target": "ac-rc",
+      "label": "contains"
+    },
+    {
+      "source": "ac-two-element",
+      "target": "ac-lc-series",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-lcr",
+      "label": "contains"
+    },
+    {
+      "source": "ac-lcr",
+      "target": "ac-lcr-z",
+      "label": "contains"
+    },
+    {
+      "source": "ac-lcr",
+      "target": "ac-lcr-phase",
+      "label": "contains"
+    },
+    {
+      "source": "ac-lcr",
+      "target": "ac-regimes",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-resonance",
+      "label": "contains"
+    },
+    {
+      "source": "ac-resonance",
+      "target": "ac-res-cond",
+      "label": "contains"
+    },
+    {
+      "source": "ac-resonance",
+      "target": "ac-bandwidth",
+      "label": "contains"
+    },
+    {
+      "source": "ac-resonance",
+      "target": "ac-q",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-power",
+      "label": "contains"
+    },
+    {
+      "source": "ac-power",
+      "target": "ac-avg-power",
+      "label": "contains"
+    },
+    {
+      "source": "ac-power",
+      "target": "ac-power-triangle",
+      "label": "contains"
+    },
+    {
+      "source": "ac-power",
+      "target": "ac-wattless",
+      "label": "contains"
+    },
+    {
+      "source": "ac-power",
+      "target": "ac-choke",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-lc-osc",
+      "label": "contains"
+    },
+    {
+      "source": "ac-lc-osc",
+      "target": "ac-energy-swap",
+      "label": "contains"
+    },
+    {
+      "source": "ac-lc-osc",
+      "target": "ac-natural-freq",
+      "label": "contains"
+    },
+    {
+      "source": "ac-lc-osc",
+      "target": "ac-electromech",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-transformer",
+      "label": "contains"
+    },
+    {
+      "source": "ac-transformer",
+      "target": "ac-trans-principle",
+      "label": "contains"
+    },
+    {
+      "source": "ac-transformer",
+      "target": "ac-step-class",
+      "label": "contains"
+    },
+    {
+      "source": "ac-transformer",
+      "target": "ac-efficiency",
+      "label": "contains"
+    },
+    {
+      "source": "ac-transformer",
+      "target": "ac-losses",
+      "label": "contains"
+    },
+    {
+      "source": "alternating-current",
+      "target": "ac-arch",
+      "label": "contains"
+    },
+    {
+      "source": "ac-arch",
+      "target": "ac-mixed-signal",
+      "label": "contains"
+    },
+    {
+      "source": "ac-arch",
+      "target": "ac-voltmeter-lcr",
+      "label": "contains"
+    },
+    {
+      "source": "ac-arch",
+      "target": "ac-q-dynamic",
+      "label": "contains"
+    },
+    {
+      "source": "ac-principles",
+      "target": "ac-wave-params",
+      "label": "contains"
+    },
+    {
+      "source": "ac-rms",
+      "target": "ac-avg-half",
+      "label": "contains"
+    },
+    {
+      "source": "ac-rms",
+      "target": "ac-hotwire",
+      "label": "contains"
+    },
+    {
+      "source": "ac-pure",
+      "target": "ac-xl-xc",
+      "label": "contains"
+    },
+    {
+      "source": "ac-lc-series",
+      "target": "ac-lc-transfer",
+      "label": "contains"
+    },
+    {
+      "source": "ac-power",
+      "target": "ac-power-factor-fix",
+      "label": "contains"
+    },
+    {
+      "source": "ac-transformer",
+      "target": "ac-transformer-loss",
+      "label": "contains"
+    }
+  ]
+}

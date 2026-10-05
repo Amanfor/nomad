@@ -1,0 +1,495 @@
+{
+  "title": "Waves and Sound",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "waves-sound",
+      "label": "Waves and Sound",
+      "group": "Waves and Sound",
+      "depth": 0,
+      "note": "Mechanical wave motion, strings, standing waves, and acoustics. Link every wave problem to superposition, boundary conditions, and the phase arguments y(x,t)."
+    },
+    {
+      "id": "wave-fundamentals",
+      "label": "Wave Motion Fundamentals",
+      "group": "Wave Motion Fundamentals",
+      "depth": 1,
+      "note": "What a wave is, its differential equation, particle versus wave speed, and superposition. The vocabulary every wave problem shares."
+    },
+    {
+      "id": "wave-nature",
+      "label": "Nature of a Wave",
+      "group": "Wave Motion Fundamentals",
+      "depth": 2,
+      "note": "A mechanical wave transports energy and momentum without transporting matter: particles oscillate about fixed mean positions while the phase disturbance travels. Mediums must be elastic and possess inertia."
+    },
+    {
+      "id": "wave-types",
+      "label": "Transverse vs Longitudinal",
+      "group": "Wave Motion Fundamentals",
+      "depth": 2,
+      "note": "Transverse waves oscillate perpendicular to propagation (strings, EM waves); longitudinal waves oscillate parallel (sound in fluids): $$y_{trans} \\perp \\vec{v},\\quad \\xi_{long} \\parallel \\vec{v}$$. Only solids sustain both types."
+    },
+    {
+      "id": "wave-function",
+      "label": "Travelling Wave Function",
+      "group": "Wave Motion Fundamentals",
+      "depth": 2,
+      "note": "A harmonic wave travelling in $+x$ is $$y(x,t) = A\\sin(\\omega t - kx + \\phi)$$, with $$v = f\\lambda = \\frac{\\omega}{k}$$. Phase is $\\omega t - kx + \\phi$."
+    },
+    {
+      "id": "wave-equation",
+      "label": "Linear Wave Equation",
+      "group": "Wave Motion Fundamentals",
+      "depth": 2,
+      "note": "Differentiating the wave function twice gives $$\\frac{\\partial^2 y}{\\partial t^2} = v^2 \\frac{\\partial^2 y}{\\partial x^2}$$. Any solution of this form travels at speed v."
+    },
+    {
+      "id": "particle-vs-wave-speed",
+      "label": "Particle vs Wave Speed",
+      "group": "Wave Motion Fundamentals",
+      "depth": 2,
+      "note": "Particle speed is the time derivative at fixed position: $$v_p = \\frac{\\partial y}{\\partial t} = A\\omega\\cos(\\omega t - kx)$$, while wave speed is $v = \\omega/k$. A point on the string speeds up and slows down; the crest moves steadily."
+    },
+    {
+      "id": "superposition",
+      "label": "Principle of Superposition",
+      "group": "Wave Motion Fundamentals",
+      "depth": 2,
+      "note": "Overlapping waves add pointwise: $$y = y_1 + y_2$$. Resultant intensity follows $$I = I_1 + I_2 + 2\\sqrt{I_1 I_2}\\cos\\delta$$, giving maxima at $\\delta = 0, 2\\pi, \\ldots$ and nodes at $\\pi, 3\\pi, \\ldots$."
+    },
+    {
+      "id": "string-waves",
+      "label": "Waves on a String",
+      "group": "Waves on a String",
+      "depth": 1,
+      "note": "Wave speed from tension, energy carried, reflection at boundaries, standing waves, and sonometer laws. The standard JEE string laboratory of formulas."
+    },
+    {
+      "id": "string-speed",
+      "label": "Wave Speed on a String",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "Newton's laws on a string element give $$v = \\sqrt{\\frac{T}{\\mu}}$$, where $\\mu$ is linear density. Tighter, lighter strings carry faster waves."
+    },
+    {
+      "id": "string-power",
+      "label": "Energy and Power in a Wave",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "A string wave carries kinetic and potential energy equally: average power transmitted is $$P_{avg} = \\tfrac{1}{2}\\mu \\omega^2 A^2 v$$. Doubling frequency quadruples the power."
+    },
+    {
+      "id": "reflection-boundary",
+      "label": "Reflection at a Boundary",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "A free end reflects without inversion; a fixed end inverts with a phase change of $\\pi$: $$y_r = \\pm A\\sin(\\omega t + kx)$$. Density of the second medium sets the sign via its impedance."
+    },
+    {
+      "id": "standing-wave",
+      "label": "Standing (Stationary) Waves",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "Two equal oppositely travelling waves give $$y = 2A\\sin kx \\cos \\omega t$$. Nodes and antinodes are fixed, separated by $\\lambda/2$, and no net energy crosses a node."
+    },
+    {
+      "id": "fixed-fixed-modes",
+      "label": "String Fixed at Both Ends",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "Only an integer number of half-wavelengths fits: $$L = \\frac{n\\lambda}{2} \\Rightarrow f_n = \\frac{nv}{2L},\\ n = 1, 2, 3, \\ldots$$. The fundamental is $f_1 = v/2L$."
+    },
+    {
+      "id": "fixed-free-modes",
+      "label": "One End Fixed, One Free",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "The free end is an antinode, so only odd harmonics survive: $$f_n = \\frac{nv}{4L},\\ n = 1, 3, 5, \\ldots$$. The fundamental wavelength is $4L$ instead of $2L$."
+    },
+    {
+      "id": "sonometer",
+      "label": "Sonometer Laws",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "The frequency of a stretched wire is $$f = \\frac{1}{2L}\\sqrt{\\frac{T}{\\mu}}$$. The sonometer laws give $f \\propto 1/L$, $f \\propto \\sqrt{T}$, and $f \\propto 1/\\sqrt{\\mu}$."
+    },
+    {
+      "id": "composite-strings",
+      "label": "Composite Strings",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "Two strings joined at a point carry the same frequency and tension, but different speeds: $$v_1 = \\sqrt{T/\\mu_1},\\quad v_2 = \\sqrt{T/\\mu_2}$$. Reflections at the joint add a phase shift set by the impedance mismatch."
+    },
+    {
+      "id": "node-antinode",
+      "label": "Spacing of Nodes and Antinodes",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "In a standing wave adjacent nodes (or antinodes) are half a wavelength apart, and a node and neighbouring antinode are $\\lambda/4$ apart: $$\\Delta x_{node} = \\frac{\\lambda}{2}$$. Measuring this spacing with a meter scale yields lambda directly."
+    },
+    {
+      "id": "hanging-rope",
+      "label": "Waves on a Hanging Rope",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "Tension at a point a distance $x$ below the support is $T = \\mu g x$, so the pulse speed varies as $$v = \\sqrt{gx}$$. A pulse takes $$t = 2\\sqrt{\\frac{L}{g}}$$ to travel the full rope and back."
+    },
+    {
+      "id": "standing-wave-energy",
+      "label": "Energy in a Standing Wave",
+      "group": "Waves on a String",
+      "depth": 2,
+      "note": "Energy oscillates locally between kinetic and elastic potential forms, with nodes permanently storing none: $$K_{avg} = U_{avg}$$ over a cycle. Unlike a travelling wave, a pure standing wave transports no net energy."
+    },
+    {
+      "id": "sound",
+      "label": "Sound Waves and Acoustics",
+      "group": "Sound Waves and Acoustics",
+      "depth": 1,
+      "note": "Longitudinal waves in fluids, speed of sound, pressure-displacement duality, intensity, pipes, and beats. All audible phenomena are pressure waves."
+    },
+    {
+      "id": "sound-longitudinal",
+      "label": "Longitudinal Compressions",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Sound in fluids is a pressure-density oscillation: compressions and rarefactions travel while particles oscillate parallel to the wave: $$\\xi(x,t) = a\\cos(\\omega t - kx)$$. No transverse sound travels in air."
+    },
+    {
+      "id": "sound-speed",
+      "label": "Laplace's Speed of Sound",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Elasticity and inertia of the gas set the speed: $$v = \\sqrt{\\frac{\\gamma P}{\\rho}} = \\sqrt{\\frac{\\gamma RT}{M}}$$. Laplace's adiabatic correction replaced Newton's isothermal $\\sqrt{P/\\rho}$."
+    },
+    {
+      "id": "sound-speed-factors",
+      "label": "Factors Affecting Speed",
+      "group": "Sound Waves and Acoustics",
+      "depth": 3,
+      "note": "At fixed pressure, $v \\propto 1/\\sqrt{\\rho}$; at fixed density, $v \\propto \\sqrt{T}$: $$v \\propto \\sqrt{T},\\quad v_{H_2} > v_{air} > v_{CO_2}$$. Humidity raises $v$ because moist air is less dense."
+    },
+    {
+      "id": "displacement-pressure",
+      "label": "Displacement vs Pressure Wave",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Pressure and displacement oscillate a quarter cycle apart: $$\\Delta P = -B\\frac{\\partial \\xi}{\\partial x}$$, so a displacement node is a pressure antinode. Boundary conditions are easiest in pressure at open ends."
+    },
+    {
+      "id": "intensity-loudness",
+      "label": "Intensity and Decibel Level",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Loudness is logarithmic in intensity: $$\\beta = 10\\log_{10}\\left(\\frac{I}{I_0}\\right)\\ \\text{dB},\\quad I_0 = 10^{-12}\\ \\text{W/m}^2$$. In 3D, intensity falls as $I \\propto 1/r^2$."
+    },
+    {
+      "id": "open-pipe",
+      "label": "Open Organ Pipe",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Both ends open are displacement antinodes, so all harmonics appear: $$f_n = \\frac{nv}{2L},\\ n = 1, 2, 3, \\ldots$$. The fundamental wavelength is $2L$."
+    },
+    {
+      "id": "closed-pipe",
+      "label": "Closed Organ Pipe",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "One end closed (displacement node, pressure antinode) leaves only odd harmonics: $$f_n = \\frac{nv}{4L},\\ n = 1, 3, 5, \\ldots$$. A closed pipe's fundamental is an octave below an open pipe of the same length."
+    },
+    {
+      "id": "harmonics-overtones",
+      "label": "Harmonics vs Overtones",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "The $n$th harmonic is $nf_1$; the $n$th overtone is $(n+1)f_1$. An open pipe has all harmonics, so its first overtone is the second harmonic: $$f_{1st\\ overtone} = 2f_1$$."
+    },
+    {
+      "id": "sound-in-solids",
+      "label": "Sound in Solids",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Longitudinal waves in a solid rod travel at $$v = \\sqrt{\\frac{Y}{\\rho}}$$ with Young's modulus $Y$; in an extended solid, shear waves run at $\\sqrt{G/\\rho}$. Sound is fastest in stiff, light solids."
+    },
+    {
+      "id": "sound-level-sum",
+      "label": "Adding Sound Levels",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Two incoherent sources add in intensity, not dB: $$\\beta = 10\\log_{10}\\left(\\frac{I_1 + I_2}{I_0}\\right)$$. Two identical sources together give only $+3\\ \\text{dB}$ over one."
+    },
+    {
+      "id": "reverberation",
+      "label": "Reverberation vs Echo",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "A reflected sound arriving within $0.1\\ \\text{s}$ merges with the original as reverberation; beyond that it is a distinct echo. The $0.1\\ \\text{s}$ limit corresponds to a round trip of about $17\\ \\text{m}$."
+    },
+    {
+      "id": "end-correction",
+      "label": "End Correction",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "The antinode lies slightly beyond the open end: effective length $L' = L + e$, with Rayleigh's correction $$e \\approx 0.6\\, r$$. For two open ends add $2e$."
+    },
+    {
+      "id": "resonance-tube",
+      "label": "Resonance Tube Method",
+      "group": "Sound Waves and Acoustics",
+      "depth": 2,
+      "note": "Two successive resonances of a closed pipe give the speed directly: $$v = 2f\\,(l_2 - l_1)$$, eliminating the end correction. This is the standard laboratory determination."
+    },
+    {
+      "id": "acoustic-phenomena",
+      "label": "Acoustic Phenomena",
+      "group": "Acoustic Phenomena",
+      "depth": 1,
+      "note": "Beats, Doppler shift, echoes, and shock waves. Frequency bookkeeping when source, observer, or medium moves."
+    },
+    {
+      "id": "beats",
+      "label": "Beats",
+      "group": "Acoustic Phenomena",
+      "depth": 2,
+      "note": "Superposition of two close frequencies gives a pulsing loudness: $$f_{beat} = |f_1 - f_2|$$. Counting beats against a standard fork tunes an instrument."
+    },
+    {
+      "id": "two-source-interference",
+      "label": "Two-Source Interference",
+      "group": "Acoustic Phenomena",
+      "depth": 2,
+      "note": "Two coherent in-phase sources a distance $d$ apart give constructive interference at $$d\\sin\\theta = n\\lambda$$. Fringe spacing on a screen at distance $D$ is $\\beta = \\lambda D/d$."
+    },
+    {
+      "id": "doppler",
+      "label": "Doppler Effect",
+      "group": "Acoustic Phenomena",
+      "depth": 2,
+      "note": "Motion of source or observer shifts the received frequency: $$f' = \\frac{v \\pm v_o}{v \\mp v_s}\\, f$$, with the upper signs for approach. Approaching sources sound higher-pitched."
+    },
+    {
+      "id": "doppler-wind",
+      "label": "Wind Effect on Doppler",
+      "group": "Acoustic Phenomena",
+      "depth": 3,
+      "note": "A wind $w$ adds to the effective sound speed for propagation along the wind: $$f' = \\frac{(v + w) \\mp v_o}{(v + w) \\pm v_s}f$$. Use the medium frame, then shift back."
+    },
+    {
+      "id": "echo",
+      "label": "Echo and Reflection",
+      "group": "Acoustic Phenomena",
+      "depth": 2,
+      "note": "Sound needs about $1/15$ s to return as a distinct echo, so the minimum reflecting distance is $$d_{min} = \\frac{v \\times 0.1}{2} \\approx 17\\ \\text{m}$$. A moving reflector Doppler-shifts the return: $$f' = f\\,\\frac{v + u}{v - u}$$ for approach."
+    },
+    {
+      "id": "shock-wave",
+      "label": "Shock Wave and Mach Cone",
+      "group": "Acoustic Phenomena",
+      "depth": 2,
+      "note": "A source faster than sound outruns its wavefronts, piling them into a cone of half-angle $$\\sin\\theta = \\frac{v}{v_s} = \\frac{1}{M}$$. The sonic boom is this cone sweeping the ground."
+    }
+  ],
+  "edges": [
+    {
+      "source": "waves-sound",
+      "target": "wave-fundamentals",
+      "label": "contains"
+    },
+    {
+      "source": "wave-fundamentals",
+      "target": "wave-nature",
+      "label": "contains"
+    },
+    {
+      "source": "wave-fundamentals",
+      "target": "wave-types",
+      "label": "contains"
+    },
+    {
+      "source": "wave-fundamentals",
+      "target": "wave-function",
+      "label": "contains"
+    },
+    {
+      "source": "wave-fundamentals",
+      "target": "wave-equation",
+      "label": "contains"
+    },
+    {
+      "source": "wave-fundamentals",
+      "target": "particle-vs-wave-speed",
+      "label": "contains"
+    },
+    {
+      "source": "wave-fundamentals",
+      "target": "superposition",
+      "label": "contains"
+    },
+    {
+      "source": "waves-sound",
+      "target": "string-waves",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "string-speed",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "string-power",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "reflection-boundary",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "standing-wave",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "fixed-fixed-modes",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "fixed-free-modes",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "sonometer",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "composite-strings",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "node-antinode",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "hanging-rope",
+      "label": "contains"
+    },
+    {
+      "source": "string-waves",
+      "target": "standing-wave-energy",
+      "label": "contains"
+    },
+    {
+      "source": "waves-sound",
+      "target": "sound",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "sound-longitudinal",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "sound-speed",
+      "label": "contains"
+    },
+    {
+      "source": "sound-speed",
+      "target": "sound-speed-factors",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "displacement-pressure",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "intensity-loudness",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "open-pipe",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "closed-pipe",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "harmonics-overtones",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "sound-in-solids",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "sound-level-sum",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "reverberation",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "end-correction",
+      "label": "contains"
+    },
+    {
+      "source": "sound",
+      "target": "resonance-tube",
+      "label": "contains"
+    },
+    {
+      "source": "waves-sound",
+      "target": "acoustic-phenomena",
+      "label": "contains"
+    },
+    {
+      "source": "acoustic-phenomena",
+      "target": "beats",
+      "label": "contains"
+    },
+    {
+      "source": "acoustic-phenomena",
+      "target": "two-source-interference",
+      "label": "contains"
+    },
+    {
+      "source": "acoustic-phenomena",
+      "target": "doppler",
+      "label": "contains"
+    },
+    {
+      "source": "doppler",
+      "target": "doppler-wind",
+      "label": "contains"
+    },
+    {
+      "source": "acoustic-phenomena",
+      "target": "echo",
+      "label": "contains"
+    },
+    {
+      "source": "acoustic-phenomena",
+      "target": "shock-wave",
+      "label": "contains"
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "title": "Kinematics",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "kinematics",
+      "label": "Kinematics",
+      "group": "Kinematics",
+      "depth": 0,
+      "note": "Rectilinear motion, projectile motion, and relative motion. JEE tests calculus-based kinematics, graph interpretation, and vector decomposition."
+    },
+    {
+      "id": "rectilinear-fundamentals",
+      "label": "Rectilinear Motion Fundamentals",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 1,
+      "note": "One-dimensional motion along a straight line: distance, displacement, velocity, and acceleration."
+    },
+    {
+      "id": "distance-displacement",
+      "label": "Distance vs Displacement",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 2,
+      "note": "Distance is the total path length (scalar); displacement is the straight-line vector from initial to final position. The fundamental inequality is $$s \\ge |\\Delta \\vec{r}|$$, with equality only for straight unidirectional motion."
+    },
+    {
+      "id": "equality-condition",
+      "label": "Equality Condition",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 3,
+      "note": "Distance equals displacement magnitude if and only if the particle moves along a strictly straight line without ever reversing direction."
+    },
+    {
+      "id": "velocity-concepts",
+      "label": "Speed and Velocity",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 2,
+      "note": "Average velocity is displacement over time; average speed is total distance over time. Always $$v_{\\text{avg, scalar}} \\ge |\\vec{v}_{\\text{avg}}|$$."
+    },
+    {
+      "id": "avg-velocity",
+      "label": "Average Velocity",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 3,
+      "note": "$$\\vec{v}_{\\text{avg}} = \\frac{\\Delta \\vec{r}}{\\Delta t} = \\frac{\\vec{r}_f - \\vec{r}_i}{t_f - t_i}$$. Instantaneous velocity is the limit as $$\\Delta t \\to 0$$: $$\\vec{v} = \\frac{d\\vec{r}}{dt}$$."
+    },
+    {
+      "id": "mean-speeds",
+      "label": "Mean Speed Theorems",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 3,
+      "note": "For equal distance segments, $$v_{\\text{avg}} = \\frac{2 v_1 v_2}{v_1 + v_2}$$ (harmonic mean). For equal time intervals, $$v_{\\text{avg}} = \\frac{v_1 + v_2}{2}$$ (arithmetic mean)."
+    },
+    {
+      "id": "acceleration-calculus",
+      "label": "Acceleration and Calculus",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 2,
+      "note": "Acceleration is the rate of change of velocity: $$\\vec{a} = \\frac{d\\vec{v}}{dt} = \\frac{d^2\\vec{r}}{dt^2}$$. In one dimension, $$a = \\frac{dv}{dt} = v\\frac{dv}{dx}$$ by the chain rule."
+    },
+    {
+      "id": "derivative-form",
+      "label": "Differential Form",
+      "group": "Rectilinear Motion Fundamentals",
+      "depth": 3,
+      "note": "The spatial form $$a = v \\frac{dv}{dx}$$ is derived from $$\\frac{dv}{dt} = \\frac{dv}{dx}\\frac{dx}{dt}$$. It is essential for position-dependent acceleration problems."
+    },
+    {
+      "id": "uniform-acceleration",
+      "label": "Uniformly Accelerated Motion",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 1,
+      "note": "Motion with constant acceleration: the master equations, vertical free fall, and graph calculus."
+    },
+    {
+      "id": "equations-of-motion",
+      "label": "Equations of Motion",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 2,
+      "note": "The three master equations for constant acceleration: $$v = u + at$$, $$s = ut + \\frac{1}{2}at^2 = \\frac{u+v}{2}t$$, and $$v^2 = u^2 + 2as$$."
+    },
+    {
+      "id": "nth-second",
+      "label": "Displacement in nth Second",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 3,
+      "note": "The displacement in the $$n$$-th second is $$s_n = u + \\frac{a}{2}(2n-1)$$. This is not the total distance in $$n$$ seconds."
+    },
+    {
+      "id": "vertical-motion",
+      "label": "Vertical Motion Under Gravity",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 2,
+      "note": "Taking upward as positive, a body projected up with speed $$u$$ decelerates at $$g$$. Time of ascent equals time of descent: $$t_a = t_d = \\frac{u}{g}$$."
+    },
+    {
+      "id": "max-height",
+      "label": "Maximum Height",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 3,
+      "note": "At maximum height $$v = 0$$, so $$H_{\\max} = \\frac{u^2}{2g}$$. The body returns to projection level with the same speed $$u$$."
+    },
+    {
+      "id": "time-conjugates",
+      "label": "Dual Time Conjugates",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 3,
+      "note": "For any height $$h < H_{\\max}$$, the two times $$t_1$$ (ascending) and $$t_2$$ (descending) satisfy $$t_1 + t_2 = \\frac{2u}{g}$$ and $$t_1 t_2 = \\frac{2h}{g}$$."
+    },
+    {
+      "id": "kinematics-graphs",
+      "label": "Kinematics Graphs",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 2,
+      "note": "The slope of an $$x$$-t graph gives velocity; the slope of a $$v$$-t graph gives acceleration. The area under a $$v$$-t graph gives signed displacement."
+    },
+    {
+      "id": "vt-area",
+      "label": "Area Under v-t Graph",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 3,
+      "note": "The algebraic area under a $$v$$-t curve yields displacement ($$\\Delta x = \\int v\\,dt$$). For total distance, take the absolute value: $$s = \\int |v|\\,dt$$."
+    },
+    {
+      "id": "ax-area",
+      "label": "Area Under a-x Graph",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 3,
+      "note": "The area under an acceleration-displacement curve gives $$\\int a\\,dx = \\frac{v_f^2 - v_i^2}{2}$$. This is the work-energy relation per unit mass."
+    },
+    {
+      "id": "galileo-odd",
+      "label": "Galileo's Law of Odd Numbers",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 2,
+      "note": "For a particle starting from rest under uniform acceleration, displacements in consecutive equal time intervals follow the ratio $$s_1 : s_2 : s_3 : \\dots = 1 : 3 : 5 : \\dots : (2n-1)$$."
+    },
+    {
+      "id": "stopping-distance",
+      "label": "Stopping Distance",
+      "group": "Uniformly Accelerated Motion",
+      "depth": 2,
+      "note": "Total stopping distance combines reaction distance and braking distance: $$D_{\\text{stop}} = u t_r + \\frac{u^2}{2a}$$. Reaction distance scales linearly with speed; braking distance scales quadratically."
+    },
+    {
+      "id": "projectile-motion",
+      "label": "Projectile Motion",
+      "group": "Projectile Motion",
+      "depth": 1,
+      "note": "Two-dimensional motion under uniform gravity: independence of horizontal and vertical components, flight parameters, and trajectory geometry."
+    },
+    {
+      "id": "independence",
+      "label": "Independence of Motion",
+      "group": "Projectile Motion",
+      "depth": 2,
+      "note": "A projectile's horizontal motion is uniform ($$v_x = u\\cos\\theta = \\text{const}$$) and vertical motion is uniformly accelerated ($$a_y = -g$$). The two components are completely independent."
+    },
+    {
+      "id": "flight-parameters",
+      "label": "Flight Parameters",
+      "group": "Projectile Motion",
+      "depth": 2,
+      "note": "Time of flight, maximum height, and range are the three canonical flight parameters for ground-to-ground projectiles."
+    },
+    {
+      "id": "time-of-flight",
+      "label": "Time of Flight",
+      "group": "Projectile Motion",
+      "depth": 3,
+      "note": "Setting $$y = 0$$ gives $$T = \\frac{2u\\sin\\theta}{g}$$. Time of ascent equals time of descent: $$t_a = t_d = \\frac{T}{2}$$."
+    },
+    {
+      "id": "height-range",
+      "label": "Height and Range",
+      "group": "Projectile Motion",
+      "depth": 3,
+      "note": "Maximum height is $$H_{\\max} = \\frac{u^2\\sin^2\\theta}{2g}$$ and horizontal range is $$R = \\frac{u^2\\sin 2\\theta}{g}$$. The geometric link is $$\\tan\\theta = \\frac{4H_{\\max}}{R}$$."
+    },
+    {
+      "id": "max-range",
+      "label": "Maximum Range",
+      "group": "Projectile Motion",
+      "depth": 3,
+      "note": "For fixed $$u$$, range is maximized at $$\\theta = 45^\\circ$$ giving $$R_{\\max} = \\frac{u^2}{g}$$. The height at maximum range is $$H = \\frac{u^2}{4g}$$."
+    },
+    {
+      "id": "trajectory-equation",
+      "label": "Equation of Trajectory",
+      "group": "Projectile Motion",
+      "depth": 2,
+      "note": "Eliminating time from the kinematic equations yields the parabolic trajectory $$y = x\\tan\\theta - \\frac{gx^2}{2u^2\\cos^2\\theta}$$."
+    },
+    {
+      "id": "factorized-form",
+      "label": "Factorized Range Form",
+      "group": "Projectile Motion",
+      "depth": 3,
+      "note": "The trajectory can be rewritten as $$y = x\\tan\\theta\\left(1 - \\frac{x}{R}\\right)$$. This form is ideal for clearance problems over walls and obstacles."
+    },
+    {
+      "id": "complementary-angles",
+      "label": "Complementary Angles",
+      "group": "Projectile Motion",
+      "depth": 2,
+      "note": "Two projectiles launched at the same speed $$u$$ at angles $$\\theta$$ and $$90^\\circ - \\theta$$ have identical ranges: $$R(\\theta) = R(90^\\circ - \\theta)$$."
+    },
+    {
+      "id": "inter-relations",
+      "label": "Inter-Trajectory Relations",
+      "group": "Projectile Motion",
+      "depth": 3,
+      "note": "For complementary angles, $$T_1 T_2 = \\frac{2R}{g}$$ and $$R = 4\\sqrt{H_1 H_2}$$. Also $$H_1 + H_2 = \\frac{u^2}{2g}$$ and $$\\frac{T_1}{T_2} = \\tan\\theta$$."
+    },
+    {
+      "id": "radius-curvature",
+      "label": "Radius of Curvature",
+      "group": "Projectile Motion",
+      "depth": 2,
+      "note": "The radius of curvature at any point on the trajectory is $$\\rho = \\frac{v^2}{a_\\perp}$$ where $$a_\\perp$$ is the normal component of acceleration."
+    },
+    {
+      "id": "peak-curvature",
+      "label": "Curvature at Peak",
+      "group": "Projectile Motion",
+      "depth": 3,
+      "note": "At the topmost point, $$v = u\\cos\\theta$$ and $$a_\\perp = g$$, so $$\\rho_{\\text{top}} = \\frac{u^2\\cos^2\\theta}{g}$$. This is the global minimum radius of curvature."
+    },
+    {
+      "id": "inclined-plane",
+      "label": "Inclined Plane Ballistics",
+      "group": "Projectile Motion",
+      "depth": 2,
+      "note": "On an incline of angle $$\\beta$$, choose axes along and perpendicular to the incline. The launch angle $$\\alpha$$ is measured relative to the incline surface."
+    },
+    {
+      "id": "optimal-angles",
+      "label": "Optimal Launch Angles",
+      "group": "Projectile Motion",
+      "depth": 3,
+      "note": "Maximum range up the incline occurs at $$\\alpha = 45^\\circ - \\frac{\\beta}{2}$$ giving $$R_{\\text{up,max}} = \\frac{u^2}{g(1+\\sin\\beta)}$$. Down the incline, $$\\alpha = 45^\\circ + \\frac{\\beta}{2}$$ gives $$R_{\\text{down,max}} = \\frac{u^2}{g(1-\\sin\\beta)}$$."
+    },
+    {
+      "id": "relative-motion",
+      "label": "Relative Motion",
+      "group": "Relative Motion",
+      "depth": 1,
+      "note": "Frame transformations, closest approach geometry, and classic 2D relative motion problems."
+    },
+    {
+      "id": "frame-transforms",
+      "label": "Frame Transformations",
+      "group": "Relative Motion",
+      "depth": 2,
+      "note": "Relative position, velocity, and acceleration follow vector subtraction: $$\\vec{r}_{B/A} = \\vec{r}_B - \\vec{r}_A$$, $$\\vec{v}_{B/A} = \\vec{v}_B - \\vec{v}_A$$, $$\\vec{a}_{B/A} = \\vec{a}_B - \\vec{a}_A$$."
+    },
+    {
+      "id": "two-projectile",
+      "label": "Two-Projectile Theorem",
+      "group": "Relative Motion",
+      "depth": 2,
+      "note": "Two projectiles in flight under gravity have $$\\vec{a}_{\\text{rel}} = \\vec{g} - \\vec{g} = 0$$. Their relative motion is uniform straight-line at constant velocity $$\\vec{v}_{2/1} = \\vec{u}_2 - \\vec{u}_1$$."
+    },
+    {
+      "id": "closest-approach",
+      "label": "Closest Approach",
+      "group": "Relative Motion",
+      "depth": 2,
+      "note": "The velocity of approach is $$v_{\\text{app}} = -\\frac{dr}{dt}$$. At closest approach, $$v_{\\text{app}} = 0$$ and the relative velocity is perpendicular to the line of sight."
+    },
+    {
+      "id": "closest-geometry",
+      "label": "Closest Approach Geometry",
+      "group": "Relative Motion",
+      "depth": 3,
+      "note": "For initial separation $$r_0$$ and relative velocity at angle $$\\theta$$ to the line of sight, $$d_{\\min} = r_0\\sin\\theta$$ and $$t_{\\min} = \\frac{r_0\\cos\\theta}{|\\vec{v}_{\\text{rel}}|}$$."
+    },
+    {
+      "id": "river-boat",
+      "label": "River-Boat Crossing",
+      "group": "Relative Motion",
+      "depth": 2,
+      "note": "A boat crosses a river of width $$d$$ with current speed $$v_r$$ and boat speed $$u$$ relative to water. Shortest time and shortest path are different strategies."
+    },
+    {
+      "id": "shortest-time",
+      "label": "Shortest Time",
+      "group": "Relative Motion",
+      "depth": 3,
+      "note": "Steer perpendicular to the bank ($$\\theta = 90^\\circ$$): $$t_{\\min} = \\frac{d}{u}$$. The downstream drift is $$x = \\frac{v_r d}{u}$$. Crossing time is independent of river speed."
+    },
+    {
+      "id": "zero-drift",
+      "label": "Zero Drift",
+      "group": "Relative Motion",
+      "depth": 3,
+      "note": "To land directly opposite, steer upstream with $$\\sin\\alpha = \\frac{v_r}{u}$$ (requires $$u > v_r$$). The crossing time is $$t = \\frac{d}{\\sqrt{u^2 - v_r^2}}$$."
+    },
+    {
+      "id": "min-drift",
+      "label": "Minimum Drift When Slower",
+      "group": "Relative Motion",
+      "depth": 3,
+      "note": "When $$u < v_r$$, zero drift is impossible. The minimum drift is $$x_{\\min} = d\\sqrt{\\frac{v_r^2}{u^2} - 1}$$ achieved at $$\\sin\\alpha = \\frac{u}{v_r}$$."
+    },
+    {
+      "id": "rain-man",
+      "label": "Rain-Man Problem",
+      "group": "Relative Motion",
+      "depth": 2,
+      "note": "Rain falls with velocity $$\\vec{v}_r$$ and a person moves with velocity $$\\vec{v}_m$$. The apparent rain velocity is $$\\vec{v}_{r/m} = \\vec{v}_r - \\vec{v}_m$$."
+    },
+    {
+      "id": "umbrella-tilt",
+      "label": "Umbrella Tilt",
+      "group": "Relative Motion",
+      "depth": 3,
+      "note": "To stay dry, hold the umbrella opposite to the apparent rain direction. The tilt angle from vertical is $$\\tan\\theta = \\frac{|v_{rx} + v_m|}{v_{ry}}$$. For vertical rain, $$\\tan\\theta = \\frac{v_m}{v_r}$$."
+    },
+    {
+      "id": "polygon-pursuit",
+      "label": "Polygon Pursuit",
+      "group": "Relative Motion",
+      "depth": 2,
+      "note": "$$N$$ particles at the vertices of a regular $$N$$-gon each move toward their cyclic neighbor at speed $$v$$. They spiral into the center."
+    },
+    {
+      "id": "pursuit-time",
+      "label": "Pursuit Time",
+      "group": "Relative Motion",
+      "depth": 3,
+      "note": "The approach speed is $$v_{\\text{app}} = v[1 - \\cos(2\\pi/N)]$$, so the meeting time is $$t_{\\text{meet}} = \\frac{d}{v[1 - \\cos(2\\pi/N)]}$$. For a triangle, $$t = \\frac{2d}{3v}$$; for a square, $$t = \\frac{d}{v}$$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "kinematics",
+      "target": "rectilinear-fundamentals",
+      "label": "contains"
+    },
+    {
+      "source": "kinematics",
+      "target": "uniform-acceleration",
+      "label": "contains"
+    },
+    {
+      "source": "kinematics",
+      "target": "projectile-motion",
+      "label": "contains"
+    },
+    {
+      "source": "kinematics",
+      "target": "relative-motion",
+      "label": "contains"
+    },
+    {
+      "source": "rectilinear-fundamentals",
+      "target": "distance-displacement",
+      "label": "contains"
+    },
+    {
+      "source": "rectilinear-fundamentals",
+      "target": "velocity-concepts",
+      "label": "contains"
+    },
+    {
+      "source": "rectilinear-fundamentals",
+      "target": "acceleration-calculus",
+      "label": "contains"
+    },
+    {
+      "source": "distance-displacement",
+      "target": "equality-condition",
+      "label": "contains"
+    },
+    {
+      "source": "velocity-concepts",
+      "target": "avg-velocity",
+      "label": "contains"
+    },
+    {
+      "source": "velocity-concepts",
+      "target": "mean-speeds",
+      "label": "contains"
+    },
+    {
+      "source": "acceleration-calculus",
+      "target": "derivative-form",
+      "label": "contains"
+    },
+    {
+      "source": "uniform-acceleration",
+      "target": "equations-of-motion",
+      "label": "contains"
+    },
+    {
+      "source": "uniform-acceleration",
+      "target": "vertical-motion",
+      "label": "contains"
+    },
+    {
+      "source": "uniform-acceleration",
+      "target": "kinematics-graphs",
+      "label": "contains"
+    },
+    {
+      "source": "uniform-acceleration",
+      "target": "galileo-odd",
+      "label": "contains"
+    },
+    {
+      "source": "uniform-acceleration",
+      "target": "stopping-distance",
+      "label": "contains"
+    },
+    {
+      "source": "equations-of-motion",
+      "target": "nth-second",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-motion",
+      "target": "max-height",
+      "label": "contains"
+    },
+    {
+      "source": "vertical-motion",
+      "target": "time-conjugates",
+      "label": "contains"
+    },
+    {
+      "source": "kinematics-graphs",
+      "target": "vt-area",
+      "label": "contains"
+    },
+    {
+      "source": "kinematics-graphs",
+      "target": "ax-area",
+      "label": "contains"
+    },
+    {
+      "source": "projectile-motion",
+      "target": "independence",
+      "label": "contains"
+    },
+    {
+      "source": "projectile-motion",
+      "target": "flight-parameters",
+      "label": "contains"
+    },
+    {
+      "source": "projectile-motion",
+      "target": "trajectory-equation",
+      "label": "contains"
+    },
+    {
+      "source": "projectile-motion",
+      "target": "complementary-angles",
+      "label": "contains"
+    },
+    {
+      "source": "projectile-motion",
+      "target": "radius-curvature",
+      "label": "contains"
+    },
+    {
+      "source": "projectile-motion",
+      "target": "inclined-plane",
+      "label": "contains"
+    },
+    {
+      "source": "flight-parameters",
+      "target": "time-of-flight",
+      "label": "contains"
+    },
+    {
+      "source": "flight-parameters",
+      "target": "height-range",
+      "label": "contains"
+    },
+    {
+      "source": "flight-parameters",
+      "target": "max-range",
+      "label": "contains"
+    },
+    {
+      "source": "trajectory-equation",
+      "target": "factorized-form",
+      "label": "contains"
+    },
+    {
+      "source": "complementary-angles",
+      "target": "inter-relations",
+      "label": "contains"
+    },
+    {
+      "source": "radius-curvature",
+      "target": "peak-curvature",
+      "label": "contains"
+    },
+    {
+      "source": "inclined-plane",
+      "target": "optimal-angles",
+      "label": "contains"
+    },
+    {
+      "source": "relative-motion",
+      "target": "frame-transforms",
+      "label": "contains"
+    },
+    {
+      "source": "relative-motion",
+      "target": "two-projectile",
+      "label": "contains"
+    },
+    {
+      "source": "relative-motion",
+      "target": "closest-approach",
+      "label": "contains"
+    },
+    {
+      "source": "relative-motion",
+      "target": "river-boat",
+      "label": "contains"
+    },
+    {
+      "source": "relative-motion",
+      "target": "rain-man",
+      "label": "contains"
+    },
+    {
+      "source": "relative-motion",
+      "target": "polygon-pursuit",
+      "label": "contains"
+    },
+    {
+      "source": "closest-approach",
+      "target": "closest-geometry",
+      "label": "contains"
+    },
+    {
+      "source": "river-boat",
+      "target": "shortest-time",
+      "label": "contains"
+    },
+    {
+      "source": "river-boat",
+      "target": "zero-drift",
+      "label": "contains"
+    },
+    {
+      "source": "river-boat",
+      "target": "min-drift",
+      "label": "contains"
+    },
+    {
+      "source": "rain-man",
+      "target": "umbrella-tilt",
+      "label": "contains"
+    },
+    {
+      "source": "polygon-pursuit",
+      "target": "pursuit-time",
+      "label": "contains"
+    }
+  ]
+}

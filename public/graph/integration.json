@@ -1,0 +1,459 @@
+{
+  "title": "Integration",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "integration",
+      "label": "Integration",
+      "group": "Integration",
+      "depth": 0,
+      "note": "Integration reverses differentiation and computes net accumulation or area. In JEE Main it pairs standard forms with substitution and parts, then finishes with definite integrals and areas."
+    },
+    {
+      "id": "int-basics",
+      "label": "Basics of Integration",
+      "group": "Basics of Integration",
+      "depth": 1,
+      "note": "Integration undoes differentiation. The constant of integration is not optional cosmetic detail; it is where families of curves live."
+    },
+    {
+      "id": "int-antiderivative",
+      "label": "Antiderivative Idea",
+      "group": "Basics of Integration",
+      "depth": 2,
+      "note": "$F'(x) = f(x)$ means $F$ is an antiderivative of $f$, and the indefinite integral $\\int f(x)\\,dx = F(x) + C$ collects all of them. Every answer to an indefinite integral needs the $+C$."
+    },
+    {
+      "id": "int-linearity",
+      "label": "Linearity of the Integral",
+      "group": "Basics of Integration",
+      "depth": 2,
+      "note": "$\\int (af(x) + bg(x))\\,dx = a\\int f(x)\\,dx + b\\int g(x)\\,dx$. Constants come outside and sums split; integrals do not split over products or quotients."
+    },
+    {
+      "id": "int-linearity-example",
+      "label": "Example: Term by Term",
+      "group": "Basics of Integration",
+      "depth": 3,
+      "note": "$\\int (3x^2 + 2\\cos x)\\,dx = x^3 + 2\\sin x + C$. Splitting is legal because the integrand is a sum."
+    },
+    {
+      "id": "int-family",
+      "label": "Family of Curves",
+      "group": "Basics of Integration",
+      "depth": 2,
+      "note": "The solutions of $\\frac{dy}{dx} = f(x)$ form a one-parameter family $y = F(x) + C$; each value of $C$ is one curve. An initial condition $y(x_0) = y_0$ pins down a single curve."
+    },
+    {
+      "id": "int-standard",
+      "label": "Standard Forms",
+      "group": "Standard Forms",
+      "depth": 1,
+      "note": "A short table of direct integrals. Fluency here decides how fast the rest of the chapter moves."
+    },
+    {
+      "id": "int-power",
+      "label": "Power Rule for Integrals",
+      "group": "Standard Forms",
+      "depth": 2,
+      "note": "$\\int x^n\\,dx = \\frac{x^{n+1}}{n+1} + C$ for $n \\neq -1$, and $\\int \\frac{1}{x}\\,dx = \\ln|x| + C$. The case $n = -1$ is exactly the gap where the power rule would divide by zero."
+    },
+    {
+      "id": "int-standard-table",
+      "label": "Standard Integral Table",
+      "group": "Standard Forms",
+      "depth": 2,
+      "note": "$\\int e^x dx = e^x + C$, $\\int \\sin x\\,dx = -\\cos x + C$, $\\int \\sec^2 x\\,dx = \\tan x + C$, $\\int \\frac{dx}{1+x^2} = \\tan^{-1} x + C$, $\\int \\frac{dx}{\\sqrt{1-x^2}} = \\sin^{-1} x + C$. These mirror the derivative table read backwards."
+    },
+    {
+      "id": "int-table-example",
+      "label": "Example: Quick Evaluation",
+      "group": "Standard Forms",
+      "depth": 3,
+      "note": "$\\int (e^x + \\sec^2 x)\\,dx = e^x + \\tan x + C$, read straight off the table."
+    },
+    {
+      "id": "int-substitution",
+      "label": "Integration by Substitution",
+      "group": "Integration by Substitution",
+      "depth": 1,
+      "note": "Substitution is the chain rule in reverse. Pick the inner function, and let its derivative (up to a constant) sit in the integrand."
+    },
+    {
+      "id": "int-sub-method",
+      "label": "The Method",
+      "group": "Integration by Substitution",
+      "depth": 2,
+      "note": "Set $t = g(x)$, so $dt = g'(x)\\,dx$, and rewrite $\\int f(g(x)) g'(x)\\,dx$ as $\\int f(t)\\,dt$. After integrating, substitute back for $t$."
+    },
+    {
+      "id": "int-sub-example",
+      "label": "Example: $int 2x cos(x^2),dx$",
+      "group": "Integration by Substitution",
+      "depth": 3,
+      "note": "Let $t = x^2$, $dt = 2x\\,dx$. Then $\\int \\cos t\\,dt = \\sin t + C = \\sin(x^2) + C$."
+    },
+    {
+      "id": "int-sub-trig",
+      "label": "Trigonometric Substitutions",
+      "group": "Integration by Substitution",
+      "depth": 2,
+      "note": "For $\\sqrt{a^2 - x^2}$ put $x = a\\sin\\theta$, for $\\sqrt{a^2 + x^2}$ put $x = a\\tan\\theta$, and for $\\sqrt{x^2 - a^2}$ put $x = a\\sec\\theta$. These convert the radical into a single trig term."
+    },
+    {
+      "id": "int-sub-trig-example",
+      "label": "Example: $int \frac{dx}{sqrt{1-x^2}}$",
+      "group": "Integration by Substitution",
+      "depth": 3,
+      "note": "With $x = \\sin\\theta$, $dx = \\cos\\theta\\,d\\theta$ and $\\sqrt{1-x^2} = \\cos\\theta$, the integral becomes $\\int d\\theta = \\theta + C = \\sin^{-1} x + C$."
+    },
+    {
+      "id": "int-parts",
+      "label": "Integration by Parts",
+      "group": "Integration by Parts",
+      "depth": 1,
+      "note": "By-parts trades one hard product integral for an easier one. The only real choice is who plays $u$."
+    },
+    {
+      "id": "int-parts-formula",
+      "label": "The By-Parts Formula",
+      "group": "Integration by Parts",
+      "depth": 2,
+      "note": "$\\int u\\,v\\,dx = u\\int v\\,dx - \\int\\left(\\frac{du}{dx}\\int v\\,dx\\right)dx$. It comes straight from differentiating the product $uv$."
+    },
+    {
+      "id": "int-parts-example",
+      "label": "Example: $int x e^x,dx$",
+      "group": "Integration by Parts",
+      "depth": 3,
+      "note": "Take $u = x$, $v = e^x$: $\\int x e^x dx = x e^x - \\int e^x dx = x e^x - e^x + C = (x-1)e^x + C$."
+    },
+    {
+      "id": "int-ilate",
+      "label": "Choosing u (ILATE)",
+      "group": "Integration by Parts",
+      "depth": 2,
+      "note": "Prefer $u$ in the order Inverse trig, Logarithm, Algebraic, Trigonometric, Exponential. The earlier $u$ appears in ILATE, the more it simplifies on differentiation."
+    },
+    {
+      "id": "int-byparts-repeat",
+      "label": "Applying Parts Twice",
+      "group": "Integration by Parts",
+      "depth": 2,
+      "note": "Some integrals like $\\int e^x \\sin x\\,dx$ need parts twice and then algebra: after two applications the original integral reappears, giving $\\int e^x \\sin x\\,dx = \\frac{e^x(\\sin x - \\cos x)}{2} + C$."
+    },
+    {
+      "id": "int-partial",
+      "label": "Partial Fractions",
+      "group": "Partial Fractions",
+      "depth": 1,
+      "note": "When the integrand is a rational function, split it into simpler fractions before integrating. Factor the denominator first, always."
+    },
+    {
+      "id": "int-partial-distinct",
+      "label": "Distinct Linear Factors",
+      "group": "Partial Fractions",
+      "depth": 2,
+      "note": "$\\frac{P(x)}{(x-a)(x-b)} = \\frac{A}{x-a} + \\frac{B}{x-b}$ with constants $A, B$ solved by equating numerators or substituting roots. Each piece integrates to a logarithm."
+    },
+    {
+      "id": "int-partial-example",
+      "label": "Example: $\frac{1}{x^2-1}$",
+      "group": "Partial Fractions",
+      "depth": 3,
+      "note": "$\\frac{1}{(x-1)(x+1)} = \\frac{1/2}{x-1} - \\frac{1/2}{x+1}$, so $\\int \\frac{dx}{x^2-1} = \\frac{1}{2}\\ln\\left|\\frac{x-1}{x+1}\\right| + C$."
+    },
+    {
+      "id": "int-partial-repeated",
+      "label": "Repeated and Quadratic Factors",
+      "group": "Partial Fractions",
+      "depth": 2,
+      "note": "Repeated factors contribute $\\frac{A}{x-a} + \\frac{B}{(x-a)^2} + \\cdots$, and irreducible quadratics contribute $\\frac{Cx + D}{x^2 + px + q}$. Completing the square then reduces them to standard forms."
+    },
+    {
+      "id": "int-trig",
+      "label": "Trig Identities in Integrals",
+      "group": "Trig Identities in Integrals",
+      "depth": 1,
+      "note": "Trig integrals rarely integrate directly. The move is to rewrite the integrand with identities until a standard form appears."
+    },
+    {
+      "id": "int-trig-powers",
+      "label": "Powers of Sines and Cosines",
+      "group": "Trig Identities in Integrals",
+      "depth": 2,
+      "note": "Use $\\sin^2 x = \\frac{1 - \\cos 2x}{2}$ and $\\cos^2 x = \\frac{1 + \\cos 2x}{2}$ to halve the power. Odd powers instead split off one factor and convert the rest via $\\sin^2 x + \\cos^2 x = 1$."
+    },
+    {
+      "id": "int-trig-power-example",
+      "label": "Example: $int sin^2 x,dx$",
+      "group": "Trig Identities in Integrals",
+      "depth": 3,
+      "note": "$\\int \\sin^2 x\\,dx = \\int \\frac{1 - \\cos 2x}{2}\\,dx = \\frac{x}{2} - \\frac{\\sin 2x}{4} + C$."
+    },
+    {
+      "id": "int-trig-products",
+      "label": "Products via Identities",
+      "group": "Trig Identities in Integrals",
+      "depth": 2,
+      "note": "$2\\sin A \\cos B = \\sin(A+B) + \\sin(A-B)$ and similar product-to-sum formulas convert products into sums that integrate term by term."
+    },
+    {
+      "id": "int-definite",
+      "label": "Definite Integrals and Properties",
+      "group": "Definite Integrals and Properties",
+      "depth": 1,
+      "note": "A definite integral is a number, not a function. Newton-Leibniz evaluates it; the properties let you dodge hard computations entirely."
+    },
+    {
+      "id": "int-newton",
+      "label": "Newton-Leibniz Formula",
+      "group": "Definite Integrals and Properties",
+      "depth": 2,
+      "note": "$\\int_a^b f(x)\\,dx = F(b) - F(a)$ where $F' = f$. The answer is independent of which antiderivative $F$ you choose, since the constants cancel."
+    },
+    {
+      "id": "int-newton-example",
+      "label": "Example: $int_0^1 x^2,dx$",
+      "group": "Definite Integrals and Properties",
+      "depth": 3,
+      "note": "$\\int_0^1 x^2 dx = \\left[\\frac{x^3}{3}\\right]_0^1 = \\frac{1}{3}$."
+    },
+    {
+      "id": "int-props",
+      "label": "Key Properties",
+      "group": "Definite Integrals and Properties",
+      "depth": 2,
+      "note": "$\\int_a^b f = -\\int_b^a f$, $\\int_a^b f = \\int_a^c f + \\int_c^b f$, and $\\int_0^a f(x)\\,dx = \\int_0^a f(a-x)\\,dx$. The last one (King's property) frequently collapses a brutal integral into a trivial one."
+    },
+    {
+      "id": "int-king-example",
+      "label": "Example: King Property",
+      "group": "Definite Integrals and Properties",
+      "depth": 3,
+      "note": "For $I = \\int_0^{\\pi/2} \\frac{\\sin x}{\\sin x + \\cos x}\\,dx$, adding $I$ to its King image gives $2I = \\int_0^{\\pi/2} 1\\,dx = \\frac{\\pi}{2}$, so $I = \\frac{\\pi}{4}$."
+    },
+    {
+      "id": "int-symmetry",
+      "label": "Even and Odd Functions",
+      "group": "Definite Integrals and Properties",
+      "depth": 2,
+      "note": "$\\int_{-a}^{a} f(x)\\,dx = 2\\int_0^a f(x)\\,dx$ for even $f$, and $0$ for odd $f$. Always check symmetry before integrating on a symmetric interval."
+    },
+    {
+      "id": "int-area",
+      "label": "Area Under Curves",
+      "group": "Area Under Curves",
+      "depth": 1,
+      "note": "Definite integrals measure signed area. Region questions are just bookkeeping about which curve is on top."
+    },
+    {
+      "id": "int-area-basic",
+      "label": "Area Under One Curve",
+      "group": "Area Under Curves",
+      "depth": 2,
+      "note": "The area between $y = f(x)$ (with $f \\ge 0$), the $x$-axis and $x = a$, $x = b$ is $\\int_a^b f(x)\\,dx$. If $f$ dips below the axis, integrate $|f|$ or split at the roots."
+    },
+    {
+      "id": "int-area-between",
+      "label": "Area Between Two Curves",
+      "group": "Area Under Curves",
+      "depth": 2,
+      "note": "Area $= \\int_a^b (f(x) - g(x))\\,dx$ where $f(x) \\ge g(x)$ on $[a,b]$. Find the intersection points first; they supply the limits."
+    },
+    {
+      "id": "int-area-example",
+      "label": "Example: $y = x^2$ and $y = x$",
+      "group": "Area Under Curves",
+      "depth": 3,
+      "note": "Intersections at $x = 0, 1$, and $x \\ge x^2$ on $[0,1]$, so area $= \\int_0^1 (x - x^2)\\,dx = \\frac{1}{2} - \\frac{1}{3} = \\frac{1}{6}$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "integration",
+      "target": "int-basics",
+      "label": "contains"
+    },
+    {
+      "source": "int-basics",
+      "target": "int-antiderivative",
+      "label": "contains"
+    },
+    {
+      "source": "int-basics",
+      "target": "int-linearity",
+      "label": "contains"
+    },
+    {
+      "source": "int-linearity",
+      "target": "int-linearity-example",
+      "label": "contains"
+    },
+    {
+      "source": "int-basics",
+      "target": "int-family",
+      "label": "contains"
+    },
+    {
+      "source": "integration",
+      "target": "int-standard",
+      "label": "contains"
+    },
+    {
+      "source": "int-standard",
+      "target": "int-power",
+      "label": "contains"
+    },
+    {
+      "source": "int-standard",
+      "target": "int-standard-table",
+      "label": "contains"
+    },
+    {
+      "source": "int-standard-table",
+      "target": "int-table-example",
+      "label": "contains"
+    },
+    {
+      "source": "integration",
+      "target": "int-substitution",
+      "label": "contains"
+    },
+    {
+      "source": "int-substitution",
+      "target": "int-sub-method",
+      "label": "contains"
+    },
+    {
+      "source": "int-sub-method",
+      "target": "int-sub-example",
+      "label": "contains"
+    },
+    {
+      "source": "int-substitution",
+      "target": "int-sub-trig",
+      "label": "contains"
+    },
+    {
+      "source": "int-sub-trig",
+      "target": "int-sub-trig-example",
+      "label": "contains"
+    },
+    {
+      "source": "integration",
+      "target": "int-parts",
+      "label": "contains"
+    },
+    {
+      "source": "int-parts",
+      "target": "int-parts-formula",
+      "label": "contains"
+    },
+    {
+      "source": "int-parts-formula",
+      "target": "int-parts-example",
+      "label": "contains"
+    },
+    {
+      "source": "int-parts",
+      "target": "int-ilate",
+      "label": "contains"
+    },
+    {
+      "source": "int-parts",
+      "target": "int-byparts-repeat",
+      "label": "contains"
+    },
+    {
+      "source": "integration",
+      "target": "int-partial",
+      "label": "contains"
+    },
+    {
+      "source": "int-partial",
+      "target": "int-partial-distinct",
+      "label": "contains"
+    },
+    {
+      "source": "int-partial-distinct",
+      "target": "int-partial-example",
+      "label": "contains"
+    },
+    {
+      "source": "int-partial",
+      "target": "int-partial-repeated",
+      "label": "contains"
+    },
+    {
+      "source": "integration",
+      "target": "int-trig",
+      "label": "contains"
+    },
+    {
+      "source": "int-trig",
+      "target": "int-trig-powers",
+      "label": "contains"
+    },
+    {
+      "source": "int-trig-powers",
+      "target": "int-trig-power-example",
+      "label": "contains"
+    },
+    {
+      "source": "int-trig",
+      "target": "int-trig-products",
+      "label": "contains"
+    },
+    {
+      "source": "integration",
+      "target": "int-definite",
+      "label": "contains"
+    },
+    {
+      "source": "int-definite",
+      "target": "int-newton",
+      "label": "contains"
+    },
+    {
+      "source": "int-newton",
+      "target": "int-newton-example",
+      "label": "contains"
+    },
+    {
+      "source": "int-definite",
+      "target": "int-props",
+      "label": "contains"
+    },
+    {
+      "source": "int-props",
+      "target": "int-king-example",
+      "label": "contains"
+    },
+    {
+      "source": "int-definite",
+      "target": "int-symmetry",
+      "label": "contains"
+    },
+    {
+      "source": "integration",
+      "target": "int-area",
+      "label": "contains"
+    },
+    {
+      "source": "int-area",
+      "target": "int-area-basic",
+      "label": "contains"
+    },
+    {
+      "source": "int-area",
+      "target": "int-area-between",
+      "label": "contains"
+    },
+    {
+      "source": "int-area-between",
+      "target": "int-area-example",
+      "label": "contains"
+    }
+  ]
+}

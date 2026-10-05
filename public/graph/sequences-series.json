@@ -1,0 +1,495 @@
+{
+  "title": "Sequences, Series and Progressions",
+  "subject": "maths",
+  "nodes": [
+    {
+      "id": "sequences-series",
+      "label": "Sequences, Series and Progressions",
+      "group": "Sequences, Series and Progressions",
+      "depth": 0,
+      "note": "Sequences and series underpin JEE algebra: AP, GP, HP, arithmetico-geometric series, and telescoping methods. Expect one question every year built on nth-term and sum identities."
+    },
+    {
+      "id": "seq-fundamentals",
+      "label": "Sequence Fundamentals",
+      "group": "Sequence Fundamentals",
+      "depth": 1,
+      "note": "Definitions and core invariants that link a sequence to its partial sums. These identities are the entry point for almost every JEE series problem."
+    },
+    {
+      "id": "seq-def",
+      "label": "Sequence as a Function",
+      "group": "Sequence Fundamentals",
+      "depth": 2,
+      "note": "A sequence assigns each natural number n a unique term: $$a_n = f(n), \\ n \\in \\mathbb{N}$$. Finite and infinite types both appear in sum-of-n problems."
+    },
+    {
+      "id": "seq-series",
+      "label": "Series and Partial Sums",
+      "group": "Sequence Fundamentals",
+      "depth": 2,
+      "note": "A series is the indicated sum of terms, and its partial sum is $$S_n = \\sum_{k=1}^{n} a_k$$. JEE problems often hand you S_n and ask for the sum of specific terms."
+    },
+    {
+      "id": "seq-term-from-sum",
+      "label": "Term from Sum Relation",
+      "group": "Sequence Fundamentals",
+      "depth": 2,
+      "note": "Recover the nth term from the partial sums: $$a_n = S_n - S_{n-1} \\ (n \\ge 2), \\ a_1 = S_1$$. The n >= 2 restriction is a classic off-by-one trap."
+    },
+    {
+      "id": "seq-term-example",
+      "label": "Mini-Example: S_n Given",
+      "group": "Sequence Fundamentals",
+      "depth": 3,
+      "note": "If $S_n = 2n^2 + 3n$, then $a_n = S_n - S_{n-1} = 4n + 1$ for $n \\ge 2$, and $a_1 = S_1 = 5$, which matches $4(1)+1$."
+    },
+    {
+      "id": "seq-finite-infinite",
+      "label": "Finite vs Infinite Sums",
+      "group": "Sequence Fundamentals",
+      "depth": 2,
+      "note": "Finite series stop at a last term, while infinite series need a convergence check before any sum formula applies. $$S_\\infty = \\sum_{k=1}^{\\infty} a_k$$ exists only when terms vanish fast enough."
+    },
+    {
+      "id": "seq-ap",
+      "label": "Arithmetic Progression",
+      "group": "Arithmetic Progression",
+      "depth": 1,
+      "note": "The workhorse of JEE sequences: constant difference between consecutive terms. Most questions reduce to the nth-term or sum formula."
+    },
+    {
+      "id": "seq-ap-d",
+      "label": "Common Difference",
+      "group": "Arithmetic Progression",
+      "depth": 2,
+      "note": "The difference is constant: $$d = a_{k+1} - a_k$$. A zero d gives a constant sequence, worth spotting in modified progressions."
+    },
+    {
+      "id": "seq-ap-tn",
+      "label": "nth Term of an AP",
+      "group": "Arithmetic Progression",
+      "depth": 2,
+      "note": "The general term is $$T_n = a + (n-1)d$$. Asking which term equals X is a direct linear equation in n."
+    },
+    {
+      "id": "seq-ap-sum",
+      "label": "Sum of n Terms of AP",
+      "group": "Arithmetic Progression",
+      "depth": 2,
+      "note": "The sum of the first n terms is $$S_n = \\frac{n}{2}\\left[2a + (n-1)d\\right]$$. It is quadratic in n, so a quadratic S_n signals an AP."
+    },
+    {
+      "id": "seq-ap-am",
+      "label": "Arithmetic Mean",
+      "group": "Arithmetic Progression",
+      "depth": 2,
+      "note": "The middle term of three terms in AP is their mean: $$b = \\frac{a+c}{2}$$. Inserting k AMs between a and b is a standard JEE step."
+    },
+    {
+      "id": "seq-ap-prop",
+      "label": "Equidistant Term Property",
+      "group": "Arithmetic Progression",
+      "depth": 2,
+      "note": "Terms equidistant from the ends sum equally: $$a_k + a_{n+1-k} = a_1 + a_n$$. Use it to shortcut sums of symmetric selected terms."
+    },
+    {
+      "id": "seq-ap-example",
+      "label": "Example: Sum of an AP",
+      "group": "Arithmetic Progression",
+      "depth": 2,
+      "note": "For $3, 7, 11, \\dots$ ($a=3, d=4$): $S_{20} = \\frac{20}{2}[6 + 19\\cdot 4] = 820$. JEE wraps this in word problems about arithmetic totals."
+    },
+    {
+      "id": "seq-gp",
+      "label": "Geometric Progression",
+      "group": "Geometric Progression",
+      "depth": 1,
+      "note": "Constant ratio between consecutive terms. Infinite GP sums and mean relations are heavily tested."
+    },
+    {
+      "id": "seq-gp-r",
+      "label": "Common Ratio",
+      "group": "Geometric Progression",
+      "depth": 2,
+      "note": "Each term is a fixed multiple of the previous: $$r = \\frac{a_{k+1}}{a_k}$$. The sign and magnitude of r decide monotonicity and convergence."
+    },
+    {
+      "id": "seq-gp-tn",
+      "label": "nth Term of a GP",
+      "group": "Geometric Progression",
+      "depth": 2,
+      "note": "The general term is $$T_n = ar^{n-1}$$. Logarithms convert GP problems into AP problems, a standard JEE manipulation."
+    },
+    {
+      "id": "seq-gp-sum",
+      "label": "Sum of n Terms of GP",
+      "group": "Geometric Progression",
+      "depth": 2,
+      "note": "For r not equal to 1 the partial sum is $$S_n = a\\frac{r^n - 1}{r - 1}$$. The $r = 1$ case collapses to $S_n = na$."
+    },
+    {
+      "id": "seq-gp-infinite",
+      "label": "Infinite Geometric Sum",
+      "group": "Geometric Progression",
+      "depth": 2,
+      "note": "When $|r| < 1$ the series converges: $$S_\\infty = \\frac{a}{1-r}$$. This single formula powers recurring-decimal and geometric-tail questions."
+    },
+    {
+      "id": "seq-gp-example",
+      "label": "Example: Infinite GP",
+      "group": "Geometric Progression",
+      "depth": 3,
+      "note": "$1 + \\frac{1}{3} + \\frac{1}{9} + \\dots$ has $a=1, r=1/3$, so $S_\\infty = \\frac{1}{1 - 1/3} = \\frac{3}{2}$."
+    },
+    {
+      "id": "seq-gp-gm",
+      "label": "Geometric Mean",
+      "group": "Geometric Progression",
+      "depth": 2,
+      "note": "For three terms in GP, the middle is the geometric mean: $$b^2 = ac$$. Two positive numbers have GM $\\sqrt{ac}$, linking to the AM-GM-HM chain."
+    },
+    {
+      "id": "seq-hp",
+      "label": "Harmonic Progression",
+      "group": "Harmonic Progression",
+      "depth": 1,
+      "note": "Reciprocals form an AP. HP questions are usually disguised AM/GM problems."
+    },
+    {
+      "id": "seq-hp-def",
+      "label": "HP Definition",
+      "group": "Harmonic Progression",
+      "depth": 2,
+      "note": "A sequence is harmonic when its reciprocals form an AP: $$\\frac{1}{a_{k+1}} - \\frac{1}{a_k} = \\text{constant}$$. Its nth term mirrors the AP structure on reciprocals."
+    },
+    {
+      "id": "seq-hp-tn",
+      "label": "nth Term of an HP",
+      "group": "Harmonic Progression",
+      "depth": 2,
+      "note": "If reciprocals are an AP with first A and difference D, then $$T_n = \\frac{1}{A + (n-1)D}$$. Take reciprocals first, then apply AP formulas."
+    },
+    {
+      "id": "seq-hp-hm",
+      "label": "Harmonic Mean",
+      "group": "Harmonic Progression",
+      "depth": 2,
+      "note": "The harmonic mean of two numbers is $$H = \\frac{2ab}{a+b}$$. HM of a and b is the reciprocal of the AM of $1/a$ and $1/b$."
+    },
+    {
+      "id": "seq-hp-example",
+      "label": "Example: HM of Two Numbers",
+      "group": "Harmonic Progression",
+      "depth": 3,
+      "note": "HM of 2 and 6 is $H = \\frac{2 \\cdot 2 \\cdot 6}{2 + 6} = 3$, and $2, 3, 6$ are in HP since $\\frac{1}{2}, \\frac{1}{3}, \\frac{1}{6}$ are in AP."
+    },
+    {
+      "id": "seq-means",
+      "label": "Means and Inequalities",
+      "group": "Means and Inequalities",
+      "depth": 1,
+      "note": "AM-GM-HM relations and Cauchy-Schwarz give quick answers to max-min JEE questions."
+    },
+    {
+      "id": "seq-amgmhm",
+      "label": "AM-GM-HM Chain",
+      "group": "Means and Inequalities",
+      "depth": 2,
+      "note": "For positive reals the three means are ordered: $$AM \\ge GM \\ge HM$$. Equality holds iff all numbers are equal."
+    },
+    {
+      "id": "seq-weighted",
+      "label": "Weighted AM-GM",
+      "group": "Means and Inequalities",
+      "depth": 2,
+      "note": "Weights turn the inequality into $$w_1 a_1 + w_2 a_2 \\ge a_1^{w_1} a_2^{w_2}, \\ w_1 + w_2 = 1$$. Handy for optimization under a constraint."
+    },
+    {
+      "id": "seq-cauchy",
+      "label": "Cauchy-Schwarz Inequality",
+      "group": "Means and Inequalities",
+      "depth": 2,
+      "note": "$$(a_1^2 + a_2^2)(b_1^2 + b_2^2) \\ge (a_1 b_1 + a_2 b_2)^2$$ bounds a dot product by the product of norms. Common in sum-bound questions."
+    },
+    {
+      "id": "seq-amgm-example",
+      "label": "Example: Max Product",
+      "group": "Means and Inequalities",
+      "depth": 2,
+      "note": "For $x + y = 10$, AM-GM gives $\\sqrt{xy} \\le 5$, so the product $xy \\le 25$, maximized at $x = y = 5$."
+    },
+    {
+      "id": "seq-agp",
+      "label": "Arithmetico-Geometric Progression",
+      "group": "Arithmetico-Geometric Progression",
+      "depth": 1,
+      "note": "Product of an AP and a GP term by term. The shift-and-subtract derivation is the key skill."
+    },
+    {
+      "id": "seq-agp-term",
+      "label": "AGP Term Structure",
+      "group": "Arithmetico-Geometric Progression",
+      "depth": 2,
+      "note": "Each term multiplies an AP factor by a GP factor: $$T_n = [a + (n-1)d]\\, r^{n-1}$$. Recognize the mixed structure before applying formulas."
+    },
+    {
+      "id": "seq-agp-sum",
+      "label": "AGP Finite Sum",
+      "group": "Arithmetico-Geometric Progression",
+      "depth": 2,
+      "note": "Multiply $S_n$ by r and subtract to collapse the series: $$S_n = \\frac{a - [a+(n-1)d]r^n}{1-r} + \\frac{dr(1 - r^{n-1})}{(1-r)^2}$$. The shift-and-subtract idea is asked conceptually in JEE."
+    },
+    {
+      "id": "seq-agp-infinite",
+      "label": "AGP Infinite Sum",
+      "group": "Arithmetico-Geometric Progression",
+      "depth": 2,
+      "note": "For $|r| < 1$: $$S_\\infty = \\frac{a}{1-r} + \\frac{dr}{(1-r)^2}$$. The second term is the correction from the arithmetic part."
+    },
+    {
+      "id": "seq-agp-example",
+      "label": "Example: 2 + 8 + 24 + 64",
+      "group": "Arithmetico-Geometric Progression",
+      "depth": 3,
+      "note": "For $S = 1\\cdot 2 + 2\\cdot 4 + 3\\cdot 8 + \\dots$ the AGP has $a=1, d=1, r=2$; since $|r|>1$ only finite partial sums exist, found via shift-and-subtract."
+    },
+    {
+      "id": "seq-summation",
+      "label": "Summation Methods",
+      "group": "Summation Methods",
+      "depth": 1,
+      "note": "Difference tables, telescoping, and sigma identities cover non-standard series in JEE."
+    },
+    {
+      "id": "seq-differences",
+      "label": "Method of Differences",
+      "group": "Summation Methods",
+      "depth": 2,
+      "note": "Successive differences reveal the polynomial degree of the nth term: $$\\Delta T_n = T_{n+1} - T_n$$. If the first differences are constant, T_n is linear; two rounds give a quadratic."
+    },
+    {
+      "id": "seq-telescope",
+      "label": "Telescoping Series",
+      "group": "Summation Methods",
+      "depth": 2,
+      "note": "Write each term as a difference and cancel in between: $$\\sum_{k=1}^{n}(V_k - V_{k-1}) = V_n - V_0$$. Partial-fraction splits set this up."
+    },
+    {
+      "id": "seq-tele-example",
+      "label": "Example: Telescoping Sum",
+      "group": "Summation Methods",
+      "depth": 3,
+      "note": "$\\sum_{k=1}^{n} \\frac{1}{k(k+1)} = \\sum \\left(\\frac{1}{k} - \\frac{1}{k+1}\\right) = 1 - \\frac{1}{n+1}$, a classic telescoping collapse."
+    },
+    {
+      "id": "seq-sigma",
+      "label": "Standard Sigma Identities",
+      "group": "Summation Methods",
+      "depth": 2,
+      "note": "$$\\sum_{k=1}^n k = \\frac{n(n+1)}{2}, \\quad \\sum_{k=1}^n k^2 = \\frac{n(n+1)(2n+1)}{6}, \\quad \\sum_{k=1}^n k^3 = \\left[\\frac{n(n+1)}{2}\\right]^2$$. Memorize all three for direct use."
+    }
+  ],
+  "edges": [
+    {
+      "source": "sequences-series",
+      "target": "seq-fundamentals",
+      "label": "contains"
+    },
+    {
+      "source": "seq-fundamentals",
+      "target": "seq-def",
+      "label": "contains"
+    },
+    {
+      "source": "seq-fundamentals",
+      "target": "seq-series",
+      "label": "contains"
+    },
+    {
+      "source": "seq-fundamentals",
+      "target": "seq-term-from-sum",
+      "label": "contains"
+    },
+    {
+      "source": "seq-term-from-sum",
+      "target": "seq-term-example",
+      "label": "contains"
+    },
+    {
+      "source": "seq-fundamentals",
+      "target": "seq-finite-infinite",
+      "label": "contains"
+    },
+    {
+      "source": "sequences-series",
+      "target": "seq-ap",
+      "label": "contains"
+    },
+    {
+      "source": "seq-ap",
+      "target": "seq-ap-d",
+      "label": "contains"
+    },
+    {
+      "source": "seq-ap",
+      "target": "seq-ap-tn",
+      "label": "contains"
+    },
+    {
+      "source": "seq-ap",
+      "target": "seq-ap-sum",
+      "label": "contains"
+    },
+    {
+      "source": "seq-ap",
+      "target": "seq-ap-am",
+      "label": "contains"
+    },
+    {
+      "source": "seq-ap",
+      "target": "seq-ap-prop",
+      "label": "contains"
+    },
+    {
+      "source": "seq-ap",
+      "target": "seq-ap-example",
+      "label": "contains"
+    },
+    {
+      "source": "sequences-series",
+      "target": "seq-gp",
+      "label": "contains"
+    },
+    {
+      "source": "seq-gp",
+      "target": "seq-gp-r",
+      "label": "contains"
+    },
+    {
+      "source": "seq-gp",
+      "target": "seq-gp-tn",
+      "label": "contains"
+    },
+    {
+      "source": "seq-gp",
+      "target": "seq-gp-sum",
+      "label": "contains"
+    },
+    {
+      "source": "seq-gp",
+      "target": "seq-gp-infinite",
+      "label": "contains"
+    },
+    {
+      "source": "seq-gp-infinite",
+      "target": "seq-gp-example",
+      "label": "contains"
+    },
+    {
+      "source": "seq-gp",
+      "target": "seq-gp-gm",
+      "label": "contains"
+    },
+    {
+      "source": "sequences-series",
+      "target": "seq-hp",
+      "label": "contains"
+    },
+    {
+      "source": "seq-hp",
+      "target": "seq-hp-def",
+      "label": "contains"
+    },
+    {
+      "source": "seq-hp",
+      "target": "seq-hp-tn",
+      "label": "contains"
+    },
+    {
+      "source": "seq-hp",
+      "target": "seq-hp-hm",
+      "label": "contains"
+    },
+    {
+      "source": "seq-hp-hm",
+      "target": "seq-hp-example",
+      "label": "contains"
+    },
+    {
+      "source": "sequences-series",
+      "target": "seq-means",
+      "label": "contains"
+    },
+    {
+      "source": "seq-means",
+      "target": "seq-amgmhm",
+      "label": "contains"
+    },
+    {
+      "source": "seq-means",
+      "target": "seq-weighted",
+      "label": "contains"
+    },
+    {
+      "source": "seq-means",
+      "target": "seq-cauchy",
+      "label": "contains"
+    },
+    {
+      "source": "seq-means",
+      "target": "seq-amgm-example",
+      "label": "contains"
+    },
+    {
+      "source": "sequences-series",
+      "target": "seq-agp",
+      "label": "contains"
+    },
+    {
+      "source": "seq-agp",
+      "target": "seq-agp-term",
+      "label": "contains"
+    },
+    {
+      "source": "seq-agp",
+      "target": "seq-agp-sum",
+      "label": "contains"
+    },
+    {
+      "source": "seq-agp",
+      "target": "seq-agp-infinite",
+      "label": "contains"
+    },
+    {
+      "source": "seq-agp-infinite",
+      "target": "seq-agp-example",
+      "label": "contains"
+    },
+    {
+      "source": "sequences-series",
+      "target": "seq-summation",
+      "label": "contains"
+    },
+    {
+      "source": "seq-summation",
+      "target": "seq-differences",
+      "label": "contains"
+    },
+    {
+      "source": "seq-summation",
+      "target": "seq-telescope",
+      "label": "contains"
+    },
+    {
+      "source": "seq-telescope",
+      "target": "seq-tele-example",
+      "label": "contains"
+    },
+    {
+      "source": "seq-summation",
+      "target": "seq-sigma",
+      "label": "contains"
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "title": "Electromagnetic Induction",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "electromagnetic-induction",
+      "label": "Electromagnetic Induction",
+      "group": "Electromagnetic Induction",
+      "depth": 0,
+      "note": "Induced EMF arises whenever magnetic flux changes, through motion, changing fields, or changing current. JEE Main tests Lenz's sign rule, motional EMF, self-inductance, and $R$-$L$ transients. Use $$\\varepsilon = -N\\frac{d\\Phi_B}{dt}$$ as the starting point."
+    },
+    {
+      "id": "emi-flux",
+      "label": "Magnetic Flux, Faraday's Laws and Lenz's Principle",
+      "group": "Magnetic Flux, Faraday's Laws and Lenz's Principle",
+      "depth": 1,
+      "note": "Flux through a loop and the two Faraday laws set the induced EMF magnitude. Lenz's law fixes its opposing direction. Flux linkage is $$N\\Phi_B = NBA\\cos\\theta$$."
+    },
+    {
+      "id": "emi-flux-def",
+      "label": "Magnetic Flux",
+      "group": "Magnetic Flux, Faraday's Laws and Lenz's Principle",
+      "depth": 2,
+      "note": "The flux through an area $A$ in field $B$ is $$\\Phi_B = \\int \\vec{B} \\cdot d\\vec{A} = BA\\cos\\theta$$ where $\\theta$ is between $\\vec{B}$ and the area normal. Its SI unit is the weber."
+    },
+    {
+      "id": "emi-faraday",
+      "label": "Faraday's Laws",
+      "group": "Magnetic Flux, Faraday's Laws and Lenz's Principle",
+      "depth": 2,
+      "note": "Induced EMF equals the rate of change of flux linkage: $$\\varepsilon = -N\\frac{d\\Phi_B}{dt}$$. The negative sign encodes Lenz's law; magnitude grows with turns $N$."
+    },
+    {
+      "id": "emi-lenz",
+      "label": "Lenz's Law and Energy",
+      "group": "Magnetic Flux, Faraday's Laws and Lenz's Principle",
+      "depth": 2,
+      "note": "The induced current opposes the change in flux that produces it. This is energy conservation: external work done against the opposition equals electrical energy dissipated. Energy balance reads $$F_{ext}v = \\frac{\\varepsilon^2}{R}$$."
+    },
+    {
+      "id": "emi-emf-emf",
+      "label": "Average and Instantaneous EMF",
+      "group": "Magnetic Flux, Faraday's Laws and Lenz's Principle",
+      "depth": 2,
+      "note": "Average EMF over an interval is $$\\varepsilon_{avg} = -N\\frac{\\Delta \\Phi_B}{\\Delta t}$$ while the instantaneous value is the derivative. Quick rotation or fast field change gives large peaks."
+    },
+    {
+      "id": "emi-motional",
+      "label": "Motional EMF",
+      "group": "Motional EMF",
+      "depth": 1,
+      "note": "A conductor moving through a magnetic field separates charges and creates motional EMF along its length. Hall balance gives $$E = vB$$ inside the moving conductor."
+    },
+    {
+      "id": "emi-motional-rod",
+      "label": "Translational Motional EMF",
+      "group": "Motional EMF",
+      "depth": 2,
+      "note": "A rod of length $l$ moving at speed $v$ perpendicular to $B$ develops $$\\varepsilon = Blv$$ along its length. Force balance $qvB = qE$ gives the steady field $E = vB$."
+    },
+    {
+      "id": "emi-motional-rot",
+      "label": "Rotational Motional EMF",
+      "group": "Motional EMF",
+      "depth": 2,
+      "note": "A rod rotating at angular speed $\\omega$ about one end in a field $B$ gives $$\\varepsilon = \\frac{1}{2}B\\omega l^2$$ from integrating $v = \\omega r$. A disc between rim and center gives $\\frac{1}{2}B\\omega R^2$."
+    },
+    {
+      "id": "emi-motional-flux",
+      "label": "Motional EMF as Flux Rule",
+      "group": "Motional EMF",
+      "depth": 2,
+      "note": "Sweeping area changes linked flux: $\\varepsilon = Blv$ equals $d\\Phi/dt$ with $\\Phi = BA$. The flux rule unifies translational and rotational cases. Flux through the swept area is $$\\Phi_B = Blx$$, so $$\\varepsilon = Blv$$."
+    },
+    {
+      "id": "emi-induced-field",
+      "label": "Non-Conservative Induced Electric Fields",
+      "group": "Non-Conservative Induced Electric Fields",
+      "depth": 1,
+      "note": "A changing magnetic field creates a circulating, non-conservative electric field even with no conductor present. Maxwell-Faraday: $$\\oint \\vec{E}\\cdot d\\vec{l} = -\\frac{d\\Phi_B}{dt}$$."
+    },
+    {
+      "id": "emi-maxwell",
+      "label": "Maxwell-Faraday Equation",
+      "group": "Non-Conservative Induced Electric Fields",
+      "depth": 2,
+      "note": "In differential form $$\\oint \\vec{E} \\cdot d\\vec{l} = -\\frac{d\\Phi_B}{dt}$$ shows the induced field circulates. It has no scalar potential and nonzero curl."
+    },
+    {
+      "id": "emi-cylindrical",
+      "label": "Cylindrical Region of Changing B",
+      "group": "Non-Conservative Induced Electric Fields",
+      "depth": 2,
+      "note": "Inside a uniform region of radius $R$ with changing $B$, symmetry gives $$E_\\phi \\cdot 2\\pi r = -\\pi r^2 \\frac{dB}{dt} \\Rightarrow E_\\phi = -\\frac{r}{2}\\frac{dB}{dt}$$ for $r < R$."
+    },
+    {
+      "id": "emi-betatron-like",
+      "label": "Electron in Induced Field",
+      "group": "Non-Conservative Induced Electric Fields",
+      "depth": 2,
+      "note": "A charge $q$ free to move in the induced field feels $F = qE_\\phi$ and a tangential acceleration. Energy comes from the changing magnetic flux, not from a battery. A free charge accelerates with $$a = \\frac{qE_\\phi}{m}$$."
+    },
+    {
+      "id": "emi-rails",
+      "label": "Conducting Rod on Rails",
+      "group": "Conducting Rod on Rails",
+      "depth": 1,
+      "note": "A sliding rod on rails forms a circuit whose motion generates current, force, and feedback; capacitor or constant-force variants test dynamics. Drag force is $$F = \\frac{B^2l^2v}{R}$$."
+    },
+    {
+      "id": "emi-rails-resistor",
+      "label": "Rod with Resistor",
+      "group": "Conducting Rod on Rails",
+      "depth": 2,
+      "note": "A rod on rails closed through $R$ carries $$I = \\frac{Blv}{R}$$ and feels drag $F = BIl = \\frac{B^2 l^2 v}{R}$. Terminal speed under constant force is $v_t = FR/(B^2 l^2)$."
+    },
+    {
+      "id": "emi-rails-capacitor",
+      "label": "Rod Across a Capacitor",
+      "group": "Conducting Rod on Rails",
+      "depth": 2,
+      "note": "With a capacitor $C$ and no resistor, EMF charges it: $$Blv = \\frac{Q}{C} \\Rightarrow Q = CBlv$$. Differentiating gives $I = CBl\\,a$, so a constant force yields constant acceleration $a = F/(m + B^2C l^2)$."
+    },
+    {
+      "id": "emi-rails-terminal",
+      "label": "Terminal Velocity Feedback",
+      "group": "Conducting Rod on Rails",
+      "depth": 2,
+      "note": "Drag rises linearly with speed, so current decays as the rod approaches steady speed. Force balance $F_{ext} = \\frac{B^2 l^2 v}{R}$ yields terminal velocity. Use $$\\varepsilon = -N\\frac{d\\Phi_B}{dt}$$ as the starting point."
+    },
+    {
+      "id": "emi-inductance",
+      "label": "Inductance: Self and Mutual",
+      "group": "Inductance: Self and Mutual",
+      "depth": 1,
+      "note": "Self and mutual inductance quantify how a circuit's own or a neighbor's current links flux to it. For a solenoid, $$L = \\mu_0 n^2 V$$."
+    },
+    {
+      "id": "emi-self",
+      "label": "Self-Inductance",
+      "group": "Inductance: Self and Mutual",
+      "depth": 2,
+      "note": "Self-inductance is flux linkage per unit current: $$L = \\frac{N\\Phi_B}{I}$$ and induced EMF is $\\varepsilon = -L\\,dI/dt$. For a long solenoid $L = \\mu_0 n^2 V$."
+    },
+    {
+      "id": "emi-mutual",
+      "label": "Mutual Inductance",
+      "group": "Inductance: Self and Mutual",
+      "depth": 2,
+      "note": "Flux linkage in coil 2 due to current in coil 1 defines $$M = \\frac{N_2\\Phi_{21}}{I_1}$$ with EMF $\\varepsilon_2 = -M\\,dI_1/dt$. Reciprocity gives $M_{12} = M_{21}$."
+    },
+    {
+      "id": "emi-energy",
+      "label": "Energy Stored in Inductor",
+      "group": "Inductance: Self and Mutual",
+      "depth": 2,
+      "note": "Work building current in an inductor is stored as magnetic energy $$U = \\frac{1}{2}LI^2 = \\frac{B^2}{2\\mu_0}\\times \\text{volume}$$ This energy lives in the magnetic field itself."
+    },
+    {
+      "id": "emi-coupling",
+      "label": "Coupling Coefficient",
+      "group": "Inductance: Self and Mutual",
+      "depth": 2,
+      "note": "Coupling $k$ measures shared flux: $$M = k\\sqrt{L_1 L_2}, \\ 0 \\le k \\le 1$$. JEE asks turns ratio effects and whether coils aid or oppose."
+    },
+    {
+      "id": "emi-rc-transient",
+      "label": "RL and LC Transients",
+      "group": "RL and LC Transients",
+      "depth": 1,
+      "note": "Switching an inductor or capacitor into a resistor creates exponential growth or decay of current and charge. Time constant $$\\tau = L/R$$ sets the transient scale."
+    },
+    {
+      "id": "emi-rl-growth",
+      "label": "RL Current Growth",
+      "group": "RL and LC Transients",
+      "depth": 2,
+      "note": "Closing the switch gives $$I(t) = \\frac{V}{R}\\left(1 - e^{-t/\\tau}\\right), \\quad \\tau = \\frac{L}{R}$$. Current starts at zero and saturates at $V/R$."
+    },
+    {
+      "id": "emi-rl-decay",
+      "label": "RL Current Decay",
+      "group": "RL and LC Transients",
+      "depth": 2,
+      "note": "Shorting the inductor: $$I(t) = I_0 e^{-t/\\tau}, \\ \\tau = L/R$$. Inductor voltage opposes sudden change, so current cannot jump."
+    },
+    {
+      "id": "emi-lc",
+      "label": "LC Oscillations",
+      "group": "RL and LC Transients",
+      "depth": 2,
+      "note": "An $L$-$C$ loop oscillates like a spring-mass system: $$\\frac{d^2q}{dt^2} + \\frac{q}{LC} = 0, \\ \\omega = \\frac{1}{\\sqrt{LC}}$$. Energy swaps between $\\frac{1}{2}LI^2$ and $\\frac{q^2}{2C}$."
+    },
+    {
+      "id": "emi-time-constant",
+      "label": "Time Constant Significance",
+      "group": "RL and LC Transients",
+      "depth": 2,
+      "note": "At $t=\\tau$ growth reaches $63\\%$ of final value and decay falls to $37\\%$. Graph questions often ask slope at $t=0$: $dI/dt = V/L$. At $t = \\tau$ the current reaches $1 - e^{-1} \\approx 63\\%$ of its final value."
+    },
+    {
+      "id": "emi-archetypes",
+      "label": "Problem Archetypes and Traps",
+      "group": "Problem Archetypes and Traps",
+      "depth": 1,
+      "note": "High-yield traps combine flux rule, energy conservation, and circuit feedback in one picture. Net charge is $$Q = \\frac{\\Delta(N\\Phi_B)}{R}$$."
+    },
+    {
+      "id": "emi-ring-falling",
+      "label": "Ring Falling Through Field Gradient",
+      "group": "Problem Archetypes and Traps",
+      "depth": 2,
+      "note": "A ring falling through a non-uniform field gets EMF from changing flux at top and bottom edges. Current $I = \\varepsilon/R$ and magnetic drag $F = BIl$ oppose gravity. Drag force scale: $$F = \\frac{B^2l^2v}{R}$$."
+    },
+    {
+      "id": "emi-charge-rotation",
+      "label": "Charge in Loop Rotation",
+      "group": "Problem Archetypes and Traps",
+      "depth": 2,
+      "note": "Rotating a loop by $90^\\circ$ reverses flux sign, giving total charge flown $$Q = \\frac{\\Delta(N\\Phi)}{R} = \\frac{2NBA}{R}$$ independent of rotation time."
+    },
+    {
+      "id": "emi-multi-loop",
+      "label": "Multi-Loop Mutual Inductance",
+      "group": "Problem Archetypes and Traps",
+      "depth": 2,
+      "note": "Nested coils share flux through common area $A$: $M = \\mu_0 n_1 n_2 A l$ style scaling. Use $M_{12}=M_{21}$ to pick the easier current to differentiate. Mutual inductance scales as $$M = \\mu_0 n_1 n_2 A l$$."
+    },
+    {
+      "id": "emi-flux-linkage",
+      "label": "Flux Linkage",
+      "group": "Magnetic Flux, Faraday's Laws and Lenz's Principle",
+      "depth": 2,
+      "note": "Total flux through $N$ series turns is the flux linkage $$N\\Phi_B = NAB\\cos\\theta$$. EMF depends on the rate of change of this quantity, which is why adding turns boosts induced voltage."
+    },
+    {
+      "id": "emi-frames",
+      "label": "Motional EMF in a Moving Frame",
+      "group": "Motional EMF",
+      "depth": 2,
+      "note": "In the conductor's rest frame the magnetic force on charges becomes an electric field $$\\vec{E}' = \\vec{v} \\times \\vec{B}$$. This frame view explains why motion alone can drive current."
+    },
+    {
+      "id": "emi-oppose-change",
+      "label": "Direction from Lenz's Law",
+      "group": "Non-Conservative Induced Electric Fields",
+      "depth": 2,
+      "note": "The induced field circulates so that its own flux opposes the change: if $B$ into the page grows, induced current makes field out of the page. Fleming's right-hand rule gives the same sense. Use $$\\varepsilon = -N\\frac{d\\Phi_B}{dt}$$ as the starting point."
+    },
+    {
+      "id": "emi-rails-power",
+      "label": "Power Balance on the Rod",
+      "group": "Conducting Rod on Rails",
+      "depth": 2,
+      "note": "Mechanical power input balances Joule heating: $$F_{ext}v = I^2 R = \\frac{(Blv)^2}{R}$$. Energy conservation holds at every instant of the motion."
+    },
+    {
+      "id": "emi-rl-energy",
+      "label": "Energy Needed to Build Current",
+      "group": "Inductance: Self and Mutual",
+      "depth": 2,
+      "note": "Ramping current from $0$ to $I$ stores $$U = \\int_0^I L I'\\,dI' = \\frac{1}{2}LI^2$$ in the inductor. This is the magnetic analogue of a capacitor's $\\frac{1}{2}CV^2$."
+    },
+    {
+      "id": "emi-dc-gen",
+      "label": "Back EMF in Motors",
+      "group": "RL and LC Transients",
+      "depth": 2,
+      "note": "A spinning coil in a motor generates back EMF $$\\varepsilon_{back} = NBA\\omega\\sin\\omega t$$ opposing the supply. Net current $(V - \\varepsilon_{back})/R$ sets the torque and speed balance."
+    },
+    {
+      "id": "emi-einduction-trap",
+      "label": "Flux Jump Trap",
+      "group": "Problem Archetypes and Traps",
+      "depth": 2,
+      "note": "When a loop's area or orientation snaps between two states, only the flux difference matters: $$Q = N|\\Delta\\Phi_B|/R$$. The time taken is irrelevant, which surprises many students."
+    },
+    {
+      "id": "emi-self-solenoid",
+      "label": "Solenoid Self-Inductance",
+      "group": "Inductance: Self and Mutual",
+      "depth": 2,
+      "note": "For a long solenoid of $n$ turns per metre and volume $V$: $$L = \\mu_0 n^2 V$$. Doubling the turn density quadruples the inductance."
+    }
+  ],
+  "edges": [
+    {
+      "source": "electromagnetic-induction",
+      "target": "emi-flux",
+      "label": "contains"
+    },
+    {
+      "source": "emi-flux",
+      "target": "emi-flux-def",
+      "label": "contains"
+    },
+    {
+      "source": "emi-flux",
+      "target": "emi-faraday",
+      "label": "contains"
+    },
+    {
+      "source": "emi-flux",
+      "target": "emi-lenz",
+      "label": "contains"
+    },
+    {
+      "source": "emi-flux",
+      "target": "emi-emf-emf",
+      "label": "contains"
+    },
+    {
+      "source": "electromagnetic-induction",
+      "target": "emi-motional",
+      "label": "contains"
+    },
+    {
+      "source": "emi-motional",
+      "target": "emi-motional-rod",
+      "label": "contains"
+    },
+    {
+      "source": "emi-motional",
+      "target": "emi-motional-rot",
+      "label": "contains"
+    },
+    {
+      "source": "emi-motional",
+      "target": "emi-motional-flux",
+      "label": "contains"
+    },
+    {
+      "source": "electromagnetic-induction",
+      "target": "emi-induced-field",
+      "label": "contains"
+    },
+    {
+      "source": "emi-induced-field",
+      "target": "emi-maxwell",
+      "label": "contains"
+    },
+    {
+      "source": "emi-induced-field",
+      "target": "emi-cylindrical",
+      "label": "contains"
+    },
+    {
+      "source": "emi-induced-field",
+      "target": "emi-betatron-like",
+      "label": "contains"
+    },
+    {
+      "source": "electromagnetic-induction",
+      "target": "emi-rails",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rails",
+      "target": "emi-rails-resistor",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rails",
+      "target": "emi-rails-capacitor",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rails",
+      "target": "emi-rails-terminal",
+      "label": "contains"
+    },
+    {
+      "source": "electromagnetic-induction",
+      "target": "emi-inductance",
+      "label": "contains"
+    },
+    {
+      "source": "emi-inductance",
+      "target": "emi-self",
+      "label": "contains"
+    },
+    {
+      "source": "emi-inductance",
+      "target": "emi-mutual",
+      "label": "contains"
+    },
+    {
+      "source": "emi-inductance",
+      "target": "emi-energy",
+      "label": "contains"
+    },
+    {
+      "source": "emi-inductance",
+      "target": "emi-coupling",
+      "label": "contains"
+    },
+    {
+      "source": "electromagnetic-induction",
+      "target": "emi-rc-transient",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rc-transient",
+      "target": "emi-rl-growth",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rc-transient",
+      "target": "emi-rl-decay",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rc-transient",
+      "target": "emi-lc",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rc-transient",
+      "target": "emi-time-constant",
+      "label": "contains"
+    },
+    {
+      "source": "electromagnetic-induction",
+      "target": "emi-archetypes",
+      "label": "contains"
+    },
+    {
+      "source": "emi-archetypes",
+      "target": "emi-ring-falling",
+      "label": "contains"
+    },
+    {
+      "source": "emi-archetypes",
+      "target": "emi-charge-rotation",
+      "label": "contains"
+    },
+    {
+      "source": "emi-archetypes",
+      "target": "emi-multi-loop",
+      "label": "contains"
+    },
+    {
+      "source": "emi-flux",
+      "target": "emi-flux-linkage",
+      "label": "contains"
+    },
+    {
+      "source": "emi-motional",
+      "target": "emi-frames",
+      "label": "contains"
+    },
+    {
+      "source": "emi-induced-field",
+      "target": "emi-oppose-change",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rails",
+      "target": "emi-rails-power",
+      "label": "contains"
+    },
+    {
+      "source": "emi-inductance",
+      "target": "emi-rl-energy",
+      "label": "contains"
+    },
+    {
+      "source": "emi-rc-transient",
+      "target": "emi-dc-gen",
+      "label": "contains"
+    },
+    {
+      "source": "emi-archetypes",
+      "target": "emi-einduction-trap",
+      "label": "contains"
+    },
+    {
+      "source": "emi-inductance",
+      "target": "emi-self-solenoid",
+      "label": "contains"
+    }
+  ]
+}

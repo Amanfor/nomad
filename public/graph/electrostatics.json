@@ -1,0 +1,375 @@
+{
+  "title": "Electrostatics and Capacitance",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "electrostatics",
+      "label": "Electrostatics and Capacitance",
+      "group": "Electrostatics and Capacitance",
+      "depth": 0,
+      "note": "Electrostatics builds from one force law into field, potential, dipole, Gauss, and finally capacitors. The spine of the chapter is $$\\vec{F} = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1 q_2}{r^2}\\hat{r}$$."
+    },
+    {
+      "id": "es-charge",
+      "label": "Charge and Coulomb's Law",
+      "group": "Charge and Coulomb's Law",
+      "depth": 1,
+      "note": "Charge comes in integer units of $$e$$ and obeys an inverse-square force between resting point charges. Everything downstream starts here."
+    },
+    {
+      "id": "es-quantization",
+      "label": "Quantization and Conservation of Charge",
+      "group": "Charge and Coulomb's Law",
+      "depth": 2,
+      "note": "Any isolated charge is an integer multiple of the elementary charge: $$q = \\pm ne$$ for $$n = 1, 2, 3, \\dots$$. Charge can only move between bodies, so the total of an isolated system stays fixed."
+    },
+    {
+      "id": "es-coulomb",
+      "label": "Coulomb's Law",
+      "group": "Charge and Coulomb's Law",
+      "depth": 2,
+      "note": "Two point charges pull or push along the line joining them with magnitude $$F = \\frac{1}{4\\pi\\varepsilon_0}\\frac{q_1 q_2}{r^2}$$. The constant evaluates to $$k = 9 \\times 10^9\\ \\text{N}\\cdot\\text{m}^2/\\text{C}^2$$."
+    },
+    {
+      "id": "es-medium",
+      "label": "Force in a Dielectric Medium",
+      "group": "Charge and Coulomb's Law",
+      "depth": 2,
+      "note": "A medium of dielectric constant $$K$$ weakens the force between fixed charges because bound charge screens them. The reduction is $$F_{med} = \\frac{F_{vac}}{K}$$."
+    },
+    {
+      "id": "es-superposition",
+      "label": "Superposition of Electrostatic Forces",
+      "group": "Charge and Coulomb's Law",
+      "depth": 2,
+      "note": "Each pair contributes independently, so net force is the vector sum over all partners: $$\\vec{F}_{net} = \\sum_{i} \\vec{F}_i$$. Resolve into components before adding; the forces are never collinear in JEE setups."
+    },
+    {
+      "id": "es-constants",
+      "label": "Permittivity of Free Space",
+      "group": "Charge and Coulomb's Law",
+      "depth": 2,
+      "note": "Permittivity fixes the strength of electric interactions in vacuum: $$\\varepsilon_0 = 8.854 \\times 10^{-12}\\ \\text{F/m}$$. It is bundled into $$k = \\frac{1}{4\\pi\\varepsilon_0}$$ to shorten algebra."
+    },
+    {
+      "id": "es-field",
+      "label": "Electric Field and Field Lines",
+      "group": "Electric Field and Field Lines",
+      "depth": 1,
+      "note": "The field is force per unit test charge, so it exists even with no charge present. Standard geometries give closed-form results such as $$E = \\frac{\\lambda}{2\\pi\\varepsilon_0 r}$$."
+    },
+    {
+      "id": "es-field-def",
+      "label": "Definition of Electric Field",
+      "group": "Electric Field and Field Lines",
+      "depth": 2,
+      "note": "The field is defined by a vanishing test charge so the source is undisturbed: $$\\vec{E} = \\lim_{q_0 \\to 0}\\frac{\\vec{F}}{q_0}$$. Field vectors from several sources add like any vectors."
+    },
+    {
+      "id": "es-field-line",
+      "label": "Field of an Infinite Line Charge",
+      "group": "Electric Field and Field Lines",
+      "depth": 2,
+      "note": "Cylindrical symmetry makes Gauss's law trivial for linear density $$\\lambda$$, giving a field that falls as $$1/r$$. The result is $$E = \\frac{\\lambda}{2\\pi\\varepsilon_0 r}$$, or $$E = \\frac{2k\\lambda}{r}$$."
+    },
+    {
+      "id": "es-field-ring",
+      "label": "Field on the Axis of a Charged Ring",
+      "group": "Electric Field and Field Lines",
+      "depth": 2,
+      "note": "Off-axis components cancel and the axial field peaks at a finite distance. It reads $$E(x) = \\frac{kQx}{(x^2 + R^2)^{3/2}}$$, with maximum at $$x = \\frac{R}{\\sqrt{2}}$$."
+    },
+    {
+      "id": "es-field-disc",
+      "label": "Field of a Uniformly Charged Disc",
+      "group": "Electric Field and Field Lines",
+      "depth": 2,
+      "note": "A disc is a stack of rings, and its field rises from zero at the centre to the sheet value far away. The closed form is $$E(x) = \\frac{\\sigma}{2\\varepsilon_0}\\left(1 - \\frac{x}{\\sqrt{x^2 + R^2}}\\right)$$."
+    },
+    {
+      "id": "es-field-sphere",
+      "label": "Field of Charged Spheres",
+      "group": "Electric Field and Field Lines",
+      "depth": 2,
+      "note": "A shell shields its interior, while a solid sphere's enclosed charge grows with $$r$$. Outside both, $$E = \\frac{kQ}{r^2}$$, inside a solid sphere $$E = \\frac{kQr}{R^3}$$, and inside a shell $$E = 0$$."
+    },
+    {
+      "id": "es-field-sheet",
+      "label": "Field of Infinite Charged Sheets",
+      "group": "Electric Field and Field Lines",
+      "depth": 2,
+      "note": "A non-conducting sheet sends the same field to both sides, independent of distance: $$E = \\frac{\\sigma}{2\\varepsilon_0}$$. Just outside a charged conductor the field doubles to $$E = \\frac{\\sigma}{\\varepsilon_0}$$."
+    },
+    {
+      "id": "es-potential",
+      "label": "Potential and Potential Energy",
+      "group": "Potential and Potential Energy",
+      "depth": 1,
+      "note": "Potential trades vectors for scalars, since it stores the work done against the field. The link to field is $$\\Delta V = -\\int \\vec{E}\\cdot d\\vec{r}$$."
+    },
+    {
+      "id": "es-potential-def",
+      "label": "Potential Difference",
+      "group": "Potential and Potential Energy",
+      "depth": 2,
+      "note": "Potential difference is work per unit charge moved by an external agent against the field: $$\\Delta V = V_B - V_A = \\frac{W_{ext}}{q}$$. The minus sign in $$\\vec{E} = -\\nabla V$$ says field points down the potential slope."
+    },
+    {
+      "id": "es-potential-geometry",
+      "label": "Potential of Standard Geometries",
+      "group": "Potential and Potential Energy",
+      "depth": 2,
+      "note": "Scalars superpose directly, so a shell gives $$V = \\frac{kQ}{r}$$ outside and $$V = \\frac{kQ}{R}$$ throughout. Inside a solid sphere $$V(r) = \\frac{kQ}{2R^3}(3R^2 - r^2)$$, maximum at the centre."
+    },
+    {
+      "id": "es-equipotential",
+      "label": "Equipotential Surfaces",
+      "group": "Potential and Potential Energy",
+      "depth": 2,
+      "note": "Moving a charge on an equipotential costs nothing, so field lines meet these surfaces at right angles. Numerically $$W = q\\Delta V = 0$$, and the field strength along the normal is $$E = -\\frac{dV}{dr}$$."
+    },
+    {
+      "id": "es-pe-system",
+      "label": "Electrostatic Potential Energy of a System",
+      "group": "Potential and Potential Energy",
+      "depth": 2,
+      "note": "Assembling a charge distribution costs energy pair by pair: $$U = \\sum_{i < j}\\frac{kq_i q_j}{r_{ij}} = \\frac{1}{2}\\sum_i q_i V_i$$. The factor of half avoids double counting each pair."
+    },
+    {
+      "id": "es-work-energy",
+      "label": "Work Done by an External Agent",
+      "group": "Potential and Potential Energy",
+      "depth": 2,
+      "note": "The electrostatic force is conservative, so work depends only on endpoints: $$W_{ext} = \\Delta U = q(V_f - V_i)$$. Kinetic energy then comes from $$\\Delta K = -\\Delta U$$ when released."
+    },
+    {
+      "id": "es-dipole",
+      "label": "Electric Dipole",
+      "group": "Electric Dipole",
+      "depth": 1,
+      "note": "Two equal opposite charges separated by a small distance form the standard non-uniform field source. Its strength is $$\\vec{p} = q(2\\vec{a})$$."
+    },
+    {
+      "id": "es-dipole-moment",
+      "label": "Dipole Moment",
+      "group": "Electric Dipole",
+      "depth": 2,
+      "note": "Dipole moment points from the negative to the positive charge with magnitude charge times separation: $$\\vec{p} = q(2\\vec{a})$$. Far-field formulas assume $$r \\gg a$$ throughout."
+    },
+    {
+      "id": "es-dipole-axial",
+      "label": "Axial and Equatorial Fields",
+      "group": "Electric Dipole",
+      "depth": 2,
+      "note": "On the axis the dipole field runs along $$\\vec{p}$$ while on the equatorial plane it runs opposite: $$E_{axial} = \\frac{2kp}{r^3}$$ and $$E_{eq} = -\\frac{kp}{r^3}$$. The axial value is exactly twice the equatorial one at equal distance."
+    },
+    {
+      "id": "es-dipole-general",
+      "label": "Field and Potential at a General Point",
+      "group": "Electric Dipole",
+      "depth": 2,
+      "note": "At angle $$\\theta$$ from the axis the components combine as $$E = \\frac{kp}{r^3}\\sqrt{1 + 3\\cos^2\\theta}$$, while potential is $$V = \\frac{kp\\cos\\theta}{r^2}$$. The equatorial plane stays at $$V = 0$$ everywhere."
+    },
+    {
+      "id": "es-dipole-torque",
+      "label": "Torque and Energy in an External Field",
+      "group": "Electric Dipole",
+      "depth": 2,
+      "note": "A uniform field exerts no net force but does torque the dipole toward alignment: $$\\vec{\\tau} = \\vec{p} \\times \\vec{E}$$ with $$\\tau = pE\\sin\\theta$$. Its potential energy is $$U = -\\vec{p}\\cdot\\vec{E} = -pE\\cos\\theta$$."
+    },
+    {
+      "id": "es-dipole-oscillation",
+      "label": "Angular Oscillation of a Dipole",
+      "group": "Electric Dipole",
+      "depth": 2,
+      "note": "Released near alignment the restoring torque makes simple harmonic motion for small angles. The period is $$T = 2\\pi\\sqrt{\\frac{I}{pE}}$$ with $$I$$ the moment of inertia."
+    },
+    {
+      "id": "es-gauss",
+      "label": "Gauss's Law and Conductors",
+      "group": "Gauss's Law and Conductors",
+      "depth": 1,
+      "note": "Gauss's law converts hard integrals into bookkeeping of enclosed charge: $$\\Phi_E = \\frac{q_{enc}}{\\varepsilon_0}$$. It also fixes how charge sits on a conductor at rest."
+    },
+    {
+      "id": "es-gauss-law",
+      "label": "Gauss's Theorem",
+      "group": "Gauss's Law and Conductors",
+      "depth": 2,
+      "note": "Total flux through any closed surface depends only on the charge inside it, never on the surface shape: $$\\Phi_E = \\oint \\vec{E}\\cdot d\\vec{A} = \\frac{q_{enc}}{\\varepsilon_0}$$. Choose a surface matching the symmetry of the source."
+    },
+    {
+      "id": "es-flux-portions",
+      "label": "Flux Through Symmetric Portions",
+      "group": "Gauss's Law and Conductors",
+      "depth": 2,
+      "note": "When a charge sits at a symmetric point, flux splits evenly among the pieces seen from it. A charge at a cube corner leaks $$\\Phi = \\frac{q}{8\\varepsilon_0}$$ through that cube, and one at the centre gives $$\\frac{q}{6\\varepsilon_0}$$ per face."
+    },
+    {
+      "id": "es-conductor-rules",
+           "label": "Electrostatic Equilibrium of Conductors",
+      "group": "Gauss's Law and Conductors",
+      "depth": 2,
+      "note": "Free charges rearrange until the bulk field vanishes and all excess charge lives on the surface. Just outside the surface $$E = \\frac{\\sigma}{\\varepsilon_0}$$, and the whole conductor sits at one potential."
+    },
+    {
+      "id": "es-shielding",
+      "label": "Electrostatic Shielding",
+      "group": "Gauss's Law and Conductors",
+      "depth": 2,
+      "note": "A Gaussian surface inside conductor material carries no flux, so a cavity with no charge is field-free: $$E_{cavity} = 0$$. This is why instruments are housed in metal enclosures."
+    },
+    {
+      "id": "es-pressure",
+      "label": "Electrostatic Pressure on a Surface",
+      "group": "Gauss's Law and Conductors",
+      "depth": 2,
+      "note": "Each surface element is pulled outward by the field of the rest of the charge, which is half the total field. The resulting pressure is $$P = \\frac{\\sigma^2}{2\\varepsilon_0} = \\frac{1}{2}\\varepsilon_0 E^2$$."
+    },
+    {
+      "id": "es-capacitors",
+      "label": "Capacitors",
+      "group": "Capacitors",
+      "depth": 1,
+      "note": "A capacitor stores separated charge at a fixed ratio set by geometry, not by charge: $$C = \\frac{Q}{V}$$. Networks then combine exactly like resistors, but inverted."
+    },
+    {
+      "id": "es-cap-def",
+      "label": "Capacitance Definition",
+      "group": "Capacitors",
+      "depth": 2,
+      "note": "Capacitance measures charge stored per volt and depends only on shape, size, and medium: $$C = \\frac{Q}{V}$$. An isolated sphere of radius $$R$$ is a capacitor with $$C = 4\\pi\\varepsilon_0 R$$."
+    },
+    {
+      "id": "es-cap-standard",
+      "label": "Standard Capacitances",
+      "group": "Capacitors",
+      "depth": 2,
+      "note": "Parallel plates give $$C_0 = \\frac{\\varepsilon_0 A}{d}$$, while concentric shells of radii $$a < b$$ give $$C = 4\\pi\\varepsilon_0\\frac{ab}{b - a}$$. Coaxial cylinders of length $$L$$ give $$C = \\frac{2\\pi\\varepsilon_0 L}{\\ln(b/a)}$$."
+    },
+    {
+      "id": "es-cap-energy",
+      "label": "Energy Stored in a Capacitor",
+      "group": "Capacitors",
+      "depth": 2,
+      "note": "Building up the charge costs work that ends up in the field: $$U = \\frac{1}{2}CV^2 = \\frac{Q^2}{2C}$$. That energy lives in space as density $$u = \\frac{1}{2}\\varepsilon_0 E^2$$."
+    },
+    {
+      "id": "es-cap-force",
+      "label": "Force Between the Plates",
+      "group": "Capacitors",
+      "depth": 2,
+      "note": "Each plate feels only the field of the other, which is half the total field, so a factor of half appears. The attraction is $$F = \\frac{Q^2}{2\\varepsilon_0 A} = \\frac{1}{2}QE$$."
+    },
+    {
+      "id": "es-cap-networks",
+      "label": "Capacitor Networks",
+      "group": "Capacitors",
+      "depth": 2,
+      "note": "Series capacitors share charge while parallel capacitors share voltage, inverting the resistor rules. Balanced ladders and infinite grids reduce to these two cases."
+    },
+    {
+      "id": "es-cap-series",
+      "label": "Series Combination",
+      "group": "Capacitor Networks",
+      "depth": 3,
+      "note": "In series every capacitor carries the same charge $$Q$$ while voltages split: $$\\frac{1}{C_{eq}} = \\sum_i \\frac{1}{C_i}$$. The equivalent capacitance is always smaller than the smallest member."
+    },
+    {
+      "id": "es-cap-parallel",
+      "label": "Parallel Combination",
+      "group": "Capacitor Networks",
+      "depth": 3,
+      "note": "In parallel every capacitor sees the same voltage and charges simply add: $$C_{eq} = \\sum_i C_i$$. Charge divides in proportion to capacitance, $$Q_i = C_i V$$."
+    },
+    {
+      "id": "es-dielectrics",
+      "label": "Dielectrics and Charge Sharing",
+      "group": "Dielectrics and Charge Sharing",
+      "depth": 1,
+      "note": "Inserting an insulator raises capacitance and lowers the internal field, and the boundary conditions decide whether charge or voltage is fixed. The rule of thumb is $$C \\to KC_0$$."
+    },
+    {
+      "id": "es-dielectric-slab",
+      "label": "Partially Filled Dielectric Slab",
+      "group": "Dielectrics and Charge Sharing",
+      "depth": 2,
+      "note": "A slab of thickness $$t$$ and constant $$K$$ shortens the effective gap of the capacitor. The capacitance becomes $$C = \\frac{\\varepsilon_0 A}{d - t\\left(1 - \\frac{1}{K}\\right)}$$, and a conductor slab is the limit $$K \\to \\infty$$."
+    },
+    {
+      "id": "es-dielectric-field",
+      "label": "Field Inside a Dielectric",
+      "group": "Dielectrics and Charge Sharing",
+      "depth": 2,
+      "note": "Polarization produces an opposing field that reduces the applied one: $$E_{in} = \\frac{E_0}{K}$$. The material response is $$K = 1 + \\chi_e$$ with susceptibility $$\\chi_e$$."
+    },
+    {
+      "id": "es-dielectric-battery",
+      "label": "Battery Disconnected or Connected",
+      "group": "Dielectrics and Charge Sharing",
+      "depth": 2,
+      "note": "With the battery removed charge is trapped, so inserting the slab drops energy: $$U_{disc} = \\frac{U_0}{K}$$. With the battery kept the voltage is pinned and energy rises: $$U_{conn} = K U_0$$, the surplus supplied by the battery."
+    },
+    {
+      "id": "es-charge-sharing",
+      "label": "Charge Sharing and Energy Loss",
+      "group": "Dielectrics and Charge Sharing",
+      "depth": 2,
+      "note": "Connecting charged capacitors equalizes voltage at $$V_{common} = \\frac{C_1V_1 + C_2V_2}{C_1 + C_2}$$ while total charge is conserved. The missing energy leaves as heat: $$\\Delta H = \\frac{C_1 C_2 (V_1 - V_2)^2}{2(C_1 + C_2)}$$."
+    },
+    {
+      "id": "es-dielectric-energy",
+      "label": "Energy Density with a Dielectric",
+      "group": "Dielectrics and Charge Sharing",
+      "depth": 2,
+      "note": "Inside the filled region the field is weaker but permittivity is higher, and the product sets the stored density. It reads $$u = \\frac{1}{2}\\varepsilon_0 K E_{in}^2 = \\frac{1}{2}\\varepsilon_0 E_0 E_{in}$$."
+    }
+  ],
+  "edges": [
+    { "source": "electrostatics", "target": "es-charge", "label": "contains" },
+    { "source": "es-charge", "target": "es-quantization", "label": "contains" },
+    { "source": "es-charge", "target": "es-coulomb", "label": "contains" },
+    { "source": "es-charge", "target": "es-medium", "label": "contains" },
+    { "source": "es-charge", "target": "es-superposition", "label": "contains" },
+    { "source": "es-charge", "target": "es-constants", "label": "contains" },
+    { "source": "electrostatics", "target": "es-field", "label": "contains" },
+    { "source": "es-field", "target": "es-field-def", "label": "contains" },
+    { "source": "es-field", "target": "es-field-line", "label": "contains" },
+    { "source": "es-field", "target": "es-field-ring", "label": "contains" },
+    { "source": "es-field", "target": "es-field-disc", "label": "contains" },
+    { "source": "es-field", "target": "es-field-sphere", "label": "contains" },
+    { "source": "es-field", "target": "es-field-sheet", "label": "contains" },
+    { "source": "electrostatics", "target": "es-potential", "label": "contains" },
+    { "source": "es-potential", "target": "es-potential-def", "label": "contains" },
+    { "source": "es-potential", "target": "es-potential-geometry", "label": "contains" },
+    { "source": "es-potential", "target": "es-equipotential", "label": "contains" },
+    { "source": "es-potential", "target": "es-pe-system", "label": "contains" },
+    { "source": "es-potential", "target": "es-work-energy", "label": "contains" },
+    { "source": "electrostatics", "target": "es-dipole", "label": "contains" },
+    { "source": "es-dipole", "target": "es-dipole-moment", "label": "contains" },
+    { "source": "es-dipole", "target": "es-dipole-axial", "label": "contains" },
+    { "source": "es-dipole", "target": "es-dipole-general", "label": "contains" },
+    { "source": "es-dipole", "target": "es-dipole-torque", "label": "contains" },
+    { "source": "es-dipole", "target": "es-dipole-oscillation", "label": "contains" },
+    { "source": "electrostatics", "target": "es-gauss", "label": "contains" },
+    { "source": "es-gauss", "target": "es-gauss-law", "label": "contains" },
+    { "source": "es-gauss", "target": "es-flux-portions", "label": "contains" },
+    { "source": "es-gauss", "target": "es-conductor-rules", "label": "contains" },
+    { "source": "es-gauss", "target": "es-shielding", "label": "contains" },
+    { "source": "es-gauss", "target": "es-pressure", "label": "contains" },
+    { "source": "electrostatics", "target": "es-capacitors", "label": "contains" },
+    { "source": "es-capacitors", "target": "es-cap-def", "label": "contains" },
+    { "source": "es-capacitors", "target": "es-cap-standard", "label": "contains" },
+    { "source": "es-capacitors", "target": "es-cap-energy", "label": "contains" },
+    { "source": "es-capacitors", "target": "es-cap-force", "label": "contains" },
+    { "source": "es-capacitors", "target": "es-cap-networks", "label": "contains" },
+    { "source": "es-cap-networks", "target": "es-cap-series", "label": "contains" },
+    { "source": "es-cap-networks", "target": "es-cap-parallel", "label": "contains" },
+    { "source": "electrostatics", "target": "es-dielectrics", "label": "contains" },
+    { "source": "es-dielectrics", "target": "es-dielectric-slab", "label": "contains" },
+    { "source": "es-dielectrics", "target": "es-dielectric-field", "label": "contains" },
+    { "source": "es-dielectrics", "target": "es-dielectric-battery", "label": "contains" },
+    { "source": "es-dielectrics", "target": "es-charge-sharing", "label": "contains" },
+    { "source": "es-dielectrics", "target": "es-dielectric-energy", "label": "contains" }
+  ]
+}

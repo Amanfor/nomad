@@ -1,0 +1,483 @@
+{
+  "title": "Communication Systems",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "communication-systems",
+      "label": "Communication Systems",
+      "group": "Communication Systems",
+      "depth": 0,
+      "note": "Signals are modulated onto carriers, sent through channels, and recovered by detectors. JEE Main tests modulation index, AM bandwidth, skip distance, and fiber acceptance angle. Carrier relation: $$c = f\\lambda$$ with $c \\approx 3\\times 10^8$ m/s."
+    },
+    {
+      "id": "cs-elements",
+      "label": "Elements and Wave Propagation",
+      "group": "Elements and Wave Propagation",
+      "depth": 1,
+      "note": "A communication system encodes information into a carrier, propagates it, and decodes it at the receiver. Block flow: transducer $\\to$ modulator $\\to$ channel $\\to$ detector $\\to$ transducer."
+    },
+    {
+      "id": "cs-block",
+      "label": "Block Diagram",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Transmitter converts a message into a modulated signal for the channel; the receiver reverses the process. Blocks: transducer, modulator, channel, demodulator, transducer. A communication chain is transducer, modulator, channel, demodulator, transducer."
+    },
+    {
+      "id": "cs-layers",
+      "label": "Atmospheric Layers",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Troposphere (weather, up to $\\sim 12$ km), stratosphere (ozone, to $50$ km), mesosphere (to $80$ km), and ionosphere ($80$-$400$ km) hosting ions that reflect RF. Ionosphere spans roughly $$80 \\text{ km} \\le h \\le 400 \\text{ km}$$."
+    },
+    {
+      "id": "cs-modes",
+      "label": "Propagation Modes",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Ground wave for $f < 1.5$ MHz along Earth, sky wave $1.5$ to $30$ MHz via ionospheric reflection, space wave $f > 40$ MHz line-of-sight. The ionosphere cannot reflect space waves. Space wave needs $f > 40$ MHz; sky wave uses $1.5$-$30$ MHz band."
+    },
+    {
+      "id": "cs-skip",
+      "label": "Critical Frequency and Skip Distance",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Critical frequency $$f_c = 9\\sqrt{N_{max}}$$ sets vertical reflection. Skip distance $$d = 2h\\sqrt{(f/f_c)^2 - 1}$$ and MUF $= f_c \\sec\\theta$."
+    },
+    {
+      "id": "cs-horizon",
+      "label": "Radio Horizon and Coverage",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Distance to the radio horizon from antenna height $h$ is $$d_T = \\sqrt{2 R_e h_T}$$ Total LOS range: $d_T + d_R$. Covered area $A = 2\\pi R_e h_T$."
+    },
+    {
+      "id": "cs-modulation",
+      "label": "Modulation and Bandwidth",
+      "group": "Modulation and Bandwidth",
+      "depth": 1,
+      "note": "Baseband audio cannot be radiated efficiently, so it modulates a high-frequency carrier. Modulation index: $$\\mu = A_m/A_c$$."
+    },
+    {
+      "id": "cs-need",
+      "label": "Need for Modulation",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "Antenna size must be $\\sim \\lambda/4$; a $20$ kHz audio signal has $\\lambda = 15$ km. Modulating to RF ($1$ MHz) drops this to $\\sim 75$ m. Radiated power scales as $P \\propto (l/\\lambda)^2 \\propto f^2$. Radiated power scales as $$P \\propto (l/\\lambda)^2 \\propto f^2$$."
+    },
+    {
+      "id": "cs-am",
+      "label": "Amplitude Modulation",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "Carrier $c(t) = A_c\\sin\\omega_c t$, message $m(t) = A_m\\sin\\omega_m t$: $$c_m(t) = A_c(1 + \\mu\\sin\\omega_m t)\\sin\\omega_c t, \\ \\mu = A_m/A_c \\le 1$$. Envelope extremes give $\\mu = (A_{max}-A_{min})/(A_{max}+A_{min})$."
+    },
+    {
+      "id": "cs-am-spectrum",
+      "label": "AM Spectrum and Bandwidth",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "AM splits into carrier plus two sidebands at $f_c \\pm f_m$: $$BW = 2f_m$$ Amplitudes of sidebands are $\\mu A_c/2$ each."
+    },
+    {
+      "id": "cs-am-power",
+      "label": "Power in AM Wave",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "Total average power $$P_t = P_c\\left(1 + \\frac{\\mu^2}{2}\\right)$$ with $P_c = A_c^2/(2R)$. Sideband fraction is $\\mu^2/(2+\\mu^2)$; for $\\mu = 1$ one third of power is in sidebands."
+    },
+    {
+      "id": "cs-fm",
+      "label": "FM and PM",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "FM makes carrier frequency follow the message: $$f(t) = f_c + \\Delta f \\sin\\omega_m t, \\ m_f = \\Delta f/f_m$$. Carson's rule: $BW_{FM} \\approx 2(\\Delta f + f_m)$."
+    },
+    {
+      "id": "cs-channels",
+      "label": "Channels and Optical Communication",
+      "group": "Channels and Optical Communication",
+      "depth": 1,
+      "note": "Channels carry modulated signals; optical fibers use total internal reflection for high-speed links. Coaxial cable works up to about $$f \\sim 1 \\text{ GHz}$$."
+    },
+    {
+      "id": "cs-lines",
+      "label": "Transmission Lines",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "Two-wire lines: simple, lossy, under $200$ MHz. Coaxial cables: braided shield, up to $\\sim 1$ GHz, low radiation loss. Two-wire lines are limited to roughly $$f < 200 \\text{ MHz}$$."
+    },
+    {
+      "id": "cs-fiber",
+      "label": "Optical Fiber Communication",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "Light pulses travel in a glass core by TIR. Advantages: huge bandwidth, low attenuation, immune to EMI, and small size. TIR condition: $$\\sin\\theta_c = n_2/n_1$$."
+    },
+    {
+      "id": "cs-core-cladding",
+      "label": "Core-Cladding Guidance",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "Core refractive index $n_1$ exceeds cladding $n_2$. TIR needs incidence angle above critical: $$\\sin\\theta_c = n_2/n_1$$. Rays steeper than this reflect repeatedly."
+    },
+    {
+      "id": "cs-acceptance",
+      "label": "Acceptance Angle and Numerical Aperture",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "Maximum entry angle from air that still yields TIR inside the core: $$\\sin\\theta_a = \\sqrt{n_1^2 - n_2^2} = NA$$. Larger NA collects more light but increases modal dispersion."
+    },
+    {
+      "id": "cs-arch",
+      "label": "Problem Archetypes",
+      "group": "Problem Archetypes",
+      "depth": 1,
+      "note": "JEE traps connect modulation index, antenna height formulas, and fiber geometry. Skip distance: $$d = 2h\\sqrt{(f/f_c)^2 - 1}$$."
+    },
+    {
+      "id": "cs-mod-index",
+      "label": "Reading Modulation Index",
+      "group": "Problem Archetypes",
+      "depth": 2,
+      "note": "Given an oscilloscope trace, $\\mu = (A_{max} - A_{min})/(A_{max} + A_{min})$. Overmodulation $\\mu > 1$ distorts the envelope and cannot be demodulated cleanly. Modulation index from trace: $$\\mu = (A_{max}-A_{min})/(A_{max}+A_{min})$$."
+    },
+    {
+      "id": "cs-los",
+      "label": "Tree and Tower Range",
+      "group": "Problem Archetypes",
+      "depth": 2,
+      "note": "Two towers of heights $h_T$, $h_R$: $$d_{max} = \\sqrt{2R_e h_T} + \\sqrt{2R_e h_R}$$. Doubling height multiplies range by $\\sqrt{2}$, a common JEE scaling question."
+    },
+    {
+      "id": "cs-fiber-na",
+      "label": "NA from Geometry",
+      "group": "Problem Archetypes",
+      "depth": 2,
+      "note": "Combine $\\sin\\theta_c = n_2/n_1$ with Snell's law at entry to get $\\sin\\theta_a = \\sqrt{n_1^2 - n_2^2}$. Questions often swap $n_1, n_2$ in options. Numerical aperture: $$NA = \\sqrt{n_1^2 - n_2^2}$$."
+    },
+    {
+      "id": "cs-info-signal",
+      "label": "Information Signal",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Speech occupies roughly $$20\\text{ Hz} - 20\\text{ kHz}$$ while music extends to about $20$ kHz. A transducer converts this audio into an electrical waveform."
+    },
+    {
+      "id": "cs-channel-noise",
+      "label": "Attenuation and Noise",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Signal strength falls with distance as attenuation, measured in $$\\text{dB} = 10\\log_{10}(P_{out}/P_{in})$$. Random noise added in the channel must be overcome by boosting the signal."
+    },
+    {
+      "id": "cs-tropo-ducting",
+      "label": "Weather Effect on Propagation",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "Tropospheric temperature inversions can trap waves and extend the normal line-of-sight range. This is a standard short-answer fact in JEE Main. Carrier relation: $$c = f\\lambda$$ with $c \\approx 3\\times 10^8$ m/s."
+    },
+    {
+      "id": "cs-frequency-bands",
+      "label": "Frequency Bands",
+      "group": "Elements and Wave Propagation",
+      "depth": 3,
+      "note": "The bands used are roughly $$\\text{MF: } \\text{sky wave}, \\ \\text{VHF/UHF: } \\text{space wave}, \\ \\text{microwave: satellite links}$$. Each band suits a different propagation mode."
+    },
+    {
+      "id": "cs-ground-wave-loss",
+      "label": "Ground Wave Attenuation",
+      "group": "Elements and Wave Propagation",
+      "depth": 3,
+      "note": "Ground wave energy is lost to eddy currents in the conducting Earth, with loss rising as $$\\propto f^2$$. This confines ground waves to low frequencies below about $1.5$ MHz."
+    },
+    {
+      "id": "cs-sky-muf",
+      "label": "Maximum Usable Frequency",
+      "group": "Elements and Wave Propagation",
+      "depth": 3,
+      "note": "For incidence angle $\\theta$ with the vertical, the maximum usable frequency is $$MUF = \\frac{f_c}{\\cos\\theta} = f_c\\sec\\theta$$. Operating above MUF loses the sky wave."
+    },
+    {
+      "id": "cs-antenna-length",
+      "label": "Practical Antenna Size",
+      "group": "Modulation and Bandwidth",
+      "depth": 3,
+      "note": "Efficient radiation needs antenna length comparable to wavelength: $$l \\gtrsim \\lambda/4$$. For a $100$ m radio wave this means a $25$ m tower."
+    },
+    {
+      "id": "cs-am-demod",
+      "label": "Demodulation",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "An envelope detector of diode and RC circuit recovers the message because its time constant satisfies $$\\frac{1}{f_c} \\ll RC \\ll \\frac{1}{f_m}$$. This strips the high-frequency carrier."
+    },
+    {
+      "id": "cs-fm-advantage",
+      "label": "FM Advantage",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "FM noise performance improves as $$SNR_{out} \\propto m_f^2$$, much better than AM at the same power. The cost is a bandwidth $$BW_{FM} \\approx 2(\\Delta f + f_m)$$."
+    },
+    {
+      "id": "cs-coax-use",
+      "label": "Coaxial Cable Use",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "The inner conductor and braided outer screen confine the field, giving low radiation loss up to $$f \\sim 1 \\text{ GHz}$$. Cable TV distribution relies on this."
+    },
+    {
+      "id": "cs-fiber-bandwidth",
+      "label": "Why Fibers Dominate",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "Optical carrier frequencies near $$f \\sim 10^{14}\\text{ Hz}$$ give enormous bandwidth, plus immunity to electromagnetic interference. Attenuation in modern fiber can be below $0.2$ dB/km."
+    },
+    {
+      "id": "cs-multimode",
+      "label": "Modal Dispersion",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "In multimode fiber, different rays take different path lengths, spreading pulses by $$\\Delta t \\approx \\frac{L}{c}\\cdot\\frac{n_1^2}{n_2}\\Delta\\theta$$. Single-mode fiber avoids this."
+    },
+    {
+      "id": "cs-acceptance-cone",
+      "label": "Acceptance Cone",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "Light entering within the cone of half-angle $\\theta_a$ is guided; outside rays refract into the cladding and are lost. Hence $$\\sin\\theta_a = \\sqrt{n_1^2 - n_2^2}$$."
+    },
+    {
+      "id": "cs-satellite",
+      "label": "Satellite Link Basics",
+      "group": "Problem Archetypes",
+      "depth": 2,
+      "note": "Geostationary satellites sit at height $$h \\approx 36000 \\text{ km}$$ above the equator with period $24$ h. Three such satellites can cover nearly the whole globe."
+    },
+    {
+      "id": "cs-emi-wave",
+      "label": "Electromagnetic Wave Speed",
+      "group": "Elements and Wave Propagation",
+      "depth": 2,
+      "note": "In vacuum an EM wave travels at $$c = \\frac{1}{\\sqrt{\\mu_0 \\varepsilon_0}} \\approx 3\\times 10^8\\text{ m/s}$$. This ties electricity and magnetism into one wave picture."
+    },
+    {
+      "id": "cs-tv-range",
+      "label": "TV Range Estimate",
+      "group": "Elements and Wave Propagation",
+      "depth": 3,
+      "note": "TV signals use space waves, so the range is set by the radio horizon: $$d = \\sqrt{2 R_e h_T}$$. Raising the antenna height by $4\\times$ only doubles the range."
+    },
+    {
+      "id": "cs-ssb",
+      "label": "Single Sideband Idea",
+      "group": "Modulation and Bandwidth",
+      "depth": 2,
+      "note": "Sending both sidebands wastes power, so SSB keeps only one: the RF power in one sideband is $$P_{USB} = \\frac{\\mu^2 A_c^2}{8R}$$. SSB roughly halves the transmission bandwidth."
+    },
+    {
+      "id": "cs-waveguide-use",
+      "label": "Waveguides at Microwave",
+      "group": "Channels and Optical Communication",
+      "depth": 2,
+      "note": "Hollow metallic guides carry microwaves without a center conductor, avoiding dielectric loss. The lowest mode cutoff wavelength satisfies $$\\lambda_c = 2a$$ for a rectangular guide of width $a$."
+    }
+  ],
+  "edges": [
+    {
+      "source": "communication-systems",
+      "target": "cs-elements",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-block",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-layers",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-modes",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-skip",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-horizon",
+      "label": "contains"
+    },
+    {
+      "source": "communication-systems",
+      "target": "cs-modulation",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-need",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-am",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-am-spectrum",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-am-power",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-fm",
+      "label": "contains"
+    },
+    {
+      "source": "communication-systems",
+      "target": "cs-channels",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-lines",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-fiber",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-core-cladding",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-acceptance",
+      "label": "contains"
+    },
+    {
+      "source": "communication-systems",
+      "target": "cs-arch",
+      "label": "contains"
+    },
+    {
+      "source": "cs-arch",
+      "target": "cs-mod-index",
+      "label": "contains"
+    },
+    {
+      "source": "cs-arch",
+      "target": "cs-los",
+      "label": "contains"
+    },
+    {
+      "source": "cs-arch",
+      "target": "cs-fiber-na",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-info-signal",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-channel-noise",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-tropo-ducting",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modes",
+      "target": "cs-frequency-bands",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modes",
+      "target": "cs-ground-wave-loss",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modes",
+      "target": "cs-sky-muf",
+      "label": "contains"
+    },
+    {
+      "source": "cs-need",
+      "target": "cs-antenna-length",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-am-demod",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-fm-advantage",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-coax-use",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-fiber-bandwidth",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-multimode",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-acceptance-cone",
+      "label": "contains"
+    },
+    {
+      "source": "cs-arch",
+      "target": "cs-satellite",
+      "label": "contains"
+    },
+    {
+      "source": "cs-elements",
+      "target": "cs-emi-wave",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modes",
+      "target": "cs-tv-range",
+      "label": "contains"
+    },
+    {
+      "source": "cs-modulation",
+      "target": "cs-ssb",
+      "label": "contains"
+    },
+    {
+      "source": "cs-channels",
+      "target": "cs-waveguide-use",
+      "label": "contains"
+    }
+  ]
+}

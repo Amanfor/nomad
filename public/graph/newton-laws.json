@@ -1,0 +1,495 @@
+{
+  "title": "Newton's Laws of Motion and Friction",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "newton-laws",
+      "label": "Newton's Laws of Motion and Friction",
+      "group": "Newton's Laws of Motion and Friction",
+      "depth": 0,
+      "note": "The three laws of motion, pseudo forces, constraint mechanics, and friction. JEE tests FBD isolation, elevator apparent weight, Atwood machines, and two-block friction thresholds."
+    },
+    {
+      "id": "newtons-laws",
+      "label": "Newton's Three Laws",
+      "group": "Newton's Three Laws",
+      "depth": 1,
+      "note": "The foundational laws of dynamics: inertia, force-momentum relation, and action-reaction."
+    },
+    {
+      "id": "first-law",
+      "label": "First Law: Inertia",
+      "group": "Newton's Three Laws",
+      "depth": 2,
+      "note": "A body continues in its state of rest or uniform motion unless acted upon by an unbalanced external force: $$\\sum \\vec{F}_{\\text{ext}} = 0 \\iff \\vec{a} = 0$$. This defines inertial reference frames."
+    },
+    {
+      "id": "second-law",
+      "label": "Second Law: F = ma",
+      "group": "Newton's Three Laws",
+      "depth": 2,
+      "note": "The net force equals the rate of change of momentum: $$\\vec{F}_{\\text{net}} = \\frac{d\\vec{p}}{dt}$$. For constant mass, $$\\vec{F}_{\\text{net}} = m\\vec{a}$$."
+    },
+    {
+      "id": "impulse-momentum",
+      "label": "Impulse-Momentum Theorem",
+      "group": "Newton's Three Laws",
+      "depth": 3,
+      "note": "The impulse of a force equals the change in momentum: $$\\vec{J} = \\int_{t_i}^{t_f} \\vec{F}\\,dt = \\Delta\\vec{p} = \\vec{p}_f - \\vec{p}_i$$. The area under an $$F$$-$$t$$ curve gives impulse."
+    },
+    {
+      "id": "third-law",
+      "label": "Third Law: Action-Reaction",
+      "group": "Newton's Three Laws",
+      "depth": 2,
+      "note": "For every action there is an equal and opposite reaction: $$\\vec{F}_{AB} = -\\vec{F}_{BA}$$. The pair acts on two different bodies simultaneously and can never cancel."
+    },
+    {
+      "id": "pair-properties",
+      "label": "Action-Reaction Properties",
+      "group": "Newton's Three Laws",
+      "depth": 3,
+      "note": "Action and reaction act on distinct bodies, are simultaneous, share the same physical nature, and are collinear. They never act on the same body and never cancel each other."
+    },
+    {
+      "id": "pseudo-force",
+      "label": "Pseudo Force",
+      "group": "Newton's Three Laws",
+      "depth": 2,
+      "note": "In a non-inertial frame accelerating at $$\\vec{a}_0$$, a fictitious force $$\\vec{F}_{\\text{pseudo}} = -m\\vec{a}_0$$ must be introduced. It has no reaction partner and acts through the center of mass."
+    },
+    {
+      "id": "elevator-weight",
+      "label": "Apparent Weight in Elevator",
+      "group": "Newton's Three Laws",
+      "depth": 3,
+      "note": "In an elevator accelerating upward at $$a$$: $$N = m(g+a)$$. Accelerating downward: $$N = m(g-a)$$. In free fall: $$N = 0$$ (weightlessness)."
+    },
+    {
+      "id": "weightlessness",
+      "label": "Free Fall Weightlessness",
+      "group": "Newton's Three Laws",
+      "depth": 3,
+      "note": "When the elevator cable snaps ($$a = g$$ downward), the normal reaction vanishes: $$N = m(g-g) = 0$$. The passenger experiences apparent weightlessness."
+    },
+    {
+      "id": "inertial-frames",
+      "label": "Inertial Reference Frames",
+      "group": "Newton's Three Laws",
+      "depth": 2,
+      "note": "An inertial frame is one in which Newton's first law holds: an unforced particle maintains constant velocity. The ground frame is approximately inertial for JEE problems."
+    },
+    {
+      "id": "constraints-pulleys",
+      "label": "Constraints and Pulley Systems",
+      "group": "Constraints and Pulley Systems",
+      "depth": 1,
+      "note": "String constraints, wedge contacts, Atwood machines, and spring dynamics with the sudden cut principle."
+    },
+    {
+      "id": "string-constraint",
+      "label": "String Constraints",
+      "group": "Constraints and Pulley Systems",
+      "depth": 2,
+      "note": "For an ideal massless inextensible string, the virtual work shortcut gives $$\\sum \\vec{T}_i \\cdot \\vec{a}_i = 0$$. This relates the accelerations of connected masses."
+    },
+    {
+      "id": "movable-pulley",
+      "label": "Movable Pulley",
+      "group": "Constraints and Pulley Systems",
+      "depth": 3,
+      "note": "For a movable pulley with acceleration $$a_p$$ and connected masses with accelerations $$a_1$$ and $$a_2$$: $$a_p = \\frac{a_1 + a_2}{2}$$."
+    },
+    {
+      "id": "ideal-string",
+      "label": "Ideal String Assumptions",
+      "group": "Constraints and Pulley Systems",
+      "depth": 3,
+      "note": "An ideal string is massless and inextensible. It cannot store energy, so the net work done by internal tension forces on the system is zero: $$\\sum W_T = 0$$."
+    },
+    {
+      "id": "wedge-constraint",
+      "label": "Wedge Contact Constraint",
+      "group": "Constraints and Pulley Systems",
+      "depth": 2,
+      "note": "Two rigid bodies in contact cannot penetrate each other. The acceleration components perpendicular to the contact surface must match: $$a_{1,\\perp} = a_{2,\\perp}$$."
+    },
+    {
+      "id": "atwood-machine",
+      "label": "Atwood Machine",
+      "group": "Constraints and Pulley Systems",
+      "depth": 2,
+      "note": "Two masses $$m_1 > m_2$$ connected by a light string over a frictionless pulley. The common acceleration is $$a = \\frac{m_1 - m_2}{m_1 + m_2}g$$ and tension is $$T = \\frac{2m_1 m_2}{m_1 + m_2}g$$."
+    },
+    {
+      "id": "clamp-thrust",
+      "label": "Clamp Thrust",
+      "group": "Constraints and Pulley Systems",
+      "depth": 3,
+      "note": "The thrust on the supporting pulley clamp is $$F_{\\text{clamp}} = 2T = \\frac{4m_1 m_2}{m_1 + m_2}g$$. This is strictly less than the total weight $$(m_1 + m_2)g$$."
+    },
+    {
+      "id": "spring-dynamics",
+      "label": "Spring Dynamics",
+      "group": "Constraints and Pulley Systems",
+      "depth": 2,
+      "note": "Hooke's law gives the restoring force $$\\vec{F}_s = -k\\vec{x}$$. The product $$k \\cdot L$$ is constant for a given spring, so cutting changes stiffness."
+    },
+    {
+      "id": "sudden-cut",
+      "label": "Sudden Cut Principle",
+      "group": "Constraints and Pulley Systems",
+      "depth": 3,
+      "note": "When a string is cut, tension drops instantaneously: $$T(0^+) = 0$$. A spring force cannot change instantaneously: $$F_s(0^+) = F_s(0^-)$$."
+    },
+    {
+      "id": "spring-combinations",
+      "label": "Series and Parallel Springs",
+      "group": "Constraints and Pulley Systems",
+      "depth": 3,
+      "note": "Series: $$\\frac{1}{k_{\\text{eq}}} = \\frac{1}{k_1} + \\frac{1}{k_2}$$. Parallel: $$k_{\\text{eq}} = k_1 + k_2$$."
+    },
+    {
+      "id": "virtual-work-method",
+      "label": "Virtual Work Method",
+      "group": "Constraints and Pulley Systems",
+      "depth": 2,
+      "note": "Since ideal strings cannot store energy, the net work done by internal tensions is zero: $$\\sum \\vec{T}_i \\cdot \\vec{v}_i = 0$$. This gives constraint relations between accelerations."
+    },
+    {
+      "id": "friction-mechanics",
+      "label": "Friction Mechanics",
+      "group": "Friction Mechanics",
+      "depth": 1,
+      "note": "Static and kinetic friction laws, angle of friction, angle of repose, and optimal pulling force."
+    },
+    {
+      "id": "static-friction",
+      "label": "Static Friction",
+      "group": "Friction Mechanics",
+      "depth": 2,
+      "note": "Static friction is self-adjusting: $$0 \\le f_s \\le f_{s,\\max} = \\mu_s N$$. It matches the applied tangential force up to the limiting value."
+    },
+    {
+      "id": "kinetic-friction",
+      "label": "Kinetic Friction",
+      "group": "Friction Mechanics",
+      "depth": 2,
+      "note": "Once sliding begins, $$f_k = \\mu_k N$$ where $$\\mu_k \\le \\mu_s$$. Kinetic friction is nearly independent of sliding speed and contact area."
+    },
+    {
+      "id": "friction-direction",
+      "label": "Direction of Kinetic Friction",
+      "group": "Friction Mechanics",
+      "depth": 3,
+      "note": "Kinetic friction opposes the relative motion between the two contacted surfaces, not the absolute motion. On a two-block system, friction on the top block can act forward."
+    },
+    {
+      "id": "angle-friction",
+      "label": "Angle of Friction",
+      "group": "Friction Mechanics",
+      "depth": 2,
+      "note": "The angle of friction is $$\\lambda = \\tan^{-1}\\mu_s$$. The total contact force is $$R = \\sqrt{N^2 + f^2}$$ and ranges from $$N$$ to $$N\\sqrt{1 + \\mu_s^2}$$."
+    },
+    {
+      "id": "contact-force",
+      "label": "Total Contact Force",
+      "group": "Friction Mechanics",
+      "depth": 3,
+      "note": "The resultant contact force $$\\vec{R} = \\vec{N} + \\vec{f}$$ makes angle $$\\lambda$$ with the normal when friction is at its limiting value: $$\\tan\\lambda = \\frac{f_{s,\\max}}{N} = \\mu_s$$."
+    },
+    {
+      "id": "angle-repose",
+      "label": "Angle of Repose",
+      "group": "Friction Mechanics",
+      "depth": 2,
+      "note": "The maximum incline angle for static equilibrium is $$\\theta_r = \\tan^{-1}\\mu_s = \\lambda$$. At this angle, $$mg\\sin\\theta_r = \\mu_s mg\\cos\\theta_r$$."
+    },
+    {
+      "id": "incline-acceleration",
+      "label": "Acceleration Down Incline",
+      "group": "Friction Mechanics",
+      "depth": 3,
+      "note": "For $$\\theta > \\theta_r$$, the body accelerates down: $$a = g(\\sin\\theta - \\mu_k\\cos\\theta)$$. For $$\\theta < \\theta_r$$, static friction holds it at rest."
+    },
+    {
+      "id": "optimal-pull",
+      "label": "Minimum Pulling Force",
+      "group": "Friction Mechanics",
+      "depth": 2,
+      "note": "To pull a block on a rough horizontal surface with force $$F$$ at angle $$\\theta$$: $$F = \\frac{\\mu mg}{\\cos\\theta + \\mu\\sin\\theta}$$. The minimum occurs at $$\\theta = \\lambda$$."
+    },
+    {
+      "id": "min-pull-value",
+      "label": "Minimum Pull Value",
+      "group": "Friction Mechanics",
+      "depth": 3,
+      "note": "The minimum pulling force is $$F_{\\min} = \\frac{\\mu mg}{\\sqrt{1 + \\mu^2}} = mg\\sin\\lambda$$, achieved when the pull angle equals the angle of friction."
+    },
+    {
+      "id": "friction-nature",
+      "label": "Nature of Friction",
+      "group": "Friction Mechanics",
+      "depth": 2,
+      "note": "Friction is an electromagnetic contact force that opposes relative sliding or the tendency of relative sliding. It is independent of apparent contact area."
+    },
+    {
+      "id": "multiblock-friction",
+      "label": "Two-Block Friction Systems",
+      "group": "Two-Block Friction Systems",
+      "depth": 1,
+      "note": "Friction between two blocks with external force applied to either the top or bottom block. The slipping threshold depends on which block is pulled."
+    },
+    {
+      "id": "top-pull",
+      "label": "Force on Top Block",
+      "group": "Two-Block Friction Systems",
+      "depth": 2,
+      "note": "When force $$F$$ is applied to the top block $$m_1$$ on bottom block $$m_2$$ (smooth floor), the maximum acceleration of $$m_2$$ without slipping is $$a_{B,\\max} = \\frac{\\mu m_1 g}{m_2}$$."
+    },
+    {
+      "id": "top-pull-threshold",
+      "label": "Top Pull Threshold",
+      "group": "Two-Block Friction Systems",
+      "depth": 3,
+      "note": "The threshold force for slipping is $$F_{\\text{th}} = \\mu m_1 g\\left(1 + \\frac{m_1}{m_2}\\right)$$. Below this, both blocks move together at $$a = \\frac{F}{m_1 + m_2}$$."
+    },
+    {
+      "id": "bottom-pull",
+      "label": "Force on Bottom Block",
+      "group": "Two-Block Friction Systems",
+      "depth": 2,
+      "note": "When force $$F$$ is applied to the bottom block $$m_2$$, the top block $$m_1$$ is accelerated only by friction. The maximum acceleration of $$m_1$$ without slipping is $$a_{A,\\max} = \\mu g$$."
+    },
+    {
+      "id": "bottom-pull-threshold",
+      "label": "Bottom Pull Threshold",
+      "group": "Two-Block Friction Systems",
+      "depth": 3,
+      "note": "The threshold force for slipping is $$F_{\\text{th}} = \\mu(m_1 + m_2)g$$. Below this, both blocks move together; above this, $$m_1$$ slides at constant $$a = \\mu g$$."
+    },
+    {
+      "id": "slipping-regimes",
+      "label": "Slipping Regimes",
+      "group": "Two-Block Friction Systems",
+      "depth": 2,
+      "note": "Below threshold, both blocks move with common acceleration. Above threshold, the pulled block accelerates independently while the other moves at constant friction-limited acceleration."
+    },
+    {
+      "id": "friction-accelerator",
+      "label": "Friction as Accelerator",
+      "group": "Two-Block Friction Systems",
+      "depth": 3,
+      "note": "In the bottom-pull case, friction on the top block acts forward, accelerating it in the direction of motion. Friction is not always a retarding force."
+    },
+    {
+      "id": "friction-max",
+      "label": "Maximum Friction Force",
+      "group": "Two-Block Friction Systems",
+      "depth": 2,
+      "note": "The maximum friction force available between two blocks is $$f_{\\max} = \\mu m_1 g$$ where $$m_1$$ is the top block. This limits the acceleration that friction can transmit."
+    }
+  ],
+  "edges": [
+    {
+      "source": "newton-laws",
+      "target": "newtons-laws",
+      "label": "contains"
+    },
+    {
+      "source": "newton-laws",
+      "target": "constraints-pulleys",
+      "label": "contains"
+    },
+    {
+      "source": "newton-laws",
+      "target": "friction-mechanics",
+      "label": "contains"
+    },
+    {
+      "source": "newton-laws",
+      "target": "multiblock-friction",
+      "label": "contains"
+    },
+    {
+      "source": "newtons-laws",
+      "target": "first-law",
+      "label": "contains"
+    },
+    {
+      "source": "newtons-laws",
+      "target": "second-law",
+      "label": "contains"
+    },
+    {
+      "source": "newtons-laws",
+      "target": "third-law",
+      "label": "contains"
+    },
+    {
+      "source": "newtons-laws",
+      "target": "pseudo-force",
+      "label": "contains"
+    },
+    {
+      "source": "newtons-laws",
+      "target": "inertial-frames",
+      "label": "contains"
+    },
+    {
+      "source": "second-law",
+      "target": "impulse-momentum",
+      "label": "contains"
+    },
+    {
+      "source": "third-law",
+      "target": "pair-properties",
+      "label": "contains"
+    },
+    {
+      "source": "pseudo-force",
+      "target": "elevator-weight",
+      "label": "contains"
+    },
+    {
+      "source": "pseudo-force",
+      "target": "weightlessness",
+      "label": "contains"
+    },
+    {
+      "source": "constraints-pulleys",
+      "target": "string-constraint",
+      "label": "contains"
+    },
+    {
+      "source": "constraints-pulleys",
+      "target": "wedge-constraint",
+      "label": "contains"
+    },
+    {
+      "source": "constraints-pulleys",
+      "target": "atwood-machine",
+      "label": "contains"
+    },
+    {
+      "source": "constraints-pulleys",
+      "target": "spring-dynamics",
+      "label": "contains"
+    },
+    {
+      "source": "constraints-pulleys",
+      "target": "virtual-work-method",
+      "label": "contains"
+    },
+    {
+      "source": "string-constraint",
+      "target": "movable-pulley",
+      "label": "contains"
+    },
+    {
+      "source": "string-constraint",
+      "target": "ideal-string",
+      "label": "contains"
+    },
+    {
+      "source": "atwood-machine",
+      "target": "clamp-thrust",
+      "label": "contains"
+    },
+    {
+      "source": "spring-dynamics",
+      "target": "sudden-cut",
+      "label": "contains"
+    },
+    {
+      "source": "spring-dynamics",
+      "target": "spring-combinations",
+      "label": "contains"
+    },
+    {
+      "source": "friction-mechanics",
+      "target": "static-friction",
+      "label": "contains"
+    },
+    {
+      "source": "friction-mechanics",
+      "target": "kinetic-friction",
+      "label": "contains"
+    },
+    {
+      "source": "friction-mechanics",
+      "target": "angle-friction",
+      "label": "contains"
+    },
+    {
+      "source": "friction-mechanics",
+      "target": "angle-repose",
+      "label": "contains"
+    },
+    {
+      "source": "friction-mechanics",
+      "target": "optimal-pull",
+      "label": "contains"
+    },
+    {
+      "source": "friction-mechanics",
+      "target": "friction-nature",
+      "label": "contains"
+    },
+    {
+      "source": "kinetic-friction",
+      "target": "friction-direction",
+      "label": "contains"
+    },
+    {
+      "source": "angle-friction",
+      "target": "contact-force",
+      "label": "contains"
+    },
+    {
+      "source": "angle-repose",
+      "target": "incline-acceleration",
+      "label": "contains"
+    },
+    {
+      "source": "optimal-pull",
+      "target": "min-pull-value",
+      "label": "contains"
+    },
+    {
+      "source": "multiblock-friction",
+      "target": "top-pull",
+      "label": "contains"
+    },
+    {
+      "source": "multiblock-friction",
+      "target": "bottom-pull",
+      "label": "contains"
+    },
+    {
+      "source": "multiblock-friction",
+      "target": "slipping-regimes",
+      "label": "contains"
+    },
+    {
+      "source": "multiblock-friction",
+      "target": "friction-max",
+      "label": "contains"
+    },
+    {
+      "source": "top-pull",
+      "target": "top-pull-threshold",
+      "label": "contains"
+    },
+    {
+      "source": "bottom-pull",
+      "target": "bottom-pull-threshold",
+      "label": "contains"
+    },
+    {
+      "source": "slipping-regimes",
+      "target": "friction-accelerator",
+      "label": "contains"
+    }
+  ]
+}

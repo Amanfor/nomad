@@ -1,0 +1,483 @@
+{
+  "title": "Fluid Mechanics",
+  "subject": "physics",
+  "nodes": [
+    {
+      "id": "fluid-mechanics",
+      "label": "Fluid Mechanics",
+      "group": "Fluid Mechanics",
+      "depth": 0,
+      "note": "Hydrostatics, buoyancy, Bernoulli flow, viscosity, and surface tension. Watch for the three disguises of one idea: force balance, energy per volume, and pressure gradients."
+    },
+    {
+      "id": "hydrostatics",
+      "label": "Fluid Statics and Pressure",
+      "group": "Fluid Statics and Pressure",
+      "depth": 1,
+      "note": "Pressure at rest, Pascal's law, hydrostatic variation, and liquids in accelerated frames. Statics means no shear: pressure is isotropic."
+    },
+    {
+      "id": "pressure-def",
+      "label": "Pressure Definition",
+      "group": "Fluid Statics and Pressure",
+      "depth": 2,
+      "note": "Pressure is normal force per unit area: $$P = \\frac{F}{A}$$, in pascals (N/m$^2$). In a static fluid it acts equally in all directions at a point."
+    },
+    {
+      "id": "pascal",
+      "label": "Pascal's Law and Hydraulics",
+      "group": "Fluid Statics and Pressure",
+      "depth": 2,
+      "note": "An applied pressure transmits undiminished through the fluid: $$\\frac{F_1}{A_1} = \\frac{F_2}{A_2}$$. Hydraulic lifts trade distance for force by a factor $A_2/A_1$."
+    },
+    {
+      "id": "hydrostatic",
+      "label": "Hydrostatic Variation",
+      "group": "Fluid Statics and Pressure",
+      "depth": 2,
+      "note": "Pressure grows linearly with depth: $$P = P_0 + \\rho g h$$. Shape of the container is irrelevant; only the depth of the free surface matters."
+    },
+    {
+      "id": "accelerated-fluid",
+      "label": "Accelerated Container",
+      "group": "Fluid Statics and Pressure",
+      "depth": 2,
+      "note": "In a frame accelerating horizontally the free surface tilts: $$\\tan\\theta = \\frac{a}{g}$$. Effective gravity becomes the vector sum $\\vec{g} - \\vec{a}$."
+    },
+    {
+      "id": "rotating-bucket",
+      "label": "Rotating Liquid Column",
+      "group": "Fluid Statics and Pressure",
+      "depth": 2,
+      "note": "Steady rotation makes the surface a paraboloid: $$z = \\frac{\\omega^2 r^2}{2g}$$. The pressure gradient balances both gravity and centrifugal acceleration."
+    },
+    {
+      "id": "hydrostatic-paradox",
+      "label": "Hydrostatic Paradox",
+      "group": "Fluid Statics and Pressure",
+      "depth": 2,
+      "note": "The force on the base of a vessel is $$F = \\rho g h\\, A$$, regardless of the vessel's shape or the total volume of water. Containers of different shapes with the same base and fill height push down with equal force."
+    },
+    {
+      "id": "buoyancy",
+      "label": "Buoyancy and Flotation",
+      "group": "Buoyancy and Flotation",
+      "depth": 1,
+      "note": "Archimedes' principle, apparent weight, floating equilibrium, and buoyancy in non-inertial frames. Weight minus upthrust is what a spring balance reads."
+    },
+    {
+      "id": "archimedes",
+      "label": "Archimedes' Principle",
+      "group": "Buoyancy and Flotation",
+      "depth": 2,
+      "note": "Upthrust equals the weight of displaced fluid: $$F_B = \\rho_f V_{sub} g$$. It depends on the fluid and submerged volume, never on the object's material."
+    },
+    {
+      "id": "apparent-weight",
+      "label": "Apparent Weight",
+      "group": "Buoyancy and Flotation",
+      "depth": 2,
+      "note": "Immersion reduces the measured weight: $$W_{app} = W - F_B = (\\rho_{obj} - \\rho_f) V g$$. A body denser than the fluid still sinks but weighs less."
+    },
+    {
+      "id": "flotation",
+      "label": "Flotation Condition",
+      "group": "Buoyancy and Flotation",
+      "depth": 2,
+      "note": "A floating body displaces its own weight: $$\\rho_{obj} V_{obj} = \\rho_f V_{sub} \\Rightarrow \\frac{V_{sub}}{V_{obj}} = \\frac{\\rho_{obj}}{\\rho_f}$$. Ice floats with about 92% of its volume below water."
+    },
+    {
+      "id": "ice-melting",
+      "label": "Floating Ice Melting",
+      "group": "Buoyancy and Flotation",
+      "depth": 3,
+      "note": "Since the displaced water volume equals the water the ice will form, the level in the glass is unchanged: $$V_{disp} = \\frac{m_{ice}}{\\rho_w}$$. Adding salt or alcohol changes the answer."
+    },
+    {
+      "id": "buoyancy-noninertial",
+      "label": "Buoyancy in Accelerated Frames",
+      "group": "Buoyancy and Flotation",
+      "depth": 2,
+      "note": "Replace g by the effective gravity: $$F_B = \\rho V (g \\pm a)$$. In free fall, buoyancy and apparent weight both vanish."
+    },
+    {
+      "id": "hydrodynamics",
+      "label": "Fluid Dynamics and Bernoulli",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 1,
+      "note": "Ideal flow, continuity, Bernoulli's theorem, and efflux applications. Energy conservation per unit volume is the master key."
+    },
+    {
+      "id": "ideal-flow",
+      "label": "Ideal Fluid Assumptions",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 2,
+      "note": "Ideal flow is incompressible, non-viscous, and irrotational: $\\nabla \\cdot \\vec{v} = 0$ and streamlines never cross. Real problems assume this before corrections."
+    },
+    {
+      "id": "gauge-absolute",
+      "label": "Gauge vs Absolute Pressure",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 2,
+      "note": "Instruments read gauge pressure above atmosphere: $$P_{gauge} = P - P_{atm} = \\rho g h$$. Hydrostatic problems inside open tanks use gauge pressure unless stated otherwise."
+    },
+    {
+      "id": "continuity",
+      "label": "Equation of Continuity",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 2,
+      "note": "Mass conservation for incompressible flow: $$A_1 v_1 = A_2 v_2$$. Where the pipe narrows, the fluid speeds up."
+    },
+    {
+      "id": "bernoulli",
+      "label": "Bernoulli's Theorem",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 2,
+      "note": "Energy per unit volume is conserved along a streamline: $$P + \\tfrac{1}{2}\\rho v^2 + \\rho g h = const$$. Fast streamlines carry low pressure (Venturi effect)."
+    },
+    {
+      "id": "venturi",
+      "label": "Venturimeter",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 3,
+      "note": "Measuring two pressures across a contraction yields the flow speed: $$v_2 = A_1\\sqrt{\\frac{2(P_1 - P_2)}{\\rho(A_1^2 - A_2^2)}}$$. Continuity plus Bernoulli convert pressure difference into discharge."
+    },
+    {
+      "id": "torricelli",
+      "label": "Torricelli's Law",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 2,
+      "note": "Efflux speed from a small hole at depth $h$: $$v = \\sqrt{2gh}$$. The emerging jet follows projectile motion from the orifice."
+    },
+    {
+      "id": "efflux-range",
+      "label": "Range of the Efflux Jet",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 2,
+      "note": "A horizontal jet from a hole at depth $y$ below the surface of a tank of height $H$ lands at $$R = 2\\sqrt{y\\,(H - y)}$$. Maximum range $2H$ occurs for a hole at mid-depth $y = H/2$."
+    },
+    {
+      "id": "hydraulic-ram",
+      "label": "Hydraulic Press Force",
+      "group": "Fluid Dynamics and Bernoulli",
+      "depth": 2,
+      "note": "Pascal multiplication gives the press force: $$F_2 = F_1\\frac{A_2}{A_1}$$, while the work input equals work output since $A_1 d_1 = A_2 d_2$. A press multiplies force, not energy."
+    },
+    {
+      "id": "viscosity",
+      "label": "Viscosity and Fluid Friction",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 1,
+      "note": "Newton's law of viscosity, Poiseuille flow, Stokes drag, and the Reynolds number. Dissipation enters only when layers slide."
+    },
+    {
+      "id": "newton-viscosity",
+      "label": "Newton's Law of Viscosity",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 2,
+      "note": "Shear stress is proportional to the velocity gradient: $$F = \\eta A \\frac{dv}{dy}$$. Coefficient $\\eta$ (Pa.s) measures internal friction."
+    },
+    {
+      "id": "poiseuille",
+      "label": "Poiseuille's Law",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 2,
+      "note": "Laminar discharge through a capillary: $$Q = \\frac{\\pi R^4 \\Delta P}{8 \\eta L}$$. The $R^4$ dependence makes small changes in radius dominant."
+    },
+    {
+      "id": "stokes",
+      "label": "Stokes' Law",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 2,
+      "note": "Drag on a sphere at low speed: $$F = 6\\pi \\eta r v$$. Opposing weight and buoyancy this gives terminal velocity."
+    },
+    {
+      "id": "terminal-velocity",
+      "label": "Terminal Velocity",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 2,
+      "note": "Balancing Stokes drag with net weight: $$v_t = \\frac{2 r^2 (\\rho_s - \\rho_f) g}{9 \\eta}$$. It scales with the square of the drop radius."
+    },
+    {
+      "id": "drag-regimes",
+      "label": "Drag Regimes",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 2,
+      "note": "At low Reynolds number drag is viscous and linear, $F \\propto v$ (Stokes); at high Reynolds number it is inertial and quadratic, $F = \\tfrac{1}{2} C_d \\rho A v^2$. Terminal speed follows from setting drag equal to weight in the right regime."
+    },
+    {
+      "id": "viscosity-temperature",
+      "label": "Temperature and Viscosity",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 2,
+      "note": "Liquid viscosity falls rapidly with temperature, roughly $$\\eta \\propto e^{E_a/RT}$$ (Andrade), while gases get more viscous as they warm. Heating honey makes it pour faster; heating air thickens its internal friction."
+    },
+    {
+      "id": "reynolds",
+      "label": "Reynolds Number",
+      "group": "Viscosity and Fluid Friction",
+      "depth": 2,
+      "note": "The dimensionless ratio of inertial to viscous forces is $$R_e = \\frac{\\rho v D}{\\eta}$$. Flow is laminar below $\\sim 2000$ and turbulent above $\\sim 4000$ in pipes."
+    },
+    {
+      "id": "surface-tension",
+      "label": "Surface Tension and Capillarity",
+      "group": "Surface Tension and Capillarity",
+      "depth": 1,
+      "note": "Surface energy, excess pressure in curved interfaces, contact angle, and capillary rise. Molecular cohesion at the free surface, made measurable."
+    },
+    {
+      "id": "surface-energy",
+      "label": "Surface Energy",
+      "group": "Surface Tension and Capillarity",
+      "depth": 2,
+      "note": "Creating area costs energy: $$W = \\sigma \\Delta A$$, so surface tension $\\sigma$ (N/m) is energy per unit area. Liquids minimise surface area into spheres."
+    },
+    {
+      "id": "young-laplace",
+      "label": "Young-Laplace Pressure",
+      "group": "Surface Tension and Capillarity",
+      "depth": 2,
+      "note": "A curved interface sustains excess pressure: $$\\Delta P = \\sigma\\left(\\frac{1}{R_1} + \\frac{1}{R_2}\\right)$$, giving $2\\sigma/R$ for a drop and $4\\sigma/R$ for a soap bubble (two surfaces). Smaller bubbles are over-pressured more."
+    },
+    {
+      "id": "bubble-coalescence",
+      "label": "Bubble Coalescence",
+      "group": "Surface Tension and Capillarity",
+      "depth": 2,
+      "note": "Two soap bubbles merging into one release surface energy, which becomes sound and heat: $$\\Delta E = \\sigma \\Delta A_{total}$$. For a cluster of $n$ drops coalescing, $\\Delta A = 4\\pi r^2 (n - n^{2/3})$."
+    },
+    {
+      "id": "contact-angle",
+      "label": "Angle of Contact",
+      "group": "Surface Tension and Capillarity",
+      "depth": 2,
+      "note": "Young's equation balances the three interfacial tensions: $$\\sigma_{SA} = \\sigma_{SL} + \\sigma_{LA}\\cos\\theta$$. $\\theta < 90^\\circ$ (water on glass) gives a concave meniscus and capillary rise."
+    },
+    {
+      "id": "sliding-wire",
+      "label": "Force on a Sliding Wire",
+      "group": "Surface Tension and Capillarity",
+      "depth": 2,
+      "note": "A soap film on a U-frame pulls the slider with $$F = 2\\sigma L$$ (two surfaces). Equilibrium balances this against an applied load plus the film's weight."
+    },
+    {
+      "id": "capillary-depression",
+      "label": "Capillary Depression",
+      "group": "Surface Tension and Capillarity",
+      "depth": 2,
+      "note": "A non-wetting liquid like mercury is depressed: $$h = \\frac{2\\sigma\\cos\\theta}{\\rho g r} < 0$$ since $\\theta > 90^\\circ$. The same Jurin formula, with negative h, covers it."
+    },
+    {
+      "id": "capillary-rise",
+      "label": "Jurin's Law",
+      "group": "Surface Tension and Capillarity",
+      "depth": 2,
+      "note": "Rise in a clean wetting tube: $$h = \\frac{2\\sigma\\cos\\theta}{\\rho g r}$$. Narrower tubes lift the column higher, inversely with radius."
+    },
+    {
+      "id": "short-tube",
+      "label": "Tube Too Short",
+      "group": "Surface Tension and Capillarity",
+      "depth": 3,
+      "note": "If the tube is shorter than $h$, the liquid rises to the top and flattens its meniscus so that $\\frac{2\\sigma\\cos\\theta'}{r} = \\rho g L$; it does not overflow. The contact angle adjusts instead."
+    }
+  ],
+  "edges": [
+    {
+      "source": "fluid-mechanics",
+      "target": "hydrostatics",
+      "label": "contains"
+    },
+    {
+      "source": "hydrostatics",
+      "target": "pressure-def",
+      "label": "contains"
+    },
+    {
+      "source": "hydrostatics",
+      "target": "pascal",
+      "label": "contains"
+    },
+    {
+      "source": "hydrostatics",
+      "target": "hydrostatic",
+      "label": "contains"
+    },
+    {
+      "source": "hydrostatics",
+      "target": "accelerated-fluid",
+      "label": "contains"
+    },
+    {
+      "source": "hydrostatics",
+      "target": "rotating-bucket",
+      "label": "contains"
+    },
+    {
+      "source": "hydrostatics",
+      "target": "hydrostatic-paradox",
+      "label": "contains"
+    },
+    {
+      "source": "fluid-mechanics",
+      "target": "buoyancy",
+      "label": "contains"
+    },
+    {
+      "source": "buoyancy",
+      "target": "archimedes",
+      "label": "contains"
+    },
+    {
+      "source": "buoyancy",
+      "target": "apparent-weight",
+      "label": "contains"
+    },
+    {
+      "source": "buoyancy",
+      "target": "flotation",
+      "label": "contains"
+    },
+    {
+      "source": "flotation",
+      "target": "ice-melting",
+      "label": "contains"
+    },
+    {
+      "source": "buoyancy",
+      "target": "buoyancy-noninertial",
+      "label": "contains"
+    },
+    {
+      "source": "fluid-mechanics",
+      "target": "hydrodynamics",
+      "label": "contains"
+    },
+    {
+      "source": "hydrodynamics",
+      "target": "ideal-flow",
+      "label": "contains"
+    },
+    {
+      "source": "hydrodynamics",
+      "target": "gauge-absolute",
+      "label": "contains"
+    },
+    {
+      "source": "hydrodynamics",
+      "target": "continuity",
+      "label": "contains"
+    },
+    {
+      "source": "hydrodynamics",
+      "target": "bernoulli",
+      "label": "contains"
+    },
+    {
+      "source": "bernoulli",
+      "target": "venturi",
+      "label": "contains"
+    },
+    {
+      "source": "hydrodynamics",
+      "target": "torricelli",
+      "label": "contains"
+    },
+    {
+      "source": "hydrodynamics",
+      "target": "efflux-range",
+      "label": "contains"
+    },
+    {
+      "source": "hydrodynamics",
+      "target": "hydraulic-ram",
+      "label": "contains"
+    },
+    {
+      "source": "fluid-mechanics",
+      "target": "viscosity",
+      "label": "contains"
+    },
+    {
+      "source": "viscosity",
+      "target": "newton-viscosity",
+      "label": "contains"
+    },
+    {
+      "source": "viscosity",
+      "target": "poiseuille",
+      "label": "contains"
+    },
+    {
+      "source": "viscosity",
+      "target": "stokes",
+      "label": "contains"
+    },
+    {
+      "source": "viscosity",
+      "target": "terminal-velocity",
+      "label": "contains"
+    },
+    {
+      "source": "viscosity",
+      "target": "drag-regimes",
+      "label": "contains"
+    },
+    {
+      "source": "viscosity",
+      "target": "viscosity-temperature",
+      "label": "contains"
+    },
+    {
+      "source": "viscosity",
+      "target": "reynolds",
+      "label": "contains"
+    },
+    {
+      "source": "fluid-mechanics",
+      "target": "surface-tension",
+      "label": "contains"
+    },
+    {
+      "source": "surface-tension",
+      "target": "surface-energy",
+      "label": "contains"
+    },
+    {
+      "source": "surface-tension",
+      "target": "young-laplace",
+      "label": "contains"
+    },
+    {
+      "source": "surface-tension",
+      "target": "bubble-coalescence",
+      "label": "contains"
+    },
+    {
+      "source": "surface-tension",
+      "target": "contact-angle",
+      "label": "contains"
+    },
+    {
+      "source": "surface-tension",
+      "target": "sliding-wire",
+      "label": "contains"
+    },
+    {
+      "source": "surface-tension",
+      "target": "capillary-depression",
+      "label": "contains"
+    },
+    {
+      "source": "surface-tension",
+      "target": "capillary-rise",
+      "label": "contains"
+    },
+    {
+      "source": "capillary-rise",
+      "target": "short-tube",
+      "label": "contains"
+    }
+  ]
+}
