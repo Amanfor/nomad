@@ -45,6 +45,19 @@ export default function ConceptGraph() {
   }, []);
 
   useEffect(() => {
+    // Android back button should close the big note view, not leave the app
+    if (open == null) return;
+    let handle: any;
+    import('@capacitor/app')
+      .then(({ App }) => App.addListener('backButton', () => setOpen(null)))
+      .then((h) => (handle = h))
+      .catch(() => {});
+    return () => {
+      try { handle?.remove?.(); } catch {}
+    };
+  }, [open]);
+
+  useEffect(() => {
     if (!data || !canvasRef.current) return;
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d')!;
