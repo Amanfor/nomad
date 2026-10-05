@@ -34,3 +34,13 @@ export function classifyHandShape(landmarks: Lm[] | null | undefined): HandShape
   if (index && middle && !ring && !pinky) return 'victory';
   return 'other';
 }
+
+/** Count-based pose label used for finger-count answer selection. */
+export function fingerCountLabel(landmarks: Lm[] | null | undefined): string {
+  if (!landmarks || landmarks.length < 21) return 'none';
+  let n = 0;
+  for (const [t, p] of FINGERS) if (fingerExtended(landmarks, t, p)) n++;
+  if (n === 0) return 'closed_fist';
+  if (n === 4) return 'count4';
+  return `count${n}`; // count1, count2, count3
+}

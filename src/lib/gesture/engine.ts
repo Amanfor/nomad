@@ -1,8 +1,9 @@
 // Camera + GestureRecognizer lifecycle. Dynamic-imports the heavy vision
 // library only when start() is called so it stays out of the main bundle.
 
-import { classifyHandShape } from './handShape';
-import { GestureDetector, GestureAction } from './swipe';
+import { fingerCountLabel } from './handShape';
+import { GestureDetector, GestureAction } from './hold';
+import { PinchDetector, PinchEvent } from './pinch';
 
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
 const asset = (path: string) => `${BASE_URL}${path.replace(/^\//, '')}`;
@@ -12,6 +13,14 @@ const FRAME_BUDGET_MS = 1000 / MAX_FPS;
 
 export interface EngineEvents {
   onAction: (action: GestureAction) => void;
+  onPinch?: (ev: PinchEvent) => void;
+}
+
+export interface GestureDebugInfo {
+  pose: string; // current finger-count pose label or 'other' / 'none'
+  pinchDistance: number; // thumb-tip ↔ index-tip normalized distance
+  pinching: boolean;
+  landmarks: Array<{ x: number; y: number }> | null;
 }
 
 export type EngineFailure =
@@ -36,13 +45,20 @@ export class GestureEngine {
   private stream: MediaStream | null = null;
   private recognizer: any = null;
   private detector = new GestureDetector();
+  private pinch = new PinchDetector();
   private video: HTMLVideoElement | null = null;
   private rafId = 0;
   private lastFrameAt = 0;
   private stopped = true;
   private epoch = 0; // bumped on every stop/start; stale async starts bail out
+  private lastDebug: GestureDebugInfo = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
 
   constructor(private events: EngineEvents) {}
+
+  /** Latest per-frame detection state, for the green debug overlay. */
+  getDebugInfo(): GestureDebugInfo {
+    return this.lastDebug;
+  }
 
   isRunning(): boolean {
     return !this.stopped;
@@ -137,9 +153,32 @@ export class GestureEngine {
         x = (landmarks[0].x + landmarks[9].x) / 2;
         y = (landmarks[0].y + landmarks[9].y) / 2;
       }
-      const gesture = landmarks ? classifyHandShape(landmarks) : 'none';
-      const action = this.detector.push({ t: now, x, y, gesture });
+      const pinchDistance = landmarks
+        ? Math.hypot(landmarks[4].x - landmarks[8].x, landmarks[4].y - landmarks[8].y)
+        : 1;
+      const pinchCenterX = landmarks ? (landmarks[4].x + landmarks[8].x) / 2 : 0.5;
+      const pinchCenterY = landmarks ? (landmarks[4].y + landmarks[8].y) / 2 : 0.5;
+      const pinchEvents = this.pinch.push({
+        t: now,
+        present: !!landmarks,
+        distance: pinchDistance,
+        x: pinchCenterX,
+        y: pinchCenterY,
+      });
+      for (const ev of pinchEvents) this.events.onPinch?.(ev);
+
+      // While pinching (cursor live), pose holds are suppressed so the same
+      // fingers can never double-trigger a selection/conceal.
+      const pose = this.pinch.isPinching() || !landmarks ? 'none' : fingerCountLabel(landmarks);
+      const action = this.detector.push({ t: now, x, y, gesture: pose });
       if (action) this.events.onAction(action);
+
+      this.lastDebug = {
+        pose: this.pinch.isPinching() ? 'pinch' : pose,
+        pinchDistance,
+        pinching: this.pinch.isPinching(),
+        landmarks: landmarks || null,
+      };
     };
     this.rafId = requestAnimationFrame(loop);
   }
@@ -164,5 +203,7 @@ export class GestureEngine {
       this.video = null;
     }
     this.detector.reset();
+    this.pinch.reset();
+    this.lastDebug = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
   }
 }

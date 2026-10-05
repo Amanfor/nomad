@@ -362,12 +362,22 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
   const questionsRef = useRef<any[]>(questions);
   useEffect(() => { questionsRef.current = questions; }, [questions]);
 
-  // Gesture reveal/conceal — only ever flips solution visibility, never answers.
+  // Gesture reveal/conceal/select — never swipes, never scrolls.
   useEffect(() => {
     const onGesture = (e: Event) => {
       const action = (e as CustomEvent)?.detail?.action;
       if (action === 'conceal') {
         setShowSolutionNote(false);
+        return;
+      }
+      if (action === 'select') {
+        const count = (e as CustomEvent)?.detail?.count;
+        if (typeof count !== 'number' || count < 1 || count > 4) return;
+        // Same guard as the keyboard 1–4 path.
+        if (!showResultsRef.current && selectedAnswerRef.current === null) {
+          const idx = count - 1;
+          handleSelectRef.current(idx);
+        }
         return;
       }
       if (action !== 'reveal') return;
@@ -471,6 +481,9 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
       } catch (e) {}
     }
   }, [questions, eyeControls]);
+
+  const handleSelectRef = useRef<(idx: number) => void>(() => {});
+  useEffect(() => { handleSelectRef.current = handleSelect; }, [handleSelect]);
 
   const handleRestart = () => {
     currentQRef.current = 0;

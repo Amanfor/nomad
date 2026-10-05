@@ -461,28 +461,40 @@ wasm 11.8 MB; non-SIMD variants intentionally not shipped).
 
 | Path | Role |
 |---|---|
-| `src/lib/gesture/handShape.ts` | Pure landmark → pose classifier (victory / open_palm / closed_fist / other). No imports. |
-| `src/lib/gesture/swipe.ts` | Pure swipe + hold detector over `{t, x, y, gesture}` samples. No imports, no DOM. |
+| `src/lib/gesture/handShape.ts` | Pure landmark → pose/finger-count classifier. No imports. |
+| `src/lib/gesture/hold.ts` | Pure hold detector (fist=conceal, count1..4=select). No imports, no DOM. |
+| `src/lib/gesture/pinch.ts` | Pure pinch-cursor state machine. No imports, no DOM. |
 | `src/lib/gesture/engine.ts` | Camera + GestureRecognizer lifecycle (start/stop), 15 fps throttle, GPU→CPU fallback, error mapping. |
 | `src/components/GestureLayer.tsx` | Mounted once at app root (outside overlays, so it tracks in practice too). Owns engine, maps actions to keydown/CustomEvent/scroll, renders preview + indicator dot. |
 | `src/components/NomadApp.tsx` | `enableGesture`/`showGesturePreview` settings rows, status line, `nomad:gesture` listener in PracticeOverlay (reveal/conceal only — never selects answers). |
 | `scripts/gesture/swipe.test.ts` | Synthetic-stream unit tests (23 checks), bundled with the Vite-shipped esbuild, no new deps. |
 
-### Gesture map (all require a two-finger "victory" hand shape, ≥70% of
-window frames, except palm/fist holds)
+### Gesture map
 
 | Gesture | Effect |
 |---|---|
-| Victory swipe left (raw dx > 0) | `ArrowRight` keydown → next question |
-| Victory swipe right (raw dx < 0) | `ArrowLeft` keydown → previous |
-| Victory swipe up | `window.scrollBy(+0.7·vh)` when a note is open |
-| Victory swipe down | `window.scrollBy(-0.7·vh)` when a note is open |
-| Open palm held ~700 ms, still | `nomad:gesture {action:'reveal'}` |
-| Closed fist held ~700 ms, still | `nomad:gesture {action:'conceal'}` |
+| Pinch (thumb ↔ index) moving | White circular cursor follows the hand (mirrored) |
+| Pinch released (fingers separate) | Click/press at the cursor position (needs ≥60ms pinch) |
+| Open palm (4 fingers) held ~700 ms, still-ish | `nomad:gesture {action:'select', count:4}` → practice option 4 |
+| 3 fingers held ~700 ms | `select 3` → practice option 3 |
+| 2 fingers held ~700 ms | `select 2` → practice option 2 |
+| 1 finger (index) held ~700 ms | `select 1` → practice option 1 |
+| Closed fist held ~700 ms, still | `nomad:gesture {action:'conceal'}` → hides solution |
 
-Tunables (swipe.ts): `SWIPE_MIN_DISTANCE=0.22`, `SWIPE_WINDOW_MS=350`,
-`DOMINANT_AXIS_RATIO=1.6`, `GLOBAL_COOLDOWN_MS=900`, `HOLD_MS=700`,
-`HOLD_STILL_RADIUS=0.05`, `MIN_TRACKED_FRAMES=3`, `MIN_VICTORY_RATIO=0.7`.
+Thumb does **not** count. Victory-hand swipes and palm-hold→reveal are
+**removed** (replaced by the pinch cursor and finger-count selection, 2026-10-05).
+
+Tunables: `pinch.ts` — `PINCH_ENTER_DISTANCE=0.06`,
+`PINCH_EXIT_DISTANCE=0.095` (hysteresis), `PINCH_MIN_CLICK_MS=60`,
+`PINCH_LOST_HAND_GRACE_MS=200`. `hold.ts` — `HOLD_MS=700`,
+`HOLD_STILL_RADIUS=0.05` (fist), `HOLD_STILL_RADIUS_COUNT=0.12` (counts),
+`HOLD_MIN_FRAMES=3`, `GLOBAL_COOLDOWN_MS=900`.
+
+### Debug overlay
+
+While the camera preview is on, a green headless-style canvas overlaying it
+draws the 21 landmarks (mirrored), a thumb↔index line that thickens on pinch,
+and text (`pose <x>`, `pinch <distance>`, `PINCH ON/off`).
 
 ### Semantics & guards
 
@@ -500,7 +512,7 @@ Tunables (swipe.ts): `SWIPE_MIN_DISTANCE=0.22`, `SWIPE_WINDOW_MS=350`,
   `no camera found`, `camera busy`, `camera not available in this build`,
   `model failed to load`); any failure flips `enableGesture` back to `false`.
 - Dev-only hook `window.__nomadGesture.inject(action)`
-  (`next|previous|scroll-up|scroll-down|reveal|conceal`), guarded by
+  (`reveal|conceal|select-1..select-4|click-center`), guarded by
   `import.meta.env.DEV` — confirmed absent from production `dist`.
 
 ### Platform status
