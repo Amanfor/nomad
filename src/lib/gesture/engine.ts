@@ -46,8 +46,7 @@ function mapCameraError(e: any): EngineFailure {
 export class GestureEngine {
   private stream: MediaStream | null = null;
   private recognizer: any = null;
-  private detector = new GestureDetector();
-  private pinch = new PinchDetector();
+  private detectors: Array<{ det: GestureDetector; pinch: PinchDetector; lastScrollY: number | null }> = [];
   private video: HTMLVideoElement | null = null;
   private rafId = 0;
   private lastFrameAt = 0;
@@ -69,7 +68,7 @@ export class GestureEngine {
 
   async start(video: HTMLVideoElement): Promise<void> {
     this.stop();
-    this.detector.reset();
+    this.detectors = [0, 1].map(() => ({ det: new GestureDetector(), pinch: new PinchDetector(), lastScrollY: null }));
     this.stopped = false;
     this.video = video;
     const epoch = this.epoch;
@@ -99,14 +98,14 @@ export class GestureEngine {
       this.recognizer = await GestureRecognizer.createFromOptions(vision, {
         baseOptions: { ...baseOpts, delegate: 'GPU' },
         runningMode: 'VIDEO',
-        numHands: 1,
+        numHands: 2,
       });
     } catch {
       try {
         this.recognizer = await GestureRecognizer.createFromOptions(vision, {
           baseOptions: { ...baseOpts, delegate: 'CPU' },
           runningMode: 'VIDEO',
-          numHands: 1,
+          numHands: 2,
         });
       } catch {
         throw 'model failed to load';
@@ -148,60 +147,69 @@ export class GestureEngine {
       } catch {
         return; // one bad frame must never kill the loop
       }
-      const landmarks = result?.landmarks?.[0];
-      let x = 0.5;
-      let y = 0.5;
-      if (landmarks && landmarks.length >= 10) {
-        // Palm center: average of wrist (0) and middle-finger base (9).
-        x = (landmarks[0].x + landmarks[9].x) / 2;
-        y = (landmarks[0].y + landmarks[9].y) / 2;
-      }
-      const pinchDistance = landmarks
-        ? Math.hypot(landmarks[4].x - landmarks[8].x, landmarks[4].y - landmarks[8].y)
-        : 1;
-      const pinchCenterX = landmarks ? (landmarks[4].x + landmarks[8].x) / 2 : 0.5;
-      const pinchCenterY = landmarks ? (landmarks[4].y + landmarks[8].y) / 2 : 0.5;
-      const pinchEvents = this.pinch.push({
-        t: now,
-        present: !!landmarks,
-        distance: pinchDistance,
-        x: pinchCenterX,
-        y: pinchCenterY,
-      });
-      for (const ev of pinchEvents) this.events.onPinch?.(ev);
+      const handCount = result?.landmarks?.length || 0;
+      this.lastDebug = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
 
-      // While pinching (cursor live), pose holds are suppressed so the same
-      // fingers can never double-trigger a selection/conceal.
-      const recognizerThumbsUp = !!result?.gestures?.[0]?.some?.((g: any) => g?.categoryName === 'Thumb_Up');
-      const pose = this.pinch.isPinching() || !landmarks
-        ? 'none'
-        : recognizerThumbsUp || isThumbUp(landmarks)
-        ? 'thumb_up'
-        : fingerCountLabel(landmarks);
-      const action = this.detector.push({ t: now, x, y, gesture: pose });
-      if (action) this.events.onAction(action);
-
-      // Two-finger pose: vertical drag scrolls the page like a touch swipe —
-      // hand moving up scrolls down. Baseline resets whenever fingers change.
-      if (pose === 'count2' && landmarks) {
-        const curY = (landmarks[0].y + landmarks[9].y) / 2;
-        if (this.lastScrollY !== null) {
-          const dy = curY - this.lastScrollY;
-          if (Math.abs(dy) > 0.001) {
-            this.events.onScroll?.((dy < 0 ? 1 : -1) * Math.min(Math.abs(dy), 0.12) * window.innerHeight * 2.2);
-          }
+      for (let hi = 0; hi < this.detectors.length; hi++) {
+        const slot = this.detectors[hi];
+        const landmarks = hi < handCount ? result.landmarks[hi] : null;
+        let x = 0.5;
+        let y = 0.5;
+        if (landmarks && landmarks.length >= 10) {
+          // Palm center: average of wrist (0) and middle-finger base (9).
+          x = (landmarks[0].x + landmarks[9].x) / 2;
+          y = (landmarks[0].y + landmarks[9].y) / 2;
         }
-        this.lastScrollY = curY;
-      } else {
-        this.lastScrollY = null;
-      }
+        const pinchDistance = landmarks
+          ? Math.hypot(landmarks[4].x - landmarks[8].x, landmarks[4].y - landmarks[8].y)
+          : 1;
+        const pinchCenterX = landmarks ? (landmarks[4].x + landmarks[8].x) / 2 : 0.5;
+        const pinchCenterY = landmarks ? (landmarks[4].y + landmarks[8].y) / 2 : 0.5;
+        const pinchEvents = slot.pinch.push({
+          t: now,
+          present: !!landmarks,
+          distance: pinchDistance,
+          x: pinchCenterX,
+          y: pinchCenterY,
+        });
+        for (const ev of pinchEvents) this.events.onPinch?.(ev);
 
-      this.lastDebug = {
-        pose: this.pinch.isPinching() ? 'pinch' : pose,
-        pinchDistance,
-        pinching: this.pinch.isPinching(),
-        landmarks: landmarks || null,
-      };
+        // While pinching (cursor live), pose holds are suppressed so the same
+        // fingers can never double-trigger a selection/conceal.
+        const recognizerThumbsUp = !!result?.gestures?.[hi]?.some?.((g: any) => g?.categoryName === 'Thumb_Up');
+        const pose = slot.pinch.isPinching() || !landmarks
+          ? 'none'
+          : recognizerThumbsUp || isThumbUp(landmarks)
+          ? 'thumb_up'
+          : fingerCountLabel(landmarks);
+        const action = slot.det.push({ t: now, x, y, gesture: pose });
+        if (action) this.events.onAction(action);
+
+        // Two-finger pose: vertical drag scrolls the page like a touch swipe —
+        // hand moving up scrolls down. Baseline resets whenever fingers change.
+        if (pose === 'count2' && landmarks) {
+          const curY = (landmarks[0].y + landmarks[9].y) / 2;
+          if (slot.lastScrollY !== null) {
+            const dy = curY - slot.lastScrollY;
+            if (Math.abs(dy) > 0.001) {
+              this.events.onScroll?.((dy < 0 ? 1 : -1) * Math.min(Math.abs(dy), 0.12) * window.innerHeight * 2.2);
+            }
+          }
+          slot.lastScrollY = curY;
+        } else {
+          slot.lastScrollY = null;
+        }
+
+        // Debug info: keep the first hand's state (overlay drives one preview).
+        if (hi === 0) {
+          this.lastDebug = {
+            pose: slot.pinch.isPinching() ? 'pinch' : pose,
+            pinchDistance,
+            pinching: slot.pinch.isPinching(),
+            landmarks: landmarks || null,
+          };
+        }
+      }
     };
     this.rafId = requestAnimationFrame(loop);
   }
@@ -225,9 +233,12 @@ export class GestureEngine {
       } catch {}
       this.video = null;
     }
-    this.detector.reset();
-    this.pinch.reset();
-    this.lastScrollY = null;
+    for (const slot of this.detectors) {
+      slot.det.reset();
+      slot.pinch.reset();
+      slot.lastScrollY = null;
+    }
+    this.detectors = [];
     this.lastDebug = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
   }
 }

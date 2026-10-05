@@ -192,7 +192,6 @@ check('fingerCountLabel count3', fingerCountLabel(lmFor([true, true, true, false
   thumbUpPts[8] = { x: 0, y: 0.2 }; // an extended index higher than the thumb kills it
   check('extended index higher than thumb is not thumb-up', isThumbUp(thumbUpPts) === false);
 }
-import { classifyHandShape, fingerCountLabel, isThumbUp } from '../../src/lib/gesture/handShape';
 
 // Thumb held high with curled fingers → 'back'.
 {
