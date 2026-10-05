@@ -14,17 +14,24 @@ const FRAME_BUDGET_MS = 1000 / MAX_FPS;
 export interface EngineEvents {
   /** Fired when a stable pose is held, by pose label and which hand fired it. */
   onHold?: (pose: string, hand: 'left' | 'right') => void;
-  onPinch?: (ev: PinchEvent) => void;
+  /** `slot` is the detector index (stable while that hand stays in frame) so
+   *  the layer can arbitrate one pinch cursor between two hands. */
+  onPinch?: (ev: PinchEvent, slot: number) => void;
   /** Raw per-frame palm dy emitted while a count pose is held; the GestureMap
    *  decides whether it actually scrolls. */
   onScrollFrame?: (pose: string, hand: 'left' | 'right', deltaPx: number) => void;
 }
 
-export interface GestureDebugInfo {
-  pose: string; // current finger-count pose label or 'other' / 'none'
+export interface HandDebugInfo {
+  hand: 'left' | 'right';
+  pose: string; // 'none' | 'pinch' | 'count1'..'count4' | 'closed_fist' | 'thumb_up' | 'other'
   pinchDistance: number; // thumb-tip ↔ index-tip normalized distance
   pinching: boolean;
   landmarks: Array<{ x: number; y: number }> | null;
+}
+
+export interface GestureDebugInfo {
+  hands: HandDebugInfo[]; // one entry per hand currently in frame (0..2)
 }
 
 export type EngineFailure =
@@ -48,14 +55,14 @@ function mapCameraError(e: any): EngineFailure {
 export class GestureEngine {
   private stream: MediaStream | null = null;
   private recognizer: any = null;
-  private detectors: Array<{ det: GestureDetector; pinch: PinchDetector; lastScrollY: number | null }> = [];
+  private detectors: Array<{ det: GestureDetector; pinch: PinchDetector; lastScrollY: number | null; scrollEma: number }> = [];
   private video: HTMLVideoElement | null = null;
   private rafId = 0;
   private lastFrameAt = 0;
   private stopped = true;
   private epoch = 0; // bumped on every stop/start; stale async starts bail out
   private lastScrollY: number | null = null;
-  private lastDebug: GestureDebugInfo = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
+  private lastDebug: GestureDebugInfo = { hands: [] };
 
   constructor(private events: EngineEvents) {}
 
@@ -70,7 +77,7 @@ export class GestureEngine {
 
   async start(video: HTMLVideoElement): Promise<void> {
     this.stop();
-    this.detectors = [0, 1].map(() => ({ det: new GestureDetector(), pinch: new PinchDetector(), lastScrollY: null }));
+    this.detectors = [0, 1].map(() => ({ det: new GestureDetector(), pinch: new PinchDetector(), lastScrollY: null, scrollEma: 0 }));
     this.stopped = false;
     this.video = video;
     const epoch = this.epoch;
@@ -150,11 +157,12 @@ export class GestureEngine {
         return; // one bad frame must never kill the loop
       }
       const handCount = result?.landmarks?.length || 0;
-      this.lastDebug = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
+      const handsDebug: HandDebugInfo[] = [];
 
       for (let hi = 0; hi < this.detectors.length; hi++) {
         const slot = this.detectors[hi];
         const landmarks = hi < handCount ? result.landmarks[hi] : null;
+        const hand: 'left' | 'right' = result?.handednesses?.[hi]?.[0]?.categoryName === 'Left' ? 'left' : 'right';
         let x = 0.5;
         let y = 0.5;
         if (landmarks && landmarks.length >= 10) {
@@ -174,7 +182,7 @@ export class GestureEngine {
           x: pinchCenterX,
           y: pinchCenterY,
         });
-        for (const ev of pinchEvents) this.events.onPinch?.(ev);
+        for (const ev of pinchEvents) this.events.onPinch?.(ev, hi);
 
         // While pinching (cursor live), pose holds are suppressed so the same
         // fingers can never double-trigger a selection/conceal.
@@ -185,35 +193,38 @@ export class GestureEngine {
           ? 'thumb_up'
           : fingerCountLabel(landmarks);
         const action = slot.det.push({ t: now, x, y, gesture: pose });
-        if (action) {
-          const hand = result?.handednesses?.[hi]?.[0]?.categoryName === 'Left' ? 'left' : 'right';
-          this.events.onHold?.(action, hand);
-        }
+        if (action) this.events.onHold?.(action, hand);
 
         if (pose.startsWith('count') && landmarks) {
           const curY = (landmarks[0].y + landmarks[9].y) / 2;
-          const hand = result?.handednesses?.[hi]?.[0]?.categoryName === 'Left' ? 'left' : 'right';
           if (slot.lastScrollY !== null) {
             const dy = curY - slot.lastScrollY;
             if (Math.abs(dy) > 0.001) {
-              this.events.onScrollFrame?.(pose, hand, (dy < 0 ? 1 : -1) * Math.min(Math.abs(dy), 0.12) * window.innerHeight * 2.2);
+              const raw = (dy < 0 ? 1 : -1) * Math.min(Math.abs(dy), 0.12) * window.innerHeight * 2.2;
+              // Light EMA kills single-frame landmark jitter so the page glides
+              // instead of shivering while the hand is held steady.
+              slot.scrollEma = slot.scrollEma * 0.55 + raw * 0.45;
+              if (Math.abs(slot.scrollEma) > 0.5) this.events.onScrollFrame?.(pose, hand, slot.scrollEma);
             }
+          } else {
+            slot.scrollEma = 0;
           }
           slot.lastScrollY = curY;
         } else {
           slot.lastScrollY = null;
         }
 
-        // Debug info: keep the first hand's state (overlay drives one preview).
-        if (hi === 0) {
-          this.lastDebug = {
+        if (landmarks) {
+          handsDebug.push({
+            hand,
             pose: slot.pinch.isPinching() ? 'pinch' : pose,
             pinchDistance,
             pinching: slot.pinch.isPinching(),
-            landmarks: landmarks || null,
-          };
+            landmarks,
+          });
         }
       }
+      this.lastDebug = { hands: handsDebug };
     };
     this.rafId = requestAnimationFrame(loop);
   }
@@ -241,8 +252,9 @@ export class GestureEngine {
       slot.det.reset();
       slot.pinch.reset();
       slot.lastScrollY = null;
+      slot.scrollEma = 0;
     }
     this.detectors = [];
-    this.lastDebug = { pose: 'none', pinchDistance: 1, pinching: false, landmarks: null };
+    this.lastDebug = { hands: [] };
   }
 }

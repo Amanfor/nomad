@@ -39,6 +39,8 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
   const noteOpenRef = useRef(noteOpen);
   const practiceOpenRef = useRef(practiceOpen);
   const lastPinchClickAtRef = useRef(0);
+  /** Which detector slot currently owns the cursor (one cursor at a time). */
+  const pinchSlotRef = useRef<number | null>(null);
   useEffect(() => { introActiveRef.current = introActive; }, [introActive]);
   useEffect(() => { noteOpenRef.current = noteOpen; }, [noteOpen]);
   useEffect(() => { practiceOpenRef.current = practiceOpen; }, [practiceOpen]);
@@ -79,22 +81,31 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     }
   }, [dispatchEffect]);
 
-  const handlePinch = useCallback((ev: PinchEvent) => {
-    // Raw frame is unmirrored; mirror the cursor into the user's frame.
-    const sx = (1 - ev.x) * window.innerWidth;
-    const sy = ev.y * window.innerHeight;
+  const handlePinch = useCallback((ev: PinchEvent, slot: number) => {
+    // One cursor at a time: while one hand drives the cursor, the other
+    // hand's pinch is ignored until this one releases (or loses the frame,
+    // which ends its pinch after the engine's grace period).
     if (ev.kind === 'start') {
+      if (pinchSlotRef.current !== null && pinchSlotRef.current !== slot) return;
+      pinchSlotRef.current = slot;
+      // Raw frame is unmirrored; mirror the cursor into the user's frame.
+      const sx = (1 - ev.x) * window.innerWidth;
+      const sy = ev.y * window.innerHeight;
       const c = cursorRef.current;
       if (c) c.style.transform = `translate(${sx}px, ${sy}px) translate(-50%, -50%)`;
       setCursorOn(true);
       return;
     }
+    if (pinchSlotRef.current !== slot) return;
+    const sx = (1 - ev.x) * window.innerWidth;
+    const sy = ev.y * window.innerHeight;
     if (ev.kind === 'move') {
       const c = cursorRef.current;
       if (c) c.style.transform = `translate(${sx}px, ${sy}px) translate(-50%, -50%)`;
       return;
     }
     // end of pinch: cursor stays put, then becomes a press on release.
+    pinchSlotRef.current = null;
     setCursorOn(false);
     if (!ev.click) return;
     if (introActiveRef.current || document.hidden) return;
@@ -107,6 +118,8 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
   const stopCamera = useCallback(() => {
     engineRef.current?.stop();
     engineRef.current = null;
+    pinchSlotRef.current = null;
+    setCursorOn(false);
     setStreamLive(false);
     onStatus(null);
   }, [onStatus]);
@@ -188,32 +201,37 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
       ctx.clearRect(0, 0, W, H);
       const d = e.getDebugInfo();
 
-      // Mirror the raw landmarks so they align with the mirrored preview.
-      if (d.landmarks) {
-        ctx.fillStyle = 'rgba(0, 255, 0, 0.7)';
-        for (const lm of d.landmarks) {
-          ctx.beginPath();
-          ctx.arc((1 - lm.x) * W, lm.y * H, 1.6, 0, Math.PI * 2);
-          ctx.fill();
+      // Both hands, mirrored so they line up with the mirrored preview.
+      // Hand 0 draws at full strength, hand 1 dimmer — same green, two layers.
+      const SHORT: Record<string, string> = { closed_fist: 'fist', thumb_up: 'thumb', other: 'other', none: 'none' };
+      d.hands.forEach((h, i) => {
+        const alpha = i === 0 ? 0.85 : 0.5;
+        if (h.landmarks) {
+          ctx!.fillStyle = `rgba(0, 255, 0, ${alpha})`;
+          for (const lm of h.landmarks) {
+            ctx!.beginPath();
+            ctx!.arc((1 - lm.x) * W, lm.y * H, 1.6, 0, Math.PI * 2);
+            ctx!.fill();
+          }
+          const a = h.landmarks[4];
+          const b = h.landmarks[8];
+          if (a && b) {
+            ctx!.strokeStyle = h.pinching ? `rgba(0,255,0,${alpha + 0.1 > 1 ? 1 : alpha + 0.1})` : `rgba(0,255,0,${alpha * 0.5})`;
+            ctx!.lineWidth = h.pinching ? 2 : 1;
+            ctx!.beginPath();
+            ctx!.moveTo((1 - a.x) * W, a.y * H);
+            ctx!.lineTo((1 - b.x) * W, b.y * H);
+            ctx!.stroke();
+          }
         }
-        const a = d.landmarks[4];
-        const b = d.landmarks[8];
-        if (a && b) {
-          ctx.strokeStyle = d.pinching ? 'rgba(0,255,0,0.95)' : 'rgba(0,255,0,0.35)';
-          ctx.lineWidth = d.pinching ? 2 : 1;
-          ctx.beginPath();
-          ctx.moveTo((1 - a.x) * W, a.y * H);
-          ctx.lineTo((1 - b.x) * W, b.y * H);
-          ctx.stroke();
-        }
-      }
-
-      ctx.fillStyle = 'rgba(0, 255, 0, 0.95)';
-      ctx.font = '9px monospace';
-      ctx.textBaseline = 'top';
-      ctx.fillText(`pose ${d.pose}`, 3, 2);
-      ctx.fillText(`pinch ${d.pinchDistance.toFixed(3)}`, 3, 13);
-      ctx.fillText(d.pinching ? 'PINCH ON' : 'pinch off', 3, 24);
+        const y0 = 2 + i * 20;
+        ctx!.fillStyle = `rgba(0, 255, 0, ${i === 0 ? 0.95 : 0.7})`;
+        ctx!.font = '9px monospace';
+        ctx!.textBaseline = 'top';
+        const pose = SHORT[h.pose] || h.pose;
+        ctx!.fillText(`h${i} ${h.hand} ${pose}`, 3, y0);
+        ctx!.fillText(`${h.pinchDistance.toFixed(3)}${h.pinching ? ' PINCH' : ''}`, 3, y0 + 10);
+      });
     };
     raf = requestAnimationFrame(draw);
     return () => cancelAnimationFrame(raf);

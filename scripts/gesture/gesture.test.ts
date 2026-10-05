@@ -203,5 +203,42 @@ check('fingerCountLabel count3', fingerCountLabel(lmFor([true, true, true, false
   check('thumb_up hold fires back once', out.length === 1 && out[0] === 'thumb_up');
 }
 
+/* ── Pose flicker tolerance ─────────────────────────────────────── */
+function holdRun(det: GestureDetector, segments: Array<[string, number, number]>): string[] {
+  // [pose, startMs, endMs] segments fed at 33ms steps.
+  const out: string[] = [];
+  for (const [gesture, from, to] of segments) {
+    for (let t = from; t <= to; t += 33) {
+      const a = det.push({ t, x: 0.5, y: 0.5, gesture });
+      if (a) out.push(a);
+    }
+  }
+  return out;
+}
+// A 2-frame 'other' blip mid-hold must not restart the hold timer.
+{
+  const det = new GestureDetector();
+  const out = holdRun(det, [['count2', 0, 600], ['other', 633, 666], ['count2', 699, 999]]);
+  check('brief flicker keeps the hold alive', out.length === 1 && out[0] === 'count2');
+}
+// A long non-pose run really does break the hold.
+{
+  const det = new GestureDetector();
+  const out = holdRun(det, [['count2', 0, 600], ['other', 633, 900], ['count2', 933, 1300]]);
+  check('long flicker resets the hold', out.length === 0);
+}
+// …and after a long flicker the same pose may fire a second time.
+{
+  const det = new GestureDetector();
+  const out = holdRun(det, [['closed_fist', 0, 900], ['other', 933, 1300], ['closed_fist', 1333, 2400]]);
+  check('same pose refires after a long flicker', out.filter((a) => a === 'closed_fist').length === 2);
+}
+// A different valid pose ends the run: fist fires, count4 (no gap frames) still fires after cooldown.
+{
+  const det = new GestureDetector();
+  const out = holdRun(det, [['closed_fist', 0, 800], ['count4', 833, 1700]]);
+  check('pose change starts a fresh hold', out.length === 2 && out[0] === 'closed_fist' && out[1] === 'count4');
+}
+
 console.log(failures === 0 ? 'ALL PASS' : `${failures} FAILURES`);
 process.exit(failures === 0 ? 0 : 1);

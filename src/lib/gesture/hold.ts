@@ -9,6 +9,7 @@ export const HOLD_STILL_RADIUS = 0.05; // drift tolerance for the fist (normaliz
 export const HOLD_STILL_RADIUS_COUNT = 0.12; // counts tolerate more drift
 export const HOLD_MIN_FRAMES = 3;
 export const GLOBAL_COOLDOWN_MS = 900; // min gap between any two discrete actions
+export const POSE_GAP_TOLERANCE_MS = 160; // brief 'other'/'none' flicker tolerated mid-hold
 
 export interface GestureSample {
   t: number; // ms timestamp
@@ -32,11 +33,13 @@ export class GestureDetector {
   private samples: GestureSample[] = [];
   private lastActionAt = -Infinity;
   private firedPose: string | null = null; // pose that already fired and is still held
+  private nonPoseSince: number | null = null; // start of the current 'other'/'none' run
 
   reset() {
     this.samples = [];
     this.lastActionAt = -Infinity;
     this.firedPose = null;
+    this.nonPoseSince = null;
   }
 
   push(s: GestureSample): GestureAction | null {
@@ -46,13 +49,30 @@ export class GestureDetector {
 
     const pose = HOLD_POSES[s.gesture];
     if (!pose) {
-      this.firedPose = null;
+      // The classifier flickers for a frame or two under motion or bad light.
+      // A short non-pose run neither breaks an in-progress hold nor forgets a
+      // pose that just fired; a long one does both.
+      if (this.nonPoseSince === null) this.nonPoseSince = s.t;
+      if (s.t - this.nonPoseSince > POSE_GAP_TOLERANCE_MS) this.firedPose = null;
       return null;
     }
+    this.nonPoseSince = null;
     if (this.firedPose === s.gesture) return null; // one fire per continuous hold
 
+    // Walk back to the start of this pose's run, skipping up to
+    // POSE_GAP_TOLERANCE_MS of interleaved non-pose flicker. A *different*
+    // valid pose anywhere in the walk ends the run (pose truly changed).
     let start = this.samples.length - 1;
-    while (start > 0 && this.samples[start - 1].gesture === s.gesture) start--;
+    let gapMs = 0;
+    while (start > 0) {
+      const prev = this.samples[start - 1];
+      if (prev.gesture === s.gesture) { start--; continue; }
+      if (!HOLD_POSES[prev.gesture]) {
+        const step = this.samples[start].t - prev.t;
+        if (gapMs + step <= POSE_GAP_TOLERANCE_MS) { gapMs += step; start--; continue; }
+      }
+      break;
+    }
     const run = this.samples.slice(start);
     if (run.length < HOLD_MIN_FRAMES) return null;
     if (s.t - run[0].t < HOLD_MS) return null;
