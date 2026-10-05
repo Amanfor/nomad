@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import katex from 'katex';
-import { motion } from 'framer-motion';
 
 type GNode = {
   id: string;
@@ -51,7 +50,6 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       return s.enableGraphIntro !== false;
     } catch { return true; }
   });
-  const [introDone, setIntroDone] = useState(!playIntro);
 
   useEffect(() => {
     fetch(`${BASE}graph/${topic}.json`, { cache: 'no-cache' })
@@ -151,6 +149,29 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       .map((e) => ({ ...e, a: nodes.find((n) => n.id === e.source)!, b: nodes.find((n) => n.id === e.target)! }))
       .filter((e) => e.a && e.b);
 
+    // ── cinematic link build ─────────────────────────────────────────────
+    // root blob breathes alone → lasers fire root-outward one by one,
+    // each seating its child node → whole graph flares bright, then settles.
+    const ROOT_HOLD = 520;      // root alone before the first laser
+    const TRAVEL = 320;         // ms for one laser to reach its target
+    const GLOW_AT_OFFSET = 180; // pause after last link seats
+    const GLOW_DUR = 1200;      // flare up + return to normal
+    const introOrder = [...edges].sort((x, y) =>
+      depthOf(x.b.id) - depthOf(y.b.id) ||
+      ((angle.get(x.b.id) ?? 0) - (angle.get(y.b.id) ?? 0)));
+    const nEdges = introOrder.length;
+    const stagger = nEdges ? Math.min(34, 1500 / nEdges) : 0;
+    const edgeStart = new Map<any, number>();
+    introOrder.forEach((e, i) => edgeStart.set(e, 60 + ROOT_HOLD + i * stagger));
+    const buildEnd = nEdges ? 60 + ROOT_HOLD + (nEdges - 1) * stagger + TRAVEL : 60 + ROOT_HOLD;
+    const GLOW_AT = buildEnd + GLOW_AT_OFFSET;
+    const INTRO_END = GLOW_AT + GLOW_DUR;
+    const arrive = new Map<string, number>([[root.id, 0]]);
+    for (const e of introOrder) arrive.set(e.b.id, edgeStart.get(e)! + TRAVEL);
+    const introOn = playIntro;
+    let introActive = introOn;
+    const introT0 = performance.now();
+
     let cam = { x: 0, y: 0, k: 1 };
     let drag: { id: string | null; offx: number; offy: number; panning: boolean; lastx: number; lasty: number } = { id: null, offx: 0, offy: 0, panning: false, lastx: 0, lasty: 0 };
     let hoverId: string | null = null;
@@ -202,6 +223,13 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
     };
 
     const draw = () => {
+      const now = performance.now();
+      const t = introActive ? now - introT0 : Infinity;
+      // final flare: whole graph brightens then settles back
+      let glow = 0;
+      if (t >= GLOW_AT && t < INTRO_END) glow = Math.sin(((t - GLOW_AT) / GLOW_DUR) * Math.PI);
+      const boost = (base: number) => Math.min(1, base * (1 + 4.2 * glow) + 0.06 * glow);
+
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.fillStyle = '#000';
       ctx.fillRect(0, 0, W, H);
@@ -217,42 +245,120 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       const cy0 = rootNode ? rootNode.dy : 0;
       for (const e of edges) {
         const a = e.a, b = e.b;
+        // cinematic laser progress along this link
+        let p = 1;
+        let endT = -Infinity;
+        if (introActive) {
+          const st = edgeStart.get(e) ?? Infinity;
+          if (t < st) continue; // not fired yet
+          endT = st + TRAVEL;
+          p = Math.min((t - st) / TRAVEL, 1);
+        }
         const hot = L && (L.lit.has(a.id) && L.lit.has(b.id) && (a.id === hoverId || b.id === hoverId || L.anc.has(a.id) || L.desc.has(a.id)));
-        ctx.strokeStyle = L ? (hot ? 'rgba(255,255,255,0.6)' : 'rgba(255,255,255,0.06)') : 'rgba(255,255,255,0.18)';
+        const base = L ? (hot ? 0.6 : 0.06) : 0.18;
+        // freshly-seated links stay bright for a moment; global glow lifts everything
+        const seat = introActive ? Math.exp(-(t - endT) / 480) : 0;
+        const alpha = boost(Math.min(0.95, base + seat * 0.75));
+        ctx.strokeStyle = `rgba(255,255,255,${alpha})`;
+        ctx.lineWidth = (p < 1 ? 1.6 : 1 + 0.6 * glow) / cam.k;
+
+        const ax = a.x + a.dx, ay = a.y + a.dy;
+        const bx = b.x + b.dx, by = b.y + b.dy;
+        let tipX = bx, tipY = by;
         ctx.beginPath();
         if (a.rad < 1) {
-          ctx.moveTo(a.x + a.dx, a.y + a.dy);
-          ctx.lineTo(b.x + b.dx, b.y + b.dy);
+          tipX = ax + (bx - ax) * p; tipY = ay + (by - ay) * p;
+          ctx.moveTo(ax, ay);
+          ctx.lineTo(tipX, tipY);
         } else {
           const aA = a.angle;
           let delta = b.angle - aA;
           if (delta > Math.PI) delta -= Math.PI * 2;
           if (delta < -Math.PI) delta += Math.PI * 2;
-          ctx.moveTo(a.x + a.dx, a.y + a.dy);
+          const arcLen = Math.abs(delta) * a.rad;
+          const exx = cx0 + Math.cos(aA + delta) * a.rad;
+          const eyy = cy0 + Math.sin(aA + delta) * a.rad;
+          const lineLen = Math.hypot(bx - exx, by - eyy);
+          const total = arcLen + lineLen;
+          const dist = total * p;
+          ctx.moveTo(ax, ay);
           try {
-            ctx.arc(cx0, cy0, a.rad, aA, aA + delta, delta < 0);
+            if (dist <= arcLen || lineLen < 1e-6) {
+              const sweep = delta * (arcLen > 0 ? Math.min(dist / arcLen, 1) : 0);
+              ctx.arc(cx0, cy0, a.rad, aA, aA + sweep, delta < 0);
+              tipX = cx0 + Math.cos(aA + sweep) * a.rad;
+              tipY = cy0 + Math.sin(aA + sweep) * a.rad;
+            } else {
+              ctx.arc(cx0, cy0, a.rad, aA, aA + delta, delta < 0);
+              const q = Math.min((dist - arcLen) / lineLen, 1);
+              tipX = exx + (bx - exx) * q;
+              tipY = eyy + (by - eyy) * q;
+              ctx.lineTo(tipX, tipY);
+            }
           } catch { /* ignore */ }
-          ctx.lineTo(b.x + b.dx, b.y + b.dy);
         }
         ctx.stroke();
+
+        // laser head: bright blooming tip while the link is still firing
+        if (introActive && p < 1) {
+          const r = 16 / cam.k;
+          const g2 = ctx.createRadialGradient(tipX, tipY, 0, tipX, tipY, r);
+          g2.addColorStop(0, 'rgba(255,255,255,0.95)');
+          g2.addColorStop(0.35, 'rgba(255,255,255,0.5)');
+          g2.addColorStop(1, 'rgba(255,255,255,0)');
+          ctx.fillStyle = g2;
+          ctx.beginPath();
+          ctx.arc(tipX, tipY, r, 0, Math.PI * 2);
+          ctx.fill();
+          ctx.fillStyle = 'rgba(255,255,255,1)';
+          ctx.beginPath();
+          ctx.arc(tipX, tipY, 2.4 / cam.k, 0, Math.PI * 2);
+          ctx.fill();
+        }
       }
       for (const n of nodes) {
+        // node fades in as its link seats; root breathes before the first shot
+        let va = 1;
+        if (introActive) {
+          const ar = arrive.get(n.id) ?? Infinity;
+          va = Math.max(0, Math.min((t - ar) / 260, 1));
+          if (va <= 0) continue;
+        }
         const hot = !L || L.lit.has(n.id);
-        const r = n.id === hoverId ? 5 : 2.5 + (n.depth === 0 ? 3 : n.depth === 1 ? 1.5 : 0);
+        const isRoot = n.id === root.id;
+        const breathe = introActive && isRoot && t < 60 + ROOT_HOLD
+          ? 1 + 0.16 * Math.sin((t / 460) * Math.PI * 2) + 0.25 * Math.max(0, 1 - t / 600)
+          : 1;
+        const r = (n.id === hoverId ? 5 : 2.5 + (n.depth === 0 ? 3 : n.depth === 1 ? 1.5 : 0))
+          * breathe * va * (1 + 0.45 * glow);
         ctx.beginPath();
-        ctx.arc(n.x + n.dx, n.y + n.dy, r, 0, Math.PI * 2);
-        ctx.fillStyle = hot ? 'rgba(255,255,255,0.95)' : 'rgba(255,255,255,0.12)';
+        ctx.arc(n.x + n.dx, n.y + n.dy, Math.max(r, 0.01), 0, Math.PI * 2);
+        const na = boost((hot ? 0.95 : 0.12) * va) * (isRoot ? breathe * 0.9 + 0.1 : 1);
+        ctx.fillStyle = `rgba(255,255,255,${Math.min(1, na)})`;
         ctx.fill();
+        // soft halo on the root while it breathes
+        if (introActive && isRoot && t < 60 + ROOT_HOLD + 200) {
+          const hr = 46 / cam.k;
+          const hg = ctx.createRadialGradient(n.x + n.dx, n.y + n.dy, 0, n.x + n.dx, n.y + n.dy, hr);
+          const ha = 0.28 * Math.max(0, 1 - t / (60 + ROOT_HOLD + 200)) * (0.7 + 0.3 * Math.sin(t / 160));
+          hg.addColorStop(0, `rgba(255,255,255,${ha})`);
+          hg.addColorStop(1, 'rgba(255,255,255,0)');
+          ctx.fillStyle = hg;
+          ctx.beginPath();
+          ctx.arc(n.x + n.dx, n.y + n.dy, hr, 0, Math.PI * 2);
+          ctx.fill();
+        }
         const big = n.depth === 0 || n.depth === 1;
         // always show root + pillar (chapter) labels; deeper labels appear only on the active chain
         const showLabel = n.depth !== undefined && n.depth <= 1 || (L != null && L.lit.has(n.id));
         if (!showLabel) continue;
         const size = n.depth === 0 ? 15 : n.depth === 1 ? 12.5 : 11;
         ctx.font = `${n.id === hoverId || big ? 500 : 300} ${size / Math.max(cam.k, 0.6)}px Inter, sans-serif`;
-        ctx.fillStyle = hot ? 'rgba(255,255,255,0.9)' : L ? 'rgba(255,255,255,0.08)' : 'rgba(255,255,255,0.55)';
+        const la = boost((hot ? 0.9 : L ? 0.08 : 0.55) * va);
+        ctx.fillStyle = `rgba(255,255,255,${Math.min(1, la)})`;
         if (n.depth === 0) {
           ctx.textAlign = 'center';
-          ctx.fillText(n.label, n.x + n.dx, n.y + n.dy - 18);
+          ctx.fillText(n.label, n.x + n.dx, n.y + n.dy - 18 - (breathe - 1) * 14);
         } else if (n.depth === 1) {
           // chapter labels: horizontal, extending outward
           const side = Math.cos(n.angle) >= 0 ? 1 : -1;
@@ -266,10 +372,16 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
         }
       }
       ctx.restore();
+      // full-screen flare wash during the final glow
+      if (glow > 0.001) {
+        ctx.fillStyle = `rgba(255,255,255,${0.05 * glow})`;
+        ctx.fillRect(0, 0, W, H);
+      }
+      if (introActive && t >= INTRO_END) introActive = false;
     };
 
     let dirty = true;
-    const loop = () => { if (dirty) { draw(); dirty = false; } raf = requestAnimationFrame(loop); };
+    const loop = () => { if (dirty || introActive) { draw(); dirty = false; } raf = requestAnimationFrame(loop); };
     raf = requestAnimationFrame(loop);
     const invalidate = () => { dirty = true; };
 
@@ -357,31 +469,6 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
   return (
     <div ref={wrapRef} style={{ position: 'fixed', inset: 0, background: '#000' }}>
       <canvas ref={canvasRef} style={{ display: 'block', touchAction: 'none' }} />
-      {playIntro && !introDone && (
-        <>
-          {/* eye-opening: two black lids scale away vertically */}
-          <motion.div
-            initial={{ scaleY: 1 }}
-            animate={{ scaleY: 0 }}
-            transition={{ duration: 1.15, ease: [0.7, 0, 0.3, 1], delay: 0.15 }}
-            style={{ position: 'fixed', top: 0, left: 0, right: 0, height: '50%', background: '#000', zIndex: 50, transformOrigin: 'top' }}
-          />
-          <motion.div
-            initial={{ scaleY: 1 }}
-            animate={{ scaleY: 0 }}
-            transition={{ duration: 1.15, ease: [0.7, 0, 0.3, 1], delay: 0.15 }}
-            onAnimationComplete={() => setIntroDone(true)}
-            style={{ position: 'fixed', bottom: 0, left: 0, right: 0, height: '50%', background: '#000', zIndex: 50, transformOrigin: 'bottom' }}
-          />
-          {/* dramatic flash that sweeps away as the graph lights up */}
-          <motion.div
-            initial={{ opacity: 0.22 }}
-            animate={{ opacity: 0 }}
-            transition={{ duration: 1.4, ease: 'easeOut', delay: 0.2 }}
-            style={{ position: 'fixed', inset: 0, background: 'radial-gradient(circle at 50% 50%, rgba(255,255,255,0.35) 0%, rgba(0,0,0,0) 60%)', zIndex: 51, pointerEvents: 'none' }}
-          />
-        </>
-      )}
       <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', pointerEvents: 'none' }}>
         <div style={{ fontSize: '0.8rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.85)', fontWeight: 300 }}>
           CONCEPT GRAPH — {data?.title?.toUpperCase() ?? '…'}
