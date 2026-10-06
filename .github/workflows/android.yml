@@ -72,4 +72,8 @@ jobs:
             sleep 20
           done
           echo "uploading nomad.apk to release: $TAG"
-          gh release upload "$TAG" android/app/build/outputs/apk/debug/app-debug.apk#nomad.apk --clobber
+          # Rename by basename copy, NOT the `file#label` syntax: the runner's
+          # gh silently dropped the label and uploaded the asset as
+          # `app-debug.apk`, leaving `nomad.apk` stale (observed 2026-10-06).
+          cp android/app/build/outputs/apk/debug/app-debug.apk /tmp/nomad.apk
+          gh release upload "$TAG" /tmp/nomad.apk --clobber
