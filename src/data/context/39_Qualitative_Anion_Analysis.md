@@ -179,7 +179,7 @@ Performed on a clean platinum wire loop with borax ($\text{Na}_2\text{B}_4\text{
    $$\mathbf{\text{Cr}_2\text{O}_7^{2-} (\text{Orange}) + 2\text{H}^+ + 3\text{SO}_2 \to 2\text{Cr}^{3+} (\text{Emerald Green}) + 3\text{SO}_4^{2-} + \text{H}_2\text{O}}$$
 3. **Acidified Potassium Permanganate ($\text{KMnO}_4$) Test:**
    $\text{SO}_2$ reduces purple permanganate to colorless $\text{Mn}^{2+}$, decolorizing the solution:
-   25376\mathbf{2        ext{MnO}_4^- (        ext{Purple}) + 5        ext{SO}_2 + 2        ext{H}_2        ext{O}         o 2        ext{Mn}^{2+} (        ext{Colorless}) + 5        ext{SO}_4^{2-} + 4        ext{H}^+}25376
+   $$\mathbf{2\text{MnO}_4^- (\text{Purple}) + 5\text{SO}_2 + 2\text{H}_2\text{O} \to 2\text{Mn}^{2+} (\text{Colorless}) + 5\text{SO}_4^{2-} + 4\text{H}^+}$$
 4. **Barium Chloride Test:**
    Adding $\text{BaCl}_2$ to a sulfite solution yields a white precipitate of $\text{BaSO}_3$, which dissolves completely in dilute $\text{HCl}$ with the evolution of $\text{SO}_2$ (distinction from $\text{BaSO}_4$):
    $$\text{SO}_3^{2-} + \text{Ba}^{2+} \to \mathbf{\text{BaSO}_3\downarrow (\text{White})}$$

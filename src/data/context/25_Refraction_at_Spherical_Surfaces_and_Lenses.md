@@ -318,7 +318,7 @@ Let an object move with velocity $\vec{v}_O$ relative to a lens:
   where:
   * $P_L = \frac{1}{f_L} = (\mu - 1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)$ (Power of lens).
   * $P_M = -\frac{1}{f_M} = \frac{2}{R_{\text{silvered}}}$ (Power of silvered mirror surface).
-* **Effective Focal Length ($F_{\text{eq}}):**
+* **Effective Focal Length ($F_{\text{eq}}$):**
   $$F_{\text{eq}} = -\frac{1}{P_{\text{eq}}}$$
   * If $F_{\text{eq}} < 0 \implies$ System behaves as a **Concave Mirror** (Converging).
   * If $F_{\text{eq}} > 0 \implies$ System behaves as a **Convex Mirror** (Diverging).
