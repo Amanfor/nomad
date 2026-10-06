@@ -1,0 +1,3228 @@
+{
+ "subject": "physics",
+ "clusters": [
+  {
+   "pyq_chapter": "",
+   "topic": "alternating-current",
+   "attach": "alternating-current:ac-rms",
+   "pattern": "AC waveforms, RMS, average and pure reactive elements",
+   "formula": "$$v(t) = V_0 \\sin(\\omega t + \\phi)$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#1",
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#3",
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#4",
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#5",
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#6",
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#8",
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#9",
+    "01_AC_Waveforms_RMS_Average_and_Pure_Reactive_Elements_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2004,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "complex-numbers",
+   "attach": "complex-numbers:cx-modulus",
+   "pattern": "algebra modulus argument and conjugate properties",
+   "formula": "$$z_1 + z_2 = 5$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Algebra_Modulus_Argument_and_Conjugate_Properties_JEE_Main_Questions.md#2",
+    "01_Algebra_Modulus_Argument_and_Conjugate_Properties_JEE_Main_Questions.md#4",
+    "01_Algebra_Modulus_Argument_and_Conjugate_Properties_JEE_Main_Questions.md#6",
+    "01_Algebra_Modulus_Argument_and_Conjugate_Properties_JEE_Main_Questions.md#7",
+    "01_Algebra_Modulus_Argument_and_Conjugate_Properties_JEE_Main_Questions.md#9"
+   ],
+   "years": [
+    2008,
+    2019,
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "sequences-series",
+   "attach": "sequences-series:seq-ap",
+   "pattern": "arithmetic progression and arithmetic means",
+   "formula": "$$a_k + a_{n - k + 1} = a_1 + a_n$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Arithmetic_Progression_and_Arithmetic_Means_JEE_Main_Questions.md#1",
+    "01_Arithmetic_Progression_and_Arithmetic_Means_JEE_Main_Questions.md#6",
+    "01_Arithmetic_Progression_and_Arithmetic_Means_JEE_Main_Questions.md#7",
+    "01_Arithmetic_Progression_and_Arithmetic_Means_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2004,
+    2006,
+    2019,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "centre-of-mass-momentum",
+   "attach": "centre-of-mass-momentum:continuous-bodies",
+   "pattern": "center of mass coordinates continuous bodies and cavities",
+   "formula": "$$\\vec{r}_{\\text{cm}} = \\frac{\\sum m_i \\vec{r}_i}{\\sum m_i}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#2",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#3",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#6",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#7",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#9",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#12",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#13",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#18",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#19",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#20",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#21",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#28",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#31",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#33",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#35",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#36",
+    "01_Center_of_Mass_Coordinates_Continuous_Bodies_and_Cavities_JEE_Main_Questions.md#39"
+   ],
+   "years": [
+    2010,
+    2011,
+    2016,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:kp-kc-relationship",
+   "pattern": "chemical equilibrium Kp Kc degree of dissociation and le chatelier",
+   "formula": "$$K_P = K_C (RT)^{\\Delta n_g}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Chemical_Equilibrium_Kp_Kc_Degree_of_Dissociation_and_Le_Chatelier_JEE_Main_Questions.md#9",
+    "01_Chemical_Equilibrium_Kp_Kc_Degree_of_Dissociation_and_Le_Chatelier_JEE_Main_Questions.md#10",
+    "01_Chemical_Equilibrium_Kp_Kc_Degree_of_Dissociation_and_Le_Chatelier_JEE_Main_Questions.md#11",
+    "01_Chemical_Equilibrium_Kp_Kc_Degree_of_Dissociation_and_Le_Chatelier_JEE_Main_Questions.md#12",
+    "01_Chemical_Equilibrium_Kp_Kc_Degree_of_Dissociation_and_Le_Chatelier_JEE_Main_Questions.md#14",
+    "01_Chemical_Equilibrium_Kp_Kc_Degree_of_Dissociation_and_Le_Chatelier_JEE_Main_Questions.md#15",
+    "01_Chemical_Equilibrium_Kp_Kc_Degree_of_Dissociation_and_Le_Chatelier_JEE_Main_Questions.md#27"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "circular-motion",
+   "attach": "circular-motion:circular-kinematics",
+   "pattern": "circular kinematics radius of curvature and acceleration vectors",
+   "formula": "$$a_c = \\frac{v^2}{R}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Circular_Kinematics_Radius_of_Curvature_and_Acceleration_Vectors_JEE_Main_Questions.md#6",
+    "01_Circular_Kinematics_Radius_of_Curvature_and_Acceleration_Vectors_JEE_Main_Questions.md#7",
+    "01_Circular_Kinematics_Radius_of_Curvature_and_Acceleration_Vectors_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "circular-motion",
+   "attach": "circular-motion:circular-kinematics",
+   "pattern": "circular kinematics and angular dynamics",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Circular_Kinematics_and_Angular_Dynamics_JEE_Main_Questions.md#3",
+    "01_Circular_Kinematics_and_Angular_Dynamics_JEE_Main_Questions.md#12",
+    "01_Circular_Kinematics_and_Angular_Dynamics_JEE_Main_Questions.md#18"
+   ],
+   "years": [
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:dipole-moment-and-polarity",
+   "pattern": "classical bonding octet rule lattice energy and dipole moments",
+   "formula": "$$V - L - \\frac{1}{2}S$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#1",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#5",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#6",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#7",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#8",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#9",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#10",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#13",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#15",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#18",
+    "01_Classical_Bonding_Octet_Rule_Lattice_Energy_and_Dipole_Moments_JEE_Main_Questions.md#21"
+   ],
+   "years": [
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:unit-cells-and-lattices",
+   "pattern": "cubic lattices geometry and density analytics",
+   "formula": "$$a, b, c$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#1",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#5",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#7",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#11",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#17",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#18",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#19",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#23",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#27",
+    "01_Cubic_Lattices_Geometry_and_Density_Analytics_JEE_Main_Questions.md#29"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "kinematics",
+   "attach": "kinematics:kinematics-graphs",
+   "pattern": "differential kinematics and calculus graphs",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Differential_Kinematics_and_Calculus_Graphs_JEE_Main_Questions.md#6",
+    "01_Differential_Kinematics_and_Calculus_Graphs_JEE_Main_Questions.md#7"
+   ],
+   "years": [
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "current-electricity",
+   "attach": "current-electricity:ce-drift",
+   "pattern": "drift velocity ohms law and resistance dynamics",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Drift_Velocity_Ohms_Law_and_Resistance_Dynamics_JEE_Main_Questions.md#5",
+    "01_Drift_Velocity_Ohms_Law_and_Resistance_Dynamics_JEE_Main_Questions.md#7"
+   ],
+   "years": [
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:atomic-structure",
+   "pattern": "dual nature photoelectric effect and uncertainty principle",
+   "formula": "$$E = h\\nu = \\frac{hc}{\\lambda}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#1",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#7",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#11",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#13",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#14",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#15",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#16",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#17",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#20",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#22",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#23",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#26",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#27",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#28",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#30",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#31",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#32",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#33",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#34",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#35",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#37",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#39",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#41",
+    "01_Dual_Nature_Photoelectric_Effect_and_Uncertainty_Principle_JEE_Main_Questions.md#45"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:first-law-thermodynamics",
+   "pattern": "first law, PV, work and internal energy enthalpy relations",
+   "formula": "$$\\Delta U = q + w = q - P_{\\text{ext}}\\Delta V$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#51",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#52",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#54",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#57",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#58",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#61",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#62",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#64",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#65",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#67",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#69",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#71",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#72",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#74",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#75",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#76",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#77",
+    "01_First_Law_PV_Work_and_Internal_Energy_Enthalpy_Relations_JEE_Main_Questions.md#78"
+   ],
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "fluid-mechanics",
+   "attach": "fluid-mechanics:hydrostatics",
+   "pattern": "fluid statics pressure and archimedes principle",
+   "formula": "$$P = P_0 + \\rho g h$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Fluid_Statics_Pressure_and_Archimedes_Principle_JEE_Main_Questions.md#3",
+    "01_Fluid_Statics_Pressure_and_Archimedes_Principle_JEE_Main_Questions.md#5"
+   ],
+   "years": [
+    2022,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "permutations-combinations",
+   "attach": "permutations-combinations:perm-counting",
+   "pattern": "fundamental counting word permutations and dictionary rank",
+   "formula": "$$\\text{E, G, N, T, T, W, Y}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Fundamental_Counting_Word_Permutations_and_Dictionary_Rank_JEE_Main_Questions.md#6",
+    "01_Fundamental_Counting_Word_Permutations_and_Dictionary_Rank_JEE_Main_Questions.md#7",
+    "01_Fundamental_Counting_Word_Permutations_and_Dictionary_Rank_JEE_Main_Questions.md#9"
+   ],
+   "years": [
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:nernst-equation-formula",
+   "pattern": "galvanic cells, EMF and nernst equation",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#1",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#5",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#12",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#14",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#15",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#18",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#19",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#20",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#22",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#23",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#24",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#25",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#26",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#29",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#35",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#36",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#40",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#41",
+    "01_Galvanic_Cells_EMF_and_Nernst_Equation_JEE_Main_Questions.md#42"
+   ],
+   "years": [
+    2002,
+    2020,
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:nernst-equation-formula",
+   "pattern": "galvanic cells electrochemical series and nernst equation",
+   "formula": "$$E^\\circ_{\\text{ox}}, E^\\circ_{\\text{red}}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Galvanic_Cells_Electrochemical_Series_and_Nernst_Equation_JEE_Main_Questions.md#6",
+    "01_Galvanic_Cells_Electrochemical_Series_and_Nernst_Equation_JEE_Main_Questions.md#8",
+    "01_Galvanic_Cells_Electrochemical_Series_and_Nernst_Equation_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2004,
+    2020
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:solutions-and-colligative-properties",
+   "pattern": "henrys law raoults law and vapor pressure dynamics",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Henrys_Law_Raoults_Law_and_Vapor_Pressure_Dynamics_JEE_Main_Questions.md#2",
+    "01_Henrys_Law_Raoults_Law_and_Vapor_Pressure_Dynamics_JEE_Main_Questions.md#3",
+    "01_Henrys_Law_Raoults_Law_and_Vapor_Pressure_Dynamics_JEE_Main_Questions.md#9",
+    "01_Henrys_Law_Raoults_Law_and_Vapor_Pressure_Dynamics_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2021,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": null,
+   "attach": null,
+   "pattern": "hookes law stress strain and youngs modulus",
+   "formula": "$$\\sigma_y$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#8",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#9",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#10",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#14",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#17",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#22",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#23",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#25",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#28",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#32",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#33",
+    "01_Hookes_Law_Stress_Strain_and_Youngs_Modulus_JEE_Main_Questions.md#34"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:ideal-gas-equation-pv-nrt",
+   "pattern": "ideal gas laws and state mechanics",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#1",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#3",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#4",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#5",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#6",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#7",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#9",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#10",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#12",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#13",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#15",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#16",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#17",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#18",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#20",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#21",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#23",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#24",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#25",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#26",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#27",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#28",
+    "01_Ideal_Gas_Laws_and_State_Mechanics_JEE_Main_Questions.md#29"
+   ],
+   "years": [
+    2002,
+    2020,
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "kinetic-theory-gases",
+   "attach": "kinetic-theory-gases:ktg-speeds",
+   "pattern": "kinetic theory molecular speeds and equipartition",
+   "formula": "$$P = \\frac{1}{3}\\rho v_{\\mathrm{rms}}^2$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#1",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#2",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#4",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#5",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#6",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#7",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#8",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#9",
+    "01_Kinetic_Theory_Molecular_Speeds_and_Equipartition_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "work-energy-power",
+   "attach": "work-energy-power:variable-force-work",
+   "pattern": "mechanical work variable forces and cable potential energy",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Mechanical_Work_Variable_Forces_and_Cable_Potential_Energy_JEE_Main_Questions.md#2",
+    "01_Mechanical_Work_Variable_Forces_and_Cable_Potential_Energy_JEE_Main_Questions.md#3",
+    "01_Mechanical_Work_Variable_Forces_and_Cable_Potential_Energy_JEE_Main_Questions.md#4",
+    "01_Mechanical_Work_Variable_Forces_and_Cable_Potential_Energy_JEE_Main_Questions.md#5"
+   ],
+   "years": [
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "rotational-motion",
+   "attach": "rotational-motion:moi",
+   "pattern": "moment of inertia radius of gyration and axis theorems",
+   "formula": "$$I = \\sum m_i r_i^2 = \\int r^2 dm$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#9",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#12",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#19",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#24",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#27",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#29",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#31",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#33",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#34",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#35",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#41",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#43",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#44",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#46",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#48",
+    "01_Moment_of_Inertia_Radius_of_Gyration_and_Axis_Theorems_JEE_Main_Questions.md#50"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "newton-laws",
+   "attach": "newton-laws:impulse-momentum",
+   "pattern": "newton laws momentum and impulse",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Newton_Laws_Momentum_and_Impulse_JEE_Main_Questions.md#8",
+    "01_Newton_Laws_Momentum_and_Impulse_JEE_Main_Questions.md#16",
+    "01_Newton_Laws_Momentum_and_Impulse_JEE_Main_Questions.md#25",
+    "01_Newton_Laws_Momentum_and_Impulse_JEE_Main_Questions.md#28"
+   ],
+   "years": [
+    2006,
+    2021,
+    2022,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "kinematics",
+   "attach": "kinematics:complementary-angles",
+   "pattern": "oblique projectile kinematics and complementary angles",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Oblique_Projectile_Kinematics_and_Complementary_Angles_JEE_Main_Questions.md#5",
+    "01_Oblique_Projectile_Kinematics_and_Complementary_Angles_JEE_Main_Questions.md#13",
+    "01_Oblique_Projectile_Kinematics_and_Complementary_Angles_JEE_Main_Questions.md#14",
+    "01_Oblique_Projectile_Kinematics_and_Complementary_Angles_JEE_Main_Questions.md#20",
+    "01_Oblique_Projectile_Kinematics_and_Complementary_Angles_JEE_Main_Questions.md#24"
+   ],
+   "years": [
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "differential-equations",
+   "attach": "differential-equations:de-basics",
+   "pattern": "order degree formation and variable separable ODEs",
+   "formula": "$$y^2 = a\\left(x + \\frac{\\sqrt{a}}{2}\\right)$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Order_Degree_Formation_and_Variable_Separable_ODEs_JEE_Main_Questions.md#1"
+   ],
+   "years": [
+    2021
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "photoelectric-modern-physics",
+   "attach": "photoelectric-modern-physics:mp-pe",
+   "pattern": "photoelectric effect work function and stopping potential",
+   "formula": "$$K_{{\\max}} = h\\nu - \\phi_0 = eV_0$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Photoelectric_Effect_Work_Function_and_Stopping_Potential_JEE_Main_Questions.md#1",
+    "01_Photoelectric_Effect_Work_Function_and_Stopping_Potential_JEE_Main_Questions.md#3"
+   ],
+   "years": [
+    2020
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "quadratic-polynomial-theory",
+   "attach": "quadratic-polynomial-theory:quad-power-sums",
+   "pattern": "quadratic roots discriminant and newton sums",
+   "formula": "$$P_n = \\alpha^n - \\beta^n \\implies P_{n+2} - \\sqrt{2}P_{n+1} - \\sqrt{3}P_n = 0$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Quadratic_Roots_Discriminant_and_Newton_Sums_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:rate-of-reaction",
+   "pattern": "reaction rates rate laws and order",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#1",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#2",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#3",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#4",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#5",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#6",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#7",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#8",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#9",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#10",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#11",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#12",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#13",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#14",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#15",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#16",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#17",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#18",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#19",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#21",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#22",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#23",
+    "01_Reaction_Rates_Rate_Laws_and_Order_JEE_Main_Questions.md#24"
+   ],
+   "years": [
+    2020,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-mirror-image-motion",
+   "pattern": "reflection plane and spherical mirrors",
+   "formula": "$$90^\\circ = 180^\\circ - 2i \\implies 2i = 90^\\circ \\implies i = 45^\\circ$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Reflection_Plane_and_Spherical_Mirrors_JEE_Main_Questions.md#7",
+    "01_Reflection_Plane_and_Spherical_Mirrors_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-mirror-image-motion",
+   "pattern": "reflection and spherical mirrors",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Reflection_and_Spherical_Mirrors_JEE_Main_Questions.md#8",
+    "01_Reflection_and_Spherical_Mirrors_JEE_Main_Questions.md#10",
+    "01_Reflection_and_Spherical_Mirrors_JEE_Main_Questions.md#11"
+   ],
+   "years": [
+    2020,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "simple-harmonic-motion",
+   "attach": "simple-harmonic-motion:shm-kin-ex",
+   "pattern": "SHM kinematics phasor circle and energy dynamics",
+   "formula": "$$F = -kx$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#9",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#12",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#18",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#20",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#30",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#31",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#33",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#38",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#39",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#42",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#43",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#48",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#49",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#50",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#53",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#69",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#70",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#74",
+    "01_SHM_Kinematics_Phasor_Circle_and_Energy_Dynamics_JEE_Main_Questions.md#75"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-calorimetry",
+   "pattern": "specific heat latent heat and principle of calorimetry",
+   "formula": "$$Q = ms\\Delta T$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#1",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#2",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#3",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#4",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#5",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#6",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#7",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#8",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#9",
+    "01_Specific_Heat_Latent_Heat_and_Principle_of_Calorimetry_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2011,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "waves-sound",
+   "attach": "waves-sound:sound-speed",
+   "pattern": "speed of sound laplace formula and decibel loudness",
+   "formula": "$$v = \\sqrt{\\frac{\\gamma P}{\\rho}} = \\sqrt{\\frac{\\gamma R T}{M}}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#1",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#2",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#3",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#4",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#5",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#6",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#7",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#8",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#9",
+    "01_Speed_of_Sound_Laplace_Formula_and_Decibel_Loudness_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2002,
+    2005,
+    2014,
+    2016,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": null,
+   "attach": null,
+   "pattern": "stress strain mechanics hookes law and engineering curves",
+   "formula": "$$\\sigma = F_\\perp / A$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#1",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#2",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#3",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#4",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#5",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#6",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#7",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#8",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#9",
+    "01_Stress_Strain_Mechanics_Hookes_Law_and_Engineering_Curves_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2004,
+    2008,
+    2014,
+    2017,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-conduction",
+   "pattern": "thermal conduction resistance networks and ice formation",
+   "formula": "$$i_T = \\frac{dQ}{dt} = \\frac{KA\\Delta T}{L}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#1",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#2",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#3",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#4",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#5",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#6",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#7",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#8",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#9",
+    "01_Thermal_Conduction_Resistance_Networks_and_Ice_Formation_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2004,
+    2014,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "gravitation",
+   "attach": "gravitation:univ-law",
+   "pattern": "universal gravitation field and potential",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Universal_Gravitation_Field_and_Potential_JEE_Main_Questions.md#3",
+    "01_Universal_Gravitation_Field_and_Potential_JEE_Main_Questions.md#4",
+    "01_Universal_Gravitation_Field_and_Potential_JEE_Main_Questions.md#22"
+   ],
+   "years": [
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:werners-theory",
+   "pattern": "werner theory nomenclature and ligands",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#4",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#6",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#14",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#15",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#16",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#20",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#23",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#25",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#26",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#27",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#28",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#30",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#31",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#39",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#41",
+    "01_Werner_Theory_Nomenclature_and_Ligands_JEE_Main_Questions.md#44"
+   ],
+   "years": [
+    2002,
+    2003,
+    2005,
+    2017,
+    2020,
+    2021,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "gravitation",
+   "attach": "gravitation:variation-g",
+   "pattern": "acceleration due to gravity and variations",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Acceleration_Due_to_Gravity_and_Variations_JEE_Main_Questions.md#19",
+    "02_Acceleration_Due_to_Gravity_and_Variations_JEE_Main_Questions.md#36",
+    "02_Acceleration_Due_to_Gravity_and_Variations_JEE_Main_Questions.md#43"
+   ],
+   "years": [
+    2020,
+    2022,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-radiation",
+   "pattern": "blackbody radiation stefan boltzmann and wien displacement",
+   "formula": "$$e_\\lambda / a_\\lambda = E_\\lambda$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#2",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#3",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#4",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#5",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#6",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#7",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#8",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#9",
+    "02_Blackbody_Radiation_Stefan_Boltzmann_and_Wien_Displacement_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2005,
+    2018,
+    2019,
+    2020,
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:bohr-model-energy-levels",
+   "pattern": "bohrs atomic model energies and spectral series",
+   "formula": "$$\\text{H}, \\text{He}^+, \\text{Li}^{2+}, \\text{Be}^{3+}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#1",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#2",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#3",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#11",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#14",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#20",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#21",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#22",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#26",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#28",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#29",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#33",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#37",
+    "02_Bohrs_Atomic_Model_Energies_and_Spectral_Series_JEE_Main_Questions.md#43"
+   ],
+   "years": [
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "circular-motion",
+   "attach": "circular-motion:centripetal-force",
+   "pattern": "centripetal force friction and banking",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Centripetal_Force_Friction_and_Banking_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:packing-efficiencies",
+   "pattern": "close packing interstitial voids and ionic crystals",
+   "formula": "$$Z = 6$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#3",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#4",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#8",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#12",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#14",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#20",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#22",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#23",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#25",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#26",
+    "02_Close_Packing_Interstitial_Voids_and_Ionic_Crystals_JEE_Main_Questions.md#28"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:solutions-and-colligative-properties",
+   "pattern": "colligative properties, RLVP, ebullioscopy and cryoscopy",
+   "formula": "$$\\Delta T_f = i \\cdot K_f \\cdot m$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Colligative_Properties_RLVP_Ebullioscopy_and_Cryoscopy_JEE_Main_Questions.md#4",
+    "02_Colligative_Properties_RLVP_Ebullioscopy_and_Cryoscopy_JEE_Main_Questions.md#5",
+    "02_Colligative_Properties_RLVP_Ebullioscopy_and_Cryoscopy_JEE_Main_Questions.md#6",
+    "02_Colligative_Properties_RLVP_Ebullioscopy_and_Cryoscopy_JEE_Main_Questions.md#7",
+    "02_Colligative_Properties_RLVP_Ebullioscopy_and_Cryoscopy_JEE_Main_Questions.md#8",
+    "02_Colligative_Properties_RLVP_Ebullioscopy_and_Cryoscopy_JEE_Main_Questions.md#9"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "quadratic-polynomial-theory",
+   "attach": "quadratic-polynomial-theory:quad-higher",
+   "pattern": "common roots cubic and higher degree polynomials",
+   "formula": "$$D = 2^2 - 4(1)(3) = 4 - 12 = -8 < 0$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Common_Roots_Cubic_and_Higher_Degree_Polynomials_JEE_Main_Questions.md#7",
+    "02_Common_Roots_Cubic_and_Higher_Degree_Polynomials_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "complex-numbers",
+   "attach": "complex-numbers:cx-demoivre",
+   "pattern": "de moivre roots of unity and polynomial equations",
+   "formula": "$$\\omega = \\frac{-1 + i\\sqrt{3}}{2} \\implies -1 + i\\sqrt{3} = 2\\omega$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_De_Moivre_Roots_of_Unity_and_Polynomial_Equations_JEE_Main_Questions.md#1",
+    "02_De_Moivre_Roots_of_Unity_and_Polynomial_Equations_JEE_Main_Questions.md#4",
+    "02_De_Moivre_Roots_of_Unity_and_Polynomial_Equations_JEE_Main_Questions.md#6",
+    "02_De_Moivre_Roots_of_Unity_and_Polynomial_Equations_JEE_Main_Questions.md#9",
+    "02_De_Moivre_Roots_of_Unity_and_Polynomial_Equations_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:electrochemistry-and-ionic-conduction",
+   "pattern": "electrochemical series and redox equilibria",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Electrochemical_Series_and_Redox_Equilibria_JEE_Main_Questions.md#3",
+    "02_Electrochemical_Series_and_Redox_Equilibria_JEE_Main_Questions.md#15",
+    "02_Electrochemical_Series_and_Redox_Equilibria_JEE_Main_Questions.md#16"
+   ],
+   "years": [
+    2022,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:faradays-laws-electrolysis",
+   "pattern": "electrolytic cells faradays laws and electrodeposition",
+   "formula": "$$w = ZIt = \\frac{M \\cdot I \\cdot t}{n \\cdot 96500}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Electrolytic_Cells_Faradays_Laws_and_Electrodeposition_JEE_Main_Questions.md#1",
+    "02_Electrolytic_Cells_Faradays_Laws_and_Electrodeposition_JEE_Main_Questions.md#2",
+    "02_Electrolytic_Cells_Faradays_Laws_and_Electrodeposition_JEE_Main_Questions.md#3",
+    "02_Electrolytic_Cells_Faradays_Laws_and_Electrodeposition_JEE_Main_Questions.md#5",
+    "02_Electrolytic_Cells_Faradays_Laws_and_Electrodeposition_JEE_Main_Questions.md#8",
+    "02_Electrolytic_Cells_Faradays_Laws_and_Electrodeposition_JEE_Main_Questions.md#9",
+    "02_Electrolytic_Cells_Faradays_Laws_and_Electrodeposition_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "newton-laws",
+   "attach": "newton-laws:pseudo-force",
+   "pattern": "elevator pseudo force and pulleys",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Elevator_Pseudo_Force_and_Pulleys_JEE_Main_Questions.md#2",
+    "02_Elevator_Pseudo_Force_and_Pulleys_JEE_Main_Questions.md#7",
+    "02_Elevator_Pseudo_Force_and_Pulleys_JEE_Main_Questions.md#17",
+    "02_Elevator_Pseudo_Force_and_Pulleys_JEE_Main_Questions.md#21",
+    "02_Elevator_Pseudo_Force_and_Pulleys_JEE_Main_Questions.md#22"
+   ],
+   "years": [
+    2006,
+    2016,
+    2021,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-processes",
+   "pattern": "first law thermodynamic processes and polytropic gas expansions",
+   "formula": "$$\\Delta Q = \\Delta U + W$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#1",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#2",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#3",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#4",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#5",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#6",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#7",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#8",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#9",
+    "02_First_Law_Thermodynamic_Processes_and_Polytropic_Gas_Expansions_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2011,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "fluid-mechanics",
+   "attach": "fluid-mechanics:hydrodynamics",
+   "pattern": "fluid dynamics bernoulli principle and efflux",
+   "formula": "$$A_1 v_1 = A_2 v_2 = Q$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Fluid_Dynamics_Bernoulli_Principle_and_Efflux_JEE_Main_Questions.md#3",
+    "02_Fluid_Dynamics_Bernoulli_Principle_and_Efflux_JEE_Main_Questions.md#4",
+    "02_Fluid_Dynamics_Bernoulli_Principle_and_Efflux_JEE_Main_Questions.md#9",
+    "02_Fluid_Dynamics_Bernoulli_Principle_and_Efflux_JEE_Main_Questions.md#12",
+    "02_Fluid_Dynamics_Bernoulli_Principle_and_Efflux_JEE_Main_Questions.md#13",
+    "02_Fluid_Dynamics_Bernoulli_Principle_and_Efflux_JEE_Main_Questions.md#14"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "sequences-series",
+   "attach": "sequences-series:seq-agp",
+   "pattern": "geometric progression and AGP",
+   "formula": "$$S_{\\text{odd}} = \\frac{a(1 - (r^2)^{32})}{1 - r^2} = \\frac{a(1 - r^{64})}{1 - r^2}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Geometric_Progression_and_AGP_JEE_Main_Questions.md#2",
+    "02_Geometric_Progression_and_AGP_JEE_Main_Questions.md#4",
+    "02_Geometric_Progression_and_AGP_JEE_Main_Questions.md#6",
+    "02_Geometric_Progression_and_AGP_JEE_Main_Questions.md#7",
+    "02_Geometric_Progression_and_AGP_JEE_Main_Questions.md#9",
+    "02_Geometric_Progression_and_AGP_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2010,
+    2011,
+    2020,
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "circular-motion",
+   "attach": "circular-motion:vehicle-turning",
+   "pattern": "horizontal circular dynamics turntable slipping and road banking",
+   "formula": "$$F_{\\text{cf}} = m \\omega^2 R$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Horizontal_Circular_Dynamics_Turntable_Slipping_and_Road_Banking_JEE_Main_Questions.md#3",
+    "02_Horizontal_Circular_Dynamics_Turntable_Slipping_and_Road_Banking_JEE_Main_Questions.md#9"
+   ],
+   "years": [
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:integrated-rate-laws",
+   "pattern": "integrated rate laws and half life kinetics",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#1",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#2",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#3",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#4",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#5",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#6",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#7",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#8",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#9",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#10",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#11",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#12",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#13",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#14",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#15",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#16",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#17",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#18",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#19",
+    "02_Integrated_Rate_Laws_and_Half_Life_Kinetics_JEE_Main_Questions.md#22"
+   ],
+   "years": [
+    2020,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:ionic-equilibrium-and-ph",
+   "pattern": "ionic equilibrium acids bases pH scale and buffer solutions",
+   "formula": "$$\\text{Millimoles of } \\mathrm{NH}_3 = 50\\text{ mL} \\times 0.2\\text{ M} = 10\\text{ mmol}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Ionic_Equilibrium_Acids_Bases_pH_Scale_and_Buffer_Solutions_JEE_Main_Questions.md#2",
+    "02_Ionic_Equilibrium_Acids_Bases_pH_Scale_and_Buffer_Solutions_JEE_Main_Questions.md#3",
+    "02_Ionic_Equilibrium_Acids_Bases_pH_Scale_and_Buffer_Solutions_JEE_Main_Questions.md#8",
+    "02_Ionic_Equilibrium_Acids_Bases_pH_Scale_and_Buffer_Solutions_JEE_Main_Questions.md#10",
+    "02_Ionic_Equilibrium_Acids_Bases_pH_Scale_and_Buffer_Solutions_JEE_Main_Questions.md#12"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:rms-average-most-probable-speeds",
+   "pattern": "kinetic theory and molecular speeds",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Kinetic_Theory_and_Molecular_Speeds_JEE_Main_Questions.md#7",
+    "02_Kinetic_Theory_and_Molecular_Speeds_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2002,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-volumetric",
+   "pattern": "linear superficial and cubical thermal expansion",
+   "formula": "$$\\alpha, \\beta = 2\\alpha, \\gamma = 3\\alpha$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#1",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#2",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#3",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#4",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#5",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#7",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#8",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#9",
+    "02_Linear_Superficial_and_Cubical_Thermal_Expansion_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2007,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "waves-sound",
+   "attach": "waves-sound:standing-wave",
+   "pattern": "organ pipes standing longitudinal waves and resonance tube",
+   "formula": "$$f_n = n \\frac{v}{2L}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#1",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#2",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#3",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#4",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#5",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#6",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#7",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#8",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#9",
+    "02_Organ_Pipes_Standing_Longitudinal_Waves_and_Resonance_Tube_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2004,
+    2009,
+    2015,
+    2017,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "photoelectric-modern-physics",
+   "attach": "photoelectric-modern-physics:mp-rad-pressure",
+   "pattern": "radiation pressure photon flux and momentum transfer",
+   "formula": "$$E = h\\nu = hc/\\lambda$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Radiation_Pressure_Photon_Flux_and_Momentum_Transfer_JEE_Main_Questions.md#6",
+    "02_Radiation_Pressure_Photon_Flux_and_Momentum_Transfer_JEE_Main_Questions.md#9"
+   ],
+   "years": [
+    2005,
+    2020
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-refraction-tir",
+   "pattern": "refraction snells law and TIR",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#3",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#6",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#7",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#10",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#12",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#13",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#15",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#17",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#20",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#22",
+    "02_Refraction_Snells_Law_and_TIR_JEE_Main_Questions.md#23"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-refraction-tir",
+   "pattern": "refraction, TIR and prism optics",
+   "formula": "$$\\sin\\theta_c = \\frac{1}{\\mu} = \\frac{1}{4/3} = \\frac{3}{4}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Refraction_TIR_and_Prism_Optics_JEE_Main_Questions.md#5",
+    "02_Refraction_TIR_and_Prism_Optics_JEE_Main_Questions.md#6",
+    "02_Refraction_TIR_and_Prism_Optics_JEE_Main_Questions.md#7"
+   ],
+   "years": [
+    2020,
+    2021
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "current-electricity",
+   "attach": "current-electricity:ce-networks",
+   "pattern": "resistor networks cell groupings and electric power",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Resistor_Networks_Cell_Groupings_and_Electric_Power_JEE_Main_Questions.md#3"
+   ],
+   "years": [
+    2020
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "permutations-combinations",
+   "attach": "permutations-combinations:perm-circular-n",
+   "pattern": "restricted permutations string gap and circular arrangements",
+   "formula": "$$\\text{M: 1, I: 4, S: 4, P: 2} \\quad (\\text{Total } = 11 \\text{ letters})$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Restricted_Permutations_String_Gap_and_Circular_Arrangements_JEE_Main_Questions.md#3",
+    "02_Restricted_Permutations_String_Gap_and_Circular_Arrangements_JEE_Main_Questions.md#5",
+    "02_Restricted_Permutations_String_Gap_and_Circular_Arrangements_JEE_Main_Questions.md#6",
+    "02_Restricted_Permutations_String_Gap_and_Circular_Arrangements_JEE_Main_Questions.md#7",
+    "02_Restricted_Permutations_String_Gap_and_Circular_Arrangements_JEE_Main_Questions.md#8",
+    "02_Restricted_Permutations_String_Gap_and_Circular_Arrangements_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": null,
+   "attach": null,
+   "pattern": "self weight composites thermal stress and breaking limits",
+   "formula": "$$\\Delta L_{\\text{self}} = \\int_0^L \\frac{T(y)}{AY} dy = \\frac{MgL}{2AY} = \\frac{\\rho g L^2}{2Y}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Self_Weight_Composites_Thermal_Stress_and_Breaking_Limits_JEE_Main_Questions.md#2",
+    "02_Self_Weight_Composites_Thermal_Stress_and_Breaking_Limits_JEE_Main_Questions.md#5",
+    "02_Self_Weight_Composites_Thermal_Stress_and_Breaking_Limits_JEE_Main_Questions.md#10",
+    "02_Self_Weight_Composites_Thermal_Stress_and_Breaking_Limits_JEE_Main_Questions.md#11",
+    "02_Self_Weight_Composites_Thermal_Stress_and_Breaking_Limits_JEE_Main_Questions.md#13",
+    "02_Self_Weight_Composites_Thermal_Stress_and_Breaking_Limits_JEE_Main_Questions.md#14",
+    "02_Self_Weight_Composites_Thermal_Stress_and_Breaking_Limits_JEE_Main_Questions.md#15"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "alternating-current",
+   "attach": "alternating-current:ac-lcr",
+   "pattern": "series, LCR, circuits impedance and power factor",
+   "formula": "$$R\\text{-}L$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Series_LCR_Circuits_Impedance_and_Power_Factor_JEE_Main_Questions.md#1",
+    "02_Series_LCR_Circuits_Impedance_and_Power_Factor_JEE_Main_Questions.md#2",
+    "02_Series_LCR_Circuits_Impedance_and_Power_Factor_JEE_Main_Questions.md#3",
+    "02_Series_LCR_Circuits_Impedance_and_Power_Factor_JEE_Main_Questions.md#5",
+    "02_Series_LCR_Circuits_Impedance_and_Power_Factor_JEE_Main_Questions.md#7",
+    "02_Series_LCR_Circuits_Impedance_and_Power_Factor_JEE_Main_Questions.md#9",
+    "02_Series_LCR_Circuits_Impedance_and_Power_Factor_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "simple-harmonic-motion",
+   "attach": "simple-harmonic-motion:shm-springs",
+   "pattern": "spring mass networks and oscillating systems",
+   "formula": "$$F = -kx$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#4",
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#15",
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#16",
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#18",
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#22",
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#23",
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#24",
+    "02_Spring_Mass_Networks_and_Oscillating_Systems_JEE_Main_Questions.md#25"
+   ],
+   "years": [
+    2009,
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:thermochemistry-and-energetics",
+   "pattern": "thermochemistry hess law combustion and bond enthalpies",
+   "formula": "$$\\Delta_f H^\\circ = 0$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#2",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#4",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#5",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#6",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#7",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#9",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#10",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#13",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#14",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#15",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#16",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#19",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#20",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#21",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#22",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#24",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#25",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#26",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#28",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#31",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#32",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#33",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#34",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#37",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#38",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#40",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#41",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#43",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#44",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#45",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#46",
+    "02_Thermochemistry_Hess_Law_Combustion_and_Bond_Enthalpies_JEE_Main_Questions.md#47"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "rotational-motion",
+   "attach": "rotational-motion:torque",
+   "pattern": "torque rotational equilibrium and fixed axis dynamics",
+   "formula": "$$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#1",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#4",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#5",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#9",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#12",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#16",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#17",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#18",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#21",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#24",
+    "02_Torque_Rotational_Equilibrium_and_Fixed_Axis_Dynamics_JEE_Main_Questions.md#26"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "kinematics",
+   "attach": "kinematics:trajectory-equation",
+   "pattern": "trajectory equations elevated projections and curvature",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Trajectory_Equations_Elevated_Projections_and_Curvature_JEE_Main_Questions.md#4",
+    "02_Trajectory_Equations_Elevated_Projections_and_Curvature_JEE_Main_Questions.md#7",
+    "02_Trajectory_Equations_Elevated_Projections_and_Curvature_JEE_Main_Questions.md#9",
+    "02_Trajectory_Equations_Elevated_Projections_and_Curvature_JEE_Main_Questions.md#13"
+   ],
+   "years": [
+    2022,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "sets-and-relations",
+   "attach": "sets-and-relations:sets-rel-properties",
+   "pattern": "types of relations equivalence relations and closures",
+   "formula": "$$n(S) = |A|^2 = 4^2 = 16$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Types_of_Relations_Equivalence_Relations_and_Closures_JEE_Main_Questions.md#7"
+   ],
+   "years": [
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "kinematics",
+   "attach": "kinematics:uniform-acceleration",
+   "pattern": "uniform acceleration and vertical gravity",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#2",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#4",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#5",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#17",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#21",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#23",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#26",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#27",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#28",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#30",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#33",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#37",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#38",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#42",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#46",
+    "02_Uniform_Acceleration_and_Vertical_Gravity_JEE_Main_Questions.md#49"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:covalent-bonding-and-vbt",
+   "pattern": "valence bond theory hybridization and back bonding",
+   "formula": "$$\\sigma$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#2",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#5",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#8",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#12",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#13",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#16",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#17",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#19",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#20",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#25",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#27",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#29",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#30",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#34",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#38",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#39",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#41",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#43",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#45",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#46",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#49",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#50",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#52",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#54",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#58",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#61",
+    "02_Valence_Bond_Theory_Hybridization_and_Back_Bonding_JEE_Main_Questions.md#63"
+   ],
+   "years": [
+    2011,
+    2016,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:covalent-bonding-and-vbt",
+   "pattern": "valence bond theory and magnetic moments",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#3",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#8",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#11",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#12",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#22",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#30",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#33",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#34",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#35",
+    "02_Valence_Bond_Theory_and_Magnetic_Moments_JEE_Main_Questions.md#36"
+   ],
+   "years": [
+    2005,
+    2006,
+    2007,
+    2011,
+    2020,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": null,
+   "attach": null,
+   "pattern": "wire elongation equivalent springs and self weight dynamics",
+   "formula": "$$T(x) = \\left(\\frac{M}{L} x\\right) g$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#1",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#2",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#3",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#4",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#5",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#6",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#7",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#8",
+    "02_Wire_Elongation_Equivalent_Springs_and_Self_Weight_Dynamics_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2003,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "work-energy-power",
+   "attach": "work-energy-power:potential-curves",
+   "pattern": "work energy theorem spring systems and potential energy curves",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "02_Work_Energy_Theorem_Spring_Systems_and_Potential_Energy_Curves_JEE_Main_Questions.md#1",
+    "02_Work_Energy_Theorem_Spring_Systems_and_Potential_Energy_Curves_JEE_Main_Questions.md#2"
+   ],
+   "years": [
+    2021,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "rotational-motion",
+   "attach": "rotational-motion:angular-momentum",
+   "pattern": "angular momentum conservation and impulse dynamics",
+   "formula": "$$\\vec{L} = \\vec{r} \\times \\vec{p} = m(\\vec{r} \\times \\vec{v})$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#3",
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#4",
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#8",
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#11",
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#14",
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#19",
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#21",
+    "03_Angular_Momentum_Conservation_and_Impulse_Dynamics_JEE_Main_Questions.md#27"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": null,
+   "attach": null,
+   "pattern": "bulk shear moduli poissons ratio and strain energy",
+   "formula": "$$B = -V\\frac{\\Delta P}{\\Delta V}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Bulk_Shear_Moduli_Poissons_Ratio_and_Strain_Energy_JEE_Main_Questions.md#4",
+    "03_Bulk_Shear_Moduli_Poissons_Ratio_and_Strain_Energy_JEE_Main_Questions.md#5",
+    "03_Bulk_Shear_Moduli_Poissons_Ratio_and_Strain_Energy_JEE_Main_Questions.md#6",
+    "03_Bulk_Shear_Moduli_Poissons_Ratio_and_Strain_Energy_JEE_Main_Questions.md#10",
+    "03_Bulk_Shear_Moduli_Poissons_Ratio_and_Strain_Energy_JEE_Main_Questions.md#15"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "sets-and-relations",
+   "attach": "sets-and-relations:sets-cartesian",
+   "pattern": "cartesian products coordinate inequalities and divisibility relations",
+   "formula": "$$n(R) = 33$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Cartesian_Products_Coordinate_Inequalities_and_Divisibility_Relations_JEE_Main_Questions.md#4"
+   ],
+   "years": [
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "centre-of-mass-momentum",
+   "attach": "centre-of-mass-momentum:variable-mass",
+   "pattern": "collision dynamics restitution and variable mass systems",
+   "formula": "$$\\vec{J} = \\int \\vec{F} dt = \\Delta\\vec{p}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#4",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#15",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#17",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#18",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#19",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#35",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#36",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#37",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#39",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#43",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#48",
+    "03_Collision_Dynamics_Restitution_and_Variable_Mass_Systems_JEE_Main_Questions.md#49"
+   ],
+   "years": [
+    2007,
+    2010,
+    2011,
+    2016,
+    2020,
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "permutations-combinations",
+   "attach": "permutations-combinations:perm-combinations",
+   "pattern": "combinations geometric selections and partitions",
+   "formula": "$$^{18}C_3 = \\frac{18 \\times 17 \\times 16}{3 \\times 2 \\times 1} = 816$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Combinations_Geometric_Selections_and_Partitions_JEE_Main_Questions.md#5",
+    "03_Combinations_Geometric_Selections_and_Partitions_JEE_Main_Questions.md#7",
+    "03_Combinations_Geometric_Selections_and_Partitions_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2020,
+    2021,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:defects-nonstoichiometry",
+   "pattern": "crystal defects imperfections and non stoichiometry",
+   "formula": "$$\\text{NaCl}, \\text{KCl}, \\text{CsCl}, \\text{AgBr}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Crystal_Defects_Imperfections_and_Non_Stoichiometry_JEE_Main_Questions.md#3",
+    "03_Crystal_Defects_Imperfections_and_Non_Stoichiometry_JEE_Main_Questions.md#4"
+   ],
+   "years": [
+    2021,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:crystal-field-theory-and-cfse",
+   "pattern": "crystal field theory, CFSE and spectra",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#4",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#5",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#6",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#7",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#8",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#9",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#10",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#12",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#13",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#16",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#18",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#20",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#21",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#22",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#24",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#25",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#27",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#28",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#30",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#32",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#33",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#34",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#35",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#40",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#41",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#43",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#46",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#50",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#51",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#52",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#53",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#54",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#55",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#56",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#57",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#59",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#60",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#62",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#63",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#64",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#65",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#66",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#67",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#68",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#70",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#71",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#72",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#73",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#78",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#81",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#82",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#83",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#84",
+    "03_Crystal_Field_Theory_CFSE_and_Spectra_JEE_Main_Questions.md#86"
+   ],
+   "years": [
+    2006,
+    2015,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-engines",
+   "pattern": "cyclic processes heat engines and carnot refrigerators",
+   "formula": "$$\\frac{300}{T_{H1}} = 0.60 \\implies T_{H1} = \\frac{300}{0.60} = 500\\text{ K}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#1",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#2",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#3",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#4",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#5",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#6",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#7",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#8",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#9",
+    "03_Cyclic_Processes_Heat_Engines_and_Carnot_Refrigerators_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2008,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "photoelectric-modern-physics",
+   "attach": "photoelectric-modern-physics:mp-davisson",
+   "pattern": "de broglie matter waves and davisson germer experiment",
+   "formula": "$$\\lambda = \\frac{h}{p} = \\frac{h}{mv} = \\frac{h}{\\sqrt{2mK}}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_De_Broglie_Matter_Waves_and_Davisson_Germer_Experiment_JEE_Main_Questions.md#2"
+   ],
+   "years": [
+    2020
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": null,
+   "attach": null,
+   "pattern": "elastic strain energy thermal stress and poisson ratio",
+   "formula": "$$\\sigma = 0.5$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#1",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#2",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#3",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#4",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#5",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#6",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#7",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#8",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#9",
+    "03_Elastic_Strain_Energy_Thermal_Stress_and_Poisson_Ratio_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2002,
+    2006,
+    2016,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "alternating-current",
+   "attach": "alternating-current:ac-resonance",
+   "pattern": "electrical resonance quality factor and transformers",
+   "formula": "$$X_L = X_C \\implies \\omega_0 = \\frac{1}{\\sqrt{LC}}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Electrical_Resonance_Quality_Factor_and_Transformers_JEE_Main_Questions.md#1",
+    "03_Electrical_Resonance_Quality_Factor_and_Transformers_JEE_Main_Questions.md#2",
+    "03_Electrical_Resonance_Quality_Factor_and_Transformers_JEE_Main_Questions.md#6"
+   ],
+   "years": [
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:kohlrausch-law",
+   "pattern": "electrolytic conductance kohlrausch law and ionic mobility",
+   "formula": "$$), Cell Constant ($$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Electrolytic_Conductance_Kohlrausch_Law_and_Ionic_Mobility_JEE_Main_Questions.md#4",
+    "03_Electrolytic_Conductance_Kohlrausch_Law_and_Ionic_Mobility_JEE_Main_Questions.md#6",
+    "03_Electrolytic_Conductance_Kohlrausch_Law_and_Ionic_Mobility_JEE_Main_Questions.md#7",
+    "03_Electrolytic_Conductance_Kohlrausch_Law_and_Ionic_Mobility_JEE_Main_Questions.md#9",
+    "03_Electrolytic_Conductance_Kohlrausch_Law_and_Ionic_Mobility_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:kohlrausch-law",
+   "pattern": "electrolytic conduction and kohlrausch law",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#2",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#4",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#6",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#7",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#8",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#9",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#11",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#12",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#15",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#16",
+    "03_Electrolytic_Conduction_and_Kohlrausch_Law_JEE_Main_Questions.md#17"
+   ],
+   "years": [
+    2014,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "gravitation",
+   "attach": "gravitation:kepler",
+   "pattern": "escape velocity kepler laws and satellites",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Escape_Velocity_Kepler_Laws_and_Satellites_JEE_Main_Questions.md#3",
+    "03_Escape_Velocity_Kepler_Laws_and_Satellites_JEE_Main_Questions.md#4",
+    "03_Escape_Velocity_Kepler_Laws_and_Satellites_JEE_Main_Questions.md#10",
+    "03_Escape_Velocity_Kepler_Laws_and_Satellites_JEE_Main_Questions.md#39"
+   ],
+   "years": [
+    2021,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "newton-laws",
+   "attach": "newton-laws:multiblock-friction",
+   "pattern": "friction inclined planes and two block systems",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#6",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#20",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#22",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#29",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#32",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#38",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#41",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#42",
+    "03_Friction_Inclined_Planes_and_Two_Block_Systems_JEE_Main_Questions.md#43"
+   ],
+   "years": [
+    2018,
+    2021
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "current-electricity",
+   "attach": "current-electricity:ce-potentiometer",
+   "pattern": "galvanometers meters and potentiometer circuits",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Galvanometers_Meters_and_Potentiometer_Circuits_JEE_Main_Questions.md#7",
+    "03_Galvanometers_Meters_and_Potentiometer_Circuits_JEE_Main_Questions.md#9",
+    "03_Galvanometers_Meters_and_Potentiometer_Circuits_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2020,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "complex-numbers",
+   "attach": "complex-numbers:cx-geometry",
+   "pattern": "geometry loci circles and conic transformations",
+   "formula": "$$|x - i| = |x - 1| \\implies x^2 + 1 = (x - 1)^2 = x^2 - 2x + 1$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Geometry_Loci_Circles_and_Conic_Transformations_JEE_Main_Questions.md#1",
+    "03_Geometry_Loci_Circles_and_Conic_Transformations_JEE_Main_Questions.md#2",
+    "03_Geometry_Loci_Circles_and_Conic_Transformations_JEE_Main_Questions.md#4",
+    "03_Geometry_Loci_Circles_and_Conic_Transformations_JEE_Main_Questions.md#5",
+    "03_Geometry_Loci_Circles_and_Conic_Transformations_JEE_Main_Questions.md#6",
+    "03_Geometry_Loci_Circles_and_Conic_Transformations_JEE_Main_Questions.md#7",
+    "03_Geometry_Loci_Circles_and_Conic_Transformations_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2003,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:solubility-product-ksp",
+   "pattern": "ionic equilibrium salt hydrolysis and solubility product Ksp",
+   "formula": "$$[\\mathrm{Bi}^{3+}] = 2S, \\quad [\\mathrm{S}^{2-}] = 3S$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Ionic_Equilibrium_Salt_Hydrolysis_and_Solubility_Product_Ksp_JEE_Main_Questions.md#2",
+    "03_Ionic_Equilibrium_Salt_Hydrolysis_and_Solubility_Product_Ksp_JEE_Main_Questions.md#12",
+    "03_Ionic_Equilibrium_Salt_Hydrolysis_and_Solubility_Product_Ksp_JEE_Main_Questions.md#16"
+   ],
+   "years": [
+    2020,
+    2021
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-real-apparent",
+   "pattern": "liquid apparent expansion pendulum clocks and buoyancy",
+   "formula": "$$\\gamma_{\\mathrm{app}} = \\gamma_L - 3\\alpha_C$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#1",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#2",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#3",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#4",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#5",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#6",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#7",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#8",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#9",
+    "03_Liquid_Apparent_Expansion_Pendulum_Clocks_and_Buoyancy_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2012,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "quadratic-polynomial-theory",
+   "attach": "quadratic-polynomial-theory:quad-location",
+   "pattern": "location of roots quadratic expressions and inequations",
+   "formula": "$$x^2 - 2mx + m^2 - 1 = 0 \\implies (x - m)^2 - 1 = 0$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Location_of_Roots_Quadratic_Expressions_and_Inequations_JEE_Main_Questions.md#6",
+    "03_Location_of_Roots_Quadratic_Expressions_and_Inequations_JEE_Main_Questions.md#7",
+    "03_Location_of_Roots_Quadratic_Expressions_and_Inequations_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2020,
+    2021,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "thermodynamics",
+   "attach": "thermodynamics:th-newton-cooling",
+   "pattern": "newtons law of cooling and calorimetric heat loss",
+   "formula": "$$\\frac{dT}{dt} = -K(T - T_0)$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#1",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#2",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#3",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#4",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#5",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#6",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#7",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#8",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#9",
+    "03_Newtons_Law_of_Cooling_and_Calorimetric_Heat_Loss_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:osmotic-pressure-formula",
+   "pattern": "osmotic pressure isotonic systems and vant hoff factor",
+   "formula": "$$\\pi = \\frac{n}{V} R T = \\frac{w_2}{M_2 \\cdot V} R T$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Osmotic_Pressure_Isotonic_Systems_and_Vant_Hoff_Factor_JEE_Main_Questions.md#1",
+    "03_Osmotic_Pressure_Isotonic_Systems_and_Vant_Hoff_Factor_JEE_Main_Questions.md#3",
+    "03_Osmotic_Pressure_Isotonic_Systems_and_Vant_Hoff_Factor_JEE_Main_Questions.md#4",
+    "03_Osmotic_Pressure_Isotonic_Systems_and_Vant_Hoff_Factor_JEE_Main_Questions.md#5",
+    "03_Osmotic_Pressure_Isotonic_Systems_and_Vant_Hoff_Factor_JEE_Main_Questions.md#6",
+    "03_Osmotic_Pressure_Isotonic_Systems_and_Vant_Hoff_Factor_JEE_Main_Questions.md#9",
+    "03_Osmotic_Pressure_Isotonic_Systems_and_Vant_Hoff_Factor_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2020,
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "simple-harmonic-motion",
+   "attach": "simple-harmonic-motion:shm-super",
+   "pattern": "pendulums physical oscillations superposition and damped resonance",
+   "formula": "$$T = 2\\pi \\sqrt{\\frac{L}{g_{\\mathrm{eff}}}}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#1",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#2",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#3",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#4",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#5",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#6",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#7",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#8",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#9",
+    "03_Pendulums_Physical_Oscillations_Superposition_and_Damped_Resonance_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2002,
+    2006,
+    2014,
+    2017,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "simple-harmonic-motion",
+   "attach": "simple-harmonic-motion:shm-super",
+   "pattern": "pendulums superposition and damped forced resonance",
+   "formula": "$$T = 2\\pi\\sqrt{L/g}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Pendulums_Superposition_and_Damped_Forced_Resonance_JEE_Main_Questions.md#3",
+    "03_Pendulums_Superposition_and_Damped_Forced_Resonance_JEE_Main_Questions.md#9",
+    "03_Pendulums_Superposition_and_Damped_Forced_Resonance_JEE_Main_Questions.md#20",
+    "03_Pendulums_Superposition_and_Damped_Forced_Resonance_JEE_Main_Questions.md#31",
+    "03_Pendulums_Superposition_and_Damped_Forced_Resonance_JEE_Main_Questions.md#36"
+   ],
+   "years": [
+    2009,
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "work-energy-power",
+   "attach": "work-energy-power:constant-power",
+   "pattern": "power dynamics constant power scaling and conveyor belts",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Power_Dynamics_Constant_Power_Scaling_and_Conveyor_Belts_JEE_Main_Questions.md#9",
+    "03_Power_Dynamics_Constant_Power_Scaling_and_Conveyor_Belts_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2021,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-prisms",
+   "pattern": "prisms and dispersion",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Prisms_and_Dispersion_JEE_Main_Questions.md#2",
+    "03_Prisms_and_Dispersion_JEE_Main_Questions.md#3",
+    "03_Prisms_and_Dispersion_JEE_Main_Questions.md#5",
+    "03_Prisms_and_Dispersion_JEE_Main_Questions.md#7",
+    "03_Prisms_and_Dispersion_JEE_Main_Questions.md#9"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:orbitals-and-probability",
+   "pattern": "quantum mechanics wavefunctions and electronic configurations",
+   "formula": "$$\\psi$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#3",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#5",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#7",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#8",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#13",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#16",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#25",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#26",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#27",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#34",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#35",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#38",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#43",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#45",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#48",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#53",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#54",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#57",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#61",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#67",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#72",
+    "03_Quantum_Mechanics_Wavefunctions_and_Electronic_Configurations_JEE_Main_Questions.md#73"
+   ],
+   "years": [
+    2012,
+    2019,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:real-gas-van-der-waals",
+   "pattern": "real gases and van der waals equation",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Real_Gases_and_Van_der_Waals_Equation_JEE_Main_Questions.md#5",
+    "03_Real_Gases_and_Van_der_Waals_Equation_JEE_Main_Questions.md#9",
+    "03_Real_Gases_and_Van_der_Waals_Equation_JEE_Main_Questions.md#12",
+    "03_Real_Gases_and_Van_der_Waals_Equation_JEE_Main_Questions.md#17"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-lenses",
+   "pattern": "refraction at curved surfaces lenses and optical instruments",
+   "formula": "$$\\frac{1}{f_1} = (\\mu_1 - 1)\\left(\\frac{1}{\\infty} - \\frac{1}{R}\\right) = -\\frac{\\mu_1 - 1}{R} = \\frac{1 - \\mu_1}{R}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Refraction_at_Curved_Surfaces_Lenses_and_Optical_Instruments_JEE_Main_Questions.md#2",
+    "03_Refraction_at_Curved_Surfaces_Lenses_and_Optical_Instruments_JEE_Main_Questions.md#5",
+    "03_Refraction_at_Curved_Surfaces_Lenses_and_Optical_Instruments_JEE_Main_Questions.md#7",
+    "03_Refraction_at_Curved_Surfaces_Lenses_and_Optical_Instruments_JEE_Main_Questions.md#8"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "kinematics",
+   "attach": "kinematics:relative-motion",
+   "pattern": "relative motion 1D and 2D",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Relative_Motion_1D_and_2D_JEE_Main_Questions.md#2",
+    "03_Relative_Motion_1D_and_2D_JEE_Main_Questions.md#9",
+    "03_Relative_Motion_1D_and_2D_JEE_Main_Questions.md#11",
+    "03_Relative_Motion_1D_and_2D_JEE_Main_Questions.md#13",
+    "03_Relative_Motion_1D_and_2D_JEE_Main_Questions.md#14",
+    "03_Relative_Motion_1D_and_2D_JEE_Main_Questions.md#15"
+   ],
+   "years": [
+    2005,
+    2016,
+    2020,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:gibbs-free-energy-spontaneity",
+   "pattern": "second law entropy gibbs free energy and spontaneity",
+   "formula": "$$\\Delta S = \\int \\frac{dq_{\\text{rev}}}{T}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#2",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#3",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#4",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#7",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#11",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#20",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#24",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#25",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#26",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#27",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#28",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#29",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#30",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#34",
+    "03_Second_Law_Entropy_Gibbs_Free_Energy_and_Spontaneity_JEE_Main_Questions.md#35"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "waves-sound",
+   "attach": "waves-sound:doppler-wind",
+   "pattern": "sound interference beats and doppler effect",
+   "formula": "$$\\Delta x = n\\lambda$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#1",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#2",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#3",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#4",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#5",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#6",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#7",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#8",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#9",
+    "03_Sound_Interference_Beats_and_Doppler_Effect_JEE_Main_Questions.md#10"
+   ],
+   "years": [
+    2003,
+    2007,
+    2015,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "sequences-series",
+   "attach": "sequences-series:seq-telescope",
+   "pattern": "special series telescoping sums and inequalities",
+   "formula": "$$T_n = n(2n - 1) = 2n^2 - n$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Special_Series_Telescoping_Sums_and_Inequalities_JEE_Main_Questions.md#5",
+    "03_Special_Series_Telescoping_Sums_and_Inequalities_JEE_Main_Questions.md#6",
+    "03_Special_Series_Telescoping_Sums_and_Inequalities_JEE_Main_Questions.md#7",
+    "03_Special_Series_Telescoping_Sums_and_Inequalities_JEE_Main_Questions.md#9"
+   ],
+   "years": [
+    2002,
+    2019,
+    2021
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:arrhenius-temperature-dependence",
+   "pattern": "temperature dependence arrhenius equation and activation energy",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#1",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#2",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#3",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#4",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#5",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#6",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#7",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#8",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#9",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#10",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#11",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#12",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#13",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#14",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#15",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#16",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#17",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#18",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#19",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#22",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#23",
+    "03_Temperature_Dependence_Arrhenius_Equation_and_Activation_Energy_JEE_Main_Questions.md#24"
+   ],
+   "years": [
+    2020,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:vsepr-theory",
+   "pattern": "VSEPR molecular geometries shapes and bond angles",
+   "formula": "$$\\text{Lone Pair}-\\text{Lone Pair} > \\text{Lone Pair}-\\text{Bond Pair} > \\text{Bond Pair}-\\text{Bond Pair}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#4",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#5",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#7",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#8",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#9",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#10",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#11",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#13",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#15",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#16",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#18",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#20",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#22",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#27",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#28",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#42",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#43",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#44",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#46",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#47",
+    "03_VSEPR_Molecular_Geometries_Shapes_and_Bond_Angles_JEE_Main_Questions.md#48"
+   ],
+   "years": [
+    2003,
+    2018,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "circular-motion",
+   "attach": "circular-motion:vertical-circular",
+   "pattern": "vertical circular motion tension invariants and looping limits",
+   "formula": "$$\\omega = \\frac{2\\pi N}{60} = \\frac{2\\pi(10)}{60} = \\frac{\\pi}{3}\\text{ rad/s}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Vertical_Circular_Motion_Tension_Invariants_and_Looping_Limits_JEE_Main_Questions.md#2",
+    "03_Vertical_Circular_Motion_Tension_Invariants_and_Looping_Limits_JEE_Main_Questions.md#3",
+    "03_Vertical_Circular_Motion_Tension_Invariants_and_Looping_Limits_JEE_Main_Questions.md#4",
+    "03_Vertical_Circular_Motion_Tension_Invariants_and_Looping_Limits_JEE_Main_Questions.md#5"
+   ],
+   "years": [
+    2021,
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "circular-motion",
+   "attach": "circular-motion:vertical-circular",
+   "pattern": "vertical circular motion and energy conservation",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Vertical_Circular_Motion_and_Energy_Conservation_JEE_Main_Questions.md#2",
+    "03_Vertical_Circular_Motion_and_Energy_Conservation_JEE_Main_Questions.md#4"
+   ],
+   "years": [
+    2021,
+    2022
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "fluid-mechanics",
+   "attach": "fluid-mechanics:terminal-velocity",
+   "pattern": "viscous flow stokes law and terminal velocity",
+   "formula": "$$\\text{Pa}\\cdot\\text{s} = 10\\text{~Poise}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "03_Viscous_Flow_Stokes_Law_and_Terminal_Velocity_JEE_Main_Questions.md#11",
+    "03_Viscous_Flow_Stokes_Law_and_Terminal_Velocity_JEE_Main_Questions.md#14",
+    "03_Viscous_Flow_Stokes_Law_and_Terminal_Velocity_JEE_Main_Questions.md#16",
+    "03_Viscous_Flow_Stokes_Law_and_Terminal_Velocity_JEE_Main_Questions.md#24"
+   ],
+   "years": [
+    2022,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:faradays-laws-electrolysis",
+   "pattern": "faraday laws of electrolysis and batteries",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#2",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#4",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#6",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#8",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#9",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#10",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#15",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#16",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#18",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#19",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#21",
+    "04_Faraday_Laws_of_Electrolysis_and_Batteries_JEE_Main_Questions.md#22"
+   ],
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:isomerism-in-complexes",
+   "pattern": "isomerism in coordination compounds",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#2",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#6",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#7",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#8",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#10",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#11",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#12",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#13",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#14",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#18",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#22",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#25",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#26",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#32",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#33",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#36",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#37",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#39",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#40",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#43",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#44",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#46",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#49",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#50",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#57",
+    "04_Isomerism_in_Coordination_Compounds_JEE_Main_Questions.md#59"
+   ],
+   "years": [
+    2009,
+    2016,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:molecular-orbital-theory",
+   "pattern": "molecular orbital theory bond orders and magnetism",
+   "formula": "$$\\sigma, \\pi$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#2",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#7",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#8",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#17",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#18",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#25",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#28",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#32",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#35",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#38",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#41",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#44",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#46",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#47",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#48",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#50",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#51",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#52",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#54",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#56",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#57",
+    "04_Molecular_Orbital_Theory_Bond_Orders_and_Magnetism_JEE_Main_Questions.md#58"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "physical-chemistry",
+   "attach": "physical-chemistry:nuclear-chemistry-and-radioactivity",
+   "pattern": "radioactivity and nuclear kinetics",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#1",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#2",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#3",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#10",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#12",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#16",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#17",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#19",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#20",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#22",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#25",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#26",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#27",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#30",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#33",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#34",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#35",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#36",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#37",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#38",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#39",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#41",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#45",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#46",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#47",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#48",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#50",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#51",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#52",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#53",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#54",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#56",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#57",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#59",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#60",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#63",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#65",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#66",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#67",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#69",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#70",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#73",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#74",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#78",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#80",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#83",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#84",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#86",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#87",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#89",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#90",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#93",
+    "04_Radioactivity_and_Nuclear_Kinetics_JEE_Main_Questions.md#97"
+   ],
+   "years": [
+    2002,
+    2005,
+    2015,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "rotational-motion",
+   "attach": "rotational-motion:incline-rolling",
+   "pattern": "rolling motion energy partition and incline dynamics",
+   "formula": "$$v_{\\text{cm}} = R\\omega$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#1",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#4",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#5",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#6",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#8",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#11",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#12",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#13",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#16",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#17",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#18",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#20",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#21",
+    "04_Rolling_Motion_Energy_Partition_and_Incline_Dynamics_JEE_Main_Questions.md#22"
+   ],
+   "years": [
+    2021,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "fluid-mechanics",
+   "attach": "fluid-mechanics:surface-tension",
+   "pattern": "surface tension excess pressure and capillarity",
+   "formula": "$$T = F/L$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "04_Surface_Tension_Excess_Pressure_and_Capillarity_JEE_Main_Questions.md#3",
+    "04_Surface_Tension_Excess_Pressure_and_Capillarity_JEE_Main_Questions.md#9",
+    "04_Surface_Tension_Excess_Pressure_and_Capillarity_JEE_Main_Questions.md#14",
+    "04_Surface_Tension_Excess_Pressure_and_Capillarity_JEE_Main_Questions.md#18",
+    "04_Surface_Tension_Excess_Pressure_and_Capillarity_JEE_Main_Questions.md#30",
+    "04_Surface_Tension_Excess_Pressure_and_Capillarity_JEE_Main_Questions.md#33",
+    "04_Surface_Tension_Excess_Pressure_and_Capillarity_JEE_Main_Questions.md#38"
+   ],
+   "years": [
+    2020,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-lenses",
+   "pattern": "thin lenses and curved surfaces",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#3",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#4",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#6",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#14",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#15",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#20",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#21",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#22",
+    "04_Thin_Lenses_and_Curved_Surfaces_JEE_Main_Questions.md#23"
+   ],
+   "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:hydrogen-bonding",
+   "pattern": "hydrogen bonding intermolecular forces and physical properties",
+   "formula": "$$\\text{H}_2\\text{O}, \\text{HF}, \\text{NH}_3, p\\text{-nitrophenol}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "05_Hydrogen_Bonding_Intermolecular_Forces_and_Physical_Properties_JEE_Main_Questions.md#8",
+    "05_Hydrogen_Bonding_Intermolecular_Forces_and_Physical_Properties_JEE_Main_Questions.md#11"
+   ],
+   "years": [
+    2021,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "ray-optics",
+   "attach": "ray-optics:ro-instruments",
+   "pattern": "optical instruments",
+   "formula": "",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "05_Optical_Instruments_JEE_Main_Questions.md#1",
+    "05_Optical_Instruments_JEE_Main_Questions.md#2",
+    "05_Optical_Instruments_JEE_Main_Questions.md#3",
+    "05_Optical_Instruments_JEE_Main_Questions.md#4"
+   ],
+   "years": [
+    2020,
+    2021,
+    2023
+   ]
+  },
+  {
+   "pyq_chapter": "",
+   "topic": "inorganic-chemistry",
+   "attach": "inorganic-chemistry:coordination-number-oxidation-state",
+   "pattern": "coordination, DPP, endgame",
+   "formula": "$$\\mu = \\sqrt{n(n+2)} = \\sqrt{2(2+2)} = \\sqrt{8} \\approx 2.8284\\text{ BM}$$",
+   "pyq_ids": [],
+   "local_ids": [],
+   "vault_ids": [
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#1",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#2",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#3",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#4",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#7",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#10",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#11",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#12",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#13",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#14",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#15",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#16",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#17",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#18",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#19",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#20",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#21",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#23",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#24",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#25",
+    "Coordination_DPP_Endgame_JEE_Main_Questions.md#26"
+   ],
+   "years": []
+  }
+ ],
+ "coverage": {
+  "vault_files": 128,
+  "vault_files_with_unique": 123,
+  "questions_total": 2812,
+  "questions_duplicate_of_pyq": 1700,
+  "questions_unique": 1112
+ }
+}
