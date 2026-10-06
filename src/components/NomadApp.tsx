@@ -6,11 +6,12 @@ import { MICRO_QUESTIONS, TARGET_QUESTIONS } from '../data/questions';
 import { loadPyqQuestions, loadTargetQuestions } from '../data/pyq';
 import { loadFormulaSheets } from '../data/formulas';
 import { ConceptBrowser, loadConcepts } from '../concepts';
-import { renderMarkdownWithMath } from '../concepts/latex';
+import { renderMarkdownWithMath, stripNoteHeader } from '../concepts/latex';
 import { Capacitor, registerPlugin } from '@capacitor/core';
 import WisdomOverlay from './WisdomOverlay';
 import GestureLayer from './GestureLayer';
 import { getWisdomEndpoint, setWisdomEndpoint } from '../lib/wisdom';
+import { useGlowBodyClass } from '../lib/glow';
 import { GestureMap, GestureActionId, POSES, POSE_LABELS, HandSide, loadGestureMap, saveGestureMap } from '../lib/gestureConfig';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
@@ -30,9 +31,11 @@ export interface Concept {
 /* ─── Markdown & LaTeX renderer ──────────────── */
 function renderContent(text: string): string {
   if (!text) return '';
+  // Hide the vault's Batch/Source provenance header at render time (the
+  // markdown keeps it — build-concepts.cjs and the vault resync depend on it).
   // Math-protected, markdown-first pipeline (see renderMarkdownWithMath) —
   // running KaTeX before marked let marked shred KaTeX's HTML and leak raw TeX.
-  const html = renderMarkdownWithMath(text);
+  const html = renderMarkdownWithMath(stripNoteHeader(text));
   // Media paths are stored base-agnostic (/media/...) — prefix with
   // BASE_URL so images resolve under /nomad/ on GitHub Pages too.
   return html.replace(/src="\/media\//g, `src="${BASE_URL}media/`);
@@ -264,7 +267,7 @@ const S = {
 
 
 
-function PracticeOverlay({ onClose }: { onClose: () => void }) {
+function PracticeOverlay({ onClose, alwaysGlow }: { onClose: () => void; alwaysGlow?: boolean }) {
   // Quiz session state
   const [questions, setQuestions] = useState<any[]>([]);
   const [sessionLabel, setSessionLabel] = useState('practice mode');
@@ -646,7 +649,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
           <button onClick={() => setPhase('menu')} className="nomad-btn" style={{ flexShrink: 0 }}>⟨ back ⟩</button>
         </div>
         <div style={{ marginTop: '4.5rem', width: '100%', maxWidth: '640px', display: 'flex', justifyContent: 'flex-end', padding: '0 1.5rem', boxSizing: 'border-box' }}>
-          <button onClick={() => setSelectedChapters(new Set(chapterGroupsActive.map(g => g.key)))} className="nomad-btn" style={{ fontSize: '0.5rem', opacity: 0.5 }}>⟨ select all ⟩</button>
+          <button onClick={() => setSelectedChapters(new Set(chapterGroupsActive.map(g => g.key)))} className="nomad-btn" style={{ fontSize: '0.5rem', opacity: alwaysGlow ? 1 : 0.5 }}>⟨ select all ⟩</button>
         </div>
         <div className="nomad-practice-scroll" style={{ marginTop: '0.5rem', flex: 1, width: '100%', maxWidth: '640px', minHeight: 0, overflowY: 'auto', scrollbarWidth: 'none' as any, padding: '0 1.5rem 7rem', boxSizing: 'border-box' }}>
           {chapterGroupsActive.map(g => {
@@ -655,10 +658,10 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
               <div key={g.key} style={{ width: '100%', marginBottom: '1.25rem' }}>
                 <button
                   onClick={() => toggleChapter(g.key)}
-                  style={{ width: '100%', background: 'none', border: 'none', borderBottom: '1px solid rgba(255,255,255,0.06)', padding: '0.9rem 0', color: active ? '#fff' : 'rgba(255,255,255,0.4)', fontSize: '0.95rem', fontWeight: 300, letterSpacing: '0.04em', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', cursor: 'pointer', textAlign: 'left', transition: 'color 0.2s' }}
+                  style={{ width: '100%', background: 'none', border: 'none', borderBottom: `1px solid ${alwaysGlow ? 'rgba(255,255,255,0.2)' : 'rgba(255,255,255,0.06)'}`, padding: '0.9rem 0', color: active ? '#fff' : 'rgba(255,255,255,0.4)', fontSize: '0.95rem', fontWeight: 300, letterSpacing: '0.04em', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', cursor: 'pointer', textAlign: 'left', transition: 'color 0.2s' }}
                 >
                   <span style={{ flex: 1, minWidth: 0, lineHeight: 1.5, overflowWrap: 'break-word' as any }}>{active ? '[ x ]' : '[   ]'} {pretty(g.label)}</span>
-                  <span style={{ flexShrink: 0, marginTop: '0.15rem', opacity: 0.4, fontSize: '0.75rem' }}>{g.count}</span>
+                  <span style={{ flexShrink: 0, marginTop: '0.15rem', opacity: alwaysGlow ? 0.8 : 0.4, fontSize: '0.75rem' }}>{g.count}</span>
                 </button>
               </div>
             );
@@ -714,7 +717,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
               border: 'none',
               color: '#ffffff',
               fontSize: '2rem',
-              opacity: !canGoPrev ? 0.2 : (isHoverPrev ? 1 : 0.7),
+              opacity: !canGoPrev ? 0.2 : ((isHoverPrev || alwaysGlow) ? 1 : 0.7),
               cursor: canGoPrev ? 'pointer' : 'default',
               transition: 'opacity 0.2s ease',
               padding: '0.5rem',
@@ -742,7 +745,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
               border: 'none',
               color: '#ffffff',
               fontSize: '2rem',
-              opacity: !canGoNext ? 0.2 : (isHoverNext ? 1 : 0.7),
+              opacity: !canGoNext ? 0.2 : ((isHoverNext || alwaysGlow) ? 1 : 0.7),
               cursor: canGoNext ? 'pointer' : 'default',
               transition: 'opacity 0.2s ease',
               padding: '0.5rem',
@@ -804,7 +807,7 @@ function PracticeOverlay({ onClose }: { onClose: () => void }) {
                     const isSelected = selectedAnswer === idx;
                     const isCorrect = idx === q.correct;
                     const hasAnswered = selectedAnswer !== null;
-                    let borderColor = 'rgba(255,255,255,0.15)';
+                    let borderColor = alwaysGlow ? 'rgba(255,255,255,0.45)' : 'rgba(255,255,255,0.15)';
                     let prefix = '';
                     let textColor = '#fff';
                     if (hasAnswered) {
@@ -1639,6 +1642,10 @@ export default function NomadApp() {
     localStorage.setItem('nomad-settings', JSON.stringify(newSettings));
   };
 
+  // Always Glow → body.always-glow; global.css lights every element on every
+  // page from that class (see src/lib/glow.ts for the standalone-page path).
+  useGlowBodyClass(settings.alwaysGlow);
+
   // Wisdom is strictly opt-in: turning it off drops ask-bar mode and any open chat.
   useEffect(() => {
     if (!settings.enableWisdom) {
@@ -2448,7 +2455,7 @@ export default function NomadApp() {
       {/* Exit Browse Concepts handled inside ConceptBrowser's sticky header */}
 
       <AnimatePresence>
-        {isPractice && <OverlayErrorBoundary><PracticeOverlay onClose={() => setIsPractice(false)} /></OverlayErrorBoundary>}
+        {isPractice && <OverlayErrorBoundary><PracticeOverlay onClose={() => setIsPractice(false)} alwaysGlow={settings.alwaysGlow} /></OverlayErrorBoundary>}
       </AnimatePresence>
 
       <AnimatePresence>
@@ -2818,6 +2825,7 @@ export default function NomadApp() {
                        dangerouslySetInnerHTML={{ __html: renderInlineLatex(`ANSWER: ${['A', 'B', 'C', 'D'][selectedQuestion.correct]}. ${selectedQuestion.options[selectedQuestion.correct]}`) }}
                   />
                   <div
+                    className="nomad-note"
                     style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.85rem', lineHeight: 1.7 }}
                     dangerouslySetInnerHTML={{ __html: renderContent((selectedQuestion as any).solution || '') }}
                   />
