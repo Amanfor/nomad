@@ -2,11 +2,11 @@ import React, { useState, useEffect, useRef, useMemo, useCallback, useDeferredVa
 import { motion, AnimatePresence, useAnimation, useSpring, type MotionValue } from 'framer-motion';
 import Fuse from 'fuse.js';
 import katex from 'katex';
-import { marked } from 'marked';
 import { MICRO_QUESTIONS, TARGET_QUESTIONS } from '../data/questions';
 import { loadPyqQuestions, loadTargetQuestions } from '../data/pyq';
 import { loadFormulaSheets } from '../data/formulas';
 import { ConceptBrowser, loadConcepts } from '../concepts';
+import { renderMarkdownWithMath } from '../concepts/latex';
 import { Capacitor, registerPlugin } from '@capacitor/core';
 import WisdomOverlay from './WisdomOverlay';
 import GestureLayer from './GestureLayer';
@@ -30,19 +30,11 @@ export interface Concept {
 /* ─── Markdown & LaTeX renderer ──────────────── */
 function renderContent(text: string): string {
   if (!text) return '';
-  
-  // 1. Process LaTeX blocks
-  let processed = text.replace(/\$\$([^$]+)\$\$/g, (_, tex) => {
-    try { return katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }); } catch { return `$$${tex}$$`; }
-  });
-  processed = processed.replace(/\$([^$]+)\$/g, (_, tex) => {
-    try { return katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false }); } catch { return `$${tex}$`; }
-  });
-
-  // 2. Parse Markdown
-  const html = marked.parse(processed) as string;
-  // 3. Media paths are stored base-agnostic (/media/...) — prefix with
-  //    BASE_URL so images resolve under /nomad/ on GitHub Pages too.
+  // Math-protected, markdown-first pipeline (see renderMarkdownWithMath) —
+  // running KaTeX before marked let marked shred KaTeX's HTML and leak raw TeX.
+  const html = renderMarkdownWithMath(text);
+  // Media paths are stored base-agnostic (/media/...) — prefix with
+  // BASE_URL so images resolve under /nomad/ on GitHub Pages too.
   return html.replace(/src="\/media\//g, `src="${BASE_URL}media/`);
 }
 

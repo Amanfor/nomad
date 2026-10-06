@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import katex from 'katex';
-import { marked } from 'marked';
+import { renderMarkdownWithMath } from '../concepts/latex';
 import { askWisdom, type WisdomMessage } from '../lib/wisdom';
 
 type MiniConcept = { id?: string; title?: string; section?: string; content?: string };
@@ -81,16 +80,12 @@ function matchNotes(src: string, concepts: MiniConcept[]): { matched: MiniConcep
    others use $..$ / $$..$$. Normalize to $ / $$ before KaTeX so no raw commands leak. */
 function renderAnswer(text: string): string {
   if (!text) return '';
-  let processed = text
+  const normalized = text
     .replace(/\\\[([\s\S]+?)\\\]/g, (_, tex) => `$$${tex}$$`)
     .replace(/\\\(([\s\S]+?)\\\)/g, (_, tex) => `$${tex}$`);
-  processed = processed.replace(/\$\$([^$]+)\$\$/g, (_, tex) => {
-    try { return katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false }); } catch { return `$$${tex}$$`; }
-  });
-  processed = processed.replace(/\$([^$]+)\$/g, (_, tex) => {
-    try { return katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false }); } catch { return `$${tex}$`; }
-  });
-  return marked.parse(processed) as string;
+  // Markdown-first with math protected (see renderMarkdownWithMath) — KaTeX
+  // output fed through marked leaks raw TeX into the answer.
+  return renderMarkdownWithMath(normalized);
 }
 
 export default function WisdomOverlay({ question, concepts, onClose, isMobile, onOpenNote }: {
