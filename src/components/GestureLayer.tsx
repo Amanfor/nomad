@@ -1,59 +1,41 @@
-import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { GestureEngine } from '../lib/gesture/engine';
-import type { PinchEvent } from '../lib/gesture/pinch';
-import { GestureMap, GestureActionId, POSE_LABELS, handMatches, loadGestureMap } from '../lib/gestureConfig';
+import React, { useCallback, useEffect, useRef } from 'react';
+import { useGestureEngine } from '../lib/gesture/useGestureEngine';
+import type { EngineEvents } from '../lib/gesture/engine';
+import { GestureMap, GestureActionId, handMatches, loadGestureMap } from '../lib/gestureConfig';
 
 interface GestureLayerProps {
   enabled: boolean;
   showPreview: boolean;
   introActive: boolean;
-  noteOpen: boolean; // kept for API compat (scroll gesture removed)
+  noteOpen?: boolean; // kept for API compat (no longer read)
   practiceOpen: boolean; // when the practice overlay is open, counts answer instead of scrolling
   gestureMap?: GestureMap; // remapping config
   onStatus: (status: string | null) => void;
   onFatal: (reason: string) => void; // → parent flips enableGesture to false
 }
 
-/** A click dispatched from the pinch cursor onto the topmost element. */
-function syntheticClick(clientX: number, clientY: number) {
-  const el = document.elementFromPoint(clientX, clientY);
-  if (!(el instanceof HTMLElement)) return;
-  const opts: MouseEventInit = { bubbles: true, cancelable: true, clientX, clientY, view: window };
-  el.dispatchEvent(new PointerEvent('pointerdown', opts));
-  el.dispatchEvent(new MouseEvent('mousedown', opts));
-  el.dispatchEvent(new PointerEvent('pointerup', opts));
-  el.dispatchEvent(new MouseEvent('mouseup', opts));
-  el.dispatchEvent(new MouseEvent('click', opts));
-}
-
-export default function GestureLayer({ enabled, showPreview, introActive, noteOpen, practiceOpen, gestureMap, onStatus, onFatal }: GestureLayerProps) {
-  const videoRef = useRef<HTMLVideoElement | null>(null);
-  const engineRef = useRef<GestureEngine | null>(null);
+export default function GestureLayer({ enabled, showPreview, introActive, practiceOpen, gestureMap, onStatus, onFatal }: GestureLayerProps) {
+  const debugCanvasRef = useRef<HTMLCanvasElement | null>(null);
   const gestureMapRef = useRef<GestureMap>(gestureMap || loadGestureMap());
   useEffect(() => { if (gestureMap) gestureMapRef.current = gestureMap; }, [gestureMap]);
-  const cursorRef = useRef<HTMLDivElement | null>(null);
-  const debugCanvasRef = useRef<HTMLCanvasElement | null>(null);
-  const [streamLive, setStreamLive] = useState(false);
-  const [cursorOn, setCursorOn] = useState(false);
   const introActiveRef = useRef(introActive);
-  const noteOpenRef = useRef(noteOpen);
   const practiceOpenRef = useRef(practiceOpen);
-  const lastPinchClickAtRef = useRef(0);
-  /** Which detector slot currently owns the cursor (one cursor at a time). */
-  const pinchSlotRef = useRef<number | null>(null);
   useEffect(() => { introActiveRef.current = introActive; }, [introActive]);
-  useEffect(() => { noteOpenRef.current = noteOpen; }, [noteOpen]);
   useEffect(() => { practiceOpenRef.current = practiceOpen; }, [practiceOpen]);
 
-  const dispatchEffect = useCallback((id: GestureActionId) => {
-    // Guards, applied to both real and dev-injected actions.
-    if (introActiveRef.current) return;
-    if (typeof document !== 'undefined' && document.hidden) return;
+  /** Shared guard for every synthetic input this layer injects. */
+  const canInject = useCallback(() => {
+    if (introActiveRef.current || document.hidden) return false;
     const ae = document.activeElement;
     if (ae instanceof HTMLElement) {
       const tag = ae.tagName;
-      if (tag === 'INPUT' || tag === 'TEXTAREA' || ae.isContentEditable) return;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || ae.isContentEditable) return false;
     }
+    return true;
+  }, []);
+
+  const dispatchEffect = useCallback((id: GestureActionId) => {
+    if (!canInject()) return;
     if (id === 'conceal') {
       window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action: 'conceal' } }));
       return;
@@ -67,7 +49,7 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     if (m) {
       window.dispatchEvent(new CustomEvent('nomad:gesture', { detail: { action: 'select', count: parseInt(m[1], 10) } }));
     }
-  }, []);
+  }, [canInject]);
 
   /** Fire the effect bound to `pose` from hand `hand`, if any. */
   const dispatchHoldPose = useCallback((pose: string, hand: 'left' | 'right') => {
@@ -81,108 +63,33 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     }
   }, [dispatchEffect]);
 
-  const handlePinch = useCallback((ev: PinchEvent, slot: number) => {
-    // One cursor at a time: while one hand drives the cursor, the other
-    // hand's pinch is ignored until this one releases (or loses the frame,
-    // which ends its pinch after the engine's grace period).
-    if (ev.kind === 'start') {
-      if (pinchSlotRef.current !== null && pinchSlotRef.current !== slot) return;
-      pinchSlotRef.current = slot;
-      // Raw frame is unmirrored; mirror the cursor into the user's frame.
-      const sx = (1 - ev.x) * window.innerWidth;
-      const sy = ev.y * window.innerHeight;
-      const c = cursorRef.current;
-      if (c) c.style.transform = `translate(${sx}px, ${sy}px) translate(-50%, -50%)`;
-      setCursorOn(true);
-      return;
-    }
-    if (pinchSlotRef.current !== slot) return;
-    const sx = (1 - ev.x) * window.innerWidth;
-    const sy = ev.y * window.innerHeight;
-    if (ev.kind === 'move') {
-      const c = cursorRef.current;
-      if (c) c.style.transform = `translate(${sx}px, ${sy}px) translate(-50%, -50%)`;
-      return;
-    }
-    // end of pinch: cursor stays put, then becomes a press on release.
-    pinchSlotRef.current = null;
-    setCursorOn(false);
-    if (!ev.click) return;
-    if (introActiveRef.current || document.hidden) return;
-    const now = performance.now();
-    if (now - lastPinchClickAtRef.current < 900) return;
-    lastPinchClickAtRef.current = now;
-    syntheticClick(sx, sy);
-  }, []);
-
-  const stopCamera = useCallback(() => {
-    engineRef.current?.stop();
-    engineRef.current = null;
-    pinchSlotRef.current = null;
-    setCursorOn(false);
-    setStreamLive(false);
-    onStatus(null);
-  }, [onStatus]);
-
-  const startCamera = useCallback(async () => {
-    if (engineRef.current) return;
-    if (!videoRef.current) return;
-    onStatus('starting camera…');
-    const engine = new GestureEngine({
-      onHold: (pose, hand) => dispatchHoldPose(pose, hand),
-      onPinch: handlePinch,
-      onScrollFrame: (pose, hand, dyPx) => {
-        // Remapping is explicit: only scroll when the configured scroll pose
-        // and hand match. Practice overlay already answers via counts.
-        const m = gestureMapRef.current;
-        if (m.scroll.pose !== pose) return;
-        if (!practiceOpenRef.current && handMatches(m.scroll, hand)) {
-          window.scrollBy({ top: dyPx, behavior: 'auto' });
-        }
-      },
-    });
-    engineRef.current = engine;
-    try {
-      await engine.start(videoRef.current);
-      setStreamLive(true);
-      onStatus('runs on your device. nothing is recorded.');
-    } catch (err: any) {
-      engineRef.current = null;
-      setStreamLive(false);
-      onFatal(typeof err === 'string' ? err : 'camera not available in this build');
-    }
-  }, [dispatchHoldPose, handlePinch, onFatal, onStatus]);
-
-  // Lifecycle: on when enabled && intro done && tab visible.
-  useEffect(() => {
-    if (enabled && !introActive && !document.hidden) {
-      startCamera();
-    } else {
-      stopCamera();
-    }
-    return undefined;
-  }, [enabled, introActive, startCamera, stopCamera]);
-
-  // Stop when hidden, restart when visible again.
-  useEffect(() => {
-    const onVis = () => {
-      if (document.hidden) {
-        stopCamera();
-      } else if (enabled && !introActiveRef.current) {
-        startCamera();
+  // Engine subscriptions. A fresh object per render is fine — the hook reads
+  // the latest handlers through a ref.
+  const events: EngineEvents = {
+    onHold: (pose, hand) => dispatchHoldPose(pose, hand),
+    onScrollFrame: (pose, hand, dyPx) => {
+      // Remapping is explicit: only scroll when the configured scroll pose
+      // and hand match. Practice overlay already answers via counts.
+      const m = gestureMapRef.current;
+      if (m.scroll.pose !== pose) return;
+      if (!practiceOpenRef.current && handMatches(m.scroll, hand)) {
+        window.scrollBy({ top: dyPx, behavior: 'auto' });
       }
-    };
-    document.addEventListener('visibilitychange', onVis);
-    return () => document.removeEventListener('visibilitychange', onVis);
-  }, [enabled, startCamera, stopCamera]);
+    },
+    onSwipe: (dir) => {
+      // Whole-hand swipe → the arrow key that view already listens for
+      // (practice prev/next, search results, question browser).
+      if (!canInject()) return;
+      window.dispatchEvent(new KeyboardEvent('keydown', { key: dir === 'right' ? 'ArrowRight' : 'ArrowLeft', bubbles: true, cancelable: true }));
+    },
+  };
 
-  // Ensure everything is off when unmounted or setting turns off.
-  useEffect(() => {
-    return () => {
-      engineRef.current?.stop();
-      engineRef.current = null;
-    };
-  }, []);
+  const { videoRef, engineRef, streamLive } = useGestureEngine({
+    enabled: enabled && !introActive,
+    events,
+    onStatus,
+    onFatal,
+  });
 
   // Green headless-style debug overlay, drawn over the preview so the user can
   // see what the recognizer is tracking and why a gesture did or didn't fire.
@@ -235,7 +142,7 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
     };
     raf = requestAnimationFrame(draw);
     return () => cancelAnimationFrame(raf);
-  }, [streamLive, showPreview]);
+  }, [streamLive, showPreview, engineRef]);
 
   // Development-only hook for testing the action wiring without a camera.
   useEffect(() => {
@@ -252,9 +159,6 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
           break;
         case 'back':
           dispatchEffect('back');
-          break;
-        case 'click-center':
-          syntheticClick(window.innerWidth / 2, window.innerHeight / 2);
           break;
         default: break;
       }
@@ -276,35 +180,35 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
         playsInline
         autoPlay
         style={
-            streamLive && showPreview
-              ? {
-                  position: 'fixed',
-                  top: '1.5rem',
-                  left: '1.5rem',
-                  width: 96,
-                  height: 72,
-                  objectFit: 'cover',
-                  transform: 'scaleX(-1)', // mirrored preview
-                  filter: 'grayscale(1)',
-                  opacity: 0.25,
-                  border: 'none',
-                  pointerEvents: 'none',
-                  zIndex: 120,
-                }
-              : {
-                  // Stream live, preview off — or fully off: keep the element
-                  // mounted (never display:none) so frames can still decode.
-                  position: 'fixed',
-                  top: 0,
-                  left: 0,
-                  width: 1,
-                  height: 1,
-                  opacity: 0,
-                  pointerEvents: 'none',
-                  zIndex: 0,
-                }
-          }
-        />
+          streamLive && showPreview
+            ? {
+                position: 'fixed',
+                top: '1.5rem',
+                left: '1.5rem',
+                width: 96,
+                height: 72,
+                objectFit: 'cover',
+                transform: 'scaleX(-1)', // mirrored preview
+                filter: 'grayscale(1)',
+                opacity: 0.25,
+                border: 'none',
+                pointerEvents: 'none',
+                zIndex: 120,
+              }
+            : {
+                // Stream live, preview off — or fully off: keep the element
+                // mounted (never display:none) so frames can still decode.
+                position: 'fixed',
+                top: 0,
+                left: 0,
+                width: 1,
+                height: 1,
+                opacity: 0,
+                pointerEvents: 'none',
+                zIndex: 0,
+              }
+        }
+      />
       {/* Green debug overlay (headless-style), same rect as the preview. */}
       {streamLive && showPreview && (
         <canvas
@@ -322,25 +226,6 @@ export default function GestureLayer({ enabled, showPreview, introActive, noteOp
           }}
         />
       )}
-      {/* Pinch cursor: white circle, follows the hand while pinching. */}
-      <div
-        ref={cursorRef}
-        aria-hidden
-        style={{
-          position: 'fixed',
-          left: 0,
-          top: 0,
-          width: 20,
-          height: 20,
-          borderRadius: '50%',
-          background: 'rgba(255,255,255,0.92)',
-          boxShadow: '0 0 12px rgba(255,255,255,0.55)',
-          opacity: cursorOn ? 0.9 : 0,
-          transition: 'opacity 0.12s ease',
-          pointerEvents: 'none',
-          zIndex: 250,
-        }}
-      />
       {streamLive && !showPreview && (
         <div
           aria-hidden

@@ -976,7 +976,7 @@ function GestureConfigOverlay({ onClose, isMobile, settings, setSettings, gestur
           );
         })}
         <div style={{ fontSize: '0.65rem', color: 'rgba(255,255,255,0.35)', lineHeight: 1.5, marginTop: '0.5rem' }}>
-          pinch cursor release always clicks · both hands tracked; remap a slot to a hand to extend the map (e.g. scroll on left, fist-conceal on right)
+          open palm swipe → arrow keys · two-hand pinch zooms · right-fist drag pans (concept graph) · both hands tracked; remap a slot to a hand to extend the map (e.g. scroll on left, fist-conceal on right)
         </div>
       </div>
     </motion.div>

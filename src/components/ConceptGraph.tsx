@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import katex from 'katex';
 import { useGlowBodyClass } from '../lib/glow';
+import { useGestureEngine } from '../lib/gesture/useGestureEngine';
+import type { EngineEvents } from '../lib/gesture/engine';
 
 type GNode = {
   id: string;
@@ -54,6 +56,72 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
   // Always Glow → body.always-glow (CSS lights the DOM chrome); canvas pixels
   // are lit directly in draw() below since CSS cannot reach a <canvas>.
   const alwaysGlow = useGlowBodyClass();
+
+  // Gestures on the graph: same switch the app uses (Settings → Gesture Mode).
+  // Off by default; a camera failure only disables them for this session —
+  // the page stays fully usable without gestures.
+  const [gestureEnabled, setGestureEnabled] = useState(false);
+  const [gestureBlocked, setGestureBlocked] = useState(false);
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('nomad-settings');
+      const s = raw ? JSON.parse(raw) : {};
+      setGestureEnabled(s.enableGesture === true);
+    } catch { setGestureEnabled(false); }
+  }, []);
+
+  // Camera control registered by the draw effect below; the gesture handlers
+  // call into it (pan/zoom) without re-rendering.
+  const camCtlRef = useRef<{
+    panBy: (dxPx: number, dyPx: number) => void;
+    zoomTo: (kTarget: number, cx: number, cy: number) => void;
+    scale: () => number;
+  } | null>(null);
+  // Two-hand pinch zoom state: per-slot pinch centers (screen px) + baseline.
+  const pinchPtsRef = useRef<Map<number, { x: number; y: number }>>(new Map());
+  const zoomBaseRef = useRef<{ d0: number; k0: number } | null>(null);
+
+  const gestureEvents: EngineEvents = {
+    onPinch: (ev, slot) => {
+      const pts = pinchPtsRef.current;
+      // Raw frame is unmirrored; mirror into the user's frame (same as the app).
+      const sx = (1 - ev.x) * window.innerWidth;
+      const sy = ev.y * window.innerHeight;
+      if (ev.kind === 'end') pts.delete(slot);
+      else pts.set(slot, { x: sx, y: sy });
+      const ctl = camCtlRef.current;
+      if (!ctl || pts.size < 2) { zoomBaseRef.current = null; return; }
+      const [a, b] = [...pts.values()];
+      const d = Math.max(1, Math.hypot(a.x - b.x, a.y - b.y));
+      if (!zoomBaseRef.current) {
+        // Baseline captured the frame the second hand starts pinching.
+        zoomBaseRef.current = { d0: d, k0: ctl.scale() };
+        return;
+      }
+      // Hands apart → ratio > 1 → zoom in; closer → zoom out. Same clamp as
+      // onWheel, world point under the midpoint stays fixed (zoomTo).
+      const base = zoomBaseRef.current;
+      ctl.zoomTo(base.k0 * (d / base.d0), (a.x + b.x) / 2, (a.y + b.y) / 2);
+    },
+    onPanFrame: (hand, dxPx, dyPx) => {
+      if (hand !== 'right') return; // right fist only
+      if (zoomBaseRef.current) return; // two-hand pinch-zoom wins
+      camCtlRef.current?.panBy(dxPx, dyPx);
+    },
+  };
+
+  const { videoRef, streamLive } = useGestureEngine({
+    enabled: gestureEnabled && !gestureBlocked,
+    events: gestureEvents,
+    onFatal: () => setGestureBlocked(true),
+  });
+  // Drop stale pinch state whenever the camera stops (disable / unmount).
+  useEffect(() => {
+    if (!streamLive) {
+      pinchPtsRef.current.clear();
+      zoomBaseRef.current = null;
+    }
+  }, [streamLive]);
 
   useEffect(() => {
     fetch(`${BASE}graph/${topic}.json`, { cache: 'no-cache' })
@@ -395,6 +463,27 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
     raf = requestAnimationFrame(loop);
     const invalidate = () => { dirty = true; };
 
+    // Gesture-driven camera control (two-hand pinch zoom, right-fist pan).
+    // Only touches `cam`, which the intro animation never writes, so the two
+    // never fight.
+    camCtlRef.current = {
+      panBy(dxPx, dyPx) {
+        cam.x += dxPx / cam.k;
+        cam.y += dyPx / cam.k;
+        invalidate();
+      },
+      zoomTo(kTarget, cx, cy) {
+        const rect = canvas.getBoundingClientRect();
+        const before = toWorld(cx, cy, rect);
+        cam.k = Math.min(Math.max(kTarget, 0.05), 4);
+        const after = toWorld(cx, cy, rect);
+        cam.x += after.x - before.x;
+        cam.y += after.y - before.y;
+        invalidate();
+      },
+      scale: () => cam.k,
+    };
+
     const pick = (wx: number, wy: number) => {
       let best: any = null; let bd = Infinity;
       for (const n of nodes) {
@@ -512,12 +601,23 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       canvas.removeEventListener('pointerup', onUp);
       canvas.removeEventListener('pointercancel', onUp);
       canvas.removeEventListener('wheel', onWheel);
+      camCtlRef.current = null;
     };
   }, [data, alwaysGlow]);
 
   return (
     <div ref={wrapRef} style={{ position: 'fixed', inset: 0, background: '#000' }}>
       <canvas ref={canvasRef} style={{ display: 'block', touchAction: 'none' }} />
+      {/* Gesture camera (two-hand pinch zoom, right-fist pan). Always mounted,
+          never display:none, so frames keep decoding while the stream is live. */}
+      <video
+        ref={videoRef}
+        muted
+        playsInline
+        autoPlay
+        aria-hidden
+        style={{ position: 'fixed', top: 0, left: 0, width: 1, height: 1, opacity: 0, pointerEvents: 'none', zIndex: 0 }}
+      />
       <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', pointerEvents: 'none' }}>
         <div style={{ fontSize: '0.8rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.85)', fontWeight: 300 }}>
           CONCEPT GRAPH — {data?.title?.toUpperCase() ?? '…'}
