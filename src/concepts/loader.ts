@@ -1,4 +1,5 @@
 import type { Concept } from './types';
+import { noteHasVisibleContent } from './latex';
 
 /* Base URL helper — Astro base is '/nomad' on GitHub Pages, '/' locally. */
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
@@ -35,7 +36,11 @@ export function loadConcepts(force = false): Promise<LoadResult> {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       if (!Array.isArray(data)) throw new Error('invalid shape');
-      cached = data as Concept[];
+      // Notes whose entire body is the Batch/Source provenance header have
+      // nothing left to show once that header is hidden at render time (50 of
+      // 574 — mostly "— Introduction" stubs). Drop them from the in-memory
+      // list; the JSON on disk is untouched.
+      cached = (data as Concept[]).filter((c) => noteHasVisibleContent(c.content || ''));
       emit({ concepts: cached, error: null });
       return { concepts: cached, error: null };
     } catch (e: any) {
