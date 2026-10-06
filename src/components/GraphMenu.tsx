@@ -8,7 +8,7 @@ export default function GraphMenu() {
   // Always Glow → body.always-glow (global.css lights the links + counts)
   useGlowBodyClass();
   useEffect(() => {
-    ['organic-chemistry', 'inorganic-chemistry', 'physical-chemistry'].forEach((slug) => {
+    ['all', 'organic-chemistry', 'inorganic-chemistry', 'physical-chemistry'].forEach((slug) => {
       fetch(`${BASE}graph/${slug}.json`, { cache: 'no-cache' })
         .then((r) => (r.ok ? r.json() : null))
         .then((g) => g && setCounts((c) => ({ ...c, [slug]: { nodes: g.nodes?.length ?? 0, edges: g.edges?.length ?? 0 } })))
@@ -17,6 +17,7 @@ export default function GraphMenu() {
   }, []);
   // every item is a slug in public/graph/<slug>.json; adding one more just needs one more entry here
   const items = [
+    { slug: 'all', label: 'Full Syllabus · All Subjects' },
     { slug: 'organic-chemistry', label: 'organic chemistry' },
     { slug: 'inorganic-chemistry', label: 'inorganic chemistry' },
     { slug: 'physical-chemistry', label: 'physical chemistry' },

@@ -9,10 +9,13 @@ type GNode = {
   label: string;
   group: string;
   depth?: number;
+  /** layout ring — only present in merged graphs (all.json); when set it
+   *  drives the radial depth while `depth` keeps its styling meaning. */
+  ring?: number;
   note: string;
 };
 type GEdge = { source: string; target: string; label: string };
-type GraphData = { title: string; subject: string; nodes: GNode[]; edges: GEdge[] };
+type GraphData = { title: string; subject: string; rootId?: string; nodes: GNode[]; edges: GEdge[] };
 
 const BASE = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
 
@@ -156,14 +159,18 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       children.set(e.source, [...(children.get(e.source) ?? []), e.target]);
     }
     const byId = new Map(data.nodes.map((n) => [n.id, n] as const));
-    const root = data.nodes.find((n) => n.id === 'organic-chemistry') ?? data.nodes[0];
+    const root =
+      (data.rootId ? byId.get(data.rootId) : undefined) ??
+      data.nodes.find((n) => n.id === 'organic-chemistry') ?? data.nodes[0];
 
-    // depth from explicit field, else BFS
+    // depth from explicit field (ring first — merged graphs shift layout
+    // outward via ring while keeping `depth` for styling), else BFS
     const depth = new Map<string, number>();
     const depthOf = (id: string): number => {
       if (depth.has(id)) return depth.get(id)!;
       const n = byId.get(id);
-      if (n?.depth != null) { depth.set(id, n.depth); return n.depth; }
+      const d0 = n?.ring ?? n?.depth;
+      if (d0 != null) { depth.set(id, d0); return d0; }
       const p = parents.get(id)?.[0];
       const d = p ? depthOf(p) + 1 : 0;
       depth.set(id, d);
@@ -267,10 +274,13 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
     resize();
     window.addEventListener('resize', resize);
 
-    // fit to content
+    // fit to content — merged graphs fit the skeleton (ring ≤ 3) so the
+    // overview starts readable; zooming out reveals the dimmed full forest
     const fit = () => {
-      const xs = nodes.map((n) => n.x);
-      const ys = nodes.map((n) => n.y);
+      const src = data.rootId ? nodes.filter((n) => (n.ring ?? 99) <= 3) : nodes;
+      const use = src.length ? src : nodes;
+      const xs = use.map((n) => n.x);
+      const ys = use.map((n) => n.y);
       const minX = Math.min(...xs), maxX = Math.max(...xs);
       const minY = Math.min(...ys), maxY = Math.max(...ys);
       const bw = Math.max(maxX - minX, 1) + 420;
@@ -314,6 +324,11 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       ctx.scale(cam.k, cam.k);
       ctx.translate(cam.x, cam.y);
       const L = litSets();
+      // Merged full-syllabus graph: below this zoom only the skeleton
+      // (root → hubs → topic roots) draws edges and labels; the deep forest
+      // stays as dim texture until you zoom in. Per-topic pages (no rootId)
+      // never enter overview mode, so their rendering is unchanged.
+      const atOverview = !introActive && !!data.rootId && cam.k < 0.6;
 
       ctx.lineWidth = 1 / cam.k;
       const rootNode = nodes.find((n) => n.id === root.id);
@@ -330,6 +345,10 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           endT = st + TRAVEL;
           p = Math.min((t - st) / TRAVEL, 1);
         }
+        // overview: skeleton edges only, plus whatever chain is lit by hover
+        if (atOverview
+          && !((a.ring ?? 99) <= 2 && (b.ring ?? 99) <= 2)
+          && !(L && L.lit.has(a.id) && L.lit.has(b.id))) continue;
         const hot = L && (L.lit.has(a.id) && L.lit.has(b.id) && (a.id === hoverId || b.id === hoverId || L.anc.has(a.id) || L.desc.has(a.id)));
         // always-glow: every link sits at its lit alpha, hovering dims nothing
         const base = alwaysGlow ? 0.55 : L ? (hot ? 0.6 : 0.06) : 0.18;
@@ -402,6 +421,8 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           if (va <= 0) continue;
         }
         const hot = alwaysGlow || !L || L.lit.has(n.id);
+        // overview: deep nodes dim to texture so the skeleton reads cleanly
+        const dim = atOverview && (n.ring ?? 99) > 2 && !(L && L.lit.has(n.id)) ? 0.34 : 1;
         const isRoot = n.id === root.id;
         const breathe = introActive && isRoot && t < 60 + ROOT_HOLD
           ? 1 + 0.16 * Math.sin((t / 460) * Math.PI * 2) + 0.25 * Math.max(0, 1 - t / 600)
@@ -410,7 +431,7 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           * breathe * va * (1 + 0.45 * glow);
         ctx.beginPath();
         ctx.arc(n.x + n.dx, n.y + n.dy, Math.max(r, 0.01), 0, Math.PI * 2);
-        const na = boost((hot ? 0.95 : 0.12) * va) * (isRoot ? breathe * 0.9 + 0.1 : 1);
+        const na = boost((hot ? 0.95 : 0.12) * va) * dim * (isRoot ? breathe * 0.9 + 0.1 : 1);
         ctx.fillStyle = `rgba(255,255,255,${Math.min(1, na)})`;
         ctx.fill();
         // soft halo on the root while it breathes
@@ -426,11 +447,18 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           ctx.fill();
         }
         const big = n.depth === 0 || n.depth === 1;
-        // always show root + pillar (chapter) labels; deeper labels appear only
-        // on the active chain — unless always-glow lights every node's label
-        const showLabel = alwaysGlow || (n.depth !== undefined && n.depth <= 1) || (L != null && L.lit.has(n.id));
-        if (!showLabel) continue;
         const size = n.depth === 0 ? 15 : n.depth === 1 ? 12.5 : 11;
+        // Label policy: skeleton always (merged: ring ≤ 2 = root/hubs/topic
+        // roots; per-topic: depth ≤ 1). always-glow only lights labels that
+        // are legible at this zoom — sub-8px text is speckle, not information.
+        // Merged overview withholds chapter labels until you zoom in.
+        const skeleton = n.ring != null ? n.ring <= 2 : (n.depth ?? 99) <= 1;
+        const screenPx = (size * Math.min(cam.k, 0.6)) / 0.6;
+        const showLabel =
+          (L != null && L.lit.has(n.id)) ||
+          skeleton ||
+          (!atOverview && ((n.depth ?? 99) <= 1 || (alwaysGlow && screenPx >= 8)));
+        if (!showLabel) continue;
         ctx.font = `${n.id === hoverId || big ? 500 : 300} ${size / Math.max(cam.k, 0.6)}px Inter, sans-serif`;
         const la = boost((hot ? 0.9 : L ? 0.08 : 0.55) * va);
         ctx.fillStyle = `rgba(255,255,255,${Math.min(1, la)})`;
