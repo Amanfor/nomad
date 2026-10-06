@@ -40,18 +40,36 @@ function TimerRun({ every }: { every: number }) {
   const [left, setLeft] = useState(every);
   const [ring, setRing] = useState(1);
   const [needsTap, setNeedsTap] = useState(false);
+  const [paused, setPaused] = useState(false);
 
   useEffect(() => {
     const AC = window.AudioContext || (window as any).webkitAudioContext;
     const ctx: AudioContext = new AC();
     let nextEnd = Date.now() + every * 1000;
+    let frozen = 0;
+    let paused = false;
 
     const poke = () => { try { ctx.resume(); } catch {} };
+    const togglePause = () => {
+      paused = !paused;
+      if (paused) {
+        frozen = Math.max(0, nextEnd - Date.now());
+        setLeft(Math.ceil(frozen / 1000));
+      } else {
+        nextEnd = Date.now() + frozen;
+      }
+      setPaused(paused);
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.code === 'Space') { e.preventDefault(); poke(); togglePause(); }
+    };
+    window.addEventListener('keydown', onKey);
     window.addEventListener('pointerdown', poke);
     window.addEventListener('keydown', poke);
     poke();
 
     const id = window.setInterval(() => {
+      if (paused) { setNeedsTap(ctx.state !== 'running'); return; }
       const now = Date.now();
       if (now >= nextEnd) {
         poke();
@@ -67,6 +85,7 @@ function TimerRun({ every }: { every: number }) {
 
     return () => {
       window.clearInterval(id);
+      window.removeEventListener('keydown', onKey);
       window.removeEventListener('pointerdown', poke);
       window.removeEventListener('keydown', poke);
       try { ctx.close(); } catch {}
@@ -87,15 +106,15 @@ function TimerRun({ every }: { every: number }) {
       <div style={{ fontSize: '0.58rem', letterSpacing: '0.35em', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase', marginBottom: '1rem' }}>
         every {label}
       </div>
-      <div style={{ fontSize: 'clamp(4.5rem, 30vw, 22rem)', fontWeight: 200, letterSpacing: '-0.03em', color: '#fff', lineHeight: 1, fontVariantNumeric: 'tabular-nums' }}>
+      <div style={{ fontSize: 'clamp(4.5rem, 30vw, 22rem)', fontWeight: 200, letterSpacing: '-0.03em', color: '#fff', lineHeight: 1, fontVariantNumeric: 'tabular-nums', opacity: paused ? 0.3 : 1, transition: 'opacity 0.3s' }}>
         {format(left, every)}
       </div>
       <div style={{ fontSize: '0.58rem', letterSpacing: '0.3em', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase', marginTop: '1.25rem' }}>
-        ring #{ring}
+        ring #{ring}{paused ? ' · paused' : ''}
       </div>
-      {needsTap && (
+      {(needsTap || paused) && (
         <div style={{ position: 'absolute', bottom: '2rem', fontSize: '0.55rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.3)', textTransform: 'uppercase' }}>
-          tap anywhere for sound
+          {[needsTap && 'tap anywhere for sound', paused && 'space to resume'].filter(Boolean).join(' · ')}
         </div>
       )}
       {/* cycle progress hairline */}
