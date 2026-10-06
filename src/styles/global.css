@@ -30,3 +30,32 @@ html, body {
 /* KaTeX overrides for dark theme */
 .katex { color: #e0e0e0 !important; font-size: 1.05em; }
 .katex-display { margin: 1rem 0; overflow-x: auto; overflow-y: hidden; padding: 0.5rem 0; }
+
+/* ═══ Always Glow (settings.alwaysGlow → body.always-glow) ═══════════════
+   "All elements lit": every element goes white with the signature 14px
+   bloom — on every page, including the standalone concept-graph pages that
+   never mount NomadApp, and any element added later. The body class is
+   toggled from settings (NomadApp) or localStorage (graph pages).
+   Deliberate exceptions: reading surfaces keep their type hierarchy and
+   stay crisp (the home note view has always behaved this way), math never
+   blooms (KaTeX glyphs are too dense to glow), and disabled buttons stay
+   dim. Light mode is a `filter: invert(1)`, so forced white inverts to
+   black there without extra rules. */
+body.always-glow * {
+  color: #fff !important;
+  text-shadow: 0 0 14px rgba(255,255,255,0.95) !important;
+}
+body.always-glow .nomad-prose, body.always-glow .nomad-prose *,
+body.always-glow .nomad-note, body.always-glow .nomad-note * {
+  color: rgba(255,255,255,0.85) !important;
+  text-shadow: none !important;
+}
+body.always-glow .nomad-prose h1, body.always-glow .nomad-prose h2,
+body.always-glow .nomad-prose strong { color: #fff !important; }
+body.always-glow .nomad-prose h3, body.always-glow .nomad-prose li { color: rgba(255,255,255,0.7) !important; }
+body.always-glow .nomad-prose li strong { color: rgba(255,255,255,0.9) !important; }
+body.always-glow .katex, body.always-glow .katex * { text-shadow: none !important; }
+body.always-glow .nomad-btn.disabled {
+  color: rgba(255,255,255,0.15) !important;
+  text-shadow: none !important;
+}

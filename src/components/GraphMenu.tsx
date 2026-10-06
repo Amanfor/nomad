@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useGlowBodyClass } from '../lib/glow';
 
 const BASE = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
 
 export default function GraphMenu() {
   const [counts, setCounts] = useState<Record<string, { nodes: number; edges: number }>>({});
+  // Always Glow → body.always-glow (global.css lights the links + counts)
+  useGlowBodyClass();
   useEffect(() => {
     ['organic-chemistry', 'inorganic-chemistry', 'physical-chemistry'].forEach((slug) => {
       fetch(`${BASE}graph/${slug}.json`, { cache: 'no-cache' })
