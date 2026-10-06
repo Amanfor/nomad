@@ -35,6 +35,17 @@ export function classifyHandShape(landmarks: Lm[] | null | undefined): HandShape
   return 'other';
 }
 
+/** All five fingers extended — a genuine open palm (the "count5" swipe hand).
+ *  The four fingers use the shared tip-vs-joint rule; the thumb gets the same
+ *  rule with a slightly looser ratio because its tip sits closer to the wrist
+ *  than a finger's tip does. */
+export function isAllFingersExtended(landmarks: Lm[] | null | undefined): boolean {
+  if (!landmarks || landmarks.length < 21) return false;
+  for (const [t, p] of FINGERS) if (!fingerExtended(landmarks, t, p)) return false;
+  const w = landmarks[0];
+  return dist(landmarks[4], w) > dist(landmarks[3], w) * 1.1;
+}
+
 /** Count-based pose label used for finger-count answer selection. */
 export function fingerCountLabel(landmarks: Lm[] | null | undefined): string {
   if (!landmarks || landmarks.length < 21) return 'none';

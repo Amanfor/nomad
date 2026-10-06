@@ -96,7 +96,7 @@ function pinchRun(det: PinchDetector, samples: PinchSample[]): any[] {
 }
 const P = (t: number, distance: number, x = 0.5, y = 0.5, present = true): PinchSample => ({ t, distance, x, y, present });
 
-// Enter → moves → release(long) → end(click=true).
+// Enter → moves → release(long) → end.
 {
   const det = new PinchDetector();
   const a = pinchRun(det, [
@@ -108,14 +108,14 @@ const P = (t: number, distance: number, x = 0.5, y = 0.5, present = true): Pinch
   ]);
   check('pinch start emitted', a[0] && a[0].kind === 'start');
   check('moves emitted while pinching', a.filter((e) => e.kind === 'move').length === 2);
-  check('long pinch ends with click', a[a.length - 1] && a[a.length - 1].kind === 'end' && a[a.length - 1].click === true);
+  check('long pinch ends', a[a.length - 1] && a[a.length - 1].kind === 'end');
   check('end uses last pinch position', a[a.length - 1] && Math.abs((a[a.length - 1].x ?? 0) - 0.45) < 1e-6);
 }
-// Short pinch (<60ms) → end(click=false).
+// Short pinch → end as well (no click semantics anymore).
 {
   const det = new PinchDetector();
   const a = pinchRun(det, [P(0, 0.2), P(10, 0.04), P(50, 0.15)]);
-  check('short pinch ends without click', a[a.length - 1].kind === 'end' && a[a.length - 1].click === false);
+  check('short pinch ends', a[a.length - 1].kind === 'end');
 }
 // Hand lost briefly then returns → no end while pinching.
 {
@@ -142,7 +142,7 @@ const P = (t: number, distance: number, x = 0.5, y = 0.5, present = true): Pinch
     P(350, 1, 0.5, 0.5, false),
     P(400, 1, 0.5, 0.5, false),
   ]);
-  check('long lost hand ends the pinch as click', a[a.length - 1].kind === 'end' && a[a.length - 1].click === true);
+  check('long lost hand ends the pinch', a[a.length - 1].kind === 'end');
 }
 // Hysteresis: alternating 0.05 / 0.08 never releases.
 {
@@ -151,7 +151,7 @@ const P = (t: number, distance: number, x = 0.5, y = 0.5, present = true): Pinch
     P(0, 0.2), P(10, 0.04), P(50, 0.08), P(90, 0.045), P(130, 0.08), P(170, 0.04), P(210, 0.2),
   ]);
   const ends = a.filter((e) => e.kind === 'end');
-  check('hysteresis keeps single pinch', ends.length === 1 && ends[0].click === true);
+  check('hysteresis keeps single pinch', ends.length === 1);
 }
 // Hand shape classifier + count labels (synthetic landmarks).
 function lmFor(ext: [boolean, boolean, boolean, boolean]): Array<{ x: number; y: number }> {

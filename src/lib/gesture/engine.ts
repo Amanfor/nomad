@@ -1,9 +1,10 @@
 // Camera + GestureRecognizer lifecycle. Dynamic-imports the heavy vision
 // library only when start() is called so it stays out of the main bundle.
 
-import { fingerCountLabel, isThumbUp } from './handShape';
+import { fingerCountLabel, isAllFingersExtended, isThumbUp } from './handShape';
 import { GestureDetector } from './hold';
 import { PinchDetector, PinchEvent } from './pinch';
+import { SwipeDetector, SwipeDirection } from './swipe';
 
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
 const asset = (path: string) => `${BASE_URL}${path.replace(/^\//, '')}`;
@@ -15,11 +16,18 @@ export interface EngineEvents {
   /** Fired when a stable pose is held, by pose label and which hand fired it. */
   onHold?: (pose: string, hand: 'left' | 'right') => void;
   /** `slot` is the detector index (stable while that hand stays in frame) so
-   *  the layer can arbitrate one pinch cursor between two hands. */
+   *  the consumer can track one pinch center per hand (two-hand zoom). */
   onPinch?: (ev: PinchEvent, slot: number) => void;
   /** Raw per-frame palm dy emitted while a count pose is held; the GestureMap
    *  decides whether it actually scrolls. */
   onScrollFrame?: (pose: string, hand: 'left' | 'right', deltaPx: number) => void;
+  /** Whole-hand open-palm swipe, already mirrored into the user's frame:
+   *  'right' = hand moved right → ArrowRight, 'left' = ArrowLeft. */
+  onSwipe?: (dir: SwipeDirection, hand: 'left' | 'right') => void;
+  /** Per-frame palm delta (screen px, x mirrored into the user's frame) while
+   *  a hand holds a closed fist. Emitted for either hand; consumers pick the
+   *  hand they want (the graph pans on the right fist only). */
+  onPanFrame?: (hand: 'left' | 'right', dxPx: number, dyPx: number) => void;
 }
 
 export interface HandDebugInfo {
@@ -55,7 +63,7 @@ function mapCameraError(e: any): EngineFailure {
 export class GestureEngine {
   private stream: MediaStream | null = null;
   private recognizer: any = null;
-  private detectors: Array<{ det: GestureDetector; pinch: PinchDetector; lastScrollY: number | null; scrollEma: number }> = [];
+  private detectors: Array<{ det: GestureDetector; pinch: PinchDetector; swipe: SwipeDetector; lastScrollY: number | null; scrollEma: number; fistPalm: { x: number; y: number } | null }> = [];
   private video: HTMLVideoElement | null = null;
   private rafId = 0;
   private lastFrameAt = 0;
@@ -77,7 +85,7 @@ export class GestureEngine {
 
   async start(video: HTMLVideoElement): Promise<void> {
     this.stop();
-    this.detectors = [0, 1].map(() => ({ det: new GestureDetector(), pinch: new PinchDetector(), lastScrollY: null, scrollEma: 0 }));
+    this.detectors = [0, 1].map(() => ({ det: new GestureDetector(), pinch: new PinchDetector(), swipe: new SwipeDetector(), lastScrollY: null, scrollEma: 0, fistPalm: null }));
     this.stopped = false;
     this.video = video;
     const epoch = this.epoch;
@@ -158,7 +166,11 @@ export class GestureEngine {
       }
       const handCount = result?.landmarks?.length || 0;
       const handsDebug: HandDebugInfo[] = [];
+      // Per-frame facts gathered in pass 1, consumed in pass 2.
+      const frame: Array<{ slot: (typeof this.detectors)[number]; landmarks: any; hand: 'left' | 'right'; x: number; y: number; pinchDistance: number }> = [];
 
+      // Pass 1 — pinch state for every hand first, so pass 2 knows whether a
+      // two-hand pinch-zoom is running before it decides which poses to allow.
       for (let hi = 0; hi < this.detectors.length; hi++) {
         const slot = this.detectors[hi];
         const landmarks = hi < handCount ? result.landmarks[hi] : null;
@@ -183,17 +195,54 @@ export class GestureEngine {
           y: pinchCenterY,
         });
         for (const ev of pinchEvents) this.events.onPinch?.(ev, hi);
+        frame.push({ slot, landmarks, hand, x, y, pinchDistance });
+      }
+      // Both hands pinching = a zoom in progress. A hand that leaves the frame
+      // ends its pinch after the grace period, so it stops counting as pinching
+      // the moment it is really gone.
+      const bothPinching = this.detectors.length === 2 && this.detectors.every((s) => s.pinch.isPinching());
 
-        // While pinching (cursor live), pose holds are suppressed so the same
-        // fingers can never double-trigger a selection/conceal.
+      for (let hi = 0; hi < frame.length; hi++) {
+        const { slot, landmarks, hand, x, y, pinchDistance } = frame[hi];
+
+        // Whole-hand swipe → one arrow key. It claims the hand while tracked
+        // (isEngaged) so a sweep can't also scroll/select with the same fingers.
+        const swipeDir = slot.swipe.push({
+          t: now,
+          present: !!landmarks,
+          open: landmarks ? isAllFingersExtended(landmarks) : false,
+          x,
+        });
+        if (swipeDir) this.events.onSwipe?.(swipeDir, hand);
+
+        // Poses are suppressed while a two-hand pinch-zoom runs and while this
+        // hand is tracked as a swipe. A single-hand pinch deliberately does NOT
+        // suppress: with the cursor gone it does nothing on its own, so hiding
+        // poses would just strand the hand doing nothing.
         const recognizerThumbsUp = !!result?.gestures?.[hi]?.some?.((g: any) => g?.categoryName === 'Thumb_Up');
-        const pose = slot.pinch.isPinching() || !landmarks
+        const pose = bothPinching || slot.swipe.isEngaged() || !landmarks
           ? 'none'
           : recognizerThumbsUp || isThumbUp(landmarks)
           ? 'thumb_up'
           : fingerCountLabel(landmarks);
         const action = slot.det.push({ t: now, x, y, gesture: pose });
         if (action) this.events.onHold?.(action, hand);
+
+        // Fist pan: per-frame palm delta, only between two consecutive fist
+        // frames (so making a fist after moving the hand never teleports).
+        // Emitted for either hand; consumers pick the hand they want.
+        if (pose === 'closed_fist' && landmarks) {
+          const prev = slot.fistPalm;
+          if (prev) {
+            // Raw frame is unmirrored → mirror x into the user's frame.
+            const dxPx = (prev.x - x) * window.innerWidth;
+            const dyPx = (y - prev.y) * window.innerHeight;
+            if (Math.abs(dxPx) > 0.5 || Math.abs(dyPx) > 0.5) this.events.onPanFrame?.(hand, dxPx, dyPx);
+          }
+          slot.fistPalm = { x, y };
+        } else {
+          slot.fistPalm = null;
+        }
 
         if (pose.startsWith('count') && landmarks) {
           const curY = (landmarks[0].y + landmarks[9].y) / 2;
@@ -251,8 +300,10 @@ export class GestureEngine {
     for (const slot of this.detectors) {
       slot.det.reset();
       slot.pinch.reset();
+      slot.swipe.reset();
       slot.lastScrollY = null;
       slot.scrollEma = 0;
+      slot.fistPalm = null;
     }
     this.detectors = [];
     this.lastDebug = { hands: [] };
