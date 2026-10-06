@@ -44,7 +44,7 @@ The center of the interface features a dynamic, interactive "Eye" that acts as t
 
 ## ✋ Gesture Mode (optional, off by default)
 
-Hand-gesture navigation via Google MediaPipe GestureRecognizer, fully on-device (no cloud calls, frames never recorded or uploaded). Toggle in Settings → `Gesture Mode (camera access needed)`; shows a small mirrored grayscale camera preview (or a 6 px white dot when the preview is off) in the top-left corner. Pinch and drag moves a white circular cursor; releasing the pinch clicks whatever is under it. Showing N fingers for ~0.7 s selects that answer option in practice; a closed fist conceals a solution; a held thumbs-up goes back (synthetic Escape). Two fingers dragged vertically scroll the page, touch-style. A green landmark/pose debug overlay sits on the preview. Desktop (Tauri) app not supported yet — the toggle fails safe there.
+Hand-gesture navigation via Google MediaPipe GestureRecognizer, fully on-device (no cloud calls, frames never recorded or uploaded). Toggle in Settings → `Gesture Mode (camera access needed)`; shows a small mirrored grayscale camera preview (or a 6 px white dot when the preview is off) in the top-left corner. An open palm swept sideways fires an arrow key (right → next, left → previous — works in practice mode). Showing N fingers for ~0.7 s selects that answer option in practice; a closed fist conceals a solution; a held thumbs-up goes back (synthetic Escape). Two fingers dragged vertically scroll the page, touch-style. On the concept graph, pinching with both hands zooms (apart → in, closer → out) and a right-fist drag pans. A green landmark/pose debug overlay sits on the preview. Desktop (Tauri) app not supported yet — the toggle fails safe there.
 
 ## 🤖 AI Agent Workflow & Skills
 

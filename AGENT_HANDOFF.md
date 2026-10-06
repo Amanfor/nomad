@@ -463,18 +463,20 @@ wasm 11.8 MB; non-SIMD variants intentionally not shipped).
 |---|---|
 | `src/lib/gesture/handShape.ts` | Pure landmark → pose/finger-count classifier. No imports. |
 | `src/lib/gesture/hold.ts` | Pure hold detector (fist=conceal, count1..4=select). No imports, no DOM. |
-| `src/lib/gesture/pinch.ts` | Pure pinch-cursor state machine. No imports, no DOM. |
-| `src/lib/gesture/engine.ts` | Camera + GestureRecognizer lifecycle (start/stop), 15 fps throttle, GPU→CPU fallback, error mapping. |
-| `src/components/GestureLayer.tsx` | Mounted once at app root (outside overlays, so it tracks in practice too). Owns engine, maps actions to keydown/CustomEvent/scroll, renders preview + indicator dot. |
+| `src/lib/gesture/pinch.ts` | Pure pinch state machine (two-hand zoom). No imports, no DOM. |
+| `src/lib/gesture/swipe.ts` | Pure whole-hand swipe detector (open palm → arrow key). No imports, no DOM. |
+| `src/lib/gesture/engine.ts` | Camera + GestureRecognizer lifecycle (start/stop), 15 fps throttle, GPU→CPU fallback, error mapping. Two-pass frame loop: pinch state first, then poses (suppressed only while BOTH hands pinch or a swipe is tracked). |
+| `src/lib/gesture/useGestureEngine.ts` | Shared engine lifecycle hook used by GestureLayer and ConceptGraph; forwards the latest handlers through a stable proxy. |
+| `src/components/GestureLayer.tsx` | Mounted once at app root (outside overlays, so it tracks in practice too). Subscribes to holds/scroll/swipe, maps actions to keydown/CustomEvent/scroll, renders preview + indicator dot. No cursor. |
+| `src/components/ConceptGraph.tsx` | Graph page mounts the same hook: two-hand pinch → zoom (apart=in, closer=out, k clamped [0.05,4], midpoint world-fixed), right-fist drag → pan. No cursor, no pose UI. |
 | `src/components/NomadApp.tsx` | `enableGesture`/`showGesturePreview` settings rows, status line, `nomad:gesture` listener in PracticeOverlay (reveal/conceal only — never selects answers). |
-| `scripts/gesture/swipe.test.ts` | Synthetic-stream unit tests (23 checks), bundled with the Vite-shipped esbuild, no new deps. |
+| `scripts/gesture/gesture.test.ts` | Synthetic-stream unit tests, bundled with the Vite-shipped esbuild, no new deps. |
 
 ### Gesture map
 
 | Gesture | Effect |
 |---|---|
-| Pinch (thumb ↔ index) moving | White circular cursor follows the hand (mirrored) |
-| Pinch released (fingers separate) | Click/press at the cursor position (needs ≥60ms pinch) |
+| Open palm (all 5 fingers) swept sideways ≥22% of the frame width within 0.9 s | One arrow key: hand right → `ArrowRight`, hand left → `ArrowLeft` (practice prev/next, search results) |
 | Open palm (4 fingers) held ~700 ms, still-ish | `nomad:gesture {action:'select', count:4}` → practice option 4 |
 | 3 fingers held ~700 ms | `select 3` → practice option 3 |
 | 2 fingers held ~700 ms | `select 2` → practice option 2 |
@@ -482,13 +484,20 @@ wasm 11.8 MB; non-SIMD variants intentionally not shipped).
 | Closed fist held ~700 ms, still | `nomad:gesture {action:'conceal'}` → hides solution |
 | Thumbs up held ~700 ms | synthetic `Escape` → back / close / home |
 | Two fingers (index+middle), drag up/down | Continuous page scroll (touch-style; suspended while practice overlay is open) |
+| Both hands pinching, moving apart / closer (concept graph) | Zoom in / out around the midpoint (k clamped [0.05, 4]) |
+| Right fist + move (concept graph) | Pan the view (screen px / cam.k) |
 
-Thumb does **not** count. Victory-hand swipes and palm-hold→reveal are
-**removed** (replaced by the pinch cursor and finger-count selection, 2026-10-05).
+Thumb does **not** count for finger counts. The pinch cursor and its
+release-click are **removed** (2026-10-06): a single-hand pinch is a no-op,
+poses are suppressed only while both hands pinch (zoom) or a swipe is tracked.
 
 Tunables: `pinch.ts` — `PINCH_ENTER_DISTANCE=0.06`,
-`PINCH_EXIT_DISTANCE=0.095` (hysteresis), `PINCH_MIN_CLICK_MS=60`,
-`PINCH_LOST_HAND_GRACE_MS=200`. `hold.ts` — `HOLD_MS=700`,
+`PINCH_EXIT_DISTANCE=0.095` (hysteresis),
+`PINCH_LOST_HAND_GRACE_MS=200`. `swipe.ts` — `SWIPE_THRESHOLD=0.22`
+(≈22% of viewport width), `SWIPE_WINDOW_MS=900`, `SWIPE_ENGAGE=0.12`
+(past this the sweep claims the hand: poses/scroll suspend),
+`SWIPE_REARM_BAND=0.08` (hand must return near the sweep start before it can
+fire again). `hold.ts` — `HOLD_MS=700`,
 `HOLD_STILL_RADIUS=0.05` (fist), `HOLD_STILL_RADIUS_COUNT=0.12` (counts),
 `HOLD_MIN_FRAMES=3`, `GLOBAL_COOLDOWN_MS=900`, `POSE_GAP_TOLERANCE_MS=160`
 (brief `other`/`none` classification blips neither break an in-progress hold
@@ -503,10 +512,9 @@ plus a hand restriction (`any` / `left` / `right`), stored in
 WANDER on the left rail) cycles pose/hand per effect on tap. Both hands are
 tracked (`numHands=2`); per-hand hold/pinch/scroll detectors run
 independently, and each binding can target `any`, `left`, or `right` — e.g.
-scroll on the left hand, fist-conceal on the right. The pinch cursor/release
-click is intentionally not remapped, and only one hand can own the cursor at
-a time (the other hand's pinch is ignored until the first releases). Scroll
-deltas are EMA-smoothed (`0.55/0.45`) to hide landmark jitter.
+scroll on the left hand, fist-conceal on the right. Swipes, two-hand zoom and
+fist pan are not remappable (they are whole-hand motions, not pose bindings).
+Scroll deltas are EMA-smoothed (`0.55/0.45`) to hide landmark jitter.
 
 ### Debug overlay
 
@@ -520,8 +528,9 @@ line text row per hand (`h0 left count2` / `0.031 PINCH`).
 - Ignores all gestures while the intro runs, while an input/textarea/
   contentEditable is focused, and while the document is hidden. Camera is
   stopped on tab-hide and restarted on return (streams are never left on).
-- One action per gesture: swipes re-arm only after a non-victory frame; held
-  palm/fist fires once per pose presence; 1 s global cooldown.
+- One action per gesture: a swipe fires once per sweep and re-arms only after
+  the hand returns near the sweep start (or leaves/closes); held palm/fist
+  fires once per pose presence; 1 s global cooldown.
 - Preview: grayscale, ~96×72, mirrored, low opacity, top-left corner, no
   border, no icon. With preview off, a ~6 px slowly fading white dot sits in
   the same corner and the `<video>` stays mounted 1×1 (never `display:none`)
@@ -531,7 +540,7 @@ line text row per hand (`h0 left count2` / `0.031 PINCH`).
   `no camera found`, `camera busy`, `camera not available in this build`,
   `model failed to load`); any failure flips `enableGesture` back to `false`.
 - Dev-only hook `window.__nomadGesture.inject(action)`
-  (`reveal|conceal|back|select-1..select-4|click-center`), guarded by
+  (`reveal|conceal|back|select-1..select-4`), guarded by
   `import.meta.env.DEV` — confirmed absent from production `dist`.
 
 ### Platform status

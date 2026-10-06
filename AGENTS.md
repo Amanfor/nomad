@@ -36,3 +36,4 @@ To optimize context limits and processing power, labor must be divided:
 1. **Verify Aesthetic:** Before adding any UI element, ensure it adheres to the strict B&W minimal aesthetic.
 2. **Optimize Interactivity:** Use React only where interactive state is required (like the search bar). Let Astro handle the static delivery.
 3. **Protect the Router:** Ensure the transition between the search view and the expanded concept view remains seamless and state-driven without hard page reloads where possible.
+4. **ask questions:** never make blunt assumption always ask user to clarify via the `question tool` unless explicitly told to "not ask questions" 
