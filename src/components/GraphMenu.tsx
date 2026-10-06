@@ -9,7 +9,9 @@ export default function GraphMenu() {
   useGlowBodyClass();
   useEffect(() => {
     ['all', 'organic-chemistry', 'inorganic-chemistry', 'physical-chemistry'].forEach((slug) => {
-      fetch(`${BASE}graph/${slug}.json`, { cache: 'no-cache' })
+      // 'all' is the linear learn path (learn-counts.json); the rest are circular graphs
+      const file = slug === 'all' ? 'learn-counts.json' : `graph/${slug}.json`;
+      fetch(`${BASE}${file}`, { cache: 'no-cache' })
         .then((r) => (r.ok ? r.json() : null))
         .then((g) => g && setCounts((c) => ({ ...c, [slug]: { nodes: g.nodes?.length ?? 0, edges: g.edges?.length ?? 0 } })))
         .catch(() => {});

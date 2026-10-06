@@ -1,0 +1,9 @@
+---
+// The main graph is the linear active-learning path (LearnPath), not a
+// circular concept graph — see scripts/build_learn.py for its data.
+import Base from '../../layouts/Base.astro'
+import LearnPath from '../../components/LearnPath.tsx'
+---
+<Base title="nomad · learn">
+  <LearnPath client:only="react" />
+</Base>
