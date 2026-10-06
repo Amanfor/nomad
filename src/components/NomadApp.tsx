@@ -2847,26 +2847,12 @@ export default function NomadApp() {
         @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
         ::selection { background: rgba(255,255,255,0.15); color: #fff; }
         .katex { color: #ffffff; }
-        .katex-display { margin: 0.3em 0; }
         .nomad-content::-webkit-scrollbar { display: none; }
         .nomad-practice-scroll::-webkit-scrollbar { display: none; }
         .nomad-browse-container::-webkit-scrollbar { width: 4px; }
         .nomad-browse-container::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
         .nomad-input:focus { border-bottom: 1px solid rgba(255,255,255,0.1) !important; }
         .nomad-input::placeholder { color: rgba(255,255,255,0.25); }
-        .nomad-prose p { margin-bottom: 1.5rem; line-height: 1.7; }
-        .nomad-prose strong { color: #fff; font-weight: 500; }
-        .nomad-prose h1 { font-size: 1.8rem; margin: 3rem 0 1.5rem 0; color: #fff; letter-spacing: -0.02em; font-weight: 400; }
-        .nomad-prose h2 { font-size: 1.3rem; margin: 2.5rem 0 1rem 0; color: #fff; letter-spacing: -0.01em; font-weight: 400; }
-        .nomad-prose h3 { font-size: 1rem; margin: 2rem 0 1rem 0; color: rgba(255,255,255,0.7); letter-spacing: 0.05em; text-transform: uppercase; }
-        .nomad-prose ul { margin-bottom: 2rem; padding-left: 1.5rem; list-style-type: square; }
-        .nomad-prose li { margin-bottom: 0.5rem; line-height: 1.6; color: rgba(255,255,255,0.7); }
-        .nomad-prose li strong { color: rgba(255,255,255,0.9); }
-        .nomad-prose img { width: 100%; border-radius: 8px; margin: 2rem 0; border: 1px solid rgba(255,255,255,0.1); }
-        .nomad-prose blockquote { border-left: 1px solid rgba(255,255,255,0.05); padding-left: 1rem; margin-left: 0; }
-        .nomad-prose code, .nomad-prose pre { font-family: monospace; background: rgba(255,255,255,0.07); padding: 0.2em 0.4em; border-radius: 3px; }
-        .nomad-prose pre { padding: 1rem; overflow-x: auto; }
-        .nomad-prose pre code { background: transparent; padding: 0; }
                 .nomad-btn {
           font-family: 'Cinzel', serif;
           font-size: 0.65rem;

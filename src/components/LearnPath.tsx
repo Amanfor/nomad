@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useGlowBodyClass } from '../lib/glow';
-import renderRich from '../lib/renderRich';
+import renderRich, { renderInline } from '../lib/renderRich';
 
 /** Linear active-learning path (main graph replacement):
  *      JEE ──┬── physics   (top)
@@ -51,6 +51,8 @@ type Panel = { mode: 'note'; id: string } | { mode: 'qset'; id: string; qi: numb
 
 const RAD: Record<NodeType, number> = { root: 26, subject: 20, chapter: 13, note: 8.5, concept: 8.5, qset: 6 };
 const MIN_PX: Record<NodeType, number> = { root: 13, subject: 10, chapter: 6.5, note: 4.5, concept: 4.5, qset: 3.5 };
+/** below this zoom the canvas draws no text at all (fully zoomed out) */
+const LABEL_MIN_K = 0.22;
 
 function loadProgress(): Progress {
   try {
@@ -443,13 +445,11 @@ export default function LearnPath() {
       const after = toWorld(e.clientX, e.clientY, rect);
       cam.x += after.x - before.x; cam.y += after.y - before.y;
     };
-    const onDbl = () => { flyRef.current = null; fitStruct(); };
     canvas.addEventListener('pointermove', onMove);
     canvas.addEventListener('pointerdown', onDown);
     canvas.addEventListener('pointerup', onUp);
     canvas.addEventListener('pointercancel', onUp);
     canvas.addEventListener('wheel', onWheel, { passive: false });
-    canvas.addEventListener('dblclick', onDbl);
     canvas.style.cursor = 'grab';
 
     // ── draw ───────────────────────────────────────────────────────────────
@@ -570,6 +570,7 @@ export default function LearnPath() {
         else if (n.type === 'qset') show = n.id === hoverId || st === 'solved' || st === 'partial' || cam.k >= 0.5;
         else show = n.id === hoverId || st === 'done' || st === 'skipped' || cam.k >= 1.15;
         if (sel) show = true;
+        if (cam.k < LABEL_MIN_K) show = false;   // fully zoomed out → no text
         if (!show) continue;
 
         const text = n.type === 'qset' ? `×${n.count}` : n.label;
@@ -613,7 +614,6 @@ export default function LearnPath() {
       canvas.removeEventListener('pointerup', onUp);
       canvas.removeEventListener('pointercancel', onUp);
       canvas.removeEventListener('wheel', onWheel);
-      canvas.removeEventListener('dblclick', onDbl);
       fitRef.current = null;
     };
     // progress changes re-bind handlers (fresh closures); camera/intro refs persist
@@ -677,7 +677,7 @@ export default function LearnPath() {
           LEARN — FULL SYLLABUS
         </div>
         <div style={{ fontSize: '0.65rem', letterSpacing: '0.12em', color: 'rgba(255,255,255,0.35)', marginTop: '0.4rem' }}>
-          click a blob · drag to pan · scroll to zoom · double-click to fit
+          click a blob · drag to pan · scroll to zoom
         </div>
       </div>
 
@@ -721,15 +721,17 @@ export default function LearnPath() {
               {noteView.meta.subject.toUpperCase()} · {noteView.meta.label.toUpperCase()}
               {noteView.st === 'done' ? ' · DONE' : noteView.st === 'skipped' ? ' · SKIPPED' : ''}
             </div>
-            <div style={{ fontSize: '1.5rem', fontWeight: 300, color: '#fff', letterSpacing: '0.03em' }} dangerouslySetInnerHTML={{ __html: renderRich(noteView.n.label || '') }} />
+            <div style={{ fontSize: '1.5rem', fontWeight: 300, color: '#fff', letterSpacing: '0.03em' }} dangerouslySetInnerHTML={{ __html: renderInline(noteView.n.label || '') }} />
             {noteView.isNote && !noteView.cont && noteView.body === '' ? (
               <div style={{ fontSize: '0.75rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.4)' }}>loading…</div>
             ) : (
               <div
-                className="nomad-note"
+                className="nomad-prose"
                 style={{ fontSize: '1rem', lineHeight: 1.8, fontWeight: 300, color: 'rgba(255,255,255,0.85)' }}
                 dangerouslySetInnerHTML={{
-                  __html: renderRich(noteView.body || (noteView.isNote ? 'this note could not be loaded' : '(concept — no note attached)')),
+                  __html: noteView.body
+                    ? renderRich(noteView.body)
+                    : renderInline(noteView.isNote ? 'this note could not be loaded' : '(concept — no note attached)'),
                 }}
               />
             )}
@@ -767,7 +769,7 @@ export default function LearnPath() {
               <div style={{ fontSize: '0.75rem', letterSpacing: '0.2em', color: 'rgba(255,255,255,0.4)' }}>loading…</div>
             ) : (
               <>
-                <div style={{ fontSize: '1rem', lineHeight: 1.8, fontWeight: 300, color: 'rgba(255,255,255,0.9)' }} dangerouslySetInnerHTML={{ __html: renderRich(qsetView.q.q) }} />
+                <div className="nomad-prose" style={{ fontSize: '1rem', lineHeight: 1.8, fontWeight: 300, color: 'rgba(255,255,255,0.9)' }} dangerouslySetInnerHTML={{ __html: renderRich(qsetView.q.q) }} />
                 {qsetView.q.o.length > 0 && (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                     {qsetView.q.o.map((opt, i) => {
@@ -801,7 +803,7 @@ export default function LearnPath() {
                           }}
                         >
                           <span style={{ fontSize: '0.7rem', letterSpacing: '0.1em', opacity: 0.55 }}>({['a', 'b', 'c', 'd'][i]})</span>
-                          <span dangerouslySetInnerHTML={{ __html: renderRich(opt) }} />
+                          <span dangerouslySetInnerHTML={{ __html: renderInline(opt) }} />
                           {answered && chosen && qsetView.q!.c >= 0 && correct && <span style={{ fontSize: '0.65rem', letterSpacing: '0.18em', marginLeft: 'auto' }}>CORRECT</span>}
                           {answered && chosen && qsetView.q!.c >= 0 && !correct && <span style={{ fontSize: '0.65rem', letterSpacing: '0.18em', marginLeft: 'auto' }}>NOT QUITE</span>}
                         </button>
@@ -830,7 +832,7 @@ export default function LearnPath() {
                 {answer !== null && qsetView.q.s && (
                   <div>
                     <div style={{ fontSize: '0.65rem', letterSpacing: '0.25em', color: 'rgba(255,255,255,0.4)', marginBottom: '0.6rem' }}>SOLUTION</div>
-                    <div className="nomad-note" style={{ fontSize: '0.92rem', lineHeight: 1.75, fontWeight: 300, color: 'rgba(255,255,255,0.8)' }} dangerouslySetInnerHTML={{ __html: renderRich(qsetView.q.s) }} />
+                    <div className="nomad-prose" style={{ fontSize: '0.92rem', lineHeight: 1.75, fontWeight: 300, color: 'rgba(255,255,255,0.8)' }} dangerouslySetInnerHTML={{ __html: renderRich(qsetView.q.s) }} />
                   </div>
                 )}
               </>
