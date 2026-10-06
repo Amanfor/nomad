@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import katex from 'katex';
+import { useGlowBodyClass } from '../lib/glow';
 
 type GNode = {
   id: string;
@@ -50,6 +51,9 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       return s.enableGraphIntro !== false;
     } catch { return true; }
   });
+  // Always Glow → body.always-glow (CSS lights the DOM chrome); canvas pixels
+  // are lit directly in draw() below since CSS cannot reach a <canvas>.
+  const alwaysGlow = useGlowBodyClass();
 
   useEffect(() => {
     fetch(`${BASE}graph/${topic}.json`, { cache: 'no-cache' })
@@ -178,6 +182,10 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
     let raf = 0;
     let W = 0; let H = 0; let dpr = 1;
     let downX = 0; let downY = 0;
+    // multi-touch pinch zoom (mobile has no wheel) — tracks active pointers
+    const pointers = new Map<number, { x: number; y: number }>();
+    let pinch: { d0: number; k0: number } | null = null;
+    let pinchMoved = false;
 
     const resize = () => {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -255,7 +263,8 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           p = Math.min((t - st) / TRAVEL, 1);
         }
         const hot = L && (L.lit.has(a.id) && L.lit.has(b.id) && (a.id === hoverId || b.id === hoverId || L.anc.has(a.id) || L.desc.has(a.id)));
-        const base = L ? (hot ? 0.6 : 0.06) : 0.18;
+        // always-glow: every link sits at its lit alpha, hovering dims nothing
+        const base = alwaysGlow ? 0.55 : L ? (hot ? 0.6 : 0.06) : 0.18;
         // freshly-seated links stay bright for a moment; global glow lifts everything
         const seat = introActive ? Math.exp(-(t - endT) / 480) : 0;
         const alpha = boost(Math.min(0.95, base + seat * 0.75));
@@ -324,7 +333,7 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           va = Math.max(0, Math.min((t - ar) / 260, 1));
           if (va <= 0) continue;
         }
-        const hot = !L || L.lit.has(n.id);
+        const hot = alwaysGlow || !L || L.lit.has(n.id);
         const isRoot = n.id === root.id;
         const breathe = introActive && isRoot && t < 60 + ROOT_HOLD
           ? 1 + 0.16 * Math.sin((t / 460) * Math.PI * 2) + 0.25 * Math.max(0, 1 - t / 600)
@@ -349,8 +358,9 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
           ctx.fill();
         }
         const big = n.depth === 0 || n.depth === 1;
-        // always show root + pillar (chapter) labels; deeper labels appear only on the active chain
-        const showLabel = n.depth !== undefined && n.depth <= 1 || (L != null && L.lit.has(n.id));
+        // always show root + pillar (chapter) labels; deeper labels appear only
+        // on the active chain — unless always-glow lights every node's label
+        const showLabel = alwaysGlow || (n.depth !== undefined && n.depth <= 1) || (L != null && L.lit.has(n.id));
         if (!showLabel) continue;
         const size = n.depth === 0 ? 15 : n.depth === 1 ? 12.5 : 11;
         ctx.font = `${n.id === hoverId || big ? 500 : 300} ${size / Math.max(cam.k, 0.6)}px Inter, sans-serif`;
@@ -396,6 +406,23 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
     };
 
     const onMove = (e: PointerEvent) => {
+      if (pointers.has(e.pointerId)) pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pinch && pointers.size >= 2) {
+        // two fingers moving apart/pinch → zoom around the midpoint,
+        // same keep-world-point-fixed math as onWheel
+        const [a, b] = [...pointers.values()];
+        const d = Math.hypot(a.x - b.x, a.y - b.y);
+        const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+        const rect = canvas.getBoundingClientRect();
+        const before = toWorld(mx, my, rect);
+        cam.k = Math.min(Math.max(pinch.k0 * (d / pinch.d0), 0.05), 4);
+        const after = toWorld(mx, my, rect);
+        cam.x += after.x - before.x;
+        cam.y += after.y - before.y;
+        if (Math.abs(d - pinch.d0) > 12) pinchMoved = true;
+        invalidate();
+        return;
+      }
       const rect = canvas.getBoundingClientRect();
       const w = toWorld(e.clientX, e.clientY, rect);
       if (drag.panning) {
@@ -413,7 +440,17 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       invalidate();
     };
     const onDown = (e: PointerEvent) => {
-      const rect = canvas.getBoundingClientRect();
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 2) {
+        // second finger down: pan → pinch (first finger's down state is kept for onUp)
+        const [a, b] = [...pointers.values()];
+        pinch = { d0: Math.max(1, Math.hypot(a.x - b.x, a.y - b.y)), k0: cam.k };
+        pinchMoved = false;
+        drag.panning = false;
+        canvas.style.cursor = 'grabbing';
+        return;
+      }
+      if (pointers.size > 2) return;
       downX = e.clientX; downY = e.clientY;
       // nodes are fixed; any press-and-drag pans the canvas
       drag.panning = true; drag.lastx = e.clientX; drag.lasty = e.clientY; canvas.style.cursor = 'grabbing';
@@ -422,12 +459,24 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       invalidate();
     };
     const onUp = (e: PointerEvent) => {
+      pointers.delete(e.pointerId);
+      const wasPinch = pinchMoved;          // sticky until every finger lifts
+      if (pointers.size < 2) pinch = null;
       const wasPan = drag.panning;
       drag.id = null; drag.panning = false;
       canvas.style.cursor = 'grab';
       try { canvas.releasePointerCapture(e.pointerId); } catch {}
-      // click (little movement) on a node opens its note
-      if (wasPan && Math.hypot(e.clientX - downX, e.clientY - downY) < 5) {
+      if (pointers.size === 1) {
+        // one finger remains after a pinch: resume panning without a jump
+        const rest = [...pointers.values()][0];
+        downX = rest.x; downY = rest.y;
+        drag.lastx = rest.x; drag.lasty = rest.y;
+        drag.panning = true;
+      } else if (pointers.size === 0) {
+        pinchMoved = false;
+      }
+      // click (little movement) on a node opens its note — never after a pinch-zoom
+      if (!wasPinch && wasPan && Math.hypot(e.clientX - downX, e.clientY - downY) < 5) {
         const rect = canvas.getBoundingClientRect();
         const w = toWorld(e.clientX, e.clientY, rect);
         const n = pick(w.x, w.y);
@@ -464,7 +513,7 @@ export default function ConceptGraph({ topic = 'organic-chemistry' }: { topic?: 
       canvas.removeEventListener('pointercancel', onUp);
       canvas.removeEventListener('wheel', onWheel);
     };
-  }, [data]);
+  }, [data, alwaysGlow]);
 
   return (
     <div ref={wrapRef} style={{ position: 'fixed', inset: 0, background: '#000' }}>
