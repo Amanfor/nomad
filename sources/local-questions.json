@@ -1,0 +1,2839 @@
+{
+ "questions": [
+  {
+   "id": 100,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "Equations of Motion",
+   "question": "What is the relation between velocity and displacement for constant acceleration $a$?",
+   "year": ""
+  },
+  {
+   "id": 101,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Center of Mass and Collisions",
+   "topic": "Coefficient of Restitution",
+   "question": "For a perfectly inelastic collision, what is the coefficient of restitution?",
+   "year": ""
+  },
+  {
+   "id": 102,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Center of Mass and Collisions",
+   "topic": "Conservation of Momentum",
+   "question": "Which conservation law is always applicable during the brief moment of collision?",
+   "year": ""
+  },
+  {
+   "id": 103,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Circular Motion",
+   "topic": "Uniform Circular Motion",
+   "question": "In uniform circular motion, what is the direction of net acceleration?",
+   "year": ""
+  },
+  {
+   "id": 104,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Circular Motion",
+   "topic": "Centripetal Acceleration",
+   "question": "What is the formula for centripetal acceleration in terms of angular velocity?",
+   "year": ""
+  },
+  {
+   "id": 105,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Newton's Second Law",
+   "question": "According to Newton's Second Law, Force is the rate of change of:",
+   "year": ""
+  },
+  {
+   "id": 106,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Impulse",
+   "question": "What is the unit of impulse?",
+   "year": ""
+  },
+  {
+   "id": 107,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Fluid Mechanics",
+   "topic": "Viscous Drag",
+   "question": "For an object moving in a fluid, the viscous drag force is often proportional to:",
+   "year": ""
+  },
+  {
+   "id": 108,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Work, Energy and Power",
+   "topic": "Work Done by Normal Force",
+   "question": "What is the work done by the normal force when a block moves on a horizontal surface?",
+   "year": ""
+  },
+  {
+   "id": 109,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Work, Energy and Power",
+   "topic": "Conservative Forces",
+   "question": "In a conservative force field, the work done in a closed loop is:",
+   "year": ""
+  },
+  {
+   "id": 110,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Work, Energy and Power",
+   "topic": "Power",
+   "question": "What is the SI unit of power?",
+   "year": ""
+  },
+  {
+   "id": 111,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Center of Mass and Collisions",
+   "topic": "Center of Mass",
+   "question": "The center of mass of a uniform rod of length L is at:",
+   "year": ""
+  },
+  {
+   "id": 112,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Rotational Motion",
+   "topic": "Pure Rolling",
+   "question": "In purely rolling motion, the velocity of the lowest point in contact with ground is:",
+   "year": ""
+  },
+  {
+   "id": 113,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Rotational Motion",
+   "topic": "Moment of Inertia",
+   "question": "What is the moment of inertia of a solid sphere of mass M and radius R about its diameter?",
+   "year": ""
+  },
+  {
+   "id": 114,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Gravitation",
+   "topic": "Kepler's Laws",
+   "question": "Kepler's Second Law (Law of Areas) is a consequence of conservation of:",
+   "year": ""
+  },
+  {
+   "id": 115,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Gravitation",
+   "topic": "Escape Velocity",
+   "question": "The escape velocity from the surface of the Earth is proportional to:",
+   "year": ""
+  },
+  {
+   "id": 116,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Oscillations",
+   "topic": "Simple Harmonic Motion",
+   "question": "What is the restoring force in a simple harmonic oscillator?",
+   "year": ""
+  },
+  {
+   "id": 117,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Waves",
+   "topic": "Longitudinal Waves",
+   "question": "In a longitudinal wave, particles of the medium oscillate:",
+   "year": ""
+  },
+  {
+   "id": 118,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Waves",
+   "topic": "Speed of Sound",
+   "question": "The speed of sound in a gas is given by the Newton-Laplace formula:",
+   "year": ""
+  },
+  {
+   "id": 119,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Thermodynamics",
+   "topic": "First Law of Thermodynamics",
+   "question": "According to the First Law of Thermodynamics, $\\Delta Q$ equals:",
+   "year": ""
+  },
+  {
+   "id": 120,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "AC",
+   "topic": "Resonance",
+   "question": "In a series LCR circuit at resonance, the phase difference between the applied voltage and the current is",
+   "year": ""
+  },
+  {
+   "id": 121,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Dehydration of Alcohols",
+   "question": "The initiation step in the dehydration of alcohols using concentrated $H_2SO_4$ is",
+   "year": ""
+  },
+  {
+   "id": 122,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "Distance from a Plane",
+   "question": "The distance of a point $(x_1,y_1,z_1)$ from the plane $ax+by+cz+d=0$ is",
+   "year": ""
+  },
+  {
+   "id": 123,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Electric Power And Heating Effect Of Current",
+   "topic": "Electric Power And Heating Effect Of Current",
+   "question": "A cell of internal resistance r drives current\nthrough an external resistance R. The power\ndelivered by the cell to the external resistance\nwill be maximum when :-",
+   "year": ""
+  },
+  {
+   "id": 124,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Properties-Of-Matter",
+   "topic": "Properties-Of-Matter",
+   "question": "If the length of a wire is made double and radius is halved of its respective values. Then, the Young's modulus of the material of the wire will :",
+   "year": ""
+  },
+  {
+   "id": 125,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Waves",
+   "topic": "Waves",
+   "question": "Tube$A$ has bolt ends open while tube$B$ has one end closed, otherwise they are identical. The ratio of fundamental frequency of tube$A$ and$B$ is",
+   "year": ""
+  },
+  {
+   "id": 126,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Hydrogen",
+   "topic": "Hydrogen",
+   "question": "The products obtained during treatment of hard water using Clark's method are :",
+   "year": ""
+  },
+  {
+   "id": 127,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Environmental-Chemistry",
+   "topic": "Environmental-Chemistry",
+   "question": "Which one of the following statements is NOT correct?",
+   "year": ""
+  },
+  {
+   "id": 128,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Physical Chemistry",
+   "topic": "Physical Chemistry",
+   "question": "Extraction of copper by smelting uses silica as an additive tore\nmove",
+   "year": ""
+  },
+  {
+   "id": 129,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "Limits-Continuity-And-Differentiability",
+   "topic": "Limits-Continuity-And-Differentiability",
+   "question": "$\\lim\\limits_{x \\rightarrow \\frac{\\pi}{4}} \\frac{8 \\sqrt{2}-(\\cos x+\\sin x)^{7}}{\\sqrt{2}-\\sqrt{2} \\sin 2 x}$ is equal to",
+   "year": ""
+  },
+  {
+   "id": 130,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "Logarithm",
+   "topic": "Logarithm",
+   "question": "If$\\frac{logx}{2} = \\frac{logy}{3} = \\frac{logz}{5},$ then\n$x^{2} =$",
+   "year": ""
+  },
+  {
+   "id": 131,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "Quadratic Equations",
+   "topic": "Quadratic Equations",
+   "question": "f(x) = x^4 - ax^3 + bx^2 - cx + 330 \n 1 f(2)= 0",
+   "year": ""
+  },
+  {
+   "id": 132,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "An alternating voltage v(t) = 220 sin 100$\\pi$t volt is applied to a purely resistance load of 50$\\Omega$ . The time taken for the current to rise from half of the peak value to the peak value is :",
+   "year": ""
+  },
+  {
+   "id": 133,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "An inductance coil has a reactance of 100$\\Omega$. When an AC signal of frequency 1000 Hz is applied to the coil, the applied voltage leads the current by 45<sup>o</sup>. The self-inductance of the coil is",
+   "year": ""
+  },
+  {
+   "id": 134,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Alcohols-Phenols-And-Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "Common name of Benzene - 1,2 - diol is -",
+   "year": ""
+  },
+  {
+   "id": 135,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Alcohols-Phenols-And-Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "Which one the following compounds will readily react with dilute$\\mathrm{NaOH}$ ?",
+   "year": ""
+  },
+  {
+   "id": 136,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The projections of a vector on the three coordinate axis are$6,-3,2$ respectively. The direction cosines of the vector are :",
+   "year": ""
+  },
+  {
+   "id": 137,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The angle between the lines whose direction cosines satisfy the equations$l+m+n=0$ and${l\\^2} = {m\\^2} + {n\\^2}$ is :",
+   "year": ""
+  },
+  {
+   "id": 138,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Dual Nature Of Radiation",
+   "topic": "Dual Nature Of Radiation",
+   "question": "The recoil speed of a hydrogen atom after it emits a photon in going from n = 5 state to n = 1 state will be :",
+   "year": ""
+  },
+  {
+   "id": 139,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Reflection Of Light",
+   "topic": "Reflection Of Light",
+   "question": "The focal length f is related to the radius of curvature r of the spherical convex mirror by :",
+   "year": ""
+  },
+  {
+   "id": 140,
+   "kind": "micro",
+   "subject": "physics",
+   "chapter": "Laws Of Motion",
+   "topic": "Laws Of Motion",
+   "question": "The position vector of a particle related to time$t$ is given by  $\\vec{r}=\\left(10 t \\hat{i}+15 t^{2} \\hat{j}+7 \\hat{k}\\right) m$  The direction of net force experienced by the particle is :",
+   "year": ""
+  },
+  {
+   "id": 141,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "S Block Elements",
+   "topic": "S Block Elements",
+   "question": "Which of the following on thermal decomposition yields a basic as well as an acidic oxide?",
+   "year": ""
+  },
+  {
+   "id": 142,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Periodic Table And Periodicity",
+   "topic": "Periodic Table And Periodicity",
+   "question": "The correct order of electron affinity is :",
+   "year": ""
+  },
+  {
+   "id": 143,
+   "kind": "micro",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "Bouveault-Blanc reduction reaction involves :",
+   "year": ""
+  },
+  {
+   "id": 144,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "question": "A hyperbola passes through the point P$\\left( {\\sqrt 2 ,\\sqrt 3 } \\right)$ and has foci at$\\left( { \\pm 2,0} \\right)$. Then the tangent to this hyperbola at P also passes through the point :",
+   "year": ""
+  },
+  {
+   "id": 145,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "Ellipse",
+   "topic": "Ellipse",
+   "question": "If the normal at an end of a latus rectum of an ellipse passes through an extremity of the minor axis, then the eccentricity e of the ellipse satisfies :",
+   "year": ""
+  },
+  {
+   "id": 146,
+   "kind": "micro",
+   "subject": "maths",
+   "chapter": "Matrices And Determinants",
+   "topic": "Matrices And Determinants",
+   "question": "The values of$\\lambda$ and$\\mu$ for which the system of linear equations x + y + z = 2 x + 2y + 3z = 5 x + 3y + $\\lambda$z = $\\mu$ has infinitely many solutions are, respectively:",
+   "year": ""
+  },
+  {
+   "id": 200,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "Projectile Motion",
+   "question": "At t = 0, truck, starting from rest, moves in the positive x-direction at uniform acceleration of 5 ms$-$2. At t = 20 s, a ball is released from the top of the truck. The ball strikes the ground in 1 s after the release. The velocity of the ball, when it strikes the ground, will be :\n(Given g = 10 ms$-$2)",
+   "year": ""
+  },
+  {
+   "id": 201,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "Projectile Motion",
+   "question": "A ball is thrown from a point with a speed ν0 at an angle of projection θ. From the same point and at the same instant person starts running with a constant speed${{{v\\_0}} \\over 2}$ to catch the ball. Will the person be able to catch the ball? If yes, what should be the angle of projection θ?",
+   "year": ""
+  },
+  {
+   "id": 202,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Force and Acceleration",
+   "question": "A body of mass$500 \\mathrm{~g}$ moves along$\\mathrm{x}$-axis such that it's velocity varies with displacement$\\mathrm{x}$ according to the relation$v=10 \\sqrt{x} \\mathrm{~m} / \\mathrm{s}$ the force acting on the body is:-",
+   "year": ""
+  },
+  {
+   "id": 203,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Force and Acceleration",
+   "question": "A bullet of mass 20 g has an initial speed of 1 ms–1\n, just before it starts penetrating a mud wall of thickness\n20 cm. If the wall offers a mean resistance of 2.5 $×$ 10–2 N, the speed of the bullet after emerging from the\nother side of the wall is close to :",
+   "year": ""
+  },
+  {
+   "id": 204,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Drag Force",
+   "question": "A ball is thrown upward with an initial velocity\nV0 from the surface of the earth. The motion\nof the ball is affected by a drag force equal to\nm$\\gamma$u2 (where m is mass of the ball, u is its\ninstantaneous velocity and$\\gamma$ is a constant).\nTime taken by the ball to rise to its zenith is :",
+   "year": ""
+  },
+  {
+   "id": 205,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Variable Mass System",
+   "question": "A spaceship in space sweeps stationary\ninterplanetary dust. As a result, its mass\nincreases at a rate${{dM\\left( t \\right)} \\over {dt}}$ = bv2(t), where v(t) is\nits instantaneous velocity. The instantaneous\nacceleration of the satellite is :",
+   "year": ""
+  },
+  {
+   "id": 206,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Force and Acceleration",
+   "question": "At any instant the velocity of a particle of mass$500 \\mathrm{~g}$ is$\\left(2 t \\hat{i}+3 t^{2} \\hat{j}\\right) \\mathrm{ms}^{-1}$. If the force acting on the particle at$t=1 \\mathrm{~s}$ is$(\\hat{i}+x \\hat{j}) \\mathrm{N}$. Then the value of$x$ will be:",
+   "year": ""
+  },
+  {
+   "id": 207,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Force and Acceleration",
+   "question": "The position vector of a particle related to time$t$ is given by\n\n$\\vec{r}=\\left(10 t \\hat{i}+15 t^{2} \\hat{j}+7 \\hat{k}\\right) m$\n\nThe direction of net force experienced by the particle is :",
+   "year": ""
+  },
+  {
+   "id": 208,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Drag Force",
+   "question": "A small ball of mass m is thrown upward with velocity u from the ground. The ball experiences a\nresistive force mkv2\nwhere v is its speed. The maximum height attained by the ball is :",
+   "year": ""
+  },
+  {
+   "id": 209,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Resultant Force",
+   "question": "Two forces P and Q, of magnitude 2F and 3F, respectively, are at an angle$\\theta$ with each other. If the force Q is doubled, then their resultant also gets doubled. Then, the angle$\\theta$ is -",
+   "year": ""
+  },
+  {
+   "id": 210,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Momentum and Force",
+   "question": "A particle moves in$x$-$y$ plane under the influence of a force$\\vec{F}$ such that its linear momentum is$\\overrightarrow{\\mathrm{p}}(\\mathrm{t})=\\hat{i} \\cos (\\mathrm{kt})-\\hat{j} \\sin (\\mathrm{kt})$. If$\\mathrm{k}$ is constant, the angle between$\\overrightarrow{\\mathrm{F}}$ and$\\overrightarrow{\\mathrm{p}}$ will be :",
+   "year": ""
+  },
+  {
+   "id": 211,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Equilibrium",
+   "question": "A heavy iron bar, of weight$W$ is having its one end on the ground and the other on the shoulder of a person. The bar makes an angle$\\theta$ with the horizontal. The weight experienced by the person is :",
+   "year": ""
+  },
+  {
+   "id": 212,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Impulse",
+   "question": "A cricket player catches a ball of mass$120 \\mathrm{~g}$ moving with$25 \\mathrm{~m} / \\mathrm{s}$ speed. If the catching process is completed in$0.1 \\mathrm{~s}$ then the magnitude of force exerted by the ball on the hand of player will be (in SI unit) :",
+   "year": ""
+  },
+  {
+   "id": 213,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Impulse",
+   "question": "A player caught a cricket ball of mass$150 \\mathrm{~g}$ moving at a speed of$20 \\mathrm{~m} / \\mathrm{s}$. If the catching process is completed in$0.1 \\mathrm{~s}$, the magnitude of force exerted by the ball on the hand of the player is:",
+   "year": ""
+  },
+  {
+   "id": 214,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Impulse and Momentum",
+   "question": "The particle of mass 1 kg is acted upon by a\nforce$\\overset{\\rightarrow}{F} = F_{x}\\overset{\\hat{}}{i} + F_{y}\\overset{\\hat{}}{j}$\nfrom t = 0 to t = 4 sec. Find the velocityof the particle at t=4 sec.,\nif its initial velocity is\n$\\overset{\\rightarrow}{u} = - \\overset{\\hat{}}{i} + \\overset{\\hat{}}{j}$and\nthe variation of applied force with time is as shown in the graphs",
+   "year": ""
+  },
+  {
+   "id": 215,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "Equations of Motion in 2D",
+   "question": "A force$\\overrightarrow F = (40\\widehat i + 10\\widehat j)N$ acts on a body of mass 5 kg. If the body starts from rest, its position vector$\\overrightarrow r$ at time t = 10 s, will be :",
+   "year": ""
+  },
+  {
+   "id": 216,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Friction",
+   "question": "Initially the block is at rest acceleration of the block is",
+   "year": ""
+  },
+  {
+   "id": 217,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Resultant Force",
+   "question": "Two forces are such that the sum of their magnitudes is$18 N$ and their resultant is$12 N$ which is perpendicular to the smaller force. Then the magnitudes of the forces are",
+   "year": ""
+  },
+  {
+   "id": 218,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Variable Force",
+   "question": "A particle is projected with velocity v0 along x-axis. A damping force is acting on the particle which is proportional to the square of the distance from the origin i.e. ma = $- \\alpha$x2. The distance at which the particle stops :",
+   "year": ""
+  },
+  {
+   "id": 219,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Variable Force",
+   "question": "A particle of mass m is acted upon by a force F given by the empirical law\nF =${R \\over {{t^2}}}\\,v\\left( t \\right).$ If this law is to be tested experimentally by observing the motion starting from rest, the best way is to plot :",
+   "year": ""
+  },
+  {
+   "id": 220,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Force and Acceleration",
+   "question": "A particle of mass 0.3 kg subjected to a force$F=-kx$ with$k=15 N/m$. What will be its initial acceleration if it is released from a point 20 cm away from the origin?",
+   "year": ""
+  },
+  {
+   "id": 221,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Variable Force",
+   "question": "A particle of mass M originally at rest is subjected to a force whose direction is constant but magnitude varies with time according to the relation$F = {F_0}\\left[ {1 - {{\\left( {{{t - T} \\over T}} \\right)}^2}} \\right]$Where F0 and T are constants. The force acts only for the time interval 2T. The velocity v of the particle after time 2T is :",
+   "year": ""
+  },
+  {
+   "id": 222,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Equilibrium",
+   "question": "Statement : 1 If three forces${\\overrightarrow F \\_1},{\\overrightarrow F \\_2}$ and${\\overrightarrow F \\_3}$ are represented by three sides of a triangle and${\\overrightarrow F \\_1} + {\\overrightarrow F \\_2} = - {\\overrightarrow F \\_3}$, then these three forces are concurrent forces and satisfy the condition for equilibrium. Statement : 2 A triangle made up of three forces${\\overrightarrow F \\_1}$, ${\\overrightarrow F \\_2}$ and${\\overrightarrow F \\_3}$ as its sides taken in the same order, satisfy the condition for translatory equilibrium. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "year": ""
+  },
+  {
+   "id": 223,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Variable Force",
+   "question": "A particle moving in the xy plane experiences a velocity dependent force\n$\\overrightarrow F = k\\left( {{v_y}\\widehat i + {v_x}\\widehat j} \\right)$\n, where vx\nand vy\nare the x and y components of its velocity$\\overrightarrow v$\n. If$\\overrightarrow a$\nis the acceleration of the particle, then\nwhich of the following statements is true for the particle?",
+   "year": ""
+  },
+  {
+   "id": 224,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Pseudo Force",
+   "question": "A block of mass M placed inside a box descends vertically with acceleration 'a'. The block exerts a force equal to one-fourth of its weight on the floor of the box. The value of 'a' will be",
+   "year": ""
+  },
+  {
+   "id": 225,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Variable Mass System",
+   "question": "The initial mass of a rocket is 1000 kg. Calculate at what rate the fuel should be burnt so that the rocket is given an acceleration of 20 ms-2. The gases come out at a relative speed of 500 ms$-$1 with respect to the rocket : [Use g = 10 m/s2]",
+   "year": ""
+  },
+  {
+   "id": 226,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Force and Acceleration",
+   "question": "A body of mass$4 \\mathrm{~kg}$ experiences two forces$\\vec{F}_1=5 \\hat{i}+8 \\hat{j}+7 \\hat{k}$ and$\\overrightarrow{\\mathrm{F}}_2=3 \\hat{i}-4 \\hat{j}-3 \\hat{k}$. The acceleration acting on the body is :",
+   "year": ""
+  },
+  {
+   "id": 227,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Force and Acceleration",
+   "question": "A force acts for 20 s on a body of mass 20 kg, starting from rest, after which the force ceases and then body describes 50 m in the next 10 s. The value of force will be:",
+   "year": ""
+  },
+  {
+   "id": 228,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Equilibrium",
+   "question": "When forces${F\\_1},\\,\\,{F\\_2},\\,\\,{F\\_3}$ are acting on a particle of mass$m$ such that${F\\_2}$ and${F\\_3}$ are mutually perpendicular, then the particle remains stationary. If the force${F\\_1}$ is now removed then the acceleration of the particle is",
+   "year": ""
+  },
+  {
+   "id": 229,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Newton's Laws of Motion",
+   "topic": "Variable Mass System",
+   "question": "In the fig. shown a cart moves on a smooth horizontal surface\ndue to an external constant force of magnitude F. The initial mass of\nthe cart is$M_{0}$and velocity is zero. Sand falls on to the cart with\nnegligible velocity at constant rate$\\mu\\ kg/s$ and sticks to the cart.\nThe velocity of the cart at time t is",
+   "year": ""
+  },
+  {
+   "id": 301,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Electrostatics",
+   "topic": "Electric Field",
+   "question": "Two point charges $q_1(\\sqrt{10}\\mu C)$ and $q_2(-25\\mu C)$ are placed on the x-axis at $x = 1 m$ and $x = 4 m$ respectively. The electric field (in V/m) at a point $y = 3 m$ on y-axis is:",
+   "year": ""
+  },
+  {
+   "id": 302,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Electrostatics",
+   "topic": "Gauss's Law",
+   "question": "A solid sphere of radius R carries a charge density $\\rho(r) = \\rho_0 (1 - \\frac{r}{R})$, where r is the distance from the center. The electric field at a distance r (r < R) is:",
+   "year": ""
+  },
+  {
+   "id": 303,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Electrostatics",
+   "topic": "Electric Dipole",
+   "question": "An electric dipole is formed by two equal and opposite charges q with separation d. The charges have same mass m. It is kept in a uniform electric field E. If it is slightly rotated from its equilibrium orientation, then its angular frequency $\\omega$ is:",
+   "year": ""
+  },
+  {
+   "id": 304,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Electrostatics",
+   "topic": "Electric Potential",
+   "question": "A charge $Q$ is distributed over three concentric spherical shells of radii $a, b, c$ ($a < b < c$) such that their surface charge densities are equal to one another. The total potential at a point at distance $r$ from their common centre, where $r < a$, would be:",
+   "year": ""
+  },
+  {
+   "id": 305,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Electrostatics",
+   "topic": "Capacitance",
+   "question": "Two equal capacitors are first connected in series and then in parallel. The ratio of the equivalent capacities in the two cases is:",
+   "year": ""
+  },
+  {
+   "id": 306,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat and Thermodynamics",
+   "topic": "Kinetic Theory of Gases",
+   "question": "One $kg$ of a diatomic gas is at a pressure of $8 \\times {10^4}\\,N/{m^2}.$ The density of the gas is $4kg/{m^3}$. What is the energy of the gas due to its thermal motion ?",
+   "year": ""
+  },
+  {
+   "id": 307,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat and Thermodynamics",
+   "topic": "Kinetic Theory of Gases",
+   "question": "Three perfect gases at absolute temperatures ${T_1},\\,{T_2}$ and ${T_3}$ are mixed. The masses of molecules are ${m_1},{m_2}$ and ${m_3}$ and the number of molecules are ${n_1}, {n_2}$ and ${n_3}$ respectively. Assuming no loss of energy, the final temperature of the mixture is:",
+   "year": ""
+  },
+  {
+   "id": 308,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat and Thermodynamics",
+   "topic": "Specific Heat",
+   "question": "An ideal gas has molecules with 5 degrees of freedom. The ratio of specific heats at constant pressure ($C_p$) and at constant volume ($C_v$) is :",
+   "year": ""
+  },
+  {
+   "id": 309,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat and Thermodynamics",
+   "topic": "Specific Heat",
+   "question": "Two moles of helium are mixed with n moles of hydrogen. If ${{C_p} \\over {C_v}} = {3 \\over 2}$ for the mixture, then the value of n is :",
+   "year": ""
+  },
+  {
+   "id": 310,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat and Thermodynamics",
+   "topic": "Internal Energy",
+   "question": "A gas mixture consists of 3 moles of oxygen and 5 moles of argon at temperature T. considering only translational and rotational modes, the total internal energy of the system is :",
+   "year": ""
+  },
+  {
+   "id": 311,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "Relative Motion",
+   "question": "A system is shown in the figure. Block A is moving with 1 m /s towards left. Wedge is moving with 1 m /s towards right. Then speed of the block B will be",
+   "year": ""
+  },
+  {
+   "id": 312,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "1D Motion",
+   "question": "Consider a particle initially moving with a velocity 7 m/s starts decelerating at a constant rate of $2m/s^{2}$. The distance travelled in the fourth second is $\\frac{x}{10}m$. Find the value of x.",
+   "year": ""
+  },
+  {
+   "id": 313,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "2D Motion",
+   "question": "Starting from the origin at time $t = 0$, with initial velocity $5\\widehat{j}$ ms$^{-1}$, a particle moves in the x-y plane with a constant acceleration of $(10\\widehat{i} + 4\\widehat{j})$ ms$^{-2}$. At time $t$, its coordinates are $(20$ m$, y_0$ m$)$. The values of $t$ and $y_0$ are, respectively:",
+   "year": ""
+  },
+  {
+   "id": 314,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "Projectile Motion",
+   "question": "The trajectory of a projectile in a vertical plane is $y = \\alpha x - \\beta x^2$, where $\\alpha$ and $\\beta$ are constants and $x$ & $y$ are respectively the horizontal and vertical distances of the projectile from the point of projection. The angle of projection $\\theta$ and the maximum height attained $H$ are respectively given by:",
+   "year": ""
+  },
+  {
+   "id": 315,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Kinematics",
+   "topic": "2D Motion",
+   "question": "A particle starts from the origin at $t = 0$ with an initial velocity of $3.0\\widehat{i}$ m/s and moves in the x-y plane with a constant acceleration $(6\\widehat{i} + 4\\widehat{j})$ m/s$^2$. The x-coordinate of the particle at the instant when its y-coordinate is 32 m is $D$ meters. The value of $D$ is:",
+   "year": ""
+  },
+  {
+   "id": 316,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Rotational Motion",
+   "topic": "Dynamics",
+   "question": "An impulsive force F acts horizontally on a solid sphere of radius R placed on a horizontal surface. The line of action of the impulsive force is at a height h above the centre of the sphere. If the rotational and translational kinetic energies of the sphere just after the impulse are equal, then h is equal to",
+   "year": ""
+  },
+  {
+   "id": 317,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Rotational Motion",
+   "topic": "Conservation of Angular Momentum",
+   "question": "Initial angular velocity of a circular disc of mass $M$ is ${\\omega _1}.$ Then two small spheres of mass $m$ are attached gently to diametrically opposite points on the edge of the disc. What is the final angular velocity of the disc?",
+   "year": ""
+  },
+  {
+   "id": 318,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Rotational Motion",
+   "topic": "Angular Momentum",
+   "question": "A particle performing uniform circular motion has angular frequency is doubled & its kinetic energy halved, then the new angular momentum is",
+   "year": ""
+  },
+  {
+   "id": 319,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Rotational Motion",
+   "topic": "Conservation of Angular Momentum",
+   "question": "A solid sphere is rotating in free space. If the radius of the sphere is increased keeping mass same which on of the following will not be affected ?",
+   "year": ""
+  },
+  {
+   "id": 320,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Rotational Motion",
+   "topic": "Conservation of Angular Momentum",
+   "question": "A thin circular ring of mass $m$ and radius $R$ is rotating about its axis with a constant angular velocity $\\omega$. Two objects each of mass $M$ are attached gently to the opposite ends of a diameter of the ring. The ring now rotates with an angular velocity $\\omega ' = $",
+   "year": ""
+  },
+  {
+   "id": 321,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The distance of the point ($-$1, 2, $-$2) from the line of intersection of the planes 2x + 3y + 2z = 0 and x $-$ 2y + z = 0 is :",
+   "year": ""
+  },
+  {
+   "id": 322,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The vector equation of the plane passing through the intersection of the planes$\\overrightarrow r .\\left( {\\widehat i + \\widehat j + \\widehat k} \\right) = 1$ and$\\overrightarrow r .\\left( {\\widehat i - 2\\widehat j} \\right) = - 2$, and the point (1, 0, 2) is :",
+   "year": ""
+  },
+  {
+   "id": 323,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "If the mirror image of the point$P(3,4,9)$ in the line$\\frac{x-1}{3}=\\frac{y+1}{2}=\\frac{z-2}{1}$ is$(\\alpha, \\beta, \\gamma)$, then 14$(\\alpha+\\beta+\\gamma)$ is :",
+   "year": ""
+  },
+  {
+   "id": 324,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The two lines$x=ay+b,z=cy+d$ and$x = a'y + b',z = c'y + d'$ will be perpendicular, if and only if :",
+   "year": ""
+  },
+  {
+   "id": 325,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "A line makes the same angle$\\theta$, with each of the$x$ and$z$ axis. If the angle$\\beta \\,$, which it makes with y-axis, is such that$\\,{\\sin \\^2}\\beta = 3{\\sin \\^2}\\theta ,$ then${\\cos \\^2}\\theta$ equals :",
+   "year": ""
+  },
+  {
+   "id": 326,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "If a line makes an angle of$\\pi /4$ with the positive directions of each of$x$-axis and$y$-axis, then the angle that the line makes with the positive direction of the$z$-axis is :",
+   "year": ""
+  },
+  {
+   "id": 327,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "Let$L$ be the line of intersection of the planes$2x+3y+z=1$ and$x+3y+2z=2.$ If$L$ makes an angle$\\alpha$ with the positive$x$-axis, then cos$\\alpha$ equals",
+   "year": ""
+  },
+  {
+   "id": 328,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The projections of a vector on the three coordinate axis are$6,-3,2$ respectively. The direction cosines of the vector are :",
+   "year": ""
+  },
+  {
+   "id": 329,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "A line$AB$ in three-dimensional space makes angles${45^ \\circ }$ and${120^ \\circ }$ with the positive$x$-axis and the positive$y$-axis respectively. If$AB$ makes an acute angle$\\theta$ with the positive$z$-axis, then$\\theta$ equals :",
+   "year": ""
+  },
+  {
+   "id": 330,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The angle between the lines whose direction cosines satisfy the equations$l+m+n=0$ and${l\\^2} = {m\\^2} + {n\\^2}$ is :",
+   "year": ""
+  },
+  {
+   "id": 331,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "A plane which passes through the point$(3,2,0)$ and the line \n${{x - 4} \\over 1} = {{y - 7} \\over 5} = {{z - 4} \\over 4}$ is :",
+   "year": ""
+  },
+  {
+   "id": 332,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "If the angel$\\theta$ between the line${{x + 1} \\over 1} = {{y - 1} \\over 2} = {{z - 2} \\over 2}$ and \nthe plane$2x - y + \\sqrt \\lambda  \\,\\,z + 4 = 0$ is such that$\\sin \\,\\,\\theta  = {1 \\over 3}$ then value of$\\lambda$ is :",
+   "year": ""
+  },
+  {
+   "id": 333,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "If the plane$2ax-3ay+4az+6=0$ passes through the midpoint of the line joining the centres of the spheres \n${x^2} + {y^2} + {z^2} + 6x - 8y - 2z = 13$ and \n${x^2} + {y^2} + {z^2} - 10x + 4y - 2z = 8$ then a equals :",
+   "year": ""
+  },
+  {
+   "id": 334,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The distance between the line \n$\\overrightarrow r  = 2\\widehat i - 2\\widehat j + 3\\widehat k + \\lambda \\left( {i - j + 4k} \\right),$ and the plane \n$\\overrightarrow r .\\left( {\\widehat i + 5\\widehat j + \\widehat k} \\right) = 5$ is",
+   "year": ""
+  },
+  {
+   "id": 335,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The image of the point$(-1, 3,4)$ in the plane$x-2y=0$ is :",
+   "year": ""
+  },
+  {
+   "id": 336,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "CH3 - Mg - Br is an organometallic compound due to :",
+   "year": ""
+  },
+  {
+   "id": 337,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "Coordination compound have great importance in biological systems. In this context which of the following statements is incorrect?",
+   "year": ""
+  },
+  {
+   "id": 338,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "Match the metals (column I) with the coordination compound(s)/enzyme(s) (column II)  (Column I) Metals (Column II) Coordination compounds(s) enzyme(s) (A) Co (i) Wilkinson catalyst (B) Zn (ii) Chlorophyl (C) Rh (iii) Vitamin B12 (D) Mg (iv) Carbonic anhydrase",
+   "year": ""
+  },
+  {
+   "id": 339,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "The number of bridging CO ligand(s) and Co-Co bond(s) in Co2(CO)8, respectively are :",
+   "year": ""
+  },
+  {
+   "id": 340,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "Mn2(CO)10 is an organometallic compound due to the presence of -",
+   "year": ""
+  },
+  {
+   "id": 341,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "The compound that inhibits the growth of tumors is :",
+   "year": ""
+  },
+  {
+   "id": 342,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "The compound used in the treatment of lead poisoning is :",
+   "year": ""
+  },
+  {
+   "id": 343,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "The potassium ferrocyanide solution gives a Prussian blue colour, when added to :",
+   "year": ""
+  },
+  {
+   "id": 344,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "To inhibit the growth of tumours, identify the compounds used from the following : A. EDTA B. Coordination Compounds of Pt C. D - Penicillamine D. Cis - Platin Choose the correct answer from the option given below :",
+   "year": ""
+  },
+  {
+   "id": 345,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "The crystal field splitting energy for octahedral complex$\\left( \\Delta_{0} \\right)$ and that for tetrahedral complex$\\left( \\Delta_{t} \\right)$ are related as: $\\left( \\Delta_{t} \\right)$ ds fy, fLVy {ks=k foikVu fuEu izdkj lEcfU/kr",
+   "year": ""
+  },
+  {
+   "id": 346,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "Which statement is not true with respect to nitrate ion test?",
+   "year": ""
+  },
+  {
+   "id": 347,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "Correct formula of the compound which gives a white precipitate with BaCl2 solution, but not with AgNO3 solution, is :",
+   "year": ""
+  },
+  {
+   "id": 348,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "$\\mathrm{Fe}^{3+}$ cation gives a prussian blue precipitate on addition of potassium ferrocyanide solution due to the formation of :",
+   "year": ""
+  },
+  {
+   "id": 349,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "A solution of$\\mathrm{FeCl_3}$ when treated with$\\mathrm{K_4[Fe(CN)_6]}$ gives a prussium blue precipitate due to the formation of :",
+   "year": ""
+  },
+  {
+   "id": 350,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemistry",
+   "topic": "Coordination Compounds",
+   "question": "The mismatched combinations are\nA. Chlorophyll - Co\nB. Water hardness - EDTA\nC. Photography$-\\left[\\mathrm{Ag}(\\mathrm{CN})_{2}\\right]^{-}$\nD. Wilkinson catalyst$-\\left[\\left(\\mathrm{Ph}_{3} \\mathrm{P}\\right)_{3} \\mathrm{RhCl}\\right]$\nE. Chelating ligand - D-Penicillamine\nChoose the correct answer from the options given below :",
+   "year": ""
+  },
+  {
+   "id": 351,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work Power and Energy",
+   "question": "A ball whose kinetic energy E, is projected at an angle of$45^\\circ$ to the horizontal. The kinetic energy of the ball at the highest point of its height will be",
+   "year": ""
+  },
+  {
+   "id": 352,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work Power and Energy",
+   "question": "If a body looses half of its velocity on penetrating$3 cm$ in a wooden block, then how much will it penetrate more before coming to rest?",
+   "year": ""
+  },
+  {
+   "id": 353,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work Power and Energy",
+   "question": "A wire suspended vertically from one of its ends is stretched by attaching a weight of$200N$ to the lower end. The weight stretches the wire by$1 mm.$ Then the elastic energy stored in the wire is",
+   "year": ""
+  },
+  {
+   "id": 354,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work Power and Energy",
+   "question": "A particle moves in a straight line with retardation proportional to its displacement. Its loss of kinetic energy for any displacement$x$ is proportional to",
+   "year": ""
+  },
+  {
+   "id": 355,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work Power and Energy",
+   "question": "A uniform chain of length$2 m$ is kept on a table such that a length of$60 cm$ hangs freely from the edge of the table. The total mass of the chain is$4 kg.$ What is the work done in pulling the entire chain on the table?",
+   "year": ""
+  },
+  {
+   "id": 356,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work Power and Energy",
+   "question": "A particle is acted upon by a force of constant magnitude which is always perpendicular to the velocity of the particle, the motion of the particles takes place in a plane. It follows that",
+   "year": ""
+  },
+  {
+   "id": 357,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A boy is rolling a 0.5 kg ball on the frictionless floor with the speed of 20 ms-1. The ball gets deflected by an obstacle on the way. After deflection it moves with 5% of its initial kinetic energy. What is the speed of the ball now?",
+   "year": ""
+  },
+  {
+   "id": 358,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A block moving horizontally on a smooth surface with a speed of 40 m/s splits into two parts with masses in the ratio of 1 : 2. If the smaller part moves at 60 m/s in the same direction, then the fractional change in kinetic energy is :-",
+   "year": ""
+  },
+  {
+   "id": 359,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A particle of mass 500 gm is moving in a straight line with velocity v = b x5/2. The work done by the net force during its displacement from x = 0 to x = 4 m is : (Take b = 0.25 m$-$3/2 s$-$1).",
+   "year": ""
+  },
+  {
+   "id": 360,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A body of mass$0.5 \\mathrm{~kg}$ travels on straight line path with velocity$v=\\left(3 x^{2}+4\\right) \\mathrm{m} / \\mathrm{s}$. The net workdone by the force during its displacement from$x=0$ to$x=2 \\mathrm{~m}$ is :",
+   "year": ""
+  },
+  {
+   "id": 361,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A bag of sand of mass 9.8 kg is suspended by a rope. A bullet of 200 g travelling with speed 10 ms$-$1 gets embedded in it, then loss of kinetic energy will be :",
+   "year": ""
+  },
+  {
+   "id": 362,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A ball is projected with kinetic energy E, at an angle of$60^{\\circ}$ to the horizontal. The kinetic energy of this ball at the highest point of its flight will become :",
+   "year": ""
+  },
+  {
+   "id": 363,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A stone is projected at angle$30^{\\circ}$ to the horizontal. The ratio of kinetic energy of the stone at point of projection to its kinetic energy at the highest point of flight will be -",
+   "year": ""
+  },
+  {
+   "id": 364,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "Two bodies are having kinetic energies in the ratio 16 : 9. If they have same linear momentum, the ratio of their masses respectively is :",
+   "year": ""
+  },
+  {
+   "id": 365,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "Given below are two statements:\nStatement I : A truck and a car moving with same kinetic energy are brought to rest by applying breaks which provide equal retarding forces. Both come to rest in equal distance.\nStatement II : A car moving towards east takes a turn and moves towards north, the speed remains unchanged. The acceleration of the car is zero.\nIn the light of given statements, choose the most appropriate answer from the options given below",
+   "year": ""
+  },
+  {
+   "id": 366,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A bullet is fired into a fixed target looses one third of its velocity after travelling$4 \\mathrm{~cm}$. It penetrates further$\\mathrm{D} \\times 10^{-3} \\mathrm{~m}$ before coming to rest. The value of$\\mathrm{D}$ is :",
+   "year": ""
+  },
+  {
+   "id": 367,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "The potential energy function (in$J$ ) of a particle in a region of space is given as$U=\\left(2 x^2+3 y^3+2 z\\right)$. Here$x, y$ and$z$ are in meter. The magnitude of$x$-component of force (in$N$ ) acting on the particle at point$P(1,2,3) \\mathrm{m}$ is :",
+   "year": ""
+  },
+  {
+   "id": 368,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "If a rubber ball falls from a height$h$ and rebounds upto the height of$h / 2$. The percentage loss of total energy of the initial system as well as velocity ball before it strikes the ground, respectively, are :",
+   "year": ""
+  },
+  {
+   "id": 369,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "When kinetic energy of a body becomes 36 times of its original value, the percentage increase in the momentum of the body will be :",
+   "year": ""
+  },
+  {
+   "id": 370,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A bullet of mass$50 \\mathrm{~g}$ is fired with a speed$100 \\mathrm{~m} / \\mathrm{s}$ on a plywood and emerges with$40 \\mathrm{~m} / \\mathrm{s}$. The percentage loss of kinetic energy is :",
+   "year": ""
+  },
+  {
+   "id": 371,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "Four particles$A, B, C, D$ of mass$\\frac{m}{2}, m, 2 m, 4 m$, have same momentum, respectively. The particle with maximum kinetic energy is :",
+   "year": ""
+  },
+  {
+   "id": 372,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A constant power delivering machine has towed a box, which was initially at rest, along a horizontal straight line. The distance moved by the box in time 't' is proportional to :-",
+   "year": ""
+  },
+  {
+   "id": 373,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A body at rest is moved along a horizontal straight line by a machine delivering a constant power. The distance moved by the body in time 't' is proportional to :",
+   "year": ""
+  },
+  {
+   "id": 374,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "An automobile of mass 'm' accelerates starting from origin and initially at rest, while the engine supplies constant power P. The position is given as a function of time by :",
+   "year": ""
+  },
+  {
+   "id": 375,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "Sand is being dropped from a stationary dropper at a rate of$0.5 \\,\\mathrm{kgs}^{-1}$ on a conveyor belt moving with a velocity of$5 \\mathrm{~ms}^{-1}$. The power needed to keep the belt moving with the same velocity will be :",
+   "year": ""
+  },
+  {
+   "id": 376,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "The ratio of powers of two motors is$\\frac{3 \\sqrt{x}}{\\sqrt{x}+1}$, that are capable of raising$300 \\mathrm{~kg}$ water in 5 minutes and$50 \\mathrm{~kg}$ water in 2 minutes respectively from a well of$100 \\mathrm{~m}$ deep. The value of$x$ will be",
+   "year": ""
+  },
+  {
+   "id": 377,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A body of mass$2 \\mathrm{~kg}$ begins to move under the action of a time dependent force given by$\\vec{F}=\\left(6 t \\hat{i}+6 t^2 \\hat{j}\\right) N$. The power developed by the force at the time$t$ is given by:",
+   "year": ""
+  },
+  {
+   "id": 378,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A body is moving unidirectionally under the influence of a constant power source. Its displacement in time t is proportional to :",
+   "year": ""
+  },
+  {
+   "id": 379,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A porter lifts a heavy suitcase of mass 80 kg and at the destination lowers it down by a distance of 80 cm with a constant velocity. Calculate the work done by the porter in lowering the suitcase.(take g = 9.8 ms$-$2)",
+   "year": ""
+  },
+  {
+   "id": 380,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A body of mass 'm' dropped from a height 'h' reaches the ground with a speed of 0.8$\\sqrt {gh}$. The value of workdone by the air-friction is :",
+   "year": ""
+  },
+  {
+   "id": 381,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A particle experiences a variable force$\\overrightarrow F  = \\left( {4x\\widehat i + 3{y^2}\\widehat j} \\right)$ in a horizontal x-y plane. Assume distance in meters and force is newton. If the particle moves from point (1, 2) to point (2, 3) in the x-y plane, then Kinetic Energy changes by :",
+   "year": ""
+  },
+  {
+   "id": 382,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "Identify the correct statements from the following :\nA. Work done by a man in lifting a bucket out of a well by means of a rope tied to the bucket is negative.\nB. Work done by gravitational force in lifting a bucket out of a well by a rope tied to the bucket is negative.\nC. Work done by friction on a body sliding down an inclined plane is positive.\nD. Work done by an applied force on a body moving on a rough horizontal plane with uniform velocity is zero.\nE. Work done by the air resistance on an oscillating pendulum is negative.\nChoose the correct answer from the options given below :",
+   "year": ""
+  },
+  {
+   "id": 383,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A bullet of mass$0.1 \\mathrm{~kg}$ moving horizontally with speed$400 \\mathrm{~ms}^{-1}$ hits a wooden block of mass$3.9 \\mathrm{~kg}$ kept on a horizontal rough surface. The bullet gets embedded into the block and moves$20 \\mathrm{~m}$ before coming to rest. The coefficient of friction between the block and the surface is __________.\n(Given$g=10 \\mathrm{~m} / \\mathrm{s}^{2}$ )",
+   "year": ""
+  },
+  {
+   "id": 384,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A block of mass$100 \\mathrm{~kg}$ slides over a distance of$10 \\mathrm{~m}$ on a horizontal surface. If the co-efficient of friction between the surfaces is 0.4, then the work done against friction$(\\operatorname{in} J$) is :",
+   "year": ""
+  },
+  {
+   "id": 385,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A particle of mass$m$ moves on a straight line with its velocity increasing with distance according to the equation$v=\\alpha \\sqrt{x}$, where$\\alpha$ is a constant. The total work done by all the forces applied on the particle during its displacement from$x=0$ to$x=\\mathrm{d}$, will be :",
+   "year": ""
+  },
+  {
+   "id": 386,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A bullet fired into a fixed target loses half of its velocity after penetrating$3 cm.$ How much further it will penetrate before coming to rest assuming that it faces constant resistance to motion?",
+   "year": ""
+  },
+  {
+   "id": 387,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "The upper half of an inclined plane with inclination$\\phi$ is perfectly smooth while the lower half is rough. A body starting from rest at the top will again come to rest at the bottom if the coefficient of friction for the lower half is given by",
+   "year": ""
+  },
+  {
+   "id": 388,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A  spherical ball of mass$20 kg$ is stationary at the top of a hill of height$100 m$. It rolls down a smooth surface to the ground, then climbs up another hill of height$30 m$ and finally rolls down to a horizontal base at a height of$20 m$ above the ground. The velocity attained by the ball is",
+   "year": ""
+  },
+  {
+   "id": 389,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A mass of$M kg$ is suspended by a weightless string. The horizontal force that is required to displace it until the string makes an angle of${45^ \\circ }$ with the initial vertical direction is",
+   "year": ""
+  },
+  {
+   "id": 390,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A ball of mass$0.2 kg$ is thrown vertically upwards by applying a force by hand. If the hand moves$0.2 m$ while applying the force and the ball goes upto$2 m$ height further, find the magnitude of the force. (consider$g = 10\\,m/{s^2}$).",
+   "year": ""
+  },
+  {
+   "id": 391,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A particle of mass$100g$ is thrown vertically upwards with a speed of$5 m/s$. The work done by the force of gravity during the time the particle goes up is",
+   "year": ""
+  },
+  {
+   "id": 392,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "The potential energy of a$1 kg$ particle free to move along the$x$-axis is given by$V\\left( x \\right) = \\left( {{{{x^4}} \\over 4} - {{{x^2}} \\over 2}} \\right)J$.\nThe total mechanical energy of the particle is$2J.$ Then, the maximum speed (in$m/s$) is",
+   "year": ""
+  },
+  {
+   "id": 393,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A particle is projected at$60^\\circ$ to the horizontal with a kinetic energy K. The kinetic energy at the\nhighest point is",
+   "year": ""
+  },
+  {
+   "id": 394,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A$2 kg$ block slides on a horizontal floor with a speed of$4m/s.$ It strikes a uncompressed spring, and compress it till the block is motionless. The kinetic friction force is$15N$ and spring constant is$10, 000 N/m.$ The spring compresses by",
+   "year": ""
+  },
+  {
+   "id": 395,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "An athlete in the olympic games covers a distance of$100 m$ in$10 s.$ His kinetic energy can be estimated to be in the range",
+   "year": ""
+  },
+  {
+   "id": 396,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "The potential energy function for the force between two atoms in a diatomic molecule is approximately given by$U\\left( x \\right) = {a \\over {{x^{12}}}} - {b \\over {{x^6}}},$ where$a$ and$b$ are constants and$x$ is the distance between the atoms. If the dissociation energy of the molecule is$D = \\left[ {U\\left( {x = \\infty } \\right) - {U_{at\\,\\,equilibrium}}} \\right],\\,\\,D$ is",
+   "year": ""
+  },
+  {
+   "id": 397,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "This question has Statement$1$ and Statement$2.$ Of the four choices given after the Statements, choose the one that best describes the two Statements. \nIf two springs${S_1}$ and${S_2}$ of force constants${k_1}$ and${k_2}$, respectively, are stretched by the same force, it is found that more work is done on spring${S_1}$ than on spring${S_2}$.\nSTATEMENT 1: If stretched by the same amount work done on${S_1}$, Work done on${S_1}$ is more than${S_2}$\nSTATEMENT 2: ${k_1} &lt; {k_2}$",
+   "year": ""
+  },
+  {
+   "id": 398,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A person trying to lose weight by burning fat lifts a mass of$10 kg$ upto a height of$1 m 1000$ times. Assume that the potential energy lost each time he lowers the mass  is dissipated.  How much fat will he use up considering the work done only when the weight is lifted up? Fat supplies$3.8 \\times {10^7}J$ of energy per$kg$ which is converted to mechanical energy with a$20\\% $  efficiency rate. Take$g = 9.8\\,m{s^{ - 2}}$ :",
+   "year": ""
+  },
+  {
+   "id": 399,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A body of mass m = 10–2 kg is moving in a medium and experiences a frictional force F = –kv2. Its initial speed is v0 = 10 ms–1. If, after 10 s, its energy is${1 \\over 8}mv_0^2$, the value of k will be:",
+   "year": ""
+  },
+  {
+   "id": 400,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Work, Power and Energy",
+   "topic": "Work-Power-And-Energy",
+   "question": "A time dependent force F = 6t acts on a particle of mass 1 kg. If the particle starts from rest, the work done\nby the force during the first 1 sec. will be:",
+   "year": ""
+  },
+  {
+   "id": 401,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The absolute difference of the coefficients of $x^{10}$ and $x^{7}$ in the expansion of $\\left(2 x^{2}+\\frac{1}{2 x}\\right)^{11}$ is equal to :",
+   "year": ""
+  },
+  {
+   "id": 402,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "For the natural numbers m, n, if${(1 - y)\\^m}{(1 + y)\\^n} = 1 + {a\\_1}y + {a\\_2}{y\\^2} + .... + {a_{m + n}}{y^{m + n}}$ and${a\\_1} = {a\\_2} = 10$, then the value of (m + n) is equal to :",
+   "year": ""
+  },
+  {
+   "id": 403,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "If the greatest value of the term independent of 'x' in the expansion of${\\left( {x\\sin \\alpha + a{{\\cos \\alpha } \\over x}} \\right)^{10}}$ is${{10!} \\over {{{(5!)}\\^2}}}$, then the value of 'a' is equal to :",
+   "year": ""
+  },
+  {
+   "id": 404,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The positive integer just greater than${\\left( {1 + 0.0001} \\right)^{10000}}$ is",
+   "year": ""
+  },
+  {
+   "id": 405,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The lowest integer which is greater than ${\\left( {1 + {1 \\over {{{10}^{100}}}}} \\right)^{{{10}^{100}}}}$ is \\_\\__\\_\\__\\_\\__\\_\\__\\__.",
+   "year": ""
+  },
+  {
+   "id": 406,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "Let $m$ and $n$ be the coefficients of seventh and thirteenth terms respectively in the expansion of $\\left(\\frac{1}{3} x^{\\frac{1}{3}}+\\frac{1}{2 x^{\\frac{2}{3}}}\\right)^{18}$. Then $\\left(\\frac{\\mathrm{n}}{\\mathrm{m}}\\right)^{\\frac{1}{3}}$ is :",
+   "year": ""
+  },
+  {
+   "id": 407,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The sum of all rational terms in the expansion of$\\left(2^{\\frac{1}{5}}+5^{\\frac{1}{3}}\\right)^{15}$ is equal to :",
+   "year": ""
+  },
+  {
+   "id": 408,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The remainder left out when${8^{2n}} - {\\left( {62} \\right)^{2n + 1}}$ is divided by 9 is :",
+   "year": ""
+  },
+  {
+   "id": 409,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "If (27)999 is divided by 7, then the remainder is :",
+   "year": ""
+  },
+  {
+   "id": 410,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The greatest positive integer k, for which 49k + 1 is a factor of the sum 49125 + 49124 + ..... + 492 + 49 + 1, is:",
+   "year": ""
+  },
+  {
+   "id": 411,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "Greatest term in the expansion of (1 + t)^2n has greatest\ncoefficient if and only if\n$t \\in \\left( \\frac{9}{10},\\frac{10}{9} \\right)$. The coefficient of\nx^5 in the expansion of (1 + x - 2x^2)^n is",
+   "year": ""
+  },
+  {
+   "id": 412,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The sum of\nseries $\\frac{\\ ^{50}C_{0}}{50!50!} + \\frac{\\ ^{50}C_{1}}{49!51!} + \\frac{\\ ^{50}C_{2}}{48!52!}$+.........+$\\frac{\\ ^{50}C_{50}}{100!}$ equal\nto",
+   "year": ""
+  },
+  {
+   "id": 413,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "If\n$\\left( C_{0} + C_{1} \\right)\\left( C_{1} + C_{2} \\right)\\ldots\\left( C_{n} - 1 + C_{n} \\right) = mC_{1}C_{2}$......$C_{n - 1}$,\nthen m is",
+   "year": ""
+  },
+  {
+   "id": 414,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The sum of the\nseries $\\ ^{20}C_{0} - \\ ^{20}C_{1} + \\ ^{20}C_{2} - \\ ^{20}C_{3} + \\ldots + \\ ^{20}C_{10}\\ is\\$",
+   "year": ""
+  },
+  {
+   "id": 415,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "The coefficient of t^4 in the expansion of\n$\\left( \\frac{1 - t^{6}}{1 - t} \\right)^{3}$ is",
+   "year": ""
+  },
+  {
+   "id": 416,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "If the third term in the binomial expansion of\n$\\left( 1 + x^{\\log_{2}x} \\right)^{5}$ equals 2560, then a possible\nvalue of x is",
+   "year": ""
+  },
+  {
+   "id": 417,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Binomial Theorem",
+   "topic": "Binomial Theorem",
+   "question": "If numerically greatest term in the expansion of (1- x)^21 has\nthe numerically greatest co-efficient is (x > 0) then complete set of\nvalues of x are.",
+   "year": ""
+  },
+  {
+   "id": 418,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "During dehydration of alcohols to alkenes by heating with conc. H2SO4 the initiation step is",
+   "year": ""
+  },
+  {
+   "id": 419,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "Acid catalyzed hydration of alkenes except ethene leads to the formation of",
+   "year": ""
+  },
+  {
+   "id": 420,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "The best reagent to convert pent -3- en-2-ol into pent -3-en-2-one is",
+   "year": ""
+  },
+  {
+   "id": 421,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "From amongst the following alcohols the one that would react fastest with conc. HCl and anhydrous ZnCl2, is",
+   "year": ""
+  },
+  {
+   "id": 422,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "An unknown alcohol is treated with the Lucas reagent to determine whether the alcohol is primary, secondary or tertiary. Which alcohol reacts fastest and by what mechanism:",
+   "year": ""
+  },
+  {
+   "id": 423,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "The most suitable reagent for the conversion of R - CH2 - OH$\\to$ R - CHO is:",
+   "year": ""
+  },
+  {
+   "id": 424,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "Bouveault-Blanc reduction reaction involves :",
+   "year": ""
+  },
+  {
+   "id": 425,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "The major product of the following reaction is : ${\\rm{C}}{{\\rm{H}}\\_3}{\\rm{CH = CHC}}{{\\rm{O}}\\_2}{\\rm{CH\\_3 }}\\buildrel {LiAl{H\\_4}} \\over \\longrightarrow$",
+   "year": ""
+  },
+  {
+   "id": 426,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "Ceric ammonium nitrate and CHCl3/alc. KOH are used for the identification of functional groups present in \\_\\__\\_\\__\\_\\_\\__ and \\_\\__\\_\\_\\__ respectively.",
+   "year": ""
+  },
+  {
+   "id": 427,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "Given below are two statements : one is labelled as Assertion (A) and the other is labelled as Reason (R). Assertion (A) : Treatment of bromine water with propene yields 1-bromopropan-2-ol. Reason (R) : Attack of water on bromonium ion follows Markovnikov rule and results in 1-bromopropan-2-ol. In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "year": ""
+  },
+  {
+   "id": 428,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "Given below are two statements :\nStatement I : On heating with$\\mathrm{KHSO}_{4}$, glycerol is dehydrated and acrolein is formed.\nStatement II : Acrolein has fruity odour and can be used to test glycerol's presence.\nChoose the correct option.",
+   "year": ""
+  },
+  {
+   "id": 429,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "When ethanol is heated with conc. $\\mathrm{H}_{2} \\mathrm{SO}_{4}$, a gas is produced. The compound formed, when this gas is treated with cold dilute aqueous solution of Baeyer's reagent, is",
+   "year": ""
+  },
+  {
+   "id": 430,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "A solution of$\\mathrm{Cr O_5}$ in amyl alcohol has a __________ colour.",
+   "year": ""
+  },
+  {
+   "id": 431,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "Incorrect method of preparation for alcohols from the following is:",
+   "year": ""
+  },
+  {
+   "id": 440,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "An arc lamp requires a direct current of\n10 A at 80 V to function. If it is connected\nto a 220 V (rms), 50 Hz AC supply, the\nseries inductor needed for it to work is\nclose to :",
+   "year": ""
+  },
+  {
+   "id": 441,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "A sinusoidal voltage of peak value 283 V and angular frequency 320/s is applied to a series LCR circuit. Given that R=5$\\Omega$, L=25 mH and C=1000$\\mu$F. The total impedance, and phase difference between the voltage across the source and the current will respectively be :",
+   "year": ""
+  },
+  {
+   "id": 442,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "In an a.c. circuit, the instantaneous e.m.f. and current are given by <br/>\ne = 100 sin 30 t<br/>\ni = 20 sin$\\left( {30t - {\\pi \\over 4}} \\right)$<br/>\nIn one cycle of a.c., the average power consumed by the circuit and the wattless current are, respectively",
+   "year": ""
+  },
+  {
+   "id": 443,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "An ideal capacitor of capacitance$0.2\\,\\mu F$ is charged to a potential difference of$10 V.$ The charging battery is then disconnected. The capacitor is then connected to an ideal inductor of self inductance$0.5 mH.$ The current at a time when the potential difference across the capacitor is$5 V,$ is :",
+   "year": ""
+  },
+  {
+   "id": 444,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "A circuit connected to an ac source of emf\ne = e<sub>0</sub>sin(100t) with t in seconds, gives a phase\ndifference of$\\pi$/4 between the emf e and\ncurrent i. Which of the following circuits will\nexhibit this ?",
+   "year": ""
+  },
+  {
+   "id": 445,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "An alternating voltage v(t) = 220 sin 100$\\pi$t volt\nis applied to a purely resistance load of 50$\\Omega$ .\nThe time taken for the current to rise from half\nof the peak value to the peak value is :",
+   "year": ""
+  },
+  {
+   "id": 446,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "A series AC circuit containing an inductor (20 mH), a capacitor (120$\\mu$F) and a resistor (60$\\Omega$) is driven by an AC source of 24V/50 Hz. The energy dissipated in the circuit in 60 s is :",
+   "year": ""
+  },
+  {
+   "id": 447,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "An inductance coil has a reactance of 100$\\Omega$.\nWhen an AC signal of frequency 1000 Hz is\napplied to the coil, the applied voltage leads\nthe current by 45<sup>o</sup>. The self-inductance of the\ncoil is",
+   "year": ""
+  },
+  {
+   "id": 448,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "A 750 Hz, 20 V (rms) source is connected to a\nresistance of 100$\\Omega$, an inductance of 0.1803 H\nand a capacitance of 10$\\mu$F all in series. The\ntime in which the resistance (heat capacity\n2 J/<sup>o</sup>C) will get heated by 10<sup>o</sup>C. (assume no loss\nof heat to the surroudnings) is close to :",
+   "year": ""
+  },
+  {
+   "id": 449,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "An LCR circuit contains resistance of 110$\\Omega$ and a supply of 220 V at 300 rad/s angular frequency. If only capacitance is removed from the circuit, current lags behind the voltage by 45$^\\circ$. If on the other hand, only inductor is removed the current leads by 45$^\\circ$ with the applied voltage. The rms current flowing in the circuit will be :",
+   "year": ""
+  },
+  {
+   "id": 450,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Alternating Current",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "Match List I with List II.<br/><br/><table>\n<thead>\n<tr>\n<th></th>\n<th>List I</th>\n<th></th>\n<th>List II</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>(a)</td>\n<td>Rectifier</td>\n<td>(i)</td>\n<td>Used either for stepping up or stepping down the a.c. voltage</td>\n</tr>\n<tr>\n<td>(b)</td>\n<td>Stabilizer</td>\n<td>(ii)</td>\n<td>Used to convert a.c. voltage into d.c. voltage</td>\n</tr>\n<tr>\n<td>(c)</td>\n<td>Transformer</td>\n<td>(iii)</td>\n<td>Used to remove any ripple in the rectified output voltage</td>\n</tr>\n<tr>\n<td>(d)</td>\n<td>Filter</td>\n<td>(iv)</td>\n<td>Used for constant output voltage even when the input voltage or load current change</td>\n</tr>\n</tbody>\n</table><br/><br/>Choose the correct answer from the options given below :",
+   "year": ""
+  },
+  {
+   "id": 451,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "AC",
+   "topic": "JEE Main 2017 PYQ",
+   "question": "In the given A.C. circuit, if battery voltage is $V = 200\\sqrt{2}sin(100\\pi t)$, power delivered by battery will have a power factor of",
+   "year": ""
+  },
+  {
+   "id": 452,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Atoms and Nuclei",
+   "topic": "JEE Main 2017 PYQ",
+   "question": "Imagine that a reactor converts all given mass into energy and that it operates at a power level of 109 watt. The mass of the fuel consumed per hour in the reactor will be : (velocity of light, c is 3$×$108 m/s)",
+   "year": ""
+  },
+  {
+   "id": 453,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Center of Mass",
+   "topic": "JEE Main 2015 PYQ",
+   "question": "Distance of the center of mass of a solid uniform cone from its vertex is$z{}\\_0$. If the radius of its base is$R$ and its height is$h$ then$z{}\\_0$ is equal to :",
+   "year": ""
+  },
+  {
+   "id": 454,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Circular Motion",
+   "topic": "JEE Main 2023 PYQ",
+   "question": "A car is moving with a constant speed of 20 m/s in a circular horizontal track of radius 40 m. A bob is suspended from the roof of the car by a massless string. The angle made by the string with the vertical will be : (Take g = 10 m/s$^2$)",
+   "year": ""
+  },
+  {
+   "id": 455,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Communication Systems",
+   "topic": "JEE Main 2022 PYQ",
+   "question": "In AM modulation, a signal is modulated on a carrier wave such that maximum and minimum amplitudes are found to be 6 V and 2 V respectively. The modulation index is :",
+   "year": ""
+  },
+  {
+   "id": 456,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Current Electricity",
+   "topic": "JEE Main 2023 PYQ",
+   "question": "The resistance of a wire is 5$\\Omega$. It's new resistance in ohm if stretched to 5 times of it's original length will be :",
+   "year": ""
+  },
+  {
+   "id": 457,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Dual Nature of Radiation",
+   "topic": "JEE Main 2023 PYQ",
+   "question": "The threshold frequency of a metal is$f_{0}$. When the light of frequency$2 f_{0}$ is incident on the metal plate, the maximum velocity of photoelectrons is$v_{1}$. When the frequency of incident radiation is increased to$5 \\mathrm{f}_{0}$, the maximum velocity of photoelectrons emitted is$v_{2}$. The ratio of$v_{1}$ to$v_{2}$ is :",
+   "year": ""
+  },
+  {
+   "id": 458,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Electrostatics",
+   "topic": "JEE Main 2003 PYQ",
+   "question": "If the electric flux entering and leaving an enclosed surface respectively is${\\phi _1}$ and${\\phi _2},$ the electric charge inside the surface will be",
+   "year": ""
+  },
+  {
+   "id": 459,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Aldehydes Ketones and Carboxylic Acids",
+   "topic": "JEE Main 2021 PYQ",
+   "question": "Assertion A : Enol form of acetone [CH3COCH3] exists in < 0.1% quantity. However, the enol form of acetyl acetone [CH3COCH2OCCH3] exists in approximately 15% quantity.Reason R : Enol form of acetyl acetone is stabilized by intramolecular hydrogen bonding, which is not possible in enol form of acetone.Choose the correct statement :",
+   "year": ""
+  },
+  {
+   "id": 460,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Basics of Organic Chemistry",
+   "topic": "JEE Main 2006 PYQ",
+   "question": "CH3Br + Nu- $\\to$ CH3 - Nu + Br- The decreasing order of the rate of the above reaction with nucleophiles (Nu) A to D is [Nu = (A) PhO, (B) AcO, (C) HO, (D) CH3O]",
+   "year": ""
+  },
+  {
+   "id": 461,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Basics of Organic Chemistry",
+   "topic": "JEE Main 2005 PYQ",
+   "question": "Due to the presence of an unpaired electron, free radicals are:",
+   "year": ""
+  },
+  {
+   "id": 462,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemical Bonding and Molecular Structure",
+   "topic": "JEE Main 2023 PYQ",
+   "question": "Given below are two statements : Statement I : $\\mathrm{SO}_{2}$ and$\\mathrm{H}_{2} \\mathrm{O}$ both possess V-shaped structure. Statement II : The bond angle of$\\mathrm{SO}_{2}$ is less than that of$\\mathrm{H}_{2} \\mathrm{O}$. In the light of the above statements, choose the most appropriate answer from the options given below:",
+   "year": ""
+  },
+  {
+   "id": 463,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemical Equilibrium",
+   "topic": "JEE Main 2014 PYQ",
+   "question": "For the reaction SO2 (g) + ${1 \\over 2} O_2(g) \\leftrightharpoons$ SO3(g). if KP = KC(RT)x where the symbols have usual meaning then the value of x is: (assuming ideality)",
+   "year": ""
+  },
+  {
+   "id": 464,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Chemical Kinetics and Nuclear Chemistry",
+   "topic": "JEE Main 2009 PYQ",
+   "question": "The half life period of a first order chemical reaction is 6.93 minutes. The time required for the completion of 99% of the chemical reaction will be (log 2=0.301) :",
+   "year": ""
+  },
+  {
+   "id": 465,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Coordination Compounds",
+   "topic": "JEE Main 2022 PYQ",
+   "question": "The correct order of energy of absorption for the following metal complexes is : A : [Ni(en)3]2+ , B : [Ni(NH3)6]2+ , C : [Ni(H2O)6]2+",
+   "year": ""
+  },
+  {
+   "id": 466,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Coordination Compounds",
+   "topic": "JEE Main 2005 PYQ",
+   "question": "The IUPAC name of the coordination compound K3[Fe(CN)6] is",
+   "year": ""
+  },
+  {
+   "id": 467,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D",
+   "topic": "JEE Main PYQ",
+   "question": "The equation of the line passing through (-4, 3, 1), parallel to the plane x+2y-z-5=0 and intersecting the line$\\frac{x + 1}{- 3} = \\frac{y - 3}{2} = \\frac{z - 2}{- 1}$ is",
+   "year": ""
+  },
+  {
+   "id": 468,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "JEE Main 2024 PYQ",
+   "question": "Consider a$\\triangle A B C$ where$A(1,3,2), B(-2,8,0)$ and$C(3,6,7)$. If the angle bisector of$\\angle B A C$ meets the line$B C$ at$D$, then the length of the projection of the vector$\\overrightarrow{A D}$ on the vector$\\overrightarrow{A C}$ is :",
+   "year": ""
+  },
+  {
+   "id": 469,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "JEE Main 2023 PYQ",
+   "question": "If the foot of the perpendicular drawn from (1, 9, 7) to the line passing through the point (3, 2, 1) and parallel to the planes$x+2y+z=0$ and$3y-z=3$ is ($\\alpha,\\beta,\\gamma$), then$\\alpha+\\beta+\\gamma$ is equal to :",
+   "year": ""
+  },
+  {
+   "id": 470,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Application of Derivatives",
+   "topic": "JEE Main 2010 PYQ",
+   "question": "Let$f:R \\to R$ be defined by f\\left( x \\right) = \\left\\{ {\\matrix{ {k - 2x,\\,\\,if} & {x \\le - 1} \\cr {2x + 3,\\,\\,if} & {x > - 1} \\cr } } \\right. If$f$has a local minimum at$x=-1$, then a possible value of$k$ is",
+   "year": ""
+  },
+  {
+   "id": 471,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Application of Derivatives",
+   "topic": "JEE Main 2004 PYQ",
+   "question": "A function$y=f(x)$ has a second order derivative$f''\\left( x \\right) = 6\\left( {x - 1} \\right).$ If its graph passes through the point$(2, 1)$ and at that point the tangent to the graph is$y = 3x - 5$, then the function is :",
+   "year": ""
+  },
+  {
+   "id": 472,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Area Under the Curves",
+   "topic": "JEE Main 2024 PYQ",
+   "question": "If the area of the region$\\left\\{(x, y): \\frac{\\mathrm{a}}{x^2} \\leq y \\leq \\frac{1}{x}, 1 \\leq x \\leq 2,0<\\mathrm{a}<1\\right\\}$ is$\\left(\\log _{\\mathrm{e}} 2\\right)-\\frac{1}{7}$ then the value of$7 \\mathrm{a}-3$ is equal to :",
+   "year": ""
+  },
+  {
+   "id": 473,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Circle",
+   "topic": "JEE Main 2008 PYQ",
+   "question": "The differential equation of the family of circles with fixed radius$5$ units and centre on the line$y = 2$ is :",
+   "year": ""
+  },
+  {
+   "id": 474,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Circle",
+   "topic": "JEE Main 2022 PYQ",
+   "question": "Let the tangents at two points$\\mathrm{A}$ and$\\mathrm{B}$ on the circle$x^{2}+\\mathrm{y}^{2}-4 x+3=0$ meet at origin$\\mathrm{O}(0,0)$. Then the area of the triangle$\\mathrm{OAB}$ is :",
+   "year": ""
+  },
+  {
+   "id": 475,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat-And-Thermodynamics",
+   "topic": "Heat-And-Thermodynamics",
+   "question": "A hypothetical gas expands adiabatically such that its volume changes from 08 litres to 27 litres. If the ratio of final pressure of the gas to initial pressure of the gas is$\\frac{16}{81}$. Then the ratio of$\\frac{\\mathrm{Cp}}{\\mathrm{Cv}}$ will be.",
+   "year": ""
+  },
+  {
+   "id": 476,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Wave-Optics",
+   "topic": "Wave-Optics",
+   "question": "Two polaroide$\\mathrm{A}$ and$\\mathrm{B}$ are placed in such a way that the pass-axis of polaroids are perpendicular to each other. Now, another polaroid$\\mathrm{C}$ is placed between$\\mathrm{A}$ and$\\mathrm{B}$ bisecting angle between them. If intensity of unpolarized light is$\\mathrm{I}_{0}$ then intensity of transmitted light after passing through polaroid$\\mathrm{B}$ will be:",
+   "year": ""
+  },
+  {
+   "id": 477,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Units-And-Measurements",
+   "topic": "Units-And-Measurements",
+   "question": "Identify the pair of physical quantities which have different dimensions:",
+   "year": ""
+  },
+  {
+   "id": 478,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Rotational-Motion",
+   "topic": "Rotational-Motion",
+   "question": "Two discs have moments of inertia I1 and I2 about their respective axes perpendicular to the plane and passing through the centre. They are rotating with angular speeds, $\\omega$1 and$\\omega$2 respectively and are brought into contact face to face with their axes of rotation coaxial. The loss in kinetic energy of the system in the process is given by :",
+   "year": ""
+  },
+  {
+   "id": 479,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Magnetics",
+   "topic": "Magnetics",
+   "question": "A uniform electric field and a uniform magnetic field are acting along the same direction in a certain region. If an electron is projected along the direction of the fields with a certain velocity then",
+   "year": ""
+  },
+  {
+   "id": 480,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Communication Systems",
+   "topic": "Communication Systems",
+   "question": "A radar has a power of$1kW$ and is operating at a frequency of$10 GHz.$ It is located on a mountain top of height$500 m.$ The maximum distance upto which it can detect object located on the surface of the earth (Radius of earth$ = 6.4 \\times {10\\^6}m$) is :",
+   "year": ""
+  },
+  {
+   "id": 481,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Acceleration Due To Gravity And Its Variation",
+   "topic": "Acceleration Due To Gravity And Its Variation",
+   "question": "A box weight 196 N on a spring balance at the north pole. Its weight recorded on the same\nbalance if it is shifted to the equator is close to (Take g = 10 ms<sup>–2</sup> at the north pole and the radius\nof the earth = 6400 km) :",
+   "year": ""
+  },
+  {
+   "id": 482,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Units-And-Measurements",
+   "topic": "Units-And-Measurements",
+   "question": "If E, L, M and G denote the quantities as energy, angular momentum, mass and constant of gravitation respectively, then the dimensions of P in the formula P = EL2M$-$5G$-$2 are :",
+   "year": ""
+  },
+  {
+   "id": 483,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Periodic-Table-And-Periodicity",
+   "topic": "Periodic-Table-And-Periodicity",
+   "question": "Group-13 elements react with$\\mathrm{O}_{2}$ in amorphous form to form oxides of type$\\mathrm{M}_{2} \\mathrm{O}_{3}~(\\mathrm{M}=$ element). Which among the following is the most basic oxide?",
+   "year": ""
+  },
+  {
+   "id": 484,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Coordination-Compounds",
+   "topic": "Coordination-Compounds",
+   "question": "The magnetic moment is measured in Bohr Magneton (BM).\nSpin only magnetic moment of$\\mathrm{Fe}$ in$\\left[\\mathrm{Fe}\\left(\\mathrm{H}_{2} \\mathrm{O}\\right)_{6}\\right]^{3+}$ and$\\left[\\mathrm{Fe}(\\mathrm{CN})_{6}\\right]^{3-}$ complexes respectively is :",
+   "year": ""
+  },
+  {
+   "id": 485,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "question": "The following reaction is performed at 298 K\n2NO(g) +  O2 (g)$\\leftrightharpoons$ 2NO2 (g) \nThe standard free energy of formation of NO(g) is 86.6 kJ/mol at 298 K. What is the standard free energy\nof formation of NO2(g) at 298 K? (KP = 1.6 $×$ 1012)",
+   "year": ""
+  },
+  {
+   "id": 486,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Physical Chemistry",
+   "topic": "Physical Chemistry",
+   "question": "The rate of chemisorption",
+   "year": ""
+  },
+  {
+   "id": 487,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Surface-Chemistry",
+   "topic": "Surface-Chemistry",
+   "question": "Match List-I with List-II\n\n \n \n \n.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}\n.tg .tg-0lax{text-align:left;vertical-align:top}\n\n\n\n\n\n\n\n\n\n\n\nList - I\n\nList - II\n\n\n\n\n(A)\nLyophilic colloid\n(I)\nLiquid-liquid colloid\n\n\n(B)\nEmulsion\n(II)\nProtective colloid\n\n\n(C)\nPositively charged colloid\n(III)\nFeCl$_3$ + NaOH\n\n\n(D)\nNegatively charged colloid\n(IV)\nFeCl$_3$ + hot water\n\n\n\nChoose the correct answer from the options given below :",
+   "year": ""
+  },
+  {
+   "id": 488,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Inorganic Chemistry",
+   "topic": "Inorganic Chemistry",
+   "question": "Choose the factor that is responsible for ozone layer depletion.",
+   "year": ""
+  },
+  {
+   "id": 489,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Coordination-Compounds",
+   "topic": "Coordination-Compounds",
+   "question": "Which of the following compounds is not colored yellow?",
+   "year": ""
+  },
+  {
+   "id": 490,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "question": "Given\n$E_{C{r^{2 + }}/Cr}^o$ = -0.74 V; $E_{MnO_4^ - /M{n^{2 + }}}^o$ = 1.51 V\n$E_{C{r_2}O_7^{2 - }/C{r^{3 + }}}^o$ = 1.33 V; $E_{Cl/C{l^ - }}^o$ = 1.36 V\nBased on the data given above, strongest oxidising agent will be :",
+   "year": ""
+  },
+  {
+   "id": 491,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Hyperbola",
+   "topic": "Hyperbola",
+   "question": "If 5x + 9 = 0 is the directrix of the hyperbola 16x2 9y2 = 144, then its corresponding focus is :",
+   "year": ""
+  },
+  {
+   "id": 492,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Complex Numbers",
+   "topic": "Complex Numbers",
+   "question": "For all$z \\in C$ on the curve$C_{1}:|z|=4$, let the locus of the point$z+\\frac{1}{z}$ be the curve$\\mathrm{C}_{2}$. Then :",
+   "year": ""
+  },
+  {
+   "id": 493,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "question": "If$\\lambda$ be the ratio of the roots of the quadratic equation in x, 3m2x2 + m(m – 4)x + 2 = 0, then the least value of m for which$\\lambda  + {1 \\over \\lambda } = 1,$ is",
+   "year": ""
+  },
+  {
+   "id": 494,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Area-Under-The-Curves",
+   "topic": "Area-Under-The-Curves",
+   "question": "Consider a region R = {(x, y)$ \\in$ R : x2$ \\le$ y$ \\le$ 2x}.\nif a line y = $\\alpha$ divides the area of region R into\ntwo equal parts, then which of the following is\ntrue?",
+   "year": ""
+  },
+  {
+   "id": 495,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Indefinite-Integrals",
+   "topic": "Indefinite-Integrals",
+   "question": "Let$f(x) = \\int {{{2x} \\over {({x^2} + 1)({x^2} + 3)}}dx}$. If$f(3) = {1 \\over 2}({\\log _e}5 - {\\log _e}6)$, then$f(4)$ is equal to",
+   "year": ""
+  },
+  {
+   "id": 496,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Mathematical-Reasoning",
+   "topic": "Mathematical-Reasoning",
+   "question": "Let S be a non-empty subset of R. Consider the following statement:\nP : There is a rational number x $∈$ S such that x &gt; 0.\nWhich of the following statements is the negation of the statement P?",
+   "year": ""
+  },
+  {
+   "id": 497,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Matrices-And-Determinants",
+   "topic": "Matrices-And-Determinants",
+   "question": "The number of values of$k$, for which the system of equations :  \\matrix{\n   {\\left( {k + 1} \\right)x + 8y = 4k}  \\cr \n   {kx + \\left( {k + 3} \\right)y = 3k - 1}  \\cr \n\n } \nhas no solution, is",
+   "year": ""
+  },
+  {
+   "id": 498,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Quadratic-Equation-And-Inequalities",
+   "topic": "Quadratic-Equation-And-Inequalities",
+   "question": "The value of '$a$' for which one root of the quadratic equation \n \\left( {{a^2} - 5a + 3} \\right){x^2} + \\left( {3a - 1} \\right)x + 2 = 0 \nis twice as large as the other is",
+   "year": ""
+  },
+  {
+   "id": 499,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "AC",
+   "topic": "AC",
+   "question": "In LC circuit the inductance L= 40 mH and capacitance$C = 100\\mu F$. If a voltage V(t)=10 sin (314 t) is applied to the circuit, the current in the circuit is given as",
+   "year": ""
+  },
+  {
+   "id": 500,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "The phase difference between the alternating current and$emf$ is${\\pi \\over 2}.$ Which of the following cannot be the constituent of the circuit?",
+   "year": ""
+  },
+  {
+   "id": 501,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "In a series resonant$LCR$ circuit, the voltage across$R$ is$100$ volts and$R = 1 k\\Omega$ with$C = 2\\mu F.$ The resonant frequency$\\omega$ is$200 rad/s$. At resonance the voltage across$L$ is",
+   "year": ""
+  },
+  {
+   "id": 502,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "In an$a.c.$ circuit the voltage applied is$E = {E_0} \\sin  \\omega t.$ The resulting current in the circuit is$I = {I_0}\\sin \\left( {\\omega t - {\\pi \\over 2}} \\right).$ The power consumption in the circuit is given by",
+   "year": ""
+  },
+  {
+   "id": 503,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "In a series$LCR$ circuit$R = 200\\Omega$ and the voltage and the frequency of the main supply is$220V$ and$50 Hz$ respectively. On taking out the capacitance from the circuit the current lags behind the voltage by${30^ \\circ }.$ On taking out the inductor from the circuit the current leads the voltage by${30^ \\circ }.$ The power dissipated in the$LCR$ circuit is",
+   "year": ""
+  },
+  {
+   "id": 504,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "A fully charged capacitor$C$ with initial charge${q_0}$ is connected to a coil of self inductance$L$ at$t=0.$ The time at which the energy is stored equally between the electric and the magnetic fields is :",
+   "year": ""
+  },
+  {
+   "id": 505,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "In an a.c. circuit, the instantaneous e.m.f. and current are given by <br/> e = 100 sin 30 t<br/> i = 20 sin$\\left( {30t - {\\pi \\over 4}} \\right)$<br/> In one cycle of a.c., the average power consumed by the circuit and the wattless current are, respectively",
+   "year": ""
+  },
+  {
+   "id": 506,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "ac-circuits-and-power-in-ac-circuits",
+   "topic": "ac-circuits-and-power-in-ac-circuits",
+   "question": "A circuit connected to an ac source of emf e = e<sub>0</sub>sin(100t) with t in seconds, gives a phase difference of$\\pi$/4 between the emf e and current i. Which of the following circuits will exhibit this ?",
+   "year": ""
+  },
+  {
+   "id": 507,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohol, Phenol and Ethers",
+   "topic": "Alcohol, Phenol and Ethers",
+   "question": "Ethanol is prepared industrially by",
+   "year": ""
+  },
+  {
+   "id": 508,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohol, Phenol and Ethers",
+   "topic": "Alcohol, Phenol and Ethers",
+   "question": "The Bouveault-Balance reduction involves ckWosYV&csysal",
+   "year": ""
+  },
+  {
+   "id": 509,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "Acetyl bromide reacts with excess of CH3MgI followed by treatment with a saturated solution of NH4Cl given",
+   "year": ""
+  },
+  {
+   "id": 510,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "In the following sequence of reactions, CH3CH2OH$\\buildrel {P + {I\\_2}} \\over \\longrightarrow$ A$\\mathrel{\\mathop{\\kern0pt\\longrightarrow} \\limits_{ether}^{Mg}}$ B$\\buildrel {HCHO} \\over \\longrightarrow$ C$\\buildrel {{H\\_2}O} \\over \\longrightarrow$ D the compound 'D' is",
+   "year": ""
+  },
+  {
+   "id": 511,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "The gas evolved on heating CH3MgBr in methanol is :",
+   "year": ""
+  },
+  {
+   "id": 512,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols Phenols and Ethers",
+   "topic": "Alcohols Phenols and Ethers",
+   "question": "In the given reaction 3-Bromo-2, 2-dimethyl butane$\\buildrel {{C\\_2}{H\\_5}OH} \\over \\longrightarrow \\mathop {'A'}\\limits_{(Major \\Pr oduct)}$ Product A is :",
+   "year": ""
+  },
+  {
+   "id": 513,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols-Phenols-And-Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "Hex-4-ene-2-ol on treatment with PCC gives 'A'. 'A' on reaction with sodium hypoiodite gives 'B', which on further heating with soda lime gives 'C'. The compound 'C' is :",
+   "year": ""
+  },
+  {
+   "id": 514,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Alcohols-Phenols-And-Ethers",
+   "topic": "Alcohols-Phenols-And-Ethers",
+   "question": "Given below are two statements : Statement I : On heating with$\\mathrm{KHSO}_{4}$, glycerol is dehydrated and acrolein is formed. Statement II : Acrolein has fruity odour and can be used to test glycerol's presence. Choose the correct option.",
+   "year": ""
+  },
+  {
+   "id": 515,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D",
+   "topic": "3D",
+   "question": "A plane which bisects the angle between the two given planes 2x - y + 2z - 4 = 0 and x+2y+2z-2=0, passes through the point",
+   "year": ""
+  },
+  {
+   "id": 516,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The distance of the point ($-$1, 2, $-$2) from the line of intersection of the planes 2x + 3y + 2z = 0 and x $-$ 2y + z = 0 is :",
+   "year": ""
+  },
+  {
+   "id": 517,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The vector equation of the plane passing through the intersection of the planes$\\overrightarrow r .\\left( {\\widehat i + \\widehat j + \\widehat k} \\right) = 1$ and$\\overrightarrow r .\\left( {\\widehat i - 2\\widehat j} \\right) = - 2$, and the point (1, 0, 2) is :",
+   "year": ""
+  },
+  {
+   "id": 518,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "If the mirror image of the point$P(3,4,9)$ in the line$\\frac{x-1}{3}=\\frac{y+1}{2}=\\frac{z-2}{1}$ is$(\\alpha, \\beta, \\gamma)$, then 14$(\\alpha+\\beta+\\gamma)$ is :",
+   "year": ""
+  },
+  {
+   "id": 519,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "The two lines$x=ay+b,z=cy+d$ and$x = a'y + b',z = c'y + d'$ will be perpendicular, if and only if :",
+   "year": ""
+  },
+  {
+   "id": 520,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "A line makes the same angle$\\theta$, with each of the$x$ and$z$ axis. If the angle$\\beta  $, which it makes with y-axis, is such that$ {\\sin \\^2}\\beta = 3{\\sin \\^2}\\theta ,$ then${\\cos \\^2}\\theta$ equals :",
+   "year": ""
+  },
+  {
+   "id": 521,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "If a line makes an angle of$\\pi /4$ with the positive directions of each of$x$-axis and$y$-axis, then the angle that the line makes with the positive direction of the$z$-axis is :",
+   "year": ""
+  },
+  {
+   "id": 522,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "Let$L$ be the line of intersection of the planes$2x+3y+z=1$ and$x+3y+2z=2.$ If$L$ makes an angle$\\alpha$ with the positive$x$-axis, then cos$\\alpha$ equals",
+   "year": ""
+  },
+  {
+   "id": 523,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat And Thermodynamics",
+   "topic": "Heat And Thermodynamics",
+   "question": "The temperature of equal masses of three different liquids x, y and z are 10$^\\circ$C, 20$^\\circ$C and 30$^\\circ$C respectively. The temperature of mixture when x is mixed with y is 16$^\\circ$C and that when y is mixed with z is 26$^\\circ$C. The temperature of mixture when x and z are mixed will be :",
+   "year": ""
+  },
+  {
+   "id": 524,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Magnetics",
+   "topic": "Magnetics",
+   "question": "The region between y = 0 and y = d contains a magnetic field$\\overrightarrow B  = B\\widehat z$.  A particle of mass m and charge q enters the region with a velocity$\\overrightarrow v  = v\\widehat i.$ If d$= {{mv} \\over {2qB}},$ the acceleration of the charged particle at the point of its emergence at the other side is :",
+   "year": ""
+  },
+  {
+   "id": 525,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Communication Systems",
+   "topic": "Communication Systems",
+   "question": "In a communication system operating at wavelength 800 nm, only one percent of source frequency is available as signal bandwith. The number of channels accomodated for transmitting TV signals of band width 6 MHz are (Take velocity of light c = 3$ \\times$ 108m/s, h = 6.6$ \\times$ 10$-$34 J-s)",
+   "year": ""
+  },
+  {
+   "id": 526,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat And Thermodynamics",
+   "topic": "Heat And Thermodynamics",
+   "question": "A cylinder of fixed capacity of 44.8 litres contains helium gas at standard temperature and pressure. The amount of heat needed to raise the temperature of gas in the cylinder by 20.0$^\\circ$C will be : (Given gas constant R = 8.3 JK$-$1-mol$-$1)",
+   "year": ""
+  },
+  {
+   "id": 527,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Heat And Thermodynamics",
+   "topic": "Heat And Thermodynamics",
+   "question": "If the root mean square velocity of hydrogen molecule at a given temperature and pressure is$2 \\mathrm{~km} / \\mathrm{s}$, the root mean square velocity of oxygen at the same condition in$\\mathrm{km} / \\mathrm{s}$ is :",
+   "year": ""
+  },
+  {
+   "id": 528,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Simple Harmonic Motion",
+   "topic": "Simple Harmonic Motion",
+   "question": "A simple pendulum of length$1 \\mathrm{~m}$ has a wooden bob of mass$1 \\mathrm{~kg}$. It is struck by a bullet of mass$10^{-2} \\mathrm{~kg}$ moving with a speed of$2 \\times 10^2 \\mathrm{~ms}^{-1}$. The bullet gets embedded into the bob. The height to which the bob rises before swinging back is. (use$\\mathrm{g}=10 \\mathrm{~m} / \\mathrm{s}^2$ )",
+   "year": ""
+  },
+  {
+   "id": 529,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Magnetics",
+   "topic": "Magnetics",
+   "question": "Two long current carrying conductors are placed to each other at a distance of 8 cm between them. The magnitude of magnetic field produced at mid-point between the two conductors due to current flowing in them is 300$\\mu$T. The equal current flowing in the two conductors is :",
+   "year": ""
+  },
+  {
+   "id": 530,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Capacitor",
+   "topic": "Capacitor",
+   "question": "A parallel plate capacitor with area 200 cm2 and separation between the plates 1.5 cm,  is connected across a battery of emf V. If the force of attraction between the plates is$25 \\times {10^{ - 6}}N,$ the value of V is approximately : $\\left( {{ \\in _o} = 8.85 \\times {{10}^{ - 12}}{{{C^2}} \\over {N.{m^2}}}} \\right)$",
+   "year": ""
+  },
+  {
+   "id": 531,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Haloalkanes and Haloarenes",
+   "topic": "Haloalkanes and Haloarenes",
+   "question": "Which one of the following alkenes when treated with HCl yields majorly an anti Markovnikov product?",
+   "year": ""
+  },
+  {
+   "id": 532,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Isolation Of Elements",
+   "topic": "Isolation Of Elements",
+   "question": "Match the refining methods (Column I) with metals (Column II).   Column I(Refining Methods) Column II(Metals)   (I) Liquation (a) Zr   (II) Zone Refining (b) Ni   (III) Mond Process (c) Sn   (IV) Van Arkel Method (d) Ga",
+   "year": ""
+  },
+  {
+   "id": 533,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Electrochemistry",
+   "topic": "Electrochemistry",
+   "question": "In the cell  Pt$\\left| {\\left( s \\right)} \\right|$H2(g,  1 bar)$\\left| {HCl\\left( {aq} \\right)} \\right|$AgCl$\\left| {\\left( s \\right)} \\right|$Ag(s)|Pt(s)  the cell potential is 0.92 V when a 10–6 molal HCl solution is used. The standard electrode potential of (AgCl/ AgCl– ) electrode is :  $\\left\\{ {} \\right.$Given,  ${{2.303RT} \\over F} = 0.06V$  at  $\\left. {298} \\right\\}$",
+   "year": ""
+  },
+  {
+   "id": 534,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Coordination Compounds",
+   "topic": "Coordination Compounds",
+   "question": "Low oxidation state of metals in their complexes are common when ligands :",
+   "year": ""
+  },
+  {
+   "id": 535,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Structure Of Atom",
+   "topic": "Structure Of Atom",
+   "question": "The de Broglie wavelength ($\\lambda$) associated with a photoelectron varies with the frequency (v) of the incident radiation as, [v0 is threshold frequency] :",
+   "year": ""
+  },
+  {
+   "id": 536,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Compounds Containing Nitrogen",
+   "topic": "Compounds Containing Nitrogen",
+   "question": "Given below are two statements : Statement (I) : The$\\mathrm{NH}_2$ group in Aniline is ortho and para directing and a powerful activating group.  Statement (II) : Aniline does not undergo Friedel-Craft's reaction (alkylation and acylation). In the light of the above statements, choose the most appropriate answer from the options given below :",
+   "year": ""
+  },
+  {
+   "id": 537,
+   "kind": "target",
+   "subject": "physics",
+   "chapter": "Thermodynamics",
+   "topic": "Thermodynamics",
+   "question": "$\\Delta$fGo at 500 K for substance 'S' in liquid state and gaseous state are +100.7 kcl mol-1 and +103 kcal mol-1, respectively. Vapour pressure of liquid 'S' at 500 K is approximately equal to : ( R = 2 cal K-1 mol-1 )",
+   "year": ""
+  },
+  {
+   "id": 538,
+   "kind": "target",
+   "subject": "chemistry",
+   "chapter": "Solutions",
+   "topic": "Solutions",
+   "question": "What weight of glucose must be dissolved in$100 \\mathrm{~g}$ of water to lower the vapour pressure by$0.20 \\mathrm{~mm} ~\\mathrm{Hg}$ ? (Assume dilute solution is being formed) Given : Vapour pressure of pure water is$54.2 \\mathrm{~mm} ~\\mathrm{Hg}$ at room temperature. Molar mass of glucose is$180 \\mathrm{~g} \\mathrm{~mol}^{-1}$",
+   "year": ""
+  },
+  {
+   "id": 539,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Limits Continuity And Differentiability",
+   "topic": "Limits Continuity And Differentiability",
+   "question": "Let ƒ : [–1,3] $ \\to$ R be defined as $f(x) = \\left\\{ {\\matrix{    {\\left| x \\right| + \\left[ x \\right]} &amp; , &amp; { - 1 \\le x &lt; 1}  \\cr     {x + \\left| x \\right|} &amp; , &amp; {1 \\le x &lt; 2}  \\cr     {x + \\left[ x \\right]} &amp; , &amp; {2 \\le x \\le 3}  \\cr    } } \\right.$ where [t] denotes the greatest integer less than or equal to t. Then, ƒ is discontinuous at:",
+   "year": ""
+  },
+  {
+   "id": 540,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Indefinite integration",
+   "topic": "Indefinite integration",
+   "question": "If C is arbitrary constant then $\\int\\frac{a^{x}}{\\sqrt{1 - a^{2x}}}dx =$",
+   "year": ""
+  },
+  {
+   "id": 541,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Application Of Derivatives",
+   "topic": "Application Of Derivatives",
+   "question": "The normal to the curve y(x – 2)(x – 3) = x + 6 at the point where the curve intersects the y-axis passes through the point :",
+   "year": ""
+  },
+  {
+   "id": 542,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Limits Continuity And Differentiability",
+   "topic": "Limits Continuity And Differentiability",
+   "question": "If the function$f(x)=\\frac{\\sin 3 x+\\alpha \\sin x-\\beta \\cos 3 x}{x^3}, x \\in \\mathbf{R}$, is continuous at$x=0$, then$f(0)$ is equal to :",
+   "year": ""
+  },
+  {
+   "id": 543,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "3D Geometry",
+   "topic": "3D Geometry",
+   "question": "If the plane$P$ passes through the intersection of two mutually perpendicular planes$2 x+k y-5 z=1$ and$3 k x-k y+z=5, k&lt;3$ and intercepts a unit length on positive$x$-axis, then the intercept made by the plane$P$ on the$y$-axis is :",
+   "year": ""
+  },
+  {
+   "id": 544,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Matrices And Determinants",
+   "topic": "Matrices And Determinants",
+   "question": "The system of equations  $\\matrix{    {\\alpha \\,x + y + z = \\alpha  - 1}  \\cr     {x + \\alpha y + z = \\alpha  - 1}  \\cr     {x + y + \\alpha \\,z = \\alpha  - 1}  \\cr    }$ has no solutions, if$\\alpha$ is :",
+   "year": ""
+  },
+  {
+   "id": 545,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Definite Integration",
+   "topic": "Definite Integration",
+   "question": "$\\int_\\limits0^{\\pi / 4} \\frac{\\cos ^2 x \\sin ^2 x}{\\left(\\cos ^3 x+\\sin ^3 x\\right)^2} d x \\text { is equal to }$",
+   "year": ""
+  },
+  {
+   "id": 546,
+   "kind": "target",
+   "subject": "maths",
+   "chapter": "Trigonometric Ratio And Identites",
+   "topic": "Trigonometric Ratio And Identites",
+   "question": "If ${e^{\\left( {{{\\cos }^2}x + {{\\cos }^4}x + {{\\cos }^6}x + ...\\infty } \\right){{\\log }_e}2}}$ satisfies the equation t2 - 9t + 8 = 0, then the value of ${{2\\sin x} \\over {\\sin x + \\sqrt 3 \\cos x}}\\left( {0 &lt; x &lt; {\\pi  \\over 2}} \\right)$ is :",
+   "year": ""
+  }
+ ]
+}
