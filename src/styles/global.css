@@ -3,6 +3,7 @@
    ═══════════════════════════════════════════════ */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap');
 
 *, *::before, *::after {
   margin: 0;
@@ -77,3 +78,27 @@ body.always-glow .nomad-btn.disabled {
 .nomad-prose pre { padding: 1rem; overflow-x: auto; }
 .nomad-prose pre code { background: transparent; padding: 0; }
 .katex-display { margin: 0.3em 0; }
+
+/* ─── Corner buttons + overlays (nomad-btn) ────────────────────────────────
+ * Shared by the main app, overlays, and standalone pages (e.g. /nomad/timer).
+ * Moved here from NomadApp's inline <style> so every surface shares it. */
+.nomad-btn {
+  font-family: 'Cinzel', serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  transition: color 0.25s ease, border-bottom 0.25s ease;
+  padding: 0;
+}
+.nomad-btn:hover {
+  color: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+.nomad-btn.active {
+  color: rgba(255,255,255,1);
+}

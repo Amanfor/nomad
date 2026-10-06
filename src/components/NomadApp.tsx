@@ -10,6 +10,7 @@ import { renderMarkdownWithMath, stripNoteHeader } from '../concepts/latex';
 import { Capacitor, registerPlugin } from '@capacitor/core';
 import WisdomOverlay from './WisdomOverlay';
 import GestureLayer from './GestureLayer';
+import TimerMenu from './TimerMenu';
 import { getWisdomEndpoint, setWisdomEndpoint } from '../lib/wisdom';
 import { useGlowBodyClass } from '../lib/glow';
 import { GestureMap, GestureActionId, POSES, POSE_LABELS, HandSide, loadGestureMap, saveGestureMap } from '../lib/gestureConfig';
@@ -1613,6 +1614,7 @@ export default function NomadApp() {
   const [isStatsOpen, setIsStatsOpen] = useState(false);
   const [isFormulasOpen, setIsFormulasOpen] = useState(false);
   const [isWanderOpen, setIsWanderOpen] = useState(false);
+  const [isTimerOpen, setIsTimerOpen] = useState(false);
   const [isGestureConfigOpen, setIsGestureConfigOpen] = useState(false);
   // Wisdom (opt-in AI): ask-bar mode + the open chat session's first question.
   const [isWisdom, setIsWisdom] = useState(false);
@@ -2491,6 +2493,7 @@ export default function NomadApp() {
 
       <AnimatePresence>
         {isWanderOpen && <WanderOverlay onClose={() => setIsWanderOpen(false)} isMobile={isMobile} />}
+        {isTimerOpen && <TimerMenu onClose={() => setIsTimerOpen(false)} onBegin={(s) => { window.location.href = `${((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/')}timer?every=${s}`; }} />}
 
         <AnimatePresence>
           {isGestureConfigOpen && (
@@ -2562,6 +2565,26 @@ export default function NomadApp() {
       >
         ⟨ SETTINGS ⟩
       </button>
+      )}
+
+      {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
+        <button
+          id="nomad-timer-btn"
+          onClick={() => setIsTimerOpen(true)}
+          className={`nomad-btn ${isTimerOpen || settings.alwaysGlow || gazingAt === 'timer' ? 'active' : ''}`}
+          style={{
+            position: 'fixed',
+            bottom: '7.5rem',
+            left: '1.5rem',
+            zIndex: 50,
+            fontSize: '0.55rem',
+            pointerEvents: introActive ? 'none' : 'auto',
+            color: (isTimerOpen || settings.alwaysGlow || gazingAt === 'timer') ? 'rgba(255,255,255,1)' : '',
+            textShadow: (isTimerOpen || settings.alwaysGlow || gazingAt === 'timer') ? '0 0 14px rgba(255,255,255,0.95)' : 'none',
+          }}
+        >
+          ⟨ TIMER ⟩
+        </button>
       )}
 
       {introShow(4) && !searching && !selected && !selectedQuestion && !isBrowsingConcepts && !isPractice && (
@@ -2853,26 +2876,6 @@ export default function NomadApp() {
         .nomad-browse-container::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
         .nomad-input:focus { border-bottom: 1px solid rgba(255,255,255,0.1) !important; }
         .nomad-input::placeholder { color: rgba(255,255,255,0.25); }
-                .nomad-btn {
-          font-family: 'Cinzel', serif;
-          font-size: 0.65rem;
-          letter-spacing: 0.18em;
-          text-transform: uppercase;
-          color: rgba(255,255,255,0.3);
-          background: none;
-          border: none;
-          border-bottom: 1px solid transparent;
-          cursor: pointer;
-          transition: color 0.25s ease, border-bottom 0.25s ease;
-          padding: 0;
-        }
-        .nomad-btn:hover {
-          color: rgba(255,255,255,0.85);
-          border-bottom: 1px solid rgba(255,255,255,0.15);
-        }
-        .nomad-btn.active {
-          color: rgba(255,255,255,1);
-        }
         button, .nomad-btn, .nomad-btn:active, .nomad-btn:focus {
           -webkit-tap-highlight-color: transparent !important;
           outline: none !important;
