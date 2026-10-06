@@ -40,8 +40,11 @@ jobs:
       - name: Build web (root base for Capacitor)
         run: npm run build:android
 
-      - name: Copy web assets into the Android project
-        run: npx cap copy android
+      - name: Sync web assets into the Android project
+        # `cap sync` (not `cap copy`): copy alone never regenerates
+        # capacitor-cordova-android-plugins/ (gitignored), and gradle fails
+        # without it. sync = copy + update.
+        run: npx cap sync android
 
       - name: Build APK
         working-directory: android
