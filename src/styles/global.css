@@ -73,6 +73,7 @@ body.always-glow .nomad-btn.disabled {
 .nomad-prose li { margin-bottom: 0.5rem; line-height: 1.6; color: rgba(255,255,255,0.7); }
 .nomad-prose li strong { color: rgba(255,255,255,0.9); }
 .nomad-prose img { width: 100%; border-radius: 8px; margin: 2rem 0; border: 1px solid rgba(255,255,255,0.1); }
+.nomad-prose iframe { width: 100%; display: block; aspect-ratio: 16 / 9; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; margin: 2rem 0; }
 .nomad-prose blockquote { border-left: 1px solid rgba(255,255,255,0.05); padding-left: 1rem; margin-left: 0; }
 .nomad-prose code, .nomad-prose pre { font-family: monospace; background: rgba(255,255,255,0.07); padding: 0.2em 0.4em; border-radius: 3px; }
 .nomad-prose pre { padding: 1rem; overflow-x: auto; }
