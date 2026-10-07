@@ -69,8 +69,7 @@ $$\mathbf{P \propto T \iff \frac{P}{T} = \text{Constant} \iff \frac{P_1}{T_1} = 
 #### 1.2.4 Thermodynamic Coefficients of an Ideal Gas
 1. **Coefficient of Thermal Expansion ($\alpha_P$):**
    $$\mathbf{\alpha_P = \frac{1}{V}\left(\frac{\partial V}{\partial T}\right)_P = \frac{1}{V}\left(\frac{n R}{P}\right) = \frac{1}{T}}$$
-2. **Isochoric Pressure Coefficient ($\beta_V$):**
-   $$\mathbf{\beta_V = \frac{1}{P}\left(\frac{\partial P}{\partial T}\right)_V = \frac{1}{P}\left(\frac{n R}{V}\right) = \frac{1}{T}}$$
+2. **Isochoric Pressure Coefficient ($\beta_V$):**  $$\mathbf{\beta_V = \frac{1}{P}\left(\frac{\partial P}{\partial T}\right)_V = \frac{1}{P}\left(\frac{n R}{V}\right) = \frac{1}{T}}$$
 3. **Isothermal Compressibility ($\kappa_T$):**
    $$\mathbf{\kappa_T = -\frac{1}{V}\left(\frac{\partial V}{\partial P}\right)_T = -\frac{1}{V}\left(-\frac{n R T}{P^2}\right) = \frac{1}{P}}$$
 

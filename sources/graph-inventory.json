@@ -10385,6 +10385,16 @@
    "topic": "newton-laws"
   },
   {
+   "id": "rc:mathematical-reasoning-and-statistics",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
    "id": "rc:chemical-kinetics",
    "label": "Chemical Kinetics",
    "topic": "physical-chemistry"
@@ -10418,6 +10428,11 @@
    "id": "rc:purification-and-characterisation-of-organic-compounds",
    "label": "Purification and Characterisation of Organic Compounds",
    "topic": "organic-chemistry"
+  },
+  {
+   "id": "rc:magnetic-effects-of-current-and-magnetism",
+   "label": "Concept / Scenario",
+   "topic": "magnetism"
   },
   {
    "id": "rc:wave-motion-and-string-waves",
@@ -10595,9 +10610,189 @@
    "topic": "trigonometry"
   },
   {
+   "id": "rc:conic-sections-parabola-ellipse-and-hyperbola",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:mole-concept-stoichiometry-and-redox-equivalence",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:periodic-properties-electronic-structure-and-chemical-periodicity",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:thermodynamics-and-thermochemistry",
+   "label": "Thermodynamics and Thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems",
+   "topic": null
+  },
+  {
+   "id": "rc:iupac-nomenclature-and-structural-isomerism",
+   "label": "IUPAC Nomenclature and Structural Isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:p-block-elements-boron-and-carbon-families",
+   "label": "p Block Elements Boron and Carbon Families",
+   "topic": null
+  },
+  {
+   "id": "rc:s-block-elements-alkali-and-alkaline-earth-metals",
+   "label": "s Block Elements Alkali and Alkaline Earth Metals",
+   "topic": null
+  },
+  {
+   "id": "rc:solution-of-triangle-and-trigonometric-geometry",
+   "label": "Solution of Triangle and Trigonometric Geometry",
+   "topic": null
+  },
+  {
+   "id": "rc:mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension",
+   "label": "Mechanical Properties of Matter Elasticity Viscosity and Surface Tension",
+   "topic": null
+  },
+  {
+   "id": "rc:wave-motion-string-waves-and-sound-waves",
+   "label": "Wave Motion String Waves and Sound Waves",
+   "topic": null
+  },
+  {
+   "id": "rc:errors-in-measurement-and-measuring-instruments",
+   "label": "Topic / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:mathematical-reasoning-and-boolean-logic",
+   "label": "Concept / Archetype",
+   "topic": null
+  },
+  {
+   "id": "rc:statistics-measures-of-central-tendency-and-dispersion",
+   "label": "Topic / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:environmental-chemistry",
+   "label": "Topic / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:structural-identification-and-practical-organic-chemistry",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:electrostatics-field-potential-gauss-law-and-conductors",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:capacitance-dielectrics-and-rc-circuits",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:current-electricity-kirchhoff-laws-and-measuring-instruments",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:electromagnetic-induction-and-eddy-currents",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:alternating-current-lcr-circuits-and-power-analysis",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:electromagnetic-waves-displacement-current-and-radiation-pressure",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:geometrical-optics-refraction-lenses-and-optical-instruments",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:wave-optics-interference-diffraction-and-polarization",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:modern-physics-photoelectric-effect-atomic-structure-and-x-rays",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:semiconductor-devices-diodes-transistors-and-logic-gates",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:principles-of-communication-systems-modulation-and-wave-propagation",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
+   "id": "rc:errors-in-measurement-significant-figures-and-experimental-instruments",
+   "label": "Concept / Scenario",
+   "topic": null
+  },
+  {
    "id": "rc:physics-dual-nature-of-matter-and-radiation",
    "label": "Physics Dual Nature of Matter and Radiation",
    "topic": "photoelectric-modern-physics"
+  },
+  {
+   "id": "rc:chemistry-complete",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "topic": null
   }
  ],
  "reading_entries": [
@@ -10708,6 +10903,30 @@
    "label": "Laws of Motion and Friction — Introduction",
    "chapter": "laws-of-motion-and-friction",
    "topic": "newton-laws"
+  },
+  {
+   "id": "rc:100-mathematical-reasoning-and-statistics-full",
+   "label": "Concept / Scenario",
+   "chapter": "mathematical-reasoning-and-statistics",
+   "topic": null
+  },
+  {
+   "id": "rc:100-mathematical-reasoning-and-statistics-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "mathematical-reasoning-and-statistics",
+   "topic": null
+  },
+  {
+   "id": "rc:101-environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry-full",
+   "label": "Concept / Scenario",
+   "chapter": "environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:101-environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry",
+   "topic": null
   },
   {
    "id": "rc:10-chemical-kinetics-full",
@@ -11102,6 +11321,18 @@
   {
    "id": "rc:19-magnetic-effects-of-current-and-magnetism-8",
    "label": "Magnetic Effects of Current and Magnetism — High-Yield JEE Problem Archetypes & Formulas",
+   "chapter": "magnetic-effects-of-current-and-magnetism",
+   "topic": "magnetism"
+  },
+  {
+   "id": "rc:89-magnetic-effects-of-current-and-magnetism-full",
+   "label": "Concept / Scenario",
+   "chapter": "magnetic-effects-of-current-and-magnetism",
+   "topic": "magnetism"
+  },
+  {
+   "id": "rc:89-magnetic-effects-of-current-and-magnetism-0",
+   "label": "Concept / Scenario — Introduction",
    "chapter": "magnetic-effects-of-current-and-magnetism",
    "topic": "magnetism"
   },
@@ -12476,6 +12707,72 @@
   {
    "id": "rc:36-chemical-bonding-and-molecular-structure-11",
    "label": "Chemical Bonding and Molecular Structure — High-Yield JEE Problem Archetypes & Trap Logs",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-full",
+   "label": "Chemical Bonding and Molecular Structure",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-0",
+   "label": "Chemical Bonding and Molecular Structure — Introduction",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-1",
+   "label": "Chemical Bonding and Molecular Structure — Classical Bonding Paradigms, Formal Charges & Resonance",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-2",
+   "label": "Chemical Bonding and Molecular Structure — Valence Bond Theory & Orbital Overlapping",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-3",
+   "label": "Chemical Bonding and Molecular Structure — VSEPR Theory & Comprehensive Hybridization Architecture",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-4",
+   "label": "Chemical Bonding and Molecular Structure — Back Bonding & Multi-Center Electron-Deficient Bonds",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-5",
+   "label": "Chemical Bonding and Molecular Structure — Hydrogen Bonding & Intermolecular Forces",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-6",
+   "label": "Chemical Bonding and Molecular Structure — Molecular Orbital Theory (MOT)",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-7",
+   "label": "Chemical Bonding and Molecular Structure — Fajan's Rules for Polarization & Covalent Character",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-8",
+   "label": "Chemical Bonding and Molecular Structure — Dipole Moments ($\\mu$) & Molecular Polarity",
+   "chapter": "chemical-bonding-and-molecular-structure",
+   "topic": "inorganic-chemistry"
+  },
+  {
+   "id": "rc:69-chemical-bonding-and-molecular-structure-9",
+   "label": "Chemical Bonding and Molecular Structure — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
@@ -14034,6 +14331,894 @@
    "topic": "trigonometry"
   },
   {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-full",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-0",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — Introduction",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-1",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — Unified Conic Section Definition & Classification",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-2",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — The Parabola ($e = 1$)",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-3",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — The Ellipse ($0 < e < 1$)",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-4",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — The Hyperbola ($e > 1$)",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-5",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — Unified Tangent & Normal Formulations",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-6",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — Optical & Reflection Properties of Conics",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-7",
+   "label": "Conic Sections Parabola Ellipse and Hyperbola — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-full",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-0",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Introduction",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-1",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — The Mole Concept & Fundamental Quantitative Foundations",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-2",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Empirical & Molecular Formulas & Minimum Molecular Weight",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-3",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Stoichiometry, Limiting Reagent & Reaction Efficiency",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-4",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Principle of Atom Conservation (POAC) & Sequential Reactions",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-5",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Oxidation Numbers & Exceptional Molecular Structures",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-6",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Balancing Redox Reactions: Ion-Electron Method",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-7",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Solution Concentration Terms & Interconversions",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-8",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — Equivalent Weight, $n$-factor & The Law of Equivalence",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-9",
+   "label": "Mole Concept Stoichiometry and Redox Equivalence — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-full",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-0",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Introduction",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-1",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Classical Atomic Models & Nuclear Sizing",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-2",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Quantum Theory of Radiation & Photoelectric Effect",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-3",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Bohr Atomic Model for Monoelectronic Species",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-4",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Hydrogen Emission Spectrum & Rydberg Mechanics",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-5",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Wave-Particle Duality & Heisenberg Uncertainty",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-6",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Schrödinger Wave Mechanical Model & Nodal Topology",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-7",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Quantum Numbers & Electronic Configuration",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-8",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Nuclear Chemistry & Radioactive Decay Kinetics",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-9",
+   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-full",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-0",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Introduction",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-1",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Genesis of Periodic Classification & Modern Periodic Law",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-2",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Shielding Effect & Effective Nuclear Charge ($Z_{\\text{eff}}$)",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-3",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Atomic & Ionic Radii: Periodic Gradients & Anomalies",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-4",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Ionization Enthalpy ($\\Delta_i H$ / IE)",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-5",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Electron Gain Enthalpy ($\\Delta_{        ext{eg}} H$ / EA)",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-6",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Electronegativity (EN) Scales & Bond Polarity",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-7",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — The Inert Pair Effect & Oxidation State Stability",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-8",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Periodicity of Oxides & Diagonal Relationships",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-9",
+   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-full",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-0",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Introduction",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-1",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Deviations from Ideality & Compressibility Factor ($Z$)",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-2",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — The van der Waals Equation of State",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-3",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Limiting Regimes of the van der Waals Equation",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-4",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Critical State & Andrews Isotherms of $        ext{CO}_2$",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-5",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Boyle's Temperature ($T_B$) & Inversion Temperature ($T_i$)",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-6",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — The Virial Equation of State",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-7",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — The Law of Corresponding States",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-8",
+   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-full",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-0",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Introduction",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-1",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Acid-Base Paradigms & Conjugate Pairs",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-2",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Water Autoprotolysis, Temperature Dependence & The pH Scale",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-3",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Strong Acid/Base Equilibria & The Extreme Dilution Paradox",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-4",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Ostwald's Dilution Law for Weak Electrolytes",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-5",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Salt Hydrolysis Thermodynamics & Exact pH Formulations",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-6",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Buffer Solutions & Henderson-Hasselbalch Mechanics",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-7",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Solubility ($s$), Solubility Product ($K_{sp}$) & Precipitation",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-8",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Acid-Base Neutralization Titrations & Indicators",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-9",
+   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-full",
+   "label": "Thermodynamics and Thermochemistry",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-0",
+   "label": "Thermodynamics and Thermochemistry — Introduction",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-1",
+   "label": "Thermodynamics and Thermochemistry — Thermodynamic Fundamentals & The First Law (FLOT)",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-2",
+   "label": "Thermodynamics and Thermochemistry — Enthalpy, Heat Capacities & Adiabatic Transformations",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-3",
+   "label": "Thermodynamics and Thermochemistry — Second Law of Thermodynamics (SLOT) & Entropy ($\\Delta S$)",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-4",
+   "label": "Thermodynamics and Thermochemistry — Gibbs Free Energy ($G$) & Chemical Spontaneity",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-5",
+   "label": "Thermodynamics and Thermochemistry — Third Law of Thermodynamics (TLOT)",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-6",
+   "label": "Thermodynamics and Thermochemistry — Thermochemistry & Reaction Enthalpy Laws",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:72-thermodynamics-and-thermochemistry-7",
+   "label": "Thermodynamics and Thermochemistry — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "thermodynamics-and-thermochemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-full",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-0",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Introduction",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-1",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Dynamic Equilibrium & The Law of Mass Action",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-2",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Equilibrium Constants: $K_c$, $K_p$, and $K_x$",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-3",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Algebraic Rules & Invariance of Equilibrium Constants",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-4",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Reaction Quotient ($Q$) & Spontaneity Direction",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-5",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Degree of Dissociation ($ lpha$) & Vapor Density Analytics",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-6",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Heterogeneous & Simultaneous Equilibria",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-7",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Le Chatelier's Principle & Perturbation Responses",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-8",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Vapor Pressure & Relative Humidity Mechanics",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-9",
+   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-full",
+   "label": "IUPAC Nomenclature and Structural Isomerism",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-0",
+   "label": "IUPAC Nomenclature and Structural Isomerism — Introduction",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-1",
+   "label": "IUPAC Nomenclature and Structural Isomerism — Fundamentals of Organic Chemistry & Degree of Unsaturation",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-2",
+   "label": "IUPAC Nomenclature and Structural Isomerism — IUPAC Systematic Nomenclature Architecture",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-3",
+   "label": "IUPAC Nomenclature and Structural Isomerism — Parent Chain Selection & Numbering Rules",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-4",
+   "label": "IUPAC Nomenclature and Structural Isomerism — Principal Functional Group Seniority Hierarchy",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-5",
+   "label": "IUPAC Nomenclature and Structural Isomerism — Alicyclic, Bicyclo & Spiro Nomenclature",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-6",
+   "label": "IUPAC Nomenclature and Structural Isomerism — Structural Isomerism Taxonomy",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-7",
+   "label": "IUPAC Nomenclature and Structural Isomerism — Tautomerism Dynamics & Enol Content Optimization",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:74-iupac-nomenclature-and-structural-isomerism-8",
+   "label": "IUPAC Nomenclature and Structural Isomerism — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "iupac-nomenclature-and-structural-isomerism",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-full",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-0",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Introduction",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-1",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Electronic Displacement Effects & The Inductive Effect ($I$)",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-2",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Resonance Theory & Mesomeric Effect ($M$)",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-3",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Hyperconjugation (Baker-Nathan Effect)",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-4",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Aromaticity, Antiaromaticity & Hückel's Rule",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-5",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Reactive Intermediates & Rearrangements",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-6",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Acidity & Basicity Mechanics in Organic Systems",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-7",
+   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
+   "topic": null
+  },
+  {
+   "id": "rc:76-p-block-elements-boron-and-carbon-families-full",
+   "label": "p Block Elements Boron and Carbon Families",
+   "chapter": "p-block-elements-boron-and-carbon-families",
+   "topic": null
+  },
+  {
+   "id": "rc:76-p-block-elements-boron-and-carbon-families-0",
+   "label": "p Block Elements Boron and Carbon Families — Introduction",
+   "chapter": "p-block-elements-boron-and-carbon-families",
+   "topic": null
+  },
+  {
+   "id": "rc:77-s-block-elements-alkali-and-alkaline-earth-metals-full",
+   "label": "s Block Elements Alkali and Alkaline Earth Metals",
+   "chapter": "s-block-elements-alkali-and-alkaline-earth-metals",
+   "topic": null
+  },
+  {
+   "id": "rc:77-s-block-elements-alkali-and-alkaline-earth-metals-0",
+   "label": "s Block Elements Alkali and Alkaline Earth Metals — Introduction",
+   "chapter": "s-block-elements-alkali-and-alkaline-earth-metals",
+   "topic": null
+  },
+  {
+   "id": "rc:78-solution-of-triangle-and-trigonometric-geometry-full",
+   "label": "Solution of Triangle and Trigonometric Geometry",
+   "chapter": "solution-of-triangle-and-trigonometric-geometry",
+   "topic": null
+  },
+  {
+   "id": "rc:78-solution-of-triangle-and-trigonometric-geometry-0",
+   "label": "Solution of Triangle and Trigonometric Geometry — Introduction",
+   "chapter": "solution-of-triangle-and-trigonometric-geometry",
+   "topic": null
+  },
+  {
+   "id": "rc:79-mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension-full",
+   "label": "Mechanical Properties of Matter Elasticity Viscosity and Surface Tension",
+   "chapter": "mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension",
+   "topic": null
+  },
+  {
+   "id": "rc:79-mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension-0",
+   "label": "Mechanical Properties of Matter Elasticity Viscosity and Surface Tension — Introduction",
+   "chapter": "mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension",
+   "topic": null
+  },
+  {
+   "id": "rc:80-wave-motion-string-waves-and-sound-waves-full",
+   "label": "Wave Motion String Waves and Sound Waves",
+   "chapter": "wave-motion-string-waves-and-sound-waves",
+   "topic": null
+  },
+  {
+   "id": "rc:80-wave-motion-string-waves-and-sound-waves-0",
+   "label": "Wave Motion String Waves and Sound Waves — Introduction",
+   "chapter": "wave-motion-string-waves-and-sound-waves",
+   "topic": null
+  },
+  {
+   "id": "rc:81-errors-in-measurement-and-measuring-instruments-full",
+   "label": "Topic / Scenario",
+   "chapter": "errors-in-measurement-and-measuring-instruments",
+   "topic": null
+  },
+  {
+   "id": "rc:81-errors-in-measurement-and-measuring-instruments-0",
+   "label": "Topic / Scenario — Introduction",
+   "chapter": "errors-in-measurement-and-measuring-instruments",
+   "topic": null
+  },
+  {
+   "id": "rc:82-mathematical-reasoning-and-boolean-logic-full",
+   "label": "Concept / Archetype",
+   "chapter": "mathematical-reasoning-and-boolean-logic",
+   "topic": null
+  },
+  {
+   "id": "rc:82-mathematical-reasoning-and-boolean-logic-0",
+   "label": "Concept / Archetype — Introduction",
+   "chapter": "mathematical-reasoning-and-boolean-logic",
+   "topic": null
+  },
+  {
+   "id": "rc:83-statistics-measures-of-central-tendency-and-dispersion-full",
+   "label": "Topic / Scenario",
+   "chapter": "statistics-measures-of-central-tendency-and-dispersion",
+   "topic": null
+  },
+  {
+   "id": "rc:83-statistics-measures-of-central-tendency-and-dispersion-0",
+   "label": "Topic / Scenario — Introduction",
+   "chapter": "statistics-measures-of-central-tendency-and-dispersion",
+   "topic": null
+  },
+  {
+   "id": "rc:84-environmental-chemistry-full",
+   "label": "Topic / Scenario",
+   "chapter": "environmental-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:84-environmental-chemistry-0",
+   "label": "Topic / Scenario — Introduction",
+   "chapter": "environmental-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:85-structural-identification-and-practical-organic-chemistry-full",
+   "label": "Concept / Scenario",
+   "chapter": "structural-identification-and-practical-organic-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:85-structural-identification-and-practical-organic-chemistry-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "structural-identification-and-practical-organic-chemistry",
+   "topic": null
+  },
+  {
+   "id": "rc:86-electrostatics-field-potential-gauss-law-and-conductors-full",
+   "label": "Concept / Scenario",
+   "chapter": "electrostatics-field-potential-gauss-law-and-conductors",
+   "topic": null
+  },
+  {
+   "id": "rc:86-electrostatics-field-potential-gauss-law-and-conductors-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "electrostatics-field-potential-gauss-law-and-conductors",
+   "topic": null
+  },
+  {
+   "id": "rc:87-capacitance-dielectrics-and-rc-circuits-full",
+   "label": "Concept / Scenario",
+   "chapter": "capacitance-dielectrics-and-rc-circuits",
+   "topic": null
+  },
+  {
+   "id": "rc:87-capacitance-dielectrics-and-rc-circuits-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "capacitance-dielectrics-and-rc-circuits",
+   "topic": null
+  },
+  {
+   "id": "rc:88-current-electricity-kirchhoff-laws-and-measuring-instruments-full",
+   "label": "Concept / Scenario",
+   "chapter": "current-electricity-kirchhoff-laws-and-measuring-instruments",
+   "topic": null
+  },
+  {
+   "id": "rc:88-current-electricity-kirchhoff-laws-and-measuring-instruments-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "current-electricity-kirchhoff-laws-and-measuring-instruments",
+   "topic": null
+  },
+  {
+   "id": "rc:90-electromagnetic-induction-and-eddy-currents-full",
+   "label": "Concept / Scenario",
+   "chapter": "electromagnetic-induction-and-eddy-currents",
+   "topic": null
+  },
+  {
+   "id": "rc:90-electromagnetic-induction-and-eddy-currents-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "electromagnetic-induction-and-eddy-currents",
+   "topic": null
+  },
+  {
+   "id": "rc:91-alternating-current-lcr-circuits-and-power-analysis-full",
+   "label": "Concept / Scenario",
+   "chapter": "alternating-current-lcr-circuits-and-power-analysis",
+   "topic": null
+  },
+  {
+   "id": "rc:91-alternating-current-lcr-circuits-and-power-analysis-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "alternating-current-lcr-circuits-and-power-analysis",
+   "topic": null
+  },
+  {
+   "id": "rc:92-electromagnetic-waves-displacement-current-and-radiation-pressure-full",
+   "label": "Concept / Scenario",
+   "chapter": "electromagnetic-waves-displacement-current-and-radiation-pressure",
+   "topic": null
+  },
+  {
+   "id": "rc:92-electromagnetic-waves-displacement-current-and-radiation-pressure-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "electromagnetic-waves-displacement-current-and-radiation-pressure",
+   "topic": null
+  },
+  {
+   "id": "rc:93-geometrical-optics-refraction-lenses-and-optical-instruments-full",
+   "label": "Concept / Scenario",
+   "chapter": "geometrical-optics-refraction-lenses-and-optical-instruments",
+   "topic": null
+  },
+  {
+   "id": "rc:93-geometrical-optics-refraction-lenses-and-optical-instruments-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "geometrical-optics-refraction-lenses-and-optical-instruments",
+   "topic": null
+  },
+  {
+   "id": "rc:94-wave-optics-interference-diffraction-and-polarization-full",
+   "label": "Concept / Scenario",
+   "chapter": "wave-optics-interference-diffraction-and-polarization",
+   "topic": null
+  },
+  {
+   "id": "rc:94-wave-optics-interference-diffraction-and-polarization-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "wave-optics-interference-diffraction-and-polarization",
+   "topic": null
+  },
+  {
+   "id": "rc:95-modern-physics-photoelectric-effect-atomic-structure-and-x-rays-full",
+   "label": "Concept / Scenario",
+   "chapter": "modern-physics-photoelectric-effect-atomic-structure-and-x-rays",
+   "topic": null
+  },
+  {
+   "id": "rc:95-modern-physics-photoelectric-effect-atomic-structure-and-x-rays-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "modern-physics-photoelectric-effect-atomic-structure-and-x-rays",
+   "topic": null
+  },
+  {
+   "id": "rc:96-nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions-full",
+   "label": "Concept / Scenario",
+   "chapter": "nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions",
+   "topic": null
+  },
+  {
+   "id": "rc:96-nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions",
+   "topic": null
+  },
+  {
+   "id": "rc:97-semiconductor-devices-diodes-transistors-and-logic-gates-full",
+   "label": "Concept / Scenario",
+   "chapter": "semiconductor-devices-diodes-transistors-and-logic-gates",
+   "topic": null
+  },
+  {
+   "id": "rc:97-semiconductor-devices-diodes-transistors-and-logic-gates-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "semiconductor-devices-diodes-transistors-and-logic-gates",
+   "topic": null
+  },
+  {
+   "id": "rc:98-principles-of-communication-systems-modulation-and-wave-propagation-full",
+   "label": "Concept / Scenario",
+   "chapter": "principles-of-communication-systems-modulation-and-wave-propagation",
+   "topic": null
+  },
+  {
+   "id": "rc:98-principles-of-communication-systems-modulation-and-wave-propagation-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "principles-of-communication-systems-modulation-and-wave-propagation",
+   "topic": null
+  },
+  {
+   "id": "rc:99-errors-in-measurement-significant-figures-and-experimental-instruments-full",
+   "label": "Concept / Scenario",
+   "chapter": "errors-in-measurement-significant-figures-and-experimental-instruments",
+   "topic": null
+  },
+  {
+   "id": "rc:99-errors-in-measurement-significant-figures-and-experimental-instruments-0",
+   "label": "Concept / Scenario — Introduction",
+   "chapter": "errors-in-measurement-significant-figures-and-experimental-instruments",
+   "topic": null
+  },
+  {
    "id": "rc:physics-dual-nature-of-matter-and-radiation-full",
    "label": "Physics Dual Nature of Matter and Radiation",
    "chapter": "physics-dual-nature-of-matter-and-radiation",
@@ -14044,6 +15229,198 @@
    "label": "Physics Dual Nature of Matter and Radiation — Introduction",
    "chapter": "physics-dual-nature-of-matter-and-radiation",
    "topic": "photoelectric-modern-physics"
+  },
+  {
+   "id": "rc:chemistry-complete-full",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "chapter": "chemistry-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:chemistry-complete-0",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Introduction",
+   "chapter": "chemistry-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:chemistry-complete-1",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Table of Contents",
+   "chapter": "chemistry-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:chemistry-complete-2",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Physical Chemistry Core",
+   "chapter": "chemistry-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:chemistry-complete-3",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Inorganic Chemistry Core",
+   "chapter": "chemistry-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:chemistry-complete-4",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Organic Chemistry Core",
+   "chapter": "chemistry-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-full",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-0",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Introduction",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-1",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Table of Contents",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-2",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Straight Line",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-3",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Circle",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-4",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Conic Sections: Parabola, Ellipse & Hyperbola",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-5",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Differential Calculus: Limits, Continuity & Derivatives",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-6",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Integral Calculus: Indefinite & Definite",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-7",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Algebra: Equations, Sequences & Combinatorics",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-8",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Vectors, 3D Geometry & Complex Numbers",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-9",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Trigonometry, Solution of Triangles & Statistics",
+   "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-full",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-0",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Introduction",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-1",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Table of Contents",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-2",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Units, Dimensions & Errors",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-3",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Kinematics: Rectilinear, Projectile & Relative Motion",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-4",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Newton's Laws of Motion & Friction",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-5",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Work, Power & Energy",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-6",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Circular Motion & Vertical Loops",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-7",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Centre of Mass & Collisions",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-8",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Rigid Body Dynamics (Rotation)",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-9",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Gravitation & Celestial Mechanics",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-10",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Fluid Mechanics & Thermal Physics",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-11",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Oscillations & Waves",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-12",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Electrodynamics, Circuits & Alternating Current",
+   "chapter": "physics-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-13",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Optics & Modern Physics",
+   "chapter": "physics-complete",
+   "topic": null
   }
  ]
 }
