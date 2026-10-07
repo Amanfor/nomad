@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useGlowBodyClass } from '../lib/glow';
 import renderRich, { renderInline } from '../lib/renderRich';
-import '../lib/ytPlayers';
 
 /** Linear active-learning path (main graph replacement):
  *      JEE ──┬── physics   (top)

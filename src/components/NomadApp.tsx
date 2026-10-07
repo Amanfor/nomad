@@ -14,7 +14,6 @@ import TimerMenu from './TimerMenu';
 import { getWisdomEndpoint, setWisdomEndpoint } from '../lib/wisdom';
 import { useGlowBodyClass } from '../lib/glow';
 import { GestureMap, GestureActionId, POSES, POSE_LABELS, HandSide, loadGestureMap, saveGestureMap } from '../lib/gestureConfig';
-import '../lib/ytPlayers';
 
 /* ─── Base URL helper for assets (handles /nomad base path) ──────────────── */
 const BASE_URL = ((import.meta as any).env?.BASE_URL || '/').replace(/\/?$/, '/');
