@@ -15231,12 +15231,6 @@
    "topic": "photoelectric-modern-physics"
   },
   {
-   "id": "rc:chemistry-complete-full",
-   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium",
-   "chapter": "chemistry-complete",
-   "topic": null
-  },
-  {
    "id": "rc:chemistry-complete-0",
    "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Introduction",
    "chapter": "chemistry-complete",
@@ -15264,12 +15258,6 @@
    "id": "rc:chemistry-complete-4",
    "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Organic Chemistry Core",
    "chapter": "chemistry-complete",
-   "topic": null
-  },
-  {
-   "id": "rc:maths-complete-full",
-   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
-   "chapter": "maths-complete",
    "topic": null
   },
   {
@@ -15330,12 +15318,6 @@
    "id": "rc:maths-complete-9",
    "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Trigonometry, Solution of Triangles & Statistics",
    "chapter": "maths-complete",
-   "topic": null
-  },
-  {
-   "id": "rc:physics-complete-full",
-   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
-   "chapter": "physics-complete",
    "topic": null
   },
   {
