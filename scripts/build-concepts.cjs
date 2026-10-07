@@ -48,13 +48,26 @@ function processDirectory(dir, subject) {
       let chapterTitle = fm.title || cleanedFileName;
       
       if (!fm.title) {
-         const h1Match = body.match(/^#\s+(.*)$/m);
-         if (h1Match) {
-            chapterTitle = h1Match[1].trim();
-         }
+        // prefer the chapter title from the "... Revision Context: Chapter NN — Title" line
+                        const metaMatch = body.match(/Revision Context:\s*Chapter\s*\d+\s*[^A-Za-z0-9\n]+\s*(.+)/i);
+        if (metaMatch) {
+          chapterTitle = metaMatch[1].trim().split('\n')[0].trim();
+        }
+      }
+
+      if (!fm.title && chapterTitle === cleanedFileName) {
+        const h1Match = body.match(/^#\s+(.*)$/m);
+        if (h1Match) {
+          // h1 from scraped content is often a '#'-table-row artifact
+          // (e.g. captures "Topic / Scenario"); ignore such one-word fragments
+          const candidate = h1Match[1].trim();
+          if (candidate.length > 2 && !/^(topic|concept|scenario)\s*[\/]?\s*([\w\s\/,;:&-]*)?$/i.test(candidate)) {
+            chapterTitle = candidate;
+          }
+        }
       }
       
-      chapterTitle = chapterTitle.replace(/^[A-Za-z ]*Revision Context:\s*Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^\d+[\s_-]*/, '');
+                chapterTitle = chapterTitle.replace(/^[A-Za-z ]*Revision Context:\s*Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^Chapter\s+\d+\s*[-—–]+\s*/i, '').replace(/^\d+[\s_-]*/, '');
       
       // Derive the subject from the first line ("Physics Revision Context: …",
       // "Mathematics Revision Context: …") so concept browse groups by real

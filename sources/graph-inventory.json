@@ -10371,27 +10371,27 @@
   },
   {
    "id": "rc:height-and-distance-trigonometry",
-   "label": "Height and Distance Trigonometry",
+   "label": "Height and Distance",
    "topic": "trigonometry"
   },
   {
    "id": "rc:modern-physics-and-dual-nature",
-   "label": "Modern Physics and Dual Nature",
+   "label": "Modern Physics (Photoelectric Effect, Bohr Model & Dual Nature)",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:laws-of-motion-and-friction",
-   "label": "Laws of Motion and Friction",
+   "label": "Laws of Motion, Friction & Circular Dynamics",
    "topic": "newton-laws"
   },
   {
    "id": "rc:mathematical-reasoning-and-statistics",
-   "label": "Concept / Scenario",
+   "label": "Mathematical Reasoning & Statistics",
    "topic": null
   },
   {
    "id": "rc:environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry",
-   "label": "Concept / Scenario",
+   "label": "Environmental Chemistry: Atmospheric Pollution, Water Quality & Green Chemistry",
    "topic": null
   },
   {
@@ -10406,22 +10406,22 @@
   },
   {
    "id": "rc:atomic-structure-and-quantum-mechanics",
-   "label": "Atomic Structure and Quantum Mechanics",
+   "label": "Atomic Structure & Quantum Mechanical Model",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:polymers-and-macromolecules",
-   "label": "Polymers and Macromolecules",
+   "label": "Polymers & Macromolecules",
    "topic": "organic-chemistry"
   },
   {
    "id": "rc:probability-and-distributions",
-   "label": "Probability and Distributions",
+   "label": "Probability & Probability Distributions",
    "topic": "probability-distributions"
   },
   {
    "id": "rc:chemical-and-ionic-equilibrium",
-   "label": "Chemical and Ionic Equilibrium",
+   "label": "Chemical & Ionic Equilibrium",
    "topic": "physical-chemistry"
   },
   {
@@ -10431,7 +10431,7 @@
   },
   {
    "id": "rc:magnetic-effects-of-current-and-magnetism",
-   "label": "Concept / Scenario",
+   "label": "Magnetic Effects of Current & Magnetism",
    "topic": "magnetism"
   },
   {
@@ -10451,17 +10451,17 @@
   },
   {
    "id": "rc:center-of-mass-and-collisions",
-   "label": "Center of Mass and Collisions",
+   "label": "Center of Mass, Momentum Conservation, and Collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:photoelectric-effect-and-dual-nature",
-   "label": "Photoelectric Effect and Dual Nature",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:charged-particle-dynamics-and-magnetic-forces",
-   "label": "Charged Particle Dynamics and Magnetic Forces",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors",
    "topic": "magnetism"
   },
   {
@@ -10471,7 +10471,7 @@
   },
   {
    "id": "rc:thermochemistry-and-reaction-energetics",
-   "label": "Thermochemistry and Reaction Energetics",
+   "label": "Thermochemistry & Reaction Energetics",
    "topic": "physical-chemistry"
   },
   {
@@ -10491,287 +10491,302 @@
   },
   {
    "id": "rc:chemical-bonding-and-molecular-structure",
-   "label": "Chemical Bonding and Molecular Structure",
+   "label": "Chemical Bonding & Molecular Structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:s-block-elements",
-   "label": "s Block Elements",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals)",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:qualitative-cation-analysis",
-   "label": "Qualitative Cation Analysis",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis)",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:qualitative-anion-analysis",
-   "label": "Qualitative Anion Analysis",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests)",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:gaseous-state-and-real-gas-thermodynamics",
-   "label": "Gaseous State and Real Gas Thermodynamics",
+   "label": "Gaseous State & Real Gas Thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:ray-optics-questions-solutions-and-pyqs",
-   "label": "Ray Optics Questions Solutions and PYQs",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs",
+   "topic": "ray-optics"
+  },
+  {
+   "id": "rc:ray-optics-and-optical-instruments",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics)",
    "topic": "ray-optics"
   },
   {
    "id": "rc:fluid-mechanics-viscosity-and-surface-tension",
-   "label": "Fluid Mechanics Viscosity and Surface Tension",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:elasticity-and-solid-mechanics",
-   "label": "Elasticity and Solid Mechanics",
+   "label": "Elasticity & Solid Mechanics",
    "topic": null
   },
   {
    "id": "rc:center-of-mass-momentum-conservation-and-collisions",
-   "label": "Center of Mass Momentum Conservation and Collisions",
+   "label": "Center of Mass, Momentum Conservation & Collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:rigid-body-dynamics-and-rotational-mechanics",
-   "label": "Rigid Body Dynamics and Rotational Mechanics",
+   "label": "Rigid Body Dynamics & Rotational Mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:simple-harmonic-motion-and-oscillations",
-   "label": "Simple Harmonic Motion and Oscillations",
+   "label": "Simple Harmonic Motion & Oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:gravitation-and-celestial-mechanics",
-   "label": "Gravitation and Celestial Mechanics",
+   "label": "Gravitation & Celestial Mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:kinematics-rectilinear-and-relative-motion",
-   "label": "Kinematics Rectilinear and Relative Motion",
+   "label": "Kinematics: Rectilinear & Relative Motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:projectile-motion-and-inclined-plane-ballistics",
-   "label": "Projectile Motion and Inclined Plane Ballistics",
+   "label": "Projectile Motion & Inclined Plane Ballistics",
    "topic": "kinematics"
   },
   {
+   "id": "rc:newtons-laws-of-motion-and-friction",
+   "label": "Newton's Laws of Motion & Friction",
+   "topic": "newton-laws"
+  },
+  {
    "id": "rc:circular-motion-and-vertical-loop-dynamics",
-   "label": "Circular Motion and Vertical Loop Dynamics",
+   "label": "Circular Motion & Vertical Loop Dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:work-power-and-energy",
-   "label": "Work Power and Energy",
+   "label": "Work, Power, and Energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:calorimetry-and-thermal-expansion",
-   "label": "Calorimetry and Thermal Expansion",
+   "label": "Calorimetry & Thermal Expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:kinetic-theory-of-gases-and-thermodynamics",
-   "label": "Kinetic Theory of Gases and Thermodynamics",
+   "label": "Kinetic Theory of Gases & Thermodynamics",
    "topic": "thermodynamics"
   },
   {
+   "id": "rc:quadratic-equations-and-polynomial-theory",
+   "label": "Quadratic Equations & Polynomial Theory",
+   "topic": "quadratic-polynomial-theory"
+  },
+  {
    "id": "rc:sequences-series-and-progression-analytics",
-   "label": "Sequences Series and Progression Analytics",
+   "label": "Sequences, Series & Progression Analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:permutations-combinations-and-combinatorial-analytics",
-   "label": "Permutations Combinations and Combinatorial Analytics",
+   "label": "Permutations, Combinations & Combinatorial Analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:binomial-theorem-and-multinomial-expansions",
-   "label": "Binomial Theorem and Multinomial Expansions",
+   "label": "Binomial Theorem & Multinomial Expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:straight-lines-and-2d-coordinate-geometry",
-   "label": "Straight Lines and 2D Coordinate Geometry",
+   "label": "Straight Lines & 2D Coordinate Geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:circles-and-concyclic-geometry",
-   "label": "Circles and Concyclic Geometry",
+   "label": "Circles & Concyclic Geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:trigonometric-ratios-functions-and-analytical-equations",
-   "label": "Trigonometric Ratios Functions and Analytical Equations",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:conic-sections-parabola-ellipse-and-hyperbola",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola",
    "topic": null
   },
   {
    "id": "rc:mole-concept-stoichiometry-and-redox-equivalence",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence",
    "topic": null
   },
   {
    "id": "rc:atomic-structure-quantum-mechanics-and-nuclear-chemistry",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry",
    "topic": null
   },
   {
    "id": "rc:periodic-properties-electronic-structure-and-chemical-periodicity",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity",
    "topic": null
   },
   {
    "id": "rc:real-gases-liquefaction-and-non-ideal-state-thermodynamics",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics",
    "topic": null
   },
   {
    "id": "rc:ionic-equilibrium-hydrolysis-and-solubility-dynamics",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics",
    "topic": null
   },
   {
    "id": "rc:thermodynamics-and-thermochemistry",
-   "label": "Thermodynamics and Thermochemistry",
+   "label": "Thermodynamics & Thermochemistry",
    "topic": null
   },
   {
    "id": "rc:chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems",
    "topic": null
   },
   {
    "id": "rc:iupac-nomenclature-and-structural-isomerism",
-   "label": "IUPAC Nomenclature and Structural Isomerism",
+   "label": "IUPAC Nomenclature & Structural Isomerism",
    "topic": null
   },
   {
    "id": "rc:general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates",
    "topic": null
   },
   {
    "id": "rc:p-block-elements-boron-and-carbon-families",
-   "label": "p Block Elements Boron and Carbon Families",
+   "label": "p-Block Elements: Boron and Carbon Families (Groups 13 & 14)",
    "topic": null
   },
   {
    "id": "rc:s-block-elements-alkali-and-alkaline-earth-metals",
-   "label": "s Block Elements Alkali and Alkaline Earth Metals",
+   "label": "s-Block Elements: Alkali & Alkaline Earth Metals (Groups 1 & 2)",
    "topic": null
   },
   {
    "id": "rc:solution-of-triangle-and-trigonometric-geometry",
-   "label": "Solution of Triangle and Trigonometric Geometry",
+   "label": "Solution of Triangle & Trigonometric Geometry",
    "topic": null
   },
   {
    "id": "rc:mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension",
-   "label": "Mechanical Properties of Matter Elasticity Viscosity and Surface Tension",
+   "label": "Mechanical Properties of Matter: Elasticity, Viscosity & Surface Tension",
    "topic": null
   },
   {
    "id": "rc:wave-motion-string-waves-and-sound-waves",
-   "label": "Wave Motion String Waves and Sound Waves",
+   "label": "Wave Motion: String Waves & Sound Waves",
    "topic": null
   },
   {
    "id": "rc:errors-in-measurement-and-measuring-instruments",
-   "label": "Topic / Scenario",
+   "label": "Errors in Measurement, Significant Figures & Measuring Instruments",
    "topic": null
   },
   {
    "id": "rc:mathematical-reasoning-and-boolean-logic",
-   "label": "Concept / Archetype",
+   "label": "Mathematical Reasoning & Boolean Propositional Logic",
    "topic": null
   },
   {
    "id": "rc:statistics-measures-of-central-tendency-and-dispersion",
-   "label": "Topic / Scenario",
+   "label": "Statistics: Measures of Central Tendency & Dispersion",
    "topic": null
   },
   {
    "id": "rc:environmental-chemistry",
-   "label": "Topic / Scenario",
+   "label": "Environmental Chemistry",
    "topic": null
   },
   {
    "id": "rc:structural-identification-and-practical-organic-chemistry",
-   "label": "Concept / Scenario",
+   "label": "Structural Identification & Practical Organic Chemistry (POC)",
    "topic": null
   },
   {
    "id": "rc:electrostatics-field-potential-gauss-law-and-conductors",
-   "label": "Concept / Scenario",
+   "label": "Electrostatics: Electric Charges, Fields, Potential, Dipoles, Gauss's Law & Conductors",
    "topic": null
   },
   {
    "id": "rc:capacitance-dielectrics-and-rc-circuits",
-   "label": "Concept / Scenario",
+   "label": "Capacitance, Dielectrics & Transient RC Circuits",
    "topic": null
   },
   {
    "id": "rc:current-electricity-kirchhoff-laws-and-measuring-instruments",
-   "label": "Concept / Scenario",
+   "label": "Current Electricity: Microscopic Conduction, Kirchhoff's Laws & Measuring Instruments",
    "topic": null
   },
   {
    "id": "rc:electromagnetic-induction-and-eddy-currents",
-   "label": "Concept / Scenario",
+   "label": "Electromagnetic Induction & Eddy Currents",
    "topic": null
   },
   {
    "id": "rc:alternating-current-lcr-circuits-and-power-analysis",
-   "label": "Concept / Scenario",
+   "label": "Alternating Current, LCR Circuits & Power Analysis",
    "topic": null
   },
   {
    "id": "rc:electromagnetic-waves-displacement-current-and-radiation-pressure",
-   "label": "Concept / Scenario",
+   "label": "Electromagnetic Waves, Displacement Current & Radiation Pressure",
    "topic": null
   },
   {
    "id": "rc:geometrical-optics-refraction-lenses-and-optical-instruments",
-   "label": "Concept / Scenario",
+   "label": "Geometrical Optics, Refraction, Lenses & Optical Instruments",
    "topic": null
   },
   {
    "id": "rc:wave-optics-interference-diffraction-and-polarization",
-   "label": "Concept / Scenario",
+   "label": "Wave Optics, Interference, Diffraction & Polarization",
    "topic": null
   },
   {
    "id": "rc:modern-physics-photoelectric-effect-atomic-structure-and-x-rays",
-   "label": "Concept / Scenario",
+   "label": "Modern Physics: Photoelectric Effect, Atomic Structure & X-Rays",
    "topic": null
   },
   {
    "id": "rc:nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions",
-   "label": "Concept / Scenario",
+   "label": "Nuclear Physics: Binding Energy, Radioactivity & Nuclear Reactions",
    "topic": null
   },
   {
    "id": "rc:semiconductor-devices-diodes-transistors-and-logic-gates",
-   "label": "Concept / Scenario",
+   "label": "Semiconductor Devices, Diodes, Transistors & Logic Gates",
    "topic": null
   },
   {
    "id": "rc:principles-of-communication-systems-modulation-and-wave-propagation",
-   "label": "Concept / Scenario",
+   "label": "Principles of Communication Systems, Modulation & Wave Propagation",
    "topic": null
   },
   {
    "id": "rc:errors-in-measurement-significant-figures-and-experimental-instruments",
-   "label": "Concept / Scenario",
+   "label": "Errors in Measurement, Significant Figures & Experimental Instruments",
    "topic": null
   },
   {
@@ -10870,61 +10885,61 @@
   },
   {
    "id": "rc:07-height-and-distance-trigonometry-full",
-   "label": "Height and Distance Trigonometry",
+   "label": "Height and Distance",
    "chapter": "height-and-distance-trigonometry",
    "topic": "trigonometry"
   },
   {
    "id": "rc:07-height-and-distance-trigonometry-0",
-   "label": "Height and Distance Trigonometry — Introduction",
+   "label": "Height and Distance — Introduction",
    "chapter": "height-and-distance-trigonometry",
    "topic": "trigonometry"
   },
   {
    "id": "rc:08-modern-physics-and-dual-nature-full",
-   "label": "Modern Physics and Dual Nature",
+   "label": "Modern Physics (Photoelectric Effect, Bohr Model & Dual Nature)",
    "chapter": "modern-physics-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:08-modern-physics-and-dual-nature-0",
-   "label": "Modern Physics and Dual Nature — Introduction",
+   "label": "Modern Physics (Photoelectric Effect, Bohr Model & Dual Nature) — Introduction",
    "chapter": "modern-physics-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:09-laws-of-motion-and-friction-full",
-   "label": "Laws of Motion and Friction",
+   "label": "Laws of Motion, Friction & Circular Dynamics",
    "chapter": "laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:09-laws-of-motion-and-friction-0",
-   "label": "Laws of Motion and Friction — Introduction",
+   "label": "Laws of Motion, Friction & Circular Dynamics — Introduction",
    "chapter": "laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:100-mathematical-reasoning-and-statistics-full",
-   "label": "Concept / Scenario",
+   "label": "Mathematical Reasoning & Statistics",
    "chapter": "mathematical-reasoning-and-statistics",
    "topic": null
   },
   {
    "id": "rc:100-mathematical-reasoning-and-statistics-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Mathematical Reasoning & Statistics — Introduction",
    "chapter": "mathematical-reasoning-and-statistics",
    "topic": null
   },
   {
    "id": "rc:101-environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry-full",
-   "label": "Concept / Scenario",
+   "label": "Environmental Chemistry: Atmospheric Pollution, Water Quality & Green Chemistry",
    "chapter": "environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry",
    "topic": null
   },
   {
    "id": "rc:101-environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Environmental Chemistry: Atmospheric Pollution, Water Quality & Green Chemistry — Introduction",
    "chapter": "environmental-chemistry-atmospheric-pollution-water-quality-and-green-chemistry",
    "topic": null
   },
@@ -11014,79 +11029,79 @@
   },
   {
    "id": "rc:11-atomic-structure-and-quantum-mechanics-full",
-   "label": "Atomic Structure and Quantum Mechanics",
+   "label": "Atomic Structure & Quantum Mechanics",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:11-atomic-structure-and-quantum-mechanics-0",
-   "label": "Atomic Structure and Quantum Mechanics — Introduction",
+   "label": "Atomic Structure & Quantum Mechanics — Introduction",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-full",
-   "label": "Atomic Structure and Quantum Mechanics",
+   "label": "Atomic Structure & Quantum Mechanical Model",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-0",
-   "label": "Atomic Structure and Quantum Mechanics — Introduction",
+   "label": "Atomic Structure & Quantum Mechanical Model — Introduction",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-1",
-   "label": "Atomic Structure and Quantum Mechanics — Classical Atomic Models & Pre-Quantum Foundations",
+   "label": "Atomic Structure & Quantum Mechanical Model — Classical Atomic Models & Pre-Quantum Foundations",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-2",
-   "label": "Atomic Structure and Quantum Mechanics — Planck's Quantum Hypothesis & The Photoelectric Effect",
+   "label": "Atomic Structure & Quantum Mechanical Model — Planck's Quantum Hypothesis & The Photoelectric Effect",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-3",
-   "label": "Atomic Structure and Quantum Mechanics — Bohr's Model of Single-Electron Species",
+   "label": "Atomic Structure & Quantum Mechanical Model — Bohr's Model of Single-Electron Species",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-4",
-   "label": "Atomic Structure and Quantum Mechanics — The Hydrogen Spectral Series & Atomic Recoil",
+   "label": "Atomic Structure & Quantum Mechanical Model — The Hydrogen Spectral Series & Atomic Recoil",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-5",
-   "label": "Atomic Structure and Quantum Mechanics — Dual Nature of Matter & Heisenberg Uncertainty Principle",
+   "label": "Atomic Structure & Quantum Mechanical Model — Dual Nature of Matter & Heisenberg Uncertainty Principle",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-6",
-   "label": "Atomic Structure and Quantum Mechanics — The Quantum Mechanical Model & Schrödinger Wave Equation",
+   "label": "Atomic Structure & Quantum Mechanical Model — The Quantum Mechanical Model & Schrödinger Wave Equation",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-7",
-   "label": "Atomic Structure and Quantum Mechanics — The Four Quantum Numbers & Orbital Topologies",
+   "label": "Atomic Structure & Quantum Mechanical Model — The Four Quantum Numbers & Orbital Topologies",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-8",
-   "label": "Atomic Structure and Quantum Mechanics — Electronic Configuration Rules & Stability of Subshells",
+   "label": "Atomic Structure & Quantum Mechanical Model — Electronic Configuration Rules & Stability of Subshells",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:40-atomic-structure-and-quantum-mechanics-9",
-   "label": "Atomic Structure and Quantum Mechanics — Comprehensive JEE Problem Archetypes & High-Yield Trap Logs",
+   "label": "Atomic Structure & Quantum Mechanical Model — Comprehensive JEE Problem Archetypes & High-Yield Trap Logs",
    "chapter": "atomic-structure-and-quantum-mechanics",
    "topic": "physical-chemistry"
   },
@@ -11116,37 +11131,37 @@
   },
   {
    "id": "rc:14-polymers-and-macromolecules-full",
-   "label": "Polymers and Macromolecules",
+   "label": "Polymers & Macromolecules",
    "chapter": "polymers-and-macromolecules",
    "topic": "organic-chemistry"
   },
   {
    "id": "rc:14-polymers-and-macromolecules-0",
-   "label": "Polymers and Macromolecules — Introduction",
+   "label": "Polymers & Macromolecules — Introduction",
    "chapter": "polymers-and-macromolecules",
    "topic": "organic-chemistry"
   },
   {
    "id": "rc:15-probability-and-distributions-full",
-   "label": "Probability and Distributions",
+   "label": "Probability & Probability Distributions",
    "chapter": "probability-and-distributions",
    "topic": "probability-distributions"
   },
   {
    "id": "rc:15-probability-and-distributions-0",
-   "label": "Probability and Distributions — Introduction",
+   "label": "Probability & Probability Distributions — Introduction",
    "chapter": "probability-and-distributions",
    "topic": "probability-distributions"
   },
   {
    "id": "rc:16-chemical-and-ionic-equilibrium-full",
-   "label": "Chemical and Ionic Equilibrium",
+   "label": "Chemical & Ionic Equilibrium",
    "chapter": "chemical-and-ionic-equilibrium",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:16-chemical-and-ionic-equilibrium-0",
-   "label": "Chemical and Ionic Equilibrium — Introduction",
+   "label": "Chemical & Ionic Equilibrium — Introduction",
    "chapter": "chemical-and-ionic-equilibrium",
    "topic": "physical-chemistry"
   },
@@ -11326,13 +11341,13 @@
   },
   {
    "id": "rc:89-magnetic-effects-of-current-and-magnetism-full",
-   "label": "Concept / Scenario",
+   "label": "Magnetic Effects of Current & Magnetism",
    "chapter": "magnetic-effects-of-current-and-magnetism",
    "topic": "magnetism"
   },
   {
    "id": "rc:89-magnetic-effects-of-current-and-magnetism-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Magnetic Effects of Current & Magnetism — Introduction",
    "chapter": "magnetic-effects-of-current-and-magnetism",
    "topic": "magnetism"
   },
@@ -12028,115 +12043,115 @@
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-full",
-   "label": "Center of Mass and Collisions",
+   "label": "Center of Mass, Momentum Conservation, and Collisions",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-0",
-   "label": "Center of Mass and Collisions — Introduction",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Introduction",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-1",
-   "label": "Center of Mass and Collisions — Physical Foundations of Center of Mass (COM)",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Physical Foundations of Center of Mass (COM)",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-2",
-   "label": "Center of Mass and Collisions — Center of Mass of Continuous Mass Distributions",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Center of Mass of Continuous Mass Distributions",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-3",
-   "label": "Center of Mass and Collisions — Negative Mass Cavity Formalism",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Negative Mass Cavity Formalism",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-4",
-   "label": "Center of Mass and Collisions — Center of Mass Dynamics & Momentum Conservation",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Center of Mass Dynamics & Momentum Conservation",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-5",
-   "label": "Center of Mass and Collisions — Center of Mass Frame ($C$-Frame) & Reduced Mass",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Center of Mass Frame ($C$-Frame) & Reduced Mass",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-6",
-   "label": "Center of Mass and Collisions — Collisions in One and Two Dimensions",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Collisions in One and Two Dimensions",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-7",
-   "label": "Center of Mass and Collisions — Variable Mass Systems & Rocket Propulsion",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — Variable Mass Systems & Rocket Propulsion",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:27-center-of-mass-and-collisions-8",
-   "label": "Center of Mass and Collisions — High-Yield JEE Problem Archetypes & Traps",
+   "label": "Center of Mass, Momentum Conservation, and Collisions — High-Yield JEE Problem Archetypes & Traps",
    "chapter": "center-of-mass-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-full",
-   "label": "Photoelectric Effect and Dual Nature",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-0",
-   "label": "Photoelectric Effect and Dual Nature — Introduction",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — Introduction",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-1",
-   "label": "Photoelectric Effect and Dual Nature — Particle Nature of Light & Photon Mechanics",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — Particle Nature of Light & Photon Mechanics",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-2",
-   "label": "Photoelectric Effect and Dual Nature — The Photoelectric Effect & Einstein's Analytical Formulation",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — The Photoelectric Effect & Einstein's Analytical Formulation",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-3",
-   "label": "Photoelectric Effect and Dual Nature — Experimental Laws & Graphical Analytics",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — Experimental Laws & Graphical Analytics",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-4",
-   "label": "Photoelectric Effect and Dual Nature — Radiation Force & Radiation Pressure Formulations",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — Radiation Force & Radiation Pressure Formulations",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-5",
-   "label": "Photoelectric Effect and Dual Nature — De Broglie Matter Waves & Particle-Wave Duality",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — De Broglie Matter Waves & Particle-Wave Duality",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-6",
-   "label": "Photoelectric Effect and Dual Nature — X-Rays: Generation, Spectrum & Moseley's Law",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — X-Rays: Generation, Spectrum & Moseley's Law",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
   {
    "id": "rc:28-photoelectric-effect-and-dual-nature-7",
-   "label": "Photoelectric Effect and Dual Nature — High-Yield JEE Problem Archetypes & Traps",
+   "label": "Photoelectric Effect, Radiation Pressure, and Matter Waves — High-Yield JEE Problem Archetypes & Traps",
    "chapter": "photoelectric-effect-and-dual-nature",
    "topic": "photoelectric-modern-physics"
   },
@@ -12196,55 +12211,55 @@
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-full",
-   "label": "Charged Particle Dynamics and Magnetic Forces",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-0",
-   "label": "Charged Particle Dynamics and Magnetic Forces — Introduction",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — Introduction",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-1",
-   "label": "Charged Particle Dynamics and Magnetic Forces — Lorentz Force & The Zero-Work Theorem",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — Lorentz Force & The Zero-Work Theorem",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-2",
-   "label": "Charged Particle Dynamics and Magnetic Forces — Motion of a Charged Particle in a Uniform Magnetic Field",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — Motion of a Charged Particle in a Uniform Magnetic Field",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-3",
-   "label": "Charged Particle Dynamics and Magnetic Forces — Motion in Bounded Magnetic Fields",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — Motion in Bounded Magnetic Fields",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-4",
-   "label": "Charged Particle Dynamics and Magnetic Forces — Motion in Combined $\\vec{E}$ and $\\vec{B}$ Fields",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — Motion in Combined $\\vec{E}$ and $\\vec{B}$ Fields",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-5",
-   "label": "Charged Particle Dynamics and Magnetic Forces — Magnetic Force on Current-Carrying Conductors",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — Magnetic Force on Current-Carrying Conductors",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-6",
-   "label": "Charged Particle Dynamics and Magnetic Forces — Magnetic Torque on Current Loops & Galvanometer Analytics",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — Magnetic Torque on Current Loops & Galvanometer Analytics",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
   {
    "id": "rc:30-charged-particle-dynamics-and-magnetic-forces-7",
-   "label": "Charged Particle Dynamics and Magnetic Forces — High-Yield JEE Problem Archetypes & Traps",
+   "label": "Motion of Charged Particles in Magnetic Fields & Magnetic Forces on Conductors — High-Yield JEE Problem Archetypes & Traps",
    "chapter": "charged-particle-dynamics-and-magnetic-forces",
    "topic": "magnetism"
   },
@@ -12370,67 +12385,67 @@
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-full",
-   "label": "Thermochemistry and Reaction Energetics",
+   "label": "Thermochemistry & Reaction Energetics",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-0",
-   "label": "Thermochemistry and Reaction Energetics — Introduction",
+   "label": "Thermochemistry & Reaction Energetics — Introduction",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-1",
-   "label": "Thermochemistry and Reaction Energetics — Fundamental Thermochemical Principles & First Law Connections",
+   "label": "Thermochemistry & Reaction Energetics — Fundamental Thermochemical Principles & First Law Connections",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-2",
-   "label": "Thermochemistry and Reaction Energetics — Standard States & Standard Enthalpy of Formation ($\\Delta_f H^\\circ$)",
+   "label": "Thermochemistry & Reaction Energetics — Standard States & Standard Enthalpy of Formation ($\\Delta_f H^\\circ$)",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-3",
-   "label": "Thermochemistry and Reaction Energetics — Standard Enthalpy of Combustion ($\\Delta_c H^\\circ$) & Bomb Calorimetry",
+   "label": "Thermochemistry & Reaction Energetics — Standard Enthalpy of Combustion ($\\Delta_c H^\\circ$) & Bomb Calorimetry",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-4",
-   "label": "Thermochemistry and Reaction Energetics — Hess's Law of Constant Heat Summation",
+   "label": "Thermochemistry & Reaction Energetics — Hess's Law of Constant Heat Summation",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-5",
-   "label": "Thermochemistry and Reaction Energetics — Bond Enthalpies & Resonance Energy",
+   "label": "Thermochemistry & Reaction Energetics — Bond Enthalpies & Resonance Energy",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-6",
-   "label": "Thermochemistry and Reaction Energetics — Enthalpy of Neutralization ($\\Delta_{\\text{neut}} H^\\circ$)",
+   "label": "Thermochemistry & Reaction Energetics — Enthalpy of Neutralization ($\\Delta_{\\text{neut}} H^\\circ$)",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-7",
-   "label": "Thermochemistry and Reaction Energetics — The Born-Haber Cycle & Lattice Enthalpy",
+   "label": "Thermochemistry & Reaction Energetics — The Born-Haber Cycle & Lattice Enthalpy",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-8",
-   "label": "Thermochemistry and Reaction Energetics — Kirchhoff's Laws: Temperature Dependence of Reaction Energetics",
+   "label": "Thermochemistry & Reaction Energetics — Kirchhoff's Laws: Temperature Dependence of Reaction Energetics",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:42-thermochemistry-and-reaction-energetics-9",
-   "label": "Thermochemistry and Reaction Energetics — Comprehensive Master Problem Formulas & High-Yield JEE Traps",
+   "label": "Thermochemistry & Reaction Energetics — Comprehensive Master Problem Formulas & High-Yield JEE Traps",
    "chapter": "thermochemistry-and-reaction-energetics",
    "topic": "physical-chemistry"
   },
@@ -12712,2509 +12727,2509 @@
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-full",
-   "label": "Chemical Bonding and Molecular Structure",
+   "label": "Chemical Bonding & Molecular Structure",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-0",
-   "label": "Chemical Bonding and Molecular Structure — Introduction",
+   "label": "Chemical Bonding & Molecular Structure — Introduction",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-1",
-   "label": "Chemical Bonding and Molecular Structure — Classical Bonding Paradigms, Formal Charges & Resonance",
+   "label": "Chemical Bonding & Molecular Structure — Classical Bonding Paradigms, Formal Charges & Resonance",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-2",
-   "label": "Chemical Bonding and Molecular Structure — Valence Bond Theory & Orbital Overlapping",
+   "label": "Chemical Bonding & Molecular Structure — Valence Bond Theory & Orbital Overlapping",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-3",
-   "label": "Chemical Bonding and Molecular Structure — VSEPR Theory & Comprehensive Hybridization Architecture",
+   "label": "Chemical Bonding & Molecular Structure — VSEPR Theory & Comprehensive Hybridization Architecture",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-4",
-   "label": "Chemical Bonding and Molecular Structure — Back Bonding & Multi-Center Electron-Deficient Bonds",
+   "label": "Chemical Bonding & Molecular Structure — Back Bonding & Multi-Center Electron-Deficient Bonds",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-5",
-   "label": "Chemical Bonding and Molecular Structure — Hydrogen Bonding & Intermolecular Forces",
+   "label": "Chemical Bonding & Molecular Structure — Hydrogen Bonding & Intermolecular Forces",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-6",
-   "label": "Chemical Bonding and Molecular Structure — Molecular Orbital Theory (MOT)",
+   "label": "Chemical Bonding & Molecular Structure — Molecular Orbital Theory (MOT)",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-7",
-   "label": "Chemical Bonding and Molecular Structure — Fajan's Rules for Polarization & Covalent Character",
+   "label": "Chemical Bonding & Molecular Structure — Fajan's Rules for Polarization & Covalent Character",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-8",
-   "label": "Chemical Bonding and Molecular Structure — Dipole Moments ($\\mu$) & Molecular Polarity",
+   "label": "Chemical Bonding & Molecular Structure — Dipole Moments ($\\mu$) & Molecular Polarity",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:69-chemical-bonding-and-molecular-structure-9",
-   "label": "Chemical Bonding and Molecular Structure — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Chemical Bonding & Molecular Structure — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "chemical-bonding-and-molecular-structure",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-full",
-   "label": "s Block Elements",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals)",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-0",
-   "label": "s Block Elements — Introduction",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Introduction",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-1",
-   "label": "s Block Elements — Group 1 Elements: Alkali Metals Physical & Periodic Invariants",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Group 1 Elements: Alkali Metals Physical & Periodic Invariants",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-2",
-   "label": "s Block Elements — Chemical Reactivity of Alkali Metals",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Chemical Reactivity of Alkali Metals",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-3",
-   "label": "s Block Elements — Thermal Stability & Decomposition of Oxo-Salts",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Thermal Stability & Decomposition of Oxo-Salts",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-4",
-   "label": "s Block Elements — Industrial Compounds of Sodium",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Industrial Compounds of Sodium",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-5",
-   "label": "s Block Elements — Group 2 Elements: Alkaline Earth Metals",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Group 2 Elements: Alkaline Earth Metals",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-6",
-   "label": "s Block Elements — Solubility & Thermal Stability Trajectories of Group 2 Salts",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Solubility & Thermal Stability Trajectories of Group 2 Salts",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-7",
-   "label": "s Block Elements — Diagonal Relationships: $\\text{Li}-\\text{Mg}$ and $\\text{Be}-\\text{Al}$",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Diagonal Relationships: $\\text{Li}-\\text{Mg}$ and $\\text{Be}-\\text{Al}$",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-8",
-   "label": "s Block Elements — Industrial Compounds of Calcium",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Industrial Compounds of Calcium",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-9",
-   "label": "s Block Elements — Biological Roles of s-Block Cations",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — Biological Roles of s-Block Cations",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:37-s-block-elements-10",
-   "label": "s Block Elements — High-Yield JEE Problem Archetypes & Trap Logs",
+   "label": "s-Block Elements (Alkali and Alkaline Earth Metals) — High-Yield JEE Problem Archetypes & Trap Logs",
    "chapter": "s-block-elements",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-full",
-   "label": "Qualitative Cation Analysis",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-0",
-   "label": "Qualitative Cation Analysis — Introduction",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Introduction",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-1",
-   "label": "Qualitative Cation Analysis — Systematic Classification of Cations & Physicochemical Principles",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Systematic Classification of Cations & Physicochemical Principles",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-2",
-   "label": "Qualitative Cation Analysis — Group 0 Cation: Ammonium ($\\text{NH}_4^+$)",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Group 0 Cation: Ammonium ($\\text{NH}_4^+$)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-3",
-   "label": "Qualitative Cation Analysis — Group I Cations: $\\text{Ag}^+, \\text{Pb}^{2+}, \\text{Hg}_2^{2+}$ (Insoluble Chlorides)",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Group I Cations: $\\text{Ag}^+, \\text{Pb}^{2+}, \\text{Hg}_2^{2+}$ (Insoluble Chlorides)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-4",
-   "label": "Qualitative Cation Analysis — Group II Cations: Copper Group (IIA) & Arsenic Group (IIB)",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Group II Cations: Copper Group (IIA) & Arsenic Group (IIB)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-5",
-   "label": "Qualitative Cation Analysis — Group III Cations: $\\text{Fe}^{3+}, \\text{Al}^{3+}, \\text{Cr}^{3+}$ (Insoluble Hydroxides)",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Group III Cations: $\\text{Fe}^{3+}, \\text{Al}^{3+}, \\text{Cr}^{3+}$ (Insoluble Hydroxides)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-6",
-   "label": "Qualitative Cation Analysis — Group IV Cations: $\\text{Zn}^{2+}, \\text{Mn}^{2+}, \\text{Ni}^{2+}, \\text{Co}^{2+}$ (Insoluble Sulfides in Basic Medium)",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Group IV Cations: $\\text{Zn}^{2+}, \\text{Mn}^{2+}, \\text{Ni}^{2+}, \\text{Co}^{2+}$ (Insoluble Sulfides in Basic Medium)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-7",
-   "label": "Qualitative Cation Analysis — Group V Cations: $\\text{Ba}^{2+}, \\text{Sr}^{2+}, \\text{Ca}^{2+}$ (Insoluble Carbonates)",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Group V Cations: $\\text{Ba}^{2+}, \\text{Sr}^{2+}, \\text{Ca}^{2+}$ (Insoluble Carbonates)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-8",
-   "label": "Qualitative Cation Analysis — Group VI Cation: Magnesium ($\\text{Mg}^{2+}$)",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Group VI Cation: Magnesium ($\\text{Mg}^{2+}$)",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:38-qualitative-cation-analysis-9",
-   "label": "Qualitative Cation Analysis — Comprehensive Confirmatory Color Matrix & High-Yield JEE Traps",
+   "label": "Qualitative Cation Analysis (Basic Radicals & Systematic Inorganic Salt Analysis) — Comprehensive Confirmatory Color Matrix & High-Yield JEE Traps",
    "chapter": "qualitative-cation-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:39-qualitative-anion-analysis-full",
-   "label": "Qualitative Anion Analysis",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests)",
    "chapter": "qualitative-anion-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:39-qualitative-anion-analysis-0",
-   "label": "Qualitative Anion Analysis — Introduction",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests) — Introduction",
    "chapter": "qualitative-anion-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:39-qualitative-anion-analysis-1",
-   "label": "Qualitative Anion Analysis — Systematic Classification Architecture & Preliminary Dry Tests",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests) — Systematic Classification Architecture & Preliminary Dry Tests",
    "chapter": "qualitative-anion-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:39-qualitative-anion-analysis-2",
-   "label": "Qualitative Anion Analysis — Class A Anions: Dilute Mineral Acid Group",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests) — Class A Anions: Dilute Mineral Acid Group",
    "chapter": "qualitative-anion-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:39-qualitative-anion-analysis-3",
-   "label": "Qualitative Anion Analysis — Class B Anions: Concentrated Acid Group",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests) — Class B Anions: Concentrated Acid Group",
    "chapter": "qualitative-anion-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:39-qualitative-anion-analysis-4",
-   "label": "Qualitative Anion Analysis — Class C Anions: Special / Precipitation Group",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests) — Class C Anions: Special / Precipitation Group",
    "chapter": "qualitative-anion-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:39-qualitative-anion-analysis-5",
-   "label": "Qualitative Anion Analysis — Master Anion Confirmatory Matrix & High-Yield JEE Traps",
+   "label": "Qualitative Anion Analysis (Acidic Radicals & Wet/Dry Confirmatory Tests) — Master Anion Confirmatory Matrix & High-Yield JEE Traps",
    "chapter": "qualitative-anion-analysis",
    "topic": "inorganic-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-full",
-   "label": "Gaseous State and Real Gas Thermodynamics",
+   "label": "Gaseous State & Real Gas Thermodynamics",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-0",
-   "label": "Gaseous State and Real Gas Thermodynamics — Introduction",
+   "label": "Gaseous State & Real Gas Thermodynamics — Introduction",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-1",
-   "label": "Gaseous State and Real Gas Thermodynamics — Ideal Gas Laws & State Function Mechanics",
+   "label": "Gaseous State & Real Gas Thermodynamics — Ideal Gas Laws & State Function Mechanics",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-2",
-   "label": "Gaseous State and Real Gas Thermodynamics — Dalton's Law of Partial Pressures & Vapor Mixtures",
+   "label": "Gaseous State & Real Gas Thermodynamics — Dalton's Law of Partial Pressures & Vapor Mixtures",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-3",
-   "label": "Gaseous State and Real Gas Thermodynamics — Graham's Law of Diffusion & Effusion",
+   "label": "Gaseous State & Real Gas Thermodynamics — Graham's Law of Diffusion & Effusion",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-4",
-   "label": "Gaseous State and Real Gas Thermodynamics — Kinetic Theory of Gases (KTG) & Molecular Speeds",
+   "label": "Gaseous State & Real Gas Thermodynamics — Kinetic Theory of Gases (KTG) & Molecular Speeds",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-5",
-   "label": "Gaseous State and Real Gas Thermodynamics — The Maxwell-Boltzmann Distribution of Molecular Speeds",
+   "label": "Gaseous State & Real Gas Thermodynamics — The Maxwell-Boltzmann Distribution of Molecular Speeds",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-6",
-   "label": "Gaseous State and Real Gas Thermodynamics — Collision Parameters & Mean Free Path",
+   "label": "Gaseous State & Real Gas Thermodynamics — Collision Parameters & Mean Free Path",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-7",
-   "label": "Gaseous State and Real Gas Thermodynamics — Real Gases & The Van der Waals Equation",
+   "label": "Gaseous State & Real Gas Thermodynamics — Real Gases & The Van der Waals Equation",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-8",
-   "label": "Gaseous State and Real Gas Thermodynamics — The Virial Equation of State & Boyle Temperature",
+   "label": "Gaseous State & Real Gas Thermodynamics — The Virial Equation of State & Boyle Temperature",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-9",
-   "label": "Gaseous State and Real Gas Thermodynamics — Critical Phenomena & Liquefaction of Gases",
+   "label": "Gaseous State & Real Gas Thermodynamics — Critical Phenomena & Liquefaction of Gases",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:41-gaseous-state-and-real-gas-thermodynamics-10",
-   "label": "Gaseous State and Real Gas Thermodynamics — Comprehensive Master Summary Table & High-Yield JEE Traps",
+   "label": "Gaseous State & Real Gas Thermodynamics — Comprehensive Master Summary Table & High-Yield JEE Traps",
    "chapter": "gaseous-state-and-real-gas-thermodynamics",
    "topic": "physical-chemistry"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-full",
-   "label": "Ray Optics Questions Solutions and PYQs",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-0",
-   "label": "Ray Optics Questions Solutions and PYQs — Introduction",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Introduction",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-1",
-   "label": "Ray Optics Questions Solutions and PYQs — Executive Overview: Present vs. Absent Knowledge Gap Analysis",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Executive Overview: Present vs. Absent Knowledge Gap Analysis",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-2",
-   "label": "Ray Optics Questions Solutions and PYQs — Problem-Solving Visual Architecture & Archetypes",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Problem-Solving Visual Architecture & Archetypes",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-3",
-   "label": "Ray Optics Questions Solutions and PYQs — Plane Mirrors & Vector Kinematics",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Plane Mirrors & Vector Kinematics",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-4",
-   "label": "Ray Optics Questions Solutions and PYQs — Spherical Mirrors (Concave & Convex Optics)",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Spherical Mirrors (Concave & Convex Optics)",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-5",
-   "label": "Ray Optics Questions Solutions and PYQs — Refraction at Flat Interfaces, Composite Slabs & Total Internal Reflection (TIR)",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Refraction at Flat Interfaces, Composite Slabs & Total Internal Reflection (TIR)",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-6",
-   "label": "Ray Optics Questions Solutions and PYQs — Prisms, Limiting Geometries & Dispersion",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Prisms, Limiting Geometries & Dispersion",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-7",
-   "label": "Ray Optics Questions Solutions and PYQs — Curved Interfaces, Thin Lenses & Silvering Combinations",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Curved Interfaces, Thin Lenses & Silvering Combinations",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-8",
-   "label": "Ray Optics Questions Solutions and PYQs — Optical Instruments & Vision Correction",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Optical Instruments & Vision Correction",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-9",
-   "label": "Ray Optics Questions Solutions and PYQs — JEE Main / AIEEE Previous Year Questions (PYQs) with Step-by-Step Solutions",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — JEE Main / AIEEE Previous Year Questions (PYQs) with Step-by-Step Solutions",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-10",
-   "label": "Ray Optics Questions Solutions and PYQs — JEE Advanced / IIT-JEE Multimodal Problems with Analytical Solutions",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — JEE Advanced / IIT-JEE Multimodal Problems with Analytical Solutions",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-11",
-   "label": "Ray Optics Questions Solutions and PYQs — Diagnostic Problem-Solving Trap Sheet & Quick Decision Matrix",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Diagnostic Problem-Solving Trap Sheet & Quick Decision Matrix",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-questions-solutions-and-pyqs-12",
-   "label": "Ray Optics Questions Solutions and PYQs — Summary of Processed Resources & Continuity Verification",
+   "label": "Ray Optics Practice Bank: Questions, Solutions & JEE PYQs — Summary of Processed Resources & Continuity Verification",
    "chapter": "ray-optics-questions-solutions-and-pyqs",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-full",
-   "label": "Ray Optics and Optical Instruments",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics)",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-0",
-   "label": "Ray Optics and Optical Instruments — Introduction",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Introduction",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-1",
-   "label": "Ray Optics and Optical Instruments — Reflection at Plane Interfaces & Vector Kinematics",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Reflection at Plane Interfaces & Vector Kinematics",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-2",
-   "label": "Ray Optics and Optical Instruments — Spherical Mirrors (Concave & Convex)",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Spherical Mirrors (Concave & Convex)",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-3",
-   "label": "Ray Optics and Optical Instruments — Refraction at Flat Surfaces & Total Internal Reflection (TIR)",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Refraction at Flat Surfaces & Total Internal Reflection (TIR)",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-4",
-   "label": "Ray Optics and Optical Instruments — Refraction Through Prisms & Dispersion",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Refraction Through Prisms & Dispersion",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-5",
-   "label": "Ray Optics and Optical Instruments — Refraction at Spherical Surfaces & Thin Lenses",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Refraction at Spherical Surfaces & Thin Lenses",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-6",
-   "label": "Ray Optics and Optical Instruments — Optical Instruments",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Optical Instruments",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:43-ray-optics-and-optical-instruments-7",
-   "label": "Ray Optics and Optical Instruments — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Ray Optics & Optical Instruments (Geometrical Optics) — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "ray-optics-and-optical-instruments",
    "topic": "ray-optics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-full",
-   "label": "Fluid Mechanics Viscosity and Surface Tension",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-0",
-   "label": "Fluid Mechanics Viscosity and Surface Tension — Introduction",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension — Introduction",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-1",
-   "label": "Fluid Mechanics Viscosity and Surface Tension — Fluid Statics (Hydrostatics) & Pressure Dynamics",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension — Fluid Statics (Hydrostatics) & Pressure Dynamics",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-2",
-   "label": "Fluid Mechanics Viscosity and Surface Tension — Archimedes' Principle & Floatation Equilibrium",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension — Archimedes' Principle & Floatation Equilibrium",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-3",
-   "label": "Fluid Mechanics Viscosity and Surface Tension — Fluid Dynamics (Hydrodynamics) & Bernoulli's Principle",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension — Fluid Dynamics (Hydrodynamics) & Bernoulli's Principle",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-4",
-   "label": "Fluid Mechanics Viscosity and Surface Tension — Viscosity & Fluid Friction",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension — Viscosity & Fluid Friction",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-5",
-   "label": "Fluid Mechanics Viscosity and Surface Tension — Surface Tension & Capillarity",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension — Surface Tension & Capillarity",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:45-fluid-mechanics-viscosity-and-surface-tension-6",
-   "label": "Fluid Mechanics Viscosity and Surface Tension — Comprehensive Master Formulas & High-Yield Diagnostic Traps",
+   "label": "Fluid Mechanics, Viscosity & Surface Tension — Comprehensive Master Formulas & High-Yield Diagnostic Traps",
    "chapter": "fluid-mechanics-viscosity-and-surface-tension",
    "topic": "fluid-mechanics"
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-full",
-   "label": "Elasticity and Solid Mechanics",
+   "label": "Elasticity & Solid Mechanics",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-0",
-   "label": "Elasticity and Solid Mechanics — Introduction",
+   "label": "Elasticity & Solid Mechanics — Introduction",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-1",
-   "label": "Elasticity and Solid Mechanics — Fundamentals of Elasticity, Stress, & Strain",
+   "label": "Elasticity & Solid Mechanics — Fundamentals of Elasticity, Stress, & Strain",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-2",
-   "label": "Elasticity and Solid Mechanics — Hooke's Law & The Complete Engineering Stress-Strain Curve",
+   "label": "Elasticity & Solid Mechanics — Hooke's Law & The Complete Engineering Stress-Strain Curve",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-3",
-   "label": "Elasticity and Solid Mechanics — The Three Moduli of Elasticity & Interrelations",
+   "label": "Elasticity & Solid Mechanics — The Three Moduli of Elasticity & Interrelations",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-4",
-   "label": "Elasticity and Solid Mechanics — Longitudinal Elongations & Distributed Force Integrals",
+   "label": "Elasticity & Solid Mechanics — Longitudinal Elongations & Distributed Force Integrals",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-5",
-   "label": "Elasticity and Solid Mechanics — Elastic Potential Energy & Thermal Stress Mechanics",
+   "label": "Elasticity & Solid Mechanics — Elastic Potential Energy & Thermal Stress Mechanics",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-6",
-   "label": "Elasticity and Solid Mechanics — Structural Solid Mechanics: Bending of Beams & Torsion of Shafts",
+   "label": "Elasticity & Solid Mechanics — Structural Solid Mechanics: Bending of Beams & Torsion of Shafts",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:46-elasticity-and-solid-mechanics-7",
-   "label": "Elasticity and Solid Mechanics — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Elasticity & Solid Mechanics — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "elasticity-and-solid-mechanics",
    "topic": null
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-full",
-   "label": "Center of Mass Momentum Conservation and Collisions",
+   "label": "Center of Mass, Momentum Conservation & Collisions",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-0",
-   "label": "Center of Mass Momentum Conservation and Collisions — Introduction",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Introduction",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-1",
-   "label": "Center of Mass Momentum Conservation and Collisions — Fundamentals of Center of Mass (COM)",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Fundamentals of Center of Mass (COM)",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-2",
-   "label": "Center of Mass Momentum Conservation and Collisions — Continuous Rigid Bodies & Standard COM Coordinates",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Continuous Rigid Bodies & Standard COM Coordinates",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-3",
-   "label": "Center of Mass Momentum Conservation and Collisions — The Negative Mass Theorem & Bodies with Cut-Out Cavities",
+   "label": "Center of Mass, Momentum Conservation & Collisions — The Negative Mass Theorem & Bodies with Cut-Out Cavities",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-4",
-   "label": "Center of Mass Momentum Conservation and Collisions — Kinematics & Dynamics of Center of Mass",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Kinematics & Dynamics of Center of Mass",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-5",
-   "label": "Center of Mass Momentum Conservation and Collisions — Conservation of Linear Momentum & Relative Displacements",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Conservation of Linear Momentum & Relative Displacements",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-6",
-   "label": "Center of Mass Momentum Conservation and Collisions — The Center of Mass Frame (C-Frame) & König's Theorem",
+   "label": "Center of Mass, Momentum Conservation & Collisions — The Center of Mass Frame (C-Frame) & König's Theorem",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-7",
-   "label": "Center of Mass Momentum Conservation and Collisions — Impulse & Collision Dynamics",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Impulse & Collision Dynamics",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-8",
-   "label": "Center of Mass Momentum Conservation and Collisions — Variable Mass Systems & Rocket Propulsion",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Variable Mass Systems & Rocket Propulsion",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:47-center-of-mass-momentum-conservation-and-collisions-9",
-   "label": "Center of Mass Momentum Conservation and Collisions — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Center of Mass, Momentum Conservation & Collisions — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "center-of-mass-momentum-conservation-and-collisions",
    "topic": "centre-of-mass-momentum"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-full",
-   "label": "Rigid Body Dynamics and Rotational Mechanics",
+   "label": "Rigid Body Dynamics & Rotational Mechanics",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-0",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Introduction",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Introduction",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-1",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Rigid Body Kinematics & Angular Velocity Invariants",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Rigid Body Kinematics & Angular Velocity Invariants",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-2",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Moment of Inertia (Rotational Inertia $I$) & Theorems",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Moment of Inertia (Rotational Inertia $I$) & Theorems",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-3",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Torque, Rotational Dynamics, & Work-Energy Theorem",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Torque, Rotational Dynamics, & Work-Energy Theorem",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-4",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Angular Momentum ($\\vec{L}$) & Conservation Laws",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Angular Momentum ($\\vec{L}$) & Conservation Laws",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-5",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Combined Translational & Rotational Motion (CRTM) & Pure Rolling",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Combined Translational & Rotational Motion (CRTM) & Pure Rolling",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-6",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Pure Rolling on an Inclined Plane ($\\theta$)",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Pure Rolling on an Inclined Plane ($\\theta$)",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-7",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Toppling vs. Sliding Mechanics of Rigid Blocks",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Toppling vs. Sliding Mechanics of Rigid Blocks",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:48-rigid-body-dynamics-and-rotational-mechanics-8",
-   "label": "Rigid Body Dynamics and Rotational Mechanics — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Rigid Body Dynamics & Rotational Mechanics — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "rigid-body-dynamics-and-rotational-mechanics",
    "topic": "rotational-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-full",
-   "label": "Simple Harmonic Motion and Oscillations",
+   "label": "Simple Harmonic Motion & Oscillations",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-0",
-   "label": "Simple Harmonic Motion and Oscillations — Introduction",
+   "label": "Simple Harmonic Motion & Oscillations — Introduction",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-1",
-   "label": "Simple Harmonic Motion and Oscillations — Fundamentals of Simple Harmonic Motion (SHM)",
+   "label": "Simple Harmonic Motion & Oscillations — Fundamentals of Simple Harmonic Motion (SHM)",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-2",
-   "label": "Simple Harmonic Motion and Oscillations — Reference Circle Representation (Phasor Method)",
+   "label": "Simple Harmonic Motion & Oscillations — Reference Circle Representation (Phasor Method)",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-3",
-   "label": "Simple Harmonic Motion and Oscillations — Energetics of Simple Harmonic Motion",
+   "label": "Simple Harmonic Motion & Oscillations — Energetics of Simple Harmonic Motion",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-4",
-   "label": "Simple Harmonic Motion and Oscillations — Spring-Mass Networks & Systems",
+   "label": "Simple Harmonic Motion & Oscillations — Spring-Mass Networks & Systems",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-5",
-   "label": "Simple Harmonic Motion and Oscillations — Pendulum Dynamics",
+   "label": "Simple Harmonic Motion & Oscillations — Pendulum Dynamics",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-6",
-   "label": "Simple Harmonic Motion and Oscillations — Superposition of SHMs & Lissajous Figures",
+   "label": "Simple Harmonic Motion & Oscillations — Superposition of SHMs & Lissajous Figures",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-7",
-   "label": "Simple Harmonic Motion and Oscillations — Damped & Forced Oscillations, Resonance",
+   "label": "Simple Harmonic Motion & Oscillations — Damped & Forced Oscillations, Resonance",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:49-simple-harmonic-motion-and-oscillations-8",
-   "label": "Simple Harmonic Motion and Oscillations — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Simple Harmonic Motion & Oscillations — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "simple-harmonic-motion-and-oscillations",
    "topic": "simple-harmonic-motion"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-full",
-   "label": "Gravitation and Celestial Mechanics",
+   "label": "Gravitation & Celestial Mechanics",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-0",
-   "label": "Gravitation and Celestial Mechanics — Introduction",
+   "label": "Gravitation & Celestial Mechanics — Introduction",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-1",
-   "label": "Gravitation and Celestial Mechanics — Newton's Universal Law of Gravitation",
+   "label": "Gravitation & Celestial Mechanics — Newton's Universal Law of Gravitation",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-2",
-   "label": "Gravitation and Celestial Mechanics — Gravitational Field Intensity ($\\vec{E}_g$)",
+   "label": "Gravitation & Celestial Mechanics — Gravitational Field Intensity ($\\vec{E}_g$)",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-3",
-   "label": "Gravitation and Celestial Mechanics — Variations in Acceleration Due to Gravity ($g$)",
+   "label": "Gravitation & Celestial Mechanics — Variations in Acceleration Due to Gravity ($g$)",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-4",
-   "label": "Gravitation and Celestial Mechanics — Gravitational Potential Energy ($U$) & Self-Energy",
+   "label": "Gravitation & Celestial Mechanics — Gravitational Potential Energy ($U$) & Self-Energy",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-5",
-   "label": "Gravitation and Celestial Mechanics — Escape Speed ($v_e$)",
+   "label": "Gravitation & Celestial Mechanics — Escape Speed ($v_e$)",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-6",
-   "label": "Gravitation and Celestial Mechanics — Kepler's Three Laws of Planetary Motion",
+   "label": "Gravitation & Celestial Mechanics — Kepler's Three Laws of Planetary Motion",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-7",
-   "label": "Gravitation and Celestial Mechanics — Satellite Orbital Mechanics & Celestial Dynamics",
+   "label": "Gravitation & Celestial Mechanics — Satellite Orbital Mechanics & Celestial Dynamics",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:50-gravitation-and-celestial-mechanics-8",
-   "label": "Gravitation and Celestial Mechanics — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Gravitation & Celestial Mechanics — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "gravitation-and-celestial-mechanics",
    "topic": "gravitation"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-full",
-   "label": "Kinematics Rectilinear and Relative Motion",
+   "label": "Kinematics: Rectilinear & Relative Motion",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-0",
-   "label": "Kinematics Rectilinear and Relative Motion — Introduction",
+   "label": "Kinematics: Rectilinear & Relative Motion — Introduction",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-1",
-   "label": "Kinematics Rectilinear and Relative Motion — Fundamentals of Rectilinear Kinematics",
+   "label": "Kinematics: Rectilinear & Relative Motion — Fundamentals of Rectilinear Kinematics",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-2",
-   "label": "Kinematics Rectilinear and Relative Motion — Uniformly Accelerated Rectilinear Motion",
+   "label": "Kinematics: Rectilinear & Relative Motion — Uniformly Accelerated Rectilinear Motion",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-3",
-   "label": "Kinematics Rectilinear and Relative Motion — Calculus of Kinematics Graphs & Coordinate Transformations",
+   "label": "Kinematics: Rectilinear & Relative Motion — Calculus of Kinematics Graphs & Coordinate Transformations",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-4",
-   "label": "Kinematics Rectilinear and Relative Motion — Relative Motion Foundations (1D & 2D)",
+   "label": "Kinematics: Rectilinear & Relative Motion — Relative Motion Foundations (1D & 2D)",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-5",
-   "label": "Kinematics Rectilinear and Relative Motion — Regular Polygon Pursuit Dynamics",
+   "label": "Kinematics: Rectilinear & Relative Motion — Regular Polygon Pursuit Dynamics",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-6",
-   "label": "Kinematics Rectilinear and Relative Motion — Classic 2D Relative Motion Problems",
+   "label": "Kinematics: Rectilinear & Relative Motion — Classic 2D Relative Motion Problems",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:51-kinematics-rectilinear-and-relative-motion-7",
-   "label": "Kinematics Rectilinear and Relative Motion — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Kinematics: Rectilinear & Relative Motion — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "kinematics-rectilinear-and-relative-motion",
    "topic": "kinematics"
   },
   {
    "id": "rc:52-projectile-motion-and-inclined-plane-ballistics-full",
-   "label": "Projectile Motion and Inclined Plane Ballistics",
+   "label": "Projectile Motion & Inclined Plane Ballistics",
    "chapter": "projectile-motion-and-inclined-plane-ballistics",
    "topic": "kinematics"
   },
   {
    "id": "rc:52-projectile-motion-and-inclined-plane-ballistics-0",
-   "label": "Projectile Motion and Inclined Plane Ballistics — Introduction",
+   "label": "Projectile Motion & Inclined Plane Ballistics — Introduction",
    "chapter": "projectile-motion-and-inclined-plane-ballistics",
    "topic": "kinematics"
   },
   {
    "id": "rc:52-projectile-motion-and-inclined-plane-ballistics-1",
-   "label": "Projectile Motion and Inclined Plane Ballistics — Fundamentals of Oblique Ground-to-Ground Projectile Motion",
+   "label": "Projectile Motion & Inclined Plane Ballistics — Fundamentals of Oblique Ground-to-Ground Projectile Motion",
    "chapter": "projectile-motion-and-inclined-plane-ballistics",
    "topic": "kinematics"
   },
   {
    "id": "rc:52-projectile-motion-and-inclined-plane-ballistics-2",
-   "label": "Projectile Motion and Inclined Plane Ballistics — Complementary Angles & The Equation of Trajectory",
+   "label": "Projectile Motion & Inclined Plane Ballistics — Complementary Angles & The Equation of Trajectory",
    "chapter": "projectile-motion-and-inclined-plane-ballistics",
    "topic": "kinematics"
   },
   {
    "id": "rc:52-projectile-motion-and-inclined-plane-ballistics-3",
-   "label": "Projectile Motion and Inclined Plane Ballistics — Elevated Tower Projections & Radius of Curvature",
+   "label": "Projectile Motion & Inclined Plane Ballistics — Elevated Tower Projections & Radius of Curvature",
    "chapter": "projectile-motion-and-inclined-plane-ballistics",
    "topic": "kinematics"
   },
   {
    "id": "rc:52-projectile-motion-and-inclined-plane-ballistics-4",
-   "label": "Projectile Motion and Inclined Plane Ballistics — Projectile Motion on an Inclined Plane",
+   "label": "Projectile Motion & Inclined Plane Ballistics — Projectile Motion on an Inclined Plane",
    "chapter": "projectile-motion-and-inclined-plane-ballistics",
    "topic": "kinematics"
   },
   {
    "id": "rc:52-projectile-motion-and-inclined-plane-ballistics-5",
-   "label": "Projectile Motion and Inclined Plane Ballistics — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Projectile Motion & Inclined Plane Ballistics — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "projectile-motion-and-inclined-plane-ballistics",
    "topic": "kinematics"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-full",
-   "label": "Newtons Laws of Motion and Friction",
+   "label": "Newton's Laws of Motion & Friction",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-0",
-   "label": "Newtons Laws of Motion and Friction — Introduction",
+   "label": "Newton's Laws of Motion & Friction — Introduction",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-1",
-   "label": "Newtons Laws of Motion and Friction — Newton's Three Laws of Motion & Free Body Diagrams",
+   "label": "Newton's Laws of Motion & Friction — Newton's Three Laws of Motion & Free Body Diagrams",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-2",
-   "label": "Newtons Laws of Motion and Friction — Mechanical Constraint Equations & Pulley-Mass Systems",
+   "label": "Newton's Laws of Motion & Friction — Mechanical Constraint Equations & Pulley-Mass Systems",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-3",
-   "label": "Newtons Laws of Motion and Friction — Spring Dynamics & The Sudden Cut Principle",
+   "label": "Newton's Laws of Motion & Friction — Spring Dynamics & The Sudden Cut Principle",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-4",
-   "label": "Newtons Laws of Motion and Friction — Friction Mechanics: Static, Kinetic, & Angular Laws",
+   "label": "Newton's Laws of Motion & Friction — Friction Mechanics: Static, Kinetic, & Angular Laws",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-5",
-   "label": "Newtons Laws of Motion and Friction — Multi-Block Friction Dynamics (Two-Block Systems)",
+   "label": "Newton's Laws of Motion & Friction — Multi-Block Friction Dynamics (Two-Block Systems)",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:53-newtons-laws-of-motion-and-friction-6",
-   "label": "Newtons Laws of Motion and Friction — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Newton's Laws of Motion & Friction — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "newtons-laws-of-motion-and-friction",
    "topic": "newton-laws"
   },
   {
    "id": "rc:54-circular-motion-and-vertical-loop-dynamics-full",
-   "label": "Circular Motion and Vertical Loop Dynamics",
+   "label": "Circular Motion & Vertical Loop Dynamics",
    "chapter": "circular-motion-and-vertical-loop-dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:54-circular-motion-and-vertical-loop-dynamics-0",
-   "label": "Circular Motion and Vertical Loop Dynamics — Introduction",
+   "label": "Circular Motion & Vertical Loop Dynamics — Introduction",
    "chapter": "circular-motion-and-vertical-loop-dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:54-circular-motion-and-vertical-loop-dynamics-1",
-   "label": "Circular Motion and Vertical Loop Dynamics — Kinematics of Circular Motion",
+   "label": "Circular Motion & Vertical Loop Dynamics — Kinematics of Circular Motion",
    "chapter": "circular-motion-and-vertical-loop-dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:54-circular-motion-and-vertical-loop-dynamics-2",
-   "label": "Circular Motion and Vertical Loop Dynamics — Dynamics of Circular Motion & The Conical Pendulum",
+   "label": "Circular Motion & Vertical Loop Dynamics — Dynamics of Circular Motion & The Conical Pendulum",
    "chapter": "circular-motion-and-vertical-loop-dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:54-circular-motion-and-vertical-loop-dynamics-3",
-   "label": "Circular Motion and Vertical Loop Dynamics — Vehicle Turning Dynamics & Banking of Roads",
+   "label": "Circular Motion & Vertical Loop Dynamics — Vehicle Turning Dynamics & Banking of Roads",
    "chapter": "circular-motion-and-vertical-loop-dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:54-circular-motion-and-vertical-loop-dynamics-4",
-   "label": "Circular Motion and Vertical Loop Dynamics — Vertical Circular Motion (VCM)",
+   "label": "Circular Motion & Vertical Loop Dynamics — Vertical Circular Motion (VCM)",
    "chapter": "circular-motion-and-vertical-loop-dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:54-circular-motion-and-vertical-loop-dynamics-5",
-   "label": "Circular Motion and Vertical Loop Dynamics — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Circular Motion & Vertical Loop Dynamics — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "circular-motion-and-vertical-loop-dynamics",
    "topic": "circular-motion"
   },
   {
    "id": "rc:55-work-power-and-energy-full",
-   "label": "Work Power and Energy",
+   "label": "Work, Power, and Energy",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:55-work-power-and-energy-0",
-   "label": "Work Power and Energy — Introduction",
+   "label": "Work, Power, and Energy — Introduction",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:55-work-power-and-energy-1",
-   "label": "Work Power and Energy — Fundamentals of Mechanical Work: Calculus & Frame Dynamics",
+   "label": "Work, Power, and Energy — Fundamentals of Mechanical Work: Calculus & Frame Dynamics",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:55-work-power-and-energy-2",
-   "label": "Work Power and Energy — The Universal Work-Energy Theorem & Conservation Laws",
+   "label": "Work, Power, and Energy — The Universal Work-Energy Theorem & Conservation Laws",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:55-work-power-and-energy-3",
-   "label": "Work Power and Energy — Potential Energy Curves $U(x)$ & Equilibrium Stability",
+   "label": "Work, Power, and Energy — Potential Energy Curves $U(x)$ & Equilibrium Stability",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:55-work-power-and-energy-4",
-   "label": "Work Power and Energy — Mechanical Power Formulations & Constant Power Kinematics",
+   "label": "Work, Power, and Energy — Mechanical Power Formulations & Constant Power Kinematics",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:55-work-power-and-energy-5",
-   "label": "Work Power and Energy — Advanced Energy Applications: Chains & Conveyor Systems",
+   "label": "Work, Power, and Energy — Advanced Energy Applications: Chains & Conveyor Systems",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:55-work-power-and-energy-6",
-   "label": "Work Power and Energy — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Work, Power, and Energy — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "work-power-and-energy",
    "topic": "work-energy-power"
   },
   {
    "id": "rc:56-calorimetry-and-thermal-expansion-full",
-   "label": "Calorimetry and Thermal Expansion",
+   "label": "Calorimetry & Thermal Expansion",
    "chapter": "calorimetry-and-thermal-expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:56-calorimetry-and-thermal-expansion-0",
-   "label": "Calorimetry and Thermal Expansion — Introduction",
+   "label": "Calorimetry & Thermal Expansion — Introduction",
    "chapter": "calorimetry-and-thermal-expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:56-calorimetry-and-thermal-expansion-1",
-   "label": "Calorimetry and Thermal Expansion — Fundamentals of Heat, Specific Heat, & Calorimetry",
+   "label": "Calorimetry & Thermal Expansion — Fundamentals of Heat, Specific Heat, & Calorimetry",
    "chapter": "calorimetry-and-thermal-expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:56-calorimetry-and-thermal-expansion-2",
-   "label": "Calorimetry and Thermal Expansion — Microscopic Origin & Dimensional Thermal Expansion",
+   "label": "Calorimetry & Thermal Expansion — Microscopic Origin & Dimensional Thermal Expansion",
    "chapter": "calorimetry-and-thermal-expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:56-calorimetry-and-thermal-expansion-3",
-   "label": "Calorimetry and Thermal Expansion — Structural Mechanics of Thermal Expansion",
+   "label": "Calorimetry & Thermal Expansion — Structural Mechanics of Thermal Expansion",
    "chapter": "calorimetry-and-thermal-expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:56-calorimetry-and-thermal-expansion-4",
-   "label": "Calorimetry and Thermal Expansion — Liquid Expansion, Anomalous Water, & Instrument Errors",
+   "label": "Calorimetry & Thermal Expansion — Liquid Expansion, Anomalous Water, & Instrument Errors",
    "chapter": "calorimetry-and-thermal-expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:56-calorimetry-and-thermal-expansion-5",
-   "label": "Calorimetry and Thermal Expansion — Master Formula Sheet & High-Yield Diagnostic Traps",
+   "label": "Calorimetry & Thermal Expansion — Master Formula Sheet & High-Yield Diagnostic Traps",
    "chapter": "calorimetry-and-thermal-expansion",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-full",
-   "label": "Kinetic Theory of Gases and Thermodynamics",
+   "label": "Kinetic Theory of Gases & Thermodynamics",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-0",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Introduction",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Introduction",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-1",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Microscopic Foundations of Kinetic Theory of Gases & Pressure Derivation",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Microscopic Foundations of Kinetic Theory of Gases & Pressure Derivation",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-2",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Molecular Speed Distributions & Characteristic Velocities",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Molecular Speed Distributions & Characteristic Velocities",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-3",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Degrees of Freedom, Equipartition of Energy & Internal Energy",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Degrees of Freedom, Equipartition of Energy & Internal Energy",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-4",
-   "label": "Kinetic Theory of Gases and Thermodynamics — First Law of Thermodynamics & Indicator Diagram Calculus",
+   "label": "Kinetic Theory of Gases & Thermodynamics — First Law of Thermodynamics & Indicator Diagram Calculus",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-5",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Canonical Thermodynamic Processes: Quantitative Analytics",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Canonical Thermodynamic Processes: Quantitative Analytics",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-6",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Second Law of Thermodynamics, Heat Engines & Carnot Cycles",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Second Law of Thermodynamics, Heat Engines & Carnot Cycles",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-7",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Refrigerators, Heat Pumps & Entropy Analytics",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Refrigerators, Heat Pumps & Entropy Analytics",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:57-kinetic-theory-of-gases-and-thermodynamics-8",
-   "label": "Kinetic Theory of Gases and Thermodynamics — Comprehensive High-Yield JEE Traps & Advanced Problem Archetypes",
+   "label": "Kinetic Theory of Gases & Thermodynamics — Comprehensive High-Yield JEE Traps & Advanced Problem Archetypes",
    "chapter": "kinetic-theory-of-gases-and-thermodynamics",
    "topic": "thermodynamics"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-full",
-   "label": "Quadratic Equations and Polynomial Theory",
+   "label": "Quadratic Equations & Polynomial Theory",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-0",
-   "label": "Quadratic Equations and Polynomial Theory — Introduction",
+   "label": "Quadratic Equations & Polynomial Theory — Introduction",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-1",
-   "label": "Quadratic Equations and Polynomial Theory — Foundations of Polynomials, Quadratic Equations & Identities",
+   "label": "Quadratic Equations & Polynomial Theory — Foundations of Polynomials, Quadratic Equations & Identities",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-2",
-   "label": "Quadratic Equations and Polynomial Theory — Relation Between Roots and Coefficients (Vieta's Formulas) & Symmetric Functions",
+   "label": "Quadratic Equations & Polynomial Theory — Relation Between Roots and Coefficients (Vieta's Formulas) & Symmetric Functions",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-3",
-   "label": "Quadratic Equations and Polynomial Theory — Nature of Roots & The Discriminant ($D = b^2 - 4ac$)",
+   "label": "Quadratic Equations & Polynomial Theory — Nature of Roots & The Discriminant ($D = b^2 - 4ac$)",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-4",
-   "label": "Quadratic Equations and Polynomial Theory — Geometry and Graphs of Quadratic Functions",
+   "label": "Quadratic Equations & Polynomial Theory — Geometry and Graphs of Quadratic Functions",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-5",
-   "label": "Quadratic Equations and Polynomial Theory — Location of Roots (The 6 Canonical Geometric Regimes)",
+   "label": "Quadratic Equations & Polynomial Theory — Location of Roots (The 6 Canonical Geometric Regimes)",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-6",
-   "label": "Quadratic Equations and Polynomial Theory — Common Roots of Quadratic Equations",
+   "label": "Quadratic Equations & Polynomial Theory — Common Roots of Quadratic Equations",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-7",
-   "label": "Quadratic Equations and Polynomial Theory — Range of Rational Algebraic Functions",
+   "label": "Quadratic Equations & Polynomial Theory — Range of Rational Algebraic Functions",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-8",
-   "label": "Quadratic Equations and Polynomial Theory — Theory of Higher Degree Polynomial Equations",
+   "label": "Quadratic Equations & Polynomial Theory — Theory of Higher Degree Polynomial Equations",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-9",
-   "label": "Quadratic Equations and Polynomial Theory — Advanced Reducible Forms & Symmetric Equations",
+   "label": "Quadratic Equations & Polynomial Theory — Advanced Reducible Forms & Symmetric Equations",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:58-quadratic-equations-and-polynomial-theory-10",
-   "label": "Quadratic Equations and Polynomial Theory — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Quadratic Equations & Polynomial Theory — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "quadratic-equations-and-polynomial-theory",
    "topic": "quadratic-polynomial-theory"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-full",
-   "label": "Sequences Series and Progression Analytics",
+   "label": "Sequences, Series & Progression Analytics",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-0",
-   "label": "Sequences Series and Progression Analytics — Introduction",
+   "label": "Sequences, Series & Progression Analytics — Introduction",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-1",
-   "label": "Sequences Series and Progression Analytics — Foundations of Sequences, Series, and Progressions",
+   "label": "Sequences, Series & Progression Analytics — Foundations of Sequences, Series, and Progressions",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-2",
-   "label": "Sequences Series and Progression Analytics — Arithmetic Progression (A.P.)",
+   "label": "Sequences, Series & Progression Analytics — Arithmetic Progression (A.P.)",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-3",
-   "label": "Sequences Series and Progression Analytics — Geometric Progression (G.P.)",
+   "label": "Sequences, Series & Progression Analytics — Geometric Progression (G.P.)",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-4",
-   "label": "Sequences Series and Progression Analytics — Harmonic Progression (H.P.)",
+   "label": "Sequences, Series & Progression Analytics — Harmonic Progression (H.P.)",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-5",
-   "label": "Sequences Series and Progression Analytics — Mean Relations & Fundamental Inequalities ($A.M. \\ge G.M. \\ge H.M.$)",
+   "label": "Sequences, Series & Progression Analytics — Mean Relations & Fundamental Inequalities ($A.M. \\ge G.M. \\ge H.M.$)",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-6",
-   "label": "Sequences Series and Progression Analytics — Arithmetico-Geometric Progression (A.G.P.)",
+   "label": "Sequences, Series & Progression Analytics — Arithmetico-Geometric Progression (A.G.P.)",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-7",
-   "label": "Sequences Series and Progression Analytics — Method of Differences & Polynomial Generation",
+   "label": "Sequences, Series & Progression Analytics — Method of Differences & Polynomial Generation",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-8",
-   "label": "Sequences Series and Progression Analytics — Telescoping Series ($V_n - V_{n-1}$ / $V_n$ Method)",
+   "label": "Sequences, Series & Progression Analytics — Telescoping Series ($V_n - V_{n-1}$ / $V_n$ Method)",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-9",
-   "label": "Sequences Series and Progression Analytics — Standard Finite Summation Formulas ($\\Sigma$ Identities)",
+   "label": "Sequences, Series & Progression Analytics — Standard Finite Summation Formulas ($\\Sigma$ Identities)",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:59-sequences-series-and-progression-analytics-10",
-   "label": "Sequences Series and Progression Analytics — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Sequences, Series & Progression Analytics — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "sequences-series-and-progression-analytics",
    "topic": "sequences-series"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-full",
-   "label": "Permutations Combinations and Combinatorial Analytics",
+   "label": "Permutations, Combinations & Combinatorial Analytics",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-0",
-   "label": "Permutations Combinations and Combinatorial Analytics — Introduction",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Introduction",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-1",
-   "label": "Permutations Combinations and Combinatorial Analytics — Fundamental Principles of Counting",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Fundamental Principles of Counting",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-2",
-   "label": "Permutations Combinations and Combinatorial Analytics — Linear Permutations & Arrangement Constraints",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Linear Permutations & Arrangement Constraints",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-3",
-   "label": "Permutations Combinations and Combinatorial Analytics — Combinations & Combinatorial Identities",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Combinations & Combinatorial Identities",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-4",
-   "label": "Permutations Combinations and Combinatorial Analytics — Permutations of Multisets & Constrained Selections",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Permutations of Multisets & Constrained Selections",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-5",
-   "label": "Permutations Combinations and Combinatorial Analytics — Circular Permutations & Garland Symmetry",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Circular Permutations & Garland Symmetry",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-6",
-   "label": "Permutations Combinations and Combinatorial Analytics — Division and Distribution of Objects",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Division and Distribution of Objects",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-7",
-   "label": "Permutations Combinations and Combinatorial Analytics — Identical Object Distribution (Stars and Bars / Beggar's Method)",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Identical Object Distribution (Stars and Bars / Beggar's Method)",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-8",
-   "label": "Permutations Combinations and Combinatorial Analytics — Number Theory Divisor Analytics & Legendre's Formula",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Number Theory Divisor Analytics & Legendre's Formula",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-9",
-   "label": "Permutations Combinations and Combinatorial Analytics — Principle of Inclusion-Exclusion (PIE) & Derangements",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Principle of Inclusion-Exclusion (PIE) & Derangements",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-10",
-   "label": "Permutations Combinations and Combinatorial Analytics — Geometric Combinatorics & Grid Analytics",
+   "label": "Permutations, Combinations & Combinatorial Analytics — Geometric Combinatorics & Grid Analytics",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:60-permutations-combinations-and-combinatorial-analytics-11",
-   "label": "Permutations Combinations and Combinatorial Analytics — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Permutations, Combinations & Combinatorial Analytics — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "permutations-combinations-and-combinatorial-analytics",
    "topic": "permutations-combinations"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-full",
-   "label": "Binomial Theorem and Multinomial Expansions",
+   "label": "Binomial Theorem & Multinomial Expansions",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-0",
-   "label": "Binomial Theorem and Multinomial Expansions — Introduction",
+   "label": "Binomial Theorem & Multinomial Expansions — Introduction",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-1",
-   "label": "Binomial Theorem and Multinomial Expansions — Binomial Theorem for Positive Integral Index ($n \\in \\mathbb{N}$)",
+   "label": "Binomial Theorem & Multinomial Expansions — Binomial Theorem for Positive Integral Index ($n \\in \\mathbb{N}$)",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-2",
-   "label": "Binomial Theorem and Multinomial Expansions — Numerically Greatest Term (NGT)",
+   "label": "Binomial Theorem & Multinomial Expansions — Numerically Greatest Term (NGT)",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-3",
-   "label": "Binomial Theorem and Multinomial Expansions — Arithmetic Applications: Divisibility, Remainders & Last Digits",
+   "label": "Binomial Theorem & Multinomial Expansions — Arithmetic Applications: Divisibility, Remainders & Last Digits",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-4",
-   "label": "Binomial Theorem and Multinomial Expansions — Binomial Coefficient Series: Calculus & Algebraic Techniques",
+   "label": "Binomial Theorem & Multinomial Expansions — Binomial Coefficient Series: Calculus & Algebraic Techniques",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-5",
-   "label": "Binomial Theorem and Multinomial Expansions — Binomial Theorem for Any Index (Negative or Fractional $n \\in \\mathbb{Q}$)",
+   "label": "Binomial Theorem & Multinomial Expansions — Binomial Theorem for Any Index (Negative or Fractional $n \\in \\mathbb{Q}$)",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-6",
-   "label": "Binomial Theorem and Multinomial Expansions — The Multinomial Theorem",
+   "label": "Binomial Theorem & Multinomial Expansions — The Multinomial Theorem",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:61-binomial-theorem-and-multinomial-expansions-7",
-   "label": "Binomial Theorem and Multinomial Expansions — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Binomial Theorem & Multinomial Expansions — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "binomial-theorem-and-multinomial-expansions",
    "topic": "binomial-theorem"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-full",
-   "label": "Straight Lines and 2D Coordinate Geometry",
+   "label": "Straight Lines & 2D Coordinate Geometry",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-0",
-   "label": "Straight Lines and 2D Coordinate Geometry — Introduction",
+   "label": "Straight Lines & 2D Coordinate Geometry — Introduction",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-1",
-   "label": "Straight Lines and 2D Coordinate Geometry — Foundations of Cartesian Coordinates & Point Analytics",
+   "label": "Straight Lines & 2D Coordinate Geometry — Foundations of Cartesian Coordinates & Point Analytics",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-2",
-   "label": "Straight Lines and 2D Coordinate Geometry — Standard Forms of Straight Lines & Parametric Systems",
+   "label": "Straight Lines & 2D Coordinate Geometry — Standard Forms of Straight Lines & Parametric Systems",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-3",
-   "label": "Straight Lines and 2D Coordinate Geometry — Angle Between Lines & Parallel/Perpendicular Criteria",
+   "label": "Straight Lines & 2D Coordinate Geometry — Angle Between Lines & Parallel/Perpendicular Criteria",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-4",
-   "label": "Straight Lines and 2D Coordinate Geometry — Position of Points & Distance Geometry",
+   "label": "Straight Lines & 2D Coordinate Geometry — Position of Points & Distance Geometry",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-5",
-   "label": "Straight Lines and 2D Coordinate Geometry — Foot of Perpendicular & Optical Reflection (Image of a Point)",
+   "label": "Straight Lines & 2D Coordinate Geometry — Foot of Perpendicular & Optical Reflection (Image of a Point)",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-6",
-   "label": "Straight Lines and 2D Coordinate Geometry — Family of Straight Lines & Concurrency",
+   "label": "Straight Lines & 2D Coordinate Geometry — Family of Straight Lines & Concurrency",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-7",
-   "label": "Straight Lines and 2D Coordinate Geometry — Angle Bisectors of Two Lines",
+   "label": "Straight Lines & 2D Coordinate Geometry — Angle Bisectors of Two Lines",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-8",
-   "label": "Straight Lines and 2D Coordinate Geometry — Pair of Straight Lines & Homogenization Technique",
+   "label": "Straight Lines & 2D Coordinate Geometry — Pair of Straight Lines & Homogenization Technique",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:62-straight-lines-and-2d-coordinate-geometry-9",
-   "label": "Straight Lines and 2D Coordinate Geometry — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Straight Lines & 2D Coordinate Geometry — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "straight-lines-and-2d-coordinate-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-full",
-   "label": "Circles and Concyclic Geometry",
+   "label": "Circles & Concyclic Geometry",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-0",
-   "label": "Circles and Concyclic Geometry — Introduction",
+   "label": "Circles & Concyclic Geometry — Introduction",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-1",
-   "label": "Circles and Concyclic Geometry — Standard Equations of a Circle & Structural Classifications",
+   "label": "Circles & Concyclic Geometry — Standard Equations of a Circle & Structural Classifications",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-2",
-   "label": "Circles and Concyclic Geometry — Intercepts Cut on Coordinate Axes",
+   "label": "Circles & Concyclic Geometry — Intercepts Cut on Coordinate Axes",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-3",
-   "label": "Circles and Concyclic Geometry — Position of a Point & Power of a Point",
+   "label": "Circles & Concyclic Geometry — Position of a Point & Power of a Point",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-4",
-   "label": "Circles and Concyclic Geometry — Line and Circle: Secants, Chords & Tangents",
+   "label": "Circles & Concyclic Geometry — Line and Circle: Secants, Chords & Tangents",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-5",
-   "label": "Circles and Concyclic Geometry — Pair of Tangents, Chord of Contact & Director Circle",
+   "label": "Circles & Concyclic Geometry — Pair of Tangents, Chord of Contact & Director Circle",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-6",
-   "label": "Circles and Concyclic Geometry — Relative Positions of Two Circles & Common Tangents",
+   "label": "Circles & Concyclic Geometry — Relative Positions of Two Circles & Common Tangents",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-7",
-   "label": "Circles and Concyclic Geometry — Orthogonality of Two Circles",
+   "label": "Circles & Concyclic Geometry — Orthogonality of Two Circles",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-8",
-   "label": "Circles and Concyclic Geometry — Radical Axis & Radical Center",
+   "label": "Circles & Concyclic Geometry — Radical Axis & Radical Center",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-9",
-   "label": "Circles and Concyclic Geometry — Family of Circles",
+   "label": "Circles & Concyclic Geometry — Family of Circles",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:63-circles-and-concyclic-geometry-10",
-   "label": "Circles and Concyclic Geometry — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Circles & Concyclic Geometry — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "circles-and-concyclic-geometry",
    "topic": "coordinate-geometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-full",
-   "label": "Trigonometric Ratios Functions and Analytical Equations",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-0",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Introduction",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Introduction",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-1",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Angle Measurement Systems & Fundamental Identities",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Angle Measurement Systems & Fundamental Identities",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-2",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Allied Angles & Quadrant System (ASTC Rule)",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Allied Angles & Quadrant System (ASTC Rule)",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-3",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Compound Angle Formulas & Transformation Identities",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Compound Angle Formulas & Transformation Identities",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-4",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Multiple & Sub-Multiple Angles",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Multiple & Sub-Multiple Angles",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-5",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Conditional Identities in a Triangle ($A + B + C = \\pi$)",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Conditional Identities in a Triangle ($A + B + C = \\pi$)",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-6",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Trigonometric Series Summations",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Trigonometric Series Summations",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-7",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Boundedness & Extreme Values of Trigonometric Expressions",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Boundedness & Extreme Values of Trigonometric Expressions",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-8",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — Trigonometric Equations & General Solutions",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — Trigonometric Equations & General Solutions",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:64-trigonometric-ratios-functions-and-analytical-equations-9",
-   "label": "Trigonometric Ratios Functions and Analytical Equations — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Trigonometric Ratios, Functions & Analytical Equations — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "trigonometric-ratios-functions-and-analytical-equations",
    "topic": "trigonometry"
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-full",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-0",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — Introduction",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — Introduction",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-1",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — Unified Conic Section Definition & Classification",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — Unified Conic Section Definition & Classification",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-2",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — The Parabola ($e = 1$)",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — The Parabola ($e = 1$)",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-3",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — The Ellipse ($0 < e < 1$)",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — The Ellipse ($0 < e < 1$)",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-4",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — The Hyperbola ($e > 1$)",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — The Hyperbola ($e > 1$)",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-5",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — Unified Tangent & Normal Formulations",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — Unified Tangent & Normal Formulations",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-6",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — Optical & Reflection Properties of Conics",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — Optical & Reflection Properties of Conics",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:65-conic-sections-parabola-ellipse-and-hyperbola-7",
-   "label": "Conic Sections Parabola Ellipse and Hyperbola — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Conic Sections: Parabola, Ellipse & Hyperbola — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "conic-sections-parabola-ellipse-and-hyperbola",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-full",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-0",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Introduction",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Introduction",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-1",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — The Mole Concept & Fundamental Quantitative Foundations",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — The Mole Concept & Fundamental Quantitative Foundations",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-2",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Empirical & Molecular Formulas & Minimum Molecular Weight",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Empirical & Molecular Formulas & Minimum Molecular Weight",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-3",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Stoichiometry, Limiting Reagent & Reaction Efficiency",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Stoichiometry, Limiting Reagent & Reaction Efficiency",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-4",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Principle of Atom Conservation (POAC) & Sequential Reactions",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Principle of Atom Conservation (POAC) & Sequential Reactions",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-5",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Oxidation Numbers & Exceptional Molecular Structures",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Oxidation Numbers & Exceptional Molecular Structures",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-6",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Balancing Redox Reactions: Ion-Electron Method",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Balancing Redox Reactions: Ion-Electron Method",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-7",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Solution Concentration Terms & Interconversions",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Solution Concentration Terms & Interconversions",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-8",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — Equivalent Weight, $n$-factor & The Law of Equivalence",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — Equivalent Weight, $n$-factor & The Law of Equivalence",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:66-mole-concept-stoichiometry-and-redox-equivalence-9",
-   "label": "Mole Concept Stoichiometry and Redox Equivalence — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Mole Concept, Stoichiometry & Redox Equivalence — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "mole-concept-stoichiometry-and-redox-equivalence",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-full",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-0",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Introduction",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Introduction",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-1",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Classical Atomic Models & Nuclear Sizing",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Classical Atomic Models & Nuclear Sizing",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-2",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Quantum Theory of Radiation & Photoelectric Effect",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Quantum Theory of Radiation & Photoelectric Effect",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-3",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Bohr Atomic Model for Monoelectronic Species",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Bohr Atomic Model for Monoelectronic Species",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-4",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Hydrogen Emission Spectrum & Rydberg Mechanics",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Hydrogen Emission Spectrum & Rydberg Mechanics",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-5",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Wave-Particle Duality & Heisenberg Uncertainty",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Wave-Particle Duality & Heisenberg Uncertainty",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-6",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Schrödinger Wave Mechanical Model & Nodal Topology",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Schrödinger Wave Mechanical Model & Nodal Topology",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-7",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Quantum Numbers & Electronic Configuration",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Quantum Numbers & Electronic Configuration",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-8",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — Nuclear Chemistry & Radioactive Decay Kinetics",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — Nuclear Chemistry & Radioactive Decay Kinetics",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:67-atomic-structure-quantum-mechanics-and-nuclear-chemistry-9",
-   "label": "Atomic Structure Quantum Mechanics and Nuclear Chemistry — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Atomic Structure, Quantum Mechanics & Nuclear Chemistry — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "atomic-structure-quantum-mechanics-and-nuclear-chemistry",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-full",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-0",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Introduction",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Introduction",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-1",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Genesis of Periodic Classification & Modern Periodic Law",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Genesis of Periodic Classification & Modern Periodic Law",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-2",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Shielding Effect & Effective Nuclear Charge ($Z_{\\text{eff}}$)",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Shielding Effect & Effective Nuclear Charge ($Z_{\\text{eff}}$)",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-3",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Atomic & Ionic Radii: Periodic Gradients & Anomalies",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Atomic & Ionic Radii: Periodic Gradients & Anomalies",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-4",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Ionization Enthalpy ($\\Delta_i H$ / IE)",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Ionization Enthalpy ($\\Delta_i H$ / IE)",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-5",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Electron Gain Enthalpy ($\\Delta_{        ext{eg}} H$ / EA)",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Electron Gain Enthalpy ($\\Delta_{        ext{eg}} H$ / EA)",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-6",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Electronegativity (EN) Scales & Bond Polarity",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Electronegativity (EN) Scales & Bond Polarity",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-7",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — The Inert Pair Effect & Oxidation State Stability",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — The Inert Pair Effect & Oxidation State Stability",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-8",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — Periodicity of Oxides & Diagonal Relationships",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — Periodicity of Oxides & Diagonal Relationships",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:68-periodic-properties-electronic-structure-and-chemical-periodicity-9",
-   "label": "Periodic Properties Electronic Structure and Chemical Periodicity — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Periodic Properties, Electronic Structure & Chemical Periodicity — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "periodic-properties-electronic-structure-and-chemical-periodicity",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-full",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-0",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Introduction",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — Introduction",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-1",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Deviations from Ideality & Compressibility Factor ($Z$)",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — Deviations from Ideality & Compressibility Factor ($Z$)",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-2",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — The van der Waals Equation of State",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — The van der Waals Equation of State",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-3",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Limiting Regimes of the van der Waals Equation",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — Limiting Regimes of the van der Waals Equation",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-4",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Critical State & Andrews Isotherms of $        ext{CO}_2$",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — Critical State & Andrews Isotherms of $        ext{CO}_2$",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-5",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — Boyle's Temperature ($T_B$) & Inversion Temperature ($T_i$)",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — Boyle's Temperature ($T_B$) & Inversion Temperature ($T_i$)",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-6",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — The Virial Equation of State",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — The Virial Equation of State",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-7",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — The Law of Corresponding States",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — The Law of Corresponding States",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:70-real-gases-liquefaction-and-non-ideal-state-thermodynamics-8",
-   "label": "Real Gases Liquefaction and Non Ideal State Thermodynamics — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Real Gases, Liquefaction & Non-Ideal State Thermodynamics — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "real-gases-liquefaction-and-non-ideal-state-thermodynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-full",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-0",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Introduction",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Introduction",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-1",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Acid-Base Paradigms & Conjugate Pairs",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Acid-Base Paradigms & Conjugate Pairs",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-2",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Water Autoprotolysis, Temperature Dependence & The pH Scale",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Water Autoprotolysis, Temperature Dependence & The pH Scale",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-3",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Strong Acid/Base Equilibria & The Extreme Dilution Paradox",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Strong Acid/Base Equilibria & The Extreme Dilution Paradox",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-4",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Ostwald's Dilution Law for Weak Electrolytes",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Ostwald's Dilution Law for Weak Electrolytes",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-5",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Salt Hydrolysis Thermodynamics & Exact pH Formulations",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Salt Hydrolysis Thermodynamics & Exact pH Formulations",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-6",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Buffer Solutions & Henderson-Hasselbalch Mechanics",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Buffer Solutions & Henderson-Hasselbalch Mechanics",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-7",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Solubility ($s$), Solubility Product ($K_{sp}$) & Precipitation",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Solubility ($s$), Solubility Product ($K_{sp}$) & Precipitation",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-8",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — Acid-Base Neutralization Titrations & Indicators",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — Acid-Base Neutralization Titrations & Indicators",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:71-ionic-equilibrium-hydrolysis-and-solubility-dynamics-9",
-   "label": "Ionic Equilibrium Hydrolysis and Solubility Dynamics — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Ionic Equilibrium, Hydrolysis & Solubility Dynamics — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "ionic-equilibrium-hydrolysis-and-solubility-dynamics",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-full",
-   "label": "Thermodynamics and Thermochemistry",
+   "label": "Thermodynamics & Thermochemistry",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-0",
-   "label": "Thermodynamics and Thermochemistry — Introduction",
+   "label": "Thermodynamics & Thermochemistry — Introduction",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-1",
-   "label": "Thermodynamics and Thermochemistry — Thermodynamic Fundamentals & The First Law (FLOT)",
+   "label": "Thermodynamics & Thermochemistry — Thermodynamic Fundamentals & The First Law (FLOT)",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-2",
-   "label": "Thermodynamics and Thermochemistry — Enthalpy, Heat Capacities & Adiabatic Transformations",
+   "label": "Thermodynamics & Thermochemistry — Enthalpy, Heat Capacities & Adiabatic Transformations",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-3",
-   "label": "Thermodynamics and Thermochemistry — Second Law of Thermodynamics (SLOT) & Entropy ($\\Delta S$)",
+   "label": "Thermodynamics & Thermochemistry — Second Law of Thermodynamics (SLOT) & Entropy ($\\Delta S$)",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-4",
-   "label": "Thermodynamics and Thermochemistry — Gibbs Free Energy ($G$) & Chemical Spontaneity",
+   "label": "Thermodynamics & Thermochemistry — Gibbs Free Energy ($G$) & Chemical Spontaneity",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-5",
-   "label": "Thermodynamics and Thermochemistry — Third Law of Thermodynamics (TLOT)",
+   "label": "Thermodynamics & Thermochemistry — Third Law of Thermodynamics (TLOT)",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-6",
-   "label": "Thermodynamics and Thermochemistry — Thermochemistry & Reaction Enthalpy Laws",
+   "label": "Thermodynamics & Thermochemistry — Thermochemistry & Reaction Enthalpy Laws",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:72-thermodynamics-and-thermochemistry-7",
-   "label": "Thermodynamics and Thermochemistry — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Thermodynamics & Thermochemistry — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "thermodynamics-and-thermochemistry",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-full",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-0",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Introduction",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Introduction",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-1",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Dynamic Equilibrium & The Law of Mass Action",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Dynamic Equilibrium & The Law of Mass Action",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-2",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Equilibrium Constants: $K_c$, $K_p$, and $K_x$",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Equilibrium Constants: $K_c$, $K_p$, and $K_x$",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-3",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Algebraic Rules & Invariance of Equilibrium Constants",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Algebraic Rules & Invariance of Equilibrium Constants",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-4",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Reaction Quotient ($Q$) & Spontaneity Direction",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Reaction Quotient ($Q$) & Spontaneity Direction",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-5",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Degree of Dissociation ($ lpha$) & Vapor Density Analytics",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Degree of Dissociation ($ lpha$) & Vapor Density Analytics",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-6",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Heterogeneous & Simultaneous Equilibria",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Heterogeneous & Simultaneous Equilibria",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-7",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Le Chatelier's Principle & Perturbation Responses",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Le Chatelier's Principle & Perturbation Responses",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-8",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — Vapor Pressure & Relative Humidity Mechanics",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — Vapor Pressure & Relative Humidity Mechanics",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:73-chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems-9",
-   "label": "Chemical Equilibrium Le Chatelier Dynamics and Heterogeneous Systems — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "Chemical Equilibrium, Le Chatelier Dynamics & Heterogeneous Systems — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "chemical-equilibrium-le-chatelier-dynamics-and-heterogeneous-systems",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-full",
-   "label": "IUPAC Nomenclature and Structural Isomerism",
+   "label": "IUPAC Nomenclature & Structural Isomerism",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-0",
-   "label": "IUPAC Nomenclature and Structural Isomerism — Introduction",
+   "label": "IUPAC Nomenclature & Structural Isomerism — Introduction",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-1",
-   "label": "IUPAC Nomenclature and Structural Isomerism — Fundamentals of Organic Chemistry & Degree of Unsaturation",
+   "label": "IUPAC Nomenclature & Structural Isomerism — Fundamentals of Organic Chemistry & Degree of Unsaturation",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-2",
-   "label": "IUPAC Nomenclature and Structural Isomerism — IUPAC Systematic Nomenclature Architecture",
+   "label": "IUPAC Nomenclature & Structural Isomerism — IUPAC Systematic Nomenclature Architecture",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-3",
-   "label": "IUPAC Nomenclature and Structural Isomerism — Parent Chain Selection & Numbering Rules",
+   "label": "IUPAC Nomenclature & Structural Isomerism — Parent Chain Selection & Numbering Rules",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-4",
-   "label": "IUPAC Nomenclature and Structural Isomerism — Principal Functional Group Seniority Hierarchy",
+   "label": "IUPAC Nomenclature & Structural Isomerism — Principal Functional Group Seniority Hierarchy",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-5",
-   "label": "IUPAC Nomenclature and Structural Isomerism — Alicyclic, Bicyclo & Spiro Nomenclature",
+   "label": "IUPAC Nomenclature & Structural Isomerism — Alicyclic, Bicyclo & Spiro Nomenclature",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-6",
-   "label": "IUPAC Nomenclature and Structural Isomerism — Structural Isomerism Taxonomy",
+   "label": "IUPAC Nomenclature & Structural Isomerism — Structural Isomerism Taxonomy",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-7",
-   "label": "IUPAC Nomenclature and Structural Isomerism — Tautomerism Dynamics & Enol Content Optimization",
+   "label": "IUPAC Nomenclature & Structural Isomerism — Tautomerism Dynamics & Enol Content Optimization",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:74-iupac-nomenclature-and-structural-isomerism-8",
-   "label": "IUPAC Nomenclature and Structural Isomerism — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "IUPAC Nomenclature & Structural Isomerism — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "iupac-nomenclature-and-structural-isomerism",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-full",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-0",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Introduction",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — Introduction",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-1",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Electronic Displacement Effects & The Inductive Effect ($I$)",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — Electronic Displacement Effects & The Inductive Effect ($I$)",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-2",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Resonance Theory & Mesomeric Effect ($M$)",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — Resonance Theory & Mesomeric Effect ($M$)",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-3",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Hyperconjugation (Baker-Nathan Effect)",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — Hyperconjugation (Baker-Nathan Effect)",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-4",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Aromaticity, Antiaromaticity & Hückel's Rule",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — Aromaticity, Antiaromaticity & Hückel's Rule",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-5",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Reactive Intermediates & Rearrangements",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — Reactive Intermediates & Rearrangements",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-6",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — Acidity & Basicity Mechanics in Organic Systems",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — Acidity & Basicity Mechanics in Organic Systems",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:75-general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates-7",
-   "label": "General Organic Chemistry GOC I Electronic Effects Aromaticity and Intermediates — High-Yield JEE Traps & Problem-Solving Pitfalls",
+   "label": "General Organic Chemistry (GOC-I): Electronic Effects, Aromaticity & Reactive Intermediates — High-Yield JEE Traps & Problem-Solving Pitfalls",
    "chapter": "general-organic-chemistry-goc-i-electronic-effects-aromaticity-and-intermediates",
    "topic": null
   },
   {
    "id": "rc:76-p-block-elements-boron-and-carbon-families-full",
-   "label": "p Block Elements Boron and Carbon Families",
+   "label": "p-Block Elements: Boron and Carbon Families (Groups 13 & 14)",
    "chapter": "p-block-elements-boron-and-carbon-families",
    "topic": null
   },
   {
    "id": "rc:76-p-block-elements-boron-and-carbon-families-0",
-   "label": "p Block Elements Boron and Carbon Families — Introduction",
+   "label": "p-Block Elements: Boron and Carbon Families (Groups 13 & 14) — Introduction",
    "chapter": "p-block-elements-boron-and-carbon-families",
    "topic": null
   },
   {
    "id": "rc:77-s-block-elements-alkali-and-alkaline-earth-metals-full",
-   "label": "s Block Elements Alkali and Alkaline Earth Metals",
+   "label": "s-Block Elements: Alkali & Alkaline Earth Metals (Groups 1 & 2)",
    "chapter": "s-block-elements-alkali-and-alkaline-earth-metals",
    "topic": null
   },
   {
    "id": "rc:77-s-block-elements-alkali-and-alkaline-earth-metals-0",
-   "label": "s Block Elements Alkali and Alkaline Earth Metals — Introduction",
+   "label": "s-Block Elements: Alkali & Alkaline Earth Metals (Groups 1 & 2) — Introduction",
    "chapter": "s-block-elements-alkali-and-alkaline-earth-metals",
    "topic": null
   },
   {
    "id": "rc:78-solution-of-triangle-and-trigonometric-geometry-full",
-   "label": "Solution of Triangle and Trigonometric Geometry",
+   "label": "Solution of Triangle & Trigonometric Geometry",
    "chapter": "solution-of-triangle-and-trigonometric-geometry",
    "topic": null
   },
   {
    "id": "rc:78-solution-of-triangle-and-trigonometric-geometry-0",
-   "label": "Solution of Triangle and Trigonometric Geometry — Introduction",
+   "label": "Solution of Triangle & Trigonometric Geometry — Introduction",
    "chapter": "solution-of-triangle-and-trigonometric-geometry",
    "topic": null
   },
   {
    "id": "rc:79-mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension-full",
-   "label": "Mechanical Properties of Matter Elasticity Viscosity and Surface Tension",
+   "label": "Mechanical Properties of Matter: Elasticity, Viscosity & Surface Tension",
    "chapter": "mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension",
    "topic": null
   },
   {
    "id": "rc:79-mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension-0",
-   "label": "Mechanical Properties of Matter Elasticity Viscosity and Surface Tension — Introduction",
+   "label": "Mechanical Properties of Matter: Elasticity, Viscosity & Surface Tension — Introduction",
    "chapter": "mechanical-properties-of-matter-elasticity-viscosity-and-surface-tension",
    "topic": null
   },
   {
    "id": "rc:80-wave-motion-string-waves-and-sound-waves-full",
-   "label": "Wave Motion String Waves and Sound Waves",
+   "label": "Wave Motion: String Waves & Sound Waves",
    "chapter": "wave-motion-string-waves-and-sound-waves",
    "topic": null
   },
   {
    "id": "rc:80-wave-motion-string-waves-and-sound-waves-0",
-   "label": "Wave Motion String Waves and Sound Waves — Introduction",
+   "label": "Wave Motion: String Waves & Sound Waves — Introduction",
    "chapter": "wave-motion-string-waves-and-sound-waves",
    "topic": null
   },
   {
    "id": "rc:81-errors-in-measurement-and-measuring-instruments-full",
-   "label": "Topic / Scenario",
+   "label": "Errors in Measurement, Significant Figures & Measuring Instruments",
    "chapter": "errors-in-measurement-and-measuring-instruments",
    "topic": null
   },
   {
    "id": "rc:81-errors-in-measurement-and-measuring-instruments-0",
-   "label": "Topic / Scenario — Introduction",
+   "label": "Errors in Measurement, Significant Figures & Measuring Instruments — Introduction",
    "chapter": "errors-in-measurement-and-measuring-instruments",
    "topic": null
   },
   {
    "id": "rc:82-mathematical-reasoning-and-boolean-logic-full",
-   "label": "Concept / Archetype",
+   "label": "Mathematical Reasoning & Boolean Propositional Logic",
    "chapter": "mathematical-reasoning-and-boolean-logic",
    "topic": null
   },
   {
    "id": "rc:82-mathematical-reasoning-and-boolean-logic-0",
-   "label": "Concept / Archetype — Introduction",
+   "label": "Mathematical Reasoning & Boolean Propositional Logic — Introduction",
    "chapter": "mathematical-reasoning-and-boolean-logic",
    "topic": null
   },
   {
    "id": "rc:83-statistics-measures-of-central-tendency-and-dispersion-full",
-   "label": "Topic / Scenario",
+   "label": "Statistics: Measures of Central Tendency & Dispersion",
    "chapter": "statistics-measures-of-central-tendency-and-dispersion",
    "topic": null
   },
   {
    "id": "rc:83-statistics-measures-of-central-tendency-and-dispersion-0",
-   "label": "Topic / Scenario — Introduction",
+   "label": "Statistics: Measures of Central Tendency & Dispersion — Introduction",
    "chapter": "statistics-measures-of-central-tendency-and-dispersion",
    "topic": null
   },
   {
    "id": "rc:84-environmental-chemistry-full",
-   "label": "Topic / Scenario",
+   "label": "Environmental Chemistry",
    "chapter": "environmental-chemistry",
    "topic": null
   },
   {
    "id": "rc:84-environmental-chemistry-0",
-   "label": "Topic / Scenario — Introduction",
+   "label": "Environmental Chemistry — Introduction",
    "chapter": "environmental-chemistry",
    "topic": null
   },
   {
    "id": "rc:85-structural-identification-and-practical-organic-chemistry-full",
-   "label": "Concept / Scenario",
+   "label": "Structural Identification & Practical Organic Chemistry (POC)",
    "chapter": "structural-identification-and-practical-organic-chemistry",
    "topic": null
   },
   {
    "id": "rc:85-structural-identification-and-practical-organic-chemistry-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Structural Identification & Practical Organic Chemistry (POC) — Introduction",
    "chapter": "structural-identification-and-practical-organic-chemistry",
    "topic": null
   },
   {
    "id": "rc:86-electrostatics-field-potential-gauss-law-and-conductors-full",
-   "label": "Concept / Scenario",
+   "label": "Electrostatics: Electric Charges, Fields, Potential, Dipoles, Gauss's Law & Conductors",
    "chapter": "electrostatics-field-potential-gauss-law-and-conductors",
    "topic": null
   },
   {
    "id": "rc:86-electrostatics-field-potential-gauss-law-and-conductors-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Electrostatics: Electric Charges, Fields, Potential, Dipoles, Gauss's Law & Conductors — Introduction",
    "chapter": "electrostatics-field-potential-gauss-law-and-conductors",
    "topic": null
   },
   {
    "id": "rc:87-capacitance-dielectrics-and-rc-circuits-full",
-   "label": "Concept / Scenario",
+   "label": "Capacitance, Dielectrics & Transient RC Circuits",
    "chapter": "capacitance-dielectrics-and-rc-circuits",
    "topic": null
   },
   {
    "id": "rc:87-capacitance-dielectrics-and-rc-circuits-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Capacitance, Dielectrics & Transient RC Circuits — Introduction",
    "chapter": "capacitance-dielectrics-and-rc-circuits",
    "topic": null
   },
   {
    "id": "rc:88-current-electricity-kirchhoff-laws-and-measuring-instruments-full",
-   "label": "Concept / Scenario",
+   "label": "Current Electricity: Microscopic Conduction, Kirchhoff's Laws & Measuring Instruments",
    "chapter": "current-electricity-kirchhoff-laws-and-measuring-instruments",
    "topic": null
   },
   {
    "id": "rc:88-current-electricity-kirchhoff-laws-and-measuring-instruments-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Current Electricity: Microscopic Conduction, Kirchhoff's Laws & Measuring Instruments — Introduction",
    "chapter": "current-electricity-kirchhoff-laws-and-measuring-instruments",
    "topic": null
   },
   {
    "id": "rc:90-electromagnetic-induction-and-eddy-currents-full",
-   "label": "Concept / Scenario",
+   "label": "Electromagnetic Induction & Eddy Currents",
    "chapter": "electromagnetic-induction-and-eddy-currents",
    "topic": null
   },
   {
    "id": "rc:90-electromagnetic-induction-and-eddy-currents-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Electromagnetic Induction & Eddy Currents — Introduction",
    "chapter": "electromagnetic-induction-and-eddy-currents",
    "topic": null
   },
   {
    "id": "rc:91-alternating-current-lcr-circuits-and-power-analysis-full",
-   "label": "Concept / Scenario",
+   "label": "Alternating Current, LCR Circuits & Power Analysis",
    "chapter": "alternating-current-lcr-circuits-and-power-analysis",
    "topic": null
   },
   {
    "id": "rc:91-alternating-current-lcr-circuits-and-power-analysis-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Alternating Current, LCR Circuits & Power Analysis — Introduction",
    "chapter": "alternating-current-lcr-circuits-and-power-analysis",
    "topic": null
   },
   {
    "id": "rc:92-electromagnetic-waves-displacement-current-and-radiation-pressure-full",
-   "label": "Concept / Scenario",
+   "label": "Electromagnetic Waves, Displacement Current & Radiation Pressure",
    "chapter": "electromagnetic-waves-displacement-current-and-radiation-pressure",
    "topic": null
   },
   {
    "id": "rc:92-electromagnetic-waves-displacement-current-and-radiation-pressure-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Electromagnetic Waves, Displacement Current & Radiation Pressure — Introduction",
    "chapter": "electromagnetic-waves-displacement-current-and-radiation-pressure",
    "topic": null
   },
   {
    "id": "rc:93-geometrical-optics-refraction-lenses-and-optical-instruments-full",
-   "label": "Concept / Scenario",
+   "label": "Geometrical Optics, Refraction, Lenses & Optical Instruments",
    "chapter": "geometrical-optics-refraction-lenses-and-optical-instruments",
    "topic": null
   },
   {
    "id": "rc:93-geometrical-optics-refraction-lenses-and-optical-instruments-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Geometrical Optics, Refraction, Lenses & Optical Instruments — Introduction",
    "chapter": "geometrical-optics-refraction-lenses-and-optical-instruments",
    "topic": null
   },
   {
    "id": "rc:94-wave-optics-interference-diffraction-and-polarization-full",
-   "label": "Concept / Scenario",
+   "label": "Wave Optics, Interference, Diffraction & Polarization",
    "chapter": "wave-optics-interference-diffraction-and-polarization",
    "topic": null
   },
   {
    "id": "rc:94-wave-optics-interference-diffraction-and-polarization-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Wave Optics, Interference, Diffraction & Polarization — Introduction",
    "chapter": "wave-optics-interference-diffraction-and-polarization",
    "topic": null
   },
   {
    "id": "rc:95-modern-physics-photoelectric-effect-atomic-structure-and-x-rays-full",
-   "label": "Concept / Scenario",
+   "label": "Modern Physics: Photoelectric Effect, Atomic Structure & X-Rays",
    "chapter": "modern-physics-photoelectric-effect-atomic-structure-and-x-rays",
    "topic": null
   },
   {
    "id": "rc:95-modern-physics-photoelectric-effect-atomic-structure-and-x-rays-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Modern Physics: Photoelectric Effect, Atomic Structure & X-Rays — Introduction",
    "chapter": "modern-physics-photoelectric-effect-atomic-structure-and-x-rays",
    "topic": null
   },
   {
    "id": "rc:96-nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions-full",
-   "label": "Concept / Scenario",
+   "label": "Nuclear Physics: Binding Energy, Radioactivity & Nuclear Reactions",
    "chapter": "nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions",
    "topic": null
   },
   {
    "id": "rc:96-nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Nuclear Physics: Binding Energy, Radioactivity & Nuclear Reactions — Introduction",
    "chapter": "nuclear-physics-binding-energy-radioactivity-and-nuclear-reactions",
    "topic": null
   },
   {
    "id": "rc:97-semiconductor-devices-diodes-transistors-and-logic-gates-full",
-   "label": "Concept / Scenario",
+   "label": "Semiconductor Devices, Diodes, Transistors & Logic Gates",
    "chapter": "semiconductor-devices-diodes-transistors-and-logic-gates",
    "topic": null
   },
   {
    "id": "rc:97-semiconductor-devices-diodes-transistors-and-logic-gates-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Semiconductor Devices, Diodes, Transistors & Logic Gates — Introduction",
    "chapter": "semiconductor-devices-diodes-transistors-and-logic-gates",
    "topic": null
   },
   {
    "id": "rc:98-principles-of-communication-systems-modulation-and-wave-propagation-full",
-   "label": "Concept / Scenario",
+   "label": "Principles of Communication Systems, Modulation & Wave Propagation",
    "chapter": "principles-of-communication-systems-modulation-and-wave-propagation",
    "topic": null
   },
   {
    "id": "rc:98-principles-of-communication-systems-modulation-and-wave-propagation-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Principles of Communication Systems, Modulation & Wave Propagation — Introduction",
    "chapter": "principles-of-communication-systems-modulation-and-wave-propagation",
    "topic": null
   },
   {
    "id": "rc:99-errors-in-measurement-significant-figures-and-experimental-instruments-full",
-   "label": "Concept / Scenario",
+   "label": "Errors in Measurement, Significant Figures & Experimental Instruments",
    "chapter": "errors-in-measurement-significant-figures-and-experimental-instruments",
    "topic": null
   },
   {
    "id": "rc:99-errors-in-measurement-significant-figures-and-experimental-instruments-0",
-   "label": "Concept / Scenario — Introduction",
+   "label": "Errors in Measurement, Significant Figures & Experimental Instruments — Introduction",
    "chapter": "errors-in-measurement-significant-figures-and-experimental-instruments",
    "topic": null
   },
@@ -15229,6 +15244,12 @@
    "label": "Physics Dual Nature of Matter and Radiation — Introduction",
    "chapter": "physics-dual-nature-of-matter-and-radiation",
    "topic": "photoelectric-modern-physics"
+  },
+  {
+   "id": "rc:chemistry-complete-full",
+   "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "chapter": "chemistry-complete",
+   "topic": null
   },
   {
    "id": "rc:chemistry-complete-0",
@@ -15258,6 +15279,12 @@
    "id": "rc:chemistry-complete-4",
    "label": "Chemistry Gyaan Sutra: Complete Formula & Theory Revision Compendium — Organic Chemistry Core",
    "chapter": "chemistry-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:maths-complete-full",
+   "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "chapter": "maths-complete",
    "topic": null
   },
   {
@@ -15318,6 +15345,12 @@
    "id": "rc:maths-complete-9",
    "label": "Mathematics Gyaan Sutra: Complete Formula & Theory Revision Compendium — Trigonometry, Solution of Triangles & Statistics",
    "chapter": "maths-complete",
+   "topic": null
+  },
+  {
+   "id": "rc:physics-complete-full",
+   "label": "Physics Gyaan Sutra: Complete Formula & Theory Revision Compendium",
+   "chapter": "physics-complete",
    "topic": null
   },
   {
